@@ -1,3 +1,4 @@
+- [Xmake](https://xmake.io)
 - [Sponsor](https://xmake.io/#/about/sponsor.md)
 - [Feedback](https://github.com/xmake-io/xmake/issues)
 - [Community](https://www.reddit.com/r/xmake/)
