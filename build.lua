@@ -232,7 +232,7 @@ function build_mirror_files()
 end
 
 -- write package
-function write_package(file, pkg, plat)
+function write_package(file, pkg, plat, archs)
     local name = pkg:name()
     local homepage = pkg:get("homepage")
     local license = pkg:get("license")
@@ -248,6 +248,7 @@ function write_package(file, pkg, plat)
         file:print("| License | %s |", license)
     end
     file:print("| Versions | %s |", table.concat(versions, ", "))
+    file:print("| Architectures | %s |", table.concat(archs, ", "))
     file:print("| Github | [%s/xmake.lua](%s) |", name, xmakefile)
     file:print("")
     file:print("##### Install command")
@@ -316,7 +317,7 @@ function build_packages()
         for _, key in ipairs(keys) do
             file:print("## %s", key)
             for _, pkg in ipairs(list[key]) do
-                write_package(file, pkg.instance, plat)
+                write_package(file, pkg.instance, plat, pkg.archs)
             end
             file:print("")
         end
