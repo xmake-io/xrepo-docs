@@ -1,4 +1,10 @@
 - Packages
-
-  - [a](packages/a.md)
-
+  - [msys](packages/msys.md)
+  - [android](packages/android.md)
+  - [bsd](packages/bsd.md)
+  - [iphoneos](packages/iphoneos.md)
+  - [macosx](packages/macosx.md)
+  - [mingw](packages/mingw.md)
+  - [cross](packages/cross.md)
+  - [linux](packages/linux.md)
+  - [windows](packages/windows.md)

@@ -1,3 +1,6 @@
+-- imports
+import("devel.git")
+
 function mtime(file)
     return os.date("%Y-%m-%dT%H:%M:%S+08:00", os.mtime(file))
 end
@@ -145,7 +148,7 @@ end
 --
 -- Or use showdown-cli https://github.com/showdownjs/showdown
 --
-function main()
+function build_mirror_files()
     local siteroot = "https://xrepo.xmake.io"
     local mirrordir = "mirror"
     local sitemap = io.open("sitemap.xml", 'w')
@@ -228,4 +231,102 @@ function main()
     sitemap:close()
 end
 
+-- write package
+function write_package(file, pkg, plat)
+    local name = pkg:name()
+    local homepage = pkg:get("homepage")
+    local license = pkg:get("license")
+    local versions = pkg:versions()
+    local xmakefile = ("https://github.com/xmake-io/xmake-repo/blob/master/packages/%s/%s/xmake.lua"):format(name:sub(1, 1), name)
+    file:print("### %s (%s)", name, plat)
+    file:print("")
+    file:print("")
+    file:print("| Description | *%s* |", pkg:description())
+    file:print("| -- | -- |")
+    file:print("| Homepage | [%s](%s) |", homepage, homepage)
+    if license then
+        file:print("| License | %s |", license)
+    end
+    file:print("| Versions | %s |", table.concat(versions, ", "))
+    file:print("| Github | [%s/xmake.lua](%s) |", name, xmakefile)
+    file:print("")
+    file:print("##### Install command")
+    file:print("")
+    file:print("```console")
+    if plat == "android" then
+        file:print("xrepo install -p android [--ndk=/xxx] %s", name)
+    elseif plat == "mingw" then
+        file:print("xrepo install -p mingw [--mingw=/xxx] %s", name)
+    elseif plat == "iphoneos" then
+        file:print("xrepo install -p iphoneos %s", name)
+    elseif plat == "cross" then
+        file:print("xrepo install -p cross [--sdk=/xxx] %s", name)
+    else
+        file:print("xrepo install %s", name)
+    end
+    file:print("```")
+    file:print("")
+    file:print("##### Integration in the project (xmake.lua)")
+    file:print("")
+    file:print("```lua")
+    file:print("add_requires(\"%s\")", name)
+    file:print("```")
+    file:print("")
+    file:print("")
+end
+
+-- build packages
+function build_packages()
+    -- clone xmake-repo
+    local url = "https://github.com/xmake-io/xmake-repo"
+    local repodir = path.join(os.tmpdir(), "xrepo-docs", "xmake-repo")
+    print("clone %s => %s", url, repodir)
+    os.tryrm(repodir)
+    git.clone(url, {depth = 1, outputdir = repodir})
+
+    -- load packages
+    os.cd(repodir)
+    local packages = import("scripts.packages", {rootdir = repodir, anonymous = true})()
+    os.cd("-")
+
+    -- generate _sidebar.md
+    print("generate _sidebar.md")
+    local sidebar = io.open("_sidebar.md", "w")
+    sidebar:print("- Packages")
+    for plat, pkgs in pairs(packages) do
+        sidebar:print("  - [%s](packages/%s.md)", plat, plat)
+    end
+    sidebar:close()
+
+    -- generate packages/*.md
+    print("generate packages/*.md")
+    local plats = table.keys(packages)
+    table.sort(plats)
+    for _, plat in ipairs(plats) do
+        local pkgs = packages[plat]
+        local list = {}
+        for _, pkg in ipairs(pkgs) do
+            local key = pkg.name:sub(1, 1)
+            list[key] = list[key] or {}
+            table.insert(list[key], pkg)
+        end
+        local keys = table.keys(list)
+        table.sort(keys)
+        local file = io.open(path.join("packages", plat .. ".md"), "w")
+        for _, key in ipairs(keys) do
+            file:print("## %s", key)
+            for _, pkg in ipairs(list[key]) do
+                write_package(file, pkg.instance, plat)
+            end
+            file:print("")
+        end
+        file:close()
+    end
+end
+
+-- main entry
+function main()
+    build_packages()
+    build_mirror_files()
+end
 

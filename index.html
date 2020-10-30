@@ -47,20 +47,21 @@
         '/(?!zh-cn).*/_navbar.md': '/_navbar.md',
         '/(?!zh-cn).*/_sidebar.md': '/_sidebar.md',
         '/zh-cn/.*/_navbar.md': '/zh-cn/_navbar.md',
-        '/zh-cn/.*/_sidebar.md': '/zh-cn/_sidebar.md',
+        '/zh-cn/_sidebar.md': '/_sidebar.md',
       },
       search: {
         maxAge: 86400000,
-        paths: 'auto',
+        paths: '/packages',
         placeholder: {
-          '/zh-cn/': '搜索',
-          '/': 'Type to search'
+          '/zh-cn/': '搜索包',
+          '/': 'Type to search package'
         },
         noData: {
           '/zh-cn/': '找不到结果',
           '/': 'No Results'
         },
         depth: 6,
+        namespace: 'xrepo.xmake.io',
         hideOtherSidebarContent: false
       },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
