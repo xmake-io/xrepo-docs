@@ -28,7 +28,7 @@ add_requires("autoconf")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
-| Versions | 1.9.5, 1.16.1, 1.9.6, 1.15.1 |
+| Versions | 1.9.5, 1.15.1, 1.9.6, 1.16.1 |
 | Architectures | i386, x86_64 |
 | Github | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
@@ -218,7 +218,7 @@ add_requires("cxxopts")
 | Description | *The fastest feature-rich C++11/14/17/20 single-header testing framework for unit tests and TDD* |
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
-| Versions | 2.3.6, 2.3.1 |
+| Versions | 2.3.1, 2.3.6 |
 | Architectures | i386, x86_64 |
 | Github | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
@@ -339,7 +339,7 @@ add_requires("gtest")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.79, v1.75 |
+| Versions | v1.75, v1.79 |
 | Architectures | i386, x86_64 |
 | Github | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -410,7 +410,7 @@ add_requires("irrXML")
 | Description | *A widely used C library for reading and writing JPEG image files.* |
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
-| Versions | v9c, v9b |
+| Versions | v9b, v9c |
 | Architectures | i386, x86_64 |
 | Github | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
@@ -594,7 +594,7 @@ add_requires("libtool")
 | Description | *A multi-platform support library with a focus on asynchronous I/O.* |
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
-| Versions | v1.24.0, v1.23.2, v1.23.1, v1.28.0, v1.27.0, v1.26.0, v1.25.0, v1.22.0, v1.24.1, v1.23.0 |
+| Versions | v1.24.0, v1.23.2, v1.23.1, v1.28.0, v1.27.0, v1.26.0, v1.22.0, v1.25.0, v1.23.0, v1.24.1 |
 | Architectures | i386, x86_64 |
 | Github | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -970,7 +970,7 @@ add_requires("sfml")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | 1.3.1, 1.5.0, 1.4.2, 1.8.0 |
+| Versions | 1.8.0, 1.3.1, 1.5.0, 1.4.2 |
 | Architectures | i386, x86_64 |
 | Github | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
@@ -1018,7 +1018,7 @@ add_requires("stb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [http://www.tboox.org](http://www.tboox.org) |
-| Versions | v1.6.5, v1.6.2, v1.6.4, v1.6.3 |
+| Versions | v1.6.5, v1.6.3, v1.6.4, v1.6.2 |
 | Architectures | i386, x86_64 |
 | Github | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
@@ -1139,7 +1139,7 @@ add_requires("yasm")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
-| Versions | 1.2.11, 1.2.10 |
+| Versions | 1.2.10, 1.2.11 |
 | Architectures | i386, x86_64 |
 | Github | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 

@@ -74,7 +74,7 @@ add_requires("autoconf")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
-| Versions | 1.9.5, 1.16.1, 1.9.6, 1.15.1 |
+| Versions | 1.9.5, 1.15.1, 1.9.6, 1.16.1 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
@@ -122,7 +122,7 @@ add_requires("bin2c")
 | Description | *Collection of portable C++ source libraries.* |
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
-| Versions | 1.72.0, 1.73.0, 1.70.0 |
+| Versions | 1.73.0, 1.72.0, 1.70.0 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
@@ -402,7 +402,7 @@ add_requires("cxxopts")
 | Description | *The fastest feature-rich C++11/14/17/20 single-header testing framework for unit tests and TDD* |
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
-| Versions | 2.3.6, 2.3.1 |
+| Versions | 2.3.1, 2.3.6 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
@@ -801,7 +801,7 @@ add_requires("icu4c")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.79, v1.75 |
+| Versions | v1.75, v1.79 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -1012,7 +1012,7 @@ add_requires("libiconv")
 | Description | *A widely used C library for reading and writing JPEG image files.* |
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
-| Versions | v9c, v9b |
+| Versions | v9b, v9c |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
@@ -1035,7 +1035,7 @@ add_requires("libjpeg")
 | Description | *Go-style concurrency in C* |
 | -- | -- |
 | Homepage | [http://libmill.org](http://libmill.org) |
-| Versions | 1.18, 1.17 |
+| Versions | 1.17, 1.18 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [libmill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmill/xmake.lua) |
 
@@ -1081,7 +1081,7 @@ add_requires("libomp")
 | Description | *The official PNG reference library* |
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
-| Versions | v1.6.36, v1.6.35, v1.6.34 |
+| Versions | v1.6.36, v1.6.34, v1.6.35 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -1380,7 +1380,7 @@ add_requires("libusb")
 | Description | *A multi-platform support library with a focus on asynchronous I/O.* |
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
-| Versions | v1.24.0, v1.23.2, v1.23.1, v1.28.0, v1.27.0, v1.26.0, v1.25.0, v1.22.0, v1.24.1, v1.23.0 |
+| Versions | v1.24.0, v1.23.2, v1.23.1, v1.28.0, v1.27.0, v1.26.0, v1.22.0, v1.25.0, v1.23.0, v1.24.1 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -1886,7 +1886,7 @@ add_requires("lief")
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
-| Versions | 5.1.5, 5.2.4, 5.3.5 |
+| Versions | 5.3.5, 5.2.4, 5.1.5 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
@@ -2097,7 +2097,7 @@ add_requires("mysql")
 | Description | *A modern C++ GUI library.* |
 | -- | -- |
 | Homepage | [http://nanapro.org](http://nanapro.org) |
-| Versions | 1.7.2, 1.6.2, 1.7.4 |
+| Versions | 1.7.2, 1.7.4, 1.6.2 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [nana/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nana/xmake.lua) |
 
@@ -2260,7 +2260,7 @@ add_requires("opencv")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
-| Versions | 1.0.2, 1.0.0, 1.1.1 |
+| Versions | 1.1.1, 1.0.0, 1.0.2 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
@@ -2609,7 +2609,7 @@ add_requires("sol2")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | 1.3.1, 1.5.0, 1.4.2, 1.8.0 |
+| Versions | 1.8.0, 1.3.1, 1.5.0, 1.4.2 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
@@ -2632,7 +2632,7 @@ add_requires("spdlog")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.24.0, 3.23.0 |
+| Versions | 3.23.0, 3.24.0 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -2680,7 +2680,7 @@ add_requires("stb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [http://www.tboox.org](http://www.tboox.org) |
-| Versions | v1.6.5, v1.6.2, v1.6.4, v1.6.3 |
+| Versions | v1.6.5, v1.6.3, v1.6.4, v1.6.2 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
@@ -3010,7 +3010,7 @@ add_requires("zeromq")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
-| Versions | 1.2.11, 1.2.10 |
+| Versions | 1.2.10, 1.2.11 |
 | Architectures | i386, x86_64, armv7, armv7s, arm64-v8a, mips, mips64, mipsel, mips64el |
 | Github | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 

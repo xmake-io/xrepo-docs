@@ -294,15 +294,15 @@ function build_packages()
     print("generate _sidebar.md")
     local sidebar = io.open("_sidebar.md", "w")
     sidebar:print("- Packages")
-    for plat, pkgs in pairs(packages) do
+    local plats = table.keys(packages)
+    table.sort(plats)
+    for _, plat in ipairs(plats) do
         sidebar:print("  - [%s](packages/%s.md)", plat, plat)
     end
     sidebar:close()
 
     -- generate packages/*.md
     print("generate packages/*.md")
-    local plats = table.keys(packages)
-    table.sort(plats)
     for _, plat in ipairs(plats) do
         local pkgs = packages[plat]
         local list = {}
