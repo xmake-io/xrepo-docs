@@ -5,9 +5,9 @@
 | Description | *An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
-| Versions | 2.69, 2.68 |
+| Versions | 2.68, 2.69 |
 | Architectures | i386, x86_64 |
-| Github | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
+| Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
 ##### Install command
 
@@ -28,9 +28,9 @@ add_requires("autoconf")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
-| Versions | 1.9.5, 1.15.1, 1.9.6, 1.16.1 |
+| Versions | 1.16.1, 1.9.5, 1.15.1, 1.9.6 |
 | Architectures | i386, x86_64 |
-| Github | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
+| Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
 ##### Install command
 
@@ -55,7 +55,7 @@ add_requires("automake")
 | Homepage | [https://github.com/gwilymk/bin2c](https://github.com/gwilymk/bin2c) |
 | Versions | 0.0.1 |
 | Architectures | i386, x86_64 |
-| Github | [bin2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bin2c/xmake.lua) |
+| Definition | [bin2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bin2c/xmake.lua) |
 
 ##### Install command
 
@@ -80,7 +80,7 @@ add_requires("bin2c")
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | Versions | 2.9.2 |
 | Architectures | i386, x86_64 |
-| Github | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
+| Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
 ##### Install command
 
@@ -101,9 +101,9 @@ add_requires("catch2")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4 |
+| Versions | 3.15.4, 3.11.4 |
 | Architectures | i386, x86_64 |
-| Github | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
+| Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
 ##### Install command
 
@@ -126,7 +126,7 @@ add_requires("cmake")
 | Homepage | [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) |
 | Versions |  |
 | Architectures | i386, x86_64 |
-| Github | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
+| Definition | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
 
 ##### Install command
 
@@ -149,7 +149,7 @@ add_requires("concurrentqueue")
 | Homepage | [https://cpp-taskflow.github.io/](https://cpp-taskflow.github.io/) |
 | Versions | 2.2.0 |
 | Architectures | i386, x86_64 |
-| Github | [cpp-taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-taskflow/xmake.lua) |
+| Definition | [cpp-taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-taskflow/xmake.lua) |
 
 ##### Install command
 
@@ -172,7 +172,7 @@ add_requires("cpp-taskflow")
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
 | Versions | v2.2.0 |
 | Architectures | i386, x86_64 |
-| Github | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
+| Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
 ##### Install command
 
@@ -197,7 +197,7 @@ add_requires("cxxopts")
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
 | Versions | 2.3.1, 2.3.6 |
 | Architectures | i386, x86_64 |
-| Github | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
+| Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
 ##### Install command
 
@@ -220,9 +220,9 @@ add_requires("doctest")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
-| Versions | 6.2.0, 6.0.0, 5.3.0 |
+| Versions | 6.2.0, 5.3.0, 6.0.0 |
 | Architectures | i386, x86_64 |
-| Github | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
+| Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
 ##### Install command
 
@@ -247,7 +247,7 @@ add_requires("fmt")
 | Homepage | [https://github.com/google/googletest](https://github.com/google/googletest) |
 | Versions | 1.8.1 |
 | Architectures | i386, x86_64 |
-| Github | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
+| Definition | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
 
 ##### Install command
 
@@ -272,7 +272,7 @@ add_requires("gtest")
 | Homepage | [https://pantor.github.io/inja/](https://pantor.github.io/inja/) |
 | Versions | v2.1.0 |
 | Architectures | i386, x86_64 |
-| Github | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
+| Definition | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
 
 ##### Install command
 
@@ -295,7 +295,7 @@ add_requires("inja")
 | Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
 | Versions | 1.2 |
 | Architectures | i386, x86_64 |
-| Github | [irrXML/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrXML/xmake.lua) |
+| Definition | [irrXML/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrXML/xmake.lua) |
 
 ##### Install command
 
@@ -318,9 +318,9 @@ add_requires("irrXML")
 | Description | *A widely used C library for reading and writing JPEG image files.* |
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
-| Versions | v9b, v9c |
+| Versions | v9c, v9b |
 | Architectures | i386, x86_64 |
-| Github | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
+| Definition | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
 ##### Install command
 
@@ -343,7 +343,7 @@ add_requires("libjpeg")
 | Homepage | [https://www.gnu.org/software/libtool/](https://www.gnu.org/software/libtool/) |
 | Versions | 2.4.5, 2.4.6 |
 | Architectures | i386, x86_64 |
-| Github | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
+| Definition | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
 
 ##### Install command
 
@@ -364,9 +364,9 @@ add_requires("libtool")
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
-| Versions | 5.3.5, 5.2.4, 5.1.5 |
+| Versions | 5.1.5, 5.3.5, 5.2.4 |
 | Architectures | i386, x86_64 |
-| Github | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
+| Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
 ##### Install command
 
@@ -389,7 +389,7 @@ add_requires("lua")
 | Homepage | [http://luajit.org](http://luajit.org) |
 | Versions | 2.1.0-beta3 |
 | Architectures | i386, x86_64 |
-| Github | [luajit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luajit/xmake.lua) |
+| Definition | [luajit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luajit/xmake.lua) |
 
 ##### Install command
 
@@ -414,7 +414,7 @@ add_requires("luajit")
 | Homepage | [https://www.gnu.org/software/m4](https://www.gnu.org/software/m4) |
 | Versions | 1.4.18 |
 | Architectures | i386, x86_64 |
-| Github | [m4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/m4/xmake.lua) |
+| Definition | [m4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/m4/xmake.lua) |
 
 ##### Install command
 
@@ -437,7 +437,7 @@ add_requires("m4")
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
 | Versions | 4.2.1 |
 | Architectures | i386, x86_64 |
-| Github | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
+| Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 
 ##### Install command
 
@@ -460,7 +460,7 @@ add_requires("make")
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | Versions | 0.50.1 |
 | Architectures | i386, x86_64 |
-| Github | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
+| Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
 ##### Install command
 
@@ -483,7 +483,7 @@ add_requires("meson")
 | Homepage | [https://github.com/moonjit/moonjit](https://github.com/moonjit/moonjit) |
 | Versions | 2.2.0 |
 | Architectures | i386, x86_64 |
-| Github | [moonjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moonjit/xmake.lua) |
+| Definition | [moonjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moonjit/xmake.lua) |
 
 ##### Install command
 
@@ -508,7 +508,7 @@ add_requires("moonjit")
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
 | Versions | 2.13.03 |
 | Architectures | i386, x86_64 |
-| Github | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
+| Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 
 ##### Install command
 
@@ -531,7 +531,7 @@ add_requires("nasm")
 | Homepage | [https://www.gnu.org/software/ncurses/](https://www.gnu.org/software/ncurses/) |
 | Versions | 6.1 |
 | Architectures | i386, x86_64 |
-| Github | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
+| Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
 
 ##### Install command
 
@@ -554,7 +554,7 @@ add_requires("ncurses")
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
 | Versions | 1.9.0 |
 | Architectures | i386, x86_64 |
-| Github | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
+| Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
 ##### Install command
 
@@ -577,7 +577,7 @@ add_requires("ninja")
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
 | Versions | v3.9.1 |
 | Architectures | i386, x86_64 |
-| Github | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
+| Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
 ##### Install command
 
@@ -602,7 +602,7 @@ add_requires("nlohmann_json")
 | Homepage | [http://www.gnu.org/software/patch/patch.html](http://www.gnu.org/software/patch/patch.html) |
 | Versions | 2.7.6 |
 | Architectures | i386, x86_64 |
-| Github | [patch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patch/xmake.lua) |
+| Definition | [patch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patch/xmake.lua) |
 
 ##### Install command
 
@@ -625,7 +625,7 @@ add_requires("patch")
 | Homepage | [https://freedesktop.org/wiki/Software/pkg-config/](https://freedesktop.org/wiki/Software/pkg-config/) |
 | Versions | 0.29.2 |
 | Architectures | i386, x86_64 |
-| Github | [pkg-config/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkg-config/xmake.lua) |
+| Definition | [pkg-config/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkg-config/xmake.lua) |
 
 ##### Install command
 
@@ -648,7 +648,7 @@ add_requires("pkg-config")
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | Versions | 3.8.0 |
 | Architectures | i386, x86_64 |
-| Github | [protoc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protoc/xmake.lua) |
+| Definition | [protoc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protoc/xmake.lua) |
 
 ##### Install command
 
@@ -671,7 +671,7 @@ add_requires("protoc")
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | Versions | 2.5.0 |
 | Architectures | i386, x86_64 |
-| Github | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
+| Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
 ##### Install command
 
@@ -692,9 +692,9 @@ add_requires("pybind11")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.15, 3.7.0 |
+| Versions | 3.7.0, 2.7.15 |
 | Architectures | i386, x86_64 |
-| Github | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
+| Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
 ##### Install command
 
@@ -717,7 +717,7 @@ add_requires("python")
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | Versions | 2.7.15 |
 | Architectures | i386, x86_64 |
-| Github | [python2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python2/xmake.lua) |
+| Definition | [python2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python2/xmake.lua) |
 
 ##### Install command
 
@@ -740,9 +740,9 @@ add_requires("python2")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | 1.8.0, 1.3.1, 1.5.0, 1.4.2 |
+| Versions | 1.3.1, 1.8.0, 1.4.2, 1.5.0 |
 | Architectures | i386, x86_64 |
-| Github | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
+| Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
 ##### Install command
 
@@ -765,7 +765,7 @@ add_requires("spdlog")
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
 | Versions | 0.0 |
 | Architectures | i386, x86_64 |
-| Github | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
+| Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
 ##### Install command
 
@@ -788,9 +788,9 @@ add_requires("stb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [http://www.tboox.org](http://www.tboox.org) |
-| Versions | v1.6.5, v1.6.3, v1.6.4, v1.6.2 |
+| Versions | v1.6.5, v1.6.2, v1.6.4, v1.6.3 |
 | Architectures | i386, x86_64 |
-| Github | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
+| Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
 ##### Install command
 
@@ -813,7 +813,7 @@ add_requires("tbox")
 | Homepage | [https://github.com/sainteos/tmxparser](https://github.com/sainteos/tmxparser) |
 | Versions | 2.2.0 |
 | Architectures | i386, x86_64 |
-| Github | [tmxparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmxparser/xmake.lua) |
+| Definition | [tmxparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmxparser/xmake.lua) |
 
 ##### Install command
 
@@ -838,7 +838,7 @@ add_requires("tmxparser")
 | Homepage | [https://yasm.tortall.net/](https://yasm.tortall.net/) |
 | Versions | 1.3.0 |
 | Architectures | i386, x86_64 |
-| Github | [yasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yasm/xmake.lua) |
+| Definition | [yasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yasm/xmake.lua) |
 
 ##### Install command
 

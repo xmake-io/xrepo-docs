@@ -249,7 +249,7 @@ function write_package(file, pkg, plat, archs)
     end
     file:print("| Versions | %s |", table.concat(versions, ", "))
     file:print("| Architectures | %s |", table.concat(archs, ", "))
-    file:print("| Github | [%s/xmake.lua](%s) |", name, xmakefile)
+    file:print("| Definition | [%s/xmake.lua](%s) |", name, xmakefile)
     file:print("")
     file:print("##### Install command")
     file:print("")
