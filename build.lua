@@ -293,12 +293,36 @@ function build_packages()
     local packages = import("scripts.packages", {rootdir = repodir, anonymous = true})()
     os.cd("-")
 
+    -- get total packages
+    local total_packages = {}
+    for _, pkgs in pairs(packages) do
+        for _, pkg in ipairs(pkgs) do
+            table.insert(total_packages, pkg.name)
+        end
+    end
+    total_packages = table.unique(total_packages)
+
     -- generate _sidebar.md
     print("generate _sidebar.md")
     local sidebar = io.open("_sidebar.md", "w")
-    sidebar:print("- Packages")
+    sidebar:print("- Getting Started")
+    sidebar:print("  - [Sponsor](https://xmake.io/#/about/sponsor)")
+    sidebar:print("  - [Quick Start](getting_started.md)")
+    sidebar:print("- Packages (%s)", #total_packages)
     local plats = table.keys(packages)
     table.sort(plats)
+    for _, plat in ipairs(plats) do
+        sidebar:print("  - [%s](packages/%s.md)", plat, plat)
+    end
+    sidebar:close()
+
+    -- generate zh-cn/_sidebar.md
+    print("generate zh-cn/_sidebar.md")
+    local sidebar = io.open("zh-cn/_sidebar.md", "w")
+    sidebar:print("- 快速入门")
+    sidebar:print("  - [赞助](https://xmake.io/#/zh-cn/about/sponsor)")
+    sidebar:print("  - [快速上手](zh-cn/getting_started.md)")
+    sidebar:print("- 包列表 (%s)", #total_packages)
     for _, plat in ipairs(plats) do
         sidebar:print("  - [%s](packages/%s.md)", plat, plat)
     end
