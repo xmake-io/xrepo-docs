@@ -4,8 +4,9 @@
 
 > A cross-platform C/C++ package manager based on Xmake
 
-- Simple, lightweight, cross-platform
-- Modern C/C++ package manager, support distributed repositories
+- *Simple, lightweight, cross-platform*
+- *Modern C/C++ package manager, support distributed repositories*
+- **News: openexr, blosc, libelf**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

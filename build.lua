@@ -279,6 +279,23 @@ function write_package(file, pkg, plat, archs)
     file:print("")
 end
 
+-- get latest added packages
+-- git -c pager.log=false log --diff-filter=A --stat --max-count=5 --format=%aD
+function latest_packages()
+    local latest  = {}
+    local results = os.iorunv("git -c pager.log=false log --diff-filter=A --stat --max-count=5 --format=%aD")
+    if results then
+        for _, line in ipairs(results:split('\n', {plain = true})) do
+            line = line:split('|')[1]
+            line = line:trim()
+            if line:endswith("xmake.lua") then
+                table.insert(latest, path.filename(path.directory(line)))
+            end
+        end
+    end
+    return table.slice(latest, 1, 3)
+end
+
 -- build packages
 function build_packages()
     -- clone xmake-repo
@@ -286,11 +303,12 @@ function build_packages()
     local repodir = path.join(os.tmpdir(), "xrepo-docs", "xmake-repo")
     print("clone %s => %s", url, repodir)
     os.tryrm(repodir)
-    git.clone(url, {depth = 1, outputdir = repodir})
+    git.clone(url, {outputdir = repodir})
 
     -- load packages
     os.cd(repodir)
     local packages = import("scripts.packages", {rootdir = repodir, anonymous = true})()
+    local latest = latest_packages()
     os.cd("-")
 
     -- get total packages
@@ -350,6 +368,10 @@ function build_packages()
         end
         file:close()
     end
+
+    -- generate latest added packages
+    io.gsub("_coverpage.md", "%*%*News:.*%*%*", "**News: " .. table.concat(latest, ", ") .. "**")
+    io.gsub("zh-cn/_coverpage.md", "%*%*News:.*%*%*", "**News: " .. table.concat(latest, ", ") .. "**")
 end
 
 -- main entry
