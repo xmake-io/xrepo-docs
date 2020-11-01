@@ -370,8 +370,8 @@ function build_packages()
     end
 
     -- generate latest added packages
-    io.gsub("_coverpage.md", "%*%*News:.*%*%*", "**News: " .. table.concat(latest, ", ") .. "**")
-    io.gsub("zh-cn/_coverpage.md", "%*%*News:.*%*%*", "**News: " .. table.concat(latest, ", ") .. "**")
+    io.gsub("_coverpage.md", "%*%*Recently added:.*%*%*", "**Recently added: " .. table.concat(latest, ", ") .. "**")
+    io.gsub("zh-cn/_coverpage.md", "%*%*Recently added:.*%*%*", "**Recently added: " .. table.concat(latest, ", ") .. "**")
 end
 
 -- main entry
