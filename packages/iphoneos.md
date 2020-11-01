@@ -28,7 +28,7 @@ add_requires("autoconf")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
-| Versions | 1.16.1, 1.9.5, 1.15.1, 1.9.6 |
+| Versions | 1.15.1, 1.16.1, 1.9.5, 1.9.6 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
@@ -124,7 +124,7 @@ add_requires("cjson")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.15.4, 3.11.4 |
+| Versions | 3.11.4, 3.15.4, 3.18.4 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
@@ -243,7 +243,7 @@ add_requires("doctest")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
-| Versions | 6.2.0, 5.3.0, 6.0.0 |
+| Versions | 5.3.0, 6.0.0, 6.2.0 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -268,7 +268,7 @@ add_requires("fmt")
 | Description | *Google Testing and Mocking Framework.* |
 | -- | -- |
 | Homepage | [https://github.com/google/googletest](https://github.com/google/googletest) |
-| Versions | 1.8.1 |
+| Versions | 1.10.0, 1.8.1 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
 
@@ -458,7 +458,7 @@ add_requires("libffi")
 | Description | *A widely used C library for reading and writing JPEG image files.* |
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
-| Versions | v9c, v9b |
+| Versions | v9b, v9c |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
@@ -481,7 +481,7 @@ add_requires("libjpeg")
 | Description | *The official PNG reference library* |
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
-| Versions | v1.6.35, v1.6.36, v1.6.34 |
+| Versions | v1.6.34, v1.6.35, v1.6.36 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -550,7 +550,7 @@ add_requires("libtool")
 | Description | *A multi-platform support library with a focus on asynchronous I/O.* |
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
-| Versions | v1.23.2, v1.23.1, v1.23.0, v1.22.0, v1.28.0, v1.27.0, v1.26.0, v1.24.1, v1.25.0, v1.24.0 |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -878,7 +878,7 @@ add_requires("pybind11")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 3.7.0, 2.7.15 |
+| Versions | 2.7.15, 3.7.0 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
@@ -926,7 +926,7 @@ add_requires("python2")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | 1.3.1, 1.8.0, 1.4.2, 1.5.0 |
+| Versions | 1.3.1, 1.4.2, 1.5.0, 1.8.0 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
@@ -974,7 +974,7 @@ add_requires("stb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [http://www.tboox.org](http://www.tboox.org) |
-| Versions | v1.6.5, v1.6.2, v1.6.4, v1.6.3 |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
@@ -1070,7 +1070,7 @@ add_requires("yasm")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
-| Versions | 1.2.11, 1.2.10 |
+| Versions | 1.2.10, 1.2.11 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 

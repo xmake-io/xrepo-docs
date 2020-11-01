@@ -247,6 +247,9 @@ function write_package(file, pkg, plat, archs)
     if license then
         file:print("| License | %s |", license)
     end
+    archs = table.copy(archs)
+    table.sort(archs)
+    table.sort(versions)
     file:print("| Versions | %s |", table.concat(versions, ", "))
     file:print("| Architectures | %s |", table.concat(archs, ", "))
     file:print("| Definition | [%s/xmake.lua](%s) |", name, xmakefile)
