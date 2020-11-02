@@ -370,13 +370,13 @@ function build_packages()
     end
 
     -- generate latest added packages
-    print(os.files("*"))
     io.gsub("_coverpage.md", "%*%*Recently added:.*%*%*", "**Recently added: " .. table.concat(latest, ", ") .. "**")
     io.gsub("zh-cn/_coverpage.md", "%*%*Recently added:.*%*%*", "**Recently added: " .. table.concat(latest, ", ") .. "**")
 end
 
 -- main entry
 function main()
+    os.cd(path.directory(os.scriptdir()))
     build_packages()
     build_mirror_files()
 end
