@@ -273,7 +273,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.11.4, 3.15.4, 3.18.4</td>
+<td></td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -758,6 +758,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libjpeg")
+</code></pre>
+<h3 id="libplistiphoneos">libplist (iphoneos)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Library for Apple Binary- and XML-Property Lists</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.libimobiledevice.org/">https://www.libimobiledevice.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.2.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua">libplist/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p iphoneos libplist
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libplist")
 </code></pre>
 <h3 id="libpngiphoneos">libpng (iphoneos)</h3>
 <table>

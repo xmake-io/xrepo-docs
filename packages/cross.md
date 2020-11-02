@@ -6,7 +6,7 @@
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
 | Versions | 2.68, 2.69 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
 ##### Install command
@@ -29,7 +29,7 @@ add_requires("autoconf")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
 | Versions | 1.15.1, 1.16.1, 1.9.5, 1.9.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
 ##### Install command
@@ -54,7 +54,7 @@ add_requires("automake")
 | -- | -- |
 | Homepage | [https://github.com/gwilymk/bin2c](https://github.com/gwilymk/bin2c) |
 | Versions | 0.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [bin2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bin2c/xmake.lua) |
 
 ##### Install command
@@ -79,7 +79,7 @@ add_requires("bin2c")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | Versions | 2.9.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
 ##### Install command
@@ -101,8 +101,8 @@ add_requires("catch2")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4, 3.18.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Versions |  |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
 ##### Install command
@@ -125,7 +125,7 @@ add_requires("cmake")
 | -- | -- |
 | Homepage | [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) |
 | Versions |  |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
 
 ##### Install command
@@ -148,7 +148,7 @@ add_requires("concurrentqueue")
 | -- | -- |
 | Homepage | [https://cpp-taskflow.github.io/](https://cpp-taskflow.github.io/) |
 | Versions | 2.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-taskflow/xmake.lua) |
 
 ##### Install command
@@ -171,7 +171,7 @@ add_requires("cpp-taskflow")
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
 | Versions | v2.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
 ##### Install command
@@ -196,7 +196,7 @@ add_requires("cxxopts")
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
 | Versions | 2.3.1, 2.3.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
 ##### Install command
@@ -221,7 +221,7 @@ add_requires("doctest")
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
 | Versions | 5.3.0, 6.0.0, 6.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
 ##### Install command
@@ -246,7 +246,7 @@ add_requires("fmt")
 | -- | -- |
 | Homepage | [https://github.com/google/googletest](https://github.com/google/googletest) |
 | Versions | 1.10.0, 1.8.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
 
 ##### Install command
@@ -271,7 +271,7 @@ add_requires("gtest")
 | -- | -- |
 | Homepage | [https://pantor.github.io/inja/](https://pantor.github.io/inja/) |
 | Versions | v2.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
 
 ##### Install command
@@ -294,7 +294,7 @@ add_requires("inja")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
 | Versions | 1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [irrXML/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrXML/xmake.lua) |
 
 ##### Install command
@@ -319,7 +319,7 @@ add_requires("irrXML")
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
 | Versions | v9b, v9c |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
 ##### Install command
@@ -335,6 +335,30 @@ add_requires("libjpeg")
 ```
 
 
+### libplist (cross)
+
+
+| Description | *Library for Apple Binary- and XML-Property Lists* |
+| -- | -- |
+| Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
+| License | LGPL-2.1 |
+| Versions | 2.2.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libplist
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libplist")
+```
+
+
 ### libtool (cross)
 
 
@@ -342,7 +366,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libtool/](https://www.gnu.org/software/libtool/) |
 | Versions | 2.4.5, 2.4.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
 
 ##### Install command
@@ -367,7 +391,7 @@ add_requires("libtool")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/m4](https://www.gnu.org/software/m4) |
 | Versions | 1.4.18 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [m4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/m4/xmake.lua) |
 
 ##### Install command
@@ -390,7 +414,7 @@ add_requires("m4")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
 | Versions | 4.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 
 ##### Install command
@@ -413,7 +437,7 @@ add_requires("make")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | Versions | 0.50.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
 ##### Install command
@@ -438,7 +462,7 @@ add_requires("meson")
 | -- | -- |
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
 | Versions | 2.13.03 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 
 ##### Install command
@@ -461,7 +485,7 @@ add_requires("nasm")
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
 | Versions | 1.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
 ##### Install command
@@ -484,7 +508,7 @@ add_requires("ninja")
 | -- | -- |
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
 | Versions | v3.9.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
 ##### Install command
@@ -509,7 +533,7 @@ add_requires("nlohmann_json")
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
 | Versions | 1.0.0, 1.0.2, 1.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
 ##### Install command
@@ -534,7 +558,7 @@ add_requires("openssl")
 | -- | -- |
 | Homepage | [http://www.gnu.org/software/patch/patch.html](http://www.gnu.org/software/patch/patch.html) |
 | Versions | 2.7.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [patch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patch/xmake.lua) |
 
 ##### Install command
@@ -557,7 +581,7 @@ add_requires("patch")
 | -- | -- |
 | Homepage | [https://freedesktop.org/wiki/Software/pkg-config/](https://freedesktop.org/wiki/Software/pkg-config/) |
 | Versions | 0.29.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pkg-config/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkg-config/xmake.lua) |
 
 ##### Install command
@@ -580,7 +604,7 @@ add_requires("pkg-config")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | Versions | 3.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [protoc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protoc/xmake.lua) |
 
 ##### Install command
@@ -603,7 +627,7 @@ add_requires("protoc")
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | Versions | 2.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
 ##### Install command
@@ -626,7 +650,7 @@ add_requires("pybind11")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | Versions | 2.7.15, 3.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
 ##### Install command
@@ -649,7 +673,7 @@ add_requires("python")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | Versions | 2.7.15 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [python2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python2/xmake.lua) |
 
 ##### Install command
@@ -674,7 +698,7 @@ add_requires("python2")
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
 | Versions | 1.3.1, 1.4.2, 1.5.0, 1.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
 ##### Install command
@@ -697,7 +721,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
 | Versions | 0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
 ##### Install command
@@ -722,7 +746,7 @@ add_requires("stb")
 | -- | -- |
 | Homepage | [http://www.tboox.org](http://www.tboox.org) |
 | Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
 ##### Install command
@@ -745,7 +769,7 @@ add_requires("tbox")
 | -- | -- |
 | Homepage | [https://github.com/sainteos/tmxparser](https://github.com/sainteos/tmxparser) |
 | Versions | 2.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tmxparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmxparser/xmake.lua) |
 
 ##### Install command
@@ -770,7 +794,7 @@ add_requires("tmxparser")
 | -- | -- |
 | Homepage | [https://yasm.tortall.net/](https://yasm.tortall.net/) |
 | Versions | 1.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [yasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yasm/xmake.lua) |
 
 ##### Install command
@@ -795,7 +819,7 @@ add_requires("yasm")
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
 | Versions | 1.2.10, 1.2.11 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, x86_64 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
 ##### Install command

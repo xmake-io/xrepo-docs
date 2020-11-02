@@ -308,7 +308,7 @@ add_requires("cjson")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4, 3.18.4 |
+| Versions |  |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
@@ -1049,6 +1049,30 @@ xrepo install libomp
 
 ```lua
 add_requires("libomp")
+```
+
+
+### libplist (macosx)
+
+
+| Description | *Library for Apple Binary- and XML-Property Lists* |
+| -- | -- |
+| Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
+| License | LGPL-2.1 |
+| Versions | 2.2.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libplist
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libplist")
 ```
 
 
