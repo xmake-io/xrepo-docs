@@ -942,6 +942,29 @@ add_requires("protoc")
 ```
 
 
+### pthreads4w (mingw)
+
+
+| Description | *POSIX Threads for Win32* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/pthreads4w/](https://sourceforge.net/projects/pthreads4w/) |
+| Versions | 3.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [pthreads4w/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pthreads4w/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] pthreads4w
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pthreads4w")
+```
+
+
 ### pybind11 (mingw)
 
 
