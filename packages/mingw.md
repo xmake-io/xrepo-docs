@@ -450,6 +450,29 @@ add_requires("libjpeg")
 ```
 
 
+### libogg (mingw)
+
+
+| Description | *Ogg Bitstream Library* |
+| -- | -- |
+| Homepage | [https://www.xiph.org/ogg/](https://www.xiph.org/ogg/) |
+| Versions | 1.3.4 |
+| Architectures | i386, x86_64 |
+| Definition | [libogg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libogg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libogg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libogg")
+```
+
+
 ### libplist (mingw)
 
 
