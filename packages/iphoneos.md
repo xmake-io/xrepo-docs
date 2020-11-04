@@ -124,7 +124,7 @@ add_requires("cjson")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions |  |
+| Versions | 3.11.4, 3.15.4, 3.18.4 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
@@ -378,6 +378,29 @@ xrepo install -p iphoneos json-c
 
 ```lua
 add_requires("json-c")
+```
+
+
+### jsoncpp (iphoneos)
+
+
+| Description | *A C++ library for interacting with JSON.* |
+| -- | -- |
+| Homepage | [https://github.com/open-source-parsers/jsoncpp/wiki](https://github.com/open-source-parsers/jsoncpp/wiki) |
+| Versions | 1.9.4 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [jsoncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos jsoncpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jsoncpp")
 ```
 
 

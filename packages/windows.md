@@ -285,7 +285,7 @@ add_requires("catch2")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions |  |
+| Versions | 3.11.4, 3.15.4, 3.18.4 |
 | Architectures | x64, x86 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
@@ -700,6 +700,31 @@ xrepo install irrXML
 
 ```lua
 add_requires("irrXML")
+```
+
+
+
+## j
+### jsoncpp (windows)
+
+
+| Description | *A C++ library for interacting with JSON.* |
+| -- | -- |
+| Homepage | [https://github.com/open-source-parsers/jsoncpp/wiki](https://github.com/open-source-parsers/jsoncpp/wiki) |
+| Versions | 1.9.4 |
+| Architectures | x64, x86 |
+| Definition | [jsoncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jsoncpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jsoncpp")
 ```
 
 
