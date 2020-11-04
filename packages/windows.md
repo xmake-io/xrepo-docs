@@ -116,6 +116,30 @@ add_requires("bin2c")
 ```
 
 
+### binutils (windows)
+
+
+| Description | *GNU binary tools for native development* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/binutils/binutils.html](https://www.gnu.org/software/binutils/binutils.html) |
+| License | GPL-2.0 |
+| Versions | 2.34 |
+| Architectures | x64, x86 |
+| Definition | [binutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/binutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install binutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("binutils")
+```
+
+
 ### blosc (windows)
 
 

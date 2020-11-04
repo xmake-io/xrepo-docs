@@ -70,6 +70,30 @@ add_requires("bin2c")
 ```
 
 
+### binutils (android)
+
+
+| Description | *GNU binary tools for native development* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/binutils/binutils.html](https://www.gnu.org/software/binutils/binutils.html) |
+| License | GPL-2.0 |
+| Versions | 2.34 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [binutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/binutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] binutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("binutils")
+```
+
+
 
 ## c
 ### catch2 (android)
