@@ -76,7 +76,7 @@ add_requires("bin2c")
 | Description | *A blocking, shuffling and loss-less compression library* |
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
-| Versions | 1.20.1 |
+| Versions | 1.20.1, 1.5.0 |
 | Architectures | i386, x86_64 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 
@@ -820,31 +820,6 @@ xrepo install -p mingw [--mingw=/xxx] nlohmann_json
 
 ```lua
 add_requires("nlohmann_json")
-```
-
-
-
-## o
-### openexr (mingw)
-
-
-| Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
-| -- | -- |
-| Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3 |
-| Architectures | i386, x86_64 |
-| Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] openexr
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("openexr")
 ```
 
 

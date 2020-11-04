@@ -122,7 +122,7 @@ add_requires("bin2c")
 | Description | *A blocking, shuffling and loss-less compression library* |
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
-| Versions | 1.20.1 |
+| Versions | 1.20.1, 1.5.0 |
 | Architectures | x64, x86 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 
@@ -145,7 +145,7 @@ add_requires("blosc")
 | Description | *Collection of portable C++ source libraries.* |
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
-| Versions | 1.70.0, 1.72.0, 1.73.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0 |
 | Architectures | x64, x86 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
@@ -1823,6 +1823,29 @@ add_requires("stb")
 
 
 ## t
+### tbb (windows)
+
+
+| Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
+| -- | -- |
+| Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
+| Versions | 2020.3 |
+| Architectures | x64, x86 |
+| Definition | [tbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tbb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tbb")
+```
+
+
 ### tbox (windows)
 
 
