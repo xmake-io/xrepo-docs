@@ -708,7 +708,7 @@ add_requires("glew")
 | Description | *GLFW is an Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development.* |
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
-| Versions |  |
+| Versions | 3.3.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
@@ -2414,6 +2414,29 @@ xrepo install openssl
 
 ```lua
 add_requires("openssl")
+```
+
+
+### openvdb (linux)
+
+
+| Description | *OpenVDB - Sparse volume data structure and tools* |
+| -- | -- |
+| Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
+| Versions | 7.1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openvdb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openvdb")
 ```
 
 
