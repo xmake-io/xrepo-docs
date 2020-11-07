@@ -287,6 +287,31 @@ add_requires("gtest")
 
 
 
+## h
+### hopscotch-map (bsd)
+
+
+| Description | *A C++ implementation of a fast hash map and hash set using hopscotch hashing* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
+| Versions | v2.3.0 |
+| Architectures | i386, x86_64 |
+| Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hopscotch-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hopscotch-map")
+```
+
+
+
 ## i
 ### inja (bsd)
 
@@ -753,6 +778,31 @@ xrepo install python2
 
 ```lua
 add_requires("python2")
+```
+
+
+
+## r
+### rapidjson (bsd)
+
+
+| Description | *RapidJSON is a JSON parser and generator for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
+| Versions | v1.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rapidjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidjson")
 ```
 
 

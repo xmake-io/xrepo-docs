@@ -306,10 +306,10 @@ function build_packages()
     git.clone(url, {outputdir = repodir})
 
     -- load packages
-    os.cd(repodir)
+    local oldir = os.cd(repodir)
     local packages = import("scripts.packages", {rootdir = repodir, anonymous = true})()
     local latest = latest_packages()
-    os.cd("-")
+    os.cd(oldir)
 
     -- get total packages
     local total_packages = {}

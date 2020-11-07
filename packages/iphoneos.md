@@ -310,6 +310,31 @@ add_requires("gtest")
 
 
 
+## h
+### hopscotch-map (iphoneos)
+
+
+| Description | *A C++ implementation of a fast hash map and hash set using hopscotch hashing* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
+| Versions | v2.3.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos hopscotch-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hopscotch-map")
+```
+
+
+
 ## i
 ### imgui (iphoneos)
 
@@ -436,7 +461,7 @@ add_requires("jsoncpp")
 | Description | *The multiprotocol file transfer library.* |
 | -- | -- |
 | Homepage | [https://curl.haxx.se/](https://curl.haxx.se/) |
-| Versions | 7.64.1 |
+| Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [libcurl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcurl/xmake.lua) |
 
@@ -1009,6 +1034,31 @@ xrepo install -p iphoneos python2
 
 ```lua
 add_requires("python2")
+```
+
+
+
+## r
+### rapidjson (iphoneos)
+
+
+| Description | *RapidJSON is a JSON parser and generator for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
+| Versions | v1.1.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos rapidjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidjson")
 ```
 
 

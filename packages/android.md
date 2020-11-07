@@ -333,6 +333,31 @@ add_requires("gtest")
 
 
 
+## h
+### hopscotch-map (android)
+
+
+| Description | *A C++ implementation of a fast hash map and hash set using hopscotch hashing* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
+| Versions | v2.3.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] hopscotch-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hopscotch-map")
+```
+
+
+
 ## i
 ### imgui (android)
 
@@ -962,6 +987,31 @@ xrepo install -p android [--ndk=/xxx] python2
 
 ```lua
 add_requires("python2")
+```
+
+
+
+## r
+### rapidjson (android)
+
+
+| Description | *RapidJSON is a JSON parser and generator for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
+| Versions | v1.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] rapidjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidjson")
 ```
 
 
