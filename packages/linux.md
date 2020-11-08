@@ -771,6 +771,29 @@ add_requires("glib")
 ```
 
 
+### glm (linux)
+
+
+| Description | *OpenGL Mathematics (GLM)* |
+| -- | -- |
+| Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
+| Versions | 0.9.9+8 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glm")
+```
+
+
 ### go (linux)
 
 
@@ -1444,6 +1467,29 @@ xrepo install libsdl_ttf
 
 ```lua
 add_requires("libsdl_ttf")
+```
+
+
+### libsodium (linux)
+
+
+| Description | *Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.* |
+| -- | -- |
+| Homepage | [https://libsodium.org](https://libsodium.org) |
+| Versions |  |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsodium
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsodium")
 ```
 
 

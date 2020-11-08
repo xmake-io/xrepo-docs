@@ -309,6 +309,29 @@ add_requires("fmt")
 
 
 ## g
+### glm (android)
+
+
+| Description | *OpenGL Mathematics (GLM)* |
+| -- | -- |
+| Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
+| Versions | 0.9.9+8 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] glm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glm")
+```
+
+
 ### gtest (android)
 
 

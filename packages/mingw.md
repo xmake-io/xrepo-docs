@@ -355,6 +355,29 @@ add_requires("glfw")
 ```
 
 
+### glm (mingw)
+
+
+| Description | *OpenGL Mathematics (GLM)* |
+| -- | -- |
+| Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
+| Versions | 0.9.9+8 |
+| Architectures | i386, x86_64 |
+| Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] glm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glm")
+```
+
+
 ### gtest (mingw)
 
 
@@ -729,6 +752,29 @@ xrepo install -p mingw [--mingw=/xxx] libsdl_ttf
 
 ```lua
 add_requires("libsdl_ttf")
+```
+
+
+### libsodium (mingw)
+
+
+| Description | *Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.* |
+| -- | -- |
+| Homepage | [https://libsodium.org](https://libsodium.org) |
+| Versions |  |
+| Architectures | i386, x86_64 |
+| Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libsodium
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsodium")
 ```
 
 

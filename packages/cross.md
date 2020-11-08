@@ -263,6 +263,29 @@ add_requires("fmt")
 
 
 ## g
+### glm (cross)
+
+
+| Description | *OpenGL Mathematics (GLM)* |
+| -- | -- |
+| Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
+| Versions | 0.9.9+8 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] glm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glm")
+```
+
+
 ### gtest (cross)
 
 
