@@ -165,6 +165,29 @@ add_requires("catch2")
 ```
 
 
+### chipmunk2d (mingw)
+
+
+| Description | * A fast and lightweight 2D game physics library.* |
+| -- | -- |
+| Homepage | [https://chipmunk-physics.net/](https://chipmunk-physics.net/) |
+| Versions | 7.0.3 |
+| Architectures | i386, x86_64 |
+| Definition | [chipmunk2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chipmunk2d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] chipmunk2d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("chipmunk2d")
+```
+
+
 ### cmake (mingw)
 
 
