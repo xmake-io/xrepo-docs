@@ -93,6 +93,29 @@ add_requires("automake")
 
 
 ## b
+### benchmark (linux)
+
+
+| Description | *A microbenchmark support library* |
+| -- | -- |
+| Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
+| Versions | 1.5.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install benchmark
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("benchmark")
+```
+
+
 ### bin2c (linux)
 
 
