@@ -303,6 +303,29 @@ add_requires("bzip2")
 
 
 ## c
+### c-ares (macosx)
+
+
+| Description | *A C library for asynchronous DNS requests* |
+| -- | -- |
+| Homepage | [https://c-ares.haxx.se/](https://c-ares.haxx.se/) |
+| Versions | 1.16.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install c-ares
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("c-ares")
+```
+
+
 ### cairo (macosx)
 
 
@@ -2517,7 +2540,7 @@ add_requires("openexr")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
-| Versions | 1.0.0, 1.0.2, 1.1.1 |
+| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 

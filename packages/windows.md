@@ -303,6 +303,29 @@ add_requires("bzip2")
 
 
 ## c
+### c-ares (windows)
+
+
+| Description | *A C library for asynchronous DNS requests* |
+| -- | -- |
+| Homepage | [https://c-ares.haxx.se/](https://c-ares.haxx.se/) |
+| Versions | 1.16.1 |
+| Architectures | x64, x86 |
+| Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install c-ares
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("c-ares")
+```
+
+
 ### cairo (windows)
 
 
