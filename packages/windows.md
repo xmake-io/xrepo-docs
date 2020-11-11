@@ -1636,6 +1636,29 @@ add_requires("oatpp")
 ```
 
 
+### openblas (windows)
+
+
+| Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
+| -- | -- |
+| Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
+| Versions | 0.3.12 |
+| Architectures | x64, x86 |
+| Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openblas
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openblas")
+```
+
+
 ### openexr (windows)
 
 
