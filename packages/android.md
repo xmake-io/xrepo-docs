@@ -499,6 +499,29 @@ add_requires("json-c")
 ```
 
 
+### jsoncons (android)
+
+
+| Description | *A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON* |
+| -- | -- |
+| Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
+| Versions | v0.158.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] jsoncons
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jsoncons")
+```
+
+
 ### jsoncpp (android)
 
 

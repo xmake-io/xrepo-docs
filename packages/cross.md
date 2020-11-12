@@ -384,6 +384,29 @@ add_requires("irrXML")
 
 
 ## j
+### jsoncons (cross)
+
+
+| Description | *A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON* |
+| -- | -- |
+| Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
+| Versions | v0.158.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] jsoncons
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jsoncons")
+```
+
+
 ### jsoncpp (cross)
 
 
