@@ -748,6 +748,29 @@ add_requires("glm")
 ```
 
 
+### gmm (windows)
+
+
+| Description | *Gmm++ provides some basic types of sparse and dense matrices and vectors.* |
+| -- | -- |
+| Homepage | [http://getfem.org/gmm/index.html](http://getfem.org/gmm/index.html) |
+| Versions | 5.4 |
+| Architectures | x64, x86 |
+| Definition | [gmm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gmm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gmm")
+```
+
+
 ### go (windows)
 
 
@@ -917,6 +940,29 @@ add_requires("jsoncpp")
 
 
 ## l
+### leveldb (windows)
+
+
+| Description | *LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.* |
+| -- | -- |
+| Homepage | [https://github.com/google/leveldb](https://github.com/google/leveldb) |
+| Versions | 1.22 |
+| Architectures | x64, x86 |
+| Definition | [leveldb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leveldb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install leveldb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("leveldb")
+```
+
+
 ### libcurl (windows)
 
 
