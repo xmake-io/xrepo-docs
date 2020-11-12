@@ -863,6 +863,30 @@ add_requires("gmm")
 ```
 
 
+### gnu-sed (macosx)
+
+
+| Description | *GNU implementation of the famous stream editor.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/sed/](https://www.gnu.org/software/sed/) |
+| License | GPL-3.0 |
+| Versions | 4.8 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [gnu-sed/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-sed/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gnu-sed
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gnu-sed")
+```
+
+
 ### go (macosx)
 
 
@@ -2065,6 +2089,30 @@ xrepo install libxshmfence
 
 ```lua
 add_requires("libxshmfence")
+```
+
+
+### libxtst (macosx)
+
+
+| Description | *X.Org: Client API for the XTEST & RECORD extensions* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| License | MIT |
+| Versions | 1.2.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libxtst/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxtst/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxtst
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxtst")
 ```
 
 
