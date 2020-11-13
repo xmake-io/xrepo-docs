@@ -654,6 +654,29 @@ add_requires("ffmpeg")
 ```
 
 
+### fftw (macosx)
+
+
+| Description | *A C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions.* |
+| -- | -- |
+| Homepage | [http://fftw.org/](http://fftw.org/) |
+| Versions | 3.3.8 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [fftw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fftw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fftw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fftw")
+```
+
+
 ### fmt (macosx)
 
 
