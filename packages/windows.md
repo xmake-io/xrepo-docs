@@ -865,6 +865,29 @@ add_requires("hopscotch-map")
 ```
 
 
+### hpsocket (windows)
+
+
+| Description | *High Performance Network Framework* |
+| -- | -- |
+| Homepage | [https://github.com/ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) |
+| Versions | v5.7.2 |
+| Architectures | x64, x86 |
+| Definition | [hpsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpsocket/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hpsocket
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hpsocket")
+```
+
+
 
 ## i
 ### imgui (windows)

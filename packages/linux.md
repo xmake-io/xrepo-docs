@@ -1027,6 +1027,29 @@ add_requires("hopscotch-map")
 ```
 
 
+### hpsocket (linux)
+
+
+| Description | *High Performance Network Framework* |
+| -- | -- |
+| Homepage | [https://github.com/ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) |
+| Versions | v5.7.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [hpsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpsocket/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hpsocket
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hpsocket")
+```
+
+
 
 ## i
 ### icu4c (linux)
