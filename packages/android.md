@@ -1,4 +1,27 @@
 ## a
+### angelscript (android)
+
+
+| Description | *Extremely flexible cross-platform scripting library designed to allow applications to extend their functionality through external scripts* |
+| -- | -- |
+| Homepage | [http://angelcode.com/angelscript/](http://angelcode.com/angelscript/) |
+| Versions | 2.34.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [angelscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/angelscript/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] angelscript
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("angelscript")
+```
+
+
 ### autoconf (android)
 
 

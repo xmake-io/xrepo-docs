@@ -22,6 +22,29 @@ add_requires("abseil")
 ```
 
 
+### angelscript (windows)
+
+
+| Description | *Extremely flexible cross-platform scripting library designed to allow applications to extend their functionality through external scripts* |
+| -- | -- |
+| Homepage | [http://angelcode.com/angelscript/](http://angelcode.com/angelscript/) |
+| Versions | 2.34.0 |
+| Architectures | x64, x86 |
+| Definition | [angelscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/angelscript/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install angelscript
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("angelscript")
+```
+
+
 ### assimp (windows)
 
 
