@@ -110,7 +110,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -143,7 +143,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -176,7 +176,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -210,7 +210,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -247,7 +247,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -280,7 +280,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -313,7 +313,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -347,7 +347,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -360,6 +360,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("catch2")
+</code></pre>
+<h3 id="cgetoptmingw">cgetopt (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A GNU getopt() implementation written in pure C.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/xq114/cgetopt/">https://github.com/xq114/cgetopt/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgetopt/xmake.lua">cgetopt/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] cgetopt
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("cgetopt")
 </code></pre>
 <h3 id="chipmunk2dmingw">chipmunk2d (mingw)</h3>
 <table>
@@ -380,7 +413,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -413,7 +446,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -446,7 +479,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -479,7 +512,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -512,7 +545,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -546,7 +579,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -580,7 +613,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -614,7 +647,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -647,7 +680,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -680,7 +713,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -713,7 +746,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -746,7 +779,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -780,7 +813,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -814,7 +847,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -847,7 +880,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -880,7 +913,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -914,7 +947,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -947,7 +980,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -981,7 +1014,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1014,7 +1047,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1047,7 +1080,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1080,7 +1113,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1117,7 +1150,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1150,7 +1183,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1183,7 +1216,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1216,7 +1249,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1249,7 +1282,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1282,7 +1315,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1315,7 +1348,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1348,7 +1381,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1381,7 +1414,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1414,7 +1447,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1448,7 +1481,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1481,7 +1514,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1514,7 +1547,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1548,7 +1581,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1581,7 +1614,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1614,7 +1647,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1648,7 +1681,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1682,7 +1715,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1715,7 +1748,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1748,7 +1781,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1781,7 +1814,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1814,7 +1847,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1847,7 +1880,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1880,7 +1913,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1913,7 +1946,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1946,7 +1979,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1980,7 +2013,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2014,7 +2047,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2047,7 +2080,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2080,7 +2113,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2114,7 +2147,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2147,7 +2180,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2180,7 +2213,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2214,7 +2247,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2248,7 +2281,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2282,7 +2315,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>i386, x86_64</td>
+<td>arm, arm64, i386, x86_64</td>
 </tr>
 <tr>
 <td>Definition</td>

@@ -395,6 +395,29 @@ add_requires("catch2")
 ```
 
 
+### cgetopt (windows)
+
+
+| Description | *A GNU getopt() implementation written in pure C.* |
+| -- | -- |
+| Homepage | [https://github.com/xq114/cgetopt/](https://github.com/xq114/cgetopt/) |
+| Versions | 1.0 |
+| Architectures | x64, x86 |
+| Definition | [cgetopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgetopt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cgetopt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgetopt")
+```
+
+
 ### chipmunk2d (windows)
 
 

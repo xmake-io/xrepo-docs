@@ -142,6 +142,29 @@ add_requires("catch2")
 ```
 
 
+### cgetopt (android)
+
+
+| Description | *A GNU getopt() implementation written in pure C.* |
+| -- | -- |
+| Homepage | [https://github.com/xq114/cgetopt/](https://github.com/xq114/cgetopt/) |
+| Versions | 1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cgetopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgetopt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cgetopt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgetopt")
+```
+
+
 ### chipmunk2d (android)
 
 
@@ -1246,6 +1269,31 @@ xrepo install -p android [--ndk=/xxx] tmxparser
 
 ```lua
 add_requires("tmxparser")
+```
+
+
+
+## x
+### xhook (android)
+
+
+| Description | *PLT (Procedure Linkage Table) hook library for Android native ELF (executable and shared libraries)* |
+| -- | -- |
+| Homepage | [https://github.com/iqiyi/xHook](https://github.com/iqiyi/xHook) |
+| Versions | v1.2.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [xhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xhook/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] xhook
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xhook")
 ```
 
 
