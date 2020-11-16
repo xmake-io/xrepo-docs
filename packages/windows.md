@@ -748,6 +748,30 @@ add_requires("freetype")
 
 
 ## g
+### giflib (windows)
+
+
+| Description | *A library for reading and writing gif images.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/giflib/](https://sourceforge.net/projects/giflib/) |
+| License | MIT |
+| Versions | 5.2.1 |
+| Architectures | x64, x86 |
+| Definition | [giflib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/giflib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install giflib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("giflib")
+```
+
+
 ### glew (windows)
 
 
@@ -1397,6 +1421,30 @@ xrepo install libuv
 
 ```lua
 add_requires("libuv")
+```
+
+
+### libwebp (windows)
+
+
+| Description | *Library to encode and decode images in WebP format.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/webm/libwebp/](https://chromium.googlesource.com/webm/libwebp/) |
+| License | BSD-3-Clause |
+| Versions | 1.1.0 |
+| Architectures | x64, x86 |
+| Definition | [libwebp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libwebp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libwebp")
 ```
 
 

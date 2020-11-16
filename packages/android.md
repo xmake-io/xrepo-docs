@@ -378,6 +378,30 @@ add_requires("fmt")
 
 
 ## g
+### giflib (android)
+
+
+| Description | *A library for reading and writing gif images.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/giflib/](https://sourceforge.net/projects/giflib/) |
+| License | MIT |
+| Versions | 5.2.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [giflib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/giflib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] giflib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("giflib")
+```
+
+
 ### glm (android)
 
 

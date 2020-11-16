@@ -840,6 +840,30 @@ add_requires("gettext")
 ```
 
 
+### giflib (linux)
+
+
+| Description | *A library for reading and writing gif images.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/giflib/](https://sourceforge.net/projects/giflib/) |
+| License | MIT |
+| Versions | 5.2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [giflib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/giflib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install giflib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("giflib")
+```
+
+
 ### glew (linux)
 
 
@@ -1882,6 +1906,30 @@ xrepo install libuv
 
 ```lua
 add_requires("libuv")
+```
+
+
+### libwebp (linux)
+
+
+| Description | *Library to encode and decode images in WebP format.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/webm/libwebp/](https://chromium.googlesource.com/webm/libwebp/) |
+| License | BSD-3-Clause |
+| Versions | 1.1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libwebp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libwebp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libwebp")
 ```
 
 
