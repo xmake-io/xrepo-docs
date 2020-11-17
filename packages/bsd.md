@@ -165,6 +165,30 @@ add_requires("cgetopt")
 ```
 
 
+### clara (bsd)
+
+
+| Description | *A simple to use, composable, command line parser for C++ 11 and beyond.* |
+| -- | -- |
+| Homepage | [https://github.com/catchorg/Clara](https://github.com/catchorg/Clara) |
+| License | BSL-1.0 |
+| Versions | 1.1.5 |
+| Architectures | i386, x86_64 |
+| Definition | [clara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clara/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clara
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clara")
+```
+
+
 ### cmake (bsd)
 
 
@@ -544,6 +568,30 @@ xrepo install luajit
 
 ```lua
 add_requires("luajit")
+```
+
+
+### lyra (bsd)
+
+
+| Description | *A simple to use, composable, command line parser for C++ 11 and beyond* |
+| -- | -- |
+| Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
+| License | BSL-1.0 |
+| Versions | 1.5.1 |
+| Architectures | i386, x86_64 |
+| Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lyra
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lyra")
 ```
 
 

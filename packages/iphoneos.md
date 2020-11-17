@@ -211,6 +211,30 @@ add_requires("cjson")
 ```
 
 
+### clara (iphoneos)
+
+
+| Description | *A simple to use, composable, command line parser for C++ 11 and beyond.* |
+| -- | -- |
+| Homepage | [https://github.com/catchorg/Clara](https://github.com/catchorg/Clara) |
+| License | BSL-1.0 |
+| Versions | 1.1.5 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [clara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clara/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos clara
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clara")
+```
+
+
 ### cmake (iphoneos)
 
 
@@ -871,6 +895,30 @@ add_requires("luajit")
 ```
 
 
+### lyra (iphoneos)
+
+
+| Description | *A simple to use, composable, command line parser for C++ 11 and beyond* |
+| -- | -- |
+| Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
+| License | BSL-1.0 |
+| Versions | 1.5.1 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos lyra
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lyra")
+```
+
+
 
 ## m
 ### m4 (iphoneos)
@@ -1271,6 +1319,30 @@ xrepo install -p iphoneos tbox
 
 ```lua
 add_requires("tbox")
+```
+
+
+### tinyobjloader (iphoneos)
+
+
+| Description | *Tiny but powerful single file wavefront obj loader* |
+| -- | -- |
+| Homepage | [https://github.com/tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) |
+| License | MIT |
+| Versions | 1.0.7 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [tinyobjloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyobjloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos tinyobjloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyobjloader")
 ```
 
 

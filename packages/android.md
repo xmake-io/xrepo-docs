@@ -234,6 +234,30 @@ add_requires("cjson")
 ```
 
 
+### clara (android)
+
+
+| Description | *A simple to use, composable, command line parser for C++ 11 and beyond.* |
+| -- | -- |
+| Homepage | [https://github.com/catchorg/Clara](https://github.com/catchorg/Clara) |
+| License | BSL-1.0 |
+| Versions | 1.1.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [clara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clara/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] clara
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clara")
+```
+
+
 ### cmake (android)
 
 
@@ -870,6 +894,30 @@ add_requires("luajit")
 ```
 
 
+### lyra (android)
+
+
+| Description | *A simple to use, composable, command line parser for C++ 11 and beyond* |
+| -- | -- |
+| Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
+| License | BSL-1.0 |
+| Versions | 1.5.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] lyra
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lyra")
+```
+
+
 
 ## m
 ### m4 (android)
@@ -1270,6 +1318,30 @@ xrepo install -p android [--ndk=/xxx] tbox
 
 ```lua
 add_requires("tbox")
+```
+
+
+### tinyobjloader (android)
+
+
+| Description | *Tiny but powerful single file wavefront obj loader* |
+| -- | -- |
+| Homepage | [https://github.com/tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) |
+| License | MIT |
+| Versions | 1.0.7 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tinyobjloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyobjloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tinyobjloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyobjloader")
 ```
 
 

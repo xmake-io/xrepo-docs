@@ -142,6 +142,30 @@ add_requires("cgetopt")
 ```
 
 
+### clara (cross)
+
+
+| Description | *A simple to use, composable, command line parser for C++ 11 and beyond.* |
+| -- | -- |
+| Homepage | [https://github.com/catchorg/Clara](https://github.com/catchorg/Clara) |
+| License | BSL-1.0 |
+| Versions | 1.1.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [clara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clara/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] clara
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clara")
+```
+
+
 ### cmake (cross)
 
 
@@ -568,6 +592,30 @@ xrepo install -p cross [--sdk=/xxx] libtool
 
 ```lua
 add_requires("libtool")
+```
+
+
+### lyra (cross)
+
+
+| Description | *A simple to use, composable, command line parser for C++ 11 and beyond* |
+| -- | -- |
+| Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
+| License | BSL-1.0 |
+| Versions | 1.5.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] lyra
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lyra")
 ```
 
 
