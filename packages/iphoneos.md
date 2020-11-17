@@ -96,6 +96,29 @@ add_requires("binutils")
 
 
 ## c
+### capstone (iphoneos)
+
+
+| Description | *Disassembly framework with the target of becoming the ultimate disasm engine for binary analysis and reversing in the security community.* |
+| -- | -- |
+| Homepage | [http://www.capstone-engine.org](http://www.capstone-engine.org) |
+| Versions | 4.0.2 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [capstone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capstone/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos capstone
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("capstone")
+```
+
+
 ### catch2 (iphoneos)
 
 

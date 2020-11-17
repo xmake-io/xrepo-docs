@@ -372,6 +372,29 @@ add_requires("cairo")
 ```
 
 
+### capstone (linux)
+
+
+| Description | *Disassembly framework with the target of becoming the ultimate disasm engine for binary analysis and reversing in the security community.* |
+| -- | -- |
+| Homepage | [http://www.capstone-engine.org](http://www.capstone-engine.org) |
+| Versions | 4.0.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [capstone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capstone/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install capstone
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("capstone")
+```
+
+
 ### catch2 (linux)
 
 
@@ -2446,7 +2469,7 @@ add_requires("lief")
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
-| Versions | 5.1.5, 5.2.4, 5.3.5 |
+| Versions | 5.1.5, 5.2.4, 5.3.6, 5.4.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
