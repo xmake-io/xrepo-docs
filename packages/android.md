@@ -1108,6 +1108,30 @@ add_requires("patch")
 ```
 
 
+### piex (android)
+
+
+| Description | *Preview Image Extractor (PIEX)* |
+| -- | -- |
+| Homepage | [https://github.com/google/piex](https://github.com/google/piex) |
+| License | Apache-2.0 |
+| Versions | 20190530 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [piex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/piex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] piex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("piex")
+```
+
+
 ### pkg-config (android)
 
 

@@ -1109,6 +1109,30 @@ add_requires("patch")
 ```
 
 
+### piex (iphoneos)
+
+
+| Description | *Preview Image Extractor (PIEX)* |
+| -- | -- |
+| Homepage | [https://github.com/google/piex](https://github.com/google/piex) |
+| License | Apache-2.0 |
+| Versions | 20190530 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [piex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/piex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos piex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("piex")
+```
+
+
 ### pkg-config (iphoneos)
 
 
