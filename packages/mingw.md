@@ -1057,6 +1057,29 @@ add_requires("lyra")
 ```
 
 
+### lz4 (mingw)
+
+
+| Description | *LZ4 - Extremely fast compression* |
+| -- | -- |
+| Homepage | [https://www.lz4.org/](https://www.lz4.org/) |
+| Versions | v1.9.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [lz4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lz4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] lz4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lz4")
+```
+
+
 
 ## m
 ### m4 (mingw)

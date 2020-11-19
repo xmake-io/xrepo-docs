@@ -919,6 +919,29 @@ add_requires("lyra")
 ```
 
 
+### lz4 (iphoneos)
+
+
+| Description | *LZ4 - Extremely fast compression* |
+| -- | -- |
+| Homepage | [https://www.lz4.org/](https://www.lz4.org/) |
+| Versions | v1.9.3 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [lz4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lz4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos lz4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lz4")
+```
+
+
 
 ## m
 ### m4 (iphoneos)
