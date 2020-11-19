@@ -1120,4 +1120,27 @@ add_requires("zlib")
 ```
 
 
+### zstd (cross)
+
+
+| Description | *Zstandard - Fast real-time compression algorithm* |
+| -- | -- |
+| Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
+| Versions | v1.4.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] zstd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zstd")
+```
+
+
 

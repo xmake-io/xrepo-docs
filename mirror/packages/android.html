@@ -2245,6 +2245,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("zlib")
 </code></pre>
+<h3 id="zstdandroid">zstd (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Zstandard - Fast real-time compression algorithm</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.zstd.net/">https://www.zstd.net/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.4.5</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua">zstd/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] zstd
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("zstd")
+</code></pre>
 </article>
 </body>
 </html>

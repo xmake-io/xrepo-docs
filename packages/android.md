@@ -1513,4 +1513,27 @@ add_requires("zlib")
 ```
 
 
+### zstd (android)
+
+
+| Description | *Zstandard - Fast real-time compression algorithm* |
+| -- | -- |
+| Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
+| Versions | v1.4.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] zstd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zstd")
+```
+
+
 

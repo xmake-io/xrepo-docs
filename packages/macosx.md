@@ -3803,4 +3803,27 @@ add_requires("zlib")
 ```
 
 
+### zstd (macosx)
+
+
+| Description | *Zstandard - Fast real-time compression algorithm* |
+| -- | -- |
+| Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
+| Versions | v1.4.5 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zstd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zstd")
+```
+
+
 
