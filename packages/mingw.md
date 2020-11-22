@@ -589,6 +589,29 @@ add_requires("hopscotch-map")
 ```
 
 
+### http_parser (mingw)
+
+
+| Description | *Parser for HTTP messages written in C.* |
+| -- | -- |
+| Homepage | [https://github.com/nodejs/http-parser](https://github.com/nodejs/http-parser) |
+| Versions | v2.9.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [http_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/http_parser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] http_parser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("http_parser")
+```
+
+
 
 ## i
 ### imgui (mingw)
@@ -705,6 +728,31 @@ xrepo install -p mingw [--mingw=/xxx] jsoncpp
 
 ```lua
 add_requires("jsoncpp")
+```
+
+
+
+## k
+### kcp (mingw)
+
+
+| Description | *A Fast and Reliable ARQ Protocol.* |
+| -- | -- |
+| Homepage | [https://github.com/skywind3000/kcp](https://github.com/skywind3000/kcp) |
+| Versions | 1.7 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [kcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kcp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] kcp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kcp")
 ```
 
 
@@ -1182,7 +1230,7 @@ add_requires("nasm")
 | Description | *Small build system for use with gyp or CMake.* |
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
-| Versions | 1.9.0 |
+| Versions | 1.10.1, 1.9.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
@@ -1463,7 +1511,7 @@ add_requires("python")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.15 |
+| Versions | 2.7.15, 2.7.18 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [python2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python2/xmake.lua) |
 
