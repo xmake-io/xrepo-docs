@@ -1503,6 +1503,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("glm")
 </code></pre>
+<h3 id="glslangmacosx">glslang (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/glslang/">https://github.com/KhronosGroup/glslang/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.2.154+1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua">glslang/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install glslang
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glslang")
+</code></pre>
 <h3 id="gmmmacosx">gmm (macosx)</h3>
 <table>
 <thead>
@@ -3887,7 +3924,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.50.1</td>
+<td>0.50.1, 0.56.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4686,7 +4723,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.7.15, 3.7.0</td>
+<td>2.7.15, 2.7.18, 3.7.0, 3.8.1, 3.8.5</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4973,6 +5010,80 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("spdlog")
+</code></pre>
+<h3 id="spirvheadersmacosx">spirv-headers (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SPIR-V Headers</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/SPIRV-Headers/">https://github.com/KhronosGroup/SPIRV-Headers/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.5.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua">spirv-headers/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install spirv-headers
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("spirv-headers")
+</code></pre>
+<h3 id="spirvtoolsmacosx">spirv-tools (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SPIR-V Tools</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/SPIRV-Tools/">https://github.com/KhronosGroup/SPIRV-Tools/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2020.5</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua">spirv-tools/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install spirv-tools
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("spirv-tools")
 </code></pre>
 <h3 id="sqlite3macosx">sqlite3 (macosx)</h3>
 <table>

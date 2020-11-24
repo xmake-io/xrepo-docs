@@ -1043,7 +1043,7 @@ add_requires("make")
 | Description | *Fast and user friendly build system.* |
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
-| Versions | 0.50.1 |
+| Versions | 0.50.1, 0.56.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -1278,7 +1278,7 @@ add_requires("pybind11")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.15, 3.7.0 |
+| Versions | 2.7.15, 2.7.18, 3.7.0, 3.8.1, 3.8.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 

@@ -913,6 +913,30 @@ add_requires("glm")
 ```
 
 
+### glslang (windows)
+
+
+| Description | *Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1 |
+| Architectures | x64, x86 |
+| Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glslang
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glslang")
+```
+
+
 ### gmm (windows)
 
 
@@ -1807,7 +1831,7 @@ add_requires("make")
 | Description | *Fast and user friendly build system.* |
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
-| Versions | 0.50.1 |
+| Versions | 0.50.1, 0.56.0 |
 | Architectures | x64, x86 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -2343,7 +2367,7 @@ add_requires("pybind11")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.15, 3.7.0 |
+| Versions | 2.7.15, 2.7.18, 3.7.0, 3.8.1, 3.8.5 |
 | Architectures | x64, x86 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
@@ -2546,6 +2570,54 @@ xrepo install spdlog
 
 ```lua
 add_requires("spdlog")
+```
+
+
+### spirv-headers (windows)
+
+
+| Description | *SPIR-V Headers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
+| License | MIT |
+| Versions | 1.5.4 |
+| Architectures | x64, x86 |
+| Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install spirv-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-headers")
+```
+
+
+### spirv-tools (windows)
+
+
+| Description | *SPIR-V Tools* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
+| License | Apache-2.0 |
+| Versions | 2020.5 |
+| Architectures | x64, x86 |
+| Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install spirv-tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-tools")
 ```
 
 
