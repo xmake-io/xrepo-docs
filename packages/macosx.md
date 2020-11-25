@@ -3427,6 +3427,30 @@ add_requires("spdlog")
 ```
 
 
+### spirv-cross (macosx)
+
+
+| Description | *SPIRV-Cross is a practical tool and library for performing reflection on SPIR-V and disassembling SPIR-V back to high level languages.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Cross/](https://github.com/KhronosGroup/SPIRV-Cross/) |
+| License | Apache-2.0 |
+| Versions | 2020.09.17 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [spirv-cross/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-cross/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install spirv-cross
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-cross")
+```
+
+
 ### spirv-headers (macosx)
 
 
@@ -3448,6 +3472,30 @@ xrepo install spirv-headers
 
 ```lua
 add_requires("spirv-headers")
+```
+
+
+### spirv-reflect (macosx)
+
+
+| Description | *SPIRV-Reflect is a lightweight library that provides a C/C++ reflection API for SPIR-V shader bytecode in Vulkan applications.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Reflect](https://github.com/KhronosGroup/SPIRV-Reflect) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [spirv-reflect/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-reflect/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install spirv-reflect
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-reflect")
 ```
 
 
@@ -3707,6 +3755,32 @@ xrepo install util-macros
 
 ```lua
 add_requires("util-macros")
+```
+
+
+
+## v
+### vulkan-headers (macosx)
+
+
+| Description | *Vulkan Header files and API registry* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-headers")
 ```
 
 
