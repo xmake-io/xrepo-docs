@@ -188,6 +188,30 @@ add_requires("cgetopt")
 ```
 
 
+### chaiscript (android)
+
+
+| Description | *Header-only C++ embedded scripting language loosely based on ECMA script.* |
+| -- | -- |
+| Homepage | [http://chaiscript.com](http://chaiscript.com) |
+| License | BSD-3-Clause |
+| Versions | v6.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [chaiscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chaiscript/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] chaiscript
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("chaiscript")
+```
+
+
 ### chipmunk2d (android)
 
 
