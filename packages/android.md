@@ -787,6 +787,7 @@ add_requires("libogg")
 | Description | *The official PNG reference library* |
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
+| License | libpng-2.0 |
 | Versions | v1.6.34, v1.6.35, v1.6.36 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
