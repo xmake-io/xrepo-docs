@@ -400,6 +400,29 @@ add_requires("doctest")
 
 
 ## f
+### fltk (mingw)
+
+
+| Description | *Fast Light Toolkit* |
+| -- | -- |
+| Homepage | [https://www.fltk.org](https://www.fltk.org) |
+| Versions | 1.4.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [fltk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fltk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] fltk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fltk")
+```
+
+
 ### fmt (mingw)
 
 

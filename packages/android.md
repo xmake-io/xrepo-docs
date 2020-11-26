@@ -424,6 +424,29 @@ add_requires("ffmpeg")
 ```
 
 
+### fltk (android)
+
+
+| Description | *Fast Light Toolkit* |
+| -- | -- |
+| Homepage | [https://www.fltk.org](https://www.fltk.org) |
+| Versions | 1.4.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [fltk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fltk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] fltk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fltk")
+```
+
+
 ### fmt (android)
 
 

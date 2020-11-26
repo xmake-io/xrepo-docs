@@ -796,6 +796,29 @@ add_requires("fftw")
 ```
 
 
+### fltk (macosx)
+
+
+| Description | *Fast Light Toolkit* |
+| -- | -- |
+| Homepage | [https://www.fltk.org](https://www.fltk.org) |
+| Versions | 1.4.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [fltk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fltk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fltk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fltk")
+```
+
+
 ### fmt (macosx)
 
 

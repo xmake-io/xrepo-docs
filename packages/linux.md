@@ -819,6 +819,29 @@ add_requires("fftw")
 ```
 
 
+### fltk (linux)
+
+
+| Description | *Fast Light Toolkit* |
+| -- | -- |
+| Homepage | [https://www.fltk.org](https://www.fltk.org) |
+| Versions | 1.4.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fltk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fltk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fltk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fltk")
+```
+
+
 ### fmt (linux)
 
 
