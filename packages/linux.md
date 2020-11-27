@@ -2407,7 +2407,8 @@ add_requires("libxmake")
 | Description | *The XML C parser and toolkit of Gnome.* |
 | -- | -- |
 | Homepage | [http://xmlsoft.org/](http://xmlsoft.org/) |
-| Versions | 2.9.9 |
+| License | MIT |
+| Versions | 2.9.10, 2.9.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxml2/xmake.lua) |
 
