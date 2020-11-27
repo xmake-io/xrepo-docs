@@ -3948,6 +3948,32 @@ add_requires("vulkan-headers")
 
 
 
+## w
+### wayland (linux)
+
+
+| Description | *Wayland is a protocol for a compositor to talk to its clients as well as a C library implementation of that protocol.* |
+| -- | -- |
+| Homepage | [https://wayland.freedesktop.org/](https://wayland.freedesktop.org/) |
+| License | MIT |
+| Versions | 1.18.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [wayland/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wayland
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wayland")
+```
+
+
+
 ## x
 ### x264 (linux)
 
