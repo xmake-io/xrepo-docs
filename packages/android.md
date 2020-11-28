@@ -519,6 +519,29 @@ add_requires("glm")
 ```
 
 
+### gn (android)
+
+
+| Description | *GN is a meta-build system that generates build files for Ninja.* |
+| -- | -- |
+| Homepage | [https://gn.googlesource.com/gn](https://gn.googlesource.com/gn) |
+| Versions | 20201128 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [gn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gn/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] gn
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gn")
+```
+
+
 ### gtest (android)
 
 
@@ -1109,6 +1132,30 @@ add_requires("meson")
 ```
 
 
+### mimalloc (android)
+
+
+| Description | *mimalloc (pronounced 'me-malloc') is a general purpose allocator with excellent performance characteristics.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
+| License | MIT |
+| Versions | 1.6.7 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mimalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mimalloc")
+```
+
+
 ### moonjit (android)
 
 
@@ -1140,7 +1187,8 @@ add_requires("moonjit")
 | Description | *Netwide Assembler (NASM) is an 80x86 assembler.* |
 | -- | -- |
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
-| Versions | 2.13.03 |
+| License | BSD-2-Clause |
+| Versions | 2.13.03, 2.15.05 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 

@@ -1007,6 +1007,29 @@ add_requires("gmm")
 ```
 
 
+### gn (windows)
+
+
+| Description | *GN is a meta-build system that generates build files for Ninja.* |
+| -- | -- |
+| Homepage | [https://gn.googlesource.com/gn](https://gn.googlesource.com/gn) |
+| Versions | 20201128 |
+| Architectures | x64, x86 |
+| Definition | [gn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gn/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gn
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gn")
+```
+
+
 ### go (windows)
 
 
@@ -1126,6 +1149,29 @@ add_requires("http_parser")
 
 
 ## i
+### icu4c (windows)
+
+
+| Description | *C/C++ libraries for Unicode and globalization.* |
+| -- | -- |
+| Homepage | [http://site.icu-project.org/](http://site.icu-project.org/) |
+| Versions | 64.2, 68.1 |
+| Architectures | x64, x86 |
+| Definition | [icu4c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icu4c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install icu4c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("icu4c")
+```
+
+
 ### imgui (windows)
 
 
@@ -1336,6 +1382,30 @@ xrepo install libjpeg
 
 ```lua
 add_requires("libjpeg")
+```
+
+
+### libjpeg-turbo (windows)
+
+
+| Description | *A JPEG image codec that uses SIMD instructions (MMX, SSE2, AVX2, Neon, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, Arm, and PowerPC systems.* |
+| -- | -- |
+| Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
+| License | BSD-3-Clause |
+| Versions | 2.0.5, 2.0.6 |
+| Architectures | x64, x86 |
+| Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libjpeg-turbo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libjpeg-turbo")
 ```
 
 
@@ -1926,6 +1996,7 @@ add_requires("mhook")
 | Description | *mimalloc (pronounced 'me-malloc') is a general purpose allocator with excellent performance characteristics.* |
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
+| License | MIT |
 | Versions | 1.6.7 |
 | Architectures | x64, x86 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
@@ -1997,7 +2068,8 @@ add_requires("nana")
 | Description | *Netwide Assembler (NASM) is an 80x86 assembler.* |
 | -- | -- |
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
-| Versions | 2.13.03 |
+| License | BSD-2-Clause |
+| Versions | 2.13.03, 2.15.05 |
 | Architectures | x64, x86 |
 | Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 

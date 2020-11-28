@@ -1709,6 +1709,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("gmm")
 </code></pre>
+<h3 id="gnlinux">gn (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>GN is a meta-build system that generates build files for Ninja.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://gn.googlesource.com/gn">https://gn.googlesource.com/gn</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>20201128</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gn/xmake.lua">gn/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install gn
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gn")
+</code></pre>
 <h3 id="gnusedlinux">gnu-sed (linux)</h3>
 <table>
 <thead>
@@ -1957,11 +1990,11 @@
 <tbody>
 <tr>
 <td>Homepage</td>
-<td><a href="https://ssl.icu-project.org/">https://ssl.icu-project.org/</a></td>
+<td><a href="http://site.icu-project.org/">http://site.icu-project.org/</a></td>
 </tr>
 <tr>
 <td>Versions</td>
-<td>64.2</td>
+<td>64.2, 68.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -2443,6 +2476,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libjpeg")
+</code></pre>
+<h3 id="libjpegturbolinux">libjpeg-turbo (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A JPEG image codec that uses SIMD instructions (MMX, SSE2, AVX2, Neon, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, Arm, and PowerPC systems.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://libjpeg-turbo.org/">https://libjpeg-turbo.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.0.5, 2.0.6</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua">libjpeg-turbo/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libjpeg-turbo
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libjpeg-turbo")
 </code></pre>
 <h3 id="libmilllinux">libmill (linux)</h3>
 <table>
@@ -4166,6 +4236,10 @@
 <td><a href="https://github.com/microsoft/mimalloc">https://github.com/microsoft/mimalloc</a></td>
 </tr>
 <tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
 <td>Versions</td>
 <td>1.6.7</td>
 </tr>
@@ -4332,8 +4406,12 @@
 <td><a href="https://www.nasm.us/">https://www.nasm.us/</a></td>
 </tr>
 <tr>
+<td>License</td>
+<td>BSD-2-Clause</td>
+</tr>
+<tr>
 <td>Versions</td>
-<td>2.13.03</td>
+<td>2.13.03, 2.15.05</td>
 </tr>
 <tr>
 <td>Architectures</td>
