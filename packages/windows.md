@@ -2625,6 +2625,29 @@ add_requires("sfml")
 ```
 
 
+### sfntly (windows)
+
+
+| Description | *The sfntly project contains Java and C++ libraries for reading, editing, and writing sfnt container fonts (OpenType, TrueType, AAT/GX, and Graphite.)* |
+| -- | -- |
+| Homepage | [https://github.com/googlefonts/sfntly](https://github.com/googlefonts/sfntly) |
+| Versions | 20190917 |
+| Architectures | x64, x86 |
+| Definition | [sfntly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfntly/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sfntly
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sfntly")
+```
+
+
 ### skia (windows)
 
 

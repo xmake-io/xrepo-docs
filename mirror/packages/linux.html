@@ -1709,6 +1709,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("gmm")
 </code></pre>
+<h3 id="gmplinux">gmp (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://gmplib.org/">https://gmplib.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>6.2.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmp/xmake.lua">gmp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install gmp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gmp")
+</code></pre>
 <h3 id="gnlinux">gn (linux)</h3>
 <table>
 <thead>
@@ -3017,6 +3054,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libtask")
 </code></pre>
+<h3 id="libtasn1linux">libtasn1 (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Libtasn1 is the ASN.1 library used by GnuTLS, p11-kit and some other packages.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.gnu.org/software/libtasn1/">https://www.gnu.org/software/libtasn1/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>4.15.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtasn1/xmake.lua">libtasn1/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libtasn1
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libtasn1")
+</code></pre>
 <h3 id="libtifflinux">libtiff (linux)</h3>
 <table>
 <thead>
@@ -3333,7 +3407,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.13.1</td>
+<td>1.13.1, 1.14</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4462,6 +4536,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ncurses")
 </code></pre>
+<h3 id="nettlelinux">nettle (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Nettle is a cryptographic library that is designed to fit easily in more or less any context.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.lysator.liu.se/~nisse/nettle/">https://www.lysator.liu.se/~nisse/nettle/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.6</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nettle/xmake.lua">nettle/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install nettle
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("nettle")
+</code></pre>
 <h3 id="ninjalinux">ninja (linux)</h3>
 <table>
 <thead>
@@ -5233,6 +5344,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("sfml")
 </code></pre>
+<h3 id="sfntlylinux">sfntly (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The sfntly project contains Java and C++ libraries for reading, editing, and writing sfnt container fonts (OpenType, TrueType, AAT/GX, and Graphite.)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/googlefonts/sfntly">https://github.com/googlefonts/sfntly</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>20190917</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfntly/xmake.lua">sfntly/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install sfntly
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("sfntly")
+</code></pre>
 <h3 id="skialinux">skia (linux)</h3>
 <table>
 <thead>
@@ -5974,7 +6118,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.13</td>
+<td>1.13, 1.14</td>
 </tr>
 <tr>
 <td>Architectures</td>

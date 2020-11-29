@@ -1076,6 +1076,30 @@ add_requires("gmm")
 ```
 
 
+### gmp (macosx)
+
+
+| Description | *GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.* |
+| -- | -- |
+| Homepage | [https://gmplib.org/](https://gmplib.org/) |
+| License | LGPL-3.0 |
+| Versions | 6.2.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [gmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gmp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gmp")
+```
+
+
 ### gn (macosx)
 
 
@@ -1941,6 +1965,30 @@ add_requires("libtask")
 ```
 
 
+### libtasn1 (macosx)
+
+
+| Description | *Libtasn1 is the ASN.1 library used by GnuTLS, p11-kit and some other packages.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libtasn1/](https://www.gnu.org/software/libtasn1/) |
+| License | LGPL-2.1 |
+| Versions | 4.15.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libtasn1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtasn1/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libtasn1
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtasn1")
+```
+
+
 ### libtiff (macosx)
 
 
@@ -2155,7 +2203,7 @@ add_requires("libxau")
 | Description | *X.Org: Interface to the X Window System protocol* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.13.1 |
+| Versions | 1.13.1, 1.14 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libxcb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcb/xmake.lua) |
 
@@ -2917,6 +2965,30 @@ add_requires("ncurses")
 ```
 
 
+### nettle (macosx)
+
+
+| Description | *Nettle is a cryptographic library that is designed to fit easily in more or less any context.* |
+| -- | -- |
+| Homepage | [https://www.lysator.liu.se/~nisse/nettle/](https://www.lysator.liu.se/~nisse/nettle/) |
+| License | LGPL-3.0 |
+| Versions | 3.6 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [nettle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nettle/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nettle
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nettle")
+```
+
+
 ### ninja (macosx)
 
 
@@ -3456,6 +3528,29 @@ add_requires("sfml")
 ```
 
 
+### sfntly (macosx)
+
+
+| Description | *The sfntly project contains Java and C++ libraries for reading, editing, and writing sfnt container fonts (OpenType, TrueType, AAT/GX, and Graphite.)* |
+| -- | -- |
+| Homepage | [https://github.com/googlefonts/sfntly](https://github.com/googlefonts/sfntly) |
+| Versions | 20190917 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [sfntly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfntly/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sfntly
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sfntly")
+```
+
+
 ### skia (macosx)
 
 
@@ -3936,7 +4031,7 @@ add_requires("x265")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.13 |
+| Versions | 1.13, 1.14 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [xcb-proto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-proto/xmake.lua) |
 
