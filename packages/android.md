@@ -1061,6 +1061,30 @@ add_requires("lz4")
 ```
 
 
+### lzo (android)
+
+
+| Description | *LZO is a portable lossless data compression library written in ANSI C.* |
+| -- | -- |
+| Homepage | [http://www.oberhumer.com/opensource/lzo](http://www.oberhumer.com/opensource/lzo) |
+| License | GPL-2.0 |
+| Versions | 2.10 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [lzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] lzo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lzo")
+```
+
+
 
 ## m
 ### m4 (android)

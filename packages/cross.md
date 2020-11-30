@@ -713,6 +713,30 @@ add_requires("lz4")
 ```
 
 
+### lzo (cross)
+
+
+| Description | *LZO is a portable lossless data compression library written in ANSI C.* |
+| -- | -- |
+| Homepage | [http://www.oberhumer.com/opensource/lzo](http://www.oberhumer.com/opensource/lzo) |
+| License | GPL-2.0 |
+| Versions | 2.10 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [lzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] lzo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lzo")
+```
+
+
 
 ## m
 ### m4 (cross)

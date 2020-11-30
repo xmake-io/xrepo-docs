@@ -2729,6 +2729,30 @@ add_requires("lz4")
 ```
 
 
+### lzo (macosx)
+
+
+| Description | *LZO is a portable lossless data compression library written in ANSI C.* |
+| -- | -- |
+| Homepage | [http://www.oberhumer.com/opensource/lzo](http://www.oberhumer.com/opensource/lzo) |
+| License | GPL-2.0 |
+| Versions | 2.10 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [lzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lzo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lzo")
+```
+
+
 
 ## m
 ### m4 (macosx)
@@ -4100,7 +4124,7 @@ add_requires("xtrans")
 | Description | *General-purpose data compression with high compression ratio.* |
 | -- | -- |
 | Homepage | [https://tukaani.org/xz/](https://tukaani.org/xz/) |
-| Versions | 5.2.4 |
+| Versions | 5.2.5 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [xz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz/xmake.lua) |
 
