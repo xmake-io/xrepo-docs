@@ -1456,6 +1456,30 @@ add_requires("kcp")
 
 
 ## l
+### lcms (macosx)
+
+
+| Description | *A free, open source, CMM engine.* |
+| -- | -- |
+| Homepage | [https://www.littlecms.com/](https://www.littlecms.com/) |
+| License | MIT |
+| Versions | 2.11 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [lcms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lcms/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lcms
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lcms")
+```
+
+
 ### leveldb (macosx)
 
 
@@ -1718,7 +1742,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -2726,6 +2750,29 @@ xrepo install lz4
 
 ```lua
 add_requires("lz4")
+```
+
+
+### lzma (macosx)
+
+
+| Description | *LZMA SDK* |
+| -- | -- |
+| Homepage | [https://www.7-zip.org/sdk.html](https://www.7-zip.org/sdk.html) |
+| Versions | 19.00 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [lzma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lzma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lzma")
 ```
 
 
@@ -4008,7 +4055,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | v1.2.154, v1.2.162 |
+| Versions | 1.2.154+0, v1.2.154, v1.2.162 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
