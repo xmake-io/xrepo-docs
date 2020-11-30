@@ -3977,6 +3977,30 @@ add_requires("util-macros")
 
 
 ## v
+### volk (macosx)
+
+
+| Description | *volk is a meta-loader for Vulkan* |
+| -- | -- |
+| Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
+| License | MIT |
+| Versions | 1.2.162 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install volk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("volk")
+```
+
+
 ### vulkan-headers (macosx)
 
 
