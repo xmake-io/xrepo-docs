@@ -706,6 +706,30 @@ add_requires("inja")
 ```
 
 
+### ip2region (mingw)
+
+
+| Description | *IP address region search library.* |
+| -- | -- |
+| Homepage | [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) |
+| License | Apache-2.0 |
+| Versions | v2020.10.31 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [ip2region/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ip2region/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ip2region
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ip2region")
+```
+
+
 ### irrXML (mingw)
 
 
@@ -1266,6 +1290,30 @@ xrepo install -p mingw [--mingw=/xxx] meson
 
 ```lua
 add_requires("meson")
+```
+
+
+### minhook (mingw)
+
+
+| Description | *The Minimalistic x86/x64 API Hooking Library for Windows.* |
+| -- | -- |
+| Homepage | [https://github.com/TsudaKageyu/minhook](https://github.com/TsudaKageyu/minhook) |
+| License | BSD-2-Clause |
+| Versions | v1.3.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [minhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minhook/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] minhook
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minhook")
 ```
 
 

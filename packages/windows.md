@@ -677,6 +677,30 @@ add_requires("doctest")
 
 
 ## e
+### eabase (windows)
+
+
+| Description | *EABase is a small set of header files that define platform-independent data types and platform feature macros.* |
+| -- | -- |
+| Homepage | [https://github.com/electronicarts/EABase](https://github.com/electronicarts/EABase) |
+| License | BSD-3-Clause |
+| Versions | 2.09.06 |
+| Architectures | x64, x86 |
+| Definition | [eabase/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eabase/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install eabase
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eabase")
+```
+
+
 ### effcee (windows)
 
 
@@ -1215,6 +1239,30 @@ xrepo install inja
 
 ```lua
 add_requires("inja")
+```
+
+
+### ip2region (windows)
+
+
+| Description | *IP address region search library.* |
+| -- | -- |
+| Homepage | [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) |
+| License | Apache-2.0 |
+| Versions | v2020.10.31 |
+| Architectures | x64, x86 |
+| Definition | [ip2region/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ip2region/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ip2region
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ip2region")
 ```
 
 
@@ -2082,6 +2130,30 @@ xrepo install mimalloc
 
 ```lua
 add_requires("mimalloc")
+```
+
+
+### minhook (windows)
+
+
+| Description | *The Minimalistic x86/x64 API Hooking Library for Windows.* |
+| -- | -- |
+| Homepage | [https://github.com/TsudaKageyu/minhook](https://github.com/TsudaKageyu/minhook) |
+| License | BSD-2-Clause |
+| Versions | v1.3.3 |
+| Architectures | x64, x86 |
+| Definition | [minhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minhook/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install minhook
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minhook")
 ```
 
 

@@ -592,6 +592,30 @@ add_requires("inja")
 ```
 
 
+### ip2region (iphoneos)
+
+
+| Description | *IP address region search library.* |
+| -- | -- |
+| Homepage | [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) |
+| License | Apache-2.0 |
+| Versions | v2020.10.31 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [ip2region/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ip2region/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos ip2region
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ip2region")
+```
+
+
 ### irrXML (iphoneos)
 
 

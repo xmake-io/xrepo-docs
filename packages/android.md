@@ -684,6 +684,30 @@ add_requires("inja")
 ```
 
 
+### ip2region (android)
+
+
+| Description | *IP address region search library.* |
+| -- | -- |
+| Homepage | [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) |
+| License | Apache-2.0 |
+| Versions | v2020.10.31 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [ip2region/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ip2region/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ip2region
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ip2region")
+```
+
+
 ### irrXML (android)
 
 

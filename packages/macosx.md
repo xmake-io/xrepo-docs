@@ -654,6 +654,30 @@ add_requires("doctest")
 
 
 ## e
+### eabase (macosx)
+
+
+| Description | *EABase is a small set of header files that define platform-independent data types and platform feature macros.* |
+| -- | -- |
+| Homepage | [https://github.com/electronicarts/EABase](https://github.com/electronicarts/EABase) |
+| License | BSD-3-Clause |
+| Versions | 2.09.06 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [eabase/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eabase/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install eabase
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eabase")
+```
+
+
 ### effcee (macosx)
 
 
@@ -1332,6 +1356,30 @@ xrepo install inja
 
 ```lua
 add_requires("inja")
+```
+
+
+### ip2region (macosx)
+
+
+| Description | *IP address region search library.* |
+| -- | -- |
+| Homepage | [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) |
+| License | Apache-2.0 |
+| Versions | v2020.10.31 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [ip2region/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ip2region/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ip2region
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ip2region")
 ```
 
 
