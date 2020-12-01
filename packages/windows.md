@@ -604,6 +604,30 @@ add_requires("cpp-taskflow")
 ```
 
 
+### cpu-features (windows)
+
+
+| Description | *A cross platform C99 library to get cpu features at runtime.* |
+| -- | -- |
+| Homepage | [https://github.com/google/cpu_features](https://github.com/google/cpu_features) |
+| License | Apache-2.0 |
+| Versions | v0.6.0 |
+| Architectures | x64, x86 |
+| Definition | [cpu-features/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpu-features/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpu-features
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpu-features")
+```
+
+
 ### cxxopts (windows)
 
 
@@ -2343,6 +2367,30 @@ xrepo install openexr
 
 ```lua
 add_requires("openexr")
+```
+
+
+### openjpeg (windows)
+
+
+| Description | *OpenJPEG is an open-source JPEG 2000 codec written in C language.* |
+| -- | -- |
+| Homepage | [http://www.openjpeg.org/](http://www.openjpeg.org/) |
+| License | BSD-2-Clause |
+| Versions | 2.3.1 |
+| Architectures | x64, x86 |
+| Definition | [openjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openjpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openjpeg")
 ```
 
 

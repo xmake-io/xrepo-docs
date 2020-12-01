@@ -163,6 +163,30 @@ add_requires("binutils")
 ```
 
 
+### bison (macosx)
+
+
+| Description | *A general-purpose parser generator.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
+| License | GPL-3.0 |
+| Versions | 3.7.4 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bison
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bison")
+```
+
+
 ### blosc (macosx)
 
 
@@ -601,6 +625,30 @@ xrepo install cpp-taskflow
 
 ```lua
 add_requires("cpp-taskflow")
+```
+
+
+### cpu-features (macosx)
+
+
+| Description | *A cross platform C99 library to get cpu features at runtime.* |
+| -- | -- |
+| Homepage | [https://github.com/google/cpu_features](https://github.com/google/cpu_features) |
+| License | Apache-2.0 |
+| Versions | v0.6.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [cpu-features/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpu-features/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpu-features
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpu-features")
 ```
 
 
@@ -3222,6 +3270,30 @@ xrepo install openexr
 
 ```lua
 add_requires("openexr")
+```
+
+
+### openjpeg (macosx)
+
+
+| Description | *OpenJPEG is an open-source JPEG 2000 codec written in C language.* |
+| -- | -- |
+| Homepage | [http://www.openjpeg.org/](http://www.openjpeg.org/) |
+| License | BSD-2-Clause |
+| Versions | 2.3.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [openjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openjpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openjpeg")
 ```
 
 

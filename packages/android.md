@@ -351,6 +351,30 @@ add_requires("cpp-taskflow")
 ```
 
 
+### cpu-features (android)
+
+
+| Description | *A cross platform C99 library to get cpu features at runtime.* |
+| -- | -- |
+| Homepage | [https://github.com/google/cpu_features](https://github.com/google/cpu_features) |
+| License | Apache-2.0 |
+| Versions | v0.6.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cpu-features/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpu-features/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cpu-features
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpu-features")
+```
+
+
 ### cxxopts (android)
 
 
