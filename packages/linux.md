@@ -920,7 +920,7 @@ add_requires("fltk")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
-| Versions | 5.3.0, 6.0.0, 6.2.0 |
+| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -1052,6 +1052,30 @@ xrepo install giflib
 
 ```lua
 add_requires("giflib")
+```
+
+
+### glad (linux)
+
+
+| Description | *Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.* |
+| -- | -- |
+| Homepage | [https://glad.dav1d.de/](https://glad.dav1d.de/) |
+| License | MIT |
+| Versions | v0.1.34 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [glad/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glad/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glad
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glad")
 ```
 
 
@@ -4475,6 +4499,30 @@ add_requires("xz")
 
 
 ## y
+### yaml-cpp (linux)
+
+
+| Description | *A YAML parser and emitter in C++* |
+| -- | -- |
+| Homepage | [https://github.com/jbeder/yaml-cpp/](https://github.com/jbeder/yaml-cpp/) |
+| License | MIT |
+| Versions | 0.6.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [yaml-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install yaml-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yaml-cpp")
+```
+
+
 ### yasm (linux)
 
 
