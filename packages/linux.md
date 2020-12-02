@@ -749,6 +749,30 @@ add_requires("eabase")
 ```
 
 
+### eastl (linux)
+
+
+| Description | *EASTL stands for Electronic Arts Standard Template Library.* |
+| -- | -- |
+| Homepage | [https://github.com/electronicarts/EASTL](https://github.com/electronicarts/EASTL) |
+| License | BSD-3-Clause |
+| Versions | 3.17.03 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [eastl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eastl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install eastl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eastl")
+```
+
+
 ### effcee (linux)
 
 
@@ -989,7 +1013,7 @@ add_requires("freeglut")
 | Description | *A freely available software library to render fonts.* |
 | -- | -- |
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
-| Versions | 2.9.1 |
+| Versions | 2.10.4, 2.9.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 
@@ -1781,6 +1805,54 @@ xrepo install libffi
 
 ```lua
 add_requires("libffi")
+```
+
+
+### libgcrypt (linux)
+
+
+| Description | *Libgcrypt is a general purpose cryptographic library originally based on code from GnuPG.* |
+| -- | -- |
+| Homepage | [https://www.gnupg.org/related_software/libgcrypt/](https://www.gnupg.org/related_software/libgcrypt/) |
+| License | GPL-2.0 |
+| Versions | 1.8.7 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libgcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgcrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libgcrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgcrypt")
+```
+
+
+### libgpg-error (linux)
+
+
+| Description | *Libgpg-error is a small library that originally defined common error values for all GnuPG components.* |
+| -- | -- |
+| Homepage | [https://www.gnupg.org/related_software/libgpg-error/](https://www.gnupg.org/related_software/libgpg-error/) |
+| License | GPL-2.0 |
+| Versions | 1.39 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libgpg-error/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgpg-error/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libgpg-error
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgpg-error")
 ```
 
 
@@ -2614,6 +2686,30 @@ xrepo install libxinerama
 
 ```lua
 add_requires("libxinerama")
+```
+
+
+### libxkbcommon (linux)
+
+
+| Description | *keymap handling library for toolkits and window systems* |
+| -- | -- |
+| Homepage | [https://xkbcommon.org/](https://xkbcommon.org/) |
+| License | MIT |
+| Versions | 1.0.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libxkbcommon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxkbcommon/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxkbcommon
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxkbcommon")
 ```
 
 

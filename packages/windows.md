@@ -725,6 +725,30 @@ add_requires("eabase")
 ```
 
 
+### eastl (windows)
+
+
+| Description | *EASTL stands for Electronic Arts Standard Template Library.* |
+| -- | -- |
+| Homepage | [https://github.com/electronicarts/EASTL](https://github.com/electronicarts/EASTL) |
+| License | BSD-3-Clause |
+| Versions | 3.17.03 |
+| Architectures | x64, x86 |
+| Definition | [eastl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eastl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install eastl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eastl")
+```
+
+
 ### effcee (windows)
 
 
@@ -896,7 +920,7 @@ add_requires("freeglut")
 | Description | *A freely available software library to render fonts.* |
 | -- | -- |
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
-| Versions | 2.9.1 |
+| Versions | 2.10.4, 2.9.1 |
 | Architectures | x64, x86 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 
