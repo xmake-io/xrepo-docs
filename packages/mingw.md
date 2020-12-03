@@ -163,6 +163,29 @@ add_requires("box2d")
 ```
 
 
+### brotli (mingw)
+
+
+| Description | *Brotli compression format.* |
+| -- | -- |
+| Homepage | [https://github.com/google/brotli](https://github.com/google/brotli) |
+| Versions | 1.0.9 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [brotli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brotli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] brotli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brotli")
+```
+
+
 
 ## c
 ### capstone (mingw)

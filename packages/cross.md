@@ -94,6 +94,29 @@ add_requires("binutils")
 ```
 
 
+### brotli (cross)
+
+
+| Description | *Brotli compression format.* |
+| -- | -- |
+| Homepage | [https://github.com/google/brotli](https://github.com/google/brotli) |
+| Versions | 1.0.9 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [brotli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brotli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] brotli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brotli")
+```
+
+
 
 ## c
 ### catch2 (cross)

@@ -94,6 +94,29 @@ add_requires("binutils")
 ```
 
 
+### brotli (iphoneos)
+
+
+| Description | *Brotli compression format.* |
+| -- | -- |
+| Homepage | [https://github.com/google/brotli](https://github.com/google/brotli) |
+| Versions | 1.0.9 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [brotli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brotli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos brotli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brotli")
+```
+
+
 
 ## c
 ### capstone (iphoneos)
