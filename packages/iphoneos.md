@@ -1473,7 +1473,7 @@ add_requires("rapidjson")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | 1.3.1, 1.4.2, 1.5.0, 1.8.0 |
+| Versions | 1.3.1, 1.4.2, 1.5.0, 1.8.0, 1.8.1 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 

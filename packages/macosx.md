@@ -797,6 +797,30 @@ add_requires("eigen")
 ```
 
 
+### embree (macosx)
+
+
+| Description | *Intel® Embree is a collection of high-performance ray tracing kernels, developed at Intel.* |
+| -- | -- |
+| Homepage | [https://www.embree.org/](https://www.embree.org/) |
+| License | Apache-2.0 |
+| Versions | 3.12.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [embree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/embree/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install embree
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("embree")
+```
+
+
 ### expat (macosx)
 
 
@@ -3038,6 +3062,29 @@ add_requires("meson")
 ```
 
 
+### metis (macosx)
+
+
+| Description | *Serial Graph Partitioning and Fill-reducing Matrix Ordering* |
+| -- | -- |
+| Homepage | [http://glaros.dtc.umn.edu/gkhome/metis/metis/overview](http://glaros.dtc.umn.edu/gkhome/metis/metis/overview) |
+| Versions | 5.1.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [metis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/metis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install metis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("metis")
+```
+
+
 ### mimalloc (macosx)
 
 
@@ -3842,7 +3889,7 @@ add_requires("sol2")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | 1.3.1, 1.4.2, 1.5.0, 1.8.0 |
+| Versions | 1.3.1, 1.4.2, 1.5.0, 1.8.0, 1.8.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
