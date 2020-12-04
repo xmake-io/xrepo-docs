@@ -234,6 +234,30 @@ add_requires("catch2")
 ```
 
 
+### cereal (mingw)
+
+
+| Description | *cereal is a header-only C++11 serialization library.* |
+| -- | -- |
+| Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
+| License | BSD-3-Clause |
+| Versions | 1.3.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cereal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cereal")
+```
+
+
 ### cgetopt (mingw)
 
 
@@ -324,6 +348,30 @@ xrepo install -p mingw [--mingw=/xxx] cmake
 
 ```lua
 add_requires("cmake")
+```
+
+
+### cmocka (mingw)
+
+
+| Description | *cmocka is an elegant unit testing framework for C with support for mock objects.* |
+| -- | -- |
+| Homepage | [https://cmocka.org/](https://cmocka.org/) |
+| License | Apache-2.0 |
+| Versions | 1.1.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cmocka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmocka/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cmocka
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cmocka")
 ```
 
 

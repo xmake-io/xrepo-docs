@@ -442,6 +442,30 @@ add_requires("catch2")
 ```
 
 
+### cereal (linux)
+
+
+| Description | *cereal is a header-only C++11 serialization library.* |
+| -- | -- |
+| Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
+| License | BSD-3-Clause |
+| Versions | 1.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cereal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cereal")
+```
+
+
 ### cgetopt (linux)
 
 
@@ -579,6 +603,30 @@ xrepo install cmake
 
 ```lua
 add_requires("cmake")
+```
+
+
+### cmocka (linux)
+
+
+| Description | *cmocka is an elegant unit testing framework for C with support for mock objects.* |
+| -- | -- |
+| Homepage | [https://cmocka.org/](https://cmocka.org/) |
+| License | Apache-2.0 |
+| Versions | 1.1.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cmocka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmocka/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cmocka
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cmocka")
 ```
 
 
@@ -1886,7 +1934,7 @@ add_requires("libgpg-error")
 | Description | *Character set conversion library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
-| Versions | 1.15 |
+| Versions | 1.15, 1.16 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
 
@@ -2364,6 +2412,30 @@ xrepo install libtool
 
 ```lua
 add_requires("libtool")
+```
+
+
+### libunistring (linux)
+
+
+| Description | *This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libunistring/](https://www.gnu.org/software/libunistring/) |
+| License | GPL-3.0 |
+| Versions | 0.9.10 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libunistring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunistring/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libunistring
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libunistring")
 ```
 
 

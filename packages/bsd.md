@@ -165,6 +165,30 @@ add_requires("catch2")
 ```
 
 
+### cereal (bsd)
+
+
+| Description | *cereal is a header-only C++11 serialization library.* |
+| -- | -- |
+| Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
+| License | BSD-3-Clause |
+| Versions | 1.3.0 |
+| Architectures | i386, x86_64 |
+| Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cereal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cereal")
+```
+
+
 ### cgetopt (bsd)
 
 

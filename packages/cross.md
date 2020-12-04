@@ -142,6 +142,30 @@ add_requires("catch2")
 ```
 
 
+### cereal (cross)
+
+
+| Description | *cereal is a header-only C++11 serialization library.* |
+| -- | -- |
+| Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
+| License | BSD-3-Clause |
+| Versions | 1.3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cereal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cereal")
+```
+
+
 ### cgetopt (cross)
 
 

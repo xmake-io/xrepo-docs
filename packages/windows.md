@@ -418,6 +418,30 @@ add_requires("catch2")
 ```
 
 
+### cereal (windows)
+
+
+| Description | *cereal is a header-only C++11 serialization library.* |
+| -- | -- |
+| Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
+| License | BSD-3-Clause |
+| Versions | 1.3.0 |
+| Architectures | x64, x86 |
+| Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cereal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cereal")
+```
+
+
 ### cgetopt (windows)
 
 
@@ -532,6 +556,30 @@ xrepo install cmake
 
 ```lua
 add_requires("cmake")
+```
+
+
+### cmocka (windows)
+
+
+| Description | *cmocka is an elegant unit testing framework for C with support for mock objects.* |
+| -- | -- |
+| Homepage | [https://cmocka.org/](https://cmocka.org/) |
+| License | Apache-2.0 |
+| Versions | 1.1.5 |
+| Architectures | x64, x86 |
+| Definition | [cmocka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmocka/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cmocka
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cmocka")
 ```
 
 
