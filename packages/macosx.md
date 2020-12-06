@@ -443,6 +443,30 @@ add_requires("cereal")
 ```
 
 
+### cgal (macosx)
+
+
+| Description | *CGAL is a software project that provides easy access to efficient and reliable geometric algorithms in the form of a C++ library.* |
+| -- | -- |
+| Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
+| License | LGPL-3.0 |
+| Versions | 5.1.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cgal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgal")
+```
+
+
 ### cgetopt (macosx)
 
 
@@ -828,7 +852,7 @@ add_requires("effcee")
 | Description | *C++ template library for linear algebra* |
 | -- | -- |
 | Homepage | [https://eigen.tuxfamily.org/](https://eigen.tuxfamily.org/) |
-| Versions | 3.3.7, 3.3.8 |
+| Versions | 3.3.7, 3.3.8, 3.3.9 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [eigen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eigen/xmake.lua) |
 
@@ -1808,6 +1832,29 @@ xrepo install libiconv
 
 ```lua
 add_requires("libiconv")
+```
+
+
+### libigl (macosx)
+
+
+| Description | *Simple C++ geometry processing library.* |
+| -- | -- |
+| Homepage | [https://libigl.github.io/](https://libigl.github.io/) |
+| Versions | 2.2.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libigl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libigl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libigl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libigl")
 ```
 
 
@@ -3181,6 +3228,30 @@ add_requires("mimalloc")
 ```
 
 
+### moltenvk (macosx)
+
+
+| Description | *MoltenVK is a Vulkan Portability implementation.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/MoltenVK](https://github.com/KhronosGroup/MoltenVK) |
+| License | Apache-2.0 |
+| Versions | 1.1.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [moltenvk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moltenvk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install moltenvk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("moltenvk")
+```
+
+
 ### mono (macosx)
 
 
@@ -3224,6 +3295,30 @@ xrepo install moonjit
 
 ```lua
 add_requires("moonjit")
+```
+
+
+### mpfr (macosx)
+
+
+| Description | *The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.* |
+| -- | -- |
+| Homepage | [https://www.mpfr.org/](https://www.mpfr.org/) |
+| License | LGPL-3.0 |
+| Versions | 4.1.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [mpfr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpfr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mpfr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mpfr")
 ```
 
 
@@ -4342,7 +4437,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, v1.2.154, v1.2.162 |
+| Versions | 1.2.154+0, v1.2.162 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
@@ -4356,6 +4451,30 @@ xrepo install vulkan-headers
 
 ```lua
 add_requires("vulkan-headers")
+```
+
+
+### vulkan-memory-allocator (macosx)
+
+
+| Description | *Easy to integrate Vulkan memory allocation library.* |
+| -- | -- |
+| Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
+| License | MIT |
+| Versions | v2.3.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-memory-allocator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-memory-allocator")
 ```
 
 

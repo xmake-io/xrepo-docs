@@ -442,6 +442,30 @@ add_requires("cereal")
 ```
 
 
+### cgal (windows)
+
+
+| Description | *CGAL is a software project that provides easy access to efficient and reliable geometric algorithms in the form of a C++ library.* |
+| -- | -- |
+| Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
+| License | LGPL-3.0 |
+| Versions | 5.1.1 |
+| Architectures | x64, x86 |
+| Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cgal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgal")
+```
+
+
 ### cgetopt (windows)
 
 
@@ -827,7 +851,7 @@ add_requires("effcee")
 | Description | *C++ template library for linear algebra* |
 | -- | -- |
 | Homepage | [https://eigen.tuxfamily.org/](https://eigen.tuxfamily.org/) |
-| Versions | 3.3.7, 3.3.8 |
+| Versions | 3.3.7, 3.3.8, 3.3.9 |
 | Architectures | x64, x86 |
 | Definition | [eigen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eigen/xmake.lua) |
 
@@ -1275,7 +1299,8 @@ add_requires("hopscotch-map")
 | Description | *High Performance Network Framework* |
 | -- | -- |
 | Homepage | [https://github.com/ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) |
-| Versions | v5.7.2 |
+| License | Apache-2.0 |
+| Versions | v5.7.3 |
 | Architectures | x64, x86 |
 | Definition | [hpsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpsocket/xmake.lua) |
 
@@ -1575,6 +1600,29 @@ xrepo install libcurl
 
 ```lua
 add_requires("libcurl")
+```
+
+
+### libigl (windows)
+
+
+| Description | *Simple C++ geometry processing library.* |
+| -- | -- |
+| Homepage | [https://libigl.github.io/](https://libigl.github.io/) |
+| Versions | 2.2.0 |
+| Architectures | x64, x86 |
+| Definition | [libigl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libigl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libigl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libigl")
 ```
 
 
@@ -3392,7 +3440,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, v1.2.154, v1.2.162 |
+| Versions | 1.2.154+0, v1.2.162 |
 | Architectures | x64, x86 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
@@ -3406,6 +3454,30 @@ xrepo install vulkan-headers
 
 ```lua
 add_requires("vulkan-headers")
+```
+
+
+### vulkan-memory-allocator (windows)
+
+
+| Description | *Easy to integrate Vulkan memory allocation library.* |
+| -- | -- |
+| Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
+| License | MIT |
+| Versions | v2.3.0 |
+| Architectures | x64, x86 |
+| Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-memory-allocator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-memory-allocator")
 ```
 
 

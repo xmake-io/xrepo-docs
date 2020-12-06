@@ -667,7 +667,8 @@ add_requires("hopscotch-map")
 | Description | *High Performance Network Framework* |
 | -- | -- |
 | Homepage | [https://github.com/ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) |
-| Versions | v5.7.2 |
+| License | Apache-2.0 |
+| Versions | v5.7.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [hpsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpsocket/xmake.lua) |
 
