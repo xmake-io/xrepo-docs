@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: cgal, libigl, vulkan-memory-allocator**
+- **Recently added: vulkan-loader, vulkan-tools, vulkan-validationlayers**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

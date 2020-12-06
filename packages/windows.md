@@ -3457,6 +3457,30 @@ add_requires("vulkan-headers")
 ```
 
 
+### vulkan-loader (windows)
+
+
+| Description | *This project provides the Khronos official Vulkan ICD desktop loader for Windows, Linux, and MacOS.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1 |
+| Architectures | x64, x86 |
+| Definition | [vulkan-loader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-loader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-loader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-loader")
+```
+
+
 ### vulkan-memory-allocator (windows)
 
 
@@ -3478,6 +3502,54 @@ xrepo install vulkan-memory-allocator
 
 ```lua
 add_requires("vulkan-memory-allocator")
+```
+
+
+### vulkan-tools (windows)
+
+
+| Description | *Vulkan Utilities and Tools* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Tools](https://github.com/KhronosGroup/Vulkan-Tools) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+0 |
+| Architectures | x64, x86 |
+| Definition | [vulkan-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-tools")
+```
+
+
+### vulkan-validationlayers (windows)
+
+
+| Description | *Vulkan Validation Layers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-ValidationLayers/](https://github.com/KhronosGroup/Vulkan-ValidationLayers/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+0 |
+| Architectures | x64, x86 |
+| Definition | [vulkan-validationlayers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-validationlayers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-validationlayers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-validationlayers")
 ```
 
 
