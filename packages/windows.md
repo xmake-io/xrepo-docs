@@ -941,6 +941,29 @@ add_requires("fftw")
 ```
 
 
+### flatbuffers (windows)
+
+
+| Description | *FlatBuffers is a cross platform serialization library architected for maximum memory efficiency.* |
+| -- | -- |
+| Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
+| Versions | 1.12.0 |
+| Architectures | x64, x86 |
+| Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flatbuffers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flatbuffers")
+```
+
+
 ### fltk (windows)
 
 
