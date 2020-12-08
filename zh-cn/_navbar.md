@@ -1,7 +1,7 @@
 - [Xmake](https://xmake.io/#/zh-cn/)
 - [赞助](https://xmake.io/#/zh-cn/about/sponsor.md)
 - [反馈](https://github.com/xmake-io/xmake/issues)
-- [社区](https://www.reddit.com/r/xmake/)
+- [社区](https://xmake.io/#/zh-cn/about/contact)
 - 语言
   - [:uk: English](/)
   - [:cn: 中文](/zh-cn/)
