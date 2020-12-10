@@ -713,6 +713,30 @@ add_requires("libxmake")
 ```
 
 
+### llhttp (msys)
+
+
+| Description | *Port of http_parser to llparse* |
+| -- | -- |
+| Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
+| License | MIT |
+| Versions | v3.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install llhttp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llhttp")
+```
+
+
 ### lyra (msys)
 
 

@@ -1087,6 +1087,30 @@ add_requires("libxml2")
 ```
 
 
+### llhttp (android)
+
+
+| Description | *Port of http_parser to llparse* |
+| -- | -- |
+| Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
+| License | MIT |
+| Versions | v3.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] llhttp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llhttp")
+```
+
+
 ### lua (android)
 
 
