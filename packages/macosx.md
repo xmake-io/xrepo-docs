@@ -2301,6 +2301,30 @@ add_requires("libsdl_ttf")
 ```
 
 
+### libsndfile (macosx)
+
+
+| Description | *A C library for reading and writing sound files containing sampled audio data.* |
+| -- | -- |
+| Homepage | [https://libsndfile.github.io/libsndfile/](https://libsndfile.github.io/libsndfile/) |
+| License | LGPL-2.1 |
+| Versions | 1.0.30 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libsndfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndfile/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsndfile
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsndfile")
+```
+
+
 ### libsodium (macosx)
 
 
