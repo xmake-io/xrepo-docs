@@ -331,6 +331,32 @@ add_requires("doctest")
 
 
 
+## e
+### expected (cross)
+
+
+| Description | *C++11/14/17 std::expected with functional-style extensions* |
+| -- | -- |
+| Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
+| License | CC0 |
+| Versions | v1.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] expected
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expected")
+```
+
+
+
 ## f
 ### fmt (cross)
 

@@ -262,9 +262,10 @@ add_requires("chaiscript")
 ### chipmunk2d (android)
 
 
-| Description | * A fast and lightweight 2D game physics library.* |
+| Description | *A fast and lightweight 2D game physics library.* |
 | -- | -- |
 | Homepage | [https://chipmunk-physics.net/](https://chipmunk-physics.net/) |
+| License | MIT |
 | Versions | 7.0.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [chipmunk2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chipmunk2d/xmake.lua) |
@@ -467,6 +468,32 @@ xrepo install -p android [--ndk=/xxx] doctest
 
 ```lua
 add_requires("doctest")
+```
+
+
+
+## e
+### expected (android)
+
+
+| Description | *C++11/14/17 std::expected with functional-style extensions* |
+| -- | -- |
+| Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
+| License | CC0 |
+| Versions | v1.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] expected
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expected")
 ```
 
 
@@ -924,6 +951,30 @@ add_requires("kcp")
 
 
 ## l
+### libflac (android)
+
+
+| Description | *Free Lossless Audio Codec* |
+| -- | -- |
+| Homepage | [https://xiph.org/flac](https://xiph.org/flac) |
+| License | BSD |
+| Versions | 1.3.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libflac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libflac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libflac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libflac")
+```
+
+
 ### libjpeg (android)
 
 
@@ -967,6 +1018,29 @@ xrepo install -p android [--ndk=/xxx] libogg
 
 ```lua
 add_requires("libogg")
+```
+
+
+### libopus (android)
+
+
+| Description | *Modern audio compression for the internet.* |
+| -- | -- |
+| Homepage | [https://opus-codec.org](https://opus-codec.org) |
+| Versions | 1.3.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libopus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libopus")
 ```
 
 
@@ -1037,6 +1111,30 @@ xrepo install -p android [--ndk=/xxx] libuv
 
 ```lua
 add_requires("libuv")
+```
+
+
+### libvorbis (android)
+
+
+| Description | *Reference implementation of the Ogg Vorbis audio format.* |
+| -- | -- |
+| Homepage | [https://xiph.org/vorbis](https://xiph.org/vorbis) |
+| License | BSD-3 |
+| Versions | 1.3.7 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libvorbis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvorbis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libvorbis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libvorbis")
 ```
 
 
@@ -1415,6 +1513,29 @@ xrepo install -p android [--ndk=/xxx] nlohmann_json
 
 ```lua
 add_requires("nlohmann_json")
+```
+
+
+### nng (android)
+
+
+| Description | *NNG, like its predecessors nanomsg (and to some extent ZeroMQ), is a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.* |
+| -- | -- |
+| Homepage | [https://github.com/nanomsg/nng](https://github.com/nanomsg/nng) |
+| Versions | 1.3.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] nng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nng")
 ```
 
 

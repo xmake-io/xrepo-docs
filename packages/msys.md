@@ -377,6 +377,32 @@ add_requires("doctest")
 
 
 
+## e
+### expected (msys)
+
+
+| Description | *C++11/14/17 std::expected with functional-style extensions* |
+| -- | -- |
+| Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
+| License | CC0 |
+| Versions | v1.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install expected
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expected")
+```
+
+
+
 ## f
 ### fmt (msys)
 
