@@ -3243,6 +3243,29 @@ add_requires("sfntly")
 ```
 
 
+### shaderwriter (windows)
+
+
+| Description | *Library used to write shaders from C++, and export them in either GLSL, HLSL or SPIR-V.* |
+| -- | -- |
+| Homepage | [https://github.com/DragonJoker/ShaderWriter](https://github.com/DragonJoker/ShaderWriter) |
+| Versions | 1.0 |
+| Architectures | x64, x86 |
+| Definition | [shaderwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderwriter/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install shaderwriter
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("shaderwriter")
+```
+
+
 ### skia (windows)
 
 
