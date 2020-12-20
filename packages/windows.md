@@ -1207,7 +1207,7 @@ add_requires("glm")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1 |
+| Versions | 1.2.154+1, 1.2.162+0 |
 | Architectures | x64, x86 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
@@ -2734,8 +2734,8 @@ add_requires("oatpp")
 | Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
-| Versions | 0.3.12 |
-| Architectures | x64, x86 |
+| Versions | 0.3.12, 0.3.13 |
+| Architectures | x64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
 ##### Install command
@@ -3342,7 +3342,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Cross/](https://github.com/KhronosGroup/SPIRV-Cross/) |
 | License | Apache-2.0 |
-| Versions | 2020.09.17 |
+| Versions | 1.2.154+1, 1.2.162+0 |
 | Architectures | x64, x86 |
 | Definition | [spirv-cross/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-cross/xmake.lua) |
 
@@ -3366,7 +3366,7 @@ add_requires("spirv-cross")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.5.4 |
+| Versions | 1.5.4+2 |
 | Architectures | x64, x86 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -3390,7 +3390,7 @@ add_requires("spirv-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Reflect](https://github.com/KhronosGroup/SPIRV-Reflect) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1 |
+| Versions | 1.2.154+1, 1.2.162+0 |
 | Architectures | x64, x86 |
 | Definition | [spirv-reflect/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-reflect/xmake.lua) |
 
@@ -3414,7 +3414,7 @@ add_requires("spirv-reflect")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
-| Versions | 2020.5 |
+| Versions | 2020.5, 2020.6 |
 | Architectures | x64, x86 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
@@ -3676,7 +3676,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, v1.2.162 |
+| Versions | 1.2.154+0, 1.2.162+0 |
 | Architectures | x64, x86 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
@@ -3700,7 +3700,7 @@ add_requires("vulkan-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1 |
+| Versions | 1.2.154+1, 1.2.162+0 |
 | Architectures | x64, x86 |
 | Definition | [vulkan-loader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-loader/xmake.lua) |
 
@@ -3748,7 +3748,7 @@ add_requires("vulkan-memory-allocator")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Tools](https://github.com/KhronosGroup/Vulkan-Tools) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0 |
+| Versions | 1.2.154+0, 1.2.162+0 |
 | Architectures | x64, x86 |
 | Definition | [vulkan-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-tools/xmake.lua) |
 
@@ -3772,7 +3772,7 @@ add_requires("vulkan-tools")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-ValidationLayers/](https://github.com/KhronosGroup/Vulkan-ValidationLayers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0 |
+| Versions | 1.2.154+0, 1.2.162+0 |
 | Architectures | x64, x86 |
 | Definition | [vulkan-validationlayers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-validationlayers/xmake.lua) |
 

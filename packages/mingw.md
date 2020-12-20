@@ -1630,31 +1630,6 @@ add_requires("nlohmann_json")
 
 
 
-## o
-### openblas (mingw)
-
-
-| Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
-| -- | -- |
-| Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
-| Versions | 0.3.12 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] openblas
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("openblas")
-```
-
-
-
 ## p
 ### patch (mingw)
 
