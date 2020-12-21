@@ -4336,6 +4336,29 @@ add_requires("re2")
 
 
 ## s
+### sentry-native (linux)
+
+
+| Description | *Sentry SDK for C, C++ and native applications.* |
+| -- | -- |
+| Homepage | [https://sentry.io](https://sentry.io) |
+| Versions | 0.4.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sentry-native
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sentry-native")
+```
+
+
 ### sfml (linux)
 
 
