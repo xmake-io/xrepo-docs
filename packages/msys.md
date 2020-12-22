@@ -1,3 +1,28 @@
+## T
+### TiltedCore (msys)
+
+
+| Description | *Core library from Tilted Phoques* |
+| -- | -- |
+| Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
+| Versions | v0.1.3 |
+| Architectures | i386, x86_64 |
+| Definition | [TiltedCore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/T/TiltedCore/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install TiltedCore
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("TiltedCore")
+```
+
+
+
 ## a
 ### angelscript (msys)
 
