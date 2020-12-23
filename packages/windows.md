@@ -3596,6 +3596,29 @@ add_requires("tbox")
 ```
 
 
+### tiltedcore (windows)
+
+
+| Description | *Core library from Tilted Phoques* |
+| -- | -- |
+| Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
+| Versions | v0.1.3 |
+| Architectures | x64, x86 |
+| Definition | [tiltedcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiltedcore/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tiltedcore
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tiltedcore")
+```
+
+
 ### tinyobjloader (windows)
 
 
