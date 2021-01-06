@@ -875,6 +875,29 @@ add_requires("irrXML")
 ```
 
 
+### irrxml (mingw)
+
+
+| Description | *High speed and easy-to-use XML Parser for C++* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
+| Versions | 1.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [irrxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] irrxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("irrxml")
+```
+
+
 
 ## j
 ### jsoncons (mingw)
@@ -1113,6 +1136,30 @@ add_requires("libplist")
 ```
 
 
+### libpng (mingw)
+
+
+| Description | *The official PNG reference library* |
+| -- | -- |
+| Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
+| License | libpng-2.0 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libpng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpng")
+```
+
+
 ### libraw (mingw)
 
 
@@ -1298,6 +1345,29 @@ add_requires("libsodium")
 ```
 
 
+### libtiff (mingw)
+
+
+| Description | *TIFF Library and Utilities.* |
+| -- | -- |
+| Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
+| Versions | 4.1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libtiff
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtiff")
+```
+
+
 ### libtool (mingw)
 
 
@@ -1365,6 +1435,30 @@ xrepo install -p mingw [--mingw=/xxx] libvorbis
 
 ```lua
 add_requires("libvorbis")
+```
+
+
+### libwebp (mingw)
+
+
+| Description | *Library to encode and decode images in WebP format.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/webm/libwebp/](https://chromium.googlesource.com/webm/libwebp/) |
+| License | BSD-3-Clause |
+| Versions | 1.1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libwebp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libwebp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libwebp")
 ```
 
 
@@ -1981,6 +2075,29 @@ xrepo install -p mingw [--mingw=/xxx] tbox
 
 ```lua
 add_requires("tbox")
+```
+
+
+### tinyformat (mingw)
+
+
+| Description | *Minimal, type safe printf replacement library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/c42f/tinyformat/](https://github.com/c42f/tinyformat/) |
+| Versions | 2.3.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [tinyformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] tinyformat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyformat")
 ```
 
 

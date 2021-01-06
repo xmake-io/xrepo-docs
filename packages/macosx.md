@@ -1646,6 +1646,29 @@ add_requires("irrXML")
 ```
 
 
+### irrxml (macosx)
+
+
+| Description | *High speed and easy-to-use XML Parser for C++* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
+| Versions | 1.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [irrxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install irrxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("irrxml")
+```
+
+
 
 ## j
 ### json-c (macosx)
@@ -3120,7 +3143,7 @@ add_requires("llhttp")
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
-| Versions | 5.1.5, 5.2.4, 5.3.6, 5.4.1 |
+| Versions | 5.1.5, 5.2.4, 5.3.6, 5.4.1, 5.4.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
@@ -3538,6 +3561,30 @@ add_requires("mysql")
 
 
 ## n
+### nanovg (macosx)
+
+
+| Description | *Antialiased 2D vector drawing library on top of OpenGL for UI and visualizations.* |
+| -- | -- |
+| Homepage | [https://github.com/memononen/nanovg/](https://github.com/memononen/nanovg/) |
+| License | zlib |
+| Versions |  |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [nanovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanovg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nanovg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanovg")
+```
+
+
 ### nasm (macosx)
 
 
@@ -3655,6 +3702,30 @@ add_requires("nlohmann_json")
 ```
 
 
+### nlopt (macosx)
+
+
+| Description | *NLopt is a library for nonlinear local and global optimization, for functions with and without gradient information.* |
+| -- | -- |
+| Homepage | [https://github.com/stevengj/nlopt/](https://github.com/stevengj/nlopt/) |
+| License | LGPL-2.1 |
+| Versions | v2.7.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [nlopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlopt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nlopt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nlopt")
+```
+
+
 ### nng (macosx)
 
 
@@ -3709,7 +3780,7 @@ add_requires("oatpp")
 | Description | *A open source computer vision library.* |
 | -- | -- |
 | Homepage | [https://opencv.org/](https://opencv.org/) |
-| Versions | 3.4.9, 4.2.0 |
+| Versions | 3.4.9, 4.2.0, 4.5.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
 
@@ -4029,6 +4100,30 @@ add_requires("protoc")
 ```
 
 
+### pugixml (macosx)
+
+
+| Description | *Light-weight, simple and fast XML parser for C++ with XPath support* |
+| -- | -- |
+| Homepage | [https://pugixml.org/](https://pugixml.org/) |
+| License | MIT |
+| Versions | 1.11.4 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [pugixml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pugixml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pugixml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pugixml")
+```
+
+
 ### pybind11 (macosx)
 
 
@@ -4129,7 +4224,7 @@ add_requires("rapidjson")
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
-| Versions | 2.5.0, 3.0.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
@@ -4520,6 +4615,29 @@ xrepo install tbox
 
 ```lua
 add_requires("tbox")
+```
+
+
+### tinyformat (macosx)
+
+
+| Description | *Minimal, type safe printf replacement library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/c42f/tinyformat/](https://github.com/c42f/tinyformat/) |
+| Versions | 2.3.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [tinyformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyformat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyformat")
 ```
 
 

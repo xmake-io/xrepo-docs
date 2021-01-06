@@ -90,41 +90,7 @@
   line-height: 1;
 }
 </style>
-    <h2 id="t">T</h2>
-<h3 id="tiltedcoremsys">TiltedCore (msys)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>Core library from Tilted Phoques</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://github.com/tiltedphoques/TiltedCore">https://github.com/tiltedphoques/TiltedCore</a></td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>v0.1.3</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>i386, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/T/TiltedCore/xmake.lua">TiltedCore/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install TiltedCore
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("TiltedCore")
-</code></pre>
-<h2 id="a">a</h2>
+    <h2 id="a">a</h2>
 <h3 id="angelscriptmsys">angelscript (msys)</h3>
 <table>
 <thead>
@@ -1015,6 +981,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("irrXML")
 </code></pre>
+<h3 id="irrxmlmsys">irrxml (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>High speed and easy-to-use XML Parser for C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://sourceforge.net/projects/irrlicht/">https://sourceforge.net/projects/irrlicht/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua">irrxml/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install irrxml
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("irrxml")
+</code></pre>
 <h2 id="j">j</h2>
 <h3 id="jsonconsmsys">jsoncons (msys)</h3>
 <table>
@@ -1116,6 +1115,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libjpeg")
+</code></pre>
+<h3 id="libpngmsys">libpng (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The official PNG reference library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://www.libpng.org/pub/png/libpng.html">http://www.libpng.org/pub/png/libpng.html</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>libpng-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.6.34, v1.6.35, v1.6.36, v1.6.37</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua">libpng/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libpng
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libpng")
 </code></pre>
 <h3 id="libtoolmsys">libtool (msys)</h3>
 <table>
@@ -1880,7 +1916,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.1.3</td>
+<td>v0.1.3, v0.1.4</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -1897,6 +1933,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("tiltedcore")
+</code></pre>
+<h3 id="tinyformatmsys">tinyformat (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Minimal, type safe printf replacement library for C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/c42f/tinyformat/">https://github.com/c42f/tinyformat/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.3.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua">tinyformat/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install tinyformat
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("tinyformat")
 </code></pre>
 <h3 id="tmxparsermsys">tmxparser (msys)</h3>
 <table>

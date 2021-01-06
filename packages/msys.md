@@ -1,28 +1,3 @@
-## T
-### TiltedCore (msys)
-
-
-| Description | *Core library from Tilted Phoques* |
-| -- | -- |
-| Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
-| Versions | v0.1.3 |
-| Architectures | i386, x86_64 |
-| Definition | [TiltedCore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/T/TiltedCore/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install TiltedCore
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("TiltedCore")
-```
-
-
-
 ## a
 ### angelscript (msys)
 
@@ -644,6 +619,29 @@ add_requires("irrXML")
 ```
 
 
+### irrxml (msys)
+
+
+| Description | *High speed and easy-to-use XML Parser for C++* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
+| Versions | 1.2 |
+| Architectures | i386, x86_64 |
+| Definition | [irrxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install irrxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("irrxml")
+```
+
+
 
 ## j
 ### jsoncons (msys)
@@ -716,6 +714,30 @@ xrepo install libjpeg
 
 ```lua
 add_requires("libjpeg")
+```
+
+
+### libpng (msys)
+
+
+| Description | *The official PNG reference library* |
+| -- | -- |
+| Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
+| License | libpng-2.0 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37 |
+| Architectures | i386, x86_64 |
+| Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpng")
 ```
 
 
@@ -1247,7 +1269,7 @@ add_requires("tbox")
 | Description | *Core library from Tilted Phoques* |
 | -- | -- |
 | Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
-| Versions | v0.1.3 |
+| Versions | v0.1.3, v0.1.4 |
 | Architectures | i386, x86_64 |
 | Definition | [tiltedcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiltedcore/xmake.lua) |
 
@@ -1261,6 +1283,29 @@ xrepo install tiltedcore
 
 ```lua
 add_requires("tiltedcore")
+```
+
+
+### tinyformat (msys)
+
+
+| Description | *Minimal, type safe printf replacement library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/c42f/tinyformat/](https://github.com/c42f/tinyformat/) |
+| Versions | 2.3.0 |
+| Architectures | i386, x86_64 |
+| Definition | [tinyformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyformat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyformat")
 ```
 
 

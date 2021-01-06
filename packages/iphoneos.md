@@ -736,6 +736,29 @@ add_requires("irrXML")
 ```
 
 
+### irrxml (iphoneos)
+
+
+| Description | *High speed and easy-to-use XML Parser for C++* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
+| Versions | 1.2 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [irrxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos irrxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("irrxml")
+```
+
+
 
 ## j
 ### json-c (iphoneos)
@@ -1751,6 +1774,29 @@ xrepo install -p iphoneos tbox
 
 ```lua
 add_requires("tbox")
+```
+
+
+### tinyformat (iphoneos)
+
+
+| Description | *Minimal, type safe printf replacement library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/c42f/tinyformat/](https://github.com/c42f/tinyformat/) |
+| Versions | 2.3.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [tinyformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos tinyformat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyformat")
 ```
 
 

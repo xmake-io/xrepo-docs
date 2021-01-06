@@ -572,6 +572,29 @@ add_requires("irrXML")
 ```
 
 
+### irrxml (cross)
+
+
+| Description | *High speed and easy-to-use XML Parser for C++* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
+| Versions | 1.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [irrxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] irrxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("irrxml")
+```
+
+
 
 ## j
 ### jsoncons (cross)
@@ -737,6 +760,30 @@ xrepo install -p cross [--sdk=/xxx] libplist
 
 ```lua
 add_requires("libplist")
+```
+
+
+### libpng (cross)
+
+
+| Description | *The official PNG reference library* |
+| -- | -- |
+| Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
+| License | libpng-2.0 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libpng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpng")
 ```
 
 
@@ -1261,6 +1308,29 @@ xrepo install -p cross [--sdk=/xxx] tbox
 
 ```lua
 add_requires("tbox")
+```
+
+
+### tinyformat (cross)
+
+
+| Description | *Minimal, type safe printf replacement library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/c42f/tinyformat/](https://github.com/c42f/tinyformat/) |
+| Versions | 2.3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [tinyformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] tinyformat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyformat")
 ```
 
 

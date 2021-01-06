@@ -595,6 +595,29 @@ add_requires("irrXML")
 ```
 
 
+### irrxml (bsd)
+
+
+| Description | *High speed and easy-to-use XML Parser for C++* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
+| Versions | 1.2 |
+| Architectures | i386, x86_64 |
+| Definition | [irrxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install irrxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("irrxml")
+```
+
+
 
 ## j
 ### jsoncons (bsd)
@@ -670,6 +693,30 @@ add_requires("libjpeg")
 ```
 
 
+### libpng (bsd)
+
+
+| Description | *The official PNG reference library* |
+| -- | -- |
+| Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
+| License | libpng-2.0 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37 |
+| Architectures | i386, x86_64 |
+| Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpng")
+```
+
+
 ### libtool (bsd)
 
 
@@ -723,7 +770,7 @@ add_requires("llhttp")
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
-| Versions | 5.1.5, 5.2.4, 5.3.6, 5.4.1 |
+| Versions | 5.1.5, 5.2.4, 5.3.6, 5.4.1, 5.4.2 |
 | Architectures | i386, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
@@ -1258,6 +1305,29 @@ xrepo install tbox
 
 ```lua
 add_requires("tbox")
+```
+
+
+### tinyformat (bsd)
+
+
+| Description | *Minimal, type safe printf replacement library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/c42f/tinyformat/](https://github.com/c42f/tinyformat/) |
+| Versions | 2.3.0 |
+| Architectures | i386, x86_64 |
+| Definition | [tinyformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyformat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyformat")
 ```
 
 
