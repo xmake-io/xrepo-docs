@@ -279,6 +279,29 @@ add_requires("brotli")
 ```
 
 
+### brynet (windows)
+
+
+| Description | *Header Only Cross platform high performance TCP network library using C++ 11* |
+| -- | -- |
+| Homepage | [https://github.com/IronsDu/brynet](https://github.com/IronsDu/brynet) |
+| Versions | 1.0.9 |
+| Architectures | x64, x86 |
+| Definition | [brynet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brynet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install brynet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brynet")
+```
+
+
 ### bullet3 (windows)
 
 

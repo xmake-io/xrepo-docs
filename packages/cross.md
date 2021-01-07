@@ -117,6 +117,29 @@ add_requires("brotli")
 ```
 
 
+### brynet (cross)
+
+
+| Description | *Header Only Cross platform high performance TCP network library using C++ 11* |
+| -- | -- |
+| Homepage | [https://github.com/IronsDu/brynet](https://github.com/IronsDu/brynet) |
+| Versions | 1.0.9 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [brynet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brynet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] brynet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brynet")
+```
+
+
 
 ## c
 ### catch2 (cross)

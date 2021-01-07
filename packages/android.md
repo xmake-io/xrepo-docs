@@ -141,6 +141,29 @@ add_requires("brotli")
 ```
 
 
+### brynet (android)
+
+
+| Description | *Header Only Cross platform high performance TCP network library using C++ 11* |
+| -- | -- |
+| Homepage | [https://github.com/IronsDu/brynet](https://github.com/IronsDu/brynet) |
+| Versions | 1.0.9 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [brynet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brynet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] brynet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brynet")
+```
+
+
 
 ## c
 ### capstone (android)
