@@ -1049,7 +1049,7 @@ add_requires("libflac")
 | Description | *A widely used C library for reading and writing JPEG image files.* |
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
-| Versions | v9b, v9c |
+| Versions | v9b, v9c, v9d |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
