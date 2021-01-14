@@ -3332,7 +3332,7 @@ add_requires("llhttp")
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
-| Versions | 5.1.5, 5.2.4, 5.3.6, 5.4.1, 5.4.2 |
+| Versions | v5.1.1, v5.2.3, v5.3.6, v5.4.1, v5.4.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
