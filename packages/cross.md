@@ -1405,6 +1405,29 @@ add_requires("yasm")
 ```
 
 
+### yyjson (cross)
+
+
+| Description | *The fastest JSON library in C.* |
+| -- | -- |
+| Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
+| Versions | 0.2.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] yyjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yyjson")
+```
+
+
 
 ## z
 ### zlib (cross)

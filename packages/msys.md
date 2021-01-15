@@ -1357,6 +1357,29 @@ add_requires("yasm")
 ```
 
 
+### yyjson (msys)
+
+
+| Description | *The fastest JSON library in C.* |
+| -- | -- |
+| Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
+| Versions | 0.2.0 |
+| Architectures | i386, x86_64 |
+| Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install yyjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yyjson")
+```
+
+
 
 ## z
 ### zstd (msys)

@@ -1983,7 +1983,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6 |
+| Versions | 2.0.5, 2.0.6, 2.0.90 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
@@ -5042,6 +5042,29 @@ xrepo install yasm
 
 ```lua
 add_requires("yasm")
+```
+
+
+### yyjson (macosx)
+
+
+| Description | *The fastest JSON library in C.* |
+| -- | -- |
+| Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
+| Versions | 0.2.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install yyjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yyjson")
 ```
 
 
