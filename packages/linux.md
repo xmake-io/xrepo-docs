@@ -2776,7 +2776,7 @@ add_requires("libwebp")
 | Description | *canonical libwebsockets.org websocket library* |
 | -- | -- |
 | Homepage | [https://github.com/warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) |
-| Versions | v3.2.0 |
+| Versions | v4.1.6 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebsockets/xmake.lua) |
 
