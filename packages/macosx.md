@@ -2192,7 +2192,7 @@ add_requires("libraw")
 | Description | *Simple DirectMedia Layer* |
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
-| Versions | 2.0.12, 2.0.8 |
+| Versions | 2.0.12, 2.0.14, 2.0.8 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
