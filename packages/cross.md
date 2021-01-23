@@ -762,6 +762,29 @@ add_requires("libogg")
 ```
 
 
+### libomp (cross)
+
+
+| Description | *LLVM's OpenMP runtime library.* |
+| -- | -- |
+| Homepage | [https://openmp.llvm.org/](https://openmp.llvm.org/) |
+| Versions | 10.0.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libomp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libomp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libomp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libomp")
+```
+
+
 ### libplist (cross)
 
 
@@ -1269,7 +1292,7 @@ add_requires("rapidjson")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | 1.3.1, 1.4.2, 1.5.0, 1.8.0, 1.8.1 |
+| Versions | 1.3.1, 1.4.2, 1.5.0, 1.8.0, 1.8.1, 1.8.2 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
