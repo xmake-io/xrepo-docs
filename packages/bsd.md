@@ -406,6 +406,30 @@ add_requires("fmt")
 
 
 ## g
+### giflib (bsd)
+
+
+| Description | *A library for reading and writing gif images.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/giflib/](https://sourceforge.net/projects/giflib/) |
+| License | MIT |
+| Versions | 5.2.1 |
+| Architectures | i386, x86_64 |
+| Definition | [giflib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/giflib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install giflib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("giflib")
+```
+
+
 ### glm (bsd)
 
 
@@ -717,6 +741,29 @@ add_requires("libpng")
 ```
 
 
+### libtiff (bsd)
+
+
+| Description | *TIFF Library and Utilities.* |
+| -- | -- |
+| Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
+| Versions | 4.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libtiff
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtiff")
+```
+
+
 ### libtool (bsd)
 
 
@@ -737,6 +784,30 @@ xrepo install libtool
 
 ```lua
 add_requires("libtool")
+```
+
+
+### libwebp (bsd)
+
+
+| Description | *Library to encode and decode images in WebP format.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/webm/libwebp/](https://chromium.googlesource.com/webm/libwebp/) |
+| License | BSD-3-Clause |
+| Versions | 1.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libwebp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libwebp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libwebp")
 ```
 
 
@@ -1404,6 +1475,29 @@ add_requires("yyjson")
 
 
 ## z
+### zlib (bsd)
+
+
+| Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
+| -- | -- |
+| Homepage | [http://www.zlib.net](http://www.zlib.net) |
+| Versions | 1.2.10, 1.2.11 |
+| Architectures | i386, x86_64 |
+| Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlib")
+```
+
+
 ### zstd (bsd)
 
 
