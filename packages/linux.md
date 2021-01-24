@@ -4599,7 +4599,7 @@ add_requires("skia")
 | Description | *A C++ library binding to Lua.* |
 | -- | -- |
 | Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
-| Versions | v3.2.1 |
+| Versions | v3.2.1, v3.2.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
 
