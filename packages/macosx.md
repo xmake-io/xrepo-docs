@@ -1623,29 +1623,6 @@ add_requires("ip2region")
 ```
 
 
-### irrXML (macosx)
-
-
-| Description | *High speed and easy-to-use XML Parser for C++* |
-| -- | -- |
-| Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
-| Versions | 1.2 |
-| Architectures | arm64, i386, x86_64 |
-| Definition | [irrXML/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrXML/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install irrXML
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("irrXML")
-```
-
-
 ### irrxml (macosx)
 
 
@@ -4379,6 +4356,29 @@ xrepo install skia
 
 ```lua
 add_requires("skia")
+```
+
+
+### snappy (macosx)
+
+
+| Description | *A fast compressor/decompressor* |
+| -- | -- |
+| Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
+| Versions | 1.1.8 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install snappy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("snappy")
 ```
 
 

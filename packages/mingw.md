@@ -852,29 +852,6 @@ add_requires("ip2region")
 ```
 
 
-### irrXML (mingw)
-
-
-| Description | *High speed and easy-to-use XML Parser for C++* |
-| -- | -- |
-| Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
-| Versions | 1.2 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [irrXML/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrXML/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] irrXML
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("irrXML")
-```
-
-
 ### irrxml (mingw)
 
 
@@ -2004,6 +1981,29 @@ xrepo install -p mingw [--mingw=/xxx] sfml
 
 ```lua
 add_requires("sfml")
+```
+
+
+### snappy (mingw)
+
+
+| Description | *A fast compressor/decompressor* |
+| -- | -- |
+| Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
+| Versions | 1.1.8 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] snappy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("snappy")
 ```
 
 
