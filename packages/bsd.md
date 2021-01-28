@@ -1362,7 +1362,7 @@ add_requires("stb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [http://www.tboox.org](http://www.tboox.org) |
-| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5 |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6 |
 | Architectures | i386, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
