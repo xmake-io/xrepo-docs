@@ -1382,6 +1382,29 @@ add_requires("yyjson")
 
 
 ## z
+### zlib (msys)
+
+
+| Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
+| -- | -- |
+| Homepage | [http://www.zlib.net](http://www.zlib.net) |
+| Versions | 1.2.10, 1.2.11 |
+| Architectures | i386, x86_64 |
+| Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlib")
+```
+
+
 ### zstd (msys)
 
 
