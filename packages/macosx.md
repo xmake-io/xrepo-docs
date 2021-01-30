@@ -4319,7 +4319,7 @@ add_requires("sfntly")
 | Description | *Library used to write shaders from C++, and export them in either GLSL, HLSL or SPIR-V.* |
 | -- | -- |
 | Homepage | [https://github.com/DragonJoker/ShaderWriter](https://github.com/DragonJoker/ShaderWriter) |
-| Versions | 1.0 |
+| Versions | 0.1, 1.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [shaderwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderwriter/xmake.lua) |
 
