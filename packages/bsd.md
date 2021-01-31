@@ -1259,6 +1259,31 @@ add_requires("python2")
 
 
 
+## q
+### qdcae (bsd)
+
+
+| Description | *qd python (and C++) library for CAE (currently mostly LS-Dyna) * |
+| -- | -- |
+| Homepage | [https://github.com/qd-cae/qd-cae-python](https://github.com/qd-cae/qd-cae-python) |
+| Versions | 0.8.9 |
+| Architectures | i386, x86_64 |
+| Definition | [qdcae/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qdcae/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qdcae
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qdcae")
+```
+
+
+
 ## r
 ### rapidjson (bsd)
 
