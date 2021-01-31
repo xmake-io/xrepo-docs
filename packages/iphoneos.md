@@ -1920,6 +1920,29 @@ add_requires("yyjson")
 
 
 ## z
+### zig (iphoneos)
+
+
+| Description | *Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.* |
+| -- | -- |
+| Homepage | [https://www.ziglang.org/](https://www.ziglang.org/) |
+| Versions | 0.7.1 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos zig
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zig")
+```
+
+
 ### zlib (iphoneos)
 
 
