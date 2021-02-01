@@ -1317,7 +1317,7 @@ add_requires("stb")
 | Description | *A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies* |
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
-| Versions | v2.2.0, v3.0.0 |
+| Versions | v3.0.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 
