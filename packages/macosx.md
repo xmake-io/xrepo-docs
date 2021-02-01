@@ -678,29 +678,6 @@ add_requires("concurrentqueue")
 ```
 
 
-### cpp-taskflow (macosx)
-
-
-| Description | *A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies* |
-| -- | -- |
-| Homepage | [https://cpp-taskflow.github.io/](https://cpp-taskflow.github.io/) |
-| Versions | 2.2.0 |
-| Architectures | arm64, i386, x86_64 |
-| Definition | [cpp-taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-taskflow/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install cpp-taskflow
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("cpp-taskflow")
-```
-
-
 ### cpu-features (macosx)
 
 
@@ -4572,6 +4549,29 @@ add_requires("stb")
 
 
 ## t
+### taskflow (macosx)
+
+
+| Description | *A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies* |
+| -- | -- |
+| Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
+| Versions | v2.2.0, v3.0.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install taskflow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("taskflow")
+```
+
+
 ### tbb (macosx)
 
 

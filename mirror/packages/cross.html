@@ -501,39 +501,6 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("concurrentqueue")
 </code></pre>
-<h3 id="cpptaskflowcross">cpp-taskflow (cross)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://cpp-taskflow.github.io/">https://cpp-taskflow.github.io/</a></td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>2.2.0</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-taskflow/xmake.lua">cpp-taskflow/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] cpp-taskflow
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("cpp-taskflow")
-</code></pre>
 <h3 id="cxxoptscross">cxxopts (cross)</h3>
 <table>
 <thead>
@@ -2001,6 +1968,39 @@
 <pre><code class="lang-lua">add_requires("stb")
 </code></pre>
 <h2 id="t">t</h2>
+<h3 id="taskflowcross">taskflow (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://taskflow.github.io/">https://taskflow.github.io/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v2.2.0, v3.0.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua">taskflow/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] taskflow
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("taskflow")
+</code></pre>
 <h3 id="tboxcross">tbox (cross)</h3>
 <table>
 <thead>
