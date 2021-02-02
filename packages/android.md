@@ -1234,6 +1234,29 @@ add_requires("llhttp")
 ```
 
 
+### llvm (android)
+
+
+| Description | *The LLVM Compiler Infrastructure* |
+| -- | -- |
+| Homepage | [https://llvm.org/](https://llvm.org/) |
+| Versions | 11.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] llvm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llvm")
+```
+
+
 ### lua (android)
 
 
