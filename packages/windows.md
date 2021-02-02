@@ -2679,6 +2679,29 @@ add_requires("moonjit")
 ```
 
 
+### muslcc (windows)
+
+
+| Description | *static cross- and native- musl-based toolchains.* |
+| -- | -- |
+| Homepage | [https://musl.cc/](https://musl.cc/) |
+| Versions | 20200202 |
+| Architectures | x64, x86 |
+| Definition | [muslcc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muslcc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install muslcc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muslcc")
+```
+
+
 
 ## n
 ### nana (windows)

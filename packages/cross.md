@@ -1022,6 +1022,29 @@ add_requires("meson")
 ```
 
 
+### muslcc (cross)
+
+
+| Description | *static cross- and native- musl-based toolchains.* |
+| -- | -- |
+| Homepage | [https://musl.cc/](https://musl.cc/) |
+| Versions | 20200202 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [muslcc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muslcc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] muslcc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muslcc")
+```
+
+
 
 ## n
 ### nasm (cross)

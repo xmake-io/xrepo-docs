@@ -1652,6 +1652,29 @@ add_requires("minhook")
 ```
 
 
+### muslcc (mingw)
+
+
+| Description | *static cross- and native- musl-based toolchains.* |
+| -- | -- |
+| Homepage | [https://musl.cc/](https://musl.cc/) |
+| Versions | 20200202 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [muslcc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muslcc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] muslcc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muslcc")
+```
+
+
 
 ## n
 ### nasm (mingw)
