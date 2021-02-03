@@ -1521,7 +1521,7 @@ add_requires("moonjit")
 | Description | *static cross- and native- musl-based toolchains.* |
 | -- | -- |
 | Homepage | [https://musl.cc/](https://musl.cc/) |
-| Versions | 20200202 |
+| Versions | 20210202 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [muslcc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muslcc/xmake.lua) |
 
