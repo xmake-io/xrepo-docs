@@ -429,6 +429,29 @@ add_requires("gn")
 ```
 
 
+### gnu-rm (cross)
+
+
+| Description | *GNU Arm Embedded Toolchain* |
+| -- | -- |
+| Homepage | [https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) |
+| Versions | 10.2020-q4 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [gnu-rm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-rm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] gnu-rm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gnu-rm")
+```
+
+
 ### gtest (cross)
 
 
