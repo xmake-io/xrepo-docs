@@ -442,6 +442,30 @@ add_requires("catch2")
 ```
 
 
+### cef (windows)
+
+
+| Description | *Chromium Embedded Framework (CEF). A simple framework for embedding Chromium-based browsers in other applications.* |
+| -- | -- |
+| Homepage | [https://bitbucket.org/chromiumembedded](https://bitbucket.org/chromiumembedded) |
+| License | BSD-3-Clause |
+| Versions | 88.2.1 |
+| Architectures | x64 |
+| Definition | [cef/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cef/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cef
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cef")
+```
+
+
 ### cereal (windows)
 
 
