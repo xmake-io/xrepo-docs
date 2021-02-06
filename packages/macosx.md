@@ -2471,7 +2471,7 @@ add_requires("libunistring")
 | Description | *A cross-platform library to access USB devices.* |
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
-| Versions | v1.0.23 |
+| Versions | v1.0.23, v1.0.24 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 

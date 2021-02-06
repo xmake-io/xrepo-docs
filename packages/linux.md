@@ -918,6 +918,29 @@ add_requires("embree")
 ```
 
 
+### eudev (linux)
+
+
+| Description | *A fork of systemd with the aim of isolating udev from any particular flavor of system initialization.* |
+| -- | -- |
+| Homepage | [https://dev.gentoo.org/~blueness/eudev/](https://dev.gentoo.org/~blueness/eudev/) |
+| Versions | 3.2.9 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [eudev/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eudev/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install eudev
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eudev")
+```
+
+
 ### expat (linux)
 
 
@@ -2660,7 +2683,7 @@ add_requires("libunistring")
 | Description | *A cross-platform library to access USB devices.* |
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
-| Versions | v1.0.23 |
+| Versions | v1.0.23, v1.0.24 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 

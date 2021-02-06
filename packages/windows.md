@@ -750,6 +750,29 @@ add_requires("directxtk")
 ```
 
 
+### discord (windows)
+
+
+| Description | *Whether you’re part of a school club, gaming group, worldwide art community, or just a handful of friends that want to spend time together, Discord makes it easy to talk every day and hang out more often.* |
+| -- | -- |
+| Homepage | [https://discord.com/developers/docs/game-sdk/](https://discord.com/developers/docs/game-sdk/) |
+| Versions | 2.5.6 |
+| Architectures | x64, x86 |
+| Definition | [discord/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/discord/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install discord
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("discord")
+```
+
+
 ### doctest (windows)
 
 
@@ -2114,6 +2137,29 @@ xrepo install libtool
 
 ```lua
 add_requires("libtool")
+```
+
+
+### libusb (windows)
+
+
+| Description | *A cross-platform library to access USB devices.* |
+| -- | -- |
+| Homepage | [https://libusb.info](https://libusb.info) |
+| Versions | v1.0.23, v1.0.24 |
+| Architectures | x64, x86 |
+| Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libusb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusb")
 ```
 
 
