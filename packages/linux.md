@@ -5017,6 +5017,29 @@ add_requires("tbox")
 ```
 
 
+### tiltedcore (linux)
+
+
+| Description | *Core library from Tilted Phoques* |
+| -- | -- |
+| Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
+| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [tiltedcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiltedcore/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tiltedcore
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tiltedcore")
+```
+
+
 ### tinyformat (linux)
 
 
