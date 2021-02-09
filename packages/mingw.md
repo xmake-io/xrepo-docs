@@ -1089,30 +1089,6 @@ add_requires("libopus")
 ```
 
 
-### libplist (mingw)
-
-
-| Description | *Library for Apple Binary- and XML-Property Lists* |
-| -- | -- |
-| Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
-| License | LGPL-2.1 |
-| Versions | 2.2.0 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] libplist
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("libplist")
-```
-
-
 ### libpng (mingw)
 
 
