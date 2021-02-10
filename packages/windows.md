@@ -52,7 +52,7 @@ add_requires("angelscript")
 | Description | *Portable Open-Source library to import various well-known 3D model formats in a uniform manner* |
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
-| Versions |  |
+| Versions | 5.0.1 |
 | Architectures | x64, x86 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -1371,7 +1371,7 @@ add_requires("gnu-rm")
 | Description | *The Go Programming Language* |
 | -- | -- |
 | Homepage | [https://golang.org/](https://golang.org/) |
-| Versions |  |
+| Versions | 1.11 |
 | Architectures | x64, x86 |
 | Definition | [go/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/go/xmake.lua) |
 
@@ -1962,7 +1962,7 @@ add_requires("libsdl")
 | Description | *Simple DirectMedia Layer primitives drawing library* |
 | -- | -- |
 | Homepage | [https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/](https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/) |
-| Versions |  |
+| Versions | 1.0.4 |
 | Architectures | x64, x86 |
 | Definition | [libsdl_gfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_gfx/xmake.lua) |
 
@@ -2101,7 +2101,7 @@ add_requires("libsndfile")
 | Description | *Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.* |
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
-| Versions |  |
+| Versions | 1.0.18 |
 | Architectures | x64, x86 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
@@ -3556,7 +3556,7 @@ add_requires("sentry-native")
 | Description | *Simple and Fast Multimedia Library* |
 | -- | -- |
 | Homepage | [https://www.sfml-dev.org](https://www.sfml-dev.org) |
-| Versions |  |
+| Versions | 2.5.1 |
 | Architectures | x64, x86 |
 | Definition | [sfml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfml/xmake.lua) |
 

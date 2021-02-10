@@ -1281,7 +1281,7 @@ add_requires("libsndfile")
 | Description | *Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.* |
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
-| Versions |  |
+| Versions | 1.0.18 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
@@ -2037,7 +2037,7 @@ add_requires("rapidjson")
 | Description | *Simple and Fast Multimedia Library* |
 | -- | -- |
 | Homepage | [https://www.sfml-dev.org](https://www.sfml-dev.org) |
-| Versions |  |
+| Versions | 2.5.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sfml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfml/xmake.lua) |
 
