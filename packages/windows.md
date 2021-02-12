@@ -2118,6 +2118,30 @@ add_requires("libsodium")
 ```
 
 
+### libsoundio (windows)
+
+
+| Description | *C library for cross-platform real-time audio input and output.* |
+| -- | -- |
+| Homepage | [http://libsound.io/](http://libsound.io/) |
+| License | MIT |
+| Versions | 2.0.0 |
+| Architectures | x64, x86 |
+| Definition | [libsoundio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsoundio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsoundio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsoundio")
+```
+
+
 ### libtiff (windows)
 
 

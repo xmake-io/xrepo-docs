@@ -1116,6 +1116,30 @@ add_requires("libsndfile")
 ```
 
 
+### libsoundio (android)
+
+
+| Description | *C library for cross-platform real-time audio input and output.* |
+| -- | -- |
+| Homepage | [http://libsound.io/](http://libsound.io/) |
+| License | MIT |
+| Versions | 2.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libsoundio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsoundio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libsoundio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsoundio")
+```
+
+
 ### libtool (android)
 
 
