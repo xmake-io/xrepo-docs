@@ -1559,7 +1559,7 @@ add_requires("icu4c")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80 |
+| Versions | v1.75, v1.79, v1.80, v1.81 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
