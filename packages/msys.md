@@ -1385,7 +1385,7 @@ add_requires("tbox")
 | Description | *Core library from Tilted Phoques* |
 | -- | -- |
 | Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
-| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6 |
+| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6, v0.2.0 |
 | Architectures | i386, x86_64 |
 | Definition | [tiltedcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiltedcore/xmake.lua) |
 
