@@ -1657,6 +1657,29 @@ add_requires("pkg-config")
 ```
 
 
+### pqp (iphoneos)
+
+
+| Description | *A Proximity Query Package* |
+| -- | -- |
+| Homepage | [http://gamma.cs.unc.edu/SSV/](http://gamma.cs.unc.edu/SSV/) |
+| Versions | 1.3 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [pqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pqp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos pqp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pqp")
+```
+
+
 ### protoc (iphoneos)
 
 

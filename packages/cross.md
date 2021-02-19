@@ -1237,6 +1237,29 @@ add_requires("pkg-config")
 ```
 
 
+### pqp (cross)
+
+
+| Description | *A Proximity Query Package* |
+| -- | -- |
+| Homepage | [http://gamma.cs.unc.edu/SSV/](http://gamma.cs.unc.edu/SSV/) |
+| Versions | 1.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [pqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pqp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] pqp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pqp")
+```
+
+
 ### protoc (cross)
 
 
