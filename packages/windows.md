@@ -3666,6 +3666,30 @@ add_requires("shaderwriter")
 ```
 
 
+### simdjson (windows)
+
+
+| Description | *Ridiculously fast JSON parsing, UTF-8 validation and JSON minifying for popular 64 bit systems.* |
+| -- | -- |
+| Homepage | [https://simdjson.org](https://simdjson.org) |
+| License | Apache 2.0 |
+| Versions | 0.8.2 |
+| Architectures | x64 |
+| Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install simdjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simdjson")
+```
+
+
 ### skia (windows)
 
 
@@ -4000,7 +4024,7 @@ add_requires("tbox")
 | Description | *Core library from Tilted Phoques* |
 | -- | -- |
 | Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
-| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6, v0.2.0 |
+| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6, v0.2.0, v0.2.1 |
 | Architectures | x64, x86 |
 | Definition | [tiltedcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiltedcore/xmake.lua) |
 

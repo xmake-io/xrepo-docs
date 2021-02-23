@@ -2101,6 +2101,30 @@ add_requires("sfml")
 ```
 
 
+### simdjson (mingw)
+
+
+| Description | *Ridiculously fast JSON parsing, UTF-8 validation and JSON minifying for popular 64 bit systems.* |
+| -- | -- |
+| Homepage | [https://simdjson.org](https://simdjson.org) |
+| License | Apache 2.0 |
+| Versions | 0.8.2 |
+| Architectures | x86_64 |
+| Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] simdjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simdjson")
+```
+
+
 ### snappy (mingw)
 
 
