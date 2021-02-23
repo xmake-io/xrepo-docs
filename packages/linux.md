@@ -3754,7 +3754,7 @@ add_requires("metis")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | 1.6.7, 1.7.0, 2.0.0 |
+| Versions | 1.6.7, 1.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
