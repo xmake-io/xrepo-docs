@@ -356,6 +356,29 @@ add_requires("doctest")
 
 
 ## e
+### entt (msys)
+
+
+| Description | *Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more.* |
+| -- | -- |
+| Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
+| Versions | v3.6.0 |
+| Architectures | i386, x86_64 |
+| Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install entt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("entt")
+```
+
+
 ### expected (msys)
 
 
