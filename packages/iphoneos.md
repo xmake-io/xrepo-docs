@@ -1892,6 +1892,29 @@ add_requires("spdlog")
 ```
 
 
+### sqlite3 (iphoneos)
+
+
+| Description | *The most used database engine in the world* |
+| -- | -- |
+| Homepage | [https://sqlite.org/](https://sqlite.org/) |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos sqlite3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqlite3")
+```
+
+
 ### stb (iphoneos)
 
 
