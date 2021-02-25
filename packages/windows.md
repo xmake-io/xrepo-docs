@@ -2656,6 +2656,29 @@ add_requires("make")
 ```
 
 
+### mbedtls (windows)
+
+
+| Description | *An SSL library* |
+| -- | -- |
+| Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
+| Versions | 2.13.0, 2.25.0, 2.7.6 |
+| Architectures | x64, x86 |
+| Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mbedtls
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mbedtls")
+```
+
+
 ### mem (windows)
 
 

@@ -3684,7 +3684,7 @@ add_requires("make")
 | Description | *An SSL library* |
 | -- | -- |
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
-| Versions | 2.13.0, 2.7.6 |
+| Versions | 2.13.0, 2.25.0, 2.7.6 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 

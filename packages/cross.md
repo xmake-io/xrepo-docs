@@ -1069,6 +1069,29 @@ add_requires("make")
 ```
 
 
+### mbedtls (cross)
+
+
+| Description | *An SSL library* |
+| -- | -- |
+| Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
+| Versions | 2.13.0, 2.25.0, 2.7.6 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mbedtls
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mbedtls")
+```
+
+
 ### meson (cross)
 
 
