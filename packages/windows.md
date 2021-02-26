@@ -726,6 +726,29 @@ add_requires("cpu-features")
 ```
 
 
+### cryptopp (windows)
+
+
+| Description | *free C++ class library of cryptographic schemes* |
+| -- | -- |
+| Homepage | [https://cryptopp.com/](https://cryptopp.com/) |
+| Versions | 8.4.0 |
+| Architectures | x64, x86 |
+| Definition | [cryptopp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cryptopp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cryptopp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cryptopp")
+```
+
+
 ### cxxopts (windows)
 
 
