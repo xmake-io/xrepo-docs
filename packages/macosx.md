@@ -2882,6 +2882,30 @@ add_requires("libxfixes")
 ```
 
 
+### libxft (macosx)
+
+
+| Description | *X.Org: X FreeType library* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| License | MIT |
+| Versions | 2.3.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libxft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxft/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxft
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxft")
+```
+
+
 ### libxi (macosx)
 
 
