@@ -475,6 +475,29 @@ add_requires("gnu-rm")
 ```
 
 
+### godotheaders (cross)
+
+
+| Description | *Headers for the Godot API supplied by the GDNative module* |
+| -- | -- |
+| Homepage | [https://godotengine.org](https://godotengine.org) |
+| Versions | 3.2.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [godotheaders/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotheaders/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] godotheaders
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("godotheaders")
+```
+
+
 ### gtest (cross)
 
 
