@@ -449,8 +449,8 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://bitbucket.org/chromiumembedded](https://bitbucket.org/chromiumembedded) |
 | License | BSD-3-Clause |
-| Versions | 88.2.1 |
-| Architectures | x64 |
+| Versions |  |
+| Architectures | x64, x86 |
 | Definition | [cef/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cef/xmake.lua) |
 
 ##### Install command
