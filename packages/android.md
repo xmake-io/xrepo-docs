@@ -2126,6 +2126,30 @@ add_requires("tbox")
 ```
 
 
+### tclap (android)
+
+
+| Description | *This is a simple templatized C++ library for parsing command line arguments.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/tclap/](https://sourceforge.net/projects/tclap/) |
+| License | MIT |
+| Versions | 1.4.0-rc1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tclap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tclap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tclap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tclap")
+```
+
+
 ### tinyformat (android)
 
 

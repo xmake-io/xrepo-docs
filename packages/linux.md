@@ -5204,6 +5204,30 @@ add_requires("tbox")
 ```
 
 
+### tclap (linux)
+
+
+| Description | *This is a simple templatized C++ library for parsing command line arguments.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/tclap/](https://sourceforge.net/projects/tclap/) |
+| License | MIT |
+| Versions | 1.4.0-rc1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [tclap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tclap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tclap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tclap")
+```
+
+
 ### tiltedcore (linux)
 
 

@@ -4897,6 +4897,30 @@ add_requires("tbox")
 ```
 
 
+### tclap (macosx)
+
+
+| Description | *This is a simple templatized C++ library for parsing command line arguments.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/tclap/](https://sourceforge.net/projects/tclap/) |
+| License | MIT |
+| Versions | 1.4.0-rc1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [tclap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tclap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tclap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tclap")
+```
+
+
 ### tinyformat (macosx)
 
 
