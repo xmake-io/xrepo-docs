@@ -1953,6 +1953,29 @@ add_requires("libflac")
 ```
 
 
+### libhv (macosx)
+
+
+| Description | *Like libevent, libev, and libuv, libhv provides event-loop with non-blocking IO and timer, but simpler api and richer protocols.* |
+| -- | -- |
+| Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
+| Versions | 1.0.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libhv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libhv")
+```
+
+
 ### libiconv (macosx)
 
 

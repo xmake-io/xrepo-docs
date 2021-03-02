@@ -996,6 +996,29 @@ add_requires("libflac")
 ```
 
 
+### libhv (iphoneos)
+
+
+| Description | *Like libevent, libev, and libuv, libhv provides event-loop with non-blocking IO and timer, but simpler api and richer protocols.* |
+| -- | -- |
+| Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
+| Versions | 1.0.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libhv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libhv")
+```
+
+
 ### libjpeg (iphoneos)
 
 
