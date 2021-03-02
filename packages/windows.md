@@ -4157,6 +4157,29 @@ add_requires("tiltedcore")
 ```
 
 
+### tinycc (windows)
+
+
+| Description | *Tiny C Compiler* |
+| -- | -- |
+| Homepage | [https://bellard.org/tcc/](https://bellard.org/tcc/) |
+| Versions | 0.9.27 |
+| Architectures | x64, x86 |
+| Definition | [tinycc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinycc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinycc")
+```
+
+
 ### tinyformat (windows)
 
 
