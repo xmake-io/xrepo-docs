@@ -2001,6 +2001,29 @@ add_requires("leveldb")
 ```
 
 
+### libbpf (linux)
+
+
+| Description | *Automated upstream mirror for libbpf stand-alone build.* |
+| -- | -- |
+| Homepage | [https://github.com/libbpf/libbpf](https://github.com/libbpf/libbpf) |
+| Versions | v0.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libbpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbpf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libbpf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbpf")
+```
+
+
 ### libcurl (linux)
 
 
