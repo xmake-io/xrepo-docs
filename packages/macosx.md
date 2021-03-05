@@ -1605,7 +1605,7 @@ add_requires("http_parser")
 | Description | *C/C++ libraries for Unicode and globalization.* |
 | -- | -- |
 | Homepage | [http://site.icu-project.org/](http://site.icu-project.org/) |
-| Versions | 64.2, 68.1 |
+| Versions | 64.2, 68.1, 68.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [icu4c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icu4c/xmake.lua) |
 
