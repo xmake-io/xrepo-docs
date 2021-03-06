@@ -1860,6 +1860,30 @@ add_requires("leveldb")
 ```
 
 
+### libarchive (macosx)
+
+
+| Description | *Multi-format archive and compression library* |
+| -- | -- |
+| Homepage | [https://libarchive.org/](https://libarchive.org/) |
+| License | BSD-2-Clause |
+| Versions | 3.5.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libarchive
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libarchive")
+```
+
+
 ### libcurl (macosx)
 
 
@@ -2656,7 +2680,7 @@ add_requires("libuuid")
 | Description | *A multi-platform support library with a focus on asynchronous I/O.* |
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0 |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -3320,6 +3344,30 @@ xrepo install llvm-mingw
 
 ```lua
 add_requires("llvm-mingw")
+```
+
+
+### log4cplus (macosx)
+
+
+| Description | *log4cplus is a simple to use C++ logging API providing thread-safe, flexible, and arbitrarily granular control over log management and configuration.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/log4cplus/](https://sourceforge.net/projects/log4cplus/) |
+| License | BSD-2-Clause |
+| Versions | 2.0.6 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [log4cplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/log4cplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install log4cplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("log4cplus")
 ```
 
 
@@ -4292,7 +4340,7 @@ add_requires("protobuf-c")
 | Description | *Google's data interchange format for cpp* |
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
-| Versions | 3.12.3, 3.13.0, 3.14.0, 3.8.0 |
+| Versions | 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.8.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 

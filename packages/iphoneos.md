@@ -1236,7 +1236,7 @@ add_requires("libtool")
 | Description | *A multi-platform support library with a focus on asynchronous I/O.* |
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0 |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
