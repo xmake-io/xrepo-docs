@@ -2048,6 +2048,29 @@ add_requires("libbpf")
 ```
 
 
+### libcap (linux)
+
+
+| Description | *User-space interfaces to POSIX 1003.1e capabilities* |
+| -- | -- |
+| Homepage | [https://sites.google.com/site/fullycapable/](https://sites.google.com/site/fullycapable/) |
+| Versions | 2.27 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libcap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libcap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libcap")
+```
+
+
 ### libcurl (linux)
 
 
@@ -3557,6 +3580,30 @@ xrepo install linux-headers
 
 ```lua
 add_requires("linux-headers")
+```
+
+
+### linux-tools (linux)
+
+
+| Description | *Tools and libraries of the Linux kernel* |
+| -- | -- |
+| Homepage | [https://kernel.org/](https://kernel.org/) |
+| License | GPL-2.0-only |
+| Versions | 4.20.9, 5.0.8, 5.9.16 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [linux-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install linux-tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("linux-tools")
 ```
 
 
