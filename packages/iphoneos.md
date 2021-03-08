@@ -1048,7 +1048,7 @@ add_requires("libjpeg")
 | Description | *Ogg Bitstream Library* |
 | -- | -- |
 | Homepage | [https://www.xiph.org/ogg/](https://www.xiph.org/ogg/) |
-| Versions | 1.3.4 |
+| Versions | v1.3.4 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [libogg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libogg/xmake.lua) |
 

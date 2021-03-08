@@ -1962,7 +1962,7 @@ add_requires("libjpeg-turbo")
 | Description | *Ogg Bitstream Library* |
 | -- | -- |
 | Homepage | [https://www.xiph.org/ogg/](https://www.xiph.org/ogg/) |
-| Versions | 1.3.4 |
+| Versions | v1.3.4 |
 | Architectures | x64, x86 |
 | Definition | [libogg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libogg/xmake.lua) |
 

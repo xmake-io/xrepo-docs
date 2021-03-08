@@ -2145,7 +2145,7 @@ add_requires("libmill")
 | Description | *Ogg Bitstream Library* |
 | -- | -- |
 | Homepage | [https://www.xiph.org/ogg/](https://www.xiph.org/ogg/) |
-| Versions | 1.3.4 |
+| Versions | v1.3.4 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libogg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libogg/xmake.lua) |
 
