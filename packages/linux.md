@@ -4318,7 +4318,7 @@ add_requires("nlopt")
 | Description | *NNG, like its predecessors nanomsg (and to some extent ZeroMQ), is a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.* |
 | -- | -- |
 | Homepage | [https://github.com/nanomsg/nng](https://github.com/nanomsg/nng) |
-| Versions | 1.3.2 |
+| Versions | 1.3.2, 1.4.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
 
@@ -4332,6 +4332,29 @@ xrepo install nng
 
 ```lua
 add_requires("nng")
+```
+
+
+### nngpp (linux)
+
+
+| Description | *C++ wrapper around the nanomsg NNG API.* |
+| -- | -- |
+| Homepage | [https://github.com/cwzx/nngpp](https://github.com/cwzx/nngpp) |
+| Versions | v2020.10.30 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [nngpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nngpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nngpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nngpp")
 ```
 
 
