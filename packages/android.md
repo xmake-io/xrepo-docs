@@ -23,6 +23,29 @@ add_requires("angelscript")
 ```
 
 
+### argp-standalone (android)
+
+
+| Description | *Standalone version of arguments parsing functions from GLIBC* |
+| -- | -- |
+| Homepage | [https://www.lysator.liu.se/~nisse/misc/](https://www.lysator.liu.se/~nisse/misc/) |
+| Versions | 1.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [argp-standalone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argp-standalone/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] argp-standalone
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("argp-standalone")
+```
+
+
 ### autoconf (android)
 
 

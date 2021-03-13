@@ -22,6 +22,29 @@ add_requires("abseil")
 ```
 
 
+### argp-standalone (macosx)
+
+
+| Description | *Standalone version of arguments parsing functions from GLIBC* |
+| -- | -- |
+| Homepage | [https://www.lysator.liu.se/~nisse/misc/](https://www.lysator.liu.se/~nisse/misc/) |
+| Versions | 1.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [argp-standalone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argp-standalone/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install argp-standalone
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("argp-standalone")
+```
+
+
 ### assimp (macosx)
 
 
