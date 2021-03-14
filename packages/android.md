@@ -663,6 +663,29 @@ add_requires("fmt")
 
 
 ## g
+### gettext (android)
+
+
+| Description | *GNU internationalization (i18n) and localization (l10n) library.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
+| Versions | 0.19.8-1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [gettext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gettext/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] gettext
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gettext")
+```
+
+
 ### giflib (android)
 
 
@@ -1067,6 +1090,29 @@ add_requires("kcp")
 
 
 ## l
+### libelf (android)
+
+
+| Description | *ELF object file access library* |
+| -- | -- |
+| Homepage | [https://web.archive.org/web/20181111033959/www.mr511.de/software/english.html](https://web.archive.org/web/20181111033959/www.mr511.de/software/english.html) |
+| Versions | 0.8.13 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libelf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libelf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libelf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libelf")
+```
+
+
 ### libflac (android)
 
 
@@ -1111,6 +1157,29 @@ xrepo install -p android [--ndk=/xxx] libhv
 
 ```lua
 add_requires("libhv")
+```
+
+
+### libiconv (android)
+
+
+| Description | *Character set conversion library.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
+| Versions | 1.15, 1.16 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libiconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libiconv")
 ```
 
 
