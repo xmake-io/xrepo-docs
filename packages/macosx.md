@@ -3605,6 +3605,29 @@ add_requires("mbedtls")
 ```
 
 
+### memorymapping (macosx)
+
+
+| Description | *fmemopen port library* |
+| -- | -- |
+| Homepage | [https://github.com/NimbusKit/memorymapping](https://github.com/NimbusKit/memorymapping) |
+| Versions | 2014.12.21 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [memorymapping/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/memorymapping/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install memorymapping
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("memorymapping")
+```
+
+
 ### meson (macosx)
 
 

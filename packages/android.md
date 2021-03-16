@@ -1090,6 +1090,29 @@ add_requires("kcp")
 
 
 ## l
+### libbpf (android)
+
+
+| Description | *Automated upstream mirror for libbpf stand-alone build.* |
+| -- | -- |
+| Homepage | [https://github.com/libbpf/libbpf](https://github.com/libbpf/libbpf) |
+| Versions | v0.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libbpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbpf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libbpf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbpf")
+```
+
+
 ### libelf (android)
 
 
@@ -1673,6 +1696,29 @@ xrepo install -p android [--ndk=/xxx] mbedtls
 
 ```lua
 add_requires("mbedtls")
+```
+
+
+### memorymapping (android)
+
+
+| Description | *fmemopen port library* |
+| -- | -- |
+| Homepage | [https://github.com/NimbusKit/memorymapping](https://github.com/NimbusKit/memorymapping) |
+| Versions | 2014.12.21 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [memorymapping/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/memorymapping/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] memorymapping
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("memorymapping")
 ```
 
 
