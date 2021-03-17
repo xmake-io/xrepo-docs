@@ -2310,7 +2310,7 @@ add_requires("libtool")
 | Description | *A cross-platform library to access USB devices.* |
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
-| Versions | v1.0.23, v1.0.24 |
+| Versions | v1.0.24 |
 | Architectures | x64, x86 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 
@@ -3085,7 +3085,7 @@ add_requires("nasm")
 | Description | *Android NDK toolchain.* |
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
-| Versions | 21 |
+| Versions | 21, 22 |
 | Architectures | x64, x86 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 

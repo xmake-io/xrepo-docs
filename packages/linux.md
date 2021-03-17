@@ -2916,7 +2916,7 @@ add_requires("libunistring")
 | Description | *A cross-platform library to access USB devices.* |
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
-| Versions | v1.0.23, v1.0.24 |
+| Versions | v1.0.24 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 
@@ -3610,7 +3610,7 @@ add_requires("linux-headers")
 ### linux-tools (linux)
 
 
-| Description | *Tools and libraries of the Linux kernel* |
+| Description | *Tools of the Linux kernel* |
 | -- | -- |
 | Homepage | [https://kernel.org/](https://kernel.org/) |
 | License | GPL-2.0-only |
@@ -4248,7 +4248,7 @@ add_requires("ncurses")
 | Description | *Android NDK toolchain.* |
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
-| Versions | 21 |
+| Versions | 21, 22 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 
