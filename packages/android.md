@@ -1865,6 +1865,29 @@ add_requires("nasm")
 ```
 
 
+### ndk (android)
+
+
+| Description | *Android NDK toolchain.* |
+| -- | -- |
+| Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
+| Versions | 21 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ndk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndk")
+```
+
+
 ### ninja (android)
 
 

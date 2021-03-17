@@ -4242,6 +4242,29 @@ add_requires("ncurses")
 ```
 
 
+### ndk (linux)
+
+
+| Description | *Android NDK toolchain.* |
+| -- | -- |
+| Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
+| Versions | 21 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ndk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndk")
+```
+
+
 ### nettle (linux)
 
 

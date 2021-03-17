@@ -1281,6 +1281,29 @@ add_requires("ncurses")
 ```
 
 
+### ndk (bsd)
+
+
+| Description | *Android NDK toolchain.* |
+| -- | -- |
+| Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
+| Versions | 21 |
+| Architectures | i386, x86_64 |
+| Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ndk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndk")
+```
+
+
 ### ninja (bsd)
 
 

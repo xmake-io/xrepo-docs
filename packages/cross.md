@@ -1211,6 +1211,29 @@ add_requires("nasm")
 ```
 
 
+### ndk (cross)
+
+
+| Description | *Android NDK toolchain.* |
+| -- | -- |
+| Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
+| Versions | 21 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ndk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndk")
+```
+
+
 ### ninja (cross)
 
 

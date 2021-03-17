@@ -2803,6 +2803,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("nasm")
 </code></pre>
+<h3 id="ndkandroid">ndk (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Android NDK toolchain.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://developer.android.com/ndk">https://developer.android.com/ndk</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>21</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua">ndk/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] ndk
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("ndk")
+</code></pre>
 <h3 id="ninjaandroid">ninja (android)</h3>
 <table>
 <thead>

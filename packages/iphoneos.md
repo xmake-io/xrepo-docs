@@ -1678,6 +1678,29 @@ add_requires("nasm")
 ```
 
 
+### ndk (iphoneos)
+
+
+| Description | *Android NDK toolchain.* |
+| -- | -- |
+| Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
+| Versions | 21 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos ndk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndk")
+```
+
+
 ### ninja (iphoneos)
 
 
