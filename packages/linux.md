@@ -4248,7 +4248,7 @@ add_requires("ncurses")
 | Description | *Android NDK toolchain.* |
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
-| Versions | 21, 22 |
+| Versions | 21.0, 22.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 
