@@ -2211,6 +2211,30 @@ add_requires("libflac")
 ```
 
 
+### libfreenect2 (linux)
+
+
+| Description | *Open source drivers for the Kinect for Windows v2 device* |
+| -- | -- |
+| Homepage | [https://github.com/OpenKinect/libfreenect2](https://github.com/OpenKinect/libfreenect2) |
+| License | GPL-2.0 |
+| Versions | v0.2.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libfreenect2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfreenect2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfreenect2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfreenect2")
+```
+
+
 ### libgcrypt (linux)
 
 
