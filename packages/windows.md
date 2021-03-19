@@ -1255,7 +1255,7 @@ add_requires("glad")
 | Description | *A cross-platform open-source C/C++ extension loading library.* |
 | -- | -- |
 | Homepage | [http://glew.sourceforge.net/](http://glew.sourceforge.net/) |
-| Versions | 2.1.0 |
+| Versions | 2.1.0, 2.2.0 |
 | Architectures | x64, x86 |
 | Definition | [glew/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glew/xmake.lua) |
 
@@ -3295,7 +3295,7 @@ add_requires("opencv")
 | Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3 |
+| Versions | 2.5.3, 2.5.5 |
 | Architectures | x64, x86 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -3342,7 +3342,7 @@ add_requires("openjpeg")
 | Description | *OpenVDB - Sparse volume data structure and tools* |
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
-| Versions | 7.1.0 |
+| Versions | 7.1.0, 8.0.1 |
 | Architectures | x64, x86 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 

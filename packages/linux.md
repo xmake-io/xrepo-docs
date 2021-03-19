@@ -1371,7 +1371,7 @@ add_requires("glad")
 | Description | *A cross-platform open-source C/C++ extension loading library.* |
 | -- | -- |
 | Homepage | [http://glew.sourceforge.net/](http://glew.sourceforge.net/) |
-| Versions | 2.1.0 |
+| Versions | 2.1.0, 2.2.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glew/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glew/xmake.lua) |
 
@@ -3056,7 +3056,7 @@ add_requires("libwebsockets")
 | Description | *X.Org: Core X11 protocol client library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.6.9 |
+| Versions | 1.6.9, 1.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
 
@@ -4482,7 +4482,7 @@ add_requires("opencv")
 | Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3 |
+| Versions | 2.5.3, 2.5.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -4552,7 +4552,7 @@ add_requires("openssl")
 | Description | *OpenVDB - Sparse volume data structure and tools* |
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
-| Versions | 7.1.0 |
+| Versions | 7.1.0, 8.0.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
@@ -5898,7 +5898,7 @@ add_requires("xcb-proto")
 | Description | *X.Org: Protocol Headers* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 2019.2 |
+| Versions | 2019.2, 2021.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xorgproto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xorgproto/xmake.lua) |
 
