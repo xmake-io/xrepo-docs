@@ -2007,7 +2007,7 @@ add_requires("libflac")
 | -- | -- |
 | Homepage | [https://github.com/OpenKinect/libfreenect2](https://github.com/OpenKinect/libfreenect2) |
 | License | GPL-2.0 |
-| Versions | v0.2.0 |
+| Versions | v0.2.0, v0.2.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libfreenect2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfreenect2/xmake.lua) |
 
