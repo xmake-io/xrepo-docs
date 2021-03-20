@@ -356,7 +356,7 @@ add_requires("bzip2")
 | Description | *A C library for asynchronous DNS requests* |
 | -- | -- |
 | Homepage | [https://c-ares.haxx.se/](https://c-ares.haxx.se/) |
-| Versions | 1.16.1 |
+| Versions | 1.16.1, 1.17.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
 
@@ -473,7 +473,7 @@ add_requires("cereal")
 | -- | -- |
 | Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
 | License | LGPL-3.0 |
-| Versions | 5.1.1 |
+| Versions | 5.1.1, 5.2.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
 
@@ -3418,6 +3418,30 @@ add_requires("llvm-mingw")
 ```
 
 
+### lodepng (macosx)
+
+
+| Description | *PNG encoder and decoder in C and C++.* |
+| -- | -- |
+| Homepage | [https://lodev.org/lodepng/](https://lodev.org/lodepng/) |
+| License | zlib |
+| Versions |  |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [lodepng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lodepng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lodepng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lodepng")
+```
+
+
 ### log4cplus (macosx)
 
 
@@ -4036,7 +4060,7 @@ add_requires("nettle")
 | Description | *Small build system for use with gyp or CMake.* |
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
-| Versions | 1.10.1, 1.9.0 |
+| Versions | 1.10.1, 1.10.2, 1.9.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
@@ -4517,6 +4541,30 @@ xrepo install protoc
 
 ```lua
 add_requires("protoc")
+```
+
+
+### ptex (macosx)
+
+
+| Description | *Per-Face Texture Mapping for Production Rendering* |
+| -- | -- |
+| Homepage | [http://ptex.us/](http://ptex.us/) |
+| License | BSD-3-Clause |
+| Versions | v2.3.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ptex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ptex")
 ```
 
 

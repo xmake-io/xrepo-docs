@@ -1556,6 +1556,30 @@ add_requires("llvm-mingw")
 ```
 
 
+### lodepng (mingw)
+
+
+| Description | *PNG encoder and decoder in C and C++.* |
+| -- | -- |
+| Homepage | [https://lodev.org/lodepng/](https://lodev.org/lodepng/) |
+| License | zlib |
+| Versions |  |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [lodepng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lodepng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] lodepng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lodepng")
+```
+
+
 ### lyra (mingw)
 
 
@@ -1823,7 +1847,7 @@ add_requires("ndk")
 | Description | *Small build system for use with gyp or CMake.* |
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
-| Versions | 1.10.1, 1.9.0 |
+| Versions | 1.10.1, 1.10.2, 1.9.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 

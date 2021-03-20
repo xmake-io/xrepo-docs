@@ -2323,6 +2323,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("llvm-mingw")
 </code></pre>
+<h3 id="lodepngandroid">lodepng (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>PNG encoder and decoder in C and C++.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://lodev.org/lodepng/">https://lodev.org/lodepng/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lodepng/xmake.lua">lodepng/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] lodepng
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("lodepng")
+</code></pre>
 <h3 id="luaandroid">lua (android)</h3>
 <table>
 <thead>
@@ -2851,7 +2888,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.10.1, 1.9.0</td>
+<td>1.10.1, 1.10.2, 1.9.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
