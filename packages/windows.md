@@ -3879,6 +3879,29 @@ add_requires("re2")
 
 
 ## s
+### scons (windows)
+
+
+| Description | *A software construction tool* |
+| -- | -- |
+| Homepage | [https://scons.org](https://scons.org) |
+| Versions | 4.1.0 |
+| Architectures | x64, x86 |
+| Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install scons
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scons")
+```
+
+
 ### sentry-native (windows)
 
 

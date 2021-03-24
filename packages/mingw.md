@@ -2195,6 +2195,29 @@ add_requires("rapidjson")
 
 
 ## s
+### scons (mingw)
+
+
+| Description | *A software construction tool* |
+| -- | -- |
+| Homepage | [https://scons.org](https://scons.org) |
+| Versions | 4.1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] scons
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scons")
+```
+
+
 ### sfml (mingw)
 
 

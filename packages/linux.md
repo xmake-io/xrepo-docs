@@ -5066,6 +5066,29 @@ add_requires("re2")
 
 
 ## s
+### scons (linux)
+
+
+| Description | *A software construction tool* |
+| -- | -- |
+| Homepage | [https://scons.org](https://scons.org) |
+| Versions | 4.1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install scons
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scons")
+```
+
+
 ### sentry-native (linux)
 
 

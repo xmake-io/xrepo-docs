@@ -1519,6 +1519,29 @@ add_requires("rapidjson")
 
 
 ## s
+### scons (cross)
+
+
+| Description | *A software construction tool* |
+| -- | -- |
+| Homepage | [https://scons.org](https://scons.org) |
+| Versions | 4.1.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] scons
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scons")
+```
+
+
 ### snappy (cross)
 
 

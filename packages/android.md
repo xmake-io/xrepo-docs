@@ -2218,6 +2218,29 @@ add_requires("rapidjson")
 
 
 ## s
+### scons (android)
+
+
+| Description | *A software construction tool* |
+| -- | -- |
+| Homepage | [https://scons.org](https://scons.org) |
+| Versions | 4.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] scons
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scons")
+```
+
+
 ### sentry-native (android)
 
 

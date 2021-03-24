@@ -2031,6 +2031,29 @@ add_requires("rapidjson")
 
 
 ## s
+### scons (iphoneos)
+
+
+| Description | *A software construction tool* |
+| -- | -- |
+| Homepage | [https://scons.org](https://scons.org) |
+| Versions | 4.1.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos scons
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scons")
+```
+
+
 ### simdjson (iphoneos)
 
 
