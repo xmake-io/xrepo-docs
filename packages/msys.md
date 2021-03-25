@@ -499,26 +499,26 @@ add_requires("gnu-rm")
 ```
 
 
-### godotheaders (msys)
+### godotcpp (msys)
 
 
-| Description | *Headers for the Godot API supplied by the GDNative module* |
+| Description | *C++ bindings for the Godot script API* |
 | -- | -- |
-| Homepage | [https://godotengine.org](https://godotengine.org) |
-| Versions | 3.2.3 |
+| Homepage | [https://godotengine.org/](https://godotengine.org/) |
+| Versions | 3.2 |
 | Architectures | i386, x86_64 |
-| Definition | [godotheaders/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotheaders/xmake.lua) |
+| Definition | [godotcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp/xmake.lua) |
 
 ##### Install command
 
 ```console
-xrepo install godotheaders
+xrepo install godotcpp
 ```
 
 ##### Integration in the project (xmake.lua)
 
 ```lua
-add_requires("godotheaders")
+add_requires("godotcpp")
 ```
 
 
