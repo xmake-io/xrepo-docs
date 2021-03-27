@@ -779,6 +779,29 @@ add_requires("gnu-rm")
 ```
 
 
+### godotcpp (android)
+
+
+| Description | *C++ bindings for the Godot script API* |
+| -- | -- |
+| Homepage | [https://godotengine.org/](https://godotengine.org/) |
+| Versions | 3.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [godotcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] godotcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("godotcpp")
+```
+
+
 ### gtest (android)
 
 
