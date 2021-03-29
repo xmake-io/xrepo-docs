@@ -1124,7 +1124,7 @@ add_requires("m4")
 | Description | *GNU make tool.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
-| Versions | 4.2.1 |
+| Versions | 4.2.1, 4.3 |
 | Architectures | i386, x86_64 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 

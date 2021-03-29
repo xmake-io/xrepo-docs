@@ -718,7 +718,7 @@ add_requires("http_parser")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80, v1.81 |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -1544,7 +1544,7 @@ add_requires("m4")
 | Description | *GNU make tool.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
-| Versions | 4.2.1 |
+| Versions | 4.2.1, 4.3 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 

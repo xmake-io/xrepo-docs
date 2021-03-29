@@ -1583,7 +1583,7 @@ add_requires("icu4c")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80, v1.81 |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82 |
 | Architectures | x64, x86 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -2828,7 +2828,7 @@ add_requires("m4")
 | Description | *GNU make tool.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
-| Versions | 4.2.1 |
+| Versions | 4.2.1, 4.3 |
 | Architectures | x64, x86 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 
@@ -3508,7 +3508,7 @@ add_requires("piex")
 | Description | *Low-level library for pixel manipulation.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 0.38.0 |
+| Versions | 0.38.0, 0.40.0 |
 | Architectures | x64, x86 |
 | Definition | [pixman/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pixman/xmake.lua) |
 
