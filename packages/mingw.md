@@ -400,6 +400,29 @@ add_requires("concurrentqueue")
 ```
 
 
+### cpp-httplib (mingw)
+
+
+| Description | *A C++11 single-file header-only cross platform HTTP/HTTPS library.* |
+| -- | -- |
+| Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
+| Versions | 0.8.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cpp-httplib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-httplib")
+```
+
+
 ### cxxopts (mingw)
 
 

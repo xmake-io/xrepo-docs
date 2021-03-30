@@ -423,6 +423,29 @@ add_requires("concurrentqueue")
 ```
 
 
+### cpp-httplib (android)
+
+
+| Description | *A C++11 single-file header-only cross platform HTTP/HTTPS library.* |
+| -- | -- |
+| Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
+| Versions | 0.8.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cpp-httplib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-httplib")
+```
+
+
 ### cpu-features (android)
 
 
