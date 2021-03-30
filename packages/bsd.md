@@ -545,6 +545,30 @@ add_requires("gnu-rm")
 ```
 
 
+### gsl (bsd)
+
+
+| Description | *Guidelines Support Library* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
+| License | MIT |
+| Versions | v3.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gsl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gsl")
+```
+
+
 ### gtest (bsd)
 
 
@@ -1819,6 +1843,30 @@ xrepo install tinyformat
 
 ```lua
 add_requires("tinyformat")
+```
+
+
+### tinygltf (bsd)
+
+
+| Description | *Header only C++11 tiny glTF 2.0 library* |
+| -- | -- |
+| Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
+| License | MIT |
+| Versions | v2.5.0 |
+| Architectures | i386, x86_64 |
+| Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinygltf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinygltf")
 ```
 
 

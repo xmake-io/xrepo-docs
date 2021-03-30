@@ -825,6 +825,30 @@ add_requires("godotcpp")
 ```
 
 
+### gsl (android)
+
+
+| Description | *Guidelines Support Library* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
+| License | MIT |
+| Versions | v3.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] gsl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gsl")
+```
+
+
 ### gtest (android)
 
 
@@ -2494,6 +2518,30 @@ xrepo install -p android [--ndk=/xxx] tinyformat
 
 ```lua
 add_requires("tinyformat")
+```
+
+
+### tinygltf (android)
+
+
+| Description | *Header only C++11 tiny glTF 2.0 library* |
+| -- | -- |
+| Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
+| License | MIT |
+| Versions | v2.5.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tinygltf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinygltf")
 ```
 
 
