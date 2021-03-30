@@ -4047,7 +4047,8 @@ add_requires("simdjson")
 | Description | *A complete 2D graphic library for drawing Text, Geometries, and Images.* |
 | -- | -- |
 | Homepage | [https://skia.org/](https://skia.org/) |
-| Versions | 68046c |
+| License | BSD-3-Clause |
+| Versions | 88, 89, 90 |
 | Architectures | x64, x86 |
 | Definition | [skia/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/skia/xmake.lua) |
 

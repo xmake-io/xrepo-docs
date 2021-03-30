@@ -1228,7 +1228,7 @@ add_requires("fmt")
 | Description | *A library for configuring and customizing font access.* |
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/fontconfig/](https://www.freedesktop.org/wiki/Software/fontconfig/) |
-| Versions | 2.13.1 |
+| Versions | 2.13.1, 2.13.93 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fontconfig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fontconfig/xmake.lua) |
 
@@ -2954,6 +2954,29 @@ xrepo install libunistring
 
 ```lua
 add_requires("libunistring")
+```
+
+
+### libunwind (linux)
+
+
+| Description | *This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.* |
+| -- | -- |
+| Homepage | [https://github.com/libunwind/libunwind](https://github.com/libunwind/libunwind) |
+| Versions | v1.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libunwind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunwind/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libunwind
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libunwind")
 ```
 
 
@@ -5234,7 +5257,8 @@ add_requires("simdjson")
 | Description | *A complete 2D graphic library for drawing Text, Geometries, and Images.* |
 | -- | -- |
 | Homepage | [https://skia.org/](https://skia.org/) |
-| Versions | 68046c |
+| License | BSD-3-Clause |
+| Versions | 88, 89, 90 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [skia/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/skia/xmake.lua) |
 

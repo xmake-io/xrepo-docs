@@ -1393,6 +1393,29 @@ add_requires("libtool")
 ```
 
 
+### libunwind (android)
+
+
+| Description | *This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.* |
+| -- | -- |
+| Homepage | [https://github.com/libunwind/libunwind](https://github.com/libunwind/libunwind) |
+| Versions | v1.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libunwind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunwind/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libunwind
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libunwind")
+```
+
+
 ### libuv (android)
 
 

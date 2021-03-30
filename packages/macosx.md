@@ -1157,7 +1157,7 @@ add_requires("fmt")
 | Description | *A library for configuring and customizing font access.* |
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/fontconfig/](https://www.freedesktop.org/wiki/Software/fontconfig/) |
-| Versions | 2.13.1 |
+| Versions | 2.13.1, 2.13.93 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [fontconfig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fontconfig/xmake.lua) |
 
@@ -4903,7 +4903,8 @@ add_requires("simdjson")
 | Description | *A complete 2D graphic library for drawing Text, Geometries, and Images.* |
 | -- | -- |
 | Homepage | [https://skia.org/](https://skia.org/) |
-| Versions | 68046c |
+| License | BSD-3-Clause |
+| Versions | 88, 89, 90 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [skia/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/skia/xmake.lua) |
 
