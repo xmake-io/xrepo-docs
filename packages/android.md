@@ -2286,6 +2286,30 @@ add_requires("rapidjson")
 ```
 
 
+### rply (android)
+
+
+| Description | *RPly is a library that lets applications read and write PLY files.* |
+| -- | -- |
+| Homepage | [http://w3.impa.br/~diego/software/rply/](http://w3.impa.br/~diego/software/rply/) |
+| License | MIT |
+| Versions | 1.1.4 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [rply/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rply/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] rply
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rply")
+```
+
+
 
 ## s
 ### scons (android)

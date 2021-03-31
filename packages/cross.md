@@ -1541,6 +1541,30 @@ add_requires("rapidjson")
 ```
 
 
+### rply (cross)
+
+
+| Description | *RPly is a library that lets applications read and write PLY files.* |
+| -- | -- |
+| Homepage | [http://w3.impa.br/~diego/software/rply/](http://w3.impa.br/~diego/software/rply/) |
+| License | MIT |
+| Versions | 1.1.4 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [rply/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rply/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] rply
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rply")
+```
+
+
 
 ## s
 ### scons (cross)

@@ -2076,6 +2076,30 @@ add_requires("rapidjson")
 ```
 
 
+### rply (iphoneos)
+
+
+| Description | *RPly is a library that lets applications read and write PLY files.* |
+| -- | -- |
+| Homepage | [http://w3.impa.br/~diego/software/rply/](http://w3.impa.br/~diego/software/rply/) |
+| License | MIT |
+| Versions | 1.1.4 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [rply/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rply/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos rply
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rply")
+```
+
+
 
 ## s
 ### scons (iphoneos)

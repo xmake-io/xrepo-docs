@@ -1963,7 +1963,7 @@ add_requires("libhv")
 | Description | *Simple C++ geometry processing library.* |
 | -- | -- |
 | Homepage | [https://libigl.github.io/](https://libigl.github.io/) |
-| Versions | 2.2.0 |
+| Versions | v2.2.0, v2.3.0 |
 | Architectures | x64, x86 |
 | Definition | [libigl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libigl/xmake.lua) |
 
@@ -3595,6 +3595,30 @@ add_requires("pkg-config")
 ```
 
 
+### pmp (windows)
+
+
+| Description | *The Polygon Mesh Processing Library* |
+| -- | -- |
+| Homepage | [http://www.pmp-library.org/](http://www.pmp-library.org/) |
+| License | MIT |
+| Versions | 1.2.1 |
+| Architectures | x64, x86 |
+| Definition | [pmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pmp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pmp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pmp")
+```
+
+
 ### pqp (windows)
 
 
@@ -3921,6 +3945,30 @@ xrepo install re2
 
 ```lua
 add_requires("re2")
+```
+
+
+### rply (windows)
+
+
+| Description | *RPly is a library that lets applications read and write PLY files.* |
+| -- | -- |
+| Homepage | [http://w3.impa.br/~diego/software/rply/](http://w3.impa.br/~diego/software/rply/) |
+| License | MIT |
+| Versions | 1.1.4 |
+| Architectures | x64, x86 |
+| Definition | [rply/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rply/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rply
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rply")
 ```
 
 
@@ -4608,6 +4656,30 @@ add_requires("unqlite")
 
 
 ## v
+### vcglib (windows)
+
+
+| Description | *The Visualization and Computer Graphics Library (VCG for short) is a open source portable C++ templated library for manipulation, processing and displaying with OpenGL of triangle and tetrahedral meshes.* |
+| -- | -- |
+| Homepage | [http://www.vcglib.net/](http://www.vcglib.net/) |
+| License | GPL-3.0 |
+| Versions | 2020.12 |
+| Architectures | x64, x86 |
+| Definition | [vcglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcglib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vcglib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vcglib")
+```
+
+
 ### volk (windows)
 
 
