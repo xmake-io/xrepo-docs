@@ -5181,6 +5181,29 @@ add_requires("sqlite3")
 ```
 
 
+### srt (macosx)
+
+
+| Description | *Secure Reliable Transport (SRT) Protocol* |
+| -- | -- |
+| Homepage | [https://www.srtalliance.org/](https://www.srtalliance.org/) |
+| Versions | v1.4.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [srt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install srt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("srt")
+```
+
+
 ### stb (macosx)
 
 
