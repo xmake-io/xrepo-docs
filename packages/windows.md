@@ -2335,7 +2335,7 @@ add_requires("libsoundio")
 | Description | *TIFF Library and Utilities.* |
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
-| Versions | 4.1.0 |
+| Versions | v4.1.0, v4.2.0 |
 | Architectures | x64, x86 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 

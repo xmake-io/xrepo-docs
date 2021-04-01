@@ -2917,7 +2917,7 @@ add_requires("libtasn1")
 | Description | *TIFF Library and Utilities.* |
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
-| Versions | 4.1.0 |
+| Versions | v4.1.0, v4.2.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 
