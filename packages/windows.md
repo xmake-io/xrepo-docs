@@ -1480,6 +1480,30 @@ add_requires("godotcpp")
 ```
 
 
+### gr (windows)
+
+
+| Description | *GR framework: a graphics library for visualisation applications* |
+| -- | -- |
+| Homepage | [https://gr-framework.org/](https://gr-framework.org/) |
+| License | MIT |
+| Versions | 0.57.0 |
+| Architectures | x64 |
+| Definition | [gr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gr")
+```
+
+
 ### gsl (windows)
 
 
