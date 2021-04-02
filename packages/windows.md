@@ -3438,7 +3438,7 @@ add_requires("openexr")
 | -- | -- |
 | Homepage | [http://www.openjpeg.org/](http://www.openjpeg.org/) |
 | License | BSD-2-Clause |
-| Versions | 2.3.1 |
+| Versions | 2.3.1, 2.4.0 |
 | Architectures | x64, x86 |
 | Definition | [openjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjpeg/xmake.lua) |
 
@@ -3897,6 +3897,29 @@ xrepo install qdcae
 
 ```lua
 add_requires("qdcae")
+```
+
+
+### qhull (windows)
+
+
+| Description | *Qhull computes the convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furthest-site Delaunay triangulation, and furthest-site Voronoi diagram.* |
+| -- | -- |
+| Homepage | [http://www.qhull.org/](http://www.qhull.org/) |
+| Versions | 2020.2 |
+| Architectures | x64, x86 |
+| Definition | [qhull/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qhull/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qhull
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qhull")
 ```
 
 

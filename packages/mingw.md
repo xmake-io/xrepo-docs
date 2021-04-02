@@ -2215,6 +2215,29 @@ add_requires("qdcae")
 ```
 
 
+### qhull (mingw)
+
+
+| Description | *Qhull computes the convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furthest-site Delaunay triangulation, and furthest-site Voronoi diagram.* |
+| -- | -- |
+| Homepage | [http://www.qhull.org/](http://www.qhull.org/) |
+| Versions | 2020.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [qhull/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qhull/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] qhull
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qhull")
+```
+
+
 
 ## r
 ### rapidjson (mingw)
