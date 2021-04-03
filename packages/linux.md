@@ -4671,7 +4671,7 @@ add_requires("openjpeg")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
-| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h |
+| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h, 1.1.1k |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
@@ -5883,6 +5883,30 @@ xrepo install tmxparser
 
 ```lua
 add_requires("tmxparser")
+```
+
+
+### trantor (linux)
+
+
+| Description | *a non-blocking I/O tcp network lib based on c++14/17* |
+| -- | -- |
+| Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
+| License | BSD-3-Clause |
+| Versions | v1.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install trantor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("trantor")
 ```
 
 
