@@ -2399,6 +2399,30 @@ add_requires("libtool")
 ```
 
 
+### libtorch (windows)
+
+
+| Description | *An open source machine learning framework that accelerates the path from research prototyping to production deployment.* |
+| -- | -- |
+| Homepage | [https://pytorch.org/](https://pytorch.org/) |
+| License | BSD-3-Clause |
+| Versions | v1.8.0, v1.8.1 |
+| Architectures | x64 |
+| Definition | [libtorch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtorch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libtorch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtorch")
+```
+
+
 ### libusb (windows)
 
 

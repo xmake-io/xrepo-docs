@@ -2957,6 +2957,30 @@ add_requires("libtool")
 ```
 
 
+### libtorch (linux)
+
+
+| Description | *An open source machine learning framework that accelerates the path from research prototyping to production deployment.* |
+| -- | -- |
+| Homepage | [https://pytorch.org/](https://pytorch.org/) |
+| License | BSD-3-Clause |
+| Versions | v1.8.0, v1.8.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libtorch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtorch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libtorch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtorch")
+```
+
+
 ### libunistring (linux)
 
 
