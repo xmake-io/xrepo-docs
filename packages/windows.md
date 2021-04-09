@@ -866,6 +866,30 @@ add_requires("doctest")
 ```
 
 
+### drogon (windows)
+
+
+| Description | *Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows* |
+| -- | -- |
+| Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
+| License | MIT |
+| Versions | v1.4.1 |
+| Architectures | x64 |
+| Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install drogon
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("drogon")
+```
+
+
 
 ## e
 ### eabase (windows)
