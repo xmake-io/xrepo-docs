@@ -787,6 +787,29 @@ add_requires("libjpeg")
 ```
 
 
+### libmagic (bsd)
+
+
+| Description | *Implementation of the file(1) command* |
+| -- | -- |
+| Homepage | [https://www.darwinsys.com/file/](https://www.darwinsys.com/file/) |
+| Versions | 5.40 |
+| Architectures | i386, x86_64 |
+| Definition | [libmagic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmagic/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmagic
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmagic")
+```
+
+
 ### libpng (bsd)
 
 
