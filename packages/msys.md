@@ -172,7 +172,7 @@ add_requires("capstone")
 | Description | *Catch2 is a multi-paradigm test framework for C++. which also supports Objective-C (and maybe C). * |
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
-| Versions | 2.9.2 |
+| Versions | 2.13.5, 2.9.2 |
 | Architectures | i386, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
