@@ -328,10 +328,10 @@ add_requires("bullet3")
 ### bzip2 (macosx)
 
 
-| Description | *Freely available high-quality data compressor.* |
+| Description | *Freely available, patent free, high-quality data compressor.* |
 | -- | -- |
-| Homepage | [https://en.wikipedia.org/wiki/Bzip2](https://en.wikipedia.org/wiki/Bzip2) |
-| Versions | 1.0.6 |
+| Homepage | [https://sourceware.org/bzip2/](https://sourceware.org/bzip2/) |
+| Versions | 1.0.8 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [bzip2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip2/xmake.lua) |
 
@@ -970,7 +970,7 @@ add_requires("embree")
 | Description | *Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more.* |
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
-| Versions | v3.6.0 |
+| Versions | v3.6.0, v3.7.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -994,7 +994,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6 |
+| Versions | 2.2.10, 2.2.6, 2.3.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -1830,6 +1830,30 @@ xrepo install irrxml
 
 ```lua
 add_requires("irrxml")
+```
+
+
+### itk (macosx)
+
+
+| Description | *ITK is an open-source, cross-platform library that provides developers with an extensive suite of software tools for image analysis.* |
+| -- | -- |
+| Homepage | [https://itk.org/](https://itk.org/) |
+| License | Apache-2.0 |
+| Versions | v5.2.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [itk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install itk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("itk")
 ```
 
 
@@ -4343,7 +4367,7 @@ add_requires("oatpp")
 | Description | *A open source computer vision library.* |
 | -- | -- |
 | Homepage | [https://opencv.org/](https://opencv.org/) |
-| Versions | 3.4.9, 4.2.0, 4.5.1 |
+| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
 
@@ -4854,6 +4878,30 @@ add_requires("qhull")
 
 
 ## r
+### range-v3 (macosx)
+
+
+| Description | *Range library for C++14/17/20, basis for C++20's std::ranges* |
+| -- | -- |
+| Homepage | [https://github.com/ericniebler/range-v3/](https://github.com/ericniebler/range-v3/) |
+| License | BSL-1.0 |
+| Versions | 0.11.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [range-v3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/range-v3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install range-v3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("range-v3")
+```
+
+
 ### rapidjson (macosx)
 
 
