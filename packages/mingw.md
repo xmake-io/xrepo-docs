@@ -647,7 +647,7 @@ add_requires("giflib")
 | Description | *GLFW is an Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development.* |
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
-| Versions | 3.3.2 |
+| Versions | 3.3.2, 3.3.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
@@ -1955,6 +1955,32 @@ xrepo install -p mingw [--mingw=/xxx] nlohmann_json
 
 ```lua
 add_requires("nlohmann_json")
+```
+
+
+
+## o
+### osqp (mingw)
+
+
+| Description | *The Operator Splitting QP Solver* |
+| -- | -- |
+| Homepage | [https://osqp.org/](https://osqp.org/) |
+| License | Apache-2.0 |
+| Versions | v0.6.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [osqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osqp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] osqp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("osqp")
 ```
 
 

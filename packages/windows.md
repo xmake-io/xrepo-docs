@@ -22,6 +22,30 @@ add_requires("abseil")
 ```
 
 
+### amgcl (windows)
+
+
+| Description | *C++ library for solving large sparse linear systems with algebraic multigrid method* |
+| -- | -- |
+| Homepage | [https://github.com/ddemidov/amgcl/](https://github.com/ddemidov/amgcl/) |
+| License | MIT |
+| Versions | 1.4.0 |
+| Architectures | x64, x86 |
+| Definition | [amgcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install amgcl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("amgcl")
+```
+
+
 ### angelscript (windows)
 
 
@@ -1182,7 +1206,7 @@ add_requires("fmt")
 | Description | *A free-software/open-source alternative to the OpenGL Utility Toolkit (GLUT) library.* |
 | -- | -- |
 | Homepage | [http://freeglut.sourceforge.net](http://freeglut.sourceforge.net) |
-| Versions | 3.0.0 |
+| Versions | 3.0.0, 3.2.1 |
 | Architectures | x64, x86 |
 | Definition | [freeglut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeglut/xmake.lua) |
 
@@ -1325,7 +1349,7 @@ add_requires("glew")
 | Description | *GLFW is an Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development.* |
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
-| Versions | 3.3.2 |
+| Versions | 3.3.2, 3.3.4 |
 | Architectures | x64, x86 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
@@ -1888,6 +1912,30 @@ add_requires("lcms")
 ```
 
 
+### leptonica (windows)
+
+
+| Description | *Leptonica is a pedagogically-oriented open source site containing software that is broadly useful for image processing and image analysis applications.* |
+| -- | -- |
+| Homepage | [http://www.leptonica.org/](http://www.leptonica.org/) |
+| License | BSD-2-Clause |
+| Versions | 1.80.0 |
+| Architectures | x64, x86 |
+| Definition | [leptonica/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leptonica/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install leptonica
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("leptonica")
+```
+
+
 ### leveldb (windows)
 
 
@@ -1955,6 +2003,29 @@ xrepo install libcurl
 
 ```lua
 add_requires("libcurl")
+```
+
+
+### libfive (windows)
+
+
+| Description | *libfive is a software library and set of tools for solid modeling, especially suited for parametric and procedural design.* |
+| -- | -- |
+| Homepage | [https://libfive.com/](https://libfive.com/) |
+| Versions | 20210408 |
+| Architectures | x64, x86 |
+| Definition | [libfive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfive/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfive
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfive")
 ```
 
 
@@ -3573,8 +3644,56 @@ add_requires("openvdb")
 ```
 
 
+### osqp (windows)
+
+
+| Description | *The Operator Splitting QP Solver* |
+| -- | -- |
+| Homepage | [https://osqp.org/](https://osqp.org/) |
+| License | Apache-2.0 |
+| Versions | v0.6.2 |
+| Architectures | x64, x86 |
+| Definition | [osqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osqp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install osqp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("osqp")
+```
+
+
 
 ## p
+### partio (windows)
+
+
+| Description | *Partio is an open source C++ library for reading, writing and manipulating a variety of standard particle formats (GEO, BGEO, PTC, PDB, PDA).* |
+| -- | -- |
+| Homepage | [http://partio.us/](http://partio.us/) |
+| License | BSD-3-Clause |
+| Versions | v1.14.0 |
+| Architectures | x64, x86 |
+| Definition | [partio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/partio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install partio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("partio")
+```
+
+
 ### patch (windows)
 
 
@@ -4629,6 +4748,30 @@ xrepo install tclap
 
 ```lua
 add_requires("tclap")
+```
+
+
+### tesseract (windows)
+
+
+| Description | *Tesseract Open Source OCR Engine* |
+| -- | -- |
+| Homepage | [https://tesseract-ocr.github.io/](https://tesseract-ocr.github.io/) |
+| License | Apache-2.0 |
+| Versions | 4.1.1 |
+| Architectures | x64, x86 |
+| Definition | [tesseract/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tesseract/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tesseract
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tesseract")
 ```
 
 

@@ -124,6 +124,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("abseil")
 </code></pre>
+<h3 id="amgclmacosx">amgcl (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C++ library for solving large sparse linear systems with algebraic multigrid method</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/ddemidov/amgcl/">https://github.com/ddemidov/amgcl/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.4.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua">amgcl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install amgcl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("amgcl")
+</code></pre>
 <h3 id="argpstandalonemacosx">argp-standalone (macosx)</h3>
 <table>
 <thead>
@@ -2032,7 +2069,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.3.2</td>
+<td>3.3.2, 3.3.4</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -3146,6 +3183,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libffi")
+</code></pre>
+<h3 id="libfivemacosx">libfive (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>libfive is a software library and set of tools for solid modeling, especially suited for parametric and procedural design.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://libfive.com/">https://libfive.com/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>20210408</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfive/xmake.lua">libfive/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libfive
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libfive")
 </code></pre>
 <h3 id="libflacmacosx">libflac (macosx)</h3>
 <table>
@@ -6636,7 +6706,81 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("openvdb")
 </code></pre>
+<h3 id="osqpmacosx">osqp (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The Operator Splitting QP Solver</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://osqp.org/">https://osqp.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.6.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osqp/xmake.lua">osqp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install osqp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("osqp")
+</code></pre>
 <h2 id="p">p</h2>
+<h3 id="partiomacosx">partio (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Partio is an open source C++ library for reading, writing and manipulating a variety of standard particle formats (GEO, BGEO, PTC, PDB, PDA).</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://partio.us/">http://partio.us/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.14.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/partio/xmake.lua">partio/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install partio
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("partio")
+</code></pre>
 <h3 id="patchmacosx">patch (macosx)</h3>
 <table>
 <thead>
