@@ -332,7 +332,7 @@ add_requires("brotli")
 | Description | *Bullet Physics SDK.* |
 | -- | -- |
 | Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
-| Versions | 2.88, 3.05 |
+| Versions | 2.88, 3.05, 3.09 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
 

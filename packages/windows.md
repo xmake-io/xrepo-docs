@@ -332,7 +332,7 @@ add_requires("brynet")
 | Description | *Bullet Physics SDK.* |
 | -- | -- |
 | Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
-| Versions | 2.88, 3.05 |
+| Versions | 2.88, 3.05, 3.09 |
 | Architectures | x64, x86 |
 | Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
 
@@ -827,7 +827,7 @@ add_requires("cxxopts")
 | Description | *This package contains the "DirectX Tool Kit", a collection of helper classes for writing Direct3D 11 C++ code for Universal Windows Platform (UWP) apps for Windows 10, Xbox One, and Win32 desktop applications for Windows 7 Service Pack 1 or later.* |
 | -- | -- |
 | Homepage | [https://github.com/microsoft/DirectXTK](https://github.com/microsoft/DirectXTK) |
-| Versions | 20.9.0 |
+| Versions | 20.9.0, 21.4.0 |
 | Architectures | x64, x86 |
 | Definition | [directxtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directxtk/xmake.lua) |
 

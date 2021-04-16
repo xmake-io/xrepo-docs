@@ -356,7 +356,7 @@ add_requires("brynet")
 | Description | *Bullet Physics SDK.* |
 | -- | -- |
 | Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
-| Versions | 2.88, 3.05 |
+| Versions | 2.88, 3.05, 3.09 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
 
