@@ -1189,7 +1189,8 @@ add_requires("libpng")
 | Description | *LibRaw is a library for reading RAW files from digital cameras.* |
 | -- | -- |
 | Homepage | [http://www.libraw.org](http://www.libraw.org) |
-| Versions | 0.19.5 |
+| License | LGPL-2.1 |
+| Versions | 0.19.5, 0.20.2 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 

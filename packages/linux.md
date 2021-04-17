@@ -2001,6 +2001,30 @@ add_requires("itk")
 
 
 ## j
+### jasper (linux)
+
+
+| Description | *Official Repository for the JasPer Image Coding Toolkit* |
+| -- | -- |
+| Homepage | [https://www.ece.uvic.ca/~frodo/jasper/](https://www.ece.uvic.ca/~frodo/jasper/) |
+| License | BSD-2-Clause |
+| Versions | 2.0.28 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [jasper/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jasper/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jasper
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jasper")
+```
+
+
 ### json-c (linux)
 
 
@@ -2780,7 +2804,8 @@ add_requires("libpthread-stubs")
 | Description | *LibRaw is a library for reading RAW files from digital cameras.* |
 | -- | -- |
 | Homepage | [http://www.libraw.org](http://www.libraw.org) |
-| Versions | 0.19.5 |
+| License | LGPL-2.1 |
+| Versions | 0.19.5, 0.20.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 
@@ -5063,6 +5088,30 @@ xrepo install pmp
 
 ```lua
 add_requires("pmp")
+```
+
+
+### poppler (linux)
+
+
+| Description | *Poppler, a PDF rendering library* |
+| -- | -- |
+| Homepage | [https://poppler.freedesktop.org/](https://poppler.freedesktop.org/) |
+| License | GPL-2.0 |
+| Versions | 21.03.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [poppler/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poppler/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install poppler
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("poppler")
 ```
 
 

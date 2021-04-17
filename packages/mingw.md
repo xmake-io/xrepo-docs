@@ -1207,29 +1207,6 @@ add_requires("libpng")
 ```
 
 
-### libraw (mingw)
-
-
-| Description | *LibRaw is a library for reading RAW files from digital cameras.* |
-| -- | -- |
-| Homepage | [http://www.libraw.org](http://www.libraw.org) |
-| Versions | 0.19.5 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] libraw
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("libraw")
-```
-
-
 ### libsdl (mingw)
 
 
