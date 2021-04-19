@@ -1817,6 +1817,30 @@ add_requires("minhook")
 ```
 
 
+### miniz (mingw)
+
+
+| Description | *miniz: Single C source file zlib-replacement library* |
+| -- | -- |
+| Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
+| License | MIT |
+| Versions | 2.1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] miniz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("miniz")
+```
+
+
 ### muslcc (mingw)
 
 
