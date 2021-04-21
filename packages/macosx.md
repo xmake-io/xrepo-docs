@@ -1107,6 +1107,29 @@ add_requires("expresscpp")
 
 
 ## f
+### fastcppcsvparser (macosx)
+
+
+| Description | *This is a small, easy-to-use and fast header-only library for reading comma separated value (CSV) files (by ben-strasser)* |
+| -- | -- |
+| Homepage | [https://github.com/ben-strasser/fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser) |
+| Versions | 2021.01.03 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [fastcppcsvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastcppcsvparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fastcppcsvparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fastcppcsvparser")
+```
+
+
 ### ffmpeg (macosx)
 
 

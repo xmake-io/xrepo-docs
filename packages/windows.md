@@ -1131,6 +1131,29 @@ add_requires("expected")
 
 
 ## f
+### fastcppcsvparser (windows)
+
+
+| Description | *This is a small, easy-to-use and fast header-only library for reading comma separated value (CSV) files (by ben-strasser)* |
+| -- | -- |
+| Homepage | [https://github.com/ben-strasser/fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser) |
+| Versions | 2021.01.03 |
+| Architectures | x64, x86 |
+| Definition | [fastcppcsvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastcppcsvparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fastcppcsvparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fastcppcsvparser")
+```
+
+
 ### fftw (windows)
 
 

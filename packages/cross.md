@@ -427,6 +427,29 @@ add_requires("expected")
 
 
 ## f
+### fastcppcsvparser (cross)
+
+
+| Description | *This is a small, easy-to-use and fast header-only library for reading comma separated value (CSV) files (by ben-strasser)* |
+| -- | -- |
+| Homepage | [https://github.com/ben-strasser/fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser) |
+| Versions | 2021.01.03 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [fastcppcsvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastcppcsvparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] fastcppcsvparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fastcppcsvparser")
+```
+
+
 ### fmt (cross)
 
 
