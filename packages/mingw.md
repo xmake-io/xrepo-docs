@@ -423,6 +423,29 @@ add_requires("cpp-httplib")
 ```
 
 
+### csvparser (mingw)
+
+
+| Description | *A modern C++ library for reading, writing, and analyzing CSV (and similar) files (by vincentlaucsb)* |
+| -- | -- |
+| Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
+| Versions | 2.1.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] csvparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("csvparser")
+```
+
+
 ### cxxopts (mingw)
 
 
@@ -2312,6 +2335,29 @@ xrepo install -p mingw [--mingw=/xxx] range-v3
 
 ```lua
 add_requires("range-v3")
+```
+
+
+### rapidcsv (mingw)
+
+
+| Description | *C++ header-only library for CSV parsing (by d99kris)* |
+| -- | -- |
+| Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
+| Versions | 8.50 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] rapidcsv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidcsv")
 ```
 
 

@@ -711,6 +711,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("cpp-httplib")
 </code></pre>
+<h3 id="csvparsermingw">csvparser (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A modern C++ library for reading, writing, and analyzing CSV (and similar) files (by vincentlaucsb)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/vincentlaucsb/csv-parser">https://github.com/vincentlaucsb/csv-parser</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.1.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua">csvparser/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] csvparser
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("csvparser")
+</code></pre>
 <h3 id="cxxoptsmingw">cxxopts (mingw)</h3>
 <table>
 <thead>
@@ -3453,6 +3486,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("range-v3")
+</code></pre>
+<h3 id="rapidcsvmingw">rapidcsv (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C++ header-only library for CSV parsing (by d99kris)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/d99kris/rapidcsv">https://github.com/d99kris/rapidcsv</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>8.50</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua">rapidcsv/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] rapidcsv
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("rapidcsv")
 </code></pre>
 <h3 id="rapidjsonmingw">rapidjson (mingw)</h3>
 <table>
