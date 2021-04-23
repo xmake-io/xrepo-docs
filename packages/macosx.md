@@ -4698,7 +4698,7 @@ add_requires("patch")
 | Description | *A Perl Compatible Regular Expressions Library* |
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
-| Versions | 8.40, 8.41 |
+| Versions | 8.40, 8.41, 8.44 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [pcre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre/xmake.lua) |
 
@@ -6363,6 +6363,30 @@ xrepo install zstd
 
 ```lua
 add_requires("zstd")
+```
+
+
+### zziplib (macosx)
+
+
+| Description | *The zziplib library is intentionally lightweight, it offers the ability to easily extract data from files archived in a single zip file.* |
+| -- | -- |
+| Homepage | [http://zziplib.sourceforge.net/](http://zziplib.sourceforge.net/) |
+| License | GPL-2.0 |
+| Versions | v0.13.72 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [zziplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zziplib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zziplib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zziplib")
 ```
 
 
