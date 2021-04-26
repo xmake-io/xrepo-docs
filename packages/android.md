@@ -1957,6 +1957,29 @@ add_requires("miniz")
 ```
 
 
+### minizip (android)
+
+
+| Description | *Mini zip and unzip based on zlib* |
+| -- | -- |
+| Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
+| Versions | 1.2.10, 1.2.11 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] minizip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minizip")
+```
+
+
 ### moonjit (android)
 
 

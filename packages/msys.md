@@ -1211,6 +1211,29 @@ add_requires("miniz")
 ```
 
 
+### minizip (msys)
+
+
+| Description | *Mini zip and unzip based on zlib* |
+| -- | -- |
+| Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
+| Versions | 1.2.10, 1.2.11 |
+| Architectures | i386, x86_64 |
+| Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install minizip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minizip")
+```
+
+
 ### muslcc (msys)
 
 

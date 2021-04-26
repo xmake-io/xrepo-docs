@@ -1280,6 +1280,29 @@ add_requires("miniz")
 ```
 
 
+### minizip (cross)
+
+
+| Description | *Mini zip and unzip based on zlib* |
+| -- | -- |
+| Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
+| Versions | 1.2.10, 1.2.11 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] minizip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minizip")
+```
+
+
 ### muslcc (cross)
 
 

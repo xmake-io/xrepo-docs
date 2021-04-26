@@ -866,6 +866,30 @@ add_requires("doctest")
 ```
 
 
+### draco (macosx)
+
+
+| Description | *Draco is an open-source library for compressing and decompressing 3D geometric meshes and point clouds.* |
+| -- | -- |
+| Homepage | [https://google.github.io/draco/](https://google.github.io/draco/) |
+| License | Apache-2.0 |
+| Versions | 1.4.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [draco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/draco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install draco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("draco")
+```
+
+
 ### drogon (macosx)
 
 
@@ -1793,7 +1817,7 @@ add_requires("http_parser")
 | Description | *C/C++ libraries for Unicode and globalization.* |
 | -- | -- |
 | Homepage | [http://site.icu-project.org/](http://site.icu-project.org/) |
-| Versions | 64.2, 68.1, 68.2 |
+| Versions | 64.2, 68.1, 68.2, 69.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [icu4c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icu4c/xmake.lua) |
 
@@ -4078,6 +4102,29 @@ add_requires("miniz")
 ```
 
 
+### minizip (macosx)
+
+
+| Description | *Mini zip and unzip based on zlib* |
+| -- | -- |
+| Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
+| Versions | 1.2.10, 1.2.11 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install minizip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minizip")
+```
+
+
 ### moltenvk (macosx)
 
 
@@ -5333,7 +5380,7 @@ add_requires("sfntly")
 | Description | *Library used to write shaders from C++, and export them in either GLSL, HLSL or SPIR-V.* |
 | -- | -- |
 | Homepage | [https://github.com/DragonJoker/ShaderWriter](https://github.com/DragonJoker/ShaderWriter) |
-| Versions | 0.1, 1.0 |
+| Versions | 0.1, 1.0, 1.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [shaderwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderwriter/xmake.lua) |
 
@@ -5913,6 +5960,30 @@ xrepo install unqlite
 
 ```lua
 add_requires("unqlite")
+```
+
+
+### uriparser (macosx)
+
+
+| Description | *uriparser is a strictly RFC 3986 compliant URI parsing and handling library written in C89.* |
+| -- | -- |
+| Homepage | [https://uriparser.github.io/](https://uriparser.github.io/) |
+| License | BSD-3-Clause |
+| Versions | 0.9.5 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [uriparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uriparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uriparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uriparser")
 ```
 
 
