@@ -1982,6 +1982,30 @@ add_requires("ndk")
 ```
 
 
+### newtondynamics (mingw)
+
+
+| Description | *Newton Dynamics is an integrated solution for real time simulation of physics environments.* |
+| -- | -- |
+| Homepage | [http://newtondynamics.com](http://newtondynamics.com) |
+| License | zlib |
+| Versions | v3.14d |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [newtondynamics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/newtondynamics/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] newtondynamics
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("newtondynamics")
+```
+
+
 ### ninja (mingw)
 
 

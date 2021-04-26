@@ -994,7 +994,7 @@ add_requires("eabase")
 | -- | -- |
 | Homepage | [https://github.com/electronicarts/EASTL](https://github.com/electronicarts/EASTL) |
 | License | BSD-3-Clause |
-| Versions | 3.17.03 |
+| Versions | 3.17.03, 3.17.06 |
 | Architectures | x64, x86 |
 | Definition | [eastl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eastl/xmake.lua) |
 
@@ -3506,6 +3506,30 @@ add_requires("ndk")
 ```
 
 
+### newtondynamics (windows)
+
+
+| Description | *Newton Dynamics is an integrated solution for real time simulation of physics environments.* |
+| -- | -- |
+| Homepage | [http://newtondynamics.com](http://newtondynamics.com) |
+| License | zlib |
+| Versions | v3.14d |
+| Architectures | x64, x86 |
+| Definition | [newtondynamics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/newtondynamics/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install newtondynamics
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("newtondynamics")
+```
+
+
 ### ninja (windows)
 
 
@@ -5396,6 +5420,30 @@ add_requires("vulkan-validationlayers")
 
 
 ## x
+### xerces-c (windows)
+
+
+| Description | *Xerces-C++ is a validating XML parser written in a portable subset of C++.* |
+| -- | -- |
+| Homepage | [https://xerces.apache.org/xerces-c/](https://xerces.apache.org/xerces-c/) |
+| License | Apache-2.0 |
+| Versions | 3.2.3 |
+| Architectures | x64, x86 |
+| Definition | [xerces-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xerces-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xerces-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xerces-c")
+```
+
+
 ### xz (windows)
 
 
