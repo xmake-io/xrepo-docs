@@ -263,7 +263,7 @@ add_requires("blosc")
 | Description | *Collection of portable C++ source libraries.* |
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
-| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
