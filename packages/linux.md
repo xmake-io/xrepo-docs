@@ -4973,6 +4973,30 @@ add_requires("openjpeg")
 ```
 
 
+### openmesh (linux)
+
+
+| Description | *OpenMesh is a generic and efficient data structure for representing and manipulating polygonal meshes.* |
+| -- | -- |
+| Homepage | [https://www.graphics.rwth-aachen.de/software/openmesh/](https://www.graphics.rwth-aachen.de/software/openmesh/) |
+| License | BSD-3-Clause |
+| Versions | 8.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [openmesh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openmesh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openmesh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openmesh")
+```
+
+
 ### openssl (linux)
 
 
