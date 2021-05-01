@@ -1506,6 +1506,30 @@ add_requires("gettext")
 ```
 
 
+### gflags (linux)
+
+
+| Description | *The gflags package contains a C++ library that implements commandline flags processing.* |
+| -- | -- |
+| Homepage | [https://github.com/gflags/gflags/](https://github.com/gflags/gflags/) |
+| License | BSD-3-Clause |
+| Versions | v2.2.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [gflags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gflags/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gflags
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gflags")
+```
+
+
 ### giflib (linux)
 
 
@@ -1643,6 +1667,30 @@ xrepo install glm
 
 ```lua
 add_requires("glm")
+```
+
+
+### glog (linux)
+
+
+| Description | *C++ implementation of the Google logging module* |
+| -- | -- |
+| Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
+| License | BSD-3-Clause |
+| Versions | v0.4.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glog")
 ```
 
 

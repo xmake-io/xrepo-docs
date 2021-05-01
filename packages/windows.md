@@ -1390,6 +1390,30 @@ add_requires("geos")
 ```
 
 
+### gflags (windows)
+
+
+| Description | *The gflags package contains a C++ library that implements commandline flags processing.* |
+| -- | -- |
+| Homepage | [https://github.com/gflags/gflags/](https://github.com/gflags/gflags/) |
+| License | BSD-3-Clause |
+| Versions | v2.2.2 |
+| Architectures | x64, x86 |
+| Definition | [gflags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gflags/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gflags
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gflags")
+```
+
+
 ### giflib (windows)
 
 
@@ -1504,6 +1528,30 @@ xrepo install glm
 
 ```lua
 add_requires("glm")
+```
+
+
+### glog (windows)
+
+
+| Description | *C++ implementation of the Google logging module* |
+| -- | -- |
+| Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
+| License | BSD-3-Clause |
+| Versions | v0.4.0 |
+| Architectures | x64, x86 |
+| Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glog")
 ```
 
 

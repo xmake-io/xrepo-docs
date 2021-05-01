@@ -222,6 +222,15 @@ JIT: ON SSE2 SSE3 SSE4.1 BMI2 fold cse dce fwd dse narrow loop abc sink fuse
 <pre><code class="lang-console">$ xrepo env -b "luajit 2.x" luajit
 $ xrepo env -p iphoneos -b "zlib,libpng,luajit 2.x" cmake ..
 </code></pre>
+<h3 id="enterthepackageshellenvironment">Enter the package shell environment</h3>
+<p>We can customize some package configurations by adding the xmake.lua file in the current directory, and then enter the specific package shell environment.</p>
+<pre><code class="lang-lua">add_requires("zlib 1.2.11")
+add_requires("python 3.x", "luajit")
+</code></pre>
+<pre><code class="lang-console">$ xrepo env shell
+> python --version
+> luajit --version
+</code></pre>
 <h3 id="showthegivenpackageinformation">Show the given package information</h3>
 <pre><code class="lang-console">$ xrepo info zlib
 The package info of project:
@@ -261,6 +270,11 @@ The package info of project:
          -> asflags: Set the assembler flags.
          -> vs_runtime: Set vs compiler runtime. (default: MT)
             -> values: {"MT","MD"}
+</code></pre>
+<h3 id="uninstallallpackages">Uninstall all packages</h3>
+<p>We can use the following command to batch uninstall and delete the installed packages, supporting pattern matching:</p>
+<pre><code class="lang-bash">$ xrepo remove --all
+$ xrepo remove --all zlib pcr*
 </code></pre>
 </article>
 </body>
