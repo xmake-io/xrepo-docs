@@ -199,6 +199,21 @@ $ xrepo env -b "luajit 2.x" luajit
 $ xrepo env -p iphoneos -b "zlib,libpng,luajit 2.x" cmake ..
 ```
 
+### Enter the package shell environment
+
+We can customize some package configurations by adding the xmake.lua file in the current directory, and then enter the specific package shell environment.
+
+```lua
+add_requires("zlib 1.2.11")
+add_requires("python 3.x", "luajit")
+```
+
+```console
+$ xrepo env shell
+> python --version
+> luajit --version
+```
+
 ### Show the given package information
 
 ```console
@@ -242,4 +257,11 @@ The package info of project:
             -> values: {"MT","MD"}
 ```
 
+### Uninstall all packages
 
+We can use the following command to batch uninstall and delete the installed packages, supporting pattern matching:
+
+```bash
+$ xrepo remove --all
+$ xrepo remove --all zlib pcr*
+```
