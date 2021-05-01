@@ -726,6 +726,29 @@ add_requires("co")
 ```
 
 
+### collada-dom (linux)
+
+
+| Description | *COLLADA Document Object Model (DOM) C++ Library* |
+| -- | -- |
+| Homepage | [https://github.com/rdiankov/collada-dom/](https://github.com/rdiankov/collada-dom/) |
+| Versions | v2.5.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [collada-dom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/collada-dom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install collada-dom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("collada-dom")
+```
+
+
 ### concurrentqueue (linux)
 
 
@@ -1254,7 +1277,8 @@ add_requires("ffmpeg")
 | Description | *A C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions.* |
 | -- | -- |
 | Homepage | [http://fftw.org/](http://fftw.org/) |
-| Versions | 3.3.8 |
+| License | GPL-2.0 |
+| Versions | 3.3.8, 3.3.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fftw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fftw/xmake.lua) |
 
@@ -1432,6 +1456,30 @@ xrepo install gamenetworkingsockets
 
 ```lua
 add_requires("gamenetworkingsockets")
+```
+
+
+### geos (linux)
+
+
+| Description | *GEOS (Geometry Engine - Open Source) is a C++ port of the ​JTS Topology Suite (JTS).* |
+| -- | -- |
+| Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
+| License | LGPL-2.1 |
+| Versions | 3.9.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install geos
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geos")
 ```
 
 
@@ -6312,6 +6360,30 @@ xrepo install tinyobjloader
 
 ```lua
 add_requires("tinyobjloader")
+```
+
+
+### tinyxml (linux)
+
+
+| Description | *TinyXML is a simple, small, minimal, C++ XML parser that can be easily integrating into other programs.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/tinyxml/](https://sourceforge.net/projects/tinyxml/) |
+| License | zlib |
+| Versions | 2.6.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [tinyxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyxml")
 ```
 
 

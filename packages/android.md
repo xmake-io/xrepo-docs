@@ -2758,6 +2758,30 @@ add_requires("tinyobjloader")
 ```
 
 
+### tinyxml (android)
+
+
+| Description | *TinyXML is a simple, small, minimal, C++ XML parser that can be easily integrating into other programs.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/tinyxml/](https://sourceforge.net/projects/tinyxml/) |
+| License | zlib |
+| Versions | 2.6.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tinyxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tinyxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyxml")
+```
+
+
 ### tinyxml2 (android)
 
 

@@ -1941,6 +1941,30 @@ add_requires("tinygltf")
 ```
 
 
+### tinyxml (cross)
+
+
+| Description | *TinyXML is a simple, small, minimal, C++ XML parser that can be easily integrating into other programs.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/tinyxml/](https://sourceforge.net/projects/tinyxml/) |
+| License | zlib |
+| Versions | 2.6.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [tinyxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] tinyxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyxml")
+```
+
+
 
 ## y
 ### yasm (cross)
