@@ -1767,6 +1767,30 @@ add_requires("gtest")
 
 
 ## h
+### hdf5 (windows)
+
+
+| Description | *High-performance data management and storage suite* |
+| -- | -- |
+| Homepage | [https://www.hdfgroup.org/solutions/hdf5/](https://www.hdfgroup.org/solutions/hdf5/) |
+| License | BSD-3-Clause |
+| Versions | 1.12.0 |
+| Architectures | x64, x86 |
+| Definition | [hdf5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdf5/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hdf5
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hdf5")
+```
+
+
 ### hopscotch-map (windows)
 
 
