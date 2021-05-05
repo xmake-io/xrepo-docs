@@ -2047,6 +2047,30 @@ add_requires("http_parser")
 ```
 
 
+### hypre (linux)
+
+
+| Description | *Parallel solvers for sparse linear systems featuring multigrid methods.* |
+| -- | -- |
+| Homepage | [https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods) |
+| License | Apache-2.0 |
+| Versions | v2.20.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [hypre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hypre/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hypre
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hypre")
+```
+
+
 
 ## i
 ### icu4c (linux)
