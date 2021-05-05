@@ -687,6 +687,29 @@ add_requires("giflib")
 ```
 
 
+### glew (mingw)
+
+
+| Description | *A cross-platform open-source C/C++ extension loading library.* |
+| -- | -- |
+| Homepage | [http://glew.sourceforge.net/](http://glew.sourceforge.net/) |
+| Versions | 2.1.0, 2.2.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [glew/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glew/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] glew
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glew")
+```
+
+
 ### glfw (mingw)
 
 
