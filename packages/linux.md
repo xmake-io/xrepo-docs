@@ -2872,6 +2872,29 @@ add_requires("libmill")
 ```
 
 
+### libmpdclient (linux)
+
+
+| Description | *A stable, documented, asynchronous API library for interfacing MPD in the C, C++ & Objective C languages.* |
+| -- | -- |
+| Homepage | [https://musicpd.org/libs/libmpdclient/](https://musicpd.org/libs/libmpdclient/) |
+| Versions | 2.19 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libmpdclient/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmpdclient/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmpdclient
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmpdclient")
+```
+
+
 ### libogg (linux)
 
 
