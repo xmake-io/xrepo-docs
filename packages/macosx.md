@@ -4435,6 +4435,30 @@ add_requires("mysql")
 
 
 ## n
+### nanoflann (macosx)
+
+
+| Description | *nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees* |
+| -- | -- |
+| Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
+| License | BSD-2-Clause |
+| Versions | v1.3.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nanoflann
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanoflann")
+```
+
+
 ### nanovg (macosx)
 
 
@@ -5986,6 +6010,30 @@ xrepo install tinycc
 
 ```lua
 add_requires("tinycc")
+```
+
+
+### tinyfiledialogs (macosx)
+
+
+| Description | *Native dialog library for WINDOWS MAC OSX GTK+ QT CONSOLE* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/tinyfiledialogs/](https://sourceforge.net/projects/tinyfiledialogs/) |
+| License | zlib |
+| Versions | 3.8.8 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [tinyfiledialogs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyfiledialogs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyfiledialogs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyfiledialogs")
 ```
 
 

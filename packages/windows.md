@@ -1225,6 +1225,30 @@ add_requires("fftw")
 ```
 
 
+### filament (windows)
+
+
+| Description | *Filament is a real-time physically-based renderer written in C++.* |
+| -- | -- |
+| Homepage | [https://google.github.io/filament/](https://google.github.io/filament/) |
+| License | Apache-2.0 |
+| Versions | v1.9.23 |
+| Architectures | x64 |
+| Definition | [filament/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/filament/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install filament
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("filament")
+```
+
+
 ### flatbuffers (windows)
 
 
@@ -3579,6 +3603,30 @@ add_requires("nana")
 ```
 
 
+### nanoflann (windows)
+
+
+| Description | *nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees* |
+| -- | -- |
+| Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
+| License | BSD-2-Clause |
+| Versions | v1.3.2 |
+| Architectures | x64, x86 |
+| Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nanoflann
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanoflann")
+```
+
+
 ### nanovg (windows)
 
 
@@ -5199,6 +5247,30 @@ xrepo install tinycc
 
 ```lua
 add_requires("tinycc")
+```
+
+
+### tinyfiledialogs (windows)
+
+
+| Description | *Native dialog library for WINDOWS MAC OSX GTK+ QT CONSOLE* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/tinyfiledialogs/](https://sourceforge.net/projects/tinyfiledialogs/) |
+| License | zlib |
+| Versions | 3.8.8 |
+| Architectures | x64, x86 |
+| Definition | [tinyfiledialogs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyfiledialogs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyfiledialogs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyfiledialogs")
 ```
 
 

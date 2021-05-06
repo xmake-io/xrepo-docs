@@ -1328,6 +1328,30 @@ add_requires("muslcc")
 
 
 ## n
+### nanoflann (cross)
+
+
+| Description | *nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees* |
+| -- | -- |
+| Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
+| License | BSD-2-Clause |
+| Versions | v1.3.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nanoflann
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanoflann")
+```
+
+
 ### nasm (cross)
 
 
