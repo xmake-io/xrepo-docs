@@ -1178,6 +1178,30 @@ add_requires("expected")
 
 
 ## f
+### faiss (windows)
+
+
+| Description | *A library for efficient similarity search and clustering of dense vectors.* |
+| -- | -- |
+| Homepage | [https://github.com/facebookresearch/faiss/](https://github.com/facebookresearch/faiss/) |
+| License | MIT |
+| Versions | v1.7.0 |
+| Architectures | x64 |
+| Definition | [faiss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faiss/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install faiss
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("faiss")
+```
+
+
 ### fastcppcsvparser (windows)
 
 
@@ -3869,8 +3893,8 @@ add_requires("oatpp")
 | Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
-| Versions | 0.3.12, 0.3.13 |
-| Architectures | x64 |
+| Versions | 0.3.12, 0.3.13, 0.3.15 |
+| Architectures | x64, x86 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
 ##### Install command
