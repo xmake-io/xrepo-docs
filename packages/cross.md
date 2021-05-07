@@ -1564,29 +1564,6 @@ add_requires("protoc")
 ```
 
 
-### pybind11 (cross)
-
-
-| Description | *Seamless operability between C++11 and Python.* |
-| -- | -- |
-| Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
-| Versions | 2.5.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
-| Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p cross [--sdk=/xxx] pybind11
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("pybind11")
-```
-
-
 ### python (cross)
 
 

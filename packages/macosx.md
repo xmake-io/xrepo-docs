@@ -2550,7 +2550,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
@@ -5265,7 +5265,7 @@ add_requires("pugixml")
 | Description | *Seamless operability between C++11 and Python.* |
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
-| Versions | 2.5.0 |
+| Versions | v2.5.0, v2.6.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 

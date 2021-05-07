@@ -1470,29 +1470,6 @@ add_requires("protoc")
 ```
 
 
-### pybind11 (msys)
-
-
-| Description | *Seamless operability between C++11 and Python.* |
-| -- | -- |
-| Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
-| Versions | 2.5.0 |
-| Architectures | i386, x86_64 |
-| Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install pybind11
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("pybind11")
-```
-
-
 ### python (msys)
 
 

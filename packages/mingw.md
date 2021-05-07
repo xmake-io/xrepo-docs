@@ -2312,29 +2312,6 @@ add_requires("pthreads4w")
 ```
 
 
-### pybind11 (mingw)
-
-
-| Description | *Seamless operability between C++11 and Python.* |
-| -- | -- |
-| Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
-| Versions | 2.5.0 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] pybind11
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("pybind11")
-```
-
-
 ### python (mingw)
 
 
