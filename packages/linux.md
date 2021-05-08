@@ -7040,7 +7040,7 @@ add_requires("x265")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.13, 1.14 |
+| Versions | 1.13, 1.14, 1.14.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xcb-proto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-proto/xmake.lua) |
 
