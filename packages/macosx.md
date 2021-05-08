@@ -4269,6 +4269,29 @@ add_requires("minizip")
 ```
 
 
+### mkl (macosx)
+
+
+| Description | *Intel® oneAPI Math Kernel Library* |
+| -- | -- |
+| Homepage | [https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html) |
+| Versions | 2021.2.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [mkl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mkl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mkl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mkl")
+```
+
+
 ### moltenvk (macosx)
 
 
