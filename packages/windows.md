@@ -3674,6 +3674,29 @@ add_requires("nanoflann")
 ```
 
 
+### nanovdb (windows)
+
+
+| Description | *Developed by NVIDIA, NanoVDB adds real-time rendering GPU support for OpenVDB.* |
+| -- | -- |
+| Homepage | [https://developer.nvidia.com/nanovdb](https://developer.nvidia.com/nanovdb) |
+| Versions | 20201219 |
+| Architectures | x64, x86 |
+| Definition | [nanovdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanovdb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nanovdb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanovdb")
+```
+
+
 ### nanovg (windows)
 
 
@@ -3719,6 +3742,30 @@ xrepo install nasm
 
 ```lua
 add_requires("nasm")
+```
+
+
+### nativefiledialog (windows)
+
+
+| Description | *A tiny, neat C library that portably invokes native file open and save dialogs.* |
+| -- | -- |
+| Homepage | [https://github.com/mlabbe/nativefiledialog](https://github.com/mlabbe/nativefiledialog) |
+| License | zlib |
+| Versions | 1.1.6 |
+| Architectures | x64, x86 |
+| Definition | [nativefiledialog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nativefiledialog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nativefiledialog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nativefiledialog")
 ```
 
 
