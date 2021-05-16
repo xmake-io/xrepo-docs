@@ -186,9 +186,12 @@ $ xrepo install conan::zlib/1.2.11
 <pre><code class="lang-console">$ xrepo fetch --cflags --ldflags conan::zlib/1.2.11
 -I/Users/ruki/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include -L/Users/ruki/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib -lz
 </code></pre>
-<h3 id="exporttheinstalledpackages">Export the installed packages</h3>
-<p>xrepo can quickly export installed packages, including corresponding library files, header files, etc.</p>
+<h3 id="importandexportpackages">Import and export packages</h3>
+<p>xrepo can quickly export the installed packages, including the corresponding library files, header files, and so on.</p>
 <pre><code class="lang-console">$ xrepo export -o /tmp/output zlib
+</code></pre>
+<p>You can also import the previously exported installation package on other machines to implement package migration.</p>
+<pre><code class="lang-console">$ xrepo import -i /xxx/packagedir zlib
 </code></pre>
 <h3 id="searchsupportedpackages">Search supported packages</h3>
 <pre><code class="lang-console">$ xrepo search zlib "pcr*"

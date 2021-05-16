@@ -5179,6 +5179,30 @@ add_requires("stb")
 ```
 
 
+### superlu (windows)
+
+
+| Description | *SuperLU is a general purpose library for the direct solution of large, sparse, nonsymmetric systems of linear equations.* |
+| -- | -- |
+| Homepage | [https://portal.nersc.gov/project/sparse/superlu/](https://portal.nersc.gov/project/sparse/superlu/) |
+| License | BSD-3-Clause |
+| Versions | v5.2.2 |
+| Architectures | x64, x86 |
+| Definition | [superlu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/superlu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install superlu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("superlu")
+```
+
+
 
 ## t
 ### taskflow (windows)

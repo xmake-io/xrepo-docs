@@ -186,9 +186,12 @@ $ xrepo install conan::zlib/1.2.11
 <pre><code class="lang-console">$ xrepo fetch --cflags --ldflags conan::zlib/1.2.11
 -I/Users/ruki/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include -L/Users/ruki/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib -lz
 </code></pre>
-<h3 id="">导出安装后的包</h3>
+<h3 id="">导入导出安装后的包</h3>
 <p>xrepo 可以快速导出已经安装后的包，包括对应的库文件，头文件等等。</p>
 <pre><code class="lang-console">$ xrepo export -o /tmp/output zlib
+</code></pre>
+<p>也可以在其他机器上导入之前导出的安装包，实现包的迁移。</p>
+<pre><code class="lang-console">$ xrepo import -i /xxx/packagedir zlib
 </code></pre>
 <h3 id="">搜索支持的包</h3>
 <pre><code class="lang-console">$ xrepo search zlib "pcr*"

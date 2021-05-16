@@ -5965,6 +5965,30 @@ add_requires("stb")
 ```
 
 
+### superlu (macosx)
+
+
+| Description | *SuperLU is a general purpose library for the direct solution of large, sparse, nonsymmetric systems of linear equations.* |
+| -- | -- |
+| Homepage | [https://portal.nersc.gov/project/sparse/superlu/](https://portal.nersc.gov/project/sparse/superlu/) |
+| License | BSD-3-Clause |
+| Versions | v5.2.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [superlu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/superlu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install superlu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("superlu")
+```
+
+
 
 ## t
 ### taskflow (macosx)
