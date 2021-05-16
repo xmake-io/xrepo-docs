@@ -1319,6 +1319,30 @@ add_requires("fftw")
 ```
 
 
+### flann (linux)
+
+
+| Description | *Fast Library for Approximate Nearest Neighbors* |
+| -- | -- |
+| Homepage | [https://github.com/flann-lib/flann/](https://github.com/flann-lib/flann/) |
+| License | BSD-3-Clause |
+| Versions | 1.9.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [flann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flann/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flann
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flann")
+```
+
+
 ### flatbuffers (linux)
 
 

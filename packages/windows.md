@@ -1273,6 +1273,30 @@ add_requires("filament")
 ```
 
 
+### flann (windows)
+
+
+| Description | *Fast Library for Approximate Nearest Neighbors* |
+| -- | -- |
+| Homepage | [https://github.com/flann-lib/flann/](https://github.com/flann-lib/flann/) |
+| License | BSD-3-Clause |
+| Versions | 1.9.1 |
+| Architectures | x64, x86 |
+| Definition | [flann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flann/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flann
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flann")
+```
+
+
 ### flatbuffers (windows)
 
 
