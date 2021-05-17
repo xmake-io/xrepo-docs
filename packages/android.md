@@ -2530,7 +2530,7 @@ add_requires("sentry-native")
 | Description | *A fast compressor/decompressor* |
 | -- | -- |
 | Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
-| Versions | 1.1.8 |
+| Versions | 1.1.8, 1.1.9 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
 

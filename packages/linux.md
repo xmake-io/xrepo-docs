@@ -944,7 +944,7 @@ add_requires("draco")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
 | License | MIT |
-| Versions | v1.4.1 |
+| Versions | v1.4.1, v1.6.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
 
@@ -2437,7 +2437,7 @@ add_requires("leptonica")
 | Description | *LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.* |
 | -- | -- |
 | Homepage | [https://github.com/google/leveldb](https://github.com/google/leveldb) |
-| Versions | 1.22 |
+| Versions | 1.22, 1.23 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [leveldb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leveldb/xmake.lua) |
 
@@ -6160,7 +6160,7 @@ add_requires("skia")
 | Description | *A fast compressor/decompressor* |
 | -- | -- |
 | Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
-| Versions | 1.1.8 |
+| Versions | 1.1.8, 1.1.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
 
@@ -6749,7 +6749,7 @@ add_requires("tmxparser")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0 |
+| Versions | v1.3.0, v1.4.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 

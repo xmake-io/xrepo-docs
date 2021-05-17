@@ -1731,29 +1731,6 @@ add_requires("scons")
 ```
 
 
-### snappy (cross)
-
-
-| Description | *A fast compressor/decompressor* |
-| -- | -- |
-| Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
-| Versions | 1.1.8 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
-| Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p cross [--sdk=/xxx] snappy
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("snappy")
-```
-
-
 ### spdlog (cross)
 
 

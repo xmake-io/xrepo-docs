@@ -1119,7 +1119,7 @@ add_requires("kcp")
 | Description | *LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.* |
 | -- | -- |
 | Homepage | [https://github.com/google/leveldb](https://github.com/google/leveldb) |
-| Versions | 1.22 |
+| Versions | 1.22, 1.23 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [leveldb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leveldb/xmake.lua) |
 
@@ -2580,7 +2580,7 @@ add_requires("simdjson")
 | Description | *A fast compressor/decompressor* |
 | -- | -- |
 | Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
-| Versions | 1.1.8 |
+| Versions | 1.1.8, 1.1.9 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
 

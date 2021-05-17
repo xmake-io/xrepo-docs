@@ -2291,29 +2291,6 @@ add_requires("simdjson")
 ```
 
 
-### snappy (iphoneos)
-
-
-| Description | *A fast compressor/decompressor* |
-| -- | -- |
-| Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
-| Versions | 1.1.8 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
-| Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos snappy
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("snappy")
-```
-
-
 ### spdlog (iphoneos)
 
 
