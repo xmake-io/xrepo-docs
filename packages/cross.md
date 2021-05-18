@@ -384,7 +384,7 @@ add_requires("doctest")
 | Description | *Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more.* |
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
-| Versions | v3.6.0, v3.7.0 |
+| Versions | v3.6.0, v3.7.0, v3.7.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -1088,6 +1088,29 @@ xrepo install -p cross [--sdk=/xxx] lodepng
 
 ```lua
 add_requires("lodepng")
+```
+
+
+### lua-format (cross)
+
+
+| Description | *Code formatter for Lua* |
+| -- | -- |
+| Homepage | [https://github.com/Koihik/LuaFormatter](https://github.com/Koihik/LuaFormatter) |
+| Versions | 1.3.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [lua-format/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua-format/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] lua-format
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lua-format")
 ```
 
 

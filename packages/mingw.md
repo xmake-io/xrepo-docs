@@ -502,7 +502,7 @@ add_requires("doctest")
 | Description | *Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more.* |
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
-| Versions | v3.6.0, v3.7.0 |
+| Versions | v3.6.0, v3.7.0, v3.7.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -598,7 +598,7 @@ add_requires("fastcppcsvparser")
 | Description | *FlatBuffers is a cross platform serialization library architected for maximum memory efficiency.* |
 | -- | -- |
 | Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
-| Versions | 1.12.0 |
+| Versions | 1.12.0, 2.0.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
 
@@ -1694,6 +1694,29 @@ xrepo install -p mingw [--mingw=/xxx] lodepng
 
 ```lua
 add_requires("lodepng")
+```
+
+
+### lua-format (mingw)
+
+
+| Description | *Code formatter for Lua* |
+| -- | -- |
+| Homepage | [https://github.com/Koihik/LuaFormatter](https://github.com/Koihik/LuaFormatter) |
+| Versions | 1.3.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [lua-format/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua-format/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] lua-format
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lua-format")
 ```
 
 
