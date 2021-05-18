@@ -889,6 +889,30 @@ add_requires("doctest")
 ```
 
 
+### double-conversion (macosx)
+
+
+| Description | *Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles.* |
+| -- | -- |
+| Homepage | [https://github.com/google/double-conversion](https://github.com/google/double-conversion) |
+| License | BSD-3-Clause |
+| Versions | v3.1.5 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [double-conversion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/double-conversion/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install double-conversion
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("double-conversion")
+```
+
+
 ### draco (macosx)
 
 
@@ -2355,6 +2379,30 @@ xrepo install libev
 
 ```lua
 add_requires("libev")
+```
+
+
+### libevent (macosx)
+
+
+| Description | *libevent – an event notification library* |
+| -- | -- |
+| Homepage | [https://libevent.org/](https://libevent.org/) |
+| License | BSD-3-Clause |
+| Versions | 2.1.12 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libevent/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libevent/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libevent
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libevent")
 ```
 
 
