@@ -5,7 +5,7 @@
 | Description | *C++ Common Libraries* |
 | -- | -- |
 | Homepage | [https://abseil.io](https://abseil.io) |
-| Versions | 20200225.1 |
+| Versions | 20200225.1, 20210324.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
