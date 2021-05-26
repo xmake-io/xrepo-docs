@@ -688,6 +688,29 @@ add_requires("http_parser")
 
 
 ## i
+### imagemagick (bsd)
+
+
+| Description | *ImageMagick is a FOSS software suite for modifying images. This does NOT provide any of the utilities. It installs the C/C++ Libraries.* |
+| -- | -- |
+| Homepage | [https://imagemagick.org/script/index.php](https://imagemagick.org/script/index.php) |
+| Versions | 7.0.11-13 |
+| Architectures | i386, x86_64 |
+| Definition | [imagemagick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imagemagick/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install imagemagick
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imagemagick")
+```
+
+
 ### inja (bsd)
 
 
