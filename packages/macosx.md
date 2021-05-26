@@ -1584,7 +1584,7 @@ add_requires("glfw")
 | Description | *Core application library for C.* |
 | -- | -- |
 | Homepage | [https://developer.gnome.org/glib/](https://developer.gnome.org/glib/) |
-| Versions | 2.60.2 |
+| Versions | 2.60.2, 2.68.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 
@@ -2383,6 +2383,30 @@ add_requires("libarchive")
 ```
 
 
+### libavif (macosx)
+
+
+| Description | *libavif - Library for encoding and decoding .avif files* |
+| -- | -- |
+| Homepage | [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) |
+| License | BSD-2-Clause |
+| Versions | v0.9.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libavif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libavif
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libavif")
+```
+
+
 ### libcurl (macosx)
 
 
@@ -2613,6 +2637,30 @@ xrepo install libigl
 
 ```lua
 add_requires("libigl")
+```
+
+
+### libimagequant (macosx)
+
+
+| Description | *Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images.* |
+| -- | -- |
+| Homepage | [https://pngquant.org/lib/](https://pngquant.org/lib/) |
+| License | GPL-3.0 |
+| Versions | 2.15.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libimagequant/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libimagequant/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libimagequant
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libimagequant")
 ```
 
 
