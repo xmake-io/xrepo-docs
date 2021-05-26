@@ -866,6 +866,30 @@ add_requires("cxxopts")
 
 
 ## d
+### dav1d (macosx)
+
+
+| Description | *dav1d is a new AV1 cross-platform decoder, open-source, and focused on speed, size and correctness.* |
+| -- | -- |
+| Homepage | [https://www.videolan.org/projects/dav1d.html](https://www.videolan.org/projects/dav1d.html) |
+| License | BSD-2-Clause |
+| Versions | 0.9.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [dav1d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dav1d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dav1d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dav1d")
+```
+
+
 ### doctest (macosx)
 
 
@@ -4276,7 +4300,7 @@ add_requires("memorymapping")
 | Description | *Fast and user friendly build system.* |
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
-| Versions | 0.50.1, 0.56.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
