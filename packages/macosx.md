@@ -234,6 +234,30 @@ add_requires("bison")
 ```
 
 
+### blaze (macosx)
+
+
+| Description | *A high performance C++ math library.* |
+| -- | -- |
+| Homepage | [https://bitbucket.org/blaze-lib/blaze/](https://bitbucket.org/blaze-lib/blaze/) |
+| License | BSD-3-Clause |
+| Versions | 3.8 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [blaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blaze/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install blaze
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blaze")
+```
+
+
 ### blosc (macosx)
 
 
@@ -6628,6 +6652,30 @@ xrepo install vcglib
 
 ```lua
 add_requires("vcglib")
+```
+
+
+### viennacl (macosx)
+
+
+| Description | *ViennaCL is a free open-source linear algebra library for computations on many-core architectures (GPUs, MIC) and multi-core CPUs.* |
+| -- | -- |
+| Homepage | [http://viennacl.sourceforge.net/](http://viennacl.sourceforge.net/) |
+| License | MIT |
+| Versions | 1.7.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [viennacl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/viennacl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install viennacl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("viennacl")
 ```
 
 
