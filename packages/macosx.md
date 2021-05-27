@@ -1931,6 +1931,30 @@ add_requires("gtest")
 
 
 ## h
+### harfbuzz (macosx)
+
+
+| Description | *HarfBuzz is a text shaping library.* |
+| -- | -- |
+| Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
+| License | MIT |
+| Versions | 2.8.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install harfbuzz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("harfbuzz")
+```
+
+
 ### hdf5 (macosx)
 
 
@@ -4773,7 +4797,7 @@ add_requires("nativefiledialog")
 | Description | *A free software emulation of curses.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/ncurses/](https://www.gnu.org/software/ncurses/) |
-| Versions | 6.1 |
+| Versions | 6.1, 6.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
 
@@ -6541,7 +6565,7 @@ add_requires("uriparser")
 | Description | *Collection of Linux utilities.* |
 | -- | -- |
 | Homepage | [https://github.com/karelzak/util-linux](https://github.com/karelzak/util-linux) |
-| Versions | 2.32.1 |
+| Versions | 2.32.1, 2.36.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [util-linux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/util-linux/xmake.lua) |
 

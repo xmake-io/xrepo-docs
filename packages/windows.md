@@ -1887,6 +1887,30 @@ add_requires("gtest")
 
 
 ## h
+### harfbuzz (windows)
+
+
+| Description | *HarfBuzz is a text shaping library.* |
+| -- | -- |
+| Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
+| License | MIT |
+| Versions | 2.8.1 |
+| Architectures | x64, x86 |
+| Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install harfbuzz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("harfbuzz")
+```
+
+
 ### hdf5 (windows)
 
 
