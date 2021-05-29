@@ -399,6 +399,78 @@ add_requires("doctest")
 ```
 
 
+### dr_flac (bsd)
+
+
+| Description | *Single file audio decoding libraries for C/C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
+| License | MIT |
+| Versions | 0.12.29 |
+| Architectures | i386, x86_64 |
+| Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dr_flac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dr_flac")
+```
+
+
+### dr_mp3 (bsd)
+
+
+| Description | *Single file audio decoding libraries for C/C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
+| License | MIT |
+| Versions | 0.6.27 |
+| Architectures | i386, x86_64 |
+| Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dr_mp3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dr_mp3")
+```
+
+
+### dr_wav (bsd)
+
+
+| Description | *Single file audio decoding libraries for C/C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
+| License | MIT |
+| Versions | 0.12.19 |
+| Architectures | i386, x86_64 |
+| Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dr_wav
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dr_wav")
+```
+
+
 
 ## e
 ### entt (bsd)

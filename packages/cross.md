@@ -376,6 +376,78 @@ add_requires("doctest")
 ```
 
 
+### dr_flac (cross)
+
+
+| Description | *Single file audio decoding libraries for C/C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
+| License | MIT |
+| Versions | 0.12.29 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] dr_flac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dr_flac")
+```
+
+
+### dr_mp3 (cross)
+
+
+| Description | *Single file audio decoding libraries for C/C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
+| License | MIT |
+| Versions | 0.6.27 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] dr_mp3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dr_mp3")
+```
+
+
+### dr_wav (cross)
+
+
+| Description | *Single file audio decoding libraries for C/C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
+| License | MIT |
+| Versions | 0.12.19 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] dr_wav
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dr_wav")
+```
+
+
 
 ## e
 ### entt (cross)

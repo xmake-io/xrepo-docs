@@ -564,6 +564,78 @@ add_requires("doctest")
 ```
 
 
+### dr_flac (android)
+
+
+| Description | *Single file audio decoding libraries for C/C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
+| License | MIT |
+| Versions | 0.12.29 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] dr_flac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dr_flac")
+```
+
+
+### dr_mp3 (android)
+
+
+| Description | *Single file audio decoding libraries for C/C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
+| License | MIT |
+| Versions | 0.6.27 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] dr_mp3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dr_mp3")
+```
+
+
+### dr_wav (android)
+
+
+| Description | *Single file audio decoding libraries for C/C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
+| License | MIT |
+| Versions | 0.12.19 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] dr_wav
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dr_wav")
+```
+
+
 
 ## e
 ### entt (android)
@@ -998,7 +1070,7 @@ add_requires("http_parser")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80, v1.81, v1.82 |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
