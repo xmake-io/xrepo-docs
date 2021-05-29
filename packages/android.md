@@ -1956,6 +1956,30 @@ add_requires("mimalloc")
 ```
 
 
+### minimp3 (android)
+
+
+| Description | *Minimalistic MP3 decoder single header library* |
+| -- | -- |
+| Homepage | [https://github.com/lieff/minimp3](https://github.com/lieff/minimp3) |
+| License | CC0 |
+| Versions | 2021.05.29 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [minimp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minimp3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] minimp3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minimp3")
+```
+
+
 ### miniz (android)
 
 

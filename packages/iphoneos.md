@@ -1747,6 +1747,30 @@ add_requires("meson")
 ```
 
 
+### minimp3 (iphoneos)
+
+
+| Description | *Minimalistic MP3 decoder single header library* |
+| -- | -- |
+| Homepage | [https://github.com/lieff/minimp3](https://github.com/lieff/minimp3) |
+| License | CC0 |
+| Versions | 2021.05.29 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [minimp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minimp3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos minimp3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minimp3")
+```
+
+
 ### miniz (iphoneos)
 
 

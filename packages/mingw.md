@@ -1909,6 +1909,30 @@ add_requires("minhook")
 ```
 
 
+### minimp3 (mingw)
+
+
+| Description | *Minimalistic MP3 decoder single header library* |
+| -- | -- |
+| Homepage | [https://github.com/lieff/minimp3](https://github.com/lieff/minimp3) |
+| License | CC0 |
+| Versions | 2021.05.29 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [minimp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minimp3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] minimp3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minimp3")
+```
+
+
 ### miniz (mingw)
 
 
