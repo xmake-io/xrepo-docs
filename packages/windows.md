@@ -5138,6 +5138,30 @@ add_requires("re2")
 ```
 
 
+### recastnavigation (windows)
+
+
+| Description | *Navigation-mesh Toolset for Games* |
+| -- | -- |
+| Homepage | [https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) |
+| License | zlib |
+| Versions | 1.5.1 |
+| Architectures | x64, x86 |
+| Definition | [recastnavigation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/recastnavigation/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install recastnavigation
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("recastnavigation")
+```
+
+
 ### rply (windows)
 
 

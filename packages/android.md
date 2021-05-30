@@ -2571,6 +2571,30 @@ add_requires("rapidjson")
 ```
 
 
+### recastnavigation (android)
+
+
+| Description | *Navigation-mesh Toolset for Games* |
+| -- | -- |
+| Homepage | [https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) |
+| License | zlib |
+| Versions | 1.5.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [recastnavigation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/recastnavigation/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] recastnavigation
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("recastnavigation")
+```
+
+
 ### rply (android)
 
 

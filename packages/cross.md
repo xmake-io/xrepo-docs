@@ -1801,6 +1801,30 @@ add_requires("rapidjson")
 ```
 
 
+### recastnavigation (cross)
+
+
+| Description | *Navigation-mesh Toolset for Games* |
+| -- | -- |
+| Homepage | [https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) |
+| License | zlib |
+| Versions | 1.5.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [recastnavigation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/recastnavigation/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] recastnavigation
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("recastnavigation")
+```
+
+
 ### rply (cross)
 
 

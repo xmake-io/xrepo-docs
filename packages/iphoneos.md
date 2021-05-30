@@ -2337,6 +2337,30 @@ add_requires("rapidjson")
 ```
 
 
+### recastnavigation (iphoneos)
+
+
+| Description | *Navigation-mesh Toolset for Games* |
+| -- | -- |
+| Homepage | [https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) |
+| License | zlib |
+| Versions | 1.5.1 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [recastnavigation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/recastnavigation/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos recastnavigation
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("recastnavigation")
+```
+
+
 ### rply (iphoneos)
 
 
