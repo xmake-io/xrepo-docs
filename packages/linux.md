@@ -4793,6 +4793,30 @@ add_requires("make")
 ```
 
 
+### mariadb-connector-c (linux)
+
+
+| Description | *MariaDB Connector/C is used to connect applications developed in C/C++ to MariaDB and MySQL databases.* |
+| -- | -- |
+| Homepage | [https://github.com/mariadb-corporation/mariadb-connector-c](https://github.com/mariadb-corporation/mariadb-connector-c) |
+| License | LGPL-2.1 |
+| Versions | 3.1.13 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mariadb-connector-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mariadb-connector-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mariadb-connector-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mariadb-connector-c")
+```
+
+
 ### mbedtls (linux)
 
 
