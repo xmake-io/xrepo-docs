@@ -2416,8 +2416,8 @@ add_requires("scons")
 | Description | *Ridiculously fast JSON parsing, UTF-8 validation and JSON minifying for popular 64 bit systems.* |
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
-| License | Apache 2.0 |
-| Versions | 0.8.2 |
+| License | Apache-2.0 |
+| Versions | v0.9.5 |
 | Architectures | arm64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
