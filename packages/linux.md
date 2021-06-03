@@ -1634,7 +1634,7 @@ add_requires("freetype")
 | -- | -- |
 | Homepage | [https://github.com/ValveSoftware/GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) |
 | License | BSD-3-Clause |
-| Versions | v1.2.0 |
+| Versions | v1.2.0, v1.3.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gamenetworkingsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gamenetworkingsockets/xmake.lua) |
 
