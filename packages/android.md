@@ -2317,7 +2317,7 @@ add_requires("nngpp")
 
 | Description | *OpenAL Soft is a software implementation of the OpenAL 3D audio API.* |
 | -- | -- |
-| Homepage | [https://github.com/paceholder/nodeeditor](https://github.com/paceholder/nodeeditor) |
+| Homepage | [https://openal-soft.org](https://openal-soft.org) |
 | License | LGPL-2.0 |
 | Versions | 1.21.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
