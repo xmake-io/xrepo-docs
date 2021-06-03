@@ -2312,6 +2312,30 @@ add_requires("nngpp")
 
 
 ## o
+### openal-soft (android)
+
+
+| Description | *OpenAL Soft is a software implementation of the OpenAL 3D audio API.* |
+| -- | -- |
+| Homepage | [https://github.com/paceholder/nodeeditor](https://github.com/paceholder/nodeeditor) |
+| License | LGPL-2.0 |
+| Versions | 1.21.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [openal-soft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] openal-soft
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openal-soft")
+```
+
+
 ### openssl (android)
 
 

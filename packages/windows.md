@@ -4316,6 +4316,30 @@ add_requires("oatpp")
 ```
 
 
+### openal-soft (windows)
+
+
+| Description | *OpenAL Soft is a software implementation of the OpenAL 3D audio API.* |
+| -- | -- |
+| Homepage | [https://github.com/paceholder/nodeeditor](https://github.com/paceholder/nodeeditor) |
+| License | LGPL-2.0 |
+| Versions | 1.21.1 |
+| Architectures | x64, x86 |
+| Definition | [openal-soft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openal-soft
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openal-soft")
+```
+
+
 ### openblas (windows)
 
 
