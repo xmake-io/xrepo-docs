@@ -473,7 +473,7 @@ add_requires("capstone")
 | Description | *Catch2 is a multi-paradigm test framework for C++. which also supports Objective-C (and maybe C). * |
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
-| Versions | 2.13.5, 2.9.2 |
+| Versions | 2.13.5, 2.13.6, 2.9.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -2427,6 +2427,29 @@ xrepo install kcp
 
 ```lua
 add_requires("kcp")
+```
+
+
+### kiwisolver (macosx)
+
+
+| Description | *Efficient C++ implementation of the Cassowary constraint solving algorithm* |
+| -- | -- |
+| Homepage | [https://kiwisolver.readthedocs.io/en/latest/](https://kiwisolver.readthedocs.io/en/latest/) |
+| Versions | 1.3.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [kiwisolver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kiwisolver/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kiwisolver
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kiwisolver")
 ```
 
 
