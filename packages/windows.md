@@ -164,6 +164,30 @@ add_requires("benchmark")
 ```
 
 
+### bgfx (windows)
+
+
+| Description | *Cross-platform, graphics API agnostic, “Bring Your Own Engine/Framework” style rendering library* |
+| -- | -- |
+| Homepage | [https://bkaradzic.github.io/bgfx/](https://bkaradzic.github.io/bgfx/) |
+| License | BSD-2-Clause |
+| Versions | 7816 |
+| Architectures | x64, x86 |
+| Definition | [bgfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bgfx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bgfx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bgfx")
+```
+
+
 ### bin2c (windows)
 
 
@@ -356,6 +380,7 @@ add_requires("brynet")
 | Description | *Bullet Physics SDK.* |
 | -- | -- |
 | Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
+| License | zlib |
 | Versions | 2.88, 3.05, 3.09 |
 | Architectures | x64, x86 |
 | Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
