@@ -6919,6 +6919,30 @@ add_requires("vulkan-headers")
 ```
 
 
+### vulkan-hpp (macosx)
+
+
+| Description | *Open-Source Vulkan C++ API* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
+| License | Apache-2.0 |
+| Versions | v1.2.180 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-hpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-hpp")
+```
+
+
 ### vulkan-memory-allocator (macosx)
 
 

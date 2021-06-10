@@ -7436,6 +7436,30 @@ add_requires("vulkan-headers")
 ```
 
 
+### vulkan-hpp (linux)
+
+
+| Description | *Open-Source Vulkan C++ API* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
+| License | Apache-2.0 |
+| Versions | v1.2.180 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-hpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-hpp")
+```
+
+
 ### vulkan-loader (linux)
 
 
