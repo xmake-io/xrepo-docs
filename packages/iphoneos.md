@@ -2742,6 +2742,54 @@ add_requires("tinyxml2")
 ```
 
 
+### tl_expected (iphoneos)
+
+
+| Description | *C++11/14/17 std::expected with functional-style extensions* |
+| -- | -- |
+| Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
+| License | CC0 |
+| Versions | v1.0.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [tl_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_expected/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos tl_expected
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tl_expected")
+```
+
+
+### tl_function_ref (iphoneos)
+
+
+| Description | *A lightweight, non-owning reference to a callable.* |
+| -- | -- |
+| Homepage | [https://github.com/TartanLlama/function_ref](https://github.com/TartanLlama/function_ref) |
+| License | CC0 |
+| Versions | v1.0.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [tl_function_ref/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_function_ref/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos tl_function_ref
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tl_function_ref")
+```
+
+
 
 ## y
 ### yasm (iphoneos)

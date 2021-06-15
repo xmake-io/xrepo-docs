@@ -5452,7 +5452,7 @@ add_requires("snappy")
 | Description | *A C++ library binding to Lua.* |
 | -- | -- |
 | Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
-| Versions | v3.2.1, v3.2.2 |
+| Versions | v3.2.1, v3.2.2, v3.2.3 |
 | Architectures | x64, x86 |
 | Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
 
@@ -5985,6 +5985,54 @@ xrepo install tinyxml2
 
 ```lua
 add_requires("tinyxml2")
+```
+
+
+### tl_expected (windows)
+
+
+| Description | *C++11/14/17 std::expected with functional-style extensions* |
+| -- | -- |
+| Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
+| License | CC0 |
+| Versions | v1.0.0 |
+| Architectures | x64, x86 |
+| Definition | [tl_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_expected/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tl_expected
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tl_expected")
+```
+
+
+### tl_function_ref (windows)
+
+
+| Description | *A lightweight, non-owning reference to a callable.* |
+| -- | -- |
+| Homepage | [https://github.com/TartanLlama/function_ref](https://github.com/TartanLlama/function_ref) |
+| License | CC0 |
+| Versions | v1.0.0 |
+| Architectures | x64, x86 |
+| Definition | [tl_function_ref/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_function_ref/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tl_function_ref
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tl_function_ref")
 ```
 
 
