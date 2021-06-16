@@ -5003,7 +5003,7 @@ add_requires("pybind11")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.15, 2.7.18, 3.7.0, 3.8.1, 3.8.5 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5 |
 | Architectures | x64, x86 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 

@@ -2530,7 +2530,7 @@ add_requires("protoc")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.15, 2.7.18, 3.7.0, 3.8.1, 3.8.5 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
