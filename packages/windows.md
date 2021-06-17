@@ -735,7 +735,7 @@ add_requires("cmocka")
 | Description | *Yet another libco and more.* |
 | -- | -- |
 | Homepage | [https://github.com/idealvin/co](https://github.com/idealvin/co) |
-| Versions |  |
+| Versions | v2.0.0+1 |
 | Architectures | x64, x86 |
 | Definition | [co/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/co/xmake.lua) |
 
