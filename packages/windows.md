@@ -3781,7 +3781,7 @@ add_requires("mem")
 | Description | *Fast and user friendly build system.* |
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
-| Versions | 0.50.1, 0.56.0, 0.58.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1 |
 | Architectures | x64, x86 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -4511,7 +4511,7 @@ add_requires("openmesh")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
-| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h, 1.1.1k |
+| Versions | 1.0.0, 1.0.2-u, 1.1.0-l, 1.1.1-h, 1.1.1-k |
 | Architectures | x64, x86 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
