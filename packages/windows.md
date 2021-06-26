@@ -1160,7 +1160,7 @@ add_requires("draco")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
 | License | MIT |
-| Versions | v1.4.1, v1.6.0 |
+| Versions | v1.4.1, v1.6.0, v1.7.1 |
 | Architectures | x64 |
 | Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
 
@@ -6066,7 +6066,7 @@ add_requires("tmxparser")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1 |
+| Versions | v1.3.0, v1.4.1, v1.5.0 |
 | Architectures | x64, x86 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 
