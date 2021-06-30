@@ -70,6 +70,30 @@ add_requires("angelscript")
 ```
 
 
+### asmjit (linux)
+
+
+| Description | *AsmJit is a lightweight library for machine code generation written in C++ language.* |
+| -- | -- |
+| Homepage | [https://asmjit.com/](https://asmjit.com/) |
+| License | zlib |
+| Versions | 210627 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install asmjit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asmjit")
+```
+
+
 ### assimp (linux)
 
 

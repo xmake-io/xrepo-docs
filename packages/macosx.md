@@ -69,6 +69,30 @@ add_requires("argp-standalone")
 ```
 
 
+### asmjit (macosx)
+
+
+| Description | *AsmJit is a lightweight library for machine code generation written in C++ language.* |
+| -- | -- |
+| Homepage | [https://asmjit.com/](https://asmjit.com/) |
+| License | zlib |
+| Versions | 210627 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install asmjit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asmjit")
+```
+
+
 ### assimp (macosx)
 
 
