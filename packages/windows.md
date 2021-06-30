@@ -77,7 +77,7 @@ add_requires("angelscript")
 | -- | -- |
 | Homepage | [https://asmjit.com/](https://asmjit.com/) |
 | License | zlib |
-| Versions | 210627 |
+| Versions | 2021.06.27 |
 | Architectures | x64, x86 |
 | Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
 
