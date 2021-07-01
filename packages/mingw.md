@@ -2572,6 +2572,29 @@ add_requires("qhull")
 ```
 
 
+### quickjs (mingw)
+
+
+| Description | *QuickJS is a small and embeddable Javascript engine* |
+| -- | -- |
+| Homepage | [https://bellard.org/quickjs/](https://bellard.org/quickjs/) |
+| Versions | 2021.03.27 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [quickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] quickjs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quickjs")
+```
+
+
 
 ## r
 ### range-v3 (mingw)

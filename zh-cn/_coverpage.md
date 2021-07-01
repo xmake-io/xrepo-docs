@@ -6,7 +6,7 @@
 
 - *简单，轻量，跨平台*
 - *现代化的 C/C++ 包管理工具，分布式仓库支持*
-- **Recently added: asmjit, tl_expected, tl_function_ref**
+- **Recently added: quickjs, asmjit**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [GitHub](https://github.com/xmake-io/xrepo/)
