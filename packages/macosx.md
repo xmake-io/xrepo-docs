@@ -170,7 +170,7 @@ add_requires("automake")
 | Description | *A microbenchmark support library* |
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
-| Versions | 1.5.2 |
+| Versions | 1.5.2, 1.5.5 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
