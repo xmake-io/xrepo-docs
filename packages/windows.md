@@ -3782,7 +3782,7 @@ add_requires("mbedtls")
 | Description | *A collection of C++11 headers useful for reverse engineering* |
 | -- | -- |
 | Homepage | [https://github.com/0x1F9F1/mem](https://github.com/0x1F9F1/mem) |
-| Versions | 0.1.0 |
+| Versions | 1.0.0 |
 | Architectures | x64, x86 |
 | Definition | [mem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mem/xmake.lua) |
 
