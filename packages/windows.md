@@ -1583,6 +1583,30 @@ add_requires("fmt")
 ```
 
 
+### folly (windows)
+
+
+| Description | *An open-source C++ library developed and used at Facebook.* |
+| -- | -- |
+| Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
+| License | Apache-2.0 |
+| Versions | 2021.06.28 |
+| Architectures | x64 |
+| Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install folly
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("folly")
+```
+
+
 ### freeglut (windows)
 
 
