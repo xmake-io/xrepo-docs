@@ -493,6 +493,29 @@ add_requires("cairo")
 ```
 
 
+### capnproto (windows)
+
+
+| Description | *Cap'n Proto serialization/RPC system - core tools and C++ library.* |
+| -- | -- |
+| Homepage | [https://github.com/capnproto/capnproto](https://github.com/capnproto/capnproto) |
+| Versions | 0.7.0, 0.8.0 |
+| Architectures | x64, x86 |
+| Definition | [capnproto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capnproto/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install capnproto
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("capnproto")
+```
+
+
 ### capstone (windows)
 
 
