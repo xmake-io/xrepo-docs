@@ -705,6 +705,29 @@ add_requires("chipmunk2d")
 ```
 
 
+### cjson (windows)
+
+
+| Description | *Ultralightweight JSON parser in ANSI C.* |
+| -- | -- |
+| Homepage | [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) |
+| Versions | 1.7.10, 1.7.14 |
+| Architectures | x64, x86 |
+| Definition | [cjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cjson")
+```
+
+
 ### clara (windows)
 
 
