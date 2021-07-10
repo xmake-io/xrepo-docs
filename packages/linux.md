@@ -5689,6 +5689,29 @@ add_requires("openblas")
 ```
 
 
+### opencc (linux)
+
+
+| Description | *Conversion between Traditional and Simplified Chinese.* |
+| -- | -- |
+| Homepage | [https://github.com/BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) |
+| Versions | 1.1.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [opencc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opencc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencc")
+```
+
+
 ### opencv (linux)
 
 

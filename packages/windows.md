@@ -4505,6 +4505,29 @@ add_requires("openblas")
 ```
 
 
+### opencc (windows)
+
+
+| Description | *Conversion between Traditional and Simplified Chinese.* |
+| -- | -- |
+| Homepage | [https://github.com/BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) |
+| Versions | 1.1.2 |
+| Architectures | x64, x86 |
+| Definition | [opencc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opencc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencc")
+```
+
+
 ### opencv (windows)
 
 
