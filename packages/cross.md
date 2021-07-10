@@ -646,7 +646,7 @@ add_requires("gsl")
 | Description | *Google Testing and Mocking Framework.* |
 | -- | -- |
 | Homepage | [https://github.com/google/googletest](https://github.com/google/googletest) |
-| Versions | 1.10.0, 1.8.1 |
+| Versions | 1.10.0, 1.11.0, 1.8.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
 
