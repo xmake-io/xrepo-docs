@@ -1468,6 +1468,29 @@ add_requires("mariadb-connector-c")
 ```
 
 
+### marisa (bsd)
+
+
+| Description | *Matching Algorithm with Recursively Implemented StorAge.* |
+| -- | -- |
+| Homepage | [https://github.com/s-yata/marisa-trie](https://github.com/s-yata/marisa-trie) |
+| Versions | v0.2.6 |
+| Architectures | i386, x86_64 |
+| Definition | [marisa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marisa/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install marisa
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("marisa")
+```
+
+
 ### mbedtls (bsd)
 
 

@@ -1957,6 +1957,29 @@ add_requires("make")
 ```
 
 
+### marisa (mingw)
+
+
+| Description | *Matching Algorithm with Recursively Implemented StorAge.* |
+| -- | -- |
+| Homepage | [https://github.com/s-yata/marisa-trie](https://github.com/s-yata/marisa-trie) |
+| Versions | v0.2.6 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [marisa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marisa/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] marisa
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("marisa")
+```
+
+
 ### mbedtls (mingw)
 
 
@@ -3167,6 +3190,30 @@ add_requires("xz")
 
 
 ## y
+### yaml-cpp (mingw)
+
+
+| Description | *A YAML parser and emitter in C++* |
+| -- | -- |
+| Homepage | [https://github.com/jbeder/yaml-cpp/](https://github.com/jbeder/yaml-cpp/) |
+| License | MIT |
+| Versions | 0.6.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [yaml-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] yaml-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yaml-cpp")
+```
+
+
 ### yasm (mingw)
 
 
