@@ -6111,7 +6111,7 @@ add_requires("tinyxml")
 | Description | *simple, small, efficient, C++ XML parser that can be easily integrating into other programs.* |
 | -- | -- |
 | Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
-| Versions | 8.0.0 |
+| Versions | 8.0.0, 9.0.0 |
 | Architectures | x64, x86 |
 | Definition | [tinyxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml2/xmake.lua) |
 

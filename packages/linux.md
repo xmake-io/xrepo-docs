@@ -7295,7 +7295,7 @@ add_requires("tinyxml")
 | Description | *simple, small, efficient, C++ XML parser that can be easily integrating into other programs.* |
 | -- | -- |
 | Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
-| Versions | 8.0.0 |
+| Versions | 8.0.0, 9.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinyxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml2/xmake.lua) |
 
