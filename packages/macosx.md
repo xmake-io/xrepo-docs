@@ -2195,6 +2195,30 @@ add_requires("hdf5")
 ```
 
 
+### hffix (macosx)
+
+
+| Description | *C++ Library for FIX (Financial Information Exchange) Protocol.* |
+| -- | -- |
+| Homepage | [https://github.com/jamesdbrock/hffix](https://github.com/jamesdbrock/hffix) |
+| License | BSD-2-Clause |
+| Versions | v1.1.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [hffix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hffix/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hffix
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hffix")
+```
+
+
 ### hopscotch-map (macosx)
 
 
