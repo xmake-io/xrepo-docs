@@ -756,6 +756,30 @@ add_requires("fmt")
 ```
 
 
+### fx-gltf (mingw)
+
+
+| Description | *A C++14/C++17 header-only library for simple, efficient, and robust serialization/deserialization of glTF 2.0* |
+| -- | -- |
+| Homepage | [https://github.com/jessey-git/fx-gltf](https://github.com/jessey-git/fx-gltf) |
+| License | MIT |
+| Versions | v1.2.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [fx-gltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fx-gltf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] fx-gltf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fx-gltf")
+```
+
+
 
 ## g
 ### giflib (mingw)

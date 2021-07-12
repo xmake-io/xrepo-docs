@@ -1699,6 +1699,30 @@ add_requires("freetype")
 ```
 
 
+### fx-gltf (windows)
+
+
+| Description | *A C++14/C++17 header-only library for simple, efficient, and robust serialization/deserialization of glTF 2.0* |
+| -- | -- |
+| Homepage | [https://github.com/jessey-git/fx-gltf](https://github.com/jessey-git/fx-gltf) |
+| License | MIT |
+| Versions | v1.2.0 |
+| Architectures | x64, x86 |
+| Definition | [fx-gltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fx-gltf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fx-gltf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fx-gltf")
+```
+
+
 
 ## g
 ### gamenetworkingsockets (windows)
@@ -3935,6 +3959,30 @@ xrepo install metis
 
 ```lua
 add_requires("metis")
+```
+
+
+### mfast (windows)
+
+
+| Description | *High performance C++ encoding/decoding library for FAST (FIX Adapted for STreaming) protocol.* |
+| -- | -- |
+| Homepage | [https://github.com/objectcomputing/mFAST](https://github.com/objectcomputing/mFAST) |
+| License | BSD-3-Clause |
+| Versions | v1.2.2 |
+| Architectures | x64, x86 |
+| Definition | [mfast/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mfast/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mfast
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mfast")
 ```
 
 
