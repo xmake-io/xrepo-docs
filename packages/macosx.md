@@ -2337,6 +2337,30 @@ add_requires("imagemagick")
 ```
 
 
+### imath (macosx)
+
+
+| Description | *Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics* |
+| -- | -- |
+| Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
+| License | BSD-3-Clause |
+| Versions | v3.1.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install imath
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imath")
+```
+
+
 ### imgui (macosx)
 
 
