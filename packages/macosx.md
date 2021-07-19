@@ -5644,6 +5644,30 @@ add_requires("patch")
 ```
 
 
+### pcl (macosx)
+
+
+| Description | *The Point Cloud Library (PCL) is a standalone, large scale, open project for 2D/3D image and point cloud processing.* |
+| -- | -- |
+| Homepage | [https://pointclouds.org/](https://pointclouds.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.12.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [pcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pcl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pcl")
+```
+
+
 ### pcre (macosx)
 
 
