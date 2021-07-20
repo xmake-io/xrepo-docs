@@ -1869,6 +1869,30 @@ add_requires("opencc")
 ```
 
 
+### opencl-headers (bsd)
+
+
+| Description | *Khronos OpenCL-Headers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
+| License | Apache-2.0 |
+| Versions | v2021.06.30 |
+| Architectures | i386, x86_64 |
+| Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opencl-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl-headers")
+```
+
+
 
 ## p
 ### patch (bsd)

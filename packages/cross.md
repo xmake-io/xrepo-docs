@@ -1637,6 +1637,30 @@ add_requires("openal-soft")
 ```
 
 
+### opencl-headers (cross)
+
+
+| Description | *Khronos OpenCL-Headers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
+| License | Apache-2.0 |
+| Versions | v2021.06.30 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] opencl-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl-headers")
+```
+
+
 ### openssl (cross)
 
 

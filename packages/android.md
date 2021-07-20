@@ -2407,6 +2407,30 @@ add_requires("openal-soft")
 ```
 
 
+### opencl-headers (android)
+
+
+| Description | *Khronos OpenCL-Headers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
+| License | Apache-2.0 |
+| Versions | v2021.06.30 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] opencl-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl-headers")
+```
+
+
 ### openssl (android)
 
 

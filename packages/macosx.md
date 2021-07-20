@@ -4231,6 +4231,30 @@ add_requires("libyaml")
 ```
 
 
+### libzip (macosx)
+
+
+| Description | *A C library for reading, creating, and modifying zip archives.* |
+| -- | -- |
+| Homepage | [https://libzip.org/](https://libzip.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.8.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libzip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libzip")
+```
+
+
 ### lief (macosx)
 
 
@@ -5428,6 +5452,30 @@ xrepo install opencc
 
 ```lua
 add_requires("opencc")
+```
+
+
+### opencl-headers (macosx)
+
+
+| Description | *Khronos OpenCL-Headers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
+| License | Apache-2.0 |
+| Versions | v2021.06.30 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opencl-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl-headers")
 ```
 
 
