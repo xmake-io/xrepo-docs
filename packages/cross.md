@@ -1637,6 +1637,30 @@ add_requires("openal-soft")
 ```
 
 
+### opencl-clhpp (cross)
+
+
+| Description | *OpenCL API C++ bindings* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenCL-CLHPP/](https://github.com/KhronosGroup/OpenCL-CLHPP/) |
+| License | Apache-2.0 |
+| Versions | 1.2.8, 2.0.15 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [opencl-clhpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-clhpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] opencl-clhpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl-clhpp")
+```
+
+
 ### opencl-headers (cross)
 
 

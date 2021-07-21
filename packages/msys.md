@@ -1544,6 +1544,30 @@ add_requires("nlohmann_json")
 
 
 ## o
+### opencl-clhpp (msys)
+
+
+| Description | *OpenCL API C++ bindings* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenCL-CLHPP/](https://github.com/KhronosGroup/OpenCL-CLHPP/) |
+| License | Apache-2.0 |
+| Versions | 1.2.8, 2.0.15 |
+| Architectures | i386, x86_64 |
+| Definition | [opencl-clhpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-clhpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opencl-clhpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl-clhpp")
+```
+
+
 ### opencl-headers (msys)
 
 

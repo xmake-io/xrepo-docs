@@ -5455,6 +5455,30 @@ add_requires("opencc")
 ```
 
 
+### opencl-clhpp (macosx)
+
+
+| Description | *OpenCL API C++ bindings* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenCL-CLHPP/](https://github.com/KhronosGroup/OpenCL-CLHPP/) |
+| License | Apache-2.0 |
+| Versions | 1.2.8, 2.0.15 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [opencl-clhpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-clhpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opencl-clhpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl-clhpp")
+```
+
+
 ### opencl-headers (macosx)
 
 
@@ -7200,6 +7224,30 @@ xrepo install vcglib
 
 ```lua
 add_requires("vcglib")
+```
+
+
+### vexcl (macosx)
+
+
+| Description | *VexCL is a C++ vector expression template library for OpenCL/CUDA/OpenMP* |
+| -- | -- |
+| Homepage | [https://github.com/ddemidov/vexcl](https://github.com/ddemidov/vexcl) |
+| License | MIT |
+| Versions | 1.4.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [vexcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vexcl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vexcl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vexcl")
 ```
 
 

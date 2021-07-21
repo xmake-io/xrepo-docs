@@ -2474,6 +2474,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("openal-soft")
 </code></pre>
+<h3 id="openclclhppcross">opencl-clhpp (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>OpenCL API C++ bindings</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/OpenCL-CLHPP/">https://github.com/KhronosGroup/OpenCL-CLHPP/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.2.8, 2.0.15</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-clhpp/xmake.lua">opencl-clhpp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] opencl-clhpp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("opencl-clhpp")
+</code></pre>
 <h3 id="openclheaderscross">opencl-headers (cross)</h3>
 <table>
 <thead>

@@ -2407,6 +2407,30 @@ add_requires("openal-soft")
 ```
 
 
+### opencl-clhpp (android)
+
+
+| Description | *OpenCL API C++ bindings* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenCL-CLHPP/](https://github.com/KhronosGroup/OpenCL-CLHPP/) |
+| License | Apache-2.0 |
+| Versions | 1.2.8, 2.0.15 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [opencl-clhpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-clhpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] opencl-clhpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl-clhpp")
+```
+
+
 ### opencl-headers (android)
 
 
