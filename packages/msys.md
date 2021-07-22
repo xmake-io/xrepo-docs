@@ -552,7 +552,7 @@ add_requires("fastcppcsvparser")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
-| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0 |
+| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1 |
 | Architectures | i386, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -1883,7 +1883,7 @@ add_requires("scons")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5 |
+| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0 |
 | Architectures | i386, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
