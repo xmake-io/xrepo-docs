@@ -1374,7 +1374,7 @@ add_requires("embree")
 | Description | *Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more.* |
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
-| Versions | v3.6.0, v3.7.0, v3.7.1 |
+| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0 |
 | Architectures | x64, x86 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
