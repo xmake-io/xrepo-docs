@@ -2718,6 +2718,30 @@ add_requires("libavif")
 ```
 
 
+### libccd (macosx)
+
+
+| Description | *libccd is library for a collision detection between two convex shapes.* |
+| -- | -- |
+| Homepage | [https://github.com/danfis/libccd/](https://github.com/danfis/libccd/) |
+| License | BSD-3-Clause |
+| Versions | v2.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libccd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libccd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libccd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libccd")
+```
+
+
 ### libcurl (macosx)
 
 
@@ -5405,6 +5429,30 @@ xrepo install oatpp
 
 ```lua
 add_requires("oatpp")
+```
+
+
+### ode (macosx)
+
+
+| Description | *ODE is an open source, high performance library for simulating rigid body dynamics.* |
+| -- | -- |
+| Homepage | [http://ode.org/](http://ode.org/) |
+| License | BSD-3-Clause |
+| Versions | 0.16.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [ode/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ode/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ode
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ode")
 ```
 
 

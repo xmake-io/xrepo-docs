@@ -2930,6 +2930,30 @@ add_requires("libcap")
 ```
 
 
+### libccd (linux)
+
+
+| Description | *libccd is library for a collision detection between two convex shapes.* |
+| -- | -- |
+| Homepage | [https://github.com/danfis/libccd/](https://github.com/danfis/libccd/) |
+| License | BSD-3-Clause |
+| Versions | v2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libccd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libccd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libccd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libccd")
+```
+
+
 ### libcurl (linux)
 
 
@@ -5782,6 +5806,30 @@ xrepo install oatpp
 
 ```lua
 add_requires("oatpp")
+```
+
+
+### ode (linux)
+
+
+| Description | *ODE is an open source, high performance library for simulating rigid body dynamics.* |
+| -- | -- |
+| Homepage | [http://ode.org/](http://ode.org/) |
+| License | BSD-3-Clause |
+| Versions | 0.16.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ode/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ode/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ode
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ode")
 ```
 
 
