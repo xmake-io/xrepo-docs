@@ -1304,7 +1304,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6, 2.3.0 |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -5794,7 +5794,7 @@ add_requires("pcl")
 | Description | *A Perl Compatible Regular Expressions Library* |
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
-| Versions | 8.40, 8.41, 8.44 |
+| Versions | 8.40, 8.41, 8.44, 8.45 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [pcre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre/xmake.lua) |
 
@@ -6712,7 +6712,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
