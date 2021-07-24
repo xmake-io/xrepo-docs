@@ -5,7 +5,7 @@
 | Description | *C++ Common Libraries* |
 | -- | -- |
 | Homepage | [https://abseil.io](https://abseil.io) |
-| Versions | 20200225.1, 20210324.1 |
+| Versions | 20200225.1, 20210324.1, 20210324.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
@@ -5928,6 +5928,30 @@ add_requires("pmp")
 ```
 
 
+### poco (macosx)
+
+
+| Description | *The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.* |
+| -- | -- |
+| Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
+| License | BSL-1.0 |
+| Versions | 1.11.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [poco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install poco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("poco")
+```
+
+
 ### poppler (macosx)
 
 
@@ -7258,7 +7282,7 @@ add_requires("util-macros")
 | -- | -- |
 | Homepage | [http://www.vcglib.net/](http://www.vcglib.net/) |
 | License | GPL-3.0 |
-| Versions | 2020.12 |
+| Versions | 2020.12, 2021.07 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [vcglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcglib/xmake.lua) |
 
