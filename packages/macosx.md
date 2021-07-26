@@ -29,7 +29,7 @@ add_requires("abseil")
 | -- | -- |
 | Homepage | [https://github.com/ddemidov/amgcl/](https://github.com/ddemidov/amgcl/) |
 | License | MIT |
-| Versions | 1.4.0 |
+| Versions | 1.4.0, 1.4.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [amgcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua) |
 
