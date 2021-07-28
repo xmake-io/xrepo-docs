@@ -5957,7 +5957,7 @@ add_requires("opencl-headers")
 | Description | *A open source computer vision library.* |
 | -- | -- |
 | Homepage | [https://opencv.org/](https://opencv.org/) |
-| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2 |
+| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
 
