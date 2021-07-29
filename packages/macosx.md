@@ -1,3 +1,28 @@
+## 7
+### 7z (macosx)
+
+
+| Description | *A file archiver with a high compression ratio.* |
+| -- | -- |
+| Homepage | [https://www.7-zip.org/](https://www.7-zip.org/) |
+| Versions | 21.02 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [7z/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/7/7z/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install 7z
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("7z")
+```
+
+
+
 ## a
 ### abseil (macosx)
 
@@ -962,6 +987,30 @@ add_requires("cxxopts")
 
 
 ## d
+### date (macosx)
+
+
+| Description | *A date and time library for use with C++11 and C++14.* |
+| -- | -- |
+| Homepage | [https://github.com/HowardHinnant/date](https://github.com/HowardHinnant/date) |
+| License | MIT |
+| Versions | v3.0.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [date/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/date/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install date
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("date")
+```
+
+
 ### dav1d (macosx)
 
 
@@ -983,6 +1032,30 @@ xrepo install dav1d
 
 ```lua
 add_requires("dav1d")
+```
+
+
+### decimal_for_cpp (macosx)
+
+
+| Description | *Decimal data type support, for COBOL-like fixed-point operations on currency/money values.* |
+| -- | -- |
+| Homepage | [https://github.com/vpiotr/decimal_for_cpp](https://github.com/vpiotr/decimal_for_cpp) |
+| License | BSD-3-Clause |
+| Versions | 1.19 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [decimal_for_cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/decimal_for_cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install decimal_for_cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("decimal_for_cpp")
 ```
 
 
@@ -5078,6 +5151,30 @@ add_requires("mysql")
 
 
 ## n
+### named_type (macosx)
+
+
+| Description | *Implementation of strong types in C++.* |
+| -- | -- |
+| Homepage | [https://github.com/joboccara/NamedType](https://github.com/joboccara/NamedType) |
+| License | MIT |
+| Versions | v1.1.0.20210209 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [named_type/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/named_type/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install named_type
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("named_type")
+```
+
+
 ### nanoflann (macosx)
 
 

@@ -353,6 +353,54 @@ add_requires("cxxopts")
 
 
 ## d
+### date (cross)
+
+
+| Description | *A date and time library for use with C++11 and C++14.* |
+| -- | -- |
+| Homepage | [https://github.com/HowardHinnant/date](https://github.com/HowardHinnant/date) |
+| License | MIT |
+| Versions | v3.0.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [date/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/date/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] date
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("date")
+```
+
+
+### decimal_for_cpp (cross)
+
+
+| Description | *Decimal data type support, for COBOL-like fixed-point operations on currency/money values.* |
+| -- | -- |
+| Homepage | [https://github.com/vpiotr/decimal_for_cpp](https://github.com/vpiotr/decimal_for_cpp) |
+| License | BSD-3-Clause |
+| Versions | 1.19 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [decimal_for_cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/decimal_for_cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] decimal_for_cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("decimal_for_cpp")
+```
+
+
 ### doctest (cross)
 
 
@@ -1494,6 +1542,30 @@ add_requires("muslcc")
 
 
 ## n
+### named_type (cross)
+
+
+| Description | *Implementation of strong types in C++.* |
+| -- | -- |
+| Homepage | [https://github.com/joboccara/NamedType](https://github.com/joboccara/NamedType) |
+| License | MIT |
+| Versions | v1.1.0.20210209 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [named_type/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/named_type/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] named_type
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("named_type")
+```
+
+
 ### nanoflann (cross)
 
 
