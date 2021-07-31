@@ -642,7 +642,7 @@ add_requires("cereal")
 | -- | -- |
 | Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
 | License | LGPL-3.0 |
-| Versions | 5.1.1, 5.2.1 |
+| Versions | 5.1.1, 5.2.1, 5.3 |
 | Architectures | x64, x86 |
 | Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
 
