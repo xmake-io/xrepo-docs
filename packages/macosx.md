@@ -331,6 +331,30 @@ add_requires("blaze")
 ```
 
 
+### blitz (macosx)
+
+
+| Description | *Blitz++ Multi-Dimensional Array Library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/blitzpp/blitz](https://github.com/blitzpp/blitz) |
+| License | LGPL-3.0 |
+| Versions | 1.0.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [blitz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blitz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install blitz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blitz")
+```
+
+
 ### blosc (macosx)
 
 

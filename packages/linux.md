@@ -332,6 +332,30 @@ add_requires("blaze")
 ```
 
 
+### blitz (linux)
+
+
+| Description | *Blitz++ Multi-Dimensional Array Library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/blitzpp/blitz](https://github.com/blitzpp/blitz) |
+| License | LGPL-3.0 |
+| Versions | 1.0.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [blitz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blitz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install blitz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blitz")
+```
+
+
 ### blosc (linux)
 
 
@@ -6262,6 +6286,30 @@ add_requires("osqp")
 
 
 ## p
+### papi (linux)
+
+
+| Description | *Performance Application Programming Interface* |
+| -- | -- |
+| Homepage | [https://icl.utk.edu/papi/index.html](https://icl.utk.edu/papi/index.html) |
+| License | BSD-3-Clause |
+| Versions | 6.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [papi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/papi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install papi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("papi")
+```
+
+
 ### partio (linux)
 
 
