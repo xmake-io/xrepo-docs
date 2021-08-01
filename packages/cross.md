@@ -424,6 +424,30 @@ add_requires("doctest")
 ```
 
 
+### doxygen (cross)
+
+
+| Description | *%s* |
+| -- | -- |
+| Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
+| License | GPL-2.0 |
+| Versions | 1.9.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] doxygen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("doxygen")
+```
+
+
 ### dr_flac (cross)
 
 
@@ -1360,7 +1384,7 @@ add_requires("lzo")
 | Description | *Macro processing language* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/m4](https://www.gnu.org/software/m4) |
-| Versions | 1.4.18 |
+| Versions | 1.4.18, 1.4.19 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [m4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/m4/xmake.lua) |
 
@@ -2167,7 +2191,8 @@ add_requires("stb")
 | Description | *A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies* |
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
-| Versions | v3.0.0, v3.1.0 |
+| License | MIT |
+| Versions | v3.0.0, v3.1.0, v3.2.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 

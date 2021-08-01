@@ -290,7 +290,7 @@ add_requires("binutils")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
 | License | GPL-3.0 |
-| Versions | 3.7.4 |
+| Versions | 3.7.4, 3.7.6 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
 
@@ -1106,6 +1106,30 @@ add_requires("double-conversion")
 ```
 
 
+### doxygen (macosx)
+
+
+| Description | *%s* |
+| -- | -- |
+| Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
+| License | GPL-2.0 |
+| Versions | 1.9.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install doxygen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("doxygen")
+```
+
+
 ### dr_flac (macosx)
 
 
@@ -1557,6 +1581,30 @@ xrepo install flatbuffers
 
 ```lua
 add_requires("flatbuffers")
+```
+
+
+### flex (macosx)
+
+
+| Description | *%s* |
+| -- | -- |
+| Homepage | [https://github.com/westes/flex/](https://github.com/westes/flex/) |
+| License | BSD-2-Clause |
+| Versions | 2.6.4 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flex")
 ```
 
 
@@ -4688,7 +4736,7 @@ add_requires("lzo")
 | Description | *Macro processing language* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/m4](https://www.gnu.org/software/m4) |
-| Versions | 1.4.18 |
+| Versions | 1.4.18, 1.4.19 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [m4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/m4/xmake.lua) |
 
@@ -6928,7 +6976,8 @@ add_requires("superlu")
 | Description | *A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies* |
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
-| Versions | v3.0.0, v3.1.0 |
+| License | MIT |
+| Versions | v3.0.0, v3.1.0, v3.2.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 
