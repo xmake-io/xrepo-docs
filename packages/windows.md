@@ -2389,6 +2389,30 @@ add_requires("http_parser")
 ```
 
 
+### hwloc (windows)
+
+
+| Description | *Portable Hardware Locality (hwloc)* |
+| -- | -- |
+| Homepage | [https://www.open-mpi.org/software/hwloc/](https://www.open-mpi.org/software/hwloc/) |
+| License | BSD-3-Clause |
+| Versions | 2.5.0 |
+| Architectures | x64, x86 |
+| Definition | [hwloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hwloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hwloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hwloc")
+```
+
+
 ### hypre (windows)
 
 
@@ -6947,6 +6971,78 @@ xrepo install xerces-c
 
 ```lua
 add_requires("xerces-c")
+```
+
+
+### xsimd (windows)
+
+
+| Description | *C++ wrappers for SIMD intrinsics* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xsimd/](https://github.com/xtensor-stack/xsimd/) |
+| License | BSD-3-Clause |
+| Versions | 7.6.0 |
+| Architectures | x64, x86 |
+| Definition | [xsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xsimd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xsimd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xsimd")
+```
+
+
+### xtensor (windows)
+
+
+| Description | *Multi-dimensional arrays with broadcasting and lazy computing* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xtensor/](https://github.com/xtensor-stack/xtensor/) |
+| License | BSD-3-Clause |
+| Versions | 0.23.10 |
+| Architectures | x64, x86 |
+| Definition | [xtensor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xtensor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtensor")
+```
+
+
+### xtl (windows)
+
+
+| Description | *Basic tools (containers, algorithms) used by other quantstack packages* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xtl/](https://github.com/xtensor-stack/xtl/) |
+| License | BSD-3-Clause |
+| Versions | 0.7.2 |
+| Architectures | x64, x86 |
+| Definition | [xtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xtl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtl")
 ```
 
 
