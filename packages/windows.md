@@ -384,7 +384,7 @@ add_requires("boost")
 | Description | *A 2D Physics Engine for Games* |
 | -- | -- |
 | Homepage | [https://box2d.org](https://box2d.org) |
-| Versions | 2.4.0 |
+| Versions | 2.4.0, 2.4.1 |
 | Architectures | x64, x86 |
 | Definition | [box2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box2d/xmake.lua) |
 
@@ -5718,7 +5718,7 @@ add_requires("rapidjson")
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
-| Versions | 2.5.0, 3.0.0, 3.5.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0 |
 | Architectures | x64, x86 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
@@ -7019,6 +7019,30 @@ xrepo install xtensor
 
 ```lua
 add_requires("xtensor")
+```
+
+
+### xtensor-blas (windows)
+
+
+| Description | *BLAS extension to xtensor* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xtensor-blas/](https://github.com/xtensor-stack/xtensor-blas/) |
+| License | BSD-3-Clause |
+| Versions | 0.19.1 |
+| Architectures | x64, x86 |
+| Definition | [xtensor-blas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor-blas/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xtensor-blas
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtensor-blas")
 ```
 
 

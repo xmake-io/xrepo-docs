@@ -906,7 +906,7 @@ add_requires("fx-gltf")
 | Description | *GNU internationalization (i18n) and localization (l10n) library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
-| Versions | 0.19.8-1 |
+| Versions | 0.19.8-1, 0.21 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [gettext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gettext/xmake.lua) |
 

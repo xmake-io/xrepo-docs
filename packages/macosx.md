@@ -407,7 +407,7 @@ add_requires("boost")
 | Description | *A 2D Physics Engine for Games* |
 | -- | -- |
 | Homepage | [https://box2d.org](https://box2d.org) |
-| Versions | 2.4.0 |
+| Versions | 2.4.0, 2.4.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [box2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box2d/xmake.lua) |
 
@@ -1804,7 +1804,7 @@ add_requires("geos")
 | Description | *GNU internationalization (i18n) and localization (l10n) library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
-| Versions | 0.19.8-1 |
+| Versions | 0.19.8-1, 0.21 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [gettext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gettext/xmake.lua) |
 
@@ -3098,6 +3098,29 @@ add_requires("libhv")
 ```
 
 
+### libice (macosx)
+
+
+| Description | *X.Org: Inter-Client Exchange Library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libice](https://gitlab.freedesktop.org/xorg/lib/libice) |
+| Versions | 1.0.10 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libice/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libice
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libice")
+```
+
+
 ### libiconv (macosx)
 
 
@@ -3586,6 +3609,29 @@ add_requires("libsdl_ttf")
 ```
 
 
+### libsm (macosx)
+
+
+| Description | *X.Org: X Session Management Library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libsm](https://gitlab.freedesktop.org/xorg/lib/libsm) |
+| Versions | 1.2.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libsm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsm")
+```
+
+
 ### libsndfile (macosx)
 
 
@@ -3984,6 +4030,29 @@ add_requires("libxau")
 ```
 
 
+### libxaw (macosx)
+
+
+| Description | *X.Org: X Athena Widget Set* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxaw](https://gitlab.freedesktop.org/xorg/lib/libxaw) |
+| Versions | 1.0.14 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libxaw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxaw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxaw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxaw")
+```
+
+
 ### libxcb (macosx)
 
 
@@ -4239,6 +4308,52 @@ add_requires("libxml2")
 ```
 
 
+### libxmu (macosx)
+
+
+| Description | *X.Org: X miscellaneous utility routines library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxmu](https://gitlab.freedesktop.org/xorg/lib/libxmu) |
+| Versions | 1.1.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libxmu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxmu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxmu")
+```
+
+
+### libxpm (macosx)
+
+
+| Description | *X.Org: X Pixmap (XPM) image file format library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxpm](https://gitlab.freedesktop.org/xorg/lib/libxpm) |
+| Versions | 3.5.13 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libxpm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxpm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxpm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxpm")
+```
+
+
 ### libxrandr (macosx)
 
 
@@ -4305,6 +4420,29 @@ xrepo install libxshmfence
 
 ```lua
 add_requires("libxshmfence")
+```
+
+
+### libxt (macosx)
+
+
+| Description | *X.Org: X Toolkit Intrinsics library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxt](https://gitlab.freedesktop.org/xorg/lib/libxt) |
+| Versions | 1.2.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libxt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxt")
 ```
 
 
@@ -6504,7 +6642,7 @@ add_requires("rapidjson")
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
-| Versions | 2.5.0, 3.0.0, 3.5.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 

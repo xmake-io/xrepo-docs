@@ -408,7 +408,7 @@ add_requires("boost")
 | Description | *A 2D Physics Engine for Games* |
 | -- | -- |
 | Homepage | [https://box2d.org](https://box2d.org) |
-| Versions | 2.4.0 |
+| Versions | 2.4.0, 2.4.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [box2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box2d/xmake.lua) |
 
@@ -1946,7 +1946,7 @@ add_requires("geos")
 | Description | *GNU internationalization (i18n) and localization (l10n) library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
-| Versions | 0.19.8-1 |
+| Versions | 0.19.8-1, 0.21 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gettext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gettext/xmake.lua) |
 
@@ -3381,6 +3381,29 @@ add_requires("libhv")
 ```
 
 
+### libice (linux)
+
+
+| Description | *X.Org: Inter-Client Exchange Library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libice](https://gitlab.freedesktop.org/xorg/lib/libice) |
+| Versions | 1.0.10 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libice/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libice
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libice")
+```
+
+
 ### libiconv (linux)
 
 
@@ -3892,6 +3915,29 @@ add_requires("libsdl_ttf")
 ```
 
 
+### libsm (linux)
+
+
+| Description | *X.Org: X Session Management Library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libsm](https://gitlab.freedesktop.org/xorg/lib/libsm) |
+| Versions | 1.2.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libsm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsm")
+```
+
+
 ### libsndfile (linux)
 
 
@@ -4313,6 +4359,29 @@ add_requires("libxau")
 ```
 
 
+### libxaw (linux)
+
+
+| Description | *X.Org: X Athena Widget Set* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxaw](https://gitlab.freedesktop.org/xorg/lib/libxaw) |
+| Versions | 1.0.14 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libxaw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxaw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxaw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxaw")
+```
+
+
 ### libxcb (linux)
 
 
@@ -4592,6 +4661,52 @@ add_requires("libxml2")
 ```
 
 
+### libxmu (linux)
+
+
+| Description | *X.Org: X miscellaneous utility routines library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxmu](https://gitlab.freedesktop.org/xorg/lib/libxmu) |
+| Versions | 1.1.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libxmu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxmu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxmu")
+```
+
+
+### libxpm (linux)
+
+
+| Description | *X.Org: X Pixmap (XPM) image file format library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxpm](https://gitlab.freedesktop.org/xorg/lib/libxpm) |
+| Versions | 3.5.13 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libxpm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxpm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxpm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxpm")
+```
+
+
 ### libxrandr (linux)
 
 
@@ -4658,6 +4773,29 @@ xrepo install libxshmfence
 
 ```lua
 add_requires("libxshmfence")
+```
+
+
+### libxt (linux)
+
+
+| Description | *X.Org: X Toolkit Intrinsics library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxt](https://gitlab.freedesktop.org/xorg/lib/libxt) |
+| Versions | 1.2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libxt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxt")
 ```
 
 
@@ -6974,7 +7112,7 @@ add_requires("rapidjson")
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
-| Versions | 2.5.0, 3.0.0, 3.5.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
@@ -8439,6 +8577,30 @@ xrepo install xtensor
 
 ```lua
 add_requires("xtensor")
+```
+
+
+### xtensor-blas (linux)
+
+
+| Description | *BLAS extension to xtensor* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xtensor-blas/](https://github.com/xtensor-stack/xtensor-blas/) |
+| License | BSD-3-Clause |
+| Versions | 0.19.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xtensor-blas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor-blas/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xtensor-blas
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtensor-blas")
 ```
 
 

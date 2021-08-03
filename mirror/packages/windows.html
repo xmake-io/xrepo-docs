@@ -664,7 +664,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.4.0</td>
+<td>2.4.0, 2.4.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -8554,7 +8554,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.5.0, 3.0.0, 3.5.0</td>
+<td>2.5.0, 3.0.0, 3.5.0, 3.7.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -10498,6 +10498,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("xtensor")
+</code></pre>
+<h3 id="xtensorblaswindows">xtensor-blas (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>BLAS extension to xtensor</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/xtensor-stack/xtensor-blas/">https://github.com/xtensor-stack/xtensor-blas/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.19.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor-blas/xmake.lua">xtensor-blas/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install xtensor-blas
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("xtensor-blas")
 </code></pre>
 <h3 id="xtlwindows">xtl (windows)</h3>
 <table>

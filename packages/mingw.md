@@ -147,7 +147,7 @@ add_requires("blosc")
 | Description | *A 2D Physics Engine for Games* |
 | -- | -- |
 | Homepage | [https://box2d.org](https://box2d.org) |
-| Versions | 2.4.0 |
+| Versions | 2.4.0, 2.4.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [box2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box2d/xmake.lua) |
 
