@@ -1757,7 +1757,7 @@ add_requires("fmt")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28 |
+| Versions | 2021.06.28, 2021.08.02 |
 | Architectures | x64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
@@ -3640,6 +3640,30 @@ add_requires("libxml2")
 ```
 
 
+### libyaml (windows)
+
+
+| Description | *Canonical source repository for LibYAML.* |
+| -- | -- |
+| Homepage | [http://pyyaml.org/wiki/LibYAML](http://pyyaml.org/wiki/LibYAML) |
+| License | MIT |
+| Versions | 0.2.2, 0.2.5 |
+| Architectures | x64, x86 |
+| Definition | [libyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libyaml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libyaml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libyaml")
+```
+
+
 ### libzip (windows)
 
 
@@ -4742,6 +4766,30 @@ xrepo install nngpp
 
 ```lua
 add_requires("nngpp")
+```
+
+
+### numcpp (windows)
+
+
+| Description | *C++ implementation of the Python Numpy library* |
+| -- | -- |
+| Homepage | [https://github.com/dpilger26/NumCpp](https://github.com/dpilger26/NumCpp) |
+| License | MIT |
+| Versions | 2.4.2 |
+| Architectures | x64, x86 |
+| Definition | [numcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/numcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install numcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("numcpp")
 ```
 
 

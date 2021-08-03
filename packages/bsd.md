@@ -909,7 +909,8 @@ add_requires("http_parser")
 | Description | *ImageMagick is a FOSS software suite for modifying images. This does NOT provide any of the utilities. It installs the C/C++ Libraries.* |
 | -- | -- |
 | Homepage | [https://imagemagick.org/script/index.php](https://imagemagick.org/script/index.php) |
-| Versions | 7.0.11-13 |
+| License | Apache-2.0 |
+| Versions | 7.0.11-13, 7.1.0-4 |
 | Architectures | i386, x86_64 |
 | Definition | [imagemagick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imagemagick/xmake.lua) |
 

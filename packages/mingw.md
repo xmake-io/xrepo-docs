@@ -1793,6 +1793,30 @@ add_requires("libwebp")
 ```
 
 
+### libyaml (mingw)
+
+
+| Description | *Canonical source repository for LibYAML.* |
+| -- | -- |
+| Homepage | [http://pyyaml.org/wiki/LibYAML](http://pyyaml.org/wiki/LibYAML) |
+| License | MIT |
+| Versions | 0.2.2, 0.2.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libyaml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libyaml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libyaml")
+```
+
+
 ### linux-headers (mingw)
 
 

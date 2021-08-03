@@ -1685,7 +1685,7 @@ add_requires("fmt")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28 |
+| Versions | 2021.06.28, 2021.08.02 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
@@ -2489,7 +2489,8 @@ add_requires("icu4c")
 | Description | *ImageMagick is a FOSS software suite for modifying images. This does NOT provide any of the utilities. It installs the C/C++ Libraries.* |
 | -- | -- |
 | Homepage | [https://imagemagick.org/script/index.php](https://imagemagick.org/script/index.php) |
-| Versions | 7.0.11-13 |
+| License | Apache-2.0 |
+| Versions | 7.0.11-13, 7.1.0-4 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [imagemagick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imagemagick/xmake.lua) |
 
@@ -4545,7 +4546,8 @@ add_requires("libxxf86vm")
 | Description | *Canonical source repository for LibYAML.* |
 | -- | -- |
 | Homepage | [http://pyyaml.org/wiki/LibYAML](http://pyyaml.org/wiki/LibYAML) |
-| Versions | 0.2.2 |
+| License | MIT |
+| Versions | 0.2.2, 0.2.5 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libyaml/xmake.lua) |
 
@@ -5735,6 +5737,30 @@ xrepo install nngpp
 
 ```lua
 add_requires("nngpp")
+```
+
+
+### numcpp (macosx)
+
+
+| Description | *C++ implementation of the Python Numpy library* |
+| -- | -- |
+| Homepage | [https://github.com/dpilger26/NumCpp](https://github.com/dpilger26/NumCpp) |
+| License | MIT |
+| Versions | 2.4.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [numcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/numcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install numcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("numcpp")
 ```
 
 
@@ -7104,6 +7130,30 @@ xrepo install srt
 
 ```lua
 add_requires("srt")
+```
+
+
+### starpu (macosx)
+
+
+| Description | *StarPU is a task programming library for hybrid architectures* |
+| -- | -- |
+| Homepage | [https://starpu.gitlabpages.inria.fr/](https://starpu.gitlabpages.inria.fr/) |
+| License | LGPL-2.1 |
+| Versions | 1.3.8 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [starpu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/starpu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install starpu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("starpu")
 ```
 
 
