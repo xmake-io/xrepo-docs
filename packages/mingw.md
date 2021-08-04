@@ -854,6 +854,30 @@ add_requires("fx-gltf")
 
 
 ## g
+### gcem (mingw)
+
+
+| Description | *A C++ compile-time math library using generalized constant expressions* |
+| -- | -- |
+| Homepage | [https://www.kthohr.com/gcem.html](https://www.kthohr.com/gcem.html) |
+| License | Apache-2.0 |
+| Versions | v1.13.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [gcem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gcem/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] gcem
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gcem")
+```
+
+
 ### giflib (mingw)
 
 

@@ -1870,6 +1870,30 @@ add_requires("gamenetworkingsockets")
 ```
 
 
+### gcem (windows)
+
+
+| Description | *A C++ compile-time math library using generalized constant expressions* |
+| -- | -- |
+| Homepage | [https://www.kthohr.com/gcem.html](https://www.kthohr.com/gcem.html) |
+| License | Apache-2.0 |
+| Versions | v1.13.1 |
+| Architectures | x64, x86 |
+| Definition | [gcem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gcem/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gcem
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gcem")
+```
+
+
 ### geos (windows)
 
 
@@ -4375,7 +4399,7 @@ add_requires("minizip")
 | Description | *Intel® oneAPI Math Kernel Library* |
 | -- | -- |
 | Homepage | [https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html) |
-| Versions | 2021.2.0 |
+| Versions | 2021.2.0+296, 2021.3.0+520 |
 | Architectures | x64, x86 |
 | Definition | [mkl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mkl/xmake.lua) |
 
