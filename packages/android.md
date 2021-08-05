@@ -710,6 +710,30 @@ add_requires("dr_wav")
 
 
 ## e
+### easyloggingpp (android)
+
+
+| Description | *Single header C++ logging library.* |
+| -- | -- |
+| Homepage | [https://github.com/amrayn/easyloggingpp](https://github.com/amrayn/easyloggingpp) |
+| License | MIT |
+| Versions | v9.97.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [easyloggingpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/easyloggingpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] easyloggingpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("easyloggingpp")
+```
+
+
 ### entt (android)
 
 
@@ -2477,6 +2501,29 @@ add_requires("nngpp")
 ```
 
 
+### nodesoup (android)
+
+
+| Description | *Force-directed graph layout with Fruchterman-Reingold* |
+| -- | -- |
+| Homepage | [https://github.com/olvb/nodesoup](https://github.com/olvb/nodesoup) |
+| Versions | 2020.09.05 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [nodesoup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodesoup/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] nodesoup
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nodesoup")
+```
+
+
 
 ## o
 ### openal-soft (android)
@@ -2960,7 +3007,7 @@ add_requires("snappy")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0 |
+| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 

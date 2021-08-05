@@ -706,6 +706,29 @@ add_requires("cgetopt")
 ```
 
 
+### cgns (windows)
+
+
+| Description | *CFD General Notation System* |
+| -- | -- |
+| Homepage | [http://cgns.github.io/](http://cgns.github.io/) |
+| Versions | v4.2.0 |
+| Architectures | x64, x86 |
+| Definition | [cgns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgns/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cgns
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgns")
+```
+
+
 ### chaiscript (windows)
 
 
@@ -1415,6 +1438,30 @@ xrepo install eastl
 
 ```lua
 add_requires("eastl")
+```
+
+
+### easyloggingpp (windows)
+
+
+| Description | *Single header C++ logging library.* |
+| -- | -- |
+| Homepage | [https://github.com/amrayn/easyloggingpp](https://github.com/amrayn/easyloggingpp) |
+| License | MIT |
+| Versions | v9.97.0 |
+| Architectures | x64, x86 |
+| Definition | [easyloggingpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/easyloggingpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install easyloggingpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("easyloggingpp")
 ```
 
 
@@ -2326,7 +2373,7 @@ add_requires("harfbuzz")
 | -- | -- |
 | Homepage | [https://www.hdfgroup.org/solutions/hdf5/](https://www.hdfgroup.org/solutions/hdf5/) |
 | License | BSD-3-Clause |
-| Versions | 1.12.0 |
+| Versions | 1.12.0, 1.12.1 |
 | Architectures | x64, x86 |
 | Definition | [hdf5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdf5/xmake.lua) |
 
@@ -4135,6 +4182,30 @@ add_requires("marisa")
 ```
 
 
+### matplotplusplus (windows)
+
+
+| Description | *A C++ Graphics Library for Data Visualization* |
+| -- | -- |
+| Homepage | [https://alandefreitas.github.io/matplotplusplus/](https://alandefreitas.github.io/matplotplusplus/) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | x64, x86 |
+| Definition | [matplotplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matplotplusplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install matplotplusplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("matplotplusplus")
+```
+
+
 ### mbedtls (windows)
 
 
@@ -4790,6 +4861,29 @@ xrepo install nngpp
 
 ```lua
 add_requires("nngpp")
+```
+
+
+### nodesoup (windows)
+
+
+| Description | *Force-directed graph layout with Fruchterman-Reingold* |
+| -- | -- |
+| Homepage | [https://github.com/olvb/nodesoup](https://github.com/olvb/nodesoup) |
+| Versions | 2020.09.05 |
+| Architectures | x64, x86 |
+| Definition | [nodesoup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodesoup/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nodesoup
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nodesoup")
 ```
 
 
@@ -6096,7 +6190,7 @@ add_requires("sol2")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0 |
+| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1 |
 | Architectures | x64, x86 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
@@ -6275,6 +6369,30 @@ xrepo install stb
 
 ```lua
 add_requires("stb")
+```
+
+
+### stlab (windows)
+
+
+| Description | *Adobe Source Libraries from Software Technology Lab* |
+| -- | -- |
+| Homepage | [https://stlab.cc/](https://stlab.cc/) |
+| License | BSL-1.0 |
+| Versions | v1.6.2 |
+| Architectures | x64, x86 |
+| Definition | [stlab/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stlab/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stlab
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stlab")
 ```
 
 

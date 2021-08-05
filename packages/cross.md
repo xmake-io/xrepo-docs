@@ -522,6 +522,30 @@ add_requires("dr_wav")
 
 
 ## e
+### easyloggingpp (cross)
+
+
+| Description | *Single header C++ logging library.* |
+| -- | -- |
+| Homepage | [https://github.com/amrayn/easyloggingpp](https://github.com/amrayn/easyloggingpp) |
+| License | MIT |
+| Versions | v9.97.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [easyloggingpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/easyloggingpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] easyloggingpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("easyloggingpp")
+```
+
+
 ### entt (cross)
 
 
@@ -1707,6 +1731,29 @@ add_requires("nlohmann_json")
 ```
 
 
+### nodesoup (cross)
+
+
+| Description | *Force-directed graph layout with Fruchterman-Reingold* |
+| -- | -- |
+| Homepage | [https://github.com/olvb/nodesoup](https://github.com/olvb/nodesoup) |
+| Versions | 2020.09.05 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [nodesoup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodesoup/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nodesoup
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nodesoup")
+```
+
+
 
 ## o
 ### openal-soft (cross)
@@ -2120,7 +2167,7 @@ add_requires("scons")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0 |
+| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 

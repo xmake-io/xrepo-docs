@@ -706,6 +706,29 @@ add_requires("cgetopt")
 ```
 
 
+### cgns (linux)
+
+
+| Description | *CFD General Notation System* |
+| -- | -- |
+| Homepage | [http://cgns.github.io/](http://cgns.github.io/) |
+| Versions | v4.2.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cgns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgns/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cgns
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgns")
+```
+
+
 ### chaiscript (linux)
 
 
@@ -1345,6 +1368,30 @@ xrepo install eastl
 
 ```lua
 add_requires("eastl")
+```
+
+
+### easyloggingpp (linux)
+
+
+| Description | *Single header C++ logging library.* |
+| -- | -- |
+| Homepage | [https://github.com/amrayn/easyloggingpp](https://github.com/amrayn/easyloggingpp) |
+| License | MIT |
+| Versions | v9.97.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [easyloggingpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/easyloggingpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install easyloggingpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("easyloggingpp")
 ```
 
 
@@ -2465,7 +2512,7 @@ add_requires("harfbuzz")
 | -- | -- |
 | Homepage | [https://www.hdfgroup.org/solutions/hdf5/](https://www.hdfgroup.org/solutions/hdf5/) |
 | License | BSD-3-Clause |
-| Versions | 1.12.0 |
+| Versions | 1.12.0, 1.12.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hdf5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdf5/xmake.lua) |
 
@@ -5412,6 +5459,30 @@ add_requires("marisa")
 ```
 
 
+### matplotplusplus (linux)
+
+
+| Description | *A C++ Graphics Library for Data Visualization* |
+| -- | -- |
+| Homepage | [https://alandefreitas.github.io/matplotplusplus/](https://alandefreitas.github.io/matplotplusplus/) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [matplotplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matplotplusplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install matplotplusplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("matplotplusplus")
+```
+
+
 ### mbedtls (linux)
 
 
@@ -6138,6 +6209,29 @@ xrepo install nngpp
 
 ```lua
 add_requires("nngpp")
+```
+
+
+### nodesoup (linux)
+
+
+| Description | *Force-directed graph layout with Fruchterman-Reingold* |
+| -- | -- |
+| Homepage | [https://github.com/olvb/nodesoup](https://github.com/olvb/nodesoup) |
+| Versions | 2020.09.05 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [nodesoup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodesoup/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nodesoup
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nodesoup")
 ```
 
 
@@ -7468,7 +7562,7 @@ add_requires("sol2")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0 |
+| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
@@ -7671,6 +7765,30 @@ xrepo install stb
 
 ```lua
 add_requires("stb")
+```
+
+
+### stlab (linux)
+
+
+| Description | *Adobe Source Libraries from Software Technology Lab* |
+| -- | -- |
+| Homepage | [https://stlab.cc/](https://stlab.cc/) |
+| License | BSL-1.0 |
+| Versions | v1.6.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [stlab/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stlab/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stlab
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stlab")
 ```
 
 
