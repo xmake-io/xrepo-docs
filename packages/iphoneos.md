@@ -883,7 +883,7 @@ add_requires("gnu-rm")
 | Description | *C++ bindings for the Godot script API* |
 | -- | -- |
 | Homepage | [https://godotengine.org/](https://godotengine.org/) |
-| Versions | 3.2 |
+| Versions | 3.2, 3.3 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [godotcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp/xmake.lua) |
 
