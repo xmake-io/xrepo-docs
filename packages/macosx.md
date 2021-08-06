@@ -1538,6 +1538,30 @@ add_requires("expresscpp")
 
 
 ## f
+### fast_double_parser (macosx)
+
+
+| Description | *Fast function to parse strings containing decimal numbers into double-precision (binary64) floating-point values.* |
+| -- | -- |
+| Homepage | [https://github.com/lemire/fast_double_parser](https://github.com/lemire/fast_double_parser) |
+| License | Apache-2.0 |
+| Versions | v0.5.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [fast_double_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_double_parser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fast_double_parser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_double_parser")
+```
+
+
 ### fastcppcsvparser (macosx)
 
 

@@ -1633,6 +1633,30 @@ add_requires("faiss")
 ```
 
 
+### fast_double_parser (linux)
+
+
+| Description | *Fast function to parse strings containing decimal numbers into double-precision (binary64) floating-point values.* |
+| -- | -- |
+| Homepage | [https://github.com/lemire/fast_double_parser](https://github.com/lemire/fast_double_parser) |
+| License | Apache-2.0 |
+| Versions | v0.5.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fast_double_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_double_parser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fast_double_parser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_double_parser")
+```
+
+
 ### fastcppcsvparser (linux)
 
 
@@ -5032,6 +5056,30 @@ xrepo install lief
 
 ```lua
 add_requires("lief")
+```
+
+
+### lightgbm (linux)
+
+
+| Description | *LightGBM is a gradient boosting framework that uses tree based learning algorithms.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM) |
+| License | MIT |
+| Versions | 3.2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [lightgbm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightgbm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lightgbm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lightgbm")
 ```
 
 

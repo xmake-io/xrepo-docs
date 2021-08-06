@@ -760,6 +760,30 @@ add_requires("expected")
 
 
 ## f
+### fast_double_parser (mingw)
+
+
+| Description | *Fast function to parse strings containing decimal numbers into double-precision (binary64) floating-point values.* |
+| -- | -- |
+| Homepage | [https://github.com/lemire/fast_double_parser](https://github.com/lemire/fast_double_parser) |
+| License | Apache-2.0 |
+| Versions | v0.5.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [fast_double_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_double_parser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] fast_double_parser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_double_parser")
+```
+
+
 ### fastcppcsvparser (mingw)
 
 
