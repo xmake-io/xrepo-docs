@@ -946,7 +946,7 @@ add_requires("concurrentqueue")
 | Description | *A C++11 single-file header-only cross platform HTTP/HTTPS library.* |
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
-| Versions | 0.8.5 |
+| Versions | 0.8.5, 0.9.2 |
 | Architectures | x64, x86 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -2564,7 +2564,7 @@ add_requires("icu4c")
 | -- | -- |
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
-| Versions | v3.1.0, v3.1.1 |
+| Versions | v3.1.0, v3.1.1, v3.1.2 |
 | Architectures | x64, x86 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
@@ -5155,7 +5155,7 @@ add_requires("opencv")
 | Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3, 2.5.5, 3.1.0 |
+| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1 |
 | Architectures | x64, x86 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 

@@ -946,7 +946,7 @@ add_requires("concurrentqueue")
 | Description | *A C++11 single-file header-only cross platform HTTP/HTTPS library.* |
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
-| Versions | 0.8.5 |
+| Versions | 0.8.5, 0.9.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -2751,7 +2751,7 @@ add_requires("imagemagick")
 | -- | -- |
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
-| Versions | v3.1.0, v3.1.1 |
+| Versions | v3.1.0, v3.1.1, v3.1.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
@@ -3738,7 +3738,7 @@ add_requires("libogg")
 | Description | *LLVM's OpenMP runtime library.* |
 | -- | -- |
 | Homepage | [https://openmp.llvm.org/](https://openmp.llvm.org/) |
-| Versions | 10.0.1 |
+| Versions | 10.0.1, 11.1.0, 12.0.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libomp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libomp/xmake.lua) |
 
@@ -6503,7 +6503,7 @@ add_requires("opencv")
 | Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3, 2.5.5, 3.1.0 |
+| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
