@@ -2706,7 +2706,7 @@ add_requires("scons")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5 |
+| Versions | v0.9.5, v0.9.7 |
 | Architectures | arm64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 

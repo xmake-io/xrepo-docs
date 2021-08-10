@@ -6621,7 +6621,7 @@ add_requires("pugixml")
 | Description | *Seamless operability between C++11 and Python.* |
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
-| Versions | v2.5.0, v2.6.2 |
+| Versions | v2.5.0, v2.6.2, v2.7.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
@@ -6834,7 +6834,7 @@ add_requires("raylib")
 | -- | -- |
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01 |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
@@ -7023,7 +7023,7 @@ add_requires("shaderwriter")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5 |
+| Versions | v0.9.5, v0.9.7 |
 | Architectures | x86_64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
@@ -8236,7 +8236,7 @@ add_requires("xz")
 | -- | -- |
 | Homepage | [https://github.com/jbeder/yaml-cpp/](https://github.com/jbeder/yaml-cpp/) |
 | License | MIT |
-| Versions | 0.6.3 |
+| Versions | 0.6.3, 0.7.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [yaml-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml-cpp/xmake.lua) |
 

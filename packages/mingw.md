@@ -1794,6 +1794,29 @@ add_requires("libtool")
 ```
 
 
+### libusb (mingw)
+
+
+| Description | *A cross-platform library to access USB devices.* |
+| -- | -- |
+| Homepage | [https://libusb.info](https://libusb.info) |
+| Versions | v1.0.24 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libusb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusb")
+```
+
+
 ### libuv (mingw)
 
 
@@ -3103,7 +3126,7 @@ add_requires("sfml")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5 |
+| Versions | v0.9.5, v0.9.7 |
 | Architectures | x86_64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
@@ -3485,7 +3508,7 @@ add_requires("xz")
 | -- | -- |
 | Homepage | [https://github.com/jbeder/yaml-cpp/](https://github.com/jbeder/yaml-cpp/) |
 | License | MIT |
-| Versions | 0.6.3 |
+| Versions | 0.6.3, 0.7.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [yaml-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml-cpp/xmake.lua) |
 
