@@ -1166,7 +1166,7 @@ add_requires("hopscotch-map")
 | -- | -- |
 | Homepage | [https://github.com/ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) |
 | License | Apache-2.0 |
-| Versions | v5.7.3 |
+| Versions | v5.7.3, v5.8.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [hpsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpsocket/xmake.lua) |
 
@@ -2287,6 +2287,30 @@ xrepo install -p android [--ndk=/xxx] minizip
 
 ```lua
 add_requires("minizip")
+```
+
+
+### mjson (android)
+
+
+| Description | *C/C++ JSON parser, emitter, JSON-RPC engine for embedded systems* |
+| -- | -- |
+| Homepage | [https://github.com/cesanta/mjson](https://github.com/cesanta/mjson) |
+| License | MIT |
+| Versions | 1.2.6 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [mjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mjson")
 ```
 
 

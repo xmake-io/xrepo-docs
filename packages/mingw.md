@@ -760,6 +760,30 @@ add_requires("expected")
 
 
 ## f
+### farmhash (mingw)
+
+
+| Description | *FarmHash, a family of hash functions.* |
+| -- | -- |
+| Homepage | [https://github.com/google/farmhash](https://github.com/google/farmhash) |
+| License | MIT |
+| Versions | 2019.05.14 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [farmhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/farmhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] farmhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("farmhash")
+```
+
+
 ### fast_double_parser (mingw)
 
 
@@ -2333,6 +2357,30 @@ xrepo install -p mingw [--mingw=/xxx] minizip
 
 ```lua
 add_requires("minizip")
+```
+
+
+### mjson (mingw)
+
+
+| Description | *C/C++ JSON parser, emitter, JSON-RPC engine for embedded systems* |
+| -- | -- |
+| Homepage | [https://github.com/cesanta/mjson](https://github.com/cesanta/mjson) |
+| License | MIT |
+| Versions | 1.2.6 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [mjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] mjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mjson")
 ```
 
 

@@ -1565,6 +1565,30 @@ add_requires("minizip")
 ```
 
 
+### mjson (cross)
+
+
+| Description | *C/C++ JSON parser, emitter, JSON-RPC engine for embedded systems* |
+| -- | -- |
+| Homepage | [https://github.com/cesanta/mjson](https://github.com/cesanta/mjson) |
+| License | MIT |
+| Versions | 1.2.6 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mjson")
+```
+
+
 ### muslcc (cross)
 
 

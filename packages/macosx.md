@@ -1538,6 +1538,30 @@ add_requires("expresscpp")
 
 
 ## f
+### farmhash (macosx)
+
+
+| Description | *FarmHash, a family of hash functions.* |
+| -- | -- |
+| Homepage | [https://github.com/google/farmhash](https://github.com/google/farmhash) |
+| License | MIT |
+| Versions | 2019.05.14 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [farmhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/farmhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install farmhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("farmhash")
+```
+
+
 ### fast_double_parser (macosx)
 
 
@@ -5317,6 +5341,30 @@ add_requires("minizip")
 ```
 
 
+### mjson (macosx)
+
+
+| Description | *C/C++ JSON parser, emitter, JSON-RPC engine for embedded systems* |
+| -- | -- |
+| Homepage | [https://github.com/cesanta/mjson](https://github.com/cesanta/mjson) |
+| License | MIT |
+| Versions | 1.2.6 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [mjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mjson")
+```
+
+
 ### mkl (macosx)
 
 
@@ -8201,6 +8249,30 @@ xrepo install xtrans
 
 ```lua
 add_requires("xtrans")
+```
+
+
+### xxhash (macosx)
+
+
+| Description | *xxHash is an extremely fast non-cryptographic hash algorithm, working at RAM speed limit.* |
+| -- | -- |
+| Homepage | [http://cyan4973.github.io/xxHash/](http://cyan4973.github.io/xxHash/) |
+| License | BSD-2-Clause |
+| Versions | v0.8.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [xxhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xxhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xxhash")
 ```
 
 

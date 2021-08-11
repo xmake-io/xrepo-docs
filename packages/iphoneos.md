@@ -2033,6 +2033,30 @@ add_requires("minizip")
 ```
 
 
+### mjson (iphoneos)
+
+
+| Description | *C/C++ JSON parser, emitter, JSON-RPC engine for embedded systems* |
+| -- | -- |
+| Homepage | [https://github.com/cesanta/mjson](https://github.com/cesanta/mjson) |
+| License | MIT |
+| Versions | 1.2.6 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [mjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos mjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mjson")
+```
+
+
 ### moonjit (iphoneos)
 
 
