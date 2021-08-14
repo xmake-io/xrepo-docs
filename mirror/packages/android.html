@@ -2199,6 +2199,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libbpf")
 </code></pre>
+<h3 id="libde265android">libde265 (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Open h.265 video codec implementation.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.libde265.org/">https://www.libde265.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.0.8</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libde265/xmake.lua">libde265/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] libde265
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libde265")
+</code></pre>
 <h3 id="libelfandroid">libelf (android)</h3>
 <table>
 <thead>
@@ -4416,6 +4453,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("recastnavigation")
+</code></pre>
+<h3 id="robinmapandroid">robin-map (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A C++ implementation of a fast hash map and hash set using robin hood hashing</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/Tessil/robin-map">https://github.com/Tessil/robin-map</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.6.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua">robin-map/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] robin-map
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("robin-map")
 </code></pre>
 <h3 id="rplyandroid">rply (android)</h3>
 <table>

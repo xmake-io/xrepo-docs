@@ -1445,6 +1445,30 @@ add_requires("libbpf")
 ```
 
 
+### libde265 (android)
+
+
+| Description | *Open h.265 video codec implementation.* |
+| -- | -- |
+| Homepage | [https://www.libde265.org/](https://www.libde265.org/) |
+| License | LGPL-3.0 |
+| Versions | 1.0.8 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libde265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libde265/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libde265
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libde265")
+```
+
+
 ### libelf (android)
 
 
@@ -2951,6 +2975,30 @@ xrepo install -p android [--ndk=/xxx] recastnavigation
 
 ```lua
 add_requires("recastnavigation")
+```
+
+
+### robin-map (android)
+
+
+| Description | *A C++ implementation of a fast hash map and hash set using robin hood hashing* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
+| License | MIT |
+| Versions | v0.6.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] robin-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("robin-map")
 ```
 
 

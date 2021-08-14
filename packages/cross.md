@@ -2136,6 +2136,30 @@ add_requires("recastnavigation")
 ```
 
 
+### robin-map (cross)
+
+
+| Description | *A C++ implementation of a fast hash map and hash set using robin hood hashing* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
+| License | MIT |
+| Versions | v0.6.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] robin-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("robin-map")
+```
+
+
 ### rply (cross)
 
 

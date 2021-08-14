@@ -1219,7 +1219,7 @@ add_requires("libsoundio")
 | Description | *TIFF Library and Utilities.* |
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
-| Versions | v4.1.0, v4.2.0 |
+| Versions | v4.1.0, v4.2.0, v4.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 
@@ -2366,6 +2366,30 @@ xrepo install recastnavigation
 
 ```lua
 add_requires("recastnavigation")
+```
+
+
+### robin-map (bsd)
+
+
+| Description | *A C++ implementation of a fast hash map and hash set using robin hood hashing* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
+| License | MIT |
+| Versions | v0.6.3 |
+| Architectures | i386, x86_64 |
+| Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install robin-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("robin-map")
 ```
 
 

@@ -1995,6 +1995,30 @@ add_requires("recastnavigation")
 ```
 
 
+### robin-map (msys)
+
+
+| Description | *A C++ implementation of a fast hash map and hash set using robin hood hashing* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
+| License | MIT |
+| Versions | v0.6.3 |
+| Architectures | i386, x86_64 |
+| Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install robin-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("robin-map")
+```
+
+
 ### rply (msys)
 
 

@@ -1469,6 +1469,30 @@ add_requires("libcurl")
 ```
 
 
+### libde265 (mingw)
+
+
+| Description | *Open h.265 video codec implementation.* |
+| -- | -- |
+| Homepage | [https://www.libde265.org/](https://www.libde265.org/) |
+| License | LGPL-3.0 |
+| Versions | 1.0.8 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libde265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libde265/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libde265
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libde265")
+```
+
+
 ### libflac (mingw)
 
 
@@ -1778,7 +1802,7 @@ add_requires("libsoundio")
 | Description | *TIFF Library and Utilities.* |
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
-| Versions | v4.1.0, v4.2.0 |
+| Versions | v4.1.0, v4.2.0, v4.3.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 
@@ -3092,6 +3116,30 @@ xrepo install -p mingw [--mingw=/xxx] recastnavigation
 
 ```lua
 add_requires("recastnavigation")
+```
+
+
+### robin-map (mingw)
+
+
+| Description | *A C++ implementation of a fast hash map and hash set using robin hood hashing* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
+| License | MIT |
+| Versions | v0.6.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] robin-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("robin-map")
 ```
 
 

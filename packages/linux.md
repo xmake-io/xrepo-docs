@@ -3266,6 +3266,30 @@ add_requires("libcurl")
 ```
 
 
+### libde265 (linux)
+
+
+| Description | *Open h.265 video codec implementation.* |
+| -- | -- |
+| Homepage | [https://www.libde265.org/](https://www.libde265.org/) |
+| License | LGPL-3.0 |
+| Versions | 1.0.8 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libde265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libde265/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libde265
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libde265")
+```
+
+
 ### libelf (linux)
 
 
@@ -4129,6 +4153,30 @@ add_requires("libsoundio")
 ```
 
 
+### libsquish (linux)
+
+
+| Description | *The libSquish library compresses images with the DXT standard (also known as S3TC).* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/libsquish/](https://sourceforge.net/projects/libsquish/) |
+| License | MIT |
+| Versions | 1.15 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libsquish/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsquish/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsquish
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsquish")
+```
+
+
 ### libtask (linux)
 
 
@@ -4182,7 +4230,7 @@ add_requires("libtasn1")
 | Description | *TIFF Library and Utilities.* |
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
-| Versions | v4.1.0, v4.2.0 |
+| Versions | v4.1.0, v4.2.0, v4.3.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 
@@ -7414,6 +7462,30 @@ xrepo install recastnavigation
 
 ```lua
 add_requires("recastnavigation")
+```
+
+
+### robin-map (linux)
+
+
+| Description | *A C++ implementation of a fast hash map and hash set using robin hood hashing* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
+| License | MIT |
+| Versions | v0.6.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install robin-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("robin-map")
 ```
 
 
