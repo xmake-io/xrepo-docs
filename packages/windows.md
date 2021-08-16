@@ -2851,7 +2851,7 @@ add_requires("kiwisolver")
 | -- | -- |
 | Homepage | [https://www.littlecms.com/](https://www.littlecms.com/) |
 | License | MIT |
-| Versions | 2.11 |
+| Versions | 2.11, 2.12 |
 | Architectures | x64, x86 |
 | Definition | [lcms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lcms/xmake.lua) |
 
@@ -3126,6 +3126,30 @@ xrepo install libfreenect2
 
 ```lua
 add_requires("libfreenect2")
+```
+
+
+### libheif (windows)
+
+
+| Description | *libheif is an HEIF and AVIF file format decoder and encoder.* |
+| -- | -- |
+| Homepage | [https://github.com/strukturag/libheif](https://github.com/strukturag/libheif) |
+| License | LGPL-3.0 |
+| Versions | 1.12.0 |
+| Architectures | x64, x86 |
+| Definition | [libheif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libheif/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libheif
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libheif")
 ```
 
 
@@ -5265,6 +5289,30 @@ xrepo install openexr
 
 ```lua
 add_requires("openexr")
+```
+
+
+### openimageio (windows)
+
+
+| Description | *OpenImageIO is a library for reading and writing images, and a bunch of related classes, utilities, and applications.* |
+| -- | -- |
+| Homepage | [https://sites.google.com/site/openimageio/home](https://sites.google.com/site/openimageio/home) |
+| License | BSD-3-Clause |
+| Versions | 2.2.17+0 |
+| Architectures | x64, x86 |
+| Definition | [openimageio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openimageio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openimageio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openimageio")
 ```
 
 
