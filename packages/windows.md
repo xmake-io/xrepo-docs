@@ -3933,7 +3933,7 @@ add_requires("lightgbm")
 | -- | -- |
 | Homepage | [https://kernel.org/](https://kernel.org/) |
 | License | GPL-2.0-only |
-| Versions | 4.20.9, 5.0.8, 5.9.16 |
+| Versions | 4.20.9, 5.0.8, 5.10.46, 5.9.16 |
 | Architectures | x64, x86 |
 | Definition | [linux-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-headers/xmake.lua) |
 
@@ -5629,7 +5629,7 @@ add_requires("pkg-config")
 | Description | *A program which helps to configure compiler and linker flags for development frameworks.* |
 | -- | -- |
 | Homepage | [http://pkgconf.org](http://pkgconf.org) |
-| Versions | 1.7.4 |
+| Versions | 1.7.4, 1.8.0 |
 | Architectures | x64, x86 |
 | Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
 
@@ -7672,7 +7672,7 @@ add_requires("zlib")
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
-| Versions | v1.4.5 |
+| Versions | v1.4.5, v1.5.0 |
 | Architectures | x64, x86 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
 

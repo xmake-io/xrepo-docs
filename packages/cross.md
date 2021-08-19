@@ -1195,7 +1195,7 @@ add_requires("libtool")
 | -- | -- |
 | Homepage | [https://kernel.org/](https://kernel.org/) |
 | License | GPL-2.0-only |
-| Versions | 4.20.9, 5.0.8, 5.9.16 |
+| Versions | 4.20.9, 5.0.8, 5.10.46, 5.9.16 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [linux-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-headers/xmake.lua) |
 
@@ -2517,6 +2517,32 @@ add_requires("tl_function_ref")
 
 
 
+## x
+### xxhash (cross)
+
+
+| Description | *xxHash is an extremely fast non-cryptographic hash algorithm, working at RAM speed limit.* |
+| -- | -- |
+| Homepage | [http://cyan4973.github.io/xxHash/](http://cyan4973.github.io/xxHash/) |
+| License | BSD-2-Clause |
+| Versions | v0.8.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [xxhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] xxhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xxhash")
+```
+
+
+
 ## y
 ### yasm (cross)
 
@@ -2618,7 +2644,7 @@ add_requires("zlib")
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
-| Versions | v1.4.5 |
+| Versions | v1.4.5, v1.5.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
 

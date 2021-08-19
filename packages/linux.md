@@ -47,6 +47,30 @@ add_requires("abseil")
 ```
 
 
+### acl (linux)
+
+
+| Description | *Commands for Manipulating POSIX Access Control Lists* |
+| -- | -- |
+| Homepage | [http://savannah.nongnu.org/projects/acl/](http://savannah.nongnu.org/projects/acl/) |
+| License | GPL-2.0 |
+| Versions | 2.3.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [acl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/acl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install acl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("acl")
+```
+
+
 ### amgcl (linux)
 
 
@@ -139,6 +163,30 @@ xrepo install assimp
 
 ```lua
 add_requires("assimp")
+```
+
+
+### attr (linux)
+
+
+| Description | *Commands for Manipulating Filesystem Extended Attributes* |
+| -- | -- |
+| Homepage | [https://savannah.nongnu.org/projects/attr](https://savannah.nongnu.org/projects/attr) |
+| License | GPL-2.0 |
+| Versions | 2.5.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [attr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/attr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install attr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("attr")
 ```
 
 
@@ -5186,7 +5234,7 @@ add_requires("lightgbm")
 | -- | -- |
 | Homepage | [https://kernel.org/](https://kernel.org/) |
 | License | GPL-2.0-only |
-| Versions | 4.20.9, 5.0.8, 5.9.16 |
+| Versions | 4.20.9, 5.0.8, 5.10.46, 5.9.16 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [linux-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-headers/xmake.lua) |
 
@@ -7001,7 +7049,7 @@ add_requires("pkg-config")
 | Description | *A program which helps to configure compiler and linker flags for development frameworks.* |
 | -- | -- |
 | Homepage | [http://pkgconf.org](http://pkgconf.org) |
-| Versions | 1.7.4 |
+| Versions | 1.7.4, 1.8.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
 
@@ -7558,6 +7606,30 @@ xrepo install rply
 
 ```lua
 add_requires("rply")
+```
+
+
+### rsync (linux)
+
+
+| Description | *rsync is an open source utility that provides fast incremental file transfer.* |
+| -- | -- |
+| Homepage | [https://rsync.samba.org/](https://rsync.samba.org/) |
+| License | GPL-3.0 |
+| Versions | 3.2.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rsync/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsync/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rsync
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rsync")
 ```
 
 
@@ -9255,7 +9327,7 @@ add_requires("zlib")
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
-| Versions | v1.4.5 |
+| Versions | v1.4.5, v1.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
 
