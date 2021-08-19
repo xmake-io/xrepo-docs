@@ -2442,6 +2442,29 @@ add_requires("scons")
 ```
 
 
+### sol2 (bsd)
+
+
+| Description | *A C++ library binding to Lua.* |
+| -- | -- |
+| Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
+| Versions | v3.2.1, v3.2.2, v3.2.3 |
+| Architectures | i386, x86_64 |
+| Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sol2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sol2")
+```
+
+
 ### spdlog (bsd)
 
 

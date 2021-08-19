@@ -1306,6 +1306,29 @@ add_requires("lodepng")
 ```
 
 
+### lua (cross)
+
+
+| Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
+| -- | -- |
+| Homepage | [http://lua.org](http://lua.org) |
+| Versions | v5.1.1, v5.1.5, v5.2.3, v5.3.6, v5.4.1, v5.4.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] lua
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lua")
+```
+
+
 ### lua-format (cross)
 
 
@@ -2206,6 +2229,29 @@ xrepo install -p cross [--sdk=/xxx] scons
 
 ```lua
 add_requires("scons")
+```
+
+
+### sol2 (cross)
+
+
+| Description | *A C++ library binding to Lua.* |
+| -- | -- |
+| Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
+| Versions | v3.2.1, v3.2.2, v3.2.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] sol2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sol2")
 ```
 
 

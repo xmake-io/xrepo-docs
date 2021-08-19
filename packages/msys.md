@@ -1237,6 +1237,29 @@ add_requires("lodepng")
 ```
 
 
+### lua (msys)
+
+
+| Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
+| -- | -- |
+| Homepage | [http://lua.org](http://lua.org) |
+| Versions | v5.1.1, v5.1.5, v5.2.3, v5.3.6, v5.4.1, v5.4.2 |
+| Architectures | i386, x86_64 |
+| Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lua
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lua")
+```
+
+
 ### lua-format (msys)
 
 
@@ -2065,6 +2088,29 @@ xrepo install scons
 
 ```lua
 add_requires("scons")
+```
+
+
+### sol2 (msys)
+
+
+| Description | *A C++ library binding to Lua.* |
+| -- | -- |
+| Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
+| Versions | v3.2.1, v3.2.2, v3.2.3 |
+| Architectures | i386, x86_64 |
+| Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sol2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sol2")
 ```
 
 

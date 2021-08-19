@@ -3097,6 +3097,29 @@ add_requires("snappy")
 ```
 
 
+### sol2 (android)
+
+
+| Description | *A C++ library binding to Lua.* |
+| -- | -- |
+| Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
+| Versions | v3.2.1, v3.2.2, v3.2.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] sol2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sol2")
+```
+
+
 ### spdlog (android)
 
 
