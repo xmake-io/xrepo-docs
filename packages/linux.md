@@ -1473,7 +1473,8 @@ add_requires("effcee")
 | Description | *C++ template library for linear algebra* |
 | -- | -- |
 | Homepage | [https://eigen.tuxfamily.org/](https://eigen.tuxfamily.org/) |
-| Versions | 3.3.7, 3.3.8, 3.3.9 |
+| License | MPL-2.0 |
+| Versions | 3.3.7, 3.3.8, 3.3.9, 3.4.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [eigen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eigen/xmake.lua) |
 
@@ -4884,7 +4885,7 @@ add_requires("libxmake")
 | -- | -- |
 | Homepage | [http://xmlsoft.org/](http://xmlsoft.org/) |
 | License | MIT |
-| Versions | 2.9.10, 2.9.9 |
+| Versions | 2.9.10, 2.9.12, 2.9.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxml2/xmake.lua) |
 
@@ -6448,6 +6449,30 @@ xrepo install nodesoup
 
 ```lua
 add_requires("nodesoup")
+```
+
+
+### numactl (linux)
+
+
+| Description | *NUMA support for Linux* |
+| -- | -- |
+| Homepage | [https://github.com/numactl/numactl](https://github.com/numactl/numactl) |
+| License | LGPL-2.1 |
+| Versions | 2.0.14 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [numactl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/numactl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install numactl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("numactl")
 ```
 
 

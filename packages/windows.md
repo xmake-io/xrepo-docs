@@ -1495,7 +1495,8 @@ add_requires("effcee")
 | Description | *C++ template library for linear algebra* |
 | -- | -- |
 | Homepage | [https://eigen.tuxfamily.org/](https://eigen.tuxfamily.org/) |
-| Versions | 3.3.7, 3.3.8, 3.3.9 |
+| License | MPL-2.0 |
+| Versions | 3.3.7, 3.3.8, 3.3.9, 3.4.0 |
 | Architectures | x64, x86 |
 | Definition | [eigen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eigen/xmake.lua) |
 
@@ -3814,7 +3815,7 @@ add_requires("libxmake")
 | -- | -- |
 | Homepage | [http://xmlsoft.org/](http://xmlsoft.org/) |
 | License | MIT |
-| Versions | 2.9.10, 2.9.9 |
+| Versions | 2.9.10, 2.9.12, 2.9.9 |
 | Architectures | x64, x86 |
 | Definition | [libxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxml2/xmake.lua) |
 
