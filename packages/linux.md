@@ -196,7 +196,7 @@ add_requires("attr")
 | Description | *An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
-| Versions | 2.68, 2.69 |
+| Versions | 2.68, 2.69, 2.71 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
@@ -3134,7 +3134,7 @@ add_requires("lcms")
 | -- | -- |
 | Homepage | [http://www.leptonica.org/](http://www.leptonica.org/) |
 | License | BSD-2-Clause |
-| Versions | 1.80.0 |
+| Versions | 1.80.0, 1.81.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [leptonica/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leptonica/xmake.lua) |
 
@@ -3409,6 +3409,30 @@ add_requires("libevent")
 ```
 
 
+### libfabric (linux)
+
+
+| Description | *Open Fabric Interfaces* |
+| -- | -- |
+| Homepage | [https://ofiwg.github.io/libfabric/](https://ofiwg.github.io/libfabric/) |
+| License | BSD-2-Clause |
+| Versions | 1.13.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libfabric/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfabric/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfabric
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfabric")
+```
+
+
 ### libffi (linux)
 
 
@@ -3500,6 +3524,30 @@ xrepo install libfreenect2
 
 ```lua
 add_requires("libfreenect2")
+```
+
+
+### libfuse (linux)
+
+
+| Description | *FUSE (Filesystem in Userspace) is an interface for userspace programs to export a filesystem to the Linux kernel.* |
+| -- | -- |
+| Homepage | [https://github.com/libfuse/libfuse](https://github.com/libfuse/libfuse) |
+| License | GPL-2.0 |
+| Versions | 3.10.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libfuse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfuse/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfuse
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfuse")
 ```
 
 
@@ -6002,6 +6050,29 @@ xrepo install mpfr
 
 ```lua
 add_requires("mpfr")
+```
+
+
+### mpich (linux)
+
+
+| Description | *MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.* |
+| -- | -- |
+| Homepage | [https://www.mpich.org/](https://www.mpich.org/) |
+| Versions | 3.4.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mpich/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpich/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mpich
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mpich")
 ```
 
 
@@ -8534,6 +8605,30 @@ add_requires("trantor")
 
 
 ## u
+### ucx (linux)
+
+
+| Description | *Unified Communication X* |
+| -- | -- |
+| Homepage | [https://openucx.org/](https://openucx.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.11.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ucx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ucx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ucx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ucx")
+```
+
+
 ### unqlite (linux)
 
 

@@ -148,7 +148,7 @@ add_requires("assimp")
 | Description | *An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
-| Versions | 2.68, 2.69 |
+| Versions | 2.68, 2.69, 2.71 |
 | Architectures | x64, x86 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
@@ -2876,7 +2876,7 @@ add_requires("lcms")
 | -- | -- |
 | Homepage | [http://www.leptonica.org/](http://www.leptonica.org/) |
 | License | BSD-2-Clause |
-| Versions | 1.80.0 |
+| Versions | 1.80.0, 1.81.1 |
 | Architectures | x64, x86 |
 | Definition | [leptonica/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leptonica/xmake.lua) |
 

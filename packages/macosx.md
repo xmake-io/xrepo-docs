@@ -147,7 +147,7 @@ add_requires("assimp")
 | Description | *An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
-| Versions | 2.68, 2.69 |
+| Versions | 2.68, 2.69, 2.71 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
@@ -3126,6 +3126,30 @@ add_requires("libevent")
 ```
 
 
+### libfabric (macosx)
+
+
+| Description | *Open Fabric Interfaces* |
+| -- | -- |
+| Homepage | [https://ofiwg.github.io/libfabric/](https://ofiwg.github.io/libfabric/) |
+| License | BSD-2-Clause |
+| Versions | 1.13.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libfabric/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfabric/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfabric
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfabric")
+```
+
+
 ### libffi (macosx)
 
 
@@ -5576,6 +5600,29 @@ xrepo install mpfr
 
 ```lua
 add_requires("mpfr")
+```
+
+
+### mpich (macosx)
+
+
+| Description | *MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.* |
+| -- | -- |
+| Homepage | [https://www.mpich.org/](https://www.mpich.org/) |
+| Versions | 3.4.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [mpich/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpich/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mpich
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mpich")
 ```
 
 

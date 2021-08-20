@@ -391,7 +391,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.68, 2.69</td>
+<td>2.68, 2.69, 2.71</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4750,7 +4750,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.80.0</td>
+<td>1.80.0, 1.81.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -5151,6 +5151,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libevent")
 </code></pre>
+<h3 id="libfabriclinux">libfabric (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Open Fabric Interfaces</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://ofiwg.github.io/libfabric/">https://ofiwg.github.io/libfabric/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-2-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.13.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfabric/xmake.lua">libfabric/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libfabric
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libfabric")
+</code></pre>
 <h3 id="libffilinux">libffi (linux)</h3>
 <table>
 <thead>
@@ -5290,6 +5327,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libfreenect2")
+</code></pre>
+<h3 id="libfuselinux">libfuse (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>FUSE (Filesystem in Userspace) is an interface for userspace programs to export a filesystem to the Linux kernel.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/libfuse/libfuse">https://github.com/libfuse/libfuse</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.10.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfuse/xmake.lua">libfuse/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libfuse
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libfuse")
 </code></pre>
 <h3 id="libgcryptlinux">libgcrypt (linux)</h3>
 <table>
@@ -8978,6 +9052,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("mpfr")
+</code></pre>
+<h3 id="mpichlinux">mpich (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.mpich.org/">https://www.mpich.org/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.4.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpich/xmake.lua">mpich/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install mpich
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("mpich")
 </code></pre>
 <h3 id="muslcclinux">muslcc (linux)</h3>
 <table>
@@ -12726,6 +12833,43 @@
 <pre><code class="lang-lua">add_requires("trantor")
 </code></pre>
 <h2 id="u">u</h2>
+<h3 id="ucxlinux">ucx (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Unified Communication X</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://openucx.org/">https://openucx.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.11.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ucx/xmake.lua">ucx/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install ucx
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("ucx")
+</code></pre>
 <h3 id="unqlitelinux">unqlite (linux)</h3>
 <table>
 <thead>

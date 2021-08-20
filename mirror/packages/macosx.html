@@ -313,7 +313,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.68, 2.69</td>
+<td>2.68, 2.69, 2.71</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4727,6 +4727,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libevent")
 </code></pre>
+<h3 id="libfabricmacosx">libfabric (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Open Fabric Interfaces</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://ofiwg.github.io/libfabric/">https://ofiwg.github.io/libfabric/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-2-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.13.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfabric/xmake.lua">libfabric/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libfabric
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libfabric")
+</code></pre>
 <h3 id="libffimacosx">libffi (macosx)</h3>
 <table>
 <thead>
@@ -8336,6 +8373,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("mpfr")
+</code></pre>
+<h3 id="mpichmacosx">mpich (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.mpich.org/">https://www.mpich.org/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.4.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpich/xmake.lua">mpich/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install mpich
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("mpich")
 </code></pre>
 <h3 id="muslccmacosx">muslcc (macosx)</h3>
 <table>

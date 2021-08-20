@@ -29,7 +29,7 @@ add_requires("angelscript")
 | Description | *An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
-| Versions | 2.68, 2.69 |
+| Versions | 2.68, 2.69, 2.71 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
