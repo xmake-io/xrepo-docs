@@ -171,7 +171,7 @@ add_requires("autoconf")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
-| Versions | 1.15.1, 1.16.1, 1.9.5, 1.9.6 |
+| Versions | 1.15.1, 1.16.1, 1.16.4, 1.9.5, 1.9.6 |
 | Architectures | x64, x86 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
