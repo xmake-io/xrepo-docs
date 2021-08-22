@@ -6006,6 +6006,30 @@ add_requires("mkl")
 ```
 
 
+### mongo-c-driver (linux)
+
+
+| Description | *The MongoDB C Driver.* |
+| -- | -- |
+| Homepage | [http://mongoc.org/](http://mongoc.org/) |
+| License | Apache-2.0 |
+| Versions | 1.19.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mongo-c-driver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongo-c-driver/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mongo-c-driver
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mongo-c-driver")
+```
+
+
 ### mono (linux)
 
 
