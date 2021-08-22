@@ -3599,6 +3599,29 @@ add_requires("libgcrypt")
 ```
 
 
+### libgd (linux)
+
+
+| Description | *GD is an open source code library for the dynamic creation of images by programmers.* |
+| -- | -- |
+| Homepage | [http://libgd.org/](http://libgd.org/) |
+| Versions | 2.3.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libgd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libgd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgd")
+```
+
+
 ### libgpg-error (linux)
 
 
