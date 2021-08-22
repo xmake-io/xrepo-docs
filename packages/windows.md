@@ -1729,6 +1729,30 @@ add_requires("fftw")
 ```
 
 
+### field3d (windows)
+
+
+| Description | *Field3D is an open source library for storing voxel data.* |
+| -- | -- |
+| Homepage | [https://sites.google.com/site/field3d/](https://sites.google.com/site/field3d/) |
+| License | BSD-3-Clause |
+| Versions | v1.7.3 |
+| Architectures | x64, x86 |
+| Definition | [field3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/field3d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install field3d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("field3d")
+```
+
+
 ### filament (windows)
 
 

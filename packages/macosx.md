@@ -1657,6 +1657,30 @@ add_requires("fftw")
 ```
 
 
+### field3d (macosx)
+
+
+| Description | *Field3D is an open source library for storing voxel data.* |
+| -- | -- |
+| Homepage | [https://sites.google.com/site/field3d/](https://sites.google.com/site/field3d/) |
+| License | BSD-3-Clause |
+| Versions | v1.7.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [field3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/field3d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install field3d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("field3d")
+```
+
+
 ### flann (macosx)
 
 
@@ -5492,7 +5516,7 @@ add_requires("mkl")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/MoltenVK](https://github.com/KhronosGroup/MoltenVK) |
 | License | Apache-2.0 |
-| Versions | 1.1.0 |
+| Versions | 1.1.0, 1.1.4 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [moltenvk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moltenvk/xmake.lua) |
 
