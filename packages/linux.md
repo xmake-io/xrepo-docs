@@ -6691,6 +6691,30 @@ add_requires("ode")
 ```
 
 
+### ogre-next (linux)
+
+
+| Description | *scene-oriented, flexible 3D engine written in C++* |
+| -- | -- |
+| Homepage | [https://www.ogre3d.org/](https://www.ogre3d.org/) |
+| License | MIT |
+| Versions | v2.2.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ogre-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ogre-next/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ogre-next
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ogre-next")
+```
+
+
 ### openal-soft (linux)
 
 
