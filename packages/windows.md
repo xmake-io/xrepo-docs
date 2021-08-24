@@ -125,7 +125,7 @@ add_requires("asmjit")
 | Description | *Portable Open-Source library to import various well-known 3D model formats in a uniform manner* |
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
-| Versions | 5.0.1 |
+| Versions | v5.0.1 |
 | Architectures | x64, x86 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -1923,7 +1923,7 @@ add_requires("freeglut")
 | Description | *A freely available software library to render fonts.* |
 | -- | -- |
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
-| Versions | 2.10.4, 2.9.1 |
+| Versions | 2.10.4, 2.11.0, 2.9.1 |
 | Architectures | x64, x86 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 

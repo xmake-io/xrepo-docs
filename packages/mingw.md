@@ -23,6 +23,29 @@ add_requires("angelscript")
 ```
 
 
+### assimp (mingw)
+
+
+| Description | *Portable Open-Source library to import various well-known 3D model formats in a uniform manner* |
+| -- | -- |
+| Homepage | [https://assimp.org](https://assimp.org) |
+| Versions | v5.0.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] assimp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("assimp")
+```
+
+
 ### autoconf (mingw)
 
 
@@ -897,6 +920,29 @@ xrepo install -p mingw [--mingw=/xxx] fmt
 
 ```lua
 add_requires("fmt")
+```
+
+
+### freetype (mingw)
+
+
+| Description | *A freely available software library to render fonts.* |
+| -- | -- |
+| Homepage | [https://www.freetype.org](https://www.freetype.org) |
+| Versions | 2.10.4, 2.11.0, 2.9.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] freetype
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("freetype")
 ```
 
 
