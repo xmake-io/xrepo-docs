@@ -963,6 +963,29 @@ add_requires("cpp-httplib")
 ```
 
 
+### cpr (windows)
+
+
+| Description | *C++ Requests is a simple wrapper around libcurl inspired by the excellent Python Requests project.* |
+| -- | -- |
+| Homepage | [https://whoshuu.github.io/cpr/](https://whoshuu.github.io/cpr/) |
+| Versions | 1.6.2 |
+| Architectures | x64, x86 |
+| Definition | [cpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpr")
+```
+
+
 ### cpu-features (windows)
 
 
