@@ -1917,6 +1917,29 @@ add_requires("freeglut")
 ```
 
 
+### freeimage (windows)
+
+
+| Description | *FreeImage is a library project for developers who would like to support popular graphics image formats (PNG, JPEG, TIFF, BMP and others).* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/freeimage/](https://sourceforge.net/projects/freeimage/) |
+| Versions | 3.18.0 |
+| Architectures | x64, x86 |
+| Definition | [freeimage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeimage/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install freeimage
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("freeimage")
+```
+
+
 ### freetype (windows)
 
 
