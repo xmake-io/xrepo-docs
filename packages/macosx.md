@@ -916,6 +916,30 @@ add_requires("concurrentqueue")
 ```
 
 
+### corrade (macosx)
+
+
+| Description | *Cor­rade is a mul­ti­plat­form util­i­ty li­brary writ­ten in C++11/C++14.* |
+| -- | -- |
+| Homepage | [https://magnum.graphics/corrade/](https://magnum.graphics/corrade/) |
+| License | MIT |
+| Versions | v2020.06 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [corrade/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/corrade/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install corrade
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("corrade")
+```
+
+
 ### cpp-httplib (macosx)
 
 
@@ -5247,6 +5271,30 @@ xrepo install m4
 
 ```lua
 add_requires("m4")
+```
+
+
+### magnum (macosx)
+
+
+| Description | *Light­weight and mod­u­lar C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| -- | -- |
+| Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
+| License | MIT |
+| Versions | v2020.06 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [magnum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install magnum
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("magnum")
 ```
 
 
