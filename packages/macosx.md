@@ -594,7 +594,8 @@ add_requires("capstone")
 | Description | *Catch2 is a multi-paradigm test framework for C++. which also supports Objective-C (and maybe C). * |
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
-| Versions | 2.13.5, 2.13.6, 2.9.2 |
+| License | BSL-1.0 |
+| Versions | 2.13.5, 2.13.6, 2.13.7, 2.9.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -1153,6 +1154,30 @@ add_requires("decimal_for_cpp")
 ```
 
 
+### docopt (macosx)
+
+
+| Description | *Pythonic command line arguments parser (C++11 port)* |
+| -- | -- |
+| Homepage | [https://github.com/docopt/docopt.cpp](https://github.com/docopt/docopt.cpp) |
+| License | BSL-1.0 |
+| Versions | v0.6.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [docopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/docopt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install docopt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("docopt")
+```
+
+
 ### doctest (macosx)
 
 
@@ -1581,6 +1606,30 @@ xrepo install expresscpp
 
 ```lua
 add_requires("expresscpp")
+```
+
+
+### ezc3d (macosx)
+
+
+| Description | *Easy to use C3D reader/writer for C++, Python and Matlab* |
+| -- | -- |
+| Homepage | [https://github.com/pyomeca/ezc3d](https://github.com/pyomeca/ezc3d) |
+| License | MIT |
+| Versions | 1.4.5 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [ezc3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/ezc3d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ezc3d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ezc3d")
 ```
 
 
@@ -2513,7 +2562,7 @@ add_requires("gtest")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1 |
+| Versions | 2.8.1, 2.9.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -3787,7 +3836,8 @@ add_requires("libraw")
 | Description | *Simple DirectMedia Layer* |
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
-| Versions | 2.0.12, 2.0.14, 2.0.8 |
+| License | zlib |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.8 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -6333,6 +6383,29 @@ xrepo install openal-soft
 
 ```lua
 add_requires("openal-soft")
+```
+
+
+### openblas (macosx)
+
+
+| Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
+| -- | -- |
+| Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openblas
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openblas")
 ```
 
 

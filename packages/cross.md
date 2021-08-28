@@ -148,7 +148,8 @@ add_requires("brynet")
 | Description | *Catch2 is a multi-paradigm test framework for C++. which also supports Objective-C (and maybe C). * |
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
-| Versions | 2.13.5, 2.13.6, 2.9.2 |
+| License | BSL-1.0 |
+| Versions | 2.13.5, 2.13.6, 2.13.7, 2.9.2 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -398,6 +399,30 @@ xrepo install -p cross [--sdk=/xxx] decimal_for_cpp
 
 ```lua
 add_requires("decimal_for_cpp")
+```
+
+
+### docopt (cross)
+
+
+| Description | *Pythonic command line arguments parser (C++11 port)* |
+| -- | -- |
+| Homepage | [https://github.com/docopt/docopt.cpp](https://github.com/docopt/docopt.cpp) |
+| License | BSL-1.0 |
+| Versions | v0.6.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [docopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/docopt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] docopt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("docopt")
 ```
 
 

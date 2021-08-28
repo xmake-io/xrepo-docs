@@ -171,7 +171,8 @@ add_requires("capstone")
 | Description | *Catch2 is a multi-paradigm test framework for C++. which also supports Objective-C (and maybe C). * |
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
-| Versions | 2.13.5, 2.13.6, 2.9.2 |
+| License | BSL-1.0 |
+| Versions | 2.13.5, 2.13.6, 2.13.7, 2.9.2 |
 | Architectures | i386, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -444,6 +445,30 @@ xrepo install decimal_for_cpp
 
 ```lua
 add_requires("decimal_for_cpp")
+```
+
+
+### docopt (bsd)
+
+
+| Description | *Pythonic command line arguments parser (C++11 port)* |
+| -- | -- |
+| Homepage | [https://github.com/docopt/docopt.cpp](https://github.com/docopt/docopt.cpp) |
+| License | BSL-1.0 |
+| Versions | v0.6.3 |
+| Architectures | i386, x86_64 |
+| Definition | [docopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/docopt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install docopt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("docopt")
 ```
 
 
@@ -1172,7 +1197,8 @@ add_requires("libpng")
 | Description | *Simple DirectMedia Layer* |
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
-| Versions | 2.0.12, 2.0.14, 2.0.8 |
+| License | zlib |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.8 |
 | Architectures | i386, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
