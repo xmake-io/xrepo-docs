@@ -5821,6 +5821,78 @@ add_requires("magnum")
 ```
 
 
+### magnum-extras (linux)
+
+
+| Description | *Extras for magnum, Light­weight and mod­u­lar C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| -- | -- |
+| Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
+| License | MIT |
+| Versions | v2020.06 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [magnum-extras/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum-extras/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install magnum-extras
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("magnum-extras")
+```
+
+
+### magnum-integration (linux)
+
+
+| Description | *Integration libraries for magnum, Light­weight and mod­u­lar C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| -- | -- |
+| Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
+| License | MIT |
+| Versions | v2020.06 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [magnum-integration/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum-integration/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install magnum-integration
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("magnum-integration")
+```
+
+
+### magnum-plugins (linux)
+
+
+| Description | *Plugins for magnum, C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| -- | -- |
+| Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
+| License | MIT |
+| Versions | v2020.06 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [magnum-plugins/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum-plugins/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install magnum-plugins
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("magnum-plugins")
+```
+
+
 ### make (linux)
 
 
