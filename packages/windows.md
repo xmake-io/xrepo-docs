@@ -1178,6 +1178,30 @@ add_requires("decimal_for_cpp")
 ```
 
 
+### devil (windows)
+
+
+| Description | *Developer's Image Library (DevIL) is a cross-platform image library utilizing a simple syntax to load, save, convert, manipulate, filter and display a variety of images with ease.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/openil/](https://sourceforge.net/projects/openil/) |
+| License | LGPL-2.1 |
+| Versions | 1.8.0 |
+| Architectures | x64, x86 |
+| Definition | [devil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/devil/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install devil
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("devil")
+```
+
+
 ### directxshadercompiler (windows)
 
 
@@ -2875,7 +2899,7 @@ add_requires("itk")
 | -- | -- |
 | Homepage | [https://www.ece.uvic.ca/~frodo/jasper/](https://www.ece.uvic.ca/~frodo/jasper/) |
 | License | BSD-2-Clause |
-| Versions | 2.0.28, 2.0.32 |
+| Versions | 2.0.28, 2.0.32, 2.0.33 |
 | Architectures | x64, x86 |
 | Definition | [jasper/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jasper/xmake.lua) |
 
@@ -3420,7 +3444,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1 |
 | Architectures | x64, x86 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
@@ -3434,6 +3458,29 @@ xrepo install libjpeg-turbo
 
 ```lua
 add_requires("libjpeg-turbo")
+```
+
+
+### libmng (windows)
+
+
+| Description | *libmng - The reference library for reading, displaying, writing and examining Multiple-Image Network Graphics.* |
+| -- | -- |
+| Homepage | [https://libmng.com/](https://libmng.com/) |
+| Versions | 2.0.3 |
+| Architectures | x64, x86 |
+| Definition | [libmng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmng")
 ```
 
 
