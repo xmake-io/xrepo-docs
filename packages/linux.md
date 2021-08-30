@@ -1778,6 +1778,30 @@ add_requires("ezc3d")
 
 
 ## f
+### faad2 (linux)
+
+
+| Description | *FAAD2 is a HE, LC, MAIN and LTP profile, MPEG2 and MPEG-4 AAC decoder.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/faac](https://sourceforge.net/projects/faac) |
+| License | GPL-2.0 |
+| Versions | 2.10.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [faad2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faad2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install faad2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("faad2")
+```
+
+
 ### faiss (linux)
 
 

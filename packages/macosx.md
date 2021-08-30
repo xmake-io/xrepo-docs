@@ -1659,6 +1659,30 @@ add_requires("ezc3d")
 
 
 ## f
+### faad2 (macosx)
+
+
+| Description | *FAAD2 is a HE, LC, MAIN and LTP profile, MPEG2 and MPEG-4 AAC decoder.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/faac](https://sourceforge.net/projects/faac) |
+| License | GPL-2.0 |
+| Versions | 2.10.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [faad2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faad2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install faad2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("faad2")
+```
+
+
 ### farmhash (macosx)
 
 
