@@ -5706,6 +5706,7 @@ add_requires("opencl-headers")
 | Description | *A open source computer vision library.* |
 | -- | -- |
 | Homepage | [https://opencv.org/](https://opencv.org/) |
+| License | Apache-2.0 |
 | Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3 |
 | Architectures | x64, x86 |
 | Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
@@ -5890,6 +5891,30 @@ add_requires("osqp")
 
 
 ## p
+### pagmo (windows)
+
+
+| Description | *pagmo is a C++ scientific library for massively parallel optimization.* |
+| -- | -- |
+| Homepage | [https://esa.github.io/pagmo2/index.html](https://esa.github.io/pagmo2/index.html) |
+| License | LGPL-3.0 |
+| Versions | v2.18.0 |
+| Architectures | x64, x86 |
+| Definition | [pagmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pagmo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pagmo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pagmo")
+```
+
+
 ### partio (windows)
 
 
