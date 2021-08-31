@@ -1897,6 +1897,30 @@ add_requires("fastcppcsvparser")
 ```
 
 
+### fcl (linux)
+
+
+| Description | *Flexible Collision Library* |
+| -- | -- |
+| Homepage | [https://github.com/flexible-collision-library/fcl](https://github.com/flexible-collision-library/fcl) |
+| License | BSD-3-Clause |
+| Versions | v0.6.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fcl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fcl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fcl")
+```
+
+
 ### ffmpeg (linux)
 
 
@@ -2961,6 +2985,29 @@ add_requires("hypre")
 
 
 ## i
+### icbc (linux)
+
+
+| Description | *A High Quality SIMD BC1 Encoder* |
+| -- | -- |
+| Homepage | [https://github.com/castano/icbc](https://github.com/castano/icbc) |
+| Versions | 1.05 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [icbc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icbc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install icbc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("icbc")
+```
+
+
 ### icu4c (linux)
 
 
@@ -6951,6 +6998,30 @@ xrepo install oatpp
 
 ```lua
 add_requires("oatpp")
+```
+
+
+### octomap (linux)
+
+
+| Description | *An Efficient Probabilistic 3D Mapping Framework Based on Octrees* |
+| -- | -- |
+| Homepage | [https://octomap.github.io/](https://octomap.github.io/) |
+| License | BSD-3-Clause |
+| Versions | v1.9.7 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [octomap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/octomap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install octomap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("octomap")
 ```
 
 

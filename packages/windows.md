@@ -1849,6 +1849,30 @@ add_requires("fastcppcsvparser")
 ```
 
 
+### fcl (windows)
+
+
+| Description | *Flexible Collision Library* |
+| -- | -- |
+| Homepage | [https://github.com/flexible-collision-library/fcl](https://github.com/flexible-collision-library/fcl) |
+| License | BSD-3-Clause |
+| Versions | v0.6.1 |
+| Architectures | x64, x86 |
+| Definition | [fcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fcl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fcl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fcl")
+```
+
+
 ### fftw (windows)
 
 
@@ -2750,6 +2774,29 @@ add_requires("hypre")
 
 
 ## i
+### icbc (windows)
+
+
+| Description | *A High Quality SIMD BC1 Encoder* |
+| -- | -- |
+| Homepage | [https://github.com/castano/icbc](https://github.com/castano/icbc) |
+| Versions | 1.05 |
+| Architectures | x64, x86 |
+| Definition | [icbc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icbc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install icbc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("icbc")
+```
+
+
 ### icu4c (windows)
 
 
@@ -5460,6 +5507,30 @@ xrepo install oatpp
 
 ```lua
 add_requires("oatpp")
+```
+
+
+### octomap (windows)
+
+
+| Description | *An Efficient Probabilistic 3D Mapping Framework Based on Octrees* |
+| -- | -- |
+| Homepage | [https://octomap.github.io/](https://octomap.github.io/) |
+| License | BSD-3-Clause |
+| Versions | v1.9.7 |
+| Architectures | x64, x86 |
+| Definition | [octomap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/octomap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install octomap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("octomap")
 ```
 
 
