@@ -2349,6 +2349,30 @@ add_requires("stb")
 ```
 
 
+### swig (cross)
+
+
+| Description | *SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.* |
+| -- | -- |
+| Homepage | [http://swig.org/](http://swig.org/) |
+| License | GPL-3.0 |
+| Versions | 4.0.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] swig
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("swig")
+```
+
+
 
 ## t
 ### taskflow (cross)
@@ -2538,6 +2562,32 @@ xrepo install -p cross [--sdk=/xxx] tl_function_ref
 
 ```lua
 add_requires("tl_function_ref")
+```
+
+
+
+## u
+### urdfdom-headers (cross)
+
+
+| Description | *Headers for URDF parsers* |
+| -- | -- |
+| Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
+| License | BSD-3-Clause |
+| Versions | 1.0.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] urdfdom-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("urdfdom-headers")
 ```
 
 

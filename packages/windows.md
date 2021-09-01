@@ -941,6 +941,30 @@ add_requires("concurrentqueue")
 ```
 
 
+### console-bridge (windows)
+
+
+| Description | *A ROS-independent package for logging that seamlessly pipes into rosconsole/rosout for ROS-dependent packages.* |
+| -- | -- |
+| Homepage | [https://github.com/ros/console_bridge](https://github.com/ros/console_bridge) |
+| License | BSD-3-Clause |
+| Versions | 1.0.1 |
+| Architectures | x64, x86 |
+| Definition | [console-bridge/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/console-bridge/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install console-bridge
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("console-bridge")
+```
+
+
 ### corrade (windows)
 
 
@@ -4337,7 +4361,7 @@ add_requires("lodepng")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/log4cplus/](https://sourceforge.net/projects/log4cplus/) |
 | License | BSD-2-Clause |
-| Versions | 2.0.6 |
+| Versions | 2.0.6, 2.0.7 |
 | Architectures | x64, x86 |
 | Definition | [log4cplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/log4cplus/xmake.lua) |
 
@@ -7115,6 +7139,30 @@ add_requires("superlu")
 ```
 
 
+### swig (windows)
+
+
+| Description | *SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.* |
+| -- | -- |
+| Homepage | [http://swig.org/](http://swig.org/) |
+| License | GPL-3.0 |
+| Versions | 4.0.2 |
+| Architectures | x64, x86 |
+| Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install swig
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("swig")
+```
+
+
 ### szip (windows)
 
 
@@ -7563,6 +7611,54 @@ xrepo install unqlite
 
 ```lua
 add_requires("unqlite")
+```
+
+
+### urdfdom (windows)
+
+
+| Description | *A C++ parser for the Unified Robot Description Format (URDF)* |
+| -- | -- |
+| Homepage | [https://wiki.ros.org/urdf](https://wiki.ros.org/urdf) |
+| License | BSD-3-Clause |
+| Versions | 1.0.4 |
+| Architectures | x64, x86 |
+| Definition | [urdfdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install urdfdom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("urdfdom")
+```
+
+
+### urdfdom-headers (windows)
+
+
+| Description | *Headers for URDF parsers* |
+| -- | -- |
+| Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
+| License | BSD-3-Clause |
+| Versions | 1.0.5 |
+| Architectures | x64, x86 |
+| Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install urdfdom-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("urdfdom-headers")
 ```
 
 

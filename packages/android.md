@@ -3214,6 +3214,30 @@ add_requires("stb")
 ```
 
 
+### swig (android)
+
+
+| Description | *SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.* |
+| -- | -- |
+| Homepage | [http://swig.org/](http://swig.org/) |
+| License | GPL-3.0 |
+| Versions | 4.0.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] swig
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("swig")
+```
+
+
 
 ## t
 ### taskflow (android)
@@ -3450,6 +3474,32 @@ xrepo install -p android [--ndk=/xxx] tl_function_ref
 
 ```lua
 add_requires("tl_function_ref")
+```
+
+
+
+## u
+### urdfdom-headers (android)
+
+
+| Description | *Headers for URDF parsers* |
+| -- | -- |
+| Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
+| License | BSD-3-Clause |
+| Versions | 1.0.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] urdfdom-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("urdfdom-headers")
 ```
 
 

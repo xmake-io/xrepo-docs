@@ -1552,6 +1552,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("concurrentqueue")
 </code></pre>
+<h3 id="consolebridgelinux">console-bridge (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A ROS-independent package for logging that seamlessly pipes into rosconsole/rosout for ROS-dependent packages.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/ros/console_bridge">https://github.com/ros/console_bridge</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.0.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/console-bridge/xmake.lua">console-bridge/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install console-bridge
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("console-bridge")
+</code></pre>
 <h3 id="corradelinux">corrade (linux)</h3>
 <table>
 <thead>
@@ -8564,7 +8601,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.0.6</td>
+<td>2.0.6, 2.0.7</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -12962,6 +12999,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("superlu")
 </code></pre>
+<h3 id="swiglinux">swig (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://swig.org/">http://swig.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>4.0.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua">swig/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install swig
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("swig")
+</code></pre>
 <h3 id="sziplinux">szip (linux)</h3>
 <table>
 <thead>
@@ -13667,6 +13741,80 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("unqlite")
+</code></pre>
+<h3 id="urdfdomlinux">urdfdom (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A C++ parser for the Unified Robot Description Format (URDF)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://wiki.ros.org/urdf">https://wiki.ros.org/urdf</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.0.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua">urdfdom/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install urdfdom
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("urdfdom")
+</code></pre>
+<h3 id="urdfdomheaderslinux">urdfdom-headers (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Headers for URDF parsers</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://ros.org/wiki/urdf">http://ros.org/wiki/urdf</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.0.5</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua">urdfdom-headers/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install urdfdom-headers
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("urdfdom-headers")
 </code></pre>
 <h3 id="uriparserlinux">uriparser (linux)</h3>
 <table>
