@@ -1456,7 +1456,8 @@ add_requires("mbedtls")
 | Description | *Fast and user friendly build system.* |
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1 |
+| License | Apache-2.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1 |
 | Architectures | i386, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 

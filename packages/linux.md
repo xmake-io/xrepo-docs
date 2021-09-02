@@ -166,6 +166,30 @@ add_requires("assimp")
 ```
 
 
+### atk (linux)
+
+
+| Description | *ATK - The Accessibility Toolkit* |
+| -- | -- |
+| Homepage | [https://gitlab.gnome.org/GNOME/atk](https://gitlab.gnome.org/GNOME/atk) |
+| License | LGPL-2.0 |
+| Versions | 2.36.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [atk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install atk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("atk")
+```
+
+
 ### attr (linux)
 
 
@@ -2494,7 +2518,7 @@ add_requires("glfw")
 | Description | *Core application library for C.* |
 | -- | -- |
 | Homepage | [https://developer.gnome.org/glib/](https://developer.gnome.org/glib/) |
-| Versions | 2.60.2, 2.68.2 |
+| Versions | 2.60.2, 2.68.2, 2.69.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 
@@ -3857,6 +3881,29 @@ xrepo install libgd
 
 ```lua
 add_requires("libgd")
+```
+
+
+### libglvnd (linux)
+
+
+| Description | *libglvnd: the GL Vendor-Neutral Dispatch library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/glvnd/libglvnd](https://gitlab.freedesktop.org/glvnd/libglvnd) |
+| Versions | v1.3.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libglvnd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libglvnd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libglvnd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libglvnd")
 ```
 
 
@@ -6158,7 +6205,8 @@ add_requires("mbedtls")
 | Description | *Fast and user friendly build system.* |
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1 |
+| License | Apache-2.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 

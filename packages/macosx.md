@@ -2304,7 +2304,7 @@ add_requires("glfw")
 | Description | *Core application library for C.* |
 | -- | -- |
 | Homepage | [https://developer.gnome.org/glib/](https://developer.gnome.org/glib/) |
-| Versions | 2.60.2, 2.68.2 |
+| Versions | 2.60.2, 2.68.2, 2.69.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 
@@ -5684,7 +5684,8 @@ add_requires("memorymapping")
 | Description | *Fast and user friendly build system.* |
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1 |
+| License | Apache-2.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
