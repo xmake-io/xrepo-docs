@@ -2083,6 +2083,30 @@ add_requires("freetype")
 ```
 
 
+### fribidi (macosx)
+
+
+| Description | *The Free Implementation of the Unicode Bidirectional Algorithm.* |
+| -- | -- |
+| Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
+| License | LGPL-2.1 |
+| Versions | 1.0.10 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fribidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fribidi")
+```
+
+
 ### fx-gltf (macosx)
 
 
@@ -3338,6 +3362,30 @@ xrepo install libde265
 
 ```lua
 add_requires("libde265")
+```
+
+
+### libepoxy (macosx)
+
+
+| Description | *Epoxy is a library for handling OpenGL function pointer management for you.* |
+| -- | -- |
+| Homepage | [https://download.gnome.org/sources/libepoxy/](https://download.gnome.org/sources/libepoxy/) |
+| License | MIT |
+| Versions | 1.5.9 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libepoxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libepoxy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libepoxy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libepoxy")
 ```
 
 
@@ -5344,6 +5392,30 @@ xrepo install luajit
 
 ```lua
 add_requires("luajit")
+```
+
+
+### lvgl (macosx)
+
+
+| Description | *Light and Versatile Graphics Library* |
+| -- | -- |
+| Homepage | [https://lvgl.io](https://lvgl.io) |
+| License | MIT |
+| Versions | v8.0.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lvgl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lvgl")
 ```
 
 

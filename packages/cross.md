@@ -1377,6 +1377,30 @@ add_requires("lua-format")
 ```
 
 
+### lvgl (cross)
+
+
+| Description | *Light and Versatile Graphics Library* |
+| -- | -- |
+| Homepage | [https://lvgl.io](https://lvgl.io) |
+| License | MIT |
+| Versions | v8.0.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] lvgl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lvgl")
+```
+
+
 ### lyra (cross)
 
 

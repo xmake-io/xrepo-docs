@@ -1496,6 +1496,30 @@ add_requires("luajit")
 ```
 
 
+### lvgl (bsd)
+
+
+| Description | *Light and Versatile Graphics Library* |
+| -- | -- |
+| Homepage | [https://lvgl.io](https://lvgl.io) |
+| License | MIT |
+| Versions | v8.0.2 |
+| Architectures | i386, x86_64 |
+| Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lvgl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lvgl")
+```
+
+
 ### lyra (bsd)
 
 

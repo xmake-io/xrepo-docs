@@ -3297,6 +3297,30 @@ add_requires("libde265")
 ```
 
 
+### libepoxy (windows)
+
+
+| Description | *Epoxy is a library for handling OpenGL function pointer management for you.* |
+| -- | -- |
+| Homepage | [https://download.gnome.org/sources/libepoxy/](https://download.gnome.org/sources/libepoxy/) |
+| License | MIT |
+| Versions | 1.5.9 |
+| Architectures | x64, x86 |
+| Definition | [libepoxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libepoxy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libepoxy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libepoxy")
+```
+
+
 ### libevent (windows)
 
 
@@ -4444,6 +4468,30 @@ xrepo install luajit
 
 ```lua
 add_requires("luajit")
+```
+
+
+### lvgl (windows)
+
+
+| Description | *Light and Versatile Graphics Library* |
+| -- | -- |
+| Homepage | [https://lvgl.io](https://lvgl.io) |
+| License | MIT |
+| Versions | v8.0.2 |
+| Architectures | x64, x86 |
+| Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lvgl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lvgl")
 ```
 
 
