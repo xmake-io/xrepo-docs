@@ -4479,7 +4479,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1</td>
+<td>v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -5916,6 +5916,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libopus")
+</code></pre>
+<h3 id="libpapermacosx">libpaper (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>library for handling paper characteristics</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://packages.debian.org/unstable/libs/libpaper1">https://packages.debian.org/unstable/libs/libpaper1</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.1.28</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpaper/xmake.lua">libpaper/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libpaper
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libpaper")
 </code></pre>
 <h3 id="libplistmacosx">libplist (macosx)</h3>
 <table>

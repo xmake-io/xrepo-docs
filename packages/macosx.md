@@ -2943,7 +2943,7 @@ add_requires("imath")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1 |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -3922,6 +3922,30 @@ xrepo install libopus
 
 ```lua
 add_requires("libopus")
+```
+
+
+### libpaper (macosx)
+
+
+| Description | *library for handling paper characteristics* |
+| -- | -- |
+| Homepage | [https://packages.debian.org/unstable/libs/libpaper1](https://packages.debian.org/unstable/libs/libpaper1) |
+| License | GPL-2.0 |
+| Versions | 1.1.28 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libpaper/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpaper/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpaper
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpaper")
 ```
 
 
