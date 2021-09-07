@@ -636,6 +636,30 @@ add_requires("cef")
 ```
 
 
+### celero (windows)
+
+
+| Description | *C++ Benchmarking Library* |
+| -- | -- |
+| Homepage | [https://github.com/DigitalInBlue/Celero](https://github.com/DigitalInBlue/Celero) |
+| License | Apache-2.0 |
+| Versions | v2.8.2 |
+| Architectures | x64, x86 |
+| Definition | [celero/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/celero/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install celero
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("celero")
+```
+
+
 ### cereal (windows)
 
 

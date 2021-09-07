@@ -612,6 +612,30 @@ add_requires("catch2")
 ```
 
 
+### celero (macosx)
+
+
+| Description | *C++ Benchmarking Library* |
+| -- | -- |
+| Homepage | [https://github.com/DigitalInBlue/Celero](https://github.com/DigitalInBlue/Celero) |
+| License | Apache-2.0 |
+| Versions | v2.8.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [celero/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/celero/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install celero
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("celero")
+```
+
+
 ### cereal (macosx)
 
 
