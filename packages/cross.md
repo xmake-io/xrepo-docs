@@ -140,6 +140,29 @@ add_requires("brynet")
 ```
 
 
+### bzip2 (cross)
+
+
+| Description | *Freely available, patent free, high-quality data compressor.* |
+| -- | -- |
+| Homepage | [https://sourceware.org/bzip2/](https://sourceware.org/bzip2/) |
+| Versions | 1.0.8 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [bzip2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] bzip2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bzip2")
+```
+
+
 
 ## c
 ### catch2 (cross)

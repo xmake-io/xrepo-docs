@@ -117,6 +117,29 @@ add_requires("brotli")
 ```
 
 
+### bzip2 (bsd)
+
+
+| Description | *Freely available, patent free, high-quality data compressor.* |
+| -- | -- |
+| Homepage | [https://sourceware.org/bzip2/](https://sourceware.org/bzip2/) |
+| Versions | 1.0.8 |
+| Architectures | i386, x86_64 |
+| Definition | [bzip2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bzip2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bzip2")
+```
+
+
 
 ## c
 ### capnproto (bsd)

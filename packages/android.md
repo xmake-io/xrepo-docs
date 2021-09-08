@@ -187,6 +187,29 @@ add_requires("brynet")
 ```
 
 
+### bzip2 (android)
+
+
+| Description | *Freely available, patent free, high-quality data compressor.* |
+| -- | -- |
+| Homepage | [https://sourceware.org/bzip2/](https://sourceware.org/bzip2/) |
+| Versions | 1.0.8 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [bzip2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] bzip2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bzip2")
+```
+
+
 
 ## c
 ### capstone (android)
