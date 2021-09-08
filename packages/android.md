@@ -1182,6 +1182,30 @@ add_requires("gtest")
 ```
 
 
+### guilite (android)
+
+
+| Description | *The smallest header-only GUI library (4 KLOC) for all platforms.* |
+| -- | -- |
+| Homepage | [https://github.com/idea4good/GuiLite](https://github.com/idea4good/GuiLite) |
+| License | Apache-2.0 |
+| Versions | v2.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [guilite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guilite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] guilite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("guilite")
+```
+
+
 
 ## h
 ### hopscotch-map (android)

@@ -995,6 +995,30 @@ add_requires("gtest")
 ```
 
 
+### guilite (iphoneos)
+
+
+| Description | *The smallest header-only GUI library (4 KLOC) for all platforms.* |
+| -- | -- |
+| Homepage | [https://github.com/idea4good/GuiLite](https://github.com/idea4good/GuiLite) |
+| License | Apache-2.0 |
+| Versions | v2.1 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [guilite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guilite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos guilite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("guilite")
+```
+
+
 
 ## h
 ### hopscotch-map (iphoneos)

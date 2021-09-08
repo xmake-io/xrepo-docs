@@ -2652,6 +2652,30 @@ add_requires("gtest")
 ```
 
 
+### guilite (windows)
+
+
+| Description | *The smallest header-only GUI library (4 KLOC) for all platforms.* |
+| -- | -- |
+| Homepage | [https://github.com/idea4good/GuiLite](https://github.com/idea4good/GuiLite) |
+| License | Apache-2.0 |
+| Versions | v2.1 |
+| Architectures | x64, x86 |
+| Definition | [guilite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guilite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install guilite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("guilite")
+```
+
+
 
 ## h
 ### harfbuzz (windows)
