@@ -2637,7 +2637,7 @@ add_requires("glog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
@@ -8351,6 +8351,30 @@ add_requires("recastnavigation")
 ```
 
 
+### robin-hood-hashing (linux)
+
+
+| Description | *Fast & memory efficient hashtable based on robin hood hashing for C++11/14/17/20* |
+| -- | -- |
+| Homepage | [https://github.com/martinus/robin-hood-hashing](https://github.com/martinus/robin-hood-hashing) |
+| License | MIT |
+| Versions | 3.11.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [robin-hood-hashing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-hood-hashing/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install robin-hood-hashing
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("robin-hood-hashing")
+```
+
+
 ### robin-map (linux)
 
 
@@ -8664,7 +8688,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Cross/](https://github.com/KhronosGroup/SPIRV-Cross/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-cross/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-cross/xmake.lua) |
 
@@ -8688,7 +8712,7 @@ add_requires("spirv-cross")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.5.4+2 |
+| Versions | 1.5.4+2, 1.5.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -8712,7 +8736,7 @@ add_requires("spirv-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Reflect](https://github.com/KhronosGroup/SPIRV-Reflect) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-reflect/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-reflect/xmake.lua) |
 
@@ -8736,7 +8760,7 @@ add_requires("spirv-reflect")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
-| Versions | 2020.5, 2020.6 |
+| Versions | 2020.5, 2020.6, 2021.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
@@ -9592,7 +9616,7 @@ add_requires("viennacl")
 | -- | -- |
 | Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
 | License | MIT |
-| Versions | 1.2.162 |
+| Versions | 1.2.162, 1.2.190 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
 
@@ -9640,7 +9664,7 @@ add_requires("vtk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, 1.2.162+0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.189+1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
@@ -9688,7 +9712,7 @@ add_requires("vulkan-hpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-loader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-loader/xmake.lua) |
 
@@ -9736,7 +9760,7 @@ add_requires("vulkan-memory-allocator")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Tools](https://github.com/KhronosGroup/Vulkan-Tools) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, 1.2.162+0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.189+1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-tools/xmake.lua) |
 

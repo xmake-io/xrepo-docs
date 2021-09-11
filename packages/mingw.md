@@ -3286,6 +3286,30 @@ add_requires("recastnavigation")
 ```
 
 
+### robin-hood-hashing (mingw)
+
+
+| Description | *Fast & memory efficient hashtable based on robin hood hashing for C++11/14/17/20* |
+| -- | -- |
+| Homepage | [https://github.com/martinus/robin-hood-hashing](https://github.com/martinus/robin-hood-hashing) |
+| License | MIT |
+| Versions | 3.11.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [robin-hood-hashing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-hood-hashing/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] robin-hood-hashing
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("robin-hood-hashing")
+```
+
+
 ### robin-map (mingw)
 
 
