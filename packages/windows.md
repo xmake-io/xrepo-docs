@@ -8056,7 +8056,7 @@ add_requires("vulkan-tools")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-ValidationLayers/](https://github.com/KhronosGroup/Vulkan-ValidationLayers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, 1.2.162+0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.189+1 |
 | Architectures | x64, x86 |
 | Definition | [vulkan-validationlayers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-validationlayers/xmake.lua) |
 
