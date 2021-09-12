@@ -3085,7 +3085,7 @@ add_requires("irrxml")
 | -- | -- |
 | Homepage | [https://itk.org/](https://itk.org/) |
 | License | Apache-2.0 |
-| Versions | v5.2.0 |
+| Versions | 5.2.0, 5.2.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [itk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itk/xmake.lua) |
 

@@ -3016,7 +3016,7 @@ add_requires("irrxml")
 | -- | -- |
 | Homepage | [https://itk.org/](https://itk.org/) |
 | License | Apache-2.0 |
-| Versions | v5.2.0 |
+| Versions | 5.2.0, 5.2.1 |
 | Architectures | x64, x86 |
 | Definition | [itk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itk/xmake.lua) |
 
@@ -7912,7 +7912,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://vtk.org/](https://vtk.org/) |
 | License | BSD-3-Clause |
-| Versions | 9.0.1 |
+| Versions | 9.0.1, 9.0.3 |
 | Architectures | x64, x86 |
 | Definition | [vtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vtk/xmake.lua) |
 
