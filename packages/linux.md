@@ -8519,6 +8519,29 @@ add_requires("scons")
 ```
 
 
+### scotch (linux)
+
+
+| Description | *Scotch: a software package for graph and mesh/hypergraph partitioning, graph clustering, and sparse matrix ordering* |
+| -- | -- |
+| Homepage | [https://www.labri.fr/perso/pelegrin/scotch/](https://www.labri.fr/perso/pelegrin/scotch/) |
+| Versions | v6.1.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [scotch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scotch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install scotch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scotch")
+```
+
+
 ### sentry-native (linux)
 
 
@@ -8618,7 +8641,7 @@ add_requires("shaderwriter")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7 |
+| Versions | v0.9.5, v0.9.7, v1.0.0 |
 | Architectures | x86_64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
