@@ -6058,6 +6058,30 @@ add_requires("mkl")
 ```
 
 
+### mnn (macosx)
+
+
+| Description | *MNN is a highly efficient and lightweight deep learning framework.* |
+| -- | -- |
+| Homepage | [https://www.mnn.zone/](https://www.mnn.zone/) |
+| License | Apache-2.0 |
+| Versions | 1.2.1, 1.2.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [mnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mnn/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mnn
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mnn")
+```
+
+
 ### moltenvk (macosx)
 
 

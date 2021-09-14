@@ -6579,6 +6579,30 @@ add_requires("mkl")
 ```
 
 
+### mnn (linux)
+
+
+| Description | *MNN is a highly efficient and lightweight deep learning framework.* |
+| -- | -- |
+| Homepage | [https://www.mnn.zone/](https://www.mnn.zone/) |
+| License | Apache-2.0 |
+| Versions | 1.2.1, 1.2.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mnn/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mnn
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mnn")
+```
+
+
 ### mongo-c-driver (linux)
 
 
