@@ -3580,6 +3580,29 @@ add_requires("libavif")
 ```
 
 
+### libbacktrace (linux)
+
+
+| Description | *A C library that may be linked into a C/C++ program to produce symbolic backtraces* |
+| -- | -- |
+| Homepage | [https://github.com/ianlancetaylor/libbacktrace](https://github.com/ianlancetaylor/libbacktrace) |
+| Versions | v1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libbacktrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbacktrace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libbacktrace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbacktrace")
+```
+
+
 ### libbpf (linux)
 
 

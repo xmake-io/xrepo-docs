@@ -3342,6 +3342,29 @@ add_requires("libavif")
 ```
 
 
+### libbacktrace (macosx)
+
+
+| Description | *A C library that may be linked into a C/C++ program to produce symbolic backtraces* |
+| -- | -- |
+| Homepage | [https://github.com/ianlancetaylor/libbacktrace](https://github.com/ianlancetaylor/libbacktrace) |
+| Versions | v1.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libbacktrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbacktrace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libbacktrace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbacktrace")
+```
+
+
 ### libccd (macosx)
 
 
