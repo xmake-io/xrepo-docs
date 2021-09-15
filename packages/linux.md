@@ -644,7 +644,8 @@ add_requires("cairo")
 | Description | *Cap'n Proto serialization/RPC system - core tools and C++ library.* |
 | -- | -- |
 | Homepage | [https://github.com/capnproto/capnproto](https://github.com/capnproto/capnproto) |
-| Versions | 0.7.0, 0.8.0 |
+| License | MIT |
+| Versions | 0.7.0, 0.8.0, 0.9.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [capnproto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capnproto/xmake.lua) |
 
