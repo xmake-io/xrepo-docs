@@ -1153,6 +1153,29 @@ add_requires("cxxopts")
 ```
 
 
+### cyrus-sasl (macosx)
+
+
+| Description | *Cyrus SASL is an implementation of SASL that makes it easy for application developers to integrate authentication mechanisms into their application in a generic way.* |
+| -- | -- |
+| Homepage | [https://www.cyrusimap.org/sasl/](https://www.cyrusimap.org/sasl/) |
+| Versions | 2.1.27 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [cyrus-sasl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cyrus-sasl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cyrus-sasl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cyrus-sasl")
+```
+
+
 
 ## d
 ### date (macosx)
@@ -7027,6 +7050,29 @@ xrepo install openjpeg
 
 ```lua
 add_requires("openjpeg")
+```
+
+
+### openldap (macosx)
+
+
+| Description | *OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.* |
+| -- | -- |
+| Homepage | [https://www.openldap.org/](https://www.openldap.org/) |
+| Versions | 2.5.7 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [openldap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openldap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openldap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openldap")
 ```
 
 
