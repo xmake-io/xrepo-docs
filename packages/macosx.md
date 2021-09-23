@@ -4420,6 +4420,29 @@ add_requires("libsquish")
 ```
 
 
+### libsvm (macosx)
+
+
+| Description | *A simple, easy-to-use, and efficient software for SVM classification and regression* |
+| -- | -- |
+| Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
+| Versions | v325 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsvm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsvm")
+```
+
+
 ### libtask (macosx)
 
 
