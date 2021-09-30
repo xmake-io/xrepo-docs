@@ -9136,6 +9136,30 @@ add_requires("vulkan-hpp")
 ```
 
 
+### vulkan-loader (macosx)
+
+
+| Description | *This project provides the Khronos official Vulkan ICD desktop loader for Windows, Linux, and MacOS.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [vulkan-loader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-loader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-loader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-loader")
+```
+
+
 ### vulkan-memory-allocator (macosx)
 
 
