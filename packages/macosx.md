@@ -3842,7 +3842,7 @@ add_requires("libimagequant")
 | Description | *Integer Set Library* |
 | -- | -- |
 | Homepage | [http://isl.gforge.inria.fr/](http://isl.gforge.inria.fr/) |
-| Versions | 0.22, 0.23 |
+| Versions | 0.22, 0.23, 0.24 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libisl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libisl/xmake.lua) |
 
