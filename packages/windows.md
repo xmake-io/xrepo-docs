@@ -927,7 +927,7 @@ add_requires("cmocka")
 | Description | *A go-style coroutine library in C++11 and more* |
 | -- | -- |
 | Homepage | [https://github.com/idealvin/co](https://github.com/idealvin/co) |
-| Versions | v2.0.1 |
+| Versions | v2.0.1, v2.0.2 |
 | Architectures | x64, x86 |
 | Definition | [co/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/co/xmake.lua) |
 
