@@ -95,6 +95,30 @@ add_requires("angelscript")
 ```
 
 
+### armadillo (windows)
+
+
+| Description | *C++ library for linear algebra & scientific computing* |
+| -- | -- |
+| Homepage | [http://arma.sourceforge.net/](http://arma.sourceforge.net/) |
+| License | Apache-2.0 |
+| Versions | 10.7.0 |
+| Architectures | x64, x86 |
+| Definition | [armadillo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/armadillo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install armadillo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("armadillo")
+```
+
+
 ### asmjit (windows)
 
 
@@ -3556,6 +3580,29 @@ xrepo install libhv
 
 ```lua
 add_requires("libhv")
+```
+
+
+### libiconv (windows)
+
+
+| Description | *Character set conversion library.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
+| Versions | 1.15, 1.16 |
+| Architectures | x64, x86 |
+| Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libiconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libiconv")
 ```
 
 
@@ -7315,7 +7362,7 @@ add_requires("stlab")
 | -- | -- |
 | Homepage | [https://portal.nersc.gov/project/sparse/superlu/](https://portal.nersc.gov/project/sparse/superlu/) |
 | License | BSD-3-Clause |
-| Versions | v5.2.2 |
+| Versions | v5.2.2, v5.3.0 |
 | Architectures | x64, x86 |
 | Definition | [superlu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/superlu/xmake.lua) |
 

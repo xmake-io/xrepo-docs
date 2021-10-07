@@ -94,6 +94,30 @@ add_requires("argp-standalone")
 ```
 
 
+### armadillo (macosx)
+
+
+| Description | *C++ library for linear algebra & scientific computing* |
+| -- | -- |
+| Homepage | [http://arma.sourceforge.net/](http://arma.sourceforge.net/) |
+| License | Apache-2.0 |
+| Versions | 10.7.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [armadillo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/armadillo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install armadillo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("armadillo")
+```
+
+
 ### asmjit (macosx)
 
 
@@ -8427,7 +8451,7 @@ add_requires("stlab")
 | -- | -- |
 | Homepage | [https://portal.nersc.gov/project/sparse/superlu/](https://portal.nersc.gov/project/sparse/superlu/) |
 | License | BSD-3-Clause |
-| Versions | v5.2.2 |
+| Versions | v5.2.2, v5.3.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [superlu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/superlu/xmake.lua) |
 
