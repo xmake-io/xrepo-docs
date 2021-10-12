@@ -3087,7 +3087,7 @@ add_requires("imath")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2 |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -8158,6 +8158,30 @@ xrepo install shaderwriter
 
 ```lua
 add_requires("shaderwriter")
+```
+
+
+### simage (macosx)
+
+
+| Description | *Simage is a library capable of loading, manipulating and saving images, creating and saving movies (AVI and MPEG), and loading audio.* |
+| -- | -- |
+| Homepage | [https://coin3d.github.io/simage/html/](https://coin3d.github.io/simage/html/) |
+| License | MIT |
+| Versions | 1.8.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [simage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simage/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install simage
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simage")
 ```
 
 
