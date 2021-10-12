@@ -1541,6 +1541,29 @@ add_requires("leveldb")
 ```
 
 
+### libargon2 (mingw)
+
+
+| Description | *The password hash Argon2, winner of PHC* |
+| -- | -- |
+| Homepage | [https://github.com/P-H-C/phc-winner-argon2](https://github.com/P-H-C/phc-winner-argon2) |
+| Versions | 20190702 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libargon2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libargon2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libargon2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libargon2")
+```
+
+
 ### libcurl (mingw)
 
 
@@ -1828,7 +1851,7 @@ add_requires("libsdl_ttf")
 | -- | -- |
 | Homepage | [https://libsndfile.github.io/libsndfile/](https://libsndfile.github.io/libsndfile/) |
 | License | LGPL-2.1 |
-| Versions | 1.0.30 |
+| Versions | 1.0.31, v1.0.30 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsndfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndfile/xmake.lua) |
 

@@ -3414,6 +3414,29 @@ add_requires("libarchive")
 ```
 
 
+### libargon2 (macosx)
+
+
+| Description | *The password hash Argon2, winner of PHC* |
+| -- | -- |
+| Homepage | [https://github.com/P-H-C/phc-winner-argon2](https://github.com/P-H-C/phc-winner-argon2) |
+| Versions | 20190702 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libargon2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libargon2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libargon2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libargon2")
+```
+
+
 ### libavif (macosx)
 
 
@@ -4380,7 +4403,7 @@ add_requires("libsm")
 | -- | -- |
 | Homepage | [https://libsndfile.github.io/libsndfile/](https://libsndfile.github.io/libsndfile/) |
 | License | LGPL-2.1 |
-| Versions | 1.0.30 |
+| Versions | 1.0.31, v1.0.30 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libsndfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndfile/xmake.lua) |
 
@@ -6941,7 +6964,7 @@ add_requires("openal-soft")
 | Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
@@ -8465,6 +8488,29 @@ xrepo install stlab
 
 ```lua
 add_requires("stlab")
+```
+
+
+### suitesparse (macosx)
+
+
+| Description | *SuiteSparse is a suite of sparse matrix algorithms* |
+| -- | -- |
+| Homepage | [https://people.engr.tamu.edu/davis/suitesparse.html](https://people.engr.tamu.edu/davis/suitesparse.html) |
+| Versions | v5.10.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [suitesparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/suitesparse/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install suitesparse
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("suitesparse")
 ```
 
 
