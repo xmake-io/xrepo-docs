@@ -2538,6 +2538,30 @@ add_requires("gflags")
 ```
 
 
+### ghostscript (linux)
+
+
+| Description | *Ghostscript is an interpreter for the PostScript® language and PDF files.* |
+| -- | -- |
+| Homepage | [https://www.ghostscript.com/](https://www.ghostscript.com/) |
+| License | AGPL-3.0 |
+| Versions | 9.55.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ghostscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghostscript/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ghostscript
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ghostscript")
+```
+
+
 ### giflib (linux)
 
 
