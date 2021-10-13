@@ -3224,6 +3224,29 @@ add_requires("jasper")
 ```
 
 
+### jsmn (macosx)
+
+
+| Description | *Jsmn is a world fastest JSON parser/tokenizer* |
+| -- | -- |
+| Homepage | [https://github.com/zserge/jsmn](https://github.com/zserge/jsmn) |
+| Versions | v1.1.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [jsmn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsmn/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jsmn
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jsmn")
+```
+
+
 ### json-c (macosx)
 
 
