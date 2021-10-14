@@ -6531,6 +6531,29 @@ add_requires("mbedtls")
 ```
 
 
+### mem (linux)
+
+
+| Description | *A collection of C++11 headers useful for reverse engineering* |
+| -- | -- |
+| Homepage | [https://github.com/0x1F9F1/mem](https://github.com/0x1F9F1/mem) |
+| Versions | 1.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mem/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mem
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mem")
+```
+
+
 ### meson (linux)
 
 
