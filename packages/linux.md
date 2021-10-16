@@ -8869,6 +8869,30 @@ add_requires("simage")
 ```
 
 
+### simbody (linux)
+
+
+| Description | *High-performance C++ multibody dynamics/physics library for simulating articulated biomechanical and mechanical systems like vehicles, robots, and the human skeleton.* |
+| -- | -- |
+| Homepage | [https://simtk.org/home/simbody](https://simtk.org/home/simbody) |
+| License | Apache-2.0 |
+| Versions | 3.7 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [simbody/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simbody/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install simbody
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simbody")
+```
+
+
 ### simdjson (linux)
 
 
