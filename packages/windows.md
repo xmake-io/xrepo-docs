@@ -5063,6 +5063,29 @@ add_requires("mem")
 ```
 
 
+### meowhash (windows)
+
+
+| Description | *Official version of the Meow hash, an extremely fast level 1 hash* |
+| -- | -- |
+| Homepage | [https://mollyrocket.com/meowhash](https://mollyrocket.com/meowhash) |
+| Versions | 1.0.0 |
+| Architectures | x64, x86 |
+| Definition | [meowhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meowhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install meowhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("meowhash")
+```
+
+
 ### meson (windows)
 
 
