@@ -4490,6 +4490,30 @@ add_requires("libsoundio")
 ```
 
 
+### libspectre (macosx)
+
+
+| Description | *libspectre is a small library for rendering Postscript documents.* |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/libspectre/](https://www.freedesktop.org/wiki/Software/libspectre/) |
+| License | GPL-2.0 |
+| Versions | 0.2.9 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libspectre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libspectre/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libspectre
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libspectre")
+```
+
+
 ### libsquish (macosx)
 
 
