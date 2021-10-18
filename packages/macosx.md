@@ -432,7 +432,7 @@ add_requires("blosc")
 | Description | *Collection of portable C++ source libraries.* |
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
-| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
@@ -5281,6 +5281,30 @@ add_requires("libxshmfence")
 ```
 
 
+### libxslt (macosx)
+
+
+| Description | *Libxslt is the XSLT C library developed for the GNOME project.* |
+| -- | -- |
+| Homepage | [http://xmlsoft.org/XSLT/](http://xmlsoft.org/XSLT/) |
+| License | MIT |
+| Versions | 1.1.34 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libxslt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxslt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxslt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxslt")
+```
+
+
 ### libxt (macosx)
 
 
@@ -9331,7 +9355,7 @@ add_requires("vulkan-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
 | License | Apache-2.0 |
-| Versions | v1.2.180 |
+| Versions | v1.2.180, v1.2.189 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
 
