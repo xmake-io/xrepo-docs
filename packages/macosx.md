@@ -3246,6 +3246,30 @@ add_requires("itk")
 ```
 
 
+### itstool (macosx)
+
+
+| Description | *ITS Tool allows you to translate your XML documents with PO files* |
+| -- | -- |
+| Homepage | [http://itstool.org/](http://itstool.org/) |
+| License | GPL-3.0 |
+| Versions | 2.0.7 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [itstool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itstool/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install itstool
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("itstool")
+```
+
+
 
 ## j
 ### jasper (macosx)

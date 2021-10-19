@@ -3460,6 +3460,30 @@ add_requires("itk")
 ```
 
 
+### itstool (linux)
+
+
+| Description | *ITS Tool allows you to translate your XML documents with PO files* |
+| -- | -- |
+| Homepage | [http://itstool.org/](http://itstool.org/) |
+| License | GPL-3.0 |
+| Versions | 2.0.7 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [itstool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itstool/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install itstool
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("itstool")
+```
+
+
 
 ## j
 ### jasper (linux)
