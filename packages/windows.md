@@ -2562,6 +2562,30 @@ add_requires("gmm")
 ```
 
 
+### gmsh (windows)
+
+
+| Description | *Gmsh is an open source 3D finite element mesh generator with a built-in CAD engine and post-processor.* |
+| -- | -- |
+| Homepage | [http://gmsh.info/](http://gmsh.info/) |
+| License | GPL-2.0 |
+| Versions | 4.8.4 |
+| Architectures | x64, x86 |
+| Definition | [gmsh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmsh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gmsh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gmsh")
+```
+
+
 ### gn (windows)
 
 
@@ -8116,6 +8140,30 @@ add_requires("uriparser")
 
 
 ## v
+### vc (windows)
+
+
+| Description | *SIMD Vector Classes for C++* |
+| -- | -- |
+| Homepage | [https://github.com/VcDevel/Vc](https://github.com/VcDevel/Vc) |
+| License | BSD-3-Clause |
+| Versions | 1.4.2 |
+| Architectures | x64, x86 |
+| Definition | [vc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vc")
+```
+
+
 ### vcglib (windows)
 
 

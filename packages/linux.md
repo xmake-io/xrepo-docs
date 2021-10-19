@@ -1609,6 +1609,30 @@ add_requires("drogon")
 ```
 
 
+### dune-common (linux)
+
+
+| Description | *DUNE, the Distributed and Unified Numerics Environment is a modular toolbox for solving partial differential equations with grid-based methods.* |
+| -- | -- |
+| Homepage | [https://dune-project.org/](https://dune-project.org/) |
+| License | GPL-2.0 |
+| Versions | 2.8.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [dune-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dune-common/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dune-common
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dune-common")
+```
+
+
 
 ## e
 ### eabase (linux)
@@ -2794,6 +2818,30 @@ xrepo install gmp
 
 ```lua
 add_requires("gmp")
+```
+
+
+### gmsh (linux)
+
+
+| Description | *Gmsh is an open source 3D finite element mesh generator with a built-in CAD engine and post-processor.* |
+| -- | -- |
+| Homepage | [http://gmsh.info/](http://gmsh.info/) |
+| License | GPL-2.0 |
+| Versions | 4.8.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [gmsh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmsh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gmsh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gmsh")
 ```
 
 
@@ -9960,6 +10008,30 @@ add_requires("util-macros")
 
 
 ## v
+### vc (linux)
+
+
+| Description | *SIMD Vector Classes for C++* |
+| -- | -- |
+| Homepage | [https://github.com/VcDevel/Vc](https://github.com/VcDevel/Vc) |
+| License | BSD-3-Clause |
+| Versions | 1.4.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [vc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vc")
+```
+
+
 ### vcglib (linux)
 
 
