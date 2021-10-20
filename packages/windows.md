@@ -733,6 +733,29 @@ add_requires("cereal")
 ```
 
 
+### cfitsio (windows)
+
+
+| Description | *CFITSIO is a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format.* |
+| -- | -- |
+| Homepage | [https://heasarc.gsfc.nasa.gov/fitsio/](https://heasarc.gsfc.nasa.gov/fitsio/) |
+| Versions | 4.0.0 |
+| Architectures | x64, x86 |
+| Definition | [cfitsio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cfitsio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cfitsio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cfitsio")
+```
+
+
 ### cgal (windows)
 
 
@@ -895,6 +918,30 @@ xrepo install clara
 
 ```lua
 add_requires("clara")
+```
+
+
+### clhep (windows)
+
+
+| Description | *CLHEP - A Class Library for High Energy Physics* |
+| -- | -- |
+| Homepage | [https://proj-clhep.web.cern.ch/proj-clhep/](https://proj-clhep.web.cern.ch/proj-clhep/) |
+| License | LGPL-3.0 |
+| Versions | 2.4.5+1 |
+| Architectures | x64, x86 |
+| Definition | [clhep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clhep/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clhep
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clhep")
 ```
 
 
@@ -2225,6 +2272,30 @@ xrepo install freetype
 
 ```lua
 add_requires("freetype")
+```
+
+
+### ftgl (windows)
+
+
+| Description | *FTGL is a free open source library to enable developers to use arbitrary fonts in their OpenGL applications.* |
+| -- | -- |
+| Homepage | [https://github.com/frankheckenbach/ftgl](https://github.com/frankheckenbach/ftgl) |
+| License | MIT |
+| Versions | v2.4.0 |
+| Architectures | x64, x86 |
+| Definition | [ftgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftgl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ftgl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ftgl")
 ```
 
 
