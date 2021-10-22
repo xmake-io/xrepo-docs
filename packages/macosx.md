@@ -1297,6 +1297,30 @@ add_requires("dav1d")
 ```
 
 
+### dcmtk (macosx)
+
+
+| Description | *DCMTK - DICOM Toolkit* |
+| -- | -- |
+| Homepage | [https://dcmtk.org/dcmtk.php.en](https://dcmtk.org/dcmtk.php.en) |
+| License | BSD-3-Clause |
+| Versions | 3.6.6 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [dcmtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dcmtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dcmtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dcmtk")
+```
+
+
 ### decimal_for_cpp (macosx)
 
 

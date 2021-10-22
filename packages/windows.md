@@ -1298,6 +1298,30 @@ add_requires("dav1d")
 ```
 
 
+### dcmtk (windows)
+
+
+| Description | *DCMTK - DICOM Toolkit* |
+| -- | -- |
+| Homepage | [https://dcmtk.org/dcmtk.php.en](https://dcmtk.org/dcmtk.php.en) |
+| License | BSD-3-Clause |
+| Versions | 3.6.6 |
+| Architectures | x64, x86 |
+| Definition | [dcmtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dcmtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dcmtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dcmtk")
+```
+
+
 ### decimal_for_cpp (windows)
 
 
