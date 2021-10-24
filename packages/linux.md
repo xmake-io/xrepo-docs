@@ -3159,7 +3159,7 @@ add_requires("guilite")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0 |
+| Versions | 2.8.1, 2.9.0, 3.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -5253,7 +5253,7 @@ add_requires("libtool")
 | -- | -- |
 | Homepage | [https://pytorch.org/](https://pytorch.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.8.0, v1.8.1, v1.9.0 |
+| Versions | v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtorch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtorch/xmake.lua) |
 
@@ -6823,7 +6823,7 @@ add_requires("meowhash")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
