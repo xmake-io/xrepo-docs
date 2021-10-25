@@ -2471,7 +2471,7 @@ add_requires("freetype")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | 1.0.10 |
+| Versions | 1.0.10, 1.0.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
@@ -7499,6 +7499,30 @@ xrepo install newtondynamics
 
 ```lua
 add_requires("newtondynamics")
+```
+
+
+### nghttp2 (linux)
+
+
+| Description | *nghttp2 is an implementation of HTTP/2 and its header compression algorithm HPACK in C.* |
+| -- | -- |
+| Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
+| License | MIT |
+| Versions | 1.46.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nghttp2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nghttp2")
 ```
 
 

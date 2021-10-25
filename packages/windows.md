@@ -2299,6 +2299,30 @@ add_requires("freetype")
 ```
 
 
+### fribidi (windows)
+
+
+| Description | *The Free Implementation of the Unicode Bidirectional Algorithm.* |
+| -- | -- |
+| Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
+| License | LGPL-2.1 |
+| Versions | 1.0.10, 1.0.11 |
+| Architectures | x64, x86 |
+| Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fribidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fribidi")
+```
+
+
 ### ftgl (windows)
 
 
@@ -5795,6 +5819,30 @@ xrepo install newtondynamics
 
 ```lua
 add_requires("newtondynamics")
+```
+
+
+### nghttp2 (windows)
+
+
+| Description | *nghttp2 is an implementation of HTTP/2 and its header compression algorithm HPACK in C.* |
+| -- | -- |
+| Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
+| License | MIT |
+| Versions | 1.46.0 |
+| Architectures | x64, x86 |
+| Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nghttp2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nghttp2")
 ```
 
 

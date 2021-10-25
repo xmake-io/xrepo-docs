@@ -3792,7 +3792,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.0.10</td>
+<td>1.0.10, 1.0.11</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11242,6 +11242,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("newtondynamics")
+</code></pre>
+<h3 id="nghttp2linux">nghttp2 (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>nghttp2 is an implementation of HTTP/2 and its header compression algorithm HPACK in C.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://nghttp2.org/">http://nghttp2.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.46.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua">nghttp2/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install nghttp2
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("nghttp2")
 </code></pre>
 <h3 id="ninjalinux">ninja (linux)</h3>
 <table>

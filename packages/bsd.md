@@ -1214,30 +1214,6 @@ add_requires("libmagic")
 ```
 
 
-### libpng (bsd)
-
-
-| Description | *The official PNG reference library* |
-| -- | -- |
-| Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
-| License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37 |
-| Architectures | i386, x86_64 |
-| Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install libpng
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("libpng")
-```
-
-
 ### libsdl (bsd)
 
 
