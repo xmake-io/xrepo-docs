@@ -3079,6 +3079,30 @@ add_requires("gperf")
 ```
 
 
+### graphene (linux)
+
+
+| Description | *A thin layer of graphic data types* |
+| -- | -- |
+| Homepage | [http://ebassi.github.io/graphene/](http://ebassi.github.io/graphene/) |
+| License | MIT |
+| Versions | 1.10.6 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [graphene/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/graphene/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install graphene
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("graphene")
+```
+
+
 ### gsl (linux)
 
 
@@ -4153,7 +4177,7 @@ add_requires("libfabric")
 | Description | *Portable Foreign Function Interface library.* |
 | -- | -- |
 | Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
-| Versions | 3.2.1, 3.3 |
+| Versions | 3.2.1, 3.3, 3.4.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
 
@@ -7721,7 +7745,8 @@ add_requires("numcpp")
 | Description | *Modern Web Framework for C++. High performance, simple API, cross platform, zero dependency.* |
 | -- | -- |
 | Homepage | [https://oatpp.io/](https://oatpp.io/) |
-| Versions | 1.0.0 |
+| License | Apache-2.0 |
+| Versions | 1.0.0, 1.2.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [oatpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oatpp/xmake.lua) |
 

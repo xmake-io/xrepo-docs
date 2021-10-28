@@ -2821,6 +2821,30 @@ add_requires("gr")
 ```
 
 
+### graphene (windows)
+
+
+| Description | *A thin layer of graphic data types* |
+| -- | -- |
+| Homepage | [http://ebassi.github.io/graphene/](http://ebassi.github.io/graphene/) |
+| License | MIT |
+| Versions | 1.10.6 |
+| Architectures | x64, x86 |
+| Definition | [graphene/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/graphene/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install graphene
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("graphene")
+```
+
+
 ### gsl (windows)
 
 
@@ -3652,6 +3676,29 @@ xrepo install libevent
 
 ```lua
 add_requires("libevent")
+```
+
+
+### libffi (windows)
+
+
+| Description | *Portable Foreign Function Interface library.* |
+| -- | -- |
+| Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
+| Versions | 3.2.1, 3.3, 3.4.2 |
+| Architectures | x64, x86 |
+| Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libffi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libffi")
 ```
 
 
@@ -6017,8 +6064,9 @@ add_requires("numcpp")
 | Description | *Modern Web Framework for C++. High performance, simple API, cross platform, zero dependency.* |
 | -- | -- |
 | Homepage | [https://oatpp.io/](https://oatpp.io/) |
-| Versions | 1.0.0 |
-| Architectures | x64, x86 |
+| License | Apache-2.0 |
+| Versions | 1.0.0, 1.2.5 |
+| Architectures | x64 |
 | Definition | [oatpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oatpp/xmake.lua) |
 
 ##### Install command
