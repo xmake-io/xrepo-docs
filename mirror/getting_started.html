@@ -213,15 +213,41 @@ $ xrepo install conan::zlib/1.2.11
    _ = "/mnt/xmake/scripts/xrepo.sh"
 }
 </code></pre>
-<h3 id="loadpackageenvironmentandruncommands">Load package environment and run commands</h3>
-<pre><code class="lang-console">$ xrepo env luajit
-LuaJIT 2.1.0-beta3 -- Copyright (C) 2005-2017 Mike Pall. http://luajit.org/
-JIT: ON SSE2 SSE3 SSE4.1 BMI2 fold cse dce fwd dse narrow loop abc sink fuse
->
+<h3 id="packagevirtualenvironment">Package virtual environment</h3>
+<h4 id="enterthevirtualenvironment">Enter the virtual environment</h4>
+<p>We can customize some package configurations by adding the xmake.lua file in the current directory, and then enter the specific package virtual environment.</p>
+<pre><code class="lang-lua">add_requires("zlib 1.2.11")
+add_requires("python 3.x", "luajit")
 </code></pre>
-<pre><code class="lang-console">$ xrepo env -b "luajit 2.x" luajit
-$ xrepo env -p iphoneos -b "zlib,libpng,luajit 2.x" cmake ..
+<pre><code class="lang-console">$ xrepo env shell
+> python --version
+> luajit --version
 </code></pre>
+<p>We can also configure and load the corresponding toolchain environment in xmake.lua, for example, load the VS compilation environment.</p>
+<pre><code class="lang-lua">set_toolchains("msvc")
+</code></pre>
+<h4 id="managevirtualenvironments">Manage virtual environments</h4>
+<p>We can use the following command to register the specified virtual environment configuration globally to the system for quick switching.</p>
+<pre><code class="lang-console">$ xrepo env --add /tmp/base.lua
+</code></pre>
+<p>At this time, we have saved a global virtual environment called base, and we can view it through the list command.</p>
+<pre><code class="lang-console">$ xrepo env --list
+/Users/ruki/.xmake/envs:
+  -base
+envs(1) found!
+</code></pre>
+<p>We can also delete it.</p>
+<pre><code class="lang-console">$ xrepo env --remove base
+</code></pre>
+<h4 id="switchglobalvirtualenvironment">Switch global virtual environment</h4>
+<p>If we register multiple virtual environments, we can also switch them quickly.</p>
+<pre><code class="lang-console">$ xrepo env -b base shell
+> python --version
+</code></pre>
+<p>Or directly load the specified virtual environment to run specific commands</p>
+<pre><code class="lang-console">$ xrepo env -b base python --version
+</code></pre>
+<p><code>xrepo env -b/--bind</code> is to bind the specified virtual environment. For more details, see: <a href="https://github.com/xmake-io/xmake/issues/1762">#1762</a></p>
 <h3 id="showthegivenpackageinformation">Show the given package information</h3>
 <pre><code class="lang-console">$ xrepo info zlib
 The package info of project:

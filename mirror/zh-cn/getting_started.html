@@ -213,15 +213,41 @@ $ xrepo install conan::zlib/1.2.11
   _ = "/mnt/xmake/scripts/xrepo.sh"
 }
 </code></pre>
-<h3 id="">加载执行包环境并运行命令</h3>
-<pre><code class="lang-console">$ xrepo env luajit
-LuaJIT 2.1.0-beta3 -- Copyright (C) 2005-2017 Mike Pall. http://luajit.org/
-JIT: ON SSE2 SSE3 SSE4.1 BMI2 fold cse dce fwd dse narrow loop abc sink fuse
->
+<h3 id="">包虚拟环境</h3>
+<h4 id="">进入虚拟环境</h4>
+<p>我们可以通过在当前目录下，添加 xmake.lua 文件，定制化一些包配置，然后进入特定的包虚拟环境。</p>
+<pre><code class="lang-lua">add_requires("zlib 1.2.11")
+add_requires("python 3.x", "luajit")
 </code></pre>
-<pre><code class="lang-console">$ xrepo env -b "luajit 2.x" luajit
-$ xrepo env -p iphoneos -b "zlib,libpng,luajit 2.x" cmake ..
+<pre><code class="lang-console">$ xrepo env shell
+> python --version
+> luajit --version
 </code></pre>
+<p>我们也可以在 xmake.lua 配置加载对应的工具链环境，比如加载 vs 的编译环境。</p>
+<pre><code class="lang-lua">set_toolchains("msvc")
+</code></pre>
+<h4 id="">管理虚拟环境</h4>
+<p>我们可以使用下面的命令，把指定的虚拟环境配置全局注册到系统中，方便快速切换。</p>
+<pre><code class="lang-console">$ xrepo env --add /tmp/base.lua
+</code></pre>
+<p>这个时候，我们就保存了一个名叫 base 的全局虚拟环境，我们可以通过 list 命令去查看它。</p>
+<pre><code class="lang-console">$ xrepo env --list
+/Users/ruki/.xmake/envs:
+  - base
+envs(1) found!
+</code></pre>
+<p>我们也可以删除它。</p>
+<pre><code class="lang-console">$ xrepo env --remove base
+</code></pre>
+<h4 id="">切换全局虚拟环境</h4>
+<p>如果我们注册了多个虚拟环境，我们也可以快速切换它们。</p>
+<pre><code class="lang-console">$ xrepo env -b base shell
+> python --version
+</code></pre>
+<p>或者直接加载指定虚拟环境运行特定命令</p>
+<pre><code class="lang-console">$ xrepo env -b base python --version
+</code></pre>
+<p><code>xrepo env -b/--bind</code> 就是绑定指定的虚拟环境，更多详情见：<a href="https://github.com/xmake-io/xmake/issues/1762">#1762</a></p>
 <h3 id="">查看包信息</h3>
 <pre><code class="lang-console">$ xrepo info zlib
 The package info of project:
