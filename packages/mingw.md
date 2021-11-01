@@ -3406,6 +3406,29 @@ add_requires("rply")
 
 
 ## s
+### scnlib (mingw)
+
+
+| Description | *scnlib is a modern C++ library for replacing scanf and std::istream* |
+| -- | -- |
+| Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
+| Versions | 0.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] scnlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scnlib")
+```
+
+
 ### scons (mingw)
 
 

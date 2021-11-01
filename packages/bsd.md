@@ -2563,6 +2563,29 @@ add_requires("rply")
 
 
 ## s
+### scnlib (bsd)
+
+
+| Description | *scnlib is a modern C++ library for replacing scanf and std::istream* |
+| -- | -- |
+| Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
+| Versions | 0.4 |
+| Architectures | i386, x86_64 |
+| Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install scnlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scnlib")
+```
+
+
 ### scons (bsd)
 
 
