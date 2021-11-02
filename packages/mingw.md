@@ -493,6 +493,29 @@ add_requires("csvparser")
 ```
 
 
+### ctre (mingw)
+
+
+| Description | *ctre is a Compile time PCRE (almost) compatible regular expression matcher.* |
+| -- | -- |
+| Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
+| Versions | 3.4.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ctre
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ctre")
+```
+
+
 ### cxxopts (mingw)
 
 
