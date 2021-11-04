@@ -4144,6 +4144,29 @@ add_requires("libimagequant")
 ```
 
 
+### libintl (macosx)
+
+
+| Description | *GNU gettext runtime* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
+| Versions | 0.21 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libintl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libintl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libintl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libintl")
+```
+
+
 ### libisl (macosx)
 
 
@@ -6326,7 +6349,7 @@ add_requires("meowhash")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -8265,7 +8288,7 @@ add_requires("raylib")
 | -- | -- |
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01, 2021.08.01 |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
