@@ -6610,7 +6610,7 @@ add_requires("pcl")
 | Description | *A Perl Compatible Regular Expressions Library* |
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
-| Versions | 8.40, 8.41, 8.44, 8.45 |
+| Versions | 8.45 |
 | Architectures | x64, x86 |
 | Definition | [pcre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre/xmake.lua) |
 

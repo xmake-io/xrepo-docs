@@ -8315,7 +8315,7 @@ add_requires("pcl")
 | Description | *A Perl Compatible Regular Expressions Library* |
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
-| Versions | 8.40, 8.41, 8.44, 8.45 |
+| Versions | 8.45 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pcre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre/xmake.lua) |
 
