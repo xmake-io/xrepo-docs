@@ -3009,7 +3009,7 @@ add_requires("pcre")
 | Description | *A Perl Compatible Regular Expressions Library* |
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
-| Versions | 10.23, 10.30, 10.31 |
+| Versions | 10.39 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
 
