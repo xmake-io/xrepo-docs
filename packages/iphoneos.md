@@ -1686,7 +1686,8 @@ add_requires("libtool")
 | Description | *A multi-platform support library with a focus on asynchronous I/O.* |
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0 |
+| License | MIT |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -2647,6 +2648,29 @@ xrepo install -p iphoneos pkg-config
 
 ```lua
 add_requires("pkg-config")
+```
+
+
+### pkgconf (iphoneos)
+
+
+| Description | *A program which helps to configure compiler and linker flags for development frameworks.* |
+| -- | -- |
+| Homepage | [http://pkgconf.org](http://pkgconf.org) |
+| Versions | 1.7.4, 1.8.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos pkgconf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pkgconf")
 ```
 
 

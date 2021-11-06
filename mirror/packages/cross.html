@@ -3150,6 +3150,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("pkg-config")
 </code></pre>
+<h3 id="pkgconfcross">pkgconf (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A program which helps to configure compiler and linker flags for development frameworks.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://pkgconf.org">http://pkgconf.org</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.7.4, 1.8.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua">pkgconf/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] pkgconf
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("pkgconf")
+</code></pre>
 <h3 id="pqpcross">pqp (cross)</h3>
 <table>
 <thead>

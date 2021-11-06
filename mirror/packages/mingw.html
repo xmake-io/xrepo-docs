@@ -3111,8 +3111,12 @@
 <td><a href="http://libuv.org/">http://libuv.org/</a></td>
 </tr>
 <tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
 <td>Versions</td>
-<td>v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0</td>
+<td>v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4611,6 +4615,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("pkg-config")
+</code></pre>
+<h3 id="pkgconfmingw">pkgconf (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A program which helps to configure compiler and linker flags for development frameworks.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://pkgconf.org">http://pkgconf.org</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.7.4, 1.8.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua">pkgconf/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] pkgconf
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("pkgconf")
 </code></pre>
 <h3 id="pqpmingw">pqp (mingw)</h3>
 <table>

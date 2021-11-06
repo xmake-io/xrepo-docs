@@ -2804,7 +2804,7 @@ add_requires("glfw")
 | Description | *Core application library for C.* |
 | -- | -- |
 | Homepage | [https://developer.gnome.org/glib/](https://developer.gnome.org/glib/) |
-| Versions | 2.60.2, 2.68.2, 2.69.2 |
+| Versions | 2.60.2, 2.68.2, 2.69.2, 2.70.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 
@@ -5416,7 +5416,8 @@ add_requires("libuuid")
 | Description | *A multi-platform support library with a focus on asynchronous I/O.* |
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0 |
+| License | MIT |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -7983,7 +7984,7 @@ add_requires("opencl-headers")
 | -- | -- |
 | Homepage | [https://opencv.org/](https://opencv.org/) |
 | License | Apache-2.0 |
-| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3 |
+| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3, 4.5.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
 
@@ -10568,7 +10569,7 @@ add_requires("wayland")
 | Description | *A free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format.* |
 | -- | -- |
 | Homepage | [https://www.videolan.org/developers/x264.html](https://www.videolan.org/developers/x264.html) |
-| Versions | v2018.09.25 |
+| Versions | v2018.09.25, v2021.09.29 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [x264/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x264/xmake.lua) |
 
