@@ -3630,6 +3630,30 @@ add_requires("libccd")
 ```
 
 
+### libcroco (windows)
+
+
+| Description | *Libcroco is a standalone css2 parsing and manipulation library.* |
+| -- | -- |
+| Homepage | [https://gitlab.com/inkscape/libcroco](https://gitlab.com/inkscape/libcroco) |
+| License | LGPL-2.0 |
+| Versions | 0.6.13 |
+| Architectures | x64, x86 |
+| Definition | [libcroco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcroco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libcroco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libcroco")
+```
+
+
 ### libcurl (windows)
 
 
@@ -6978,6 +7002,30 @@ add_requires("pthreads4w")
 ```
 
 
+### ptl (windows)
+
+
+| Description | *Lightweight C++11 multithreading tasking system featuring thread-pool, task-groups, and lock-free task queue* |
+| -- | -- |
+| Homepage | [https://github.com/jrmadsen/PTL](https://github.com/jrmadsen/PTL) |
+| License | MIT |
+| Versions | v2.0.0 |
+| Architectures | x64, x86 |
+| Definition | [ptl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ptl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ptl")
+```
+
+
 ### pugixml (windows)
 
 
@@ -7954,7 +8002,7 @@ add_requires("taskflow")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| Versions | 2020.3, 2021.2.0, 2021.3.0 |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0 |
 | Architectures | x64, x86 |
 | Definition | [tbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbb/xmake.lua) |
 
