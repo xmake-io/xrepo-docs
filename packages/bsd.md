@@ -2779,8 +2779,8 @@ add_requires("taskflow")
 
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
-| Homepage | [http://www.tboox.org](http://www.tboox.org) |
-| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6 |
+| Homepage | [https://tboox.org](https://tboox.org) |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7 |
 | Architectures | i386, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
