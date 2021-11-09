@@ -2236,7 +2236,7 @@ add_requires("fmt")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28, 2021.08.02 |
+| Versions | 2021.06.28, 2021.08.02, 2021.11.01 |
 | Architectures | x64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
@@ -2441,6 +2441,29 @@ xrepo install gcem
 
 ```lua
 add_requires("gcem")
+```
+
+
+### geant4 (windows)
+
+
+| Description | *Geant4 is a toolkit for the simulation of the passage of particles through matter.* |
+| -- | -- |
+| Homepage | [https://geant4.web.cern.ch/](https://geant4.web.cern.ch/) |
+| Versions | 10.7.2 |
+| Architectures | x64, x86 |
+| Definition | [geant4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geant4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install geant4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geant4")
 ```
 
 
