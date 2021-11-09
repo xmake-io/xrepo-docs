@@ -2752,6 +2752,29 @@ add_requires("tl_function_ref")
 ```
 
 
+### toml++ (cross)
+
+
+| Description | *toml++ is a header-only TOML config file parser and serializer for C++17 (and later!).* |
+| -- | -- |
+| Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
+| Versions | v2.5.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] toml++
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toml++")
+```
+
+
 
 ## u
 ### urdfdom-headers (cross)

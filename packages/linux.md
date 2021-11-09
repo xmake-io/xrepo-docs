@@ -10125,6 +10125,29 @@ add_requires("tmxparser")
 ```
 
 
+### toml++ (linux)
+
+
+| Description | *toml++ is a header-only TOML config file parser and serializer for C++17 (and later!).* |
+| -- | -- |
+| Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
+| Versions | v2.5.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install toml++
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toml++")
+```
+
+
 ### trantor (linux)
 
 
