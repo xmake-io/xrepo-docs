@@ -3079,6 +3079,30 @@ add_requires("go")
 ```
 
 
+### gobject-introspection (linux)
+
+
+| Description | *GObject introspection is a middleware layer between C libraries (using GObject) and language bindings.* |
+| -- | -- |
+| Homepage | [https://gi.readthedocs.io/en/latest/](https://gi.readthedocs.io/en/latest/) |
+| License | LGPL-2.0 |
+| Versions | 1.70.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [gobject-introspection/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gobject-introspection/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gobject-introspection
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gobject-introspection")
+```
+
+
 ### godotcpp (linux)
 
 
@@ -3229,7 +3253,7 @@ add_requires("guilite")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0, 3.0.0 |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -3812,6 +3836,29 @@ xrepo install kiwisolver
 
 ```lua
 add_requires("kiwisolver")
+```
+
+
+### krb5 (linux)
+
+
+| Description | *Kerberos: The Network Authentication Protocol* |
+| -- | -- |
+| Homepage | [http://web.mit.edu/kerberos/](http://web.mit.edu/kerberos/) |
+| Versions | 1.19.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [krb5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/krb5/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install krb5
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("krb5")
 ```
 
 

@@ -2994,7 +2994,7 @@ add_requires("guilite")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0, 3.0.0 |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1 |
 | Architectures | x64, x86 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 

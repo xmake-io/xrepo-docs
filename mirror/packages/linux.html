@@ -4692,6 +4692,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("go")
 </code></pre>
+<h3 id="gobjectintrospectionlinux">gobject-introspection (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>GObject introspection is a middleware layer between C libraries (using GObject) and language bindings.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://gi.readthedocs.io/en/latest/">https://gi.readthedocs.io/en/latest/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.70.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gobject-introspection/xmake.lua">gobject-introspection/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install gobject-introspection
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gobject-introspection")
+</code></pre>
 <h3 id="godotcpplinux">godotcpp (linux)</h3>
 <table>
 <thead>
@@ -4922,7 +4959,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.8.1, 2.9.0, 3.0.0</td>
+<td>2.8.1, 2.9.0, 3.0.0, 3.1.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -5778,6 +5815,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("kiwisolver")
+</code></pre>
+<h3 id="krb5linux">krb5 (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Kerberos: The Network Authentication Protocol</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://web.mit.edu/kerberos/">http://web.mit.edu/kerberos/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.19.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/k/krb5/xmake.lua">krb5/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install krb5
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("krb5")
 </code></pre>
 <h2 id="l">l</h2>
 <h3 id="lcmslinux">lcms (linux)</h3>
