@@ -2071,7 +2071,7 @@ add_requires("fcl")
 | -- | -- |
 | Homepage | [http://fftw.org/](http://fftw.org/) |
 | License | GPL-2.0 |
-| Versions | 3.3.8, 3.3.9 |
+| Versions | 3.3.10, 3.3.8, 3.3.9 |
 | Architectures | x64, x86 |
 | Definition | [fftw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fftw/xmake.lua) |
 
@@ -3565,7 +3565,7 @@ add_requires("leveldb")
 | -- | -- |
 | Homepage | [https://libarchive.org/](https://libarchive.org/) |
 | License | BSD-2-Clause |
-| Versions | 3.5.1 |
+| Versions | 3.5.1, 3.5.2 |
 | Architectures | x64, x86 |
 | Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
 
@@ -7079,7 +7079,8 @@ add_requires("pugixml")
 | Description | *Seamless operability between C++11 and Python.* |
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
-| Versions | v2.5.0, v2.6.2, v2.7.1 |
+| License | BSD-3-Clause |
+| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1 |
 | Architectures | x64, x86 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
@@ -7693,7 +7694,7 @@ add_requires("sol2")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1 |
+| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
 | Architectures | x64, x86 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 

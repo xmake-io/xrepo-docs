@@ -411,7 +411,7 @@ add_requires("binutils")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
 | License | GPL-3.0 |
-| Versions | 3.7.4, 3.7.6 |
+| Versions | 3.7.4, 3.7.6, 3.8.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
 
@@ -2213,7 +2213,7 @@ add_requires("ffmpeg")
 | -- | -- |
 | Homepage | [http://fftw.org/](http://fftw.org/) |
 | License | GPL-2.0 |
-| Versions | 3.3.8, 3.3.9 |
+| Versions | 3.3.10, 3.3.8, 3.3.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fftw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fftw/xmake.lua) |
 
@@ -3006,6 +3006,30 @@ xrepo install gn
 
 ```lua
 add_requires("gn")
+```
+
+
+### gnu-gsl (linux)
+
+
+| Description | *The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/gsl/](https://www.gnu.org/software/gsl/) |
+| License | GPL-3.0 |
+| Versions | 2.7 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [gnu-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-gsl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gnu-gsl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gnu-gsl")
 ```
 
 
@@ -3942,7 +3966,7 @@ add_requires("leveldb")
 | -- | -- |
 | Homepage | [https://libarchive.org/](https://libarchive.org/) |
 | License | BSD-2-Clause |
-| Versions | 3.5.1 |
+| Versions | 3.5.1, 3.5.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
 
@@ -8785,7 +8809,8 @@ add_requires("pugixml")
 | Description | *Seamless operability between C++11 and Python.* |
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
-| Versions | v2.5.0, v2.6.2, v2.7.1 |
+| License | BSD-3-Clause |
+| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
@@ -9469,7 +9494,7 @@ add_requires("sol2")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1 |
+| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
