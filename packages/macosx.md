@@ -1392,6 +1392,30 @@ add_requires("devil")
 ```
 
 
+### dlib (macosx)
+
+
+| Description | *A toolkit for making real world machine learning and data analysis applications in C++* |
+| -- | -- |
+| Homepage | [https://dlib.net](https://dlib.net) |
+| License | Boost |
+| Versions | v19.22 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [dlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dlib")
+```
+
+
 ### docopt (macosx)
 
 

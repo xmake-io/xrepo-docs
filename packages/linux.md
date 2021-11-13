@@ -1488,6 +1488,30 @@ add_requires("devil")
 ```
 
 
+### dlib (linux)
+
+
+| Description | *A toolkit for making real world machine learning and data analysis applications in C++* |
+| -- | -- |
+| Homepage | [https://dlib.net](https://dlib.net) |
+| License | Boost |
+| Versions | v19.22 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [dlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dlib")
+```
+
+
 ### docopt (linux)
 
 
