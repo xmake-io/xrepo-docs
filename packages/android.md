@@ -1587,6 +1587,30 @@ add_requires("libde265")
 ```
 
 
+### libdeflate (android)
+
+
+| Description | *libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression.* |
+| -- | -- |
+| Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
+| License | MIT |
+| Versions | v1.8 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libdeflate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdeflate")
+```
+
+
 ### libelf (android)
 
 

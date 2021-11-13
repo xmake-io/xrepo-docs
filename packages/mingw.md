@@ -147,7 +147,7 @@ add_requires("binutils")
 | Description | *A blocking, shuffling and loss-less compression library* |
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
-| Versions | 1.20.1, 1.5.0 |
+| Versions | 1.20.1, 1.21.1, 1.5.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 
@@ -1654,6 +1654,30 @@ xrepo install -p mingw [--mingw=/xxx] libde265
 
 ```lua
 add_requires("libde265")
+```
+
+
+### libdeflate (mingw)
+
+
+| Description | *libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression.* |
+| -- | -- |
+| Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
+| License | MIT |
+| Versions | v1.8 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libdeflate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdeflate")
 ```
 
 

@@ -482,7 +482,7 @@ add_requires("blitz")
 | Description | *A blocking, shuffling and loss-less compression library* |
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
-| Versions | 1.20.1, 1.5.0 |
+| Versions | 1.20.1, 1.21.1, 1.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 
@@ -4194,6 +4194,30 @@ add_requires("libde265")
 ```
 
 
+### libdeflate (linux)
+
+
+| Description | *libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression.* |
+| -- | -- |
+| Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
+| License | MIT |
+| Versions | v1.8 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdeflate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdeflate")
+```
+
+
 ### libelf (linux)
 
 
@@ -7383,6 +7407,30 @@ add_requires("muslcc")
 ```
 
 
+### mxml (linux)
+
+
+| Description | *Mini-XML is a tiny XML library that you can use to read and write XML and XML-like data files in your application without requiring large non-standard libraries.* |
+| -- | -- |
+| Homepage | [https://www.msweet.org/mxml/](https://www.msweet.org/mxml/) |
+| License | Apache-2.0 |
+| Versions | 3.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mxml")
+```
+
+
 ### mysql (linux)
 
 
@@ -9820,6 +9868,29 @@ add_requires("szip")
 
 
 ## t
+### talloc (linux)
+
+
+| Description | *talloc is a hierarchical, reference counted memory pool system with destructors.* |
+| -- | -- |
+| Homepage | [https://talloc.samba.org/talloc/doc/html/index.html](https://talloc.samba.org/talloc/doc/html/index.html) |
+| Versions | 2.3.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [talloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/talloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install talloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("talloc")
+```
+
+
 ### taskflow (linux)
 
 
