@@ -3913,6 +3913,30 @@ add_requires("libgd")
 ```
 
 
+### libgit2 (windows)
+
+
+| Description | *A cross-platform, linkable library implementation of Git that you can use in your application.* |
+| -- | -- |
+| Homepage | [https://libgit2.org/](https://libgit2.org/) |
+| License | GPL-2.0-only |
+| Versions | v1.3.0 |
+| Architectures | x64, x86 |
+| Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libgit2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgit2")
+```
+
+
 ### libheif (windows)
 
 

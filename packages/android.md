@@ -1658,6 +1658,30 @@ add_requires("libflac")
 ```
 
 
+### libgit2 (android)
+
+
+| Description | *A cross-platform, linkable library implementation of Git that you can use in your application.* |
+| -- | -- |
+| Homepage | [https://libgit2.org/](https://libgit2.org/) |
+| License | GPL-2.0-only |
+| Versions | v1.3.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libgit2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgit2")
+```
+
+
 ### libhv (android)
 
 
