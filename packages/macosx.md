@@ -4147,6 +4147,30 @@ add_requires("libfreenect2")
 ```
 
 
+### libgcrypt (macosx)
+
+
+| Description | *Libgcrypt is a general purpose cryptographic library originally based on code from GnuPG.* |
+| -- | -- |
+| Homepage | [https://www.gnupg.org/related_software/libgcrypt/](https://www.gnupg.org/related_software/libgcrypt/) |
+| License | GPL-2.0 |
+| Versions | 1.8.7 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libgcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgcrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libgcrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgcrypt")
+```
+
+
 ### libgd (macosx)
 
 
@@ -4191,6 +4215,30 @@ xrepo install libgit2
 
 ```lua
 add_requires("libgit2")
+```
+
+
+### libgpg-error (macosx)
+
+
+| Description | *Libgpg-error is a small library that originally defined common error values for all GnuPG components.* |
+| -- | -- |
+| Homepage | [https://www.gnupg.org/related_software/libgpg-error/](https://www.gnupg.org/related_software/libgpg-error/) |
+| License | GPL-2.0 |
+| Versions | 1.39 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libgpg-error/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgpg-error/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libgpg-error
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgpg-error")
 ```
 
 
@@ -4962,6 +5010,30 @@ xrepo install libsquish
 
 ```lua
 add_requires("libsquish")
+```
+
+
+### libssh2 (macosx)
+
+
+| Description | *C library implementing the SSH2 protocol* |
+| -- | -- |
+| Homepage | [https://www.libssh2.org/](https://www.libssh2.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.10.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libssh2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libssh2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libssh2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libssh2")
 ```
 
 

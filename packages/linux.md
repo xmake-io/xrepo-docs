@@ -5367,6 +5367,30 @@ add_requires("libsquish")
 ```
 
 
+### libssh2 (linux)
+
+
+| Description | *C library implementing the SSH2 protocol* |
+| -- | -- |
+| Homepage | [https://www.libssh2.org/](https://www.libssh2.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.10.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libssh2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libssh2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libssh2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libssh2")
+```
+
+
 ### libsvm (linux)
 
 
