@@ -2645,6 +2645,29 @@ add_requires("minizip")
 ```
 
 
+### minizip-ng (mingw)
+
+
+| Description | *Fork of the popular zip manipulation library found in the zlib distribution.* |
+| -- | -- |
+| Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
+| Versions | 3.0.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] minizip-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minizip-ng")
+```
+
+
 ### mjson (mingw)
 
 

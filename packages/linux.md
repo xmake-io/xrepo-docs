@@ -7268,6 +7268,29 @@ add_requires("minizip")
 ```
 
 
+### minizip-ng (linux)
+
+
+| Description | *Fork of the popular zip manipulation library found in the zlib distribution.* |
+| -- | -- |
+| Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
+| Versions | 3.0.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install minizip-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minizip-ng")
+```
+
+
 ### mjson (linux)
 
 
