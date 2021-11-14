@@ -7291,6 +7291,30 @@ add_requires("minizip-ng")
 ```
 
 
+### mio (linux)
+
+
+| Description | *Cross-platform C++11 header-only library for memory mapped file IO* |
+| -- | -- |
+| Homepage | [https://github.com/mandreyel/mio](https://github.com/mandreyel/mio) |
+| License | MIT |
+| Versions | 2021.9.21 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mio")
+```
+
+
 ### mjson (linux)
 
 
@@ -8524,6 +8548,30 @@ add_requires("papi")
 ```
 
 
+### parallel-hashmap (linux)
+
+
+| Description | *A family of header-only, very fast and memory-friendly hashmap and btree containers.* |
+| -- | -- |
+| Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
+| License | Apache-2.0 |
+| Versions | 1.33 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install parallel-hashmap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("parallel-hashmap")
+```
+
+
 ### partio (linux)
 
 
@@ -8638,6 +8686,30 @@ xrepo install pcre2
 
 ```lua
 add_requires("pcre2")
+```
+
+
+### picojson (linux)
+
+
+| Description | *A header-file-only, JSON parser serializer in C++* |
+| -- | -- |
+| Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
+| License | BSD-2-Clause |
+| Versions | v1.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [picojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picojson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install picojson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("picojson")
 ```
 
 

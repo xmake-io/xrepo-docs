@@ -1902,6 +1902,30 @@ add_requires("opencl-headers")
 
 
 ## p
+### parallel-hashmap (msys)
+
+
+| Description | *A family of header-only, very fast and memory-friendly hashmap and btree containers.* |
+| -- | -- |
+| Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
+| License | Apache-2.0 |
+| Versions | 1.33 |
+| Architectures | i386, x86_64 |
+| Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install parallel-hashmap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("parallel-hashmap")
+```
+
+
 ### patch (msys)
 
 
@@ -1922,6 +1946,30 @@ xrepo install patch
 
 ```lua
 add_requires("patch")
+```
+
+
+### picojson (msys)
+
+
+| Description | *A header-file-only, JSON parser serializer in C++* |
+| -- | -- |
+| Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
+| License | BSD-2-Clause |
+| Versions | v1.3.0 |
+| Architectures | i386, x86_64 |
+| Definition | [picojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picojson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install picojson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("picojson")
 ```
 
 

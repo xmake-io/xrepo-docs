@@ -6723,6 +6723,30 @@ add_requires("pagmo")
 ```
 
 
+### parallel-hashmap (windows)
+
+
+| Description | *A family of header-only, very fast and memory-friendly hashmap and btree containers.* |
+| -- | -- |
+| Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
+| License | Apache-2.0 |
+| Versions | 1.33 |
+| Architectures | x64, x86 |
+| Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install parallel-hashmap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("parallel-hashmap")
+```
+
+
 ### partio (windows)
 
 
@@ -6837,6 +6861,30 @@ xrepo install pcre2
 
 ```lua
 add_requires("pcre2")
+```
+
+
+### picojson (windows)
+
+
+| Description | *A header-file-only, JSON parser serializer in C++* |
+| -- | -- |
+| Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
+| License | BSD-2-Clause |
+| Versions | v1.3.0 |
+| Architectures | x64, x86 |
+| Definition | [picojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picojson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install picojson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("picojson")
 ```
 
 

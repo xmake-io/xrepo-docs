@@ -2042,6 +2042,30 @@ add_requires("openssl")
 
 
 ## p
+### parallel-hashmap (cross)
+
+
+| Description | *A family of header-only, very fast and memory-friendly hashmap and btree containers.* |
+| -- | -- |
+| Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
+| License | Apache-2.0 |
+| Versions | 1.33 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] parallel-hashmap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("parallel-hashmap")
+```
+
+
 ### patch (cross)
 
 
@@ -2062,6 +2086,30 @@ xrepo install -p cross [--sdk=/xxx] patch
 
 ```lua
 add_requires("patch")
+```
+
+
+### picojson (cross)
+
+
+| Description | *A header-file-only, JSON parser serializer in C++* |
+| -- | -- |
+| Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
+| License | BSD-2-Clause |
+| Versions | v1.3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [picojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picojson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] picojson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("picojson")
 ```
 
 
