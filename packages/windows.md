@@ -1423,7 +1423,7 @@ add_requires("directxshadercompiler")
 | Description | *This package contains the "DirectX Tool Kit", a collection of helper classes for writing Direct3D 11 C++ code for Universal Windows Platform (UWP) apps for Windows 10, Xbox One, and Win32 desktop applications for Windows 7 Service Pack 1 or later.* |
 | -- | -- |
 | Homepage | [https://github.com/microsoft/DirectXTK](https://github.com/microsoft/DirectXTK) |
-| Versions | 20.9.0, 21.4.0 |
+| Versions | 20.9.0, 21.11.0, 21.4.0 |
 | Architectures | x64, x86 |
 | Definition | [directxtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directxtk/xmake.lua) |
 
@@ -2640,7 +2640,8 @@ add_requires("glew")
 | Description | *GLFW is an Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development.* |
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
-| Versions | 3.3.2, 3.3.4 |
+| License | zlib |
+| Versions | 3.3.2, 3.3.4, 3.3.5 |
 | Architectures | x64, x86 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
@@ -2897,7 +2898,7 @@ add_requires("godotcpp")
 | -- | -- |
 | Homepage | [https://gr-framework.org/](https://gr-framework.org/) |
 | License | MIT |
-| Versions | 0.57.0, 0.58.0 |
+| Versions | 0.57.0, 0.58.0, 0.62.0 |
 | Architectures | x64 |
 | Definition | [gr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gr/xmake.lua) |
 
@@ -3232,7 +3233,7 @@ add_requires("icu4c")
 | -- | -- |
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
-| Versions | v3.1.0, v3.1.1, v3.1.2 |
+| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3 |
 | Architectures | x64, x86 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
@@ -4168,6 +4169,30 @@ xrepo install libmng
 
 ```lua
 add_requires("libmng")
+```
+
+
+### libmspack (windows)
+
+
+| Description | *libmspack is a portable library for some loosely related Microsoft compression formats.* |
+| -- | -- |
+| Homepage | [https://www.cabextract.org.uk/libmspack/](https://www.cabextract.org.uk/libmspack/) |
+| License | LGPL-2.0 |
+| Versions | v0.10.1alpha |
+| Architectures | x64, x86 |
+| Definition | [libmspack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmspack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmspack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmspack")
 ```
 
 
@@ -6538,7 +6563,7 @@ add_requires("opencv")
 | Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1 |
+| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1, 3.1.3 |
 | Architectures | x64, x86 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -6656,7 +6681,7 @@ add_requires("openssl")
 | Description | *OpenVDB - Sparse volume data structure and tools* |
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
-| Versions | 7.1.0, 8.0.1, 8.1.0 |
+| Versions | 7.1.0, 8.0.1, 8.1.0, 9.0.0 |
 | Architectures | x64, x86 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
@@ -7012,7 +7037,7 @@ add_requires("pmp")
 | -- | -- |
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSL-1.0 |
-| Versions | 1.11.0 |
+| Versions | 1.11.0, 1.11.1 |
 | Architectures | x64, x86 |
 | Definition | [poco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poco/xmake.lua) |
 

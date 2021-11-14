@@ -1097,7 +1097,8 @@ add_requires("glew")
 | Description | *GLFW is an Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development.* |
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
-| Versions | 3.3.2, 3.3.4 |
+| License | zlib |
+| Versions | 3.3.2, 3.3.4, 3.3.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 

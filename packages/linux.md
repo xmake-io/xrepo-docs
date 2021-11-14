@@ -2828,7 +2828,8 @@ add_requires("glew")
 | Description | *GLFW is an Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development.* |
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
-| Versions | 3.3.2, 3.3.4 |
+| License | zlib |
+| Versions | 3.3.2, 3.3.4, 3.3.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
@@ -3563,7 +3564,7 @@ add_requires("imagemagick")
 | -- | -- |
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
-| Versions | v3.1.0, v3.1.1, v3.1.2 |
+| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
@@ -4919,6 +4920,30 @@ xrepo install libmpdclient
 
 ```lua
 add_requires("libmpdclient")
+```
+
+
+### libmspack (linux)
+
+
+| Description | *libmspack is a portable library for some loosely related Microsoft compression formats.* |
+| -- | -- |
+| Homepage | [https://www.cabextract.org.uk/libmspack/](https://www.cabextract.org.uk/libmspack/) |
+| License | LGPL-2.0 |
+| Versions | v0.10.1alpha |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libmspack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmspack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmspack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmspack")
 ```
 
 
@@ -8316,7 +8341,7 @@ add_requires("opencv")
 | Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1 |
+| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1, 3.1.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -8457,7 +8482,7 @@ add_requires("openssl")
 | Description | *OpenVDB - Sparse volume data structure and tools* |
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
-| Versions | 7.1.0, 8.0.1, 8.1.0 |
+| Versions | 7.1.0, 8.0.1, 8.1.0, 9.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
@@ -8837,7 +8862,7 @@ add_requires("pmp")
 | -- | -- |
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSL-1.0 |
-| Versions | 1.11.0 |
+| Versions | 1.11.0, 1.11.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [poco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poco/xmake.lua) |
 
