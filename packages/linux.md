@@ -3747,6 +3747,30 @@ add_requires("jasper")
 ```
 
 
+### jemalloc (linux)
+
+
+| Description | *A general purpose malloc(3) implementation that emphasizes
+fragmentation avoidance and scalable concurrency support* |
+| -- | -- |
+| Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
+| Versions | 5.2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jemalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jemalloc")
+```
+
+
 ### jsmn (linux)
 
 
