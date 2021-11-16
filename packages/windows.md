@@ -103,7 +103,7 @@ add_requires("angelscript")
 | -- | -- |
 | Homepage | [http://arma.sourceforge.net/](http://arma.sourceforge.net/) |
 | License | Apache-2.0 |
-| Versions | 10.7.0 |
+| Versions | 10.7.0, 10.7.3 |
 | Architectures | x64, x86 |
 | Definition | [armadillo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/armadillo/xmake.lua) |
 
@@ -1873,6 +1873,30 @@ add_requires("embree")
 ```
 
 
+### ensmallen (windows)
+
+
+| Description | *flexible C++ library for efficient numerical optimization* |
+| -- | -- |
+| Homepage | [https://ensmallen.org/](https://ensmallen.org/) |
+| License | BSD-3-Clause |
+| Versions | 2.18.0 |
+| Architectures | x64, x86 |
+| Definition | [ensmallen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/ensmallen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ensmallen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ensmallen")
+```
+
+
 ### entt (windows)
 
 
@@ -3186,7 +3210,7 @@ add_requires("hwloc")
 | -- | -- |
 | Homepage | [https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods) |
 | License | Apache-2.0 |
-| Versions | v2.20.0 |
+| Versions | v2.20.0, v2.23.0 |
 | Architectures | x64, x86 |
 | Definition | [hypre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hypre/xmake.lua) |
 

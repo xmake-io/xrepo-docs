@@ -127,7 +127,7 @@ add_requires("angelscript")
 | -- | -- |
 | Homepage | [http://arma.sourceforge.net/](http://arma.sourceforge.net/) |
 | License | Apache-2.0 |
-| Versions | 10.7.0 |
+| Versions | 10.7.0, 10.7.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [armadillo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/armadillo/xmake.lua) |
 
@@ -1946,6 +1946,30 @@ add_requires("embree")
 ```
 
 
+### ensmallen (linux)
+
+
+| Description | *flexible C++ library for efficient numerical optimization* |
+| -- | -- |
+| Homepage | [https://ensmallen.org/](https://ensmallen.org/) |
+| License | BSD-3-Clause |
+| Versions | 2.18.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ensmallen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/ensmallen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ensmallen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ensmallen")
+```
+
+
 ### entt (linux)
 
 
@@ -3493,7 +3517,7 @@ add_requires("hwloc")
 | -- | -- |
 | Homepage | [https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods) |
 | License | Apache-2.0 |
-| Versions | v2.20.0 |
+| Versions | v2.20.0, v2.23.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hypre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hypre/xmake.lua) |
 
@@ -4266,6 +4290,30 @@ xrepo install libcurl
 
 ```lua
 add_requires("libcurl")
+```
+
+
+### libdc1394 (linux)
+
+
+| Description | *IIDC Camera Control Library* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/libdc1394/](https://sourceforge.net/projects/libdc1394/) |
+| License | LGPL-2.1 |
+| Versions | 2.2.6 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libdc1394/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdc1394/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdc1394
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdc1394")
 ```
 
 
