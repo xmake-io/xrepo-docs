@@ -30,7 +30,8 @@ add_requires("7z")
 | Description | *C++ Common Libraries* |
 | -- | -- |
 | Homepage | [https://abseil.io](https://abseil.io) |
-| Versions | 20200225.1, 20210324.1, 20210324.2 |
+| License | Apache-2.0 |
+| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
@@ -3437,6 +3438,30 @@ add_requires("ip2region")
 ```
 
 
+### irrlicht (macosx)
+
+
+| Description | *The Irrlicht Engine is an open source realtime 3D engine written in C++.* |
+| -- | -- |
+| Homepage | [https://irrlicht.sourceforge.io/](https://irrlicht.sourceforge.io/) |
+| License | zlib |
+| Versions | 1.8.5 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [irrlicht/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrlicht/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install irrlicht
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("irrlicht")
+```
+
+
 ### irrxml (macosx)
 
 
@@ -3918,7 +3943,8 @@ add_requires("libcroco")
 | Description | *The multiprotocol file transfer library.* |
 | -- | -- |
 | Homepage | [https://curl.haxx.se/](https://curl.haxx.se/) |
-| Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0 |
+| License | MIT |
+| Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0, 7.80.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libcurl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcurl/xmake.lua) |
 
