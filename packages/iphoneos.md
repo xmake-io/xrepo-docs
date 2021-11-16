@@ -1,4 +1,28 @@
 ## a
+### asio (iphoneos)
+
+
+| Description | *Asio is a cross-platform C++ library for network and low-level I/O programming that provides developers with a consistent asynchronous model using a modern C++ approach.* |
+| -- | -- |
+| Homepage | [http://think-async.com/Asio/](http://think-async.com/Asio/) |
+| License | BSL-1.0 |
+| Versions | 1.20.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [asio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos asio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asio")
+```
+
+
 ### autoconf (iphoneos)
 
 
