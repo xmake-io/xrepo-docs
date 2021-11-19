@@ -435,6 +435,39 @@
 <pre><code class="lang-lua">add_requires("bzip2")
 </code></pre>
 <h2 id="c">c</h2>
+<h3 id="cacertificatesandroid">ca-certificates (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://mkcert.org/">https://mkcert.org/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>20211118</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua">ca-certificates/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] ca-certificates
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("ca-certificates")
+</code></pre>
 <h3 id="capstoneandroid">capstone (android)</h3>
 <table>
 <thead>
@@ -1747,7 +1780,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>20201128</td>
+<td>20211117</td>
 </tr>
 <tr>
 <td>Architectures</td>

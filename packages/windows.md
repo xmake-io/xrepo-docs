@@ -592,6 +592,29 @@ add_requires("c-ares")
 ```
 
 
+### ca-certificates (windows)
+
+
+| Description | *Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.* |
+| -- | -- |
+| Homepage | [https://mkcert.org/](https://mkcert.org/) |
+| Versions | 20211118 |
+| Architectures | x64, x86 |
+| Definition | [ca-certificates/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ca-certificates
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ca-certificates")
+```
+
+
 ### cairo (windows)
 
 
@@ -2854,7 +2877,7 @@ add_requires("gmsh")
 | Description | *GN is a meta-build system that generates build files for Ninja.* |
 | -- | -- |
 | Homepage | [https://gn.googlesource.com/gn](https://gn.googlesource.com/gn) |
-| Versions | 20201128 |
+| Versions | 20211117 |
 | Architectures | x64, x86 |
 | Definition | [gn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gn/xmake.lua) |
 
@@ -6651,6 +6674,30 @@ xrepo install openexr
 
 ```lua
 add_requires("openexr")
+```
+
+
+### openh264 (windows)
+
+
+| Description | *OpenH264 is a codec library which supports H.264 encoding and decoding.* |
+| -- | -- |
+| Homepage | [http://www.openh264.org/](http://www.openh264.org/) |
+| License | BSD-2-Clause |
+| Versions | v2.1.1 |
+| Architectures | x64, x86 |
+| Definition | [openh264/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openh264/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openh264
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openh264")
 ```
 
 

@@ -259,6 +259,29 @@ add_requires("bzip2")
 
 
 ## c
+### ca-certificates (mingw)
+
+
+| Description | *Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.* |
+| -- | -- |
+| Homepage | [https://mkcert.org/](https://mkcert.org/) |
+| Versions | 20211118 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [ca-certificates/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ca-certificates
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ca-certificates")
+```
+
+
 ### capstone (mingw)
 
 
@@ -1191,7 +1214,7 @@ add_requires("gmm")
 | Description | *GN is a meta-build system that generates build files for Ninja.* |
 | -- | -- |
 | Homepage | [https://gn.googlesource.com/gn](https://gn.googlesource.com/gn) |
-| Versions | 20201128 |
+| Versions | 20211117 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [gn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gn/xmake.lua) |
 
