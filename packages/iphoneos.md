@@ -1309,7 +1309,7 @@ add_requires("jsoncons")
 | Description | *A C++ library for interacting with JSON.* |
 | -- | -- |
 | Homepage | [https://github.com/open-source-parsers/jsoncpp/wiki](https://github.com/open-source-parsers/jsoncpp/wiki) |
-| Versions | 1.9.4 |
+| Versions | 1.9.4, 1.9.5 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [jsoncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncpp/xmake.lua) |
 

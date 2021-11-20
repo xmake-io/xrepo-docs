@@ -3541,7 +3541,7 @@ add_requires("jsoncons")
 | Description | *A C++ library for interacting with JSON.* |
 | -- | -- |
 | Homepage | [https://github.com/open-source-parsers/jsoncpp/wiki](https://github.com/open-source-parsers/jsoncpp/wiki) |
-| Versions | 1.9.4 |
+| Versions | 1.9.4, 1.9.5 |
 | Architectures | x64, x86 |
 | Definition | [jsoncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncpp/xmake.lua) |
 
@@ -3639,7 +3639,7 @@ add_requires("lcms")
 | -- | -- |
 | Homepage | [http://www.leptonica.org/](http://www.leptonica.org/) |
 | License | BSD-2-Clause |
-| Versions | 1.80.0, 1.81.1 |
+| Versions | 1.80.0, 1.81.1, 1.82.0 |
 | Architectures | x64, x86 |
 | Definition | [leptonica/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leptonica/xmake.lua) |
 
@@ -8410,7 +8410,7 @@ add_requires("tclap")
 | -- | -- |
 | Homepage | [https://tesseract-ocr.github.io/](https://tesseract-ocr.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.1.1 |
+| Versions | 4.1.1, 4.1.3 |
 | Architectures | x64, x86 |
 | Definition | [tesseract/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tesseract/xmake.lua) |
 
