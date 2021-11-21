@@ -3843,6 +3843,30 @@ add_requires("lcms")
 ```
 
 
+### lemon (macosx)
+
+
+| Description | *Library for Efficient Modeling and Optimization in Networks.* |
+| -- | -- |
+| Homepage | [https://lemon.cs.elte.hu/trac/lemon](https://lemon.cs.elte.hu/trac/lemon) |
+| License | BSL-1.0 |
+| Versions | 1.3.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [lemon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lemon/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lemon
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lemon")
+```
+
+
 ### leveldb (macosx)
 
 
@@ -9306,6 +9330,29 @@ add_requires("sol2")
 ```
 
 
+### soplex (macosx)
+
+
+| Description | *SoPlex is an optimization package for solving linear programming problems (LPs) based on an advanced implementation of the primal and dual revised simplex algorithm.* |
+| -- | -- |
+| Homepage | [https://soplex.zib.de/](https://soplex.zib.de/) |
+| Versions | 5.0.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [soplex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soplex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soplex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soplex")
+```
+
+
 ### spdlog (macosx)
 
 
@@ -10214,7 +10261,7 @@ add_requires("vc")
 | -- | -- |
 | Homepage | [http://www.vcglib.net/](http://www.vcglib.net/) |
 | License | GPL-3.0 |
-| Versions | 2020.12, 2021.07 |
+| Versions | 2020.12, 2021.07, 2021.10 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [vcglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcglib/xmake.lua) |
 
@@ -10524,7 +10571,7 @@ add_requires("xorgproto")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xsimd/](https://github.com/xtensor-stack/xsimd/) |
 | License | BSD-3-Clause |
-| Versions | 7.6.0 |
+| Versions | 7.6.0, 8.0.3 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [xsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xsimd/xmake.lua) |
 
@@ -10548,7 +10595,7 @@ add_requires("xsimd")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtensor/](https://github.com/xtensor-stack/xtensor/) |
 | License | BSD-3-Clause |
-| Versions | 0.23.10 |
+| Versions | 0.23.10, 0.24.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [xtensor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor/xmake.lua) |
 
@@ -10572,7 +10619,7 @@ add_requires("xtensor")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtl/](https://github.com/xtensor-stack/xtl/) |
 | License | BSD-3-Clause |
-| Versions | 0.7.2 |
+| Versions | 0.7.2, 0.7.3 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [xtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtl/xmake.lua) |
 
