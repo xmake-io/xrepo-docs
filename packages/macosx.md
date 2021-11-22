@@ -8269,6 +8269,30 @@ add_requires("patch")
 ```
 
 
+### pciutils (macosx)
+
+
+| Description | *The PCI Utilities* |
+| -- | -- |
+| Homepage | [https://mj.ucw.cz/sw/pciutils/](https://mj.ucw.cz/sw/pciutils/) |
+| License | GPL-2.0 |
+| Versions | 3.7.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [pciutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pciutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pciutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pciutils")
+```
+
+
 ### pcl (macosx)
 
 

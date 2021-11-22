@@ -8813,6 +8813,30 @@ add_requires("patch")
 ```
 
 
+### pciutils (linux)
+
+
+| Description | *The PCI Utilities* |
+| -- | -- |
+| Homepage | [https://mj.ucw.cz/sw/pciutils/](https://mj.ucw.cz/sw/pciutils/) |
+| License | GPL-2.0 |
+| Versions | 3.7.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [pciutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pciutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pciutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pciutils")
+```
+
+
 ### pcl (linux)
 
 
