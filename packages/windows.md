@@ -4981,7 +4981,8 @@ add_requires("libzip")
 | Description | *Library to Instrument Executable Formats.* |
 | -- | -- |
 | Homepage | [https://lief.quarkslab.com](https://lief.quarkslab.com) |
-| Versions | 0.10.1 |
+| License | Apache-2.0 |
+| Versions | 0.10.1, 0.11.5 |
 | Architectures | x64, x86 |
 | Definition | [lief/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lief/xmake.lua) |
 

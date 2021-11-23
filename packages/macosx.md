@@ -6193,7 +6193,8 @@ add_requires("libzip")
 | Description | *Library to Instrument Executable Formats.* |
 | -- | -- |
 | Homepage | [https://lief.quarkslab.com](https://lief.quarkslab.com) |
-| Versions | 0.10.1 |
+| License | Apache-2.0 |
+| Versions | 0.10.1, 0.11.5 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [lief/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lief/xmake.lua) |
 
@@ -9493,6 +9494,30 @@ xrepo install spirv-tools
 
 ```lua
 add_requires("spirv-tools")
+```
+
+
+### spot (macosx)
+
+
+| Description | *Spot: a platform for LTL and ω-automata manipulation* |
+| -- | -- |
+| Homepage | [https://spot.lrde.epita.fr/](https://spot.lrde.epita.fr/) |
+| License | GPL-3.0 |
+| Versions | 2.10.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [spot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spot/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install spot
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spot")
 ```
 
 
