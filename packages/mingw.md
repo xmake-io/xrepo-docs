@@ -3028,6 +3028,29 @@ add_requires("opencl-headers")
 ```
 
 
+### openssl (mingw)
+
+
+| Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
+| -- | -- |
+| Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
+| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h, 1.1.1k, 1.1.1l |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] openssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openssl")
+```
+
+
 ### osqp (mingw)
 
 
