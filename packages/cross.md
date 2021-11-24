@@ -260,6 +260,30 @@ add_requires("cereal")
 ```
 
 
+### ceval (cross)
+
+
+| Description | *A C/C++ library for parsing and evaluation of arithmetic expressions.* |
+| -- | -- |
+| Homepage | [https://github.com/erstan/ceval](https://github.com/erstan/ceval) |
+| License | MIT |
+| Versions | 1.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ceval/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceval/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ceval
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ceval")
+```
+
+
 ### cgetopt (cross)
 
 
@@ -2250,6 +2274,30 @@ xrepo install -p cross [--sdk=/xxx] protoc
 
 ```lua
 add_requires("protoc")
+```
+
+
+### prvhash (cross)
+
+
+| Description | *PRVHASH - Pseudo-Random-Value Hash* |
+| -- | -- |
+| Homepage | [https://github.com/avaneev/prvhash](https://github.com/avaneev/prvhash) |
+| License | MIT |
+| Versions | 4.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [prvhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prvhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] prvhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("prvhash")
 ```
 
 

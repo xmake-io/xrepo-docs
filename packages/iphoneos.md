@@ -260,6 +260,30 @@ add_requires("cereal")
 ```
 
 
+### ceval (iphoneos)
+
+
+| Description | *A C/C++ library for parsing and evaluation of arithmetic expressions.* |
+| -- | -- |
+| Homepage | [https://github.com/erstan/ceval](https://github.com/erstan/ceval) |
+| License | MIT |
+| Versions | 1.0.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [ceval/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceval/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos ceval
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ceval")
+```
+
+
 ### cgetopt (iphoneos)
 
 
@@ -2861,6 +2885,30 @@ xrepo install -p iphoneos protoc
 
 ```lua
 add_requires("protoc")
+```
+
+
+### prvhash (iphoneos)
+
+
+| Description | *PRVHASH - Pseudo-Random-Value Hash* |
+| -- | -- |
+| Homepage | [https://github.com/avaneev/prvhash](https://github.com/avaneev/prvhash) |
+| License | MIT |
+| Versions | 4.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [prvhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prvhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos prvhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("prvhash")
 ```
 
 

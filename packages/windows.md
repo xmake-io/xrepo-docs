@@ -781,6 +781,30 @@ add_requires("cereal")
 ```
 
 
+### ceval (windows)
+
+
+| Description | *A C/C++ library for parsing and evaluation of arithmetic expressions.* |
+| -- | -- |
+| Homepage | [https://github.com/erstan/ceval](https://github.com/erstan/ceval) |
+| License | MIT |
+| Versions | 1.0.0 |
+| Architectures | x64, x86 |
+| Definition | [ceval/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceval/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ceval
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ceval")
+```
+
+
 ### cfitsio (windows)
 
 
@@ -1733,7 +1757,7 @@ add_requires("draco")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
 | License | MIT |
-| Versions | v1.4.1, v1.6.0, v1.7.1 |
+| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3 |
 | Architectures | x64 |
 | Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
 
@@ -7316,6 +7340,30 @@ add_requires("protoc")
 ```
 
 
+### prvhash (windows)
+
+
+| Description | *PRVHASH - Pseudo-Random-Value Hash* |
+| -- | -- |
+| Homepage | [https://github.com/avaneev/prvhash](https://github.com/avaneev/prvhash) |
+| License | MIT |
+| Versions | 4.0 |
+| Architectures | x64, x86 |
+| Definition | [prvhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prvhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install prvhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("prvhash")
+```
+
+
 ### ptex (windows)
 
 
@@ -8764,7 +8812,7 @@ add_requires("toml++")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1, v1.5.0 |
+| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2 |
 | Architectures | x64, x86 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 

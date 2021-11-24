@@ -330,6 +330,30 @@ add_requires("cereal")
 ```
 
 
+### ceval (android)
+
+
+| Description | *A C/C++ library for parsing and evaluation of arithmetic expressions.* |
+| -- | -- |
+| Homepage | [https://github.com/erstan/ceval](https://github.com/erstan/ceval) |
+| License | MIT |
+| Versions | 1.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [ceval/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceval/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ceval
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ceval")
+```
+
+
 ### cgetopt (android)
 
 
@@ -3235,6 +3259,30 @@ xrepo install -p android [--ndk=/xxx] protoc
 
 ```lua
 add_requires("protoc")
+```
+
+
+### prvhash (android)
+
+
+| Description | *PRVHASH - Pseudo-Random-Value Hash* |
+| -- | -- |
+| Homepage | [https://github.com/avaneev/prvhash](https://github.com/avaneev/prvhash) |
+| License | MIT |
+| Versions | 4.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [prvhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prvhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] prvhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("prvhash")
 ```
 
 
