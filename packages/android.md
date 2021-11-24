@@ -3286,6 +3286,29 @@ add_requires("prvhash")
 ```
 
 
+### pystring (android)
+
+
+| Description | *Pystring is a collection of C++ functions which match the interface and behavior of python's string class methods using std::string.* |
+| -- | -- |
+| Homepage | [https://github.com/imageworks/pystring](https://github.com/imageworks/pystring) |
+| Versions | 2020.02.04 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [pystring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pystring/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] pystring
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pystring")
+```
+
+
 ### python (android)
 
 
@@ -3805,6 +3828,30 @@ xrepo install -p android [--ndk=/xxx] tclap
 
 ```lua
 add_requires("tclap")
+```
+
+
+### tinycbor (android)
+
+
+| Description | *Concise Binary Object Representation (CBOR) Library* |
+| -- | -- |
+| Homepage | [https://github.com/intel/tinycbor](https://github.com/intel/tinycbor) |
+| License | MIT |
+| Versions | v0.6.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tinycbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycbor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tinycbor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinycbor")
 ```
 
 

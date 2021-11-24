@@ -2160,6 +2160,29 @@ add_requires("prvhash")
 ```
 
 
+### pystring (msys)
+
+
+| Description | *Pystring is a collection of C++ functions which match the interface and behavior of python's string class methods using std::string.* |
+| -- | -- |
+| Homepage | [https://github.com/imageworks/pystring](https://github.com/imageworks/pystring) |
+| Versions | 2020.02.04 |
+| Architectures | i386, x86_64 |
+| Definition | [pystring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pystring/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pystring
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pystring")
+```
+
+
 ### python (msys)
 
 
@@ -2631,6 +2654,30 @@ xrepo install tiltedcore
 
 ```lua
 add_requires("tiltedcore")
+```
+
+
+### tinycbor (msys)
+
+
+| Description | *Concise Binary Object Representation (CBOR) Library* |
+| -- | -- |
+| Homepage | [https://github.com/intel/tinycbor](https://github.com/intel/tinycbor) |
+| License | MIT |
+| Versions | v0.6.0 |
+| Architectures | i386, x86_64 |
+| Definition | [tinycbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycbor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinycbor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinycbor")
 ```
 
 
