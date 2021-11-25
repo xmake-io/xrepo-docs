@@ -2058,6 +2058,29 @@ add_requires("libsoundio")
 ```
 
 
+### libspng (mingw)
+
+
+| Description | *Simple, modern libpng alternative* |
+| -- | -- |
+| Homepage | [https://libspng.org](https://libspng.org) |
+| Versions | v0.7.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libspng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libspng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libspng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libspng")
+```
+
+
 ### libsvm (mingw)
 
 

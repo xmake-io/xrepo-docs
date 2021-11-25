@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: opencolorio, pystring, tinycbor**
+- **Recently added: libspng, opencolorio, pystring**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

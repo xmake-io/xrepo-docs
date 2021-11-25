@@ -1237,6 +1237,29 @@ add_requires("libsoundio")
 ```
 
 
+### libspng (msys)
+
+
+| Description | *Simple, modern libpng alternative* |
+| -- | -- |
+| Homepage | [https://libspng.org](https://libspng.org) |
+| Versions | v0.7.1 |
+| Architectures | i386, x86_64 |
+| Definition | [libspng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libspng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libspng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libspng")
+```
+
+
 ### libsvm (msys)
 
 
