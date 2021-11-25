@@ -952,7 +952,8 @@ add_requires("chipmunk2d")
 | Description | *Ultralightweight JSON parser in ANSI C.* |
 | -- | -- |
 | Homepage | [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) |
-| Versions | 1.7.10, 1.7.14 |
+| License | MIT |
+| Versions | 1.7.10, 1.7.14, 1.7.15 |
 | Architectures | x64, x86 |
 | Definition | [cjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cjson/xmake.lua) |
 
@@ -6676,6 +6677,30 @@ xrepo install opencl-headers
 
 ```lua
 add_requires("opencl-headers")
+```
+
+
+### opencolorio (windows)
+
+
+| Description | *A complete color management solution geared towards motion picture production with an emphasis on visual effects and computer animation.* |
+| -- | -- |
+| Homepage | [https://opencolorio.org/](https://opencolorio.org/) |
+| License | BSD-3-Clause |
+| Versions | v2.1.0 |
+| Architectures | x64, x86 |
+| Definition | [opencolorio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencolorio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opencolorio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencolorio")
 ```
 
 

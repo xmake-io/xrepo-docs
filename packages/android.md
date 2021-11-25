@@ -431,7 +431,8 @@ add_requires("chipmunk2d")
 | Description | *Ultralightweight JSON parser in ANSI C.* |
 | -- | -- |
 | Homepage | [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) |
-| Versions | 1.7.10, 1.7.14 |
+| License | MIT |
+| Versions | 1.7.10, 1.7.14, 1.7.15 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [cjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cjson/xmake.lua) |
 
