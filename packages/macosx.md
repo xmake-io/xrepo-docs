@@ -3470,7 +3470,7 @@ add_requires("imath")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85 |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -3484,6 +3484,29 @@ xrepo install imgui
 
 ```lua
 add_requires("imgui")
+```
+
+
+### imguizmo (macosx)
+
+
+| Description | *Immediate mode 3D gizmo for scene editing and other controls based on Dear Imgui* |
+| -- | -- |
+| Homepage | [https://github.com/CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) |
+| Versions | 1.83 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [imguizmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imguizmo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install imguizmo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imguizmo")
 ```
 
 
@@ -8198,6 +8221,30 @@ add_requires("openssl")
 ```
 
 
+### opensubdiv (macosx)
+
+
+| Description | *OpenSubdiv is a set of open source libraries that implement high performance subdivision surface (subdiv) evaluation on massively parallel CPU and GPU architectures.* |
+| -- | -- |
+| Homepage | [https://graphics.pixar.com/opensubdiv/docs/intro.html](https://graphics.pixar.com/opensubdiv/docs/intro.html) |
+| License | Apache-2.0 |
+| Versions | 3.4.4 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [opensubdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opensubdiv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opensubdiv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opensubdiv")
+```
+
+
 ### openvdb (macosx)
 
 
@@ -8748,7 +8795,7 @@ add_requires("prvhash")
 | -- | -- |
 | Homepage | [http://ptex.us/](http://ptex.us/) |
 | License | BSD-3-Clause |
-| Versions | v2.3.2 |
+| Versions | v2.3.2, v2.4.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
 
