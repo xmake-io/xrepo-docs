@@ -1205,6 +1205,29 @@ add_requires("cpp-httplib")
 ```
 
 
+### cppcoro (windows)
+
+
+| Description | *A library of C++ coroutine abstractions for the coroutines TS* |
+| -- | -- |
+| Homepage | [https://github.com/lewissbaker/cppcoro](https://github.com/lewissbaker/cppcoro) |
+| Versions | 2020.10.13 |
+| Architectures | x64, x86 |
+| Definition | [cppcoro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcoro/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppcoro
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppcoro")
+```
+
+
 ### cpr (windows)
 
 
