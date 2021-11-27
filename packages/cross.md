@@ -1518,6 +1518,29 @@ add_requires("lodepng")
 ```
 
 
+### loguru (cross)
+
+
+| Description | *A lightweight C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
+| Versions | v2.1.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] loguru
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("loguru")
+```
+
+
 ### lua (cross)
 
 
@@ -3012,6 +3035,30 @@ xrepo install -p cross [--sdk=/xxx] urdfdom-headers
 
 ```lua
 add_requires("urdfdom-headers")
+```
+
+
+### utfcpp (cross)
+
+
+| Description | *UTF8-CPP: UTF-8 with C++ in a Portable Way* |
+| -- | -- |
+| Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
+| License | BSL-1.0 |
+| Versions | v3.2.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] utfcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utfcpp")
 ```
 
 

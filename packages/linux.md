@@ -3613,7 +3613,7 @@ add_requires("icbc")
 | Description | *C/C++ libraries for Unicode and globalization.* |
 | -- | -- |
 | Homepage | [http://site.icu-project.org/](http://site.icu-project.org/) |
-| Versions | 64.2, 68.1, 68.2, 69.1 |
+| Versions | 64.2, 68.1, 68.2, 69.1, 70.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [icu4c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icu4c/xmake.lua) |
 
@@ -6873,6 +6873,29 @@ add_requires("log4cplus")
 ```
 
 
+### loguru (linux)
+
+
+| Description | *A lightweight C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
+| Versions | v2.1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install loguru
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("loguru")
+```
+
+
 ### lua (linux)
 
 
@@ -9050,6 +9073,30 @@ add_requires("pcre2")
 ```
 
 
+### pegtl (linux)
+
+
+| Description | *Parsing Expression Grammar Template Library* |
+| -- | -- |
+| Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
+| License | BSL-1.0 |
+| Versions | 3.2.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pegtl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pegtl")
+```
+
+
 ### picojson (linux)
 
 
@@ -11106,6 +11153,30 @@ add_requires("uriparser")
 ```
 
 
+### utfcpp (linux)
+
+
+| Description | *UTF8-CPP: UTF-8 with C++ in a Portable Way* |
+| -- | -- |
+| Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
+| License | BSL-1.0 |
+| Versions | v3.2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install utfcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utfcpp")
+```
+
+
 ### util-linux (linux)
 
 
@@ -11281,7 +11352,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://vtk.org/](https://vtk.org/) |
 | License | BSD-3-Clause |
-| Versions | 9.0.1, 9.0.3 |
+| Versions | 9.0.1, 9.0.3, 9.1.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vtk/xmake.lua) |
 

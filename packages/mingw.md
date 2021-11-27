@@ -2410,6 +2410,29 @@ add_requires("lodepng")
 ```
 
 
+### loguru (mingw)
+
+
+| Description | *A lightweight C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
+| Versions | v2.1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] loguru
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("loguru")
+```
+
+
 ### lua (mingw)
 
 
@@ -3237,6 +3260,30 @@ xrepo install -p mingw [--mingw=/xxx] pcre2
 
 ```lua
 add_requires("pcre2")
+```
+
+
+### pegtl (mingw)
+
+
+| Description | *Parsing Expression Grammar Template Library* |
+| -- | -- |
+| Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
+| License | BSL-1.0 |
+| Versions | 3.2.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] pegtl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pegtl")
 ```
 
 
@@ -4278,6 +4325,30 @@ xrepo install -p mingw [--mingw=/xxx] urdfdom-headers
 
 ```lua
 add_requires("urdfdom-headers")
+```
+
+
+### utfcpp (mingw)
+
+
+| Description | *UTF8-CPP: UTF-8 with C++ in a Portable Way* |
+| -- | -- |
+| Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
+| License | BSL-1.0 |
+| Versions | v3.2.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] utfcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utfcpp")
 ```
 
 

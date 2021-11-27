@@ -2293,6 +2293,29 @@ add_requires("lodepng")
 ```
 
 
+### loguru (android)
+
+
+| Description | *A lightweight C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
+| Versions | v2.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] loguru
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("loguru")
+```
+
+
 ### lua (android)
 
 
@@ -4114,6 +4137,56 @@ xrepo install -p android [--ndk=/xxx] urdfdom-headers
 
 ```lua
 add_requires("urdfdom-headers")
+```
+
+
+### utfcpp (android)
+
+
+| Description | *UTF8-CPP: UTF-8 with C++ in a Portable Way* |
+| -- | -- |
+| Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
+| License | BSL-1.0 |
+| Versions | v3.2.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] utfcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utfcpp")
+```
+
+
+
+## v
+### vulkan-validationlayers (android)
+
+
+| Description | *Vulkan Validation Layers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-ValidationLayers/](https://github.com/KhronosGroup/Vulkan-ValidationLayers/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.189+1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [vulkan-validationlayers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-validationlayers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] vulkan-validationlayers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-validationlayers")
 ```
 
 

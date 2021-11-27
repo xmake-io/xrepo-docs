@@ -1424,6 +1424,29 @@ add_requires("lodepng")
 ```
 
 
+### loguru (msys)
+
+
+| Description | *A lightweight C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
+| Versions | v2.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install loguru
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("loguru")
+```
+
+
 ### lua (msys)
 
 
@@ -2869,6 +2892,30 @@ xrepo install urdfdom-headers
 
 ```lua
 add_requires("urdfdom-headers")
+```
+
+
+### utfcpp (msys)
+
+
+| Description | *UTF8-CPP: UTF-8 with C++ in a Portable Way* |
+| -- | -- |
+| Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
+| License | BSL-1.0 |
+| Versions | v3.2.1 |
+| Architectures | i386, x86_64 |
+| Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install utfcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utfcpp")
 ```
 
 
