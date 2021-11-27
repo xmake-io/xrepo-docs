@@ -1308,6 +1308,29 @@ add_requires("libmagic")
 ```
 
 
+### libressl (bsd)
+
+
+| Description | *LibreSSL is a version of the TLS/crypto stack forked from OpenSSL in 2014, with goals of modernizing the codebase, improving security, and applying best practice development processes.* |
+| -- | -- |
+| Homepage | [https://www.libressl.org/](https://www.libressl.org/) |
+| Versions | 3.4.2 |
+| Architectures | i386, x86_64 |
+| Definition | [libressl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libressl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libressl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libressl")
+```
+
+
 ### libsdl (bsd)
 
 

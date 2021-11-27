@@ -4154,6 +4154,30 @@ add_requires("libgit2")
 ```
 
 
+### libharu (windows)
+
+
+| Description | *libHaru is a free, cross platform, open source library for generating PDF files.* |
+| -- | -- |
+| Homepage | [http://libharu.org/](http://libharu.org/) |
+| License | zlib |
+| Versions | 2.3.0 |
+| Architectures | x64, x86 |
+| Definition | [libharu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libharu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libharu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libharu")
+```
+
+
 ### libheif (windows)
 
 
@@ -4479,6 +4503,29 @@ xrepo install libraw
 
 ```lua
 add_requires("libraw")
+```
+
+
+### libressl (windows)
+
+
+| Description | *LibreSSL is a version of the TLS/crypto stack forked from OpenSSL in 2014, with goals of modernizing the codebase, improving security, and applying best practice development processes.* |
+| -- | -- |
+| Homepage | [https://www.libressl.org/](https://www.libressl.org/) |
+| Versions | 3.4.2 |
+| Architectures | x64, x86 |
+| Definition | [libressl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libressl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libressl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libressl")
 ```
 
 
