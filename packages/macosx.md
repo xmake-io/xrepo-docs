@@ -9214,6 +9214,30 @@ add_requires("re2")
 ```
 
 
+### readerwriterqueue (macosx)
+
+
+| Description | *A fast single-producer, single-consumer lock-free queue for C++* |
+| -- | -- |
+| Homepage | [https://github.com/cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) |
+| License | BSD-3-Clause |
+| Versions | v1.0.6 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [readerwriterqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readerwriterqueue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install readerwriterqueue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("readerwriterqueue")
+```
+
+
 ### recastnavigation (macosx)
 
 

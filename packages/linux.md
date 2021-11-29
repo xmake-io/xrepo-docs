@@ -9804,6 +9804,30 @@ add_requires("re2")
 ```
 
 
+### readerwriterqueue (linux)
+
+
+| Description | *A fast single-producer, single-consumer lock-free queue for C++* |
+| -- | -- |
+| Homepage | [https://github.com/cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) |
+| License | BSD-3-Clause |
+| Versions | v1.0.6 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [readerwriterqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readerwriterqueue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install readerwriterqueue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("readerwriterqueue")
+```
+
+
 ### recastnavigation (linux)
 
 
