@@ -8268,6 +8268,29 @@ add_requires("openmesh")
 ```
 
 
+### openmp (macosx)
+
+
+| Description | *The OpenMP API specification for parallel programming* |
+| -- | -- |
+| Homepage | [https://openmp.org/](https://openmp.org/) |
+| Versions |  |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [openmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openmp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openmp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openmp")
+```
+
+
 ### openssl (macosx)
 
 

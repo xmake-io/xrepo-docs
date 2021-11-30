@@ -6986,6 +6986,29 @@ add_requires("openmesh")
 ```
 
 
+### openmp (windows)
+
+
+| Description | *The OpenMP API specification for parallel programming* |
+| -- | -- |
+| Homepage | [https://openmp.org/](https://openmp.org/) |
+| Versions |  |
+| Architectures | x64, x86 |
+| Definition | [openmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openmp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openmp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openmp")
+```
+
+
 ### openssl (windows)
 
 
