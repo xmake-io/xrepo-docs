@@ -6274,6 +6274,29 @@ add_requires("nanoflann")
 ```
 
 
+### nanogui (windows)
+
+
+| Description | *Minimalistic GUI library for OpenGL* |
+| -- | -- |
+| Homepage | [https://github.com/wjakob/nanogui](https://github.com/wjakob/nanogui) |
+| Versions | 2019.9.23 |
+| Architectures | x64, x86 |
+| Definition | [nanogui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanogui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nanogui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanogui")
+```
+
+
 ### nanovdb (windows)
 
 
