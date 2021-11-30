@@ -9810,7 +9810,7 @@ add_requires("spirv-reflect")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
-| Versions | 2020.5, 2020.6, 2021.3 |
+| Versions | 2020.5, 2020.6, 2021.3, 2021.4 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
@@ -10784,7 +10784,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
@@ -10808,7 +10808,7 @@ add_requires("vulkan-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
 | License | Apache-2.0 |
-| Versions | v1.2.180, v1.2.189 |
+| Versions | v1.2.180, v1.2.189, v1.2.198 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
 
@@ -10832,7 +10832,7 @@ add_requires("vulkan-hpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.182+0, 1.2.189+1 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [vulkan-loader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-loader/xmake.lua) |
 
