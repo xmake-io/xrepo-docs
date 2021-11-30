@@ -8035,7 +8035,7 @@ add_requires("nanovdb")
 | -- | -- |
 | Homepage | [https://github.com/memononen/nanovg/](https://github.com/memononen/nanovg/) |
 | License | zlib |
-| Versions |  |
+| Versions | 2021.11.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanovg/xmake.lua) |
 
