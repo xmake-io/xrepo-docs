@@ -8214,6 +8214,30 @@ add_requires("sfntly")
 ```
 
 
+### shaderc (windows)
+
+
+| Description | *A collection of tools, libraries, and tests for Vulkan shader compilation.* |
+| -- | -- |
+| Homepage | [https://github.com/google/shaderc](https://github.com/google/shaderc) |
+| License | Apache-2.0 |
+| Versions | 2021.11.22 |
+| Architectures | x64, x86 |
+| Definition | [shaderc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install shaderc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("shaderc")
+```
+
+
 ### shaderwriter (windows)
 
 
