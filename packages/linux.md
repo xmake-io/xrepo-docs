@@ -1826,6 +1826,29 @@ add_requires("dune-common")
 
 
 ## e
+### e2fsprogs (linux)
+
+
+| Description | *Filesystem utilities for the ext2/3/4 filesystems* |
+| -- | -- |
+| Homepage | [http://e2fsprogs.sourceforge.net](http://e2fsprogs.sourceforge.net) |
+| Versions | 1.46.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [e2fsprogs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/e2fsprogs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install e2fsprogs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("e2fsprogs")
+```
+
+
 ### eabase (linux)
 
 

@@ -1730,6 +1730,29 @@ add_requires("dune-common")
 
 
 ## e
+### e2fsprogs (macosx)
+
+
+| Description | *Filesystem utilities for the ext2/3/4 filesystems* |
+| -- | -- |
+| Homepage | [http://e2fsprogs.sourceforge.net](http://e2fsprogs.sourceforge.net) |
+| Versions | 1.46.4 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [e2fsprogs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/e2fsprogs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install e2fsprogs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("e2fsprogs")
+```
+
+
 ### eabase (macosx)
 
 
