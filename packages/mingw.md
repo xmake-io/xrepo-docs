@@ -1777,6 +1777,29 @@ add_requires("libdeflate")
 ```
 
 
+### libdivsufsort (mingw)
+
+
+| Description | *A lightweight suffix array sorting library* |
+| -- | -- |
+| Homepage | [https://android.googlesource.com/platform/external/libdivsufsort/](https://android.googlesource.com/platform/external/libdivsufsort/) |
+| Versions | 2021.2.18 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libdivsufsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivsufsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libdivsufsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdivsufsort")
+```
+
+
 ### libflac (mingw)
 
 

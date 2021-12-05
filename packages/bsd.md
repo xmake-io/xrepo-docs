@@ -1262,6 +1262,29 @@ add_requires("kiwisolver")
 
 
 ## l
+### libdivsufsort (bsd)
+
+
+| Description | *A lightweight suffix array sorting library* |
+| -- | -- |
+| Homepage | [https://android.googlesource.com/platform/external/libdivsufsort/](https://android.googlesource.com/platform/external/libdivsufsort/) |
+| Versions | 2021.2.18 |
+| Architectures | i386, x86_64 |
+| Definition | [libdivsufsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivsufsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdivsufsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdivsufsort")
+```
+
+
 ### libjpeg (bsd)
 
 

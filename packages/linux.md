@@ -4483,6 +4483,29 @@ add_requires("libdeflate")
 ```
 
 
+### libdivsufsort (linux)
+
+
+| Description | *A lightweight suffix array sorting library* |
+| -- | -- |
+| Homepage | [https://android.googlesource.com/platform/external/libdivsufsort/](https://android.googlesource.com/platform/external/libdivsufsort/) |
+| Versions | 2021.2.18 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libdivsufsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivsufsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdivsufsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdivsufsort")
+```
+
+
 ### libelf (linux)
 
 
