@@ -520,6 +520,29 @@ add_requires("brotli")
 ```
 
 
+### bsdiff (macosx)
+
+
+| Description | *BSDIFF is a binary diffing/patching library* |
+| -- | -- |
+| Homepage | [https://android.googlesource.com/platform/external/bsdiff/](https://android.googlesource.com/platform/external/bsdiff/) |
+| Versions | 2021.11.16 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [bsdiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bsdiff/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bsdiff
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bsdiff")
+```
+
+
 ### bullet3 (macosx)
 
 
