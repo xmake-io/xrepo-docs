@@ -4855,6 +4855,29 @@ add_requires("libtiff")
 ```
 
 
+### libtins (windows)
+
+
+| Description | *High-level, multiplatform C++ network packet sniffing and crafting library.* |
+| -- | -- |
+| Homepage | [http://libtins.github.io/](http://libtins.github.io/) |
+| Versions | 2021.6.23 |
+| Architectures | x64, x86 |
+| Definition | [libtins/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtins/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libtins
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtins")
+```
+
+
 ### libtool (windows)
 
 
