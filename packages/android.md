@@ -4382,6 +4382,29 @@ add_requires("zlib")
 ```
 
 
+### zlib-ng (android)
+
+
+| Description | *zlib replacement with optimizations for next generation systems.* |
+| -- | -- |
+| Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
+| Versions | 2.0.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] zlib-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlib-ng")
+```
+
+
 ### zstd (android)
 
 

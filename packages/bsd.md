@@ -3488,6 +3488,29 @@ add_requires("zlib")
 ```
 
 
+### zlib-ng (bsd)
+
+
+| Description | *zlib replacement with optimizations for next generation systems.* |
+| -- | -- |
+| Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
+| Versions | 2.0.5 |
+| Architectures | i386, x86_64 |
+| Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zlib-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlib-ng")
+```
+
+
 ### zstd (bsd)
 
 

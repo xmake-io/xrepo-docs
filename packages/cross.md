@@ -3231,6 +3231,29 @@ add_requires("zlib")
 ```
 
 
+### zlib-ng (cross)
+
+
+| Description | *zlib replacement with optimizations for next generation systems.* |
+| -- | -- |
+| Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
+| Versions | 2.0.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] zlib-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlib-ng")
+```
+
+
 ### zstd (cross)
 
 

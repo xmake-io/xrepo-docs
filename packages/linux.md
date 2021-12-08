@@ -1944,6 +1944,30 @@ add_requires("easyloggingpp")
 ```
 
 
+### ed (linux)
+
+
+| Description | *Classic UNIX line editor* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/ed/ed.html](https://www.gnu.org/software/ed/ed.html) |
+| License | GPL-3.0-or-later |
+| Versions | 1.17 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ed/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/ed/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ed
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ed")
+```
+
+
 ### effcee (linux)
 
 
@@ -12219,6 +12243,29 @@ xrepo install zlib
 
 ```lua
 add_requires("zlib")
+```
+
+
+### zlib-ng (linux)
+
+
+| Description | *zlib replacement with optimizations for next generation systems.* |
+| -- | -- |
+| Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
+| Versions | 2.0.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zlib-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlib-ng")
 ```
 
 
