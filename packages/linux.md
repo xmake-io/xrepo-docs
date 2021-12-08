@@ -335,6 +335,30 @@ add_requires("backward-cpp")
 ```
 
 
+### bc (linux)
+
+
+| Description | *Arbitrary precision numeric processing language* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/bc/](https://www.gnu.org/software/bc/) |
+| License | GPL-3.0-or-later |
+| Versions | 1.07.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [bc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bc")
+```
+
+
 ### benchmark (linux)
 
 
