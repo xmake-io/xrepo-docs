@@ -4399,6 +4399,29 @@ add_requires("utfcpp")
 ```
 
 
+### uvw (mingw)
+
+
+| Description | *Header-only, event based, tiny and easy to use libuv wrapper in modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/skypjack/uvw](https://github.com/skypjack/uvw) |
+| Versions | 2.10.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [uvw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uvw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] uvw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uvw")
+```
+
+
 
 ## x
 ### xxhash (mingw)
