@@ -10982,6 +10982,30 @@ add_requires("tesseract")
 ```
 
 
+### texinfo (linux)
+
+
+| Description | *Official documentation format of the GNU project* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/texinfo/](https://www.gnu.org/software/texinfo/) |
+| License | GPL-3.0 |
+| Versions | 6.7 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [texinfo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/texinfo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install texinfo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("texinfo")
+```
+
+
 ### tiltedcore (linux)
 
 
