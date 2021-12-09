@@ -4032,6 +4032,29 @@ add_requires("leveldb")
 ```
 
 
+### libaco (macosx)
+
+
+| Description | *A blazing fast and lightweight C asymmetric coroutine library* |
+| -- | -- |
+| Homepage | [https://github.com/hnes/libaco](https://github.com/hnes/libaco) |
+| Versions | v1.2.4 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libaco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libaco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libaco")
+```
+
+
 ### libarchive (macosx)
 
 
