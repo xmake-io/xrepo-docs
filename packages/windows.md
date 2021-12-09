@@ -5210,30 +5210,6 @@ add_requires("lightgbm")
 ```
 
 
-### linux-headers (windows)
-
-
-| Description | *Header files of the Linux kernel* |
-| -- | -- |
-| Homepage | [https://kernel.org/](https://kernel.org/) |
-| License | GPL-2.0-only |
-| Versions | 4.20.9, 5.0.8, 5.10.46, 5.9.16 |
-| Architectures | x64, x86 |
-| Definition | [linux-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-headers/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install linux-headers
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("linux-headers")
-```
-
-
 ### llhttp (windows)
 
 
