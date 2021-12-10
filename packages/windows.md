@@ -7551,6 +7551,29 @@ add_requires("poppler")
 ```
 
 
+### pprint (windows)
+
+
+| Description | *Pretty Printer for Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/pprint](https://github.com/p-ranav/pprint) |
+| Versions | 2020.2.20 |
+| Architectures | x64, x86 |
+| Definition | [pprint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pprint/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pprint
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pprint")
+```
+
+
 ### pqp (windows)
 
 

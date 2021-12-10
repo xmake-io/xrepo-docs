@@ -2911,6 +2911,29 @@ add_requires("pkgconf")
 ```
 
 
+### pprint (iphoneos)
+
+
+| Description | *Pretty Printer for Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/pprint](https://github.com/p-ranav/pprint) |
+| Versions | 2020.2.20 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [pprint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pprint/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos pprint
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pprint")
+```
+
+
 ### pqp (iphoneos)
 
 

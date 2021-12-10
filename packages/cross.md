@@ -2276,6 +2276,29 @@ add_requires("pkgconf")
 ```
 
 
+### pprint (cross)
+
+
+| Description | *Pretty Printer for Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/pprint](https://github.com/p-ranav/pprint) |
+| Versions | 2020.2.20 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [pprint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pprint/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] pprint
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pprint")
+```
+
+
 ### pqp (cross)
 
 
