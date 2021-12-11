@@ -3142,6 +3142,29 @@ add_requires("openssl")
 ```
 
 
+### optick (android)
+
+
+| Description | *C++ Profiler For Games (API)* |
+| -- | -- |
+| Homepage | [https://optick.dev](https://optick.dev) |
+| Versions | 1.3.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [optick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/optick/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] optick
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("optick")
+```
+
+
 
 ## p
 ### parallel-hashmap (android)
