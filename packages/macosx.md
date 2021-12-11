@@ -5699,6 +5699,30 @@ add_requires("libusb")
 ```
 
 
+### libusbmuxd (macosx)
+
+
+| Description | *A client library to multiplex connections from and to iOS devices* |
+| -- | -- |
+| Homepage | [https://github.com/libimobiledevice/libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) |
+| License | LGPL-2.1 |
+| Versions | 2.0.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libusbmuxd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusbmuxd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libusbmuxd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusbmuxd")
+```
+
+
 ### libuuid (macosx)
 
 
@@ -11221,6 +11245,30 @@ xrepo install xerces-c
 
 ```lua
 add_requires("xerces-c")
+```
+
+
+### xframe (macosx)
+
+
+| Description | *C++ multi-dimensional labeled arrays and dataframe based on xtensor* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xframe/](https://github.com/xtensor-stack/xframe/) |
+| License | BSD-3-Clause |
+| Versions | 0.2.0, 0.3.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [xframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xframe/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xframe
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xframe")
 ```
 
 

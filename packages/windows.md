@@ -9733,6 +9733,30 @@ add_requires("xerces-c")
 ```
 
 
+### xframe (windows)
+
+
+| Description | *C++ multi-dimensional labeled arrays and dataframe based on xtensor* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xframe/](https://github.com/xtensor-stack/xframe/) |
+| License | BSD-3-Clause |
+| Versions | 0.2.0, 0.3.0 |
+| Architectures | x64, x86 |
+| Definition | [xframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xframe/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xframe
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xframe")
+```
+
+
 ### xsimd (windows)
 
 

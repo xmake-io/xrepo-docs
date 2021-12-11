@@ -6053,6 +6053,29 @@ add_requires("libunwind")
 ```
 
 
+### liburing (linux)
+
+
+| Description | *liburing provides helpers to setup and teardown io_uring instances* |
+| -- | -- |
+| Homepage | [https://github.com/axboe/liburing](https://github.com/axboe/liburing) |
+| Versions | 2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [liburing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liburing/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install liburing
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("liburing")
+```
+
+
 ### libusb (linux)
 
 
@@ -6073,6 +6096,30 @@ xrepo install libusb
 
 ```lua
 add_requires("libusb")
+```
+
+
+### libusbmuxd (linux)
+
+
+| Description | *A client library to multiplex connections from and to iOS devices* |
+| -- | -- |
+| Homepage | [https://github.com/libimobiledevice/libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) |
+| License | LGPL-2.1 |
+| Versions | 2.0.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libusbmuxd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusbmuxd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libusbmuxd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusbmuxd")
 ```
 
 
@@ -12051,6 +12098,30 @@ xrepo install xerces-c
 
 ```lua
 add_requires("xerces-c")
+```
+
+
+### xframe (linux)
+
+
+| Description | *C++ multi-dimensional labeled arrays and dataframe based on xtensor* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xframe/](https://github.com/xtensor-stack/xframe/) |
+| License | BSD-3-Clause |
+| Versions | 0.2.0, 0.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xframe/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xframe
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xframe")
 ```
 
 
