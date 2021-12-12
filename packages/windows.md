@@ -9997,6 +9997,30 @@ add_requires("zeromq")
 ```
 
 
+### zfp (windows)
+
+
+| Description | *zfp is a compressed format for representing multidimensional floating-point and integer arrays.* |
+| -- | -- |
+| Homepage | [https://computing.llnl.gov/projects/zfp](https://computing.llnl.gov/projects/zfp) |
+| License | BSD-3-Clause |
+| Versions | 0.5.5 |
+| Architectures | x64, x86 |
+| Definition | [zfp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zfp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zfp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zfp")
+```
+
+
 ### zig (windows)
 
 

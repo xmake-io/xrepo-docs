@@ -12411,6 +12411,30 @@ add_requires("zeromq")
 ```
 
 
+### zfp (linux)
+
+
+| Description | *zfp is a compressed format for representing multidimensional floating-point and integer arrays.* |
+| -- | -- |
+| Homepage | [https://computing.llnl.gov/projects/zfp](https://computing.llnl.gov/projects/zfp) |
+| License | BSD-3-Clause |
+| Versions | 0.5.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [zfp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zfp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zfp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zfp")
+```
+
+
 ### zig (linux)
 
 
