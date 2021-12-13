@@ -8400,6 +8400,29 @@ add_requires("simbody")
 ```
 
 
+### simde (windows)
+
+
+| Description | *Implementations of SIMD instruction sets for systems which don't natively support them.* |
+| -- | -- |
+| Homepage | [simd-everywhere.github.io/blog/](simd-everywhere.github.io/blog/) |
+| Versions | 0.7.2 |
+| Architectures | x64, x86 |
+| Definition | [simde/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simde/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install simde
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simde")
+```
+
+
 ### simdjson (windows)
 
 
