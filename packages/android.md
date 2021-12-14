@@ -1899,7 +1899,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 

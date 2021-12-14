@@ -434,7 +434,8 @@ add_requires("blosc")
 | Description | *Collection of portable C++ source libraries.* |
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
-| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0 |
+| License | BSL-1.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0 |
 | Architectures | x64, x86 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
@@ -4371,7 +4372,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2 |
 | Architectures | x64, x86 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
@@ -6989,7 +6990,7 @@ add_requires("openh264")
 | -- | -- |
 | Homepage | [https://sites.google.com/site/openimageio/home](https://sites.google.com/site/openimageio/home) |
 | License | BSD-3-Clause |
-| Versions | 2.2.17+0 |
+| Versions | 2.2.19+0, 2.3.10+1 |
 | Architectures | x64, x86 |
 | Definition | [openimageio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openimageio/xmake.lua) |
 
