@@ -1422,6 +1422,29 @@ add_requires("http_parser")
 
 
 ## i
+### ifort (mingw)
+
+
+| Description | *The Fortran Compiler provided by Intel®* |
+| -- | -- |
+| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
+| Versions | 2021.4.0+3224 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ifort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ifort")
+```
+
+
 ### imgui (mingw)
 
 

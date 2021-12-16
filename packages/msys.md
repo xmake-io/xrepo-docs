@@ -1022,6 +1022,29 @@ add_requires("http_parser")
 
 
 ## i
+### ifort (msys)
+
+
+| Description | *The Fortran Compiler provided by Intel®* |
+| -- | -- |
+| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
+| Versions | 2021.4.0+3224 |
+| Architectures | i386, x86_64 |
+| Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ifort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ifort")
+```
+
+
 ### inja (msys)
 
 
