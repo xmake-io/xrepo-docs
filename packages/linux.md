@@ -3582,6 +3582,29 @@ add_requires("hffix")
 ```
 
 
+### highfive (linux)
+
+
+| Description | *HighFive - Header-only C++ HDF5 interface* |
+| -- | -- |
+| Homepage | [https://github.com/BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) |
+| Versions | v2.3.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [highfive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highfive/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install highfive
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("highfive")
+```
+
+
 ### hopscotch-map (linux)
 
 
