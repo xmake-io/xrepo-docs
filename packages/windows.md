@@ -782,6 +782,29 @@ add_requires("cereal")
 ```
 
 
+### ceres-solver (windows)
+
+
+| Description | *Ceres Solver is an open source C++ library for modeling and solving large, complicated optimization problems.* |
+| -- | -- |
+| Homepage | [http://ceres-solver.org/](http://ceres-solver.org/) |
+| Versions | 2.0.0 |
+| Architectures | x64, x86 |
+| Definition | [ceres-solver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceres-solver/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ceres-solver
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ceres-solver")
+```
+
+
 ### ceval (windows)
 
 
