@@ -5141,6 +5141,30 @@ add_requires("libiconv")
 ```
 
 
+### libidn2 (linux)
+
+
+| Description | *Libidn2 is an implementation of the IDNA2008 + TR46 specifications.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libidn/](https://www.gnu.org/software/libidn/) |
+| License | LGPL-3.0 |
+| Versions | 2.3.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libidn2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libidn2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libidn2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libidn2")
+```
+
+
 ### libigl (linux)
 
 
