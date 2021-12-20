@@ -4834,6 +4834,29 @@ add_requires("libimagequant")
 ```
 
 
+### libimobiledevice-glue (macosx)
+
+
+| Description | *A library with common code used by libraries and tools around the libimobiledevice project* |
+| -- | -- |
+| Homepage | [https://github.com/libimobiledevice/libimobiledevice-glue](https://github.com/libimobiledevice/libimobiledevice-glue) |
+| Versions | 2021.11.24 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libimobiledevice-glue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libimobiledevice-glue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libimobiledevice-glue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libimobiledevice-glue")
+```
+
+
 ### libintl (macosx)
 
 
