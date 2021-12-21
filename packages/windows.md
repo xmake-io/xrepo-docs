@@ -3463,6 +3463,29 @@ add_requires("imgui")
 ```
 
 
+### imgui-sfml (windows)
+
+
+| Description | *Dear ImGui binding for use with SFML* |
+| -- | -- |
+| Homepage | [https://github.com/eliasdaler/imgui-sfml](https://github.com/eliasdaler/imgui-sfml) |
+| Versions | v2.5 |
+| Architectures | x64, x86 |
+| Definition | [imgui-sfml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui-sfml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install imgui-sfml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imgui-sfml")
+```
+
+
 ### imguizmo (windows)
 
 
