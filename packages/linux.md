@@ -6270,7 +6270,7 @@ add_requires("libusb")
 | -- | -- |
 | Homepage | [https://github.com/libimobiledevice/libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) |
 | License | LGPL-2.1 |
-| Versions | 2.0.2 |
+| Versions | 2021.09.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libusbmuxd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusbmuxd/xmake.lua) |
 
