@@ -5259,6 +5259,29 @@ add_requires("libimagequant")
 ```
 
 
+### libimobiledevice (linux)
+
+
+| Description | *A cross-platform protocol library to communicate with iOS devices* |
+| -- | -- |
+| Homepage | [https://github.com/libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) |
+| Versions | 1.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libimobiledevice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libimobiledevice/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libimobiledevice
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libimobiledevice")
+```
+
+
 ### libimobiledevice-glue (linux)
 
 
