@@ -1322,6 +1322,30 @@ add_requires("cryptopp")
 ```
 
 
+### csv2 (windows)
+
+
+| Description | *A CSV parser library* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/csv2](https://github.com/p-ranav/csv2) |
+| License | MIT |
+| Versions | v0.1 |
+| Architectures | x64, x86 |
+| Definition | [csv2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csv2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install csv2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("csv2")
+```
+
+
 ### csvparser (windows)
 
 

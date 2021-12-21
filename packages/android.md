@@ -589,6 +589,30 @@ add_requires("cryptopp")
 ```
 
 
+### csv2 (android)
+
+
+| Description | *A CSV parser library* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/csv2](https://github.com/p-ranav/csv2) |
+| License | MIT |
+| Versions | v0.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [csv2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csv2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] csv2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("csv2")
+```
+
+
 ### csvparser (android)
 
 
