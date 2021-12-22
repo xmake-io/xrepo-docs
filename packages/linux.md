@@ -10412,6 +10412,30 @@ add_requires("robin-map")
 ```
 
 
+### robotstxt (linux)
+
+
+| Description | *The repository contains Google's robots.txt parser and matcher as a C++ librar.* |
+| -- | -- |
+| Homepage | [https://github.com/google/robotstxt](https://github.com/google/robotstxt) |
+| License | Apache-2.0 |
+| Versions | 2021.11.24 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [robotstxt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robotstxt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install robotstxt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("robotstxt")
+```
+
+
 ### rply (linux)
 
 
