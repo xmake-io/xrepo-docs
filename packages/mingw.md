@@ -3683,6 +3683,29 @@ add_requires("qhull")
 ```
 
 
+### qoi (mingw)
+
+
+| Description | *The Quite OK Image Format for fast, lossless image compression* |
+| -- | -- |
+| Homepage | [https://github.com/phoboslab/qoi](https://github.com/phoboslab/qoi) |
+| Versions | 2021.12.22 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [qoi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qoi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] qoi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qoi")
+```
+
+
 ### quickjs (mingw)
 
 

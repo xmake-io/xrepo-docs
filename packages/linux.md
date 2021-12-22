@@ -10174,6 +10174,29 @@ add_requires("qhull")
 ```
 
 
+### qoi (linux)
+
+
+| Description | *The Quite OK Image Format for fast, lossless image compression* |
+| -- | -- |
+| Homepage | [https://github.com/phoboslab/qoi](https://github.com/phoboslab/qoi) |
+| Versions | 2021.12.22 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [qoi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qoi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qoi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qoi")
+```
+
+
 ### quickjs (linux)
 
 

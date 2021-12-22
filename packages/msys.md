@@ -2345,6 +2345,31 @@ add_requires("python2")
 
 
 
+## q
+### qoi (msys)
+
+
+| Description | *The Quite OK Image Format for fast, lossless image compression* |
+| -- | -- |
+| Homepage | [https://github.com/phoboslab/qoi](https://github.com/phoboslab/qoi) |
+| Versions | 2021.12.22 |
+| Architectures | i386, x86_64 |
+| Definition | [qoi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qoi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qoi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qoi")
+```
+
+
+
 ## r
 ### range-v3 (msys)
 
