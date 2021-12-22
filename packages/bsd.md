@@ -1020,6 +1020,29 @@ add_requires("gtest")
 ```
 
 
+### guetzli (bsd)
+
+
+| Description | *Perceptual JPEG encoder* |
+| -- | -- |
+| Homepage | [https://github.com/google/guetzli](https://github.com/google/guetzli) |
+| Versions | v1.0.1 |
+| Architectures | i386, x86_64 |
+| Definition | [guetzli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guetzli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install guetzli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("guetzli")
+```
+
+
 
 ## h
 ### hffix (bsd)

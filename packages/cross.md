@@ -949,6 +949,29 @@ add_requires("gtest")
 ```
 
 
+### guetzli (cross)
+
+
+| Description | *Perceptual JPEG encoder* |
+| -- | -- |
+| Homepage | [https://github.com/google/guetzli](https://github.com/google/guetzli) |
+| Versions | v1.0.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [guetzli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guetzli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] guetzli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("guetzli")
+```
+
+
 
 ## h
 ### hopscotch-map (cross)
