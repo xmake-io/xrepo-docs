@@ -948,6 +948,30 @@ add_requires("expected")
 ```
 
 
+### exprtk (android)
+
+
+| Description | *C++ Mathematical Expression Parsing And Evaluation Library* |
+| -- | -- |
+| Homepage | [https://www.partow.net/programming/exprtk/index.html](https://www.partow.net/programming/exprtk/index.html) |
+| License | MIT |
+| Versions | 2021.06.06 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [exprtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exprtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] exprtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("exprtk")
+```
+
+
 
 ## f
 ### fast_double_parser (android)
@@ -3986,6 +4010,30 @@ xrepo install -p android [--ndk=/xxx] stb
 
 ```lua
 add_requires("stb")
+```
+
+
+### strtk (android)
+
+
+| Description | *C++ String Toolkit Library* |
+| -- | -- |
+| Homepage | [https://www.partow.net/programming/strtk/index.html](https://www.partow.net/programming/strtk/index.html) |
+| License | MIT |
+| Versions | 2020.01.01 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [strtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] strtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("strtk")
 ```
 
 

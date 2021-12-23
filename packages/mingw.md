@@ -924,6 +924,30 @@ add_requires("expected")
 ```
 
 
+### exprtk (mingw)
+
+
+| Description | *C++ Mathematical Expression Parsing And Evaluation Library* |
+| -- | -- |
+| Homepage | [https://www.partow.net/programming/exprtk/index.html](https://www.partow.net/programming/exprtk/index.html) |
+| License | MIT |
+| Versions | 2021.06.06 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [exprtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exprtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] exprtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("exprtk")
+```
+
+
 
 ## f
 ### farmhash (mingw)
@@ -4174,6 +4198,30 @@ xrepo install -p mingw [--mingw=/xxx] stb
 
 ```lua
 add_requires("stb")
+```
+
+
+### strtk (mingw)
+
+
+| Description | *C++ String Toolkit Library* |
+| -- | -- |
+| Homepage | [https://www.partow.net/programming/strtk/index.html](https://www.partow.net/programming/strtk/index.html) |
+| License | MIT |
+| Versions | 2020.01.01 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [strtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] strtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("strtk")
 ```
 
 

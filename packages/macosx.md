@@ -2134,6 +2134,30 @@ add_requires("expresscpp")
 ```
 
 
+### exprtk (macosx)
+
+
+| Description | *C++ Mathematical Expression Parsing And Evaluation Library* |
+| -- | -- |
+| Homepage | [https://www.partow.net/programming/exprtk/index.html](https://www.partow.net/programming/exprtk/index.html) |
+| License | MIT |
+| Versions | 2021.06.06 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [exprtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exprtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install exprtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("exprtk")
+```
+
+
 ### ezc3d (macosx)
 
 
@@ -10478,6 +10502,30 @@ xrepo install stlab
 
 ```lua
 add_requires("stlab")
+```
+
+
+### strtk (macosx)
+
+
+| Description | *C++ String Toolkit Library* |
+| -- | -- |
+| Homepage | [https://www.partow.net/programming/strtk/index.html](https://www.partow.net/programming/strtk/index.html) |
+| License | MIT |
+| Versions | 2020.01.01 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [strtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install strtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("strtk")
 ```
 
 
