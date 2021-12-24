@@ -4099,6 +4099,30 @@ add_requires("irrxml")
 ```
 
 
+### iso-codes (linux)
+
+
+| Description | *Provides lists of various ISO standards* |
+| -- | -- |
+| Homepage | [https://salsa.debian.org/iso-codes-team/iso-codes](https://salsa.debian.org/iso-codes-team/iso-codes) |
+| License | LGPL-2.1-or-later |
+| Versions | 4.8.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [iso-codes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iso-codes/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install iso-codes
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iso-codes")
+```
+
+
 ### itk (linux)
 
 
@@ -12354,6 +12378,30 @@ xrepo install wayland
 
 ```lua
 add_requires("wayland")
+```
+
+
+### wayland-protocols (linux)
+
+
+| Description | *Additional Wayland protocols* |
+| -- | -- |
+| Homepage | [https://wayland.freedesktop.org](https://wayland.freedesktop.org) |
+| License | MIT |
+| Versions | 1.24 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [wayland-protocols/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland-protocols/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wayland-protocols
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wayland-protocols")
 ```
 
 
