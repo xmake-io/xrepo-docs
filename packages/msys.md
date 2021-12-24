@@ -424,6 +424,29 @@ add_requires("cpp-httplib")
 ```
 
 
+### crc32c (msys)
+
+
+| Description | *CRC32C implementation with support for CPU-specific acceleration instructions* |
+| -- | -- |
+| Homepage | [https://github.com/google/crc32c](https://github.com/google/crc32c) |
+| Versions | 1.1.2 |
+| Architectures | i386, x86_64 |
+| Definition | [crc32c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crc32c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install crc32c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crc32c")
+```
+
+
 ### csv2 (msys)
 
 

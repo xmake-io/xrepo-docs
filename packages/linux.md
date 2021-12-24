@@ -1395,6 +1395,29 @@ add_requires("cpu-features")
 ```
 
 
+### crc32c (linux)
+
+
+| Description | *CRC32C implementation with support for CPU-specific acceleration instructions* |
+| -- | -- |
+| Homepage | [https://github.com/google/crc32c](https://github.com/google/crc32c) |
+| Versions | 1.1.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [crc32c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crc32c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install crc32c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crc32c")
+```
+
+
 ### cryptopp (linux)
 
 

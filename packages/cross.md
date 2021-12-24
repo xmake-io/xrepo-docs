@@ -400,6 +400,29 @@ add_requires("cpp-httplib")
 ```
 
 
+### crc32c (cross)
+
+
+| Description | *CRC32C implementation with support for CPU-specific acceleration instructions* |
+| -- | -- |
+| Homepage | [https://github.com/google/crc32c](https://github.com/google/crc32c) |
+| Versions | 1.1.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [crc32c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crc32c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] crc32c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crc32c")
+```
+
+
 ### csv2 (cross)
 
 
