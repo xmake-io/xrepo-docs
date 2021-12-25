@@ -5628,6 +5628,30 @@ add_requires("libsdl_ttf")
 ```
 
 
+### libsigc++ (macosx)
+
+
+| Description | *Callback framework for C++* |
+| -- | -- |
+| Homepage | [https://libsigcplusplus.github.io/libsigcplusplus](https://libsigcplusplus.github.io/libsigcplusplus) |
+| License | LGPL-3.0-or-later |
+| Versions | 3.0.7 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libsigc++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsigc++/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsigc++
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsigc++")
+```
+
+
 ### libsm (macosx)
 
 
