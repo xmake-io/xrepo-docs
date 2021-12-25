@@ -1987,6 +1987,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("glm")
 </code></pre>
+<h3 id="glslangmingw">glslang (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/glslang/">https://github.com/KhronosGroup/glslang/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.2.154+1, 1.2.162+0, 1.2.189+1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua">glslang/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] glslang
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glslang")
+</code></pre>
 <h3 id="gmmmingw">gmm (mingw)</h3>
 <table>
 <thead>
@@ -6237,6 +6274,154 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("spdlog")
+</code></pre>
+<h3 id="spirvcrossmingw">spirv-cross (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SPIRV-Cross is a practical tool and library for performing reflection on SPIR-V and disassembling SPIR-V back to high level languages.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/SPIRV-Cross/">https://github.com/KhronosGroup/SPIRV-Cross/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.2.154+1, 1.2.162+0, 1.2.189+1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-cross/xmake.lua">spirv-cross/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] spirv-cross
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("spirv-cross")
+</code></pre>
+<h3 id="spirvheadersmingw">spirv-headers (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SPIR-V Headers</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/SPIRV-Headers/">https://github.com/KhronosGroup/SPIRV-Headers/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.5.4+2, 1.5.5</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua">spirv-headers/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] spirv-headers
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("spirv-headers")
+</code></pre>
+<h3 id="spirvreflectmingw">spirv-reflect (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SPIRV-Reflect is a lightweight library that provides a C/C++ reflection API for SPIR-V shader bytecode in Vulkan applications.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/SPIRV-Reflect">https://github.com/KhronosGroup/SPIRV-Reflect</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.2.154+1, 1.2.162+0, 1.2.189+1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-reflect/xmake.lua">spirv-reflect/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] spirv-reflect
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("spirv-reflect")
+</code></pre>
+<h3 id="spirvtoolsmingw">spirv-tools (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SPIR-V Tools</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/SPIRV-Tools/">https://github.com/KhronosGroup/SPIRV-Tools/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2020.5, 2020.6, 2021.3, 2021.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua">spirv-tools/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] spirv-tools
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("spirv-tools")
 </code></pre>
 <h3 id="sqlite3mingw">sqlite3 (mingw)</h3>
 <table>

@@ -1280,6 +1280,30 @@ add_requires("glm")
 ```
 
 
+### glslang (mingw)
+
+
+| Description | *Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] glslang
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glslang")
+```
+
+
 ### gmm (mingw)
 
 
@@ -4175,6 +4199,102 @@ xrepo install -p mingw [--mingw=/xxx] spdlog
 
 ```lua
 add_requires("spdlog")
+```
+
+
+### spirv-cross (mingw)
+
+
+| Description | *SPIRV-Cross is a practical tool and library for performing reflection on SPIR-V and disassembling SPIR-V back to high level languages.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Cross/](https://github.com/KhronosGroup/SPIRV-Cross/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [spirv-cross/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-cross/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] spirv-cross
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-cross")
+```
+
+
+### spirv-headers (mingw)
+
+
+| Description | *SPIR-V Headers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
+| License | MIT |
+| Versions | 1.5.4+2, 1.5.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] spirv-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-headers")
+```
+
+
+### spirv-reflect (mingw)
+
+
+| Description | *SPIRV-Reflect is a lightweight library that provides a C/C++ reflection API for SPIR-V shader bytecode in Vulkan applications.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Reflect](https://github.com/KhronosGroup/SPIRV-Reflect) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [spirv-reflect/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-reflect/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] spirv-reflect
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-reflect")
+```
+
+
+### spirv-tools (mingw)
+
+
+| Description | *SPIR-V Tools* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
+| License | Apache-2.0 |
+| Versions | 2020.5, 2020.6, 2021.3, 2021.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] spirv-tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-tools")
 ```
 
 

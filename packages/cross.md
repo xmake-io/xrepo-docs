@@ -2936,6 +2936,30 @@ add_requires("spdlog")
 ```
 
 
+### spirv-headers (cross)
+
+
+| Description | *SPIR-V Headers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
+| License | MIT |
+| Versions | 1.5.4+2, 1.5.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] spirv-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-headers")
+```
+
+
 ### sqlite3 (cross)
 
 

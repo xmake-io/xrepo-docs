@@ -4645,6 +4645,29 @@ add_requires("libbpf")
 ```
 
 
+### libbpg (linux)
+
+
+| Description | *Image format meant to improve on JPEG quality and file size* |
+| -- | -- |
+| Homepage | [https://bellard.org/bpg/](https://bellard.org/bpg/) |
+| Versions | 0.9.8 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libbpg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbpg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libbpg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbpg")
+```
+
+
 ### libcap (linux)
 
 
@@ -5747,6 +5770,30 @@ xrepo install libpng
 
 ```lua
 add_requires("libpng")
+```
+
+
+### libpsl (linux)
+
+
+| Description | *C library to handle the Public Suffix List* |
+| -- | -- |
+| Homepage | [https://github.com/rockdaboot/libpsl](https://github.com/rockdaboot/libpsl) |
+| License | MIT |
+| Versions | 0.21.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libpsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpsl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpsl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpsl")
 ```
 
 

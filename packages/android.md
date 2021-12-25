@@ -3990,6 +3990,30 @@ add_requires("spdlog")
 ```
 
 
+### spirv-headers (android)
+
+
+| Description | *SPIR-V Headers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
+| License | MIT |
+| Versions | 1.5.4+2, 1.5.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] spirv-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-headers")
+```
+
+
 ### sqlite3 (android)
 
 

@@ -3170,6 +3170,30 @@ add_requires("spdlog")
 ```
 
 
+### spirv-headers (bsd)
+
+
+| Description | *SPIR-V Headers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
+| License | MIT |
+| Versions | 1.5.4+2, 1.5.5 |
+| Architectures | i386, x86_64 |
+| Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install spirv-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-headers")
+```
+
+
 ### sqlite3 (bsd)
 
 
