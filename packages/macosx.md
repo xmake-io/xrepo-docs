@@ -2705,6 +2705,30 @@ add_requires("gcem")
 ```
 
 
+### gdk-pixbuf (macosx)
+
+
+| Description | *GdkPixbuf is a library that loads image data in various formats and stores it as linear buffers in memory. The buffers can then be scaled, composited, modified, saved, or rendered.* |
+| -- | -- |
+| Homepage | [https://gitlab.gnome.org/GNOME/gdk-pixbuf](https://gitlab.gnome.org/GNOME/gdk-pixbuf) |
+| License | LGPL-2.0 |
+| Versions | 2.42.6 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [gdk-pixbuf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdk-pixbuf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gdk-pixbuf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gdk-pixbuf")
+```
+
+
 ### geant4 (macosx)
 
 
