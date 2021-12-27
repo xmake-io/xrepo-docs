@@ -1214,7 +1214,7 @@ add_requires("cmocka")
 | Description | *A go-style coroutine library in C++11 and more* |
 | -- | -- |
 | Homepage | [https://github.com/idealvin/co](https://github.com/idealvin/co) |
-| Versions | v2.0.1, v2.0.2 |
+| Versions | v2.0.1, v2.0.2, v2.0.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [co/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/co/xmake.lua) |
 
@@ -11919,6 +11919,30 @@ xrepo install toml++
 
 ```lua
 add_requires("toml++")
+```
+
+
+### toml11 (linux)
+
+
+| Description | *TOML for Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/ToruNiina/toml11](https://github.com/ToruNiina/toml11) |
+| License | MIT |
+| Versions | v3.7.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [toml11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install toml11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toml11")
 ```
 
 

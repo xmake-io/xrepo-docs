@@ -3293,6 +3293,30 @@ add_requires("toml++")
 ```
 
 
+### toml11 (cross)
+
+
+| Description | *TOML for Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/ToruNiina/toml11](https://github.com/ToruNiina/toml11) |
+| License | MIT |
+| Versions | v3.7.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [toml11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] toml11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toml11")
+```
+
+
 
 ## u
 ### urdfdom-headers (cross)

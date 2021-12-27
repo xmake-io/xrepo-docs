@@ -3550,6 +3550,30 @@ add_requires("toml++")
 ```
 
 
+### toml11 (bsd)
+
+
+| Description | *TOML for Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/ToruNiina/toml11](https://github.com/ToruNiina/toml11) |
+| License | MIT |
+| Versions | v3.7.0 |
+| Architectures | i386, x86_64 |
+| Definition | [toml11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install toml11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toml11")
+```
+
+
 
 ## u
 ### urdfdom-headers (bsd)
