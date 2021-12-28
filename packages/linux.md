@@ -198,7 +198,7 @@ add_requires("asmjit")
 | Description | *Portable Open-Source library to import various well-known 3D model formats in a uniform manner* |
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
-| Versions | v5.0.1 |
+| Versions | v5.0.1, v5.1.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
