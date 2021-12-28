@@ -11237,6 +11237,29 @@ add_requires("sqlite3")
 ```
 
 
+### sqlpp11 (linux)
+
+
+| Description | *A type safe SQL template library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/rbock/sqlpp11](https://github.com/rbock/sqlpp11) |
+| Versions | 0.61 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [sqlpp11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlpp11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sqlpp11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqlpp11")
+```
+
+
 ### srt (linux)
 
 
