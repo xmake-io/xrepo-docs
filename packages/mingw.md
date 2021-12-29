@@ -2997,6 +2997,29 @@ add_requires("mjson")
 ```
 
 
+### mpmcqueue (mingw)
+
+
+| Description | *A bounded multi-producer multi-consumer concurrent queue written in C++11* |
+| -- | -- |
+| Homepage | [https://github.com/rigtorp/MPMCQueue](https://github.com/rigtorp/MPMCQueue) |
+| Versions | v1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [mpmcqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpmcqueue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] mpmcqueue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mpmcqueue")
+```
+
+
 ### muslcc (mingw)
 
 

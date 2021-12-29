@@ -2927,6 +2927,29 @@ add_requires("moonjit")
 ```
 
 
+### mpmcqueue (android)
+
+
+| Description | *A bounded multi-producer multi-consumer concurrent queue written in C++11* |
+| -- | -- |
+| Homepage | [https://github.com/rigtorp/MPMCQueue](https://github.com/rigtorp/MPMCQueue) |
+| Versions | v1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [mpmcqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpmcqueue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mpmcqueue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mpmcqueue")
+```
+
+
 ### muslcc (android)
 
 
