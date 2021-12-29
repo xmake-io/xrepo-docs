@@ -765,7 +765,7 @@ add_requires("ca-certificates")
 | Description | *Vector graphics library with cross-device output support.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 1.16.0 |
+| Versions | 2021.10.07 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cairo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairo/xmake.lua) |
 
@@ -9899,7 +9899,7 @@ add_requires("piex")
 | Description | *Low-level library for pixel manipulation.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 0.38.0, 0.40.0 |
+| Versions | 2021.12.17 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pixman/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pixman/xmake.lua) |
 
