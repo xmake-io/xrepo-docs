@@ -9843,13 +9843,37 @@ add_requires("rapidjson")
 ```
 
 
+### raygui (macosx)
+
+
+| Description | *A simple and easy-to-use immediate-mode gui library* |
+| -- | -- |
+| Homepage | [https://github.com/raysan5/raygui](https://github.com/raysan5/raygui) |
+| License | zlib |
+| Versions | 3.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [raygui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raygui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install raygui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("raygui")
+```
+
+
 ### raylib (macosx)
 
 
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
-| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
