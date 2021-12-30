@@ -901,6 +901,29 @@ add_requires("fmt")
 ```
 
 
+### functionalplus (bsd)
+
+
+| Description | *Functional Programming Library for C++. Write concise and readable C++ code.* |
+| -- | -- |
+| Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
+| Versions | v0.2.18-p0 |
+| Architectures | i386, x86_64 |
+| Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install functionalplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("functionalplus")
+```
+
+
 ### fx-gltf (bsd)
 
 
