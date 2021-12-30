@@ -735,6 +735,30 @@ add_requires("easyloggingpp")
 ```
 
 
+### enet (cross)
+
+
+| Description | *Reliable UDP networking library.* |
+| -- | -- |
+| Homepage | [http://enet.bespin.org](http://enet.bespin.org) |
+| License | MIT |
+| Versions | v1.3.17 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [enet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] enet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("enet")
+```
+
+
 ### entt (cross)
 
 

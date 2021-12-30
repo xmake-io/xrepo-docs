@@ -782,6 +782,30 @@ add_requires("easyloggingpp")
 ```
 
 
+### enet (bsd)
+
+
+| Description | *Reliable UDP networking library.* |
+| -- | -- |
+| Homepage | [http://enet.bespin.org](http://enet.bespin.org) |
+| License | MIT |
+| Versions | v1.3.17 |
+| Architectures | i386, x86_64 |
+| Definition | [enet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install enet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("enet")
+```
+
+
 ### entt (bsd)
 
 
