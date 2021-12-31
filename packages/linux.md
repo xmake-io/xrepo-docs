@@ -9702,6 +9702,30 @@ add_requires("pagmo")
 ```
 
 
+### pango (linux)
+
+
+| Description | *Framework for layout and rendering of i18n text* |
+| -- | -- |
+| Homepage | [https://www.pango.org/](https://www.pango.org/) |
+| License | LGPL-2.0 |
+| Versions | 1.50.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [pango/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pango/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pango
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pango")
+```
+
+
 ### papi (linux)
 
 
