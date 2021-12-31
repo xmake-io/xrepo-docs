@@ -2522,7 +2522,7 @@ add_requires("folly")
 | Description | *Super fast C++ .PNG writer/reader* |
 | -- | -- |
 | Homepage | [https://github.com/richgel999/fpng](https://github.com/richgel999/fpng) |
-| Versions | 2021.12.31 |
+| Versions | v1.0.1 |
 | Architectures | x64, x86 |
 | Definition | [fpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fpng/xmake.lua) |
 
