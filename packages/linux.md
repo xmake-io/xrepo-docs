@@ -2752,6 +2752,29 @@ add_requires("fontconfig")
 ```
 
 
+### fpng (linux)
+
+
+| Description | *Super fast C++ .PNG writer/reader* |
+| -- | -- |
+| Homepage | [https://github.com/richgel999/fpng](https://github.com/richgel999/fpng) |
+| Versions | 2021.12.31 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fpng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fpng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fpng")
+```
+
+
 ### freeglut (linux)
 
 

@@ -2516,6 +2516,29 @@ add_requires("folly")
 ```
 
 
+### fpng (windows)
+
+
+| Description | *Super fast C++ .PNG writer/reader* |
+| -- | -- |
+| Homepage | [https://github.com/richgel999/fpng](https://github.com/richgel999/fpng) |
+| Versions | 2021.12.31 |
+| Architectures | x64, x86 |
+| Definition | [fpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fpng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fpng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fpng")
+```
+
+
 ### freeglut (windows)
 
 
