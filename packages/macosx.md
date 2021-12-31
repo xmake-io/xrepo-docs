@@ -2568,7 +2568,7 @@ add_requires("folly")
 | Description | *A library for configuring and customizing font access.* |
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/fontconfig/](https://www.freedesktop.org/wiki/Software/fontconfig/) |
-| Versions | 2.13.1, 2.13.93 |
+| Versions | 2.13.1, 2.13.93, 2.13.94 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [fontconfig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fontconfig/xmake.lua) |
 
