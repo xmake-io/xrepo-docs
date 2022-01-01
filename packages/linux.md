@@ -3232,7 +3232,7 @@ add_requires("glfw")
 | Description | *Core application library for C.* |
 | -- | -- |
 | Homepage | [https://developer.gnome.org/glib/](https://developer.gnome.org/glib/) |
-| Versions | 2.60.2, 2.68.2, 2.69.2, 2.70.0 |
+| Versions | 2.71.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 
