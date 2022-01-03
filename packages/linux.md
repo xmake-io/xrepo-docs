@@ -1113,6 +1113,29 @@ add_requires("cjson")
 ```
 
 
+### ck (linux)
+
+
+| Description | *Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.* |
+| -- | -- |
+| Homepage | [http://concurrencykit.org/](http://concurrencykit.org/) |
+| Versions | 0.7.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ck/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ck
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ck")
+```
+
+
 ### clara (linux)
 
 
