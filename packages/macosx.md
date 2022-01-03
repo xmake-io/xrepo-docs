@@ -11929,6 +11929,30 @@ add_requires("xframe")
 ```
 
 
+### xmlto (macosx)
+
+
+| Description | *Convert XML to another format (based on XSL or other tools)* |
+| -- | -- |
+| Homepage | [https://pagure.io/xmlto](https://pagure.io/xmlto) |
+| License | GPL-2.0 |
+| Versions | 0.0.28 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [xmlto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xmlto/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xmlto
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xmlto")
+```
+
+
 ### xorgproto (macosx)
 
 
