@@ -2785,6 +2785,29 @@ add_requires("mimalloc")
 ```
 
 
+### miniaudio (android)
+
+
+| Description | *Single file audio playback and capture library written in C.* |
+| -- | -- |
+| Homepage | [https://miniaud.io](https://miniaud.io) |
+| Versions | 2021.12.31 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] miniaudio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("miniaudio")
+```
+
+
 ### minimp3 (android)
 
 

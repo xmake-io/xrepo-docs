@@ -1846,6 +1846,29 @@ add_requires("meson")
 ```
 
 
+### miniaudio (msys)
+
+
+| Description | *Single file audio playback and capture library written in C.* |
+| -- | -- |
+| Homepage | [https://miniaud.io](https://miniaud.io) |
+| Versions | 2021.12.31 |
+| Architectures | i386, x86_64 |
+| Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install miniaudio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("miniaudio")
+```
+
+
 ### minimp3 (msys)
 
 
