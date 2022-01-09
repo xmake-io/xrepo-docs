@@ -499,6 +499,29 @@ add_requires("boost")
 ```
 
 
+### boringssl (macosx)
+
+
+| Description | *A fork of OpenSSL that is designed to meet Google's needs.* |
+| -- | -- |
+| Homepage | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
+| Versions | 2021.12.29 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [boringssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boringssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install boringssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boringssl")
+```
+
+
 ### box2d (macosx)
 
 
@@ -3300,7 +3323,7 @@ add_requires("gnu-sed")
 | Description | *The Go Programming Language* |
 | -- | -- |
 | Homepage | [https://golang.org/](https://golang.org/) |
-| Versions | 1.11 |
+| Versions | 1.17.6 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [go/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/go/xmake.lua) |
 
@@ -11996,6 +12019,30 @@ xrepo install xorgproto
 
 ```lua
 add_requires("xorgproto")
+```
+
+
+### xquic (macosx)
+
+
+| Description | *A client and server implementation of QUIC and HTTP/3 as specified by the IETF* |
+| -- | -- |
+| Homepage | [https://github.com/alibaba/xquic](https://github.com/alibaba/xquic) |
+| License | Apache-2.0 |
+| Versions | 2022.01.08 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [xquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xquic/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xquic
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xquic")
 ```
 
 

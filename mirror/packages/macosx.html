@@ -838,6 +838,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("boost")
 </code></pre>
+<h3 id="boringsslmacosx">boringssl (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A fork of OpenSSL that is designed to meet Google&#39;s needs.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://boringssl.googlesource.com/boringssl">https://boringssl.googlesource.com/boringssl</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2021.12.29</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boringssl/xmake.lua">boringssl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install boringssl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("boringssl")
+</code></pre>
 <h3 id="box2dmacosx">box2d (macosx)</h3>
 <table>
 <thead>
@@ -5036,7 +5069,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.11</td>
+<td>1.17.6</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -17928,6 +17961,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("xorgproto")
+</code></pre>
+<h3 id="xquicmacosx">xquic (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A client and server implementation of QUIC and HTTP/3 as specified by the IETF</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/alibaba/xquic">https://github.com/alibaba/xquic</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2022.01.08</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xquic/xmake.lua">xquic/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install xquic
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("xquic")
 </code></pre>
 <h3 id="xsimdmacosx">xsimd (macosx)</h3>
 <table>
