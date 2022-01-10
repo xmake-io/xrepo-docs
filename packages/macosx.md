@@ -1158,26 +1158,26 @@ add_requires("cmocka")
 ```
 
 
-### co (macosx)
+### cocoyaxi (macosx)
 
 
 | Description | *A go-style coroutine library in C++11 and more* |
 | -- | -- |
-| Homepage | [https://github.com/idealvin/co](https://github.com/idealvin/co) |
-| Versions | v2.0.1, v2.0.2, v2.0.3 |
+| Homepage | [https://github.com/idealvin/cocoyaxi](https://github.com/idealvin/cocoyaxi) |
+| Versions | v2.0.3 |
 | Architectures | arm64, i386, x86_64 |
-| Definition | [co/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/co/xmake.lua) |
+| Definition | [cocoyaxi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cocoyaxi/xmake.lua) |
 
 ##### Install command
 
 ```console
-xrepo install co
+xrepo install cocoyaxi
 ```
 
 ##### Integration in the project (xmake.lua)
 
 ```lua
-add_requires("co")
+add_requires("cocoyaxi")
 ```
 
 
@@ -9067,7 +9067,7 @@ add_requires("opensubdiv")
 | Description | *OpenVDB - Sparse volume data structure and tools* |
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
-| Versions | 7.1.0, 8.0.1, 8.1.0, 9.0.0 |
+| Versions | 7.1.0, 8.0.1, 8.1.0, 8.2.0, 9.0.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
