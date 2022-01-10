@@ -2966,6 +2966,29 @@ add_requires("glfw")
 ```
 
 
+### gli (windows)
+
+
+| Description | *OpenGL Image (GLI)* |
+| -- | -- |
+| Homepage | [https://gli.g-truc.net/](https://gli.g-truc.net/) |
+| Versions | 0.8.2.0 |
+| Architectures | x64, x86 |
+| Definition | [gli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gli")
+```
+
+
 ### glib (windows)
 
 

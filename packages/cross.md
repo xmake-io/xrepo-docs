@@ -927,6 +927,29 @@ add_requires("fx-gltf")
 
 
 ## g
+### gli (cross)
+
+
+| Description | *OpenGL Image (GLI)* |
+| -- | -- |
+| Homepage | [https://gli.g-truc.net/](https://gli.g-truc.net/) |
+| Versions | 0.8.2.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [gli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] gli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gli")
+```
+
+
 ### glm (cross)
 
 

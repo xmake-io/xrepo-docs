@@ -1069,6 +1069,29 @@ add_requires("giflib")
 ```
 
 
+### gli (iphoneos)
+
+
+| Description | *OpenGL Image (GLI)* |
+| -- | -- |
+| Homepage | [https://gli.g-truc.net/](https://gli.g-truc.net/) |
+| Versions | 0.8.2.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [gli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos gli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gli")
+```
+
+
 ### glm (iphoneos)
 
 
