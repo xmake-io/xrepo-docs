@@ -5558,6 +5558,29 @@ add_requires("libpq")
 ```
 
 
+### libpqxx (macosx)
+
+
+| Description | *The official C++ client API for PostgreSQL.* |
+| -- | -- |
+| Homepage | [http://pqxx.org/](http://pqxx.org/) |
+| Versions | 7.7.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libpqxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpqxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpqxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpqxx")
+```
+
+
 ### libpsl (macosx)
 
 
