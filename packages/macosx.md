@@ -9629,6 +9629,30 @@ add_requires("pqp")
 ```
 
 
+### promise-cpp (macosx)
+
+
+| Description | *C++ promise/A+ library in Javascript style.* |
+| -- | -- |
+| Homepage | [https://github.com/xhawk18/promise-cpp](https://github.com/xhawk18/promise-cpp) |
+| License | MIT |
+| Versions | 2.1.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [promise-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/promise-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install promise-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("promise-cpp")
+```
+
+
 ### protobuf-c (macosx)
 
 
