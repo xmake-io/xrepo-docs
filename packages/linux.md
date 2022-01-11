@@ -5912,6 +5912,30 @@ add_requires("libpng")
 ```
 
 
+### libpq (linux)
+
+
+| Description | *Postgres C API library* |
+| -- | -- |
+| Homepage | [https://www.postgresql.org/docs/14/libpq.html](https://www.postgresql.org/docs/14/libpq.html) |
+| License | PostgreSQL |
+| Versions | 14.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libpq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpq/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpq
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpq")
+```
+
+
 ### libpsl (linux)
 
 
@@ -10853,6 +10877,30 @@ xrepo install readerwriterqueue
 
 ```lua
 add_requires("readerwriterqueue")
+```
+
+
+### readline (linux)
+
+
+| Description | *Library for command-line editing* |
+| -- | -- |
+| Homepage | [https://tiswww.case.edu/php/chet/readline/rltop.html](https://tiswww.case.edu/php/chet/readline/rltop.html) |
+| License | GPL-3.0-or-later |
+| Versions | 8.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [readline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install readline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("readline")
 ```
 
 
