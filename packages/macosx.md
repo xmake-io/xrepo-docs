@@ -8608,6 +8608,30 @@ add_requires("nodesoup")
 ```
 
 
+### noise-c (macosx)
+
+
+| Description | *Noise-C, a plain C implementation of the Noise protocol* |
+| -- | -- |
+| Homepage | [https://github.com/rweather/noise-c](https://github.com/rweather/noise-c) |
+| License | MIT |
+| Versions | 2021.04.09 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [noise-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/noise-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install noise-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("noise-c")
+```
+
+
 ### numcpp (macosx)
 
 
@@ -9767,6 +9791,29 @@ xrepo install pugixml
 
 ```lua
 add_requires("pugixml")
+```
+
+
+### pupnp (macosx)
+
+
+| Description | *Build UPnP-compliant control points, devices, and bridges on several operating systems.* |
+| -- | -- |
+| Homepage | [https://pupnp.github.io/pupnp](https://pupnp.github.io/pupnp) |
+| Versions | 1.14.12 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [pupnp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pupnp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pupnp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pupnp")
 ```
 
 
