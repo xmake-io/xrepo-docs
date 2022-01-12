@@ -4195,6 +4195,29 @@ add_requires("libccd")
 ```
 
 
+### libcpuid (windows)
+
+
+| Description | *a small C library for x86 CPU detection and feature extraction* |
+| -- | -- |
+| Homepage | [https://github.com/anrieff/libcpuid](https://github.com/anrieff/libcpuid) |
+| Versions | v0.5.1 |
+| Architectures | x64, x86 |
+| Definition | [libcpuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcpuid/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libcpuid
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libcpuid")
+```
+
+
 ### libcroco (windows)
 
 

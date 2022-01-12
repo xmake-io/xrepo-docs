@@ -1939,6 +1939,29 @@ add_requires("libargon2")
 ```
 
 
+### libcpuid (mingw)
+
+
+| Description | *a small C library for x86 CPU detection and feature extraction* |
+| -- | -- |
+| Homepage | [https://github.com/anrieff/libcpuid](https://github.com/anrieff/libcpuid) |
+| Versions | v0.5.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libcpuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcpuid/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libcpuid
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libcpuid")
+```
+
+
 ### libcurl (mingw)
 
 
