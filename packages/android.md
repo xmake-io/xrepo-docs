@@ -4344,6 +4344,29 @@ add_requires("tinycbor")
 ```
 
 
+### tinycrypt (android)
+
+
+| Description | *TinyCrypt Cryptographic Library* |
+| -- | -- |
+| Homepage | [https://github.com/intel/tinycrypt](https://github.com/intel/tinycrypt) |
+| Versions | 2019.9.18 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tinycrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tinycrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinycrypt")
+```
+
+
 ### tinyformat (android)
 
 

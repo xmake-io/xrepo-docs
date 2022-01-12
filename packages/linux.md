@@ -12107,6 +12107,29 @@ add_requires("tinycc")
 ```
 
 
+### tinycrypt (linux)
+
+
+| Description | *TinyCrypt Cryptographic Library* |
+| -- | -- |
+| Homepage | [https://github.com/intel/tinycrypt](https://github.com/intel/tinycrypt) |
+| Versions | 2019.9.18 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [tinycrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinycrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinycrypt")
+```
+
+
 ### tinyfiledialogs (linux)
 
 

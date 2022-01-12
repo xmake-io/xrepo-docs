@@ -11352,6 +11352,29 @@ add_requires("tinycc")
 ```
 
 
+### tinycrypt (macosx)
+
+
+| Description | *TinyCrypt Cryptographic Library* |
+| -- | -- |
+| Homepage | [https://github.com/intel/tinycrypt](https://github.com/intel/tinycrypt) |
+| Versions | 2019.9.18 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [tinycrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinycrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinycrypt")
+```
+
+
 ### tinyfiledialogs (macosx)
 
 
