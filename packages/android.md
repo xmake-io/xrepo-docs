@@ -1939,6 +1939,29 @@ add_requires("libelf")
 ```
 
 
+### libfiber (android)
+
+
+| Description | *The high performance coroutine library for Linux/FreeBSD/MacOS/Windows, supporting select/poll/epoll/kqueue/iocp/windows GUI* |
+| -- | -- |
+| Homepage | [https://github.com/iqiyi/libfiber](https://github.com/iqiyi/libfiber) |
+| Versions | v0.9.0+0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libfiber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfiber/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libfiber
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfiber")
+```
+
+
 ### libflac (android)
 
 
