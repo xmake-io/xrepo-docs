@@ -2527,6 +2527,29 @@ add_requires("miniaudio")
 ```
 
 
+### minilzo (iphoneos)
+
+
+| Description | *A very lightweight subset of the LZO library intended for easy inclusion with your application* |
+| -- | -- |
+| Homepage | [http://www.oberhumer.com/opensource/lzo/#minilzo](http://www.oberhumer.com/opensource/lzo/#minilzo) |
+| Versions | 2.10 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [minilzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minilzo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos minilzo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minilzo")
+```
+
+
 ### minimp3 (iphoneos)
 
 

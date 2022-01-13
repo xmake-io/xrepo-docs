@@ -2010,6 +2010,29 @@ add_requires("miniaudio")
 ```
 
 
+### minilzo (cross)
+
+
+| Description | *A very lightweight subset of the LZO library intended for easy inclusion with your application* |
+| -- | -- |
+| Homepage | [http://www.oberhumer.com/opensource/lzo/#minilzo](http://www.oberhumer.com/opensource/lzo/#minilzo) |
+| Versions | 2.10 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [minilzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minilzo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] minilzo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minilzo")
+```
+
+
 ### minimp3 (cross)
 
 
