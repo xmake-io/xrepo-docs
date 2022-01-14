@@ -2277,6 +2277,29 @@ add_requires("ezc3d")
 
 
 ## f
+### faac (macosx)
+
+
+| Description | *Freeware Advanced Audio Coder faac mirror* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/faac/](https://sourceforge.net/projects/faac/) |
+| Versions | 1.30 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [faac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install faac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("faac")
+```
+
+
 ### faad2 (macosx)
 
 

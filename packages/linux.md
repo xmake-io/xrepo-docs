@@ -2420,6 +2420,29 @@ add_requires("ezc3d")
 
 
 ## f
+### faac (linux)
+
+
+| Description | *Freeware Advanced Audio Coder faac mirror* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/faac/](https://sourceforge.net/projects/faac/) |
+| Versions | 1.30 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [faac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install faac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("faac")
+```
+
+
 ### faad2 (linux)
 
 
