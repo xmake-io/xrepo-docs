@@ -1472,6 +1472,30 @@ add_requires("kiwisolver")
 
 
 ## l
+### lame (bsd)
+
+
+| Description | *High quality MPEG Audio Layer III (MP3) encoder* |
+| -- | -- |
+| Homepage | [https://lame.sourceforge.io/](https://lame.sourceforge.io/) |
+| License | LGPL-2.0-or-later |
+| Versions | 3.100 |
+| Architectures | i386, x86_64 |
+| Definition | [lame/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lame/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lame
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lame")
+```
+
+
 ### libdivsufsort (bsd)
 
 
@@ -3905,6 +3929,30 @@ xrepo install zig
 
 ```lua
 add_requires("zig")
+```
+
+
+### zimg (bsd)
+
+
+| Description | *Scaling, colorspace conversion, and dithering library* |
+| -- | -- |
+| Homepage | [https://github.com/sekrit-twc/zimg](https://github.com/sekrit-twc/zimg) |
+| License | WTFPL |
+| Versions | 3.0.3 |
+| Architectures | i386, x86_64 |
+| Definition | [zimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zimg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zimg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zimg")
 ```
 
 
