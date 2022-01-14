@@ -8819,6 +8819,30 @@ add_requires("mpmcqueue")
 ```
 
 
+### msquic (linux)
+
+
+| Description | *Cross-platform, C implementation of the IETF QUIC protocol.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/msquic](https://github.com/microsoft/msquic) |
+| License | MIT |
+| Versions | v1.9.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [msquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msquic/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install msquic
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msquic")
+```
+
+
 ### mumps (linux)
 
 
