@@ -12183,7 +12183,7 @@ add_requires("texinfo")
 | Description | *Core library from Tilted Phoques* |
 | -- | -- |
 | Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
-| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4 |
+| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tiltedcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiltedcore/xmake.lua) |
 
@@ -13176,6 +13176,167 @@ xrepo install xcb-proto
 
 ```lua
 add_requires("xcb-proto")
+```
+
+
+### xcb-util (linux)
+
+
+| Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
+| -- | -- |
+| Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
+| Versions | 0.3.6, 0.3.8, 0.3.9, 0.4.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xcb-util/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xcb-util
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xcb-util")
+```
+
+
+### xcb-util-cursor (linux)
+
+
+| Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
+| -- | -- |
+| Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
+| Versions | 0.1.0, 0.1.1, 0.1.2, 0.1.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xcb-util-cursor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-cursor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xcb-util-cursor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xcb-util-cursor")
+```
+
+
+### xcb-util-errors (linux)
+
+
+| Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
+| -- | -- |
+| Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
+| Versions | 1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xcb-util-errors/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-errors/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xcb-util-errors
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xcb-util-errors")
+```
+
+
+### xcb-util-image (linux)
+
+
+| Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
+| -- | -- |
+| Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
+| Versions | 0.3.8, 0.3.9, 0.4.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xcb-util-image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-image/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xcb-util-image
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xcb-util-image")
+```
+
+
+### xcb-util-keysyms (linux)
+
+
+| Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
+| -- | -- |
+| Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
+| Versions | 0.3.8, 0.3.9, 0.4.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xcb-util-keysyms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-keysyms/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xcb-util-keysyms
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xcb-util-keysyms")
+```
+
+
+### xcb-util-renderutil (linux)
+
+
+| Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
+| -- | -- |
+| Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
+| Versions | 0.3.8, 0.3.9 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xcb-util-renderutil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-renderutil/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xcb-util-renderutil
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xcb-util-renderutil")
+```
+
+
+### xcb-util-wm (linux)
+
+
+| Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
+| -- | -- |
+| Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
+| Versions | 0.3.8, 0.3.9, 0.4.0, 0.4.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xcb-util-wm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-wm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xcb-util-wm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xcb-util-wm")
 ```
 
 
