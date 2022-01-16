@@ -57,6 +57,10 @@ The following is the overall architecture and compilation process integrated wit
 
 ## Get started
 
+### Use it in cmake
+
+We need CMake wrapper for Xrepo C and C++ package manager. [xrepo-cmake](https://github.com/xmake-io/xrepo-cmake)
+
 ### Installation package
 
 #### Basic usage
