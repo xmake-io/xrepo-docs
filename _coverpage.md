@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: xcb-util-cursor, xcb-util-errors, xcb-util-image**
+- **Recently added: kompute, xcb-util-cursor, xcb-util-errors**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
