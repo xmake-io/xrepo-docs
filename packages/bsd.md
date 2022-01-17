@@ -613,6 +613,29 @@ add_requires("date")
 ```
 
 
+### debugbreak (bsd)
+
+
+| Description | *break into the debugger programmatically* |
+| -- | -- |
+| Homepage | [https://github.com/scottt/debugbreak](https://github.com/scottt/debugbreak) |
+| Versions | v1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [debugbreak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debugbreak/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install debugbreak
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("debugbreak")
+```
+
+
 ### decimal_for_cpp (bsd)
 
 

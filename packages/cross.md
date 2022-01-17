@@ -542,6 +542,29 @@ add_requires("date")
 ```
 
 
+### debugbreak (cross)
+
+
+| Description | *break into the debugger programmatically* |
+| -- | -- |
+| Homepage | [https://github.com/scottt/debugbreak](https://github.com/scottt/debugbreak) |
+| Versions | v1.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [debugbreak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debugbreak/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] debugbreak
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("debugbreak")
+```
+
+
 ### decimal_for_cpp (cross)
 
 

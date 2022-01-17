@@ -731,6 +731,29 @@ add_requires("date")
 ```
 
 
+### debugbreak (android)
+
+
+| Description | *break into the debugger programmatically* |
+| -- | -- |
+| Homepage | [https://github.com/scottt/debugbreak](https://github.com/scottt/debugbreak) |
+| Versions | v1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [debugbreak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debugbreak/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] debugbreak
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("debugbreak")
+```
+
+
 ### decimal_for_cpp (android)
 
 
