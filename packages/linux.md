@@ -8678,6 +8678,29 @@ add_requires("mnn")
 ```
 
 
+### mold (linux)
+
+
+| Description | *mold: A Modern Linker* |
+| -- | -- |
+| Homepage | [https://github.com/rui314/mold](https://github.com/rui314/mold) |
+| Versions | 1.0.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mold/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mold
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mold")
+```
+
+
 ### mongo-c-driver (linux)
 
 
