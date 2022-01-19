@@ -2653,6 +2653,30 @@ add_requires("fmt")
 ```
 
 
+### fmtlog (macosx)
+
+
+| Description | *fmtlog is a performant fmtlib-style logging library with latency in nanoseconds.* |
+| -- | -- |
+| Homepage | [https://github.com/MengRao/fmtlog](https://github.com/MengRao/fmtlog) |
+| License | MIT |
+| Versions | v2.1.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [fmtlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmtlog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fmtlog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fmtlog")
+```
+
+
 ### folly (macosx)
 
 
