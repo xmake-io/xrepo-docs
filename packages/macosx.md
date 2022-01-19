@@ -12254,6 +12254,32 @@ add_requires("vulkan-memory-allocator")
 
 
 
+## w
+### workflow (macosx)
+
+
+| Description | *C++ Parallel Computing and Asynchronous Networking Engine* |
+| -- | -- |
+| Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
+| License | Apache-2.0 |
+| Versions | v0.9.9 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install workflow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("workflow")
+```
+
+
+
 ## x
 ### x264 (macosx)
 
