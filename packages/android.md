@@ -1591,7 +1591,7 @@ add_requires("ifort")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -4793,32 +4793,6 @@ xrepo install -p android [--ndk=/xxx] vulkan-validationlayers
 
 ```lua
 add_requires("vulkan-validationlayers")
-```
-
-
-
-## w
-### workflow (android)
-
-
-| Description | *C++ Parallel Computing and Asynchronous Networking Engine* |
-| -- | -- |
-| Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
-| License | Apache-2.0 |
-| Versions | v0.9.9 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
-| Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] workflow
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("workflow")
 ```
 
 
