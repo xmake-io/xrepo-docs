@@ -1049,7 +1049,7 @@ add_requires("gn")
 | Description | *GNU Arm Embedded Toolchain* |
 | -- | -- |
 | Homepage | [https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) |
-| Versions | 10.2020-q4 |
+| Versions | 2020.10, 2021.10 |
 | Architectures | i386, x86_64 |
 | Definition | [gnu-rm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-rm/xmake.lua) |
 
