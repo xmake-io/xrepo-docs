@@ -9058,6 +9058,30 @@ add_requires("ogre-next")
 ```
 
 
+### onetbb (macosx)
+
+
+| Description | *oneAPI Threading Building Blocks (oneTBB)* |
+| -- | -- |
+| Homepage | [https://oneapi-src.github.io/oneTBB/](https://oneapi-src.github.io/oneTBB/) |
+| License | Apache-2.0 |
+| Versions | v2021.5.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install onetbb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("onetbb")
+```
+
+
 ### openal-soft (macosx)
 
 
