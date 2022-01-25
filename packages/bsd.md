@@ -4009,7 +4009,7 @@ add_requires("zimg")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
-| Versions | 1.2.10, 1.2.11 |
+| Versions | v1.2.10, v1.2.11 |
 | Architectures | i386, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
