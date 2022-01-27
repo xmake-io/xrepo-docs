@@ -2010,6 +2010,29 @@ add_requires("libspng")
 ```
 
 
+### libsv (iphoneos)
+
+
+| Description | *libsv - Public domain cross-platform semantic versioning in c99* |
+| -- | -- |
+| Homepage | [https://github.com/uael/sv](https://github.com/uael/sv) |
+| Versions | 2021.11.27 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [libsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libsv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsv")
+```
+
+
 ### libsvm (iphoneos)
 
 

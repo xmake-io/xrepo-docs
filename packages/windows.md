@@ -5253,6 +5253,29 @@ add_requires("libsquish")
 ```
 
 
+### libsv (windows)
+
+
+| Description | *libsv - Public domain cross-platform semantic versioning in c99* |
+| -- | -- |
+| Homepage | [https://github.com/uael/sv](https://github.com/uael/sv) |
+| Versions | 2021.11.27 |
+| Architectures | x64, x86 |
+| Definition | [libsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsv")
+```
+
+
 ### libsvm (windows)
 
 
