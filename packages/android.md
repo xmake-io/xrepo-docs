@@ -53,7 +53,7 @@ add_requires("argp-standalone")
 | -- | -- |
 | Homepage | [http://think-async.com/Asio/](http://think-async.com/Asio/) |
 | License | BSL-1.0 |
-| Versions | 1.20.0 |
+| Versions | 1.20.0, 1.21.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [asio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio/xmake.lua) |
 
