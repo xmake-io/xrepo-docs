@@ -127,7 +127,7 @@ add_requires("angelscript")
 | -- | -- |
 | Homepage | [http://arma.sourceforge.net/](http://arma.sourceforge.net/) |
 | License | Apache-2.0 |
-| Versions | 10.7.0, 10.7.3 |
+| Versions | 10.7.0, 10.7.3, 10.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [armadillo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/armadillo/xmake.lua) |
 
@@ -9962,7 +9962,7 @@ add_requires("openldap")
 | -- | -- |
 | Homepage | [https://www.graphics.rwth-aachen.de/software/openmesh/](https://www.graphics.rwth-aachen.de/software/openmesh/) |
 | License | BSD-3-Clause |
-| Versions | 8.1 |
+| Versions | 8.1, 9.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openmesh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openmesh/xmake.lua) |
 
@@ -11521,7 +11521,7 @@ add_requires("shaderc")
 | Description | *Library used to write shaders from C++, and export them in either GLSL, HLSL or SPIR-V.* |
 | -- | -- |
 | Homepage | [https://github.com/DragonJoker/ShaderWriter](https://github.com/DragonJoker/ShaderWriter) |
-| Versions | 0.1, 1.0, 1.1, 2.0 |
+| Versions | 0.1, 1.0, 1.1, 2.0, 2.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [shaderwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderwriter/xmake.lua) |
 
