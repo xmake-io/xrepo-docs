@@ -103,7 +103,7 @@ add_requires("amgcl")
 | -- | -- |
 | Homepage | [http://angelcode.com/angelscript/](http://angelcode.com/angelscript/) |
 | License | zlib |
-| Versions | 2.34.0, 2.35.0 |
+| Versions | 2.34.0, 2.35.0, 2.35.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [angelscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/angelscript/xmake.lua) |
 
