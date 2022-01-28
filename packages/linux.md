@@ -175,7 +175,7 @@ add_requires("asio")
 | -- | -- |
 | Homepage | [https://asmjit.com/](https://asmjit.com/) |
 | License | zlib |
-| Versions | 2021.06.27 |
+| Versions | 2021.06.27, 2022.01.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
 
