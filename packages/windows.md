@@ -1065,6 +1065,29 @@ add_requires("clhep")
 ```
 
 
+### cli (windows)
+
+
+| Description | *A library for interactive command line interfaces in modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/daniele77/cli](https://github.com/daniele77/cli) |
+| Versions | v2.0.0 |
+| Architectures | x64, x86 |
+| Definition | [cli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cli")
+```
+
+
 ### cmake (windows)
 
 
