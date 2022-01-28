@@ -192,6 +192,29 @@ add_requires("asmjit")
 ```
 
 
+### asn1c (linux)
+
+
+| Description | *The ASN.1 Compiler* |
+| -- | -- |
+| Homepage | [http://lionet.info/asn1c/](http://lionet.info/asn1c/) |
+| Versions | v0.9.28 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [asn1c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asn1c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install asn1c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asn1c")
+```
+
+
 ### assimp (linux)
 
 
