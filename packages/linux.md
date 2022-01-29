@@ -3292,6 +3292,30 @@ add_requires("gflags")
 ```
 
 
+### ghc_filesystem (linux)
+
+
+| Description | *An implementation of C++17 std::filesystem for C++11 /C++14/C++17/C++20 on Windows, macOS, Linux and FreeBSD.* |
+| -- | -- |
+| Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
+| License | MIT |
+| Versions | v1.5.10 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ghc_filesystem
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ghc_filesystem")
+```
+
+
 ### ghostscript (linux)
 
 
