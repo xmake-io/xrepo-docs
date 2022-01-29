@@ -4996,6 +4996,29 @@ add_requires("libraw")
 ```
 
 
+### librdkafka (windows)
+
+
+| Description | *The Apache Kafka C/C++ library* |
+| -- | -- |
+| Homepage | [https://github.com/edenhill/librdkafka](https://github.com/edenhill/librdkafka) |
+| Versions | v1.6.2 |
+| Architectures | x64, x86 |
+| Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install librdkafka
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("librdkafka")
+```
+
+
 ### libressl (windows)
 
 
