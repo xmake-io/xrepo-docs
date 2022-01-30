@@ -8872,7 +8872,7 @@ add_requires("mold")
 | -- | -- |
 | Homepage | [http://mongoc.org/](http://mongoc.org/) |
 | License | Apache-2.0 |
-| Versions | 1.19.0 |
+| Versions | 1.19.0, 1.20.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mongo-c-driver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongo-c-driver/xmake.lua) |
 
@@ -8886,6 +8886,29 @@ xrepo install mongo-c-driver
 
 ```lua
 add_requires("mongo-c-driver")
+```
+
+
+### mongo-cxx-driver (linux)
+
+
+| Description | *mongodb c++ driver* |
+| -- | -- |
+| Homepage | [https://github.com/mongodb/mongo-cxx-driver](https://github.com/mongodb/mongo-cxx-driver) |
+| Versions | 3.6.6 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mongo-cxx-driver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongo-cxx-driver/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mongo-cxx-driver
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mongo-cxx-driver")
 ```
 
 
