@@ -10258,6 +10258,30 @@ add_requires("uvw")
 ```
 
 
+### uvwasi (windows)
+
+
+| Description | *WASI syscall API built atop libuv* |
+| -- | -- |
+| Homepage | [https://github.com/nodejs/uvwasi](https://github.com/nodejs/uvwasi) |
+| License | MIT |
+| Versions | v0.0.12 |
+| Architectures | x64, x86 |
+| Definition | [uvwasi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uvwasi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uvwasi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uvwasi")
+```
+
+
 
 ## v
 ### vc (windows)
