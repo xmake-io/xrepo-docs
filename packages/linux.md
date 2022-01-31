@@ -3978,6 +3978,29 @@ add_requires("hdf5")
 ```
 
 
+### hdrhistogram_c (linux)
+
+
+| Description | *C port of High Dynamic Range (HDR) Histogram* |
+| -- | -- |
+| Homepage | [https://github.com/HdrHistogram/HdrHistogram_c](https://github.com/HdrHistogram/HdrHistogram_c) |
+| Versions | 2021.1.25 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [hdrhistogram_c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdrhistogram_c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hdrhistogram_c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hdrhistogram_c")
+```
+
+
 ### hffix (linux)
 
 
