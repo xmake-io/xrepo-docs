@@ -3302,6 +3302,30 @@ add_requires("ndk")
 ```
 
 
+### ngtcp2 (android)
+
+
+| Description | *ngtcp2 project is an effort to implement IETF QUIC protocol* |
+| -- | -- |
+| Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
+| License | MIT |
+| Versions | 0.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ngtcp2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ngtcp2")
+```
+
+
 ### ninja (android)
 
 

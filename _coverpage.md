@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: hdrhistogram_c, uvwasi, mongo-cxx-driver**
+- **Recently added: ngtcp2, hdrhistogram_c, uvwasi**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

@@ -8935,6 +8935,30 @@ add_requires("nghttp2")
 ```
 
 
+### ngtcp2 (macosx)
+
+
+| Description | *ngtcp2 project is an effort to implement IETF QUIC protocol* |
+| -- | -- |
+| Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
+| License | MIT |
+| Versions | 0.1.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ngtcp2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ngtcp2")
+```
+
+
 ### ninja (macosx)
 
 
