@@ -7617,7 +7617,7 @@ add_requires("opencolorio")
 | -- | -- |
 | Homepage | [https://opencv.org/](https://opencv.org/) |
 | License | Apache-2.0 |
-| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3, 4.5.4 |
+| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3, 4.5.4, 4.5.5 |
 | Architectures | x64, x86 |
 | Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
 
