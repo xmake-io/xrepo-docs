@@ -1605,6 +1605,29 @@ add_requires("decimal_for_cpp")
 ```
 
 
+### depot_tools (windows)
+
+
+| Description | *Tools for working with Chromium development* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/chromium/tools/depot_tools](https://chromium.googlesource.com/chromium/tools/depot_tools) |
+| Versions | 2022.2.1 |
+| Architectures | x64, x86 |
+| Definition | [depot_tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/depot_tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install depot_tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("depot_tools")
+```
+
+
 ### devil (windows)
 
 
