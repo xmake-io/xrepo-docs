@@ -6529,7 +6529,7 @@ add_requires("mhook")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 2.0.1, 2.0.2 |
+| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 2.0.1, 2.0.2, 2.0.3 |
 | Architectures | x64, x86 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 

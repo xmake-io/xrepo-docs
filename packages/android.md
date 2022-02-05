@@ -2907,7 +2907,7 @@ add_requires("meson")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 2.0.1, 2.0.2 |
+| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 2.0.1, 2.0.2, 2.0.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
