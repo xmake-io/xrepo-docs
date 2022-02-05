@@ -2086,7 +2086,7 @@ add_requires("libgit2")
 | Description | *Like libevent, libev, and libuv, libhv provides event-loop with non-blocking IO and timer, but simpler api and richer protocols.* |
 | -- | -- |
 | Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
-| Versions | 1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3 |
+| Versions | 1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
 
