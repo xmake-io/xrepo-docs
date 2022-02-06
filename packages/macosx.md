@@ -308,6 +308,29 @@ add_requires("backward-cpp")
 ```
 
 
+### bazel (macosx)
+
+
+| Description | *A fast, scalable, multi-language and extensible build system* |
+| -- | -- |
+| Homepage | [https://bazel.build/](https://bazel.build/) |
+| Versions | 5.0.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [bazel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bazel/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bazel
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bazel")
+```
+
+
 ### bc (macosx)
 
 

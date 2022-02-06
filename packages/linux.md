@@ -381,6 +381,29 @@ add_requires("backward-cpp")
 ```
 
 
+### bazel (linux)
+
+
+| Description | *A fast, scalable, multi-language and extensible build system* |
+| -- | -- |
+| Homepage | [https://bazel.build/](https://bazel.build/) |
+| Versions | 5.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [bazel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bazel/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bazel
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bazel")
+```
+
+
 ### bc (linux)
 
 
