@@ -1303,8 +1303,9 @@ add_requires("cppcoro")
 
 | Description | *C++ Requests is a simple wrapper around libcurl inspired by the excellent Python Requests project.* |
 | -- | -- |
-| Homepage | [https://whoshuu.github.io/cpr/](https://whoshuu.github.io/cpr/) |
-| Versions | 1.6.2 |
+| Homepage | [https://docs.libcpr.org/](https://docs.libcpr.org/) |
+| License | MIT |
+| Versions | 1.6.2, 1.7.2 |
 | Architectures | x64, x86 |
 | Definition | [cpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpr/xmake.lua) |
 
@@ -4413,7 +4414,7 @@ add_requires("libcroco")
 | -- | -- |
 | Homepage | [https://curl.haxx.se/](https://curl.haxx.se/) |
 | License | MIT |
-| Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0, 7.80.0 |
+| Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0, 7.80.0, 7.81.0 |
 | Architectures | x64, x86 |
 | Definition | [libcurl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcurl/xmake.lua) |
 
@@ -5366,6 +5367,30 @@ xrepo install libsquish
 
 ```lua
 add_requires("libsquish")
+```
+
+
+### libssh2 (windows)
+
+
+| Description | *C library implementing the SSH2 protocol* |
+| -- | -- |
+| Homepage | [https://www.libssh2.org/](https://www.libssh2.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.10.0 |
+| Architectures | x64, x86 |
+| Definition | [libssh2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libssh2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libssh2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libssh2")
 ```
 
 
