@@ -1865,6 +1865,30 @@ add_requires("irrxml")
 ```
 
 
+### isocline (mingw)
+
+
+| Description | *Isocline is a portable GNU readline alternative * |
+| -- | -- |
+| Homepage | [https://github.com/daanx/isocline](https://github.com/daanx/isocline) |
+| License | MIT |
+| Versions | 2022.01.16 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [isocline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/isocline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] isocline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("isocline")
+```
+
+
 
 ## j
 ### jsmn (mingw)

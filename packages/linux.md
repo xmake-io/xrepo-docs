@@ -4519,6 +4519,30 @@ add_requires("iso-codes")
 ```
 
 
+### isocline (linux)
+
+
+| Description | *Isocline is a portable GNU readline alternative * |
+| -- | -- |
+| Homepage | [https://github.com/daanx/isocline](https://github.com/daanx/isocline) |
+| License | MIT |
+| Versions | 2022.01.16 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [isocline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/isocline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install isocline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("isocline")
+```
+
+
 ### itk (linux)
 
 

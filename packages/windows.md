@@ -3977,6 +3977,30 @@ add_requires("irrxml")
 ```
 
 
+### isocline (windows)
+
+
+| Description | *Isocline is a portable GNU readline alternative * |
+| -- | -- |
+| Homepage | [https://github.com/daanx/isocline](https://github.com/daanx/isocline) |
+| License | MIT |
+| Versions | 2022.01.16 |
+| Architectures | x64, x86 |
+| Definition | [isocline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/isocline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install isocline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("isocline")
+```
+
+
 ### itk (windows)
 
 
