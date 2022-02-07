@@ -8069,7 +8069,7 @@ add_requires("patch")
 | -- | -- |
 | Homepage | [https://pointclouds.org/](https://pointclouds.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.12.0 |
+| Versions | 1.12.0, 1.12.1 |
 | Architectures | x64, x86 |
 | Definition | [pcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcl/xmake.lua) |
 

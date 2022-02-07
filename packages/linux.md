@@ -7230,7 +7230,7 @@ add_requires("libwfkafka")
 | Description | *X.Org: Core X11 protocol client library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.6.9, 1.7.0 |
+| Versions | 1.6.9, 1.7.0, 1.7.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
 
@@ -7461,7 +7461,7 @@ add_requires("libxft")
 | Description | *X.Org: Library for the X Input Extension* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.7.10 |
+| Versions | 1.7.10, 1.8 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxi/xmake.lua) |
 
@@ -10529,7 +10529,7 @@ add_requires("pciutils")
 | -- | -- |
 | Homepage | [https://pointclouds.org/](https://pointclouds.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.12.0 |
+| Versions | 1.12.0, 1.12.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcl/xmake.lua) |
 
@@ -13817,7 +13817,7 @@ add_requires("xmlto")
 | Description | *X.Org: Protocol Headers* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 2019.2, 2021.3 |
+| Versions | 2019.2, 2021.3, 2021.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xorgproto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xorgproto/xmake.lua) |
 
