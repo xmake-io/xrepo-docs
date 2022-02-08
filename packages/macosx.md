@@ -12367,6 +12367,29 @@ add_requires("uvwasi")
 
 
 ## v
+### v8 (macosx)
+
+
+| Description | *V8 JavaScript Engine* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/v8/v8.git](https://chromium.googlesource.com/v8/v8.git) |
+| Versions | 10.0.58 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [v8/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/v8/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install v8
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("v8")
+```
+
+
 ### vc (macosx)
 
 
