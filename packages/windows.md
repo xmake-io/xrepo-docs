@@ -174,7 +174,8 @@ add_requires("asmjit")
 | Description | *Portable Open-Source library to import various well-known 3D model formats in a uniform manner* |
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
-| Versions | v5.0.1, v5.1.4 |
+| License | BSD-3-Clause |
+| Versions | v5.0.1, v5.1.4, v5.2.1 |
 | Architectures | x64, x86 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -1944,7 +1945,7 @@ add_requires("dr_wav")
 | -- | -- |
 | Homepage | [https://google.github.io/draco/](https://google.github.io/draco/) |
 | License | Apache-2.0 |
-| Versions | 1.4.1 |
+| Versions | 1.4.1, 1.5.0 |
 | Architectures | x64, x86 |
 | Definition | [draco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/draco/xmake.lua) |
 
