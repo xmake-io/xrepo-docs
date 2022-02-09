@@ -362,7 +362,7 @@ add_requires("bc")
 | Description | *A microbenchmark support library* |
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
-| Versions | 1.5.2, 1.5.5 |
+| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
