@@ -1986,6 +1986,29 @@ add_requires("libdeflate")
 ```
 
 
+### libdivide (android)
+
+
+| Description | *Official git repository for libdivide: optimized integer division* |
+| -- | -- |
+| Homepage | [http://libdivide.com](http://libdivide.com) |
+| Versions | 5.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libdivide
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdivide")
+```
+
+
 ### libdivsufsort (android)
 
 

@@ -1728,6 +1728,29 @@ add_requires("libcurl")
 ```
 
 
+### libdivide (iphoneos)
+
+
+| Description | *Official git repository for libdivide: optimized integer division* |
+| -- | -- |
+| Homepage | [http://libdivide.com](http://libdivide.com) |
+| Versions | 5.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libdivide
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdivide")
+```
+
+
 ### libdivsufsort (iphoneos)
 
 

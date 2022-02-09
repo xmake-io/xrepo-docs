@@ -1470,6 +1470,29 @@ add_requires("kiwisolver")
 
 
 ## l
+### libdivide (msys)
+
+
+| Description | *Official git repository for libdivide: optimized integer division* |
+| -- | -- |
+| Homepage | [http://libdivide.com](http://libdivide.com) |
+| Versions | 5.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdivide
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdivide")
+```
+
+
 ### libdivsufsort (msys)
 
 
