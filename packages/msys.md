@@ -1825,7 +1825,7 @@ add_requires("lua-format")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2 |
+| Versions | v8.0.2, v8.2.0 |
 | Architectures | i386, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
@@ -1849,7 +1849,7 @@ add_requires("lvgl")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
 | License | BSL-1.0 |
-| Versions | 1.5.1 |
+| Versions | 1.5.1, 1.6 |
 | Architectures | i386, x86_64 |
 | Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
 

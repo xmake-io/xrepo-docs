@@ -975,7 +975,7 @@ add_requires("cfitsio")
 | -- | -- |
 | Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
 | License | LGPL-3.0 |
-| Versions | 5.1.1, 5.2.1, 5.3 |
+| Versions | 5.1.1, 5.2.1, 5.3, 5.4 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
 
@@ -3205,7 +3205,7 @@ add_requires("giflib")
 | -- | -- |
 | Homepage | [https://glad.dav1d.de/](https://glad.dav1d.de/) |
 | License | MIT |
-| Versions | v0.1.34 |
+| Versions | v0.1.34, v0.1.36 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [glad/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glad/xmake.lua) |
 
@@ -4102,7 +4102,7 @@ add_requires("imagemagick")
 | -- | -- |
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
-| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3 |
+| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
@@ -4125,7 +4125,8 @@ add_requires("imath")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86 |
+| License | MIT |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86, v1.87 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -7692,7 +7693,7 @@ add_requires("luajit")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2 |
+| Versions | v8.0.2, v8.2.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
@@ -7716,7 +7717,7 @@ add_requires("lvgl")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
 | License | BSL-1.0 |
-| Versions | 1.5.1 |
+| Versions | 1.5.1, 1.6 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
 
@@ -9369,7 +9370,7 @@ add_requires("openal-soft")
 | Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
@@ -9511,7 +9512,7 @@ add_requires("opencv")
 | Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1, 3.1.3 |
+| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1, 3.1.3, 3.1.4 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -9962,7 +9963,7 @@ add_requires("pcre2")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 3.2.2 |
+| Versions | 3.2.2, 3.2.5 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 

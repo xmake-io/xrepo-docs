@@ -1450,7 +1450,8 @@ add_requires("ifort")
 | Description | *Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies* |
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
-| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86 |
+| License | MIT |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86, v1.87 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -2437,7 +2438,7 @@ add_requires("luajit")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2 |
+| Versions | v8.0.2, v8.2.0 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
@@ -2461,7 +2462,7 @@ add_requires("lvgl")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
 | License | BSL-1.0 |
-| Versions | 1.5.1 |
+| Versions | 1.5.1, 1.6 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
 
