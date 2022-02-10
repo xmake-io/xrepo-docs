@@ -7280,6 +7280,30 @@ add_requires("nghttp2")
 ```
 
 
+### nghttp3 (windows)
+
+
+| Description | *HTTP/3 library written in C* |
+| -- | -- |
+| Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
+| License | MIT |
+| Versions | 2022.02.08 |
+| Architectures | x64, x86 |
+| Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nghttp3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nghttp3")
+```
+
+
 ### ngtcp2 (windows)
 
 
