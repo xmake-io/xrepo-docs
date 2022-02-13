@@ -330,6 +330,30 @@ add_requires("cgetopt")
 ```
 
 
+### civetweb (cross)
+
+
+| Description | *Embedded C/C++ web server* |
+| -- | -- |
+| Homepage | [https://github.com/civetweb/civetweb](https://github.com/civetweb/civetweb) |
+| License | MIT |
+| Versions | v1.15 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [civetweb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/civetweb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] civetweb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("civetweb")
+```
+
+
 ### clara (cross)
 
 

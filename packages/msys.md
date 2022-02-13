@@ -354,6 +354,30 @@ add_requires("cgetopt")
 ```
 
 
+### civetweb (msys)
+
+
+| Description | *Embedded C/C++ web server* |
+| -- | -- |
+| Homepage | [https://github.com/civetweb/civetweb](https://github.com/civetweb/civetweb) |
+| License | MIT |
+| Versions | v1.15 |
+| Architectures | i386, x86_64 |
+| Definition | [civetweb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/civetweb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install civetweb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("civetweb")
+```
+
+
 ### clara (msys)
 
 
