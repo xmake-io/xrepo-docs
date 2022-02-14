@@ -3626,6 +3626,30 @@ add_requires("highfive")
 ```
 
 
+### hiredis (windows)
+
+
+| Description | *Minimalistic C client for Redis >= 1.2* |
+| -- | -- |
+| Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
+| License | BSD-3-Clause |
+| Versions | v1.0.2 |
+| Architectures | x64, x86 |
+| Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hiredis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hiredis")
+```
+
+
 ### hopscotch-map (windows)
 
 

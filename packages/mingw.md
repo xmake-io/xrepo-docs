@@ -1680,6 +1680,30 @@ add_requires("guilite")
 
 
 ## h
+### hiredis (mingw)
+
+
+| Description | *Minimalistic C client for Redis >= 1.2* |
+| -- | -- |
+| Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
+| License | BSD-3-Clause |
+| Versions | v1.0.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] hiredis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hiredis")
+```
+
+
 ### hopscotch-map (mingw)
 
 
