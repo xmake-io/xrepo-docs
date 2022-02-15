@@ -381,6 +381,30 @@ add_requires("binutils")
 ```
 
 
+### bison (windows)
+
+
+| Description | *A general-purpose parser generator.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
+| License | GPL-3.0 |
+| Versions | 3.7.4, 3.7.6, 3.8.2 |
+| Architectures | x64, x86 |
+| Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bison
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bison")
+```
+
+
 ### blaze (windows)
 
 
@@ -2584,6 +2608,30 @@ xrepo install flatbuffers
 
 ```lua
 add_requires("flatbuffers")
+```
+
+
+### flex (windows)
+
+
+| Description | *%s* |
+| -- | -- |
+| Homepage | [https://github.com/westes/flex/](https://github.com/westes/flex/) |
+| License | BSD-2-Clause |
+| Versions | 2.6.4 |
+| Architectures | x64, x86 |
+| Definition | [flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flex")
 ```
 
 
@@ -10808,6 +10856,32 @@ xrepo install vulkan-validationlayers
 
 ```lua
 add_requires("vulkan-validationlayers")
+```
+
+
+
+## w
+### winflexbison (windows)
+
+
+| Description | *Win flex-bison is a windows port the Flex (the fast lexical analyser) and Bison (GNU parser generator)* |
+| -- | -- |
+| Homepage | [https://github.com/lexxmark/winflexbison](https://github.com/lexxmark/winflexbison) |
+| License | GPL |
+| Versions | v2.5.25 |
+| Architectures | x64, x86 |
+| Definition | [winflexbison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/winflexbison/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install winflexbison
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("winflexbison")
 ```
 
 
