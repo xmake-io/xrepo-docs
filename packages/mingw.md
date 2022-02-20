@@ -360,7 +360,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
 | License | BSD-3-Clause |
-| Versions | 1.3.0 |
+| Versions | 1.3.0, 1.3.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
 
@@ -855,7 +855,7 @@ add_requires("doctest")
 | -- | -- |
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
-| Versions | 1.9.1 |
+| Versions | 1.9.1, 1.9.2, 1.9.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
@@ -1024,7 +1024,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1 |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 

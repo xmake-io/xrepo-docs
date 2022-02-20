@@ -836,7 +836,7 @@ add_requires("celero")
 | -- | -- |
 | Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
 | License | BSD-3-Clause |
-| Versions | 1.3.0 |
+| Versions | 1.3.0, 1.3.1 |
 | Architectures | x64, x86 |
 | Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
 
@@ -1897,7 +1897,7 @@ add_requires("double-conversion")
 | -- | -- |
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
-| Versions | 1.9.1 |
+| Versions | 1.9.1, 1.9.2, 1.9.3 |
 | Architectures | x64, x86 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
@@ -2163,7 +2163,7 @@ add_requires("eigen")
 | -- | -- |
 | Homepage | [https://www.embree.org/](https://www.embree.org/) |
 | License | Apache-2.0 |
-| Versions | v3.12.1, v3.13.0 |
+| Versions | v3.12.1, v3.13.0, v3.13.3 |
 | Architectures | x64, x86 |
 | Definition | [embree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/embree/xmake.lua) |
 
@@ -2258,7 +2258,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1 |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5 |
 | Architectures | x64, x86 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -2330,7 +2330,7 @@ add_requires("exprtk")
 | -- | -- |
 | Homepage | [https://github.com/pyomeca/ezc3d](https://github.com/pyomeca/ezc3d) |
 | License | MIT |
-| Versions | 1.4.5 |
+| Versions | 1.4.5, 1.4.7 |
 | Architectures | x64, x86 |
 | Definition | [ezc3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/ezc3d/xmake.lua) |
 
