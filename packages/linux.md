@@ -13028,6 +13028,29 @@ add_requires("ucx")
 ```
 
 
+### unicorn (linux)
+
+
+| Description | *Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, S390x, X86)* |
+| -- | -- |
+| Homepage | [http://www.unicorn-engine.org](http://www.unicorn-engine.org) |
+| Versions | 2022.02.13 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [unicorn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unicorn/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install unicorn
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("unicorn")
+```
+
+
 ### unqlite (linux)
 
 
