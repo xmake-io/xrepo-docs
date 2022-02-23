@@ -54,7 +54,7 @@ add_requires("asio")
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
-| Versions | v5.0.1, v5.1.4, v5.2.1 |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -2838,7 +2838,7 @@ add_requires("llvm")
 | Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions |  |
+| Versions | 20211002 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 

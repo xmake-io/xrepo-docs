@@ -2370,7 +2370,7 @@ add_requires("llvm")
 | Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions |  |
+| Versions | 20211002 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 

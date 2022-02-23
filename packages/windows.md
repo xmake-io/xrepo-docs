@@ -175,7 +175,7 @@ add_requires("asmjit")
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
-| Versions | v5.0.1, v5.1.4, v5.2.1 |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2 |
 | Architectures | x64, x86 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -6063,7 +6063,7 @@ add_requires("llvm")
 | Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions |  |
+| Versions | 20211002 |
 | Architectures | x64, x86 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 
@@ -6746,7 +6746,7 @@ add_requires("mhook")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 2.0.1, 2.0.2, 2.0.3 |
+| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 2.0.1, 2.0.2, 2.0.3, 2.0.5 |
 | Architectures | x64, x86 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 

@@ -2531,7 +2531,7 @@ add_requires("libtool")
 | Description | *A portable and efficient C programming interface (API) to determine the call-chain of a program.* |
 | -- | -- |
 | Homepage | [https://www.nongnu.org/libunwind/](https://www.nongnu.org/libunwind/) |
-| Versions | v1.5 |
+| Versions | v1.5, v1.6.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libunwind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunwind/xmake.lua) |
 
@@ -2673,7 +2673,7 @@ add_requires("llvm")
 | Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions |  |
+| Versions | 20211002 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 
@@ -3026,7 +3026,7 @@ add_requires("meson")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 2.0.1, 2.0.2, 2.0.3 |
+| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 2.0.1, 2.0.2, 2.0.3, 2.0.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
