@@ -1182,6 +1182,30 @@ add_requires("chipmunk2d")
 ```
 
 
+### chromium_zlib (linux)
+
+
+| Description | *zlib from chromium* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/chromium/src/third_party/zlib/](https://chromium.googlesource.com/chromium/src/third_party/zlib/) |
+| License | zlib |
+| Versions | 2022.02.22 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [chromium_zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chromium_zlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install chromium_zlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("chromium_zlib")
+```
+
+
 ### civetweb (linux)
 
 
@@ -8686,7 +8710,7 @@ add_requires("meowhash")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
