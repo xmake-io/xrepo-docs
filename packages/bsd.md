@@ -1138,6 +1138,30 @@ add_requires("fx-gltf")
 
 
 ## g
+### gflags (bsd)
+
+
+| Description | *The gflags package contains a C++ library that implements commandline flags processing.* |
+| -- | -- |
+| Homepage | [https://github.com/gflags/gflags/](https://github.com/gflags/gflags/) |
+| License | BSD-3-Clause |
+| Versions | v2.2.2 |
+| Architectures | i386, x86_64 |
+| Definition | [gflags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gflags/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gflags
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gflags")
+```
+
+
 ### ghc_filesystem (bsd)
 
 
