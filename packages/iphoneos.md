@@ -1280,6 +1280,30 @@ add_requires("glm")
 ```
 
 
+### glog (iphoneos)
+
+
+| Description | *C++ implementation of the Google logging module* |
+| -- | -- |
+| Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
+| License | BSD-3-Clause |
+| Versions | v0.4.0, v0.5.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos glog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glog")
+```
+
+
 ### gn (iphoneos)
 
 

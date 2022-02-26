@@ -1138,6 +1138,30 @@ add_requires("glm")
 ```
 
 
+### glog (cross)
+
+
+| Description | *C++ implementation of the Google logging module* |
+| -- | -- |
+| Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
+| License | BSD-3-Clause |
+| Versions | v0.4.0, v0.5.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] glog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glog")
+```
+
+
 ### gn (cross)
 
 
