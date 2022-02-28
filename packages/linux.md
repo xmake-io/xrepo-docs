@@ -7257,7 +7257,7 @@ add_requires("libvorbis")
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/webm/libwebp/](https://chromium.googlesource.com/webm/libwebp/) |
 | License | BSD-3-Clause |
-| Versions | 1.1.0 |
+| Versions | v1.1.0, v1.2.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwebp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebp/xmake.lua) |
 
@@ -11583,6 +11583,29 @@ xrepo install recastnavigation
 
 ```lua
 add_requires("recastnavigation")
+```
+
+
+### rhash (linux)
+
+
+| Description | *RHash (Recursive Hasher) is a console utility for computing and verifying hash sums of files.* |
+| -- | -- |
+| Homepage | [http://rhash.sourceforge.net/](http://rhash.sourceforge.net/) |
+| Versions | 1.4.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rhash")
 ```
 
 

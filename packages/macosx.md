@@ -6833,7 +6833,7 @@ add_requires("libvorbis")
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/webm/libwebp/](https://chromium.googlesource.com/webm/libwebp/) |
 | License | BSD-3-Clause |
-| Versions | 1.1.0 |
+| Versions | v1.1.0, v1.2.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libwebp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebp/xmake.lua) |
 
