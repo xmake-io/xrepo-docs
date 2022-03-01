@@ -4959,6 +4959,30 @@ add_requires("urdfdom-headers")
 ```
 
 
+### utf8proc (android)
+
+
+| Description | *A clean C library for processing UTF-8 Unicode data* |
+| -- | -- |
+| Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
+| License | MIT |
+| Versions | v2.7.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] utf8proc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utf8proc")
+```
+
+
 ### utfcpp (android)
 
 

@@ -3833,6 +3833,30 @@ add_requires("urdfdom-headers")
 ```
 
 
+### utf8proc (cross)
+
+
+| Description | *A clean C library for processing UTF-8 Unicode data* |
+| -- | -- |
+| Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
+| License | MIT |
+| Versions | v2.7.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] utf8proc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utf8proc")
+```
+
+
 ### utfcpp (cross)
 
 
