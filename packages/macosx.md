@@ -6082,7 +6082,7 @@ add_requires("libraw")
 | Description | *The Apache Kafka C/C++ library* |
 | -- | -- |
 | Homepage | [https://github.com/edenhill/librdkafka](https://github.com/edenhill/librdkafka) |
-| Versions | v1.6.2 |
+| Versions | v1.6.2, v1.8.2-POST2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
