@@ -3073,6 +3073,29 @@ add_requires("patch")
 ```
 
 
+### pcre2 (bsd)
+
+
+| Description | *A Perl Compatible Regular Expressions Library* |
+| -- | -- |
+| Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
+| Versions | 10.39 |
+| Architectures | i386, x86_64 |
+| Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pcre2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pcre2")
+```
+
+
 ### picojson (bsd)
 
 

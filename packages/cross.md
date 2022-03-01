@@ -2768,6 +2768,29 @@ add_requires("patch")
 ```
 
 
+### pcre2 (cross)
+
+
+| Description | *A Perl Compatible Regular Expressions Library* |
+| -- | -- |
+| Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
+| Versions | 10.39 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] pcre2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pcre2")
+```
+
+
 ### picojson (cross)
 
 
