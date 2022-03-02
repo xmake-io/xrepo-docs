@@ -3166,6 +3166,30 @@ add_requires("rapidjson")
 ```
 
 
+### re2 (cross)
+
+
+| Description | *RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.* |
+| -- | -- |
+| Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
+| License | BSD-3-Clause |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] re2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("re2")
+```
+
+
 ### readerwriterqueue (cross)
 
 
