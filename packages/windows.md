@@ -96,6 +96,30 @@ add_requires("angelscript")
 ```
 
 
+### aqt (windows)
+
+
+| Description | *aqt: Another (unofficial) Qt CLI Installer on multi-platforms* |
+| -- | -- |
+| Homepage | [https://github.com/miurahr/aqtinstall](https://github.com/miurahr/aqtinstall) |
+| License | MIT |
+| Versions |  |
+| Architectures | x64, x86 |
+| Definition | [aqt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aqt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aqt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aqt")
+```
+
+
 ### armadillo (windows)
 
 

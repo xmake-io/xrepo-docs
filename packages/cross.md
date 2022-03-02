@@ -1,4 +1,28 @@
 ## a
+### aqt (cross)
+
+
+| Description | *aqt: Another (unofficial) Qt CLI Installer on multi-platforms* |
+| -- | -- |
+| Homepage | [https://github.com/miurahr/aqtinstall](https://github.com/miurahr/aqtinstall) |
+| License | MIT |
+| Versions |  |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aqt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aqt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aqt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aqt")
+```
+
+
 ### asio (cross)
 
 
