@@ -189,6 +189,30 @@ add_requires("bison")
 ```
 
 
+### boost (bsd)
+
+
+| Description | *Collection of portable C++ source libraries.* |
+| -- | -- |
+| Homepage | [https://www.boost.org/](https://www.boost.org/) |
+| License | BSL-1.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0 |
+| Architectures | i386, x86_64 |
+| Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install boost
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost")
+```
+
+
 ### brotli (bsd)
 
 
