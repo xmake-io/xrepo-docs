@@ -788,7 +788,7 @@ add_requires("capstone")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | 2.13.5, 2.13.6, 2.13.7, 2.9.2 |
+| Versions | 2.13.5, 2.13.6, 2.13.7, 2.13.8, 2.9.2 |
 | Architectures | x64, x86 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -5007,7 +5007,8 @@ add_requires("libiconv")
 | Description | *Simple C++ geometry processing library.* |
 | -- | -- |
 | Homepage | [https://libigl.github.io/](https://libigl.github.io/) |
-| Versions | v2.2.0, v2.3.0 |
+| License | MPL-2.0 |
+| Versions | v2.2.0, v2.3.0, v2.4.0 |
 | Architectures | x64, x86 |
 | Definition | [libigl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libigl/xmake.lua) |
 
@@ -6763,6 +6764,29 @@ add_requires("mhook")
 ```
 
 
+### mikktspace (windows)
+
+
+| Description | *A common standard for tangent space used in baking tools to produce normal maps.* |
+| -- | -- |
+| Homepage | [http://www.mikktspace.com/](http://www.mikktspace.com/) |
+| Versions | 2020.03.26 |
+| Architectures | x64, x86 |
+| Definition | [mikktspace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mikktspace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mikktspace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mikktspace")
+```
+
+
 ### mimalloc (windows)
 
 
@@ -6888,7 +6912,7 @@ add_requires("minimp3")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
-| Versions | 2.1.0 |
+| Versions | 2.1.0, 2.2.0 |
 | Architectures | x64, x86 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
@@ -8803,7 +8827,7 @@ add_requires("pugixml")
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1 |
+| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1 |
 | Architectures | x64, x86 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
@@ -9553,6 +9577,30 @@ add_requires("snappy")
 ```
 
 
+### sokol (windows)
+
+
+| Description | *Simple STB-style cross-platform libraries for C and C++, written in C.* |
+| -- | -- |
+| Homepage | [https://github.com/floooh/sokol](https://github.com/floooh/sokol) |
+| License | zlib |
+| Versions | 2022.02.10 |
+| Architectures | x64, x86 |
+| Definition | [sokol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sokol/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sokol
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sokol")
+```
+
+
 ### sol2 (windows)
 
 
@@ -9793,7 +9841,7 @@ add_requires("stackwalker")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 0.0 |
+| Versions | 2021.07.13, 2021.09.10 |
 | Architectures | x64, x86 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 

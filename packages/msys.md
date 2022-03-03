@@ -290,7 +290,7 @@ add_requires("capstone")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | 2.13.5, 2.13.6, 2.13.7, 2.9.2 |
+| Versions | 2.13.5, 2.13.6, 2.13.7, 2.13.8, 2.9.2 |
 | Architectures | i386, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -2151,6 +2151,29 @@ add_requires("meson")
 ```
 
 
+### mikktspace (msys)
+
+
+| Description | *A common standard for tangent space used in baking tools to produce normal maps.* |
+| -- | -- |
+| Homepage | [http://www.mikktspace.com/](http://www.mikktspace.com/) |
+| Versions | 2020.03.26 |
+| Architectures | i386, x86_64 |
+| Definition | [mikktspace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mikktspace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mikktspace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mikktspace")
+```
+
+
 ### miniaudio (msys)
 
 
@@ -2228,7 +2251,7 @@ add_requires("minimp3")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
-| Versions | 2.1.0 |
+| Versions | 2.1.0, 2.2.0 |
 | Architectures | i386, x86_64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
@@ -3170,6 +3193,30 @@ add_requires("simde")
 ```
 
 
+### sokol (msys)
+
+
+| Description | *Simple STB-style cross-platform libraries for C and C++, written in C.* |
+| -- | -- |
+| Homepage | [https://github.com/floooh/sokol](https://github.com/floooh/sokol) |
+| License | zlib |
+| Versions | 2022.02.10 |
+| Architectures | i386, x86_64 |
+| Definition | [sokol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sokol/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sokol
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sokol")
+```
+
+
 ### sol2 (msys)
 
 
@@ -3269,7 +3316,7 @@ add_requires("sqlite3")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 0.0 |
+| Versions | 2021.07.13, 2021.09.10 |
 | Architectures | i386, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
