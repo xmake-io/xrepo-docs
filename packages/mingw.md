@@ -2013,6 +2013,30 @@ add_requires("isocline")
 
 
 ## j
+### jansson (mingw)
+
+
+| Description | *C library for encoding, decoding and manipulating JSON data* |
+| -- | -- |
+| Homepage | [https://github.com/akheron/jansson](https://github.com/akheron/jansson) |
+| License | MIT |
+| Versions | 2.14 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [jansson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jansson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] jansson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jansson")
+```
+
+
 ### jsmn (mingw)
 
 
@@ -5050,6 +5074,30 @@ xrepo install -p mingw [--mingw=/xxx] tinycrypt
 
 ```lua
 add_requires("tinycrypt")
+```
+
+
+### tinyexr (mingw)
+
+
+| Description | *Tiny OpenEXR image loader/saver library* |
+| -- | -- |
+| Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
+| License | BSD-3-Clause |
+| Versions | v1.0.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] tinyexr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyexr")
 ```
 
 

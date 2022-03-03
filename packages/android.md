@@ -2370,7 +2370,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
@@ -4835,6 +4835,30 @@ xrepo install -p android [--ndk=/xxx] tinycrypt
 
 ```lua
 add_requires("tinycrypt")
+```
+
+
+### tinyexr (android)
+
+
+| Description | *Tiny OpenEXR image loader/saver library* |
+| -- | -- |
+| Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
+| License | BSD-3-Clause |
+| Versions | v1.0.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tinyexr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyexr")
 ```
 
 

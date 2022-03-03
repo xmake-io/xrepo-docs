@@ -2159,7 +2159,7 @@ add_requires("draco")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
 | License | MIT |
-| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3 |
+| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
 
@@ -4691,6 +4691,30 @@ add_requires("itstool")
 
 
 ## j
+### jansson (linux)
+
+
+| Description | *C library for encoding, decoding and manipulating JSON data* |
+| -- | -- |
+| Homepage | [https://github.com/akheron/jansson](https://github.com/akheron/jansson) |
+| License | MIT |
+| Versions | 2.14 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [jansson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jansson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jansson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jansson")
+```
+
+
 ### jasper (linux)
 
 
@@ -5592,7 +5616,7 @@ add_requires("libfiber")
 | Description | *libfive is a software library and set of tools for solid modeling, especially suited for parametric and procedural design.* |
 | -- | -- |
 | Homepage | [https://libfive.com/](https://libfive.com/) |
-| Versions | 20210408 |
+| Versions | 2021.04.08, 2022.02.22 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfive/xmake.lua) |
 
@@ -6087,7 +6111,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
@@ -6999,7 +7023,8 @@ add_requires("libtiff")
 | Description | *High-level, multiplatform C++ network packet sniffing and crafting library.* |
 | -- | -- |
 | Homepage | [http://libtins.github.io/](http://libtins.github.io/) |
-| Versions | 2021.6.23 |
+| License | BSD-2-Clause |
+| Versions | v4.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtins/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtins/xmake.lua) |
 
@@ -12837,6 +12862,30 @@ add_requires("tinycrypt")
 ```
 
 
+### tinyexr (linux)
+
+
+| Description | *Tiny OpenEXR image loader/saver library* |
+| -- | -- |
+| Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
+| License | BSD-3-Clause |
+| Versions | v1.0.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyexr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyexr")
+```
+
+
 ### tinyfiledialogs (linux)
 
 
@@ -13104,7 +13153,7 @@ add_requires("toml11")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2 |
+| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 

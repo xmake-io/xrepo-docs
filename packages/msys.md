@@ -3524,6 +3524,30 @@ add_requires("tinycrypt")
 ```
 
 
+### tinyexr (msys)
+
+
+| Description | *Tiny OpenEXR image loader/saver library* |
+| -- | -- |
+| Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
+| License | BSD-3-Clause |
+| Versions | v1.0.1 |
+| Architectures | i386, x86_64 |
+| Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyexr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyexr")
+```
+
+
 ### tinyformat (msys)
 
 
