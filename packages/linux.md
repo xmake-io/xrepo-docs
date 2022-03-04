@@ -12794,6 +12794,30 @@ add_requires("texinfo")
 ```
 
 
+### thrift (linux)
+
+
+| Description | *Thrift is a lightweight, language-independent software stack for point-to-point RPC implementation.* |
+| -- | -- |
+| Homepage | [https://thrift.apache.org/](https://thrift.apache.org/) |
+| License | Apache-2.0 |
+| Versions | v0.16.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [thrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrift/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install thrift
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("thrift")
+```
+
+
 ### tiltedcore (linux)
 
 
