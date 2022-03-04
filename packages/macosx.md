@@ -10762,6 +10762,102 @@ add_requires("qoi")
 ```
 
 
+### qt5base (macosx)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [qt5base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5base/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt5base
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt5base")
+```
+
+
+### qt5core (macosx)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [qt5core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt5core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt5core")
+```
+
+
+### qt5gui (macosx)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [qt5gui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5gui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt5gui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt5gui")
+```
+
+
+### qt5widgets (macosx)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [qt5widgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5widgets/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt5widgets
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt5widgets")
+```
+
+
 ### quickjs (macosx)
 
 
