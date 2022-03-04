@@ -3194,7 +3194,8 @@ add_requires("ninja")
 | Description | *JSON for Modern C++* |
 | -- | -- |
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
-| Versions | v3.10.0, v3.9.1 |
+| License | MIT |
+| Versions | v3.10.0, v3.10.5, v3.9.1 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 

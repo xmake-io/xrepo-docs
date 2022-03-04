@@ -2252,6 +2252,30 @@ add_requires("enet")
 ```
 
 
+### enkits (windows)
+
+
+| Description | *A permissively licensed C and C++ Task Scheduler for creating parallel programs.* |
+| -- | -- |
+| Homepage | [https://github.com/dougbinks/enkiTS](https://github.com/dougbinks/enkiTS) |
+| License | zlib |
+| Versions | v1.10 |
+| Architectures | x64, x86 |
+| Definition | [enkits/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enkits/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install enkits
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("enkits")
+```
+
+
 ### ensmallen (windows)
 
 
@@ -4679,7 +4703,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.8 |
+| Versions | v1.10, v1.8 |
 | Architectures | x64, x86 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -7550,7 +7574,8 @@ add_requires("ninja")
 | Description | *JSON for Modern C++* |
 | -- | -- |
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
-| Versions | v3.10.0, v3.9.1 |
+| License | MIT |
+| Versions | v3.10.0, v3.10.5, v3.9.1 |
 | Architectures | x64, x86 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
@@ -7907,7 +7932,7 @@ add_requires("opencl-headers")
 | -- | -- |
 | Homepage | [https://opencolorio.org/](https://opencolorio.org/) |
 | License | BSD-3-Clause |
-| Versions | v2.1.0 |
+| Versions | v2.1.0, v2.1.1 |
 | Architectures | x64, x86 |
 | Definition | [opencolorio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencolorio/xmake.lua) |
 
@@ -8002,7 +8027,7 @@ add_requires("openh264")
 | -- | -- |
 | Homepage | [https://sites.google.com/site/openimageio/home](https://sites.google.com/site/openimageio/home) |
 | License | BSD-3-Clause |
-| Versions | 2.2.19+0, 2.3.10+1 |
+| Versions | 2.2.19+0, 2.3.10+1, 2.3.13+0 |
 | Architectures | x64, x86 |
 | Definition | [openimageio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openimageio/xmake.lua) |
 
