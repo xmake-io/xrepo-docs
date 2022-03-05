@@ -1420,6 +1420,30 @@ add_requires("guetzli")
 ```
 
 
+### gyp-next (bsd)
+
+
+| Description | *A fork of the GYP build system for use in the Node.js projects* |
+| -- | -- |
+| Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
+| License | BSD-3-Clause |
+| Versions | v0.11.0 |
+| Architectures | i386, x86_64 |
+| Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gyp-next
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gyp-next")
+```
+
+
 
 ## h
 ### hffix (bsd)

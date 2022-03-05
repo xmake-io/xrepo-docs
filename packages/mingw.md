@@ -213,6 +213,30 @@ add_requires("binutils")
 ```
 
 
+### bison (mingw)
+
+
+| Description | *A general-purpose parser generator.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
+| License | GPL-3.0 |
+| Versions | 3.7.4, 3.7.6, 3.8.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] bison
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bison")
+```
+
+
 ### blosc (mingw)
 
 
@@ -1747,6 +1771,30 @@ xrepo install -p mingw [--mingw=/xxx] guilite
 
 ```lua
 add_requires("guilite")
+```
+
+
+### gyp-next (mingw)
+
+
+| Description | *A fork of the GYP build system for use in the Node.js projects* |
+| -- | -- |
+| Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
+| License | BSD-3-Clause |
+| Versions | v0.11.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] gyp-next
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gyp-next")
 ```
 
 
