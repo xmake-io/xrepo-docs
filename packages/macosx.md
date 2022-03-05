@@ -5983,6 +5983,30 @@ add_requires("libpaper")
 ```
 
 
+### libpcap (macosx)
+
+
+| Description | *the LIBpcap interface to various kernel packet capture mechanism* |
+| -- | -- |
+| Homepage | [https://www.tcpdump.org/](https://www.tcpdump.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.10.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libpcap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpcap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpcap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpcap")
+```
+
+
 ### libplist (macosx)
 
 
@@ -9362,6 +9386,30 @@ xrepo install nngpp
 
 ```lua
 add_requires("nngpp")
+```
+
+
+### nodeeditor (macosx)
+
+
+| Description | *Qt Node Editor. Dataflow programming framework* |
+| -- | -- |
+| Homepage | [https://github.com/paceholder/nodeeditor](https://github.com/paceholder/nodeeditor) |
+| License | BSD-3 |
+| Versions | 2.1.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [nodeeditor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodeeditor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nodeeditor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nodeeditor")
 ```
 
 

@@ -3705,6 +3705,30 @@ add_requires("nlohmann_json")
 ```
 
 
+### nodeeditor (mingw)
+
+
+| Description | *Qt Node Editor. Dataflow programming framework* |
+| -- | -- |
+| Homepage | [https://github.com/paceholder/nodeeditor](https://github.com/paceholder/nodeeditor) |
+| License | BSD-3 |
+| Versions | 2.1.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [nodeeditor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodeeditor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] nodeeditor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nodeeditor")
+```
+
+
 ### nodesoup (mingw)
 
 

@@ -2433,6 +2433,30 @@ add_requires("libopus")
 ```
 
 
+### libpcap (android)
+
+
+| Description | *the LIBpcap interface to various kernel packet capture mechanism* |
+| -- | -- |
+| Homepage | [https://www.tcpdump.org/](https://www.tcpdump.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.10.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libpcap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpcap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libpcap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpcap")
+```
+
+
 ### libpng (android)
 
 
