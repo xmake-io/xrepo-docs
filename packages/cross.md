@@ -3786,6 +3786,30 @@ add_requires("tclap")
 ```
 
 
+### thrift (cross)
+
+
+| Description | *Thrift is a lightweight, language-independent software stack for point-to-point RPC implementation.* |
+| -- | -- |
+| Homepage | [https://thrift.apache.org/](https://thrift.apache.org/) |
+| License | Apache-2.0 |
+| Versions | v0.16.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [thrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrift/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] thrift
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("thrift")
+```
+
+
 ### tinycbor (cross)
 
 
