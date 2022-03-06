@@ -3747,7 +3747,7 @@ add_requires("gperf")
 | -- | -- |
 | Homepage | [https://gr-framework.org/](https://gr-framework.org/) |
 | License | MIT |
-| Versions | 0.57.0, 0.58.0, 0.62.0 |
+| Versions | 0.57.0, 0.58.0, 0.62.0, 0.64.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [gr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gr/xmake.lua) |
 
@@ -11295,7 +11295,7 @@ add_requires("scnlib")
 | Description | *A software construction tool* |
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
-| Versions | 4.1.0 |
+| Versions | 4.1.0, 4.3.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 

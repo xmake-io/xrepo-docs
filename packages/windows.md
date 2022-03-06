@@ -2830,7 +2830,8 @@ add_requires("fpng")
 | Description | *A free-software/open-source alternative to the OpenGL Utility Toolkit (GLUT) library.* |
 | -- | -- |
 | Homepage | [http://freeglut.sourceforge.net](http://freeglut.sourceforge.net) |
-| Versions | 3.0.0, 3.2.1 |
+| License | MIT |
+| Versions | 3.0.0, 3.2.1, 3.2.2 |
 | Architectures | x64, x86 |
 | Definition | [freeglut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeglut/xmake.lua) |
 
@@ -3515,7 +3516,7 @@ add_requires("godotcpp")
 | -- | -- |
 | Homepage | [https://gr-framework.org/](https://gr-framework.org/) |
 | License | MIT |
-| Versions | 0.57.0, 0.58.0, 0.62.0 |
+| Versions | 0.57.0, 0.58.0, 0.62.0, 0.64.0 |
 | Architectures | x64 |
 | Definition | [gr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gr/xmake.lua) |
 
@@ -9496,7 +9497,7 @@ add_requires("scnlib")
 | Description | *A software construction tool* |
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
-| Versions | 4.1.0 |
+| Versions | 4.1.0, 4.3.0 |
 | Architectures | x64, x86 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 

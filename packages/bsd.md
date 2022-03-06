@@ -1114,6 +1114,30 @@ add_requires("fastcppcsvparser")
 ```
 
 
+### flex (bsd)
+
+
+| Description | *%s* |
+| -- | -- |
+| Homepage | [https://github.com/westes/flex/](https://github.com/westes/flex/) |
+| License | BSD-2-Clause |
+| Versions | 2.6.4 |
+| Architectures | i386, x86_64 |
+| Definition | [flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flex")
+```
+
+
 ### fmt (bsd)
 
 
@@ -3742,7 +3766,7 @@ add_requires("scnlib")
 | Description | *A software construction tool* |
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
-| Versions | 4.1.0 |
+| Versions | 4.1.0, 4.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 

@@ -3110,7 +3110,8 @@ add_requires("fpng")
 | Description | *A free-software/open-source alternative to the OpenGL Utility Toolkit (GLUT) library.* |
 | -- | -- |
 | Homepage | [http://freeglut.sourceforge.net](http://freeglut.sourceforge.net) |
-| Versions | 3.0.0, 3.2.1 |
+| License | MIT |
+| Versions | 3.0.0, 3.2.1, 3.2.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freeglut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeglut/xmake.lua) |
 
@@ -3951,6 +3952,30 @@ xrepo install gperf
 
 ```lua
 add_requires("gperf")
+```
+
+
+### gr (linux)
+
+
+| Description | *GR framework: a graphics library for visualisation applications* |
+| -- | -- |
+| Homepage | [https://gr-framework.org/](https://gr-framework.org/) |
+| License | MIT |
+| Versions | 0.57.0, 0.58.0, 0.62.0, 0.64.0 |
+| Architectures | i386, x86_64 |
+| Definition | [gr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gr")
 ```
 
 
@@ -6406,6 +6431,30 @@ xrepo install libpcap
 
 ```lua
 add_requires("libpcap")
+```
+
+
+### libpfm (linux)
+
+
+| Description | *improving performance monitoring on Linux* |
+| -- | -- |
+| Homepage | [http://perfmon2.sourceforge.net/](http://perfmon2.sourceforge.net/) |
+| License | MIT |
+| Versions | 4.11.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libpfm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpfm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpfm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpfm")
 ```
 
 
@@ -12026,7 +12075,7 @@ add_requires("scnlib")
 | Description | *A software construction tool* |
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
-| Versions | 4.1.0 |
+| Versions | 4.1.0, 4.3.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 
