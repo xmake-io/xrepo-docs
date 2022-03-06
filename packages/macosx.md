@@ -143,6 +143,30 @@ add_requires("armadillo")
 ```
 
 
+### arrow (macosx)
+
+
+| Description | *Apache Arrow is a multi-language toolbox for accelerated data interchange and in-memory processing* |
+| -- | -- |
+| Homepage | [https://arrow.apache.org/](https://arrow.apache.org/) |
+| License | Apache-2.0 |
+| Versions | 7.0.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [arrow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arrow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install arrow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("arrow")
+```
+
+
 ### asio (macosx)
 
 
