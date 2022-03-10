@@ -3777,6 +3777,29 @@ add_requires("nodesoup")
 
 
 ## o
+### onetbb (android)
+
+
+| Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
+| -- | -- |
+| Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] onetbb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("onetbb")
+```
+
+
 ### openal-soft (android)
 
 
