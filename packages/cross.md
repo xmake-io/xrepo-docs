@@ -785,7 +785,7 @@ add_requires("docopt")
 | Description | *The fastest feature-rich C++11/14/17/20 single-header testing framework for unit tests and TDD* |
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
-| Versions | 2.3.1, 2.3.6 |
+| Versions | 2.3.1, 2.3.6, 2.4.8 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 

@@ -1919,7 +1919,7 @@ add_requires("docopt")
 | Description | *The fastest feature-rich C++11/14/17/20 single-header testing framework for unit tests and TDD* |
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
-| Versions | 2.3.1, 2.3.6 |
+| Versions | 2.3.1, 2.3.6, 2.4.8 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
@@ -10950,6 +10950,30 @@ xrepo install qt5gui
 
 ```lua
 add_requires("qt5gui")
+```
+
+
+### qt5lib (macosx)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [qt5lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5lib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt5lib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt5lib")
 ```
 
 
