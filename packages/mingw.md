@@ -1042,6 +1042,30 @@ add_requires("easyloggingpp")
 ```
 
 
+### eigen (mingw)
+
+
+| Description | *C++ template library for linear algebra* |
+| -- | -- |
+| Homepage | [https://eigen.tuxfamily.org/](https://eigen.tuxfamily.org/) |
+| License | MPL-2.0 |
+| Versions | 3.3.7, 3.3.8, 3.3.9, 3.4.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [eigen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eigen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] eigen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eigen")
+```
+
+
 ### enet (mingw)
 
 
@@ -2397,7 +2421,7 @@ add_requires("libflac")
 | Description | *A widely used C library for reading and writing JPEG image files.* |
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
-| Versions | v9b, v9c, v9d |
+| Versions | v9b, v9c, v9d, v9e |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
