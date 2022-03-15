@@ -1311,7 +1311,7 @@ add_requires("gnu-rm")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0 |
+| Versions | v3.1.0, v4.0.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -2409,6 +2409,30 @@ xrepo install -p cross [--sdk=/xxx] meson
 
 ```lua
 add_requires("meson")
+```
+
+
+### microsoft-gsl (cross)
+
+
+| Description | *Guidelines Support Library* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
+| License | MIT |
+| Versions | v3.1.0, v4.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] microsoft-gsl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-gsl")
 ```
 
 

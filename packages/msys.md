@@ -1286,7 +1286,7 @@ add_requires("godotcpp")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0 |
+| Versions | v3.1.0, v4.0.0 |
 | Architectures | i386, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -2196,6 +2196,30 @@ xrepo install meson
 
 ```lua
 add_requires("meson")
+```
+
+
+### microsoft-gsl (msys)
+
+
+| Description | *Guidelines Support Library* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
+| License | MIT |
+| Versions | v3.1.0, v4.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install microsoft-gsl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-gsl")
 ```
 
 

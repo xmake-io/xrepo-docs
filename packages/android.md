@@ -1639,7 +1639,7 @@ add_requires("godotcpp")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0 |
+| Versions | v3.1.0, v4.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -3207,6 +3207,30 @@ xrepo install -p android [--ndk=/xxx] meson
 
 ```lua
 add_requires("meson")
+```
+
+
+### microsoft-gsl (android)
+
+
+| Description | *Guidelines Support Library* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
+| License | MIT |
+| Versions | v3.1.0, v4.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] microsoft-gsl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-gsl")
 ```
 
 
