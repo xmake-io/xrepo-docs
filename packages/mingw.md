@@ -1144,7 +1144,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5 |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -4555,6 +4555,30 @@ xrepo install -p mingw [--mingw=/xxx] qt5lib
 
 ```lua
 add_requires("qt5lib")
+```
+
+
+### qt5network (mingw)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [qt5network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5network/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] qt5network
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt5network")
 ```
 
 

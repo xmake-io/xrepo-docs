@@ -3807,7 +3807,7 @@ add_requires("nodesoup")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0 |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
 
@@ -4388,6 +4388,30 @@ xrepo install -p android [--ndk=/xxx] qt5lib
 
 ```lua
 add_requires("qt5lib")
+```
+
+
+### qt5network (android)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [qt5network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5network/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] qt5network
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt5network")
 ```
 
 
@@ -4991,7 +5015,7 @@ add_requires("taskflow")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0 |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [tbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbb/xmake.lua) |
 

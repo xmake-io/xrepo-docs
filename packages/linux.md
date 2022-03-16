@@ -1583,6 +1583,30 @@ add_requires("cpp-httplib")
 ```
 
 
+### cppzmq (linux)
+
+
+| Description | *Header-only C++ binding for libzmq* |
+| -- | -- |
+| Homepage | [http://www.zeromq.org/](http://www.zeromq.org/) |
+| License | MIT |
+| Versions | v4.8.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cppzmq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppzmq/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppzmq
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppzmq")
+```
+
+
 ### cpr (linux)
 
 
@@ -2590,7 +2614,7 @@ add_requires("eudev")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5 |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -5355,6 +5379,30 @@ add_requires("libbpg")
 ```
 
 
+### libbsd (linux)
+
+
+| Description | *This library provides useful functions commonly found on BSD systems* |
+| -- | -- |
+| Homepage | [https://libbsd.freedesktop.org/wiki/](https://libbsd.freedesktop.org/wiki/) |
+| License | BSD-3-Clause |
+| Versions | 0.11.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libbsd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbsd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libbsd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbsd")
+```
+
+
 ### libcap (linux)
 
 
@@ -6296,6 +6344,30 @@ add_requires("libmagic")
 ```
 
 
+### libmd (linux)
+
+
+| Description | *Message Digest functions from BSD systems* |
+| -- | -- |
+| Homepage | [https://www.hadrons.org/software/libmd/](https://www.hadrons.org/software/libmd/) |
+| License | BSD-3-Clause |
+| Versions | 1.0.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libmd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmd")
+```
+
+
 ### libmill (linux)
 
 
@@ -6418,7 +6490,7 @@ add_requires("libogg")
 | Description | *LLVM's OpenMP runtime library.* |
 | -- | -- |
 | Homepage | [https://openmp.llvm.org/](https://openmp.llvm.org/) |
-| Versions | 10.0.1, 11.1.0, 12.0.1 |
+| Versions | 10.0.1, 11.1.0, 12.0.1, 13.0.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libomp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libomp/xmake.lua) |
 
@@ -10419,7 +10491,7 @@ add_requires("ogre-next")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0 |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
 
@@ -10466,7 +10538,7 @@ add_requires("openal-soft")
 | Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
@@ -11854,6 +11926,30 @@ add_requires("qt5lib")
 ```
 
 
+### qt5network (linux)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [qt5network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5network/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt5network
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt5network")
+```
+
+
 ### qt5widgets (linux)
 
 
@@ -13114,7 +13210,7 @@ add_requires("taskflow")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0 |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbb/xmake.lua) |
 
@@ -14943,7 +15039,8 @@ add_requires("yyjson")
 | Description | *High-performance, asynchronous messaging library* |
 | -- | -- |
 | Homepage | [https://zeromq.org/](https://zeromq.org/) |
-| Versions | 4.3.2 |
+| License | GPL-3.0 |
+| Versions | 4.3.2, 4.3.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zeromq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zeromq/xmake.lua) |
 
