@@ -2273,6 +2273,30 @@ add_requires("effcee")
 ```
 
 
+### efsw (macosx)
+
+
+| Description | *efsw is a C++ cross-platform file system watcher and notifier.* |
+| -- | -- |
+| Homepage | [https://github.com/SpartanJ/efsw](https://github.com/SpartanJ/efsw) |
+| License | MIT |
+| Versions | 1.1.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [efsw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/efsw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install efsw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("efsw")
+```
+
+
 ### eigen (macosx)
 
 
@@ -8964,6 +8988,54 @@ add_requires("mpmcqueue")
 ```
 
 
+### msgpack-c (macosx)
+
+
+| Description | *MessagePack implementation for C* |
+| -- | -- |
+| Homepage | [https://msgpack.org/](https://msgpack.org/) |
+| License | BSL-1.0 |
+| Versions | 4.0.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [msgpack-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install msgpack-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msgpack-c")
+```
+
+
+### msgpack-cxx (macosx)
+
+
+| Description | *MessagePack implementation for C++* |
+| -- | -- |
+| Homepage | [https://msgpack.org/](https://msgpack.org/) |
+| License | BSL-1.0 |
+| Versions | 4.1.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [msgpack-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-cxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install msgpack-cxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msgpack-cxx")
+```
+
+
 ### msquic (macosx)
 
 
@@ -9091,7 +9163,7 @@ add_requires("named_type")
 | -- | -- |
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
-| Versions | v1.3.2 |
+| Versions | v1.3.2, v1.4.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 
