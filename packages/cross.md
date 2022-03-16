@@ -1808,7 +1808,7 @@ add_requires("libogg")
 | Description | *LLVM's OpenMP runtime library.* |
 | -- | -- |
 | Homepage | [https://openmp.llvm.org/](https://openmp.llvm.org/) |
-| Versions | 10.0.1, 11.1.0, 12.0.1, 13.0.1 |
+| Versions | 10.0.1, 11.1.0, 12.0.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libomp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libomp/xmake.lua) |
 
