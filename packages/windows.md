@@ -10931,6 +10931,30 @@ add_requires("trantor")
 ```
 
 
+### turbobase64 (windows)
+
+
+| Description | *Turbo Base64 - Fastest Base64 SIMD/Neon/Altivec* |
+| -- | -- |
+| Homepage | [https://github.com/powturbo/Turbo-Base64](https://github.com/powturbo/Turbo-Base64) |
+| License | GPL-3.0 |
+| Versions | 2022.02.21 |
+| Architectures | x64, x86 |
+| Definition | [turbobase64/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/turbobase64/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install turbobase64
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("turbobase64")
+```
+
+
 
 ## u
 ### unicorn (windows)

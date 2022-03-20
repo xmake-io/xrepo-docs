@@ -13747,6 +13747,30 @@ add_requires("trantor")
 ```
 
 
+### turbobase64 (linux)
+
+
+| Description | *Turbo Base64 - Fastest Base64 SIMD/Neon/Altivec* |
+| -- | -- |
+| Homepage | [https://github.com/powturbo/Turbo-Base64](https://github.com/powturbo/Turbo-Base64) |
+| License | GPL-3.0 |
+| Versions | 2022.02.21 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [turbobase64/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/turbobase64/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install turbobase64
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("turbobase64")
+```
+
+
 
 ## u
 ### ucx (linux)
