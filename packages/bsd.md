@@ -4671,7 +4671,7 @@ add_requires("zlib-ng")
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
-| Versions | v1.4.5, v1.5.0 |
+| Versions | v1.4.5, v1.5.0, v1.5.2 |
 | Architectures | i386, x86_64 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
 

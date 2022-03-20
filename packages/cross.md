@@ -4319,7 +4319,7 @@ add_requires("zlib-ng")
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
-| Versions | v1.4.5, v1.5.0 |
+| Versions | v1.4.5, v1.5.0, v1.5.2 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
 
