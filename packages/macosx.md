@@ -2805,7 +2805,7 @@ add_requires("field3d")
 | -- | -- |
 | Homepage | [https://google.github.io/filament/](https://google.github.io/filament/) |
 | License | Apache-2.0 |
-| Versions | 1.20.3 |
+| Versions | 1.20.3, 1.9.23 |
 | Architectures | x86_64 |
 | Definition | [filament/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/filament/xmake.lua) |
 
@@ -9818,6 +9818,30 @@ xrepo install onetbb
 
 ```lua
 add_requires("onetbb")
+```
+
+
+### open3d (macosx)
+
+
+| Description | *Open3D: A Modern Library for 3D Data Processing* |
+| -- | -- |
+| Homepage | [http://www.open3d.org/](http://www.open3d.org/) |
+| License | MIT |
+| Versions | v0.15.1 |
+| Architectures | x86_64 |
+| Definition | [open3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/open3d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install open3d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("open3d")
 ```
 
 
