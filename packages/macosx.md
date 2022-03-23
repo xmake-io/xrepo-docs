@@ -1443,7 +1443,7 @@ add_requires("console-bridge")
 ### corrade (macosx)
 
 
-| Description | *Cor­rade is a mul­ti­plat­form util­i­ty li­brary writ­ten in C++11/C++14.* |
+| Description | *Corrade is a multiplatform utility library written in C++11/C++14.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/corrade/](https://magnum.graphics/corrade/) |
 | License | MIT |
@@ -8122,7 +8122,7 @@ add_requires("m4")
 ### magnum (macosx)
 
 
-| Description | *Light­weight and mod­u­lar C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| Description | *Lightweight and modular C++11/C++14 graphics middleware for games and data visualization.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
@@ -8146,7 +8146,7 @@ add_requires("magnum")
 ### magnum-extras (macosx)
 
 
-| Description | *Extras for magnum, Light­weight and mod­u­lar C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| Description | *Extras for magnum, Lightweight and modular C++11/C++14 graphics middleware for games and data visualization.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
@@ -8170,7 +8170,7 @@ add_requires("magnum-extras")
 ### magnum-integration (macosx)
 
 
-| Description | *Integration libraries for magnum, Light­weight and mod­u­lar C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| Description | *Integration libraries for magnum, Lightweight and modular C++11/C++14 graphics middleware for games and data visualization.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
@@ -8194,7 +8194,7 @@ add_requires("magnum-integration")
 ### magnum-plugins (macosx)
 
 
-| Description | *Plugins for magnum, C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| Description | *Plugins for magnum, C++11/C++14 graphics middleware for games and data visualization.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
@@ -9875,6 +9875,7 @@ add_requires("openal-soft")
 | Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
+| License | BSD-3-Clause |
 | Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
@@ -13478,7 +13479,7 @@ add_requires("x265")
 | Description | *A JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512 by C++ header* |
 | -- | -- |
 | Homepage | [https://github.com/herumi/xbyak](https://github.com/herumi/xbyak) |
-| Versions | v6.02 |
+| Versions | v6.02, v6.03 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [xbyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xbyak/xmake.lua) |
 
@@ -14161,6 +14162,7 @@ add_requires("zlib-ng")
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
+| License | BSD-3-Clause |
 | Versions | v1.4.5, v1.5.0, v1.5.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |

@@ -4932,7 +4932,7 @@ add_requires("uvw")
 | Description | *A JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512 by C++ header* |
 | -- | -- |
 | Homepage | [https://github.com/herumi/xbyak](https://github.com/herumi/xbyak) |
-| Versions | v6.02 |
+| Versions | v6.02, v6.03 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [xbyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xbyak/xmake.lua) |
 
@@ -5098,6 +5098,7 @@ add_requires("zlib-ng")
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
+| License | BSD-3-Clause |
 | Versions | v1.4.5, v1.5.0, v1.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |

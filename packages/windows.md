@@ -1351,7 +1351,7 @@ add_requires("console-bridge")
 ### corrade (windows)
 
 
-| Description | *Cor­rade is a mul­ti­plat­form util­i­ty li­brary writ­ten in C++11/C++14.* |
+| Description | *Corrade is a multiplatform utility library written in C++11/C++14.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/corrade/](https://magnum.graphics/corrade/) |
 | License | MIT |
@@ -6513,7 +6513,7 @@ add_requires("m4")
 ### magnum (windows)
 
 
-| Description | *Light­weight and mod­u­lar C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| Description | *Lightweight and modular C++11/C++14 graphics middleware for games and data visualization.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
@@ -6537,7 +6537,7 @@ add_requires("magnum")
 ### magnum-extras (windows)
 
 
-| Description | *Extras for magnum, Light­weight and mod­u­lar C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| Description | *Extras for magnum, Lightweight and modular C++11/C++14 graphics middleware for games and data visualization.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
@@ -6561,7 +6561,7 @@ add_requires("magnum-extras")
 ### magnum-integration (windows)
 
 
-| Description | *Integration libraries for magnum, Light­weight and mod­u­lar C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| Description | *Integration libraries for magnum, Lightweight and modular C++11/C++14 graphics middleware for games and data visualization.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
@@ -6585,7 +6585,7 @@ add_requires("magnum-integration")
 ### magnum-plugins (windows)
 
 
-| Description | *Plugins for magnum, C++11/C++14 graph­ics mid­dle­ware for games and data visu­al­iz­a­tion.* |
+| Description | *Plugins for magnum, C++11/C++14 graphics middleware for games and data visualization.* |
 | -- | -- |
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
@@ -8000,6 +8000,29 @@ add_requires("ogre-next")
 ```
 
 
+### onedpl (windows)
+
+
+| Description | *oneAPI DPC++ Library* |
+| -- | -- |
+| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-library.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-library.html) |
+| Versions | 2021.6.1 |
+| Architectures | x64, x86 |
+| Definition | [onedpl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onedpl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install onedpl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("onedpl")
+```
+
+
 ### onetbb (windows)
 
 
@@ -8077,6 +8100,7 @@ add_requires("openal-soft")
 | Description | *OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.* |
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
+| License | BSD-3-Clause |
 | Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20 |
 | Architectures | x64, x86 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
@@ -11518,7 +11542,7 @@ add_requires("winflexbison")
 | Description | *A JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512 by C++ header* |
 | -- | -- |
 | Homepage | [https://github.com/herumi/xbyak](https://github.com/herumi/xbyak) |
-| Versions | v6.02 |
+| Versions | v6.02, v6.03 |
 | Architectures | x64, x86 |
 | Definition | [xbyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xbyak/xmake.lua) |
 
@@ -11923,6 +11947,7 @@ add_requires("zlib-ng")
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
+| License | BSD-3-Clause |
 | Versions | v1.4.5, v1.5.0, v1.5.2 |
 | Architectures | x64, x86 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
