@@ -1755,6 +1755,30 @@ add_requires("isocline")
 ```
 
 
+### ispc (bsd)
+
+
+| Description | *Intel® Implicit SPMD Program Compiler* |
+| -- | -- |
+| Homepage | [https://ispc.github.io/](https://ispc.github.io/) |
+| License | BSD-3-Clause |
+| Versions | 1.17.0 |
+| Architectures | i386, x86_64 |
+| Definition | [ispc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ispc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ispc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ispc")
+```
+
+
 
 ## j
 ### jsmn (bsd)

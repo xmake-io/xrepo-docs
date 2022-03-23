@@ -1565,6 +1565,30 @@ add_requires("irrxml")
 ```
 
 
+### ispc (cross)
+
+
+| Description | *Intel® Implicit SPMD Program Compiler* |
+| -- | -- |
+| Homepage | [https://ispc.github.io/](https://ispc.github.io/) |
+| License | BSD-3-Clause |
+| Versions | 1.17.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ispc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ispc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ispc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ispc")
+```
+
+
 
 ## j
 ### jsmn (cross)

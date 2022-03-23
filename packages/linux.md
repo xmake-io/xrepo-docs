@@ -3365,6 +3365,30 @@ add_requires("fx-gltf")
 ```
 
 
+### fxdiv (linux)
+
+
+| Description | *C99/C++ header-only library for division via fixed-point multiplication by inverse* |
+| -- | -- |
+| Homepage | [https://github.com/Maratyszcza/FXdiv](https://github.com/Maratyszcza/FXdiv) |
+| License | MIT |
+| Versions | 2020.12.09 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fxdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fxdiv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fxdiv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fxdiv")
+```
+
+
 
 ## g
 ### gamenetworkingsockets (linux)
@@ -4807,6 +4831,30 @@ xrepo install isocline
 
 ```lua
 add_requires("isocline")
+```
+
+
+### ispc (linux)
+
+
+| Description | *Intel® Implicit SPMD Program Compiler* |
+| -- | -- |
+| Homepage | [https://ispc.github.io/](https://ispc.github.io/) |
+| License | BSD-3-Clause |
+| Versions | 1.17.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ispc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ispc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ispc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ispc")
 ```
 
 
@@ -11640,6 +11688,30 @@ xrepo install ptex
 
 ```lua
 add_requires("ptex")
+```
+
+
+### pthreadpool (linux)
+
+
+| Description | *Portable (POSIX/Windows/Emscripten) thread pool for C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/Maratyszcza/pthreadpool](https://github.com/Maratyszcza/pthreadpool) |
+| License | BSD-2-Clause |
+| Versions | 2021.05.08 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [pthreadpool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pthreadpool/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pthreadpool
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pthreadpool")
 ```
 
 
