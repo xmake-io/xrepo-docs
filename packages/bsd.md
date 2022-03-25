@@ -172,7 +172,7 @@ add_requires("bin2c")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/binutils/binutils.html](https://www.gnu.org/software/binutils/binutils.html) |
 | License | GPL-2.0 |
-| Versions | 2.34 |
+| Versions | 2.34, 2.38 |
 | Architectures | i386, x86_64 |
 | Definition | [binutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/binutils/xmake.lua) |
 
@@ -2326,7 +2326,7 @@ add_requires("llvm")
 | Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions | 20211002 |
+| Versions | 20211002, 20220323 |
 | Architectures | i386, x86_64 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 

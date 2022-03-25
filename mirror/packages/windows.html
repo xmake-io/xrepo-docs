@@ -680,7 +680,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.34</td>
+<td>2.34, 2.38</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -8923,7 +8923,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1</td>
+<td>v1.11.0, v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -8993,7 +8993,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0</td>
+<td>v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.44.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -9458,7 +9458,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>20211002</td>
+<td>20211002, 20220323</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -12121,6 +12121,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ogre-next")
+</code></pre>
+<h3 id="onednnwindows">onednn (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>oneAPI Deep Neural Network Library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://oneapi-src.github.io/oneDNN/">https://oneapi-src.github.io/oneDNN/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v2.5.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>x64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua">onednn/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install onednn
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("onednn")
 </code></pre>
 <h3 id="onedplwindows">onedpl (windows)</h3>
 <table>

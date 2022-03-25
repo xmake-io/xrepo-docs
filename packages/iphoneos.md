@@ -148,7 +148,7 @@ add_requires("bin2c")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/binutils/binutils.html](https://www.gnu.org/software/binutils/binutils.html) |
 | License | GPL-2.0 |
-| Versions | 2.34 |
+| Versions | 2.34, 2.38 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [binutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/binutils/xmake.lua) |
 
@@ -2436,30 +2436,6 @@ add_requires("libtool")
 ```
 
 
-### libuv (iphoneos)
-
-
-| Description | *A multi-platform support library with a focus on asynchronous I/O.* |
-| -- | -- |
-| Homepage | [http://libuv.org/](http://libuv.org/) |
-| License | MIT |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
-| Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos libuv
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("libuv")
-```
-
-
 ### libvorbis (iphoneos)
 
 
@@ -2561,7 +2537,7 @@ add_requires("llvm")
 | Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions | 20211002 |
+| Versions | 20211002, 20220323 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 
