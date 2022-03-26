@@ -13041,6 +13041,29 @@ add_requires("unqlite")
 ```
 
 
+### unzip (macosx)
+
+
+| Description | *UnZip is an extraction utility for archives compressed in .zip format.* |
+| -- | -- |
+| Homepage | [http://infozip.sourceforge.net/UnZip.html](http://infozip.sourceforge.net/UnZip.html) |
+| Versions | 6.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [unzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unzip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install unzip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("unzip")
+```
+
+
 ### urdfdom (macosx)
 
 
