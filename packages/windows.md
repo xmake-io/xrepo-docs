@@ -7959,7 +7959,7 @@ add_requires("numcpp")
 | -- | -- |
 | Homepage | [https://oatpp.io/](https://oatpp.io/) |
 | License | Apache-2.0 |
-| Versions | 1.0.0, 1.2.5 |
+| Versions | 1.0.0, 1.2.5, 1.3.0 |
 | Architectures | x64 |
 | Definition | [oatpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oatpp/xmake.lua) |
 
@@ -11733,7 +11733,7 @@ add_requires("xframe")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xsimd/](https://github.com/xtensor-stack/xsimd/) |
 | License | BSD-3-Clause |
-| Versions | 7.6.0, 8.0.3 |
+| Versions | 7.6.0, 8.0.3, 8.0.5 |
 | Architectures | x64, x86 |
 | Definition | [xsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xsimd/xmake.lua) |
 
@@ -11757,7 +11757,7 @@ add_requires("xsimd")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtensor/](https://github.com/xtensor-stack/xtensor/) |
 | License | BSD-3-Clause |
-| Versions | 0.23.10, 0.24.0 |
+| Versions | 0.23.10, 0.24.0, 0.24.1 |
 | Architectures | x64, x86 |
 | Definition | [xtensor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor/xmake.lua) |
 
@@ -11805,7 +11805,7 @@ add_requires("xtensor-blas")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtl/](https://github.com/xtensor-stack/xtl/) |
 | License | BSD-3-Clause |
-| Versions | 0.7.2, 0.7.3 |
+| Versions | 0.7.2, 0.7.3, 0.7.4 |
 | Architectures | x64, x86 |
 | Definition | [xtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtl/xmake.lua) |
 
@@ -11943,6 +11943,30 @@ add_requires("yyjson")
 
 
 ## z
+### z3 (windows)
+
+
+| Description | *Z3 is a theorem prover from Microsoft Research.* |
+| -- | -- |
+| Homepage | [https://github.com/Z3Prover/z3](https://github.com/Z3Prover/z3) |
+| License | MIT |
+| Versions | 4.8.15 |
+| Architectures | x64, x86 |
+| Definition | [z3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/z3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install z3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("z3")
+```
+
+
 ### zeromq (windows)
 
 
