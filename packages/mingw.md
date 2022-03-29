@@ -1144,7 +1144,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7 |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -1357,7 +1357,7 @@ add_requires("fmt")
 | Description | *A freely available software library to render fonts.* |
 | -- | -- |
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
-| Versions | 2.10.4, 2.11.0, 2.9.1 |
+| Versions | 2.10.4, 2.11.0, 2.11.1, 2.9.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 

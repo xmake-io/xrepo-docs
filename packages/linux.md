@@ -2614,7 +2614,7 @@ add_requires("eudev")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7 |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -3253,7 +3253,7 @@ add_requires("freeimage")
 | Description | *A freely available software library to render fonts.* |
 | -- | -- |
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
-| Versions | 2.10.4, 2.11.0, 2.9.1 |
+| Versions | 2.10.4, 2.11.0, 2.11.1, 2.9.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 
@@ -5140,6 +5140,29 @@ xrepo install krb5
 
 ```lua
 add_requires("krb5")
+```
+
+
+### kuba-zip (linux)
+
+
+| Description | *A portable, simple zip library written in C* |
+| -- | -- |
+| Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
+| Versions | v0.2.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kuba-zip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kuba-zip")
 ```
 
 
@@ -14279,7 +14302,7 @@ add_requires("vc")
 | -- | -- |
 | Homepage | [http://www.vcglib.net/](http://www.vcglib.net/) |
 | License | GPL-3.0 |
-| Versions | 2020.12, 2021.07, 2021.10 |
+| Versions | 2020.12, 2021.07, 2021.10, 2022.02 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vcglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcglib/xmake.lua) |
 
