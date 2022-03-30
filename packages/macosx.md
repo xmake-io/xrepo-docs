@@ -9399,7 +9399,7 @@ add_requires("nativefiledialog")
 | Description | *A free software emulation of curses.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/ncurses/](https://www.gnu.org/software/ncurses/) |
-| Versions | 6.1, 6.2 |
+| Versions | 6.1, 6.2, 6.3 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
 
