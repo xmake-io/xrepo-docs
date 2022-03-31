@@ -1678,6 +1678,30 @@ add_requires("crc32c")
 ```
 
 
+### crossguid (linux)
+
+
+| Description | *Lightweight cross platform C++ GUID/UUID library* |
+| -- | -- |
+| Homepage | [https://github.com/graeme-hill/crossguid](https://github.com/graeme-hill/crossguid) |
+| License | MIT |
+| Versions | 2019.3.29 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [crossguid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crossguid/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install crossguid
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crossguid")
+```
+
+
 ### cryptopp (linux)
 
 
@@ -12219,7 +12243,7 @@ add_requires("rapidcsv")
 | Description | *RapidJSON is a JSON parser and generator for C++.* |
 | -- | -- |
 | Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.1.0-arrow |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
 
@@ -15228,7 +15252,7 @@ add_requires("yasm")
 | Description | *The fastest JSON library in C.* |
 | -- | -- |
 | Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
-| Versions | 0.2.0 |
+| Versions | 0.2.0, 0.3.0, 0.4.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
 
