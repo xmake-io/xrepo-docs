@@ -2814,6 +2814,30 @@ add_requires("m4")
 ```
 
 
+### magic_enum (iphoneos)
+
+
+| Description | *Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
+| License | MIT |
+| Versions | v0.7.3 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos magic_enum
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("magic_enum")
+```
+
+
 ### make (iphoneos)
 
 
