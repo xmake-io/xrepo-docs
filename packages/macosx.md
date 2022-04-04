@@ -11623,6 +11623,30 @@ add_requires("recastnavigation")
 ```
 
 
+### rendergraph (macosx)
+
+
+| Description | *Vulkan render graph management library. .* |
+| -- | -- |
+| Homepage | [https://github.com/DragonJoker/RenderGraph/](https://github.com/DragonJoker/RenderGraph/) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [rendergraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rendergraph/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rendergraph
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rendergraph")
+```
+
+
 ### robin-hood-hashing (macosx)
 
 
