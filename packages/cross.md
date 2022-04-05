@@ -1091,6 +1091,30 @@ add_requires("fmt")
 ```
 
 
+### frozen (cross)
+
+
+| Description | *A header-only, constexpr alternative to gperf for C++14 users* |
+| -- | -- |
+| Homepage | [https://github.com/serge-sans-paille/frozen](https://github.com/serge-sans-paille/frozen) |
+| License | Apache-2.0 |
+| Versions | 1.1.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [frozen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frozen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] frozen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("frozen")
+```
+
+
 ### functionalplus (cross)
 
 
@@ -2410,6 +2434,54 @@ xrepo install -p cross [--sdk=/xxx] make
 
 ```lua
 add_requires("make")
+```
+
+
+### mapbox_eternal (cross)
+
+
+| Description | *A C++14 compile-time/constexpr map and hash map with minimal binary footprint* |
+| -- | -- |
+| Homepage | [https://github.com/mapbox/eternal](https://github.com/mapbox/eternal) |
+| License | ISC |
+| Versions | v1.0.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mapbox_eternal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_eternal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mapbox_eternal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mapbox_eternal")
+```
+
+
+### mapbox_variant (cross)
+
+
+| Description | *C++11/C++14 Variant* |
+| -- | -- |
+| Homepage | [https://github.com/mapbox/variant](https://github.com/mapbox/variant) |
+| License | BSD |
+| Versions | v1.2.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mapbox_variant/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_variant/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mapbox_variant
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mapbox_variant")
 ```
 
 

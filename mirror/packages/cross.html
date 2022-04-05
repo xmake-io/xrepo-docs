@@ -1710,6 +1710,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("fmt")
 </code></pre>
+<h3 id="frozencross">frozen (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A header-only, constexpr alternative to gperf for C++14 users</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/serge-sans-paille/frozen">https://github.com/serge-sans-paille/frozen</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.1.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frozen/xmake.lua">frozen/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] frozen
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("frozen")
+</code></pre>
 <h3 id="functionalpluscross">functionalplus (cross)</h3>
 <table>
 <thead>
@@ -3644,6 +3681,80 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("make")
+</code></pre>
+<h3 id="mapbox_eternalcross">mapbox_eternal (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A C++14 compile-time/constexpr map and hash map with minimal binary footprint</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/mapbox/eternal">https://github.com/mapbox/eternal</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>ISC</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.0.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_eternal/xmake.lua">mapbox_eternal/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] mapbox_eternal
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("mapbox_eternal")
+</code></pre>
+<h3 id="mapbox_variantcross">mapbox_variant (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C++11/C++14 Variant</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/mapbox/variant">https://github.com/mapbox/variant</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.2.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_variant/xmake.lua">mapbox_variant/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] mapbox_variant
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("mapbox_variant")
 </code></pre>
 <h3 id="mbedtlscross">mbedtls (cross)</h3>
 <table>
