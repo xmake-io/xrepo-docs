@@ -11102,6 +11102,29 @@ add_requires("openmp")
 ```
 
 
+### openrestry-luajit (linux)
+
+
+| Description | *OpenResty's Branch of LuaJIT 2* |
+| -- | -- |
+| Homepage | [https://github.com/openresty/luajit2](https://github.com/openresty/luajit2) |
+| Versions | v2.1-20220310 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [openrestry-luajit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openrestry-luajit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openrestry-luajit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openrestry-luajit")
+```
+
+
 ### openssl (linux)
 
 
