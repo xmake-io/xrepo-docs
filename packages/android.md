@@ -5941,6 +5941,30 @@ add_requires("zlib-ng")
 ```
 
 
+### zlibcomplete (android)
+
+
+| Description | *C++ interface to the ZLib library supporting compression with FLUSH, decompression, and std::string. RAII* |
+| -- | -- |
+| Homepage | [https://github.com/rudi-cilibrasi/zlibcomplete](https://github.com/rudi-cilibrasi/zlibcomplete) |
+| License | MIT |
+| Versions | 1.0.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [zlibcomplete/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlibcomplete/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] zlibcomplete
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlibcomplete")
+```
+
+
 ### zstd (android)
 
 

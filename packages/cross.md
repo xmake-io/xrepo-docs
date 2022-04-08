@@ -4456,6 +4456,30 @@ add_requires("zlib-ng")
 ```
 
 
+### zlibcomplete (cross)
+
+
+| Description | *C++ interface to the ZLib library supporting compression with FLUSH, decompression, and std::string. RAII* |
+| -- | -- |
+| Homepage | [https://github.com/rudi-cilibrasi/zlibcomplete](https://github.com/rudi-cilibrasi/zlibcomplete) |
+| License | MIT |
+| Versions | 1.0.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [zlibcomplete/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlibcomplete/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] zlibcomplete
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlibcomplete")
+```
+
+
 ### zstd (cross)
 
 

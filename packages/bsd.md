@@ -4831,6 +4831,30 @@ add_requires("zlib-ng")
 ```
 
 
+### zlibcomplete (bsd)
+
+
+| Description | *C++ interface to the ZLib library supporting compression with FLUSH, decompression, and std::string. RAII* |
+| -- | -- |
+| Homepage | [https://github.com/rudi-cilibrasi/zlibcomplete](https://github.com/rudi-cilibrasi/zlibcomplete) |
+| License | MIT |
+| Versions | 1.0.5 |
+| Architectures | i386, x86_64 |
+| Definition | [zlibcomplete/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlibcomplete/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zlibcomplete
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlibcomplete")
+```
+
+
 ### zstd (bsd)
 
 
