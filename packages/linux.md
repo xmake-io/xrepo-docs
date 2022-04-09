@@ -10342,6 +10342,30 @@ add_requires("ngtcp2")
 ```
 
 
+### niftiheader (linux)
+
+
+| Description | *Header structure descriptions for the nifti1 and nifti2 file formats.* |
+| -- | -- |
+| Homepage | [https://nifti.nimh.nih.gov/](https://nifti.nimh.nih.gov/) |
+| License | Public Domain |
+| Versions | 0.0.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [niftiheader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/niftiheader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install niftiheader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("niftiheader")
+```
+
+
 ### ninja (linux)
 
 

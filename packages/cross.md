@@ -2863,6 +2863,30 @@ add_requires("ndk")
 ```
 
 
+### niftiheader (cross)
+
+
+| Description | *Header structure descriptions for the nifti1 and nifti2 file formats.* |
+| -- | -- |
+| Homepage | [https://nifti.nimh.nih.gov/](https://nifti.nimh.nih.gov/) |
+| License | Public Domain |
+| Versions | 0.0.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [niftiheader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/niftiheader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] niftiheader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("niftiheader")
+```
+
+
 ### ninja (cross)
 
 
