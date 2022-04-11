@@ -5335,6 +5335,29 @@ add_requires("leveldb")
 ```
 
 
+### lexy (linux)
+
+
+| Description | *C++ parsing DSL* |
+| -- | -- |
+| Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
+| Versions | 2022.03.21 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lexy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lexy")
+```
+
+
 ### libaco (linux)
 
 

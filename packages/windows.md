@@ -4675,6 +4675,29 @@ add_requires("leveldb")
 ```
 
 
+### lexy (windows)
+
+
+| Description | *C++ parsing DSL* |
+| -- | -- |
+| Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
+| Versions | 2022.03.21 |
+| Architectures | x64, x86 |
+| Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lexy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lexy")
+```
+
+
 ### libarchive (windows)
 
 

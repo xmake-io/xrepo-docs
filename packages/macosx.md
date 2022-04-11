@@ -5048,6 +5048,29 @@ add_requires("leveldb")
 ```
 
 
+### lexy (macosx)
+
+
+| Description | *C++ parsing DSL* |
+| -- | -- |
+| Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
+| Versions | 2022.03.21 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lexy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lexy")
+```
+
+
 ### libaco (macosx)
 
 

@@ -2204,6 +2204,29 @@ add_requires("kiwisolver")
 
 
 ## l
+### lexy (android)
+
+
+| Description | *C++ parsing DSL* |
+| -- | -- |
+| Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
+| Versions | 2022.03.21 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] lexy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lexy")
+```
+
+
 ### libbpf (android)
 
 
