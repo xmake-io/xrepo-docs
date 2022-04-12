@@ -2489,7 +2489,8 @@ add_requires("miniz")
 | Description | *Mini zip and unzip based on zlib* |
 | -- | -- |
 | Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
-| Versions | 1.2.10, 1.2.11 |
+| License | zlib |
+| Versions | v1.2.10, v1.2.11, v1.2.12 |
 | Architectures | i386, x86_64 |
 | Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
 
@@ -3510,7 +3511,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.5.4+2, 1.5.5 |
+| Versions | 1.2.198+0 |
 | Architectures | i386, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -4179,7 +4180,7 @@ add_requires("zig")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
-| Versions | v1.2.10, v1.2.11 |
+| Versions | v1.2.10, v1.2.11, v1.2.12 |
 | Architectures | i386, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
@@ -4193,29 +4194,6 @@ xrepo install zlib
 
 ```lua
 add_requires("zlib")
-```
-
-
-### zlib-ng (msys)
-
-
-| Description | *zlib replacement with optimizations for next generation systems.* |
-| -- | -- |
-| Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
-| Versions | 2.0.5 |
-| Architectures | i386, x86_64 |
-| Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install zlib-ng
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("zlib-ng")
 ```
 
 

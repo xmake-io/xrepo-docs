@@ -8833,7 +8833,8 @@ add_requires("miniz")
 | Description | *Mini zip and unzip based on zlib* |
 | -- | -- |
 | Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
-| Versions | 1.2.10, 1.2.11 |
+| License | zlib |
+| Versions | v1.2.10, v1.2.11, v1.2.12 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
 
@@ -8856,7 +8857,8 @@ add_requires("minizip")
 | Description | *Fork of the popular zip manipulation library found in the zlib distribution.* |
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
-| Versions | 3.0.3 |
+| License | zlib |
+| Versions | 3.0.3, 3.0.5 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 
@@ -12338,7 +12340,7 @@ add_requires("spirv-cross")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.5.4+2, 1.5.5 |
+| Versions | 1.2.198+0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -14496,7 +14498,7 @@ add_requires("zimg")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
-| Versions | v1.2.10, v1.2.11 |
+| Versions | v1.2.10, v1.2.11, v1.2.12 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
@@ -14519,7 +14521,8 @@ add_requires("zlib")
 | Description | *zlib replacement with optimizations for next generation systems.* |
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
-| Versions | 2.0.5 |
+| License | zlib |
+| Versions | 2.0.5, 2.0.6 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 
