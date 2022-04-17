@@ -4145,7 +4145,7 @@ add_requires("opencl-headers")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
-| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h, 1.1.1k, 1.1.1l, 1.1.1m |
+| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h, 1.1.1k, 1.1.1l, 1.1.1m, 1.1.1n |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
@@ -5232,7 +5232,7 @@ add_requires("sol2")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
+| Versions | v1.10.0, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 

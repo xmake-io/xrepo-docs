@@ -9357,7 +9357,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 2.0.1, 2.0.2, 2.0.3, 2.0.5 |
+| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.7.6, 2.0.1, 2.0.2, 2.0.3, 2.0.5, 2.0.6 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
@@ -11180,7 +11180,7 @@ add_requires("openrestry-luajit")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
-| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h, 1.1.1k, 1.1.1l, 1.1.1m |
+| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h, 1.1.1k, 1.1.1l, 1.1.1m, 1.1.1n |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
@@ -13143,7 +13143,7 @@ add_requires("soplex")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
+| Versions | v1.10.0, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
