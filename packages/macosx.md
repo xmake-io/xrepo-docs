@@ -11964,7 +11964,7 @@ add_requires("scotch")
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.4 |
+| Versions | 0.4.15, 0.4.4 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 

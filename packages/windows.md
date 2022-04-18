@@ -10141,7 +10141,7 @@ add_requires("scons")
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.4 |
+| Versions | 0.4.15, 0.4.4 |
 | Architectures | x64, x86 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 

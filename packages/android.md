@@ -4942,29 +4942,6 @@ add_requires("scons")
 ```
 
 
-### sentry-native (android)
-
-
-| Description | *Sentry SDK for C, C++ and native applications.* |
-| -- | -- |
-| Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.4 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
-| Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] sentry-native
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("sentry-native")
-```
-
-
 ### simde (android)
 
 
