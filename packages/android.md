@@ -638,6 +638,30 @@ add_requires("cmake")
 ```
 
 
+### cnpy (android)
+
+
+| Description | *library to read/write .npy and .npz files in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/rogersce/cnpy](https://github.com/rogersce/cnpy) |
+| License | MIT |
+| Versions | 2018.06.01 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnpy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cnpy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cnpy")
+```
+
+
 ### concurrentqueue (android)
 
 
@@ -1663,7 +1687,7 @@ add_requires("gnu-rm")
 | Description | *C++ bindings for the Godot script API* |
 | -- | -- |
 | Homepage | [https://godotengine.org/](https://godotengine.org/) |
-| Versions | 3.2, 3.3, 3.4.0, 3.4.3 |
+| Versions | 3.2, 3.3, 3.4.0, 3.4.3, 3.4.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [godotcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp/xmake.lua) |
 

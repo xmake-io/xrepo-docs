@@ -568,6 +568,30 @@ add_requires("cmake")
 ```
 
 
+### cnpy (bsd)
+
+
+| Description | *library to read/write .npy and .npz files in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/rogersce/cnpy](https://github.com/rogersce/cnpy) |
+| License | MIT |
+| Versions | 2018.06.01 |
+| Architectures | i386, x86_64 |
+| Definition | [cnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnpy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cnpy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cnpy")
+```
+
+
 ### concurrentqueue (bsd)
 
 

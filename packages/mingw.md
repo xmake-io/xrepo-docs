@@ -638,6 +638,30 @@ add_requires("cmocka")
 ```
 
 
+### cnpy (mingw)
+
+
+| Description | *library to read/write .npy and .npz files in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/rogersce/cnpy](https://github.com/rogersce/cnpy) |
+| License | MIT |
+| Versions | 2018.06.01 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnpy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cnpy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cnpy")
+```
+
+
 ### concurrentqueue (mingw)
 
 
@@ -1759,7 +1783,7 @@ add_requires("gnu-rm")
 | Description | *C++ bindings for the Godot script API* |
 | -- | -- |
 | Homepage | [https://godotengine.org/](https://godotengine.org/) |
-| Versions | 3.2, 3.3, 3.4.0, 3.4.3 |
+| Versions | 3.2, 3.3, 3.4.0, 3.4.3, 3.4.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [godotcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp/xmake.lua) |
 

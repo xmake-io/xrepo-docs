@@ -520,6 +520,30 @@ add_requires("cmake")
 ```
 
 
+### cnpy (cross)
+
+
+| Description | *library to read/write .npy and .npz files in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/rogersce/cnpy](https://github.com/rogersce/cnpy) |
+| License | MIT |
+| Versions | 2018.06.01 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnpy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cnpy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cnpy")
+```
+
+
 ### concurrentqueue (cross)
 
 
