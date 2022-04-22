@@ -9475,7 +9475,7 @@ add_requires("pugixml")
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1 |
+| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2 |
 | Architectures | x64, x86 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
