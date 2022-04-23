@@ -3131,6 +3131,29 @@ add_requires("fltk")
 ```
 
 
+### fmi4cpp (linux)
+
+
+| Description | *A cross-platform FMI 2.0 implementation written in modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/NTNU-IHB/FMI4cpp](https://github.com/NTNU-IHB/FMI4cpp) |
+| Versions | 0.8.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fmi4cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmi4cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fmi4cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fmi4cpp")
+```
+
+
 ### fmt (linux)
 
 
