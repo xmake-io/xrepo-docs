@@ -13661,6 +13661,30 @@ add_requires("viennacl")
 ```
 
 
+### vk-bootstrap (macosx)
+
+
+| Description | *Vulkan Bootstrapping Iibrary.* |
+| -- | -- |
+| Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
+| License | MIT |
+| Versions | v0.5 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vk-bootstrap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vk-bootstrap")
+```
+
+
 ### volk (macosx)
 
 
