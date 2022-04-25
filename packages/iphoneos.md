@@ -4402,6 +4402,30 @@ add_requires("rply")
 ```
 
 
+### rttr (iphoneos)
+
+
+| Description | *rttr: An open source library, which adds reflection to C++.* |
+| -- | -- |
+| Homepage | [https://www.rttr.org](https://www.rttr.org) |
+| License | MIT |
+| Versions | 0.9.5, 0.9.6 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [rttr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rttr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos rttr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rttr")
+```
+
+
 
 ## s
 ### scnlib (iphoneos)
@@ -5159,6 +5183,80 @@ xrepo install -p iphoneos uvw
 
 ```lua
 add_requires("uvw")
+```
+
+
+
+## v
+### volk (iphoneos)
+
+
+| Description | *volk is a meta-loader for Vulkan* |
+| -- | -- |
+| Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
+| License | MIT |
+| Versions | 1.2.162, 1.2.190, 1.3.204 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos volk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("volk")
+```
+
+
+### vulkan-headers (iphoneos)
+
+
+| Description | *Vulkan Header files and API registry* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos vulkan-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-headers")
+```
+
+
+### vulkan-memory-allocator (iphoneos)
+
+
+| Description | *Easy to integrate Vulkan memory allocation library.* |
+| -- | -- |
+| Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
+| License | MIT |
+| Versions | 2021.1.26 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos vulkan-memory-allocator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-memory-allocator")
 ```
 
 

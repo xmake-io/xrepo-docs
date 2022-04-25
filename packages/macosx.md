@@ -11911,6 +11911,30 @@ add_requires("rply")
 ```
 
 
+### rttr (macosx)
+
+
+| Description | *rttr: An open source library, which adds reflection to C++.* |
+| -- | -- |
+| Homepage | [https://www.rttr.org](https://www.rttr.org) |
+| License | MIT |
+| Versions | 0.9.5, 0.9.6 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [rttr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rttr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rttr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rttr")
+```
+
+
 
 ## s
 ### scnlib (macosx)
@@ -13692,7 +13716,7 @@ add_requires("vk-bootstrap")
 | -- | -- |
 | Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
 | License | MIT |
-| Versions | 1.2.162, 1.2.190 |
+| Versions | 1.2.162, 1.2.190, 1.3.204 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
 
