@@ -9806,7 +9806,7 @@ add_requires("nlohmann_json")
 | -- | -- |
 | Homepage | [https://github.com/stevengj/nlopt/](https://github.com/stevengj/nlopt/) |
 | License | LGPL-2.1 |
-| Versions | v2.7.0 |
+| Versions | v2.7.0, v2.7.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [nlopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlopt/xmake.lua) |
 
