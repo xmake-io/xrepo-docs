@@ -1330,6 +1330,30 @@ add_requires("fastcppcsvparser")
 ```
 
 
+### ffmpeg (mingw)
+
+
+| Description | *A collection of libraries to process multimedia content such as audio, video, subtitles and related metadata.* |
+| -- | -- |
+| Homepage | [https://www.ffmpeg.org](https://www.ffmpeg.org) |
+| License | LGPL-2.1 |
+| Versions | 4.0.2, 5.0.1 |
+| Architectures | x86_64 |
+| Definition | [ffmpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffmpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ffmpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ffmpeg")
+```
+
+
 ### flatbuffers (mingw)
 
 
