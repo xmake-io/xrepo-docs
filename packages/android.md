@@ -3662,6 +3662,30 @@ add_requires("mjson")
 ```
 
 
+### mma (android)
+
+
+| Description | *A self-contained C++ implementation of MMA and GCMMA.* |
+| -- | -- |
+| Homepage | [https://github.com/jdumas/mma](https://github.com/jdumas/mma) |
+| License | MIT |
+| Versions | 2018.08.01 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [mma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mma")
+```
+
+
 ### mnn (android)
 
 

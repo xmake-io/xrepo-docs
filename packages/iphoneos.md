@@ -3263,6 +3263,30 @@ add_requires("mjson")
 ```
 
 
+### mma (iphoneos)
+
+
+| Description | *A self-contained C++ implementation of MMA and GCMMA.* |
+| -- | -- |
+| Homepage | [https://github.com/jdumas/mma](https://github.com/jdumas/mma) |
+| License | MIT |
+| Versions | 2018.08.01 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [mma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos mma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mma")
+```
+
+
 ### moonjit (iphoneos)
 
 

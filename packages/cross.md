@@ -2768,6 +2768,30 @@ add_requires("mjson")
 ```
 
 
+### mma (cross)
+
+
+| Description | *A self-contained C++ implementation of MMA and GCMMA.* |
+| -- | -- |
+| Homepage | [https://github.com/jdumas/mma](https://github.com/jdumas/mma) |
+| License | MIT |
+| Versions | 2018.08.01 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mma")
+```
+
+
 ### mpmcqueue (cross)
 
 

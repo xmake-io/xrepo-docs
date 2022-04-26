@@ -4557,7 +4557,7 @@ add_requires("http_parser")
 | -- | -- |
 | Homepage | [https://www.open-mpi.org/software/hwloc/](https://www.open-mpi.org/software/hwloc/) |
 | License | BSD-3-Clause |
-| Versions | 2.5.0 |
+| Versions | 2.5.0, 2.7.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hwloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hwloc/xmake.lua) |
 
@@ -9631,6 +9631,30 @@ xrepo install mkl
 
 ```lua
 add_requires("mkl")
+```
+
+
+### mma (linux)
+
+
+| Description | *A self-contained C++ implementation of MMA and GCMMA.* |
+| -- | -- |
+| Homepage | [https://github.com/jdumas/mma](https://github.com/jdumas/mma) |
+| License | MIT |
+| Versions | 2018.08.01 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mma")
 ```
 
 
