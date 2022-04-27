@@ -4027,6 +4027,30 @@ add_requires("taskflow")
 ```
 
 
+### taywee_args (cross)
+
+
+| Description | *A simple header-only C++ argument parser library.* |
+| -- | -- |
+| Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
+| License | MIT |
+| Versions | 6.3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] taywee_args
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("taywee_args")
+```
+
+
 ### tbox (cross)
 
 

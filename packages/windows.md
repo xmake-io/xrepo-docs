@@ -10962,6 +10962,30 @@ add_requires("taskflow")
 ```
 
 
+### taywee_args (windows)
+
+
+| Description | *A simple header-only C++ argument parser library.* |
+| -- | -- |
+| Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
+| License | MIT |
+| Versions | 6.3.0 |
+| Architectures | x64, x86 |
+| Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install taywee_args
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("taywee_args")
+```
+
+
 ### tbb (windows)
 
 
