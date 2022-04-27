@@ -4101,6 +4101,30 @@ add_requires("gyp-next")
 
 
 ## h
+### happly (macosx)
+
+
+| Description | *A C++ header-only parser for the PLY file format.* |
+| -- | -- |
+| Homepage | [https://github.com/nmwsharp/happly](https://github.com/nmwsharp/happly) |
+| License | MIT |
+| Versions | 2022.01.07 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [happly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/happly/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install happly
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("happly")
+```
+
+
 ### harfbuzz (macosx)
 
 
