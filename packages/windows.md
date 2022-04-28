@@ -8999,6 +8999,30 @@ add_requires("patch")
 ```
 
 
+### pcg32 (windows)
+
+
+| Description | *Tiny self-contained C++ version of the PCG32 pseudorandom number generator* |
+| -- | -- |
+| Homepage | [https://github.com/wjakob/pcg32](https://github.com/wjakob/pcg32) |
+| License | Apache-2.0 |
+| Versions | 2016.06.07 |
+| Architectures | x64, x86 |
+| Definition | [pcg32/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcg32/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pcg32
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pcg32")
+```
+
+
 ### pcl (windows)
 
 
