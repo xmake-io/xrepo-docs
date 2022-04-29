@@ -1208,6 +1208,30 @@ add_requires("cli")
 ```
 
 
+### cli11 (windows)
+
+
+| Description | *CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface.* |
+| -- | -- |
+| Homepage | [https://github.com/CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) |
+| License | BSD |
+| Versions | v2.2.0 |
+| Architectures | x64, x86 |
+| Definition | [cli11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cli11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cli11")
+```
+
+
 ### cmake (windows)
 
 
