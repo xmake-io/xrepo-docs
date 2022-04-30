@@ -404,6 +404,30 @@ add_requires("awk")
 ```
 
 
+### aws-c-common (linux)
+
+
+| Description | *Core c99 package for AWS SDK for C* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
+| License | Apache-2.0 |
+| Versions | v0.6.9 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-c-common
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-common")
+```
+
+
 
 ## b
 ### backward-cpp (linux)
@@ -7857,7 +7881,7 @@ add_requires("libwebsockets")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.9.11 |
+| Versions | v0.10.1, v0.9.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
 
@@ -15048,7 +15072,7 @@ add_requires("wayland-protocols")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.9.11 |
+| Versions | v0.10.1, v0.9.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
 
