@@ -1018,6 +1018,29 @@ add_requires("catch2")
 ```
 
 
+### caudio (linux)
+
+
+| Description | *3D Audio Engine Based on Openal* |
+| -- | -- |
+| Homepage | [https://github.com/R4stl1n/cAudio](https://github.com/R4stl1n/cAudio) |
+| Versions | 2.3.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [caudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/caudio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install caudio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("caudio")
+```
+
+
 ### celero (linux)
 
 

@@ -805,6 +805,29 @@ add_requires("catch2")
 ```
 
 
+### caudio (windows)
+
+
+| Description | *3D Audio Engine Based on Openal* |
+| -- | -- |
+| Homepage | [https://github.com/R4stl1n/cAudio](https://github.com/R4stl1n/cAudio) |
+| Versions | 2.3.1 |
+| Architectures | x64, x86 |
+| Definition | [caudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/caudio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install caudio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("caudio")
+```
+
+
 ### cef (windows)
 
 
