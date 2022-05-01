@@ -5171,6 +5171,29 @@ add_requires("jemalloc")
 ```
 
 
+### johnnyengine (linux)
+
+
+| Description | *A 2D/3D Engine using OpenGL and SDL for input and the window* |
+| -- | -- |
+| Homepage | [https://github.com/PucklaMotzer09/JohnnyEngine](https://github.com/PucklaMotzer09/JohnnyEngine) |
+| Versions | 1.0.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [johnnyengine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/johnnyengine/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install johnnyengine
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("johnnyengine")
+```
+
+
 ### jsmn (linux)
 
 
