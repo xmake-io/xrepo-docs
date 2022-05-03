@@ -4990,6 +4990,29 @@ add_requires("rapidjson")
 ```
 
 
+### raylib (mingw)
+
+
+| Description | *A simple and easy-to-use library to enjoy videogames programming.* |
+| -- | -- |
+| Homepage | [http://www.raylib.com](http://www.raylib.com) |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] raylib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("raylib")
+```
+
+
 ### re2 (mingw)
 
 
