@@ -4173,6 +4173,32 @@ add_requires("utfcpp")
 
 
 
+## v
+### vulkan-headers (msys)
+
+
+| Description | *Vulkan Header files and API registry* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0 |
+| Architectures | i386, x86_64 |
+| Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-headers")
+```
+
+
+
 ## x
 ### xbyak (msys)
 
