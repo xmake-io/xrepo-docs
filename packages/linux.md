@@ -428,6 +428,30 @@ add_requires("aws-c-common")
 ```
 
 
+### aws-checksums (linux)
+
+
+| Description | *Cross platform HW accelerated CRC32c and CRC32 with fallback to efficient SW implementations - C interface with language bindings for AWS SDKs* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
+| License | Apache-2.0 |
+| Versions | v0.1.12 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-checksums
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-checksums")
+```
+
+
 
 ## b
 ### backward-cpp (linux)
