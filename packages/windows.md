@@ -8284,6 +8284,30 @@ add_requires("nngpp")
 ```
 
 
+### nod (windows)
+
+
+| Description | *Small, header only signals and slots C++11 library.* |
+| -- | -- |
+| Homepage | [https://github.com/fr00b0/nod](https://github.com/fr00b0/nod) |
+| License | MIT |
+| Versions | v0.5.4 |
+| Architectures | x64, x86 |
+| Definition | [nod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nod/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nod
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nod")
+```
+
+
 ### nodeeditor (windows)
 
 
