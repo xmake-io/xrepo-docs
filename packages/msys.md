@@ -732,6 +732,30 @@ add_requires("date")
 ```
 
 
+### dbg-macro (msys)
+
+
+| Description | *A dbg(…) macro for C++* |
+| -- | -- |
+| Homepage | [https://github.com/sharkdp/dbg-macro](https://github.com/sharkdp/dbg-macro) |
+| License | MIT |
+| Versions | v0.4.0 |
+| Architectures | i386, x86_64 |
+| Definition | [dbg-macro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbg-macro/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dbg-macro
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dbg-macro")
+```
+
+
 ### debugbreak (msys)
 
 
