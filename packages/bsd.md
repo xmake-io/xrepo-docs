@@ -2020,6 +2020,30 @@ add_requires("lexy")
 ```
 
 
+### libdeflate (bsd)
+
+
+| Description | *libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression.* |
+| -- | -- |
+| Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
+| License | MIT |
+| Versions | v1.10, v1.8 |
+| Architectures | i386, x86_64 |
+| Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdeflate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdeflate")
+```
+
+
 ### libdivide (bsd)
 
 
