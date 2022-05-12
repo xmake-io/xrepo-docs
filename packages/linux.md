@@ -4290,6 +4290,29 @@ add_requires("gperf")
 ```
 
 
+### gpujpeg (linux)
+
+
+| Description | *JPEG encoder and decoder library and console application for NVIDIA GPUs from CESNET and SITOLA of Faculty of Informatics at Masaryk University.* |
+| -- | -- |
+| Homepage | [https://github.com/CESNET/GPUJPEG](https://github.com/CESNET/GPUJPEG) |
+| Versions | continuous |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [gpujpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gpujpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gpujpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gpujpeg")
+```
+
+
 ### gr (linux)
 
 
