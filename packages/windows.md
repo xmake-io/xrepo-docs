@@ -8244,7 +8244,7 @@ add_requires("nlopt")
 | Description | *NNG, like its predecessors nanomsg (and to some extent ZeroMQ), is a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.* |
 | -- | -- |
 | Homepage | [https://github.com/nanomsg/nng](https://github.com/nanomsg/nng) |
-| Versions | 1.3.2, 1.4.0 |
+| Versions | 1.3.2, 1.4.0, 1.5.2 |
 | Architectures | x64, x86 |
 | Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
 
