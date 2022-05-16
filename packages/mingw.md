@@ -166,6 +166,30 @@ add_requires("bazel")
 ```
 
 
+### better-enums (mingw)
+
+
+| Description | *C++ compile-time enum to string, iteration, in a single header file* |
+| -- | -- |
+| Homepage | [http://aantron.github.io/better-enums](http://aantron.github.io/better-enums) |
+| License | BSD-2-Clause |
+| Versions | 0.11.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [better-enums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/better-enums/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] better-enums
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("better-enums")
+```
+
+
 ### bin2c (mingw)
 
 
