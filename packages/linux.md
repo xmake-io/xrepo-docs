@@ -2295,6 +2295,30 @@ add_requires("doxygen")
 ```
 
 
+### dpp (linux)
+
+
+| Description | *D++ Extremely Lightweight C++ Discord Library* |
+| -- | -- |
+| Homepage | [https://github.com/brainboxdotcc/DPP](https://github.com/brainboxdotcc/DPP) |
+| License | Apache-2.0 |
+| Versions | v10.0.8 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [dpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dpp")
+```
+
+
 ### dr_flac (linux)
 
 
