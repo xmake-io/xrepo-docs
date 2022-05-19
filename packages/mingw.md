@@ -143,6 +143,30 @@ add_requires("automake")
 
 
 ## b
+### backward-cpp (mingw)
+
+
+| Description | *Backward is a beautiful stack trace pretty printer for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/bombela/backward-cpp](https://github.com/bombela/backward-cpp) |
+| License | MIT |
+| Versions | v1.6 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [backward-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/backward-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] backward-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("backward-cpp")
+```
+
+
 ### bazel (mingw)
 
 
@@ -6204,6 +6228,30 @@ add_requires("uvw")
 
 
 ## v
+### volk (mingw)
+
+
+| Description | *volk is a meta-loader for Vulkan* |
+| -- | -- |
+| Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
+| License | MIT |
+| Versions | 1.2.162, 1.2.190, 1.3.204 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] volk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("volk")
+```
+
+
 ### vulkan-headers (mingw)
 
 
@@ -6249,6 +6297,30 @@ xrepo install -p mingw [--mingw=/xxx] vulkan-hpp
 
 ```lua
 add_requires("vulkan-hpp")
+```
+
+
+### vulkan-memory-allocator (mingw)
+
+
+| Description | *Easy to integrate Vulkan memory allocation library.* |
+| -- | -- |
+| Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
+| License | MIT |
+| Versions | 2021.1.26 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] vulkan-memory-allocator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-memory-allocator")
 ```
 
 
