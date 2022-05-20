@@ -1312,7 +1312,7 @@ add_requires("fastcppcsvparser")
 | Description | *A collection of libraries to process multimedia content such as audio, video, subtitles and related metadata.* |
 | -- | -- |
 | Homepage | [https://www.ffmpeg.org](https://www.ffmpeg.org) |
-| License | LGPL-2.1 |
+| License | GPL-3.0 |
 | Versions | 4.0.2, 5.0.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [ffmpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffmpeg/xmake.lua) |
