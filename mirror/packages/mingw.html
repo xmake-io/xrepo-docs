@@ -3273,39 +3273,6 @@
 <pre><code class="lang-lua">add_requires("http_parser")
 </code></pre>
 <h2 id="i">i</h2>
-<h3 id="ifortmingw">ifort (mingw)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>The Fortran Compiler provided by Intel®</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html">https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html</a></td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>2021.4.0+3224</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm, arm64, i386, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua">ifort/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] ifort
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("ifort")
-</code></pre>
 <h3 id="imguimingw">imgui (mingw)</h3>
 <table>
 <thead>
@@ -3624,6 +3591,14 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("jansson")
 </code></pre>
+<h3 id="jemallocmingw">jemalloc (mingw)</h3>
+<p>| Description | <em>A general purpose malloc(3) implementation that emphasizes<br>fragmentation avoidance and scalable concurrency support</em> |<br>| -- | -- |<br>| Homepage | <a href="http://jemalloc.net/">http://jemalloc.net/</a> |<br>| Versions | 5.2.1 |<br>| Architectures | arm, arm64, i386, x86_64 |<br>| Definition | <a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua">jemalloc/xmake.lua</a> |</p>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] jemalloc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("jemalloc")
+</code></pre>
 <h3 id="jsmnmingw">jsmn (mingw)</h3>
 <table>
 <thead>
@@ -3923,6 +3898,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libcpuid")
 </code></pre>
+<h3 id="libcurlmingw">libcurl (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The multiprotocol file transfer library.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://curl.haxx.se/">https://curl.haxx.se/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0, 7.80.0, 7.81.0, 7.82.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcurl/xmake.lua">libcurl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] libcurl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libcurl")
+</code></pre>
 <h3 id="libde265mingw">libde265 (mingw)</h3>
 <table>
 <thead>
@@ -4100,6 +4112,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libflac")
 </code></pre>
+<h3 id="libimobiledevicegluemingw">libimobiledevice-glue (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A library with common code used by libraries and tools around the libimobiledevice project</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/libimobiledevice/libimobiledevice-glue">https://github.com/libimobiledevice/libimobiledevice-glue</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2021.11.24</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libimobiledevice-glue/xmake.lua">libimobiledevice-glue/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] libimobiledevice-glue
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libimobiledevice-glue")
+</code></pre>
 <h3 id="libjpegmingw">libjpeg (mingw)</h3>
 <table>
 <thead>
@@ -4198,6 +4243,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libopus")
+</code></pre>
+<h3 id="libplistmingw">libplist (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Library for Apple Binary- and XML-Property Lists</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.libimobiledevice.org/">https://www.libimobiledevice.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.2.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua">libplist/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] libplist
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libplist")
 </code></pre>
 <h3 id="libpngmingw">libpng (mingw)</h3>
 <table>
@@ -4743,6 +4825,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libusb")
 </code></pre>
+<h3 id="libusbmuxdmingw">libusbmuxd (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A client library to multiplex connections from and to iOS devices</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/libimobiledevice/libusbmuxd">https://github.com/libimobiledevice/libusbmuxd</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2021.09.13</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusbmuxd/xmake.lua">libusbmuxd/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] libusbmuxd
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libusbmuxd")
+</code></pre>
 <h3 id="libuvmingw">libuv (mingw)</h3>
 <table>
 <thead>
@@ -4960,39 +5079,6 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("llvm")
-</code></pre>
-<h3 id="llvmmingwmingw">llvm-mingw (mingw)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>An LLVM/Clang/LLD based mingw-w64 toolchain</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://github.com/mstorsjo/llvm-mingw">https://github.com/mstorsjo/llvm-mingw</a></td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>20211002, 20220323</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm, arm64, i386, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua">llvm-mingw/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] llvm-mingw
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("llvm-mingw")
 </code></pre>
 <h3 id="lodepngmingw">lodepng (mingw)</h3>
 <table>
@@ -6450,43 +6536,6 @@
 <pre><code class="lang-lua">add_requires("nodesoup")
 </code></pre>
 <h2 id="o">o</h2>
-<h3 id="openalsoftmingw">openal-soft (mingw)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>OpenAL Soft is a software implementation of the OpenAL 3D audio API.</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://openal-soft.org">https://openal-soft.org</a></td>
-</tr>
-<tr>
-<td>License</td>
-<td>LGPL-2.0</td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>1.21.1</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm, arm64, i386, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua">openal-soft/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] openal-soft
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("openal-soft")
-</code></pre>
 <h3 id="openclclhppmingw">opencl-clhpp (mingw)</h3>
 <table>
 <thead>

@@ -1781,29 +1781,6 @@ add_requires("http_parser")
 
 
 ## i
-### ifort (iphoneos)
-
-
-| Description | *The Fortran Compiler provided by Intel®* |
-| -- | -- |
-| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
-| Versions | 2021.4.0+3224 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
-| Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos ifort
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("ifort")
-```
-
-
 ### imgui (iphoneos)
 
 
@@ -2695,29 +2672,6 @@ xrepo install -p iphoneos llvm
 
 ```lua
 add_requires("llvm")
-```
-
-
-### llvm-mingw (iphoneos)
-
-
-| Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
-| -- | -- |
-| Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions | 20211002, 20220323 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
-| Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos llvm-mingw
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("llvm-mingw")
 ```
 
 

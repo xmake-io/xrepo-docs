@@ -4295,29 +4295,6 @@ add_requires("icu4c")
 ```
 
 
-### ifort (windows)
-
-
-| Description | *The Fortran Compiler provided by Intel®* |
-| -- | -- |
-| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
-| Versions | 2021.4.0+3224 |
-| Architectures | x64, x86 |
-| Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install ifort
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("ifort")
-```
-
-
 ### imath (windows)
 
 
@@ -6583,29 +6560,6 @@ add_requires("llvm")
 ```
 
 
-### llvm-mingw (windows)
-
-
-| Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
-| -- | -- |
-| Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions | 20211002, 20220323 |
-| Architectures | x64, x86 |
-| Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install llvm-mingw
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("llvm-mingw")
-```
-
-
 ### lodepng (windows)
 
 
@@ -7604,7 +7558,7 @@ add_requires("mjson")
 | Description | *Intel® oneAPI Math Kernel Library* |
 | -- | -- |
 | Homepage | [https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html) |
-| Versions | 2021.2.0+296, 2021.3.0+520 |
+| Versions | 2021.2.0+269, 2021.3.0+517 |
 | Architectures | x64, x86 |
 | Definition | [mkl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mkl/xmake.lua) |
 

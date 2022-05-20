@@ -2136,29 +2136,6 @@ add_requires("http_parser")
 
 
 ## i
-### ifort (mingw)
-
-
-| Description | *The Fortran Compiler provided by Intel®* |
-| -- | -- |
-| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
-| Versions | 2021.4.0+3224 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] ifort
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("ifort")
-```
-
-
 ### imgui (mingw)
 
 
@@ -2373,6 +2350,30 @@ add_requires("jansson")
 ```
 
 
+### jemalloc (mingw)
+
+
+| Description | *A general purpose malloc(3) implementation that emphasizes
+fragmentation avoidance and scalable concurrency support* |
+| -- | -- |
+| Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
+| Versions | 5.2.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] jemalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jemalloc")
+```
+
+
 ### jsmn (mingw)
 
 
@@ -2584,6 +2585,30 @@ add_requires("libcpuid")
 ```
 
 
+### libcurl (mingw)
+
+
+| Description | *The multiprotocol file transfer library.* |
+| -- | -- |
+| Homepage | [https://curl.haxx.se/](https://curl.haxx.se/) |
+| License | MIT |
+| Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0, 7.80.0, 7.81.0, 7.82.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libcurl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcurl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libcurl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libcurl")
+```
+
+
 ### libde265 (mingw)
 
 
@@ -2702,6 +2727,29 @@ add_requires("libflac")
 ```
 
 
+### libimobiledevice-glue (mingw)
+
+
+| Description | *A library with common code used by libraries and tools around the libimobiledevice project* |
+| -- | -- |
+| Homepage | [https://github.com/libimobiledevice/libimobiledevice-glue](https://github.com/libimobiledevice/libimobiledevice-glue) |
+| Versions | 2021.11.24 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libimobiledevice-glue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libimobiledevice-glue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libimobiledevice-glue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libimobiledevice-glue")
+```
+
+
 ### libjpeg (mingw)
 
 
@@ -2768,6 +2816,30 @@ xrepo install -p mingw [--mingw=/xxx] libopus
 
 ```lua
 add_requires("libopus")
+```
+
+
+### libplist (mingw)
+
+
+| Description | *Library for Apple Binary- and XML-Property Lists* |
+| -- | -- |
+| Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
+| License | LGPL-2.1 |
+| Versions | 2.2.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libplist
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libplist")
 ```
 
 
@@ -3143,6 +3215,30 @@ add_requires("libusb")
 ```
 
 
+### libusbmuxd (mingw)
+
+
+| Description | *A client library to multiplex connections from and to iOS devices* |
+| -- | -- |
+| Homepage | [https://github.com/libimobiledevice/libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) |
+| License | LGPL-2.1 |
+| Versions | 2021.09.13 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libusbmuxd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusbmuxd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libusbmuxd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusbmuxd")
+```
+
+
 ### libuv (mingw)
 
 
@@ -3283,29 +3379,6 @@ xrepo install -p mingw [--mingw=/xxx] llvm
 
 ```lua
 add_requires("llvm")
-```
-
-
-### llvm-mingw (mingw)
-
-
-| Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
-| -- | -- |
-| Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions | 20211002, 20220323 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] llvm-mingw
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("llvm-mingw")
 ```
 
 
@@ -4283,30 +4356,6 @@ add_requires("nodesoup")
 
 
 ## o
-### openal-soft (mingw)
-
-
-| Description | *OpenAL Soft is a software implementation of the OpenAL 3D audio API.* |
-| -- | -- |
-| Homepage | [https://openal-soft.org](https://openal-soft.org) |
-| License | LGPL-2.0 |
-| Versions | 1.21.1 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [openal-soft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] openal-soft
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("openal-soft")
-```
-
-
 ### opencl-clhpp (mingw)
 
 
