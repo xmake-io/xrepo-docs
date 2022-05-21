@@ -4951,7 +4951,7 @@ add_requires("recastnavigation")
 | -- | -- |
 | Homepage | [https://github.com/martinus/robin-hood-hashing](https://github.com/martinus/robin-hood-hashing) |
 | License | MIT |
-| Versions | 3.11.3 |
+| Versions | 3.11.3, 3.11.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [robin-hood-hashing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-hood-hashing/xmake.lua) |
 
