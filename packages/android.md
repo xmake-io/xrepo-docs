@@ -4280,6 +4280,30 @@ add_requires("optick")
 ```
 
 
+### ordered_map (android)
+
+
+| Description | *C++ hash map and hash set which preserve the order of insertion* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/ordered-map](https://github.com/Tessil/ordered-map) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [ordered_map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ordered_map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ordered_map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ordered_map")
+```
+
+
 
 ## p
 ### parallel-hashmap (android)

@@ -3786,6 +3786,30 @@ add_requires("openrestry-luajit")
 ```
 
 
+### ordered_map (iphoneos)
+
+
+| Description | *C++ hash map and hash set which preserve the order of insertion* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/ordered-map](https://github.com/Tessil/ordered-map) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [ordered_map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ordered_map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos ordered_map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ordered_map")
+```
+
+
 
 ## p
 ### parallel-hashmap (iphoneos)
