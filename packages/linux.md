@@ -12170,6 +12170,30 @@ add_requires("pqp")
 ```
 
 
+### prometheus-cpp (linux)
+
+
+| Description | *Prometheus Client Library for Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [prometheus-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prometheus-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install prometheus-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("prometheus-cpp")
+```
+
+
 ### promise-cpp (linux)
 
 
@@ -13596,7 +13620,7 @@ add_requires("spirv-cross")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.2.198+0 |
+| Versions | 1.2.198+0, 1.3.211+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -13644,7 +13668,7 @@ add_requires("spirv-reflect")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
-| Versions | 2020.5, 2020.6, 2021.3, 2021.4 |
+| Versions | 2020.5, 2020.6, 2021.3, 2021.4, 2022.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
