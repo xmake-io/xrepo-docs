@@ -12440,7 +12440,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7, v1.0.0 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0 |
 | Architectures | x86_64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
