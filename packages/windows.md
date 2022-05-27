@@ -741,7 +741,7 @@ add_requires("ca-certificates")
 | Description | *Vector graphics library with cross-device output support.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 2021.10.07 |
+| Versions | 1.17.6 |
 | Architectures | x64, x86 |
 | Definition | [cairo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairo/xmake.lua) |
 
@@ -3163,7 +3163,7 @@ add_requires("freetype")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | 1.0.10, 1.0.11 |
+| Versions | 1.0.10, 1.0.11, 1.0.12 |
 | Architectures | x64, x86 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
@@ -7250,7 +7250,7 @@ add_requires("meowhash")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1 |
 | Architectures | x64, x86 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -8221,7 +8221,7 @@ add_requires("niftiheader")
 | Description | *Small build system for use with gyp or CMake.* |
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
-| Versions | 1.10.1, 1.10.2, 1.9.0 |
+| Versions | 1.10.1, 1.10.2, 1.11.0, 1.9.0 |
 | Architectures | x64, x86 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
@@ -9361,7 +9361,7 @@ add_requires("piex")
 | Description | *Low-level library for pixel manipulation.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 2021.12.17 |
+| Versions | 0.40.0 |
 | Architectures | x64, x86 |
 | Definition | [pixman/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pixman/xmake.lua) |
 
