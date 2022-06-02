@@ -879,7 +879,7 @@ add_requires("ctre")
 | Description | *Lightweight C++ command line option parser* |
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
-| Versions | V3.0.0, v2.2.0 |
+| Versions | v2.2.0, v3.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
