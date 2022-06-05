@@ -267,7 +267,7 @@ add_requires("bzip2")
 | Description | *Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.* |
 | -- | -- |
 | Homepage | [https://mkcert.org/](https://mkcert.org/) |
-| Versions | 20211118 |
+| Versions | 20211118, 20220604 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [ca-certificates/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua) |
 
@@ -4098,7 +4098,7 @@ add_requires("pystring")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.10, 3.9.5, 3.9.6 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.10, 3.9.13, 3.9.5, 3.9.6 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
