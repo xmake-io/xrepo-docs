@@ -120,6 +120,30 @@ add_requires("aqt")
 ```
 
 
+### argh (windows)
+
+
+| Description | *Argh! A minimalist argument handler.* |
+| -- | -- |
+| Homepage | [https://github.com/adishavit/argh](https://github.com/adishavit/argh) |
+| License | BSD-3-Clause |
+| Versions | v1.3.2 |
+| Architectures | x64, x86 |
+| Definition | [argh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install argh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("argh")
+```
+
+
 ### armadillo (windows)
 
 

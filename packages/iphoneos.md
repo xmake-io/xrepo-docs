@@ -23,6 +23,30 @@ add_requires("aqt")
 ```
 
 
+### argh (iphoneos)
+
+
+| Description | *Argh! A minimalist argument handler.* |
+| -- | -- |
+| Homepage | [https://github.com/adishavit/argh](https://github.com/adishavit/argh) |
+| License | BSD-3-Clause |
+| Versions | v1.3.2 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [argh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos argh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("argh")
+```
+
+
 ### asio (iphoneos)
 
 

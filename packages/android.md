@@ -47,6 +47,30 @@ add_requires("aqt")
 ```
 
 
+### argh (android)
+
+
+| Description | *Argh! A minimalist argument handler.* |
+| -- | -- |
+| Homepage | [https://github.com/adishavit/argh](https://github.com/adishavit/argh) |
+| License | BSD-3-Clause |
+| Versions | v1.3.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [argh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] argh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("argh")
+```
+
+
 ### argp-standalone (android)
 
 
