@@ -5435,7 +5435,7 @@ add_requires("vulkan-headers")
 | -- | -- |
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | MIT |
-| Versions | 2021.1.26 |
+| Versions | v3.0.0 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
 
