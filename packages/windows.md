@@ -2329,7 +2329,7 @@ add_requires("drogon")
 | -- | -- |
 | Homepage | [https://github.com/electronicarts/EABase](https://github.com/electronicarts/EABase) |
 | License | BSD-3-Clause |
-| Versions | 2.09.06 |
+| Versions | 2.09.05 |
 | Architectures | x64, x86 |
 | Definition | [eabase/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eabase/xmake.lua) |
 

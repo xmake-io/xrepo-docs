@@ -2352,7 +2352,7 @@ add_requires("e2fsprogs")
 | -- | -- |
 | Homepage | [https://github.com/electronicarts/EABase](https://github.com/electronicarts/EABase) |
 | License | BSD-3-Clause |
-| Versions | 2.09.06 |
+| Versions | 2.09.05 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [eabase/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eabase/xmake.lua) |
 
