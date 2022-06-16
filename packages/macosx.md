@@ -4221,6 +4221,30 @@ add_requires("gyp-next")
 
 
 ## h
+### h5cpp (macosx)
+
+
+| Description | *C++ wrapper for the HDF5 C-library* |
+| -- | -- |
+| Homepage | [https://ess-dmsc.github.io/h5cpp/](https://ess-dmsc.github.io/h5cpp/) |
+| License | LGPL-2.1 |
+| Versions | v0.5.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [h5cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/h5cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install h5cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("h5cpp")
+```
+
+
 ### happly (macosx)
 
 
