@@ -2969,6 +2969,30 @@ add_requires("flatbuffers")
 ```
 
 
+### flecs (windows)
+
+
+| Description | *A fast entity component system (ECS) for C & C++* |
+| -- | -- |
+| Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
+| License | MIT |
+| Versions | v2.4.8, v3.0.1-alpha |
+| Architectures | x64, x86 |
+| Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flecs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flecs")
+```
+
+
 ### flex (windows)
 
 
