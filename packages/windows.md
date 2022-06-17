@@ -11301,7 +11301,7 @@ add_requires("tbb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
-| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7 |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9 |
 | Architectures | x64, x86 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
@@ -12846,6 +12846,30 @@ xrepo install zstd
 
 ```lua
 add_requires("zstd")
+```
+
+
+### zycore-c (windows)
+
+
+| Description | *Internal library providing platform independent types, macros and a fallback for environments without LibC.* |
+| -- | -- |
+| Homepage | [https://github.com/zyantific/zycore-c](https://github.com/zyantific/zycore-c) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | x64, x86 |
+| Definition | [zycore-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zycore-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zycore-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zycore-c")
 ```
 
 

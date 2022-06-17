@@ -7413,7 +7413,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7</td>
+<td>v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -8464,6 +8464,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("zstd")
+</code></pre>
+<h3 id="zycoreciphoneos">zycore-c (iphoneos)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Internal library providing platform independent types, macros and a fallback for environments without LibC.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/zyantific/zycore-c">https://github.com/zyantific/zycore-c</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.0.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zycore-c/xmake.lua">zycore-c/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p iphoneos zycore-c
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("zycore-c")
 </code></pre>
 </article>
 </body>

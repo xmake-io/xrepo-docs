@@ -5806,7 +5806,7 @@ add_requires("taywee_args")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
-| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7 |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
@@ -6609,6 +6609,30 @@ xrepo install -p mingw [--mingw=/xxx] zstd
 
 ```lua
 add_requires("zstd")
+```
+
+
+### zycore-c (mingw)
+
+
+| Description | *Internal library providing platform independent types, macros and a fallback for environments without LibC.* |
+| -- | -- |
+| Homepage | [https://github.com/zyantific/zycore-c](https://github.com/zyantific/zycore-c) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [zycore-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zycore-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] zycore-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zycore-c")
 ```
 
 
