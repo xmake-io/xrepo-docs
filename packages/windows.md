@@ -4350,7 +4350,7 @@ add_requires("icbc")
 | Description | *C/C++ libraries for Unicode and globalization.* |
 | -- | -- |
 | Homepage | [http://site.icu-project.org/](http://site.icu-project.org/) |
-| Versions | 64.2, 68.1, 68.2, 69.1, 70.1 |
+| Versions | 64.2, 68.1, 68.2, 69.1, 70.1, 71.1 |
 | Architectures | x64, x86 |
 | Definition | [icu4c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icu4c/xmake.lua) |
 
