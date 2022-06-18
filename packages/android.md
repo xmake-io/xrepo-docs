@@ -1186,6 +1186,30 @@ add_requires("easyloggingpp")
 ```
 
 
+### elfutils (android)
+
+
+| Description | *Libraries and utilities for handling ELF objects* |
+| -- | -- |
+| Homepage | [https://fedorahosted.org/elfutils/](https://fedorahosted.org/elfutils/) |
+| License | GPL-2.0 |
+| Versions | 0.183 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [elfutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/elfutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] elfutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("elfutils")
+```
+
+
 ### enet (android)
 
 
