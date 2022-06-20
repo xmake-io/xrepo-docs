@@ -4518,7 +4518,7 @@ add_requires("zstd")
 | -- | -- |
 | Homepage | [https://github.com/zyantific/zycore-c](https://github.com/zyantific/zycore-c) |
 | License | MIT |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [zycore-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zycore-c/xmake.lua) |
 
