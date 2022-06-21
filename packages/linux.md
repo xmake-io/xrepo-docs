@@ -16250,6 +16250,30 @@ add_requires("zycore-c")
 ```
 
 
+### zydis (linux)
+
+
+| Description | *Fast and lightweight x86/x86-64 disassembler and code generation library* |
+| -- | -- |
+| Homepage | [https://zydis.re](https://zydis.re) |
+| License | MIT |
+| Versions | v3.2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [zydis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zydis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zydis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zydis")
+```
+
+
 ### zziplib (linux)
 
 

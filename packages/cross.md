@@ -4819,4 +4819,28 @@ add_requires("zycore-c")
 ```
 
 
+### zydis (cross)
+
+
+| Description | *Fast and lightweight x86/x86-64 disassembler and code generation library* |
+| -- | -- |
+| Homepage | [https://zydis.re](https://zydis.re) |
+| License | MIT |
+| Versions | v3.2.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [zydis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zydis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] zydis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zydis")
+```
+
+
 
