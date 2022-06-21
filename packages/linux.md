@@ -15374,6 +15374,30 @@ add_requires("wayland-protocols")
 ```
 
 
+### wolfssl (linux)
+
+
+| Description | *The wolfSSL library is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.  wolfSSL supports up to TLS 1.3!* |
+| -- | -- |
+| Homepage | [https://www.wolfssl.com](https://www.wolfssl.com) |
+| License | GPL-2.0 |
+| Versions | v5.3.0-stable |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [wolfssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wolfssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wolfssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wolfssl")
+```
+
+
 ### workflow (linux)
 
 
@@ -15841,6 +15865,30 @@ xrepo install xtensor-blas
 
 ```lua
 add_requires("xtensor-blas")
+```
+
+
+### xtensor-io (linux)
+
+
+| Description | *xtensor plugin to read and write images, audio files, numpy (compressed) npz and HDF5* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xtensor-io](https://github.com/xtensor-stack/xtensor-io) |
+| License | BSD-3-Clause |
+| Versions | 0.13.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xtensor-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor-io/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xtensor-io
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtensor-io")
 ```
 
 

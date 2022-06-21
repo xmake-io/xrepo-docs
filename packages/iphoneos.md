@@ -5453,6 +5453,32 @@ add_requires("vulkan-memory-allocator")
 
 
 
+## w
+### wolfssl (iphoneos)
+
+
+| Description | *The wolfSSL library is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.  wolfSSL supports up to TLS 1.3!* |
+| -- | -- |
+| Homepage | [https://www.wolfssl.com](https://www.wolfssl.com) |
+| License | GPL-2.0 |
+| Versions | v5.3.0-stable |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [wolfssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wolfssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos wolfssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wolfssl")
+```
+
+
+
 ## x
 ### xbyak (iphoneos)
 
