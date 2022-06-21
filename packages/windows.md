@@ -501,6 +501,30 @@ add_requires("blaze")
 ```
 
 
+### blend2d (windows)
+
+
+| Description | *2D Vector Graphics Engine Powered by a JIT Compiler* |
+| -- | -- |
+| Homepage | [https://blend2d.com](https://blend2d.com) |
+| License | zlib |
+| Versions | 2022.05.12 |
+| Architectures | x64, x86 |
+| Definition | [blend2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blend2d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install blend2d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blend2d")
+```
+
+
 ### blitz (windows)
 
 
