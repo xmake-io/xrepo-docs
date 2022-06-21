@@ -4974,6 +4974,30 @@ add_requires("tclap")
 ```
 
 
+### thrust (iphoneos)
+
+
+| Description | *The C++ parallel algorithms library.* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/thrust](https://github.com/NVIDIA/thrust) |
+| License | Apache-2.0 |
+| Versions | 1.17.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [thrust/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrust/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos thrust
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("thrust")
+```
+
+
 ### tinycbor (iphoneos)
 
 

@@ -11366,6 +11366,30 @@ add_requires("tesseract")
 ```
 
 
+### thrust (windows)
+
+
+| Description | *The C++ parallel algorithms library.* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/thrust](https://github.com/NVIDIA/thrust) |
+| License | Apache-2.0 |
+| Versions | 1.17.0 |
+| Architectures | x64, x86 |
+| Definition | [thrust/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrust/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install thrust
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("thrust")
+```
+
+
 ### tiltedcore (windows)
 
 
