@@ -11133,6 +11133,29 @@ add_requires("pcre2")
 ```
 
 
+### pdcurses (macosx)
+
+
+| Description | *PDCurses - a curses library for environments that don't fit the termcap/terminfo model.* |
+| -- | -- |
+| Homepage | [https://pdcurses.org/](https://pdcurses.org/) |
+| Versions | 3.9 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [pdcurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdcurses/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pdcurses
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pdcurses")
+```
+
+
 ### pegtl (macosx)
 
 
