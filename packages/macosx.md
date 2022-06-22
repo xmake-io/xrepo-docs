@@ -3655,6 +3655,30 @@ add_requires("giflib")
 ```
 
 
+### git-crypt (macosx)
+
+
+| Description | *Transparent file encryption in git* |
+| -- | -- |
+| Homepage | [https://www.agwa.name/projects/git-crypt/](https://www.agwa.name/projects/git-crypt/) |
+| License | GPL-3.0 |
+| Versions | 0.7.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [git-crypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/git-crypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install git-crypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("git-crypt")
+```
+
+
 ### glad (macosx)
 
 
