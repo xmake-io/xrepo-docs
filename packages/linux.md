@@ -120,6 +120,30 @@ add_requires("angelscript")
 ```
 
 
+### apr (linux)
+
+
+| Description | *Mirror of Apache Portable Runtime* |
+| -- | -- |
+| Homepage | [https://github.com/apache/apr](https://github.com/apache/apr) |
+| License | Apache-2.0 |
+| Versions | 1.7.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [apr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/apr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install apr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("apr")
+```
+
+
 ### aqt (linux)
 
 
