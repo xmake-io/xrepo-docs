@@ -1760,6 +1760,30 @@ add_requires("kiwisolver")
 
 
 ## l
+### lcms (wasm)
+
+
+| Description | *A free, open source, CMM engine.* |
+| -- | -- |
+| Homepage | [https://www.littlecms.com/](https://www.littlecms.com/) |
+| License | MIT |
+| Versions | 2.11, 2.12 |
+| Architectures | wasm32 |
+| Definition | [lcms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lcms/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm lcms
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lcms")
+```
+
+
 ### lexy (wasm)
 
 
@@ -1988,6 +2012,29 @@ xrepo install -p wasm libtool
 
 ```lua
 add_requires("libtool")
+```
+
+
+### libuuid (wasm)
+
+
+| Description | *Portable uuid C library* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/libuuid](https://sourceforge.net/projects/libuuid) |
+| Versions | 1.0.3 |
+| Architectures | wasm32 |
+| Definition | [libuuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuuid/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libuuid
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libuuid")
 ```
 
 
