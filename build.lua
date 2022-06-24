@@ -265,6 +265,8 @@ function write_package(file, pkg, plat, archs)
         file:print("xrepo install -p iphoneos %s", name)
     elseif plat == "cross" then
         file:print("xrepo install -p cross [--sdk=/xxx] %s", name)
+    elseif plat == "wasm" then
+        file:print("xrepo install -p wasm %s", name)
     else
         file:print("xrepo install %s", name)
     end
