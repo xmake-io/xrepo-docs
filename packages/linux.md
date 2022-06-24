@@ -5693,6 +5693,29 @@ add_requires("lame")
 ```
 
 
+### lbuild (linux)
+
+
+| Description | *lbuild: a generic, modular code generator in Python 3* |
+| -- | -- |
+| Homepage | [https://pypi.org/project/lbuild](https://pypi.org/project/lbuild) |
+| Versions | 2022.02.14 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [lbuild/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lbuild/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lbuild
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lbuild")
+```
+
+
 ### lcms (linux)
 
 
