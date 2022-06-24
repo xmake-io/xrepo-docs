@@ -1331,6 +1331,30 @@ add_requires("fast_double_parser")
 ```
 
 
+### fast_float (android)
+
+
+| Description | *Fast and exact implementation of the C++ from_chars functions for float and double types: 4x faster than strtod* |
+| -- | -- |
+| Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
+| License | Apache-2.0 |
+| Versions | v3.4.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] fast_float
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_float")
+```
+
+
 ### fastcppcsvparser (android)
 
 
