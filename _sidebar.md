@@ -10,4 +10,5 @@
   - [macosx](packages/macosx.md)
   - [mingw](packages/mingw.md)
   - [msys](packages/msys.md)
+  - [wasm](packages/wasm.md)
   - [windows](packages/windows.md)
