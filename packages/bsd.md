@@ -2511,6 +2511,29 @@ add_requires("libwebp")
 ```
 
 
+### littlefs (bsd)
+
+
+| Description | *A little fail-safe filesystem designed for microcontrollers* |
+| -- | -- |
+| Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
+| Versions | v2.5.0 |
+| Architectures | i386, x86_64 |
+| Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install littlefs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("littlefs")
+```
+
+
 ### llhttp (bsd)
 
 
@@ -4931,7 +4954,7 @@ add_requires("tl_function_ref")
 | Description | *toml++ is a header-only TOML config file parser and serializer for C++17 (and later!).* |
 | -- | -- |
 | Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
-| Versions | v2.5.0, v3.0.0 |
+| Versions | v2.5.0, v3.0.0, v3.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
 
