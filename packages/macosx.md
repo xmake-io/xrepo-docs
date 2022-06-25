@@ -12314,6 +12314,30 @@ add_requires("recastnavigation")
 ```
 
 
+### redex (macosx)
+
+
+| Description | *A bytecode optimizer for Android apps* |
+| -- | -- |
+| Homepage | [https://fbredex.com/](https://fbredex.com/) |
+| License | MIT |
+| Versions | 2022.6.23 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [redex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install redex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("redex")
+```
+
+
 ### rendergraph (macosx)
 
 
