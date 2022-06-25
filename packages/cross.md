@@ -3482,6 +3482,29 @@ add_requires("pqp")
 ```
 
 
+### premake5 (cross)
+
+
+| Description | *Premake* |
+| -- | -- |
+| Homepage | [https://premake.github.io/](https://premake.github.io/) |
+| Versions | 2022.06.21 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [premake5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/premake5/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] premake5
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("premake5")
+```
+
+
 ### protoc (cross)
 
 

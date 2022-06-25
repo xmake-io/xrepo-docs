@@ -4588,6 +4588,29 @@ add_requires("pqp")
 ```
 
 
+### premake5 (android)
+
+
+| Description | *Premake* |
+| -- | -- |
+| Homepage | [https://premake.github.io/](https://premake.github.io/) |
+| Versions | 2022.06.21 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [premake5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/premake5/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] premake5
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("premake5")
+```
+
+
 ### protoc (android)
 
 

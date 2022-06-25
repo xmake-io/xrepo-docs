@@ -3222,6 +3222,29 @@ add_requires("pqp")
 ```
 
 
+### premake5 (msys)
+
+
+| Description | *Premake* |
+| -- | -- |
+| Homepage | [https://premake.github.io/](https://premake.github.io/) |
+| Versions | 2022.06.21 |
+| Architectures | i386, x86_64 |
+| Definition | [premake5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/premake5/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install premake5
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("premake5")
+```
+
+
 ### protoc (msys)
 
 

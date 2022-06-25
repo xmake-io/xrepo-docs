@@ -11486,6 +11486,29 @@ add_requires("pqp")
 ```
 
 
+### premake5 (macosx)
+
+
+| Description | *Premake* |
+| -- | -- |
+| Homepage | [https://premake.github.io/](https://premake.github.io/) |
+| Versions | 2022.06.21 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [premake5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/premake5/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install premake5
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("premake5")
+```
+
+
 ### promise-cpp (macosx)
 
 
@@ -12715,6 +12738,30 @@ xrepo install snappy
 
 ```lua
 add_requires("snappy")
+```
+
+
+### snmalloc (macosx)
+
+
+| Description | *Message passing based allocator* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/snmalloc](https://github.com/microsoft/snmalloc) |
+| License | MIT |
+| Versions | 0.6.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [snmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snmalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install snmalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("snmalloc")
 ```
 
 
