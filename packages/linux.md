@@ -3869,6 +3869,29 @@ add_requires("geant4")
 ```
 
 
+### genie (linux)
+
+
+| Description | *GENie - Project generator tool* |
+| -- | -- |
+| Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
+| Versions | 1160.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install genie
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("genie")
+```
+
+
 ### geos (linux)
 
 

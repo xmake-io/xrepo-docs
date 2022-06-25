@@ -1284,6 +1284,29 @@ add_requires("fx-gltf")
 
 
 ## g
+### genie (cross)
+
+
+| Description | *GENie - Project generator tool* |
+| -- | -- |
+| Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
+| Versions | 1160.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] genie
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("genie")
+```
+
+
 ### gflags (cross)
 
 

@@ -1711,6 +1711,29 @@ add_requires("gcem")
 ```
 
 
+### genie (mingw)
+
+
+| Description | *GENie - Project generator tool* |
+| -- | -- |
+| Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
+| Versions | 1160.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] genie
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("genie")
+```
+
+
 ### gflags (mingw)
 
 

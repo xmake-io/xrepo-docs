@@ -1568,6 +1568,29 @@ add_requires("fx-gltf")
 
 
 ## g
+### genie (android)
+
+
+| Description | *GENie - Project generator tool* |
+| -- | -- |
+| Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
+| Versions | 1160.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] genie
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("genie")
+```
+
+
 ### gettext (android)
 
 

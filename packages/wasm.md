@@ -1213,6 +1213,29 @@ add_requires("fx-gltf")
 
 
 ## g
+### genie (wasm)
+
+
+| Description | *GENie - Project generator tool* |
+| -- | -- |
+| Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
+| Versions | 1160.0 |
+| Architectures | wasm32 |
+| Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm genie
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("genie")
+```
+
+
 ### gflags (wasm)
 
 
