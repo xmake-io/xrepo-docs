@@ -946,6 +946,30 @@ add_requires("decimal_for_cpp")
 ```
 
 
+### demumble (iphoneos)
+
+
+| Description | *A better c++filt and a better undname.exe, in one binary.* |
+| -- | -- |
+| Homepage | [https://github.com/nico/demumble](https://github.com/nico/demumble) |
+| License | Apache-2.0 |
+| Versions | 2022.3.23 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [demumble/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/demumble/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos demumble
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("demumble")
+```
+
+
 ### docopt (iphoneos)
 
 

@@ -1988,6 +1988,30 @@ add_requires("decimal_for_cpp")
 ```
 
 
+### demumble (windows)
+
+
+| Description | *A better c++filt and a better undname.exe, in one binary.* |
+| -- | -- |
+| Homepage | [https://github.com/nico/demumble](https://github.com/nico/demumble) |
+| License | Apache-2.0 |
+| Versions | 2022.3.23 |
+| Architectures | x64, x86 |
+| Definition | [demumble/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/demumble/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install demumble
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("demumble")
+```
+
+
 ### depot_tools (windows)
 
 

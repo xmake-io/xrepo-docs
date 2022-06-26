@@ -851,6 +851,30 @@ add_requires("decimal_for_cpp")
 ```
 
 
+### demumble (cross)
+
+
+| Description | *A better c++filt and a better undname.exe, in one binary.* |
+| -- | -- |
+| Homepage | [https://github.com/nico/demumble](https://github.com/nico/demumble) |
+| License | Apache-2.0 |
+| Versions | 2022.3.23 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [demumble/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/demumble/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] demumble
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("demumble")
+```
+
+
 ### docopt (cross)
 
 
