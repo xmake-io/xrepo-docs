@@ -8833,6 +8833,29 @@ add_requires("make")
 ```
 
 
+### managedc (macosx)
+
+
+| Description | *Reference counter garabage collection for C* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| Versions | 1.5.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [managedc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/managedc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install managedc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("managedc")
+```
+
+
 ### mapbox_eternal (macosx)
 
 
