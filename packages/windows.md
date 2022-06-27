@@ -10369,6 +10369,29 @@ add_requires("qt5widgets")
 ```
 
 
+### quickjs (windows)
+
+
+| Description | *QuickJS is a small and embeddable Javascript engine* |
+| -- | -- |
+| Homepage | [https://bellard.org/quickjs/](https://bellard.org/quickjs/) |
+| Versions | 2021.03.27 |
+| Architectures | x64, x86 |
+| Definition | [quickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quickjs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quickjs")
+```
+
+
 
 ## r
 ### range-v3 (windows)
