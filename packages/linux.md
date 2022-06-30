@@ -13091,6 +13091,29 @@ add_requires("quickjs")
 ```
 
 
+### quickjspp (linux)
+
+
+| Description | *QuickJS C++ wrapper* |
+| -- | -- |
+| Homepage | [https://github.com/ftk/quickjspp](https://github.com/ftk/quickjspp) |
+| Versions | 2022.6.30 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [quickjspp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjspp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quickjspp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quickjspp")
+```
+
+
 
 ## r
 ### range-v3 (linux)
