@@ -10585,6 +10585,30 @@ add_requires("onetbb")
 ```
 
 
+### onnxruntime (macosx)
+
+
+| Description | *ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator* |
+| -- | -- |
+| Homepage | [https://www.onnxruntime.ai](https://www.onnxruntime.ai) |
+| License | MIT |
+| Versions | 1.11.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [onnxruntime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onnxruntime/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install onnxruntime
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("onnxruntime")
+```
+
+
 ### open3d (macosx)
 
 
