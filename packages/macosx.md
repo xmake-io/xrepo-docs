@@ -8856,6 +8856,30 @@ add_requires("managedc")
 ```
 
 
+### mapbox_earcut (macosx)
+
+
+| Description | *A C++ port of earcut.js, a fast, header-only polygon triangulation library.* |
+| -- | -- |
+| Homepage | [https://github.com/mapbox/earcut.hpp](https://github.com/mapbox/earcut.hpp) |
+| License | ISC |
+| Versions | 2.2.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [mapbox_earcut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_earcut/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mapbox_earcut
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mapbox_earcut")
+```
+
+
 ### mapbox_eternal (macosx)
 
 
@@ -8877,6 +8901,30 @@ xrepo install mapbox_eternal
 
 ```lua
 add_requires("mapbox_eternal")
+```
+
+
+### mapbox_geometry (macosx)
+
+
+| Description | *Provides header-only, generic C++ interfaces for geometry types, geometry collections, and features.* |
+| -- | -- |
+| Homepage | [https://github.com/mapbox/geometry.hpp](https://github.com/mapbox/geometry.hpp) |
+| License | ISC |
+| Versions | 1.1.0, 2.0.3 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [mapbox_geometry/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_geometry/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mapbox_geometry
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mapbox_geometry")
 ```
 
 
