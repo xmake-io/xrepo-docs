@@ -1232,6 +1232,29 @@ add_requires("dr_wav")
 ```
 
 
+### dynareadout (mingw)
+
+
+| Description | *Ansi C library for parsing binary output files of LS Dyna (d3plot, binout)* |
+| -- | -- |
+| Homepage | [https://github.com/PucklaMotzer09/dynareadout](https://github.com/PucklaMotzer09/dynareadout) |
+| Versions | 0.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] dynareadout
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dynareadout")
+```
+
+
 
 ## e
 ### easyloggingpp (mingw)

@@ -2392,6 +2392,29 @@ add_requires("drogon")
 ```
 
 
+### dynareadout (windows)
+
+
+| Description | *Ansi C library for parsing binary output files of LS Dyna (d3plot, binout)* |
+| -- | -- |
+| Homepage | [https://github.com/PucklaMotzer09/dynareadout](https://github.com/PucklaMotzer09/dynareadout) |
+| Versions | 0.1 |
+| Architectures | x64, x86 |
+| Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dynareadout
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dynareadout")
+```
+
+
 
 ## e
 ### eabase (windows)
