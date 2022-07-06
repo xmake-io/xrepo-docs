@@ -7441,7 +7441,7 @@ add_requires("marisa")
 | Description | *Marl is a hybrid thread / fiber task scheduler written in C++ 11.* |
 | -- | -- |
 | Homepage | [https://github.com/google/marl](https://github.com/google/marl) |
-| Versions | 2021.8.18 |
+| Versions | 2021.8.18, 2022.3.02 |
 | Architectures | x64, x86 |
 | Definition | [marl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marl/xmake.lua) |
 
