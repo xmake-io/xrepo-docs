@@ -1883,7 +1883,7 @@ add_requires("glew")
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
 | License | zlib |
-| Versions | 3.3.2, 3.3.4, 3.3.5, 3.3.6 |
+| Versions | 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
@@ -4254,6 +4254,30 @@ xrepo install -p mingw [--mingw=/xxx] nanoflann
 
 ```lua
 add_requires("nanoflann")
+```
+
+
+### nanosvg (mingw)
+
+
+| Description | *Simple stupid SVG parser* |
+| -- | -- |
+| Homepage | [https://github.com/memononen/nanosvg](https://github.com/memononen/nanosvg) |
+| License | zlib |
+| Versions | 2022.07.09 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [nanosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanosvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] nanosvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanosvg")
 ```
 
 

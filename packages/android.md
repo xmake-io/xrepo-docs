@@ -4069,6 +4069,30 @@ add_requires("nanoflann")
 ```
 
 
+### nanosvg (android)
+
+
+| Description | *Simple stupid SVG parser* |
+| -- | -- |
+| Homepage | [https://github.com/memononen/nanosvg](https://github.com/memononen/nanosvg) |
+| License | zlib |
+| Versions | 2022.07.09 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [nanosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanosvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] nanosvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanosvg")
+```
+
+
 ### nasm (android)
 
 

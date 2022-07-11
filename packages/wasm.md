@@ -2890,6 +2890,30 @@ add_requires("nanoflann")
 ```
 
 
+### nanosvg (wasm)
+
+
+| Description | *Simple stupid SVG parser* |
+| -- | -- |
+| Homepage | [https://github.com/memononen/nanosvg](https://github.com/memononen/nanosvg) |
+| License | zlib |
+| Versions | 2022.07.09 |
+| Architectures | wasm32 |
+| Definition | [nanosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanosvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm nanosvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanosvg")
+```
+
+
 ### nasm (wasm)
 
 
