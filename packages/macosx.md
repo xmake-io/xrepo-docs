@@ -6065,6 +6065,29 @@ add_requires("libfreenect2")
 ```
 
 
+### libfswatch (macosx)
+
+
+| Description | *A cross-platform file change monitor with multiple backends: Apple OS X File System Events, *BSD kqueue, Solaris/Illumos File Events Notification, Linux inotify, Microsoft Windows and a stat()-based backend.* |
+| -- | -- |
+| Homepage | [https://emcrisostomo.github.io/fswatch/](https://emcrisostomo.github.io/fswatch/) |
+| Versions | 1.17.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libfswatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfswatch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfswatch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfswatch")
+```
+
+
 ### libgcrypt (macosx)
 
 
