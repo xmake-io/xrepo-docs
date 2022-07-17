@@ -11790,6 +11790,30 @@ add_requires("tiltedcore")
 ```
 
 
+### tiny-process-library (windows)
+
+
+| Description | *A small platform independent library making it simple to create and stop new processes in C++, as well as writing to stdin and reading from stdout and stderr of a new process* |
+| -- | -- |
+| Homepage | [https://gitlab.com/eidheim/tiny-process-library](https://gitlab.com/eidheim/tiny-process-library) |
+| License | MIT |
+| Versions | v2.0.4 |
+| Architectures | x64, x86 |
+| Definition | [tiny-process-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiny-process-library/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tiny-process-library
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tiny-process-library")
+```
+
+
 ### tinycbor (windows)
 
 
