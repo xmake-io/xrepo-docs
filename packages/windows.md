@@ -3475,7 +3475,7 @@ add_requires("fxdiv")
 | -- | -- |
 | Homepage | [https://github.com/ValveSoftware/GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) |
 | License | BSD-3-Clause |
-| Versions | v1.2.0, v1.3.0, v1.4.0 |
+| Versions | v1.2.0, v1.3.0, v1.4.0, v1.4.1 |
 | Architectures | x64, x86 |
 | Definition | [gamenetworkingsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gamenetworkingsockets/xmake.lua) |
 
