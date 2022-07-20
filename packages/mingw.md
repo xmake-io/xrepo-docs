@@ -315,6 +315,7 @@ add_requires("bison")
 | Description | *A blocking, shuffling and loss-less compression library* |
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
+| License | BSD-3-Clause |
 | Versions | 1.20.1, 1.21.1, 1.5.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |

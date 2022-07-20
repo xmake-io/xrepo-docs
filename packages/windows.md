@@ -579,6 +579,7 @@ add_requires("blitz")
 | Description | *A blocking, shuffling and loss-less compression library* |
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
+| License | BSD-3-Clause |
 | Versions | 1.20.1, 1.21.1, 1.5.0 |
 | Architectures | x64, x86 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
@@ -4539,7 +4540,7 @@ add_requires("ifort")
 | -- | -- |
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
-| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4 |
+| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4, v3.1.5 |
 | Architectures | x64, x86 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
@@ -9148,7 +9149,7 @@ add_requires("opencv")
 | Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1, 3.1.3, 3.1.4 |
+| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1, 3.1.3, 3.1.4, 3.1.5 |
 | Architectures | x64, x86 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -9360,7 +9361,7 @@ add_requires("opensubdiv")
 | Description | *OpenVDB - Sparse volume data structure and tools* |
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
-| Versions | 7.1.0, 8.0.1, 8.1.0, 8.2.0, 9.0.0 |
+| Versions | 7.1.0, 8.0.1, 8.1.0, 8.2.0, 9.0.0, 9.1.0 |
 | Architectures | x64, x86 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
