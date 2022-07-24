@@ -3737,7 +3737,7 @@ add_requires("glew")
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
 | License | zlib |
-| Versions | 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7 |
+| Versions | 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7, 3.3.8 |
 | Architectures | x64, x86 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
@@ -4564,7 +4564,7 @@ add_requires("imath")
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
-| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86, v1.87, v1.87-docking |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86, v1.87, v1.87-docking, v1.88 |
 | Architectures | x64, x86 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
