@@ -1144,7 +1144,7 @@ add_requires("doxygen")
 | -- | -- |
 | Homepage | [https://github.com/brainboxdotcc/DPP](https://github.com/brainboxdotcc/DPP) |
 | License | Apache-2.0 |
-| Versions | v10.0.10, v10.0.11, v10.0.12, v10.0.13, v10.0.14, v10.0.8 |
+| Versions | v10.0.10, v10.0.11, v10.0.12, v10.0.13, v10.0.14, v10.0.15, v10.0.8 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dpp/xmake.lua) |
 
