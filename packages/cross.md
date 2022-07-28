@@ -1235,6 +1235,29 @@ add_requires("fmt")
 ```
 
 
+### freetype (cross)
+
+
+| Description | *A freely available software library to render fonts.* |
+| -- | -- |
+| Homepage | [https://www.freetype.org](https://www.freetype.org) |
+| Versions | 2.10.4, 2.11.0, 2.11.1, 2.12.1, 2.9.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] freetype
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("freetype")
+```
+
+
 ### frozen (cross)
 
 

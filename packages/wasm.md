@@ -1141,6 +1141,29 @@ add_requires("fmt")
 ```
 
 
+### freetype (wasm)
+
+
+| Description | *A freely available software library to render fonts.* |
+| -- | -- |
+| Homepage | [https://www.freetype.org](https://www.freetype.org) |
+| Versions | 2.10.4, 2.11.0, 2.11.1, 2.12.1, 2.9.1 |
+| Architectures | wasm32 |
+| Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm freetype
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("freetype")
+```
+
+
 ### frozen (wasm)
 
 
