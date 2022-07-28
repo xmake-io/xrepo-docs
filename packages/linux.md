@@ -1611,6 +1611,30 @@ add_requires("cmake")
 ```
 
 
+### cmdline (linux)
+
+
+| Description | *A Command Line Parser* |
+| -- | -- |
+| Homepage | [https://github.com/tanakh/cmdline](https://github.com/tanakh/cmdline) |
+| License | BSD-3-Clause |
+| Versions | 2014.2.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cmdline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmdline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cmdline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cmdline")
+```
+
+
 ### cmocka (linux)
 
 
