@@ -818,7 +818,7 @@ add_requires("blosc")
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
 | License | BSL-1.0 |
-| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
@@ -12345,7 +12345,7 @@ add_requires("pcre")
 | Description | *A Perl Compatible Regular Expressions Library* |
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
-| Versions | 10.39 |
+| Versions | 10.39, 10.40 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
 
@@ -12557,7 +12557,7 @@ add_requires("pmp")
 | -- | -- |
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSL-1.0 |
-| Versions | 1.11.0, 1.11.1 |
+| Versions | 1.11.0, 1.11.1, 1.12.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [poco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poco/xmake.lua) |
 
@@ -12934,7 +12934,7 @@ add_requires("pupnp")
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2 |
+| Versions | v2.10.0, v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 

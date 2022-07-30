@@ -4078,7 +4078,7 @@ add_requires("patch")
 | Description | *A Perl Compatible Regular Expressions Library* |
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
-| Versions | 10.39 |
+| Versions | 10.39, 10.40 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
 
