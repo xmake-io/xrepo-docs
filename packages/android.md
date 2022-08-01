@@ -408,7 +408,7 @@ add_requires("capstone")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | 2.13.5, 2.13.6, 2.13.7, 2.13.8, 2.13.9, 2.9.2 |
+| Versions | 2.13.5, 2.13.6, 2.13.7, 2.13.8, 2.13.9, 2.9.2, 3.1.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
