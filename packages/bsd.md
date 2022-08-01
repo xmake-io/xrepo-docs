@@ -47,6 +47,30 @@ add_requires("argh")
 ```
 
 
+### argparse (bsd)
+
+
+| Description | *A single header argument parser for C++17* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/argparse](https://github.com/p-ranav/argparse) |
+| License | MIT |
+| Versions | 2.6 |
+| Architectures | i386, x86_64 |
+| Definition | [argparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argparse/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install argparse
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("argparse")
+```
+
+
 ### arrow (bsd)
 
 
@@ -1000,7 +1024,7 @@ add_requires("docopt")
 | Description | *The fastest feature-rich C++11/14/17/20 single-header testing framework for unit tests and TDD* |
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
-| Versions | 2.3.1, 2.3.6, 2.4.8 |
+| Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9 |
 | Architectures | i386, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
