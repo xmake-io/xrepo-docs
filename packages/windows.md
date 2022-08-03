@@ -3120,7 +3120,7 @@ add_requires("flatbuffers")
 | -- | -- |
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
-| Versions | v2.4.8, v3.0.1-alpha |
+| Versions | v2.4.8, v3.0.0 |
 | Architectures | x64, x86 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
