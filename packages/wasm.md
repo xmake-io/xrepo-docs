@@ -4030,6 +4030,30 @@ add_requires("swig")
 
 
 ## t
+### tabulate (wasm)
+
+
+| Description | *Header-only library for printing aligned, formatted and colorized tables in Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/tabulate](https://github.com/p-ranav/tabulate) |
+| License | MIT |
+| Versions | 1.4 |
+| Architectures | wasm32 |
+| Definition | [tabulate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tabulate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm tabulate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tabulate")
+```
+
+
 ### taskflow (wasm)
 
 
