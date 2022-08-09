@@ -1709,6 +1709,30 @@ add_requires("ifort")
 ```
 
 
+### indicators (msys)
+
+
+| Description | *Activity Indicators for Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/indicators](https://github.com/p-ranav/indicators) |
+| License | MIT |
+| Versions | 2.2 |
+| Architectures | i386, x86_64 |
+| Definition | [indicators/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/indicators/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install indicators
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("indicators")
+```
+
+
 ### inja (msys)
 
 
