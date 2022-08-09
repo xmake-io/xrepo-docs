@@ -4101,30 +4101,6 @@ add_requires("tabulate")
 ```
 
 
-### taskflow (msys)
-
-
-| Description | *A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies* |
-| -- | -- |
-| Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
-| License | MIT |
-| Versions | v3.0.0, v3.1.0, v3.2.0 |
-| Architectures | i386, x86_64 |
-| Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install taskflow
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("taskflow")
-```
-
-
 ### taywee_args (msys)
 
 
