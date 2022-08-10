@@ -8767,7 +8767,7 @@ add_requires("nod")
 | -- | -- |
 | Homepage | [https://github.com/paceholder/nodeeditor](https://github.com/paceholder/nodeeditor) |
 | License | BSD-3 |
-| Versions | 2.1.3 |
+| Versions | 2.1.3, 2.2.2 |
 | Architectures | x64, x86 |
 | Definition | [nodeeditor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodeeditor/xmake.lua) |
 
