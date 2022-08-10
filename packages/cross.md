@@ -1900,6 +1900,29 @@ add_requires("jsmn")
 ```
 
 
+### json-schema-validator (cross)
+
+
+| Description | *JSON schema validator for JSON for Modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
+| Versions | 2.1.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] json-schema-validator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("json-schema-validator")
+```
+
+
 ### jsoncons (cross)
 
 
