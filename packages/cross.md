@@ -780,6 +780,30 @@ add_requires("cxxopts")
 
 
 ## d
+### dataframe (cross)
+
+
+| Description | *This is a C++ analytical library that provides interface and functionality similar to packages/libraries in Python and R.* |
+| -- | -- |
+| Homepage | [https://github.com/hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) |
+| License | MIT |
+| Versions | 1.21.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] dataframe
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dataframe")
+```
+
+
 ### date (cross)
 
 
