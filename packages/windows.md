@@ -11089,7 +11089,7 @@ add_requires("shaderc")
 | Description | *Library used to write shaders from C++, and export them in either GLSL, HLSL or SPIR-V.* |
 | -- | -- |
 | Homepage | [https://github.com/DragonJoker/ShaderWriter](https://github.com/DragonJoker/ShaderWriter) |
-| Versions | 0.1, 1.0, 1.1, 2.0, 2.1, 2.2, 2.3 |
+| Versions | 0.1, 1.0, 1.1, 2.0, 2.1, 2.2, 2.3, 2.4 |
 | Architectures | x64, x86 |
 | Definition | [shaderwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderwriter/xmake.lua) |
 
