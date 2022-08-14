@@ -4173,6 +4173,30 @@ add_requires("tclap")
 ```
 
 
+### thread-pool (wasm)
+
+
+| Description | *BS::thread_pool: a fast, lightweight, and easy-to-use C++17 thread pool library* |
+| -- | -- |
+| Homepage | [https://github.com/bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) |
+| License | MIT |
+| Versions | v3.3.0 |
+| Architectures | wasm32 |
+| Definition | [thread-pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thread-pool/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm thread-pool
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("thread-pool")
+```
+
+
 ### thrust (wasm)
 
 

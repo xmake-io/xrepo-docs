@@ -6250,6 +6250,30 @@ add_requires("tclap")
 ```
 
 
+### thread-pool (mingw)
+
+
+| Description | *BS::thread_pool: a fast, lightweight, and easy-to-use C++17 thread pool library* |
+| -- | -- |
+| Homepage | [https://github.com/bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) |
+| License | MIT |
+| Versions | v3.3.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [thread-pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thread-pool/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] thread-pool
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("thread-pool")
+```
+
+
 ### thrust (mingw)
 
 
