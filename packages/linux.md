@@ -9471,6 +9471,30 @@ add_requires("luajit")
 ```
 
 
+### luau (linux)
+
+
+| Description | *A fast, small, safe, gradually typed embeddable scripting language derived from Lua.* |
+| -- | -- |
+| Homepage | [https://luau-lang.org/](https://luau-lang.org/) |
+| License | MIT |
+| Versions | 0.538 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install luau
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("luau")
+```
+
+
 ### lvgl (linux)
 
 
