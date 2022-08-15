@@ -1376,6 +1376,30 @@ add_requires("cli11")
 ```
 
 
+### clip (windows)
+
+
+| Description | *Library to copy/retrieve content to/from the clipboard/pasteboard.* |
+| -- | -- |
+| Homepage | [https://github.com/dacap/clip](https://github.com/dacap/clip) |
+| License | MIT |
+| Versions | 1.5 |
+| Architectures | x64, x86 |
+| Definition | [clip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clip")
+```
+
+
 ### cmake (windows)
 
 
