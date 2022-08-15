@@ -11530,6 +11530,30 @@ add_requires("numcpp")
 ```
 
 
+### nvtt (linux)
+
+
+| Description | *The NVIDIA Texture Tools is a collection of image processing and texture manipulation tools.* |
+| -- | -- |
+| Homepage | [https://developer.nvidia.com/legacy-texture-tools](https://developer.nvidia.com/legacy-texture-tools) |
+| License | MIT |
+| Versions | 2.1.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [nvtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nvtt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nvtt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nvtt")
+```
+
+
 
 ## o
 ### oatpp (linux)
@@ -14426,7 +14450,7 @@ add_requires("spot")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
