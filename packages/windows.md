@@ -13257,7 +13257,7 @@ add_requires("xtl")
 | -- | -- |
 | Homepage | [http://cyan4973.github.io/xxHash/](http://cyan4973.github.io/xxHash/) |
 | License | BSD-2-Clause |
-| Versions | v0.8.0 |
+| Versions | v0.8.0, v0.8.1 |
 | Architectures | x64, x86 |
 | Definition | [xxhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxhash/xmake.lua) |
 

@@ -6929,7 +6929,7 @@ add_requires("xbyak")
 | -- | -- |
 | Homepage | [http://cyan4973.github.io/xxHash/](http://cyan4973.github.io/xxHash/) |
 | License | BSD-2-Clause |
-| Versions | v0.8.0 |
+| Versions | v0.8.0, v0.8.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [xxhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxhash/xmake.lua) |
 
