@@ -5910,7 +5910,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.10, v1.8 |
+| Versions | v1.10, v1.13, v1.8 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -7504,7 +7504,7 @@ add_requires("libtasn1")
 | Description | *TIFF Library and Utilities.* |
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
-| Versions | v4.1.0, v4.2.0, v4.3.0 |
+| Versions | v4.1.0, v4.2.0, v4.3.0, v4.4.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 
@@ -10496,7 +10496,7 @@ add_requires("ninja")
 | -- | -- |
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
 | License | MIT |
-| Versions | v3.10.0, v3.10.5, v3.9.1 |
+| Versions | v3.10.0, v3.10.5, v3.11.2, v3.9.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
@@ -13056,7 +13056,7 @@ add_requires("shaderwriter")
 | -- | -- |
 | Homepage | [https://coin3d.github.io/simage/html/](https://coin3d.github.io/simage/html/) |
 | License | MIT |
-| Versions | 1.8.1 |
+| Versions | 1.8.1, 1.8.3 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [simage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simage/xmake.lua) |
 

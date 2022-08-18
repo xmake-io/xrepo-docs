@@ -2288,7 +2288,7 @@ add_requires("lexy")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.10, v1.8 |
+| Versions | v1.10, v1.13, v1.8 |
 | Architectures | i386, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -2613,7 +2613,7 @@ add_requires("libsvm")
 | Description | *TIFF Library and Utilities.* |
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
-| Versions | v4.1.0, v4.2.0, v4.3.0 |
+| Versions | v4.1.0, v4.2.0, v4.3.0, v4.4.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 
@@ -3793,7 +3793,7 @@ add_requires("ninja")
 | -- | -- |
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
 | License | MIT |
-| Versions | v3.10.0, v3.10.5, v3.9.1 |
+| Versions | v3.10.0, v3.10.5, v3.11.2, v3.9.1 |
 | Architectures | i386, x86_64 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
