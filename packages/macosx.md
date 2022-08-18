@@ -31,7 +31,7 @@ add_requires("7z")
 | -- | -- |
 | Homepage | [https://abseil.io](https://abseil.io) |
 | License | Apache-2.0 |
-| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0 |
+| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
@@ -55,7 +55,7 @@ add_requires("abseil")
 | -- | -- |
 | Homepage | [https://github.com/ddemidov/amgcl/](https://github.com/ddemidov/amgcl/) |
 | License | MIT |
-| Versions | 1.4.0, 1.4.2 |
+| Versions | 1.4.0, 1.4.2, 1.4.3 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [amgcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua) |
 
@@ -198,7 +198,7 @@ add_requires("argparse")
 | -- | -- |
 | Homepage | [http://arma.sourceforge.net/](http://arma.sourceforge.net/) |
 | License | Apache-2.0 |
-| Versions | 10.7.0, 10.7.3, 10.8.1 |
+| Versions | 10.7.0, 10.7.3, 10.8.1, 11.2.3 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [armadillo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/armadillo/xmake.lua) |
 
@@ -2783,7 +2783,8 @@ add_requires("ensmallen")
 | Description | *Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more.* |
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
-| Versions | v3.10.0, v3.10.1, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
+| License | MIT |
+| Versions | v3.10.0, v3.10.1, v3.10.3, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -6614,7 +6615,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 

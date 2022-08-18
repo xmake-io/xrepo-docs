@@ -1312,7 +1312,8 @@ add_requires("enet")
 | Description | *Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more.* |
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
-| Versions | v3.10.0, v3.10.1, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
+| License | MIT |
+| Versions | v3.10.0, v3.10.1, v3.10.3, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -2825,7 +2826,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
