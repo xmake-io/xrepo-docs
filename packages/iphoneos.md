@@ -5663,6 +5663,30 @@ add_requires("toml11")
 
 
 ## u
+### unordered_dense (iphoneos)
+
+
+| Description | *A fast & densely stored hashmap and hashset based on robin-hood backward shift deletion.* |
+| -- | -- |
+| Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos unordered_dense
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("unordered_dense")
+```
+
+
 ### unzip (iphoneos)
 
 
