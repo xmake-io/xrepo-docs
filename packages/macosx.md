@@ -12535,7 +12535,7 @@ add_requires("rapidcsv")
 | Description | *RapidJSON is a JSON parser and generator for C++.* |
 | -- | -- |
 | Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
-| Versions | v1.1.0, v1.1.0-arrow |
+| Versions | 2022.7.20, v1.1.0, v1.1.0-arrow |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
 
@@ -15593,7 +15593,7 @@ add_requires("yasm")
 | Description | *The fastest JSON library in C.* |
 | -- | -- |
 | Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
-| Versions | 0.2.0, 0.3.0, 0.4.0 |
+| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
 
