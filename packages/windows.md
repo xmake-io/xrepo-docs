@@ -10113,6 +10113,30 @@ add_requires("premake5")
 ```
 
 
+### proj (windows)
+
+
+| Description | *PROJ is a generic coordinate transformation software that transforms geospatial coordinates from one coordinate reference system (CRS) to another.* |
+| -- | -- |
+| Homepage | [https://proj.org/index.html](https://proj.org/index.html) |
+| License | MIT |
+| Versions | 9.0.1 |
+| Architectures | x64, x86 |
+| Definition | [proj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proj/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install proj
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("proj")
+```
+
+
 ### promise-cpp (windows)
 
 
