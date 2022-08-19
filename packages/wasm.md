@@ -4029,6 +4029,30 @@ add_requires("stb")
 ```
 
 
+### string-view-lite (wasm)
+
+
+| Description | *string_view lite - A C++17-like string_view for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/string-view-lite](https://github.com/martinmoene/string-view-lite) |
+| License | BSL-1.0 |
+| Versions | v1.7.0 |
+| Architectures | wasm32 |
+| Definition | [string-view-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/string-view-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm string-view-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("string-view-lite")
+```
+
+
 ### strtk (wasm)
 
 

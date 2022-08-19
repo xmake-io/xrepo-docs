@@ -570,6 +570,30 @@ add_requires("ceval")
 ```
 
 
+### cgal (mingw)
+
+
+| Description | *CGAL is a software project that provides easy access to efficient and reliable geometric algorithms in the form of a C++ library.* |
+| -- | -- |
+| Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
+| License | LGPL-3.0 |
+| Versions | 5.1.1, 5.2.1, 5.3, 5.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cgal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgal")
+```
+
+
 ### cgetopt (mingw)
 
 
@@ -2962,6 +2986,30 @@ xrepo install -p mingw [--mingw=/xxx] libflac
 
 ```lua
 add_requires("libflac")
+```
+
+
+### libigl (mingw)
+
+
+| Description | *Simple C++ geometry processing library.* |
+| -- | -- |
+| Homepage | [https://libigl.github.io/](https://libigl.github.io/) |
+| License | MPL-2.0 |
+| Versions | v2.2.0, v2.3.0, v2.4.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libigl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libigl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libigl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libigl")
 ```
 
 
@@ -6103,6 +6151,30 @@ xrepo install -p mingw [--mingw=/xxx] stb
 
 ```lua
 add_requires("stb")
+```
+
+
+### string-view-lite (mingw)
+
+
+| Description | *string_view lite - A C++17-like string_view for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/string-view-lite](https://github.com/martinmoene/string-view-lite) |
+| License | BSL-1.0 |
+| Versions | v1.7.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [string-view-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/string-view-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] string-view-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("string-view-lite")
 ```
 
 
