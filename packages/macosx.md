@@ -6256,6 +6256,30 @@ add_requires("libgd")
 ```
 
 
+### libgeotiff (macosx)
+
+
+| Description | *Libgeotiff is an open source library for reading and writing GeoTIFF information tags* |
+| -- | -- |
+| Homepage | [https://github.com/OSGeo/libgeotiff](https://github.com/OSGeo/libgeotiff) |
+| License | MIT |
+| Versions | 1.7.1 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [libgeotiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgeotiff/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libgeotiff
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgeotiff")
+```
+
+
 ### libgit2 (macosx)
 
 
