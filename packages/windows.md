@@ -1406,7 +1406,7 @@ add_requires("clip")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1 |
+| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1 |
 | Architectures | x64, x86 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
@@ -9544,6 +9544,29 @@ xrepo install openrestry-luajit
 
 ```lua
 add_requires("openrestry-luajit")
+```
+
+
+### openscenegraph (windows)
+
+
+| Description | *The OpenSceneGraph is an open source high performance 3D graphics toolkit.* |
+| -- | -- |
+| Homepage | [https://www.openscenegraph.com/](https://www.openscenegraph.com/) |
+| Versions | 3.6.5 |
+| Architectures | x64, x86 |
+| Definition | [openscenegraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openscenegraph/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openscenegraph
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openscenegraph")
 ```
 
 

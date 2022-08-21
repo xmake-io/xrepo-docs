@@ -505,7 +505,7 @@ add_requires("cli")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1 |
+| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1 |
 | Architectures | wasm32 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
