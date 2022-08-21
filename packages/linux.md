@@ -2083,6 +2083,29 @@ add_requires("ctre")
 ```
 
 
+### cumem (linux)
+
+
+| Description | *CUDA Memory Management Wrapper with Type Safety* |
+| -- | -- |
+| Homepage | [https://github.com/BinhaoQin/cuMem](https://github.com/BinhaoQin/cuMem) |
+| Versions | 1.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cumem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cumem/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cumem
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cumem")
+```
+
+
 ### cxxopts (linux)
 
 
@@ -7201,6 +7224,30 @@ add_requires("libjpeg-turbo")
 ```
 
 
+### liblas (linux)
+
+
+| Description | *libLAS - LAS 1.0/1.1/1.2 ASPRS LiDAR data translation toolset* |
+| -- | -- |
+| Homepage | [https://liblas.org/index.html](https://liblas.org/index.html) |
+| License | BSD-3-Clause |
+| Versions | 1.8.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [liblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liblas/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install liblas
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("liblas")
+```
+
+
 ### libmagic (linux)
 
 
@@ -11826,7 +11873,7 @@ add_requires("openal-soft")
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
 | License | BSD-3-Clause |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
