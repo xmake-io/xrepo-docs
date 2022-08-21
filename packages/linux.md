@@ -3845,6 +3845,30 @@ add_requires("frozen")
 ```
 
 
+### frozenca-btree (linux)
+
+
+| Description | *A general-purpose high-performance lightweight STL-like modern C++ B-Tree* |
+| -- | -- |
+| Homepage | [https://github.com/frozenca/BTree](https://github.com/frozenca/BTree) |
+| License | Apache-2.0 |
+| Versions | 2022.08.02 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [frozenca-btree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frozenca-btree/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install frozenca-btree
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("frozenca-btree")
+```
+
+
 ### ftgl (linux)
 
 
