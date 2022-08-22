@@ -4545,6 +4545,54 @@ add_requires("newtondynamics")
 ```
 
 
+### newtondynamics3 (mingw)
+
+
+| Description | *Newton Dynamics is an integrated solution for real time simulation of physics environments.* |
+| -- | -- |
+| Homepage | [http://newtondynamics.com](http://newtondynamics.com) |
+| License | zlib |
+| Versions | v3.14d |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [newtondynamics3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/newtondynamics3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] newtondynamics3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("newtondynamics3")
+```
+
+
+### newtondynamics4 (mingw)
+
+
+| Description | *Newton Dynamics is an integrated solution for real time simulation of physics environments.* |
+| -- | -- |
+| Homepage | [http://newtondynamics.com](http://newtondynamics.com) |
+| License | zlib |
+| Versions | v4.01 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [newtondynamics4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/newtondynamics4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] newtondynamics4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("newtondynamics4")
+```
+
+
 ### ngtcp2 (mingw)
 
 

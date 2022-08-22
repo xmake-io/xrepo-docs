@@ -981,7 +981,7 @@ add_requires("bsdiff")
 | -- | -- |
 | Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
 | License | zlib |
-| Versions | 2.88, 3.05, 3.09 |
+| Versions | 2.88, 3.05, 3.09, 3.24 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
 
@@ -3356,7 +3356,7 @@ add_requires("fastcppcsvparser")
 | -- | -- |
 | Homepage | [https://github.com/flexible-collision-library/fcl](https://github.com/flexible-collision-library/fcl) |
 | License | BSD-3-Clause |
-| Versions | v0.6.1 |
+| Versions | 0.7.0, v0.6.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fcl/xmake.lua) |
 
@@ -11267,6 +11267,54 @@ xrepo install newtondynamics
 
 ```lua
 add_requires("newtondynamics")
+```
+
+
+### newtondynamics3 (linux)
+
+
+| Description | *Newton Dynamics is an integrated solution for real time simulation of physics environments.* |
+| -- | -- |
+| Homepage | [http://newtondynamics.com](http://newtondynamics.com) |
+| License | zlib |
+| Versions | v3.14d |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [newtondynamics3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/newtondynamics3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install newtondynamics3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("newtondynamics3")
+```
+
+
+### newtondynamics4 (linux)
+
+
+| Description | *Newton Dynamics is an integrated solution for real time simulation of physics environments.* |
+| -- | -- |
+| Homepage | [http://newtondynamics.com](http://newtondynamics.com) |
+| License | zlib |
+| Versions | v4.01 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [newtondynamics4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/newtondynamics4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install newtondynamics4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("newtondynamics4")
 ```
 
 
