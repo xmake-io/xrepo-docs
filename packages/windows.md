@@ -3546,7 +3546,7 @@ add_requires("functionalplus")
 | -- | -- |
 | Homepage | [https://github.com/jessey-git/fx-gltf](https://github.com/jessey-git/fx-gltf) |
 | License | MIT |
-| Versions | v1.2.0 |
+| Versions | v1.2.0, v2.0.0 |
 | Architectures | x64, x86 |
 | Definition | [fx-gltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fx-gltf/xmake.lua) |
 
