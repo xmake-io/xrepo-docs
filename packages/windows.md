@@ -437,7 +437,7 @@ add_requires("better-enums")
 | -- | -- |
 | Homepage | [https://bkaradzic.github.io/bgfx/](https://bkaradzic.github.io/bgfx/) |
 | License | BSD-2-Clause |
-| Versions | 7816 |
+| Versions | 7816, 8203 |
 | Architectures | x64, x86 |
 | Definition | [bgfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bgfx/xmake.lua) |
 
