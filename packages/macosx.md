@@ -13153,7 +13153,7 @@ add_requires("sfntly")
 | -- | -- |
 | Homepage | [https://github.com/google/shaderc](https://github.com/google/shaderc) |
 | License | Apache-2.0 |
-| Versions | 2021.11.22 |
+| Versions | v2022.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [shaderc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderc/xmake.lua) |
 
