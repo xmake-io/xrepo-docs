@@ -3308,7 +3308,7 @@ add_requires("fltk")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
-| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0 |
+| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -7109,7 +7109,7 @@ add_requires("libressl")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8 |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -7155,7 +7155,8 @@ add_requires("libsdl_gfx")
 | Description | *Simple DirectMedia Layer image loading library* |
 | -- | -- |
 | Homepage | [http://www.libsdl.org/projects/SDL_image/](http://www.libsdl.org/projects/SDL_image/) |
-| Versions | 2.0.5 |
+| License | zlib |
+| Versions | 2.0.5, 2.6.0, 2.6.1, 2.6.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libsdl_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_image/xmake.lua) |
 
@@ -7178,7 +7179,7 @@ add_requires("libsdl_image")
 | Description | *Simple DirectMedia Layer mixer audio library* |
 | -- | -- |
 | Homepage | [https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/) |
-| Versions | 2.0.4 |
+| Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libsdl_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_mixer/xmake.lua) |
 
@@ -7201,7 +7202,7 @@ add_requires("libsdl_mixer")
 | Description | *Simple DirectMedia Layer networking library* |
 | -- | -- |
 | Homepage | [https://www.libsdl.org/projects/SDL_net/](https://www.libsdl.org/projects/SDL_net/) |
-| Versions | 2.0.1 |
+| Versions | 2.0.1, 2.2.0 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libsdl_net/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_net/xmake.lua) |
 
@@ -7224,7 +7225,8 @@ add_requires("libsdl_net")
 | Description | *Simple DirectMedia Layer text rendering library* |
 | -- | -- |
 | Homepage | [https://www.libsdl.org/projects/SDL_ttf/](https://www.libsdl.org/projects/SDL_ttf/) |
-| Versions | 2.0.15 |
+| License | zlib |
+| Versions | 2.0.15, 2.0.18, 2.20.0, 2.20.1 |
 | Architectures | arm64, i386, x86_64 |
 | Definition | [libsdl_ttf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_ttf/xmake.lua) |
 
