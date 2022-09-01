@@ -102,7 +102,7 @@ add_requires("arrow")
 | -- | -- |
 | Homepage | [http://think-async.com/Asio/](http://think-async.com/Asio/) |
 | License | BSL-1.0 |
-| Versions | 1.20.0, 1.21.0 |
+| Versions | 1.20.0, 1.21.0, 1.24.0 |
 | Architectures | i386, x86_64 |
 | Definition | [asio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio/xmake.lua) |
 

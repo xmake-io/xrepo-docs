@@ -223,7 +223,7 @@ add_requires("armadillo")
 | -- | -- |
 | Homepage | [http://think-async.com/Asio/](http://think-async.com/Asio/) |
 | License | BSL-1.0 |
-| Versions | 1.20.0, 1.21.0 |
+| Versions | 1.20.0, 1.21.0, 1.24.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [asio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio/xmake.lua) |
 
