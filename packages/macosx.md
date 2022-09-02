@@ -1540,29 +1540,6 @@ add_requires("cnpy")
 ```
 
 
-### cocoyaxi (macosx)
-
-
-| Description | *A go-style coroutine library in C++11 and more* |
-| -- | -- |
-| Homepage | [https://github.com/idealvin/cocoyaxi](https://github.com/idealvin/cocoyaxi) |
-| Versions | v2.0.3 |
-| Architectures | arm64, i386, x86_64 |
-| Definition | [cocoyaxi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cocoyaxi/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install cocoyaxi
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("cocoyaxi")
-```
-
-
 ### collada-dom (macosx)
 
 
@@ -1630,6 +1607,29 @@ xrepo install console-bridge
 
 ```lua
 add_requires("console-bridge")
+```
+
+
+### coost (macosx)
+
+
+| Description | *A tiny boost library in C++11.* |
+| -- | -- |
+| Homepage | [https://github.com/idealvin/coost](https://github.com/idealvin/coost) |
+| Versions | v3.0.0 |
+| Architectures | arm64, i386, x86_64 |
+| Definition | [coost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coost/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install coost
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("coost")
 ```
 
 
