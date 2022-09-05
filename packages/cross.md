@@ -3564,7 +3564,7 @@ add_requires("ordered_map")
 | -- | -- |
 | Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
 | License | Apache-2.0 |
-| Versions | 1.33 |
+| Versions | 1.33, 1.34, 1.35 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
 
@@ -3842,7 +3842,7 @@ add_requires("pystring")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.10, 3.9.13, 3.9.5, 3.9.6 |
+| Versions | 2.7.18, 3.10.6, 3.7.9, 3.8.10, 3.9.10, 3.9.13, 3.9.5, 3.9.6 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
