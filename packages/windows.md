@@ -389,7 +389,8 @@ add_requires("bazel")
 | Description | *A microbenchmark support library* |
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
-| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1 |
+| License | Apache-2.0 |
+| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
@@ -3049,7 +3050,7 @@ add_requires("fcl")
 | -- | -- |
 | Homepage | [https://www.ffmpeg.org](https://www.ffmpeg.org) |
 | License | GPL-3.0 |
-| Versions | 4.0.2, 5.0.1 |
+| Versions | 4.0.2, 5.0.1, 5.1.1 |
 | Architectures | x64 |
 | Definition | [ffmpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffmpeg/xmake.lua) |
 
@@ -4130,6 +4131,30 @@ add_requires("godotcpp")
 ```
 
 
+### gperftools (windows)
+
+
+| Description | *gperftools is a collection of a high-performance multi-threaded malloc() implementation, plus some pretty nifty performance analysis tools.* |
+| -- | -- |
+| Homepage | [https://github.com/gperftools/gperftools](https://github.com/gperftools/gperftools) |
+| License | BSD-3-Clause |
+| Versions | 2.10 |
+| Architectures | arm64, x64, x86 |
+| Definition | [gperftools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gperftools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gperftools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gperftools")
+```
+
+
 ### gr (windows)
 
 
@@ -4175,6 +4200,30 @@ xrepo install graphene
 
 ```lua
 add_requires("graphene")
+```
+
+
+### grpc (windows)
+
+
+| Description | *The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)* |
+| -- | -- |
+| Homepage | [https://grpc.io](https://grpc.io) |
+| License | Apache-2.0 |
+| Versions | v1.46.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [grpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/grpc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install grpc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("grpc")
 ```
 
 

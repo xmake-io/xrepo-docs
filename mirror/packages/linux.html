@@ -1008,8 +1008,12 @@
 <td><a href="https://github.com/google/benchmark">https://github.com/google/benchmark</a></td>
 </tr>
 <tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
 <td>Versions</td>
-<td>1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1</td>
+<td>1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -5186,7 +5190,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>4.0.2, 5.0.1</td>
+<td>4.0.2, 5.0.1, 5.1.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -7152,6 +7156,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("gperf")
 </code></pre>
+<h3 id="gperftoolslinux">gperftools (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>gperftools is a collection of a high-performance multi-threaded malloc() implementation, plus some pretty nifty performance analysis tools.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/gperftools/gperftools">https://github.com/gperftools/gperftools</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.10</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gperftools/xmake.lua">gperftools/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install gperftools
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gperftools")
+</code></pre>
 <h3 id="gpujpeglinux">gpujpeg (linux)</h3>
 <table>
 <thead>
@@ -7258,6 +7299,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("graphene")
+</code></pre>
+<h3 id="grpclinux">grpc (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://grpc.io">https://grpc.io</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.46.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/grpc/xmake.lua">grpc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install grpc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("grpc")
 </code></pre>
 <h3 id="gsllinux">gsl (linux)</h3>
 <table>
