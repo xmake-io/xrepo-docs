@@ -16875,7 +16875,7 @@ add_requires("xquic")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xsimd/](https://github.com/xtensor-stack/xsimd/) |
 | License | BSD-3-Clause |
-| Versions | 7.6.0, 8.0.3, 8.0.5 |
+| Versions | 7.6.0, 8.0.3, 8.0.5, 9.0.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xsimd/xmake.lua) |
 
@@ -16899,7 +16899,7 @@ add_requires("xsimd")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtensor/](https://github.com/xtensor-stack/xtensor/) |
 | License | BSD-3-Clause |
-| Versions | 0.23.10, 0.24.0, 0.24.1 |
+| Versions | 0.23.10, 0.24.0, 0.24.1, 0.24.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xtensor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor/xmake.lua) |
 
