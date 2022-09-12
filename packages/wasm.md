@@ -2471,7 +2471,7 @@ add_requires("m4")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
-| Versions | v0.7.3, v0.8.0 |
+| Versions | v0.7.3, v0.8.0, v0.8.1 |
 | Architectures | wasm32 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 
