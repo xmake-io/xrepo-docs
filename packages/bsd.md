@@ -2352,6 +2352,29 @@ add_requires("libdivsufsort")
 ```
 
 
+### libffi (bsd)
+
+
+| Description | *Portable Foreign Function Interface library.* |
+| -- | -- |
+| Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
+| Versions | 3.2.1, 3.3, 3.4.2 |
+| Architectures | i386, x86_64 |
+| Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libffi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libffi")
+```
+
+
 ### libfswatch (bsd)
 
 
@@ -3951,6 +3974,29 @@ xrepo install openrestry-luajit
 
 ```lua
 add_requires("openrestry-luajit")
+```
+
+
+### openssl (bsd)
+
+
+| Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
+| -- | -- |
+| Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
+| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h, 1.1.1k, 1.1.1l, 1.1.1m, 1.1.1n, 1.1.1o, 1.1.1p, 1.1.1q |
+| Architectures | i386, x86_64 |
+| Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openssl")
 ```
 
 
