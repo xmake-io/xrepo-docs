@@ -2496,7 +2496,7 @@ add_requires("libgit2")
 | Description | *Like libevent, libev, and libuv, libhv provides event-loop with non-blocking IO and timer, but simpler api and richer protocols.* |
 | -- | -- |
 | Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
-| Versions | 1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4 |
+| Versions | 1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.6 |
 | Architectures | arm64, armv7, armv7s, i386, x86_64 |
 | Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
 
@@ -4803,6 +4803,30 @@ xrepo install -p iphoneos recastnavigation
 
 ```lua
 add_requires("recastnavigation")
+```
+
+
+### reproc (iphoneos)
+
+
+| Description | *a cross-platform C/C++ library that simplifies starting, stopping and communicating with external programs.* |
+| -- | -- |
+| Homepage | [https://github.com/DaanDeMeyer/reproc](https://github.com/DaanDeMeyer/reproc) |
+| License | MIT |
+| Versions | v14.2.4 |
+| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Definition | [reproc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reproc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos reproc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reproc")
 ```
 
 

@@ -3798,7 +3798,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4</td>
+<td>1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.6</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -7222,6 +7222,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("recastnavigation")
+</code></pre>
+<h3 id="reprociphoneos">reproc (iphoneos)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>a cross-platform C/C++ library that simplifies starting, stopping and communicating with external programs.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/DaanDeMeyer/reproc">https://github.com/DaanDeMeyer/reproc</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v14.2.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reproc/xmake.lua">reproc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p iphoneos reproc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("reproc")
 </code></pre>
 <h3 id="robinhoodhashingiphoneos">robin-hood-hashing (iphoneos)</h3>
 <table>

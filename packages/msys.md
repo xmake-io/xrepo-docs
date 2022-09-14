@@ -3745,6 +3745,30 @@ add_requires("recastnavigation")
 ```
 
 
+### reproc (msys)
+
+
+| Description | *a cross-platform C/C++ library that simplifies starting, stopping and communicating with external programs.* |
+| -- | -- |
+| Homepage | [https://github.com/DaanDeMeyer/reproc](https://github.com/DaanDeMeyer/reproc) |
+| License | MIT |
+| Versions | v14.2.4 |
+| Architectures | i386, x86_64 |
+| Definition | [reproc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reproc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install reproc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reproc")
+```
+
+
 ### robin-hood-hashing (msys)
 
 
