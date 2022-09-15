@@ -2137,6 +2137,29 @@ add_requires("libdivsufsort")
 ```
 
 
+### libffi (cross)
+
+
+| Description | *Portable Foreign Function Interface library.* |
+| -- | -- |
+| Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
+| Versions | 3.2.1, 3.3, 3.4.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libffi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libffi")
+```
+
+
 ### libjpeg (cross)
 
 
@@ -3601,6 +3624,29 @@ xrepo install -p cross [--sdk=/xxx] patch
 
 ```lua
 add_requires("patch")
+```
+
+
+### pcre (cross)
+
+
+| Description | *A Perl Compatible Regular Expressions Library* |
+| -- | -- |
+| Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
+| Versions | 8.45 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [pcre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] pcre
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pcre")
 ```
 
 
