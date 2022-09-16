@@ -13323,6 +13323,30 @@ add_requires("vulkan-validationlayers")
 
 
 ## w
+### wil (windows)
+
+
+| Description | *The Windows Implementation Libraries (WIL) is a header-only C++ library created to make life easier for developers on Windows through readable type-safe C++ interfaces for common Windows coding patterns.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/wil](https://github.com/microsoft/wil) |
+| License | MIT |
+| Versions | 2022.09.16 |
+| Architectures | arm64, x64, x86 |
+| Definition | [wil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wil/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wil
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wil")
+```
+
+
 ### winflexbison (windows)
 
 
