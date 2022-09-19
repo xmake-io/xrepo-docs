@@ -15166,7 +15166,7 @@ add_requires("tclap")
 | -- | -- |
 | Homepage | [https://tesseract-ocr.github.io/](https://tesseract-ocr.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.1.1, 4.1.3 |
+| Versions | 4.1.1, 4.1.3, 5.0.1, 5.2.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tesseract/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tesseract/xmake.lua) |
 
