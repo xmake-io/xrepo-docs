@@ -4979,6 +4979,29 @@ add_requires("toml11")
 
 
 ## u
+### uchardet (cross)
+
+
+| Description | *uchardet is an encoding detector library, which takes a sequence of bytes in an unknown character encoding without any additional information, and attempts to determine the encoding of the text. * |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/uchardet/](https://www.freedesktop.org/wiki/Software/uchardet/) |
+| Versions | 0.0.7 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [uchardet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uchardet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] uchardet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uchardet")
+```
+
+
 ### unordered_dense (cross)
 
 

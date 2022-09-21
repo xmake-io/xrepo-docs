@@ -12724,6 +12724,29 @@ add_requires("turbobase64")
 
 
 ## u
+### uchardet (windows)
+
+
+| Description | *uchardet is an encoding detector library, which takes a sequence of bytes in an unknown character encoding without any additional information, and attempts to determine the encoding of the text. * |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/uchardet/](https://www.freedesktop.org/wiki/Software/uchardet/) |
+| Versions | 0.0.7 |
+| Architectures | arm64, x64, x86 |
+| Definition | [uchardet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uchardet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uchardet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uchardet")
+```
+
+
 ### unicorn (windows)
 
 
