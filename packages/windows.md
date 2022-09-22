@@ -6879,7 +6879,7 @@ add_requires("libwebsockets")
 | Description | *The c/c++ bindings of the xmake core engine* |
 | -- | -- |
 | Homepage | [https://xmake.io](https://xmake.io) |
-| Versions | v2.5.9 |
+| Versions | v2.5.9, v2.7.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libxmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmake/xmake.lua) |
 
@@ -12160,7 +12160,7 @@ add_requires("tbb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
-| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9 |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
