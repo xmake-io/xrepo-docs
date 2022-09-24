@@ -1872,6 +1872,29 @@ add_requires("cpp-httplib")
 ```
 
 
+### cppfront (linux)
+
+
+| Description | *A personal experimental C++ Syntax 2 -> Syntax 1 compiler* |
+| -- | -- |
+| Homepage | [https://github.com/hsutter/cppfront](https://github.com/hsutter/cppfront) |
+| Versions | 2022.09.23 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cppfront/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppfront/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppfront
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppfront")
+```
+
+
 ### cppzmq (linux)
 
 

@@ -1635,6 +1635,29 @@ add_requires("cppcoro")
 ```
 
 
+### cppfront (windows)
+
+
+| Description | *A personal experimental C++ Syntax 2 -> Syntax 1 compiler* |
+| -- | -- |
+| Homepage | [https://github.com/hsutter/cppfront](https://github.com/hsutter/cppfront) |
+| Versions | 2022.09.23 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cppfront/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppfront/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppfront
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppfront")
+```
+
+
 ### cppzmq (windows)
 
 
