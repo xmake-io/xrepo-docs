@@ -747,7 +747,7 @@ add_requires("bison")
 | -- | -- |
 | Homepage | [https://bitbucket.org/blaze-lib/blaze/](https://bitbucket.org/blaze-lib/blaze/) |
 | License | BSD-3-Clause |
-| Versions | 3.8 |
+| Versions | 3.8, 3.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [blaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blaze/xmake.lua) |
 
@@ -3347,6 +3347,30 @@ xrepo install fastcppcsvparser
 
 ```lua
 add_requires("fastcppcsvparser")
+```
+
+
+### fastor (linux)
+
+
+| Description | *A lightweight high performance tensor algebra framework for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/romeric/Fastor](https://github.com/romeric/Fastor) |
+| License | MIT |
+| Versions | 0.6.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fastor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fastor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fastor")
 ```
 
 

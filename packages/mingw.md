@@ -1643,6 +1643,30 @@ add_requires("fastcppcsvparser")
 ```
 
 
+### fastor (mingw)
+
+
+| Description | *A lightweight high performance tensor algebra framework for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/romeric/Fastor](https://github.com/romeric/Fastor) |
+| License | MIT |
+| Versions | 0.6.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [fastor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] fastor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fastor")
+```
+
+
 ### ffmpeg (mingw)
 
 
@@ -1948,6 +1972,30 @@ xrepo install -p mingw [--mingw=/xxx] giflib
 
 ```lua
 add_requires("giflib")
+```
+
+
+### glad (mingw)
+
+
+| Description | *Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.* |
+| -- | -- |
+| Homepage | [https://glad.dav1d.de/](https://glad.dav1d.de/) |
+| License | MIT |
+| Versions | v0.1.34, v0.1.36 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [glad/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glad/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] glad
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glad")
 ```
 
 
