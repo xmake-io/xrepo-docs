@@ -3428,7 +3428,7 @@ add_requires("fcl")
 | -- | -- |
 | Homepage | [https://www.ffmpeg.org](https://www.ffmpeg.org) |
 | License | GPL-3.0 |
-| Versions | 4.0.2, 5.0.1, 5.1.1 |
+| Versions | 4.0.2, 5.0.1, 5.1.1, 5.1.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ffmpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffmpeg/xmake.lua) |
 
