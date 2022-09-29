@@ -5302,7 +5302,7 @@ add_requires("jasper")
 fragmentation avoidance and scalable concurrency support* |
 | -- | -- |
 | Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
-| Versions | 5.2.1 |
+| Versions | 5.2.1, 5.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
 
