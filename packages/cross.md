@@ -2160,6 +2160,29 @@ add_requires("libffi")
 ```
 
 
+### libiconv (cross)
+
+
+| Description | *Character set conversion library.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
+| Versions | 1.15, 1.16 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libiconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libiconv")
+```
+
+
 ### libjpeg (cross)
 
 
