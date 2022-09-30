@@ -1474,6 +1474,29 @@ add_requires("gli")
 ```
 
 
+### glib (cross)
+
+
+| Description | *Core application library for C.* |
+| -- | -- |
+| Homepage | [https://developer.gnome.org/glib/](https://developer.gnome.org/glib/) |
+| Versions | 2.71.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] glib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glib")
+```
+
+
 ### glm (cross)
 
 
