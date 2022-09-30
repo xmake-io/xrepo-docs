@@ -1495,6 +1495,30 @@ add_requires("collada-dom")
 ```
 
 
+### commonlibsse-ng (windows)
+
+
+| Description | *A reverse engineered library for Skyrim Special Edition.* |
+| -- | -- |
+| Homepage | [https://github.com/CharmedBaryon/CommonLibSSE-NG](https://github.com/CharmedBaryon/CommonLibSSE-NG) |
+| License | MIT |
+| Versions | v3.5.5, v3.5.6 |
+| Architectures | x64 |
+| Definition | [commonlibsse-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/commonlibsse-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install commonlibsse-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("commonlibsse-ng")
+```
+
+
 ### concurrentqueue (windows)
 
 
