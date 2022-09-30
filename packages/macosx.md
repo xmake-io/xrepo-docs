@@ -7699,7 +7699,7 @@ add_requires("libtool")
 | -- | -- |
 | Homepage | [https://pytorch.org/](https://pytorch.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.11.0, v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1 |
+| Versions | v1.11.0, v1.12.1, v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libtorch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtorch/xmake.lua) |
 
