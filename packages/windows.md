@@ -10291,7 +10291,7 @@ add_requires("pmp")
 | -- | -- |
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSL-1.0 |
-| Versions | 1.11.0, 1.11.1, 1.12.1 |
+| Versions | 1.11.0, 1.11.1, 1.12.1, 1.12.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [poco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poco/xmake.lua) |
 
