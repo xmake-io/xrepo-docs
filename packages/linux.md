@@ -4446,7 +4446,7 @@ add_requires("glm")
 | -- | -- |
 | Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
 | License | BSD-3-Clause |
-| Versions | v0.4.0, v0.5.0 |
+| Versions | v0.4.0, v0.5.0, v0.6.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
 
