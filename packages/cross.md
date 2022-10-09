@@ -852,6 +852,30 @@ add_requires("dbg-macro")
 ```
 
 
+### dbus (cross)
+
+
+| Description | *D-Bus is a message bus system, a simple way for applications to talk to one another.* |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
+| License | MIT |
+| Versions | 1.14.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] dbus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dbus")
+```
+
+
 ### debugbreak (cross)
 
 
@@ -1137,6 +1161,30 @@ xrepo install -p cross [--sdk=/xxx] entt
 
 ```lua
 add_requires("entt")
+```
+
+
+### expat (cross)
+
+
+| Description | *XML 1.0 parser* |
+| -- | -- |
+| Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
+| License | MIT |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] expat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expat")
 ```
 
 

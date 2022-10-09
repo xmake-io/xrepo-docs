@@ -2274,6 +2274,30 @@ add_requires("dbg-macro")
 ```
 
 
+### dbus (linux)
+
+
+| Description | *D-Bus is a message bus system, a simple way for applications to talk to one another.* |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
+| License | MIT |
+| Versions | 1.14.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dbus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dbus")
+```
+
+
 ### dcmtk (linux)
 
 
