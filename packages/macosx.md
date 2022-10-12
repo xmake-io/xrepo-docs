@@ -12801,7 +12801,7 @@ add_requires("rapidjson")
 | -- | -- |
 | Homepage | [https://github.com/raysan5/raygui](https://github.com/raysan5/raygui) |
 | License | zlib |
-| Versions | 3.0 |
+| Versions | 3.0, 3.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [raygui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raygui/xmake.lua) |
 
