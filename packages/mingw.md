@@ -3090,7 +3090,7 @@ add_requires("libflac")
 | Description | *Character set conversion library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
-| Versions | 1.15, 1.16 |
+| Versions | 1.15, 1.16, 1.17 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
 

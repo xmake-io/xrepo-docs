@@ -1028,7 +1028,7 @@ add_requires("cereal")
 | Description | *Ceres Solver is an open source C++ library for modeling and solving large, complicated optimization problems.* |
 | -- | -- |
 | Homepage | [http://ceres-solver.org/](http://ceres-solver.org/) |
-| Versions | 2.0.0 |
+| Versions | 2.0.0, 2.1.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ceres-solver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceres-solver/xmake.lua) |
 
@@ -6057,7 +6057,7 @@ add_requires("libhv")
 | Description | *Character set conversion library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
-| Versions | 1.15, 1.16 |
+| Versions | 1.15, 1.16, 1.17 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
 
@@ -12064,7 +12064,7 @@ add_requires("strtk")
 | Description | *SuiteSparse is a suite of sparse matrix algorithms* |
 | -- | -- |
 | Homepage | [https://people.engr.tamu.edu/davis/suitesparse.html](https://people.engr.tamu.edu/davis/suitesparse.html) |
-| Versions | v5.10.1, v5.12.0 |
+| Versions | v5.10.1, v5.12.0, v5.13.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [suitesparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/suitesparse/xmake.lua) |
 
