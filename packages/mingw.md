@@ -3084,6 +3084,29 @@ add_requires("libflac")
 ```
 
 
+### libiconv (mingw)
+
+
+| Description | *Character set conversion library.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
+| Versions | 1.15, 1.16 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libiconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libiconv")
+```
+
+
 ### libigl (mingw)
 
 
