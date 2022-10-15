@@ -524,6 +524,29 @@ add_requires("aws-checksums")
 ```
 
 
+### aws-sdk-cpp (linux)
+
+
+| Description | *AWS SDK for C++* |
+| -- | -- |
+| Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
+| Versions | 1.9.362 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-sdk-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-sdk-cpp")
+```
+
+
 
 ## b
 ### backward-cpp (linux)

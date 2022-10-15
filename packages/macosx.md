@@ -403,6 +403,29 @@ add_requires("awk")
 ```
 
 
+### aws-sdk-cpp (macosx)
+
+
+| Description | *AWS SDK for C++* |
+| -- | -- |
+| Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
+| Versions | 1.9.362 |
+| Architectures | arm64, x86_64 |
+| Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-sdk-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-sdk-cpp")
+```
+
+
 
 ## b
 ### backward-cpp (macosx)
