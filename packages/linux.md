@@ -952,6 +952,29 @@ add_requires("brotli")
 ```
 
 
+### brpc (linux)
+
+
+| Description | *brpc is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc.* |
+| -- | -- |
+| Homepage | [https://github.com/apache/incubator-brpc](https://github.com/apache/incubator-brpc) |
+| Versions | 1.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [brpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brpc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install brpc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brpc")
+```
+
+
 ### brynet (linux)
 
 
