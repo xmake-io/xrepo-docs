@@ -7931,6 +7931,30 @@ add_requires("libressl")
 ```
 
 
+### libsais (linux)
+
+
+| Description | *libsais is a library for linear time suffix array, longest common prefix array and burrows wheeler transform construction based on induced sorting algorithm.* |
+| -- | -- |
+| Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
+| License | Apache-2.0 |
+| Versions | v2.7.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsais
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsais")
+```
+
+
 ### libsdl (linux)
 
 

@@ -2019,6 +2019,30 @@ add_requires("librdkafka")
 ```
 
 
+### libsais (wasm)
+
+
+| Description | *libsais is a library for linear time suffix array, longest common prefix array and burrows wheeler transform construction based on induced sorting algorithm.* |
+| -- | -- |
+| Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
+| License | Apache-2.0 |
+| Versions | v2.7.1 |
+| Architectures | wasm32 |
+| Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libsais
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsais")
+```
+
+
 ### libsoundio (wasm)
 
 
