@@ -14070,6 +14070,29 @@ add_requires("redex")
 ```
 
 
+### redis-plus-plus (linux)
+
+
+| Description | *Redis client written in C++* |
+| -- | -- |
+| Homepage | [https://github.com/sewenew/redis-plus-plus](https://github.com/sewenew/redis-plus-plus) |
+| Versions | 1.3.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [redis-plus-plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redis-plus-plus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install redis-plus-plus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("redis-plus-plus")
+```
+
+
 ### rendergraph (linux)
 
 
