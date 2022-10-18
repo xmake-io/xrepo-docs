@@ -13585,6 +13585,30 @@ add_requires("xbyak")
 ```
 
 
+### xege (windows)
+
+
+| Description | *Easy Graphics Engine, a lite graphics library in Windows* |
+| -- | -- |
+| Homepage | [https://xege.org](https://xege.org) |
+| License | LGPL-2.1 |
+| Versions | v2020.08.31 |
+| Architectures | arm64, x64, x86 |
+| Definition | [xege/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xege/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xege
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xege")
+```
+
+
 ### xerces-c (windows)
 
 
