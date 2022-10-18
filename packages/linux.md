@@ -12983,6 +12983,29 @@ add_requires("piex")
 ```
 
 
+### pigz (linux)
+
+
+| Description | *A parallel implementation of gzip for modern multi-processor, multi-core machines.* |
+| -- | -- |
+| Homepage | [http://zlib.net/pigz/](http://zlib.net/pigz/) |
+| Versions | 2022.01.15 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [pigz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pigz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pigz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pigz")
+```
+
+
 ### pixman (linux)
 
 
