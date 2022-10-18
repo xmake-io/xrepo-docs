@@ -13489,6 +13489,29 @@ add_requires("vulkan-validationlayers")
 
 
 ## w
+### websocketpp (windows)
+
+
+| Description | *C++ websocket client/server library* |
+| -- | -- |
+| Homepage | [http://www.zaphoyd.com/websocketpp](http://www.zaphoyd.com/websocketpp) |
+| Versions | 0.8.2 |
+| Architectures | arm64, x64, x86 |
+| Definition | [websocketpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/websocketpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install websocketpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("websocketpp")
+```
+
+
 ### wil (windows)
 
 
