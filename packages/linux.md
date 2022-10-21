@@ -5534,7 +5534,7 @@ add_requires("imgui-sfml")
 | Description | *Immediate mode 3D gizmo for scene editing and other controls based on Dear Imgui* |
 | -- | -- |
 | Homepage | [https://github.com/CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) |
-| Versions | 1.83, 1.88 |
+| Versions | 1.83, 1.89+WIP |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imguizmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imguizmo/xmake.lua) |
 
