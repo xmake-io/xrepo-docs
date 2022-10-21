@@ -13058,7 +13058,7 @@ add_requires("pkg-config")
 | Description | *A program which helps to configure compiler and linker flags for development frameworks.* |
 | -- | -- |
 | Homepage | [http://pkgconf.org](http://pkgconf.org) |
-| Versions | 1.7.4, 1.8.0 |
+| Versions | 1.7.4, 1.8.0, 1.9.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
 
