@@ -13316,6 +13316,30 @@ add_requires("scotch")
 ```
 
 
+### sentencepiece (macosx)
+
+
+| Description | *Unsupervised text tokenizer for Neural Network-based text generation. .* |
+| -- | -- |
+| Homepage | [https://github.com/google/sentencepiece](https://github.com/google/sentencepiece) |
+| License | Apache-2.0 |
+| Versions | v0.1.97 |
+| Architectures | arm64, x86_64 |
+| Definition | [sentencepiece/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentencepiece/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sentencepiece
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sentencepiece")
+```
+
+
 ### sentry-native (macosx)
 
 
