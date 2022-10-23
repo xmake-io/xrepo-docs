@@ -6760,7 +6760,7 @@ add_requires("tinygltf")
 | -- | -- |
 | Homepage | [https://github.com/tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) |
 | License | MIT |
-| Versions | 1.0.7 |
+| Versions | v1.0.7, v2.0.0rc10 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [tinyobjloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyobjloader/xmake.lua) |
 
