@@ -7,7 +7,7 @@
 | Homepage | [https://github.com/miurahr/aqtinstall](https://github.com/miurahr/aqtinstall) |
 | License | MIT |
 | Versions |  |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [aqt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aqt/xmake.lua) |
 
 ##### Install command
@@ -31,7 +31,7 @@ add_requires("aqt")
 | Homepage | [https://github.com/adishavit/argh](https://github.com/adishavit/argh) |
 | License | BSD-3-Clause |
 | Versions | v1.3.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [argh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argh/xmake.lua) |
 
 ##### Install command
@@ -55,7 +55,7 @@ add_requires("argh")
 | Homepage | [https://github.com/p-ranav/argparse](https://github.com/p-ranav/argparse) |
 | License | MIT |
 | Versions | 2.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [argparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argparse/xmake.lua) |
 
 ##### Install command
@@ -79,7 +79,7 @@ add_requires("argparse")
 | Homepage | [http://think-async.com/Asio/](http://think-async.com/Asio/) |
 | License | BSL-1.0 |
 | Versions | 1.20.0, 1.21.0, 1.24.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [asio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio/xmake.lua) |
 
 ##### Install command
@@ -102,7 +102,7 @@ add_requires("asio")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
 | Versions | 2.68, 2.69, 2.71 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
 ##### Install command
@@ -125,7 +125,7 @@ add_requires("autoconf")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
 | Versions | 1.15.1, 1.16.1, 1.16.4, 1.9.5, 1.9.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
 ##### Install command
@@ -150,7 +150,7 @@ add_requires("automake")
 | -- | -- |
 | Homepage | [https://bazel.build/](https://bazel.build/) |
 | Versions | 5.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [bazel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bazel/xmake.lua) |
 
 ##### Install command
@@ -174,7 +174,7 @@ add_requires("bazel")
 | Homepage | [http://aantron.github.io/better-enums](http://aantron.github.io/better-enums) |
 | License | BSD-2-Clause |
 | Versions | 0.11.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [better-enums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/better-enums/xmake.lua) |
 
 ##### Install command
@@ -197,7 +197,7 @@ add_requires("better-enums")
 | -- | -- |
 | Homepage | [https://github.com/gwilymk/bin2c](https://github.com/gwilymk/bin2c) |
 | Versions | 0.0.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [bin2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bin2c/xmake.lua) |
 
 ##### Install command
@@ -221,7 +221,7 @@ add_requires("bin2c")
 | Homepage | [https://www.gnu.org/software/binutils/binutils.html](https://www.gnu.org/software/binutils/binutils.html) |
 | License | GPL-2.0 |
 | Versions | 2.34, 2.38 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [binutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/binutils/xmake.lua) |
 
 ##### Install command
@@ -245,7 +245,7 @@ add_requires("binutils")
 | Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
 | License | GPL-3.0 |
 | Versions | 3.7.4, 3.7.6, 3.8.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
 
 ##### Install command
@@ -268,7 +268,7 @@ add_requires("bison")
 | -- | -- |
 | Homepage | [https://github.com/google/brotli](https://github.com/google/brotli) |
 | Versions | 1.0.9 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [brotli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brotli/xmake.lua) |
 
 ##### Install command
@@ -291,7 +291,7 @@ add_requires("brotli")
 | -- | -- |
 | Homepage | [https://sourceware.org/bzip2/](https://sourceware.org/bzip2/) |
 | Versions | 1.0.8 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [bzip2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip2/xmake.lua) |
 
 ##### Install command
@@ -316,7 +316,7 @@ add_requires("bzip2")
 | -- | -- |
 | Homepage | [https://mkcert.org/](https://mkcert.org/) |
 | Versions | 20211118, 20220604 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ca-certificates/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua) |
 
 ##### Install command
@@ -339,7 +339,7 @@ add_requires("ca-certificates")
 | -- | -- |
 | Homepage | [http://www.capstone-engine.org](http://www.capstone-engine.org) |
 | Versions | 4.0.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [capstone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capstone/xmake.lua) |
 
 ##### Install command
@@ -363,7 +363,7 @@ add_requires("capstone")
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
 | Versions | 2.13.5, 2.13.6, 2.13.7, 2.13.8, 2.13.9, 2.9.2, 3.1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
 ##### Install command
@@ -387,7 +387,7 @@ add_requires("catch2")
 | Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
 | License | BSD-3-Clause |
 | Versions | 1.3.0, 1.3.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
 
 ##### Install command
@@ -411,7 +411,7 @@ add_requires("cereal")
 | Homepage | [https://github.com/erstan/ceval](https://github.com/erstan/ceval) |
 | License | MIT |
 | Versions | 1.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ceval/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceval/xmake.lua) |
 
 ##### Install command
@@ -434,7 +434,7 @@ add_requires("ceval")
 | -- | -- |
 | Homepage | [https://github.com/xq114/cgetopt/](https://github.com/xq114/cgetopt/) |
 | Versions | 1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [cgetopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgetopt/xmake.lua) |
 
 ##### Install command
@@ -458,7 +458,7 @@ add_requires("cgetopt")
 | Homepage | [http://chaiscript.com](http://chaiscript.com) |
 | License | BSD-3-Clause |
 | Versions | v6.1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [chaiscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chaiscript/xmake.lua) |
 
 ##### Install command
@@ -482,7 +482,7 @@ add_requires("chaiscript")
 | Homepage | [https://chipmunk-physics.net/](https://chipmunk-physics.net/) |
 | License | MIT |
 | Versions | 7.0.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [chipmunk2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chipmunk2d/xmake.lua) |
 
 ##### Install command
@@ -506,7 +506,7 @@ add_requires("chipmunk2d")
 | Homepage | [https://chromium.googlesource.com/chromium/src/third_party/zlib/](https://chromium.googlesource.com/chromium/src/third_party/zlib/) |
 | License | zlib |
 | Versions | 2022.02.22 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [chromium_zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chromium_zlib/xmake.lua) |
 
 ##### Install command
@@ -530,7 +530,7 @@ add_requires("chromium_zlib")
 | Homepage | [https://github.com/civetweb/civetweb](https://github.com/civetweb/civetweb) |
 | License | MIT |
 | Versions | v1.15 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [civetweb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/civetweb/xmake.lua) |
 
 ##### Install command
@@ -554,7 +554,7 @@ add_requires("civetweb")
 | Homepage | [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) |
 | License | MIT |
 | Versions | 1.7.10, 1.7.14, 1.7.15 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [cjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cjson/xmake.lua) |
 
 ##### Install command
@@ -578,7 +578,7 @@ add_requires("cjson")
 | Homepage | [https://github.com/catchorg/Clara](https://github.com/catchorg/Clara) |
 | License | BSL-1.0 |
 | Versions | 1.1.5 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [clara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clara/xmake.lua) |
 
 ##### Install command
@@ -601,7 +601,7 @@ add_requires("clara")
 | -- | -- |
 | Homepage | [https://github.com/daniele77/cli](https://github.com/daniele77/cli) |
 | Versions | v2.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [cli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli/xmake.lua) |
 
 ##### Install command
@@ -624,7 +624,7 @@ add_requires("cli")
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
 | Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
 ##### Install command
@@ -648,7 +648,7 @@ add_requires("cmake")
 | Homepage | [https://github.com/rogersce/cnpy](https://github.com/rogersce/cnpy) |
 | License | MIT |
 | Versions | 2018.06.01 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [cnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnpy/xmake.lua) |
 
 ##### Install command
@@ -671,7 +671,7 @@ add_requires("cnpy")
 | -- | -- |
 | Homepage | [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) |
 | Versions |  |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
 
 ##### Install command
@@ -694,7 +694,7 @@ add_requires("concurrentqueue")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | Versions | 0.8.5, 0.9.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
 ##### Install command
@@ -717,7 +717,7 @@ add_requires("cpp-httplib")
 | -- | -- |
 | Homepage | [https://github.com/google/crc32c](https://github.com/google/crc32c) |
 | Versions | 1.1.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [crc32c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crc32c/xmake.lua) |
 
 ##### Install command
@@ -741,7 +741,7 @@ add_requires("crc32c")
 | Homepage | [https://github.com/graeme-hill/crossguid](https://github.com/graeme-hill/crossguid) |
 | License | MIT |
 | Versions | 2019.3.29 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [crossguid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crossguid/xmake.lua) |
 
 ##### Install command
@@ -764,7 +764,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://cryptopp.com/](https://cryptopp.com/) |
 | Versions | 8.4.0, 8.5.0, 8.6.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [cryptopp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cryptopp/xmake.lua) |
 
 ##### Install command
@@ -788,7 +788,7 @@ add_requires("cryptopp")
 | Homepage | [https://github.com/p-ranav/csv2](https://github.com/p-ranav/csv2) |
 | License | MIT |
 | Versions | v0.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [csv2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csv2/xmake.lua) |
 
 ##### Install command
@@ -811,7 +811,7 @@ add_requires("csv2")
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
 | Versions | 2.1.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
 ##### Install command
@@ -834,7 +834,7 @@ add_requires("csvparser")
 | -- | -- |
 | Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
 | Versions | 3.4.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
 
 ##### Install command
@@ -857,7 +857,7 @@ add_requires("ctre")
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
 | Versions | v2.2.0, v3.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
 ##### Install command
@@ -883,7 +883,7 @@ add_requires("cxxopts")
 | Homepage | [https://github.com/hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) |
 | License | MIT |
 | Versions | 1.21.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
 
 ##### Install command
@@ -907,7 +907,7 @@ add_requires("dataframe")
 | Homepage | [https://github.com/HowardHinnant/date](https://github.com/HowardHinnant/date) |
 | License | MIT |
 | Versions | v3.0.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [date/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/date/xmake.lua) |
 
 ##### Install command
@@ -931,7 +931,7 @@ add_requires("date")
 | Homepage | [https://github.com/sharkdp/dbg-macro](https://github.com/sharkdp/dbg-macro) |
 | License | MIT |
 | Versions | v0.4.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [dbg-macro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbg-macro/xmake.lua) |
 
 ##### Install command
@@ -954,7 +954,7 @@ add_requires("dbg-macro")
 | -- | -- |
 | Homepage | [https://github.com/scottt/debugbreak](https://github.com/scottt/debugbreak) |
 | Versions | v1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [debugbreak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debugbreak/xmake.lua) |
 
 ##### Install command
@@ -978,7 +978,7 @@ add_requires("debugbreak")
 | Homepage | [https://github.com/vpiotr/decimal_for_cpp](https://github.com/vpiotr/decimal_for_cpp) |
 | License | BSD-3-Clause |
 | Versions | 1.19 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [decimal_for_cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/decimal_for_cpp/xmake.lua) |
 
 ##### Install command
@@ -1002,7 +1002,7 @@ add_requires("decimal_for_cpp")
 | Homepage | [https://github.com/nico/demumble](https://github.com/nico/demumble) |
 | License | Apache-2.0 |
 | Versions | 2022.3.23 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [demumble/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/demumble/xmake.lua) |
 
 ##### Install command
@@ -1026,7 +1026,7 @@ add_requires("demumble")
 | Homepage | [https://github.com/docopt/docopt.cpp](https://github.com/docopt/docopt.cpp) |
 | License | BSL-1.0 |
 | Versions | v0.6.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [docopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/docopt/xmake.lua) |
 
 ##### Install command
@@ -1049,7 +1049,7 @@ add_requires("docopt")
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
 | Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
 ##### Install command
@@ -1073,7 +1073,7 @@ add_requires("doctest")
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
 | Versions | 1.9.1, 1.9.2, 1.9.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
 ##### Install command
@@ -1097,7 +1097,7 @@ add_requires("doxygen")
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
 | Versions | 0.12.29 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
 
 ##### Install command
@@ -1121,7 +1121,7 @@ add_requires("dr_flac")
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
 | Versions | 0.6.27 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
 
 ##### Install command
@@ -1145,7 +1145,7 @@ add_requires("dr_mp3")
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
 | Versions | 0.12.19 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
 ##### Install command
@@ -1171,7 +1171,7 @@ add_requires("dr_wav")
 | Homepage | [https://github.com/amrayn/easyloggingpp](https://github.com/amrayn/easyloggingpp) |
 | License | MIT |
 | Versions | v9.97.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [easyloggingpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/easyloggingpp/xmake.lua) |
 
 ##### Install command
@@ -1195,7 +1195,7 @@ add_requires("easyloggingpp")
 | Homepage | [http://enet.bespin.org](http://enet.bespin.org) |
 | License | MIT |
 | Versions | v1.3.17 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [enet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet/xmake.lua) |
 
 ##### Install command
@@ -1219,7 +1219,7 @@ add_requires("enet")
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
 | Versions | v3.10.0, v3.10.1, v3.10.3, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
 ##### Install command
@@ -1243,7 +1243,7 @@ add_requires("entt")
 | Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
 | License | CC0 |
 | Versions | v1.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected/xmake.lua) |
 
 ##### Install command
@@ -1267,7 +1267,7 @@ add_requires("expected")
 | Homepage | [https://www.partow.net/programming/exprtk/index.html](https://www.partow.net/programming/exprtk/index.html) |
 | License | MIT |
 | Versions | 2021.06.06 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [exprtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exprtk/xmake.lua) |
 
 ##### Install command
@@ -1293,7 +1293,7 @@ add_requires("exprtk")
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
 | Versions | v3.4.0, v3.5.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
 ##### Install command
@@ -1316,7 +1316,7 @@ add_requires("fast_float")
 | -- | -- |
 | Homepage | [https://github.com/ben-strasser/fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser) |
 | Versions | 2021.01.03 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [fastcppcsvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastcppcsvparser/xmake.lua) |
 
 ##### Install command
@@ -1339,7 +1339,7 @@ add_requires("fastcppcsvparser")
 | -- | -- |
 | Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
 | Versions | 1.12.0, 2.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
 
 ##### Install command
@@ -1363,7 +1363,7 @@ add_requires("flatbuffers")
 | Homepage | [https://github.com/westes/flex/](https://github.com/westes/flex/) |
 | License | BSD-2-Clause |
 | Versions | 2.6.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flex/xmake.lua) |
 
 ##### Install command
@@ -1386,7 +1386,7 @@ add_requires("flex")
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
 | Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
 ##### Install command
@@ -1409,7 +1409,7 @@ add_requires("fmt")
 | -- | -- |
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
 | Versions | 2.10.4, 2.11.0, 2.11.1, 2.12.1, 2.9.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 
 ##### Install command
@@ -1433,7 +1433,7 @@ add_requires("freetype")
 | Homepage | [https://github.com/serge-sans-paille/frozen](https://github.com/serge-sans-paille/frozen) |
 | License | Apache-2.0 |
 | Versions | 1.1.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [frozen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frozen/xmake.lua) |
 
 ##### Install command
@@ -1456,7 +1456,7 @@ add_requires("frozen")
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
 | Versions | v0.2.18-p0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
 ##### Install command
@@ -1480,7 +1480,7 @@ add_requires("functionalplus")
 | Homepage | [https://github.com/jessey-git/fx-gltf](https://github.com/jessey-git/fx-gltf) |
 | License | MIT |
 | Versions | v1.2.0, v2.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [fx-gltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fx-gltf/xmake.lua) |
 
 ##### Install command
@@ -1505,7 +1505,7 @@ add_requires("fx-gltf")
 | -- | -- |
 | Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
 | Versions | 1160.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
 
 ##### Install command
@@ -1529,7 +1529,7 @@ add_requires("genie")
 | Homepage | [https://github.com/gflags/gflags/](https://github.com/gflags/gflags/) |
 | License | BSD-3-Clause |
 | Versions | v2.2.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [gflags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gflags/xmake.lua) |
 
 ##### Install command
@@ -1553,7 +1553,7 @@ add_requires("gflags")
 | Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
 | License | MIT |
 | Versions | v1.5.10 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
 
 ##### Install command
@@ -1577,7 +1577,7 @@ add_requires("ghc_filesystem")
 | Homepage | [https://sourceforge.net/projects/giflib/](https://sourceforge.net/projects/giflib/) |
 | License | MIT |
 | Versions | 5.2.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [giflib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/giflib/xmake.lua) |
 
 ##### Install command
@@ -1600,7 +1600,7 @@ add_requires("giflib")
 | -- | -- |
 | Homepage | [https://gli.g-truc.net/](https://gli.g-truc.net/) |
 | Versions | 0.8.2.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [gli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gli/xmake.lua) |
 
 ##### Install command
@@ -1623,7 +1623,7 @@ add_requires("gli")
 | -- | -- |
 | Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
 | Versions | 0.9.9+8 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
 
 ##### Install command
@@ -1647,7 +1647,7 @@ add_requires("glm")
 | Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
 | License | BSD-3-Clause |
 | Versions | v0.4.0, v0.5.0, v0.6.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
 
 ##### Install command
@@ -1670,7 +1670,7 @@ add_requires("glog")
 | -- | -- |
 | Homepage | [https://gn.googlesource.com/gn](https://gn.googlesource.com/gn) |
 | Versions | 20211117 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [gn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gn/xmake.lua) |
 
 ##### Install command
@@ -1693,7 +1693,7 @@ add_requires("gn")
 | -- | -- |
 | Homepage | [https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) |
 | Versions | 2020.10, 2021.10 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [gnu-rm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-rm/xmake.lua) |
 
 ##### Install command
@@ -1716,7 +1716,7 @@ add_requires("gnu-rm")
 | -- | -- |
 | Homepage | [https://godotengine.org/](https://godotengine.org/) |
 | Versions | 3.2, 3.3, 3.4.0, 3.4.3, 3.4.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [godotcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp/xmake.lua) |
 
 ##### Install command
@@ -1740,7 +1740,7 @@ add_requires("godotcpp")
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
 | Versions | v3.1.0, v4.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
 ##### Install command
@@ -1763,7 +1763,7 @@ add_requires("gsl")
 | -- | -- |
 | Homepage | [https://github.com/google/googletest](https://github.com/google/googletest) |
 | Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.8.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
 
 ##### Install command
@@ -1786,7 +1786,7 @@ add_requires("gtest")
 | -- | -- |
 | Homepage | [https://github.com/google/guetzli](https://github.com/google/guetzli) |
 | Versions | v1.0.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [guetzli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guetzli/xmake.lua) |
 
 ##### Install command
@@ -1810,7 +1810,7 @@ add_requires("guetzli")
 | Homepage | [https://github.com/idea4good/GuiLite](https://github.com/idea4good/GuiLite) |
 | License | Apache-2.0 |
 | Versions | v2.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [guilite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guilite/xmake.lua) |
 
 ##### Install command
@@ -1834,7 +1834,7 @@ add_requires("guilite")
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
 | Versions | v0.11.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
 ##### Install command
@@ -1860,7 +1860,7 @@ add_requires("gyp-next")
 | Homepage | [https://github.com/nmwsharp/happly](https://github.com/nmwsharp/happly) |
 | License | MIT |
 | Versions | 2022.01.07 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [happly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/happly/xmake.lua) |
 
 ##### Install command
@@ -1884,7 +1884,7 @@ add_requires("happly")
 | Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
 | License | BSD-3-Clause |
 | Versions | v1.0.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
 
 ##### Install command
@@ -1907,7 +1907,7 @@ add_requires("hiredis")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
 | Versions | v2.3.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
 
 ##### Install command
@@ -1930,7 +1930,7 @@ add_requires("hopscotch-map")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/http-parser](https://github.com/nodejs/http-parser) |
 | Versions | v2.9.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [http_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/http_parser/xmake.lua) |
 
 ##### Install command
@@ -1955,7 +1955,7 @@ add_requires("http_parser")
 | -- | -- |
 | Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
 | Versions | 2021.4.0+3224 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
 
 ##### Install command
@@ -1979,7 +1979,7 @@ add_requires("ifort")
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
 | Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86, v1.87, v1.87-docking, v1.88, v1.88-docking |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
 ##### Install command
@@ -2002,7 +2002,7 @@ add_requires("imgui")
 | -- | -- |
 | Homepage | [https://github.com/CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) |
 | Versions | 1.83, 1.89+WIP |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [imguizmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imguizmo/xmake.lua) |
 
 ##### Install command
@@ -2026,7 +2026,7 @@ add_requires("imguizmo")
 | Homepage | [https://github.com/p-ranav/indicators](https://github.com/p-ranav/indicators) |
 | License | MIT |
 | Versions | 2.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [indicators/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/indicators/xmake.lua) |
 
 ##### Install command
@@ -2049,7 +2049,7 @@ add_requires("indicators")
 | -- | -- |
 | Homepage | [https://pantor.github.io/inja/](https://pantor.github.io/inja/) |
 | Versions | v2.1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
 
 ##### Install command
@@ -2073,7 +2073,7 @@ add_requires("inja")
 | Homepage | [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) |
 | License | Apache-2.0 |
 | Versions | v2020.10.31 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ip2region/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ip2region/xmake.lua) |
 
 ##### Install command
@@ -2096,7 +2096,7 @@ add_requires("ip2region")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
 | Versions | 1.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [irrxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua) |
 
 ##### Install command
@@ -2120,7 +2120,7 @@ add_requires("irrxml")
 | Homepage | [https://ispc.github.io/](https://ispc.github.io/) |
 | License | BSD-3-Clause |
 | Versions | 1.17.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ispc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ispc/xmake.lua) |
 
 ##### Install command
@@ -2145,7 +2145,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://github.com/zserge/jsmn](https://github.com/zserge/jsmn) |
 | Versions | v1.1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [jsmn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsmn/xmake.lua) |
 
 ##### Install command
@@ -2168,7 +2168,7 @@ add_requires("jsmn")
 | -- | -- |
 | Homepage | [https://github.com/json-c/json-c/wiki](https://github.com/json-c/json-c/wiki) |
 | Versions | 0.13.1-20180305 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [json-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-c/xmake.lua) |
 
 ##### Install command
@@ -2191,7 +2191,7 @@ add_requires("json-c")
 | -- | -- |
 | Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
 | Versions | 2.1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
 
 ##### Install command
@@ -2214,7 +2214,7 @@ add_requires("json-schema-validator")
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
 | Versions | v0.158.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
 ##### Install command
@@ -2237,7 +2237,7 @@ add_requires("jsoncons")
 | -- | -- |
 | Homepage | [https://github.com/open-source-parsers/jsoncpp/wiki](https://github.com/open-source-parsers/jsoncpp/wiki) |
 | Versions | 1.9.4, 1.9.5 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [jsoncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncpp/xmake.lua) |
 
 ##### Install command
@@ -2262,7 +2262,7 @@ add_requires("jsoncpp")
 | -- | -- |
 | Homepage | [https://github.com/skywind3000/kcp](https://github.com/skywind3000/kcp) |
 | Versions | 1.7 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [kcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kcp/xmake.lua) |
 
 ##### Install command
@@ -2285,7 +2285,7 @@ add_requires("kcp")
 | -- | -- |
 | Homepage | [https://kiwisolver.readthedocs.io/en/latest/](https://kiwisolver.readthedocs.io/en/latest/) |
 | Versions | 1.3.1, 1.3.2, 1.4.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [kiwisolver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kiwisolver/xmake.lua) |
 
 ##### Install command
@@ -2310,7 +2310,7 @@ add_requires("kiwisolver")
 | -- | -- |
 | Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
 | Versions | 2022.03.21 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
 
 ##### Install command
@@ -2334,7 +2334,7 @@ add_requires("lexy")
 | Homepage | [https://curl.haxx.se/](https://curl.haxx.se/) |
 | License | MIT |
 | Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0, 7.80.0, 7.81.0, 7.82.0, 7.84.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libcurl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcurl/xmake.lua) |
 
 ##### Install command
@@ -2357,7 +2357,7 @@ add_requires("libcurl")
 | -- | -- |
 | Homepage | [http://libdivide.com](http://libdivide.com) |
 | Versions | 5.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
 
 ##### Install command
@@ -2380,7 +2380,7 @@ add_requires("libdivide")
 | -- | -- |
 | Homepage | [https://android.googlesource.com/platform/external/libdivsufsort/](https://android.googlesource.com/platform/external/libdivsufsort/) |
 | Versions | 2021.2.18 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libdivsufsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivsufsort/xmake.lua) |
 
 ##### Install command
@@ -2403,7 +2403,7 @@ add_requires("libdivsufsort")
 | -- | -- |
 | Homepage | [http://software.schmorp.de/pkg/libev](http://software.schmorp.de/pkg/libev) |
 | Versions | 4.33 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libev/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libev/xmake.lua) |
 
 ##### Install command
@@ -2426,7 +2426,7 @@ add_requires("libev")
 | -- | -- |
 | Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
 | Versions | 3.2.1, 3.3, 3.4.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
 
 ##### Install command
@@ -2450,7 +2450,7 @@ add_requires("libffi")
 | Homepage | [https://xiph.org/flac](https://xiph.org/flac) |
 | License | BSD |
 | Versions | 1.3.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libflac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libflac/xmake.lua) |
 
 ##### Install command
@@ -2474,7 +2474,7 @@ add_requires("libflac")
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
 | Versions | v1.3.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
 ##### Install command
@@ -2497,7 +2497,7 @@ add_requires("libgit2")
 | -- | -- |
 | Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
 | Versions | 1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
 
 ##### Install command
@@ -2520,7 +2520,7 @@ add_requires("libhv")
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
 | Versions | v9b, v9c, v9d, v9e |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
 ##### Install command
@@ -2543,7 +2543,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://www.xiph.org/ogg/](https://www.xiph.org/ogg/) |
 | Versions | v1.3.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libogg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libogg/xmake.lua) |
 
 ##### Install command
@@ -2566,7 +2566,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | Versions | 1.3.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
 ##### Install command
@@ -2590,7 +2590,7 @@ add_requires("libopus")
 | Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
 | License | LGPL-2.1 |
 | Versions | 2.2.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
 
 ##### Install command
@@ -2614,7 +2614,7 @@ add_requires("libplist")
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
 | Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
 ##### Install command
@@ -2638,7 +2638,7 @@ add_requires("libpng")
 | Homepage | [http://www.libraw.org](http://www.libraw.org) |
 | License | LGPL-2.1 |
 | Versions | 0.19.5, 0.20.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 
 ##### Install command
@@ -2661,7 +2661,7 @@ add_requires("libraw")
 | -- | -- |
 | Homepage | [https://github.com/edenhill/librdkafka](https://github.com/edenhill/librdkafka) |
 | Versions | v1.6.2, v1.8.2-POST2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
 ##### Install command
@@ -2685,7 +2685,7 @@ add_requires("librdkafka")
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
 | Versions | v2.7.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
 ##### Install command
@@ -2709,7 +2709,7 @@ add_requires("libsais")
 | Homepage | [https://libsndfile.github.io/libsndfile/](https://libsndfile.github.io/libsndfile/) |
 | License | LGPL-2.1 |
 | Versions | 1.0.31, v1.0.30 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libsndfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndfile/xmake.lua) |
 
 ##### Install command
@@ -2733,7 +2733,7 @@ add_requires("libsndfile")
 | Homepage | [http://libsound.io/](http://libsound.io/) |
 | License | MIT |
 | Versions | 2.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libsoundio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsoundio/xmake.lua) |
 
 ##### Install command
@@ -2756,7 +2756,7 @@ add_requires("libsoundio")
 | -- | -- |
 | Homepage | [https://libspng.org](https://libspng.org) |
 | Versions | v0.7.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libspng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libspng/xmake.lua) |
 
 ##### Install command
@@ -2779,7 +2779,7 @@ add_requires("libspng")
 | -- | -- |
 | Homepage | [https://github.com/uael/sv](https://github.com/uael/sv) |
 | Versions | 2021.11.27 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsv/xmake.lua) |
 
 ##### Install command
@@ -2802,7 +2802,7 @@ add_requires("libsv")
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
 | Versions | v325 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
 
 ##### Install command
@@ -2825,7 +2825,7 @@ add_requires("libsvm")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libtool/](https://www.gnu.org/software/libtool/) |
 | Versions | 2.4.5, 2.4.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
 
 ##### Install command
@@ -2849,7 +2849,7 @@ add_requires("libtool")
 | Homepage | [https://xiph.org/vorbis](https://xiph.org/vorbis) |
 | License | BSD-3 |
 | Versions | 1.3.7 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libvorbis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvorbis/xmake.lua) |
 
 ##### Install command
@@ -2873,7 +2873,7 @@ add_requires("libvorbis")
 | Homepage | [http://xmlsoft.org/](http://xmlsoft.org/) |
 | License | MIT |
 | Versions | 2.9.10, 2.9.12, 2.9.9 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [libxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxml2/xmake.lua) |
 
 ##### Install command
@@ -2896,7 +2896,7 @@ add_requires("libxml2")
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
 | Versions | v2.5.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
 
 ##### Install command
@@ -2920,7 +2920,7 @@ add_requires("littlefs")
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
 | Versions | v3.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
 ##### Install command
@@ -2943,7 +2943,7 @@ add_requires("llhttp")
 | -- | -- |
 | Homepage | [https://llvm.org/](https://llvm.org/) |
 | Versions | 11.0.0, 14.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
 
 ##### Install command
@@ -2966,7 +2966,7 @@ add_requires("llvm")
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
 | Versions | 20211002, 20220323 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 
 ##### Install command
@@ -2990,7 +2990,7 @@ add_requires("llvm-mingw")
 | Homepage | [https://lodev.org/lodepng/](https://lodev.org/lodepng/) |
 | License | zlib |
 | Versions |  |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [lodepng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lodepng/xmake.lua) |
 
 ##### Install command
@@ -3013,7 +3013,7 @@ add_requires("lodepng")
 | -- | -- |
 | Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
 | Versions | v2.1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
 
 ##### Install command
@@ -3036,7 +3036,7 @@ add_requires("loguru")
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
 | Versions | v5.1.1, v5.1.5, v5.2.3, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
 ##### Install command
@@ -3059,7 +3059,7 @@ add_requires("lua")
 | -- | -- |
 | Homepage | [https://github.com/Koihik/LuaFormatter](https://github.com/Koihik/LuaFormatter) |
 | Versions | 1.3.5 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [lua-format/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua-format/xmake.lua) |
 
 ##### Install command
@@ -3082,7 +3082,7 @@ add_requires("lua-format")
 | -- | -- |
 | Homepage | [http://luajit.org](http://luajit.org) |
 | Versions | 2.1.0-beta3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [luajit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luajit/xmake.lua) |
 
 ##### Install command
@@ -3106,7 +3106,7 @@ add_requires("luajit")
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
 | Versions | v8.0.2, v8.2.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
 ##### Install command
@@ -3130,7 +3130,7 @@ add_requires("lvgl")
 | Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
 | License | BSL-1.0 |
 | Versions | 1.5.1, 1.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
 
 ##### Install command
@@ -3153,7 +3153,7 @@ add_requires("lyra")
 | -- | -- |
 | Homepage | [https://www.lz4.org/](https://www.lz4.org/) |
 | Versions | v1.9.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [lz4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lz4/xmake.lua) |
 
 ##### Install command
@@ -3177,7 +3177,7 @@ add_requires("lz4")
 | Homepage | [http://www.oberhumer.com/opensource/lzo](http://www.oberhumer.com/opensource/lzo) |
 | License | GPL-2.0 |
 | Versions | 2.10 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [lzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzo/xmake.lua) |
 
 ##### Install command
@@ -3202,7 +3202,7 @@ add_requires("lzo")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/m4](https://www.gnu.org/software/m4) |
 | Versions | 1.4.18, 1.4.19 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [m4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/m4/xmake.lua) |
 
 ##### Install command
@@ -3226,7 +3226,7 @@ add_requires("m4")
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
 | Versions | v0.7.3, v0.8.0, v0.8.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 
 ##### Install command
@@ -3249,7 +3249,7 @@ add_requires("magic_enum")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
 | Versions | 4.2.1, 4.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 
 ##### Install command
@@ -3273,7 +3273,7 @@ add_requires("make")
 | Homepage | [https://github.com/mapbox/earcut.hpp](https://github.com/mapbox/earcut.hpp) |
 | License | ISC |
 | Versions | 2.2.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mapbox_earcut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_earcut/xmake.lua) |
 
 ##### Install command
@@ -3297,7 +3297,7 @@ add_requires("mapbox_earcut")
 | Homepage | [https://github.com/mapbox/eternal](https://github.com/mapbox/eternal) |
 | License | ISC |
 | Versions | v1.0.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mapbox_eternal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_eternal/xmake.lua) |
 
 ##### Install command
@@ -3321,7 +3321,7 @@ add_requires("mapbox_eternal")
 | Homepage | [https://github.com/mapbox/geometry.hpp](https://github.com/mapbox/geometry.hpp) |
 | License | ISC |
 | Versions | 1.1.0, 2.0.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mapbox_geometry/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_geometry/xmake.lua) |
 
 ##### Install command
@@ -3345,7 +3345,7 @@ add_requires("mapbox_geometry")
 | Homepage | [https://github.com/mapbox/variant](https://github.com/mapbox/variant) |
 | License | BSD |
 | Versions | v1.2.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mapbox_variant/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_variant/xmake.lua) |
 
 ##### Install command
@@ -3368,7 +3368,7 @@ add_requires("mapbox_variant")
 | -- | -- |
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
 | Versions | 2.13.0, 2.25.0, 2.7.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 
 ##### Install command
@@ -3391,7 +3391,7 @@ add_requires("mbedtls")
 | -- | -- |
 | Homepage | [https://github.com/NimbusKit/memorymapping](https://github.com/NimbusKit/memorymapping) |
 | Versions | 2014.12.21 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [memorymapping/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/memorymapping/xmake.lua) |
 
 ##### Install command
@@ -3415,7 +3415,7 @@ add_requires("memorymapping")
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
 | Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
 ##### Install command
@@ -3439,7 +3439,7 @@ add_requires("meson")
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
 | Versions | v3.1.0, v4.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
 ##### Install command
@@ -3462,7 +3462,7 @@ add_requires("microsoft-gsl")
 | -- | -- |
 | Homepage | [http://www.mikktspace.com/](http://www.mikktspace.com/) |
 | Versions | 2020.03.26 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mikktspace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mikktspace/xmake.lua) |
 
 ##### Install command
@@ -3485,7 +3485,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
 | Versions | 2021.12.31 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
 ##### Install command
@@ -3508,7 +3508,7 @@ add_requires("miniaudio")
 | -- | -- |
 | Homepage | [http://www.oberhumer.com/opensource/lzo/#minilzo](http://www.oberhumer.com/opensource/lzo/#minilzo) |
 | Versions | 2.10 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [minilzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minilzo/xmake.lua) |
 
 ##### Install command
@@ -3532,7 +3532,7 @@ add_requires("minilzo")
 | Homepage | [https://github.com/lieff/minimp3](https://github.com/lieff/minimp3) |
 | License | CC0 |
 | Versions | 2021.05.29 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [minimp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minimp3/xmake.lua) |
 
 ##### Install command
@@ -3556,7 +3556,7 @@ add_requires("minimp3")
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
 | Versions | 2.1.0, 2.2.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
 ##### Install command
@@ -3580,7 +3580,7 @@ add_requires("miniz")
 | Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
 | License | zlib |
 | Versions | v1.2.10, v1.2.11, v1.2.12 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
 
 ##### Install command
@@ -3604,7 +3604,7 @@ add_requires("minizip")
 | Homepage | [https://github.com/mandreyel/mio](https://github.com/mandreyel/mio) |
 | License | MIT |
 | Versions | 2021.9.21 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mio/xmake.lua) |
 
 ##### Install command
@@ -3628,7 +3628,7 @@ add_requires("mio")
 | Homepage | [https://github.com/cesanta/mjson](https://github.com/cesanta/mjson) |
 | License | MIT |
 | Versions | 1.2.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mjson/xmake.lua) |
 
 ##### Install command
@@ -3652,7 +3652,7 @@ add_requires("mjson")
 | Homepage | [https://github.com/jdumas/mma](https://github.com/jdumas/mma) |
 | License | MIT |
 | Versions | 2018.08.01 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mma/xmake.lua) |
 
 ##### Install command
@@ -3675,7 +3675,7 @@ add_requires("mma")
 | -- | -- |
 | Homepage | [https://github.com/moonjit/moonjit](https://github.com/moonjit/moonjit) |
 | Versions | 2.2.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [moonjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moonjit/xmake.lua) |
 
 ##### Install command
@@ -3698,7 +3698,7 @@ add_requires("moonjit")
 | -- | -- |
 | Homepage | [https://github.com/rigtorp/MPMCQueue](https://github.com/rigtorp/MPMCQueue) |
 | Versions | v1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [mpmcqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpmcqueue/xmake.lua) |
 
 ##### Install command
@@ -3721,7 +3721,7 @@ add_requires("mpmcqueue")
 | -- | -- |
 | Homepage | [https://musl.cc/](https://musl.cc/) |
 | Versions | 20210202 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [muslcc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muslcc/xmake.lua) |
 
 ##### Install command
@@ -3747,7 +3747,7 @@ add_requires("muslcc")
 | Homepage | [https://github.com/joboccara/NamedType](https://github.com/joboccara/NamedType) |
 | License | MIT |
 | Versions | v1.1.0.20210209 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [named_type/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/named_type/xmake.lua) |
 
 ##### Install command
@@ -3771,7 +3771,7 @@ add_requires("named_type")
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
 | Versions | v1.3.2, v1.4.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 
 ##### Install command
@@ -3795,7 +3795,7 @@ add_requires("nanoflann")
 | Homepage | [https://github.com/memononen/nanosvg](https://github.com/memononen/nanosvg) |
 | License | zlib |
 | Versions | 2022.07.09 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [nanosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanosvg/xmake.lua) |
 
 ##### Install command
@@ -3819,7 +3819,7 @@ add_requires("nanosvg")
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
 | License | BSD-2-Clause |
 | Versions | 2.13.03, 2.15.05 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 
 ##### Install command
@@ -3842,7 +3842,7 @@ add_requires("nasm")
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
 | Versions | 21.0, 22.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 
 ##### Install command
@@ -3866,7 +3866,7 @@ add_requires("ndk")
 | Homepage | [https://nifti.nimh.nih.gov/](https://nifti.nimh.nih.gov/) |
 | License | Public Domain |
 | Versions | 0.0.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [niftiheader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/niftiheader/xmake.lua) |
 
 ##### Install command
@@ -3889,7 +3889,7 @@ add_requires("niftiheader")
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
 | Versions | 1.10.1, 1.10.2, 1.11.0, 1.9.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
 ##### Install command
@@ -3913,7 +3913,7 @@ add_requires("ninja")
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
 | License | MIT |
 | Versions | v3.10.0, v3.10.5, v3.11.2, v3.9.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
 ##### Install command
@@ -3936,7 +3936,7 @@ add_requires("nlohmann_json")
 | -- | -- |
 | Homepage | [https://github.com/nanomsg/nng](https://github.com/nanomsg/nng) |
 | Versions | 1.3.2, 1.4.0, 1.5.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
 
 ##### Install command
@@ -3959,7 +3959,7 @@ add_requires("nng")
 | -- | -- |
 | Homepage | [https://github.com/cwzx/nngpp](https://github.com/cwzx/nngpp) |
 | Versions | v2020.10.30 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [nngpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nngpp/xmake.lua) |
 
 ##### Install command
@@ -3983,7 +3983,7 @@ add_requires("nngpp")
 | Homepage | [https://github.com/fr00b0/nod](https://github.com/fr00b0/nod) |
 | License | MIT |
 | Versions | v0.5.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [nod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nod/xmake.lua) |
 
 ##### Install command
@@ -4006,7 +4006,7 @@ add_requires("nod")
 | -- | -- |
 | Homepage | [https://github.com/olvb/nodesoup](https://github.com/olvb/nodesoup) |
 | Versions | 2020.09.05 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [nodesoup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodesoup/xmake.lua) |
 
 ##### Install command
@@ -4032,7 +4032,7 @@ add_requires("nodesoup")
 | Homepage | [https://openal-soft.org](https://openal-soft.org) |
 | License | LGPL-2.0 |
 | Versions | 1.21.1, 1.22.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [openal-soft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua) |
 
 ##### Install command
@@ -4056,7 +4056,7 @@ add_requires("openal-soft")
 | Homepage | [https://github.com/KhronosGroup/OpenCL-CLHPP/](https://github.com/KhronosGroup/OpenCL-CLHPP/) |
 | License | Apache-2.0 |
 | Versions | 1.2.8, 2.0.15 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [opencl-clhpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-clhpp/xmake.lua) |
 
 ##### Install command
@@ -4080,7 +4080,7 @@ add_requires("opencl-clhpp")
 | Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
 | License | Apache-2.0 |
 | Versions | v2021.06.30 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
 
 ##### Install command
@@ -4103,7 +4103,7 @@ add_requires("opencl-headers")
 | -- | -- |
 | Homepage | [https://github.com/openresty/luajit2](https://github.com/openresty/luajit2) |
 | Versions | v2.1-20220310 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [openrestry-luajit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openrestry-luajit/xmake.lua) |
 
 ##### Install command
@@ -4127,7 +4127,7 @@ add_requires("openrestry-luajit")
 | Homepage | [https://github.com/Tessil/ordered-map](https://github.com/Tessil/ordered-map) |
 | License | MIT |
 | Versions | v1.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [ordered_map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ordered_map/xmake.lua) |
 
 ##### Install command
@@ -4153,7 +4153,7 @@ add_requires("ordered_map")
 | Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
 | License | Apache-2.0 |
 | Versions | 1.33, 1.34, 1.35 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
 
 ##### Install command
@@ -4176,7 +4176,7 @@ add_requires("parallel-hashmap")
 | -- | -- |
 | Homepage | [http://www.gnu.org/software/patch/patch.html](http://www.gnu.org/software/patch/patch.html) |
 | Versions | 2.7.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [patch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patch/xmake.lua) |
 
 ##### Install command
@@ -4199,7 +4199,7 @@ add_requires("patch")
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
 | Versions | 10.39, 10.40 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
 
 ##### Install command
@@ -4223,7 +4223,7 @@ add_requires("pcre2")
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSD-2-Clause |
 | Versions | v1.3.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [picojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picojson/xmake.lua) |
 
 ##### Install command
@@ -4247,7 +4247,7 @@ add_requires("picojson")
 | Homepage | [https://github.com/google/piex](https://github.com/google/piex) |
 | License | Apache-2.0 |
 | Versions | 20190530 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [piex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/piex/xmake.lua) |
 
 ##### Install command
@@ -4270,7 +4270,7 @@ add_requires("piex")
 | -- | -- |
 | Homepage | [https://freedesktop.org/wiki/Software/pkg-config/](https://freedesktop.org/wiki/Software/pkg-config/) |
 | Versions | 0.29.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [pkg-config/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkg-config/xmake.lua) |
 
 ##### Install command
@@ -4293,7 +4293,7 @@ add_requires("pkg-config")
 | -- | -- |
 | Homepage | [http://pkgconf.org](http://pkgconf.org) |
 | Versions | 1.7.4, 1.8.0, 1.9.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
 
 ##### Install command
@@ -4316,7 +4316,7 @@ add_requires("pkgconf")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/pprint](https://github.com/p-ranav/pprint) |
 | Versions | 2020.2.20 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [pprint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pprint/xmake.lua) |
 
 ##### Install command
@@ -4339,7 +4339,7 @@ add_requires("pprint")
 | -- | -- |
 | Homepage | [http://gamma.cs.unc.edu/SSV/](http://gamma.cs.unc.edu/SSV/) |
 | Versions | 1.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [pqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pqp/xmake.lua) |
 
 ##### Install command
@@ -4362,7 +4362,7 @@ add_requires("pqp")
 | -- | -- |
 | Homepage | [https://premake.github.io/](https://premake.github.io/) |
 | Versions | 2022.06.21 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [premake5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/premake5/xmake.lua) |
 
 ##### Install command
@@ -4385,7 +4385,7 @@ add_requires("premake5")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | Versions | 3.8.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [protoc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protoc/xmake.lua) |
 
 ##### Install command
@@ -4409,7 +4409,7 @@ add_requires("protoc")
 | Homepage | [https://github.com/avaneev/prvhash](https://github.com/avaneev/prvhash) |
 | License | MIT |
 | Versions | 4.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [prvhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prvhash/xmake.lua) |
 
 ##### Install command
@@ -4432,7 +4432,7 @@ add_requires("prvhash")
 | -- | -- |
 | Homepage | [https://github.com/imageworks/pystring](https://github.com/imageworks/pystring) |
 | Versions | 2020.02.04 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [pystring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pystring/xmake.lua) |
 
 ##### Install command
@@ -4455,7 +4455,7 @@ add_requires("pystring")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | Versions | 2.7.18, 3.10.6, 3.7.9, 3.8.10, 3.9.10, 3.9.13, 3.9.5, 3.9.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
 ##### Install command
@@ -4478,7 +4478,7 @@ add_requires("python")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | Versions | 2.7.15, 2.7.18 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [python2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python2/xmake.lua) |
 
 ##### Install command
@@ -4503,7 +4503,7 @@ add_requires("python2")
 | -- | -- |
 | Homepage | [https://github.com/phoboslab/qoi](https://github.com/phoboslab/qoi) |
 | Versions | 2021.12.22 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [qoi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qoi/xmake.lua) |
 
 ##### Install command
@@ -4527,7 +4527,7 @@ add_requires("qoi")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [qt5base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5base/xmake.lua) |
 
 ##### Install command
@@ -4551,7 +4551,7 @@ add_requires("qt5base")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [qt5core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5core/xmake.lua) |
 
 ##### Install command
@@ -4575,7 +4575,7 @@ add_requires("qt5core")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [qt5gui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5gui/xmake.lua) |
 
 ##### Install command
@@ -4599,7 +4599,7 @@ add_requires("qt5gui")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [qt5lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5lib/xmake.lua) |
 
 ##### Install command
@@ -4623,7 +4623,7 @@ add_requires("qt5lib")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [qt5network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5network/xmake.lua) |
 
 ##### Install command
@@ -4647,7 +4647,7 @@ add_requires("qt5network")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [qt5widgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5widgets/xmake.lua) |
 
 ##### Install command
@@ -4670,7 +4670,7 @@ add_requires("qt5widgets")
 | -- | -- |
 | Homepage | [https://bellard.org/quickjs/](https://bellard.org/quickjs/) |
 | Versions | 2021.03.27 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [quickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs/xmake.lua) |
 
 ##### Install command
@@ -4696,7 +4696,7 @@ add_requires("quickjs")
 | Homepage | [https://github.com/ericniebler/range-v3/](https://github.com/ericniebler/range-v3/) |
 | License | BSL-1.0 |
 | Versions | 0.11.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [range-v3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/range-v3/xmake.lua) |
 
 ##### Install command
@@ -4719,7 +4719,7 @@ add_requires("range-v3")
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
 | Versions | 8.50 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
 ##### Install command
@@ -4742,7 +4742,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
 | Versions | 2022.7.20, v1.1.0, v1.1.0-arrow |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
 
 ##### Install command
@@ -4766,7 +4766,7 @@ add_requires("rapidjson")
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
 | Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
 ##### Install command
@@ -4790,7 +4790,7 @@ add_requires("re2")
 | Homepage | [https://github.com/cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) |
 | License | BSD-3-Clause |
 | Versions | v1.0.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [readerwriterqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readerwriterqueue/xmake.lua) |
 
 ##### Install command
@@ -4814,7 +4814,7 @@ add_requires("readerwriterqueue")
 | Homepage | [https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) |
 | License | zlib |
 | Versions | 1.5.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [recastnavigation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/recastnavigation/xmake.lua) |
 
 ##### Install command
@@ -4838,7 +4838,7 @@ add_requires("recastnavigation")
 | Homepage | [https://github.com/DaanDeMeyer/reproc](https://github.com/DaanDeMeyer/reproc) |
 | License | MIT |
 | Versions | v14.2.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [reproc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reproc/xmake.lua) |
 
 ##### Install command
@@ -4862,7 +4862,7 @@ add_requires("reproc")
 | Homepage | [https://github.com/martinus/robin-hood-hashing](https://github.com/martinus/robin-hood-hashing) |
 | License | MIT |
 | Versions | 3.11.3, 3.11.5 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [robin-hood-hashing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-hood-hashing/xmake.lua) |
 
 ##### Install command
@@ -4886,7 +4886,7 @@ add_requires("robin-hood-hashing")
 | Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
 | License | MIT |
 | Versions | v0.6.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
 
 ##### Install command
@@ -4910,7 +4910,7 @@ add_requires("robin-map")
 | Homepage | [http://w3.impa.br/~diego/software/rply/](http://w3.impa.br/~diego/software/rply/) |
 | License | MIT |
 | Versions | 1.1.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [rply/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rply/xmake.lua) |
 
 ##### Install command
@@ -4934,7 +4934,7 @@ add_requires("rply")
 | Homepage | [https://www.rttr.org](https://www.rttr.org) |
 | License | MIT |
 | Versions | 0.9.5, 0.9.6 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [rttr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rttr/xmake.lua) |
 
 ##### Install command
@@ -4959,7 +4959,7 @@ add_requires("rttr")
 | -- | -- |
 | Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
 | Versions | 0.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
 
 ##### Install command
@@ -4982,7 +4982,7 @@ add_requires("scnlib")
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
 | Versions | 4.1.0, 4.3.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 
 ##### Install command
@@ -5005,7 +5005,7 @@ add_requires("scons")
 | -- | -- |
 | Homepage | [simd-everywhere.github.io/blog/](simd-everywhere.github.io/blog/) |
 | Versions | 0.7.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [simde/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simde/xmake.lua) |
 
 ##### Install command
@@ -5053,7 +5053,7 @@ add_requires("simdjson")
 | Homepage | [https://github.com/floooh/sokol](https://github.com/floooh/sokol) |
 | License | zlib |
 | Versions | 2022.02.10 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [sokol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sokol/xmake.lua) |
 
 ##### Install command
@@ -5076,7 +5076,7 @@ add_requires("sokol")
 | -- | -- |
 | Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
 | Versions | v3.2.1, v3.2.2, v3.2.3 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
 
 ##### Install command
@@ -5099,7 +5099,7 @@ add_requires("sol2")
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
 | Versions | v1.10.0, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
 ##### Install command
@@ -5123,7 +5123,7 @@ add_requires("spdlog")
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
 | Versions | 1.2.198+0, 1.3.211+0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
 ##### Install command
@@ -5146,7 +5146,7 @@ add_requires("spirv-headers")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
 ##### Install command
@@ -5169,7 +5169,7 @@ add_requires("sqlite3")
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
 | Versions | 2021.07.13, 2021.09.10 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
 ##### Install command
@@ -5193,7 +5193,7 @@ add_requires("stb")
 | Homepage | [https://github.com/martinmoene/string-view-lite](https://github.com/martinmoene/string-view-lite) |
 | License | BSL-1.0 |
 | Versions | v1.7.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [string-view-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/string-view-lite/xmake.lua) |
 
 ##### Install command
@@ -5217,7 +5217,7 @@ add_requires("string-view-lite")
 | Homepage | [https://www.partow.net/programming/strtk/index.html](https://www.partow.net/programming/strtk/index.html) |
 | License | MIT |
 | Versions | 2020.01.01 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [strtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strtk/xmake.lua) |
 
 ##### Install command
@@ -5241,7 +5241,7 @@ add_requires("strtk")
 | Homepage | [http://swig.org/](http://swig.org/) |
 | License | GPL-3.0 |
 | Versions | 4.0.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
 
 ##### Install command
@@ -5267,7 +5267,7 @@ add_requires("swig")
 | Homepage | [https://github.com/p-ranav/tabulate](https://github.com/p-ranav/tabulate) |
 | License | MIT |
 | Versions | 1.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tabulate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tabulate/xmake.lua) |
 
 ##### Install command
@@ -5291,7 +5291,7 @@ add_requires("tabulate")
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
 | Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 
 ##### Install command
@@ -5315,7 +5315,7 @@ add_requires("taskflow")
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
 | Versions | 6.3.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 
 ##### Install command
@@ -5338,7 +5338,7 @@ add_requires("taywee_args")
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
 | Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
 ##### Install command
@@ -5362,7 +5362,7 @@ add_requires("tbox")
 | Homepage | [https://sourceforge.net/projects/tclap/](https://sourceforge.net/projects/tclap/) |
 | License | MIT |
 | Versions | 1.4.0-rc1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tclap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tclap/xmake.lua) |
 
 ##### Install command
@@ -5386,7 +5386,7 @@ add_requires("tclap")
 | Homepage | [https://github.com/bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) |
 | License | MIT |
 | Versions | v3.3.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [thread-pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thread-pool/xmake.lua) |
 
 ##### Install command
@@ -5410,7 +5410,7 @@ add_requires("thread-pool")
 | Homepage | [https://github.com/NVIDIA/thrust](https://github.com/NVIDIA/thrust) |
 | License | Apache-2.0 |
 | Versions | 1.17.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [thrust/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrust/xmake.lua) |
 
 ##### Install command
@@ -5434,7 +5434,7 @@ add_requires("thrust")
 | Homepage | [https://gitlab.com/eidheim/tiny-process-library](https://gitlab.com/eidheim/tiny-process-library) |
 | License | MIT |
 | Versions | v2.0.4 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tiny-process-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiny-process-library/xmake.lua) |
 
 ##### Install command
@@ -5458,7 +5458,7 @@ add_requires("tiny-process-library")
 | Homepage | [https://github.com/intel/tinycbor](https://github.com/intel/tinycbor) |
 | License | MIT |
 | Versions | v0.6.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tinycbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycbor/xmake.lua) |
 
 ##### Install command
@@ -5481,7 +5481,7 @@ add_requires("tinycbor")
 | -- | -- |
 | Homepage | [https://github.com/intel/tinycrypt](https://github.com/intel/tinycrypt) |
 | Versions | 2019.9.18 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tinycrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycrypt/xmake.lua) |
 
 ##### Install command
@@ -5505,7 +5505,7 @@ add_requires("tinycrypt")
 | Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
 | License | BSD-3-Clause |
 | Versions | v1.0.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
 
 ##### Install command
@@ -5528,7 +5528,7 @@ add_requires("tinyexr")
 | -- | -- |
 | Homepage | [https://github.com/c42f/tinyformat/](https://github.com/c42f/tinyformat/) |
 | Versions | 2.3.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tinyformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua) |
 
 ##### Install command
@@ -5552,7 +5552,7 @@ add_requires("tinyformat")
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
 | Versions | v2.5.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 
 ##### Install command
@@ -5576,7 +5576,7 @@ add_requires("tinygltf")
 | Homepage | [https://github.com/tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) |
 | License | MIT |
 | Versions | v1.0.7, v2.0.0rc10 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tinyobjloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyobjloader/xmake.lua) |
 
 ##### Install command
@@ -5600,7 +5600,7 @@ add_requires("tinyobjloader")
 | Homepage | [https://sourceforge.net/projects/tinyxml/](https://sourceforge.net/projects/tinyxml/) |
 | License | zlib |
 | Versions | 2.6.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tinyxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml/xmake.lua) |
 
 ##### Install command
@@ -5623,7 +5623,7 @@ add_requires("tinyxml")
 | -- | -- |
 | Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
 | Versions | 8.0.0, 9.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tinyxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml2/xmake.lua) |
 
 ##### Install command
@@ -5647,7 +5647,7 @@ add_requires("tinyxml2")
 | Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
 | License | CC0 |
 | Versions | v1.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tl_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_expected/xmake.lua) |
 
 ##### Install command
@@ -5671,7 +5671,7 @@ add_requires("tl_expected")
 | Homepage | [https://github.com/TartanLlama/function_ref](https://github.com/TartanLlama/function_ref) |
 | License | CC0 |
 | Versions | v1.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [tl_function_ref/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_function_ref/xmake.lua) |
 
 ##### Install command
@@ -5694,7 +5694,7 @@ add_requires("tl_function_ref")
 | -- | -- |
 | Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
 | Versions | v2.5.0, v3.0.0, v3.1.0, v3.2.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
 
 ##### Install command
@@ -5718,7 +5718,7 @@ add_requires("toml++")
 | Homepage | [https://github.com/ToruNiina/toml11](https://github.com/ToruNiina/toml11) |
 | License | MIT |
 | Versions | v3.7.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [toml11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml11/xmake.lua) |
 
 ##### Install command
@@ -5743,7 +5743,7 @@ add_requires("toml11")
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/uchardet/](https://www.freedesktop.org/wiki/Software/uchardet/) |
 | Versions | 0.0.7 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [uchardet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uchardet/xmake.lua) |
 
 ##### Install command
@@ -5767,7 +5767,7 @@ add_requires("uchardet")
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
 | Versions | v1.1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 
 ##### Install command
@@ -5790,7 +5790,7 @@ add_requires("unordered_dense")
 | -- | -- |
 | Homepage | [http://infozip.sourceforge.net/UnZip.html](http://infozip.sourceforge.net/UnZip.html) |
 | Versions | 6.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [unzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unzip/xmake.lua) |
 
 ##### Install command
@@ -5814,7 +5814,7 @@ add_requires("unzip")
 | Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
 | License | BSD-3-Clause |
 | Versions | 1.0.5 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
 
 ##### Install command
@@ -5838,7 +5838,7 @@ add_requires("urdfdom-headers")
 | Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
 | License | MIT |
 | Versions | v2.7.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
 
 ##### Install command
@@ -5862,7 +5862,7 @@ add_requires("utf8proc")
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
 | Versions | v3.2.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
 ##### Install command
@@ -5885,7 +5885,7 @@ add_requires("utfcpp")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/uvw](https://github.com/skypjack/uvw) |
 | Versions | 2.10.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [uvw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uvw/xmake.lua) |
 
 ##### Install command
@@ -5911,7 +5911,7 @@ add_requires("uvw")
 | Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
 | License | MIT |
 | Versions | 1.2.162, 1.2.190, 1.3.204 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
 
 ##### Install command
@@ -5935,7 +5935,7 @@ add_requires("volk")
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
 ##### Install command
@@ -5959,7 +5959,7 @@ add_requires("vulkan-headers")
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | MIT |
 | Versions | v3.0.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
 
 ##### Install command
@@ -5985,7 +5985,7 @@ add_requires("vulkan-memory-allocator")
 | Homepage | [https://www.wolfssl.com](https://www.wolfssl.com) |
 | License | GPL-2.0 |
 | Versions | v5.3.0-stable |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [wolfssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wolfssl/xmake.lua) |
 
 ##### Install command
@@ -6010,7 +6010,7 @@ add_requires("wolfssl")
 | -- | -- |
 | Homepage | [https://github.com/herumi/xbyak](https://github.com/herumi/xbyak) |
 | Versions | v6.02, v6.03 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [xbyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xbyak/xmake.lua) |
 
 ##### Install command
@@ -6034,7 +6034,7 @@ add_requires("xbyak")
 | Homepage | [http://cyan4973.github.io/xxHash/](http://cyan4973.github.io/xxHash/) |
 | License | BSD-2-Clause |
 | Versions | v0.8.0, v0.8.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [xxhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxhash/xmake.lua) |
 
 ##### Install command
@@ -6059,7 +6059,7 @@ add_requires("xxhash")
 | -- | -- |
 | Homepage | [https://yasm.tortall.net/](https://yasm.tortall.net/) |
 | Versions | 1.3.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [yasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yasm/xmake.lua) |
 
 ##### Install command
@@ -6082,7 +6082,7 @@ add_requires("yasm")
 | -- | -- |
 | Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
 | Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
 
 ##### Install command
@@ -6107,7 +6107,7 @@ add_requires("yyjson")
 | -- | -- |
 | Homepage | [https://www.ziglang.org/](https://www.ziglang.org/) |
 | Versions | 0.7.1, 0.9.1 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
 
 ##### Install command
@@ -6130,7 +6130,7 @@ add_requires("zig")
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
 | Versions | v1.2.10, v1.2.11, v1.2.12 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
 ##### Install command
@@ -6154,7 +6154,7 @@ add_requires("zlib")
 | Homepage | [https://github.com/rudi-cilibrasi/zlibcomplete](https://github.com/rudi-cilibrasi/zlibcomplete) |
 | License | MIT |
 | Versions | 1.0.5 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [zlibcomplete/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlibcomplete/xmake.lua) |
 
 ##### Install command
@@ -6178,7 +6178,7 @@ add_requires("zlibcomplete")
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
 | License | BSD-3-Clause |
 | Versions | v1.4.5, v1.5.0, v1.5.2 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
 
 ##### Install command
@@ -6202,7 +6202,7 @@ add_requires("zstd")
 | Homepage | [https://github.com/zyantific/zycore-c](https://github.com/zyantific/zycore-c) |
 | License | MIT |
 | Versions | v1.0.0, v1.1.0 |
-| Architectures | arm64, armv7, armv7s, i386, x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [zycore-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zycore-c/xmake.lua) |
 
 ##### Install command

@@ -4202,6 +4202,30 @@ add_requires("genie")
 ```
 
 
+### geographiclib (linux)
+
+
+| Description | *GeographicLib is a small C++ library for geodesic and rhumb line calculations and conversions between geographic, UTM, UPS, MGRS, geocentric* |
+| -- | -- |
+| Homepage | [https://geographiclib.sourceforge.io/C++/doc/index.html](https://geographiclib.sourceforge.io/C++/doc/index.html) |
+| License | MIT License |
+| Versions | 2.1.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [geographiclib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geographiclib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install geographiclib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geographiclib")
+```
+
+
 ### geos (linux)
 
 
