@@ -1965,6 +1965,30 @@ add_requires("cxxopts")
 
 
 ## d
+### d3d12-memory-allocator (windows)
+
+
+| Description | *Easy to integrate memory allocation library for Direct3D 12* |
+| -- | -- |
+| Homepage | [https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator](https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator) |
+| License | MIT |
+| Versions | v2.0.1 |
+| Architectures | x64 |
+| Definition | [d3d12-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/d3d12-memory-allocator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install d3d12-memory-allocator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("d3d12-memory-allocator")
+```
+
+
 ### dataframe (windows)
 
 
