@@ -12913,6 +12913,29 @@ add_requires("toml11")
 ```
 
 
+### tracy (windows)
+
+
+| Description | *C++ frame profiler* |
+| -- | -- |
+| Homepage | [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy) |
+| Versions | v0.8.2 |
+| Architectures | x64 |
+| Definition | [tracy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tracy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tracy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tracy")
+```
+
+
 ### trantor (windows)
 
 
