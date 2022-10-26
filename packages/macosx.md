@@ -3729,6 +3729,30 @@ add_requires("gcem")
 ```
 
 
+### gdal (macosx)
+
+
+| Description | *L is a translator library for raster and vector geospatial data formats that is released under an MIT style Open Source License by the Open Source Geospatial Foundation* |
+| -- | -- |
+| Homepage | [https://gdal.org/](https://gdal.org/) |
+| License | MIT |
+| Versions | 3.5.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gdal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gdal")
+```
+
+
 ### gdk-pixbuf (macosx)
 
 
@@ -11430,7 +11454,7 @@ add_requires("openimageio")
 | -- | -- |
 | Homepage | [http://www.openjpeg.org/](http://www.openjpeg.org/) |
 | License | BSD-2-Clause |
-| Versions | 2.3.1, 2.4.0 |
+| Versions | v2.3.1, v2.4.0, v2.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [openjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjpeg/xmake.lua) |
 
@@ -12255,7 +12279,7 @@ add_requires("premake5")
 | -- | -- |
 | Homepage | [https://proj.org/index.html](https://proj.org/index.html) |
 | License | MIT |
-| Versions | 9.0.1 |
+| Versions | 8.2.1, 9.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [proj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proj/xmake.lua) |
 

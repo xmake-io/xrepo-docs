@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: d3d12-memory-allocator, vulkansdk, geographiclib**
+- **Recently added: gdal, d3d12-memory-allocator, vulkansdk**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
