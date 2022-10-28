@@ -11209,6 +11209,30 @@ add_requires("onetbb")
 ```
 
 
+### onnx (macosx)
+
+
+| Description | *Open standard for machine learning interoperability* |
+| -- | -- |
+| Homepage | [https://onnx.ai/](https://onnx.ai/) |
+| License | Apache-2.0 |
+| Versions | v1.11.0, v1.12.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [onnx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onnx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install onnx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("onnx")
+```
+
+
 ### onnxruntime (macosx)
 
 
