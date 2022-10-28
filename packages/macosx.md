@@ -5766,6 +5766,30 @@ add_requires("lemon")
 ```
 
 
+### leptonica (macosx)
+
+
+| Description | *Leptonica is a pedagogically-oriented open source site containing software that is broadly useful for image processing and image analysis applications.* |
+| -- | -- |
+| Homepage | [http://www.leptonica.org/](http://www.leptonica.org/) |
+| License | BSD-2-Clause |
+| Versions | 1.80.0, 1.81.1, 1.82.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [leptonica/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leptonica/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install leptonica
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("leptonica")
+```
+
+
 ### leveldb (macosx)
 
 
@@ -14353,6 +14377,30 @@ xrepo install tclap
 
 ```lua
 add_requires("tclap")
+```
+
+
+### tesseract (macosx)
+
+
+| Description | *Tesseract Open Source OCR Engine* |
+| -- | -- |
+| Homepage | [https://tesseract-ocr.github.io/](https://tesseract-ocr.github.io/) |
+| License | Apache-2.0 |
+| Versions | 4.1.1, 4.1.3, 5.0.1, 5.2.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [tesseract/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tesseract/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tesseract
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tesseract")
 ```
 
 

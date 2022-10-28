@@ -12448,7 +12448,7 @@ add_requires("tclap")
 | Homepage | [https://tesseract-ocr.github.io/](https://tesseract-ocr.github.io/) |
 | License | Apache-2.0 |
 | Versions | 4.1.1, 4.1.3, 5.0.1, 5.2.0 |
-| Architectures | arm64, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [tesseract/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tesseract/xmake.lua) |
 
 ##### Install command
