@@ -3732,7 +3732,7 @@ add_requires("gcem")
 ### gdal (macosx)
 
 
-| Description | *L is a translator library for raster and vector geospatial data formats that is released under an MIT style Open Source License by the Open Source Geospatial Foundation* |
+| Description | *GDAL is a translator library for raster and vector geospatial data formats by the Open Source Geospatial Foundation* |
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
