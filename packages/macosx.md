@@ -13842,7 +13842,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Cross/](https://github.com/KhronosGroup/SPIRV-Cross/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.231.1 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.231+1 |
 | Architectures | arm64, x86_64 |
 | Definition | [spirv-cross/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-cross/xmake.lua) |
 
@@ -14696,7 +14696,7 @@ add_requires("tinyformat")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
-| Versions | v2.5.0 |
+| Versions | v2.5.0, v2.6.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 
