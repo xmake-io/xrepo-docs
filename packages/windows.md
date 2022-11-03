@@ -9938,7 +9938,7 @@ add_requires("openssl")
 | -- | -- |
 | Homepage | [https://graphics.pixar.com/opensubdiv/docs/intro.html](https://graphics.pixar.com/opensubdiv/docs/intro.html) |
 | License | Apache-2.0 |
-| Versions | 3.4.4 |
+| Versions | 3.4.4, 3.5.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [opensubdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opensubdiv/xmake.lua) |
 
@@ -10693,7 +10693,7 @@ add_requires("prvhash")
 | -- | -- |
 | Homepage | [http://ptex.us/](http://ptex.us/) |
 | License | BSD-3-Clause |
-| Versions | v2.3.2, v2.4.1 |
+| Versions | v2.3.2, v2.4.1, v2.4.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
 

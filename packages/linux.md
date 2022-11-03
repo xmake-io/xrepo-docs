@@ -8833,7 +8833,7 @@ add_requires("libwfkafka")
 | Description | *X.Org: Core X11 protocol client library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.6.9, 1.7.0, 1.7.3 |
+| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
 
@@ -8856,7 +8856,7 @@ add_requires("libx11")
 | Description | *X.Org: A Sample Authorization Protocol for X* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.0.9 |
+| Versions | 1.0.10 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxau/xmake.lua) |
 
@@ -8925,7 +8925,7 @@ add_requires("libxcb")
 | Description | *X.Org: X Window System Cursor management library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.2.0 |
+| Versions | 1.2.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxcursor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcursor/xmake.lua) |
 
@@ -8994,7 +8994,7 @@ add_requires("libxdmcp")
 | Description | *X.Org: Library for common extensions to the X11 protocol* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.3.4 |
+| Versions | 1.3.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxext/xmake.lua) |
 
@@ -9017,7 +9017,7 @@ add_requires("libxext")
 | Description | *X.Org: Header files for the XFIXES extension* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 5.0.3 |
+| Versions | 6.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxfixes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxfixes/xmake.lua) |
 
@@ -9087,7 +9087,7 @@ add_requires("libxi")
 | Description | *X.Org: API for Xinerama extension to X11 Protocol* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.1.4 |
+| Versions | 1.1.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxinerama/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxinerama/xmake.lua) |
 
@@ -9250,7 +9250,7 @@ add_requires("libxrandr")
 | Description | *X.Org: Library for the Render Extension to the X11 protocol* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 0.9.10 |
+| Versions | 0.9.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxrender/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxrender/xmake.lua) |
 
@@ -9413,7 +9413,7 @@ add_requires("libxvmc")
 | Description | *X.Org: XFree86-VidMode X extension* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.1.4 |
+| Versions | 1.1.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxxf86vm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxxf86vm/xmake.lua) |
 
@@ -12586,7 +12586,7 @@ add_requires("openssl")
 | -- | -- |
 | Homepage | [https://graphics.pixar.com/opensubdiv/docs/intro.html](https://graphics.pixar.com/opensubdiv/docs/intro.html) |
 | License | Apache-2.0 |
-| Versions | 3.4.4 |
+| Versions | 3.4.4, 3.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opensubdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opensubdiv/xmake.lua) |
 
@@ -13460,7 +13460,7 @@ add_requires("prvhash")
 | -- | -- |
 | Homepage | [http://ptex.us/](http://ptex.us/) |
 | License | BSD-3-Clause |
-| Versions | v2.3.2, v2.4.1 |
+| Versions | v2.3.2, v2.4.1, v2.4.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
 
@@ -16349,7 +16349,7 @@ add_requires("util-linux")
 | Description | *X.Org: Set of autoconf macros used to build other xorg packages* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.19.2 |
+| Versions | 1.19.2, 1.19.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [util-macros/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/util-macros/xmake.lua) |
 
@@ -17227,7 +17227,7 @@ add_requires("xmlto")
 | Description | *X.Org: Protocol Headers* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 2019.2, 2021.3, 2021.5 |
+| Versions | 2021.5, 2022.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xorgproto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xorgproto/xmake.lua) |
 
