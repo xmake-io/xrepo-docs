@@ -12185,7 +12185,7 @@ add_requires("open3d")
 | -- | -- |
 | Homepage | [https://openal-soft.org](https://openal-soft.org) |
 | License | LGPL-2.0 |
-| Versions | 1.21.1, 1.22.0 |
+| Versions | 1.21.1, 1.22.0, 1.22.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openal-soft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua) |
 
