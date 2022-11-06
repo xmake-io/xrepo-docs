@@ -5166,6 +5166,29 @@ add_requires("pdcurses")
 ```
 
 
+### pdcursesmod (mingw)
+
+
+| Description | *PDCurses Modified - a curses library modified and extended from the 'official' pdcurses* |
+| -- | -- |
+| Homepage | [https://projectpluto.com/win32a.htm](https://projectpluto.com/win32a.htm) |
+| Versions | v4.3.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [pdcursesmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdcursesmod/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] pdcursesmod
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pdcursesmod")
+```
+
+
 ### pegtl (mingw)
 
 
