@@ -1852,6 +1852,29 @@ add_requires("gyp-next")
 
 
 ## h
+### handy (iphoneos)
+
+
+| Description | *A simple C++11 network server framework* |
+| -- | -- |
+| Homepage | [https://github.com/yedf2/handy](https://github.com/yedf2/handy) |
+| Versions | 0.2.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [handy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/handy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos handy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("handy")
+```
+
+
 ### happly (iphoneos)
 
 
