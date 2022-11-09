@@ -7213,7 +7213,7 @@ add_requires("vulkan-hpp")
 | -- | -- |
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | MIT |
-| Versions | v3.0.0 |
+| Versions | v3.0.0, v3.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
 
