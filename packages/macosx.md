@@ -3705,6 +3705,29 @@ add_requires("fxdiv")
 
 
 ## g
+### g2o (macosx)
+
+
+| Description | *g2o: A General Framework for Graph Optimization* |
+| -- | -- |
+| Homepage | [http://openslam.org/g2o.html](http://openslam.org/g2o.html) |
+| Versions | 2020.12.23 |
+| Architectures | arm64, x86_64 |
+| Definition | [g2o/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/g2o/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install g2o
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("g2o")
+```
+
+
 ### gcem (macosx)
 
 
