@@ -11254,6 +11254,29 @@ add_requires("rapidjson")
 ```
 
 
+### raw_pdb (windows)
+
+
+| Description | *A C++11 library for reading Microsoft Program DataBase PDB files* |
+| -- | -- |
+| Homepage | [https://github.com/MolecularMatters/raw_pdb](https://github.com/MolecularMatters/raw_pdb) |
+| Versions | 2022.10.17 |
+| Architectures | arm64, x64, x86 |
+| Definition | [raw_pdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raw_pdb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install raw_pdb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("raw_pdb")
+```
+
+
 ### raygui (windows)
 
 
