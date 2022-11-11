@@ -7576,6 +7576,29 @@ add_requires("libsigc++")
 ```
 
 
+### libsimdpp (macosx)
+
+
+| Description | *Portable header-only C++ low level SIMD library* |
+| -- | -- |
+| Homepage | [https://github.com/p12tic/libsimdpp](https://github.com/p12tic/libsimdpp) |
+| Versions | v2.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [libsimdpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsimdpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsimdpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsimdpp")
+```
+
+
 ### libsm (macosx)
 
 
