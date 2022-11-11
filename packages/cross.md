@@ -4358,6 +4358,29 @@ add_requires("rply")
 ```
 
 
+### rpmalloc (cross)
+
+
+| Description | *Public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C* |
+| -- | -- |
+| Homepage | [https://github.com/mjansson/rpmalloc](https://github.com/mjansson/rpmalloc) |
+| Versions | 1.4.4 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [rpmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rpmalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] rpmalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rpmalloc")
+```
+
+
 ### rttr (cross)
 
 

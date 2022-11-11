@@ -4973,6 +4973,29 @@ add_requires("rply")
 ```
 
 
+### rpmalloc (iphoneos)
+
+
+| Description | *Public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C* |
+| -- | -- |
+| Homepage | [https://github.com/mjansson/rpmalloc](https://github.com/mjansson/rpmalloc) |
+| Versions | 1.4.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [rpmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rpmalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos rpmalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rpmalloc")
+```
+
+
 ### rttr (iphoneos)
 
 
