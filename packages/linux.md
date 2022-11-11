@@ -3348,6 +3348,30 @@ add_requires("faiss")
 ```
 
 
+### fann (linux)
+
+
+| Description | *Official github repository for Fast Artificial Neural Network Library (FANN)* |
+| -- | -- |
+| Homepage | [https://github.com/libfann/fann](https://github.com/libfann/fann) |
+| License | LGPL-2.1 |
+| Versions | 2021.03.14 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fann/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fann
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fann")
+```
+
+
 ### farmhash (linux)
 
 
