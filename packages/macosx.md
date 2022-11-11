@@ -4794,6 +4794,30 @@ add_requires("harfbuzz")
 ```
 
 
+### hash-library (macosx)
+
+
+| Description | *Portable C++ hashing library* |
+| -- | -- |
+| Homepage | [https://create.stephan-brumme.com/hash-library/](https://create.stephan-brumme.com/hash-library/) |
+| License | zlib |
+| Versions | 2021.09.29 |
+| Architectures | arm64, x86_64 |
+| Definition | [hash-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hash-library/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hash-library
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hash-library")
+```
+
+
 ### hdf5 (macosx)
 
 

@@ -1758,6 +1758,30 @@ add_requires("happly")
 ```
 
 
+### hash-library (cross)
+
+
+| Description | *Portable C++ hashing library* |
+| -- | -- |
+| Homepage | [https://create.stephan-brumme.com/hash-library/](https://create.stephan-brumme.com/hash-library/) |
+| License | zlib |
+| Versions | 2021.09.29 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [hash-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hash-library/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] hash-library
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hash-library")
+```
+
+
 ### hiredis (cross)
 
 
