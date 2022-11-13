@@ -355,6 +355,30 @@ add_requires("capstone")
 ```
 
 
+### cargs (iphoneos)
+
+
+| Description | *A lightweight cross-platform getopt alternative that works on Linux, Windows and macOS. Command line argument parser library for C/C++. Can be used to parse argv and argc parameters.* |
+| -- | -- |
+| Homepage | [https://likle.github.io/cargs/](https://likle.github.io/cargs/) |
+| License | MIT |
+| Versions | v1.0.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [cargs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cargs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos cargs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cargs")
+```
+
+
 ### catch2 (iphoneos)
 
 

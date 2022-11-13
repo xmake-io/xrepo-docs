@@ -903,6 +903,30 @@ add_requires("capstone")
 ```
 
 
+### cargs (windows)
+
+
+| Description | *A lightweight cross-platform getopt alternative that works on Linux, Windows and macOS. Command line argument parser library for C/C++. Can be used to parse argv and argc parameters.* |
+| -- | -- |
+| Homepage | [https://likle.github.io/cargs/](https://likle.github.io/cargs/) |
+| License | MIT |
+| Versions | v1.0.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cargs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cargs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cargs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cargs")
+```
+
+
 ### catch2 (windows)
 
 
@@ -8275,7 +8299,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.7.6, 2.0.1, 2.0.2, 2.0.3, 2.0.5, 2.0.6 |
+| Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.7.6, 1.7.7, 2.0.1, 2.0.2, 2.0.3, 2.0.5, 2.0.6, 2.0.7 |
 | Architectures | arm64, x64, x86 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 

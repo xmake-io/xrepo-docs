@@ -309,6 +309,30 @@ add_requires("ca-certificates")
 ```
 
 
+### cargs (wasm)
+
+
+| Description | *A lightweight cross-platform getopt alternative that works on Linux, Windows and macOS. Command line argument parser library for C/C++. Can be used to parse argv and argc parameters.* |
+| -- | -- |
+| Homepage | [https://likle.github.io/cargs/](https://likle.github.io/cargs/) |
+| License | MIT |
+| Versions | v1.0.3 |
+| Architectures | wasm32 |
+| Definition | [cargs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cargs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm cargs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cargs")
+```
+
+
 ### catch2 (wasm)
 
 

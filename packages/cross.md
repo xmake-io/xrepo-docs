@@ -379,6 +379,30 @@ add_requires("ca-certificates")
 ```
 
 
+### cargs (cross)
+
+
+| Description | *A lightweight cross-platform getopt alternative that works on Linux, Windows and macOS. Command line argument parser library for C/C++. Can be used to parse argv and argc parameters.* |
+| -- | -- |
+| Homepage | [https://likle.github.io/cargs/](https://likle.github.io/cargs/) |
+| License | MIT |
+| Versions | v1.0.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cargs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cargs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cargs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cargs")
+```
+
+
 ### catch2 (cross)
 
 
