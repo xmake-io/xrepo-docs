@@ -333,6 +333,30 @@ add_requires("bison")
 ```
 
 
+### blake3 (mingw)
+
+
+| Description | *BLAKE3 is a cryptographic hash function that is much faster than MD5, SHA-1, SHA-2, SHA-3, and BLAKE2; secure, unlike MD5 and SHA-1 (and secure against length extension, unlike SHA-2); highly parallelizable across any number of threads and SIMD lanes, because it's a Merkle tree on the inside; capable of verified streaming and incremental updates (Merkle tree); a PRF, MAC, KDF, and XOF, as well as a regular hash; and is a single algorithm with no variants, fast on x86-64 and also on smaller architectures.* |
+| -- | -- |
+| Homepage | [https://blake3.io/](https://blake3.io/) |
+| License | CC0-1.0 |
+| Versions | 1.3.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] blake3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blake3")
+```
+
+
 ### blosc (mingw)
 
 
