@@ -2273,6 +2273,29 @@ add_requires("devil")
 ```
 
 
+### discord (macosx)
+
+
+| Description | *Whether you’re part of a school club, gaming group, worldwide art community, or just a handful of friends that want to spend time together, Discord makes it easy to talk every day and hang out more often.* |
+| -- | -- |
+| Homepage | [https://discord.com/developers/docs/game-sdk/](https://discord.com/developers/docs/game-sdk/) |
+| Versions | 2.5.6, 3.2.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [discord/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/discord/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install discord
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("discord")
+```
+
+
 ### dlib (macosx)
 
 
