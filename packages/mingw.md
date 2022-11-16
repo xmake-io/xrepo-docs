@@ -5055,7 +5055,7 @@ add_requires("opencl-headers")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
-| Versions | 1.0.0, 1.0.2u, 1.1.0l, 1.1.1h, 1.1.1k, 1.1.1l, 1.1.1m, 1.1.1n, 1.1.1o, 1.1.1p, 1.1.1q |
+| Versions | 1.0.0, 1.0.2-u, 1.1.0-l, 1.1.1-h, 1.1.1-k, 1.1.1-l, 1.1.1-m, 1.1.1-n, 1.1.1-o, 1.1.1-p, 1.1.1-q |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
