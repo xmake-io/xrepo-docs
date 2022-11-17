@@ -13480,10 +13480,10 @@ add_requires("pqp")
 ### premake5 (linux)
 
 
-| Description | *Premake* |
+| Description | *Premake - Powerfully simple build configuration* |
 | -- | -- |
 | Homepage | [https://premake.github.io/](https://premake.github.io/) |
-| Versions | 2022.06.21 |
+| Versions | 2022.11.17 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [premake5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/premake5/xmake.lua) |
 

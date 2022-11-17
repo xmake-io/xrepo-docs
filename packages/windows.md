@@ -10714,10 +10714,10 @@ add_requires("pqp")
 ### premake5 (windows)
 
 
-| Description | *Premake* |
+| Description | *Premake - Powerfully simple build configuration* |
 | -- | -- |
 | Homepage | [https://premake.github.io/](https://premake.github.io/) |
-| Versions | 2022.06.21 |
+| Versions | 2022.11.17 |
 | Architectures | arm64, x64, x86 |
 | Definition | [premake5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/premake5/xmake.lua) |
 
