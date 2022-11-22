@@ -3697,6 +3697,30 @@ add_requires("qoi")
 ```
 
 
+### quickcpplib (msys)
+
+
+| Description | *Eliminate all the tedious hassle when making state-of-the-art C++ 14 - 23 libraries!* |
+| -- | -- |
+| Homepage | [https://github.com/ned14/quickcpplib](https://github.com/ned14/quickcpplib) |
+| License | Apache-2.0 |
+| Versions | 20221116 |
+| Architectures | i386, x86_64 |
+| Definition | [quickcpplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickcpplib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quickcpplib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quickcpplib")
+```
+
+
 
 ## r
 ### range-v3 (msys)

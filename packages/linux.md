@@ -6498,6 +6498,29 @@ add_requires("libaco")
 ```
 
 
+### libaesgm (linux)
+
+
+| Description | *https://repology.org/project/libaesgm/packages* |
+| -- | -- |
+| Homepage | [https://github.com/xmake-mirror/libaesgm](https://github.com/xmake-mirror/libaesgm) |
+| Versions | 2009.04.29 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libaesgm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaesgm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libaesgm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libaesgm")
+```
+
+
 ### libarchive (linux)
 
 
@@ -14112,6 +14135,30 @@ xrepo install qt5widgets
 
 ```lua
 add_requires("qt5widgets")
+```
+
+
+### quickcpplib (linux)
+
+
+| Description | *Eliminate all the tedious hassle when making state-of-the-art C++ 14 - 23 libraries!* |
+| -- | -- |
+| Homepage | [https://github.com/ned14/quickcpplib](https://github.com/ned14/quickcpplib) |
+| License | Apache-2.0 |
+| Versions | 20221116 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [quickcpplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickcpplib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quickcpplib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quickcpplib")
 ```
 
 
