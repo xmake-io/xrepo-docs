@@ -14684,6 +14684,30 @@ add_requires("rsync")
 ```
 
 
+### rtm (linux)
+
+
+| Description | *Realtime Math* |
+| -- | -- |
+| Homepage | [https://github.com/nfrechette/rtm](https://github.com/nfrechette/rtm) |
+| License | MIT |
+| Versions | v2.1.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rtm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rtm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rtm")
+```
+
+
 ### rttr (linux)
 
 

@@ -13622,6 +13622,30 @@ add_requires("rpmalloc")
 ```
 
 
+### rtm (macosx)
+
+
+| Description | *Realtime Math* |
+| -- | -- |
+| Homepage | [https://github.com/nfrechette/rtm](https://github.com/nfrechette/rtm) |
+| License | MIT |
+| Versions | v2.1.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [rtm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rtm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rtm")
+```
+
+
 ### rttr (macosx)
 
 
