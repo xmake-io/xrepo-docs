@@ -901,6 +901,29 @@ add_requires("bsdiff")
 ```
 
 
+### buddy (macosx)
+
+
+| Description | *Binary Decision Diagrams* |
+| -- | -- |
+| Homepage | [https://github.com/xmake-mirror/Buddy](https://github.com/xmake-mirror/Buddy) |
+| Versions | 2.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [buddy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/buddy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install buddy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("buddy")
+```
+
+
 ### bullet3 (macosx)
 
 
