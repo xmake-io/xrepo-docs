@@ -1550,7 +1550,7 @@ add_requires("collada-dom")
 | -- | -- |
 | Homepage | [https://github.com/CharmedBaryon/CommonLibSSE-NG](https://github.com/CharmedBaryon/CommonLibSSE-NG) |
 | License | MIT |
-| Versions | v3.5.5, v3.5.6 |
+| Versions | v3.5.5, v3.5.6, v3.6.0 |
 | Architectures | x64 |
 | Definition | [commonlibsse-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/commonlibsse-ng/xmake.lua) |
 
