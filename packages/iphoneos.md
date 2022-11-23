@@ -4238,6 +4238,30 @@ add_requires("ordered_map")
 ```
 
 
+### outcome (iphoneos)
+
+
+| Description | *Provides very lightweight outcome<T> and result<T> (non-Boost edition)* |
+| -- | -- |
+| Homepage | [https://github.com/ned14/outcome](https://github.com/ned14/outcome) |
+| License | Apache-2.0 |
+| Versions | v2.2.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [outcome/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/outcome/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos outcome
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("outcome")
+```
+
+
 
 ## p
 ### parallel-hashmap (iphoneos)
