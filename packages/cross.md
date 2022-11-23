@@ -3647,6 +3647,30 @@ add_requires("nodesoup")
 ```
 
 
+### ntkernel-error-category (cross)
+
+
+| Description | *A C++ 11 std::error_category for the NT kernel's NTSTATUS error codes * |
+| -- | -- |
+| Homepage | [https://github.com/ned14/ntkernel-error-category](https://github.com/ned14/ntkernel-error-category) |
+| License | Apache-2.0 |
+| Versions | v1.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ntkernel-error-category/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ntkernel-error-category/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ntkernel-error-category
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ntkernel-error-category")
+```
+
+
 
 ## o
 ### openal-soft (cross)

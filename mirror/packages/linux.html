@@ -4378,7 +4378,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.1, 0.2, 0.3</td>
+<td>0.1, 0.2, 0.3, 0.4</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -18163,6 +18163,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("noise-c")
+</code></pre>
+<h3 id="ntkernelerrorcategorylinux">ntkernel-error-category (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A C++ 11 std::error_category for the NT kernel&#39;s NTSTATUS error codes </em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/ned14/ntkernel-error-category">https://github.com/ned14/ntkernel-error-category</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.0.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ntkernel-error-category/xmake.lua">ntkernel-error-category/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install ntkernel-error-category
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("ntkernel-error-category")
 </code></pre>
 <h3 id="numactllinux">numactl (linux)</h3>
 <table>

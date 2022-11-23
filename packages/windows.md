@@ -2638,7 +2638,7 @@ add_requires("drogon")
 | Description | *Ansi C library for parsing binary output files of LS Dyna (d3plot, binout)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaMotzer09/dynareadout](https://github.com/PucklaMotzer09/dynareadout) |
-| Versions | 0.1, 0.2, 0.3 |
+| Versions | 0.1, 0.2, 0.3, 0.4 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
@@ -9428,6 +9428,30 @@ xrepo install nodesoup
 
 ```lua
 add_requires("nodesoup")
+```
+
+
+### ntkernel-error-category (windows)
+
+
+| Description | *A C++ 11 std::error_category for the NT kernel's NTSTATUS error codes * |
+| -- | -- |
+| Homepage | [https://github.com/ned14/ntkernel-error-category](https://github.com/ned14/ntkernel-error-category) |
+| License | Apache-2.0 |
+| Versions | v1.0.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [ntkernel-error-category/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ntkernel-error-category/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ntkernel-error-category
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ntkernel-error-category")
 ```
 
 
