@@ -1681,6 +1681,30 @@ add_requires("collada-dom")
 ```
 
 
+### concurrencpp (macosx)
+
+
+| Description | *Modern concurrency for C++. Tasks, executors, timers and C++20 coroutines to rule them all* |
+| -- | -- |
+| Homepage | [https://github.com/David-Haim/concurrencpp](https://github.com/David-Haim/concurrencpp) |
+| License | MIT |
+| Versions | 0.1.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [concurrencpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrencpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install concurrencpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("concurrencpp")
+```
+
+
 ### concurrentqueue (macosx)
 
 
