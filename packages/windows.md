@@ -13824,7 +13824,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://vtk.org/](https://vtk.org/) |
 | License | BSD-3-Clause |
-| Versions | 9.0.1, 9.0.3, 9.1.0 |
+| Versions | 9.0.1, 9.0.3, 9.1.0, 9.2.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [vtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vtk/xmake.lua) |
 

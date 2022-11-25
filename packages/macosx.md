@@ -15850,6 +15850,30 @@ add_requires("volk")
 ```
 
 
+### vtk (macosx)
+
+
+| Description | *The Visualization Toolkit (VTK) is open source software for manipulating and displaying scientific data.* |
+| -- | -- |
+| Homepage | [https://vtk.org/](https://vtk.org/) |
+| License | BSD-3-Clause |
+| Versions | 9.0.1, 9.0.3, 9.1.0, 9.2.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [vtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vtk")
+```
+
+
 ### vulkan-headers (macosx)
 
 
