@@ -11114,6 +11114,29 @@ add_requires("pybind11")
 ```
 
 
+### pycdc (windows)
+
+
+| Description | *C++ python bytecode disassembler and decompiler* |
+| -- | -- |
+| Homepage | [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc) |
+| Versions | 2022.10.04 |
+| Architectures | arm64, x64, x86 |
+| Definition | [pycdc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pycdc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pycdc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pycdc")
+```
+
+
 ### pystring (windows)
 
 
