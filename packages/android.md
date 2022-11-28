@@ -3314,6 +3314,30 @@ add_requires("littlefs")
 ```
 
 
+### llfio (android)
+
+
+| Description | *UTF8-CPP: UTF-8 with C++ in a Portable Way* |
+| -- | -- |
+| Homepage | [https://github.com/ned14/llfio](https://github.com/ned14/llfio) |
+| License | Apache-2.0 |
+| Versions | 2022.9.7 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [llfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llfio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] llfio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llfio")
+```
+
+
 ### llhttp (android)
 
 

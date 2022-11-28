@@ -7420,6 +7420,30 @@ add_requires("littlefs")
 ```
 
 
+### llfio (windows)
+
+
+| Description | *UTF8-CPP: UTF-8 with C++ in a Portable Way* |
+| -- | -- |
+| Homepage | [https://github.com/ned14/llfio](https://github.com/ned14/llfio) |
+| License | Apache-2.0 |
+| Versions | 2022.9.7 |
+| Architectures | arm64, x64, x86 |
+| Definition | [llfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llfio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install llfio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llfio")
+```
+
+
 ### llhttp (windows)
 
 

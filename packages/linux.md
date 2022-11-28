@@ -9808,6 +9808,30 @@ add_requires("littlefs")
 ```
 
 
+### llfio (linux)
+
+
+| Description | *UTF8-CPP: UTF-8 with C++ in a Portable Way* |
+| -- | -- |
+| Homepage | [https://github.com/ned14/llfio](https://github.com/ned14/llfio) |
+| License | Apache-2.0 |
+| Versions | 2022.9.7 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [llfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llfio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install llfio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llfio")
+```
+
+
 ### llhttp (linux)
 
 
