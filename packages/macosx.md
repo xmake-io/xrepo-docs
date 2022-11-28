@@ -14072,6 +14072,30 @@ add_requires("simdjson")
 ```
 
 
+### simplethreadpool (macosx)
+
+
+| Description | *Simple thread pooling library in C++* |
+| -- | -- |
+| Homepage | [https://github.com/romch007/simplethreadpool](https://github.com/romch007/simplethreadpool) |
+| License | MIT |
+| Versions | 2022.11.18 |
+| Architectures | arm64, x86_64 |
+| Definition | [simplethreadpool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplethreadpool/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install simplethreadpool
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simplethreadpool")
+```
+
+
 ### skia (macosx)
 
 

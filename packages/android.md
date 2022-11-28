@@ -5707,6 +5707,30 @@ add_requires("simde")
 ```
 
 
+### simplethreadpool (android)
+
+
+| Description | *Simple thread pooling library in C++* |
+| -- | -- |
+| Homepage | [https://github.com/romch007/simplethreadpool](https://github.com/romch007/simplethreadpool) |
+| License | MIT |
+| Versions | 2022.11.18 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [simplethreadpool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplethreadpool/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] simplethreadpool
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simplethreadpool")
+```
+
+
 ### snappy (android)
 
 
