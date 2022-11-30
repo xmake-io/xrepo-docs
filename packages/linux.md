@@ -2849,7 +2849,7 @@ add_requires("dune-common")
 
 | Description | *Ansi C library for parsing binary output files of LS Dyna (d3plot, binout)* |
 | -- | -- |
-| Homepage | [https://github.com/PucklaMotzer09/dynareadout](https://github.com/PucklaMotzer09/dynareadout) |
+| Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
 | Versions | 0.1, 0.2, 0.3, 0.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
@@ -6081,7 +6081,7 @@ add_requires("jemalloc")
 
 | Description | *A 2D/3D Engine using OpenGL and SDL for input and the window* |
 | -- | -- |
-| Homepage | [https://github.com/PucklaMotzer09/JohnnyEngine](https://github.com/PucklaMotzer09/JohnnyEngine) |
+| Homepage | [https://github.com/PucklaJ/JohnnyEngine](https://github.com/PucklaJ/JohnnyEngine) |
 | Versions | 1.0.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [johnnyengine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/johnnyengine/xmake.lua) |
