@@ -1259,6 +1259,30 @@ add_requires("efsw")
 ```
 
 
+### elfio (bsd)
+
+
+| Description | *ELFIO - ELF (Executable and Linkable Format) reader and producer implemented as a header only C++ library* |
+| -- | -- |
+| Homepage | [http://serge1.github.io/ELFIO](http://serge1.github.io/ELFIO) |
+| License | MIT |
+| Versions | 3.11 |
+| Architectures | i386, x86_64 |
+| Definition | [elfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/elfio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install elfio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("elfio")
+```
+
+
 ### enet (bsd)
 
 
