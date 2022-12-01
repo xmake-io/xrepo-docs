@@ -364,7 +364,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | 2.13.5, 2.13.6, 2.13.7, 2.13.8, 2.13.9, 2.9.2, 3.1.0 |
+| Versions | v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0 |
 | Architectures | wasm32 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
