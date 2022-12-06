@@ -308,6 +308,30 @@ add_requires("brotli")
 ```
 
 
+### bullet3 (wasm)
+
+
+| Description | *Bullet Physics SDK.* |
+| -- | -- |
+| Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
+| License | zlib |
+| Versions | 2.88, 3.05, 3.09, 3.24 |
+| Architectures | wasm32 |
+| Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm bullet3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bullet3")
+```
+
+
 
 ## c
 ### ca-certificates (wasm)
@@ -449,6 +473,30 @@ xrepo install -p wasm cgetopt
 
 ```lua
 add_requires("cgetopt")
+```
+
+
+### chipmunk2d (wasm)
+
+
+| Description | *A fast and lightweight 2D game physics library.* |
+| -- | -- |
+| Homepage | [https://chipmunk-physics.net/](https://chipmunk-physics.net/) |
+| License | MIT |
+| Versions | 7.0.3 |
+| Architectures | wasm32 |
+| Definition | [chipmunk2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chipmunk2d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm chipmunk2d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("chipmunk2d")
 ```
 
 
@@ -2069,6 +2117,30 @@ add_requires("libdivsufsort")
 ```
 
 
+### libflac (wasm)
+
+
+| Description | *Free Lossless Audio Codec* |
+| -- | -- |
+| Homepage | [https://xiph.org/flac](https://xiph.org/flac) |
+| License | BSD |
+| Versions | 1.3.3 |
+| Architectures | wasm32 |
+| Definition | [libflac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libflac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libflac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libflac")
+```
+
+
 ### libjpeg (wasm)
 
 
@@ -2089,6 +2161,29 @@ xrepo install -p wasm libjpeg
 
 ```lua
 add_requires("libjpeg")
+```
+
+
+### libogg (wasm)
+
+
+| Description | *Ogg Bitstream Library* |
+| -- | -- |
+| Homepage | [https://www.xiph.org/ogg/](https://www.xiph.org/ogg/) |
+| Versions | v1.3.4 |
+| Architectures | wasm32 |
+| Definition | [libogg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libogg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libogg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libogg")
 ```
 
 
@@ -2298,6 +2393,30 @@ xrepo install -p wasm libuuid
 
 ```lua
 add_requires("libuuid")
+```
+
+
+### libvorbis (wasm)
+
+
+| Description | *Reference implementation of the Ogg Vorbis audio format.* |
+| -- | -- |
+| Homepage | [https://xiph.org/vorbis](https://xiph.org/vorbis) |
+| License | BSD-3 |
+| Versions | 1.3.7 |
+| Architectures | wasm32 |
+| Definition | [libvorbis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvorbis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libvorbis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libvorbis")
 ```
 
 
