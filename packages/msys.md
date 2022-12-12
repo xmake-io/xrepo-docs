@@ -3751,8 +3751,9 @@ add_requires("python2")
 
 | Description | *The Quite OK Image Format for fast, lossless image compression* |
 | -- | -- |
-| Homepage | [https://github.com/phoboslab/qoi](https://github.com/phoboslab/qoi) |
-| Versions | 2021.12.22 |
+| Homepage | [https://qoiformat.org/](https://qoiformat.org/) |
+| License | MIT |
+| Versions | 2021.12.22, 2022.11.17 |
 | Architectures | i386, x86_64 |
 | Definition | [qoi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qoi/xmake.lua) |
 
@@ -4885,30 +4886,6 @@ xrepo install urdfdom-headers
 
 ```lua
 add_requires("urdfdom-headers")
-```
-
-
-### utf8proc (msys)
-
-
-| Description | *A clean C library for processing UTF-8 Unicode data* |
-| -- | -- |
-| Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
-| License | MIT |
-| Versions | v2.7.0 |
-| Architectures | i386, x86_64 |
-| Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install utf8proc
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("utf8proc")
 ```
 
 

@@ -3070,7 +3070,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.10, v1.13, v1.8 |
+| Versions | v1.10, v1.13, v1.15, v1.8 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -5712,8 +5712,9 @@ add_requires("qhull")
 
 | Description | *The Quite OK Image Format for fast, lossless image compression* |
 | -- | -- |
-| Homepage | [https://github.com/phoboslab/qoi](https://github.com/phoboslab/qoi) |
-| Versions | 2021.12.22 |
+| Homepage | [https://qoiformat.org/](https://qoiformat.org/) |
+| License | MIT |
+| Versions | 2021.12.22, 2022.11.17 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [qoi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qoi/xmake.lua) |
 
@@ -7259,7 +7260,7 @@ add_requires("urdfdom-headers")
 | -- | -- |
 | Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
 | License | MIT |
-| Versions | v2.7.0 |
+| Versions | v2.7.0, v2.8.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
 
