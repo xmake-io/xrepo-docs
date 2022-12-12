@@ -12019,7 +12019,7 @@ add_requires("opensubdiv")
 | Description | *OpenVDB - Sparse volume data structure and tools* |
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
-| Versions | 7.1.0, 8.0.1, 8.1.0, 8.2.0, 9.0.0, 9.1.0 |
+| Versions | v10.0.1, v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
