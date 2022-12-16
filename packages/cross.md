@@ -4978,6 +4978,30 @@ add_requires("tclap")
 ```
 
 
+### termcolor (cross)
+
+
+| Description | *Termcolor is a header-only C++ library for printing colored messages to the terminal. Written just for fun with a help of the Force.* |
+| -- | -- |
+| Homepage | [https://github.com/ikalnytskyi/termcolor](https://github.com/ikalnytskyi/termcolor) |
+| License | BSD-3-Clause |
+| Versions | 2.1.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [termcolor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/termcolor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] termcolor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("termcolor")
+```
+
+
 ### thread-pool (cross)
 
 

@@ -5641,6 +5641,30 @@ add_requires("tclap")
 ```
 
 
+### termcolor (iphoneos)
+
+
+| Description | *Termcolor is a header-only C++ library for printing colored messages to the terminal. Written just for fun with a help of the Force.* |
+| -- | -- |
+| Homepage | [https://github.com/ikalnytskyi/termcolor](https://github.com/ikalnytskyi/termcolor) |
+| License | BSD-3-Clause |
+| Versions | 2.1.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [termcolor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/termcolor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos termcolor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("termcolor")
+```
+
+
 ### thread-pool (iphoneos)
 
 
