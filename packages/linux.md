@@ -3115,7 +3115,7 @@ add_requires("elfutils")
 | -- | -- |
 | Homepage | [https://www.embree.org/](https://www.embree.org/) |
 | License | Apache-2.0 |
-| Versions | v3.12.1, v3.13.0, v3.13.3, v3.13.4 |
+| Versions | v3.12.1, v3.13.0, v3.13.3, v3.13.4, v3.13.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [embree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/embree/xmake.lua) |
 
@@ -12396,7 +12396,7 @@ add_requires("onedpl")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0 |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
 
@@ -15875,7 +15875,7 @@ add_requires("taywee_args")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0 |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbb/xmake.lua) |
 
