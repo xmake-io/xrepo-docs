@@ -451,6 +451,30 @@ add_requires("brotli")
 ```
 
 
+### bullet3 (mingw)
+
+
+| Description | *Bullet Physics SDK.* |
+| -- | -- |
+| Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
+| License | zlib |
+| Versions | 2.88, 3.05, 3.09, 3.24 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] bullet3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bullet3")
+```
+
+
 ### bzip2 (mingw)
 
 
@@ -1383,7 +1407,7 @@ add_requires("dr_wav")
 | Description | *Ansi C library for parsing binary output files of LS Dyna (d3plot, binout)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 0.1, 0.2, 0.3, 0.4 |
+| Versions | 22.12 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
