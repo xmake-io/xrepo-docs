@@ -54,7 +54,7 @@ add_requires("argh")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/argparse](https://github.com/p-ranav/argparse) |
 | License | MIT |
-| Versions | 2.6 |
+| Versions | 2.6, 2.7, 2.8, 2.9 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [argparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argparse/xmake.lua) |
 
