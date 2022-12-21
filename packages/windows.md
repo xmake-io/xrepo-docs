@@ -13673,6 +13673,29 @@ add_requires("uriparser")
 ```
 
 
+### usd (windows)
+
+
+| Description | *Universal Scene Description* |
+| -- | -- |
+| Homepage | [http://www.openusd.org](http://www.openusd.org) |
+| Versions | v22.11 |
+| Architectures | x64 |
+| Definition | [usd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install usd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("usd")
+```
+
+
 ### utf8proc (windows)
 
 

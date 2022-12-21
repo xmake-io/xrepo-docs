@@ -16769,6 +16769,29 @@ add_requires("uriparser")
 ```
 
 
+### usd (linux)
+
+
+| Description | *Universal Scene Description* |
+| -- | -- |
+| Homepage | [http://www.openusd.org](http://www.openusd.org) |
+| Versions | v22.11 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [usd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install usd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("usd")
+```
+
+
 ### utf8proc (linux)
 
 
