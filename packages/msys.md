@@ -356,6 +356,29 @@ add_requires("bullet3")
 ```
 
 
+### bzip2 (msys)
+
+
+| Description | *Freely available, patent free, high-quality data compressor.* |
+| -- | -- |
+| Homepage | [https://sourceware.org/bzip2/](https://sourceware.org/bzip2/) |
+| Versions | 1.0.8 |
+| Architectures | i386, x86_64 |
+| Definition | [bzip2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bzip2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bzip2")
+```
+
+
 
 ## c
 ### ca-certificates (msys)
@@ -2206,6 +2229,30 @@ xrepo install libsais
 
 ```lua
 add_requires("libsais")
+```
+
+
+### libsdl (msys)
+
+
+| Description | *Simple DirectMedia Layer* |
+| -- | -- |
+| Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
+| License | zlib |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1 |
+| Architectures | i386, x86_64 |
+| Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsdl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl")
 ```
 
 
@@ -4873,7 +4920,7 @@ add_requires("uchardet")
 | -- | -- |
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0 |
 | Architectures | i386, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 

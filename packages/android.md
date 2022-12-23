@@ -3104,6 +3104,30 @@ add_requires("libsais")
 ```
 
 
+### libsdl (android)
+
+
+| Description | *Simple DirectMedia Layer* |
+| -- | -- |
+| Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
+| License | zlib |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libsdl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl")
+```
+
+
 ### libsndfile (android)
 
 
@@ -6571,7 +6595,7 @@ add_requires("uchardet")
 | -- | -- |
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 
