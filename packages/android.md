@@ -5833,7 +5833,7 @@ add_requires("sokol")
 | Description | *A C++ library binding to Lua.* |
 | -- | -- |
 | Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
-| Versions | v3.2.1, v3.2.2, v3.2.3 |
+| Versions | v3.2.1, v3.2.2, v3.2.3, v3.3.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
 
