@@ -15643,7 +15643,7 @@ add_requires("urdfdom-headers")
 | -- | -- |
 | Homepage | [https://uriparser.github.io/](https://uriparser.github.io/) |
 | License | BSD-3-Clause |
-| Versions | 0.9.5 |
+| Versions | 0.9.5, 0.9.6, 0.9.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [uriparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uriparser/xmake.lua) |
 
