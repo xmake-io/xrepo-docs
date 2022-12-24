@@ -806,6 +806,30 @@ add_requires("cpp-httplib")
 ```
 
 
+### cpuinfo (bsd)
+
+
+| Description | *CPU INFOrmation library (x86/x86-64/ARM/ARM64, Linux/Windows/Android/macOS/iOS)* |
+| -- | -- |
+| Homepage | [https://github.com/pytorch/cpuinfo](https://github.com/pytorch/cpuinfo) |
+| License | BSD 2-Clause |
+| Versions | 2022.09.15 |
+| Architectures | i386, x86_64 |
+| Definition | [cpuinfo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpuinfo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpuinfo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpuinfo")
+```
+
+
 ### crc32c (bsd)
 
 
