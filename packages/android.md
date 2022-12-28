@@ -4854,6 +4854,30 @@ add_requires("ordered_map")
 ```
 
 
+### out_ptr (android)
+
+
+| Description | *Repository for a C++11 implementation of std::out_ptr (p1132), as a standalone library!* |
+| -- | -- |
+| Homepage | [https://github.com/soasis/out_ptr](https://github.com/soasis/out_ptr) |
+| License | Apache-2.0 |
+| Versions | 2022.10.07 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [out_ptr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/out_ptr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] out_ptr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("out_ptr")
+```
+
+
 ### outcome (android)
 
 
