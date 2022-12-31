@@ -4303,7 +4303,7 @@ add_requires("rttr")
 | Description | *scnlib is a modern C++ library for replacing scanf and std::istream* |
 | -- | -- |
 | Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
-| Versions | 0.4 |
+| Versions | 0.4, 1.1.2 |
 | Architectures | wasm32 |
 | Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
 

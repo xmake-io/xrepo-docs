@@ -5020,7 +5020,7 @@ add_requires("icbc")
 | Description | *C/C++ libraries for Unicode and globalization.* |
 | -- | -- |
 | Homepage | [http://site.icu-project.org/](http://site.icu-project.org/) |
-| Versions | 64.2, 68.1, 68.2, 69.1, 70.1, 71.1 |
+| Versions | 64.2, 68.1, 68.2, 69.1, 70.1, 71.1, 72.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [icu4c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icu4c/xmake.lua) |
 
@@ -11978,7 +11978,7 @@ add_requires("rttr")
 | Description | *scnlib is a modern C++ library for replacing scanf and std::istream* |
 | -- | -- |
 | Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
-| Versions | 0.4 |
+| Versions | 0.4, 1.1.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
 
