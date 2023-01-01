@@ -2161,7 +2161,7 @@ add_requires("crossguid")
 | Description | *free C++ class library of cryptographic schemes* |
 | -- | -- |
 | Homepage | [https://cryptopp.com/](https://cryptopp.com/) |
-| Versions | 8.4.0, 8.5.0, 8.6.0 |
+| Versions | 8.4.0, 8.5.0, 8.6.0, 8.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cryptopp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cryptopp/xmake.lua) |
 
