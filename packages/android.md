@@ -4807,6 +4807,29 @@ add_requires("openssl")
 ```
 
 
+### openssl3 (android)
+
+
+| Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
+| -- | -- |
+| Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
+| Versions | 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [openssl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] openssl3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openssl3")
+```
+
+
 ### optick (android)
 
 
