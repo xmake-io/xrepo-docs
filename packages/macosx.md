@@ -11347,6 +11347,30 @@ add_requires("noise-c")
 ```
 
 
+### nowide_standalone (macosx)
+
+
+| Description | *C++ implementation of the Python Numpy library* |
+| -- | -- |
+| Homepage | [https://github.com/boostorg/nowide/tree/standalone](https://github.com/boostorg/nowide/tree/standalone) |
+| License | Boost Software License, Version 1.0 |
+| Versions | 11.2.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [nowide_standalone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nowide_standalone/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nowide_standalone
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nowide_standalone")
+```
+
+
 ### ntkernel-error-category (macosx)
 
 
