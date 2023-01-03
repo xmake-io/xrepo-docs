@@ -6932,7 +6932,7 @@ add_requires("wolfssl")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.1, v0.10.2, v0.10.3, v0.10.4, v0.9.11 |
+| Versions | v0.10.1, v0.10.2, v0.10.3, v0.10.4, v0.10.5, v0.9.11 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
 

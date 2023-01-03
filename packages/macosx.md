@@ -6119,6 +6119,29 @@ add_requires("libaco")
 ```
 
 
+### libaesgm (macosx)
+
+
+| Description | *https://repology.org/project/libaesgm/packages* |
+| -- | -- |
+| Homepage | [https://github.com/xmake-mirror/libaesgm](https://github.com/xmake-mirror/libaesgm) |
+| Versions | 2013.1.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [libaesgm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaesgm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libaesgm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libaesgm")
+```
+
+
 ### libarchive (macosx)
 
 
@@ -8385,7 +8408,7 @@ add_requires("libwebsockets")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.1, v0.10.2, v0.10.3, v0.10.4, v0.9.11 |
+| Versions | v0.10.1, v0.10.2, v0.10.3, v0.10.4, v0.10.5, v0.9.11 |
 | Architectures | arm64, x86_64 |
 | Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
 
@@ -12488,6 +12511,30 @@ add_requires("pdcursesmod")
 ```
 
 
+### pdfhummus (macosx)
+
+
+| Description | *High performance library for creating, modiyfing and parsing PDF files in C++ * |
+| -- | -- |
+| Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
+| License | Apache-2.0 |
+| Versions | 4.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pdfhummus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pdfhummus")
+```
+
+
 ### pegtl (macosx)
 
 
@@ -16264,7 +16311,7 @@ add_requires("wolfssl")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.1, v0.10.2, v0.10.3, v0.10.4, v0.9.11 |
+| Versions | v0.10.1, v0.10.2, v0.10.3, v0.10.4, v0.10.5, v0.9.11 |
 | Architectures | arm64, x86_64 |
 | Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
 
