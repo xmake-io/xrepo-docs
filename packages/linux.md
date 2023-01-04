@@ -763,6 +763,30 @@ add_requires("bison")
 ```
 
 
+### blah (linux)
+
+
+| Description | *A small 2d c++ game framework* |
+| -- | -- |
+| Homepage | [https://github.com/NoelFB/blah](https://github.com/NoelFB/blah) |
+| License | MIT |
+| Versions | 2023.01.03 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [blah/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blah/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install blah
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blah")
+```
+
+
 ### blake3 (linux)
 
 
