@@ -2092,7 +2092,7 @@ add_requires("d3d12-memory-allocator")
 | -- | -- |
 | Homepage | [https://github.com/hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) |
 | License | MIT |
-| Versions | 1.21.0 |
+| Versions | 1.21.0, 1.22.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
 

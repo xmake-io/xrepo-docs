@@ -1091,30 +1091,6 @@ add_requires("cxxopts")
 
 
 ## d
-### dataframe (mingw)
-
-
-| Description | *This is a C++ analytical library that provides interface and functionality similar to packages/libraries in Python and R.* |
-| -- | -- |
-| Homepage | [https://github.com/hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) |
-| License | MIT |
-| Versions | 1.21.0 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] dataframe
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("dataframe")
-```
-
-
 ### date (mingw)
 
 

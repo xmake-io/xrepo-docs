@@ -2113,7 +2113,7 @@ add_requires("cyrus-sasl")
 | -- | -- |
 | Homepage | [https://github.com/hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) |
 | License | MIT |
-| Versions | 1.21.0 |
+| Versions | 1.21.0, 1.22.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
 
