@@ -6946,6 +6946,30 @@ add_requires("libdeflate")
 ```
 
 
+### libdill (linux)
+
+
+| Description | *Structured concurrency in C* |
+| -- | -- |
+| Homepage | [https://github.com/sustrik/libdill](https://github.com/sustrik/libdill) |
+| License | MIT |
+| Versions | 2022.08.10 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libdill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdill/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdill
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdill")
+```
+
+
 ### libdivide (linux)
 
 
@@ -7798,7 +7822,7 @@ add_requires("libmd")
 | Description | *Go-style concurrency in C* |
 | -- | -- |
 | Homepage | [http://libmill.org](http://libmill.org) |
-| Versions | 1.17, 1.18 |
+| Versions | 2021.9.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libmill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmill/xmake.lua) |
 
