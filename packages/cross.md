@@ -641,6 +641,30 @@ add_requires("cli")
 ```
 
 
+### clib (cross)
+
+
+| Description | *Header-only library for C99 that implements the most important classes from GLib: GList, GHashTable and GString.* |
+| -- | -- |
+| Homepage | [https://github.com/aheck/clib](https://github.com/aheck/clib) |
+| License | MIT |
+| Versions | 2022.12.25 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [clib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] clib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clib")
+```
+
+
 ### cmake (cross)
 
 
