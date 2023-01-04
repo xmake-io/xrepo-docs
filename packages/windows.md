@@ -5463,6 +5463,29 @@ add_requires("json-schema-validator")
 ```
 
 
+### json.h (windows)
+
+
+| Description | *single header json parser for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/json.h](https://github.com/sheredom/json.h) |
+| Versions | 2022.11.27 |
+| Architectures | arm64, x64, x86 |
+| Definition | [json.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install json.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("json.h")
+```
+
+
 ### jsoncons (windows)
 
 
@@ -12772,6 +12795,29 @@ add_requires("strtk")
 ```
 
 
+### subprocess.h (windows)
+
+
+| Description | *single header process launching solution for C and C++ * |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/subprocess.h](https://github.com/sheredom/subprocess.h) |
+| Versions | 2022.12.20 |
+| Architectures | arm64, x64, x86 |
+| Definition | [subprocess.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/subprocess.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install subprocess.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("subprocess.h")
+```
+
+
 ### suitesparse (windows)
 
 
@@ -13788,6 +13834,52 @@ xrepo install usd
 
 ```lua
 add_requires("usd")
+```
+
+
+### utest.h (windows)
+
+
+| Description | *single header unit testing framework for C and C++* |
+| -- | -- |
+| Homepage | [https://www.duskborn.com/utest_h/](https://www.duskborn.com/utest_h/) |
+| Versions | 2022.09.01 |
+| Architectures | arm64, x64, x86 |
+| Definition | [utest.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utest.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install utest.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utest.h")
+```
+
+
+### utf8.h (windows)
+
+
+| Description | *single header utf8 string functions for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/utf8.h](https://github.com/sheredom/utf8.h) |
+| Versions | 2022.07.04 |
+| Architectures | arm64, x64, x86 |
+| Definition | [utf8.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install utf8.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utf8.h")
 ```
 
 

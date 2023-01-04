@@ -2139,6 +2139,29 @@ add_requires("json-schema-validator")
 ```
 
 
+### json.h (cross)
+
+
+| Description | *single header json parser for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/json.h](https://github.com/sheredom/json.h) |
+| Versions | 2022.11.27 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [json.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] json.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("json.h")
+```
+
+
 ### jsoncons (cross)
 
 
@@ -5523,6 +5546,52 @@ xrepo install -p cross [--sdk=/xxx] urdfdom-headers
 
 ```lua
 add_requires("urdfdom-headers")
+```
+
+
+### utest.h (cross)
+
+
+| Description | *single header unit testing framework for C and C++* |
+| -- | -- |
+| Homepage | [https://www.duskborn.com/utest_h/](https://www.duskborn.com/utest_h/) |
+| Versions | 2022.09.01 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [utest.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utest.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] utest.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utest.h")
+```
+
+
+### utf8.h (cross)
+
+
+| Description | *single header utf8 string functions for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/utf8.h](https://github.com/sheredom/utf8.h) |
+| Versions | 2022.07.04 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [utf8.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] utf8.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utf8.h")
 ```
 
 

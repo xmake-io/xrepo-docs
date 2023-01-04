@@ -2541,6 +2541,29 @@ add_requires("json-c")
 ```
 
 
+### json.h (android)
+
+
+| Description | *single header json parser for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/json.h](https://github.com/sheredom/json.h) |
+| Versions | 2022.11.27 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [json.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] json.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("json.h")
+```
+
+
 ### jsoncons (android)
 
 
@@ -6727,6 +6750,52 @@ xrepo install -p android [--ndk=/xxx] urdfdom-headers
 
 ```lua
 add_requires("urdfdom-headers")
+```
+
+
+### utest.h (android)
+
+
+| Description | *single header unit testing framework for C and C++* |
+| -- | -- |
+| Homepage | [https://www.duskborn.com/utest_h/](https://www.duskborn.com/utest_h/) |
+| Versions | 2022.09.01 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [utest.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utest.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] utest.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utest.h")
+```
+
+
+### utf8.h (android)
+
+
+| Description | *single header utf8 string functions for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/utf8.h](https://github.com/sheredom/utf8.h) |
+| Versions | 2022.07.04 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [utf8.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] utf8.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utf8.h")
 ```
 
 

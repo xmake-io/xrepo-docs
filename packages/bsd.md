@@ -2306,6 +2306,29 @@ add_requires("json-schema-validator")
 ```
 
 
+### json.h (bsd)
+
+
+| Description | *single header json parser for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/json.h](https://github.com/sheredom/json.h) |
+| Versions | 2022.11.27 |
+| Architectures | i386, x86_64 |
+| Definition | [json.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install json.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("json.h")
+```
+
+
 ### jsoncons (bsd)
 
 
@@ -5350,6 +5373,29 @@ add_requires("strtk")
 ```
 
 
+### subprocess.h (bsd)
+
+
+| Description | *single header process launching solution for C and C++ * |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/subprocess.h](https://github.com/sheredom/subprocess.h) |
+| Versions | 2022.12.20 |
+| Architectures | i386, x86_64 |
+| Definition | [subprocess.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/subprocess.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install subprocess.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("subprocess.h")
+```
+
+
 ### swig (bsd)
 
 
@@ -5944,6 +5990,52 @@ xrepo install urdfdom-headers
 
 ```lua
 add_requires("urdfdom-headers")
+```
+
+
+### utest.h (bsd)
+
+
+| Description | *single header unit testing framework for C and C++* |
+| -- | -- |
+| Homepage | [https://www.duskborn.com/utest_h/](https://www.duskborn.com/utest_h/) |
+| Versions | 2022.09.01 |
+| Architectures | i386, x86_64 |
+| Definition | [utest.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utest.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install utest.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utest.h")
+```
+
+
+### utf8.h (bsd)
+
+
+| Description | *single header utf8 string functions for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/sheredom/utf8.h](https://github.com/sheredom/utf8.h) |
+| Versions | 2022.07.04 |
+| Architectures | i386, x86_64 |
+| Definition | [utf8.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install utf8.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("utf8.h")
 ```
 
 
