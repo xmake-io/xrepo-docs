@@ -11280,7 +11280,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.8.0</td>
+<td>v1.8.0, v1.9.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -17901,6 +17901,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("recastnavigation")
+</code></pre>
+<h3 id="redispluspluswindows">redis-plus-plus (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Redis client written in C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/sewenew/redis-plus-plus">https://github.com/sewenew/redis-plus-plus</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.3.5, 1.3.6, 1.3.7</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redis-plus-plus/xmake.lua">redis-plus-plus/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install redis-plus-plus
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("redis-plus-plus")
 </code></pre>
 <h3 id="rendergraphwindows">rendergraph (windows)</h3>
 <table>

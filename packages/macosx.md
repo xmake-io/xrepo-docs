@@ -9130,7 +9130,7 @@ add_requires("libyaml")
 | -- | -- |
 | Homepage | [https://libzip.org/](https://libzip.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.8.0 |
+| Versions | v1.8.0, v1.9.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
 
@@ -13819,7 +13819,7 @@ add_requires("redex")
 | Description | *Redis client written in C++* |
 | -- | -- |
 | Homepage | [https://github.com/sewenew/redis-plus-plus](https://github.com/sewenew/redis-plus-plus) |
-| Versions | 1.3.5 |
+| Versions | 1.3.5, 1.3.6, 1.3.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [redis-plus-plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redis-plus-plus/xmake.lua) |
 
