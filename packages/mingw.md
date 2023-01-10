@@ -3016,6 +3016,29 @@ add_requires("lexy")
 ```
 
 
+### libaesgm (mingw)
+
+
+| Description | *https://repology.org/project/libaesgm/packages* |
+| -- | -- |
+| Homepage | [https://github.com/xmake-mirror/libaesgm](https://github.com/xmake-mirror/libaesgm) |
+| Versions | 2013.1.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libaesgm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaesgm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libaesgm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libaesgm")
+```
+
+
 ### libargon2 (mingw)
 
 
@@ -5448,6 +5471,30 @@ xrepo install -p mingw [--mingw=/xxx] pdcursesmod
 
 ```lua
 add_requires("pdcursesmod")
+```
+
+
+### pdfhummus (mingw)
+
+
+| Description | *High performance library for creating, modiyfing and parsing PDF files in C++ * |
+| -- | -- |
+| Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
+| License | Apache-2.0 |
+| Versions | 4.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] pdfhummus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pdfhummus")
 ```
 
 

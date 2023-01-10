@@ -840,8 +840,8 @@ add_requires("bzip2")
 
 | Description | *A C library for asynchronous DNS requests* |
 | -- | -- |
-| Homepage | [https://c-ares.haxx.se/](https://c-ares.haxx.se/) |
-| Versions | 1.16.1, 1.17.1 |
+| Homepage | [https://c-ares.org/](https://c-ares.org/) |
+| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
 
@@ -2707,11 +2707,11 @@ add_requires("draco")
 ### drogon (windows)
 
 
-| Description | *Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows* |
+| Description | *Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows* |
 | -- | -- |
 | Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
 | License | MIT |
-| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5 |
+| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2 |
 | Architectures | x64 |
 | Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
 
@@ -5815,6 +5815,29 @@ xrepo install lexy
 
 ```lua
 add_requires("lexy")
+```
+
+
+### libaesgm (windows)
+
+
+| Description | *https://repology.org/project/libaesgm/packages* |
+| -- | -- |
+| Homepage | [https://github.com/xmake-mirror/libaesgm](https://github.com/xmake-mirror/libaesgm) |
+| Versions | 2013.1.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libaesgm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaesgm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libaesgm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libaesgm")
 ```
 
 
@@ -10738,6 +10761,30 @@ add_requires("pdcursesmod")
 ```
 
 
+### pdfhummus (windows)
+
+
+| Description | *High performance library for creating, modiyfing and parsing PDF files in C++ * |
+| -- | -- |
+| Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
+| License | Apache-2.0 |
+| Versions | 4.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pdfhummus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pdfhummus")
+```
+
+
 ### pegtl (windows)
 
 
@@ -13654,7 +13701,7 @@ add_requires("tracy")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5 |
+| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8 |
 | Architectures | arm64, x64, x86 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 

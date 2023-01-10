@@ -1360,11 +1360,11 @@
 <tbody>
 <tr>
 <td>Homepage</td>
-<td><a href="https://c-ares.haxx.se/">https://c-ares.haxx.se/</a></td>
+<td><a href="https://c-ares.org/">https://c-ares.org/</a></td>
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.16.1, 1.17.1</td>
+<td>1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4162,7 +4162,7 @@
 <thead>
 <tr>
 <th>Description</th>
-<th><em>Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows</em></th>
+<th><em>Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows</em></th>
 </tr>
 </thead>
 <tbody>
@@ -4176,7 +4176,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5</td>
+<td>v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -8827,6 +8827,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("lexy")
+</code></pre>
+<h3 id="libaesgmwindows">libaesgm (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em><a href="https://repology.org/project/libaesgm/packages">https://repology.org/project/libaesgm/packages</a></em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/xmake-mirror/libaesgm">https://github.com/xmake-mirror/libaesgm</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2013.1.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaesgm/xmake.lua">libaesgm/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libaesgm
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libaesgm")
 </code></pre>
 <h3 id="libarchivewindows">libarchive (windows)</h3>
 <table>
@@ -16208,6 +16241,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("pdcursesmod")
 </code></pre>
+<h3 id="pdfhummuswindows">pdfhummus (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>High performance library for creating, modiyfing and parsing PDF files in C++ </em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.pdfhummus.com/">https://www.pdfhummus.com/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>4.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua">pdfhummus/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install pdfhummus
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("pdfhummus")
+</code></pre>
 <h3 id="pegtlwindows">pegtl (windows)</h3>
 <table>
 <thead>
@@ -20578,7 +20648,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5</td>
+<td>v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8</td>
 </tr>
 <tr>
 <td>Architectures</td>
