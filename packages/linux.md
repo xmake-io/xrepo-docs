@@ -6098,6 +6098,29 @@ add_requires("itstool")
 ```
 
 
+### iverilog (linux)
+
+
+| Description | *Icarus Verilog* |
+| -- | -- |
+| Homepage | [https://steveicarus.github.io/iverilog/](https://steveicarus.github.io/iverilog/) |
+| Versions | 2023.1.7 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [iverilog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iverilog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install iverilog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iverilog")
+```
+
+
 
 ## j
 ### jansson (linux)
