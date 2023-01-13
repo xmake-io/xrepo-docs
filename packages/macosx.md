@@ -16226,6 +16226,29 @@ add_requires("vcglib")
 ```
 
 
+### verilator (macosx)
+
+
+| Description | *Verilator open-source SystemVerilog simulator and lint system* |
+| -- | -- |
+| Homepage | [https://verilator.org](https://verilator.org) |
+| Versions | 2023.1.10 |
+| Architectures | arm64, x86_64 |
+| Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install verilator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("verilator")
+```
+
+
 ### vexcl (macosx)
 
 
