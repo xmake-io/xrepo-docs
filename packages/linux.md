@@ -9910,7 +9910,7 @@ add_requires("lightgbm")
 | -- | -- |
 | Homepage | [https://kernel.org/](https://kernel.org/) |
 | License | GPL-2.0-only |
-| Versions | 4.20.9, 5.0.8, 5.10.46, 5.16.9, 5.9.16 |
+| Versions | 4.20.9, 5.0.8, 5.10.46, 5.15, 5.16.9, 5.9.16 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [linux-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-headers/xmake.lua) |
 
