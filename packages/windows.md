@@ -3955,7 +3955,7 @@ add_requires("gamenetworkingsockets")
 | -- | -- |
 | Homepage | [https://www.kthohr.com/gcem.html](https://www.kthohr.com/gcem.html) |
 | License | Apache-2.0 |
-| Versions | v1.13.1 |
+| Versions | v1.13.1, v1.16.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [gcem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gcem/xmake.lua) |
 

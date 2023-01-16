@@ -3973,7 +3973,7 @@ add_requires("g2o")
 | -- | -- |
 | Homepage | [https://www.kthohr.com/gcem.html](https://www.kthohr.com/gcem.html) |
 | License | Apache-2.0 |
-| Versions | v1.13.1 |
+| Versions | v1.13.1, v1.16.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [gcem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gcem/xmake.lua) |
 

@@ -4329,7 +4329,7 @@ add_requires("gamenetworkingsockets")
 | -- | -- |
 | Homepage | [https://www.kthohr.com/gcem.html](https://www.kthohr.com/gcem.html) |
 | License | Apache-2.0 |
-| Versions | v1.13.1 |
+| Versions | v1.13.1, v1.16.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gcem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gcem/xmake.lua) |
 
