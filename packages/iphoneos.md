@@ -5450,6 +5450,29 @@ add_requires("sol2")
 ```
 
 
+### sparsepp (iphoneos)
+
+
+| Description | *A fast, memory efficient hash map for C++* |
+| -- | -- |
+| Homepage | [https://github.com/greg7mdp/sparsepp](https://github.com/greg7mdp/sparsepp) |
+| Versions | 1.22 |
+| Architectures | arm64, x86_64 |
+| Definition | [sparsepp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sparsepp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos sparsepp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sparsepp")
+```
+
+
 ### spdlog (iphoneos)
 
 
