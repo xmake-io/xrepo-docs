@@ -3575,6 +3575,30 @@ add_requires("mapbox_variant")
 ```
 
 
+### mathfu (iphoneos)
+
+
+| Description | *C++ math library developed primarily for games focused on simplicity and efficiency.* |
+| -- | -- |
+| Homepage | [http://google.github.io/mathfu](http://google.github.io/mathfu) |
+| License | Apache-2.0 |
+| Versions | 2022.5.10 |
+| Architectures | arm64, x86_64 |
+| Definition | [mathfu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mathfu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos mathfu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mathfu")
+```
+
+
 ### mbedtls (iphoneos)
 
 
@@ -6330,6 +6354,29 @@ add_requires("uvw")
 
 
 ## v
+### vectorial (iphoneos)
+
+
+| Description | *Vector math library with NEON/SSE support* |
+| -- | -- |
+| Homepage | [https://github.com/scoopr/vectorial](https://github.com/scoopr/vectorial) |
+| Versions | 2019.06.28 |
+| Architectures | arm64, x86_64 |
+| Definition | [vectorial/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vectorial/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos vectorial
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vectorial")
+```
+
+
 ### volk (iphoneos)
 
 

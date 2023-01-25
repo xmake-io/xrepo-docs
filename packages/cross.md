@@ -3197,6 +3197,30 @@ add_requires("mapbox_variant")
 ```
 
 
+### mathfu (cross)
+
+
+| Description | *C++ math library developed primarily for games focused on simplicity and efficiency.* |
+| -- | -- |
+| Homepage | [http://google.github.io/mathfu](http://google.github.io/mathfu) |
+| License | Apache-2.0 |
+| Versions | 2022.5.10 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mathfu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mathfu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mathfu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mathfu")
+```
+
+
 ### mbedtls (cross)
 
 
@@ -5644,6 +5668,29 @@ add_requires("utfcpp")
 
 
 ## v
+### vectorial (cross)
+
+
+| Description | *Vector math library with NEON/SSE support* |
+| -- | -- |
+| Homepage | [https://github.com/scoopr/vectorial](https://github.com/scoopr/vectorial) |
+| Versions | 2019.06.28 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [vectorial/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vectorial/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] vectorial
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vectorial")
+```
+
+
 ### vulkan-headers (cross)
 
 

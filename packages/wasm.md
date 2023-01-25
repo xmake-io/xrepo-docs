@@ -2939,6 +2939,30 @@ add_requires("mapbox_variant")
 ```
 
 
+### mathfu (wasm)
+
+
+| Description | *C++ math library developed primarily for games focused on simplicity and efficiency.* |
+| -- | -- |
+| Homepage | [http://google.github.io/mathfu](http://google.github.io/mathfu) |
+| License | Apache-2.0 |
+| Versions | 2022.5.10 |
+| Architectures | wasm32 |
+| Definition | [mathfu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mathfu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm mathfu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mathfu")
+```
+
+
 ### mbedtls (wasm)
 
 
@@ -5152,6 +5176,29 @@ add_requires("utfcpp")
 
 
 ## v
+### vectorial (wasm)
+
+
+| Description | *Vector math library with NEON/SSE support* |
+| -- | -- |
+| Homepage | [https://github.com/scoopr/vectorial](https://github.com/scoopr/vectorial) |
+| Versions | 2019.06.28 |
+| Architectures | wasm32 |
+| Definition | [vectorial/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vectorial/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm vectorial
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vectorial")
+```
+
+
 ### vulkan-headers (wasm)
 
 
