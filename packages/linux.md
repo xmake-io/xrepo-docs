@@ -2922,7 +2922,7 @@ add_requires("dune-common")
 | Description | *Ansi C library for parsing binary output files of LS Dyna (d3plot, binout)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 22.12 |
+| Versions | 22.12, 23.01 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
