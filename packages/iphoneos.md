@@ -5237,6 +5237,29 @@ add_requires("robin-map")
 ```
 
 
+### rpclib (iphoneos)
+
+
+| Description | *rpclib is a modern C++ msgpack-RPC server and client library* |
+| -- | -- |
+| Homepage | [http://rpclib.net](http://rpclib.net) |
+| Versions | v2.3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [rpclib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rpclib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos rpclib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rpclib")
+```
+
+
 ### rply (iphoneos)
 
 

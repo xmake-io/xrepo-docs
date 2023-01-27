@@ -6350,6 +6350,29 @@ add_requires("robin-map")
 ```
 
 
+### rpclib (mingw)
+
+
+| Description | *rpclib is a modern C++ msgpack-RPC server and client library* |
+| -- | -- |
+| Homepage | [http://rpclib.net](http://rpclib.net) |
+| Versions | v2.3.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [rpclib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rpclib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] rpclib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rpclib")
+```
+
+
 ### rply (mingw)
 
 
