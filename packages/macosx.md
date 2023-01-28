@@ -3350,6 +3350,30 @@ add_requires("fast_float")
 ```
 
 
+### fast_io (macosx)
+
+
+| Description | *Significantly faster input/output for C++20* |
+| -- | -- |
+| Homepage | [https://github.com/cppfastio/fast_io](https://github.com/cppfastio/fast_io) |
+| License | MIT |
+| Versions | 2023.1.28 |
+| Architectures | arm64, x86_64 |
+| Definition | [fast_io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_io/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fast_io
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_io")
+```
+
+
 ### fastcppcsvparser (macosx)
 
 

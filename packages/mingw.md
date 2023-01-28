@@ -1716,6 +1716,30 @@ add_requires("fast_float")
 ```
 
 
+### fast_io (mingw)
+
+
+| Description | *Significantly faster input/output for C++20* |
+| -- | -- |
+| Homepage | [https://github.com/cppfastio/fast_io](https://github.com/cppfastio/fast_io) |
+| License | MIT |
+| Versions | 2023.1.28 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [fast_io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_io/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] fast_io
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_io")
+```
+
+
 ### fastcppcsvparser (mingw)
 
 
