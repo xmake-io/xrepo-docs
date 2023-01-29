@@ -5167,6 +5167,30 @@ add_requires("ntkernel-error-category")
 
 
 ## o
+### olive.c (mingw)
+
+
+| Description | *Simple 2D Graphics Library for C* |
+| -- | -- |
+| Homepage | [https://tsoding.github.io/olive.c/](https://tsoding.github.io/olive.c/) |
+| License | MIT |
+| Versions | 2022.12.14 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [olive.c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/olive.c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] olive.c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("olive.c")
+```
+
+
 ### openal-soft (mingw)
 
 

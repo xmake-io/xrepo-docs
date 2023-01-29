@@ -3792,6 +3792,30 @@ add_requires("ntkernel-error-category")
 
 
 ## o
+### olive.c (cross)
+
+
+| Description | *Simple 2D Graphics Library for C* |
+| -- | -- |
+| Homepage | [https://tsoding.github.io/olive.c/](https://tsoding.github.io/olive.c/) |
+| License | MIT |
+| Versions | 2022.12.14 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [olive.c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/olive.c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] olive.c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("olive.c")
+```
+
+
 ### openal-soft (cross)
 
 
