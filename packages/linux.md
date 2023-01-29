@@ -8998,7 +8998,7 @@ add_requires("libunwind")
 | Description | *liburing provides helpers to setup and teardown io_uring instances* |
 | -- | -- |
 | Homepage | [https://github.com/axboe/liburing](https://github.com/axboe/liburing) |
-| Versions | 2.1 |
+| Versions | 2.1, 2.2, 2.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [liburing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liburing/xmake.lua) |
 
