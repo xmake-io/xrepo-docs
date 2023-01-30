@@ -5573,7 +5573,7 @@ add_requires("quickjs")
 | -- | -- |
 | Homepage | [https://github.com/ericniebler/range-v3/](https://github.com/ericniebler/range-v3/) |
 | License | BSL-1.0 |
-| Versions | 0.11.0 |
+| Versions | 0.11.0, 0.12.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [range-v3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/range-v3/xmake.lua) |
 
@@ -7286,7 +7286,7 @@ add_requires("zig")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
-| Versions | v1.2.10, v1.2.11, v1.2.12 |
+| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
