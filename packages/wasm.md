@@ -4443,7 +4443,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://github.com/floooh/sokol](https://github.com/floooh/sokol) |
 | License | zlib |
-| Versions | 2022.02.10 |
+| Versions | 2022.02.10, 2023.01.27 |
 | Architectures | wasm32 |
 | Definition | [sokol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sokol/xmake.lua) |
 
@@ -4559,7 +4559,7 @@ add_requires("sqlite3")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 2021.07.13, 2021.09.10 |
+| Versions | 2021.07.13, 2021.09.10, 2023.01.30 |
 | Architectures | wasm32 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
