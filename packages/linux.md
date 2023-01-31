@@ -10333,7 +10333,7 @@ add_requires("lz4")
 | Description | *LZMA SDK* |
 | -- | -- |
 | Homepage | [https://www.7-zip.org/sdk.html](https://www.7-zip.org/sdk.html) |
-| Versions | 19.00 |
+| Versions | 19.00, 22.01 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lzma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzma/xmake.lua) |
 
@@ -18455,7 +18455,7 @@ add_requires("xxhash")
 | Description | *General-purpose data compression with high compression ratio.* |
 | -- | -- |
 | Homepage | [https://tukaani.org/xz/](https://tukaani.org/xz/) |
-| Versions | 5.2.5 |
+| Versions | 5.2.10, 5.2.5, 5.4.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz/xmake.lua) |
 

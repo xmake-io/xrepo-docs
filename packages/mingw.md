@@ -7926,7 +7926,7 @@ add_requires("xxhash")
 | Description | *General-purpose data compression with high compression ratio.* |
 | -- | -- |
 | Homepage | [https://tukaani.org/xz/](https://tukaani.org/xz/) |
-| Versions | 5.2.5 |
+| Versions | 5.2.10, 5.2.5, 5.4.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [xz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz/xmake.lua) |
 
