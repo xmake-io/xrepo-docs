@@ -3386,6 +3386,30 @@ add_requires("libvorbis")
 ```
 
 
+### libwfkafka (android)
+
+
+| Description | *C++ Parallel Computing and Asynchronous Networking Engine* |
+| -- | -- |
+| Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
+| License | Apache-2.0 |
+| Versions | v0.10.6 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libwfkafka
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libwfkafka")
+```
+
+
 ### libxml2 (android)
 
 
@@ -4553,7 +4577,7 @@ add_requires("niftiheader")
 | Description | *Small build system for use with gyp or CMake.* |
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
-| Versions | 1.10.1, 1.10.2, 1.11.0, 1.9.0 |
+| Versions | 1.10.1, 1.10.2, 1.11.0, 1.11.1, 1.9.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 

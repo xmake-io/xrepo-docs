@@ -9207,11 +9207,11 @@ add_requires("libwebsockets")
 ### libwfkafka (linux)
 
 
-| Description | *The Kafka Client of C++ Workflow* |
+| Description | *C++ Parallel Computing and Asynchronous Networking Engine* |
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.1, v0.10.2, v0.10.3, v0.10.4, v0.10.5, v0.9.11 |
+| Versions | v0.10.6 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
 
@@ -12133,7 +12133,7 @@ add_requires("niftiheader")
 | Description | *Small build system for use with gyp or CMake.* |
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
-| Versions | 1.10.1, 1.10.2, 1.11.0, 1.9.0 |
+| Versions | 1.10.1, 1.10.2, 1.11.0, 1.11.1, 1.9.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 

@@ -4054,7 +4054,7 @@ add_requires("niftiheader")
 | Description | *Small build system for use with gyp or CMake.* |
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
-| Versions | 1.10.1, 1.10.2, 1.11.0, 1.9.0 |
+| Versions | 1.10.1, 1.10.2, 1.11.0, 1.11.1, 1.9.0 |
 | Architectures | i386, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
