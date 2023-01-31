@@ -10067,6 +10067,30 @@ add_requires("meowhash")
 ```
 
 
+### meshoptimizer (macosx)
+
+
+| Description | *Mesh optimization library that makes meshes smaller and faster to render* |
+| -- | -- |
+| Homepage | [https://github.com/zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) |
+| License | MIT |
+| Versions | v0.18 |
+| Architectures | arm64, x86_64 |
+| Definition | [meshoptimizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meshoptimizer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install meshoptimizer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("meshoptimizer")
+```
+
+
 ### meson (macosx)
 
 
