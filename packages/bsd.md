@@ -5571,7 +5571,7 @@ add_requires("taskflow")
 | -- | -- |
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
-| Versions | 6.3.0 |
+| Versions | 6.3.0, 6.4.6 |
 | Architectures | i386, x86_64 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 

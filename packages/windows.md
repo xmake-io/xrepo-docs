@@ -11116,6 +11116,30 @@ add_requires("poco")
 ```
 
 
+### polyscope (windows)
+
+
+| Description | *A C++ & Python viewer for 3D data like meshes and point clouds* |
+| -- | -- |
+| Homepage | [https://polyscope.run/](https://polyscope.run/) |
+| License | MIT |
+| Versions | v1.3.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [polyscope/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/polyscope/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install polyscope
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("polyscope")
+```
+
+
 ### poppler (windows)
 
 
@@ -13275,7 +13299,7 @@ add_requires("taskflow")
 | -- | -- |
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
-| Versions | 6.3.0 |
+| Versions | 6.3.0, 6.4.6 |
 | Architectures | arm64, x64, x86 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 
