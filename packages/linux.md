@@ -8945,6 +8945,29 @@ add_requires("libtorch")
 ```
 
 
+### libui (linux)
+
+
+| Description | *A portable GUI library for C* |
+| -- | -- |
+| Homepage | [https://libui-ng.github.io/libui-ng/](https://libui-ng.github.io/libui-ng/) |
+| Versions | 2022.12.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libui")
+```
+
+
 ### libunistring (linux)
 
 
