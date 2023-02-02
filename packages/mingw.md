@@ -2050,11 +2050,11 @@ add_requires("gflags")
 ### ghc_filesystem (mingw)
 
 
-| Description | *An implementation of C++17 std::filesystem for C++11 /C++14/C++17/C++20 on Windows, macOS, Linux and FreeBSD.* |
+| Description | *An implementation of C++17 std::filesystem for C++11/C++14/C++17/C++20 on Windows, macOS, Linux and FreeBSD.* |
 | -- | -- |
 | Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
 | License | MIT |
-| Versions | v1.5.10 |
+| Versions | v1.5.10, v1.5.12 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
 

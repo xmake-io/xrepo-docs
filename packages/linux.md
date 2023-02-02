@@ -1737,7 +1737,7 @@ add_requires("cli")
 | -- | -- |
 | Homepage | [https://github.com/CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) |
 | License | BSD |
-| Versions | v2.2.0 |
+| Versions | v2.2.0, v2.3.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cli11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli11/xmake.lua) |
 
@@ -4562,11 +4562,11 @@ add_requires("gflags")
 ### ghc_filesystem (linux)
 
 
-| Description | *An implementation of C++17 std::filesystem for C++11 /C++14/C++17/C++20 on Windows, macOS, Linux and FreeBSD.* |
+| Description | *An implementation of C++17 std::filesystem for C++11/C++14/C++17/C++20 on Windows, macOS, Linux and FreeBSD.* |
 | -- | -- |
 | Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
 | License | MIT |
-| Versions | v1.5.10 |
+| Versions | v1.5.10, v1.5.12 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
 
@@ -4897,7 +4897,7 @@ add_requires("gmp")
 | -- | -- |
 | Homepage | [http://gmsh.info/](http://gmsh.info/) |
 | License | GPL-2.0 |
-| Versions | 4.8.4 |
+| Versions | 4.11.1, 4.8.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gmsh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmsh/xmake.lua) |
 
