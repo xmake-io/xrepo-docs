@@ -1927,6 +1927,30 @@ add_requires("ispc")
 
 
 ## j
+### joltphysics (wasm)
+
+
+| Description | *A multi core friendly rigid body physics and collision detection library suitable for games and VR applications.* |
+| -- | -- |
+| Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
+| License | MIT |
+| Versions | v2.0.1 |
+| Architectures | wasm32 |
+| Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm joltphysics
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("joltphysics")
+```
+
+
 ### jsmn (wasm)
 
 
