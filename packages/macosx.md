@@ -14009,7 +14009,7 @@ add_requires("redis-plus-plus")
 | -- | -- |
 | Homepage | [https://github.com/DragonJoker/RenderGraph/](https://github.com/DragonJoker/RenderGraph/) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0 |
+| Versions | v1.0.0, v1.1.0, v1.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [rendergraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rendergraph/xmake.lua) |
 
