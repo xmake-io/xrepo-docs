@@ -887,8 +887,8 @@ add_requires("ca-certificates")
 | Description | *Vector graphics library with cross-device output support.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 1.17.6 |
-| Architectures | arm64, x64, x86 |
+| Versions | 1.17.6, 1.17.8 |
+| Architectures | x64, x86 |
 | Definition | [cairo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairo/xmake.lua) |
 
 ##### Install command
@@ -8514,7 +8514,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -11053,8 +11053,8 @@ add_requires("piex")
 | Description | *Low-level library for pixel manipulation.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 0.40.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | 0.40.0, 0.42.2 |
+| Architectures | x64, x86 |
 | Definition | [pixman/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pixman/xmake.lua) |
 
 ##### Install command
