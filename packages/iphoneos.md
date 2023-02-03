@@ -3976,6 +3976,30 @@ add_requires("mpmcqueue")
 ```
 
 
+### msdfgen (iphoneos)
+
+
+| Description | *Multi-channel signed distance field generator* |
+| -- | -- |
+| Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
+| License | MIT |
+| Versions | v1.10 |
+| Architectures | arm64, x86_64 |
+| Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos msdfgen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msdfgen")
+```
+
+
 ### muslcc (iphoneos)
 
 
