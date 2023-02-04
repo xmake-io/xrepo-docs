@@ -17272,7 +17272,7 @@ add_requires("uriparser")
 | Description | *Universal Scene Description* |
 | -- | -- |
 | Homepage | [http://www.openusd.org](http://www.openusd.org) |
-| Versions | v22.11 |
+| Versions | v22.11, v23.02 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [usd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usd/xmake.lua) |
 

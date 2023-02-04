@@ -16186,7 +16186,7 @@ add_requires("uriparser")
 | Description | *Universal Scene Description* |
 | -- | -- |
 | Homepage | [http://www.openusd.org](http://www.openusd.org) |
-| Versions | v22.11 |
+| Versions | v22.11, v23.02 |
 | Architectures | arm64, x86_64 |
 | Definition | [usd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usd/xmake.lua) |
 
