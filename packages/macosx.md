@@ -7086,29 +7086,6 @@ add_requires("libice")
 ```
 
 
-### libiconv (macosx)
-
-
-| Description | *Character set conversion library.* |
-| -- | -- |
-| Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
-| Versions | 1.15, 1.16, 1.17 |
-| Architectures | arm64, x86_64 |
-| Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install libiconv
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("libiconv")
-```
-
-
 ### libidn2 (macosx)
 
 
@@ -8921,7 +8898,7 @@ add_requires("libxmake")
 | -- | -- |
 | Homepage | [http://xmlsoft.org/](http://xmlsoft.org/) |
 | License | MIT |
-| Versions | 2.9.10, 2.9.12, 2.9.9 |
+| Versions | 2.10.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxml2/xmake.lua) |
 

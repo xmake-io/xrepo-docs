@@ -7496,7 +7496,7 @@ add_requires("libxmake")
 | -- | -- |
 | Homepage | [http://xmlsoft.org/](http://xmlsoft.org/) |
 | License | MIT |
-| Versions | 2.9.10, 2.9.12, 2.9.9 |
+| Versions | 2.10.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxml2/xmake.lua) |
 
