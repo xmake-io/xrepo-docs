@@ -2135,6 +2135,30 @@ add_requires("guilite")
 ```
 
 
+### gumbo-parser (android)
+
+
+| Description | *An HTML5 parsing library in pure C99* |
+| -- | -- |
+| Homepage | [https://github.com/google/gumbo-parser](https://github.com/google/gumbo-parser) |
+| License | Apache-2.0 |
+| Versions | v0.10.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [gumbo-parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gumbo-parser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] gumbo-parser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gumbo-parser")
+```
+
+
 ### gyp-next (android)
 
 
@@ -3455,6 +3479,29 @@ xrepo install -p android [--ndk=/xxx] libxml2
 
 ```lua
 add_requires("libxml2")
+```
+
+
+### litehtml (android)
+
+
+| Description | *Fast and lightweight HTML/CSS rendering engine* |
+| -- | -- |
+| Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
+| Versions | 2023.01.05 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] litehtml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("litehtml")
 ```
 
 
