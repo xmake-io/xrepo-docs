@@ -8478,6 +8478,7 @@ add_requires("libusbmuxd")
 | Description | *Portable uuid C library* |
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/libuuid](https://sourceforge.net/projects/libuuid) |
+| License | BSD-3-Clause |
 | Versions | 1.0.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libuuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuuid/xmake.lua) |

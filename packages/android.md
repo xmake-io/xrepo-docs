@@ -3386,6 +3386,30 @@ add_requires("libunwind")
 ```
 
 
+### libuuid (android)
+
+
+| Description | *Portable uuid C library* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/libuuid](https://sourceforge.net/projects/libuuid) |
+| License | BSD-3-Clause |
+| Versions | 1.0.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libuuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuuid/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libuuid
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libuuid")
+```
+
+
 ### libuv (android)
 
 
