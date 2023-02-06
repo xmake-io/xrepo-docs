@@ -1665,6 +1665,30 @@ add_requires("fltk")
 ```
 
 
+### fluxsort (android)
+
+
+| Description | *A branchless stable quicksort / mergesort hybrid.* |
+| -- | -- |
+| Homepage | [https://github.com/scandum/fluxsort](https://github.com/scandum/fluxsort) |
+| License | MIT |
+| Versions | 2023.02.05 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [fluxsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluxsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] fluxsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fluxsort")
+```
+
+
 ### fmt (android)
 
 
@@ -5657,6 +5681,30 @@ xrepo install -p android [--ndk=/xxx] qt5widgets
 
 ```lua
 add_requires("qt5widgets")
+```
+
+
+### quadsort (android)
+
+
+| Description | *Quadsort is a branchless stable adaptive mergesort faster than quicksort.* |
+| -- | -- |
+| Homepage | [https://github.com/scandum/quadsort](https://github.com/scandum/quadsort) |
+| License | MIT |
+| Versions | 2023.02.03 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [quadsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quadsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] quadsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quadsort")
 ```
 
 

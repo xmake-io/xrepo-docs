@@ -1857,6 +1857,30 @@ add_requires("fltk")
 ```
 
 
+### fluxsort (mingw)
+
+
+| Description | *A branchless stable quicksort / mergesort hybrid.* |
+| -- | -- |
+| Homepage | [https://github.com/scandum/fluxsort](https://github.com/scandum/fluxsort) |
+| License | MIT |
+| Versions | 2023.02.05 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [fluxsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluxsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] fluxsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fluxsort")
+```
+
+
 ### fmt (mingw)
 
 
@@ -6204,6 +6228,30 @@ xrepo install -p mingw [--mingw=/xxx] qt5widgets
 
 ```lua
 add_requires("qt5widgets")
+```
+
+
+### quadsort (mingw)
+
+
+| Description | *Quadsort is a branchless stable adaptive mergesort faster than quicksort.* |
+| -- | -- |
+| Homepage | [https://github.com/scandum/quadsort](https://github.com/scandum/quadsort) |
+| License | MIT |
+| Versions | 2023.02.03 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [quadsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quadsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] quadsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quadsort")
 ```
 
 

@@ -3592,6 +3592,30 @@ add_requires("fltk")
 ```
 
 
+### fluxsort (windows)
+
+
+| Description | *A branchless stable quicksort / mergesort hybrid.* |
+| -- | -- |
+| Homepage | [https://github.com/scandum/fluxsort](https://github.com/scandum/fluxsort) |
+| License | MIT |
+| Versions | 2023.02.05 |
+| Architectures | arm64, x64, x86 |
+| Definition | [fluxsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluxsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fluxsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fluxsort")
+```
+
+
 ### fmt (windows)
 
 
@@ -11917,6 +11941,30 @@ xrepo install qt5widgets
 
 ```lua
 add_requires("qt5widgets")
+```
+
+
+### quadsort (windows)
+
+
+| Description | *Quadsort is a branchless stable adaptive mergesort faster than quicksort.* |
+| -- | -- |
+| Homepage | [https://github.com/scandum/quadsort](https://github.com/scandum/quadsort) |
+| License | MIT |
+| Versions | 2023.02.03 |
+| Architectures | arm64, x64, x86 |
+| Definition | [quadsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quadsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quadsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quadsort")
 ```
 
 

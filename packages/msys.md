@@ -1333,6 +1333,30 @@ add_requires("fastcppcsvparser")
 ```
 
 
+### fluxsort (msys)
+
+
+| Description | *A branchless stable quicksort / mergesort hybrid.* |
+| -- | -- |
+| Homepage | [https://github.com/scandum/fluxsort](https://github.com/scandum/fluxsort) |
+| License | MIT |
+| Versions | 2023.02.05 |
+| Architectures | i386, x86_64 |
+| Definition | [fluxsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluxsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fluxsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fluxsort")
+```
+
+
 ### fmt (msys)
 
 
@@ -4004,6 +4028,30 @@ xrepo install qoi
 
 ```lua
 add_requires("qoi")
+```
+
+
+### quadsort (msys)
+
+
+| Description | *Quadsort is a branchless stable adaptive mergesort faster than quicksort.* |
+| -- | -- |
+| Homepage | [https://github.com/scandum/quadsort](https://github.com/scandum/quadsort) |
+| License | MIT |
+| Versions | 2023.02.03 |
+| Architectures | i386, x86_64 |
+| Definition | [quadsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quadsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quadsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quadsort")
 ```
 
 
