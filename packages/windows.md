@@ -1857,8 +1857,8 @@ add_requires("cpr")
 | -- | -- |
 | Homepage | [https://github.com/google/cpu_features](https://github.com/google/cpu_features) |
 | License | Apache-2.0 |
-| Versions | v0.6.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | v0.6.0, v0.7.0 |
+| Architectures | x64, x86 |
 | Definition | [cpu-features/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpu-features/xmake.lua) |
 
 ##### Install command
@@ -3048,7 +3048,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8 |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -7782,7 +7782,7 @@ add_requires("llfio")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
-| Versions | v3.0.0 |
+| Versions | v3.0.0, v8.1.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
@@ -14129,7 +14129,8 @@ add_requires("turbobase64")
 | Description | *uchardet is an encoding detector library, which takes a sequence of bytes in an unknown character encoding without any additional information, and attempts to determine the encoding of the text. * |
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/uchardet/](https://www.freedesktop.org/wiki/Software/uchardet/) |
-| Versions | 0.0.7 |
+| License | MPL-1.1 |
+| Versions | 0.0.7, 0.0.8 |
 | Architectures | arm64, x64, x86 |
 | Definition | [uchardet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uchardet/xmake.lua) |
 

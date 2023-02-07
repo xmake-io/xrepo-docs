@@ -3086,7 +3086,7 @@ add_requires("littlefs")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
-| Versions | v3.0.0 |
+| Versions | v3.0.0, v8.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
@@ -6142,7 +6142,8 @@ add_requires("toml11")
 | Description | *uchardet is an encoding detector library, which takes a sequence of bytes in an unknown character encoding without any additional information, and attempts to determine the encoding of the text. * |
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/uchardet/](https://www.freedesktop.org/wiki/Software/uchardet/) |
-| Versions | 0.0.7 |
+| License | MPL-1.1 |
+| Versions | 0.0.7, 0.0.8 |
 | Architectures | i386, x86_64 |
 | Definition | [uchardet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uchardet/xmake.lua) |
 
