@@ -1837,7 +1837,7 @@ add_requires("genie")
 | Description | *GNU internationalization (i18n) and localization (l10n) library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
-| Versions | 0.19.8-1, 0.21 |
+| Versions | 0.19.8-1, 0.21, 0.21.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [gettext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gettext/xmake.lua) |
 

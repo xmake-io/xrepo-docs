@@ -4542,7 +4542,7 @@ add_requires("geos")
 | Description | *GNU internationalization (i18n) and localization (l10n) library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
-| Versions | 0.19.8-1, 0.21 |
+| Versions | 0.19.8-1, 0.21, 0.21.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gettext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gettext/xmake.lua) |
 
@@ -14386,7 +14386,7 @@ add_requires("ptl")
 | -- | -- |
 | Homepage | [https://pugixml.org/](https://pugixml.org/) |
 | License | MIT |
-| Versions | 1.11.4 |
+| Versions | v1.11.4, v1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pugixml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pugixml/xmake.lua) |
 
@@ -15607,6 +15607,30 @@ xrepo install shaderwriter
 
 ```lua
 add_requires("shaderwriter")
+```
+
+
+### shared-mime-info (linux)
+
+
+| Description | *The shared-mime-info package contains the core database of common types and the update-mime-database command used to extend it.* |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/shared-mime-info/](https://www.freedesktop.org/wiki/Software/shared-mime-info/) |
+| License | GPL-2.0 |
+| Versions | 2.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [shared-mime-info/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shared-mime-info/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install shared-mime-info
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("shared-mime-info")
 ```
 
 
