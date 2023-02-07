@@ -7664,7 +7664,7 @@ add_requires("lief")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM) |
 | License | MIT |
-| Versions | 3.2.1 |
+| Versions | 3.2.1, 3.3.2 |
 | Architectures | x64 |
 | Definition | [lightgbm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightgbm/xmake.lua) |
 
