@@ -1951,6 +1951,30 @@ add_requires("frozen")
 ```
 
 
+### ftxui (mingw)
+
+
+| Description | *:computer: C++ Functional Terminal User Interface. :heart:* |
+| -- | -- |
+| Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
+| License | MIT |
+| Versions | v3.0.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ftxui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ftxui")
+```
+
+
 ### functionalplus (mingw)
 
 

@@ -1617,6 +1617,30 @@ add_requires("frozen")
 ```
 
 
+### ftxui (bsd)
+
+
+| Description | *:computer: C++ Functional Terminal User Interface. :heart:* |
+| -- | -- |
+| Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
+| License | MIT |
+| Versions | v3.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ftxui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ftxui")
+```
+
+
 ### functionalplus (bsd)
 
 
