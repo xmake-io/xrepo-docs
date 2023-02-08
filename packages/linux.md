@@ -5679,7 +5679,7 @@ add_requires("hopscotch-map")
 | -- | -- |
 | Homepage | [https://github.com/ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) |
 | License | Apache-2.0 |
-| Versions | v5.7.3, v5.8.4 |
+| Versions | v5.7.3, v5.8.4, v5.9.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hpsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpsocket/xmake.lua) |
 
