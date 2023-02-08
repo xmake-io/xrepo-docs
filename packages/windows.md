@@ -1385,7 +1385,7 @@ add_requires("clara")
 | -- | -- |
 | Homepage | [https://proj-clhep.web.cern.ch/proj-clhep/](https://proj-clhep.web.cern.ch/proj-clhep/) |
 | License | LGPL-3.0 |
-| Versions | 2.4.5+1 |
+| Versions | 2.4.5+1, 2.4.6+3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [clhep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clhep/xmake.lua) |
 
@@ -4074,7 +4074,7 @@ add_requires("gdal")
 | Description | *Geant4 is a toolkit for the simulation of the passage of particles through matter.* |
 | -- | -- |
 | Homepage | [https://geant4.web.cern.ch/](https://geant4.web.cern.ch/) |
-| Versions | 10.7.2 |
+| Versions | 10.7.2, 11.1.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [geant4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geant4/xmake.lua) |
 
