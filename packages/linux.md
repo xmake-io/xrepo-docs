@@ -10399,6 +10399,30 @@ add_requires("luau")
 ```
 
 
+### lunasvg (linux)
+
+
+| Description | *LunaSVG - SVG rendering library in C++* |
+| -- | -- |
+| Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
+| License | MIT |
+| Versions | v2.3.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lunasvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lunasvg")
+```
+
+
 ### lvgl (linux)
 
 
@@ -15206,6 +15230,30 @@ xrepo install rhash
 
 ```lua
 add_requires("rhash")
+```
+
+
+### rmlui (linux)
+
+
+| Description | *RmlUi is the C++ user interface library based on the HTML and CSS standards.* |
+| -- | -- |
+| Homepage | [https://mikke89.github.io/RmlUiDoc/](https://mikke89.github.io/RmlUiDoc/) |
+| License | MIT |
+| Versions | 5.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rmlui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rmlui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rmlui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rmlui")
 ```
 
 
