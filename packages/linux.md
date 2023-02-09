@@ -3832,7 +3832,8 @@ add_requires("flann")
 | Description | *FlatBuffers is a cross platform serialization library architected for maximum memory efficiency.* |
 | -- | -- |
 | Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
-| Versions | 1.12.0, 2.0.0 |
+| License | Apache-2.0 |
+| Versions | v1.12.0, v2.0.0, v23.1.21 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
 
@@ -7308,7 +7309,7 @@ add_requires("libevent")
 | -- | -- |
 | Homepage | [https://ofiwg.github.io/libfabric/](https://ofiwg.github.io/libfabric/) |
 | License | BSD-2-Clause |
-| Versions | 1.13.0 |
+| Versions | 1.13.0, 1.17.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfabric/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfabric/xmake.lua) |
 
@@ -13322,7 +13323,7 @@ add_requires("openscenegraph")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
-| Versions | 1.0.0, 1.0.2-u, 1.1.0-l, 1.1.1-h, 1.1.1-k, 1.1.1-l, 1.1.1-m, 1.1.1-n, 1.1.1-o, 1.1.1-p, 1.1.1-q, 1.1.1-r, 1.1.1-s |
+| Versions | 1.0.0, 1.0.2-u, 1.1.0-l, 1.1.1-h, 1.1.1-k, 1.1.1-l, 1.1.1-m, 1.1.1-n, 1.1.1-o, 1.1.1-p, 1.1.1-q, 1.1.1-r, 1.1.1-s, 1.1.1-t |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
