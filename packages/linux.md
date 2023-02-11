@@ -2037,6 +2037,29 @@ add_requires("cpp-httplib")
 ```
 
 
+### cpp-lazy (linux)
+
+
+| Description | *A fast C++11/14/17/20 header only library for lazy evaluation and function tools* |
+| -- | -- |
+| Homepage | [https://github.com/MarcDirven/cpp-lazy](https://github.com/MarcDirven/cpp-lazy) |
+| Versions | v7.0.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cpp-lazy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-lazy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp-lazy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-lazy")
+```
+
+
 ### cppfront (linux)
 
 
