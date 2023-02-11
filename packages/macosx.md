@@ -16919,6 +16919,30 @@ add_requires("vulkan-memory-allocator")
 ```
 
 
+### vulkanscenegraph (macosx)
+
+
+| Description | *VulkanSceneGraph (VSG), is a modern, cross platform, high performance scene graph library built upon Vulkan graphics/compute API.* |
+| -- | -- |
+| Homepage | [https://vsg-dev.github.io/VulkanSceneGraph/](https://vsg-dev.github.io/VulkanSceneGraph/) |
+| License | MIT |
+| Versions | 1.0.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [vulkanscenegraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkanscenegraph/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkanscenegraph
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkanscenegraph")
+```
+
+
 
 ## w
 ### websocketpp (macosx)
