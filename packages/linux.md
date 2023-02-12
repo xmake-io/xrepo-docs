@@ -13479,6 +13479,29 @@ add_requires("optick")
 ```
 
 
+### orangeduck_mpc (linux)
+
+
+| Description | *A Parser Combinator library for C* |
+| -- | -- |
+| Homepage | [https://github.com/orangeduck/mpc](https://github.com/orangeduck/mpc) |
+| Versions | 0.9.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [orangeduck_mpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orangeduck_mpc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install orangeduck_mpc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("orangeduck_mpc")
+```
+
+
 ### ordered_map (linux)
 
 

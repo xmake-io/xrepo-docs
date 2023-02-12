@@ -5453,6 +5453,29 @@ add_requires("openssl3")
 ```
 
 
+### orangeduck_mpc (mingw)
+
+
+| Description | *A Parser Combinator library for C* |
+| -- | -- |
+| Homepage | [https://github.com/orangeduck/mpc](https://github.com/orangeduck/mpc) |
+| Versions | 0.9.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [orangeduck_mpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orangeduck_mpc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] orangeduck_mpc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("orangeduck_mpc")
+```
+
+
 ### ordered_map (mingw)
 
 

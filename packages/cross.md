@@ -4029,6 +4029,29 @@ add_requires("openssl3")
 ```
 
 
+### orangeduck_mpc (cross)
+
+
+| Description | *A Parser Combinator library for C* |
+| -- | -- |
+| Homepage | [https://github.com/orangeduck/mpc](https://github.com/orangeduck/mpc) |
+| Versions | 0.9.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [orangeduck_mpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orangeduck_mpc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] orangeduck_mpc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("orangeduck_mpc")
+```
+
+
 ### ordered_map (cross)
 
 
