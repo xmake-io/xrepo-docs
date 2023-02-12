@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: cpp-lazy, vulkanscenegraph, lunasvg**
+- **Recently added: branchless-utf8, cpp-lazy, vulkanscenegraph**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

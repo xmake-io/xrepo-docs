@@ -309,6 +309,29 @@ add_requires("boost")
 ```
 
 
+### branchless-utf8 (cross)
+
+
+| Description | *Branchless UTF-8 decoder* |
+| -- | -- |
+| Homepage | [https://github.com/skeeto/branchless-utf8](https://github.com/skeeto/branchless-utf8) |
+| Versions | 2022.08.30 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [branchless-utf8/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/branchless-utf8/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] branchless-utf8
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("branchless-utf8")
+```
+
+
 ### brotli (cross)
 
 

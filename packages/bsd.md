@@ -333,6 +333,29 @@ add_requires("boost")
 ```
 
 
+### branchless-utf8 (bsd)
+
+
+| Description | *Branchless UTF-8 decoder* |
+| -- | -- |
+| Homepage | [https://github.com/skeeto/branchless-utf8](https://github.com/skeeto/branchless-utf8) |
+| Versions | 2022.08.30 |
+| Architectures | i386, x86_64 |
+| Definition | [branchless-utf8/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/branchless-utf8/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install branchless-utf8
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("branchless-utf8")
+```
+
+
 ### brotli (bsd)
 
 
