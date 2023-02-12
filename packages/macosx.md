@@ -9385,6 +9385,29 @@ add_requires("lief")
 ```
 
 
+### linenoise (macosx)
+
+
+| Description | *A small self-contained alternative to readline and libedit* |
+| -- | -- |
+| Homepage | [https://github.com/antirez/linenoise](https://github.com/antirez/linenoise) |
+| Versions | 2020.3.12 |
+| Architectures | arm64, x86_64 |
+| Definition | [linenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linenoise/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install linenoise
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("linenoise")
+```
+
+
 ### litehtml (macosx)
 
 

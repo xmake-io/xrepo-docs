@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: orangeduck_mpc, branchless-utf8, cpp-lazy**
+- **Recently added: linenoise, orangeduck_mpc, branchless-utf8**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
