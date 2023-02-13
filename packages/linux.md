@@ -6830,6 +6830,30 @@ add_requires("libaesgm")
 ```
 
 
+### libaio (linux)
+
+
+| Description | *Linux-native asynchronous I/O access library* |
+| -- | -- |
+| Homepage | [https://pagure.io/libaio](https://pagure.io/libaio) |
+| License | LGPL-2.1-or-later |
+| Versions | 0.3.113 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libaio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libaio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libaio")
+```
+
+
 ### libarchive (linux)
 
 
