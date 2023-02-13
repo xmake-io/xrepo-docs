@@ -4547,6 +4547,30 @@ add_requires("mbedtls")
 ```
 
 
+### mcut (mingw)
+
+
+| Description | *Fast & robust mesh boolean library in C++* |
+| -- | -- |
+| Homepage | [https://cutdigital.github.io/mcut.site/](https://cutdigital.github.io/mcut.site/) |
+| License | GPL-3.0 |
+| Versions | v1.1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [mcut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mcut/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] mcut
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mcut")
+```
+
+
 ### meson (mingw)
 
 
