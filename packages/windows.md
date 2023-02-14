@@ -694,6 +694,30 @@ add_requires("boost")
 ```
 
 
+### boost_ut (windows)
+
+
+| Description | *UT: C++20 μ(micro)/Unit Testing Framework* |
+| -- | -- |
+| Homepage | [https://boost-ext.github.io/ut/](https://boost-ext.github.io/ut/) |
+| License | BSL-1.0 |
+| Versions | v1.1.9 |
+| Architectures | arm64, x64, x86 |
+| Definition | [boost_ut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_ut/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install boost_ut
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_ut")
+```
+
+
 ### boringssl (windows)
 
 
