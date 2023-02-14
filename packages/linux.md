@@ -8626,7 +8626,7 @@ add_requires("libsdl_gfx")
 | -- | -- |
 | Homepage | [http://www.libsdl.org/projects/SDL_image/](http://www.libsdl.org/projects/SDL_image/) |
 | License | zlib |
-| Versions | 2.0.5, 2.6.0, 2.6.1, 2.6.2 |
+| Versions | 2.6.0, 2.6.1, 2.6.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_image/xmake.lua) |
 
@@ -8649,6 +8649,7 @@ add_requires("libsdl_image")
 | Description | *Simple DirectMedia Layer mixer audio library* |
 | -- | -- |
 | Homepage | [https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/) |
+| License | zlib |
 | Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_mixer/xmake.lua) |
@@ -8672,7 +8673,8 @@ add_requires("libsdl_mixer")
 | Description | *Simple DirectMedia Layer networking library* |
 | -- | -- |
 | Homepage | [https://www.libsdl.org/projects/SDL_net/](https://www.libsdl.org/projects/SDL_net/) |
-| Versions | 2.0.1, 2.2.0 |
+| License | zlib |
+| Versions | 2.2.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_net/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_net/xmake.lua) |
 
@@ -8694,9 +8696,9 @@ add_requires("libsdl_net")
 
 | Description | *Simple DirectMedia Layer text rendering library* |
 | -- | -- |
-| Homepage | [https://www.libsdl.org/projects/SDL_ttf/](https://www.libsdl.org/projects/SDL_ttf/) |
+| Homepage | [https://github.com/libsdl-org/SDL_ttf/](https://github.com/libsdl-org/SDL_ttf/) |
 | License | zlib |
-| Versions | 2.0.15, 2.0.18, 2.20.0, 2.20.1 |
+| Versions | 2.20.0, 2.20.1, 2.20.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_ttf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_ttf/xmake.lua) |
 

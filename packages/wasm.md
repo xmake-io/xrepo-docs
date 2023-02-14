@@ -2399,6 +2399,102 @@ add_requires("libsdl")
 ```
 
 
+### libsdl_image (wasm)
+
+
+| Description | *Simple DirectMedia Layer image loading library* |
+| -- | -- |
+| Homepage | [http://www.libsdl.org/projects/SDL_image/](http://www.libsdl.org/projects/SDL_image/) |
+| License | zlib |
+| Versions | 2.6.0, 2.6.1, 2.6.2 |
+| Architectures | wasm32 |
+| Definition | [libsdl_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_image/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libsdl_image
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl_image")
+```
+
+
+### libsdl_mixer (wasm)
+
+
+| Description | *Simple DirectMedia Layer mixer audio library* |
+| -- | -- |
+| Homepage | [https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/) |
+| License | zlib |
+| Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2 |
+| Architectures | wasm32 |
+| Definition | [libsdl_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_mixer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libsdl_mixer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl_mixer")
+```
+
+
+### libsdl_net (wasm)
+
+
+| Description | *Simple DirectMedia Layer networking library* |
+| -- | -- |
+| Homepage | [https://www.libsdl.org/projects/SDL_net/](https://www.libsdl.org/projects/SDL_net/) |
+| License | zlib |
+| Versions | 2.2.0 |
+| Architectures | wasm32 |
+| Definition | [libsdl_net/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_net/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libsdl_net
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl_net")
+```
+
+
+### libsdl_ttf (wasm)
+
+
+| Description | *Simple DirectMedia Layer text rendering library* |
+| -- | -- |
+| Homepage | [https://github.com/libsdl-org/SDL_ttf/](https://github.com/libsdl-org/SDL_ttf/) |
+| License | zlib |
+| Versions | 2.20.0, 2.20.1, 2.20.2 |
+| Architectures | wasm32 |
+| Definition | [libsdl_ttf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_ttf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libsdl_ttf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl_ttf")
+```
+
+
 ### libsimdpp (wasm)
 
 
