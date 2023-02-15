@@ -6991,6 +6991,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("quadsort")
 </code></pre>
+<h3 id="quake_trianglecross">quake_triangle (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A Two-Dimensional Quality Mesh Generator and Delaunay Triangulator.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://www.cs.cmu.edu/~quake/triangle.html">http://www.cs.cmu.edu/~quake/triangle.html</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.6</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quake_triangle/xmake.lua">quake_triangle/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] quake_triangle
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("quake_triangle")
+</code></pre>
 <h3 id="quickcpplibcross">quickcpplib (cross)</h3>
 <table>
 <thead>
@@ -8199,6 +8232,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("termcolor")
+</code></pre>
+<h3 id="tetgencross">tetgen (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A Quality Tetrahedral Mesh Generator and a 3D Delaunay Triangulator</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.wias-berlin.de/software/index.jsp?id=TetGen">https://www.wias-berlin.de/software/index.jsp?id=TetGen</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>AGPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.6.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tetgen/xmake.lua">tetgen/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] tetgen
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("tetgen")
 </code></pre>
 <h3 id="threadpoolcross">thread-pool (cross)</h3>
 <table>

@@ -4197,6 +4197,29 @@ add_requires("quadsort")
 ```
 
 
+### quake_triangle (msys)
+
+
+| Description | *A Two-Dimensional Quality Mesh Generator and Delaunay Triangulator.* |
+| -- | -- |
+| Homepage | [http://www.cs.cmu.edu/~quake/triangle.html](http://www.cs.cmu.edu/~quake/triangle.html) |
+| Versions | 1.6 |
+| Architectures | i386, x86_64 |
+| Definition | [quake_triangle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quake_triangle/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quake_triangle
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quake_triangle")
+```
+
+
 ### quickcpplib (msys)
 
 
@@ -4909,6 +4932,30 @@ xrepo install termcolor
 
 ```lua
 add_requires("termcolor")
+```
+
+
+### tetgen (msys)
+
+
+| Description | *A Quality Tetrahedral Mesh Generator and a 3D Delaunay Triangulator* |
+| -- | -- |
+| Homepage | [https://www.wias-berlin.de/software/index.jsp?id=TetGen](https://www.wias-berlin.de/software/index.jsp?id=TetGen) |
+| License | AGPL-3.0 |
+| Versions | 1.6.0 |
+| Architectures | i386, x86_64 |
+| Definition | [tetgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tetgen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tetgen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tetgen")
 ```
 
 
