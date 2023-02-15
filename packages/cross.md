@@ -505,7 +505,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
 | License | BSD-3-Clause |
-| Versions | 1.3.0, 1.3.1 |
+| Versions | 1.3.0, 1.3.1, 1.3.2 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
 
@@ -3251,7 +3251,7 @@ add_requires("m4")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
-| Versions | v0.7.3, v0.8.0, v0.8.1 |
+| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 

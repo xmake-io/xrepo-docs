@@ -553,7 +553,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
 | License | BSD-3-Clause |
-| Versions | 1.3.0, 1.3.1 |
+| Versions | 1.3.0, 1.3.1, 1.3.2 |
 | Architectures | i386, x86_64 |
 | Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
 
@@ -2551,7 +2551,7 @@ add_requires("lexy")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.10, v1.13, v1.15, v1.8 |
+| Versions | v1.10, v1.13, v1.15, v1.17, v1.8 |
 | Architectures | i386, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -3534,7 +3534,7 @@ add_requires("m4")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
-| Versions | v0.7.3, v0.8.0, v0.8.1 |
+| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2 |
 | Architectures | i386, x86_64 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 
