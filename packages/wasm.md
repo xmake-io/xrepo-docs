@@ -2682,6 +2682,30 @@ add_requires("libvorbis")
 ```
 
 
+### libwebp (wasm)
+
+
+| Description | *Library to encode and decode images in WebP format.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/webm/libwebp/](https://chromium.googlesource.com/webm/libwebp/) |
+| License | BSD-3-Clause |
+| Versions | v1.1.0, v1.2.0, v1.2.1, v1.2.2, v1.2.3, v1.2.4, v1.3.0 |
+| Architectures | wasm32 |
+| Definition | [libwebp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libwebp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libwebp")
+```
+
+
 ### linenoise (wasm)
 
 
