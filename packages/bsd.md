@@ -1433,7 +1433,7 @@ add_requires("expected")
 | -- | -- |
 | Homepage | [https://www.partow.net/programming/exprtk/index.html](https://www.partow.net/programming/exprtk/index.html) |
 | License | MIT |
-| Versions | 2021.06.06 |
+| Versions | 2022.01.01 |
 | Architectures | i386, x86_64 |
 | Definition | [exprtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exprtk/xmake.lua) |
 

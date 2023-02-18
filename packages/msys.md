@@ -1259,30 +1259,6 @@ add_requires("expected")
 ```
 
 
-### exprtk (msys)
-
-
-| Description | *C++ Mathematical Expression Parsing And Evaluation Library* |
-| -- | -- |
-| Homepage | [https://www.partow.net/programming/exprtk/index.html](https://www.partow.net/programming/exprtk/index.html) |
-| License | MIT |
-| Versions | 2021.06.06 |
-| Architectures | i386, x86_64 |
-| Definition | [exprtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exprtk/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install exprtk
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("exprtk")
-```
-
-
 
 ## f
 ### fast_float (msys)
