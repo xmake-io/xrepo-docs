@@ -7162,7 +7162,7 @@ add_requires("subprocess.h")
 | -- | -- |
 | Homepage | [http://swig.org/](http://swig.org/) |
 | License | GPL-3.0 |
-| Versions | 4.0.2 |
+| Versions | 4.0.2, 4.1.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
 

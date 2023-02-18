@@ -4964,7 +4964,7 @@ add_requires("strtk")
 | -- | -- |
 | Homepage | [http://swig.org/](http://swig.org/) |
 | License | GPL-3.0 |
-| Versions | 4.0.2 |
+| Versions | 4.0.2, 4.1.1 |
 | Architectures | wasm32 |
 | Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
 

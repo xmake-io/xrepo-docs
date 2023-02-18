@@ -2258,7 +2258,7 @@ add_requires("date")
 | -- | -- |
 | Homepage | [https://www.videolan.org/projects/dav1d.html](https://www.videolan.org/projects/dav1d.html) |
 | License | BSD-2-Clause |
-| Versions | 0.9.0 |
+| Versions | 0.9.0, 1.1.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dav1d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dav1d/xmake.lua) |
 
@@ -3788,7 +3788,7 @@ add_requires("fpng")
 | -- | -- |
 | Homepage | [http://freeglut.sourceforge.net](http://freeglut.sourceforge.net) |
 | License | MIT |
-| Versions | 3.0.0, 3.2.1, 3.2.2 |
+| Versions | v3.4.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [freeglut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeglut/xmake.lua) |
 
@@ -13584,7 +13584,7 @@ add_requires("superlu")
 | -- | -- |
 | Homepage | [http://swig.org/](http://swig.org/) |
 | License | GPL-3.0 |
-| Versions | 4.0.2 |
+| Versions | 4.0.2, 4.1.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
 
