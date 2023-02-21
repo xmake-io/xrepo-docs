@@ -5245,6 +5245,30 @@ add_requires("tinycrypt")
 ```
 
 
+### tinyexpr (wasm)
+
+
+| Description | *TinyExpr is a very small parser and evaluation library for evaluating math expressions from C.* |
+| -- | -- |
+| Homepage | [https://codeplea.com/tinyexpr](https://codeplea.com/tinyexpr) |
+| License | zlib |
+| Versions | 2022.11.21 |
+| Architectures | wasm32 |
+| Definition | [tinyexpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexpr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm tinyexpr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyexpr")
+```
+
+
 ### tinyexr (wasm)
 
 
@@ -5432,6 +5456,30 @@ xrepo install -p wasm toml11
 
 ```lua
 add_requires("toml11")
+```
+
+
+### toojpeg (wasm)
+
+
+| Description | *A JPEG encoder in a single C++ file* |
+| -- | -- |
+| Homepage | [https://create.stephan-brumme.com/toojpeg/](https://create.stephan-brumme.com/toojpeg/) |
+| License | zlib |
+| Versions | 1.5 |
+| Architectures | wasm32 |
+| Definition | [toojpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toojpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm toojpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toojpeg")
 ```
 
 

@@ -11034,7 +11034,7 @@ add_requires("parallel-hashmap")
 | -- | -- |
 | Homepage | [http://partio.us/](http://partio.us/) |
 | License | BSD-3-Clause |
-| Versions | v1.14.0 |
+| Versions | v1.14.0, v1.14.6 |
 | Architectures | arm64, x64, x86 |
 | Definition | [partio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/partio/xmake.lua) |
 
@@ -14005,6 +14005,30 @@ add_requires("tinycrypt")
 ```
 
 
+### tinyexpr (windows)
+
+
+| Description | *TinyExpr is a very small parser and evaluation library for evaluating math expressions from C.* |
+| -- | -- |
+| Homepage | [https://codeplea.com/tinyexpr](https://codeplea.com/tinyexpr) |
+| License | zlib |
+| Versions | 2022.11.21 |
+| Architectures | arm64, x64, x86 |
+| Definition | [tinyexpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexpr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyexpr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyexpr")
+```
+
+
 ### tinyexr (windows)
 
 
@@ -14286,6 +14310,30 @@ xrepo install toml11
 
 ```lua
 add_requires("toml11")
+```
+
+
+### toojpeg (windows)
+
+
+| Description | *A JPEG encoder in a single C++ file* |
+| -- | -- |
+| Homepage | [https://create.stephan-brumme.com/toojpeg/](https://create.stephan-brumme.com/toojpeg/) |
+| License | zlib |
+| Versions | 1.5 |
+| Architectures | arm64, x64, x86 |
+| Definition | [toojpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toojpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install toojpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toojpeg")
 ```
 
 
