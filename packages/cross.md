@@ -5241,7 +5241,7 @@ add_requires("sqlite3")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 2021.07.13, 2021.09.10, 2023.01.30 |
+| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 

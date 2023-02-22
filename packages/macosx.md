@@ -13208,7 +13208,7 @@ add_requires("pigz")
 | Description | *Low-level library for pixel manipulation.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 0.40.0, 0.42.2 |
+| Versions | 0.40.0, 0.42.0, 0.42.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [pixman/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pixman/xmake.lua) |
 
@@ -14432,6 +14432,29 @@ add_requires("reproc")
 ```
 
 
+### rlottie (macosx)
+
+
+| Description | *A platform independent standalone library that plays Lottie Animation. * |
+| -- | -- |
+| Homepage | [https://github.com/Samsung/rlottie](https://github.com/Samsung/rlottie) |
+| Versions | 0.1, 0.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [rlottie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rlottie/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rlottie
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rlottie")
+```
+
+
 ### rmlui (macosx)
 
 
@@ -15430,7 +15453,7 @@ add_requires("starpu")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 2021.07.13, 2021.09.10, 2023.01.30 |
+| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30 |
 | Architectures | arm64, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 

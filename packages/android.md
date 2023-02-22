@@ -6089,6 +6089,29 @@ add_requires("reproc")
 ```
 
 
+### rlottie (android)
+
+
+| Description | *A platform independent standalone library that plays Lottie Animation. * |
+| -- | -- |
+| Homepage | [https://github.com/Samsung/rlottie](https://github.com/Samsung/rlottie) |
+| Versions | 0.1, 0.2 |
+| Architectures | arm64-v8a |
+| Definition | [rlottie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rlottie/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] rlottie
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rlottie")
+```
+
+
 ### robin-hood-hashing (android)
 
 
@@ -6495,7 +6518,7 @@ add_requires("sqlite3")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 2021.07.13, 2021.09.10, 2023.01.30 |
+| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 

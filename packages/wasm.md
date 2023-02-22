@@ -4060,6 +4060,29 @@ add_requires("picojson")
 ```
 
 
+### pixman (wasm)
+
+
+| Description | *Low-level library for pixel manipulation.* |
+| -- | -- |
+| Homepage | [https://cairographics.org/](https://cairographics.org/) |
+| Versions | 0.40.0, 0.42.0, 0.42.2 |
+| Architectures | wasm32 |
+| Definition | [pixman/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pixman/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm pixman
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pixman")
+```
+
+
 ### pkg-config (wasm)
 
 
@@ -4556,6 +4579,29 @@ add_requires("reproc")
 ```
 
 
+### rlottie (wasm)
+
+
+| Description | *A platform independent standalone library that plays Lottie Animation. * |
+| -- | -- |
+| Homepage | [https://github.com/Samsung/rlottie](https://github.com/Samsung/rlottie) |
+| Versions | 0.1, 0.2 |
+| Architectures | wasm32 |
+| Definition | [rlottie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rlottie/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm rlottie
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rlottie")
+```
+
+
 ### robin-hood-hashing (wasm)
 
 
@@ -4892,7 +4938,7 @@ add_requires("sqlite3")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 2021.07.13, 2021.09.10, 2023.01.30 |
+| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30 |
 | Architectures | wasm32 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
