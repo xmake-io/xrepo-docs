@@ -18015,7 +18015,7 @@ add_requires("zfp")
 | Description | *Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.* |
 | -- | -- |
 | Homepage | [https://www.ziglang.org/](https://www.ziglang.org/) |
-| Versions | 0.10.0, 0.7.1, 0.9.1 |
+| Versions | 0.10.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
 
