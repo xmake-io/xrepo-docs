@@ -9448,7 +9448,7 @@ add_requires("libwebsockets")
 ### libwfkafka (linux)
 
 
-| Description | *C++ Parallel Computing and Asynchronous Networking Engine* |
+| Description | *The Kafka Client of C++ Workflow* |
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
