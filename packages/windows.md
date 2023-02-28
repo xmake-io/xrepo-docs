@@ -11403,6 +11403,30 @@ add_requires("pmp")
 ```
 
 
+### pocketpy (windows)
+
+
+| Description | *C++17 header-only Python interpreter for game engines.* |
+| -- | -- |
+| Homepage | [https://github.com/blueloveTH/pocketpy](https://github.com/blueloveTH/pocketpy) |
+| License | MIT |
+| Versions | v0.9.0 |
+| Architectures | x64 |
+| Definition | [pocketpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketpy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pocketpy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pocketpy")
+```
+
+
 ### poco (windows)
 
 
