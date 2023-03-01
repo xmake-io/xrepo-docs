@@ -5609,7 +5609,7 @@ add_requires("hash-library")
 | -- | -- |
 | Homepage | [https://www.hdfgroup.org/solutions/hdf5/](https://www.hdfgroup.org/solutions/hdf5/) |
 | License | BSD-3-Clause |
-| Versions | 1.10.7, 1.12.0, 1.12.1, 1.12.2, 1.13.2, 1.13.3 |
+| Versions | 1.10.7, 1.12.0, 1.12.1, 1.12.2, 1.13.2, 1.13.3, 1.14.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hdf5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdf5/xmake.lua) |
 
