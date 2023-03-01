@@ -17553,6 +17553,30 @@ add_requires("trantor")
 ```
 
 
+### trompeloeil (linux)
+
+
+| Description | *A thread-safe header-only mocking framework for C++11/14 using the Boost Software License 1.0* |
+| -- | -- |
+| Homepage | [https://github.com/rollbear/trompeloeil](https://github.com/rollbear/trompeloeil) |
+| License | BSL-1.0 |
+| Versions | v43 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [trompeloeil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trompeloeil/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install trompeloeil
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("trompeloeil")
+```
+
+
 ### turbobase64 (linux)
 
 

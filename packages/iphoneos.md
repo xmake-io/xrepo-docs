@@ -6615,6 +6615,30 @@ add_requires("toojpeg")
 ```
 
 
+### trompeloeil (iphoneos)
+
+
+| Description | *A thread-safe header-only mocking framework for C++11/14 using the Boost Software License 1.0* |
+| -- | -- |
+| Homepage | [https://github.com/rollbear/trompeloeil](https://github.com/rollbear/trompeloeil) |
+| License | BSL-1.0 |
+| Versions | v43 |
+| Architectures | arm64, x86_64 |
+| Definition | [trompeloeil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trompeloeil/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos trompeloeil
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("trompeloeil")
+```
+
+
 
 ## u
 ### uchardet (iphoneos)
