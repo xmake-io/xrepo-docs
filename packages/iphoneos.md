@@ -95,6 +95,30 @@ add_requires("asio")
 ```
 
 
+### assimp (iphoneos)
+
+
+| Description | *Portable Open-Source library to import various well-known 3D model formats in a uniform manner* |
+| -- | -- |
+| Homepage | [https://assimp.org](https://assimp.org) |
+| License | BSD-3-Clause |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos assimp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("assimp")
+```
+
+
 ### autoconf (iphoneos)
 
 
@@ -138,6 +162,30 @@ xrepo install -p iphoneos automake
 
 ```lua
 add_requires("automake")
+```
+
+
+### avir (iphoneos)
+
+
+| Description | *High-quality pro image resizing / scaling C++ library, including a very fast Lanczos resizer* |
+| -- | -- |
+| Homepage | [https://github.com/avaneev/avir](https://github.com/avaneev/avir) |
+| License | MIT |
+| Versions | 3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [avir/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/avir/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos avir
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("avir")
 ```
 
 
@@ -1282,6 +1330,30 @@ add_requires("easyloggingpp")
 ```
 
 
+### efsw (iphoneos)
+
+
+| Description | *efsw is a C++ cross-platform file system watcher and notifier.* |
+| -- | -- |
+| Homepage | [https://github.com/SpartanJ/efsw](https://github.com/SpartanJ/efsw) |
+| License | MIT |
+| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [efsw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/efsw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos efsw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("efsw")
+```
+
+
 ### elfio (iphoneos)
 
 
@@ -1804,6 +1876,30 @@ xrepo install -p iphoneos glog
 
 ```lua
 add_requires("glog")
+```
+
+
+### glslang (iphoneos)
+
+
+| Description | *Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0 |
+| Architectures | arm64, x86_64 |
+| Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos glslang
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glslang")
 ```
 
 
@@ -2970,7 +3066,7 @@ add_requires("libsais")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2 |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -5854,6 +5950,30 @@ add_requires("sol2")
 ```
 
 
+### span-lite (iphoneos)
+
+
+| Description | *span lite - A C++20-like span for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/span-lite](https://github.com/martinmoene/span-lite) |
+| License | BSL |
+| Versions | 0.10.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [span-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/span-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos span-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("span-lite")
+```
+
+
 ### sparsepp (iphoneos)
 
 
@@ -5907,7 +6027,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1 |
+| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -5921,6 +6041,30 @@ xrepo install -p iphoneos spirv-headers
 
 ```lua
 add_requires("spirv-headers")
+```
+
+
+### spirv-tools (iphoneos)
+
+
+| Description | *SPIR-V Tools* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
+| License | Apache-2.0 |
+| Versions | v2020.5, v2020.6, v2021.3, v2021.4, v2022.2, v2022.4, v2023.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos spirv-tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-tools")
 ```
 
 
@@ -6665,6 +6809,30 @@ add_requires("uchardet")
 ```
 
 
+### uni_algo (iphoneos)
+
+
+| Description | *Unicode Algorithms Implementation for C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/uni-algo/uni-algo/](https://github.com/uni-algo/uni-algo/) |
+| License | MIT |
+| Versions | v0.7.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [uni_algo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uni_algo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos uni_algo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uni_algo")
+```
+
+
 ### unordered_dense (iphoneos)
 
 
@@ -6974,6 +7142,30 @@ xrepo install -p iphoneos xbyak
 
 ```lua
 add_requires("xbyak")
+```
+
+
+### xlnt (iphoneos)
+
+
+| Description | *Cross-platform user-friendly xlsx library for C++11+* |
+| -- | -- |
+| Homepage | [https://github.com/tfussell/xlnt](https://github.com/tfussell/xlnt) |
+| License | MIT |
+| Versions | 2023.03.02 |
+| Architectures | arm64, x86_64 |
+| Definition | [xlnt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlnt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos xlnt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xlnt")
 ```
 
 

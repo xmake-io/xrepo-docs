@@ -453,6 +453,30 @@ add_requires("automake")
 ```
 
 
+### avir (linux)
+
+
+| Description | *High-quality pro image resizing / scaling C++ library, including a very fast Lanczos resizer* |
+| -- | -- |
+| Homepage | [https://github.com/avaneev/avir](https://github.com/avaneev/avir) |
+| License | MIT |
+| Versions | 3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [avir/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/avir/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install avir
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("avir")
+```
+
+
 ### awk (linux)
 
 
@@ -2699,6 +2723,30 @@ add_requires("devil")
 ```
 
 
+### directxshadercompiler (linux)
+
+
+| Description | *DirectX Shader Compiler* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/DirectXShaderCompiler/](https://github.com/microsoft/DirectXShaderCompiler/) |
+| License | LLVM |
+| Versions | v1.7.2212 |
+| Architectures | x86_64 |
+| Definition | [directxshadercompiler/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directxshadercompiler/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install directxshadercompiler
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("directxshadercompiler")
+```
+
+
 ### dlib (linux)
 
 
@@ -2992,7 +3040,7 @@ add_requires("dune-common")
 | Description | *Ansi C library for parsing binary output files of LS Dyna (d3plot, binout)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 22.12, 23.01 |
+| Versions | 22.12, 23.01, 23.02 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
@@ -3161,7 +3209,7 @@ add_requires("effcee")
 | -- | -- |
 | Homepage | [https://github.com/SpartanJ/efsw](https://github.com/SpartanJ/efsw) |
 | License | MIT |
-| Versions | 1.1.0 |
+| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [efsw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/efsw/xmake.lua) |
 
@@ -4945,7 +4993,7 @@ add_requires("glog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
@@ -8603,7 +8651,7 @@ add_requires("libsais")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2 |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -10339,7 +10387,7 @@ add_requires("llhttp")
 | Description | *The LLVM Compiler Infrastructure* |
 | -- | -- |
 | Homepage | [https://llvm.org/](https://llvm.org/) |
-| Versions | 11.0.0, 14.0.0 |
+| Versions | 11.0.0, 14.0.0, 15.0.7 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
 
@@ -16251,6 +16299,30 @@ add_requires("soplex")
 ```
 
 
+### span-lite (linux)
+
+
+| Description | *span lite - A C++20-like span for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/span-lite](https://github.com/martinmoene/span-lite) |
+| License | BSL |
+| Versions | 0.10.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [span-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/span-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install span-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("span-lite")
+```
+
+
 ### sparsepp (linux)
 
 
@@ -16328,7 +16400,7 @@ add_requires("spirv-cross")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1 |
+| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -16376,7 +16448,7 @@ add_requires("spirv-reflect")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
-| Versions | 2020.5, 2020.6, 2021.3, 2021.4, 2022.2, 2022.4 |
+| Versions | v2020.5, v2020.6, v2021.3, v2021.4, v2022.2, v2022.4, v2023.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
@@ -17651,6 +17723,30 @@ add_requires("ucx")
 ```
 
 
+### uni_algo (linux)
+
+
+| Description | *Unicode Algorithms Implementation for C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/uni-algo/uni-algo/](https://github.com/uni-algo/uni-algo/) |
+| License | MIT |
+| Versions | v0.7.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [uni_algo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uni_algo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uni_algo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uni_algo")
+```
+
+
 ### unicorn (linux)
 
 
@@ -18839,7 +18935,7 @@ add_requires("xcb-util-wm")
 | -- | -- |
 | Homepage | [https://xerces.apache.org/xerces-c/](https://xerces.apache.org/xerces-c/) |
 | License | Apache-2.0 |
-| Versions | 3.2.3 |
+| Versions | 3.2.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xerces-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xerces-c/xmake.lua) |
 
@@ -18877,6 +18973,30 @@ xrepo install xframe
 
 ```lua
 add_requires("xframe")
+```
+
+
+### xlnt (linux)
+
+
+| Description | *Cross-platform user-friendly xlsx library for C++11+* |
+| -- | -- |
+| Homepage | [https://github.com/tfussell/xlnt](https://github.com/tfussell/xlnt) |
+| License | MIT |
+| Versions | 2023.03.02 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xlnt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlnt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xlnt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xlnt")
 ```
 
 
