@@ -1241,7 +1241,7 @@ add_requires("c-ares")
 | Description | *Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.* |
 | -- | -- |
 | Homepage | [https://mkcert.org/](https://mkcert.org/) |
-| Versions | 20211118, 20220604 |
+| Versions | 20211118, 20220604, 20230306 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ca-certificates/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua) |
 
