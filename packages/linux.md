@@ -5245,6 +5245,29 @@ add_requires("godotcpp")
 ```
 
 
+### godotcpp4 (linux)
+
+
+| Description | *C++ bindings for the Godot 4 script API* |
+| -- | -- |
+| Homepage | [https://godotengine.org/](https://godotengine.org/) |
+| Versions | 4.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [godotcpp4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install godotcpp4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("godotcpp4")
+```
+
+
 ### gperf (linux)
 
 

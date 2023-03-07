@@ -2161,6 +2161,29 @@ add_requires("godotcpp")
 ```
 
 
+### godotcpp4 (android)
+
+
+| Description | *C++ bindings for the Godot 4 script API* |
+| -- | -- |
+| Homepage | [https://godotengine.org/](https://godotengine.org/) |
+| Versions | 4.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [godotcpp4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] godotcpp4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("godotcpp4")
+```
+
+
 ### gsl (android)
 
 
