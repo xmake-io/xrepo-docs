@@ -864,7 +864,7 @@ add_requires("brynet")
 | -- | -- |
 | Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
 | License | zlib |
-| Versions | 2.88, 3.05, 3.09, 3.24 |
+| Versions | 2.88, 3.05, 3.09, 3.24, 3.25 |
 | Architectures | arm64, x64, x86 |
 | Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
 
