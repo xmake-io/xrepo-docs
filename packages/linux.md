@@ -15661,6 +15661,29 @@ add_requires("robotstxt")
 ```
 
 
+### rocksdb (linux)
+
+
+| Description | *A library that provides an embeddable, persistent key-value store for fast storage.* |
+| -- | -- |
+| Homepage | [http://rocksdb.org](http://rocksdb.org) |
+| Versions | v7.10.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rocksdb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rocksdb")
+```
+
+
 ### rpclib (linux)
 
 

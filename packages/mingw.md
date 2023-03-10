@@ -6638,6 +6638,29 @@ add_requires("robin-map")
 ```
 
 
+### rocksdb (mingw)
+
+
+| Description | *A library that provides an embeddable, persistent key-value store for fast storage.* |
+| -- | -- |
+| Homepage | [http://rocksdb.org](http://rocksdb.org) |
+| Versions | v7.10.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] rocksdb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rocksdb")
+```
+
+
 ### rpclib (mingw)
 
 
