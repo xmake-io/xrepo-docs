@@ -9551,6 +9551,29 @@ add_requires("littlefs")
 ```
 
 
+### llama.cpp (macosx)
+
+
+| Description | *Port of Facebook's LLaMA model in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) |
+| Versions | 2023.03.11 |
+| Architectures | arm64, x86_64 |
+| Definition | [llama.cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llama.cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install llama.cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llama.cpp")
+```
+
+
 ### llfio (macosx)
 
 
