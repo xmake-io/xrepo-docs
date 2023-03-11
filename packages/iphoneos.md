@@ -5926,6 +5926,30 @@ add_requires("simplethreadpool")
 ```
 
 
+### snitch (iphoneos)
+
+
+| Description | *Lightweight C++20 testing framework.* |
+| -- | -- |
+| Homepage | [https://github.com/cschreib/snitch](https://github.com/cschreib/snitch) |
+| License | BSL-1.0 |
+| Versions | 1.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [snitch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snitch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos snitch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("snitch")
+```
+
+
 ### sokol (iphoneos)
 
 

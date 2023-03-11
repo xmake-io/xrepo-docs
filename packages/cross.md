@@ -5191,6 +5191,30 @@ add_requires("simplethreadpool")
 ```
 
 
+### snitch (cross)
+
+
+| Description | *Lightweight C++20 testing framework.* |
+| -- | -- |
+| Homepage | [https://github.com/cschreib/snitch](https://github.com/cschreib/snitch) |
+| License | BSL-1.0 |
+| Versions | 1.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [snitch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snitch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] snitch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("snitch")
+```
+
+
 ### sokol (cross)
 
 

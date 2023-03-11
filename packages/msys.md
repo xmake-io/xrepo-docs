@@ -4650,6 +4650,30 @@ add_requires("simde")
 ```
 
 
+### snitch (msys)
+
+
+| Description | *Lightweight C++20 testing framework.* |
+| -- | -- |
+| Homepage | [https://github.com/cschreib/snitch](https://github.com/cschreib/snitch) |
+| License | BSL-1.0 |
+| Versions | 1.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [snitch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snitch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install snitch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("snitch")
+```
+
+
 ### sokol (msys)
 
 
