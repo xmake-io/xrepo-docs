@@ -2131,6 +2131,29 @@ add_requires("cpp-lazy")
 ```
 
 
+### cppast (linux)
+
+
+| Description | *Library to parse and work with the C++ AST* |
+| -- | -- |
+| Homepage | [https://github.com/foonathan/cppast](https://github.com/foonathan/cppast) |
+| Versions | 2023.02.07 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cppast/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppast/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppast
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppast")
+```
+
+
 ### cppfront (linux)
 
 
@@ -2602,6 +2625,30 @@ xrepo install dcmtk
 
 ```lua
 add_requires("dcmtk")
+```
+
+
+### debug_assert (linux)
+
+
+| Description | *Simple, flexible and modular assertion macro.* |
+| -- | -- |
+| Homepage | [http://foonathan.net/blog/2016/09/16/assertions.html](http://foonathan.net/blog/2016/09/16/assertions.html) |
+| License | zlib |
+| Versions | 2022.11.13 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [debug_assert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debug_assert/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install debug_assert
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("debug_assert")
 ```
 
 
@@ -17763,6 +17810,30 @@ xrepo install turbobase64
 
 ```lua
 add_requires("turbobase64")
+```
+
+
+### type_safe (linux)
+
+
+| Description | *Zero overhead utilities for preventing bugs at compile time* |
+| -- | -- |
+| Homepage | [https://type_safe.foonathan.net](https://type_safe.foonathan.net) |
+| License | MIT |
+| Versions | v0.2.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [type_safe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/type_safe/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install type_safe
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("type_safe")
 ```
 
 

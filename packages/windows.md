@@ -2371,6 +2371,30 @@ add_requires("dcmtk")
 ```
 
 
+### debug_assert (windows)
+
+
+| Description | *Simple, flexible and modular assertion macro.* |
+| -- | -- |
+| Homepage | [http://foonathan.net/blog/2016/09/16/assertions.html](http://foonathan.net/blog/2016/09/16/assertions.html) |
+| License | zlib |
+| Versions | 2022.11.13 |
+| Architectures | arm64, x64, x86 |
+| Definition | [debug_assert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debug_assert/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install debug_assert
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("debug_assert")
+```
+
+
 ### debugbreak (windows)
 
 
@@ -14594,6 +14618,30 @@ xrepo install turbobase64
 
 ```lua
 add_requires("turbobase64")
+```
+
+
+### type_safe (windows)
+
+
+| Description | *Zero overhead utilities for preventing bugs at compile time* |
+| -- | -- |
+| Homepage | [https://type_safe.foonathan.net](https://type_safe.foonathan.net) |
+| License | MIT |
+| Versions | v0.2.2 |
+| Architectures | arm64, x64, x86 |
+| Definition | [type_safe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/type_safe/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install type_safe
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("type_safe")
 ```
 
 
