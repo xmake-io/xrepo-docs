@@ -5014,7 +5014,7 @@ add_requires("graphene")
 | -- | -- |
 | Homepage | [https://grpc.io](https://grpc.io) |
 | License | Apache-2.0 |
-| Versions | v1.46.3 |
+| Versions | v1.51.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [grpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/grpc/xmake.lua) |
 
