@@ -13981,6 +13981,29 @@ add_requires("tclap")
 ```
 
 
+### tclsh (windows)
+
+
+| Description | *The Tcl Core. (Mirror of core.tcl-lang.org) * |
+| -- | -- |
+| Homepage | [https://core.tcl-lang.org/tcl/](https://core.tcl-lang.org/tcl/) |
+| Versions | 2023.03.14 |
+| Architectures | arm64, x64, x86 |
+| Definition | [tclsh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tclsh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tclsh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tclsh")
+```
+
+
 ### termcolor (windows)
 
 
