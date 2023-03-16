@@ -191,6 +191,30 @@ add_requires("avir")
 
 
 ## b
+### base-n (wasm)
+
+
+| Description | *A small, single-header library which provides standard Base16, Base32, Base64, and custom Base-N encoding support.* |
+| -- | -- |
+| Homepage | [https://github.com/azawadzki/base-n](https://github.com/azawadzki/base-n) |
+| License | MIT |
+| Versions | 2020.05.28 |
+| Architectures | wasm32 |
+| Definition | [base-n/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base-n/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm base-n
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("base-n")
+```
+
+
 ### bazel (wasm)
 
 

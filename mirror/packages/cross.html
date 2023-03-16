@@ -380,6 +380,43 @@
 <pre><code class="lang-lua">add_requires("avir")
 </code></pre>
 <h2 id="b">b</h2>
+<h3 id="basencross">base-n (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A small, single-header library which provides standard Base16, Base32, Base64, and custom Base-N encoding support.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/azawadzki/base-n">https://github.com/azawadzki/base-n</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2020.05.28</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base-n/xmake.lua">base-n/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] base-n
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("base-n")
+</code></pre>
 <h3 id="bazelcross">bazel (cross)</h3>
 <table>
 <thead>

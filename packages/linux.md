@@ -597,6 +597,30 @@ add_requires("backward-cpp")
 ```
 
 
+### base-n (linux)
+
+
+| Description | *A small, single-header library which provides standard Base16, Base32, Base64, and custom Base-N encoding support.* |
+| -- | -- |
+| Homepage | [https://github.com/azawadzki/base-n](https://github.com/azawadzki/base-n) |
+| License | MIT |
+| Versions | 2020.05.28 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [base-n/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base-n/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install base-n
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("base-n")
+```
+
+
 ### bazel (linux)
 
 

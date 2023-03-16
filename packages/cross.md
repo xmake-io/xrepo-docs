@@ -191,6 +191,30 @@ add_requires("avir")
 
 
 ## b
+### base-n (cross)
+
+
+| Description | *A small, single-header library which provides standard Base16, Base32, Base64, and custom Base-N encoding support.* |
+| -- | -- |
+| Homepage | [https://github.com/azawadzki/base-n](https://github.com/azawadzki/base-n) |
+| License | MIT |
+| Versions | 2020.05.28 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [base-n/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base-n/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] base-n
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("base-n")
+```
+
+
 ### bazel (cross)
 
 
