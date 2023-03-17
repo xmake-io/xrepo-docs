@@ -8170,6 +8170,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("spirv-tools")
 </code></pre>
+<h3 id="sqlciphercross">sqlcipher (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SQLCipher is a standalone fork of the SQLite database library that adds 256 bit AES encryption of database files and other security features</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.zetetic.net/sqlcipher/">https://www.zetetic.net/sqlcipher/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>4.5.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua">sqlcipher/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] sqlcipher
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("sqlcipher")
+</code></pre>
 <h3 id="sqlite3cross">sqlite3 (cross)</h3>
 <table>
 <thead>

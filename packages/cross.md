@@ -5428,6 +5428,29 @@ add_requires("spirv-tools")
 ```
 
 
+### sqlcipher (cross)
+
+
+| Description | *SQLCipher is a standalone fork of the SQLite database library that adds 256 bit AES encryption of database files and other security features* |
+| -- | -- |
+| Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
+| Versions | 4.5.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] sqlcipher
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqlcipher")
+```
+
+
 ### sqlite3 (cross)
 
 

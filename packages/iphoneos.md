@@ -6163,6 +6163,29 @@ add_requires("spirv-tools")
 ```
 
 
+### sqlcipher (iphoneos)
+
+
+| Description | *SQLCipher is a standalone fork of the SQLite database library that adds 256 bit AES encryption of database files and other security features* |
+| -- | -- |
+| Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
+| Versions | 4.5.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos sqlcipher
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqlcipher")
+```
+
+
 ### sqlite3 (iphoneos)
 
 
