@@ -15453,6 +15453,30 @@ add_requires("vulkan-memory-allocator")
 ```
 
 
+### vulkan-memory-allocator-hpp (windows)
+
+
+| Description | *C++ bindings for VulkanMemoryAllocator.* |
+| -- | -- |
+| Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
+| License | CC0 |
+| Versions | v3.0.0, v3.0.1 |
+| Architectures | x64, x86 |
+| Definition | [vulkan-memory-allocator-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator-hpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-memory-allocator-hpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-memory-allocator-hpp")
+```
+
+
 ### vulkan-tools (windows)
 
 
