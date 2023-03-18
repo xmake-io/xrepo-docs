@@ -4711,7 +4711,7 @@ add_requires("go")
 | Description | *C++ bindings for the Godot script API* |
 | -- | -- |
 | Homepage | [https://godotengine.org/](https://godotengine.org/) |
-| Versions | 3.2, 3.3, 3.4.0, 3.4.3, 3.4.4 |
+| Versions | 3.2, 3.3, 3.4.0, 3.4.3, 3.4.4, 3.4.5, 3.5, 3.5.1, 3.5.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [godotcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp/xmake.lua) |
 
