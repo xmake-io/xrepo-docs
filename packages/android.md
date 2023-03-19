@@ -7824,6 +7824,30 @@ add_requires("vulkan-headers")
 ```
 
 
+### vulkan-hpp (android)
+
+
+| Description | *Open-Source Vulkan C++ API* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
+| License | Apache-2.0 |
+| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] vulkan-hpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-hpp")
+```
+
+
 ### vulkan-memory-allocator (android)
 
 
