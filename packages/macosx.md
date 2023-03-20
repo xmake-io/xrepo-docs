@@ -12135,6 +12135,29 @@ add_requires("oatpp")
 ```
 
 
+### objfw (macosx)
+
+
+| Description | *[Official Mirror] A portable framework for the Objective-C language.* |
+| -- | -- |
+| Homepage | [https://objfw.nil.im](https://objfw.nil.im) |
+| Versions | 2023.03.18 |
+| Architectures | arm64, x86_64 |
+| Definition | [objfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/objfw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install objfw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("objfw")
+```
+
+
 ### octomap (macosx)
 
 
