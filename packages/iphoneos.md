@@ -1531,7 +1531,7 @@ add_requires("exprtk")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1 |
+| Versions | v3.10.1, v3.4.0, v3.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
