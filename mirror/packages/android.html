@@ -993,7 +993,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1</td>
+<td>v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -2134,7 +2134,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.9.1, 1.9.2, 1.9.3</td>
+<td>1.9.1, 1.9.2, 1.9.3, 1.9.6</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4930,6 +4930,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libjpeg-turbo")
+</code></pre>
+<h3 id="libkmodandroid">libkmod (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>libkmod - Linux kernel module handling</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/kmod-project/kmod">https://github.com/kmod-project/kmod</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v30</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libkmod/xmake.lua">libkmod/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] libkmod
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libkmod")
 </code></pre>
 <h3 id="liboggandroid">libogg (android)</h3>
 <table>

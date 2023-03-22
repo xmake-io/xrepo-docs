@@ -599,7 +599,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1 |
+| Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -1358,7 +1358,7 @@ add_requires("doctest")
 | -- | -- |
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
-| Versions | 1.9.1, 1.9.2, 1.9.3 |
+| Versions | 1.9.1, 1.9.2, 1.9.3, 1.9.6 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
@@ -3246,6 +3246,30 @@ xrepo install -p android [--ndk=/xxx] libjpeg-turbo
 
 ```lua
 add_requires("libjpeg-turbo")
+```
+
+
+### libkmod (android)
+
+
+| Description | *libkmod - Linux kernel module handling* |
+| -- | -- |
+| Homepage | [https://github.com/kmod-project/kmod](https://github.com/kmod-project/kmod) |
+| License | LGPL-2.1 |
+| Versions | v30 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libkmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libkmod/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libkmod
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libkmod")
 ```
 
 
