@@ -1027,7 +1027,7 @@ add_requires("concurrentqueue")
 | Description | *A C++11 single-file header-only cross platform HTTP/HTTPS library.* |
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
-| Versions | 0.8.5, 0.9.2 |
+| Versions | 0.12.1, 0.8.5, 0.9.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
