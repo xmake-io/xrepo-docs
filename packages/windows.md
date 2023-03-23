@@ -1384,7 +1384,7 @@ add_requires("chipmunk2d")
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/chromium/src/third_party/zlib/](https://chromium.googlesource.com/chromium/src/third_party/zlib/) |
 | License | zlib |
-| Versions | 2022.02.22 |
+| Versions | 2022.02.22, 2023.03.14 |
 | Architectures | arm64, x64, x86 |
 | Definition | [chromium_zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chromium_zlib/xmake.lua) |
 
@@ -10251,7 +10251,7 @@ add_requires("oatpp")
 | -- | -- |
 | Homepage | [https://octomap.github.io/](https://octomap.github.io/) |
 | License | BSD-3-Clause |
-| Versions | v1.9.7 |
+| Versions | v1.9.7, v1.9.8 |
 | Architectures | arm64, x64, x86 |
 | Definition | [octomap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/octomap/xmake.lua) |
 

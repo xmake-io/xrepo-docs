@@ -742,7 +742,7 @@ add_requires("chipmunk2d")
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/chromium/src/third_party/zlib/](https://chromium.googlesource.com/chromium/src/third_party/zlib/) |
 | License | zlib |
-| Versions | 2022.02.22 |
+| Versions | 2022.02.22, 2023.03.14 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [chromium_zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chromium_zlib/xmake.lua) |
 

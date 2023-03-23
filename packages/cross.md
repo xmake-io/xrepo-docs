@@ -648,7 +648,7 @@ add_requires("cgetopt")
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/chromium/src/third_party/zlib/](https://chromium.googlesource.com/chromium/src/third_party/zlib/) |
 | License | zlib |
-| Versions | 2022.02.22 |
+| Versions | 2022.02.22, 2023.03.14 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [chromium_zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chromium_zlib/xmake.lua) |
 
