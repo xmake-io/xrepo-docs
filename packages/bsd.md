@@ -3821,7 +3821,7 @@ add_requires("mapbox_variant")
 | -- | -- |
 | Homepage | [https://github.com/mariadb-corporation/mariadb-connector-c](https://github.com/mariadb-corporation/mariadb-connector-c) |
 | License | LGPL-2.1 |
-| Versions | 3.1.13 |
+| Versions | 3.1.13, 3.3.4 |
 | Architectures | i386, x86_64 |
 | Definition | [mariadb-connector-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mariadb-connector-c/xmake.lua) |
 
