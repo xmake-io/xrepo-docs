@@ -1500,6 +1500,30 @@ add_requires("fastcppcsvparser")
 ```
 
 
+### flatbuffers (cross)
+
+
+| Description | *FlatBuffers is a cross platform serialization library architected for maximum memory efficiency.* |
+| -- | -- |
+| Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
+| License | Apache-2.0 |
+| Versions | v1.12.0, v2.0.0, v23.1.21 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] flatbuffers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flatbuffers")
+```
+
+
 ### flex (cross)
 
 
@@ -4074,6 +4098,52 @@ xrepo install -p cross [--sdk=/xxx] nlohmann_json
 
 ```lua
 add_requires("nlohmann_json")
+```
+
+
+### nng (cross)
+
+
+| Description | *NNG, like its predecessors nanomsg (and to some extent ZeroMQ), is a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.* |
+| -- | -- |
+| Homepage | [https://github.com/nanomsg/nng](https://github.com/nanomsg/nng) |
+| Versions | 1.3.2, 1.4.0, 1.5.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nng")
+```
+
+
+### nngpp (cross)
+
+
+| Description | *C++ wrapper around the nanomsg NNG API.* |
+| -- | -- |
+| Homepage | [https://github.com/cwzx/nngpp](https://github.com/cwzx/nngpp) |
+| Versions | v2020.10.30 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [nngpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nngpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nngpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nngpp")
 ```
 
 

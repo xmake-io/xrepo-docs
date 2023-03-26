@@ -2343,6 +2343,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("fastcppcsvparser")
 </code></pre>
+<h3 id="flatbufferscross">flatbuffers (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>FlatBuffers is a cross platform serialization library architected for maximum memory efficiency.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://google.github.io/flatbuffers/">http://google.github.io/flatbuffers/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.12.0, v2.0.0, v23.1.21</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua">flatbuffers/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] flatbuffers
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("flatbuffers")
+</code></pre>
 <h3 id="flexcross">flex (cross)</h3>
 <table>
 <thead>
@@ -6163,6 +6200,72 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("nlohmann_json")
+</code></pre>
+<h3 id="nngcross">nng (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>NNG, like its predecessors nanomsg (and to some extent ZeroMQ), is a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/nanomsg/nng">https://github.com/nanomsg/nng</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.3.2, 1.4.0, 1.5.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua">nng/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] nng
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("nng")
+</code></pre>
+<h3 id="nngppcross">nngpp (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C++ wrapper around the nanomsg NNG API.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/cwzx/nngpp">https://github.com/cwzx/nngpp</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v2020.10.30</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nngpp/xmake.lua">nngpp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] nngpp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("nngpp")
 </code></pre>
 <h3 id="nodcross">nod (cross)</h3>
 <table>

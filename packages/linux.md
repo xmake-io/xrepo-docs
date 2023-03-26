@@ -2508,6 +2508,30 @@ add_requires("cyrus-sasl")
 
 
 ## d
+### dartsim (linux)
+
+
+| Description | *Dynamic Animation and Robotics Toolkit* |
+| -- | -- |
+| Homepage | [https://dartsim.github.io/](https://dartsim.github.io/) |
+| License | BSD-2-Clause |
+| Versions | v6.13.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [dartsim/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dartsim/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dartsim
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dartsim")
+```
+
+
 ### dataframe (linux)
 
 
