@@ -952,7 +952,8 @@ add_requires("ctre")
 | Description | *Lightweight C++ command line option parser* |
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
-| Versions | v2.2.0, v3.0.0 |
+| License | MIT |
+| Versions | v2.2.0, v3.0.0, v3.1.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
@@ -1026,7 +1027,7 @@ add_requires("dbg-macro")
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
 | License | MIT |
-| Versions | 1.14.2 |
+| Versions | 1.14.2, 1.14.6 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
 

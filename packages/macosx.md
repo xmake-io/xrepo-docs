@@ -2230,7 +2230,8 @@ add_requires("ctre")
 | Description | *Lightweight C++ command line option parser* |
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
-| Versions | v2.2.0, v3.0.0 |
+| License | MIT |
+| Versions | v2.2.0, v3.0.0, v3.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
@@ -2399,7 +2400,7 @@ add_requires("dbg-macro")
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
 | License | MIT |
-| Versions | 1.14.2 |
+| Versions | 1.14.2, 1.14.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
 
@@ -11584,6 +11585,29 @@ xrepo install nativefiledialog
 
 ```lua
 add_requires("nativefiledialog")
+```
+
+
+### nativefiledialog-extended (macosx)
+
+
+| Description | *Cross platform (Windows, Mac, Linux) native file dialog library with C and C++ bindings, based on mlabbe/nativefiledialog.* |
+| -- | -- |
+| Homepage | [https://github.com/btzy/nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) |
+| Versions | v1.0.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [nativefiledialog-extended/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nativefiledialog-extended/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nativefiledialog-extended
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nativefiledialog-extended")
 ```
 
 
