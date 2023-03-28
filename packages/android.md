@@ -2449,6 +2449,30 @@ add_requires("hiredis")
 ```
 
 
+### hlslpp (android)
+
+
+| Description | *Math library using hlsl syntax with SSE/NEON support* |
+| -- | -- |
+| Homepage | [https://github.com/redorav/hlslpp](https://github.com/redorav/hlslpp) |
+| License | MIT |
+| Versions | 3.1, 3.2.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [hlslpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hlslpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] hlslpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hlslpp")
+```
+
+
 ### hopscotch-map (android)
 
 
