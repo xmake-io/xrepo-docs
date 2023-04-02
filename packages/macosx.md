@@ -2677,6 +2677,29 @@ add_requires("doctest")
 ```
 
 
+### dotnet (macosx)
+
+
+| Description | *.NET is the free, open-source, cross-platform framework for building modern apps and powerful cloud services.* |
+| -- | -- |
+| Homepage | [https://dotnet.microsoft.com/](https://dotnet.microsoft.com/) |
+| Versions | 7.0.202 |
+| Architectures | arm64, x86_64 |
+| Definition | [dotnet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dotnet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dotnet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dotnet")
+```
+
+
 ### double-conversion (macosx)
 
 
