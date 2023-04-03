@@ -14973,6 +14973,29 @@ add_requires("pugixml")
 ```
 
 
+### pulsar (linux)
+
+
+| Description | *Pulsar C++ client library* |
+| -- | -- |
+| Homepage | [https://github.com/apache/pulsar-client-cpp](https://github.com/apache/pulsar-client-cpp) |
+| Versions | 3.1.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [pulsar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pulsar/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pulsar
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pulsar")
+```
+
+
 ### pupnp (linux)
 
 
