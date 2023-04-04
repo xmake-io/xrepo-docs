@@ -249,6 +249,29 @@ $ xrepo env -b base python --version
 
 `xrepo env -b/--bind` 就是绑定指定的虚拟环境，更多详情见：[#1762](https://github.com/xmake-io/xmake/issues/1762)
 
+#### 快速切换临时虚拟环境
+
+我们不仅可以通过配置 `myenv.lua` 等环境配置文件，来管理切换环境，也可以直接在命令行临时指定需要绑定的环境包列表，实现快速切换，无需任何配置。
+
+例如，我们想进入一个带有 python 3.0, luajit 和 cmake 的环境，只需要执行：
+
+```console
+$ xrepo env -b "python 3.x,luajit,cmake" shell
+[python,luajit,cmake] $ python --version
+Python 3.10.6
+[python,luajit,cmake] $ cmake --version
+cmake version 3.25.3
+```
+
+Xmake 会自动安装相关依赖，然后开启一个新的 shell 环境，新环境终端左边也有 prompt 提示。
+
+如果我们想退出当前环境，仅仅需要执行
+
+```console
+[python,luajit,cmake] $ xrepo env quit
+$
+```
+
 ### 查看包信息
 
 ```console

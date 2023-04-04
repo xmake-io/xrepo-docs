@@ -247,6 +247,30 @@ $ xrepo env -b base python --version
 ```
 
 `xrepo env -b/--bind` is to bind the specified virtual environment. For more details, see: [#1762](https://github.com/xmake-io/xmake/issues/1762)
+
+#### Quick switching of temporary virtual environments
+
+Not only can we manage switching environments by configuring environment configuration files such as `myenv.lua`, but we can also specify a list of environment packages to bind to on the command line on an ad hoc basis, allowing for quick switching without any configuration.
+
+For example, if we want to enter an environment with python 3.0, luajit and cmake, all we need to do is to execute
+
+```console
+$ xrepo env -b "python 3.x,luajit,cmake" shell
+[python,luajit,cmake] $ python --version
+Python 3.10.6
+[python,luajit,cmake] $ cmake --version
+cmake version 3.25.3
+````
+
+Xmake will automatically install the dependencies and open a new shell environment, which will also have a prompt on the left side of the terminal.
+
+If we want to exit the current environment, we simply need to run
+
+```console
+[python,luajit,cmake] $ xrepo env quit
+$
+```
+
 ### Show the given package information
 
 ```console
