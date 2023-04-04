@@ -3936,6 +3936,30 @@ add_requires("named_type")
 ```
 
 
+### nanobench (cross)
+
+
+| Description | *Simple, fast, accurate single-header microbenchmarking functionality for C++11/14/17/20* |
+| -- | -- |
+| Homepage | [https://nanobench.ankerl.com](https://nanobench.ankerl.com) |
+| License | MIT |
+| Versions | v4.3.11 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [nanobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanobench/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nanobench
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanobench")
+```
+
+
 ### nanoflann (cross)
 
 

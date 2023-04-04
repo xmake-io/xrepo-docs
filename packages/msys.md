@@ -3511,6 +3511,30 @@ add_requires("named_type")
 ```
 
 
+### nanobench (msys)
+
+
+| Description | *Simple, fast, accurate single-header microbenchmarking functionality for C++11/14/17/20* |
+| -- | -- |
+| Homepage | [https://nanobench.ankerl.com](https://nanobench.ankerl.com) |
+| License | MIT |
+| Versions | v4.3.11 |
+| Architectures | i386, x86_64 |
+| Definition | [nanobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanobench/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nanobench
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nanobench")
+```
+
+
 ### nanoflann (msys)
 
 
