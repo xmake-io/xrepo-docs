@@ -5755,6 +5755,30 @@ add_requires("simde")
 ```
 
 
+### simpleini (bsd)
+
+
+| Description | *Cross-platform C++ library providing a simple API to read and write INI-style configuration files.* |
+| -- | -- |
+| Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
+| License | MIT |
+| Versions | v4.19 |
+| Architectures | i386, x86_64 |
+| Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install simpleini
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simpleini")
+```
+
+
 ### simplethreadpool (bsd)
 
 

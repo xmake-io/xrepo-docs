@@ -6588,6 +6588,30 @@ add_requires("simde")
 ```
 
 
+### simpleini (android)
+
+
+| Description | *Cross-platform C++ library providing a simple API to read and write INI-style configuration files.* |
+| -- | -- |
+| Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
+| License | MIT |
+| Versions | v4.19 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] simpleini
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simpleini")
+```
+
+
 ### simplethreadpool (android)
 
 
