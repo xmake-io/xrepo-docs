@@ -783,6 +783,29 @@ add_requires("concurrentqueue")
 ```
 
 
+### convertutf (wasm)
+
+
+| Description | *Conversions between UTF-32, UTF-16, and UTF-8. Circa 2004.* |
+| -- | -- |
+| Homepage | [https://home.unicode.org/](https://home.unicode.org/) |
+| Versions | v1.0.1 |
+| Architectures | wasm32 |
+| Definition | [convertutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/convertutf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm convertutf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("convertutf")
+```
+
+
 ### cpp-httplib (wasm)
 
 

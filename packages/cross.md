@@ -830,6 +830,29 @@ add_requires("concurrentqueue")
 ```
 
 
+### convertutf (cross)
+
+
+| Description | *Conversions between UTF-32, UTF-16, and UTF-8. Circa 2004.* |
+| -- | -- |
+| Homepage | [https://home.unicode.org/](https://home.unicode.org/) |
+| Versions | v1.0.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [convertutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/convertutf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] convertutf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("convertutf")
+```
+
+
 ### cpp-httplib (cross)
 
 
