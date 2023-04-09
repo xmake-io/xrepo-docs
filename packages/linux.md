@@ -6318,7 +6318,7 @@ add_requires("indicators")
 | Description | *A Template Engine for Modern C++* |
 | -- | -- |
 | Homepage | [https://pantor.github.io/inja/](https://pantor.github.io/inja/) |
-| Versions | v2.1.0 |
+| Versions | v2.1.0, v3.4.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
 
