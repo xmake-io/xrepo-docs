@@ -16134,6 +16134,29 @@ add_requires("rttr")
 
 
 ## s
+### s7 (linux)
+
+
+| Description | *s7 is a Scheme interpreter intended as an extension language for other applications.* |
+| -- | -- |
+| Homepage | [https://ccrma.stanford.edu/software/snd/snd/s7.html](https://ccrma.stanford.edu/software/snd/snd/s7.html) |
+| Versions | 2023.04.13 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [s7/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s7/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install s7
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("s7")
+```
+
+
 ### scnlib (linux)
 
 
