@@ -9623,6 +9623,29 @@ add_requires("mxml")
 ```
 
 
+### mysql (windows)
+
+
+| Description | *Open source relational database management system.* |
+| -- | -- |
+| Homepage | [https://dev.mysql.com/doc/refman/5.7/en/](https://dev.mysql.com/doc/refman/5.7/en/) |
+| Versions | 5.7.29 |
+| Architectures | arm64, x64, x86 |
+| Definition | [mysql/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mysql/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mysql
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mysql")
+```
+
+
 
 ## n
 ### named_type (windows)
