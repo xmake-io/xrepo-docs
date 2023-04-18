@@ -15549,7 +15549,7 @@ add_requires("sol2")
 | -- | -- |
 | Homepage | [https://strasdat.github.io/Sophus/](https://strasdat.github.io/Sophus/) |
 | License | MIT |
-| Versions | v22.10 |
+| Versions | 1.22.10 |
 | Architectures | arm64, x86_64 |
 | Definition | [sophus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sophus/xmake.lua) |
 
