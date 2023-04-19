@@ -16416,7 +16416,7 @@ add_requires("zlibcomplete")
 | -- | -- |
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
 | License | BSD-3-Clause |
-| Versions | v1.4.5, v1.5.0, v1.5.2 |
+| Versions | v1.4.5, v1.5.0, v1.5.2, v1.5.5 |
 | Architectures | arm64, x64, x86 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
 
