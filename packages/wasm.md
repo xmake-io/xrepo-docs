@@ -1934,7 +1934,7 @@ add_requires("hash-library")
 | -- | -- |
 | Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
 | License | BSD-3-Clause |
-| Versions | v1.0.2 |
+| Versions | v1.0.2, v1.1.0 |
 | Architectures | wasm32 |
 | Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
 
