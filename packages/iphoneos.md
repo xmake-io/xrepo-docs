@@ -7236,6 +7236,30 @@ add_requires("vectorial")
 ```
 
 
+### visit_struct (iphoneos)
+
+
+| Description | *A miniature library for struct-field reflection in C++* |
+| -- | -- |
+| Homepage | [https://github.com/cbeck88/visit_struct](https://github.com/cbeck88/visit_struct) |
+| License | BSL-1.0 |
+| Versions | v1.1.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [visit_struct/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/visit_struct/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos visit_struct
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("visit_struct")
+```
+
+
 ### volk (iphoneos)
 
 

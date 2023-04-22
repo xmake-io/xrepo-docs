@@ -18806,6 +18806,30 @@ add_requires("viennacl")
 ```
 
 
+### visit_struct (linux)
+
+
+| Description | *A miniature library for struct-field reflection in C++* |
+| -- | -- |
+| Homepage | [https://github.com/cbeck88/visit_struct](https://github.com/cbeck88/visit_struct) |
+| License | BSL-1.0 |
+| Versions | v1.1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [visit_struct/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/visit_struct/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install visit_struct
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("visit_struct")
+```
+
+
 ### vk-bootstrap (linux)
 
 
@@ -19825,6 +19849,30 @@ xrepo install yaml-cpp
 
 ```lua
 add_requires("yaml-cpp")
+```
+
+
+### yaml_cpp_struct (linux)
+
+
+| Description | *It's easy to mapping yaml to cpp's struct* |
+| -- | -- |
+| Homepage | [https://github.com/fantasy-peak/yaml_cpp_struct](https://github.com/fantasy-peak/yaml_cpp_struct) |
+| License | MIT |
+| Versions | v1.0.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [yaml_cpp_struct/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml_cpp_struct/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install yaml_cpp_struct
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yaml_cpp_struct")
 ```
 
 
