@@ -288,6 +288,30 @@ add_requires("assimp")
 ```
 
 
+### async_simple (windows)
+
+
+| Description | *Simple, light-weight and easy-to-use asynchronous components* |
+| -- | -- |
+| Homepage | [https://github.com/alibaba/async_simple](https://github.com/alibaba/async_simple) |
+| License | Apache-2.0 |
+| Versions | 1.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [async_simple/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/async_simple/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install async_simple
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("async_simple")
+```
+
+
 ### autoconf (windows)
 
 

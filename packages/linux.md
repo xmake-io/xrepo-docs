@@ -359,6 +359,30 @@ add_requires("assimp")
 ```
 
 
+### async_simple (linux)
+
+
+| Description | *Simple, light-weight and easy-to-use asynchronous components* |
+| -- | -- |
+| Homepage | [https://github.com/alibaba/async_simple](https://github.com/alibaba/async_simple) |
+| License | Apache-2.0 |
+| Versions | 1.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [async_simple/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/async_simple/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install async_simple
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("async_simple")
+```
+
+
 ### atk (linux)
 
 
