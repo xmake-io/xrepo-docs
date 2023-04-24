@@ -5047,6 +5047,29 @@ add_requires("muslcc")
 ```
 
 
+### mysql (mingw)
+
+
+| Description | *Open source relational database management system.* |
+| -- | -- |
+| Homepage | [https://dev.mysql.com/doc/refman/5.7/en/](https://dev.mysql.com/doc/refman/5.7/en/) |
+| Versions | 5.7.29 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [mysql/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mysql/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] mysql
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mysql")
+```
+
+
 
 ## n
 ### named_type (mingw)
