@@ -1526,7 +1526,7 @@ add_requires("dr_wav")
 | Description | *Ansi C library for parsing binary output files of LS Dyna (d3plot, binout)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 22.12, 23.01, 23.02 |
+| Versions | 22.12, 23.01, 23.02, 23.04 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
