@@ -2878,7 +2878,8 @@ add_requires("libev")
 | Description | *Portable Foreign Function Interface library.* |
 | -- | -- |
 | Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
-| Versions | 3.2.1, 3.3, 3.4.2 |
+| License | MIT |
+| Versions | 3.2.1, 3.3, 3.4.2, 3.4.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
 
