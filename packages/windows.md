@@ -15570,6 +15570,29 @@ add_requires("vk-bootstrap")
 ```
 
 
+### vld (windows)
+
+
+| Description | *Visual Leak Detector for Visual C++* |
+| -- | -- |
+| Homepage | [https://github.com/oneiric/vld](https://github.com/oneiric/vld) |
+| Versions | 2.7.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [vld/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vld/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vld
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vld")
+```
+
+
 ### volk (windows)
 
 
