@@ -1216,7 +1216,7 @@ add_requires("date")
 | -- | -- |
 | Homepage | [https://github.com/sharkdp/dbg-macro](https://github.com/sharkdp/dbg-macro) |
 | License | MIT |
-| Versions | v0.4.0 |
+| Versions | v0.4.0, v0.5.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [dbg-macro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbg-macro/xmake.lua) |
 

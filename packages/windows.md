@@ -2402,7 +2402,7 @@ add_requires("dav1d")
 | -- | -- |
 | Homepage | [https://github.com/sharkdp/dbg-macro](https://github.com/sharkdp/dbg-macro) |
 | License | MIT |
-| Versions | v0.4.0 |
+| Versions | v0.4.0, v0.5.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dbg-macro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbg-macro/xmake.lua) |
 
