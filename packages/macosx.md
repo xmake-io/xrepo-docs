@@ -15024,6 +15024,30 @@ add_requires("rttr")
 ```
 
 
+### ruy (macosx)
+
+
+| Description | *Matrix multiplication library* |
+| -- | -- |
+| Homepage | [https://github.com/google/ruy](https://github.com/google/ruy) |
+| License | Apache-2.0 |
+| Versions | 2022.09.16 |
+| Architectures | arm64, x86_64 |
+| Definition | [ruy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ruy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ruy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ruy")
+```
+
+
 
 ## s
 ### s7 (macosx)
