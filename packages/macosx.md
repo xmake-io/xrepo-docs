@@ -14104,7 +14104,7 @@ add_requires("pystring")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.18, 3.10.6, 3.7.9, 3.8.10, 3.9.10, 3.9.13, 3.9.5, 3.9.6 |
+| Versions | 2.7.18, 3.10.11, 3.10.6, 3.11.3, 3.7.9, 3.8.10, 3.9.10, 3.9.13, 3.9.5, 3.9.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
