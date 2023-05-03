@@ -11446,6 +11446,29 @@ add_requires("mcut")
 ```
 
 
+### mdns (linux)
+
+
+| Description | *Public domain mDNS/DNS-SD library in C* |
+| -- | -- |
+| Homepage | [https://github.com/mjansson/mdns](https://github.com/mjansson/mdns) |
+| Versions | 1.4.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mdns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdns/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mdns
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mdns")
+```
+
+
 ### mem (linux)
 
 

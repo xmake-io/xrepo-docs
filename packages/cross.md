@@ -3627,6 +3627,29 @@ add_requires("mbedtls")
 ```
 
 
+### mdns (cross)
+
+
+| Description | *Public domain mDNS/DNS-SD library in C* |
+| -- | -- |
+| Homepage | [https://github.com/mjansson/mdns](https://github.com/mjansson/mdns) |
+| Versions | 1.4.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mdns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdns/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mdns
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mdns")
+```
+
+
 ### meson (cross)
 
 

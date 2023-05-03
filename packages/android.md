@@ -4431,6 +4431,29 @@ add_requires("mbedtls")
 ```
 
 
+### mdns (android)
+
+
+| Description | *Public domain mDNS/DNS-SD library in C* |
+| -- | -- |
+| Homepage | [https://github.com/mjansson/mdns](https://github.com/mjansson/mdns) |
+| Versions | 1.4.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [mdns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdns/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mdns
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mdns")
+```
+
+
 ### memorymapping (android)
 
 

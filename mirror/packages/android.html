@@ -6702,6 +6702,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("mbedtls")
 </code></pre>
+<h3 id="mdnsandroid">mdns (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Public domain mDNS/DNS-SD library in C</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/mjansson/mdns">https://github.com/mjansson/mdns</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.4.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdns/xmake.lua">mdns/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] mdns
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("mdns")
+</code></pre>
 <h3 id="memorymappingandroid">memorymapping (android)</h3>
 <table>
 <thead>
