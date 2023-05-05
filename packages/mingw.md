@@ -6589,6 +6589,29 @@ add_requires("quickjs")
 ```
 
 
+### quill (mingw)
+
+
+| Description | *Asynchronous Low Latency C++ Logging Library* |
+| -- | -- |
+| Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
+| Versions | 2.8.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] quill
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quill")
+```
+
+
 
 ## r
 ### range-v3 (mingw)

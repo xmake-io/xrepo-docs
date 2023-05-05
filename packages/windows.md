@@ -11004,6 +11004,30 @@ add_requires("openmp")
 ```
 
 
+### openpgl (windows)
+
+
+| Description | *Intel(R) Open Path Guiding Library* |
+| -- | -- |
+| Homepage | [http://www.openpgl.org/](http://www.openpgl.org/) |
+| License | Apache-2.0 |
+| Versions | 0.5.0 |
+| Architectures | x64, x86 |
+| Definition | [openpgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openpgl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openpgl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openpgl")
+```
+
+
 ### openrestry-luajit (windows)
 
 
@@ -12559,6 +12583,29 @@ xrepo install quickjs
 
 ```lua
 add_requires("quickjs")
+```
+
+
+### quill (windows)
+
+
+| Description | *Asynchronous Low Latency C++ Logging Library* |
+| -- | -- |
+| Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
+| Versions | 2.8.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quill
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quill")
 ```
 
 

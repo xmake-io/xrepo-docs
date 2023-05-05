@@ -8982,7 +8982,7 @@ add_requires("libwebsockets")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6 |
+| Versions | v0.10.6, v0.10.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
 
@@ -14477,6 +14477,29 @@ add_requires("quickjspp")
 ```
 
 
+### quill (macosx)
+
+
+| Description | *Asynchronous Low Latency C++ Logging Library* |
+| -- | -- |
+| Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
+| Versions | 2.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quill
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quill")
+```
+
+
 
 ## r
 ### range-v3 (macosx)
@@ -17970,7 +17993,7 @@ add_requires("wolfssl")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6 |
+| Versions | v0.10.6, v0.10.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
 
