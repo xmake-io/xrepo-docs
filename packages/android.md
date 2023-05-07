@@ -994,6 +994,30 @@ add_requires("cpp-httplib")
 ```
 
 
+### cpp-peglib (android)
+
+
+| Description | *A single file C++ header-only PEG (Parsing Expression Grammars) library* |
+| -- | -- |
+| Homepage | [https://yhirose.github.io/cpp-peglib](https://yhirose.github.io/cpp-peglib) |
+| License | MIT |
+| Versions | 1.8.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cpp-peglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cpp-peglib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-peglib")
+```
+
+
 ### cpu-features (android)
 
 
@@ -7727,6 +7751,29 @@ xrepo install -p android [--ndk=/xxx] uni_algo
 
 ```lua
 add_requires("uni_algo")
+```
+
+
+### units (android)
+
+
+| Description | *A compile-time, header-only, dimensional analysis library built on c++14 with no dependencies.* |
+| -- | -- |
+| Homepage | [https://nholthaus.github.io/units/](https://nholthaus.github.io/units/) |
+| Versions | v2.3.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [units/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/units/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] units
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("units")
 ```
 
 

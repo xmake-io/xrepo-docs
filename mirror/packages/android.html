@@ -1579,6 +1579,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("cpp-httplib")
 </code></pre>
+<h3 id="cpppeglibandroid">cpp-peglib (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A single file C++ header-only PEG (Parsing Expression Grammars) library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://yhirose.github.io/cpp-peglib">https://yhirose.github.io/cpp-peglib</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.8.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua">cpp-peglib/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] cpp-peglib
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("cpp-peglib")
+</code></pre>
 <h3 id="cpufeaturesandroid">cpu-features (android)</h3>
 <table>
 <thead>
@@ -11640,6 +11677,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("uni_algo")
+</code></pre>
+<h3 id="unitsandroid">units (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A compile-time, header-only, dimensional analysis library built on c++14 with no dependencies.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://nholthaus.github.io/units/">https://nholthaus.github.io/units/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v2.3.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/u/units/xmake.lua">units/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] units
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("units")
 </code></pre>
 <h3 id="unordered_denseandroid">unordered_dense (android)</h3>
 <table>
