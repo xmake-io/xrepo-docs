@@ -1,4 +1,28 @@
 ## a
+### ada (android)
+
+
+| Description | *WHATWG-compliant and fast URL parser written in modern C++* |
+| -- | -- |
+| Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
+| License | table: 0x561d02910560 |
+| Versions | 2.3.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ada
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ada")
+```
+
+
 ### angelscript (android)
 
 
