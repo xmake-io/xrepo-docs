@@ -78,7 +78,7 @@ add_requires("acl")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x557438355940 |
+| License | table: 0x557441708250 |
 | Versions | 2.3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -11112,6 +11112,30 @@ xrepo install magic_enum
 
 ```lua
 add_requires("magic_enum")
+```
+
+
+### magma (linux)
+
+
+| Description | *Matrix Algebra on GPU and Multicore Architectures* |
+| -- | -- |
+| Homepage | [https://icl.utk.edu/magma/](https://icl.utk.edu/magma/) |
+| License | BSD-3-Clause |
+| Versions | 2.7.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [magma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install magma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("magma")
 ```
 
 
