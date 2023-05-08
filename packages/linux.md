@@ -78,7 +78,7 @@ add_requires("acl")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x561d02910560 |
+| License | table: 0x5611666ab850 |
 | Versions | 2.3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -13587,7 +13587,7 @@ add_requires("openal-soft")
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
 | License | BSD-3-Clause |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 

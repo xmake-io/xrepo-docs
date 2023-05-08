@@ -54,7 +54,7 @@ add_requires("abseil")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x561d02910560 |
+| License | table: 0x5611666ab850 |
 | Versions | 2.3.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -10774,8 +10774,8 @@ add_requires("openal-soft")
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
 | License | BSD-3-Clause |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21 |
-| Architectures | arm64, x64, x86 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23 |
+| Architectures | x64, x86 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
 ##### Install command
@@ -15566,6 +15566,30 @@ xrepo install vc
 
 ```lua
 add_requires("vc")
+```
+
+
+### vc-ltl5 (windows)
+
+
+| Description | *Shared to msvcrt.dll or ucrtbase.dll and optimize the C/C++ application file size* |
+| -- | -- |
+| Homepage | [https://github.com/Chuyu-Team/VC-LTL5](https://github.com/Chuyu-Team/VC-LTL5) |
+| License | EPL-2.0 |
+| Versions | 5.0.6 |
+| Architectures | arm64, x64, x86 |
+| Definition | [vc-ltl5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vc-ltl5/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vc-ltl5
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vc-ltl5")
 ```
 
 

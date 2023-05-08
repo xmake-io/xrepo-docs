@@ -177,7 +177,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x561d02910560</td>
+<td>table: 0x5611666ab850</td>
 </tr>
 <tr>
 <td>Versions</td>
@@ -16291,11 +16291,11 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21</td>
+<td>0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23</td>
 </tr>
 <tr>
 <td>Architectures</td>
-<td>arm64, x64, x86</td>
+<td>x64, x86</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -23453,6 +23453,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("vc")
+</code></pre>
+<h3 id="vcltl5windows">vc-ltl5 (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Shared to msvcrt.dll or ucrtbase.dll and optimize the C/C++ application file size</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/Chuyu-Team/VC-LTL5">https://github.com/Chuyu-Team/VC-LTL5</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>EPL-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>5.0.6</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vc-ltl5/xmake.lua">vc-ltl5/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install vc-ltl5
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("vc-ltl5")
 </code></pre>
 <h3 id="vcglibwindows">vcglib (windows)</h3>
 <table>
