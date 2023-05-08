@@ -5,7 +5,7 @@
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x5611666ab850 |
+| License | table: 0x557438355940 |
 | Versions | 2.3.1 |
 | Architectures | i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -239,6 +239,30 @@ add_requires("avir")
 
 
 ## b
+### b2 (msys)
+
+
+| Description | *B2 makes it easy to build C++ projects, everywhere.* |
+| -- | -- |
+| Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
+| License | BSL-1.0 |
+| Versions | 4.9.6 |
+| Architectures | i386, x86_64 |
+| Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install b2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("b2")
+```
+
+
 ### base-n (msys)
 
 

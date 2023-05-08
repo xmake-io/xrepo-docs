@@ -54,7 +54,7 @@ add_requires("abseil")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x5611666ab850 |
+| License | table: 0x557438355940 |
 | Versions | 2.3.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -408,6 +408,30 @@ add_requires("avir")
 
 
 ## b
+### b2 (windows)
+
+
+| Description | *B2 makes it easy to build C++ projects, everywhere.* |
+| -- | -- |
+| Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
+| License | BSL-1.0 |
+| Versions | 4.9.6 |
+| Architectures | arm64, x64, x86 |
+| Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install b2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("b2")
+```
+
+
 ### backward-cpp (windows)
 
 
@@ -1314,7 +1338,7 @@ add_requires("cfitsio")
 | -- | -- |
 | Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
 | License | LGPL-3.0 |
-| Versions | 5.1.1, 5.2.1, 5.3, 5.4 |
+| Versions | 5.1.1, 5.2.1, 5.3, 5.4, 5.5.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
 
@@ -14272,7 +14296,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
-| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0 |
+| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 
