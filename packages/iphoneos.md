@@ -5,7 +5,7 @@
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x555d819c2090 |
+| License | table: 0x6000014cb480 |
 | Versions | 2.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -2450,29 +2450,6 @@ add_requires("http_parser")
 
 
 ## i
-### ifort (iphoneos)
-
-
-| Description | *The Fortran Compiler provided by Intel®* |
-| -- | -- |
-| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
-| Versions | 2021.4.0+3224 |
-| Architectures | arm64, x86_64 |
-| Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos ifort
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("ifort")
-```
-
-
 ### imgui (iphoneos)
 
 
@@ -3673,29 +3650,6 @@ xrepo install -p iphoneos llhttp
 
 ```lua
 add_requires("llhttp")
-```
-
-
-### llvm-mingw (iphoneos)
-
-
-| Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
-| -- | -- |
-| Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions | 20211002, 20220323 |
-| Architectures | arm64, x86_64 |
-| Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos llvm-mingw
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("llvm-mingw")
 ```
 
 

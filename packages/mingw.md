@@ -5,7 +5,7 @@
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x555d819c2090 |
+| License | table: 0x6000014cb480 |
 | Versions | 2.3.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -2311,6 +2311,30 @@ add_requires("giflib")
 ```
 
 
+### git-crypt (mingw)
+
+
+| Description | *Transparent file encryption in git* |
+| -- | -- |
+| Homepage | [https://www.agwa.name/projects/git-crypt/](https://www.agwa.name/projects/git-crypt/) |
+| License | GPL-3.0 |
+| Versions | 0.7.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [git-crypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/git-crypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] git-crypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("git-crypt")
+```
+
+
 ### glad (mingw)
 
 
@@ -2808,29 +2832,6 @@ add_requires("http_parser")
 
 
 ## i
-### ifort (mingw)
-
-
-| Description | *The Fortran Compiler provided by Intel®* |
-| -- | -- |
-| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
-| Versions | 2021.4.0+3224 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] ifort
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("ifort")
-```
-
-
 ### imgui (mingw)
 
 
@@ -3066,6 +3067,30 @@ xrepo install -p mingw [--mingw=/xxx] jansson
 
 ```lua
 add_requires("jansson")
+```
+
+
+### jemalloc (mingw)
+
+
+| Description | *A general purpose malloc(3) implementation that emphasizes
+fragmentation avoidance and scalable concurrency support* |
+| -- | -- |
+| Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
+| Versions | 5.2.1, 5.3.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] jemalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jemalloc")
 ```
 
 
@@ -3609,6 +3634,29 @@ add_requires("libigl")
 ```
 
 
+### libimobiledevice-glue (mingw)
+
+
+| Description | *A library with common code used by libraries and tools around the libimobiledevice project* |
+| -- | -- |
+| Homepage | [https://github.com/libimobiledevice/libimobiledevice-glue](https://github.com/libimobiledevice/libimobiledevice-glue) |
+| Versions | 2021.11.24 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libimobiledevice-glue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libimobiledevice-glue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libimobiledevice-glue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libimobiledevice-glue")
+```
+
+
 ### libjpeg (mingw)
 
 
@@ -3675,6 +3723,30 @@ xrepo install -p mingw [--mingw=/xxx] libopus
 
 ```lua
 add_requires("libopus")
+```
+
+
+### libplist (mingw)
+
+
+| Description | *Library for Apple Binary- and XML-Property Lists* |
+| -- | -- |
+| Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
+| License | LGPL-2.1 |
+| Versions | 2.2.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libplist
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libplist")
 ```
 
 
@@ -4102,6 +4174,30 @@ add_requires("libusb")
 ```
 
 
+### libusbmuxd (mingw)
+
+
+| Description | *A client library to multiplex connections from and to iOS devices* |
+| -- | -- |
+| Homepage | [https://github.com/libimobiledevice/libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) |
+| License | LGPL-2.1 |
+| Versions | 2021.09.13 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libusbmuxd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusbmuxd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libusbmuxd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusbmuxd")
+```
+
+
 ### libuv (mingw)
 
 
@@ -4265,29 +4361,6 @@ xrepo install -p mingw [--mingw=/xxx] llhttp
 
 ```lua
 add_requires("llhttp")
-```
-
-
-### llvm-mingw (mingw)
-
-
-| Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
-| -- | -- |
-| Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions | 20211002, 20220323 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] llvm-mingw
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("llvm-mingw")
 ```
 
 

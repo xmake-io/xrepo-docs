@@ -5,7 +5,7 @@
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x555d819c2090 |
+| License | table: 0x6000014cb480 |
 | Versions | 2.3.1 |
 | Architectures | i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -2404,29 +2404,6 @@ add_requires("http_parser")
 
 
 ## i
-### ifort (bsd)
-
-
-| Description | *The Fortran Compiler provided by Intel®* |
-| -- | -- |
-| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
-| Versions | 2021.4.0+3224 |
-| Architectures | i386, x86_64 |
-| Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install ifort
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("ifort")
-```
-
-
 ### imagemagick (bsd)
 
 
@@ -3516,7 +3493,7 @@ add_requires("llhttp")
 | Description | *The LLVM Compiler Infrastructure* |
 | -- | -- |
 | Homepage | [https://llvm.org/](https://llvm.org/) |
-| Versions | 11.0.0, 14.0.0, 15.0.7 |
+| Versions | 11.0.0, 14.0.0 |
 | Architectures | i386, x86_64 |
 | Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
 
@@ -3530,29 +3507,6 @@ xrepo install llvm
 
 ```lua
 add_requires("llvm")
-```
-
-
-### llvm-mingw (bsd)
-
-
-| Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
-| -- | -- |
-| Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions | 20211002, 20220323 |
-| Architectures | i386, x86_64 |
-| Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install llvm-mingw
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("llvm-mingw")
 ```
 
 
