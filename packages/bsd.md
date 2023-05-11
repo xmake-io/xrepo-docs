@@ -5,7 +5,7 @@
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x6000014cb480 |
+| License | table: 0x560c5ab3d7b0 |
 | Versions | 2.3.1 |
 | Architectures | i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -1768,7 +1768,7 @@ add_requires("fluxsort")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
-| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
+| Versions | 10.0.0, 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -2404,6 +2404,29 @@ add_requires("http_parser")
 
 
 ## i
+### ifort (bsd)
+
+
+| Description | *The Fortran Compiler provided by Intel®* |
+| -- | -- |
+| Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
+| Versions | 2021.4.0+3224 |
+| Architectures | i386, x86_64 |
+| Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ifort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ifort")
+```
+
+
 ### imagemagick (bsd)
 
 
@@ -3493,7 +3516,7 @@ add_requires("llhttp")
 | Description | *The LLVM Compiler Infrastructure* |
 | -- | -- |
 | Homepage | [https://llvm.org/](https://llvm.org/) |
-| Versions | 11.0.0, 14.0.0 |
+| Versions | 11.0.0, 14.0.0, 15.0.7 |
 | Architectures | i386, x86_64 |
 | Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
 
@@ -3507,6 +3530,29 @@ xrepo install llvm
 
 ```lua
 add_requires("llvm")
+```
+
+
+### llvm-mingw (bsd)
+
+
+| Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
+| -- | -- |
+| Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
+| Versions | 20211002, 20220323 |
+| Architectures | i386, x86_64 |
+| Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install llvm-mingw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llvm-mingw")
 ```
 
 
