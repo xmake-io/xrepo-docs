@@ -54,7 +54,7 @@ add_requires("abseil")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x563a13887c10 |
+| License | table: 0x56119586d520 |
 | Versions | 2.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -270,7 +270,7 @@ add_requires("arrow")
 | -- | -- |
 | Homepage | [http://think-async.com/Asio/](http://think-async.com/Asio/) |
 | License | BSL-1.0 |
-| Versions | 1.20.0, 1.21.0, 1.24.0 |
+| Versions | 1.20.0, 1.21.0, 1.24.0, 1.28.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [asio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio/xmake.lua) |
 
