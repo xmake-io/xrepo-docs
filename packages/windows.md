@@ -54,7 +54,7 @@ add_requires("abseil")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x56119586d520 |
+| License | table: 0x557a23bd8a20 |
 | Versions | 2.3.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -2996,7 +2996,7 @@ add_requires("dr_wav")
 | -- | -- |
 | Homepage | [https://google.github.io/draco/](https://google.github.io/draco/) |
 | License | Apache-2.0 |
-| Versions | 1.4.1, 1.5.0 |
+| Versions | 1.4.1, 1.5.0, 1.5.6 |
 | Architectures | arm64, x64, x86 |
 | Definition | [draco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/draco/xmake.lua) |
 
