@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="/assets/npm/docsify/vue.min.css">
   <script src="/assets/npm/docsify-plugin-carbon/index.min.js"></script>
-  <script type="text/javascript" charset="UTF-8" src="https://cdn.wwads.cn/js/makemoney.js" async></script>
+  <script data-mode="hash" type="text/javascript" charset="UTF-8" src="https://cdn.wwads.cn/js/makemoney.js" async></script>
   <style>
     nav.app-nav li ul {
       min-width: 100px;
@@ -22,7 +22,6 @@
 </head>
 <body>
   <div id="app">Loading ...</div>
-  <div id="wwads-panel" class="wwads-cn wwads-vertical wwads-sticky" data-id="239" style="max-width:180px"></div>
   <script>
     window.$docsify = {
       name: 'xrepo',
@@ -86,6 +85,8 @@
             if (isMobile) {
                 wwads += '\n\n----\n\n';
                 wwads += '<div class="wwads-cn wwads-horizontal" data-id="239" style="max-width:100%;background:#fff"></div>';
+            } else {
+                wwads += '<div id="wwads-panel" class="wwads-cn wwads-vertical wwads-sticky" data-id="239" style="max-width:180px"></div>';
             }
             return editHtml
               + html
