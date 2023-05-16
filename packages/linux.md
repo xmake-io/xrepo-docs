@@ -78,7 +78,7 @@ add_requires("acl")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x55e4dffc1720 |
+| License | table: 0x5622cf3cfc00 |
 | Versions | 2.3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -2351,7 +2351,7 @@ add_requires("cppzmq")
 | -- | -- |
 | Homepage | [https://docs.libcpr.org/](https://docs.libcpr.org/) |
 | License | MIT |
-| Versions | 1.6.2, 1.7.2, 1.8.3, 1.9.4 |
+| Versions | 1.10.2, 1.10.3, 1.6.2, 1.7.2, 1.8.3, 1.9.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpr/xmake.lua) |
 
