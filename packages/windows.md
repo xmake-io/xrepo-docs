@@ -54,7 +54,7 @@ add_requires("abseil")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x5622cf3cfc00 |
+| License | table: 0x55c6701ec950 |
 | Versions | 2.3.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -15624,7 +15624,7 @@ add_requires("vc")
 | -- | -- |
 | Homepage | [https://github.com/Chuyu-Team/VC-LTL5](https://github.com/Chuyu-Team/VC-LTL5) |
 | License | EPL-2.0 |
-| Versions | 5.0.6 |
+| Versions | 5.0.6, 5.0.7 |
 | Architectures | arm64, x64, x86 |
 | Definition | [vc-ltl5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vc-ltl5/xmake.lua) |
 

@@ -54,7 +54,7 @@ add_requires("abseil")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x5622cf3cfc00 |
+| License | table: 0x55c6701ec950 |
 | Versions | 2.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
