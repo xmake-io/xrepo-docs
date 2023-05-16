@@ -54,7 +54,7 @@ add_requires("abseil")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x55dccee90d30 |
+| License | table: 0x55ec7e384a30 |
 | Versions | 2.3.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -12830,7 +12830,7 @@ add_requires("raygui")
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
-| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
