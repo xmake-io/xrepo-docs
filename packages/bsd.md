@@ -5,7 +5,7 @@
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x55ec7e384a30 |
+| License | table: 0x56543748d8d0 |
 | Versions | 2.3.1 |
 | Architectures | i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -5254,6 +5254,30 @@ xrepo install protoc
 
 ```lua
 add_requires("protoc")
+```
+
+
+### proxy (bsd)
+
+
+| Description | *Proxy: Easy Polymorphism in C++* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
+| License | MIT |
+| Versions | 1.1.1 |
+| Architectures | i386, x86_64 |
+| Definition | [proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proxy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install proxy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("proxy")
 ```
 
 
