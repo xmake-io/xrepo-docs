@@ -78,7 +78,7 @@ add_requires("acl")
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x55c6701ec950 |
+| License | table: 0x55dccee90d30 |
 | Versions | 2.3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
@@ -19123,7 +19123,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://vtk.org/](https://vtk.org/) |
 | License | BSD-3-Clause |
-| Versions | 9.0.1, 9.0.3, 9.1.0, 9.2.2 |
+| Versions | 9.0.1, 9.0.3, 9.1.0, 9.2.2, 9.2.6 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vtk/xmake.lua) |
 
