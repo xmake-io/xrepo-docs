@@ -5,7 +5,7 @@
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
-| License | table: 0x56443c988ec0 |
+| License | table: 0x55c61c9db720 |
 | Versions | 2.3.1, 2.4.0, 2.4.1 |
 | Architectures | i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
