@@ -3488,6 +3488,30 @@ add_requires("microsoft-gsl")
 ```
 
 
+### microsoft-proxy (wasm)
+
+
+| Description | *Proxy: Easy Polymorphism in C++* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
+| License | MIT |
+| Versions | 1.1.1 |
+| Architectures | wasm32 |
+| Definition | [microsoft-proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-proxy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm microsoft-proxy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-proxy")
+```
+
+
 ### mikktspace (wasm)
 
 
@@ -4457,30 +4481,6 @@ xrepo install -p wasm protoc
 
 ```lua
 add_requires("protoc")
-```
-
-
-### proxy (wasm)
-
-
-| Description | *Proxy: Easy Polymorphism in C++* |
-| -- | -- |
-| Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
-| License | MIT |
-| Versions | 1.1.1 |
-| Architectures | wasm32 |
-| Definition | [proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proxy/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p wasm proxy
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("proxy")
 ```
 
 

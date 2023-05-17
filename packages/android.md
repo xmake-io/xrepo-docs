@@ -4,9 +4,9 @@
 
 | Description | *WHATWG-compliant and fast URL parser written in modern C++* |
 | -- | -- |
-| Homepage | [https://ada-url.github.io/ada](https://ada-url.github.io/ada) |
-| License | table: 0x56543748d8d0 |
-| Versions | 2.3.1 |
+| Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
+| License | table: 0x56443c988ec0 |
+| Versions | 2.3.1, 2.4.0, 2.4.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -4597,6 +4597,30 @@ add_requires("microsoft-gsl")
 ```
 
 
+### microsoft-proxy (android)
+
+
+| Description | *Proxy: Easy Polymorphism in C++* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
+| License | MIT |
+| Versions | 1.1.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [microsoft-proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-proxy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] microsoft-proxy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-proxy")
+```
+
+
 ### mikktspace (android)
 
 
@@ -5919,30 +5943,6 @@ xrepo install -p android [--ndk=/xxx] protoc
 
 ```lua
 add_requires("protoc")
-```
-
-
-### proxy (android)
-
-
-| Description | *Proxy: Easy Polymorphism in C++* |
-| -- | -- |
-| Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
-| License | MIT |
-| Versions | 1.1.1 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
-| Definition | [proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proxy/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] proxy
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("proxy")
 ```
 
 
