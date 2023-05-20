@@ -17197,6 +17197,29 @@ add_requires("sqlite3")
 ```
 
 
+### sqlitecpp (linux)
+
+
+| Description | *SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper.* |
+| -- | -- |
+| Homepage | [http://srombauts.github.io/SQLiteCpp](http://srombauts.github.io/SQLiteCpp) |
+| Versions | 3.2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [sqlitecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlitecpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sqlitecpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqlitecpp")
+```
+
+
 ### sqlpp11 (linux)
 
 
