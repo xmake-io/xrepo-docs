@@ -16598,6 +16598,30 @@ add_requires("yasm")
 ```
 
 
+### yy-thunks (windows)
+
+
+| Description | *Fix DecodePointer, EncodePointer,RegDeleteKeyEx etc. APIs not found in Windows XP RTM.* |
+| -- | -- |
+| Homepage | [https://github.com/Chuyu-Team/YY-Thunks](https://github.com/Chuyu-Team/YY-Thunks) |
+| License | MIT |
+| Versions | 1.0.7 |
+| Architectures | x64, x86 |
+| Definition | [yy-thunks/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yy-thunks/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install yy-thunks
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yy-thunks")
+```
+
+
 ### yyjson (windows)
 
 
