@@ -19578,6 +19578,7 @@ add_requires("x264")
 | Description | *A free software library and application for encoding video streams into the H.265/MPEG-H HEVC compression format.* |
 | -- | -- |
 | Homepage | [http://x265.org](http://x265.org) |
+| License | GPL-2.0 |
 | Versions | 3.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [x265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x265/xmake.lua) |

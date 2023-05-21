@@ -6814,6 +6814,30 @@ add_requires("wolfssl")
 
 
 ## x
+### x265 (cross)
+
+
+| Description | *A free software library and application for encoding video streams into the H.265/MPEG-H HEVC compression format.* |
+| -- | -- |
+| Homepage | [http://x265.org](http://x265.org) |
+| License | GPL-2.0 |
+| Versions | 3.4 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [x265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x265/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] x265
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("x265")
+```
+
+
 ### xbyak (cross)
 
 
