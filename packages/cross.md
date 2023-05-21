@@ -5382,6 +5382,30 @@ add_requires("rttr")
 ```
 
 
+### rxcpp (cross)
+
+
+| Description | *Compose async and event-based programs using observable sequences and LINQ-style query operators.* |
+| -- | -- |
+| Homepage | [http://reactivex.io/RxCpp/](http://reactivex.io/RxCpp/) |
+| License | Apache-2.0 |
+| Versions | v3.0.0, v4.1.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [rxcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rxcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] rxcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rxcpp")
+```
+
+
 
 ## s
 ### s7 (cross)

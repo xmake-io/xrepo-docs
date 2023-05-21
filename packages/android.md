@@ -6660,6 +6660,30 @@ add_requires("ruy")
 ```
 
 
+### rxcpp (android)
+
+
+| Description | *Compose async and event-based programs using observable sequences and LINQ-style query operators.* |
+| -- | -- |
+| Homepage | [http://reactivex.io/RxCpp/](http://reactivex.io/RxCpp/) |
+| License | Apache-2.0 |
+| Versions | v3.0.0, v4.1.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [rxcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rxcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] rxcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rxcpp")
+```
+
+
 
 ## s
 ### scnlib (android)

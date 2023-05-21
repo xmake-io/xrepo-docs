@@ -5007,6 +5007,30 @@ add_requires("rttr")
 ```
 
 
+### rxcpp (wasm)
+
+
+| Description | *Compose async and event-based programs using observable sequences and LINQ-style query operators.* |
+| -- | -- |
+| Homepage | [http://reactivex.io/RxCpp/](http://reactivex.io/RxCpp/) |
+| License | Apache-2.0 |
+| Versions | v3.0.0, v4.1.1 |
+| Architectures | wasm32 |
+| Definition | [rxcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rxcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm rxcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rxcpp")
+```
+
+
 
 ## s
 ### s7 (wasm)

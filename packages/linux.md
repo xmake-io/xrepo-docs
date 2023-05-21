@@ -16371,6 +16371,30 @@ add_requires("ruy")
 ```
 
 
+### rxcpp (linux)
+
+
+| Description | *Compose async and event-based programs using observable sequences and LINQ-style query operators.* |
+| -- | -- |
+| Homepage | [http://reactivex.io/RxCpp/](http://reactivex.io/RxCpp/) |
+| License | Apache-2.0 |
+| Versions | v3.0.0, v4.1.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rxcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rxcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rxcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rxcpp")
+```
+
+
 
 ## s
 ### s7 (linux)
