@@ -18176,6 +18176,30 @@ add_requires("workflow")
 ```
 
 
+### workspace_hanya (macosx)
+
+
+| Description | *Workspace is a lightweight asynchronous execution framework based on C++11* |
+| -- | -- |
+| Homepage | [https://github.com/CodingHanYa/workspace](https://github.com/CodingHanYa/workspace) |
+| License | Apache-2.0 |
+| Versions | 2023.5.8 |
+| Architectures | arm64, x86_64 |
+| Definition | [workspace_hanya/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workspace_hanya/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install workspace_hanya
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("workspace_hanya")
+```
+
+
 ### wxwidgets (macosx)
 
 

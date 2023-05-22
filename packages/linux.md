@@ -19476,6 +19476,29 @@ add_requires("websocketpp")
 ```
 
 
+### whisper.cpp (linux)
+
+
+| Description | *Port of OpenAI's Whisper model in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) |
+| Versions | 1.4.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [whisper.cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/whisper.cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install whisper.cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("whisper.cpp")
+```
+
+
 ### wolfssl (linux)
 
 
@@ -19521,6 +19544,30 @@ xrepo install workflow
 
 ```lua
 add_requires("workflow")
+```
+
+
+### workspace_hanya (linux)
+
+
+| Description | *Workspace is a lightweight asynchronous execution framework based on C++11* |
+| -- | -- |
+| Homepage | [https://github.com/CodingHanYa/workspace](https://github.com/CodingHanYa/workspace) |
+| License | Apache-2.0 |
+| Versions | 2023.5.8 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [workspace_hanya/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workspace_hanya/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install workspace_hanya
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("workspace_hanya")
 ```
 
 

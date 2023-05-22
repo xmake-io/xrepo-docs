@@ -6272,6 +6272,29 @@ add_requires("vulkan-headers")
 
 
 ## w
+### whisper.cpp (wasm)
+
+
+| Description | *Port of OpenAI's Whisper model in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) |
+| Versions | 1.4.2 |
+| Architectures | wasm32 |
+| Definition | [whisper.cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/whisper.cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm whisper.cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("whisper.cpp")
+```
+
+
 ### wolfssl (wasm)
 
 

@@ -8753,6 +8753,29 @@ add_requires("vulkan-memory-allocator-hpp")
 
 
 ## w
+### whisper.cpp (mingw)
+
+
+| Description | *Port of OpenAI's Whisper model in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) |
+| Versions | 1.4.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [whisper.cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/whisper.cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] whisper.cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("whisper.cpp")
+```
+
+
 ### wolfssl (mingw)
 
 
@@ -8774,6 +8797,30 @@ xrepo install -p mingw [--mingw=/xxx] wolfssl
 
 ```lua
 add_requires("wolfssl")
+```
+
+
+### workspace_hanya (mingw)
+
+
+| Description | *Workspace is a lightweight asynchronous execution framework based on C++11* |
+| -- | -- |
+| Homepage | [https://github.com/CodingHanYa/workspace](https://github.com/CodingHanYa/workspace) |
+| License | Apache-2.0 |
+| Versions | 2023.5.8 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [workspace_hanya/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workspace_hanya/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] workspace_hanya
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("workspace_hanya")
 ```
 
 
