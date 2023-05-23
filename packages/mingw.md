@@ -2435,7 +2435,7 @@ add_requires("glm")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
@@ -4795,7 +4795,7 @@ add_requires("mdns")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -7448,7 +7448,7 @@ add_requires("spirv-cross")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0 |
+| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -8662,7 +8662,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
