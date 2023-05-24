@@ -1427,30 +1427,6 @@ add_requires("entt")
 ```
 
 
-### expected (msys)
-
-
-| Description | *C++11/14/17 std::expected with functional-style extensions* |
-| -- | -- |
-| Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
-| License | CC0 |
-| Versions | v1.0.0, v1.1.0 |
-| Architectures | i386, x86_64 |
-| Definition | [expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install expected
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("expected")
-```
-
-
 
 ## f
 ### fast_float (msys)
@@ -5656,7 +5632,7 @@ add_requires("tinyxml")
 | -- | -- |
 | Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
 | License | CC0 |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [tl_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_expected/xmake.lua) |
 

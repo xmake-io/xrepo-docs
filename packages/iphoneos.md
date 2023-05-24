@@ -1570,30 +1570,6 @@ add_requires("entt")
 ```
 
 
-### expected (iphoneos)
-
-
-| Description | *C++11/14/17 std::expected with functional-style extensions* |
-| -- | -- |
-| Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
-| License | CC0 |
-| Versions | v1.0.0, v1.1.0 |
-| Architectures | arm64, x86_64 |
-| Definition | [expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos expected
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("expected")
-```
-
-
 ### exprtk (iphoneos)
 
 
@@ -7004,7 +6980,7 @@ add_requires("tinyxml2")
 | -- | -- |
 | Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
 | License | CC0 |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [tl_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_expected/xmake.lua) |
 

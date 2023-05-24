@@ -1785,30 +1785,6 @@ add_requires("expat")
 ```
 
 
-### expected (mingw)
-
-
-| Description | *C++11/14/17 std::expected with functional-style extensions* |
-| -- | -- |
-| Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
-| License | CC0 |
-| Versions | v1.0.0, v1.1.0 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] expected
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("expected")
-```
-
-
 
 ## f
 ### farmhash (mingw)
@@ -8138,7 +8114,7 @@ add_requires("tinyxml2")
 | -- | -- |
 | Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
 | License | CC0 |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.1.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [tl_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_expected/xmake.lua) |
 
