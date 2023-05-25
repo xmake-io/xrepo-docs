@@ -4556,8 +4556,9 @@ add_requires("nasm")
 
 | Description | *A free software emulation of curses.* |
 | -- | -- |
-| Homepage | [https://www.gnu.org/software/ncurses/](https://www.gnu.org/software/ncurses/) |
-| Versions | 6.1, 6.2, 6.3 |
+| Homepage | [https://invisible-island.net/ncurses/](https://invisible-island.net/ncurses/) |
+| License | MIT |
+| Versions | 6.1, 6.2, 6.3, 6.4 |
 | Architectures | i386, x86_64 |
 | Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
 

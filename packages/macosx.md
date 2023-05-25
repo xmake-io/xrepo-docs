@@ -11830,8 +11830,9 @@ add_requires("nativefiledialog-extended")
 
 | Description | *A free software emulation of curses.* |
 | -- | -- |
-| Homepage | [https://www.gnu.org/software/ncurses/](https://www.gnu.org/software/ncurses/) |
-| Versions | 6.1, 6.2, 6.3 |
+| Homepage | [https://invisible-island.net/ncurses/](https://invisible-island.net/ncurses/) |
+| License | MIT |
+| Versions | 6.1, 6.2, 6.3, 6.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
 
@@ -17584,8 +17585,9 @@ add_requires("utfcpp")
 
 | Description | *Collection of Linux utilities.* |
 | -- | -- |
-| Homepage | [https://github.com/karelzak/util-linux](https://github.com/karelzak/util-linux) |
-| Versions | 2.32.1, 2.36.2 |
+| Homepage | [https://github.com/util-linux/util-linux](https://github.com/util-linux/util-linux) |
+| License | GPL-2.0 |
+| Versions | 2.32.1, 2.36.2, 2.39 |
 | Architectures | arm64, x86_64 |
 | Definition | [util-linux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/util-linux/xmake.lua) |
 
