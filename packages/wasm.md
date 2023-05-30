@@ -3517,7 +3517,7 @@ add_requires("mikktspace")
 | Description | *Single file audio playback and capture library written in C.* |
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
-| Versions | 2021.12.31 |
+| Versions | 0.11.15, 0.11.16, 0.11.17 |
 | Architectures | wasm32 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 

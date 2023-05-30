@@ -11783,7 +11783,7 @@ add_requires("mimalloc")
 | Description | *Single file audio playback and capture library written in C.* |
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
-| Versions | 2021.12.31 |
+| Versions | 0.11.15, 0.11.16, 0.11.17 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
