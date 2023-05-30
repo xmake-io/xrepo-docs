@@ -8543,7 +8543,7 @@ add_requires("m4")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
-| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2 |
+| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2, v0.9.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 
