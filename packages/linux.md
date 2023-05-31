@@ -15690,7 +15690,7 @@ add_requires("quickjspp")
 | Description | *Asynchronous Low Latency C++ Logging Library* |
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
-| Versions | 2.8.0 |
+| Versions | 2.8.0, 2.9.0, 2.9.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
