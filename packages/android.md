@@ -142,6 +142,30 @@ add_requires("argparse")
 ```
 
 
+### aseprite-tga (android)
+
+
+| Description | *C++ library to read/write Truevision TGA/TARGA files* |
+| -- | -- |
+| Homepage | [https://github.com/aseprite/tga](https://github.com/aseprite/tga) |
+| License | MIT |
+| Versions | 2023.6.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [aseprite-tga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aseprite-tga/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] aseprite-tga
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aseprite-tga")
+```
+
+
 ### asio (android)
 
 

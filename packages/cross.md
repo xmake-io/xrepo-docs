@@ -95,6 +95,30 @@ add_requires("argparse")
 ```
 
 
+### aseprite-tga (cross)
+
+
+| Description | *C++ library to read/write Truevision TGA/TARGA files* |
+| -- | -- |
+| Homepage | [https://github.com/aseprite/tga](https://github.com/aseprite/tga) |
+| License | MIT |
+| Versions | 2023.6.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aseprite-tga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aseprite-tga/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aseprite-tga
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aseprite-tga")
+```
+
+
 ### asio (cross)
 
 
