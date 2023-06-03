@@ -6502,6 +6502,54 @@ add_requires("kiwisolver")
 ```
 
 
+### kokkos (macosx)
+
+
+| Description | *Kokkos C++ Performance Portability Programming EcoSystem: The Programming Model* |
+| -- | -- |
+| Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
+| License | Apache-2.0 |
+| Versions | 4.0.01 |
+| Architectures | arm64, x86_64 |
+| Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kokkos
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kokkos")
+```
+
+
+### kokkos-kernels (macosx)
+
+
+| Description | *Kokkos C++ Performance Portability Programming EcoSystem: Math Kernels* |
+| -- | -- |
+| Homepage | [https://github.com/kokkos/kokkos-kernels](https://github.com/kokkos/kokkos-kernels) |
+| License | Apache-2.0 |
+| Versions | 4.0.01 |
+| Architectures | arm64, x86_64 |
+| Definition | [kokkos-kernels/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos-kernels/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kokkos-kernels
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kokkos-kernels")
+```
+
+
 ### krb5 (macosx)
 
 
