@@ -1958,7 +1958,7 @@ add_requires("fmt")
 | Description | *A freely available software library to render fonts.* |
 | -- | -- |
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
-| Versions | 2.10.4, 2.11.0, 2.11.1, 2.12.1, 2.9.1 |
+| Versions | 2.10.4, 2.11.0, 2.11.1, 2.12.1, 2.13.0, 2.9.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 
