@@ -484,7 +484,7 @@ add_requires("blake3")
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.20.1, 1.21.1, 1.5.0 |
+| Versions | v1.20.1, v1.21.1, v1.21.4, v1.5.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 

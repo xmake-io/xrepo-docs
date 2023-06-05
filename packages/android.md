@@ -8303,6 +8303,30 @@ add_requires("vulkan-validationlayers")
 
 
 ## w
+### wfrest (android)
+
+
+| Description | *wfrest: C++ Web Framework REST API* |
+| -- | -- |
+| Homepage | [https://github.com/wfrest/wfrest](https://github.com/wfrest/wfrest) |
+| License | Apache-2.0 |
+| Versions | v0.9.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [wfrest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wfrest/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] wfrest
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wfrest")
+```
+
+
 ### whisper.cpp (android)
 
 

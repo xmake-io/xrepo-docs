@@ -913,7 +913,7 @@ add_requires("blitz")
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.20.1, 1.21.1, 1.5.0 |
+| Versions | v1.20.1, v1.21.1, v1.21.4, v1.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 
@@ -18199,6 +18199,30 @@ xrepo install websocketpp
 
 ```lua
 add_requires("websocketpp")
+```
+
+
+### wfrest (macosx)
+
+
+| Description | *wfrest: C++ Web Framework REST API* |
+| -- | -- |
+| Homepage | [https://github.com/wfrest/wfrest](https://github.com/wfrest/wfrest) |
+| License | Apache-2.0 |
+| Versions | v0.9.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [wfrest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wfrest/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wfrest
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wfrest")
 ```
 
 
