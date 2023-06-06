@@ -9940,7 +9940,7 @@ add_requires("llhttp")
 | Description | *The LLVM Compiler Infrastructure* |
 | -- | -- |
 | Homepage | [https://llvm.org/](https://llvm.org/) |
-| Versions | 11.0.0, 14.0.0, 15.0.7 |
+| Versions | 11.0.0, 14.0.0, 15.0.7, 16.0.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
 
