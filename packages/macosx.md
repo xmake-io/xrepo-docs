@@ -16395,6 +16395,29 @@ add_requires("swig")
 ```
 
 
+### swisseph (macosx)
+
+
+| Description | *The SWISS EPHEMERIS is the high precision ephemeris developed by Astrodienst* |
+| -- | -- |
+| Homepage | [https://www.astro.com/swisseph/](https://www.astro.com/swisseph/) |
+| Versions | v2.10.03 |
+| Architectures | arm64, x86_64 |
+| Definition | [swisseph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swisseph/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install swisseph
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("swisseph")
+```
+
+
 ### szip (macosx)
 
 
