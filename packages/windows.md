@@ -9271,6 +9271,30 @@ add_requires("mhook")
 ```
 
 
+### microsoft-detours (windows)
+
+
+| Description | *Detours is a software package for monitoring and instrumenting API calls on Windows. It is distributed in source code form.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/Detours](https://github.com/microsoft/Detours) |
+| License | MIT |
+| Versions | 2023.6.8 |
+| Architectures | arm64, x64, x86 |
+| Definition | [microsoft-detours/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-detours/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install microsoft-detours
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-detours")
+```
+
+
 ### microsoft-gsl (windows)
 
 
