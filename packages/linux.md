@@ -16372,6 +16372,54 @@ add_requires("rpmalloc")
 ```
 
 
+### rsm-binary-io (linux)
+
+
+| Description | *A binary i/o library for C++, without the agonizing pain* |
+| -- | -- |
+| Homepage | [https://github.com/Ryan-rsm-McKenzie/binary_io](https://github.com/Ryan-rsm-McKenzie/binary_io) |
+| License | MIT |
+| Versions | 2.0.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rsm-binary-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-binary-io/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rsm-binary-io
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rsm-binary-io")
+```
+
+
+### rsm-mmio (linux)
+
+
+| Description | *A cross-platform memory-mapped io library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/Ryan-rsm-McKenzie/mmio](https://github.com/Ryan-rsm-McKenzie/mmio) |
+| License | MIT |
+| Versions | 2.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rsm-mmio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-mmio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rsm-mmio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rsm-mmio")
+```
+
+
 ### rsync (linux)
 
 
