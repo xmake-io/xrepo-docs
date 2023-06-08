@@ -1356,6 +1356,30 @@ add_requires("easyloggingpp")
 ```
 
 
+### effolkronium-random (wasm)
+
+
+| Description | *Random for modern C++ with convenient API* |
+| -- | -- |
+| Homepage | [https://github.com/effolkronium/random](https://github.com/effolkronium/random) |
+| License | MIT |
+| Versions | v1.4.1 |
+| Architectures | wasm32 |
+| Definition | [effolkronium-random/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/effolkronium-random/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm effolkronium-random
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("effolkronium-random")
+```
+
+
 ### elfio (wasm)
 
 

@@ -1617,6 +1617,30 @@ add_requires("easyloggingpp")
 ```
 
 
+### effolkronium-random (android)
+
+
+| Description | *Random for modern C++ with convenient API* |
+| -- | -- |
+| Homepage | [https://github.com/effolkronium/random](https://github.com/effolkronium/random) |
+| License | MIT |
+| Versions | v1.4.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [effolkronium-random/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/effolkronium-random/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] effolkronium-random
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("effolkronium-random")
+```
+
+
 ### elfio (android)
 
 
