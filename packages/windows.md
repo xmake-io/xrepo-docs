@@ -7241,6 +7241,29 @@ add_requires("libmspack")
 ```
 
 
+### liboai (windows)
+
+
+| Description | *A C++17 library to access the entire OpenAI API.* |
+| -- | -- |
+| Homepage | [https://github.com/D7EAD/liboai](https://github.com/D7EAD/liboai) |
+| Versions | 3.1.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [liboai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liboai/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install liboai
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("liboai")
+```
+
+
 ### libogg (windows)
 
 

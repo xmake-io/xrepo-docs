@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: microsoft-detours, rsm-binary-io, rsm-mmio**
+- **Recently added: liboai, microsoft-detours, rsm-binary-io**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
