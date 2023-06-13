@@ -16482,7 +16482,7 @@ add_requires("workspace_hanya")
 | Description | *Cross-Platform C++ GUI Library* |
 | -- | -- |
 | Homepage | [https://www.wxwidgets.org/](https://www.wxwidgets.org/) |
-| Versions | v3.2.0 |
+| Versions | v3.2.0, v3.2.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [wxwidgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wxwidgets/xmake.lua) |
 
