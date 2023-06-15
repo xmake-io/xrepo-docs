@@ -5192,6 +5192,54 @@ add_requires("msdfgen")
 ```
 
 
+### msgpack-c (mingw)
+
+
+| Description | *MessagePack implementation for C* |
+| -- | -- |
+| Homepage | [https://msgpack.org/](https://msgpack.org/) |
+| License | BSL-1.0 |
+| Versions | 4.0.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [msgpack-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] msgpack-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msgpack-c")
+```
+
+
+### msgpack-cxx (mingw)
+
+
+| Description | *MessagePack implementation for C++* |
+| -- | -- |
+| Homepage | [https://msgpack.org/](https://msgpack.org/) |
+| License | BSL-1.0 |
+| Versions | 4.1.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [msgpack-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-cxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] msgpack-cxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msgpack-cxx")
+```
+
+
 ### muslcc (mingw)
 
 
