@@ -335,6 +335,30 @@ add_requires("asmjit")
 ```
 
 
+### asmtk (macosx)
+
+
+| Description | *Assembler toolkit based on AsmJit* |
+| -- | -- |
+| Homepage | [https://github.com/asmjit/asmtk](https://github.com/asmjit/asmtk) |
+| License | zlib |
+| Versions | 2023.6.14 |
+| Architectures | arm64, x86_64 |
+| Definition | [asmtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmtk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install asmtk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asmtk")
+```
+
+
 ### asn1c (macosx)
 
 
