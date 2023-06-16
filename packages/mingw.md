@@ -3216,7 +3216,7 @@ add_requires("json.h")
 | Description | *A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON* |
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
-| Versions | v0.158.0 |
+| Versions | v0.158.0, v0.170.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
@@ -6995,6 +6995,29 @@ add_requires("reproc")
 ```
 
 
+### rest_rpc (mingw)
+
+
+| Description | *c++11, high performance, cross platform, easy to use rpc framework.* |
+| -- | -- |
+| Homepage | [https://github.com/qicosmos/rest_rpc](https://github.com/qicosmos/rest_rpc) |
+| Versions | 2023.6.14 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [rest_rpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rest_rpc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] rest_rpc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rest_rpc")
+```
+
+
 ### robin-hood-hashing (mingw)
 
 
@@ -7677,6 +7700,29 @@ xrepo install -p mingw [--mingw=/xxx] sqlite3
 
 ```lua
 add_requires("sqlite3")
+```
+
+
+### sqlite_orm (mingw)
+
+
+| Description | *SQLite ORM light header only library for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) |
+| Versions | 1.8.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [sqlite_orm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite_orm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] sqlite_orm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqlite_orm")
 ```
 
 

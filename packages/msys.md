@@ -2360,7 +2360,7 @@ add_requires("json.h")
 | Description | *A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON* |
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
-| Versions | v0.158.0 |
+| Versions | v0.158.0, v0.170.2 |
 | Architectures | i386, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
@@ -5218,6 +5218,29 @@ xrepo install sqlite3
 
 ```lua
 add_requires("sqlite3")
+```
+
+
+### sqlite_orm (msys)
+
+
+| Description | *SQLite ORM light header only library for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) |
+| Versions | 1.8.2 |
+| Architectures | i386, x86_64 |
+| Definition | [sqlite_orm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite_orm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sqlite_orm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqlite_orm")
 ```
 
 

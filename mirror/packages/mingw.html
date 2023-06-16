@@ -4924,7 +4924,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.158.0</td>
+<td>v0.158.0, v0.170.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -10553,6 +10553,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("reproc")
 </code></pre>
+<h3 id="rest_rpcmingw">rest_rpc (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>c++11, high performance, cross platform, easy to use rpc framework.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/qicosmos/rest_rpc">https://github.com/qicosmos/rest_rpc</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.6.14</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rest_rpc/xmake.lua">rest_rpc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] rest_rpc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("rest_rpc")
+</code></pre>
 <h3 id="robinhoodhashingmingw">robin-hood-hashing (mingw)</h3>
 <table>
 <thead>
@@ -11574,6 +11607,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("sqlite3")
+</code></pre>
+<h3 id="sqlite_ormmingw">sqlite_orm (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SQLite ORM light header only library for modern C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/fnc12/sqlite_orm">https://github.com/fnc12/sqlite_orm</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.8.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite_orm/xmake.lua">sqlite_orm/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] sqlite_orm
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("sqlite_orm")
 </code></pre>
 <h3 id="sqlitecppmingw">sqlitecpp (mingw)</h3>
 <table>
