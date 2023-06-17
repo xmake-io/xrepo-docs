@@ -558,7 +558,7 @@ add_requires("bazel")
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
 | License | Apache-2.0 |
-| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1 |
+| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
@@ -3165,7 +3165,7 @@ add_requires("eabase")
 | -- | -- |
 | Homepage | [https://github.com/electronicarts/EASTL](https://github.com/electronicarts/EASTL) |
 | License | BSD-3-Clause |
-| Versions | 3.17.03, 3.17.06 |
+| Versions | 3.17.03, 3.17.06, 3.21.12 |
 | Architectures | arm64, x64, x86 |
 | Definition | [eastl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eastl/xmake.lua) |
 
