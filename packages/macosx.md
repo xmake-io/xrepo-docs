@@ -2345,6 +2345,29 @@ add_requires("cryptopp")
 ```
 
 
+### cspice (macosx)
+
+
+| Description | *An Observation Geometry System for Space Science Missions* |
+| -- | -- |
+| Homepage | [https://naif.jpl.nasa.gov/naif/toolkit.html](https://naif.jpl.nasa.gov/naif/toolkit.html) |
+| Versions | v67 |
+| Architectures | arm64, x86_64 |
+| Definition | [cspice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cspice/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cspice
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cspice")
+```
+
+
 ### csv2 (macosx)
 
 
