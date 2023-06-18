@@ -9912,6 +9912,30 @@ add_requires("lief")
 ```
 
 
+### lightningscanner (macosx)
+
+
+| Description | *A lightning-fast memory signature/pattern scanner, capable of scanning gigabytes of data per second.* |
+| -- | -- |
+| Homepage | [https://localcc.github.io/LightningScanner/](https://localcc.github.io/LightningScanner/) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [lightningscanner/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightningscanner/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lightningscanner
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lightningscanner")
+```
+
+
 ### linenoise (macosx)
 
 
