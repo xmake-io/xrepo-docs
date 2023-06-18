@@ -3680,6 +3680,30 @@ add_requires("libjpeg")
 ```
 
 
+### libjxl (mingw)
+
+
+| Description | *JPEG XL image format reference implementation* |
+| -- | -- |
+| Homepage | [https://jpeg.org/jpegxl](https://jpeg.org/jpegxl) |
+| License | BSD-3-Clause |
+| Versions | v0.8.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libjxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjxl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libjxl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libjxl")
+```
+
+
 ### libogg (mingw)
 
 

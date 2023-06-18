@@ -3110,6 +3110,30 @@ add_requires("libjpeg")
 ```
 
 
+### libjxl (iphoneos)
+
+
+| Description | *JPEG XL image format reference implementation* |
+| -- | -- |
+| Homepage | [https://jpeg.org/jpegxl](https://jpeg.org/jpegxl) |
+| License | BSD-3-Clause |
+| Versions | v0.8.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [libjxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjxl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libjxl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libjxl")
+```
+
+
 ### libogg (iphoneos)
 
 

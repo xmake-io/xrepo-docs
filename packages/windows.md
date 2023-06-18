@@ -7194,6 +7194,30 @@ add_requires("libjpeg-turbo")
 ```
 
 
+### libjxl (windows)
+
+
+| Description | *JPEG XL image format reference implementation* |
+| -- | -- |
+| Homepage | [https://jpeg.org/jpegxl](https://jpeg.org/jpegxl) |
+| License | BSD-3-Clause |
+| Versions | v0.8.2 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libjxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjxl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libjxl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libjxl")
+```
+
+
 ### liblas (windows)
 
 
@@ -16122,7 +16146,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5 |
+| Versions | v0.5, v0.6, v0.7 |
 | Architectures | arm64, x64, x86 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 
