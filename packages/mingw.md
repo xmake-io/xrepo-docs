@@ -1914,7 +1914,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.10.1, v3.4.0, v3.5.1 |
+| Versions | v3.10.1, v3.4.0, v3.5.1, v5.2.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -3852,7 +3852,7 @@ add_requires("libsais")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4 |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
