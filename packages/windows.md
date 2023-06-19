@@ -6870,7 +6870,7 @@ add_requires("libfive")
 | -- | -- |
 | Homepage | [https://xiph.org/flac](https://xiph.org/flac) |
 | License | BSD |
-| Versions | 1.3.3 |
+| Versions | 1.3.3, 1.4.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libflac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libflac/xmake.lua) |
 
