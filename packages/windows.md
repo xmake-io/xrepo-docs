@@ -2996,7 +2996,7 @@ add_requires("dpp")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.29, 0.12.39 |
+| Versions | 0.12.29, 0.12.39, 0.12.41 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
 
@@ -3020,7 +3020,7 @@ add_requires("dr_flac")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.6.27, 0.6.34 |
+| Versions | 0.6.27, 0.6.34, 0.6.36 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
 
@@ -3044,7 +3044,7 @@ add_requires("dr_mp3")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.19, 0.13.8 |
+| Versions | 0.12.19, 0.13.10, 0.13.8 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
@@ -6609,7 +6609,7 @@ add_requires("libccd")
 | Description | *a small C library for x86 CPU detection and feature extraction* |
 | -- | -- |
 | Homepage | [https://github.com/anrieff/libcpuid](https://github.com/anrieff/libcpuid) |
-| Versions | v0.5.1 |
+| Versions | v0.5.1, v0.6.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libcpuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcpuid/xmake.lua) |
 
@@ -11929,6 +11929,29 @@ add_requires("pegtl")
 ```
 
 
+### phnt (windows)
+
+
+| Description | *Native API header files for the System Informer project.* |
+| -- | -- |
+| Homepage | [https://github.com/winsiderss/systeminformer](https://github.com/winsiderss/systeminformer) |
+| Versions | 2023.6.18 |
+| Architectures | arm64, x64, x86 |
+| Definition | [phnt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/phnt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install phnt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("phnt")
+```
+
+
 ### picojson (windows)
 
 
@@ -13709,8 +13732,8 @@ add_requires("sentencepiece")
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.15, 0.4.4, 0.5.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | 0.4.15, 0.4.4, 0.5.0, 0.6.3 |
+| Architectures | x64, x86 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
 ##### Install command

@@ -1575,7 +1575,7 @@ add_requires("dpp")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.29, 0.12.39 |
+| Versions | 0.12.29, 0.12.39, 0.12.41 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
 
@@ -1599,7 +1599,7 @@ add_requires("dr_flac")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.6.27, 0.6.34 |
+| Versions | 0.6.27, 0.6.34, 0.6.36 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
 
@@ -1623,7 +1623,7 @@ add_requires("dr_mp3")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.19, 0.13.8 |
+| Versions | 0.12.19, 0.13.10, 0.13.8 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
@@ -3404,7 +3404,7 @@ add_requires("libargon2")
 | Description | *a small C library for x86 CPU detection and feature extraction* |
 | -- | -- |
 | Homepage | [https://github.com/anrieff/libcpuid](https://github.com/anrieff/libcpuid) |
-| Versions | v0.5.1 |
+| Versions | v0.5.1, v0.6.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libcpuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcpuid/xmake.lua) |
 
