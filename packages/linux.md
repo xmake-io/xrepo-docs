@@ -17224,6 +17224,30 @@ add_requires("sol2")
 ```
 
 
+### sonic-cpp (linux)
+
+
+| Description | *A fast JSON serializing & deserializing library, accelerated by SIMD.* |
+| -- | -- |
+| Homepage | [https://github.com/bytedance/sonic-cpp](https://github.com/bytedance/sonic-cpp) |
+| License | Apache-2.0 |
+| Versions | 1.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [sonic-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sonic-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sonic-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sonic-cpp")
+```
+
+
 ### sophus (linux)
 
 
