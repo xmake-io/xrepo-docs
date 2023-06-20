@@ -9103,7 +9103,7 @@ add_requires("librdkafka")
 | Description | *LibreSSL is a version of the TLS/crypto stack forked from OpenSSL in 2014, with goals of modernizing the codebase, improving security, and applying best practice development processes.* |
 | -- | -- |
 | Homepage | [https://www.libressl.org/](https://www.libressl.org/) |
-| Versions | 3.4.2 |
+| Versions | 3.4.2, 3.7.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libressl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libressl/xmake.lua) |
 
