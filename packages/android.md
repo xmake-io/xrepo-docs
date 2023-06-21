@@ -4558,7 +4558,7 @@ add_requires("mathfu")
 | Description | *An SSL library* |
 | -- | -- |
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
-| Versions | 2.13.0, 2.25.0, 2.7.6 |
+| Versions | 2.13.0, 2.25.0, 2.7.6, 3.4.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 

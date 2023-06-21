@@ -9162,7 +9162,7 @@ add_requires("matplotplusplus")
 | Description | *An SSL library* |
 | -- | -- |
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
-| Versions | 2.13.0, 2.25.0, 2.7.6 |
+| Versions | 2.13.0, 2.25.0, 2.7.6, 3.4.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 
