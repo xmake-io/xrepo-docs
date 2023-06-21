@@ -5902,6 +5902,30 @@ add_requires("pkgconf")
 ```
 
 
+### plog (android)
+
+
+| Description | *Portable, simple and extensible C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/SergiusTheBest/plog](https://github.com/SergiusTheBest/plog) |
+| License | MIT |
+| Versions | 1.1.9 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [plog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] plog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plog")
+```
+
+
 ### pocketpy (android)
 
 

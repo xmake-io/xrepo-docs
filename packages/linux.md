@@ -2299,6 +2299,30 @@ add_requires("cpp-httplib")
 ```
 
 
+### cpp-ipc (linux)
+
+
+| Description | *A high-performance inter-process communication using shared memory on Linux/Windows* |
+| -- | -- |
+| Homepage | [https://github.com/mutouyun/cpp-ipc](https://github.com/mutouyun/cpp-ipc) |
+| License | MIT |
+| Versions | 1.2.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cpp-ipc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-ipc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp-ipc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-ipc")
+```
+
+
 ### cpp-lazy (linux)
 
 
@@ -14974,6 +14998,30 @@ xrepo install pkgconf
 
 ```lua
 add_requires("pkgconf")
+```
+
+
+### plog (linux)
+
+
+| Description | *Portable, simple and extensible C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/SergiusTheBest/plog](https://github.com/SergiusTheBest/plog) |
+| License | MIT |
+| Versions | 1.1.9 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [plog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install plog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plog")
 ```
 
 

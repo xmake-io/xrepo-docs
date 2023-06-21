@@ -5286,6 +5286,30 @@ add_requires("pkgconf")
 ```
 
 
+### plog (bsd)
+
+
+| Description | *Portable, simple and extensible C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/SergiusTheBest/plog](https://github.com/SergiusTheBest/plog) |
+| License | MIT |
+| Versions | 1.1.9 |
+| Architectures | i386, x86_64 |
+| Definition | [plog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install plog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plog")
+```
+
+
 ### pprint (bsd)
 
 

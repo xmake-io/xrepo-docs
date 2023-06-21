@@ -1163,6 +1163,30 @@ add_requires("cpp-httplib")
 ```
 
 
+### cpp-ipc (mingw)
+
+
+| Description | *A high-performance inter-process communication using shared memory on Linux/Windows* |
+| -- | -- |
+| Homepage | [https://github.com/mutouyun/cpp-ipc](https://github.com/mutouyun/cpp-ipc) |
+| License | MIT |
+| Versions | 1.2.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cpp-ipc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-ipc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cpp-ipc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-ipc")
+```
+
+
 ### cpp-peglib (mingw)
 
 
@@ -6284,6 +6308,30 @@ xrepo install -p mingw [--mingw=/xxx] pkgconf
 
 ```lua
 add_requires("pkgconf")
+```
+
+
+### plog (mingw)
+
+
+| Description | *Portable, simple and extensible C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/SergiusTheBest/plog](https://github.com/SergiusTheBest/plog) |
+| License | MIT |
+| Versions | 1.1.9 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [plog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] plog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plog")
 ```
 
 

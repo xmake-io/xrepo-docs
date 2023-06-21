@@ -4838,6 +4838,30 @@ add_requires("pkgconf")
 ```
 
 
+### plog (cross)
+
+
+| Description | *Portable, simple and extensible C++ logging library* |
+| -- | -- |
+| Homepage | [https://github.com/SergiusTheBest/plog](https://github.com/SergiusTheBest/plog) |
+| License | MIT |
+| Versions | 1.1.9 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [plog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] plog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plog")
+```
+
+
 ### pprint (cross)
 
 
