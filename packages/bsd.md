@@ -7620,6 +7620,29 @@ add_requires("yyjson")
 
 
 ## z
+### zasm (bsd)
+
+
+| Description | *x86-64 Assembler based on Zydis* |
+| -- | -- |
+| Homepage | [https://github.com/zyantific/zasm](https://github.com/zyantific/zasm) |
+| Versions | 2023.6.21 |
+| Architectures | i386, x86_64 |
+| Definition | [zasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zasm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zasm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zasm")
+```
+
+
 ### zig (bsd)
 
 

@@ -10689,6 +10689,39 @@
 <pre><code class="lang-lua">add_requires("yyjson")
 </code></pre>
 <h2 id="z">z</h2>
+<h3 id="zasmcross">zasm (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>x86-64 Assembler based on Zydis</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/zyantific/zasm">https://github.com/zyantific/zasm</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.6.21</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zasm/xmake.lua">zasm/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] zasm
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("zasm")
+</code></pre>
 <h3 id="zigcross">zig (cross)</h3>
 <table>
 <thead>

@@ -8948,7 +8948,7 @@ add_requires("vulkan-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
 | License | Apache-2.0 |
-| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244 |
+| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
 
@@ -9328,6 +9328,29 @@ add_requires("yyjson")
 
 
 ## z
+### zasm (mingw)
+
+
+| Description | *x86-64 Assembler based on Zydis* |
+| -- | -- |
+| Homepage | [https://github.com/zyantific/zasm](https://github.com/zyantific/zasm) |
+| Versions | 2023.6.21 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [zasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zasm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] zasm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zasm")
+```
+
+
 ### zig (mingw)
 
 
