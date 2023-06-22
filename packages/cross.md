@@ -2928,7 +2928,7 @@ add_requires("libsais")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5 |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -3491,7 +3491,7 @@ add_requires("lyra")
 | Description | *LZ4 - Extremely fast compression* |
 | -- | -- |
 | Homepage | [https://www.lz4.org/](https://www.lz4.org/) |
-| Versions | v1.9.3 |
+| Versions | v1.9.3, v1.9.4 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lz4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lz4/xmake.lua) |
 
@@ -6839,7 +6839,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1 |
+| Versions | v3.2.1, v3.2.3 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
@@ -6931,6 +6931,30 @@ add_requires("vulkan-headers")
 
 
 ## w
+### webui (cross)
+
+
+| Description | *Use any web browser as GUI, with your preferred language in the backend and HTML5 in the frontend, all in a lightweight portable lib.* |
+| -- | -- |
+| Homepage | [https://webui.me](https://webui.me) |
+| License | MIT |
+| Versions | 2.3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [webui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/webui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] webui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("webui")
+```
+
+
 ### wolfssl (cross)
 
 
