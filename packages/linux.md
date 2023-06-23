@@ -19959,7 +19959,7 @@ add_requires("whisper.cpp")
 | -- | -- |
 | Homepage | [https://www.wolfssl.com](https://www.wolfssl.com) |
 | License | GPL-2.0 |
-| Versions | v5.3.0-stable |
+| Versions | 5.3.0, 5.6.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wolfssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wolfssl/xmake.lua) |
 

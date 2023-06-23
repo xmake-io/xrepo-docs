@@ -9069,7 +9069,7 @@ add_requires("whisper.cpp")
 | -- | -- |
 | Homepage | [https://www.wolfssl.com](https://www.wolfssl.com) |
 | License | GPL-2.0 |
-| Versions | v5.3.0-stable |
+| Versions | 5.3.0, 5.6.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [wolfssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wolfssl/xmake.lua) |
 
