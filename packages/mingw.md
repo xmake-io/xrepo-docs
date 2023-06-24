@@ -5316,8 +5316,8 @@ add_requires("muslcc")
 
 | Description | *Open source relational database management system.* |
 | -- | -- |
-| Homepage | [https://dev.mysql.com/doc/refman/5.7/en/](https://dev.mysql.com/doc/refman/5.7/en/) |
-| Versions | 5.7.29 |
+| Homepage | [https://dev.mysql.com/doc](https://dev.mysql.com/doc) |
+| Versions | 5.7.29, 8.0.31 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [mysql/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mysql/xmake.lua) |
 
@@ -5476,6 +5476,29 @@ xrepo install -p mingw [--mingw=/xxx] nasm
 
 ```lua
 add_requires("nasm")
+```
+
+
+### ndarray (mingw)
+
+
+| Description | *NumPy-friendly multidimensional arrays in C++* |
+| -- | -- |
+| Homepage | [https://github.com/ndarray/ndarray](https://github.com/ndarray/ndarray) |
+| Versions | 1.6.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [ndarray/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndarray/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ndarray
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndarray")
 ```
 
 

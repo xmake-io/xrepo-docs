@@ -4223,6 +4223,29 @@ add_requires("nasm")
 ```
 
 
+### ndarray (cross)
+
+
+| Description | *NumPy-friendly multidimensional arrays in C++* |
+| -- | -- |
+| Homepage | [https://github.com/ndarray/ndarray](https://github.com/ndarray/ndarray) |
+| Versions | 1.6.4 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ndarray/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndarray/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ndarray
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndarray")
+```
+
+
 ### ndk (cross)
 
 

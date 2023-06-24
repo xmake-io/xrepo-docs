@@ -19142,11 +19142,11 @@
 <tbody>
 <tr>
 <td>Homepage</td>
-<td><a href="https://dev.mysql.com/doc/refman/5.7/en/">https://dev.mysql.com/doc/refman/5.7/en/</a></td>
+<td><a href="https://dev.mysql.com/doc">https://dev.mysql.com/doc</a></td>
 </tr>
 <tr>
 <td>Versions</td>
-<td>5.7.29</td>
+<td>5.7.29, 8.0.31</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -19625,6 +19625,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ncurses")
+</code></pre>
+<h3 id="ndarraylinux">ndarray (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>NumPy-friendly multidimensional arrays in C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/ndarray/ndarray">https://github.com/ndarray/ndarray</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.6.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndarray/xmake.lua">ndarray/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install ndarray
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("ndarray")
 </code></pre>
 <h3 id="ndklinux">ndk (linux)</h3>
 <table>

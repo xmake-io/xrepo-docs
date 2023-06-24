@@ -4695,6 +4695,29 @@ add_requires("ncurses")
 ```
 
 
+### ndarray (bsd)
+
+
+| Description | *NumPy-friendly multidimensional arrays in C++* |
+| -- | -- |
+| Homepage | [https://github.com/ndarray/ndarray](https://github.com/ndarray/ndarray) |
+| Versions | 1.6.4 |
+| Architectures | i386, x86_64 |
+| Definition | [ndarray/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndarray/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ndarray
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndarray")
+```
+
+
 ### ndk (bsd)
 
 

@@ -11806,8 +11806,8 @@ add_requires("mxml")
 
 | Description | *Open source relational database management system.* |
 | -- | -- |
-| Homepage | [https://dev.mysql.com/doc/refman/5.7/en/](https://dev.mysql.com/doc/refman/5.7/en/) |
-| Versions | 5.7.29 |
+| Homepage | [https://dev.mysql.com/doc](https://dev.mysql.com/doc) |
+| Versions | 5.7.29, 8.0.31 |
 | Architectures | arm64, x86_64 |
 | Definition | [mysql/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mysql/xmake.lua) |
 
@@ -12084,6 +12084,29 @@ xrepo install ncurses
 
 ```lua
 add_requires("ncurses")
+```
+
+
+### ndarray (macosx)
+
+
+| Description | *NumPy-friendly multidimensional arrays in C++* |
+| -- | -- |
+| Homepage | [https://github.com/ndarray/ndarray](https://github.com/ndarray/ndarray) |
+| Versions | 1.6.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [ndarray/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndarray/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ndarray
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndarray")
 ```
 
 
