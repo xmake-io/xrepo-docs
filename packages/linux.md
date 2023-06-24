@@ -12747,6 +12747,29 @@ add_requires("mysql")
 ```
 
 
+### mysqlpp (linux)
+
+
+| Description | *MySQL++ is a C++ wrapper for the MySQL and MariaDB C APIs* |
+| -- | -- |
+| Homepage | [https://tangentsoft.com/mysqlpp/wiki?name=MySQL%2B%2B&p&nsm](https://tangentsoft.com/mysqlpp/wiki?name=MySQL%2B%2B&p&nsm) |
+| Versions | 3.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mysqlpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mysqlpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mysqlpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mysqlpp")
+```
+
+
 
 ## n
 ### named_type (linux)
