@@ -2291,7 +2291,7 @@ add_requires("hiredis")
 | Description | *A C++ implementation of a fast hash map and hash set using hopscotch hashing* |
 | -- | -- |
 | Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
-| Versions | v2.3.0 |
+| Versions | v2.3.0, v2.3.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
 

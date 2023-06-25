@@ -2646,7 +2646,7 @@ add_requires("hlslpp")
 | Description | *A C++ implementation of a fast hash map and hash set using hopscotch hashing* |
 | -- | -- |
 | Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
-| Versions | v2.3.0 |
+| Versions | v2.3.0, v2.3.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
 
