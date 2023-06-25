@@ -3497,7 +3497,7 @@ add_requires("ensmallen")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
-| Versions | v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
+| Versions | v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -7406,7 +7406,7 @@ add_requires("libfive")
 | -- | -- |
 | Homepage | [https://xiph.org/flac](https://xiph.org/flac) |
 | License | BSD |
-| Versions | 1.3.3, 1.4.2 |
+| Versions | 1.3.3, 1.4.2, 1.4.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libflac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libflac/xmake.lua) |
 
@@ -15671,7 +15671,7 @@ add_requires("sentencepiece")
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.15, 0.4.4, 0.5.0, 0.6.3 |
+| Versions | 0.4.15, 0.4.4, 0.5.0, 0.6.3, 0.6.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
