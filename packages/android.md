@@ -1882,6 +1882,30 @@ add_requires("flatbuffers")
 ```
 
 
+### flecs (android)
+
+
+| Description | *A fast entity component system (ECS) for C & C++* |
+| -- | -- |
+| Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
+| License | MIT |
+| Versions | v2.4.8, v3.0.0, v3.2.4 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] flecs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flecs")
+```
+
+
 ### flex (android)
 
 
