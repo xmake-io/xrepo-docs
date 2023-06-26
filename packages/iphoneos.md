@@ -4978,6 +4978,30 @@ add_requires("ntkernel-error-category")
 ```
 
 
+### nuklear (iphoneos)
+
+
+| Description | *A single-header ANSI C immediate mode cross-platform GUI library* |
+| -- | -- |
+| Homepage | [https://immediate-mode-ui.github.io/Nuklear/doc/index.html](https://immediate-mode-ui.github.io/Nuklear/doc/index.html) |
+| License | MIT |
+| Versions | 4.10.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [nuklear/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nuklear/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos nuklear
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nuklear")
+```
+
+
 
 ## o
 ### olive.c (iphoneos)
