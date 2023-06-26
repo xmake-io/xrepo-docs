@@ -5477,6 +5477,30 @@ add_requires("rpmalloc")
 ```
 
 
+### rsm-autotoml (cross)
+
+
+| Description | *toml++ wrapper for basic node types* |
+| -- | -- |
+| Homepage | [https://github.com/Ryan-rsm-McKenzie/AutoTOML](https://github.com/Ryan-rsm-McKenzie/AutoTOML) |
+| License | MIT |
+| Versions | 2020.12.29 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [rsm-autotoml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-autotoml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] rsm-autotoml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rsm-autotoml")
+```
+
+
 ### rsm-binary-io (cross)
 
 

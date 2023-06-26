@@ -5103,6 +5103,30 @@ add_requires("rpmalloc")
 ```
 
 
+### rsm-autotoml (wasm)
+
+
+| Description | *toml++ wrapper for basic node types* |
+| -- | -- |
+| Homepage | [https://github.com/Ryan-rsm-McKenzie/AutoTOML](https://github.com/Ryan-rsm-McKenzie/AutoTOML) |
+| License | MIT |
+| Versions | 2020.12.29 |
+| Architectures | wasm32 |
+| Definition | [rsm-autotoml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-autotoml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm rsm-autotoml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rsm-autotoml")
+```
+
+
 ### rsm-binary-io (wasm)
 
 
