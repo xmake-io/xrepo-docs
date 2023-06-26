@@ -13281,7 +13281,7 @@ add_requires("recastnavigation")
 | Description | *Redis client written in C++* |
 | -- | -- |
 | Homepage | [https://github.com/sewenew/redis-plus-plus](https://github.com/sewenew/redis-plus-plus) |
-| Versions | 1.3.5, 1.3.6, 1.3.7, 1.3.8 |
+| Versions | 1.3.5, 1.3.6, 1.3.7, 1.3.8, 1.3.9 |
 | Architectures | arm64, x64, x86 |
 | Definition | [redis-plus-plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redis-plus-plus/xmake.lua) |
 
