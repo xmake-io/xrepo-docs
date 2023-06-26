@@ -1551,7 +1551,7 @@ add_requires("doctest")
 | -- | -- |
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
-| Versions | 1.9.1, 1.9.2, 1.9.3, 1.9.6 |
+| Versions | 1.9.1, 1.9.2, 1.9.3, 1.9.5, 1.9.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
@@ -4844,7 +4844,8 @@ add_requires("mathfu")
 | Description | *An SSL library* |
 | -- | -- |
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
-| Versions | 2.13.0, 2.25.0, 2.7.6, 3.4.0 |
+| License | Apache-2.0 |
+| Versions | v2.13.0, v2.25.0, v2.28.3, v2.7.6, v3.4.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 
