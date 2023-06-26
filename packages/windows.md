@@ -12808,7 +12808,7 @@ add_requires("qoi")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [qt5base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5base/xmake.lua) |
 
 ##### Install command
@@ -12832,7 +12832,7 @@ add_requires("qt5base")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [qt5core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5core/xmake.lua) |
 
 ##### Install command
@@ -12856,7 +12856,7 @@ add_requires("qt5core")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [qt5gui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5gui/xmake.lua) |
 
 ##### Install command
@@ -12880,7 +12880,7 @@ add_requires("qt5gui")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [qt5lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5lib/xmake.lua) |
 
 ##### Install command
@@ -12904,7 +12904,7 @@ add_requires("qt5lib")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [qt5network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5network/xmake.lua) |
 
 ##### Install command
@@ -12920,6 +12920,30 @@ add_requires("qt5network")
 ```
 
 
+### qt5webview (windows)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2 |
+| Architectures | x64, x86 |
+| Definition | [qt5webview/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5webview/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt5webview
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt5webview")
+```
+
+
 ### qt5widgets (windows)
 
 
@@ -12928,7 +12952,7 @@ add_requires("qt5network")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [qt5widgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5widgets/xmake.lua) |
 
 ##### Install command
