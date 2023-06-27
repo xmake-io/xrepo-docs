@@ -2559,6 +2559,30 @@ add_requires("crossguid")
 ```
 
 
+### crow (linux)
+
+
+| Description | *A Fast and Easy to use microframework for the web.* |
+| -- | -- |
+| Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
+| License | BSD 3-Clause |
+| Versions | 2023.06.26 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install crow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crow")
+```
+
+
 ### cryptopp (linux)
 
 
