@@ -12821,6 +12821,30 @@ add_requires("named_type")
 ```
 
 
+### nameof (linux)
+
+
+| Description | *Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
+| License | MIT |
+| Versions | 0.10.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nameof
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nameof")
+```
+
+
 ### nana (linux)
 
 

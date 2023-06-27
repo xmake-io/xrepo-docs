@@ -4152,6 +4152,30 @@ add_requires("named_type")
 ```
 
 
+### nameof (cross)
+
+
+| Description | *Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
+| License | MIT |
+| Versions | 0.10.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nameof
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nameof")
+```
+
+
 ### nanobench (cross)
 
 

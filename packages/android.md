@@ -5122,6 +5122,30 @@ add_requires("named_type")
 ```
 
 
+### nameof (android)
+
+
+| Description | *Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
+| License | MIT |
+| Versions | 0.10.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] nameof
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nameof")
+```
+
+
 ### nanobench (android)
 
 

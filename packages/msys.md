@@ -3750,6 +3750,30 @@ add_requires("named_type")
 ```
 
 
+### nameof (msys)
+
+
+| Description | *Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
+| License | MIT |
+| Versions | 0.10.3 |
+| Architectures | i386, x86_64 |
+| Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nameof
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nameof")
+```
+
+
 ### nanobench (msys)
 
 
