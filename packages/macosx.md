@@ -1660,6 +1660,30 @@ add_requires("chromium_zlib")
 ```
 
 
+### cinatra (macosx)
+
+
+| Description | *modern c++(c++20), cross-platform, header-only, easy to use http framework* |
+| -- | -- |
+| Homepage | [https://github.com/qicosmos/cinatra](https://github.com/qicosmos/cinatra) |
+| License | MIT |
+| Versions | 0.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [cinatra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cinatra/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cinatra
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cinatra")
+```
+
+
 ### civetweb (macosx)
 
 
