@@ -9592,7 +9592,7 @@ add_requires("libxinerama")
 | Description | *The c/c++ bindings of the xmake core engine* |
 | -- | -- |
 | Homepage | [https://xmake.io](https://xmake.io) |
-| Versions | v2.5.9, v2.7.1 |
+| Versions | v2.7.9 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmake/xmake.lua) |
 
