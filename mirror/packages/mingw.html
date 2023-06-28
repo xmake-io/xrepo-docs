@@ -7617,6 +7617,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("mikktspace")
 </code></pre>
+<h3 id="mimallocmingw">mimalloc (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>mimalloc (pronounced &#39;me-malloc&#39;) is a general purpose allocator with excellent performance characteristics.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/microsoft/mimalloc">https://github.com/microsoft/mimalloc</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.7.6, 1.7.7, 2.0.1, 2.0.2, 2.0.3, 2.0.5, 2.0.6, 2.0.7, 2.1.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua">mimalloc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] mimalloc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("mimalloc")
+</code></pre>
 <h3 id="minhookmingw">minhook (mingw)</h3>
 <table>
 <thead>
