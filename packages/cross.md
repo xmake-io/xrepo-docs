@@ -3991,7 +3991,7 @@ add_requires("miniz")
 | -- | -- |
 | Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
 | License | zlib |
-| Versions | v1.2.10, v1.2.11, v1.2.12 |
+| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
 
