@@ -14105,6 +14105,29 @@ add_requires("opencc")
 ```
 
 
+### opencl (linux)
+
+
+| Description | *OpenCL is an open, royalty-free industry standard that makes much faster computations possible through parallel computing.* |
+| -- | -- |
+| Homepage | [https://opencl.org/](https://opencl.org/) |
+| Versions | v2023.04.17 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [opencl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opencl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl")
+```
+
+
 ### opencl-clhpp (linux)
 
 

@@ -11292,6 +11292,29 @@ add_requires("opencc")
 ```
 
 
+### opencl (windows)
+
+
+| Description | *OpenCL is an open, royalty-free industry standard that makes much faster computations possible through parallel computing.* |
+| -- | -- |
+| Homepage | [https://opencl.org/](https://opencl.org/) |
+| Versions | v2023.04.17 |
+| Architectures | x64, x86 |
+| Definition | [opencl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opencl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencl")
+```
+
+
 ### opencl-clhpp (windows)
 
 
