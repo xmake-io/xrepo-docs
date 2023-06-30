@@ -569,6 +569,30 @@ add_requires("bullet3")
 ```
 
 
+### bvh (android)
+
+
+| Description | *A modern C++ BVH construction and traversal library* |
+| -- | -- |
+| Homepage | [https://github.com/madmann91/bvh](https://github.com/madmann91/bvh) |
+| License | MIT |
+| Versions | 2023.6.30 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [bvh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bvh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] bvh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bvh")
+```
+
+
 ### bzip2 (android)
 
 

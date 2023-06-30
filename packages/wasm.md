@@ -451,6 +451,30 @@ add_requires("bullet3")
 ```
 
 
+### bvh (wasm)
+
+
+| Description | *A modern C++ BVH construction and traversal library* |
+| -- | -- |
+| Homepage | [https://github.com/madmann91/bvh](https://github.com/madmann91/bvh) |
+| License | MIT |
+| Versions | 2023.6.30 |
+| Architectures | wasm32 |
+| Definition | [bvh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bvh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm bvh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bvh")
+```
+
+
 ### bzip2 (wasm)
 
 

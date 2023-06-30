@@ -1025,6 +1025,30 @@ add_requires("bullet3")
 ```
 
 
+### bvh (windows)
+
+
+| Description | *A modern C++ BVH construction and traversal library* |
+| -- | -- |
+| Homepage | [https://github.com/madmann91/bvh](https://github.com/madmann91/bvh) |
+| License | MIT |
+| Versions | 2023.6.30 |
+| Architectures | arm64, x64, x86 |
+| Definition | [bvh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bvh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bvh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bvh")
+```
+
+
 ### bzip2 (windows)
 
 

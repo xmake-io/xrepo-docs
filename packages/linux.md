@@ -1331,6 +1331,30 @@ add_requires("bullet3")
 ```
 
 
+### bvh (linux)
+
+
+| Description | *A modern C++ BVH construction and traversal library* |
+| -- | -- |
+| Homepage | [https://github.com/madmann91/bvh](https://github.com/madmann91/bvh) |
+| License | MIT |
+| Versions | 2023.6.30 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [bvh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bvh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bvh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bvh")
+```
+
+
 ### bzip2 (linux)
 
 
