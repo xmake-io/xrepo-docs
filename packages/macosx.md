@@ -18780,7 +18780,7 @@ add_requires("wxwidgets")
 | Description | *A free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format.* |
 | -- | -- |
 | Homepage | [https://www.videolan.org/developers/x264.html](https://www.videolan.org/developers/x264.html) |
-| Versions | v2018.09.25, v2021.09.29 |
+| Versions | v2018.09.25, v2021.09.29, v2023.04.04 |
 | Architectures | arm64, x86_64 |
 | Definition | [x264/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x264/xmake.lua) |
 
@@ -18804,7 +18804,7 @@ add_requires("x264")
 | -- | -- |
 | Homepage | [http://x265.org](http://x265.org) |
 | License | GPL-2.0 |
-| Versions | 3.4 |
+| Versions | 3.2, 3.2.1, 3.3, 3.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [x265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x265/xmake.lua) |
 

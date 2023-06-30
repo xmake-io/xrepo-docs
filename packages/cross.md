@@ -7084,7 +7084,7 @@ add_requires("webui")
 | -- | -- |
 | Homepage | [http://x265.org](http://x265.org) |
 | License | GPL-2.0 |
-| Versions | 3.4 |
+| Versions | 3.2, 3.2.1, 3.3, 3.4 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [x265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x265/xmake.lua) |
 
