@@ -414,7 +414,7 @@ add_requires("autoconf")
 | -- | -- |
 | Homepage | [https://autodiff.github.io](https://autodiff.github.io) |
 | License | MIT |
-| Versions | 1.0.3 |
+| Versions | v1.0.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [autodiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autodiff/xmake.lua) |
 
