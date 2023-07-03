@@ -453,6 +453,30 @@ add_requires("autoconf")
 ```
 
 
+### autodiff (macosx)
+
+
+| Description | *automatic differentiation made easier for C++* |
+| -- | -- |
+| Homepage | [https://autodiff.github.io](https://autodiff.github.io) |
+| License | MIT |
+| Versions | 1.0.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [autodiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autodiff/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install autodiff
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("autodiff")
+```
+
+
 ### automake (macosx)
 
 

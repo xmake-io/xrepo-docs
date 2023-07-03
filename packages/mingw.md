@@ -214,6 +214,30 @@ add_requires("autoconf")
 ```
 
 
+### autodiff (mingw)
+
+
+| Description | *automatic differentiation made easier for C++* |
+| -- | -- |
+| Homepage | [https://autodiff.github.io](https://autodiff.github.io) |
+| License | MIT |
+| Versions | 1.0.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [autodiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autodiff/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] autodiff
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("autodiff")
+```
+
+
 ### automake (mingw)
 
 
