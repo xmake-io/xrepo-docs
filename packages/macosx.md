@@ -1827,6 +1827,30 @@ add_requires("clara")
 ```
 
 
+### clblast (macosx)
+
+
+| Description | *Tuned OpenCL BLAS * |
+| -- | -- |
+| Homepage | [https://github.com/CNugteren/CLBlast](https://github.com/CNugteren/CLBlast) |
+| License | Apache-2.0 |
+| Versions | 1.6.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [clblast/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clblast/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clblast
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clblast")
+```
+
+
 ### clhep (macosx)
 
 

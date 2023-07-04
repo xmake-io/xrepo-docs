@@ -1689,6 +1689,30 @@ add_requires("clara")
 ```
 
 
+### clblast (windows)
+
+
+| Description | *Tuned OpenCL BLAS * |
+| -- | -- |
+| Homepage | [https://github.com/CNugteren/CLBlast](https://github.com/CNugteren/CLBlast) |
+| License | Apache-2.0 |
+| Versions | 1.6.0 |
+| Architectures | x64, x86 |
+| Definition | [clblast/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clblast/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clblast
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clblast")
+```
+
+
 ### clhep (windows)
 
 
