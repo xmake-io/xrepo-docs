@@ -12539,6 +12539,30 @@ add_requires("mongo-cxx-driver")
 ```
 
 
+### mongoose (linux)
+
+
+| Description | *Embedded Web Server* |
+| -- | -- |
+| Homepage | [https://mongoose.ws](https://mongoose.ws) |
+| License | GPL-2.0 |
+| Versions | 7.11 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mongoose
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mongoose")
+```
+
+
 ### mono (linux)
 
 

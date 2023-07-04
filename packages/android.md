@@ -5027,6 +5027,30 @@ add_requires("mnn")
 ```
 
 
+### mongoose (android)
+
+
+| Description | *Embedded Web Server* |
+| -- | -- |
+| Homepage | [https://mongoose.ws](https://mongoose.ws) |
+| License | GPL-2.0 |
+| Versions | 7.11 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mongoose
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mongoose")
+```
+
+
 ### moonjit (android)
 
 

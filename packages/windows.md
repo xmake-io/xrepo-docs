@@ -9986,6 +9986,30 @@ add_requires("mongo-cxx-driver")
 ```
 
 
+### mongoose (windows)
+
+
+| Description | *Embedded Web Server* |
+| -- | -- |
+| Homepage | [https://mongoose.ws](https://mongoose.ws) |
+| License | GPL-2.0 |
+| Versions | 7.11 |
+| Architectures | arm64, x64, x86 |
+| Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mongoose
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mongoose")
+```
+
+
 ### moonjit (windows)
 
 

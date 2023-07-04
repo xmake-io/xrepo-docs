@@ -4080,6 +4080,30 @@ add_requires("mma")
 ```
 
 
+### mongoose (cross)
+
+
+| Description | *Embedded Web Server* |
+| -- | -- |
+| Homepage | [https://mongoose.ws](https://mongoose.ws) |
+| License | GPL-2.0 |
+| Versions | 7.11 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mongoose
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mongoose")
+```
+
+
 ### mpmcqueue (cross)
 
 
