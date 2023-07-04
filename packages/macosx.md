@@ -3514,6 +3514,30 @@ add_requires("embree")
 ```
 
 
+### emscripten (macosx)
+
+
+| Description | *Emscripten: An LLVM-to-WebAssembly Compiler.* |
+| -- | -- |
+| Homepage | [https://emscripten.org/](https://emscripten.org/) |
+| License | MIT |
+| Versions | 3.1.42 |
+| Architectures | arm64, x86_64 |
+| Definition | [emscripten/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emscripten/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install emscripten
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("emscripten")
+```
+
+
 ### enet (macosx)
 
 
