@@ -2495,7 +2495,7 @@ add_requires("cppfront")
 | -- | -- |
 | Homepage | [http://www.zeromq.org/](http://www.zeromq.org/) |
 | License | MIT |
-| Versions | v4.10.0, v4.8.1 |
+| Versions | v4.10.0, v4.8.1, v4.9.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppzmq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppzmq/xmake.lua) |
 

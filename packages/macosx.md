@@ -2258,7 +2258,7 @@ add_requires("cpp-peglib")
 | -- | -- |
 | Homepage | [http://www.zeromq.org/](http://www.zeromq.org/) |
 | License | MIT |
-| Versions | v4.10.0, v4.8.1 |
+| Versions | v4.10.0, v4.8.1, v4.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cppzmq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppzmq/xmake.lua) |
 
