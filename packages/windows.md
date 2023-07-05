@@ -3260,7 +3260,7 @@ add_requires("drogon")
 | -- | -- |
 | Homepage | [https://www.nuget.org/packages/Microsoft.DXSDK.D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) |
 | License | Microsoft |
-| Versions |  |
+| Versions | 9.29.9528 |
 | Architectures | x64, x86 |
 | Definition | [dxsdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dxsdk/xmake.lua) |
 
