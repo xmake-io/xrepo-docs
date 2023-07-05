@@ -8585,7 +8585,7 @@ add_requires("libsais")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0 |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -15935,7 +15935,7 @@ add_requires("sentencepiece")
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.15, 0.4.4, 0.5.0, 0.6.3, 0.6.4 |
+| Versions | 0.4.15, 0.4.4, 0.5.0, 0.6.3, 0.6.4, 0.6.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
