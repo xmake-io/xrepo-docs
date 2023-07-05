@@ -3253,6 +3253,30 @@ add_requires("drogon")
 ```
 
 
+### dxsdk (windows)
+
+
+| Description | *This package contains the headers, import libraries, and runtime DLLs for the deprecated D3DX9, D3DX10, and D3DX11 utilities libraries* |
+| -- | -- |
+| Homepage | [https://www.nuget.org/packages/Microsoft.DXSDK.D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) |
+| License | Microsoft |
+| Versions |  |
+| Architectures | x64, x86 |
+| Definition | [dxsdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dxsdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dxsdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dxsdk")
+```
+
+
 ### dynareadout (windows)
 
 
