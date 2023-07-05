@@ -13136,30 +13136,6 @@ add_requires("qt5gui")
 ```
 
 
-### qt5lib (windows)
-
-
-| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
-| -- | -- |
-| Homepage | [https://www.qt.io](https://www.qt.io) |
-| License | LGPL-3 |
-| Versions | 5.12.5, 5.15.2 |
-| Architectures | x64, x86 |
-| Definition | [qt5lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5lib/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install qt5lib
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("qt5lib")
-```
-
-
 ### qt5network (windows)
 
 
