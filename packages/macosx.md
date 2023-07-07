@@ -13995,7 +13995,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, 4.5.6 |
+| Versions | 4.1, 4.5.6, 4.5.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -14159,7 +14159,7 @@ add_requires("pkg-config")
 | Description | *A program which helps to configure compiler and linker flags for development frameworks.* |
 | -- | -- |
 | Homepage | [http://pkgconf.org](http://pkgconf.org) |
-| Versions | 1.7.4, 1.8.0, 1.9.3 |
+| Versions | 1.7.4, 1.8.0, 1.9.3, 1.9.4, 1.9.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
 
