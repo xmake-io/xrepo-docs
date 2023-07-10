@@ -17535,6 +17535,30 @@ add_requires("snmalloc")
 ```
 
 
+### sockpp (linux)
+
+
+| Description | *Modern C++ socket library* |
+| -- | -- |
+| Homepage | [https://github.com/fpagliughi/sockpp](https://github.com/fpagliughi/sockpp) |
+| License | BSD-3-Clause |
+| Versions | v0.8.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [sockpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sockpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sockpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sockpp")
+```
+
+
 ### sokol (linux)
 
 

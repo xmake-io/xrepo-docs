@@ -5462,6 +5462,30 @@ add_requires("snitch")
 ```
 
 
+### sockpp (wasm)
+
+
+| Description | *Modern C++ socket library* |
+| -- | -- |
+| Homepage | [https://github.com/fpagliughi/sockpp](https://github.com/fpagliughi/sockpp) |
+| License | BSD-3-Clause |
+| Versions | v0.8.1 |
+| Architectures | wasm32 |
+| Definition | [sockpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sockpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm sockpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sockpp")
+```
+
+
 ### sokol (wasm)
 
 

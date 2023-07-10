@@ -7778,6 +7778,30 @@ add_requires("snitch")
 ```
 
 
+### sockpp (mingw)
+
+
+| Description | *Modern C++ socket library* |
+| -- | -- |
+| Homepage | [https://github.com/fpagliughi/sockpp](https://github.com/fpagliughi/sockpp) |
+| License | BSD-3-Clause |
+| Versions | v0.8.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [sockpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sockpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] sockpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sockpp")
+```
+
+
 ### sokol (mingw)
 
 
