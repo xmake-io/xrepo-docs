@@ -14530,6 +14530,30 @@ add_requires("prvhash")
 ```
 
 
+### psimd (macosx)
+
+
+| Description | *Portable 128-bit SIMD intrinsics* |
+| -- | -- |
+| Homepage | [https://github.com/Maratyszcza/psimd](https://github.com/Maratyszcza/psimd) |
+| License | MIT |
+| Versions | 2020.5.17 |
+| Architectures | arm64, x86_64 |
+| Definition | [psimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/psimd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install psimd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("psimd")
+```
+
+
 ### ptex (macosx)
 
 
