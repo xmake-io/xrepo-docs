@@ -6,7 +6,7 @@
 | -- | -- |
 | Homepage | [https://www.7-zip.org/](https://www.7-zip.org/) |
 | Versions | 21.02 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [7z/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/7/7z/xmake.lua) |
 
 ##### Install command
@@ -32,7 +32,7 @@ add_requires("7z")
 | Homepage | [https://abseil.io](https://abseil.io) |
 | License | Apache-2.0 |
 | Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
 ##### Install command
@@ -56,7 +56,7 @@ add_requires("abseil")
 | Homepage | [http://savannah.nongnu.org/projects/acl/](http://savannah.nongnu.org/projects/acl/) |
 | License | GPL-2.0 |
 | Versions | 2.3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [acl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/acl/xmake.lua) |
 
 ##### Install command
@@ -80,7 +80,7 @@ add_requires("acl")
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
 | Versions | 2.3.1, 2.4.0, 2.4.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
 ##### Install command
@@ -104,7 +104,7 @@ add_requires("ada")
 | Homepage | [https://github.com/ddemidov/amgcl/](https://github.com/ddemidov/amgcl/) |
 | License | MIT |
 | Versions | 1.4.0, 1.4.2, 1.4.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [amgcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua) |
 
 ##### Install command
@@ -128,7 +128,7 @@ add_requires("amgcl")
 | Homepage | [http://angelcode.com/angelscript/](http://angelcode.com/angelscript/) |
 | License | zlib |
 | Versions | 2.34.0, 2.35.0, 2.35.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [angelscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/angelscript/xmake.lua) |
 
 ##### Install command
@@ -152,7 +152,7 @@ add_requires("angelscript")
 | Homepage | [https://github.com/apache/apr](https://github.com/apache/apr) |
 | License | Apache-2.0 |
 | Versions | 1.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [apr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/apr/xmake.lua) |
 
 ##### Install command
@@ -176,7 +176,7 @@ add_requires("apr")
 | Homepage | [https://github.com/miurahr/aqtinstall](https://github.com/miurahr/aqtinstall) |
 | License | MIT |
 | Versions |  |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aqt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aqt/xmake.lua) |
 
 ##### Install command
@@ -200,7 +200,7 @@ add_requires("aqt")
 | Homepage | [https://github.com/adishavit/argh](https://github.com/adishavit/argh) |
 | License | BSD-3-Clause |
 | Versions | v1.3.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [argh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argh/xmake.lua) |
 
 ##### Install command
@@ -224,7 +224,7 @@ add_requires("argh")
 | Homepage | [https://github.com/p-ranav/argparse](https://github.com/p-ranav/argparse) |
 | License | MIT |
 | Versions | 2.6, 2.7, 2.8, 2.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [argparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argparse/xmake.lua) |
 
 ##### Install command
@@ -248,7 +248,7 @@ add_requires("argparse")
 | Homepage | [http://arma.sourceforge.net/](http://arma.sourceforge.net/) |
 | License | Apache-2.0 |
 | Versions | 10.7.0, 10.7.3, 10.8.1, 11.2.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [armadillo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/armadillo/xmake.lua) |
 
 ##### Install command
@@ -272,7 +272,7 @@ add_requires("armadillo")
 | Homepage | [https://arrow.apache.org/](https://arrow.apache.org/) |
 | License | Apache-2.0 |
 | Versions | 7.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [arrow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arrow/xmake.lua) |
 
 ##### Install command
@@ -296,7 +296,7 @@ add_requires("arrow")
 | Homepage | [https://github.com/aseprite/tga](https://github.com/aseprite/tga) |
 | License | MIT |
 | Versions | 2023.6.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aseprite-tga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aseprite-tga/xmake.lua) |
 
 ##### Install command
@@ -320,7 +320,7 @@ add_requires("aseprite-tga")
 | Homepage | [http://think-async.com/Asio/](http://think-async.com/Asio/) |
 | License | BSL-1.0 |
 | Versions | 1.20.0, 1.21.0, 1.24.0, 1.28.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [asio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio/xmake.lua) |
 
 ##### Install command
@@ -344,7 +344,7 @@ add_requires("asio")
 | Homepage | [https://asmjit.com/](https://asmjit.com/) |
 | License | zlib |
 | Versions | 2021.06.27, 2022.01.18 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
 
 ##### Install command
@@ -368,7 +368,7 @@ add_requires("asmjit")
 | Homepage | [https://github.com/asmjit/asmtk](https://github.com/asmjit/asmtk) |
 | License | zlib |
 | Versions | 2023.6.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [asmtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmtk/xmake.lua) |
 
 ##### Install command
@@ -391,7 +391,7 @@ add_requires("asmtk")
 | -- | -- |
 | Homepage | [http://lionet.info/asn1c/](http://lionet.info/asn1c/) |
 | Versions | v0.9.28 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [asn1c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asn1c/xmake.lua) |
 
 ##### Install command
@@ -415,7 +415,7 @@ add_requires("asn1c")
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
 | Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
 ##### Install command
@@ -439,7 +439,7 @@ add_requires("assimp")
 | Homepage | [https://github.com/alibaba/async_simple](https://github.com/alibaba/async_simple) |
 | License | Apache-2.0 |
 | Versions | 1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [async_simple/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/async_simple/xmake.lua) |
 
 ##### Install command
@@ -463,7 +463,7 @@ add_requires("async_simple")
 | Homepage | [https://gitlab.gnome.org/GNOME/atk](https://gitlab.gnome.org/GNOME/atk) |
 | License | LGPL-2.0 |
 | Versions | 2.36.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [atk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atk/xmake.lua) |
 
 ##### Install command
@@ -487,7 +487,7 @@ add_requires("atk")
 | Homepage | [https://savannah.nongnu.org/projects/attr](https://savannah.nongnu.org/projects/attr) |
 | License | GPL-2.0 |
 | Versions | 2.5.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [attr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/attr/xmake.lua) |
 
 ##### Install command
@@ -510,7 +510,7 @@ add_requires("attr")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
 | Versions | 2.68, 2.69, 2.71 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
 ##### Install command
@@ -534,7 +534,7 @@ add_requires("autoconf")
 | Homepage | [https://autodiff.github.io](https://autodiff.github.io) |
 | License | MIT |
 | Versions | v1.0.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [autodiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autodiff/xmake.lua) |
 
 ##### Install command
@@ -557,7 +557,7 @@ add_requires("autodiff")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
 | Versions | 1.15.1, 1.16.1, 1.16.4, 1.9.5, 1.9.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
 ##### Install command
@@ -581,7 +581,7 @@ add_requires("automake")
 | Homepage | [https://github.com/avaneev/avir](https://github.com/avaneev/avir) |
 | License | MIT |
 | Versions | 3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [avir/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/avir/xmake.lua) |
 
 ##### Install command
@@ -604,7 +604,7 @@ add_requires("avir")
 | -- | -- |
 | Homepage | [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk) |
 | Versions | 2021.12.26 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [awk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/awk/xmake.lua) |
 
 ##### Install command
@@ -628,7 +628,7 @@ add_requires("awk")
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
 | Versions | v0.6.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
 ##### Install command
@@ -652,7 +652,7 @@ add_requires("aws-c-common")
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
 | Versions | v0.1.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
 ##### Install command
@@ -675,7 +675,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
 | Versions | 1.9.362 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
 ##### Install command
@@ -701,7 +701,7 @@ add_requires("aws-sdk-cpp")
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
 | Versions | 4.9.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
 ##### Install command
@@ -725,7 +725,7 @@ add_requires("b2")
 | Homepage | [https://github.com/bombela/backward-cpp](https://github.com/bombela/backward-cpp) |
 | License | MIT |
 | Versions | v1.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [backward-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/backward-cpp/xmake.lua) |
 
 ##### Install command
@@ -749,7 +749,7 @@ add_requires("backward-cpp")
 | Homepage | [https://github.com/azawadzki/base-n](https://github.com/azawadzki/base-n) |
 | License | MIT |
 | Versions | 2020.05.28 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [base-n/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base-n/xmake.lua) |
 
 ##### Install command
@@ -772,7 +772,7 @@ add_requires("base-n")
 | -- | -- |
 | Homepage | [https://bazel.build/](https://bazel.build/) |
 | Versions | 5.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bazel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bazel/xmake.lua) |
 
 ##### Install command
@@ -796,7 +796,7 @@ add_requires("bazel")
 | Homepage | [https://www.gnu.org/software/bc/](https://www.gnu.org/software/bc/) |
 | License | GPL-3.0-or-later |
 | Versions | 1.07.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bc/xmake.lua) |
 
 ##### Install command
@@ -820,7 +820,7 @@ add_requires("bc")
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
 | License | Apache-2.0 |
 | Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
 ##### Install command
@@ -844,7 +844,7 @@ add_requires("benchmark")
 | Homepage | [http://aantron.github.io/better-enums](http://aantron.github.io/better-enums) |
 | License | BSD-2-Clause |
 | Versions | 0.11.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [better-enums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/better-enums/xmake.lua) |
 
 ##### Install command
@@ -868,7 +868,7 @@ add_requires("better-enums")
 | Homepage | [https://bkaradzic.github.io/bgfx/](https://bkaradzic.github.io/bgfx/) |
 | License | BSD-2-Clause |
 | Versions | 7816, 8203 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bgfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bgfx/xmake.lua) |
 
 ##### Install command
@@ -891,7 +891,7 @@ add_requires("bgfx")
 | -- | -- |
 | Homepage | [https://github.com/gwilymk/bin2c](https://github.com/gwilymk/bin2c) |
 | Versions | 0.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bin2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bin2c/xmake.lua) |
 
 ##### Install command
@@ -915,7 +915,7 @@ add_requires("bin2c")
 | Homepage | [https://www.gnu.org/software/binutils/binutils.html](https://www.gnu.org/software/binutils/binutils.html) |
 | License | GPL-2.0 |
 | Versions | 2.34, 2.38 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [binutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/binutils/xmake.lua) |
 
 ##### Install command
@@ -939,7 +939,7 @@ add_requires("binutils")
 | Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
 | License | GPL-3.0 |
 | Versions | 3.7.4, 3.7.6, 3.8.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
 
 ##### Install command
@@ -963,7 +963,7 @@ add_requires("bison")
 | Homepage | [https://github.com/NoelFB/blah](https://github.com/NoelFB/blah) |
 | License | MIT |
 | Versions | 2023.01.03 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [blah/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blah/xmake.lua) |
 
 ##### Install command
@@ -987,7 +987,7 @@ add_requires("blah")
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
 | Versions | 1.3.1, 1.3.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
 ##### Install command
@@ -1011,7 +1011,7 @@ add_requires("blake3")
 | Homepage | [https://bitbucket.org/blaze-lib/blaze/](https://bitbucket.org/blaze-lib/blaze/) |
 | License | BSD-3-Clause |
 | Versions | 3.8, 3.8.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [blaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blaze/xmake.lua) |
 
 ##### Install command
@@ -1035,7 +1035,7 @@ add_requires("blaze")
 | Homepage | [https://blend2d.com](https://blend2d.com) |
 | License | zlib |
 | Versions | 2022.05.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [blend2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blend2d/xmake.lua) |
 
 ##### Install command
@@ -1059,7 +1059,7 @@ add_requires("blend2d")
 | Homepage | [https://github.com/blitzpp/blitz](https://github.com/blitzpp/blitz) |
 | License | LGPL-3.0 |
 | Versions | 1.0.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [blitz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blitz/xmake.lua) |
 
 ##### Install command
@@ -1083,7 +1083,7 @@ add_requires("blitz")
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
 | License | BSD-3-Clause |
 | Versions | v1.20.1, v1.21.1, v1.21.4, v1.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 
 ##### Install command
@@ -1107,7 +1107,7 @@ add_requires("blosc")
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
 | License | BSL-1.0 |
 | Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
 ##### Install command
@@ -1131,7 +1131,7 @@ add_requires("boost")
 | Homepage | [https://boost-ext.github.io/ut/](https://boost-ext.github.io/ut/) |
 | License | BSL-1.0 |
 | Versions | v1.1.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [boost_ut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_ut/xmake.lua) |
 
 ##### Install command
@@ -1154,7 +1154,7 @@ add_requires("boost_ut")
 | -- | -- |
 | Homepage | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
 | Versions | 2021.12.29 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [boringssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boringssl/xmake.lua) |
 
 ##### Install command
@@ -1177,7 +1177,7 @@ add_requires("boringssl")
 | -- | -- |
 | Homepage | [https://box2d.org](https://box2d.org) |
 | Versions | 2.4.0, 2.4.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [box2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box2d/xmake.lua) |
 
 ##### Install command
@@ -1200,7 +1200,7 @@ add_requires("box2d")
 | -- | -- |
 | Homepage | [https://github.com/skeeto/branchless-utf8](https://github.com/skeeto/branchless-utf8) |
 | Versions | 2022.08.30 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [branchless-utf8/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/branchless-utf8/xmake.lua) |
 
 ##### Install command
@@ -1223,7 +1223,7 @@ add_requires("branchless-utf8")
 | -- | -- |
 | Homepage | [https://github.com/google/brotli](https://github.com/google/brotli) |
 | Versions | 1.0.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [brotli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brotli/xmake.lua) |
 
 ##### Install command
@@ -1246,7 +1246,7 @@ add_requires("brotli")
 | -- | -- |
 | Homepage | [https://github.com/apache/incubator-brpc](https://github.com/apache/incubator-brpc) |
 | Versions | 1.3.0, 1.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [brpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brpc/xmake.lua) |
 
 ##### Install command
@@ -1269,7 +1269,7 @@ add_requires("brpc")
 | -- | -- |
 | Homepage | [https://github.com/IronsDu/brynet](https://github.com/IronsDu/brynet) |
 | Versions | 1.0.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [brynet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brynet/xmake.lua) |
 
 ##### Install command
@@ -1292,7 +1292,7 @@ add_requires("brynet")
 | -- | -- |
 | Homepage | [https://android.googlesource.com/platform/external/bsdiff/](https://android.googlesource.com/platform/external/bsdiff/) |
 | Versions | 2021.11.16 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bsdiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bsdiff/xmake.lua) |
 
 ##### Install command
@@ -1315,7 +1315,7 @@ add_requires("bsdiff")
 | -- | -- |
 | Homepage | [https://github.com/xmake-mirror/Buddy](https://github.com/xmake-mirror/Buddy) |
 | Versions | 2.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [buddy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/buddy/xmake.lua) |
 
 ##### Install command
@@ -1339,7 +1339,7 @@ add_requires("buddy")
 | Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
 | License | zlib |
 | Versions | 2.88, 3.05, 3.09, 3.24, 3.25 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
 
 ##### Install command
@@ -1363,7 +1363,7 @@ add_requires("bullet3")
 | Homepage | [https://github.com/madmann91/bvh](https://github.com/madmann91/bvh) |
 | License | MIT |
 | Versions | 2023.6.30 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bvh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bvh/xmake.lua) |
 
 ##### Install command
@@ -1386,7 +1386,7 @@ add_requires("bvh")
 | -- | -- |
 | Homepage | [https://sourceware.org/bzip2/](https://sourceware.org/bzip2/) |
 | Versions | 1.0.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bzip2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip2/xmake.lua) |
 
 ##### Install command
@@ -1411,7 +1411,7 @@ add_requires("bzip2")
 | -- | -- |
 | Homepage | [https://c-ares.org/](https://c-ares.org/) |
 | Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
 
 ##### Install command
@@ -1434,7 +1434,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://mkcert.org/](https://mkcert.org/) |
 | Versions | 20211118, 20220604, 20230306 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ca-certificates/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua) |
 
 ##### Install command
@@ -1457,7 +1457,7 @@ add_requires("ca-certificates")
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
 | Versions | 1.17.6, 1.17.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cairo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairo/xmake.lua) |
 
 ##### Install command
@@ -1481,7 +1481,7 @@ add_requires("cairo")
 | Homepage | [https://github.com/capnproto/capnproto](https://github.com/capnproto/capnproto) |
 | License | MIT |
 | Versions | 0.7.0, 0.8.0, 0.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [capnproto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capnproto/xmake.lua) |
 
 ##### Install command
@@ -1504,7 +1504,7 @@ add_requires("capnproto")
 | -- | -- |
 | Homepage | [http://www.capstone-engine.org](http://www.capstone-engine.org) |
 | Versions | 4.0.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [capstone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capstone/xmake.lua) |
 
 ##### Install command
@@ -1528,7 +1528,7 @@ add_requires("capstone")
 | Homepage | [https://likle.github.io/cargs/](https://likle.github.io/cargs/) |
 | License | MIT |
 | Versions | v1.0.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cargs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cargs/xmake.lua) |
 
 ##### Install command
@@ -1552,7 +1552,7 @@ add_requires("cargs")
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
 | Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
 ##### Install command
@@ -1575,7 +1575,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://github.com/R4stl1n/cAudio](https://github.com/R4stl1n/cAudio) |
 | Versions | 2.3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [caudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/caudio/xmake.lua) |
 
 ##### Install command
@@ -1599,7 +1599,7 @@ add_requires("caudio")
 | Homepage | [https://github.com/DigitalInBlue/Celero](https://github.com/DigitalInBlue/Celero) |
 | License | Apache-2.0 |
 | Versions | v2.8.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [celero/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/celero/xmake.lua) |
 
 ##### Install command
@@ -1623,7 +1623,7 @@ add_requires("celero")
 | Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
 | License | BSD-3-Clause |
 | Versions | 1.3.0, 1.3.1, 1.3.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
 
 ##### Install command
@@ -1646,7 +1646,7 @@ add_requires("cereal")
 | -- | -- |
 | Homepage | [http://ceres-solver.org/](http://ceres-solver.org/) |
 | Versions | 2.0.0, 2.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ceres-solver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceres-solver/xmake.lua) |
 
 ##### Install command
@@ -1670,7 +1670,7 @@ add_requires("ceres-solver")
 | Homepage | [https://github.com/erstan/ceval](https://github.com/erstan/ceval) |
 | License | MIT |
 | Versions | 1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ceval/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceval/xmake.lua) |
 
 ##### Install command
@@ -1693,7 +1693,7 @@ add_requires("ceval")
 | -- | -- |
 | Homepage | [https://heasarc.gsfc.nasa.gov/fitsio/](https://heasarc.gsfc.nasa.gov/fitsio/) |
 | Versions | 4.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cfitsio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cfitsio/xmake.lua) |
 
 ##### Install command
@@ -1717,7 +1717,7 @@ add_requires("cfitsio")
 | Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
 | License | LGPL-3.0 |
 | Versions | 5.1.1, 5.2.1, 5.3, 5.4, 5.5.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
 
 ##### Install command
@@ -1740,7 +1740,7 @@ add_requires("cgal")
 | -- | -- |
 | Homepage | [https://github.com/xq114/cgetopt/](https://github.com/xq114/cgetopt/) |
 | Versions | 1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cgetopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgetopt/xmake.lua) |
 
 ##### Install command
@@ -1764,7 +1764,7 @@ add_requires("cgetopt")
 | Homepage | [https://github.com/recp/cglm](https://github.com/recp/cglm) |
 | License | MIT |
 | Versions | v0.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cglm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cglm/xmake.lua) |
 
 ##### Install command
@@ -1787,7 +1787,7 @@ add_requires("cglm")
 | -- | -- |
 | Homepage | [http://cgns.github.io/](http://cgns.github.io/) |
 | Versions | v4.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cgns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgns/xmake.lua) |
 
 ##### Install command
@@ -1811,7 +1811,7 @@ add_requires("cgns")
 | Homepage | [http://chaiscript.com](http://chaiscript.com) |
 | License | BSD-3-Clause |
 | Versions | v6.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [chaiscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chaiscript/xmake.lua) |
 
 ##### Install command
@@ -1835,7 +1835,7 @@ add_requires("chaiscript")
 | Homepage | [https://chipmunk-physics.net/](https://chipmunk-physics.net/) |
 | License | MIT |
 | Versions | 7.0.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [chipmunk2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chipmunk2d/xmake.lua) |
 
 ##### Install command
@@ -1859,7 +1859,7 @@ add_requires("chipmunk2d")
 | Homepage | [https://chromium.googlesource.com/chromium/src/third_party/zlib/](https://chromium.googlesource.com/chromium/src/third_party/zlib/) |
 | License | zlib |
 | Versions | 2022.02.22, 2023.03.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [chromium_zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chromium_zlib/xmake.lua) |
 
 ##### Install command
@@ -1883,7 +1883,7 @@ add_requires("chromium_zlib")
 | Homepage | [https://github.com/qicosmos/cinatra](https://github.com/qicosmos/cinatra) |
 | License | MIT |
 | Versions | 0.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cinatra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cinatra/xmake.lua) |
 
 ##### Install command
@@ -1907,7 +1907,7 @@ add_requires("cinatra")
 | Homepage | [https://github.com/civetweb/civetweb](https://github.com/civetweb/civetweb) |
 | License | MIT |
 | Versions | v1.15 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [civetweb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/civetweb/xmake.lua) |
 
 ##### Install command
@@ -1931,7 +1931,7 @@ add_requires("civetweb")
 | Homepage | [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) |
 | License | MIT |
 | Versions | 1.7.10, 1.7.14, 1.7.15 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cjson/xmake.lua) |
 
 ##### Install command
@@ -1954,7 +1954,7 @@ add_requires("cjson")
 | -- | -- |
 | Homepage | [http://concurrencykit.org/](http://concurrencykit.org/) |
 | Versions | 0.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ck/xmake.lua) |
 
 ##### Install command
@@ -1978,7 +1978,7 @@ add_requires("ck")
 | Homepage | [https://github.com/catchorg/Clara](https://github.com/catchorg/Clara) |
 | License | BSL-1.0 |
 | Versions | 1.1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [clara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clara/xmake.lua) |
 
 ##### Install command
@@ -2002,7 +2002,7 @@ add_requires("clara")
 | Homepage | [https://github.com/CNugteren/CLBlast](https://github.com/CNugteren/CLBlast) |
 | License | Apache-2.0 |
 | Versions | 1.6.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [clblast/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clblast/xmake.lua) |
 
 ##### Install command
@@ -2026,7 +2026,7 @@ add_requires("clblast")
 | Homepage | [https://proj-clhep.web.cern.ch/proj-clhep/](https://proj-clhep.web.cern.ch/proj-clhep/) |
 | License | LGPL-3.0 |
 | Versions | 2.4.5+1, 2.4.6+3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [clhep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clhep/xmake.lua) |
 
 ##### Install command
@@ -2049,7 +2049,7 @@ add_requires("clhep")
 | -- | -- |
 | Homepage | [https://github.com/daniele77/cli](https://github.com/daniele77/cli) |
 | Versions | v2.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli/xmake.lua) |
 
 ##### Install command
@@ -2073,7 +2073,7 @@ add_requires("cli")
 | Homepage | [https://github.com/CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) |
 | License | BSD |
 | Versions | v2.2.0, v2.3.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cli11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli11/xmake.lua) |
 
 ##### Install command
@@ -2097,7 +2097,7 @@ add_requires("cli11")
 | Homepage | [https://github.com/aheck/clib](https://github.com/aheck/clib) |
 | License | MIT |
 | Versions | 2022.12.25 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [clib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clib/xmake.lua) |
 
 ##### Install command
@@ -2121,7 +2121,7 @@ add_requires("clib")
 | Homepage | [https://github.com/dacap/clip](https://github.com/dacap/clip) |
 | License | MIT |
 | Versions | 1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [clip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clip/xmake.lua) |
 
 ##### Install command
@@ -2144,7 +2144,7 @@ add_requires("clip")
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
 | Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
 ##### Install command
@@ -2168,7 +2168,7 @@ add_requires("cmake")
 | Homepage | [https://github.com/tanakh/cmdline](https://github.com/tanakh/cmdline) |
 | License | BSD-3-Clause |
 | Versions | 2014.2.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cmdline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmdline/xmake.lua) |
 
 ##### Install command
@@ -2192,7 +2192,7 @@ add_requires("cmdline")
 | Homepage | [https://cmocka.org/](https://cmocka.org/) |
 | License | Apache-2.0 |
 | Versions | 1.1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cmocka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmocka/xmake.lua) |
 
 ##### Install command
@@ -2216,7 +2216,7 @@ add_requires("cmocka")
 | Homepage | [https://github.com/rogersce/cnpy](https://github.com/rogersce/cnpy) |
 | License | MIT |
 | Versions | 2018.06.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnpy/xmake.lua) |
 
 ##### Install command
@@ -2239,7 +2239,7 @@ add_requires("cnpy")
 | -- | -- |
 | Homepage | [https://github.com/rdiankov/collada-dom/](https://github.com/rdiankov/collada-dom/) |
 | Versions | v2.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [collada-dom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/collada-dom/xmake.lua) |
 
 ##### Install command
@@ -2262,7 +2262,7 @@ add_requires("collada-dom")
 | -- | -- |
 | Homepage | [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) |
 | Versions |  |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
 
 ##### Install command
@@ -2286,7 +2286,7 @@ add_requires("concurrentqueue")
 | Homepage | [https://github.com/ros/console_bridge](https://github.com/ros/console_bridge) |
 | License | BSD-3-Clause |
 | Versions | 1.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [console-bridge/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/console-bridge/xmake.lua) |
 
 ##### Install command
@@ -2309,7 +2309,7 @@ add_requires("console-bridge")
 | -- | -- |
 | Homepage | [https://home.unicode.org/](https://home.unicode.org/) |
 | Versions | v1.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [convertutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/convertutf/xmake.lua) |
 
 ##### Install command
@@ -2332,7 +2332,7 @@ add_requires("convertutf")
 | -- | -- |
 | Homepage | [https://github.com/idealvin/coost](https://github.com/idealvin/coost) |
 | Versions | v3.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [coost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coost/xmake.lua) |
 
 ##### Install command
@@ -2356,7 +2356,7 @@ add_requires("coost")
 | Homepage | [https://magnum.graphics/corrade/](https://magnum.graphics/corrade/) |
 | License | MIT |
 | Versions | v2020.06 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [corrade/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/corrade/xmake.lua) |
 
 ##### Install command
@@ -2379,7 +2379,7 @@ add_requires("corrade")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | Versions | 0.12.1, 0.12.6, 0.8.5, 0.9.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
 ##### Install command
@@ -2403,7 +2403,7 @@ add_requires("cpp-httplib")
 | Homepage | [https://github.com/mutouyun/cpp-ipc](https://github.com/mutouyun/cpp-ipc) |
 | License | MIT |
 | Versions | 1.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-ipc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-ipc/xmake.lua) |
 
 ##### Install command
@@ -2426,7 +2426,7 @@ add_requires("cpp-ipc")
 | -- | -- |
 | Homepage | [https://github.com/MarcDirven/cpp-lazy](https://github.com/MarcDirven/cpp-lazy) |
 | Versions | v7.0.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-lazy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-lazy/xmake.lua) |
 
 ##### Install command
@@ -2450,7 +2450,7 @@ add_requires("cpp-lazy")
 | Homepage | [https://yhirose.github.io/cpp-peglib](https://yhirose.github.io/cpp-peglib) |
 | License | MIT |
 | Versions | 1.8.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-peglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua) |
 
 ##### Install command
@@ -2473,7 +2473,7 @@ add_requires("cpp-peglib")
 | -- | -- |
 | Homepage | [https://github.com/foonathan/cppast](https://github.com/foonathan/cppast) |
 | Versions | 2023.02.07 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppast/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppast/xmake.lua) |
 
 ##### Install command
@@ -2496,7 +2496,7 @@ add_requires("cppast")
 | -- | -- |
 | Homepage | [https://github.com/hsutter/cppfront](https://github.com/hsutter/cppfront) |
 | Versions | 2022.09.23 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppfront/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppfront/xmake.lua) |
 
 ##### Install command
@@ -2520,7 +2520,7 @@ add_requires("cppfront")
 | Homepage | [http://www.zeromq.org/](http://www.zeromq.org/) |
 | License | MIT |
 | Versions | v4.10.0, v4.8.1, v4.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppzmq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppzmq/xmake.lua) |
 
 ##### Install command
@@ -2544,7 +2544,7 @@ add_requires("cppzmq")
 | Homepage | [https://docs.libcpr.org/](https://docs.libcpr.org/) |
 | License | MIT |
 | Versions | 1.10.2, 1.10.3, 1.6.2, 1.7.2, 1.8.3, 1.9.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpr/xmake.lua) |
 
 ##### Install command
@@ -2568,7 +2568,7 @@ add_requires("cpr")
 | Homepage | [https://github.com/google/cpu_features](https://github.com/google/cpu_features) |
 | License | Apache-2.0 |
 | Versions | v0.6.0, v0.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpu-features/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpu-features/xmake.lua) |
 
 ##### Install command
@@ -2592,7 +2592,7 @@ add_requires("cpu-features")
 | Homepage | [https://github.com/pytorch/cpuinfo](https://github.com/pytorch/cpuinfo) |
 | License | BSD 2-Clause |
 | Versions | 2022.09.15 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpuinfo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpuinfo/xmake.lua) |
 
 ##### Install command
@@ -2615,7 +2615,7 @@ add_requires("cpuinfo")
 | -- | -- |
 | Homepage | [https://github.com/google/crc32c](https://github.com/google/crc32c) |
 | Versions | 1.1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crc32c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crc32c/xmake.lua) |
 
 ##### Install command
@@ -2639,7 +2639,7 @@ add_requires("crc32c")
 | Homepage | [https://github.com/graeme-hill/crossguid](https://github.com/graeme-hill/crossguid) |
 | License | MIT |
 | Versions | 2019.3.29 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crossguid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crossguid/xmake.lua) |
 
 ##### Install command
@@ -2663,7 +2663,7 @@ add_requires("crossguid")
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
 | Versions | 2023.06.26 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
 ##### Install command
@@ -2686,7 +2686,7 @@ add_requires("crow")
 | -- | -- |
 | Homepage | [https://cryptopp.com/](https://cryptopp.com/) |
 | Versions | 8.4.0, 8.5.0, 8.6.0, 8.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cryptopp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cryptopp/xmake.lua) |
 
 ##### Install command
@@ -2709,7 +2709,7 @@ add_requires("cryptopp")
 | -- | -- |
 | Homepage | [https://naif.jpl.nasa.gov/naif/toolkit.html](https://naif.jpl.nasa.gov/naif/toolkit.html) |
 | Versions | v67 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cspice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cspice/xmake.lua) |
 
 ##### Install command
@@ -2733,7 +2733,7 @@ add_requires("cspice")
 | Homepage | [https://github.com/p-ranav/csv2](https://github.com/p-ranav/csv2) |
 | License | MIT |
 | Versions | v0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [csv2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csv2/xmake.lua) |
 
 ##### Install command
@@ -2756,7 +2756,7 @@ add_requires("csv2")
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
 | Versions | 2.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
 ##### Install command
@@ -2779,7 +2779,7 @@ add_requires("csvparser")
 | -- | -- |
 | Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
 | Versions | 3.4.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
 
 ##### Install command
@@ -2802,7 +2802,7 @@ add_requires("ctre")
 | -- | -- |
 | Homepage | [https://github.com/BinhaoQin/cuMem](https://github.com/BinhaoQin/cuMem) |
 | Versions | 1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cumem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cumem/xmake.lua) |
 
 ##### Install command
@@ -2826,7 +2826,7 @@ add_requires("cumem")
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
 | License | MIT |
 | Versions | v2.2.0, v3.0.0, v3.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
 ##### Install command
@@ -2849,7 +2849,7 @@ add_requires("cxxopts")
 | -- | -- |
 | Homepage | [https://www.cyrusimap.org/sasl/](https://www.cyrusimap.org/sasl/) |
 | Versions | 2.1.27 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cyrus-sasl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cyrus-sasl/xmake.lua) |
 
 ##### Install command
@@ -2875,7 +2875,7 @@ add_requires("cyrus-sasl")
 | Homepage | [https://dartsim.github.io/](https://dartsim.github.io/) |
 | License | BSD-2-Clause |
 | Versions | v6.13.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dartsim/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dartsim/xmake.lua) |
 
 ##### Install command
@@ -2899,7 +2899,7 @@ add_requires("dartsim")
 | Homepage | [https://github.com/hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) |
 | License | MIT |
 | Versions | 1.21.0, 1.22.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
 
 ##### Install command
@@ -2923,7 +2923,7 @@ add_requires("dataframe")
 | Homepage | [https://github.com/HowardHinnant/date](https://github.com/HowardHinnant/date) |
 | License | MIT |
 | Versions | v3.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [date/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/date/xmake.lua) |
 
 ##### Install command
@@ -2971,7 +2971,7 @@ add_requires("dav1d")
 | Homepage | [https://github.com/sharkdp/dbg-macro](https://github.com/sharkdp/dbg-macro) |
 | License | MIT |
 | Versions | v0.4.0, v0.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dbg-macro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbg-macro/xmake.lua) |
 
 ##### Install command
@@ -2995,7 +2995,7 @@ add_requires("dbg-macro")
 | Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
 | License | MIT |
 | Versions | 1.14.2, 1.14.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
 
 ##### Install command
@@ -3019,7 +3019,7 @@ add_requires("dbus")
 | Homepage | [https://dcmtk.org/dcmtk.php.en](https://dcmtk.org/dcmtk.php.en) |
 | License | BSD-3-Clause |
 | Versions | 3.6.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dcmtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dcmtk/xmake.lua) |
 
 ##### Install command
@@ -3043,7 +3043,7 @@ add_requires("dcmtk")
 | Homepage | [http://foonathan.net/blog/2016/09/16/assertions.html](http://foonathan.net/blog/2016/09/16/assertions.html) |
 | License | zlib |
 | Versions | 2022.11.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [debug_assert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debug_assert/xmake.lua) |
 
 ##### Install command
@@ -3066,7 +3066,7 @@ add_requires("debug_assert")
 | -- | -- |
 | Homepage | [https://github.com/scottt/debugbreak](https://github.com/scottt/debugbreak) |
 | Versions | v1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [debugbreak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debugbreak/xmake.lua) |
 
 ##### Install command
@@ -3090,7 +3090,7 @@ add_requires("debugbreak")
 | Homepage | [https://github.com/vpiotr/decimal_for_cpp](https://github.com/vpiotr/decimal_for_cpp) |
 | License | BSD-3-Clause |
 | Versions | 1.19 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [decimal_for_cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/decimal_for_cpp/xmake.lua) |
 
 ##### Install command
@@ -3114,7 +3114,7 @@ add_requires("decimal_for_cpp")
 | Homepage | [https://github.com/nico/demumble](https://github.com/nico/demumble) |
 | License | Apache-2.0 |
 | Versions | 2022.3.23 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [demumble/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/demumble/xmake.lua) |
 
 ##### Install command
@@ -3137,7 +3137,7 @@ add_requires("demumble")
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/chromium/tools/depot_tools](https://chromium.googlesource.com/chromium/tools/depot_tools) |
 | Versions | 2022.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [depot_tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/depot_tools/xmake.lua) |
 
 ##### Install command
@@ -3161,7 +3161,7 @@ add_requires("depot_tools")
 | Homepage | [https://sourceforge.net/projects/openil/](https://sourceforge.net/projects/openil/) |
 | License | LGPL-2.1 |
 | Versions | 1.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [devil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/devil/xmake.lua) |
 
 ##### Install command
@@ -3209,7 +3209,7 @@ add_requires("directxshadercompiler")
 | Homepage | [https://dlib.net](https://dlib.net) |
 | License | Boost |
 | Versions | v19.22 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua) |
 
 ##### Install command
@@ -3233,7 +3233,7 @@ add_requires("dlib")
 | Homepage | [https://github.com/docopt/docopt.cpp](https://github.com/docopt/docopt.cpp) |
 | License | BSL-1.0 |
 | Versions | v0.6.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [docopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/docopt/xmake.lua) |
 
 ##### Install command
@@ -3256,7 +3256,7 @@ add_requires("docopt")
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
 | Versions | 2.3.1, 2.3.6, 2.4.10, 2.4.11, 2.4.8, 2.4.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
 ##### Install command
@@ -3303,7 +3303,7 @@ add_requires("dotnet")
 | Homepage | [https://github.com/google/double-conversion](https://github.com/google/double-conversion) |
 | License | BSD-3-Clause |
 | Versions | v3.1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [double-conversion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/double-conversion/xmake.lua) |
 
 ##### Install command
@@ -3327,7 +3327,7 @@ add_requires("double-conversion")
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
 | Versions | 1.9.1, 1.9.2, 1.9.3, 1.9.5, 1.9.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
 ##### Install command
@@ -3351,7 +3351,7 @@ add_requires("doxygen")
 | Homepage | [https://github.com/brainboxdotcc/DPP](https://github.com/brainboxdotcc/DPP) |
 | License | Apache-2.0 |
 | Versions | v10.0.10, v10.0.11, v10.0.12, v10.0.13, v10.0.14, v10.0.15, v10.0.16, v10.0.17, v10.0.18, v10.0.19, v10.0.20, v10.0.21, v10.0.22, v10.0.23, v10.0.24, v10.0.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dpp/xmake.lua) |
 
 ##### Install command
@@ -3375,7 +3375,7 @@ add_requires("dpp")
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
 | Versions | 0.12.29, 0.12.39, 0.12.41 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
 
 ##### Install command
@@ -3399,7 +3399,7 @@ add_requires("dr_flac")
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
 | Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
 
 ##### Install command
@@ -3423,7 +3423,7 @@ add_requires("dr_mp3")
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
 | Versions | 0.12.19, 0.13.10, 0.13.11, 0.13.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
 ##### Install command
@@ -3447,7 +3447,7 @@ add_requires("dr_wav")
 | Homepage | [https://google.github.io/draco/](https://google.github.io/draco/) |
 | License | Apache-2.0 |
 | Versions | 1.4.1, 1.5.0, 1.5.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [draco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/draco/xmake.lua) |
 
 ##### Install command
@@ -3471,7 +3471,7 @@ add_requires("draco")
 | Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
 | License | MIT |
 | Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
 
 ##### Install command
@@ -3495,7 +3495,7 @@ add_requires("drogon")
 | Homepage | [https://dune-project.org/](https://dune-project.org/) |
 | License | GPL-2.0 |
 | Versions | 2.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dune-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dune-common/xmake.lua) |
 
 ##### Install command
@@ -3518,7 +3518,7 @@ add_requires("dune-common")
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
 | Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
 ##### Install command
@@ -3543,7 +3543,7 @@ add_requires("dynareadout")
 | -- | -- |
 | Homepage | [http://e2fsprogs.sourceforge.net](http://e2fsprogs.sourceforge.net) |
 | Versions | 1.46.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [e2fsprogs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/e2fsprogs/xmake.lua) |
 
 ##### Install command
@@ -3567,7 +3567,7 @@ add_requires("e2fsprogs")
 | Homepage | [https://github.com/electronicarts/EABase](https://github.com/electronicarts/EABase) |
 | License | BSD-3-Clause |
 | Versions | 2.09.05 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [eabase/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eabase/xmake.lua) |
 
 ##### Install command
@@ -3591,7 +3591,7 @@ add_requires("eabase")
 | Homepage | [https://github.com/electronicarts/EASTL](https://github.com/electronicarts/EASTL) |
 | License | BSD-3-Clause |
 | Versions | 3.17.03, 3.17.06, 3.21.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [eastl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eastl/xmake.lua) |
 
 ##### Install command
@@ -3615,7 +3615,7 @@ add_requires("eastl")
 | Homepage | [https://github.com/amrayn/easyloggingpp](https://github.com/amrayn/easyloggingpp) |
 | License | MIT |
 | Versions | v9.97.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [easyloggingpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/easyloggingpp/xmake.lua) |
 
 ##### Install command
@@ -3639,7 +3639,7 @@ add_requires("easyloggingpp")
 | Homepage | [https://www.gnu.org/software/ed/ed.html](https://www.gnu.org/software/ed/ed.html) |
 | License | GPL-3.0-or-later |
 | Versions | 1.17 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ed/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/ed/xmake.lua) |
 
 ##### Install command
@@ -3663,7 +3663,7 @@ add_requires("ed")
 | Homepage | [https://github.com/google/effcee](https://github.com/google/effcee) |
 | License | Apache-2.0 |
 | Versions | 2019.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [effcee/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/effcee/xmake.lua) |
 
 ##### Install command
@@ -3687,7 +3687,7 @@ add_requires("effcee")
 | Homepage | [https://github.com/effolkronium/random](https://github.com/effolkronium/random) |
 | License | MIT |
 | Versions | v1.4.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [effolkronium-random/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/effolkronium-random/xmake.lua) |
 
 ##### Install command
@@ -3711,7 +3711,7 @@ add_requires("effolkronium-random")
 | Homepage | [https://github.com/SpartanJ/efsw](https://github.com/SpartanJ/efsw) |
 | License | MIT |
 | Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [efsw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/efsw/xmake.lua) |
 
 ##### Install command
@@ -3735,7 +3735,7 @@ add_requires("efsw")
 | Homepage | [https://eigen.tuxfamily.org/](https://eigen.tuxfamily.org/) |
 | License | MPL-2.0 |
 | Versions | 3.3.7, 3.3.8, 3.3.9, 3.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [eigen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eigen/xmake.lua) |
 
 ##### Install command
@@ -3759,7 +3759,7 @@ add_requires("eigen")
 | Homepage | [http://serge1.github.io/ELFIO](http://serge1.github.io/ELFIO) |
 | License | MIT |
 | Versions | 3.11 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [elfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/elfio/xmake.lua) |
 
 ##### Install command
@@ -3783,7 +3783,7 @@ add_requires("elfio")
 | Homepage | [https://fedorahosted.org/elfutils/](https://fedorahosted.org/elfutils/) |
 | License | GPL-2.0 |
 | Versions | 0.183 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [elfutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/elfutils/xmake.lua) |
 
 ##### Install command
@@ -3807,7 +3807,7 @@ add_requires("elfutils")
 | Homepage | [https://www.embree.org/](https://www.embree.org/) |
 | License | Apache-2.0 |
 | Versions | v3.12.1, v3.13.0, v3.13.3, v3.13.4, v3.13.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [embree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/embree/xmake.lua) |
 
 ##### Install command
@@ -3831,7 +3831,7 @@ add_requires("embree")
 | Homepage | [https://emscripten.org/](https://emscripten.org/) |
 | License | MIT |
 | Versions | 3.1.42 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [emscripten/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emscripten/xmake.lua) |
 
 ##### Install command
@@ -3855,7 +3855,7 @@ add_requires("emscripten")
 | Homepage | [http://enet.bespin.org](http://enet.bespin.org) |
 | License | MIT |
 | Versions | v1.3.17 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [enet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet/xmake.lua) |
 
 ##### Install command
@@ -3879,7 +3879,7 @@ add_requires("enet")
 | Homepage | [https://github.com/dougbinks/enkiTS](https://github.com/dougbinks/enkiTS) |
 | License | zlib |
 | Versions | v1.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [enkits/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enkits/xmake.lua) |
 
 ##### Install command
@@ -3903,7 +3903,7 @@ add_requires("enkits")
 | Homepage | [https://ensmallen.org/](https://ensmallen.org/) |
 | License | BSD-3-Clause |
 | Versions | 2.18.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ensmallen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/ensmallen/xmake.lua) |
 
 ##### Install command
@@ -3927,7 +3927,7 @@ add_requires("ensmallen")
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
 | Versions | v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
 ##### Install command
@@ -3950,7 +3950,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://dev.gentoo.org/~blueness/eudev/](https://dev.gentoo.org/~blueness/eudev/) |
 | Versions | 3.2.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [eudev/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eudev/xmake.lua) |
 
 ##### Install command
@@ -3974,7 +3974,7 @@ add_requires("eudev")
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
 | Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
 ##### Install command
@@ -3997,7 +3997,7 @@ add_requires("expat")
 | -- | -- |
 | Homepage | [https://github.com/expresscpp/expresscpp.git](https://github.com/expresscpp/expresscpp.git) |
 | Versions | v0.20.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [expresscpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expresscpp/xmake.lua) |
 
 ##### Install command
@@ -4021,7 +4021,7 @@ add_requires("expresscpp")
 | Homepage | [https://www.partow.net/programming/exprtk/index.html](https://www.partow.net/programming/exprtk/index.html) |
 | License | MIT |
 | Versions | 2022.01.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [exprtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exprtk/xmake.lua) |
 
 ##### Install command
@@ -4045,7 +4045,7 @@ add_requires("exprtk")
 | Homepage | [https://github.com/pyomeca/ezc3d](https://github.com/pyomeca/ezc3d) |
 | License | MIT |
 | Versions | 1.4.5, 1.4.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ezc3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/ezc3d/xmake.lua) |
 
 ##### Install command
@@ -4070,7 +4070,7 @@ add_requires("ezc3d")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/faac/](https://sourceforge.net/projects/faac/) |
 | Versions | 1.30 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [faac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faac/xmake.lua) |
 
 ##### Install command
@@ -4094,7 +4094,7 @@ add_requires("faac")
 | Homepage | [https://sourceforge.net/projects/faac](https://sourceforge.net/projects/faac) |
 | License | GPL-2.0 |
 | Versions | 2.10.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [faad2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faad2/xmake.lua) |
 
 ##### Install command
@@ -4118,7 +4118,7 @@ add_requires("faad2")
 | Homepage | [https://github.com/facebookresearch/faiss/](https://github.com/facebookresearch/faiss/) |
 | License | MIT |
 | Versions | v1.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [faiss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faiss/xmake.lua) |
 
 ##### Install command
@@ -4142,7 +4142,7 @@ add_requires("faiss")
 | Homepage | [https://github.com/libfann/fann](https://github.com/libfann/fann) |
 | License | LGPL-2.1 |
 | Versions | 2021.03.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fann/xmake.lua) |
 
 ##### Install command
@@ -4166,7 +4166,7 @@ add_requires("fann")
 | Homepage | [https://github.com/google/farmhash](https://github.com/google/farmhash) |
 | License | MIT |
 | Versions | 2019.05.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [farmhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/farmhash/xmake.lua) |
 
 ##### Install command
@@ -4190,7 +4190,7 @@ add_requires("farmhash")
 | Homepage | [https://github.com/lemire/fast_double_parser](https://github.com/lemire/fast_double_parser) |
 | License | Apache-2.0 |
 | Versions | v0.5.0, v0.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fast_double_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_double_parser/xmake.lua) |
 
 ##### Install command
@@ -4214,7 +4214,7 @@ add_requires("fast_double_parser")
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
 | Versions | v3.10.1, v3.4.0, v3.5.1, v5.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
 ##### Install command
@@ -4238,7 +4238,7 @@ add_requires("fast_float")
 | Homepage | [https://github.com/cppfastio/fast_io](https://github.com/cppfastio/fast_io) |
 | License | MIT |
 | Versions | 2023.1.28 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fast_io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_io/xmake.lua) |
 
 ##### Install command
@@ -4261,7 +4261,7 @@ add_requires("fast_io")
 | -- | -- |
 | Homepage | [https://github.com/ben-strasser/fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser) |
 | Versions | 2021.01.03 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fastcppcsvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastcppcsvparser/xmake.lua) |
 
 ##### Install command
@@ -4285,7 +4285,7 @@ add_requires("fastcppcsvparser")
 | Homepage | [https://github.com/romeric/Fastor](https://github.com/romeric/Fastor) |
 | License | MIT |
 | Versions | 0.6.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fastor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastor/xmake.lua) |
 
 ##### Install command
@@ -4309,7 +4309,7 @@ add_requires("fastor")
 | Homepage | [https://github.com/flexible-collision-library/fcl](https://github.com/flexible-collision-library/fcl) |
 | License | BSD-3-Clause |
 | Versions | 0.7.0, v0.6.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fcl/xmake.lua) |
 
 ##### Install command
@@ -4333,7 +4333,7 @@ add_requires("fcl")
 | Homepage | [https://www.ffmpeg.org](https://www.ffmpeg.org) |
 | License | GPL-3.0 |
 | Versions | 4.0.2, 5.0.1, 5.1.1, 5.1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ffmpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffmpeg/xmake.lua) |
 
 ##### Install command
@@ -4357,7 +4357,7 @@ add_requires("ffmpeg")
 | Homepage | [http://fftw.org/](http://fftw.org/) |
 | License | GPL-2.0 |
 | Versions | 3.3.10, 3.3.8, 3.3.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fftw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fftw/xmake.lua) |
 
 ##### Install command
@@ -4381,7 +4381,7 @@ add_requires("fftw")
 | Homepage | [https://sites.google.com/site/field3d/](https://sites.google.com/site/field3d/) |
 | License | BSD-3-Clause |
 | Versions | v1.7.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [field3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/field3d/xmake.lua) |
 
 ##### Install command
@@ -4429,7 +4429,7 @@ add_requires("filament")
 | Homepage | [https://github.com/flann-lib/flann/](https://github.com/flann-lib/flann/) |
 | License | BSD-3-Clause |
 | Versions | 1.9.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [flann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flann/xmake.lua) |
 
 ##### Install command
@@ -4453,7 +4453,7 @@ add_requires("flann")
 | Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
 | License | Apache-2.0 |
 | Versions | v1.12.0, v2.0.0, v23.1.21 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
 
 ##### Install command
@@ -4477,7 +4477,7 @@ add_requires("flatbuffers")
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
 | Versions | v2.4.8, v3.0.0, v3.2.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
 ##### Install command
@@ -4501,7 +4501,7 @@ add_requires("flecs")
 | Homepage | [https://github.com/westes/flex/](https://github.com/westes/flex/) |
 | License | BSD-2-Clause |
 | Versions | 2.6.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flex/xmake.lua) |
 
 ##### Install command
@@ -4524,7 +4524,7 @@ add_requires("flex")
 | -- | -- |
 | Homepage | [https://www.fltk.org](https://www.fltk.org) |
 | Versions | 1.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fltk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fltk/xmake.lua) |
 
 ##### Install command
@@ -4548,7 +4548,7 @@ add_requires("fltk")
 | Homepage | [https://github.com/scandum/fluxsort](https://github.com/scandum/fluxsort) |
 | License | MIT |
 | Versions | 2023.02.05 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fluxsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluxsort/xmake.lua) |
 
 ##### Install command
@@ -4571,7 +4571,7 @@ add_requires("fluxsort")
 | -- | -- |
 | Homepage | [https://github.com/NTNU-IHB/FMI4cpp](https://github.com/NTNU-IHB/FMI4cpp) |
 | Versions | 0.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fmi4cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmi4cpp/xmake.lua) |
 
 ##### Install command
@@ -4594,7 +4594,7 @@ add_requires("fmi4cpp")
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
 | Versions | 10.0.0, 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
 ##### Install command
@@ -4618,7 +4618,7 @@ add_requires("fmt")
 | Homepage | [https://github.com/MengRao/fmtlog](https://github.com/MengRao/fmtlog) |
 | License | MIT |
 | Versions | v2.1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fmtlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmtlog/xmake.lua) |
 
 ##### Install command
@@ -4642,7 +4642,7 @@ add_requires("fmtlog")
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
 | Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
 ##### Install command
@@ -4665,7 +4665,7 @@ add_requires("folly")
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/fontconfig/](https://www.freedesktop.org/wiki/Software/fontconfig/) |
 | Versions | 2.13.1, 2.13.93, 2.13.94, 2.14.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fontconfig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fontconfig/xmake.lua) |
 
 ##### Install command
@@ -4688,7 +4688,7 @@ add_requires("fontconfig")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/fpng](https://github.com/richgel999/fpng) |
 | Versions | v1.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fpng/xmake.lua) |
 
 ##### Install command
@@ -4712,7 +4712,7 @@ add_requires("fpng")
 | Homepage | [http://freeglut.sourceforge.net](http://freeglut.sourceforge.net) |
 | License | MIT |
 | Versions | v3.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freeglut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeglut/xmake.lua) |
 
 ##### Install command
@@ -4735,7 +4735,7 @@ add_requires("freeglut")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/freeimage/](https://sourceforge.net/projects/freeimage/) |
 | Versions | 3.18.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freeimage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeimage/xmake.lua) |
 
 ##### Install command
@@ -4758,7 +4758,7 @@ add_requires("freeimage")
 | -- | -- |
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
 | Versions | 2.10.4, 2.11.0, 2.11.1, 2.12.1, 2.13.0, 2.9.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 
 ##### Install command
@@ -4782,7 +4782,7 @@ add_requires("freetype")
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
 | Versions | 1.0.10, 1.0.11, 1.0.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
 ##### Install command
@@ -4806,7 +4806,7 @@ add_requires("fribidi")
 | Homepage | [https://github.com/serge-sans-paille/frozen](https://github.com/serge-sans-paille/frozen) |
 | License | Apache-2.0 |
 | Versions | 1.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [frozen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frozen/xmake.lua) |
 
 ##### Install command
@@ -4830,7 +4830,7 @@ add_requires("frozen")
 | Homepage | [https://github.com/frozenca/BTree](https://github.com/frozenca/BTree) |
 | License | Apache-2.0 |
 | Versions | 2022.08.02 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [frozenca-btree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frozenca-btree/xmake.lua) |
 
 ##### Install command
@@ -4854,7 +4854,7 @@ add_requires("frozenca-btree")
 | Homepage | [https://github.com/frankheckenbach/ftgl](https://github.com/frankheckenbach/ftgl) |
 | License | MIT |
 | Versions | v2.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ftgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftgl/xmake.lua) |
 
 ##### Install command
@@ -4878,7 +4878,7 @@ add_requires("ftgl")
 | Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
 | License | MIT |
 | Versions | v3.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
 
 ##### Install command
@@ -4901,7 +4901,7 @@ add_requires("ftxui")
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
 | Versions | v0.2.18-p0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
 ##### Install command
@@ -4925,7 +4925,7 @@ add_requires("functionalplus")
 | Homepage | [https://github.com/jessey-git/fx-gltf](https://github.com/jessey-git/fx-gltf) |
 | License | MIT |
 | Versions | v1.2.0, v2.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fx-gltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fx-gltf/xmake.lua) |
 
 ##### Install command
@@ -4949,7 +4949,7 @@ add_requires("fx-gltf")
 | Homepage | [https://github.com/Maratyszcza/FXdiv](https://github.com/Maratyszcza/FXdiv) |
 | License | MIT |
 | Versions | 2020.12.09 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fxdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fxdiv/xmake.lua) |
 
 ##### Install command
@@ -4974,7 +4974,7 @@ add_requires("fxdiv")
 | -- | -- |
 | Homepage | [http://openslam.org/g2o.html](http://openslam.org/g2o.html) |
 | Versions | 2020.12.23 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [g2o/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/g2o/xmake.lua) |
 
 ##### Install command
@@ -4998,7 +4998,7 @@ add_requires("g2o")
 | Homepage | [https://github.com/ValveSoftware/GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) |
 | License | BSD-3-Clause |
 | Versions | v1.2.0, v1.3.0, v1.4.0, v1.4.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gamenetworkingsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gamenetworkingsockets/xmake.lua) |
 
 ##### Install command
@@ -5022,7 +5022,7 @@ add_requires("gamenetworkingsockets")
 | Homepage | [https://www.kthohr.com/gcem.html](https://www.kthohr.com/gcem.html) |
 | License | Apache-2.0 |
 | Versions | v1.13.1, v1.16.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gcem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gcem/xmake.lua) |
 
 ##### Install command
@@ -5046,7 +5046,7 @@ add_requires("gcem")
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
 | Versions | 3.5.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
 ##### Install command
@@ -5070,7 +5070,7 @@ add_requires("gdal")
 | Homepage | [https://gitlab.gnome.org/GNOME/gdk-pixbuf](https://gitlab.gnome.org/GNOME/gdk-pixbuf) |
 | License | LGPL-2.0 |
 | Versions | 2.42.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gdk-pixbuf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdk-pixbuf/xmake.lua) |
 
 ##### Install command
@@ -5093,7 +5093,7 @@ add_requires("gdk-pixbuf")
 | -- | -- |
 | Homepage | [https://geant4.web.cern.ch/](https://geant4.web.cern.ch/) |
 | Versions | 10.7.2, 11.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [geant4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geant4/xmake.lua) |
 
 ##### Install command
@@ -5116,7 +5116,7 @@ add_requires("geant4")
 | -- | -- |
 | Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
 | Versions | 1160.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
 
 ##### Install command
@@ -5140,7 +5140,7 @@ add_requires("genie")
 | Homepage | [https://geographiclib.sourceforge.io/C++/doc/index.html](https://geographiclib.sourceforge.io/C++/doc/index.html) |
 | License | MIT License |
 | Versions | 2.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [geographiclib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geographiclib/xmake.lua) |
 
 ##### Install command
@@ -5164,7 +5164,7 @@ add_requires("geographiclib")
 | Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
 | License | LGPL-2.1 |
 | Versions | 3.9.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
 
 ##### Install command
@@ -5187,7 +5187,7 @@ add_requires("geos")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
 | Versions | 0.19.8-1, 0.21, 0.21.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gettext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gettext/xmake.lua) |
 
 ##### Install command
@@ -5211,7 +5211,7 @@ add_requires("gettext")
 | Homepage | [https://github.com/gflags/gflags/](https://github.com/gflags/gflags/) |
 | License | BSD-3-Clause |
 | Versions | v2.2.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gflags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gflags/xmake.lua) |
 
 ##### Install command
@@ -5235,7 +5235,7 @@ add_requires("gflags")
 | Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
 | License | MIT |
 | Versions | v1.5.10, v1.5.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
 
 ##### Install command
@@ -5259,7 +5259,7 @@ add_requires("ghc_filesystem")
 | Homepage | [https://www.ghostscript.com/](https://www.ghostscript.com/) |
 | License | AGPL-3.0 |
 | Versions | 9.55.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ghostscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghostscript/xmake.lua) |
 
 ##### Install command
@@ -5283,7 +5283,7 @@ add_requires("ghostscript")
 | Homepage | [https://sourceforge.net/projects/giflib/](https://sourceforge.net/projects/giflib/) |
 | License | MIT |
 | Versions | 5.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [giflib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/giflib/xmake.lua) |
 
 ##### Install command
@@ -5307,7 +5307,7 @@ add_requires("giflib")
 | Homepage | [https://www.agwa.name/projects/git-crypt/](https://www.agwa.name/projects/git-crypt/) |
 | License | GPL-3.0 |
 | Versions | 0.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [git-crypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/git-crypt/xmake.lua) |
 
 ##### Install command
@@ -5331,7 +5331,7 @@ add_requires("git-crypt")
 | Homepage | [https://glad.dav1d.de/](https://glad.dav1d.de/) |
 | License | MIT |
 | Versions | v0.1.34, v0.1.36 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glad/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glad/xmake.lua) |
 
 ##### Install command
@@ -5354,7 +5354,7 @@ add_requires("glad")
 | -- | -- |
 | Homepage | [http://glew.sourceforge.net/](http://glew.sourceforge.net/) |
 | Versions | 2.1.0, 2.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glew/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glew/xmake.lua) |
 
 ##### Install command
@@ -5378,7 +5378,7 @@ add_requires("glew")
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
 | License | zlib |
 | Versions | 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7, 3.3.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
 ##### Install command
@@ -5401,7 +5401,7 @@ add_requires("glfw")
 | -- | -- |
 | Homepage | [https://gli.g-truc.net/](https://gli.g-truc.net/) |
 | Versions | 0.8.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gli/xmake.lua) |
 
 ##### Install command
@@ -5424,7 +5424,7 @@ add_requires("gli")
 | -- | -- |
 | Homepage | [https://developer.gnome.org/glib/](https://developer.gnome.org/glib/) |
 | Versions | 2.71.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 
 ##### Install command
@@ -5447,7 +5447,7 @@ add_requires("glib")
 | -- | -- |
 | Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
 | Versions | 0.9.9+8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
 
 ##### Install command
@@ -5471,7 +5471,7 @@ add_requires("glm")
 | Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
 | License | BSD-3-Clause |
 | Versions | v0.4.0, v0.5.0, v0.6.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
 
 ##### Install command
@@ -5495,7 +5495,7 @@ add_requires("glog")
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
 ##### Install command
@@ -5518,7 +5518,7 @@ add_requires("glslang")
 | -- | -- |
 | Homepage | [http://getfem.org/gmm/index.html](http://getfem.org/gmm/index.html) |
 | Versions | 5.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gmm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmm/xmake.lua) |
 
 ##### Install command
@@ -5542,7 +5542,7 @@ add_requires("gmm")
 | Homepage | [https://gmplib.org/](https://gmplib.org/) |
 | License | LGPL-3.0 |
 | Versions | 6.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmp/xmake.lua) |
 
 ##### Install command
@@ -5566,7 +5566,7 @@ add_requires("gmp")
 | Homepage | [http://gmsh.info/](http://gmsh.info/) |
 | License | GPL-2.0 |
 | Versions | 4.11.1, 4.8.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gmsh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmsh/xmake.lua) |
 
 ##### Install command
@@ -5589,7 +5589,7 @@ add_requires("gmsh")
 | -- | -- |
 | Homepage | [https://gn.googlesource.com/gn](https://gn.googlesource.com/gn) |
 | Versions | 20211117 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gn/xmake.lua) |
 
 ##### Install command
@@ -5613,7 +5613,7 @@ add_requires("gn")
 | Homepage | [https://www.gnu.org/software/gsl/](https://www.gnu.org/software/gsl/) |
 | License | GPL-3.0 |
 | Versions | 2.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gnu-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-gsl/xmake.lua) |
 
 ##### Install command
@@ -5636,7 +5636,7 @@ add_requires("gnu-gsl")
 | -- | -- |
 | Homepage | [https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) |
 | Versions | 2020.10, 2021.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gnu-rm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-rm/xmake.lua) |
 
 ##### Install command
@@ -5660,7 +5660,7 @@ add_requires("gnu-rm")
 | Homepage | [https://www.gnu.org/software/sed/](https://www.gnu.org/software/sed/) |
 | License | GPL-3.0 |
 | Versions | 4.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gnu-sed/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-sed/xmake.lua) |
 
 ##### Install command
@@ -5683,7 +5683,7 @@ add_requires("gnu-sed")
 | -- | -- |
 | Homepage | [https://golang.org/](https://golang.org/) |
 | Versions | 1.17.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [go/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/go/xmake.lua) |
 
 ##### Install command
@@ -5707,7 +5707,7 @@ add_requires("go")
 | Homepage | [https://gi.readthedocs.io/en/latest/](https://gi.readthedocs.io/en/latest/) |
 | License | LGPL-2.0 |
 | Versions | 1.70.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gobject-introspection/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gobject-introspection/xmake.lua) |
 
 ##### Install command
@@ -5730,7 +5730,7 @@ add_requires("gobject-introspection")
 | -- | -- |
 | Homepage | [https://godotengine.org/](https://godotengine.org/) |
 | Versions | 3.2, 3.3, 3.4.0, 3.4.3, 3.4.4, 3.4.5, 3.5, 3.5.1, 3.5.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [godotcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp/xmake.lua) |
 
 ##### Install command
@@ -5753,7 +5753,7 @@ add_requires("godotcpp")
 | -- | -- |
 | Homepage | [https://godotengine.org/](https://godotengine.org/) |
 | Versions | 4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [godotcpp4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp4/xmake.lua) |
 
 ##### Install command
@@ -5776,7 +5776,7 @@ add_requires("godotcpp4")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gperf](https://www.gnu.org/software/gperf) |
 | Versions | 3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gperf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gperf/xmake.lua) |
 
 ##### Install command
@@ -5800,7 +5800,7 @@ add_requires("gperf")
 | Homepage | [https://github.com/gperftools/gperftools](https://github.com/gperftools/gperftools) |
 | License | BSD-3-Clause |
 | Versions | 2.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gperftools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gperftools/xmake.lua) |
 
 ##### Install command
@@ -5823,7 +5823,7 @@ add_requires("gperftools")
 | -- | -- |
 | Homepage | [https://github.com/CESNET/GPUJPEG](https://github.com/CESNET/GPUJPEG) |
 | Versions | continuous |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gpujpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gpujpeg/xmake.lua) |
 
 ##### Install command
@@ -5871,7 +5871,7 @@ add_requires("gr")
 | Homepage | [http://ebassi.github.io/graphene/](http://ebassi.github.io/graphene/) |
 | License | MIT |
 | Versions | 1.10.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [graphene/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/graphene/xmake.lua) |
 
 ##### Install command
@@ -5895,7 +5895,7 @@ add_requires("graphene")
 | Homepage | [https://grpc.io](https://grpc.io) |
 | License | Apache-2.0 |
 | Versions | v1.51.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [grpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/grpc/xmake.lua) |
 
 ##### Install command
@@ -5919,7 +5919,7 @@ add_requires("grpc")
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
 | Versions | v3.1.0, v4.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
 ##### Install command
@@ -5942,7 +5942,7 @@ add_requires("gsl")
 | -- | -- |
 | Homepage | [https://github.com/google/googletest](https://github.com/google/googletest) |
 | Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.8.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
 
 ##### Install command
@@ -5965,7 +5965,7 @@ add_requires("gtest")
 | -- | -- |
 | Homepage | [https://github.com/google/guetzli](https://github.com/google/guetzli) |
 | Versions | v1.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [guetzli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guetzli/xmake.lua) |
 
 ##### Install command
@@ -5989,7 +5989,7 @@ add_requires("guetzli")
 | Homepage | [https://github.com/idea4good/GuiLite](https://github.com/idea4good/GuiLite) |
 | License | Apache-2.0 |
 | Versions | v2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [guilite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guilite/xmake.lua) |
 
 ##### Install command
@@ -6013,7 +6013,7 @@ add_requires("guilite")
 | Homepage | [https://github.com/google/gumbo-parser](https://github.com/google/gumbo-parser) |
 | License | Apache-2.0 |
 | Versions | v0.10.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gumbo-parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gumbo-parser/xmake.lua) |
 
 ##### Install command
@@ -6037,7 +6037,7 @@ add_requires("gumbo-parser")
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
 | Versions | v0.11.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
 ##### Install command
@@ -6063,7 +6063,7 @@ add_requires("gyp-next")
 | Homepage | [https://ess-dmsc.github.io/h5cpp/](https://ess-dmsc.github.io/h5cpp/) |
 | License | LGPL-2.1 |
 | Versions | v0.5.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [h5cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/h5cpp/xmake.lua) |
 
 ##### Install command
@@ -6086,7 +6086,7 @@ add_requires("h5cpp")
 | -- | -- |
 | Homepage | [https://github.com/yedf2/handy](https://github.com/yedf2/handy) |
 | Versions | 0.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [handy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/handy/xmake.lua) |
 
 ##### Install command
@@ -6110,7 +6110,7 @@ add_requires("handy")
 | Homepage | [https://github.com/nmwsharp/happly](https://github.com/nmwsharp/happly) |
 | License | MIT |
 | Versions | 2022.01.07 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [happly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/happly/xmake.lua) |
 
 ##### Install command
@@ -6134,7 +6134,7 @@ add_requires("happly")
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
 | Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
 ##### Install command
@@ -6158,7 +6158,7 @@ add_requires("harfbuzz")
 | Homepage | [https://create.stephan-brumme.com/hash-library/](https://create.stephan-brumme.com/hash-library/) |
 | License | zlib |
 | Versions | 2021.09.29 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hash-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hash-library/xmake.lua) |
 
 ##### Install command
@@ -6182,7 +6182,7 @@ add_requires("hash-library")
 | Homepage | [https://www.hdfgroup.org/solutions/hdf5/](https://www.hdfgroup.org/solutions/hdf5/) |
 | License | BSD-3-Clause |
 | Versions | 1.10.7, 1.12.0, 1.12.1, 1.12.2, 1.13.2, 1.13.3, 1.14.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hdf5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdf5/xmake.lua) |
 
 ##### Install command
@@ -6205,7 +6205,7 @@ add_requires("hdf5")
 | -- | -- |
 | Homepage | [https://github.com/HdrHistogram/HdrHistogram_c](https://github.com/HdrHistogram/HdrHistogram_c) |
 | Versions | 2021.1.25 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hdrhistogram_c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdrhistogram_c/xmake.lua) |
 
 ##### Install command
@@ -6229,7 +6229,7 @@ add_requires("hdrhistogram_c")
 | Homepage | [https://github.com/jamesdbrock/hffix](https://github.com/jamesdbrock/hffix) |
 | License | BSD-2-Clause |
 | Versions | v1.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hffix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hffix/xmake.lua) |
 
 ##### Install command
@@ -6252,7 +6252,7 @@ add_requires("hffix")
 | -- | -- |
 | Homepage | [https://github.com/BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) |
 | Versions | v2.3.1, v2.6.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [highfive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highfive/xmake.lua) |
 
 ##### Install command
@@ -6276,7 +6276,7 @@ add_requires("highfive")
 | Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
 | License | BSD-3-Clause |
 | Versions | v1.0.2, v1.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
 
 ##### Install command
@@ -6300,7 +6300,7 @@ add_requires("hiredis")
 | Homepage | [https://github.com/redorav/hlslpp](https://github.com/redorav/hlslpp) |
 | License | MIT |
 | Versions | 3.1, 3.2.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hlslpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hlslpp/xmake.lua) |
 
 ##### Install command
@@ -6323,7 +6323,7 @@ add_requires("hlslpp")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
 | Versions | v2.3.0, v2.3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
 
 ##### Install command
@@ -6347,7 +6347,7 @@ add_requires("hopscotch-map")
 | Homepage | [https://github.com/ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) |
 | License | Apache-2.0 |
 | Versions | v5.7.3, v5.8.4, v5.9.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hpsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpsocket/xmake.lua) |
 
 ##### Install command
@@ -6370,7 +6370,7 @@ add_requires("hpsocket")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/http-parser](https://github.com/nodejs/http-parser) |
 | Versions | v2.9.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [http_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/http_parser/xmake.lua) |
 
 ##### Install command
@@ -6394,7 +6394,7 @@ add_requires("http_parser")
 | Homepage | [https://www.open-mpi.org/software/hwloc/](https://www.open-mpi.org/software/hwloc/) |
 | License | BSD-3-Clause |
 | Versions | 2.5.0, 2.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hwloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hwloc/xmake.lua) |
 
 ##### Install command
@@ -6418,7 +6418,7 @@ add_requires("hwloc")
 | Homepage | [https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods) |
 | License | Apache-2.0 |
 | Versions | v2.20.0, v2.23.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hypre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hypre/xmake.lua) |
 
 ##### Install command
@@ -6443,7 +6443,7 @@ add_requires("hypre")
 | -- | -- |
 | Homepage | [https://github.com/castano/icbc](https://github.com/castano/icbc) |
 | Versions | 1.05 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [icbc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icbc/xmake.lua) |
 
 ##### Install command
@@ -6466,7 +6466,7 @@ add_requires("icbc")
 | -- | -- |
 | Homepage | [http://site.icu-project.org/](http://site.icu-project.org/) |
 | Versions | 64.2, 68.1, 68.2, 69.1, 70.1, 71.1, 72.1, 73.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [icu4c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icu4c/xmake.lua) |
 
 ##### Install command
@@ -6489,7 +6489,7 @@ add_requires("icu4c")
 | -- | -- |
 | Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
 | Versions | 2021.4.0+3224 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
 
 ##### Install command
@@ -6513,7 +6513,7 @@ add_requires("ifort")
 | Homepage | [https://imagemagick.org/script/index.php](https://imagemagick.org/script/index.php) |
 | License | Apache-2.0 |
 | Versions | 7.0.11-13, 7.1.0-4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imagemagick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imagemagick/xmake.lua) |
 
 ##### Install command
@@ -6537,7 +6537,7 @@ add_requires("imagemagick")
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
 | Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4, v3.1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
 ##### Install command
@@ -6561,7 +6561,7 @@ add_requires("imath")
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
 | Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86, v1.87, v1.87-docking, v1.88, v1.88-docking, v1.89, v1.89-docking, v1.89.3, v1.89.3-docking, v1.89.4, v1.89.4-docking, v1.89.5, v1.89.5-docking, v1.89.6, v1.89.6-docking, v1.89.7, v1.89.7-docking |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
 ##### Install command
@@ -6584,7 +6584,7 @@ add_requires("imgui")
 | -- | -- |
 | Homepage | [https://github.com/eliasdaler/imgui-sfml](https://github.com/eliasdaler/imgui-sfml) |
 | Versions | v2.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imgui-sfml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui-sfml/xmake.lua) |
 
 ##### Install command
@@ -6607,7 +6607,7 @@ add_requires("imgui-sfml")
 | -- | -- |
 | Homepage | [https://github.com/CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) |
 | Versions | 1.83, 1.89+WIP |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imguizmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imguizmo/xmake.lua) |
 
 ##### Install command
@@ -6631,7 +6631,7 @@ add_requires("imguizmo")
 | Homepage | [https://github.com/arximboldi/immer](https://github.com/arximboldi/immer) |
 | License | BSL-1.0 |
 | Versions | v0.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [immer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/immer/xmake.lua) |
 
 ##### Install command
@@ -6655,7 +6655,7 @@ add_requires("immer")
 | Homepage | [https://github.com/p-ranav/indicators](https://github.com/p-ranav/indicators) |
 | License | MIT |
 | Versions | 2.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [indicators/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/indicators/xmake.lua) |
 
 ##### Install command
@@ -6678,7 +6678,7 @@ add_requires("indicators")
 | -- | -- |
 | Homepage | [https://pantor.github.io/inja/](https://pantor.github.io/inja/) |
 | Versions | v2.1.0, v3.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
 
 ##### Install command
@@ -6702,7 +6702,7 @@ add_requires("inja")
 | Homepage | [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) |
 | License | Apache-2.0 |
 | Versions | v2020.10.31 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ip2region/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ip2region/xmake.lua) |
 
 ##### Install command
@@ -6726,7 +6726,7 @@ add_requires("ip2region")
 | Homepage | [https://irrlicht.sourceforge.io/](https://irrlicht.sourceforge.io/) |
 | License | zlib |
 | Versions | 1.8.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [irrlicht/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrlicht/xmake.lua) |
 
 ##### Install command
@@ -6749,7 +6749,7 @@ add_requires("irrlicht")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
 | Versions | 1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [irrxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua) |
 
 ##### Install command
@@ -6773,7 +6773,7 @@ add_requires("irrxml")
 | Homepage | [https://salsa.debian.org/iso-codes-team/iso-codes](https://salsa.debian.org/iso-codes-team/iso-codes) |
 | License | LGPL-2.1-or-later |
 | Versions | 4.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [iso-codes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iso-codes/xmake.lua) |
 
 ##### Install command
@@ -6797,7 +6797,7 @@ add_requires("iso-codes")
 | Homepage | [https://github.com/daanx/isocline](https://github.com/daanx/isocline) |
 | License | MIT |
 | Versions | 2022.01.16 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [isocline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/isocline/xmake.lua) |
 
 ##### Install command
@@ -6821,7 +6821,7 @@ add_requires("isocline")
 | Homepage | [https://ispc.github.io/](https://ispc.github.io/) |
 | License | BSD-3-Clause |
 | Versions | 1.17.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ispc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ispc/xmake.lua) |
 
 ##### Install command
@@ -6845,7 +6845,7 @@ add_requires("ispc")
 | Homepage | [https://itk.org/](https://itk.org/) |
 | License | Apache-2.0 |
 | Versions | 5.2.0, 5.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [itk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itk/xmake.lua) |
 
 ##### Install command
@@ -6869,7 +6869,7 @@ add_requires("itk")
 | Homepage | [http://itstool.org/](http://itstool.org/) |
 | License | GPL-3.0 |
 | Versions | 2.0.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [itstool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itstool/xmake.lua) |
 
 ##### Install command
@@ -6892,7 +6892,7 @@ add_requires("itstool")
 | -- | -- |
 | Homepage | [https://steveicarus.github.io/iverilog/](https://steveicarus.github.io/iverilog/) |
 | Versions | 2023.1.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [iverilog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iverilog/xmake.lua) |
 
 ##### Install command
@@ -6918,7 +6918,7 @@ add_requires("iverilog")
 | Homepage | [https://github.com/akheron/jansson](https://github.com/akheron/jansson) |
 | License | MIT |
 | Versions | 2.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [jansson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jansson/xmake.lua) |
 
 ##### Install command
@@ -6942,7 +6942,7 @@ add_requires("jansson")
 | Homepage | [https://www.ece.uvic.ca/~frodo/jasper/](https://www.ece.uvic.ca/~frodo/jasper/) |
 | License | BSD-2-Clause |
 | Versions | 2.0.28, 2.0.32, 2.0.33 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [jasper/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jasper/xmake.lua) |
 
 ##### Install command
@@ -6966,7 +6966,7 @@ fragmentation avoidance and scalable concurrency support* |
 | -- | -- |
 | Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
 | Versions | 5.2.1, 5.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
 
 ##### Install command
@@ -6989,7 +6989,7 @@ add_requires("jemalloc")
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/JohnnyEngine](https://github.com/PucklaJ/JohnnyEngine) |
 | Versions | 1.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [johnnyengine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/johnnyengine/xmake.lua) |
 
 ##### Install command
@@ -7013,7 +7013,7 @@ add_requires("johnnyengine")
 | Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
 | License | MIT |
 | Versions | v2.0.1, v3.0.0, v3.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
 
 ##### Install command
@@ -7036,7 +7036,7 @@ add_requires("joltphysics")
 | -- | -- |
 | Homepage | [https://github.com/zserge/jsmn](https://github.com/zserge/jsmn) |
 | Versions | v1.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [jsmn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsmn/xmake.lua) |
 
 ##### Install command
@@ -7059,7 +7059,7 @@ add_requires("jsmn")
 | -- | -- |
 | Homepage | [https://github.com/json-c/json-c/wiki](https://github.com/json-c/json-c/wiki) |
 | Versions | 0.13.1-20180305 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [json-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-c/xmake.lua) |
 
 ##### Install command
@@ -7082,7 +7082,7 @@ add_requires("json-c")
 | -- | -- |
 | Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
 | Versions | 2.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
 
 ##### Install command
@@ -7105,7 +7105,7 @@ add_requires("json-schema-validator")
 | -- | -- |
 | Homepage | [https://github.com/sheredom/json.h](https://github.com/sheredom/json.h) |
 | Versions | 2022.11.27 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [json.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json.h/xmake.lua) |
 
 ##### Install command
@@ -7128,7 +7128,7 @@ add_requires("json.h")
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
 | Versions | v0.158.0, v0.170.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
 ##### Install command
@@ -7151,7 +7151,7 @@ add_requires("jsoncons")
 | -- | -- |
 | Homepage | [https://github.com/open-source-parsers/jsoncpp/wiki](https://github.com/open-source-parsers/jsoncpp/wiki) |
 | Versions | 1.9.4, 1.9.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [jsoncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncpp/xmake.lua) |
 
 ##### Install command
@@ -7176,7 +7176,7 @@ add_requires("jsoncpp")
 | -- | -- |
 | Homepage | [https://github.com/skywind3000/kcp](https://github.com/skywind3000/kcp) |
 | Versions | 1.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kcp/xmake.lua) |
 
 ##### Install command
@@ -7199,7 +7199,7 @@ add_requires("kcp")
 | -- | -- |
 | Homepage | [https://kiwisolver.readthedocs.io/en/latest/](https://kiwisolver.readthedocs.io/en/latest/) |
 | Versions | 1.3.1, 1.3.2, 1.4.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kiwisolver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kiwisolver/xmake.lua) |
 
 ##### Install command
@@ -7223,7 +7223,7 @@ add_requires("kiwisolver")
 | Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
 | License | Apache-2.0 |
 | Versions | 4.0.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
 
 ##### Install command
@@ -7247,7 +7247,7 @@ add_requires("kokkos")
 | Homepage | [https://github.com/kokkos/kokkos-kernels](https://github.com/kokkos/kokkos-kernels) |
 | License | Apache-2.0 |
 | Versions | 4.0.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kokkos-kernels/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos-kernels/xmake.lua) |
 
 ##### Install command
@@ -7270,7 +7270,7 @@ add_requires("kokkos-kernels")
 | -- | -- |
 | Homepage | [http://web.mit.edu/kerberos/](http://web.mit.edu/kerberos/) |
 | Versions | 1.19.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [krb5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/krb5/xmake.lua) |
 
 ##### Install command
@@ -7293,7 +7293,7 @@ add_requires("krb5")
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
 | Versions | v0.2.2, v0.2.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
 ##### Install command
@@ -7319,7 +7319,7 @@ add_requires("kuba-zip")
 | Homepage | [https://lame.sourceforge.io/](https://lame.sourceforge.io/) |
 | License | LGPL-2.0-or-later |
 | Versions | 3.100 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lame/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lame/xmake.lua) |
 
 ##### Install command
@@ -7342,7 +7342,7 @@ add_requires("lame")
 | -- | -- |
 | Homepage | [https://pypi.org/project/lbuild](https://pypi.org/project/lbuild) |
 | Versions | 2022.02.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lbuild/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lbuild/xmake.lua) |
 
 ##### Install command
@@ -7366,7 +7366,7 @@ add_requires("lbuild")
 | Homepage | [https://www.littlecms.com/](https://www.littlecms.com/) |
 | License | MIT |
 | Versions | 2.11, 2.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lcms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lcms/xmake.lua) |
 
 ##### Install command
@@ -7390,7 +7390,7 @@ add_requires("lcms")
 | Homepage | [https://lemon.cs.elte.hu/trac/lemon](https://lemon.cs.elte.hu/trac/lemon) |
 | License | BSL-1.0 |
 | Versions | 1.3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lemon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lemon/xmake.lua) |
 
 ##### Install command
@@ -7414,7 +7414,7 @@ add_requires("lemon")
 | Homepage | [http://www.leptonica.org/](http://www.leptonica.org/) |
 | License | BSD-2-Clause |
 | Versions | 1.80.0, 1.81.1, 1.82.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [leptonica/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leptonica/xmake.lua) |
 
 ##### Install command
@@ -7437,7 +7437,7 @@ add_requires("leptonica")
 | -- | -- |
 | Homepage | [https://github.com/google/leveldb](https://github.com/google/leveldb) |
 | Versions | 1.22, 1.23 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [leveldb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leveldb/xmake.lua) |
 
 ##### Install command
@@ -7460,7 +7460,7 @@ add_requires("leveldb")
 | -- | -- |
 | Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
 | Versions | 2022.03.21 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
 
 ##### Install command
@@ -7483,7 +7483,7 @@ add_requires("lexy")
 | -- | -- |
 | Homepage | [https://github.com/hnes/libaco](https://github.com/hnes/libaco) |
 | Versions | v1.2.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libaco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaco/xmake.lua) |
 
 ##### Install command
@@ -7506,7 +7506,7 @@ add_requires("libaco")
 | -- | -- |
 | Homepage | [https://github.com/xmake-mirror/libaesgm](https://github.com/xmake-mirror/libaesgm) |
 | Versions | 2013.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libaesgm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaesgm/xmake.lua) |
 
 ##### Install command
@@ -7530,7 +7530,7 @@ add_requires("libaesgm")
 | Homepage | [https://pagure.io/libaio](https://pagure.io/libaio) |
 | License | LGPL-2.1-or-later |
 | Versions | 0.3.113 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libaio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaio/xmake.lua) |
 
 ##### Install command
@@ -7554,7 +7554,7 @@ add_requires("libaio")
 | Homepage | [https://libarchive.org/](https://libarchive.org/) |
 | License | BSD-2-Clause |
 | Versions | 3.5.1, 3.5.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
 
 ##### Install command
@@ -7577,7 +7577,7 @@ add_requires("libarchive")
 | -- | -- |
 | Homepage | [https://github.com/P-H-C/phc-winner-argon2](https://github.com/P-H-C/phc-winner-argon2) |
 | Versions | 20190702 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libargon2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libargon2/xmake.lua) |
 
 ##### Install command
@@ -7601,7 +7601,7 @@ add_requires("libargon2")
 | Homepage | [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) |
 | License | BSD-2-Clause |
 | Versions | v0.9.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libavif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua) |
 
 ##### Install command
@@ -7624,7 +7624,7 @@ add_requires("libavif")
 | -- | -- |
 | Homepage | [https://github.com/ianlancetaylor/libbacktrace](https://github.com/ianlancetaylor/libbacktrace) |
 | Versions | v1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libbacktrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbacktrace/xmake.lua) |
 
 ##### Install command
@@ -7647,7 +7647,7 @@ add_requires("libbacktrace")
 | -- | -- |
 | Homepage | [https://github.com/libbpf/libbpf](https://github.com/libbpf/libbpf) |
 | Versions | v0.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libbpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbpf/xmake.lua) |
 
 ##### Install command
@@ -7670,7 +7670,7 @@ add_requires("libbpf")
 | -- | -- |
 | Homepage | [https://bellard.org/bpg/](https://bellard.org/bpg/) |
 | Versions | 0.9.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libbpg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbpg/xmake.lua) |
 
 ##### Install command
@@ -7694,7 +7694,7 @@ add_requires("libbpg")
 | Homepage | [https://libbsd.freedesktop.org/wiki/](https://libbsd.freedesktop.org/wiki/) |
 | License | BSD-3-Clause |
 | Versions | 0.11.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libbsd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbsd/xmake.lua) |
 
 ##### Install command
@@ -7717,7 +7717,7 @@ add_requires("libbsd")
 | -- | -- |
 | Homepage | [https://sites.google.com/site/fullycapable/](https://sites.google.com/site/fullycapable/) |
 | Versions | 2.27 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libcap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcap/xmake.lua) |
 
 ##### Install command
@@ -7741,7 +7741,7 @@ add_requires("libcap")
 | Homepage | [https://github.com/danfis/libccd/](https://github.com/danfis/libccd/) |
 | License | BSD-3-Clause |
 | Versions | v2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libccd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libccd/xmake.lua) |
 
 ##### Install command
@@ -7764,7 +7764,7 @@ add_requires("libccd")
 | -- | -- |
 | Homepage | [https://github.com/anrieff/libcpuid](https://github.com/anrieff/libcpuid) |
 | Versions | v0.5.1, v0.6.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libcpuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcpuid/xmake.lua) |
 
 ##### Install command
@@ -7788,7 +7788,7 @@ add_requires("libcpuid")
 | Homepage | [https://gitlab.com/inkscape/libcroco](https://gitlab.com/inkscape/libcroco) |
 | License | LGPL-2.0 |
 | Versions | 0.6.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libcroco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcroco/xmake.lua) |
 
 ##### Install command
@@ -7812,7 +7812,7 @@ add_requires("libcroco")
 | Homepage | [https://curl.haxx.se/](https://curl.haxx.se/) |
 | License | MIT |
 | Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0, 7.80.0, 7.81.0, 7.82.0, 7.84.0, 7.85.0, 7.86.0, 7.87.0, 8.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libcurl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcurl/xmake.lua) |
 
 ##### Install command
@@ -7836,7 +7836,7 @@ add_requires("libcurl")
 | Homepage | [https://sourceforge.net/projects/libdc1394/](https://sourceforge.net/projects/libdc1394/) |
 | License | LGPL-2.1 |
 | Versions | 2.2.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libdc1394/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdc1394/xmake.lua) |
 
 ##### Install command
@@ -7860,7 +7860,7 @@ add_requires("libdc1394")
 | Homepage | [https://www.libde265.org/](https://www.libde265.org/) |
 | License | LGPL-3.0 |
 | Versions | 1.0.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libde265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libde265/xmake.lua) |
 
 ##### Install command
@@ -7884,7 +7884,7 @@ add_requires("libde265")
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
 | Versions | v1.10, v1.13, v1.15, v1.17, v1.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
 ##### Install command
@@ -7908,7 +7908,7 @@ add_requires("libdeflate")
 | Homepage | [https://github.com/sustrik/libdill](https://github.com/sustrik/libdill) |
 | License | MIT |
 | Versions | 2022.08.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libdill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdill/xmake.lua) |
 
 ##### Install command
@@ -7931,7 +7931,7 @@ add_requires("libdill")
 | -- | -- |
 | Homepage | [http://libdivide.com](http://libdivide.com) |
 | Versions | 5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
 
 ##### Install command
@@ -7954,7 +7954,7 @@ add_requires("libdivide")
 | -- | -- |
 | Homepage | [https://android.googlesource.com/platform/external/libdivsufsort/](https://android.googlesource.com/platform/external/libdivsufsort/) |
 | Versions | 2021.2.18 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libdivsufsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivsufsort/xmake.lua) |
 
 ##### Install command
@@ -7977,7 +7977,7 @@ add_requires("libdivsufsort")
 | -- | -- |
 | Homepage | [https://web.archive.org/web/20181111033959/www.mr511.de/software/english.html](https://web.archive.org/web/20181111033959/www.mr511.de/software/english.html) |
 | Versions | 0.8.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libelf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libelf/xmake.lua) |
 
 ##### Install command
@@ -8001,7 +8001,7 @@ add_requires("libelf")
 | Homepage | [https://download.gnome.org/sources/libepoxy/](https://download.gnome.org/sources/libepoxy/) |
 | License | MIT |
 | Versions | 1.5.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libepoxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libepoxy/xmake.lua) |
 
 ##### Install command
@@ -8024,7 +8024,7 @@ add_requires("libepoxy")
 | -- | -- |
 | Homepage | [http://software.schmorp.de/pkg/libev](http://software.schmorp.de/pkg/libev) |
 | Versions | 4.33 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libev/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libev/xmake.lua) |
 
 ##### Install command
@@ -8048,7 +8048,7 @@ add_requires("libev")
 | Homepage | [https://libevent.org/](https://libevent.org/) |
 | License | BSD-3-Clause |
 | Versions | 2.1.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libevent/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libevent/xmake.lua) |
 
 ##### Install command
@@ -8072,7 +8072,7 @@ add_requires("libevent")
 | Homepage | [https://ofiwg.github.io/libfabric/](https://ofiwg.github.io/libfabric/) |
 | License | BSD-2-Clause |
 | Versions | 1.13.0, 1.17.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfabric/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfabric/xmake.lua) |
 
 ##### Install command
@@ -8096,7 +8096,7 @@ add_requires("libfabric")
 | Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
 | License | MIT |
 | Versions | 3.2.1, 3.3, 3.4.2, 3.4.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
 
 ##### Install command
@@ -8119,7 +8119,7 @@ add_requires("libffi")
 | -- | -- |
 | Homepage | [https://github.com/iqiyi/libfiber](https://github.com/iqiyi/libfiber) |
 | Versions | v0.9.0+0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfiber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfiber/xmake.lua) |
 
 ##### Install command
@@ -8142,7 +8142,7 @@ add_requires("libfiber")
 | -- | -- |
 | Homepage | [https://libfive.com/](https://libfive.com/) |
 | Versions | 2021.04.08, 2022.02.22 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfive/xmake.lua) |
 
 ##### Install command
@@ -8166,7 +8166,7 @@ add_requires("libfive")
 | Homepage | [https://xiph.org/flac](https://xiph.org/flac) |
 | License | BSD |
 | Versions | 1.3.3, 1.4.2, 1.4.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libflac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libflac/xmake.lua) |
 
 ##### Install command
@@ -8190,7 +8190,7 @@ add_requires("libflac")
 | Homepage | [https://github.com/OpenKinect/libfreenect2](https://github.com/OpenKinect/libfreenect2) |
 | License | GPL-2.0 |
 | Versions | v0.2.0, v0.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfreenect2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfreenect2/xmake.lua) |
 
 ##### Install command
@@ -8213,7 +8213,7 @@ add_requires("libfreenect2")
 | -- | -- |
 | Homepage | [https://emcrisostomo.github.io/fswatch/](https://emcrisostomo.github.io/fswatch/) |
 | Versions | 1.17.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfswatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfswatch/xmake.lua) |
 
 ##### Install command
@@ -8237,7 +8237,7 @@ add_requires("libfswatch")
 | Homepage | [https://github.com/libfuse/libfuse](https://github.com/libfuse/libfuse) |
 | License | GPL-2.0 |
 | Versions | 3.10.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfuse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfuse/xmake.lua) |
 
 ##### Install command
@@ -8261,7 +8261,7 @@ add_requires("libfuse")
 | Homepage | [https://www.gnupg.org/related_software/libgcrypt/](https://www.gnupg.org/related_software/libgcrypt/) |
 | License | GPL-2.0 |
 | Versions | 1.10.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libgcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgcrypt/xmake.lua) |
 
 ##### Install command
@@ -8284,7 +8284,7 @@ add_requires("libgcrypt")
 | -- | -- |
 | Homepage | [http://libgd.org/](http://libgd.org/) |
 | Versions | 2.3.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libgd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgd/xmake.lua) |
 
 ##### Install command
@@ -8308,7 +8308,7 @@ add_requires("libgd")
 | Homepage | [https://github.com/OSGeo/libgeotiff](https://github.com/OSGeo/libgeotiff) |
 | License | MIT |
 | Versions | 1.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libgeotiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgeotiff/xmake.lua) |
 
 ##### Install command
@@ -8332,7 +8332,7 @@ add_requires("libgeotiff")
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
 | Versions | v1.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
 ##### Install command
@@ -8355,7 +8355,7 @@ add_requires("libgit2")
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/glvnd/libglvnd](https://gitlab.freedesktop.org/glvnd/libglvnd) |
 | Versions | v1.3.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libglvnd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libglvnd/xmake.lua) |
 
 ##### Install command
@@ -8379,7 +8379,7 @@ add_requires("libglvnd")
 | Homepage | [https://www.gnupg.org/related_software/libgpg-error/](https://www.gnupg.org/related_software/libgpg-error/) |
 | License | GPL-2.0 |
 | Versions | 1.44 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libgpg-error/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgpg-error/xmake.lua) |
 
 ##### Install command
@@ -8403,7 +8403,7 @@ add_requires("libgpg-error")
 | Homepage | [http://libharu.org/](http://libharu.org/) |
 | License | zlib |
 | Versions | 2.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libharu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libharu/xmake.lua) |
 
 ##### Install command
@@ -8427,7 +8427,7 @@ add_requires("libharu")
 | Homepage | [https://github.com/strukturag/libheif](https://github.com/strukturag/libheif) |
 | License | LGPL-3.0 |
 | Versions | 1.12.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libheif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libheif/xmake.lua) |
 
 ##### Install command
@@ -8450,7 +8450,7 @@ add_requires("libheif")
 | -- | -- |
 | Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
 | Versions | 1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.6, 1.3.0, 1.3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
 
 ##### Install command
@@ -8473,7 +8473,7 @@ add_requires("libhv")
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libice](https://gitlab.freedesktop.org/xorg/lib/libice) |
 | Versions | 1.0.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libice/xmake.lua) |
 
 ##### Install command
@@ -8496,7 +8496,7 @@ add_requires("libice")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
 | Versions | 1.15, 1.16, 1.17 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
 
 ##### Install command
@@ -8520,7 +8520,7 @@ add_requires("libiconv")
 | Homepage | [https://www.gnu.org/software/libidn/](https://www.gnu.org/software/libidn/) |
 | License | LGPL-3.0 |
 | Versions | 2.3.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libidn2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libidn2/xmake.lua) |
 
 ##### Install command
@@ -8544,7 +8544,7 @@ add_requires("libidn2")
 | Homepage | [https://libigl.github.io/](https://libigl.github.io/) |
 | License | MPL-2.0 |
 | Versions | v2.2.0, v2.3.0, v2.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libigl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libigl/xmake.lua) |
 
 ##### Install command
@@ -8568,7 +8568,7 @@ add_requires("libigl")
 | Homepage | [https://pngquant.org/lib/](https://pngquant.org/lib/) |
 | License | GPL-3.0 |
 | Versions | 2.15.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libimagequant/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libimagequant/xmake.lua) |
 
 ##### Install command
@@ -8591,7 +8591,7 @@ add_requires("libimagequant")
 | -- | -- |
 | Homepage | [https://github.com/libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) |
 | Versions | 1.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libimobiledevice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libimobiledevice/xmake.lua) |
 
 ##### Install command
@@ -8614,7 +8614,7 @@ add_requires("libimobiledevice")
 | -- | -- |
 | Homepage | [https://github.com/libimobiledevice/libimobiledevice-glue](https://github.com/libimobiledevice/libimobiledevice-glue) |
 | Versions | 2021.11.24 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libimobiledevice-glue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libimobiledevice-glue/xmake.lua) |
 
 ##### Install command
@@ -8637,7 +8637,7 @@ add_requires("libimobiledevice-glue")
 | -- | -- |
 | Homepage | [http://isl.gforge.inria.fr/](http://isl.gforge.inria.fr/) |
 | Versions | 0.22, 0.23, 0.24 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libisl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libisl/xmake.lua) |
 
 ##### Install command
@@ -8660,7 +8660,7 @@ add_requires("libisl")
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
 | Versions | v9b, v9c, v9d, v9e |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
 ##### Install command
@@ -8684,7 +8684,7 @@ add_requires("libjpeg")
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
 | Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
 ##### Install command
@@ -8708,7 +8708,7 @@ add_requires("libjpeg-turbo")
 | Homepage | [https://jpeg.org/jpegxl](https://jpeg.org/jpegxl) |
 | License | BSD-3-Clause |
 | Versions | v0.8.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libjxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjxl/xmake.lua) |
 
 ##### Install command
@@ -8732,7 +8732,7 @@ add_requires("libjxl")
 | Homepage | [https://github.com/kmod-project/kmod](https://github.com/kmod-project/kmod) |
 | License | LGPL-2.1 |
 | Versions | v30 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libkmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libkmod/xmake.lua) |
 
 ##### Install command
@@ -8756,7 +8756,7 @@ add_requires("libkmod")
 | Homepage | [https://liblas.org/index.html](https://liblas.org/index.html) |
 | License | BSD-3-Clause |
 | Versions | 1.8.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [liblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liblas/xmake.lua) |
 
 ##### Install command
@@ -8779,7 +8779,7 @@ add_requires("liblas")
 | -- | -- |
 | Homepage | [https://www.darwinsys.com/file/](https://www.darwinsys.com/file/) |
 | Versions | 5.40 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libmagic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmagic/xmake.lua) |
 
 ##### Install command
@@ -8803,7 +8803,7 @@ add_requires("libmagic")
 | Homepage | [https://www.hadrons.org/software/libmd/](https://www.hadrons.org/software/libmd/) |
 | License | BSD-3-Clause |
 | Versions | 1.0.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libmd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmd/xmake.lua) |
 
 ##### Install command
@@ -8826,7 +8826,7 @@ add_requires("libmd")
 | -- | -- |
 | Homepage | [http://libmill.org](http://libmill.org) |
 | Versions | 2021.9.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libmill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmill/xmake.lua) |
 
 ##### Install command
@@ -8849,7 +8849,7 @@ add_requires("libmill")
 | -- | -- |
 | Homepage | [https://libmng.com/](https://libmng.com/) |
 | Versions | 2.0.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libmng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmng/xmake.lua) |
 
 ##### Install command
@@ -8872,7 +8872,7 @@ add_requires("libmng")
 | -- | -- |
 | Homepage | [https://musicpd.org/libs/libmpdclient/](https://musicpd.org/libs/libmpdclient/) |
 | Versions | 2.19 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libmpdclient/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmpdclient/xmake.lua) |
 
 ##### Install command
@@ -8896,7 +8896,7 @@ add_requires("libmpdclient")
 | Homepage | [https://www.cabextract.org.uk/libmspack/](https://www.cabextract.org.uk/libmspack/) |
 | License | LGPL-2.0 |
 | Versions | v0.10.1alpha |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libmspack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmspack/xmake.lua) |
 
 ##### Install command
@@ -8919,7 +8919,7 @@ add_requires("libmspack")
 | -- | -- |
 | Homepage | [https://github.com/D7EAD/liboai](https://github.com/D7EAD/liboai) |
 | Versions | 3.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [liboai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liboai/xmake.lua) |
 
 ##### Install command
@@ -8942,7 +8942,7 @@ add_requires("liboai")
 | -- | -- |
 | Homepage | [https://www.xiph.org/ogg/](https://www.xiph.org/ogg/) |
 | Versions | v1.3.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libogg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libogg/xmake.lua) |
 
 ##### Install command
@@ -8965,7 +8965,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://openmp.llvm.org/](https://openmp.llvm.org/) |
 | Versions | 10.0.1, 11.1.0, 12.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libomp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libomp/xmake.lua) |
 
 ##### Install command
@@ -8988,7 +8988,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | Versions | 1.3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
 ##### Install command
@@ -9012,7 +9012,7 @@ add_requires("libopus")
 | Homepage | [https://packages.debian.org/unstable/libs/libpaper1](https://packages.debian.org/unstable/libs/libpaper1) |
 | License | GPL-2.0 |
 | Versions | 1.1.28 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpaper/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpaper/xmake.lua) |
 
 ##### Install command
@@ -9036,7 +9036,7 @@ add_requires("libpaper")
 | Homepage | [https://www.tcpdump.org/](https://www.tcpdump.org/) |
 | License | BSD-3-Clause |
 | Versions | 1.10.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpcap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpcap/xmake.lua) |
 
 ##### Install command
@@ -9060,7 +9060,7 @@ add_requires("libpcap")
 | Homepage | [http://perfmon2.sourceforge.net/](http://perfmon2.sourceforge.net/) |
 | License | MIT |
 | Versions | 4.11.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpfm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpfm/xmake.lua) |
 
 ##### Install command
@@ -9084,7 +9084,7 @@ add_requires("libpfm")
 | Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
 | License | LGPL-2.1 |
 | Versions | 2.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
 
 ##### Install command
@@ -9108,7 +9108,7 @@ add_requires("libplist")
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
 | Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
 ##### Install command
@@ -9132,7 +9132,7 @@ add_requires("libpng")
 | Homepage | [https://www.postgresql.org/docs/14/libpq.html](https://www.postgresql.org/docs/14/libpq.html) |
 | License | PostgreSQL |
 | Versions | 14.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpq/xmake.lua) |
 
 ##### Install command
@@ -9155,7 +9155,7 @@ add_requires("libpq")
 | -- | -- |
 | Homepage | [http://pqxx.org/](http://pqxx.org/) |
 | Versions | 7.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpqxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpqxx/xmake.lua) |
 
 ##### Install command
@@ -9179,7 +9179,7 @@ add_requires("libpqxx")
 | Homepage | [https://github.com/rockdaboot/libpsl](https://github.com/rockdaboot/libpsl) |
 | License | MIT |
 | Versions | 0.21.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpsl/xmake.lua) |
 
 ##### Install command
@@ -9202,7 +9202,7 @@ add_requires("libpsl")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 0.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpthread-stubs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpthread-stubs/xmake.lua) |
 
 ##### Install command
@@ -9226,7 +9226,7 @@ add_requires("libpthread-stubs")
 | Homepage | [http://www.libraw.org](http://www.libraw.org) |
 | License | LGPL-2.1 |
 | Versions | 0.19.5, 0.20.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 
 ##### Install command
@@ -9249,7 +9249,7 @@ add_requires("libraw")
 | -- | -- |
 | Homepage | [https://github.com/edenhill/librdkafka](https://github.com/edenhill/librdkafka) |
 | Versions | v1.6.2, v1.8.2-POST2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
 ##### Install command
@@ -9272,7 +9272,7 @@ add_requires("librdkafka")
 | -- | -- |
 | Homepage | [https://www.libressl.org/](https://www.libressl.org/) |
 | Versions | 3.4.2, 3.7.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libressl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libressl/xmake.lua) |
 
 ##### Install command
@@ -9296,7 +9296,7 @@ add_requires("libressl")
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
 | Versions | v2.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
 ##### Install command
@@ -9320,7 +9320,7 @@ add_requires("libsais")
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
 | Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
 ##### Install command
@@ -9343,7 +9343,7 @@ add_requires("libsdl")
 | -- | -- |
 | Homepage | [https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/](https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/) |
 | Versions | 1.0.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_gfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_gfx/xmake.lua) |
 
 ##### Install command
@@ -9367,7 +9367,7 @@ add_requires("libsdl_gfx")
 | Homepage | [http://www.libsdl.org/projects/SDL_image/](http://www.libsdl.org/projects/SDL_image/) |
 | License | zlib |
 | Versions | 2.6.0, 2.6.1, 2.6.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_image/xmake.lua) |
 
 ##### Install command
@@ -9391,7 +9391,7 @@ add_requires("libsdl_image")
 | Homepage | [https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/) |
 | License | zlib |
 | Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_mixer/xmake.lua) |
 
 ##### Install command
@@ -9415,7 +9415,7 @@ add_requires("libsdl_mixer")
 | Homepage | [https://www.libsdl.org/projects/SDL_net/](https://www.libsdl.org/projects/SDL_net/) |
 | License | zlib |
 | Versions | 2.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_net/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_net/xmake.lua) |
 
 ##### Install command
@@ -9439,7 +9439,7 @@ add_requires("libsdl_net")
 | Homepage | [https://github.com/libsdl-org/SDL_ttf/](https://github.com/libsdl-org/SDL_ttf/) |
 | License | zlib |
 | Versions | 2.20.0, 2.20.1, 2.20.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_ttf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_ttf/xmake.lua) |
 
 ##### Install command
@@ -9463,7 +9463,7 @@ add_requires("libsdl_ttf")
 | Homepage | [https://libsigcplusplus.github.io/libsigcplusplus](https://libsigcplusplus.github.io/libsigcplusplus) |
 | License | LGPL-3.0-or-later |
 | Versions | 3.0.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsigc++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsigc++/xmake.lua) |
 
 ##### Install command
@@ -9486,7 +9486,7 @@ add_requires("libsigc++")
 | -- | -- |
 | Homepage | [https://github.com/p12tic/libsimdpp](https://github.com/p12tic/libsimdpp) |
 | Versions | v2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsimdpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsimdpp/xmake.lua) |
 
 ##### Install command
@@ -9509,7 +9509,7 @@ add_requires("libsimdpp")
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libsm](https://gitlab.freedesktop.org/xorg/lib/libsm) |
 | Versions | 1.2.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsm/xmake.lua) |
 
 ##### Install command
@@ -9533,7 +9533,7 @@ add_requires("libsm")
 | Homepage | [https://libsndfile.github.io/libsndfile/](https://libsndfile.github.io/libsndfile/) |
 | License | LGPL-2.1 |
 | Versions | 1.0.31, v1.0.30 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsndfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndfile/xmake.lua) |
 
 ##### Install command
@@ -9556,7 +9556,7 @@ add_requires("libsndfile")
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
 | Versions | 1.0.18 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
 ##### Install command
@@ -9580,7 +9580,7 @@ add_requires("libsodium")
 | Homepage | [http://libsound.io/](http://libsound.io/) |
 | License | MIT |
 | Versions | 2.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsoundio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsoundio/xmake.lua) |
 
 ##### Install command
@@ -9604,7 +9604,7 @@ add_requires("libsoundio")
 | Homepage | [https://www.freedesktop.org/wiki/Software/libspectre/](https://www.freedesktop.org/wiki/Software/libspectre/) |
 | License | GPL-2.0 |
 | Versions | 0.2.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libspectre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libspectre/xmake.lua) |
 
 ##### Install command
@@ -9627,7 +9627,7 @@ add_requires("libspectre")
 | -- | -- |
 | Homepage | [https://libspng.org](https://libspng.org) |
 | Versions | v0.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libspng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libspng/xmake.lua) |
 
 ##### Install command
@@ -9651,7 +9651,7 @@ add_requires("libspng")
 | Homepage | [https://sourceforge.net/projects/libsquish/](https://sourceforge.net/projects/libsquish/) |
 | License | MIT |
 | Versions | 1.15 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsquish/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsquish/xmake.lua) |
 
 ##### Install command
@@ -9675,7 +9675,7 @@ add_requires("libsquish")
 | Homepage | [https://www.libssh2.org/](https://www.libssh2.org/) |
 | License | BSD-3-Clause |
 | Versions | 1.10.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libssh2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libssh2/xmake.lua) |
 
 ##### Install command
@@ -9698,7 +9698,7 @@ add_requires("libssh2")
 | -- | -- |
 | Homepage | [https://github.com/uael/sv](https://github.com/uael/sv) |
 | Versions | 2021.11.27 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsv/xmake.lua) |
 
 ##### Install command
@@ -9721,7 +9721,7 @@ add_requires("libsv")
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
 | Versions | v325 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
 
 ##### Install command
@@ -9744,7 +9744,7 @@ add_requires("libsvm")
 | -- | -- |
 | Homepage | [https://swtch.com/libtask/](https://swtch.com/libtask/) |
 | Versions | 1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtask/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtask/xmake.lua) |
 
 ##### Install command
@@ -9768,7 +9768,7 @@ add_requires("libtask")
 | Homepage | [https://www.gnu.org/software/libtasn1/](https://www.gnu.org/software/libtasn1/) |
 | License | LGPL-2.1 |
 | Versions | 4.15.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtasn1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtasn1/xmake.lua) |
 
 ##### Install command
@@ -9791,7 +9791,7 @@ add_requires("libtasn1")
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
 | Versions | v4.1.0, v4.2.0, v4.3.0, v4.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 
 ##### Install command
@@ -9815,7 +9815,7 @@ add_requires("libtiff")
 | Homepage | [http://libtins.github.io/](http://libtins.github.io/) |
 | License | BSD-2-Clause |
 | Versions | v4.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtins/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtins/xmake.lua) |
 
 ##### Install command
@@ -9838,7 +9838,7 @@ add_requires("libtins")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libtool/](https://www.gnu.org/software/libtool/) |
 | Versions | 2.4.5, 2.4.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
 
 ##### Install command
@@ -9862,7 +9862,7 @@ add_requires("libtool")
 | Homepage | [https://pytorch.org/](https://pytorch.org/) |
 | License | BSD-3-Clause |
 | Versions | v1.11.0, v1.12.1, v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtorch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtorch/xmake.lua) |
 
 ##### Install command
@@ -9885,7 +9885,7 @@ add_requires("libtorch")
 | -- | -- |
 | Homepage | [https://libui-ng.github.io/libui-ng/](https://libui-ng.github.io/libui-ng/) |
 | Versions | 2022.12.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libui/xmake.lua) |
 
 ##### Install command
@@ -9909,7 +9909,7 @@ add_requires("libui")
 | Homepage | [https://www.gnu.org/software/libunistring/](https://www.gnu.org/software/libunistring/) |
 | License | GPL-3.0 |
 | Versions | 0.9.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libunistring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunistring/xmake.lua) |
 
 ##### Install command
@@ -9932,7 +9932,7 @@ add_requires("libunistring")
 | -- | -- |
 | Homepage | [https://www.nongnu.org/libunwind/](https://www.nongnu.org/libunwind/) |
 | Versions | v1.5, v1.6.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libunwind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunwind/xmake.lua) |
 
 ##### Install command
@@ -9955,7 +9955,7 @@ add_requires("libunwind")
 | -- | -- |
 | Homepage | [https://github.com/axboe/liburing](https://github.com/axboe/liburing) |
 | Versions | 2.1, 2.2, 2.3, 2.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [liburing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liburing/xmake.lua) |
 
 ##### Install command
@@ -9978,7 +9978,7 @@ add_requires("liburing")
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
 | Versions | v1.0.24 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 
 ##### Install command
@@ -10002,7 +10002,7 @@ add_requires("libusb")
 | Homepage | [https://github.com/libimobiledevice/libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) |
 | License | LGPL-2.1 |
 | Versions | 2021.09.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libusbmuxd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusbmuxd/xmake.lua) |
 
 ##### Install command
@@ -10026,7 +10026,7 @@ add_requires("libusbmuxd")
 | Homepage | [https://sourceforge.net/projects/libuuid](https://sourceforge.net/projects/libuuid) |
 | License | BSD-3-Clause |
 | Versions | 1.0.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libuuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuuid/xmake.lua) |
 
 ##### Install command
@@ -10050,7 +10050,7 @@ add_requires("libuuid")
 | Homepage | [http://libuv.org/](http://libuv.org/) |
 | License | MIT |
 | Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.44.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
 ##### Install command
@@ -10074,7 +10074,7 @@ add_requires("libuv")
 | Homepage | [https://github.com/latchset/libverto](https://github.com/latchset/libverto) |
 | License | MIT |
 | Versions | 0.3.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libverto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libverto/xmake.lua) |
 
 ##### Install command
@@ -10098,7 +10098,7 @@ add_requires("libverto")
 | Homepage | [https://xiph.org/vorbis](https://xiph.org/vorbis) |
 | License | BSD-3 |
 | Versions | 1.3.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libvorbis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvorbis/xmake.lua) |
 
 ##### Install command
@@ -10122,7 +10122,7 @@ add_requires("libvorbis")
 | Homepage | [https://chromium.googlesource.com/webm/libwebp/](https://chromium.googlesource.com/webm/libwebp/) |
 | License | BSD-3-Clause |
 | Versions | v1.1.0, v1.2.0, v1.2.1, v1.2.2, v1.2.3, v1.2.4, v1.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwebp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebp/xmake.lua) |
 
 ##### Install command
@@ -10145,7 +10145,7 @@ add_requires("libwebp")
 | -- | -- |
 | Homepage | [https://github.com/warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) |
 | Versions | v4.1.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebsockets/xmake.lua) |
 
 ##### Install command
@@ -10169,7 +10169,7 @@ add_requires("libwebsockets")
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
 | Versions | v0.10.6, v0.10.7, v0.10.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
 
 ##### Install command
@@ -10192,7 +10192,7 @@ add_requires("libwfkafka")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
 
 ##### Install command
@@ -10215,7 +10215,7 @@ add_requires("libx11")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.0.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxau/xmake.lua) |
 
 ##### Install command
@@ -10238,7 +10238,7 @@ add_requires("libxau")
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxaw](https://gitlab.freedesktop.org/xorg/lib/libxaw) |
 | Versions | 1.0.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxaw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxaw/xmake.lua) |
 
 ##### Install command
@@ -10261,7 +10261,7 @@ add_requires("libxaw")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.13.1, 1.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxcb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcb/xmake.lua) |
 
 ##### Install command
@@ -10284,7 +10284,7 @@ add_requires("libxcb")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxcursor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcursor/xmake.lua) |
 
 ##### Install command
@@ -10307,7 +10307,7 @@ add_requires("libxcursor")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxdamage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxdamage/xmake.lua) |
 
 ##### Install command
@@ -10330,7 +10330,7 @@ add_requires("libxdamage")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.1.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxdmcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxdmcp/xmake.lua) |
 
 ##### Install command
@@ -10353,7 +10353,7 @@ add_requires("libxdmcp")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.3.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxext/xmake.lua) |
 
 ##### Install command
@@ -10376,7 +10376,7 @@ add_requires("libxext")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 6.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxfixes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxfixes/xmake.lua) |
 
 ##### Install command
@@ -10400,7 +10400,7 @@ add_requires("libxfixes")
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | License | MIT |
 | Versions | 2.3.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxft/xmake.lua) |
 
 ##### Install command
@@ -10423,7 +10423,7 @@ add_requires("libxft")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.7.10, 1.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxi/xmake.lua) |
 
 ##### Install command
@@ -10446,7 +10446,7 @@ add_requires("libxi")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxinerama/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxinerama/xmake.lua) |
 
 ##### Install command
@@ -10470,7 +10470,7 @@ add_requires("libxinerama")
 | Homepage | [https://xkbcommon.org/](https://xkbcommon.org/) |
 | License | MIT |
 | Versions | 1.0.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxkbcommon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxkbcommon/xmake.lua) |
 
 ##### Install command
@@ -10493,7 +10493,7 @@ add_requires("libxkbcommon")
 | -- | -- |
 | Homepage | [https://xmake.io](https://xmake.io) |
 | Versions | v2.7.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmake/xmake.lua) |
 
 ##### Install command
@@ -10517,7 +10517,7 @@ add_requires("libxmake")
 | Homepage | [http://xmlsoft.org/](http://xmlsoft.org/) |
 | License | MIT |
 | Versions | 2.10.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxml2/xmake.lua) |
 
 ##### Install command
@@ -10540,7 +10540,7 @@ add_requires("libxml2")
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxmu](https://gitlab.freedesktop.org/xorg/lib/libxmu) |
 | Versions | 1.1.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxmu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmu/xmake.lua) |
 
 ##### Install command
@@ -10563,7 +10563,7 @@ add_requires("libxmu")
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxpm](https://gitlab.freedesktop.org/xorg/lib/libxpm) |
 | Versions | 3.5.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxpm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxpm/xmake.lua) |
 
 ##### Install command
@@ -10586,7 +10586,7 @@ add_requires("libxpm")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.5.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxrandr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxrandr/xmake.lua) |
 
 ##### Install command
@@ -10609,7 +10609,7 @@ add_requires("libxrandr")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 0.9.11 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxrender/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxrender/xmake.lua) |
 
 ##### Install command
@@ -10632,7 +10632,7 @@ add_requires("libxrender")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxshmfence/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxshmfence/xmake.lua) |
 
 ##### Install command
@@ -10656,7 +10656,7 @@ add_requires("libxshmfence")
 | Homepage | [http://xmlsoft.org/XSLT/](http://xmlsoft.org/XSLT/) |
 | License | MIT |
 | Versions | 1.1.34 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxslt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxslt/xmake.lua) |
 
 ##### Install command
@@ -10679,7 +10679,7 @@ add_requires("libxslt")
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxt](https://gitlab.freedesktop.org/xorg/lib/libxt) |
 | Versions | 1.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxt/xmake.lua) |
 
 ##### Install command
@@ -10703,7 +10703,7 @@ add_requires("libxt")
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | License | MIT |
 | Versions | 1.2.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxtst/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxtst/xmake.lua) |
 
 ##### Install command
@@ -10726,7 +10726,7 @@ add_requires("libxtst")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.0.11 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxv/xmake.lua) |
 
 ##### Install command
@@ -10749,7 +10749,7 @@ add_requires("libxv")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.0.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxvmc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxvmc/xmake.lua) |
 
 ##### Install command
@@ -10772,7 +10772,7 @@ add_requires("libxvmc")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxxf86vm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxxf86vm/xmake.lua) |
 
 ##### Install command
@@ -10796,7 +10796,7 @@ add_requires("libxxf86vm")
 | Homepage | [http://pyyaml.org/wiki/LibYAML](http://pyyaml.org/wiki/LibYAML) |
 | License | MIT |
 | Versions | 0.2.2, 0.2.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libyaml/xmake.lua) |
 
 ##### Install command
@@ -10820,7 +10820,7 @@ add_requires("libyaml")
 | Homepage | [https://libzip.org/](https://libzip.org/) |
 | License | BSD-3-Clause |
 | Versions | v1.8.0, v1.9.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
 
 ##### Install command
@@ -10844,7 +10844,7 @@ add_requires("libzip")
 | Homepage | [https://lief.quarkslab.com](https://lief.quarkslab.com) |
 | License | Apache-2.0 |
 | Versions | 0.10.1, 0.11.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lief/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lief/xmake.lua) |
 
 ##### Install command
@@ -10868,7 +10868,7 @@ add_requires("lief")
 | Homepage | [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM) |
 | License | MIT |
 | Versions | 3.2.1, 3.3.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lightgbm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightgbm/xmake.lua) |
 
 ##### Install command
@@ -10892,7 +10892,7 @@ add_requires("lightgbm")
 | Homepage | [https://localcc.github.io/LightningScanner/](https://localcc.github.io/LightningScanner/) |
 | License | MIT |
 | Versions | v1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lightningscanner/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightningscanner/xmake.lua) |
 
 ##### Install command
@@ -10915,7 +10915,7 @@ add_requires("lightningscanner")
 | -- | -- |
 | Homepage | [https://github.com/antirez/linenoise](https://github.com/antirez/linenoise) |
 | Versions | 2020.3.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [linenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linenoise/xmake.lua) |
 
 ##### Install command
@@ -10939,7 +10939,7 @@ add_requires("linenoise")
 | Homepage | [https://kernel.org/](https://kernel.org/) |
 | License | GPL-2.0-only |
 | Versions | 4.20.9, 5.0.8, 5.10.46, 5.15, 5.16.9, 5.9.16 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [linux-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-headers/xmake.lua) |
 
 ##### Install command
@@ -10963,7 +10963,7 @@ add_requires("linux-headers")
 | Homepage | [https://kernel.org/](https://kernel.org/) |
 | License | GPL-2.0-only |
 | Versions | 4.20.9, 5.0.8, 5.16.9, 5.9.16 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [linux-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-tools/xmake.lua) |
 
 ##### Install command
@@ -10986,7 +10986,7 @@ add_requires("linux-tools")
 | -- | -- |
 | Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
 | Versions | 2023.01.05 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
 
 ##### Install command
@@ -11009,7 +11009,7 @@ add_requires("litehtml")
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
 | Versions | v2.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
 
 ##### Install command
@@ -11032,7 +11032,7 @@ add_requires("littlefs")
 | -- | -- |
 | Homepage | [https://github.com/ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) |
 | Versions | 2023.03.11 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [llama.cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llama.cpp/xmake.lua) |
 
 ##### Install command
@@ -11056,7 +11056,7 @@ add_requires("llama.cpp")
 | Homepage | [https://github.com/ned14/llfio](https://github.com/ned14/llfio) |
 | License | Apache-2.0 |
 | Versions | 2022.9.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [llfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llfio/xmake.lua) |
 
 ##### Install command
@@ -11080,7 +11080,7 @@ add_requires("llfio")
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
 | Versions | v3.0.0, v8.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
 ##### Install command
@@ -11103,7 +11103,7 @@ add_requires("llhttp")
 | -- | -- |
 | Homepage | [https://llvm.org/](https://llvm.org/) |
 | Versions | 11.0.0, 14.0.0, 15.0.7, 16.0.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
 
 ##### Install command
@@ -11126,7 +11126,7 @@ add_requires("llvm")
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
 | Versions | 20211002, 20220323 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 
 ##### Install command
@@ -11150,7 +11150,7 @@ add_requires("llvm-mingw")
 | Homepage | [https://lodev.org/lodepng/](https://lodev.org/lodepng/) |
 | License | zlib |
 | Versions |  |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lodepng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lodepng/xmake.lua) |
 
 ##### Install command
@@ -11174,7 +11174,7 @@ add_requires("lodepng")
 | Homepage | [https://sourceforge.net/projects/log4cplus/](https://sourceforge.net/projects/log4cplus/) |
 | License | BSD-2-Clause |
 | Versions | 2.0.6, 2.0.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [log4cplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/log4cplus/xmake.lua) |
 
 ##### Install command
@@ -11197,7 +11197,7 @@ add_requires("log4cplus")
 | -- | -- |
 | Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
 | Versions | v2.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
 
 ##### Install command
@@ -11220,7 +11220,7 @@ add_requires("loguru")
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
 | Versions | v5.1.1, v5.1.5, v5.2.3, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
 ##### Install command
@@ -11243,7 +11243,7 @@ add_requires("lua")
 | -- | -- |
 | Homepage | [https://github.com/Koihik/LuaFormatter](https://github.com/Koihik/LuaFormatter) |
 | Versions | 1.3.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lua-format/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua-format/xmake.lua) |
 
 ##### Install command
@@ -11266,7 +11266,7 @@ add_requires("lua-format")
 | -- | -- |
 | Homepage | [http://luajit.org](http://luajit.org) |
 | Versions | 2.1.0-beta3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [luajit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luajit/xmake.lua) |
 
 ##### Install command
@@ -11290,7 +11290,7 @@ add_requires("luajit")
 | Homepage | [https://luau-lang.org/](https://luau-lang.org/) |
 | License | MIT |
 | Versions | 0.538 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
 
 ##### Install command
@@ -11314,7 +11314,7 @@ add_requires("luau")
 | Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
 | License | MIT |
 | Versions | v2.3.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
 
 ##### Install command
@@ -11338,7 +11338,7 @@ add_requires("lunasvg")
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
 | Versions | v8.0.2, v8.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
 ##### Install command
@@ -11362,7 +11362,7 @@ add_requires("lvgl")
 | Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
 | License | BSL-1.0 |
 | Versions | 1.5.1, 1.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
 
 ##### Install command
@@ -11385,7 +11385,7 @@ add_requires("lyra")
 | -- | -- |
 | Homepage | [https://www.lz4.org/](https://www.lz4.org/) |
 | Versions | v1.9.3, v1.9.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lz4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lz4/xmake.lua) |
 
 ##### Install command
@@ -11408,7 +11408,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://www.7-zip.org/sdk.html](https://www.7-zip.org/sdk.html) |
 | Versions | 19.00, 22.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lzma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzma/xmake.lua) |
 
 ##### Install command
@@ -11432,7 +11432,7 @@ add_requires("lzma")
 | Homepage | [http://www.oberhumer.com/opensource/lzo](http://www.oberhumer.com/opensource/lzo) |
 | License | GPL-2.0 |
 | Versions | 2.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzo/xmake.lua) |
 
 ##### Install command
@@ -11457,7 +11457,7 @@ add_requires("lzo")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/m4](https://www.gnu.org/software/m4) |
 | Versions | 1.4.18, 1.4.19 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [m4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/m4/xmake.lua) |
 
 ##### Install command
@@ -11481,7 +11481,7 @@ add_requires("m4")
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
 | Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2, v0.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 
 ##### Install command
@@ -11505,7 +11505,7 @@ add_requires("magic_enum")
 | Homepage | [https://icl.utk.edu/magma/](https://icl.utk.edu/magma/) |
 | License | BSD-3-Clause |
 | Versions | 2.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [magma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magma/xmake.lua) |
 
 ##### Install command
@@ -11529,7 +11529,7 @@ add_requires("magma")
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
 | Versions | v2020.06 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [magnum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum/xmake.lua) |
 
 ##### Install command
@@ -11553,7 +11553,7 @@ add_requires("magnum")
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
 | Versions | v2020.06 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [magnum-extras/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum-extras/xmake.lua) |
 
 ##### Install command
@@ -11577,7 +11577,7 @@ add_requires("magnum-extras")
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
 | Versions | v2020.06 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [magnum-integration/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum-integration/xmake.lua) |
 
 ##### Install command
@@ -11601,7 +11601,7 @@ add_requires("magnum-integration")
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
 | Versions | v2020.06 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [magnum-plugins/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum-plugins/xmake.lua) |
 
 ##### Install command
@@ -11624,7 +11624,7 @@ add_requires("magnum-plugins")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
 | Versions | 4.2.1, 4.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 
 ##### Install command
@@ -11647,7 +11647,7 @@ add_requires("make")
 | -- | -- |
 | Homepage | [%s](%s) |
 | Versions | 1.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [managedc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/managedc/xmake.lua) |
 
 ##### Install command
@@ -11671,7 +11671,7 @@ add_requires("managedc")
 | Homepage | [https://github.com/mapbox/earcut.hpp](https://github.com/mapbox/earcut.hpp) |
 | License | ISC |
 | Versions | 2.2.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mapbox_earcut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_earcut/xmake.lua) |
 
 ##### Install command
@@ -11695,7 +11695,7 @@ add_requires("mapbox_earcut")
 | Homepage | [https://github.com/mapbox/eternal](https://github.com/mapbox/eternal) |
 | License | ISC |
 | Versions | v1.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mapbox_eternal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_eternal/xmake.lua) |
 
 ##### Install command
@@ -11719,7 +11719,7 @@ add_requires("mapbox_eternal")
 | Homepage | [https://github.com/mapbox/geometry.hpp](https://github.com/mapbox/geometry.hpp) |
 | License | ISC |
 | Versions | 1.1.0, 2.0.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mapbox_geometry/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_geometry/xmake.lua) |
 
 ##### Install command
@@ -11743,7 +11743,7 @@ add_requires("mapbox_geometry")
 | Homepage | [https://github.com/mapbox/variant](https://github.com/mapbox/variant) |
 | License | BSD |
 | Versions | v1.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mapbox_variant/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_variant/xmake.lua) |
 
 ##### Install command
@@ -11767,7 +11767,7 @@ add_requires("mapbox_variant")
 | Homepage | [https://github.com/mariadb-corporation/mariadb-connector-c](https://github.com/mariadb-corporation/mariadb-connector-c) |
 | License | LGPL-2.1 |
 | Versions | 3.1.13, 3.3.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mariadb-connector-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mariadb-connector-c/xmake.lua) |
 
 ##### Install command
@@ -11790,7 +11790,7 @@ add_requires("mariadb-connector-c")
 | -- | -- |
 | Homepage | [https://github.com/s-yata/marisa-trie](https://github.com/s-yata/marisa-trie) |
 | Versions | v0.2.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [marisa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marisa/xmake.lua) |
 
 ##### Install command
@@ -11813,7 +11813,7 @@ add_requires("marisa")
 | -- | -- |
 | Homepage | [https://github.com/google/marl](https://github.com/google/marl) |
 | Versions | 2021.8.18, 2022.3.02 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [marl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marl/xmake.lua) |
 
 ##### Install command
@@ -11837,7 +11837,7 @@ add_requires("marl")
 | Homepage | [http://google.github.io/mathfu](http://google.github.io/mathfu) |
 | License | Apache-2.0 |
 | Versions | 2022.5.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mathfu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mathfu/xmake.lua) |
 
 ##### Install command
@@ -11861,7 +11861,7 @@ add_requires("mathfu")
 | Homepage | [https://alandefreitas.github.io/matplotplusplus/](https://alandefreitas.github.io/matplotplusplus/) |
 | License | MIT |
 | Versions | v1.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [matplotplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matplotplusplus/xmake.lua) |
 
 ##### Install command
@@ -11885,7 +11885,7 @@ add_requires("matplotplusplus")
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
 | License | Apache-2.0 |
 | Versions | v2.13.0, v2.25.0, v2.28.3, v2.7.6, v3.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 
 ##### Install command
@@ -11909,7 +11909,7 @@ add_requires("mbedtls")
 | Homepage | [https://cutdigital.github.io/mcut.site/](https://cutdigital.github.io/mcut.site/) |
 | License | GPL-3.0 |
 | Versions | v1.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mcut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mcut/xmake.lua) |
 
 ##### Install command
@@ -11932,7 +11932,7 @@ add_requires("mcut")
 | -- | -- |
 | Homepage | [https://github.com/mjansson/mdns](https://github.com/mjansson/mdns) |
 | Versions | 1.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mdns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdns/xmake.lua) |
 
 ##### Install command
@@ -11955,7 +11955,7 @@ add_requires("mdns")
 | -- | -- |
 | Homepage | [https://github.com/0x1F9F1/mem](https://github.com/0x1F9F1/mem) |
 | Versions | 1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mem/xmake.lua) |
 
 ##### Install command
@@ -11978,7 +11978,7 @@ add_requires("mem")
 | -- | -- |
 | Homepage | [https://mollyrocket.com/meowhash](https://mollyrocket.com/meowhash) |
 | Versions | 1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [meowhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meowhash/xmake.lua) |
 
 ##### Install command
@@ -12002,7 +12002,7 @@ add_requires("meowhash")
 | Homepage | [https://github.com/zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) |
 | License | MIT |
 | Versions | v0.18 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [meshoptimizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meshoptimizer/xmake.lua) |
 
 ##### Install command
@@ -12026,7 +12026,7 @@ add_requires("meshoptimizer")
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
 | Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
 ##### Install command
@@ -12049,7 +12049,7 @@ add_requires("meson")
 | -- | -- |
 | Homepage | [http://glaros.dtc.umn.edu/gkhome/metis/metis/overview](http://glaros.dtc.umn.edu/gkhome/metis/metis/overview) |
 | Versions | 5.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [metis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/metis/xmake.lua) |
 
 ##### Install command
@@ -12073,7 +12073,7 @@ add_requires("metis")
 | Homepage | [https://github.com/objectcomputing/mFAST](https://github.com/objectcomputing/mFAST) |
 | License | BSD-3-Clause |
 | Versions | v1.2.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mfast/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mfast/xmake.lua) |
 
 ##### Install command
@@ -12097,7 +12097,7 @@ add_requires("mfast")
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
 | Versions | v3.1.0, v4.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
 ##### Install command
@@ -12121,7 +12121,7 @@ add_requires("microsoft-gsl")
 | Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
 | License | MIT |
 | Versions | 1.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [microsoft-proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-proxy/xmake.lua) |
 
 ##### Install command
@@ -12144,7 +12144,7 @@ add_requires("microsoft-proxy")
 | -- | -- |
 | Homepage | [http://www.mikktspace.com/](http://www.mikktspace.com/) |
 | Versions | 2020.03.26 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mikktspace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mikktspace/xmake.lua) |
 
 ##### Install command
@@ -12168,7 +12168,7 @@ add_requires("mikktspace")
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
 | Versions | 1.6.7, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.7.6, 1.7.7, 2.0.1, 2.0.2, 2.0.3, 2.0.5, 2.0.6, 2.0.7, 2.1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
 ##### Install command
@@ -12191,7 +12191,7 @@ add_requires("mimalloc")
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
 | Versions | 0.11.15, 0.11.16, 0.11.17 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
 ##### Install command
@@ -12215,7 +12215,7 @@ add_requires("miniaudio")
 | Homepage | [https://github.com/emoon/minifb](https://github.com/emoon/minifb) |
 | License | MIT |
 | Versions | 2022.11.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [minifb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minifb/xmake.lua) |
 
 ##### Install command
@@ -12238,7 +12238,7 @@ add_requires("minifb")
 | -- | -- |
 | Homepage | [http://www.oberhumer.com/opensource/lzo/#minilzo](http://www.oberhumer.com/opensource/lzo/#minilzo) |
 | Versions | 2.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [minilzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minilzo/xmake.lua) |
 
 ##### Install command
@@ -12262,7 +12262,7 @@ add_requires("minilzo")
 | Homepage | [https://github.com/lieff/minimp3](https://github.com/lieff/minimp3) |
 | License | CC0 |
 | Versions | 2021.05.29 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [minimp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minimp3/xmake.lua) |
 
 ##### Install command
@@ -12286,7 +12286,7 @@ add_requires("minimp3")
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
 | Versions | 2.1.0, 2.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
 ##### Install command
@@ -12310,7 +12310,7 @@ add_requires("miniz")
 | Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
 | License | zlib |
 | Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
 
 ##### Install command
@@ -12334,7 +12334,7 @@ add_requires("minizip")
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
 | License | zlib |
 | Versions | 3.0.3, 3.0.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 
 ##### Install command
@@ -12358,7 +12358,7 @@ add_requires("minizip-ng")
 | Homepage | [https://github.com/mandreyel/mio](https://github.com/mandreyel/mio) |
 | License | MIT |
 | Versions | 2021.9.21 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mio/xmake.lua) |
 
 ##### Install command
@@ -12382,7 +12382,7 @@ add_requires("mio")
 | Homepage | [https://github.com/cesanta/mjson](https://github.com/cesanta/mjson) |
 | License | MIT |
 | Versions | 1.2.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mjson/xmake.lua) |
 
 ##### Install command
@@ -12405,7 +12405,7 @@ add_requires("mjson")
 | -- | -- |
 | Homepage | [https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html) |
 | Versions | 2021.2.0+296, 2021.3.0+520, 2022.1.0+223 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mkl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mkl/xmake.lua) |
 
 ##### Install command
@@ -12429,7 +12429,7 @@ add_requires("mkl")
 | Homepage | [https://github.com/jdumas/mma](https://github.com/jdumas/mma) |
 | License | MIT |
 | Versions | 2018.08.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mma/xmake.lua) |
 
 ##### Install command
@@ -12453,7 +12453,7 @@ add_requires("mma")
 | Homepage | [https://www.mnn.zone/](https://www.mnn.zone/) |
 | License | Apache-2.0 |
 | Versions | 1.2.1, 1.2.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mnn/xmake.lua) |
 
 ##### Install command
@@ -12476,7 +12476,7 @@ add_requires("mnn")
 | -- | -- |
 | Homepage | [https://github.com/rui314/mold](https://github.com/rui314/mold) |
 | Versions | 1.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mold/xmake.lua) |
 
 ##### Install command
@@ -12500,7 +12500,7 @@ add_requires("mold")
 | Homepage | [http://mongoc.org/](http://mongoc.org/) |
 | License | Apache-2.0 |
 | Versions | 1.19.0, 1.20.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mongo-c-driver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongo-c-driver/xmake.lua) |
 
 ##### Install command
@@ -12523,7 +12523,7 @@ add_requires("mongo-c-driver")
 | -- | -- |
 | Homepage | [https://github.com/mongodb/mongo-cxx-driver](https://github.com/mongodb/mongo-cxx-driver) |
 | Versions | 3.6.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mongo-cxx-driver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongo-cxx-driver/xmake.lua) |
 
 ##### Install command
@@ -12547,7 +12547,7 @@ add_requires("mongo-cxx-driver")
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
 | Versions | 7.11 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
 ##### Install command
@@ -12570,7 +12570,7 @@ add_requires("mongoose")
 | -- | -- |
 | Homepage | [https://www.mono-project.com/](https://www.mono-project.com/) |
 | Versions | 6.8.0+123 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mono/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mono/xmake.lua) |
 
 ##### Install command
@@ -12593,7 +12593,7 @@ add_requires("mono")
 | -- | -- |
 | Homepage | [https://github.com/moonjit/moonjit](https://github.com/moonjit/moonjit) |
 | Versions | 2.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [moonjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moonjit/xmake.lua) |
 
 ##### Install command
@@ -12617,7 +12617,7 @@ add_requires("moonjit")
 | Homepage | [http://www.multiprecision.org/mpc/](http://www.multiprecision.org/mpc/) |
 | License | LGPL-3.0 |
 | Versions | 1.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpc/xmake.lua) |
 
 ##### Install command
@@ -12641,7 +12641,7 @@ add_requires("mpc")
 | Homepage | [https://www.bytereef.org/mpdecimal/index.html](https://www.bytereef.org/mpdecimal/index.html) |
 | License | BSD-2-Clause |
 | Versions | 2.5.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mpdecimal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpdecimal/xmake.lua) |
 
 ##### Install command
@@ -12665,7 +12665,7 @@ add_requires("mpdecimal")
 | Homepage | [https://www.mpfr.org/](https://www.mpfr.org/) |
 | License | LGPL-3.0 |
 | Versions | 4.1.0, 4.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mpfr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpfr/xmake.lua) |
 
 ##### Install command
@@ -12688,7 +12688,7 @@ add_requires("mpfr")
 | -- | -- |
 | Homepage | [https://www.mpich.org/](https://www.mpich.org/) |
 | Versions | 3.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mpich/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpich/xmake.lua) |
 
 ##### Install command
@@ -12711,7 +12711,7 @@ add_requires("mpich")
 | -- | -- |
 | Homepage | [https://github.com/rigtorp/MPMCQueue](https://github.com/rigtorp/MPMCQueue) |
 | Versions | v1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mpmcqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpmcqueue/xmake.lua) |
 
 ##### Install command
@@ -12735,7 +12735,7 @@ add_requires("mpmcqueue")
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
 | Versions | v1.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
 ##### Install command
@@ -12759,7 +12759,7 @@ add_requires("msdfgen")
 | Homepage | [https://msgpack.org/](https://msgpack.org/) |
 | License | BSL-1.0 |
 | Versions | 4.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [msgpack-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-c/xmake.lua) |
 
 ##### Install command
@@ -12783,7 +12783,7 @@ add_requires("msgpack-c")
 | Homepage | [https://msgpack.org/](https://msgpack.org/) |
 | License | BSL-1.0 |
 | Versions | 4.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [msgpack-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-cxx/xmake.lua) |
 
 ##### Install command
@@ -12807,7 +12807,7 @@ add_requires("msgpack-cxx")
 | Homepage | [https://github.com/microsoft/msquic](https://github.com/microsoft/msquic) |
 | License | MIT |
 | Versions | v1.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [msquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msquic/xmake.lua) |
 
 ##### Install command
@@ -12830,7 +12830,7 @@ add_requires("msquic")
 | -- | -- |
 | Homepage | [http://mumps.enseeiht.fr/](http://mumps.enseeiht.fr/) |
 | Versions | 5.4.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mumps/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mumps/xmake.lua) |
 
 ##### Install command
@@ -12853,7 +12853,7 @@ add_requires("mumps")
 | -- | -- |
 | Homepage | [https://musl.cc/](https://musl.cc/) |
 | Versions | 20210202 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [muslcc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muslcc/xmake.lua) |
 
 ##### Install command
@@ -12877,7 +12877,7 @@ add_requires("muslcc")
 | Homepage | [https://www.msweet.org/mxml/](https://www.msweet.org/mxml/) |
 | License | Apache-2.0 |
 | Versions | 3.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mxml/xmake.lua) |
 
 ##### Install command
@@ -12900,7 +12900,7 @@ add_requires("mxml")
 | -- | -- |
 | Homepage | [https://dev.mysql.com/doc](https://dev.mysql.com/doc) |
 | Versions | 5.7.29, 8.0.31 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mysql/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mysql/xmake.lua) |
 
 ##### Install command
@@ -12923,7 +12923,7 @@ add_requires("mysql")
 | -- | -- |
 | Homepage | [https://tangentsoft.com/mysqlpp/wiki?name=MySQL%2B%2B&p&nsm](https://tangentsoft.com/mysqlpp/wiki?name=MySQL%2B%2B&p&nsm) |
 | Versions | 3.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mysqlpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mysqlpp/xmake.lua) |
 
 ##### Install command
@@ -12949,7 +12949,7 @@ add_requires("mysqlpp")
 | Homepage | [https://github.com/joboccara/NamedType](https://github.com/joboccara/NamedType) |
 | License | MIT |
 | Versions | v1.1.0.20210209 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [named_type/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/named_type/xmake.lua) |
 
 ##### Install command
@@ -12973,7 +12973,7 @@ add_requires("named_type")
 | Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
 | License | MIT |
 | Versions | 0.10.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
 
 ##### Install command
@@ -12996,7 +12996,7 @@ add_requires("nameof")
 | -- | -- |
 | Homepage | [http://nanapro.org](http://nanapro.org) |
 | Versions | 1.6.2, 1.7.2, 1.7.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nana/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nana/xmake.lua) |
 
 ##### Install command
@@ -13020,7 +13020,7 @@ add_requires("nana")
 | Homepage | [https://nanobench.ankerl.com](https://nanobench.ankerl.com) |
 | License | MIT |
 | Versions | v4.3.11 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanobench/xmake.lua) |
 
 ##### Install command
@@ -13044,7 +13044,7 @@ add_requires("nanobench")
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
 | Versions | v1.3.2, v1.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 
 ##### Install command
@@ -13067,7 +13067,7 @@ add_requires("nanoflann")
 | -- | -- |
 | Homepage | [https://github.com/wjakob/nanogui](https://github.com/wjakob/nanogui) |
 | Versions | 2019.9.23 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanogui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanogui/xmake.lua) |
 
 ##### Install command
@@ -13091,7 +13091,7 @@ add_requires("nanogui")
 | Homepage | [https://github.com/memononen/nanosvg](https://github.com/memononen/nanosvg) |
 | License | zlib |
 | Versions | 2022.07.09 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanosvg/xmake.lua) |
 
 ##### Install command
@@ -13114,7 +13114,7 @@ add_requires("nanosvg")
 | -- | -- |
 | Homepage | [https://developer.nvidia.com/nanovdb](https://developer.nvidia.com/nanovdb) |
 | Versions | 20201219 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanovdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanovdb/xmake.lua) |
 
 ##### Install command
@@ -13138,7 +13138,7 @@ add_requires("nanovdb")
 | Homepage | [https://github.com/memononen/nanovg/](https://github.com/memononen/nanovg/) |
 | License | zlib |
 | Versions | 2021.11.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanovg/xmake.lua) |
 
 ##### Install command
@@ -13162,7 +13162,7 @@ add_requires("nanovg")
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
 | License | BSD-2-Clause |
 | Versions | 2.13.03, 2.15.05 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 
 ##### Install command
@@ -13186,7 +13186,7 @@ add_requires("nasm")
 | Homepage | [https://github.com/mlabbe/nativefiledialog](https://github.com/mlabbe/nativefiledialog) |
 | License | zlib |
 | Versions | 1.1.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nativefiledialog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nativefiledialog/xmake.lua) |
 
 ##### Install command
@@ -13209,7 +13209,7 @@ add_requires("nativefiledialog")
 | -- | -- |
 | Homepage | [https://github.com/btzy/nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) |
 | Versions | v1.0.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nativefiledialog-extended/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nativefiledialog-extended/xmake.lua) |
 
 ##### Install command
@@ -13233,7 +13233,7 @@ add_requires("nativefiledialog-extended")
 | Homepage | [https://invisible-island.net/ncurses/](https://invisible-island.net/ncurses/) |
 | License | MIT |
 | Versions | 6.1, 6.2, 6.3, 6.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
 
 ##### Install command
@@ -13256,7 +13256,7 @@ add_requires("ncurses")
 | -- | -- |
 | Homepage | [https://github.com/ndarray/ndarray](https://github.com/ndarray/ndarray) |
 | Versions | 1.6.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ndarray/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndarray/xmake.lua) |
 
 ##### Install command
@@ -13279,7 +13279,7 @@ add_requires("ndarray")
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
 | Versions | 21.0, 22.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 
 ##### Install command
@@ -13303,7 +13303,7 @@ add_requires("ndk")
 | Homepage | [https://www.lysator.liu.se/~nisse/nettle/](https://www.lysator.liu.se/~nisse/nettle/) |
 | License | LGPL-3.0 |
 | Versions | 3.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nettle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nettle/xmake.lua) |
 
 ##### Install command
@@ -13327,7 +13327,7 @@ add_requires("nettle")
 | Homepage | [http://newtondynamics.com](http://newtondynamics.com) |
 | License | zlib |
 | Versions | v3.14d |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [newtondynamics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/newtondynamics/xmake.lua) |
 
 ##### Install command
@@ -13351,7 +13351,7 @@ add_requires("newtondynamics")
 | Homepage | [http://newtondynamics.com](http://newtondynamics.com) |
 | License | zlib |
 | Versions | v3.14d |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [newtondynamics3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/newtondynamics3/xmake.lua) |
 
 ##### Install command
@@ -13375,7 +13375,7 @@ add_requires("newtondynamics3")
 | Homepage | [http://newtondynamics.com](http://newtondynamics.com) |
 | License | zlib |
 | Versions | v4.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [newtondynamics4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/newtondynamics4/xmake.lua) |
 
 ##### Install command
@@ -13399,7 +13399,7 @@ add_requires("newtondynamics4")
 | Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
 | License | MIT |
 | Versions | 1.46.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
 
 ##### Install command
@@ -13423,7 +13423,7 @@ add_requires("nghttp2")
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
 | Versions | 2022.02.08 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
 ##### Install command
@@ -13447,7 +13447,7 @@ add_requires("nghttp3")
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
 | Versions | 0.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
 ##### Install command
@@ -13471,7 +13471,7 @@ add_requires("ngtcp2")
 | Homepage | [https://nifti.nimh.nih.gov/](https://nifti.nimh.nih.gov/) |
 | License | Public Domain |
 | Versions | 0.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [niftiheader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/niftiheader/xmake.lua) |
 
 ##### Install command
@@ -13494,7 +13494,7 @@ add_requires("niftiheader")
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
 | Versions | 1.10.1, 1.10.2, 1.11.0, 1.11.1, 1.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
 ##### Install command
@@ -13518,7 +13518,7 @@ add_requires("ninja")
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
 | License | MIT |
 | Versions | v3.10.0, v3.10.5, v3.11.2, v3.9.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
 ##### Install command
@@ -13542,7 +13542,7 @@ add_requires("nlohmann_json")
 | Homepage | [https://github.com/stevengj/nlopt/](https://github.com/stevengj/nlopt/) |
 | License | LGPL-2.1 |
 | Versions | v2.7.0, v2.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nlopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlopt/xmake.lua) |
 
 ##### Install command
@@ -13565,7 +13565,7 @@ add_requires("nlopt")
 | -- | -- |
 | Homepage | [https://github.com/nanomsg/nng](https://github.com/nanomsg/nng) |
 | Versions | 1.3.2, 1.4.0, 1.5.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
 
 ##### Install command
@@ -13588,7 +13588,7 @@ add_requires("nng")
 | -- | -- |
 | Homepage | [https://github.com/cwzx/nngpp](https://github.com/cwzx/nngpp) |
 | Versions | v2020.10.30 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nngpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nngpp/xmake.lua) |
 
 ##### Install command
@@ -13612,7 +13612,7 @@ add_requires("nngpp")
 | Homepage | [https://github.com/fr00b0/nod](https://github.com/fr00b0/nod) |
 | License | MIT |
 | Versions | v0.5.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nod/xmake.lua) |
 
 ##### Install command
@@ -13636,7 +13636,7 @@ add_requires("nod")
 | Homepage | [https://github.com/paceholder/nodeeditor](https://github.com/paceholder/nodeeditor) |
 | License | BSD-3 |
 | Versions | 2.1.3, 2.2.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nodeeditor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodeeditor/xmake.lua) |
 
 ##### Install command
@@ -13659,7 +13659,7 @@ add_requires("nodeeditor")
 | -- | -- |
 | Homepage | [https://github.com/olvb/nodesoup](https://github.com/olvb/nodesoup) |
 | Versions | 2020.09.05 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nodesoup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodesoup/xmake.lua) |
 
 ##### Install command
@@ -13683,7 +13683,7 @@ add_requires("nodesoup")
 | Homepage | [https://github.com/rweather/noise-c](https://github.com/rweather/noise-c) |
 | License | MIT |
 | Versions | 2021.04.09 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [noise-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/noise-c/xmake.lua) |
 
 ##### Install command
@@ -13707,7 +13707,7 @@ add_requires("noise-c")
 | Homepage | [https://github.com/boostorg/nowide/tree/standalone](https://github.com/boostorg/nowide/tree/standalone) |
 | License | Boost Software License, Version 1.0 |
 | Versions | 11.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nowide_standalone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nowide_standalone/xmake.lua) |
 
 ##### Install command
@@ -13731,7 +13731,7 @@ add_requires("nowide_standalone")
 | Homepage | [https://github.com/ned14/ntkernel-error-category](https://github.com/ned14/ntkernel-error-category) |
 | License | Apache-2.0 |
 | Versions | v1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ntkernel-error-category/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ntkernel-error-category/xmake.lua) |
 
 ##### Install command
@@ -13755,7 +13755,7 @@ add_requires("ntkernel-error-category")
 | Homepage | [https://immediate-mode-ui.github.io/Nuklear/doc/index.html](https://immediate-mode-ui.github.io/Nuklear/doc/index.html) |
 | License | MIT |
 | Versions | 4.10.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nuklear/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nuklear/xmake.lua) |
 
 ##### Install command
@@ -13779,7 +13779,7 @@ add_requires("nuklear")
 | Homepage | [https://github.com/numactl/numactl](https://github.com/numactl/numactl) |
 | License | LGPL-2.1 |
 | Versions | 2.0.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [numactl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/numactl/xmake.lua) |
 
 ##### Install command
@@ -13803,7 +13803,7 @@ add_requires("numactl")
 | Homepage | [https://github.com/dpilger26/NumCpp](https://github.com/dpilger26/NumCpp) |
 | License | MIT |
 | Versions | 2.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [numcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/numcpp/xmake.lua) |
 
 ##### Install command
@@ -13827,7 +13827,7 @@ add_requires("numcpp")
 | Homepage | [https://developer.nvidia.com/legacy-texture-tools](https://developer.nvidia.com/legacy-texture-tools) |
 | License | MIT |
 | Versions | 2.1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nvtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nvtt/xmake.lua) |
 
 ##### Install command
@@ -13853,7 +13853,7 @@ add_requires("nvtt")
 | Homepage | [https://oatpp.io/](https://oatpp.io/) |
 | License | Apache-2.0 |
 | Versions | 1.0.0, 1.2.5, 1.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [oatpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oatpp/xmake.lua) |
 
 ##### Install command
@@ -13876,7 +13876,7 @@ add_requires("oatpp")
 | -- | -- |
 | Homepage | [https://objfw.nil.im](https://objfw.nil.im) |
 | Versions | 2023.03.18 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [objfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/objfw/xmake.lua) |
 
 ##### Install command
@@ -13900,7 +13900,7 @@ add_requires("objfw")
 | Homepage | [https://octomap.github.io/](https://octomap.github.io/) |
 | License | BSD-3-Clause |
 | Versions | v1.9.7, v1.9.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [octomap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/octomap/xmake.lua) |
 
 ##### Install command
@@ -13924,7 +13924,7 @@ add_requires("octomap")
 | Homepage | [http://ode.org/](http://ode.org/) |
 | License | BSD-3-Clause |
 | Versions | 0.16.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ode/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ode/xmake.lua) |
 
 ##### Install command
@@ -13948,7 +13948,7 @@ add_requires("ode")
 | Homepage | [https://www.ogre3d.org/](https://www.ogre3d.org/) |
 | License | MIT |
 | Versions | v2.2.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ogre-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ogre-next/xmake.lua) |
 
 ##### Install command
@@ -13972,7 +13972,7 @@ add_requires("ogre-next")
 | Homepage | [https://tsoding.github.io/olive.c/](https://tsoding.github.io/olive.c/) |
 | License | MIT |
 | Versions | 2022.12.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [olive.c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/olive.c/xmake.lua) |
 
 ##### Install command
@@ -14019,7 +14019,7 @@ add_requires("onednn")
 | -- | -- |
 | Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-library.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-library.html) |
 | Versions | 2021.6.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [onedpl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onedpl/xmake.lua) |
 
 ##### Install command
@@ -14042,7 +14042,7 @@ add_requires("onedpl")
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
 | Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
 
 ##### Install command
@@ -14066,7 +14066,7 @@ add_requires("onetbb")
 | Homepage | [https://onnx.ai/](https://onnx.ai/) |
 | License | Apache-2.0 |
 | Versions | v1.11.0, v1.12.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [onnx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onnx/xmake.lua) |
 
 ##### Install command
@@ -14138,7 +14138,7 @@ add_requires("open3d")
 | Homepage | [https://openal-soft.org](https://openal-soft.org) |
 | License | LGPL-2.0 |
 | Versions | 1.21.1, 1.22.0, 1.22.2, 1.23.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openal-soft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua) |
 
 ##### Install command
@@ -14162,7 +14162,7 @@ add_requires("openal-soft")
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
 | License | BSD-3-Clause |
 | Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
 ##### Install command
@@ -14185,7 +14185,7 @@ add_requires("openblas")
 | -- | -- |
 | Homepage | [https://github.com/BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) |
 | Versions | 1.1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencc/xmake.lua) |
 
 ##### Install command
@@ -14208,7 +14208,7 @@ add_requires("opencc")
 | -- | -- |
 | Homepage | [https://opencl.org/](https://opencl.org/) |
 | Versions | v2023.04.17 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl/xmake.lua) |
 
 ##### Install command
@@ -14232,7 +14232,7 @@ add_requires("opencl")
 | Homepage | [https://github.com/KhronosGroup/OpenCL-CLHPP/](https://github.com/KhronosGroup/OpenCL-CLHPP/) |
 | License | Apache-2.0 |
 | Versions | 1.2.8, 2.0.15 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencl-clhpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-clhpp/xmake.lua) |
 
 ##### Install command
@@ -14256,7 +14256,7 @@ add_requires("opencl-clhpp")
 | Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
 | License | Apache-2.0 |
 | Versions | v2021.06.30 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
 
 ##### Install command
@@ -14280,7 +14280,7 @@ add_requires("opencl-headers")
 | Homepage | [https://opencolorio.org/](https://opencolorio.org/) |
 | License | BSD-3-Clause |
 | Versions | v2.1.0, v2.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencolorio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencolorio/xmake.lua) |
 
 ##### Install command
@@ -14304,7 +14304,7 @@ add_requires("opencolorio")
 | Homepage | [https://opencv.org/](https://opencv.org/) |
 | License | Apache-2.0 |
 | Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3, 4.5.4, 4.5.5, 4.6.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
 
 ##### Install command
@@ -14327,7 +14327,7 @@ add_requires("opencv")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1, 3.1.3, 3.1.4, 3.1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
 ##### Install command
@@ -14351,7 +14351,7 @@ add_requires("openexr")
 | Homepage | [http://www.openh264.org/](http://www.openh264.org/) |
 | License | BSD-2-Clause |
 | Versions | v2.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openh264/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openh264/xmake.lua) |
 
 ##### Install command
@@ -14375,7 +14375,7 @@ add_requires("openh264")
 | Homepage | [https://sites.google.com/site/openimageio/home](https://sites.google.com/site/openimageio/home) |
 | License | BSD-3-Clause |
 | Versions | 2.2.19+0, 2.3.10+1, 2.3.13+0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openimageio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openimageio/xmake.lua) |
 
 ##### Install command
@@ -14399,7 +14399,7 @@ add_requires("openimageio")
 | Homepage | [http://www.openjpeg.org/](http://www.openjpeg.org/) |
 | License | BSD-2-Clause |
 | Versions | v2.3.1, v2.4.0, v2.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjpeg/xmake.lua) |
 
 ##### Install command
@@ -14422,7 +14422,7 @@ add_requires("openjpeg")
 | -- | -- |
 | Homepage | [https://www.openldap.org/](https://www.openldap.org/) |
 | Versions | 2.5.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openldap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openldap/xmake.lua) |
 
 ##### Install command
@@ -14446,7 +14446,7 @@ add_requires("openldap")
 | Homepage | [https://www.graphics.rwth-aachen.de/software/openmesh/](https://www.graphics.rwth-aachen.de/software/openmesh/) |
 | License | BSD-3-Clause |
 | Versions | 8.1, 9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openmesh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openmesh/xmake.lua) |
 
 ##### Install command
@@ -14469,7 +14469,7 @@ add_requires("openmesh")
 | -- | -- |
 | Homepage | [https://openmp.org/](https://openmp.org/) |
 | Versions |  |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openmp/xmake.lua) |
 
 ##### Install command
@@ -14493,7 +14493,7 @@ add_requires("openmp")
 | Homepage | [http://www.openpgl.org/](http://www.openpgl.org/) |
 | License | Apache-2.0 |
 | Versions | 0.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openpgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openpgl/xmake.lua) |
 
 ##### Install command
@@ -14516,7 +14516,7 @@ add_requires("openpgl")
 | -- | -- |
 | Homepage | [https://github.com/openresty/luajit2](https://github.com/openresty/luajit2) |
 | Versions | v2.1-20220310, v2.1-20230119 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openrestry-luajit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openrestry-luajit/xmake.lua) |
 
 ##### Install command
@@ -14539,7 +14539,7 @@ add_requires("openrestry-luajit")
 | -- | -- |
 | Homepage | [https://www.openscenegraph.com/](https://www.openscenegraph.com/) |
 | Versions | 3.6.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openscenegraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openscenegraph/xmake.lua) |
 
 ##### Install command
@@ -14562,7 +14562,7 @@ add_requires("openscenegraph")
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
 | Versions | 1.0.0, 1.0.2-u, 1.1.0-l, 1.1.1-h, 1.1.1-k, 1.1.1-l, 1.1.1-m, 1.1.1-n, 1.1.1-o, 1.1.1-p, 1.1.1-q, 1.1.1-r, 1.1.1-s, 1.1.1-t |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
 ##### Install command
@@ -14585,7 +14585,7 @@ add_requires("openssl")
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
 | Versions | 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openssl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl3/xmake.lua) |
 
 ##### Install command
@@ -14609,7 +14609,7 @@ add_requires("openssl3")
 | Homepage | [https://graphics.pixar.com/opensubdiv/docs/intro.html](https://graphics.pixar.com/opensubdiv/docs/intro.html) |
 | License | Apache-2.0 |
 | Versions | 3.4.4, 3.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opensubdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opensubdiv/xmake.lua) |
 
 ##### Install command
@@ -14632,7 +14632,7 @@ add_requires("opensubdiv")
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
 | Versions | v10.0.1, v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
 ##### Install command
@@ -14655,7 +14655,7 @@ add_requires("openvdb")
 | -- | -- |
 | Homepage | [https://optick.dev](https://optick.dev) |
 | Versions | 1.3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [optick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/optick/xmake.lua) |
 
 ##### Install command
@@ -14678,7 +14678,7 @@ add_requires("optick")
 | -- | -- |
 | Homepage | [https://github.com/orangeduck/mpc](https://github.com/orangeduck/mpc) |
 | Versions | 0.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [orangeduck_mpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orangeduck_mpc/xmake.lua) |
 
 ##### Install command
@@ -14702,7 +14702,7 @@ add_requires("orangeduck_mpc")
 | Homepage | [https://github.com/Tessil/ordered-map](https://github.com/Tessil/ordered-map) |
 | License | MIT |
 | Versions | v1.0.0, v1.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ordered_map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ordered_map/xmake.lua) |
 
 ##### Install command
@@ -14726,7 +14726,7 @@ add_requires("ordered_map")
 | Homepage | [https://osqp.org/](https://osqp.org/) |
 | License | Apache-2.0 |
 | Versions | v0.6.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [osqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osqp/xmake.lua) |
 
 ##### Install command
@@ -14750,7 +14750,7 @@ add_requires("osqp")
 | Homepage | [https://github.com/soasis/out_ptr](https://github.com/soasis/out_ptr) |
 | License | Apache-2.0 |
 | Versions | 2022.10.07 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [out_ptr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/out_ptr/xmake.lua) |
 
 ##### Install command
@@ -14774,7 +14774,7 @@ add_requires("out_ptr")
 | Homepage | [https://github.com/ned14/outcome](https://github.com/ned14/outcome) |
 | License | Apache-2.0 |
 | Versions | v2.2.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [outcome/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/outcome/xmake.lua) |
 
 ##### Install command
@@ -14800,7 +14800,7 @@ add_requires("outcome")
 | Homepage | [https://esa.github.io/pagmo2/index.html](https://esa.github.io/pagmo2/index.html) |
 | License | LGPL-3.0 |
 | Versions | v2.18.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pagmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pagmo/xmake.lua) |
 
 ##### Install command
@@ -14824,7 +14824,7 @@ add_requires("pagmo")
 | Homepage | [https://www.pango.org/](https://www.pango.org/) |
 | License | LGPL-2.0 |
 | Versions | 1.50.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pango/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pango/xmake.lua) |
 
 ##### Install command
@@ -14848,7 +14848,7 @@ add_requires("pango")
 | Homepage | [https://icl.utk.edu/papi/index.html](https://icl.utk.edu/papi/index.html) |
 | License | BSD-3-Clause |
 | Versions | 6.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [papi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/papi/xmake.lua) |
 
 ##### Install command
@@ -14872,7 +14872,7 @@ add_requires("papi")
 | Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
 | License | Apache-2.0 |
 | Versions | 1.33, 1.34, 1.35 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
 
 ##### Install command
@@ -14896,7 +14896,7 @@ add_requires("parallel-hashmap")
 | Homepage | [http://partio.us/](http://partio.us/) |
 | License | BSD-3-Clause |
 | Versions | v1.14.0, v1.14.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [partio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/partio/xmake.lua) |
 
 ##### Install command
@@ -14919,7 +14919,7 @@ add_requires("partio")
 | -- | -- |
 | Homepage | [http://www.gnu.org/software/patch/patch.html](http://www.gnu.org/software/patch/patch.html) |
 | Versions | 2.7.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [patch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patch/xmake.lua) |
 
 ##### Install command
@@ -14943,7 +14943,7 @@ add_requires("patch")
 | Homepage | [https://github.com/wjakob/pcg32](https://github.com/wjakob/pcg32) |
 | License | Apache-2.0 |
 | Versions | 2016.06.07 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pcg32/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcg32/xmake.lua) |
 
 ##### Install command
@@ -14967,7 +14967,7 @@ add_requires("pcg32")
 | Homepage | [https://mj.ucw.cz/sw/pciutils/](https://mj.ucw.cz/sw/pciutils/) |
 | License | GPL-2.0 |
 | Versions | 3.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pciutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pciutils/xmake.lua) |
 
 ##### Install command
@@ -14991,7 +14991,7 @@ add_requires("pciutils")
 | Homepage | [https://pointclouds.org/](https://pointclouds.org/) |
 | License | BSD-3-Clause |
 | Versions | 1.12.0, 1.12.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcl/xmake.lua) |
 
 ##### Install command
@@ -15014,7 +15014,7 @@ add_requires("pcl")
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
 | Versions | 8.45 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pcre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre/xmake.lua) |
 
 ##### Install command
@@ -15037,7 +15037,7 @@ add_requires("pcre")
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
 | Versions | 10.39, 10.40 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
 
 ##### Install command
@@ -15060,7 +15060,7 @@ add_requires("pcre2")
 | -- | -- |
 | Homepage | [https://pdcurses.org/](https://pdcurses.org/) |
 | Versions | 3.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pdcurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdcurses/xmake.lua) |
 
 ##### Install command
@@ -15083,7 +15083,7 @@ add_requires("pdcurses")
 | -- | -- |
 | Homepage | [https://projectpluto.com/win32a.htm](https://projectpluto.com/win32a.htm) |
 | Versions | v4.3.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pdcursesmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdcursesmod/xmake.lua) |
 
 ##### Install command
@@ -15107,7 +15107,7 @@ add_requires("pdcursesmod")
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
 | Versions | 4.1, 4.5.6, 4.5.7, 4.5.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
 ##### Install command
@@ -15131,7 +15131,7 @@ add_requires("pdfhummus")
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
 | Versions | 3.2.2, 3.2.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
 ##### Install command
@@ -15155,7 +15155,7 @@ add_requires("pegtl")
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSD-2-Clause |
 | Versions | v1.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [picojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picojson/xmake.lua) |
 
 ##### Install command
@@ -15179,7 +15179,7 @@ add_requires("picojson")
 | Homepage | [https://github.com/google/piex](https://github.com/google/piex) |
 | License | Apache-2.0 |
 | Versions | 20190530 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [piex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/piex/xmake.lua) |
 
 ##### Install command
@@ -15202,7 +15202,7 @@ add_requires("piex")
 | -- | -- |
 | Homepage | [http://zlib.net/pigz/](http://zlib.net/pigz/) |
 | Versions | 2022.01.15 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pigz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pigz/xmake.lua) |
 
 ##### Install command
@@ -15225,7 +15225,7 @@ add_requires("pigz")
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
 | Versions | 0.40.0, 0.42.0, 0.42.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pixman/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pixman/xmake.lua) |
 
 ##### Install command
@@ -15248,7 +15248,7 @@ add_requires("pixman")
 | -- | -- |
 | Homepage | [https://freedesktop.org/wiki/Software/pkg-config/](https://freedesktop.org/wiki/Software/pkg-config/) |
 | Versions | 0.29.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pkg-config/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkg-config/xmake.lua) |
 
 ##### Install command
@@ -15271,7 +15271,7 @@ add_requires("pkg-config")
 | -- | -- |
 | Homepage | [http://pkgconf.org](http://pkgconf.org) |
 | Versions | 1.7.4, 1.8.0, 1.9.3, 1.9.4, 1.9.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
 
 ##### Install command
@@ -15295,7 +15295,7 @@ add_requires("pkgconf")
 | Homepage | [https://github.com/SergiusTheBest/plog](https://github.com/SergiusTheBest/plog) |
 | License | MIT |
 | Versions | 1.1.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [plog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plog/xmake.lua) |
 
 ##### Install command
@@ -15319,7 +15319,7 @@ add_requires("plog")
 | Homepage | [http://www.pmp-library.org/](http://www.pmp-library.org/) |
 | License | MIT |
 | Versions | 1.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pmp/xmake.lua) |
 
 ##### Install command
@@ -15343,7 +15343,7 @@ add_requires("pmp")
 | Homepage | [https://github.com/blueloveTH/pocketpy](https://github.com/blueloveTH/pocketpy) |
 | License | MIT |
 | Versions | v0.9.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pocketpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketpy/xmake.lua) |
 
 ##### Install command
@@ -15367,7 +15367,7 @@ add_requires("pocketpy")
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSL-1.0 |
 | Versions | 1.11.0, 1.11.1, 1.11.6, 1.12.1, 1.12.2, 1.12.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [poco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poco/xmake.lua) |
 
 ##### Install command
@@ -15391,7 +15391,7 @@ add_requires("poco")
 | Homepage | [https://polyscope.run/](https://polyscope.run/) |
 | License | MIT |
 | Versions | v1.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [polyscope/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/polyscope/xmake.lua) |
 
 ##### Install command
@@ -15415,7 +15415,7 @@ add_requires("polyscope")
 | Homepage | [https://poppler.freedesktop.org/](https://poppler.freedesktop.org/) |
 | License | GPL-2.0 |
 | Versions | 21.03.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [poppler/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poppler/xmake.lua) |
 
 ##### Install command
@@ -15438,7 +15438,7 @@ add_requires("poppler")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/pprint](https://github.com/p-ranav/pprint) |
 | Versions | 2020.2.20 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pprint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pprint/xmake.lua) |
 
 ##### Install command
@@ -15461,7 +15461,7 @@ add_requires("pprint")
 | -- | -- |
 | Homepage | [http://gamma.cs.unc.edu/SSV/](http://gamma.cs.unc.edu/SSV/) |
 | Versions | 1.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pqp/xmake.lua) |
 
 ##### Install command
@@ -15484,7 +15484,7 @@ add_requires("pqp")
 | -- | -- |
 | Homepage | [https://premake.github.io/](https://premake.github.io/) |
 | Versions | 2022.11.17 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [premake5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/premake5/xmake.lua) |
 
 ##### Install command
@@ -15508,7 +15508,7 @@ add_requires("premake5")
 | Homepage | [https://proj.org/index.html](https://proj.org/index.html) |
 | License | MIT |
 | Versions | 8.2.1, 9.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [proj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proj/xmake.lua) |
 
 ##### Install command
@@ -15532,7 +15532,7 @@ add_requires("proj")
 | Homepage | [https://github.com/jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) |
 | License | MIT |
 | Versions | v1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [prometheus-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prometheus-cpp/xmake.lua) |
 
 ##### Install command
@@ -15556,7 +15556,7 @@ add_requires("prometheus-cpp")
 | Homepage | [https://github.com/xhawk18/promise-cpp](https://github.com/xhawk18/promise-cpp) |
 | License | MIT |
 | Versions | 2.1.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [promise-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/promise-cpp/xmake.lua) |
 
 ##### Install command
@@ -15579,7 +15579,7 @@ add_requires("promise-cpp")
 | -- | -- |
 | Homepage | [https://github.com/protobuf-c/protobuf-c](https://github.com/protobuf-c/protobuf-c) |
 | Versions | 1.3.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [protobuf-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-c/xmake.lua) |
 
 ##### Install command
@@ -15602,7 +15602,7 @@ add_requires("protobuf-c")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | Versions | 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 3.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
 ##### Install command
@@ -15625,7 +15625,7 @@ add_requires("protobuf-cpp")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | Versions | 3.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [protoc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protoc/xmake.lua) |
 
 ##### Install command
@@ -15649,7 +15649,7 @@ add_requires("protoc")
 | Homepage | [https://github.com/avaneev/prvhash](https://github.com/avaneev/prvhash) |
 | License | MIT |
 | Versions | 4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [prvhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prvhash/xmake.lua) |
 
 ##### Install command
@@ -15673,7 +15673,7 @@ add_requires("prvhash")
 | Homepage | [http://ptex.us/](http://ptex.us/) |
 | License | BSD-3-Clause |
 | Versions | v2.3.2, v2.4.1, v2.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
 
 ##### Install command
@@ -15697,7 +15697,7 @@ add_requires("ptex")
 | Homepage | [https://github.com/Maratyszcza/pthreadpool](https://github.com/Maratyszcza/pthreadpool) |
 | License | BSD-2-Clause |
 | Versions | 2021.05.08 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pthreadpool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pthreadpool/xmake.lua) |
 
 ##### Install command
@@ -15721,7 +15721,7 @@ add_requires("pthreadpool")
 | Homepage | [https://github.com/jrmadsen/PTL](https://github.com/jrmadsen/PTL) |
 | License | MIT |
 | Versions | v2.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ptl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptl/xmake.lua) |
 
 ##### Install command
@@ -15745,7 +15745,7 @@ add_requires("ptl")
 | Homepage | [https://pugixml.org/](https://pugixml.org/) |
 | License | MIT |
 | Versions | v1.11.4, v1.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pugixml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pugixml/xmake.lua) |
 
 ##### Install command
@@ -15768,7 +15768,7 @@ add_requires("pugixml")
 | -- | -- |
 | Homepage | [https://github.com/apache/pulsar-client-cpp](https://github.com/apache/pulsar-client-cpp) |
 | Versions | 3.1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pulsar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pulsar/xmake.lua) |
 
 ##### Install command
@@ -15791,7 +15791,7 @@ add_requires("pulsar")
 | -- | -- |
 | Homepage | [https://pupnp.github.io/pupnp](https://pupnp.github.io/pupnp) |
 | Versions | 1.14.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pupnp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pupnp/xmake.lua) |
 
 ##### Install command
@@ -15815,7 +15815,7 @@ add_requires("pupnp")
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | License | BSD-3-Clause |
 | Versions | v2.10.0, v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
 ##### Install command
@@ -15838,7 +15838,7 @@ add_requires("pybind11")
 | -- | -- |
 | Homepage | [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc) |
 | Versions | 2022.10.04 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pycdc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pycdc/xmake.lua) |
 
 ##### Install command
@@ -15861,7 +15861,7 @@ add_requires("pycdc")
 | -- | -- |
 | Homepage | [https://github.com/imageworks/pystring](https://github.com/imageworks/pystring) |
 | Versions | 2020.02.04 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pystring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pystring/xmake.lua) |
 
 ##### Install command
@@ -15884,7 +15884,7 @@ add_requires("pystring")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | Versions | 2.7.18, 3.10.11, 3.10.6, 3.11.3, 3.7.9, 3.8.10, 3.9.10, 3.9.13, 3.9.5, 3.9.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
 ##### Install command
@@ -15907,7 +15907,7 @@ add_requires("python")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | Versions | 2.7.15, 2.7.18 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [python2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python2/xmake.lua) |
 
 ##### Install command
@@ -15932,7 +15932,7 @@ add_requires("python2")
 | -- | -- |
 | Homepage | [https://github.com/qd-cae/qd-cae-python](https://github.com/qd-cae/qd-cae-python) |
 | Versions | 0.8.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qdcae/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qdcae/xmake.lua) |
 
 ##### Install command
@@ -15955,7 +15955,7 @@ add_requires("qdcae")
 | -- | -- |
 | Homepage | [http://www.qhull.org/](http://www.qhull.org/) |
 | Versions | 2020.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qhull/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qhull/xmake.lua) |
 
 ##### Install command
@@ -15979,7 +15979,7 @@ add_requires("qhull")
 | Homepage | [https://qoiformat.org/](https://qoiformat.org/) |
 | License | MIT |
 | Versions | 2021.12.22, 2022.11.17 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qoi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qoi/xmake.lua) |
 
 ##### Install command
@@ -16003,7 +16003,7 @@ add_requires("qoi")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qt5base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5base/xmake.lua) |
 
 ##### Install command
@@ -16027,7 +16027,7 @@ add_requires("qt5base")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qt5core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5core/xmake.lua) |
 
 ##### Install command
@@ -16051,7 +16051,7 @@ add_requires("qt5core")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qt5gui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5gui/xmake.lua) |
 
 ##### Install command
@@ -16075,7 +16075,7 @@ add_requires("qt5gui")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qt5network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5network/xmake.lua) |
 
 ##### Install command
@@ -16099,7 +16099,7 @@ add_requires("qt5network")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qt5webview/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5webview/xmake.lua) |
 
 ##### Install command
@@ -16123,7 +16123,7 @@ add_requires("qt5webview")
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
 | Versions | 5.12.5, 5.15.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qt5widgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt5widgets/xmake.lua) |
 
 ##### Install command
@@ -16147,7 +16147,7 @@ add_requires("qt5widgets")
 | Homepage | [https://github.com/scandum/quadsort](https://github.com/scandum/quadsort) |
 | License | MIT |
 | Versions | 2023.02.03 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quadsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quadsort/xmake.lua) |
 
 ##### Install command
@@ -16170,7 +16170,7 @@ add_requires("quadsort")
 | -- | -- |
 | Homepage | [http://www.cs.cmu.edu/~quake/triangle.html](http://www.cs.cmu.edu/~quake/triangle.html) |
 | Versions | 1.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quake_triangle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quake_triangle/xmake.lua) |
 
 ##### Install command
@@ -16194,7 +16194,7 @@ add_requires("quake_triangle")
 | Homepage | [https://github.com/ned14/quickcpplib](https://github.com/ned14/quickcpplib) |
 | License | Apache-2.0 |
 | Versions | 20221116 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quickcpplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickcpplib/xmake.lua) |
 
 ##### Install command
@@ -16217,7 +16217,7 @@ add_requires("quickcpplib")
 | -- | -- |
 | Homepage | [https://bellard.org/quickjs/](https://bellard.org/quickjs/) |
 | Versions | 2021.03.27 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs/xmake.lua) |
 
 ##### Install command
@@ -16240,7 +16240,7 @@ add_requires("quickjs")
 | -- | -- |
 | Homepage | [https://github.com/ftk/quickjspp](https://github.com/ftk/quickjspp) |
 | Versions | 2022.6.30 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quickjspp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjspp/xmake.lua) |
 
 ##### Install command
@@ -16263,7 +16263,7 @@ add_requires("quickjspp")
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
 | Versions | 2.8.0, 2.9.0, 2.9.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
 ##### Install command
@@ -16289,7 +16289,7 @@ add_requires("quill")
 | Homepage | [https://github.com/ericniebler/range-v3/](https://github.com/ericniebler/range-v3/) |
 | License | BSL-1.0 |
 | Versions | 0.11.0, 0.12.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [range-v3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/range-v3/xmake.lua) |
 
 ##### Install command
@@ -16312,7 +16312,7 @@ add_requires("range-v3")
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
 | Versions | 8.50 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
 ##### Install command
@@ -16335,7 +16335,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
 | Versions | 2022.7.20, v1.1.0, v1.1.0-arrow |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
 
 ##### Install command
@@ -16359,7 +16359,7 @@ add_requires("rapidjson")
 | Homepage | [https://github.com/raysan5/raygui](https://github.com/raysan5/raygui) |
 | License | zlib |
 | Versions | 3.0, 3.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [raygui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raygui/xmake.lua) |
 
 ##### Install command
@@ -16382,7 +16382,7 @@ add_requires("raygui")
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
 | Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
 ##### Install command
@@ -16406,7 +16406,7 @@ add_requires("raylib")
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
 | Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
 ##### Install command
@@ -16430,7 +16430,7 @@ add_requires("re2")
 | Homepage | [https://github.com/cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) |
 | License | BSD-3-Clause |
 | Versions | v1.0.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [readerwriterqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readerwriterqueue/xmake.lua) |
 
 ##### Install command
@@ -16454,7 +16454,7 @@ add_requires("readerwriterqueue")
 | Homepage | [https://tiswww.case.edu/php/chet/readline/rltop.html](https://tiswww.case.edu/php/chet/readline/rltop.html) |
 | License | GPL-3.0-or-later |
 | Versions | 8.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [readline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readline/xmake.lua) |
 
 ##### Install command
@@ -16478,7 +16478,7 @@ add_requires("readline")
 | Homepage | [https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) |
 | License | zlib |
 | Versions | 1.5.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [recastnavigation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/recastnavigation/xmake.lua) |
 
 ##### Install command
@@ -16502,7 +16502,7 @@ add_requires("recastnavigation")
 | Homepage | [https://fbredex.com/](https://fbredex.com/) |
 | License | MIT |
 | Versions | 2022.6.23 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [redex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redex/xmake.lua) |
 
 ##### Install command
@@ -16525,7 +16525,7 @@ add_requires("redex")
 | -- | -- |
 | Homepage | [https://github.com/sewenew/redis-plus-plus](https://github.com/sewenew/redis-plus-plus) |
 | Versions | 1.3.5, 1.3.6, 1.3.7, 1.3.8, 1.3.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [redis-plus-plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redis-plus-plus/xmake.lua) |
 
 ##### Install command
@@ -16549,7 +16549,7 @@ add_requires("redis-plus-plus")
 | Homepage | [https://github.com/DragonJoker/RenderGraph/](https://github.com/DragonJoker/RenderGraph/) |
 | License | MIT |
 | Versions | v1.0.0, v1.1.0, v1.2.0, v1.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rendergraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rendergraph/xmake.lua) |
 
 ##### Install command
@@ -16573,7 +16573,7 @@ add_requires("rendergraph")
 | Homepage | [https://github.com/DaanDeMeyer/reproc](https://github.com/DaanDeMeyer/reproc) |
 | License | MIT |
 | Versions | v14.2.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [reproc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reproc/xmake.lua) |
 
 ##### Install command
@@ -16596,7 +16596,7 @@ add_requires("reproc")
 | -- | -- |
 | Homepage | [https://github.com/qicosmos/rest_rpc](https://github.com/qicosmos/rest_rpc) |
 | Versions | 2023.6.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rest_rpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rest_rpc/xmake.lua) |
 
 ##### Install command
@@ -16619,7 +16619,7 @@ add_requires("rest_rpc")
 | -- | -- |
 | Homepage | [http://rhash.sourceforge.net/](http://rhash.sourceforge.net/) |
 | Versions | 1.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rhash/xmake.lua) |
 
 ##### Install command
@@ -16642,7 +16642,7 @@ add_requires("rhash")
 | -- | -- |
 | Homepage | [https://github.com/Samsung/rlottie](https://github.com/Samsung/rlottie) |
 | Versions | 0.1, 0.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rlottie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rlottie/xmake.lua) |
 
 ##### Install command
@@ -16666,7 +16666,7 @@ add_requires("rlottie")
 | Homepage | [https://mikke89.github.io/RmlUiDoc/](https://mikke89.github.io/RmlUiDoc/) |
 | License | MIT |
 | Versions | 5.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rmlui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rmlui/xmake.lua) |
 
 ##### Install command
@@ -16690,7 +16690,7 @@ add_requires("rmlui")
 | Homepage | [https://github.com/martinus/robin-hood-hashing](https://github.com/martinus/robin-hood-hashing) |
 | License | MIT |
 | Versions | 3.11.3, 3.11.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [robin-hood-hashing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-hood-hashing/xmake.lua) |
 
 ##### Install command
@@ -16714,7 +16714,7 @@ add_requires("robin-hood-hashing")
 | Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
 | License | MIT |
 | Versions | v0.6.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
 
 ##### Install command
@@ -16738,7 +16738,7 @@ add_requires("robin-map")
 | Homepage | [https://github.com/google/robotstxt](https://github.com/google/robotstxt) |
 | License | Apache-2.0 |
 | Versions | 2021.11.24 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [robotstxt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robotstxt/xmake.lua) |
 
 ##### Install command
@@ -16761,7 +16761,7 @@ add_requires("robotstxt")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | Versions | v7.10.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
 ##### Install command
@@ -16784,7 +16784,7 @@ add_requires("rocksdb")
 | -- | -- |
 | Homepage | [http://rpclib.net](http://rpclib.net) |
 | Versions | v2.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rpclib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rpclib/xmake.lua) |
 
 ##### Install command
@@ -16808,7 +16808,7 @@ add_requires("rpclib")
 | Homepage | [http://w3.impa.br/~diego/software/rply/](http://w3.impa.br/~diego/software/rply/) |
 | License | MIT |
 | Versions | 1.1.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rply/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rply/xmake.lua) |
 
 ##### Install command
@@ -16831,7 +16831,7 @@ add_requires("rply")
 | -- | -- |
 | Homepage | [https://github.com/mjansson/rpmalloc](https://github.com/mjansson/rpmalloc) |
 | Versions | 1.4.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rpmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rpmalloc/xmake.lua) |
 
 ##### Install command
@@ -16855,7 +16855,7 @@ add_requires("rpmalloc")
 | Homepage | [https://github.com/Ryan-rsm-McKenzie/AutoTOML](https://github.com/Ryan-rsm-McKenzie/AutoTOML) |
 | License | MIT |
 | Versions | 2020.12.29 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rsm-autotoml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-autotoml/xmake.lua) |
 
 ##### Install command
@@ -16879,7 +16879,7 @@ add_requires("rsm-autotoml")
 | Homepage | [https://github.com/Ryan-rsm-McKenzie/binary_io](https://github.com/Ryan-rsm-McKenzie/binary_io) |
 | License | MIT |
 | Versions | 2.0.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rsm-binary-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-binary-io/xmake.lua) |
 
 ##### Install command
@@ -16903,7 +16903,7 @@ add_requires("rsm-binary-io")
 | Homepage | [https://github.com/Ryan-rsm-McKenzie/mmio](https://github.com/Ryan-rsm-McKenzie/mmio) |
 | License | MIT |
 | Versions | 2.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rsm-mmio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-mmio/xmake.lua) |
 
 ##### Install command
@@ -16927,7 +16927,7 @@ add_requires("rsm-mmio")
 | Homepage | [https://rsync.samba.org/](https://rsync.samba.org/) |
 | License | GPL-3.0 |
 | Versions | 3.2.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rsync/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsync/xmake.lua) |
 
 ##### Install command
@@ -16951,7 +16951,7 @@ add_requires("rsync")
 | Homepage | [https://github.com/nfrechette/rtm](https://github.com/nfrechette/rtm) |
 | License | MIT |
 | Versions | v2.1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rtm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtm/xmake.lua) |
 
 ##### Install command
@@ -16975,7 +16975,7 @@ add_requires("rtm")
 | Homepage | [https://www.rttr.org](https://www.rttr.org) |
 | License | MIT |
 | Versions | 0.9.5, 0.9.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rttr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rttr/xmake.lua) |
 
 ##### Install command
@@ -16999,7 +16999,7 @@ add_requires("rttr")
 | Homepage | [https://github.com/google/ruy](https://github.com/google/ruy) |
 | License | Apache-2.0 |
 | Versions | 2022.09.16 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ruy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ruy/xmake.lua) |
 
 ##### Install command
@@ -17023,7 +17023,7 @@ add_requires("ruy")
 | Homepage | [http://reactivex.io/RxCpp/](http://reactivex.io/RxCpp/) |
 | License | Apache-2.0 |
 | Versions | v3.0.0, v4.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rxcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rxcpp/xmake.lua) |
 
 ##### Install command
@@ -17048,7 +17048,7 @@ add_requires("rxcpp")
 | -- | -- |
 | Homepage | [https://ccrma.stanford.edu/software/snd/snd/s7.html](https://ccrma.stanford.edu/software/snd/snd/s7.html) |
 | Versions | 2023.04.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [s7/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s7/xmake.lua) |
 
 ##### Install command
@@ -17071,7 +17071,7 @@ add_requires("s7")
 | -- | -- |
 | Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
 | Versions | 0.4, 1.1.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
 
 ##### Install command
@@ -17094,7 +17094,7 @@ add_requires("scnlib")
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
 | Versions | 4.1.0, 4.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 
 ##### Install command
@@ -17117,7 +17117,7 @@ add_requires("scons")
 | -- | -- |
 | Homepage | [https://www.labri.fr/perso/pelegrin/scotch/](https://www.labri.fr/perso/pelegrin/scotch/) |
 | Versions | v6.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [scotch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scotch/xmake.lua) |
 
 ##### Install command
@@ -17141,7 +17141,7 @@ add_requires("scotch")
 | Homepage | [https://github.com/google/sentencepiece](https://github.com/google/sentencepiece) |
 | License | Apache-2.0 |
 | Versions | v0.1.97 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sentencepiece/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentencepiece/xmake.lua) |
 
 ##### Install command
@@ -17164,7 +17164,7 @@ add_requires("sentencepiece")
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
 | Versions | 0.4.15, 0.4.4, 0.5.0, 0.6.3, 0.6.4, 0.6.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
 ##### Install command
@@ -17187,7 +17187,7 @@ add_requires("sentry-native")
 | -- | -- |
 | Homepage | [https://www.sfml-dev.org](https://www.sfml-dev.org) |
 | Versions | 2.5.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sfml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfml/xmake.lua) |
 
 ##### Install command
@@ -17210,7 +17210,7 @@ add_requires("sfml")
 | -- | -- |
 | Homepage | [https://github.com/googlefonts/sfntly](https://github.com/googlefonts/sfntly) |
 | Versions | 20190917 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sfntly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfntly/xmake.lua) |
 
 ##### Install command
@@ -17234,7 +17234,7 @@ add_requires("sfntly")
 | Homepage | [https://github.com/google/shaderc](https://github.com/google/shaderc) |
 | License | Apache-2.0 |
 | Versions | v2022.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [shaderc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderc/xmake.lua) |
 
 ##### Install command
@@ -17257,7 +17257,7 @@ add_requires("shaderc")
 | -- | -- |
 | Homepage | [https://github.com/DragonJoker/ShaderWriter](https://github.com/DragonJoker/ShaderWriter) |
 | Versions | 0.1, 1.0, 1.1, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.6.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [shaderwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderwriter/xmake.lua) |
 
 ##### Install command
@@ -17281,7 +17281,7 @@ add_requires("shaderwriter")
 | Homepage | [https://www.freedesktop.org/wiki/Software/shared-mime-info/](https://www.freedesktop.org/wiki/Software/shared-mime-info/) |
 | License | GPL-2.0 |
 | Versions | 2.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [shared-mime-info/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shared-mime-info/xmake.lua) |
 
 ##### Install command
@@ -17305,7 +17305,7 @@ add_requires("shared-mime-info")
 | Homepage | [https://coin3d.github.io/simage/html/](https://coin3d.github.io/simage/html/) |
 | License | MIT |
 | Versions | 1.8.1, 1.8.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simage/xmake.lua) |
 
 ##### Install command
@@ -17329,7 +17329,7 @@ add_requires("simage")
 | Homepage | [https://simtk.org/home/simbody](https://simtk.org/home/simbody) |
 | License | Apache-2.0 |
 | Versions | 3.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simbody/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simbody/xmake.lua) |
 
 ##### Install command
@@ -17352,7 +17352,7 @@ add_requires("simbody")
 | -- | -- |
 | Homepage | [simd-everywhere.github.io/blog/](simd-everywhere.github.io/blog/) |
 | Versions | 0.7.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simde/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simde/xmake.lua) |
 
 ##### Install command
@@ -17400,7 +17400,7 @@ add_requires("simdjson")
 | Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
 | License | MIT |
 | Versions | v4.19 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
 
 ##### Install command
@@ -17424,7 +17424,7 @@ add_requires("simpleini")
 | Homepage | [https://github.com/romch007/simplethreadpool](https://github.com/romch007/simplethreadpool) |
 | License | MIT |
 | Versions | 2022.11.18 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simplethreadpool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplethreadpool/xmake.lua) |
 
 ##### Install command
@@ -17448,7 +17448,7 @@ add_requires("simplethreadpool")
 | Homepage | [https://skia.org/](https://skia.org/) |
 | License | BSD-3-Clause |
 | Versions | 88, 89, 90 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [skia/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/skia/xmake.lua) |
 
 ##### Install command
@@ -17471,7 +17471,7 @@ add_requires("skia")
 | -- | -- |
 | Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
 | Versions | 1.1.8, 1.1.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
 
 ##### Install command
@@ -17495,7 +17495,7 @@ add_requires("snappy")
 | Homepage | [https://github.com/cschreib/snitch](https://github.com/cschreib/snitch) |
 | License | BSL-1.0 |
 | Versions | 1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [snitch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snitch/xmake.lua) |
 
 ##### Install command
@@ -17519,7 +17519,7 @@ add_requires("snitch")
 | Homepage | [https://github.com/microsoft/snmalloc](https://github.com/microsoft/snmalloc) |
 | License | MIT |
 | Versions | 0.6.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [snmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snmalloc/xmake.lua) |
 
 ##### Install command
@@ -17543,7 +17543,7 @@ add_requires("snmalloc")
 | Homepage | [https://github.com/fpagliughi/sockpp](https://github.com/fpagliughi/sockpp) |
 | License | BSD-3-Clause |
 | Versions | v0.8.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sockpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sockpp/xmake.lua) |
 
 ##### Install command
@@ -17567,7 +17567,7 @@ add_requires("sockpp")
 | Homepage | [https://github.com/floooh/sokol](https://github.com/floooh/sokol) |
 | License | zlib |
 | Versions | 2022.02.10, 2023.01.27 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sokol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sokol/xmake.lua) |
 
 ##### Install command
@@ -17590,7 +17590,7 @@ add_requires("sokol")
 | -- | -- |
 | Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
 | Versions | v3.2.1, v3.2.2, v3.2.3, v3.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
 
 ##### Install command
@@ -17614,7 +17614,7 @@ add_requires("sol2")
 | Homepage | [https://github.com/bytedance/sonic-cpp](https://github.com/bytedance/sonic-cpp) |
 | License | Apache-2.0 |
 | Versions | 1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sonic-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sonic-cpp/xmake.lua) |
 
 ##### Install command
@@ -17638,7 +17638,7 @@ add_requires("sonic-cpp")
 | Homepage | [https://strasdat.github.io/Sophus/](https://strasdat.github.io/Sophus/) |
 | License | MIT |
 | Versions | 1.22.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sophus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sophus/xmake.lua) |
 
 ##### Install command
@@ -17661,7 +17661,7 @@ add_requires("sophus")
 | -- | -- |
 | Homepage | [https://soplex.zib.de/](https://soplex.zib.de/) |
 | Versions | 5.0.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [soplex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soplex/xmake.lua) |
 
 ##### Install command
@@ -17685,7 +17685,7 @@ add_requires("soplex")
 | Homepage | [https://github.com/martinmoene/span-lite](https://github.com/martinmoene/span-lite) |
 | License | BSL |
 | Versions | 0.10.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [span-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/span-lite/xmake.lua) |
 
 ##### Install command
@@ -17708,7 +17708,7 @@ add_requires("span-lite")
 | -- | -- |
 | Homepage | [https://github.com/greg7mdp/sparsepp](https://github.com/greg7mdp/sparsepp) |
 | Versions | 1.22 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sparsepp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sparsepp/xmake.lua) |
 
 ##### Install command
@@ -17731,7 +17731,7 @@ add_requires("sparsepp")
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
 | Versions | v1.10.0, v1.11.0, v1.12.0, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
 ##### Install command
@@ -17755,7 +17755,7 @@ add_requires("spdlog")
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Cross/](https://github.com/KhronosGroup/SPIRV-Cross/) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.231+1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-cross/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-cross/xmake.lua) |
 
 ##### Install command
@@ -17779,7 +17779,7 @@ add_requires("spirv-cross")
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
 | Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
 ##### Install command
@@ -17803,7 +17803,7 @@ add_requires("spirv-headers")
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Reflect](https://github.com/KhronosGroup/SPIRV-Reflect) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.231+1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-reflect/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-reflect/xmake.lua) |
 
 ##### Install command
@@ -17827,7 +17827,7 @@ add_requires("spirv-reflect")
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
 | Versions | v2020.5, v2020.6, v2021.3, v2021.4, v2022.2, v2022.4, v2023.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
 ##### Install command
@@ -17851,7 +17851,7 @@ add_requires("spirv-tools")
 | Homepage | [https://spot.lrde.epita.fr/](https://spot.lrde.epita.fr/) |
 | License | GPL-3.0 |
 | Versions | 2.10.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spot/xmake.lua) |
 
 ##### Install command
@@ -17874,7 +17874,7 @@ add_requires("spot")
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
 | Versions | 4.5.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 
 ##### Install command
@@ -17897,7 +17897,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
 ##### Install command
@@ -17920,7 +17920,7 @@ add_requires("sqlite3")
 | -- | -- |
 | Homepage | [https://github.com/fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) |
 | Versions | 1.8.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite_orm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite_orm/xmake.lua) |
 
 ##### Install command
@@ -17943,7 +17943,7 @@ add_requires("sqlite_orm")
 | -- | -- |
 | Homepage | [http://srombauts.github.io/SQLiteCpp](http://srombauts.github.io/SQLiteCpp) |
 | Versions | 3.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlitecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlitecpp/xmake.lua) |
 
 ##### Install command
@@ -17966,7 +17966,7 @@ add_requires("sqlitecpp")
 | -- | -- |
 | Homepage | [https://github.com/rbock/sqlpp11](https://github.com/rbock/sqlpp11) |
 | Versions | 0.61 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlpp11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlpp11/xmake.lua) |
 
 ##### Install command
@@ -17990,7 +17990,7 @@ add_requires("sqlpp11")
 | Homepage | [https://akenotsuki.com/misc/srell](https://akenotsuki.com/misc/srell) |
 | License | BSD-2-Clause |
 | Versions | 3.018, 4.019 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [srell/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srell/xmake.lua) |
 
 ##### Install command
@@ -18013,7 +18013,7 @@ add_requires("srell")
 | -- | -- |
 | Homepage | [https://www.srtalliance.org/](https://www.srtalliance.org/) |
 | Versions | v1.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [srt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srt/xmake.lua) |
 
 ##### Install command
@@ -18037,7 +18037,7 @@ add_requires("srt")
 | Homepage | [https://starpu.gitlabpages.inria.fr/](https://starpu.gitlabpages.inria.fr/) |
 | License | LGPL-2.1 |
 | Versions | 1.3.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [starpu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/starpu/xmake.lua) |
 
 ##### Install command
@@ -18060,7 +18060,7 @@ add_requires("starpu")
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
 | Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
 ##### Install command
@@ -18084,7 +18084,7 @@ add_requires("stb")
 | Homepage | [https://stlab.cc/](https://stlab.cc/) |
 | License | BSL-1.0 |
 | Versions | v1.6.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [stlab/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stlab/xmake.lua) |
 
 ##### Install command
@@ -18108,7 +18108,7 @@ add_requires("stlab")
 | Homepage | [https://github.com/martinmoene/string-view-lite](https://github.com/martinmoene/string-view-lite) |
 | License | BSL-1.0 |
 | Versions | v1.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [string-view-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/string-view-lite/xmake.lua) |
 
 ##### Install command
@@ -18132,7 +18132,7 @@ add_requires("string-view-lite")
 | Homepage | [https://www.partow.net/programming/strtk/index.html](https://www.partow.net/programming/strtk/index.html) |
 | License | MIT |
 | Versions | 2020.01.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [strtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strtk/xmake.lua) |
 
 ##### Install command
@@ -18155,7 +18155,7 @@ add_requires("strtk")
 | -- | -- |
 | Homepage | [https://github.com/sheredom/subprocess.h](https://github.com/sheredom/subprocess.h) |
 | Versions | 2022.12.20 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [subprocess.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/subprocess.h/xmake.lua) |
 
 ##### Install command
@@ -18178,7 +18178,7 @@ add_requires("subprocess.h")
 | -- | -- |
 | Homepage | [https://people.engr.tamu.edu/davis/suitesparse.html](https://people.engr.tamu.edu/davis/suitesparse.html) |
 | Versions | v5.10.1, v5.12.0, v5.13.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [suitesparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/suitesparse/xmake.lua) |
 
 ##### Install command
@@ -18202,7 +18202,7 @@ add_requires("suitesparse")
 | Homepage | [https://portal.nersc.gov/project/sparse/superlu/](https://portal.nersc.gov/project/sparse/superlu/) |
 | License | BSD-3-Clause |
 | Versions | v5.2.2, v5.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [superlu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/superlu/xmake.lua) |
 
 ##### Install command
@@ -18218,6 +18218,29 @@ add_requires("superlu")
 ```
 
 
+### svt-av1 (linux)
+
+
+| Description | *Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)* |
+| -- | -- |
+| Homepage | [https://gitlab.com/AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) |
+| Versions | 1.4.0, 1.4.1, 1.5.0, 1.6.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [svt-av1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svt-av1/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install svt-av1
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("svt-av1")
+```
+
+
 ### swig (linux)
 
 
@@ -18226,7 +18249,7 @@ add_requires("superlu")
 | Homepage | [http://swig.org/](http://swig.org/) |
 | License | GPL-3.0 |
 | Versions | 4.0.2, 4.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
 
 ##### Install command
@@ -18249,7 +18272,7 @@ add_requires("swig")
 | -- | -- |
 | Homepage | [https://www.astro.com/swisseph/](https://www.astro.com/swisseph/) |
 | Versions | v2.10.03 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [swisseph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swisseph/xmake.lua) |
 
 ##### Install command
@@ -18272,7 +18295,7 @@ add_requires("swisseph")
 | -- | -- |
 | Homepage | [https://support.hdfgroup.org/doc_resource/SZIP/](https://support.hdfgroup.org/doc_resource/SZIP/) |
 | Versions | 2.1.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [szip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/szip/xmake.lua) |
 
 ##### Install command
@@ -18298,7 +18321,7 @@ add_requires("szip")
 | Homepage | [https://github.com/p-ranav/tabulate](https://github.com/p-ranav/tabulate) |
 | License | MIT |
 | Versions | 1.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tabulate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tabulate/xmake.lua) |
 
 ##### Install command
@@ -18321,7 +18344,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [https://talloc.samba.org/talloc/doc/html/index.html](https://talloc.samba.org/talloc/doc/html/index.html) |
 | Versions | 2.3.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [talloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/talloc/xmake.lua) |
 
 ##### Install command
@@ -18345,7 +18368,7 @@ add_requires("talloc")
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
 | Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 
 ##### Install command
@@ -18369,7 +18392,7 @@ add_requires("taskflow")
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
 | Versions | 6.3.0, 6.4.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 
 ##### Install command
@@ -18392,7 +18415,7 @@ add_requires("taywee_args")
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
 | Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbb/xmake.lua) |
 
 ##### Install command
@@ -18415,7 +18438,7 @@ add_requires("tbb")
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
 | Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
 ##### Install command
@@ -18439,7 +18462,7 @@ add_requires("tbox")
 | Homepage | [https://sourceforge.net/projects/tclap/](https://sourceforge.net/projects/tclap/) |
 | License | MIT |
 | Versions | 1.4.0-rc1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tclap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tclap/xmake.lua) |
 
 ##### Install command
@@ -18462,7 +18485,7 @@ add_requires("tclap")
 | -- | -- |
 | Homepage | [https://core.tcl-lang.org/tcl/](https://core.tcl-lang.org/tcl/) |
 | Versions | 2023.03.14 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tclsh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tclsh/xmake.lua) |
 
 ##### Install command
@@ -18486,7 +18509,7 @@ add_requires("tclsh")
 | Homepage | [https://github.com/ikalnytskyi/termcolor](https://github.com/ikalnytskyi/termcolor) |
 | License | BSD-3-Clause |
 | Versions | 2.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [termcolor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/termcolor/xmake.lua) |
 
 ##### Install command
@@ -18510,7 +18533,7 @@ add_requires("termcolor")
 | Homepage | [https://tesseract-ocr.github.io/](https://tesseract-ocr.github.io/) |
 | License | Apache-2.0 |
 | Versions | 4.1.1, 4.1.3, 5.0.1, 5.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tesseract/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tesseract/xmake.lua) |
 
 ##### Install command
@@ -18534,7 +18557,7 @@ add_requires("tesseract")
 | Homepage | [https://www.wias-berlin.de/software/index.jsp?id=TetGen](https://www.wias-berlin.de/software/index.jsp?id=TetGen) |
 | License | AGPL-3.0 |
 | Versions | 1.6.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tetgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tetgen/xmake.lua) |
 
 ##### Install command
@@ -18558,7 +18581,7 @@ add_requires("tetgen")
 | Homepage | [https://www.gnu.org/software/texinfo/](https://www.gnu.org/software/texinfo/) |
 | License | GPL-3.0 |
 | Versions | 6.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [texinfo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/texinfo/xmake.lua) |
 
 ##### Install command
@@ -18582,7 +18605,7 @@ add_requires("texinfo")
 | Homepage | [https://github.com/bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) |
 | License | MIT |
 | Versions | v3.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [thread-pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thread-pool/xmake.lua) |
 
 ##### Install command
@@ -18606,7 +18629,7 @@ add_requires("thread-pool")
 | Homepage | [https://thrift.apache.org/](https://thrift.apache.org/) |
 | License | Apache-2.0 |
 | Versions | v0.16.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [thrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrift/xmake.lua) |
 
 ##### Install command
@@ -18630,7 +18653,7 @@ add_requires("thrift")
 | Homepage | [https://github.com/NVIDIA/thrust](https://github.com/NVIDIA/thrust) |
 | License | Apache-2.0 |
 | Versions | 1.17.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [thrust/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrust/xmake.lua) |
 
 ##### Install command
@@ -18653,7 +18676,7 @@ add_requires("thrust")
 | -- | -- |
 | Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
 | Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5, v0.2.6, v0.2.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tiltedcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiltedcore/xmake.lua) |
 
 ##### Install command
@@ -18677,7 +18700,7 @@ add_requires("tiltedcore")
 | Homepage | [https://gitlab.com/eidheim/tiny-process-library](https://gitlab.com/eidheim/tiny-process-library) |
 | License | MIT |
 | Versions | v2.0.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tiny-process-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiny-process-library/xmake.lua) |
 
 ##### Install command
@@ -18701,7 +18724,7 @@ add_requires("tiny-process-library")
 | Homepage | [https://github.com/intel/tinycbor](https://github.com/intel/tinycbor) |
 | License | MIT |
 | Versions | v0.6.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinycbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycbor/xmake.lua) |
 
 ##### Install command
@@ -18724,7 +18747,7 @@ add_requires("tinycbor")
 | -- | -- |
 | Homepage | [https://bellard.org/tcc/](https://bellard.org/tcc/) |
 | Versions | 0.9.27 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinycc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycc/xmake.lua) |
 
 ##### Install command
@@ -18747,7 +18770,7 @@ add_requires("tinycc")
 | -- | -- |
 | Homepage | [https://github.com/intel/tinycrypt](https://github.com/intel/tinycrypt) |
 | Versions | 2019.9.18 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinycrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycrypt/xmake.lua) |
 
 ##### Install command
@@ -18771,7 +18794,7 @@ add_requires("tinycrypt")
 | Homepage | [https://codeplea.com/tinyexpr](https://codeplea.com/tinyexpr) |
 | License | zlib |
 | Versions | 2022.11.21 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinyexpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexpr/xmake.lua) |
 
 ##### Install command
@@ -18795,7 +18818,7 @@ add_requires("tinyexpr")
 | Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
 | License | BSD-3-Clause |
 | Versions | v1.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
 
 ##### Install command
@@ -18819,7 +18842,7 @@ add_requires("tinyexr")
 | Homepage | [https://sourceforge.net/projects/tinyfiledialogs/](https://sourceforge.net/projects/tinyfiledialogs/) |
 | License | zlib |
 | Versions | 3.8.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinyfiledialogs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyfiledialogs/xmake.lua) |
 
 ##### Install command
@@ -18842,7 +18865,7 @@ add_requires("tinyfiledialogs")
 | -- | -- |
 | Homepage | [https://github.com/c42f/tinyformat/](https://github.com/c42f/tinyformat/) |
 | Versions | 2.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinyformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua) |
 
 ##### Install command
@@ -18866,7 +18889,7 @@ add_requires("tinyformat")
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
 | Versions | v2.5.0, v2.6.3, v2.8.13, v2.8.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 
 ##### Install command
@@ -18890,7 +18913,7 @@ add_requires("tinygltf")
 | Homepage | [https://github.com/tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) |
 | License | MIT |
 | Versions | v1.0.7, v2.0.0rc10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinyobjloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyobjloader/xmake.lua) |
 
 ##### Install command
@@ -18914,7 +18937,7 @@ add_requires("tinyobjloader")
 | Homepage | [https://sourceforge.net/projects/tinyxml/](https://sourceforge.net/projects/tinyxml/) |
 | License | zlib |
 | Versions | 2.6.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinyxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml/xmake.lua) |
 
 ##### Install command
@@ -18937,7 +18960,7 @@ add_requires("tinyxml")
 | -- | -- |
 | Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
 | Versions | 8.0.0, 9.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinyxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml2/xmake.lua) |
 
 ##### Install command
@@ -18961,7 +18984,7 @@ add_requires("tinyxml2")
 | Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
 | License | CC0 |
 | Versions | v1.0.0, v1.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tl_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_expected/xmake.lua) |
 
 ##### Install command
@@ -18985,7 +19008,7 @@ add_requires("tl_expected")
 | Homepage | [https://github.com/TartanLlama/function_ref](https://github.com/TartanLlama/function_ref) |
 | License | CC0 |
 | Versions | v1.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tl_function_ref/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_function_ref/xmake.lua) |
 
 ##### Install command
@@ -19008,7 +19031,7 @@ add_requires("tl_function_ref")
 | -- | -- |
 | Homepage | [https://github.com/sainteos/tmxparser](https://github.com/sainteos/tmxparser) |
 | Versions | 2.2.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tmxparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmxparser/xmake.lua) |
 
 ##### Install command
@@ -19031,7 +19054,7 @@ add_requires("tmxparser")
 | -- | -- |
 | Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
 | Versions | v2.5.0, v3.0.0, v3.1.0, v3.2.0, v3.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
 
 ##### Install command
@@ -19055,7 +19078,7 @@ add_requires("toml++")
 | Homepage | [https://github.com/ToruNiina/toml11](https://github.com/ToruNiina/toml11) |
 | License | MIT |
 | Versions | v3.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [toml11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml11/xmake.lua) |
 
 ##### Install command
@@ -19079,7 +19102,7 @@ add_requires("toml11")
 | Homepage | [https://create.stephan-brumme.com/toojpeg/](https://create.stephan-brumme.com/toojpeg/) |
 | License | zlib |
 | Versions | 1.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [toojpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toojpeg/xmake.lua) |
 
 ##### Install command
@@ -19126,7 +19149,7 @@ add_requires("tracy")
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
 | Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 
 ##### Install command
@@ -19150,7 +19173,7 @@ add_requires("trantor")
 | Homepage | [https://github.com/rollbear/trompeloeil](https://github.com/rollbear/trompeloeil) |
 | License | BSL-1.0 |
 | Versions | v43 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [trompeloeil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trompeloeil/xmake.lua) |
 
 ##### Install command
@@ -19174,7 +19197,7 @@ add_requires("trompeloeil")
 | Homepage | [https://github.com/powturbo/Turbo-Base64](https://github.com/powturbo/Turbo-Base64) |
 | License | GPL-3.0 |
 | Versions | 2022.02.21 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [turbobase64/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/turbobase64/xmake.lua) |
 
 ##### Install command
@@ -19198,7 +19221,7 @@ add_requires("turbobase64")
 | Homepage | [https://type_safe.foonathan.net](https://type_safe.foonathan.net) |
 | License | MIT |
 | Versions | v0.2.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [type_safe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/type_safe/xmake.lua) |
 
 ##### Install command
@@ -19224,7 +19247,7 @@ add_requires("type_safe")
 | Homepage | [https://www.freedesktop.org/wiki/Software/uchardet/](https://www.freedesktop.org/wiki/Software/uchardet/) |
 | License | MPL-1.1 |
 | Versions | 0.0.7, 0.0.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [uchardet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uchardet/xmake.lua) |
 
 ##### Install command
@@ -19248,7 +19271,7 @@ add_requires("uchardet")
 | Homepage | [https://openucx.org/](https://openucx.org/) |
 | License | BSD-3-Clause |
 | Versions | 1.11.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ucx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ucx/xmake.lua) |
 
 ##### Install command
@@ -19272,7 +19295,7 @@ add_requires("ucx")
 | Homepage | [https://github.com/uni-algo/uni-algo/](https://github.com/uni-algo/uni-algo/) |
 | License | MIT |
 | Versions | v0.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [uni_algo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uni_algo/xmake.lua) |
 
 ##### Install command
@@ -19295,7 +19318,7 @@ add_requires("uni_algo")
 | -- | -- |
 | Homepage | [http://www.unicorn-engine.org](http://www.unicorn-engine.org) |
 | Versions | 2022.02.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [unicorn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unicorn/xmake.lua) |
 
 ##### Install command
@@ -19318,7 +19341,7 @@ add_requires("unicorn")
 | -- | -- |
 | Homepage | [https://nholthaus.github.io/units/](https://nholthaus.github.io/units/) |
 | Versions | v2.3.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [units/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/units/xmake.lua) |
 
 ##### Install command
@@ -19342,7 +19365,7 @@ add_requires("units")
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
 | Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 
 ##### Install command
@@ -19365,7 +19388,7 @@ add_requires("unordered_dense")
 | -- | -- |
 | Homepage | [https://unqlite.org](https://unqlite.org) |
 | Versions | 1.1.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [unqlite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unqlite/xmake.lua) |
 
 ##### Install command
@@ -19388,7 +19411,7 @@ add_requires("unqlite")
 | -- | -- |
 | Homepage | [http://infozip.sourceforge.net/UnZip.html](http://infozip.sourceforge.net/UnZip.html) |
 | Versions | 6.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [unzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unzip/xmake.lua) |
 
 ##### Install command
@@ -19412,7 +19435,7 @@ add_requires("unzip")
 | Homepage | [https://wiki.ros.org/urdf](https://wiki.ros.org/urdf) |
 | License | BSD-3-Clause |
 | Versions | 1.0.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [urdfdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua) |
 
 ##### Install command
@@ -19436,7 +19459,7 @@ add_requires("urdfdom")
 | Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
 | License | BSD-3-Clause |
 | Versions | 1.0.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
 
 ##### Install command
@@ -19460,7 +19483,7 @@ add_requires("urdfdom-headers")
 | Homepage | [https://uriparser.github.io/](https://uriparser.github.io/) |
 | License | BSD-3-Clause |
 | Versions | 0.9.5, 0.9.6, 0.9.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [uriparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uriparser/xmake.lua) |
 
 ##### Install command
@@ -19483,7 +19506,7 @@ add_requires("uriparser")
 | -- | -- |
 | Homepage | [http://www.openusd.org](http://www.openusd.org) |
 | Versions | v22.11, v23.02 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [usd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usd/xmake.lua) |
 
 ##### Install command
@@ -19506,7 +19529,7 @@ add_requires("usd")
 | -- | -- |
 | Homepage | [https://www.duskborn.com/utest_h/](https://www.duskborn.com/utest_h/) |
 | Versions | 2022.09.01 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [utest.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utest.h/xmake.lua) |
 
 ##### Install command
@@ -19529,7 +19552,7 @@ add_requires("utest.h")
 | -- | -- |
 | Homepage | [https://github.com/sheredom/utf8.h](https://github.com/sheredom/utf8.h) |
 | Versions | 2022.07.04 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [utf8.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8.h/xmake.lua) |
 
 ##### Install command
@@ -19553,7 +19576,7 @@ add_requires("utf8.h")
 | Homepage | [https://github.com/protocolbuffers/utf8_range](https://github.com/protocolbuffers/utf8_range) |
 | License | MIT |
 | Versions | 2022.11.15 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [utf8_range/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8_range/xmake.lua) |
 
 ##### Install command
@@ -19577,7 +19600,7 @@ add_requires("utf8_range")
 | Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
 | License | MIT |
 | Versions | v2.7.0, v2.8.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
 
 ##### Install command
@@ -19601,7 +19624,7 @@ add_requires("utf8proc")
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
 | Versions | v3.2.1, v3.2.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
 ##### Install command
@@ -19617,6 +19640,29 @@ add_requires("utfcpp")
 ```
 
 
+### uthash (linux)
+
+
+| Description | *C macros for hash tables and more* |
+| -- | -- |
+| Homepage | [https://troydhanson.github.io/uthash](https://troydhanson.github.io/uthash) |
+| Versions | 2023.7.11 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [uthash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uthash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uthash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uthash")
+```
+
+
 ### util-linux (linux)
 
 
@@ -19625,7 +19671,7 @@ add_requires("utfcpp")
 | Homepage | [https://github.com/util-linux/util-linux](https://github.com/util-linux/util-linux) |
 | License | GPL-2.0 |
 | Versions | 2.32.1, 2.36.2, 2.39 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [util-linux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/util-linux/xmake.lua) |
 
 ##### Install command
@@ -19648,7 +19694,7 @@ add_requires("util-linux")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.19.2, 1.19.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [util-macros/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/util-macros/xmake.lua) |
 
 ##### Install command
@@ -19671,7 +19717,7 @@ add_requires("util-macros")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/uvw](https://github.com/skypjack/uvw) |
 | Versions | 2.10.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [uvw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uvw/xmake.lua) |
 
 ##### Install command
@@ -19695,7 +19741,7 @@ add_requires("uvw")
 | Homepage | [https://github.com/nodejs/uvwasi](https://github.com/nodejs/uvwasi) |
 | License | MIT |
 | Versions | v0.0.12 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [uvwasi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uvwasi/xmake.lua) |
 
 ##### Install command
@@ -19720,7 +19766,7 @@ add_requires("uvwasi")
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/v8/v8.git](https://chromium.googlesource.com/v8/v8.git) |
 | Versions | 10.0.58 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [v8/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/v8/xmake.lua) |
 
 ##### Install command
@@ -19744,7 +19790,7 @@ add_requires("v8")
 | Homepage | [https://github.com/VcDevel/Vc](https://github.com/VcDevel/Vc) |
 | License | BSD-3-Clause |
 | Versions | 1.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vc/xmake.lua) |
 
 ##### Install command
@@ -19768,7 +19814,7 @@ add_requires("vc")
 | Homepage | [http://www.vcglib.net/](http://www.vcglib.net/) |
 | License | GPL-3.0 |
 | Versions | 2020.12, 2021.07, 2021.10, 2022.02 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vcglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcglib/xmake.lua) |
 
 ##### Install command
@@ -19791,7 +19837,7 @@ add_requires("vcglib")
 | -- | -- |
 | Homepage | [https://github.com/scoopr/vectorial](https://github.com/scoopr/vectorial) |
 | Versions | 2019.06.28 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vectorial/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vectorial/xmake.lua) |
 
 ##### Install command
@@ -19814,7 +19860,7 @@ add_requires("vectorial")
 | -- | -- |
 | Homepage | [https://verilator.org](https://verilator.org) |
 | Versions | 2023.1.10 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
 
 ##### Install command
@@ -19838,7 +19884,7 @@ add_requires("verilator")
 | Homepage | [https://github.com/ddemidov/vexcl](https://github.com/ddemidov/vexcl) |
 | License | MIT |
 | Versions | 1.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vexcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vexcl/xmake.lua) |
 
 ##### Install command
@@ -19862,7 +19908,7 @@ add_requires("vexcl")
 | Homepage | [http://viennacl.sourceforge.net/](http://viennacl.sourceforge.net/) |
 | License | MIT |
 | Versions | 1.7.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [viennacl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/viennacl/xmake.lua) |
 
 ##### Install command
@@ -19886,7 +19932,7 @@ add_requires("viennacl")
 | Homepage | [https://github.com/cbeck88/visit_struct](https://github.com/cbeck88/visit_struct) |
 | License | BSL-1.0 |
 | Versions | v1.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [visit_struct/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/visit_struct/xmake.lua) |
 
 ##### Install command
@@ -19910,7 +19956,7 @@ add_requires("visit_struct")
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
 | Versions | v0.5, v0.6, v0.7 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 
 ##### Install command
@@ -19934,7 +19980,7 @@ add_requires("vk-bootstrap")
 | Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
 | License | MIT |
 | Versions | 1.2.162, 1.2.190, 1.3.204, 1.3.231+1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
 
 ##### Install command
@@ -19958,7 +20004,7 @@ add_requires("volk")
 | Homepage | [https://vtk.org/](https://vtk.org/) |
 | License | BSD-3-Clause |
 | Versions | 9.0.1, 9.0.3, 9.1.0, 9.2.2, 9.2.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vtk/xmake.lua) |
 
 ##### Install command
@@ -19982,7 +20028,7 @@ add_requires("vtk")
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
 ##### Install command
@@ -20006,7 +20052,7 @@ add_requires("vulkan-headers")
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
 | License | Apache-2.0 |
 | Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
 
 ##### Install command
@@ -20030,7 +20076,7 @@ add_requires("vulkan-hpp")
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+1, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-loader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-loader/xmake.lua) |
 
 ##### Install command
@@ -20054,7 +20100,7 @@ add_requires("vulkan-loader")
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | MIT |
 | Versions | v3.0.0, v3.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
 
 ##### Install command
@@ -20078,7 +20124,7 @@ add_requires("vulkan-memory-allocator")
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | CC0 |
 | Versions | v3.0.0, v3.0.1-1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-memory-allocator-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator-hpp/xmake.lua) |
 
 ##### Install command
@@ -20102,7 +20148,7 @@ add_requires("vulkan-memory-allocator-hpp")
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Tools](https://github.com/KhronosGroup/Vulkan-Tools) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+0, 1.2.162+0, 1.2.189+1, 1.2.198+0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-tools/xmake.lua) |
 
 ##### Install command
@@ -20126,7 +20172,7 @@ add_requires("vulkan-tools")
 | Homepage | [https://github.com/KhronosGroup/Vulkan-ValidationLayers/](https://github.com/KhronosGroup/Vulkan-ValidationLayers/) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-validationlayers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-validationlayers/xmake.lua) |
 
 ##### Install command
@@ -20150,7 +20196,7 @@ add_requires("vulkan-validationlayers")
 | Homepage | [https://vsg-dev.github.io/VulkanSceneGraph/](https://vsg-dev.github.io/VulkanSceneGraph/) |
 | License | MIT |
 | Versions | 1.0.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkanscenegraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkanscenegraph/xmake.lua) |
 
 ##### Install command
@@ -20176,7 +20222,7 @@ add_requires("vulkanscenegraph")
 | Homepage | [https://wayland.freedesktop.org/](https://wayland.freedesktop.org/) |
 | License | MIT |
 | Versions | 1.18.0, 1.19.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wayland/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland/xmake.lua) |
 
 ##### Install command
@@ -20200,7 +20246,7 @@ add_requires("wayland")
 | Homepage | [https://wayland.freedesktop.org](https://wayland.freedesktop.org) |
 | License | MIT |
 | Versions | 1.24 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wayland-protocols/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland-protocols/xmake.lua) |
 
 ##### Install command
@@ -20223,7 +20269,7 @@ add_requires("wayland-protocols")
 | -- | -- |
 | Homepage | [http://www.zaphoyd.com/websocketpp](http://www.zaphoyd.com/websocketpp) |
 | Versions | 0.8.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [websocketpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/websocketpp/xmake.lua) |
 
 ##### Install command
@@ -20247,7 +20293,7 @@ add_requires("websocketpp")
 | Homepage | [https://webui.me](https://webui.me) |
 | License | MIT |
 | Versions | 2.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [webui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/webui/xmake.lua) |
 
 ##### Install command
@@ -20271,7 +20317,7 @@ add_requires("webui")
 | Homepage | [https://github.com/wfrest/wfrest](https://github.com/wfrest/wfrest) |
 | License | Apache-2.0 |
 | Versions | v0.9.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wfrest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wfrest/xmake.lua) |
 
 ##### Install command
@@ -20287,6 +20333,29 @@ add_requires("wfrest")
 ```
 
 
+### which (linux)
+
+
+| Description | *shows the full path of (shell) commands* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/which/](https://www.gnu.org/software/which/) |
+| Versions | 2.16, 2.17, 2.19, 2.20, 2.21 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [which/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/which/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install which
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("which")
+```
+
+
 ### whisper.cpp (linux)
 
 
@@ -20294,7 +20363,7 @@ add_requires("wfrest")
 | -- | -- |
 | Homepage | [https://github.com/ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) |
 | Versions | 1.4.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [whisper.cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/whisper.cpp/xmake.lua) |
 
 ##### Install command
@@ -20318,7 +20387,7 @@ add_requires("whisper.cpp")
 | Homepage | [https://www.wolfssl.com](https://www.wolfssl.com) |
 | License | GPL-2.0 |
 | Versions | 5.3.0, 5.6.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wolfssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wolfssl/xmake.lua) |
 
 ##### Install command
@@ -20342,7 +20411,7 @@ add_requires("wolfssl")
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
 | Versions | v0.10.6, v0.10.7, v0.10.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
 
 ##### Install command
@@ -20366,7 +20435,7 @@ add_requires("workflow")
 | Homepage | [https://github.com/CodingHanYa/workspace](https://github.com/CodingHanYa/workspace) |
 | License | Apache-2.0 |
 | Versions | 2023.5.8 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [workspace_hanya/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workspace_hanya/xmake.lua) |
 
 ##### Install command
@@ -20389,7 +20458,7 @@ add_requires("workspace_hanya")
 | -- | -- |
 | Homepage | [https://www.wxwidgets.org/](https://www.wxwidgets.org/) |
 | Versions | v3.2.0, v3.2.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wxwidgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wxwidgets/xmake.lua) |
 
 ##### Install command
@@ -20414,7 +20483,7 @@ add_requires("wxwidgets")
 | -- | -- |
 | Homepage | [https://www.videolan.org/developers/x264.html](https://www.videolan.org/developers/x264.html) |
 | Versions | v2018.09.25, v2021.09.29, v2023.04.04 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [x264/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x264/xmake.lua) |
 
 ##### Install command
@@ -20438,7 +20507,7 @@ add_requires("x264")
 | Homepage | [http://x265.org](http://x265.org) |
 | License | GPL-2.0 |
 | Versions | 3.2, 3.2.1, 3.3, 3.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [x265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x265/xmake.lua) |
 
 ##### Install command
@@ -20461,7 +20530,7 @@ add_requires("x265")
 | -- | -- |
 | Homepage | [https://github.com/herumi/xbyak](https://github.com/herumi/xbyak) |
 | Versions | v6.02, v6.03 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xbyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xbyak/xmake.lua) |
 
 ##### Install command
@@ -20484,7 +20553,7 @@ add_requires("xbyak")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.13, 1.14, 1.14.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xcb-proto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-proto/xmake.lua) |
 
 ##### Install command
@@ -20507,7 +20576,7 @@ add_requires("xcb-proto")
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
 | Versions | 0.3.6, 0.3.8, 0.3.9, 0.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xcb-util/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util/xmake.lua) |
 
 ##### Install command
@@ -20530,7 +20599,7 @@ add_requires("xcb-util")
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
 | Versions | 0.1.0, 0.1.1, 0.1.2, 0.1.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xcb-util-cursor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-cursor/xmake.lua) |
 
 ##### Install command
@@ -20553,7 +20622,7 @@ add_requires("xcb-util-cursor")
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
 | Versions | 1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xcb-util-errors/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-errors/xmake.lua) |
 
 ##### Install command
@@ -20576,7 +20645,7 @@ add_requires("xcb-util-errors")
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
 | Versions | 0.3.8, 0.3.9, 0.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xcb-util-image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-image/xmake.lua) |
 
 ##### Install command
@@ -20599,7 +20668,7 @@ add_requires("xcb-util-image")
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
 | Versions | 0.3.8, 0.3.9, 0.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xcb-util-keysyms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-keysyms/xmake.lua) |
 
 ##### Install command
@@ -20622,7 +20691,7 @@ add_requires("xcb-util-keysyms")
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
 | Versions | 0.3.8, 0.3.9 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xcb-util-renderutil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-renderutil/xmake.lua) |
 
 ##### Install command
@@ -20645,7 +20714,7 @@ add_requires("xcb-util-renderutil")
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
 | Versions | 0.3.8, 0.3.9, 0.4.0, 0.4.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xcb-util-wm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-wm/xmake.lua) |
 
 ##### Install command
@@ -20669,7 +20738,7 @@ add_requires("xcb-util-wm")
 | Homepage | [https://xerces.apache.org/xerces-c/](https://xerces.apache.org/xerces-c/) |
 | License | Apache-2.0 |
 | Versions | 3.2.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xerces-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xerces-c/xmake.lua) |
 
 ##### Install command
@@ -20693,7 +20762,7 @@ add_requires("xerces-c")
 | Homepage | [https://github.com/xtensor-stack/xframe/](https://github.com/xtensor-stack/xframe/) |
 | License | BSD-3-Clause |
 | Versions | 0.2.0, 0.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xframe/xmake.lua) |
 
 ##### Install command
@@ -20717,7 +20786,7 @@ add_requires("xframe")
 | Homepage | [https://github.com/tfussell/xlnt](https://github.com/tfussell/xlnt) |
 | License | MIT |
 | Versions | 2023.03.02 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xlnt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlnt/xmake.lua) |
 
 ##### Install command
@@ -20741,7 +20810,7 @@ add_requires("xlnt")
 | Homepage | [https://pagure.io/xmlto](https://pagure.io/xmlto) |
 | License | GPL-2.0 |
 | Versions | 0.0.28 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xmlto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xmlto/xmake.lua) |
 
 ##### Install command
@@ -20764,7 +20833,7 @@ add_requires("xmlto")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 2021.5, 2022.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xorgproto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xorgproto/xmake.lua) |
 
 ##### Install command
@@ -20788,7 +20857,7 @@ add_requires("xorgproto")
 | Homepage | [https://github.com/alibaba/xquic](https://github.com/alibaba/xquic) |
 | License | Apache-2.0 |
 | Versions | 2022.01.08 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xquic/xmake.lua) |
 
 ##### Install command
@@ -20812,7 +20881,7 @@ add_requires("xquic")
 | Homepage | [https://github.com/xtensor-stack/xsimd/](https://github.com/xtensor-stack/xsimd/) |
 | License | BSD-3-Clause |
 | Versions | 7.6.0, 8.0.3, 8.0.5, 9.0.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xsimd/xmake.lua) |
 
 ##### Install command
@@ -20836,7 +20905,7 @@ add_requires("xsimd")
 | Homepage | [https://github.com/xtensor-stack/xtensor/](https://github.com/xtensor-stack/xtensor/) |
 | License | BSD-3-Clause |
 | Versions | 0.23.10, 0.24.0, 0.24.1, 0.24.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xtensor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor/xmake.lua) |
 
 ##### Install command
@@ -20860,7 +20929,7 @@ add_requires("xtensor")
 | Homepage | [https://github.com/xtensor-stack/xtensor-blas/](https://github.com/xtensor-stack/xtensor-blas/) |
 | License | BSD-3-Clause |
 | Versions | 0.19.1, 0.20.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xtensor-blas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor-blas/xmake.lua) |
 
 ##### Install command
@@ -20884,7 +20953,7 @@ add_requires("xtensor-blas")
 | Homepage | [https://github.com/xtensor-stack/xtensor-io](https://github.com/xtensor-stack/xtensor-io) |
 | License | BSD-3-Clause |
 | Versions | 0.13.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xtensor-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor-io/xmake.lua) |
 
 ##### Install command
@@ -20908,7 +20977,7 @@ add_requires("xtensor-io")
 | Homepage | [https://github.com/xtensor-stack/xtl/](https://github.com/xtensor-stack/xtl/) |
 | License | BSD-3-Clause |
 | Versions | 0.7.2, 0.7.3, 0.7.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtl/xmake.lua) |
 
 ##### Install command
@@ -20931,7 +21000,7 @@ add_requires("xtl")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | Versions | 1.4.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xtrans/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtrans/xmake.lua) |
 
 ##### Install command
@@ -20955,7 +21024,7 @@ add_requires("xtrans")
 | Homepage | [http://cyan4973.github.io/xxHash/](http://cyan4973.github.io/xxHash/) |
 | License | BSD-2-Clause |
 | Versions | v0.8.0, v0.8.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xxhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxhash/xmake.lua) |
 
 ##### Install command
@@ -20978,7 +21047,7 @@ add_requires("xxhash")
 | -- | -- |
 | Homepage | [https://tukaani.org/xz/](https://tukaani.org/xz/) |
 | Versions | 5.2.10, 5.2.5, 5.4.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz/xmake.lua) |
 
 ##### Install command
@@ -21004,7 +21073,7 @@ add_requires("xz")
 | Homepage | [https://github.com/jbeder/yaml-cpp/](https://github.com/jbeder/yaml-cpp/) |
 | License | MIT |
 | Versions | 0.6.3, 0.7.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [yaml-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml-cpp/xmake.lua) |
 
 ##### Install command
@@ -21028,7 +21097,7 @@ add_requires("yaml-cpp")
 | Homepage | [https://github.com/fantasy-peak/yaml_cpp_struct](https://github.com/fantasy-peak/yaml_cpp_struct) |
 | License | MIT |
 | Versions | v1.0.2 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [yaml_cpp_struct/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml_cpp_struct/xmake.lua) |
 
 ##### Install command
@@ -21051,7 +21120,7 @@ add_requires("yaml_cpp_struct")
 | -- | -- |
 | Homepage | [https://yasm.tortall.net/](https://yasm.tortall.net/) |
 | Versions | 1.3.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [yasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yasm/xmake.lua) |
 
 ##### Install command
@@ -21074,7 +21143,7 @@ add_requires("yasm")
 | -- | -- |
 | Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
 | Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
 
 ##### Install command
@@ -21100,7 +21169,7 @@ add_requires("yyjson")
 | Homepage | [https://github.com/Z3Prover/z3](https://github.com/Z3Prover/z3) |
 | License | MIT |
 | Versions | 4.8.15 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [z3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/z3/xmake.lua) |
 
 ##### Install command
@@ -21123,7 +21192,7 @@ add_requires("z3")
 | -- | -- |
 | Homepage | [https://github.com/zyantific/zasm](https://github.com/zyantific/zasm) |
 | Versions | 2023.6.21 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zasm/xmake.lua) |
 
 ##### Install command
@@ -21147,7 +21216,7 @@ add_requires("zasm")
 | Homepage | [https://zeromq.org/](https://zeromq.org/) |
 | License | GPL-3.0 |
 | Versions | 4.3.2, 4.3.4 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zeromq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zeromq/xmake.lua) |
 
 ##### Install command
@@ -21171,7 +21240,7 @@ add_requires("zeromq")
 | Homepage | [https://computing.llnl.gov/projects/zfp](https://computing.llnl.gov/projects/zfp) |
 | License | BSD-3-Clause |
 | Versions | 0.5.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zfp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zfp/xmake.lua) |
 
 ##### Install command
@@ -21194,7 +21263,7 @@ add_requires("zfp")
 | -- | -- |
 | Homepage | [https://www.ziglang.org/](https://www.ziglang.org/) |
 | Versions | 0.10.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
 
 ##### Install command
@@ -21218,7 +21287,7 @@ add_requires("zig")
 | Homepage | [https://github.com/sekrit-twc/zimg](https://github.com/sekrit-twc/zimg) |
 | License | WTFPL |
 | Versions | 3.0.3 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zimg/xmake.lua) |
 
 ##### Install command
@@ -21241,7 +21310,7 @@ add_requires("zimg")
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
 | Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
 ##### Install command
@@ -21265,7 +21334,7 @@ add_requires("zlib")
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
 | Versions | 2.0.5, 2.0.6 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 
 ##### Install command
@@ -21289,7 +21358,7 @@ add_requires("zlib-ng")
 | Homepage | [https://github.com/rudi-cilibrasi/zlibcomplete](https://github.com/rudi-cilibrasi/zlibcomplete) |
 | License | MIT |
 | Versions | 1.0.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zlibcomplete/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlibcomplete/xmake.lua) |
 
 ##### Install command
@@ -21313,7 +21382,7 @@ add_requires("zlibcomplete")
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
 | License | BSD-3-Clause |
 | Versions | v1.4.5, v1.5.0, v1.5.2, v1.5.5 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
 
 ##### Install command
@@ -21337,7 +21406,7 @@ add_requires("zstd")
 | Homepage | [https://github.com/zyantific/zycore-c](https://github.com/zyantific/zycore-c) |
 | License | MIT |
 | Versions | v1.0.0, v1.1.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zycore-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zycore-c/xmake.lua) |
 
 ##### Install command
@@ -21361,7 +21430,7 @@ add_requires("zycore-c")
 | Homepage | [https://zydis.re](https://zydis.re) |
 | License | MIT |
 | Versions | v3.2.1 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zydis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zydis/xmake.lua) |
 
 ##### Install command
@@ -21385,7 +21454,7 @@ add_requires("zydis")
 | Homepage | [http://zziplib.sourceforge.net/](http://zziplib.sourceforge.net/) |
 | License | GPL-2.0 |
 | Versions | v0.13.72 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zziplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zziplib/xmake.lua) |
 
 ##### Install command

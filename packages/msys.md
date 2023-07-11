@@ -5579,6 +5579,29 @@ add_requires("strtk")
 ```
 
 
+### svt-av1 (msys)
+
+
+| Description | *Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)* |
+| -- | -- |
+| Homepage | [https://gitlab.com/AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) |
+| Versions | 1.4.0, 1.4.1, 1.5.0, 1.6.0 |
+| Architectures | i386, x86_64 |
+| Definition | [svt-av1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svt-av1/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install svt-av1
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("svt-av1")
+```
+
+
 ### swig (msys)
 
 
@@ -6367,6 +6390,29 @@ add_requires("utfcpp")
 ```
 
 
+### uthash (msys)
+
+
+| Description | *C macros for hash tables and more* |
+| -- | -- |
+| Homepage | [https://troydhanson.github.io/uthash](https://troydhanson.github.io/uthash) |
+| Versions | 2023.7.11 |
+| Architectures | i386, x86_64 |
+| Definition | [uthash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uthash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uthash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uthash")
+```
+
+
 
 ## v
 ### vectorial (msys)
@@ -6463,6 +6509,29 @@ xrepo install webui
 
 ```lua
 add_requires("webui")
+```
+
+
+### which (msys)
+
+
+| Description | *shows the full path of (shell) commands* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/which/](https://www.gnu.org/software/which/) |
+| Versions | 2.16, 2.17, 2.19, 2.20, 2.21 |
+| Architectures | i386, x86_64 |
+| Definition | [which/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/which/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install which
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("which")
 ```
 
 
