@@ -17982,6 +17982,30 @@ add_requires("sqlpp11")
 ```
 
 
+### srell (linux)
+
+
+| Description | *Unicode-aware regular expression template library for C++* |
+| -- | -- |
+| Homepage | [https://akenotsuki.com/misc/srell](https://akenotsuki.com/misc/srell) |
+| License | BSD-2-Clause |
+| Versions | 3.018, 4.019 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [srell/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srell/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install srell
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("srell")
+```
+
+
 ### srt (linux)
 
 
