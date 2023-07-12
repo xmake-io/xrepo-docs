@@ -6961,7 +6961,7 @@ add_requires("uchardet")
 | -- | -- |
 | Homepage | [https://github.com/uni-algo/uni-algo/](https://github.com/uni-algo/uni-algo/) |
 | License | MIT |
-| Versions | v0.7.1 |
+| Versions | v0.7.1, v0.8.0, v0.8.1, v0.8.2, v1.0.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [uni_algo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uni_algo/xmake.lua) |
 
