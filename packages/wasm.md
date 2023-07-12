@@ -666,6 +666,30 @@ add_requires("cglm")
 ```
 
 
+### cgltf (wasm)
+
+
+| Description | *Single-file glTF 2.0 loader and writer written in C99* |
+| -- | -- |
+| Homepage | [https://github.com/jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) |
+| License | MIT |
+| Versions | v1.13 |
+| Architectures | wasm32 |
+| Definition | [cgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgltf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm cgltf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgltf")
+```
+
+
 ### chipmunk2d (wasm)
 
 
@@ -1546,6 +1570,29 @@ xrepo install -p wasm fastcppcsvparser
 
 ```lua
 add_requires("fastcppcsvparser")
+```
+
+
+### fdk-aac (wasm)
+
+
+| Description | *A standalone library of the Fraunhofer FDK AAC code from Android.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/opencore-amr/](https://sourceforge.net/projects/opencore-amr/) |
+| Versions | 2.0.0, 2.0.1, 2.0.2 |
+| Architectures | wasm32 |
+| Definition | [fdk-aac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fdk-aac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm fdk-aac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fdk-aac")
 ```
 
 

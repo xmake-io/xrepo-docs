@@ -761,6 +761,30 @@ add_requires("cglm")
 ```
 
 
+### cgltf (cross)
+
+
+| Description | *Single-file glTF 2.0 loader and writer written in C99* |
+| -- | -- |
+| Homepage | [https://github.com/jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) |
+| License | MIT |
+| Versions | v1.13 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgltf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cgltf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgltf")
+```
+
+
 ### chromium_zlib (cross)
 
 
@@ -1665,6 +1689,29 @@ xrepo install -p cross [--sdk=/xxx] fastcppcsvparser
 
 ```lua
 add_requires("fastcppcsvparser")
+```
+
+
+### fdk-aac (cross)
+
+
+| Description | *A standalone library of the Fraunhofer FDK AAC code from Android.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/opencore-amr/](https://sourceforge.net/projects/opencore-amr/) |
+| Versions | 2.0.0, 2.0.1, 2.0.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [fdk-aac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fdk-aac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] fdk-aac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fdk-aac")
 ```
 
 

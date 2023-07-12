@@ -1498,6 +1498,30 @@ add_requires("cglm")
 ```
 
 
+### cgltf (windows)
+
+
+| Description | *Single-file glTF 2.0 loader and writer written in C99* |
+| -- | -- |
+| Homepage | [https://github.com/jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) |
+| License | MIT |
+| Versions | v1.13 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgltf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cgltf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgltf")
+```
+
+
 ### cgns (windows)
 
 
@@ -3948,6 +3972,29 @@ xrepo install fcl
 
 ```lua
 add_requires("fcl")
+```
+
+
+### fdk-aac (windows)
+
+
+| Description | *A standalone library of the Fraunhofer FDK AAC code from Android.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/opencore-amr/](https://sourceforge.net/projects/opencore-amr/) |
+| Versions | 2.0.0, 2.0.1, 2.0.2 |
+| Architectures | arm64, x64, x86 |
+| Definition | [fdk-aac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fdk-aac/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fdk-aac
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fdk-aac")
 ```
 
 
