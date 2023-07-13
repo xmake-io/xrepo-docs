@@ -1899,6 +1899,30 @@ add_requires("chromium_zlib")
 ```
 
 
+### cimg (linux)
+
+
+| Description | *Small and open-source C++ toolkit for image processing* |
+| -- | -- |
+| Homepage | [https://github.com/greyclab/cimg](https://github.com/greyclab/cimg) |
+| License | CeCILL-C |
+| Versions | v3.2.6 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cimg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cimg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cimg")
+```
+
+
 ### cinatra (linux)
 
 
