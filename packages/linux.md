@@ -12680,6 +12680,30 @@ add_requires("moonjit")
 ```
 
 
+### mosquitto (linux)
+
+
+| Description | *Eclipse Mosquitto - An open source MQTT broker* |
+| -- | -- |
+| Homepage | [https://mosquitto.org](https://mosquitto.org) |
+| License | EPL-2.0 |
+| Versions | v2.0.15 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mosquitto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mosquitto/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mosquitto
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mosquitto")
+```
+
+
 ### mpc (linux)
 
 
