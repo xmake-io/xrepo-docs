@@ -1769,6 +1769,7 @@ add_requires("fastcppcsvparser")
 | Description | *A standalone library of the Fraunhofer FDK AAC code from Android.* |
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/opencore-amr/](https://sourceforge.net/projects/opencore-amr/) |
+| License | Apache-2.0 |
 | Versions | 2.0.0, 2.0.1, 2.0.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [fdk-aac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fdk-aac/xmake.lua) |
@@ -6932,6 +6933,7 @@ add_requires("strtk")
 | Description | *Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)* |
 | -- | -- |
 | Homepage | [https://gitlab.com/AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) |
+| License | BSD-2-clause |
 | Versions | 1.4.0, 1.4.1, 1.5.0, 1.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [svt-av1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svt-av1/xmake.lua) |

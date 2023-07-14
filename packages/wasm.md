@@ -1579,6 +1579,7 @@ add_requires("fastcppcsvparser")
 | Description | *A standalone library of the Fraunhofer FDK AAC code from Android.* |
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/opencore-amr/](https://sourceforge.net/projects/opencore-amr/) |
+| License | Apache-2.0 |
 | Versions | 2.0.0, 2.0.1, 2.0.2 |
 | Architectures | wasm32 |
 | Definition | [fdk-aac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fdk-aac/xmake.lua) |
@@ -2590,6 +2591,29 @@ xrepo install -p wasm libflac
 
 ```lua
 add_requires("libflac")
+```
+
+
+### libiconv (wasm)
+
+
+| Description | *Character set conversion library.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
+| Versions | 1.15, 1.16, 1.17 |
+| Architectures | wasm32 |
+| Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libiconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libiconv")
 ```
 
 
@@ -5845,6 +5869,7 @@ add_requires("strtk")
 | Description | *Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)* |
 | -- | -- |
 | Homepage | [https://gitlab.com/AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) |
+| License | BSD-2-clause |
 | Versions | 1.4.0, 1.4.1, 1.5.0, 1.6.0 |
 | Architectures | wasm32 |
 | Definition | [svt-av1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svt-av1/xmake.lua) |
@@ -6725,6 +6750,30 @@ add_requires("vulkan-headers")
 
 
 ## w
+### wavpack (wasm)
+
+
+| Description | *WavPack encode/decode library, command-line programs, and several plugins* |
+| -- | -- |
+| Homepage | [https://github.com/dbry/WavPack](https://github.com/dbry/WavPack) |
+| License | BSD-3-Clause |
+| Versions | 4.80.0, 5.4.0, 5.5.0, 5.6.0 |
+| Architectures | wasm32 |
+| Definition | [wavpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wavpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm wavpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wavpack")
+```
+
+
 ### which (wasm)
 
 

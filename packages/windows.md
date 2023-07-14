@@ -4005,6 +4005,7 @@ add_requires("fcl")
 | Description | *A standalone library of the Fraunhofer FDK AAC code from Android.* |
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/opencore-amr/](https://sourceforge.net/projects/opencore-amr/) |
+| License | Apache-2.0 |
 | Versions | 2.0.0, 2.0.1, 2.0.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [fdk-aac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fdk-aac/xmake.lua) |
@@ -15174,6 +15175,7 @@ add_requires("superlu")
 | Description | *Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)* |
 | -- | -- |
 | Homepage | [https://gitlab.com/AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) |
+| License | BSD-2-clause |
 | Versions | 1.4.0, 1.4.1, 1.5.0, 1.6.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [svt-av1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svt-av1/xmake.lua) |
@@ -17046,6 +17048,30 @@ add_requires("vulkanscenegraph")
 
 
 ## w
+### wavpack (windows)
+
+
+| Description | *WavPack encode/decode library, command-line programs, and several plugins* |
+| -- | -- |
+| Homepage | [https://github.com/dbry/WavPack](https://github.com/dbry/WavPack) |
+| License | BSD-3-Clause |
+| Versions | 4.80.0, 5.4.0, 5.5.0, 5.6.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [wavpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wavpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wavpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wavpack")
+```
+
+
 ### websocketpp (windows)
 
 
