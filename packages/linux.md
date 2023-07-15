@@ -8065,6 +8065,30 @@ add_requires("libelf")
 ```
 
 
+### libenvpp (linux)
+
+
+| Description | *A modern C++ library for type-safe environment variable parsing* |
+| -- | -- |
+| Homepage | [https://github.com/ph3at/libenvpp](https://github.com/ph3at/libenvpp) |
+| License | Apache-2.0 |
+| Versions | v1.1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libenvpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libenvpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libenvpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libenvpp")
+```
+
+
 ### libepoxy (linux)
 
 
