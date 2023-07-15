@@ -16047,6 +16047,30 @@ add_requires("trompeloeil")
 ```
 
 
+### tuplet (windows)
+
+
+| Description | *A fast, simple tuple implementation that implements tuple as an aggregate* |
+| -- | -- |
+| Homepage | [https://github.com/codeinred/tuplet](https://github.com/codeinred/tuplet) |
+| License | BSL-1.0 |
+| Versions | v2.1.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [tuplet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tuplet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tuplet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tuplet")
+```
+
+
 ### turbobase64 (windows)
 
 

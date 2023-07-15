@@ -6930,6 +6930,30 @@ add_requires("trompeloeil")
 ```
 
 
+### tuplet (cross)
+
+
+| Description | *A fast, simple tuple implementation that implements tuple as an aggregate* |
+| -- | -- |
+| Homepage | [https://github.com/codeinred/tuplet](https://github.com/codeinred/tuplet) |
+| License | BSL-1.0 |
+| Versions | v2.1.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [tuplet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tuplet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] tuplet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tuplet")
+```
+
+
 ### type_safe (cross)
 
 
