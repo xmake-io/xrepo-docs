@@ -9940,6 +9940,30 @@ add_requires("minizip-ng")
 ```
 
 
+### mint (windows)
+
+
+| Description | *Mouri's Internal NT API Collections* |
+| -- | -- |
+| Homepage | [https://github.com/Chuyu-Team/MINT](https://github.com/Chuyu-Team/MINT) |
+| License | MIT |
+| Versions | 2023.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [mint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mint/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mint
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mint")
+```
+
+
 ### mjson (windows)
 
 
@@ -12592,6 +12616,30 @@ xrepo install poco
 
 ```lua
 add_requires("poco")
+```
+
+
+### polyhook2 (windows)
+
+
+| Description | *C++17, x86/x64 Hooking Libary v2.0* |
+| -- | -- |
+| Homepage | [https://github.com/stevemk14ebr/PolyHook_2_0](https://github.com/stevemk14ebr/PolyHook_2_0) |
+| License | MIT |
+| Versions | 2023.7.15 |
+| Architectures | x64, x86 |
+| Definition | [polyhook2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/polyhook2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install polyhook2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("polyhook2")
 ```
 
 
