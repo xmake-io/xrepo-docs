@@ -7788,6 +7788,30 @@ add_requires("libsais")
 ```
 
 
+### libsamplerate (windows)
+
+
+| Description | *An audio Sample Rate Conversion library* |
+| -- | -- |
+| Homepage | [http://libsndfile.github.io/libsamplerate/](http://libsndfile.github.io/libsamplerate/) |
+| License | BSD-2-Clause |
+| Versions | 0.2.2 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libsamplerate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsamplerate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsamplerate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsamplerate")
+```
+
+
 ### libsdl (windows)
 
 
@@ -16054,7 +16078,7 @@ add_requires("toojpeg")
 | Description | *C++ frame profiler* |
 | -- | -- |
 | Homepage | [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy) |
-| Versions | v0.8.2, v0.9 |
+| Versions | v0.8.2, v0.9, v0.9.1 |
 | Architectures | x64 |
 | Definition | [tracy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tracy/xmake.lua) |
 

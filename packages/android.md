@@ -3750,6 +3750,30 @@ add_requires("libsais")
 ```
 
 
+### libsamplerate (android)
+
+
+| Description | *An audio Sample Rate Conversion library* |
+| -- | -- |
+| Homepage | [http://libsndfile.github.io/libsamplerate/](http://libsndfile.github.io/libsamplerate/) |
+| License | BSD-2-Clause |
+| Versions | 0.2.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libsamplerate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsamplerate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libsamplerate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsamplerate")
+```
+
+
 ### libsdl (android)
 
 
