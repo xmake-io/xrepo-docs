@@ -5928,6 +5928,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libjpeg")
 </code></pre>
+<h3 id="libjpegturbomingw">libjpeg-turbo (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A JPEG image codec that uses SIMD instructions (MMX, SSE2, AVX2, Neon, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, Arm, and PowerPC systems.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://libjpeg-turbo.org/">https://libjpeg-turbo.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua">libjpeg-turbo/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] libjpeg-turbo
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libjpeg-turbo")
+</code></pre>
 <h3 id="libjxlmingw">libjxl (mingw)</h3>
 <table>
 <thead>

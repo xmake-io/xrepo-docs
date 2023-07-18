@@ -1136,6 +1136,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("bc")
 </code></pre>
+<h3 id="bdwgcmacosx">bdwgc (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.hboehm.info/gc/">https://www.hboehm.info/gc/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v8.2.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bdwgc/xmake.lua">bdwgc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install bdwgc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("bdwgc")
+</code></pre>
 <h3 id="benchmarkmacosx">benchmark (macosx)</h3>
 <table>
 <thead>

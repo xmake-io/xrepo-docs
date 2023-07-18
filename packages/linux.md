@@ -812,6 +812,29 @@ add_requires("bc")
 ```
 
 
+### bdwgc (linux)
+
+
+| Description | *The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)* |
+| -- | -- |
+| Homepage | [https://www.hboehm.info/gc/](https://www.hboehm.info/gc/) |
+| Versions | v8.2.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [bdwgc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bdwgc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bdwgc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bdwgc")
+```
+
+
 ### benchmark (linux)
 
 

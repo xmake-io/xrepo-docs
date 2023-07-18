@@ -3896,6 +3896,30 @@ add_requires("libjpeg")
 ```
 
 
+### libjpeg-turbo (mingw)
+
+
+| Description | *A JPEG image codec that uses SIMD instructions (MMX, SSE2, AVX2, Neon, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, Arm, and PowerPC systems.* |
+| -- | -- |
+| Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
+| License | BSD-3-Clause |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libjpeg-turbo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libjpeg-turbo")
+```
+
+
 ### libjxl (mingw)
 
 
