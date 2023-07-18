@@ -2782,7 +2782,7 @@ add_requires("dbg-macro")
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
 | License | MIT |
-| Versions | 1.14.2, 1.14.6 |
+| Versions | 1.14.2, 1.14.6, 1.14.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
 
