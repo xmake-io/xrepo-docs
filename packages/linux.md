@@ -14039,7 +14039,7 @@ add_requires("oatpp")
 ### objfw (linux)
 
 
-| Description | *[Official Mirror] A portable framework for the Objective-C language.* |
+| Description | *Portable framework for the Objective-C language.* |
 | -- | -- |
 | Homepage | [https://objfw.nil.im](https://objfw.nil.im) |
 | Versions | 2023.03.18 |
