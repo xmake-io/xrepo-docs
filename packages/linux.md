@@ -9106,7 +9106,7 @@ add_requires("libomp")
 | Description | *Modern audio compression for the internet.* |
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
-| Versions | 1.3.1 |
+| Versions | 1.3.1, 1.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -9980,7 +9980,7 @@ add_requires("libtins")
 | Description | *A generic library support script.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libtool/](https://www.gnu.org/software/libtool/) |
-| Versions | 2.4.5, 2.4.6 |
+| Versions | 2.4.5, 2.4.6, 2.4.7 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
 
@@ -18810,6 +18810,30 @@ xrepo install texinfo
 
 ```lua
 add_requires("texinfo")
+```
+
+
+### theora (linux)
+
+
+| Description | *Reference implementation of the Theora video compression format.* |
+| -- | -- |
+| Homepage | [https://theora.org/](https://theora.org/) |
+| License | BSD-3-Clause |
+| Versions | v1.0, v1.1.0, v1.1.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [theora/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/theora/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install theora
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("theora")
 ```
 
 

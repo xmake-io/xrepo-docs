@@ -3186,6 +3186,29 @@ add_requires("libmagic")
 ```
 
 
+### libogg (bsd)
+
+
+| Description | *Ogg Bitstream Library* |
+| -- | -- |
+| Homepage | [https://www.xiph.org/ogg/](https://www.xiph.org/ogg/) |
+| Versions | v1.3.4 |
+| Architectures | i386, x86_64 |
+| Definition | [libogg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libogg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libogg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libogg")
+```
+
+
 ### libpng (bsd)
 
 
@@ -3545,7 +3568,7 @@ add_requires("libtiff")
 | Description | *A generic library support script.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libtool/](https://www.gnu.org/software/libtool/) |
-| Versions | 2.4.5, 2.4.6 |
+| Versions | 2.4.5, 2.4.6, 2.4.7 |
 | Architectures | i386, x86_64 |
 | Definition | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
 
@@ -7064,6 +7087,30 @@ xrepo install tetgen
 
 ```lua
 add_requires("tetgen")
+```
+
+
+### theora (bsd)
+
+
+| Description | *Reference implementation of the Theora video compression format.* |
+| -- | -- |
+| Homepage | [https://theora.org/](https://theora.org/) |
+| License | BSD-3-Clause |
+| Versions | v1.0, v1.1.0, v1.1.1 |
+| Architectures | i386, x86_64 |
+| Definition | [theora/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/theora/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install theora
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("theora")
 ```
 
 

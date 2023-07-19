@@ -5569,7 +5569,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.3.1</td>
+<td>1.3.1, 1.4</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -6141,7 +6141,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.4.5, 2.4.6</td>
+<td>2.4.5, 2.4.6, 2.4.7</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11941,6 +11941,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("tetgen")
+</code></pre>
+<h3 id="theoraandroid">theora (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Reference implementation of the Theora video compression format.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://theora.org/">https://theora.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.0, v1.1.0, v1.1.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/theora/xmake.lua">theora/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] theora
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("theora")
 </code></pre>
 <h3 id="threadpoolandroid">thread-pool (android)</h3>
 <table>

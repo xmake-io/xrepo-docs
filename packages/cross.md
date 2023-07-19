@@ -3284,7 +3284,7 @@ add_requires("libsvm")
 | Description | *A generic library support script.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libtool/](https://www.gnu.org/software/libtool/) |
-| Versions | 2.4.5, 2.4.6 |
+| Versions | 2.4.5, 2.4.6, 2.4.7 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
 
@@ -6546,6 +6546,30 @@ xrepo install -p cross [--sdk=/xxx] tetgen
 
 ```lua
 add_requires("tetgen")
+```
+
+
+### theora (cross)
+
+
+| Description | *Reference implementation of the Theora video compression format.* |
+| -- | -- |
+| Homepage | [https://theora.org/](https://theora.org/) |
+| License | BSD-3-Clause |
+| Versions | v1.0, v1.1.0, v1.1.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [theora/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/theora/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] theora
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("theora")
 ```
 
 
