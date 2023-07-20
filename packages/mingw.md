@@ -7118,6 +7118,126 @@ add_requires("qt5widgets")
 ```
 
 
+### qt6base (mingw)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Architectures | x86_64 |
+| Definition | [qt6base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6base/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] qt6base
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6base")
+```
+
+
+### qt6core (mingw)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Architectures | x86_64 |
+| Definition | [qt6core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] qt6core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6core")
+```
+
+
+### qt6gui (mingw)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Architectures | x86_64 |
+| Definition | [qt6gui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6gui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] qt6gui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6gui")
+```
+
+
+### qt6network (mingw)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Architectures | x86_64 |
+| Definition | [qt6network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6network/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] qt6network
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6network")
+```
+
+
+### qt6widgets (mingw)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Architectures | x86_64 |
+| Definition | [qt6widgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6widgets/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] qt6widgets
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6widgets")
+```
+
+
 ### quadsort (mingw)
 
 
