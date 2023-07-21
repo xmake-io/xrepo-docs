@@ -16761,6 +16761,30 @@ add_requires("uthash")
 ```
 
 
+### uvatlas (windows)
+
+
+| Description | *UVAtlas - isochart texture atlasing* |
+| -- | -- |
+| Homepage | [https://github.com/Microsoft/UVAtlas](https://github.com/Microsoft/UVAtlas) |
+| License | MIT |
+| Versions | 2023.06 |
+| Architectures | arm64, x64, x86 |
+| Definition | [uvatlas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uvatlas/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uvatlas
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uvatlas")
+```
+
+
 ### uvw (windows)
 
 
