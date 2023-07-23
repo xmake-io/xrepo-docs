@@ -2945,6 +2945,54 @@ add_requires("devil")
 ```
 
 
+### directx-headers (windows)
+
+
+| Description | *Official DirectX headers* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/DirectX-Headers](https://github.com/microsoft/DirectX-Headers) |
+| License | MIT |
+| Versions | v1.610.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [directx-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directx-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install directx-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("directx-headers")
+```
+
+
+### directxmath (windows)
+
+
+| Description | *DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/DirectXMath](https://github.com/microsoft/DirectXMath) |
+| License | MIT |
+| Versions | 2022.12 |
+| Architectures | arm64, x64, x86 |
+| Definition | [directxmath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directxmath/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install directxmath
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("directxmath")
+```
+
+
 ### directxshadercompiler (windows)
 
 
