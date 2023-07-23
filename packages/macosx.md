@@ -12406,7 +12406,7 @@ add_requires("nativefiledialog")
 | Description | *Cross platform (Windows, Mac, Linux) native file dialog library with C and C++ bindings, based on mlabbe/nativefiledialog.* |
 | -- | -- |
 | Homepage | [https://github.com/btzy/nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) |
-| Versions | v1.0.2 |
+| Versions | v1.0.2, v1.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [nativefiledialog-extended/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nativefiledialog-extended/xmake.lua) |
 
