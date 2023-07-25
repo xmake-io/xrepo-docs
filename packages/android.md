@@ -1239,8 +1239,8 @@ add_requires("cpu-features")
 | Description | *CPU INFOrmation library (x86/x86-64/ARM/ARM64, Linux/Windows/Android/macOS/iOS)* |
 | -- | -- |
 | Homepage | [https://github.com/pytorch/cpuinfo](https://github.com/pytorch/cpuinfo) |
-| License | BSD 2-Clause |
-| Versions | 2022.09.15 |
+| License | BSD-2-Clause |
+| Versions | 2022.09.15, 2023.07.21 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [cpuinfo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpuinfo/xmake.lua) |
 
