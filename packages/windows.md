@@ -7694,6 +7694,29 @@ add_requires("libopus")
 ```
 
 
+### libpeconv (windows)
+
+
+| Description | *A library to load, manipulate, dump PE files. See also: https://github.com/hasherezade/libpeconv_tpl* |
+| -- | -- |
+| Homepage | [https://hasherezade.github.io/libpeconv](https://hasherezade.github.io/libpeconv) |
+| Versions | 2023.05.31 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libpeconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpeconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpeconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpeconv")
+```
+
+
 ### libpng (windows)
 
 
