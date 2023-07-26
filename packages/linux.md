@@ -21782,6 +21782,30 @@ add_requires("zlibcomplete")
 ```
 
 
+### zltoolkit (linux)
+
+
+| Description | *A lightweight network framework based on C++11 that utilizes thread pool technology to achieve high concurrent network I/O.* |
+| -- | -- |
+| Homepage | [https://github.com/ZLMediaKit/ZLToolKit](https://github.com/ZLMediaKit/ZLToolKit) |
+| License | MIT |
+| Versions | 2023.7.8 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [zltoolkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zltoolkit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zltoolkit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zltoolkit")
+```
+
+
 ### zstd (linux)
 
 
