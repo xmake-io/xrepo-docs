@@ -21455,7 +21455,7 @@ add_requires("xtrans")
 | -- | -- |
 | Homepage | [http://cyan4973.github.io/xxHash/](http://cyan4973.github.io/xxHash/) |
 | License | BSD-2-Clause |
-| Versions | v0.8.0, v0.8.1 |
+| Versions | v0.8.0, v0.8.1, v0.8.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xxhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxhash/xmake.lua) |
 
