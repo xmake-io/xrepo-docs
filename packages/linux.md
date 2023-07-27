@@ -14885,6 +14885,30 @@ add_requires("ordered_map")
 ```
 
 
+### osmanip (linux)
+
+
+| Description | *A cross-platform library for output stream manipulation using ANSI escape sequences.* |
+| -- | -- |
+| Homepage | [https://github.com/JustWhit3/osmanip](https://github.com/JustWhit3/osmanip) |
+| License | MIT |
+| Versions | v4.6.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [osmanip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osmanip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install osmanip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("osmanip")
+```
+
+
 ### osqp (linux)
 
 

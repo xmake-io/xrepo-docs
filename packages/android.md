@@ -5975,6 +5975,30 @@ add_requires("ordered_map")
 ```
 
 
+### osmanip (android)
+
+
+| Description | *A cross-platform library for output stream manipulation using ANSI escape sequences.* |
+| -- | -- |
+| Homepage | [https://github.com/JustWhit3/osmanip](https://github.com/JustWhit3/osmanip) |
+| License | MIT |
+| Versions | v4.6.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [osmanip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osmanip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] osmanip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("osmanip")
+```
+
+
 ### out_ptr (android)
 
 
