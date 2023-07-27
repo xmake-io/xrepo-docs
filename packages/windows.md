@@ -4577,7 +4577,7 @@ add_requires("ftgl")
 | -- | -- |
 | Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
 | License | MIT |
-| Versions | v3.0.0 |
+| Versions | v3.0.0, v4.1.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
 
