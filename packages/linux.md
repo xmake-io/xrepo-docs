@@ -8984,6 +8984,30 @@ add_requires("libmng")
 ```
 
 
+### libmodplug (linux)
+
+
+| Description | *libmodplug GitHub repository* |
+| -- | -- |
+| Homepage | [http://modplug-xmms.sf.net](http://modplug-xmms.sf.net) |
+| License | Public Domain |
+| Versions | 2022.1.31 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libmodplug/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodplug/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmodplug
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmodplug")
+```
+
+
 ### libmpdclient (linux)
 
 
@@ -18033,6 +18057,30 @@ xrepo install soplex
 
 ```lua
 add_requires("soplex")
+```
+
+
+### soundtouch (linux)
+
+
+| Description | *SoundTouch Audio Processing Library* |
+| -- | -- |
+| Homepage | [https://modplug-xmms.sourceforge.net](https://modplug-xmms.sourceforge.net) |
+| License | LGPL-2.1 |
+| Versions | 2.3.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [soundtouch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soundtouch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soundtouch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soundtouch")
 ```
 
 

@@ -3992,6 +3992,30 @@ add_requires("libjxl")
 ```
 
 
+### libmodplug (mingw)
+
+
+| Description | *libmodplug GitHub repository* |
+| -- | -- |
+| Homepage | [http://modplug-xmms.sf.net](http://modplug-xmms.sf.net) |
+| License | Public Domain |
+| Versions | 2022.1.31 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libmodplug/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodplug/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libmodplug
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmodplug")
+```
+
+
 ### libogg (mingw)
 
 
@@ -8205,6 +8229,30 @@ xrepo install -p mingw [--mingw=/xxx] sol2
 
 ```lua
 add_requires("sol2")
+```
+
+
+### soundtouch (mingw)
+
+
+| Description | *SoundTouch Audio Processing Library* |
+| -- | -- |
+| Homepage | [https://modplug-xmms.sourceforge.net](https://modplug-xmms.sourceforge.net) |
+| License | LGPL-2.1 |
+| Versions | 2.3.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [soundtouch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soundtouch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] soundtouch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soundtouch")
 ```
 
 

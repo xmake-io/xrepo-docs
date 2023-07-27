@@ -7601,6 +7601,30 @@ add_requires("libmng")
 ```
 
 
+### libmodplug (windows)
+
+
+| Description | *libmodplug GitHub repository* |
+| -- | -- |
+| Homepage | [http://modplug-xmms.sf.net](http://modplug-xmms.sf.net) |
+| License | Public Domain |
+| Versions | 2022.1.31 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libmodplug/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodplug/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmodplug
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmodplug")
+```
+
+
 ### libmspack (windows)
 
 
@@ -14984,6 +15008,30 @@ xrepo install soplex
 
 ```lua
 add_requires("soplex")
+```
+
+
+### soundtouch (windows)
+
+
+| Description | *SoundTouch Audio Processing Library* |
+| -- | -- |
+| Homepage | [https://modplug-xmms.sourceforge.net](https://modplug-xmms.sourceforge.net) |
+| License | LGPL-2.1 |
+| Versions | 2.3.2 |
+| Architectures | arm64, x64, x86 |
+| Definition | [soundtouch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soundtouch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soundtouch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soundtouch")
 ```
 
 
