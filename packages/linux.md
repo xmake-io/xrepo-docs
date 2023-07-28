@@ -2583,6 +2583,30 @@ add_requires("cppfront")
 ```
 
 
+### cpptrace (linux)
+
+
+| Description | *Lightweight, zero-configuration-required, and cross-platform stacktrace library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/jeremy-rifkin/cpptrace](https://github.com/jeremy-rifkin/cpptrace) |
+| License | MIT |
+| Versions | v0.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cpptrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpptrace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpptrace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpptrace")
+```
+
+
 ### cppzmq (linux)
 
 
@@ -19810,6 +19834,30 @@ xrepo install units
 
 ```lua
 add_requires("units")
+```
+
+
+### unity_test (linux)
+
+
+| Description | *Simple Unit Testing for C* |
+| -- | -- |
+| Homepage | [http://www.throwtheswitch.org/unity](http://www.throwtheswitch.org/unity) |
+| License | MIT |
+| Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [unity_test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unity_test/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install unity_test
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("unity_test")
 ```
 
 

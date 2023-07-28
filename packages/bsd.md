@@ -7711,6 +7711,30 @@ add_requires("units")
 ```
 
 
+### unity_test (bsd)
+
+
+| Description | *Simple Unit Testing for C* |
+| -- | -- |
+| Homepage | [http://www.throwtheswitch.org/unity](http://www.throwtheswitch.org/unity) |
+| License | MIT |
+| Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2 |
+| Architectures | i386, x86_64 |
+| Definition | [unity_test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unity_test/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install unity_test
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("unity_test")
+```
+
+
 ### unordered_dense (bsd)
 
 

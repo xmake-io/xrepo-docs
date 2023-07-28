@@ -7171,6 +7171,30 @@ add_requires("units")
 ```
 
 
+### unity_test (cross)
+
+
+| Description | *Simple Unit Testing for C* |
+| -- | -- |
+| Homepage | [http://www.throwtheswitch.org/unity](http://www.throwtheswitch.org/unity) |
+| License | MIT |
+| Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [unity_test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unity_test/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] unity_test
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("unity_test")
+```
+
+
 ### unordered_dense (cross)
 
 
