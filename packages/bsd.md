@@ -8167,6 +8167,30 @@ add_requires("yasm")
 ```
 
 
+### yomm2 (bsd)
+
+
+| Description | *Fast, orthogonal, open multi-methods. Solve the Expression Problem in C++17.* |
+| -- | -- |
+| Homepage | [https://github.com/jll63/yomm2](https://github.com/jll63/yomm2) |
+| License | BSL-1.0 |
+| Versions | v1.4.0 |
+| Architectures | i386, x86_64 |
+| Definition | [yomm2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yomm2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install yomm2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yomm2")
+```
+
+
 ### yyjson (bsd)
 
 

@@ -5557,6 +5557,30 @@ add_requires("scons")
 ```
 
 
+### serial (wasm)
+
+
+| Description | *Cross-platform, Serial Port library written in C++* |
+| -- | -- |
+| Homepage | [http://wjwwood.github.io/serial](http://wjwwood.github.io/serial) |
+| License | MIT |
+| Versions | 2022.3.9 |
+| Architectures | wasm32 |
+| Definition | [serial/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/serial/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm serial
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("serial")
+```
+
+
 ### simde (wasm)
 
 

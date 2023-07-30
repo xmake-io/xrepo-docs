@@ -17587,6 +17587,30 @@ add_requires("sentry-native")
 ```
 
 
+### serial (linux)
+
+
+| Description | *Cross-platform, Serial Port library written in C++* |
+| -- | -- |
+| Homepage | [http://wjwwood.github.io/serial](http://wjwwood.github.io/serial) |
+| License | MIT |
+| Versions | 2022.3.9 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [serial/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/serial/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install serial
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("serial")
+```
+
+
 ### sfml (linux)
 
 
@@ -21661,6 +21685,30 @@ xrepo install yasm
 
 ```lua
 add_requires("yasm")
+```
+
+
+### yomm2 (linux)
+
+
+| Description | *Fast, orthogonal, open multi-methods. Solve the Expression Problem in C++17.* |
+| -- | -- |
+| Homepage | [https://github.com/jll63/yomm2](https://github.com/jll63/yomm2) |
+| License | BSL-1.0 |
+| Versions | v1.4.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [yomm2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yomm2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install yomm2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yomm2")
 ```
 
 
