@@ -8850,6 +8850,30 @@ add_requires("tetgen")
 ```
 
 
+### tgbot-cpp (mingw)
+
+
+| Description | *C++ library for Telegram bot API* |
+| -- | -- |
+| Homepage | [http://reo7sp.github.io/tgbot-cpp](http://reo7sp.github.io/tgbot-cpp) |
+| License | MIT |
+| Versions | v1.7.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [tgbot-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tgbot-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] tgbot-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tgbot-cpp")
+```
+
+
 ### theora (mingw)
 
 
