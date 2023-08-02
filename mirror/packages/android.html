@@ -2054,6 +2054,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("crossguid")
 </code></pre>
+<h3 id="cryptoalgorithmsandroid">crypto-algorithms (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Basic implementations of standard cryptography algorithms, like AES and SHA-1.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KorewaWatchful/crypto-algorithms">https://github.com/KorewaWatchful/crypto-algorithms</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2020.4.20</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crypto-algorithms/xmake.lua">crypto-algorithms/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] crypto-algorithms
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("crypto-algorithms")
+</code></pre>
 <h3 id="csv2android">csv2 (android)</h3>
 <table>
 <thead>
@@ -2156,6 +2189,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ctre")
+</code></pre>
+<h3 id="cubebandroid">cubeb (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Cross platform audio library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/mozilla/cubeb">https://github.com/mozilla/cubeb</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>ISC</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.7.31</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cubeb/xmake.lua">cubeb/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] cubeb
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("cubeb")
 </code></pre>
 <h3 id="cxxoptsandroid">cxxopts (android)</h3>
 <table>

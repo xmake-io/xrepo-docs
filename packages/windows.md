@@ -2493,6 +2493,29 @@ add_requires("crow")
 ```
 
 
+### crypto-algorithms (windows)
+
+
+| Description | *Basic implementations of standard cryptography algorithms, like AES and SHA-1.* |
+| -- | -- |
+| Homepage | [https://github.com/KorewaWatchful/crypto-algorithms](https://github.com/KorewaWatchful/crypto-algorithms) |
+| Versions | 2020.4.20 |
+| Architectures | arm64, x64, x86 |
+| Definition | [crypto-algorithms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crypto-algorithms/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install crypto-algorithms
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crypto-algorithms")
+```
+
+
 ### cryptopp (windows)
 
 
@@ -2583,6 +2606,30 @@ xrepo install ctre
 
 ```lua
 add_requires("ctre")
+```
+
+
+### cubeb (windows)
+
+
+| Description | *Cross platform audio library* |
+| -- | -- |
+| Homepage | [https://github.com/mozilla/cubeb](https://github.com/mozilla/cubeb) |
+| License | ISC |
+| Versions | 2023.7.31 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cubeb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cubeb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cubeb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cubeb")
 ```
 
 
@@ -3061,6 +3108,30 @@ xrepo install directxtk
 
 ```lua
 add_requires("directxtk")
+```
+
+
+### dirent (windows)
+
+
+| Description | *C/C++ library for retrieving information on files and directories* |
+| -- | -- |
+| Homepage | [https://github.com/tronkko/dirent](https://github.com/tronkko/dirent) |
+| License | MIT |
+| Versions | 2023.5.21 |
+| Architectures | arm64, x64, x86 |
+| Definition | [dirent/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dirent/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dirent
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dirent")
 ```
 
 

@@ -1091,6 +1091,29 @@ add_requires("crc32c")
 ```
 
 
+### crypto-algorithms (cross)
+
+
+| Description | *Basic implementations of standard cryptography algorithms, like AES and SHA-1.* |
+| -- | -- |
+| Homepage | [https://github.com/KorewaWatchful/crypto-algorithms](https://github.com/KorewaWatchful/crypto-algorithms) |
+| Versions | 2020.4.20 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [crypto-algorithms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crypto-algorithms/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] crypto-algorithms
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crypto-algorithms")
+```
+
+
 ### csv2 (cross)
 
 
@@ -1158,6 +1181,30 @@ xrepo install -p cross [--sdk=/xxx] ctre
 
 ```lua
 add_requires("ctre")
+```
+
+
+### cubeb (cross)
+
+
+| Description | *Cross platform audio library* |
+| -- | -- |
+| Homepage | [https://github.com/mozilla/cubeb](https://github.com/mozilla/cubeb) |
+| License | ISC |
+| Versions | 2023.7.31 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cubeb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cubeb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cubeb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cubeb")
 ```
 
 

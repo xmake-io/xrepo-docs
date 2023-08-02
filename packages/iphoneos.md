@@ -1162,6 +1162,29 @@ add_requires("crossguid")
 ```
 
 
+### crypto-algorithms (iphoneos)
+
+
+| Description | *Basic implementations of standard cryptography algorithms, like AES and SHA-1.* |
+| -- | -- |
+| Homepage | [https://github.com/KorewaWatchful/crypto-algorithms](https://github.com/KorewaWatchful/crypto-algorithms) |
+| Versions | 2020.4.20 |
+| Architectures | arm64, x86_64 |
+| Definition | [crypto-algorithms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crypto-algorithms/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos crypto-algorithms
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crypto-algorithms")
+```
+
+
 ### cryptopp (iphoneos)
 
 

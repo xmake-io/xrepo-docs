@@ -1187,6 +1187,29 @@ add_requires("crc32c")
 ```
 
 
+### crypto-algorithms (bsd)
+
+
+| Description | *Basic implementations of standard cryptography algorithms, like AES and SHA-1.* |
+| -- | -- |
+| Homepage | [https://github.com/KorewaWatchful/crypto-algorithms](https://github.com/KorewaWatchful/crypto-algorithms) |
+| Versions | 2020.4.20 |
+| Architectures | i386, x86_64 |
+| Definition | [crypto-algorithms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crypto-algorithms/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install crypto-algorithms
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crypto-algorithms")
+```
+
+
 ### cryptopp (bsd)
 
 
@@ -1277,6 +1300,30 @@ xrepo install ctre
 
 ```lua
 add_requires("ctre")
+```
+
+
+### cubeb (bsd)
+
+
+| Description | *Cross platform audio library* |
+| -- | -- |
+| Homepage | [https://github.com/mozilla/cubeb](https://github.com/mozilla/cubeb) |
+| License | ISC |
+| Versions | 2023.7.31 |
+| Architectures | i386, x86_64 |
+| Definition | [cubeb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cubeb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cubeb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cubeb")
 ```
 
 
