@@ -2663,6 +2663,30 @@ add_requires("libjxl")
 ```
 
 
+### libmodbus (msys)
+
+
+| Description | *A Modbus library for Linux, Mac OS, FreeBSD and Windows* |
+| -- | -- |
+| Homepage | [https://libmodbus.org](https://libmodbus.org) |
+| License | LGPL-2.1 |
+| Versions | v3.1.10 |
+| Architectures | i386, x86_64 |
+| Definition | [libmodbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodbus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmodbus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmodbus")
+```
+
+
 ### libmodplug (msys)
 
 

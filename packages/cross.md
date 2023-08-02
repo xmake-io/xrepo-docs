@@ -2924,6 +2924,30 @@ add_requires("libjpeg")
 ```
 
 
+### libmodbus (cross)
+
+
+| Description | *A Modbus library for Linux, Mac OS, FreeBSD and Windows* |
+| -- | -- |
+| Homepage | [https://libmodbus.org](https://libmodbus.org) |
+| License | LGPL-2.1 |
+| Versions | v3.1.10 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libmodbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodbus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libmodbus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmodbus")
+```
+
+
 ### libmodplug (cross)
 
 

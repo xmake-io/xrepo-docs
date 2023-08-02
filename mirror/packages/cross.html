@@ -4459,6 +4459,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libjpeg")
 </code></pre>
+<h3 id="libmodbuscross">libmodbus (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A Modbus library for Linux, Mac OS, FreeBSD and Windows</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://libmodbus.org">https://libmodbus.org</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v3.1.10</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodbus/xmake.lua">libmodbus/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] libmodbus
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libmodbus")
+</code></pre>
 <h3 id="libmodplugcross">libmodplug (cross)</h3>
 <table>
 <thead>
