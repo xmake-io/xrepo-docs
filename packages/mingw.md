@@ -3190,6 +3190,30 @@ add_requires("imgui")
 ```
 
 
+### imgui-file-dialog (mingw)
+
+
+| Description | *File Dialog for Dear ImGui* |
+| -- | -- |
+| Homepage | [https://github.com/aiekick/ImGuiFileDialog](https://github.com/aiekick/ImGuiFileDialog) |
+| License | MIT |
+| Versions | v0.6.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [imgui-file-dialog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui-file-dialog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] imgui-file-dialog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imgui-file-dialog")
+```
+
+
 ### imgui-sfml (mingw)
 
 

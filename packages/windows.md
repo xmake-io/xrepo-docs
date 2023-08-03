@@ -6088,6 +6088,30 @@ add_requires("imgui")
 ```
 
 
+### imgui-file-dialog (windows)
+
+
+| Description | *File Dialog for Dear ImGui* |
+| -- | -- |
+| Homepage | [https://github.com/aiekick/ImGuiFileDialog](https://github.com/aiekick/ImGuiFileDialog) |
+| License | MIT |
+| Versions | v0.6.5 |
+| Architectures | arm64, x64, x86 |
+| Definition | [imgui-file-dialog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui-file-dialog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install imgui-file-dialog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imgui-file-dialog")
+```
+
+
 ### imgui-sfml (windows)
 
 
