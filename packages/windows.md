@@ -6939,6 +6939,30 @@ add_requires("libargon2")
 ```
 
 
+### libassert (windows)
+
+
+| Description | *The most over-engineered and overpowered C++ assertion library.* |
+| -- | -- |
+| Homepage | [https://github.com/jeremy-rifkin/libassert](https://github.com/jeremy-rifkin/libassert) |
+| License | MIT |
+| Versions | v1.2 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libassert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libassert/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libassert
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libassert")
+```
+
+
 ### libavif (windows)
 
 
