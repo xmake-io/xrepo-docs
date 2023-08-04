@@ -3166,6 +3166,30 @@ add_requires("ifort")
 ```
 
 
+### imcoolbar (mingw)
+
+
+| Description | *A Cool bar for Dear ImGui* |
+| -- | -- |
+| Homepage | [https://github.com/aiekick/ImCoolBar](https://github.com/aiekick/ImCoolBar) |
+| License | MIT |
+| Versions | 2023.07.05 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [imcoolbar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imcoolbar/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] imcoolbar
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imcoolbar")
+```
+
+
 ### imgui (mingw)
 
 
@@ -3257,6 +3281,54 @@ xrepo install -p mingw [--mingw=/xxx] imguizmo
 
 ```lua
 add_requires("imguizmo")
+```
+
+
+### imnodes (mingw)
+
+
+| Description | *A small, dependency-free node editor for dear imgui* |
+| -- | -- |
+| Homepage | [https://github.com/Nelarius/imnodes](https://github.com/Nelarius/imnodes) |
+| License | MIT |
+| Versions | v0.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [imnodes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imnodes/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] imnodes
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imnodes")
+```
+
+
+### implot (mingw)
+
+
+| Description | *Immediate Mode Plotting* |
+| -- | -- |
+| Homepage | [https://github.com/epezent/implot](https://github.com/epezent/implot) |
+| License | MIT |
+| Versions | v0.15 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [implot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] implot
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("implot")
 ```
 
 

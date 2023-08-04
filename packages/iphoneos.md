@@ -2663,6 +2663,30 @@ add_requires("ifort")
 ```
 
 
+### imcoolbar (iphoneos)
+
+
+| Description | *A Cool bar for Dear ImGui* |
+| -- | -- |
+| Homepage | [https://github.com/aiekick/ImCoolBar](https://github.com/aiekick/ImCoolBar) |
+| License | MIT |
+| Versions | 2023.07.05 |
+| Architectures | arm64, x86_64 |
+| Definition | [imcoolbar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imcoolbar/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos imcoolbar
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imcoolbar")
+```
+
+
 ### imgui (iphoneos)
 
 
@@ -2707,6 +2731,54 @@ xrepo install -p iphoneos imguizmo
 
 ```lua
 add_requires("imguizmo")
+```
+
+
+### imnodes (iphoneos)
+
+
+| Description | *A small, dependency-free node editor for dear imgui* |
+| -- | -- |
+| Homepage | [https://github.com/Nelarius/imnodes](https://github.com/Nelarius/imnodes) |
+| License | MIT |
+| Versions | v0.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [imnodes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imnodes/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos imnodes
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imnodes")
+```
+
+
+### implot (iphoneos)
+
+
+| Description | *Immediate Mode Plotting* |
+| -- | -- |
+| Homepage | [https://github.com/epezent/implot](https://github.com/epezent/implot) |
+| License | MIT |
+| Versions | v0.15 |
+| Architectures | arm64, x86_64 |
+| Definition | [implot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos implot
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("implot")
 ```
 
 
