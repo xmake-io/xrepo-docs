@@ -20419,7 +20419,7 @@ add_requires("zasm")
 | Description | *High-performance, asynchronous messaging library* |
 | -- | -- |
 | Homepage | [https://zeromq.org/](https://zeromq.org/) |
-| License | GPL-3.0 |
+| License | MPL-2.0 |
 | Versions | 4.3.2, 4.3.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [zeromq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zeromq/xmake.lua) |
