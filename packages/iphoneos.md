@@ -1115,6 +1115,30 @@ add_requires("cpp-peglib")
 ```
 
 
+### cr (iphoneos)
+
+
+| Description | *cr.h: A Simple C Hot Reload Header-only Library* |
+| -- | -- |
+| Homepage | [https://fungos.github.io/cr-simple-c-hot-reload/](https://fungos.github.io/cr-simple-c-hot-reload/) |
+| License | MIT |
+| Versions | 2022.11.06 |
+| Architectures | arm64, x86_64 |
+| Definition | [cr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos cr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cr")
+```
+
+
 ### crc32c (iphoneos)
 
 
