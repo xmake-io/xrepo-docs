@@ -7028,6 +7028,30 @@ add_requires("plog")
 ```
 
 
+### pocketfft (mingw)
+
+
+| Description | *FFT implementation based on FFTPack, but with several improvements* |
+| -- | -- |
+| Homepage | [https://github.com/mreineck/pocketfft](https://github.com/mreineck/pocketfft) |
+| License | BSD-3-Clause |
+| Versions | 2023.02.14 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [pocketfft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketfft/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] pocketfft
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pocketfft")
+```
+
+
 ### pprint (mingw)
 
 

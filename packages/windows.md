@@ -4809,6 +4809,30 @@ add_requires("g2o")
 ```
 
 
+### g3log (windows)
+
+
+| Description | *G3log is  an asynchronous, "crash safe", logger that is easy to use with default logging sinks or you can add your own.  G3log is made with plain C++14 (C++11 support up to release 1.3.2)  with no external libraries (except gtest used for unit tests). G3log is made to be cross-platform, currently running on OSX, Windows and several Linux distros.  See Readme below for details of usage.* |
+| -- | -- |
+| Homepage | [http://github.com/KjellKod/g3log](http://github.com/KjellKod/g3log) |
+| License | Unlicense |
+| Versions | 2.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [g3log/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/g3log/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install g3log
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("g3log")
+```
+
+
 ### gamenetworkingsockets (windows)
 
 
@@ -12998,6 +13022,30 @@ xrepo install pmp
 
 ```lua
 add_requires("pmp")
+```
+
+
+### pocketfft (windows)
+
+
+| Description | *FFT implementation based on FFTPack, but with several improvements* |
+| -- | -- |
+| Homepage | [https://github.com/mreineck/pocketfft](https://github.com/mreineck/pocketfft) |
+| License | BSD-3-Clause |
+| Versions | 2023.02.14 |
+| Architectures | arm64, x64, x86 |
+| Definition | [pocketfft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketfft/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pocketfft
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pocketfft")
 ```
 
 
