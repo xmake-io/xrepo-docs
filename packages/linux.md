@@ -11644,6 +11644,29 @@ add_requires("loguru")
 ```
 
 
+### lolly (linux)
+
+
+| Description | *Lolly is an alternative to the C++ Standard Library.* |
+| -- | -- |
+| Homepage | [https://github.com/XmacsLabs/lolly](https://github.com/XmacsLabs/lolly) |
+| Versions | v1.0.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [lolly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lolly/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lolly
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lolly")
+```
+
+
 ### lua (linux)
 
 

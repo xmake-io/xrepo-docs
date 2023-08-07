@@ -4961,6 +4961,29 @@ add_requires("loguru")
 ```
 
 
+### lolly (mingw)
+
+
+| Description | *Lolly is an alternative to the C++ Standard Library.* |
+| -- | -- |
+| Homepage | [https://github.com/XmacsLabs/lolly](https://github.com/XmacsLabs/lolly) |
+| Versions | v1.0.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [lolly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lolly/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] lolly
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lolly")
+```
+
+
 ### lua (mingw)
 
 
