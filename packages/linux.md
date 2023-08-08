@@ -1122,6 +1122,30 @@ add_requires("blosc")
 ```
 
 
+### bluez (linux)
+
+
+| Description | *Library for the Bluetooth protocol stack for Linux* |
+| -- | -- |
+| Homepage | [http://www.bluez.org](http://www.bluez.org) |
+| License | GPL-2.0 |
+| Versions | 5.68 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [bluez/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bluez/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bluez
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bluez")
+```
+
+
 ### boost (linux)
 
 
