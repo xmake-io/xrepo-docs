@@ -2537,6 +2537,30 @@ add_requires("cpp-lazy")
 ```
 
 
+### cpp-linenoise (linux)
+
+
+| Description | *A single file multi-platform (Unix, Windows) C++ header-only linenoise-based readline library.* |
+| -- | -- |
+| Homepage | [https://github.com/yhirose/cpp-linenoise](https://github.com/yhirose/cpp-linenoise) |
+| License | BSD-2-Clause |
+| Versions | 2021.11.05 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cpp-linenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-linenoise/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp-linenoise
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-linenoise")
+```
+
+
 ### cpp-peglib (linux)
 
 

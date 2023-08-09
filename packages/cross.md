@@ -1044,6 +1044,30 @@ add_requires("cpp-httplib")
 ```
 
 
+### cpp-linenoise (cross)
+
+
+| Description | *A single file multi-platform (Unix, Windows) C++ header-only linenoise-based readline library.* |
+| -- | -- |
+| Homepage | [https://github.com/yhirose/cpp-linenoise](https://github.com/yhirose/cpp-linenoise) |
+| License | BSD-2-Clause |
+| Versions | 2021.11.05 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cpp-linenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-linenoise/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cpp-linenoise
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-linenoise")
+```
+
+
 ### cpp-peglib (cross)
 
 

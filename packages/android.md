@@ -1185,6 +1185,30 @@ add_requires("cpp-httplib")
 ```
 
 
+### cpp-linenoise (android)
+
+
+| Description | *A single file multi-platform (Unix, Windows) C++ header-only linenoise-based readline library.* |
+| -- | -- |
+| Homepage | [https://github.com/yhirose/cpp-linenoise](https://github.com/yhirose/cpp-linenoise) |
+| License | BSD-2-Clause |
+| Versions | 2021.11.05 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cpp-linenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-linenoise/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cpp-linenoise
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-linenoise")
+```
+
+
 ### cpp-peglib (android)
 
 
