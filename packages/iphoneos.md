@@ -1621,7 +1621,7 @@ add_requires("dr_mp3")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.19, 0.13.10, 0.13.11, 0.13.8 |
+| Versions | 0.12.19, 0.13.10, 0.13.11, 0.13.12, 0.13.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
