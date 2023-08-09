@@ -18849,6 +18849,30 @@ add_requires("unity_test")
 ```
 
 
+### universal_stacktrace (macosx)
+
+
+| Description | *C++ Stacktrace for windows linux and os/x* |
+| -- | -- |
+| Homepage | [https://github.com/MisterTea/UniversalStacktrace](https://github.com/MisterTea/UniversalStacktrace) |
+| License | Apache-2.0 |
+| Versions | 2022.11.06 |
+| Architectures | arm64, x86_64 |
+| Definition | [universal_stacktrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/universal_stacktrace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install universal_stacktrace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("universal_stacktrace")
+```
+
+
 ### unordered_dense (macosx)
 
 
