@@ -2370,6 +2370,30 @@ add_requires("cpp-peglib")
 ```
 
 
+### cpp-semver (macosx)
+
+
+| Description | *Semantic Versioning library for modern C++.* |
+| -- | -- |
+| Homepage | [https://github.com/z4kn4fein/cpp-semver](https://github.com/z4kn4fein/cpp-semver) |
+| License | MIT |
+| Versions | v0.3.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [cpp-semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-semver/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp-semver
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-semver")
+```
+
+
 ### cpptrace (macosx)
 
 
@@ -13599,7 +13623,7 @@ add_requires("onnxruntime")
 | -- | -- |
 | Homepage | [http://www.open3d.org/](http://www.open3d.org/) |
 | License | MIT |
-| Versions | v0.15.1 |
+| Versions | v0.15.1, v0.17.0 |
 | Architectures | x86_64 |
 | Definition | [open3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/open3d/xmake.lua) |
 

@@ -1331,6 +1331,30 @@ add_requires("cpp-peglib")
 ```
 
 
+### cpp-semver (mingw)
+
+
+| Description | *Semantic Versioning library for modern C++.* |
+| -- | -- |
+| Homepage | [https://github.com/z4kn4fein/cpp-semver](https://github.com/z4kn4fein/cpp-semver) |
+| License | MIT |
+| Versions | v0.3.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cpp-semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-semver/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cpp-semver
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-semver")
+```
+
+
 ### cr (mingw)
 
 

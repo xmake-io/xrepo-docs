@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: cpp-linenoise, universal_stacktrace, bluez**
+- **Recently added: cpp-semver, cpp-linenoise, universal_stacktrace**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
