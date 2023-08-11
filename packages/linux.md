@@ -16053,6 +16053,29 @@ add_requires("poppler")
 ```
 
 
+### portaudio (linux)
+
+
+| Description | *PortAudio is a cross-platform, open-source C language library for real-time audio input and output.* |
+| -- | -- |
+| Homepage | [http://www.portaudio.com](http://www.portaudio.com) |
+| Versions | 2023.08.05 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [portaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/portaudio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install portaudio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("portaudio")
+```
+
+
 ### pprint (linux)
 
 

@@ -5318,6 +5318,29 @@ add_requires("pocketfft")
 ```
 
 
+### portaudio (cross)
+
+
+| Description | *PortAudio is a cross-platform, open-source C language library for real-time audio input and output.* |
+| -- | -- |
+| Homepage | [http://www.portaudio.com](http://www.portaudio.com) |
+| Versions | 2023.08.05 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [portaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/portaudio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] portaudio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("portaudio")
+```
+
+
 ### pprint (cross)
 
 
