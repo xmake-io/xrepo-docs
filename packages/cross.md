@@ -2246,7 +2246,7 @@ add_requires("glog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
@@ -6124,6 +6124,30 @@ add_requires("serial")
 ```
 
 
+### sheenbidi (cross)
+
+
+| Description | *A sophisticated implementation of Unicode Bidirectional Algorithm* |
+| -- | -- |
+| Homepage | [https://github.com/Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi) |
+| License | Apache-2.0 |
+| Versions | v2.6 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [sheenbidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sheenbidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] sheenbidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sheenbidi")
+```
+
+
 ### simde (cross)
 
 
@@ -6391,7 +6415,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
+| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 

@@ -5315,7 +5315,7 @@ add_requires("glog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
@@ -15062,6 +15062,30 @@ add_requires("shaderwriter")
 ```
 
 
+### sheenbidi (windows)
+
+
+| Description | *A sophisticated implementation of Unicode Bidirectional Algorithm* |
+| -- | -- |
+| Homepage | [https://github.com/Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi) |
+| License | Apache-2.0 |
+| Versions | v2.6 |
+| Architectures | arm64, x64, x86 |
+| Definition | [sheenbidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sheenbidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sheenbidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sheenbidi")
+```
+
+
 ### simage (windows)
 
 
@@ -15543,7 +15567,7 @@ add_requires("spirv-cross")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
+| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -17819,7 +17843,7 @@ add_requires("vulkan-hpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1 |
 | Architectures | x64, x86 |
 | Definition | [vulkan-loader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-loader/xmake.lua) |
 
