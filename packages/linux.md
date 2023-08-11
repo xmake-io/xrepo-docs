@@ -10177,7 +10177,7 @@ add_requires("libsquish")
 | -- | -- |
 | Homepage | [https://www.libssh2.org/](https://www.libssh2.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.10.0 |
+| Versions | 1.10.0, 1.11.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libssh2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libssh2/xmake.lua) |
 
@@ -13593,7 +13593,7 @@ add_requires("nanobench")
 | -- | -- |
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
-| Versions | v1.3.2, v1.4.2 |
+| Versions | v1.3.2, v1.4.2, v1.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 
