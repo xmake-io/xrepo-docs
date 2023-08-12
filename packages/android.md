@@ -2025,6 +2025,30 @@ add_requires("fast_float")
 ```
 
 
+### fast_obj (android)
+
+
+| Description | *Fast C OBJ parser* |
+| -- | -- |
+| Homepage | [https://github.com/thisistherk/fast_obj](https://github.com/thisistherk/fast_obj) |
+| License | MIT |
+| Versions | 2023.08.08 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [fast_obj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_obj/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] fast_obj
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_obj")
+```
+
+
 ### fastcppcsvparser (android)
 
 

@@ -1812,6 +1812,30 @@ add_requires("fast_float")
 ```
 
 
+### fast_obj (cross)
+
+
+| Description | *Fast C OBJ parser* |
+| -- | -- |
+| Homepage | [https://github.com/thisistherk/fast_obj](https://github.com/thisistherk/fast_obj) |
+| License | MIT |
+| Versions | 2023.08.08 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [fast_obj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_obj/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] fast_obj
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_obj")
+```
+
+
 ### fastcppcsvparser (cross)
 
 

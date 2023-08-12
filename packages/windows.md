@@ -4143,6 +4143,30 @@ add_requires("fast_io")
 ```
 
 
+### fast_obj (windows)
+
+
+| Description | *Fast C OBJ parser* |
+| -- | -- |
+| Homepage | [https://github.com/thisistherk/fast_obj](https://github.com/thisistherk/fast_obj) |
+| License | MIT |
+| Versions | 2023.08.08 |
+| Architectures | arm64, x64, x86 |
+| Definition | [fast_obj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_obj/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fast_obj
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_obj")
+```
+
+
 ### fastcppcsvparser (windows)
 
 
@@ -14731,6 +14755,29 @@ add_requires("rsm-mmio")
 ```
 
 
+### rtaudio (windows)
+
+
+| Description | *A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO, and WASAPI) operating systems.* |
+| -- | -- |
+| Homepage | [https://github.com/thestk/rtaudio](https://github.com/thestk/rtaudio) |
+| Versions | 6.0.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [rtaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtaudio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rtaudio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rtaudio")
+```
+
+
 ### rtm (windows)
 
 
@@ -17595,6 +17642,30 @@ xrepo install vectorial
 
 ```lua
 add_requires("vectorial")
+```
+
+
+### veil (windows)
+
+
+| Description | *Windows internal undocumented API.* |
+| -- | -- |
+| Homepage | [https://github.com/MiroKaku/Veil](https://github.com/MiroKaku/Veil) |
+| License | MIT |
+| Versions | 2023.07.19 |
+| Architectures | arm64, x64, x86 |
+| Definition | [veil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/veil/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install veil
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("veil")
 ```
 
 

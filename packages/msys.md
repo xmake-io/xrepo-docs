@@ -1716,6 +1716,30 @@ add_requires("fast_io")
 ```
 
 
+### fast_obj (msys)
+
+
+| Description | *Fast C OBJ parser* |
+| -- | -- |
+| Homepage | [https://github.com/thisistherk/fast_obj](https://github.com/thisistherk/fast_obj) |
+| License | MIT |
+| Versions | 2023.08.08 |
+| Architectures | i386, x86_64 |
+| Definition | [fast_obj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_obj/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fast_obj
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_obj")
+```
+
+
 ### fastcppcsvparser (msys)
 
 
@@ -5367,6 +5391,29 @@ xrepo install rsm-mmio
 
 ```lua
 add_requires("rsm-mmio")
+```
+
+
+### rtaudio (msys)
+
+
+| Description | *A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO, and WASAPI) operating systems.* |
+| -- | -- |
+| Homepage | [https://github.com/thestk/rtaudio](https://github.com/thestk/rtaudio) |
+| Versions | 6.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [rtaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtaudio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rtaudio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rtaudio")
 ```
 
 

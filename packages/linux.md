@@ -4492,6 +4492,30 @@ add_requires("fast_io")
 ```
 
 
+### fast_obj (linux)
+
+
+| Description | *Fast C OBJ parser* |
+| -- | -- |
+| Homepage | [https://github.com/thisistherk/fast_obj](https://github.com/thisistherk/fast_obj) |
+| License | MIT |
+| Versions | 2023.08.08 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fast_obj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_obj/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fast_obj
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast_obj")
+```
+
+
 ### fastcppcsvparser (linux)
 
 
@@ -17729,6 +17753,29 @@ xrepo install rsync
 
 ```lua
 add_requires("rsync")
+```
+
+
+### rtaudio (linux)
+
+
+| Description | *A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO, and WASAPI) operating systems.* |
+| -- | -- |
+| Homepage | [https://github.com/thestk/rtaudio](https://github.com/thestk/rtaudio) |
+| Versions | 6.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rtaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtaudio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rtaudio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rtaudio")
 ```
 
 
