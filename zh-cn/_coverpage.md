@@ -6,7 +6,7 @@
 
 - *简单，轻量，跨平台*
 - *现代化的 C/C++ 包管理工具，分布式仓库支持*
-- **Recently added: veil, fast_obj, rtaudio**
+- **Recently added: im3d, veil, fast_obj**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [GitHub](https://github.com/xmake-io/xrepo/)

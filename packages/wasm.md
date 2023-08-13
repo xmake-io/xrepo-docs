@@ -2334,6 +2334,30 @@ add_requires("ifort")
 ```
 
 
+### im3d (wasm)
+
+
+| Description | *File Dialog for Dear ImGui* |
+| -- | -- |
+| Homepage | [https://github.com/john-chapman/im3d](https://github.com/john-chapman/im3d) |
+| License | MIT |
+| Versions | 2023.06.09 |
+| Architectures | wasm32 |
+| Definition | [im3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/im3d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm im3d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("im3d")
+```
+
+
 ### indicators (wasm)
 
 

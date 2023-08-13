@@ -2998,6 +2998,30 @@ add_requires("ifort")
 ```
 
 
+### im3d (android)
+
+
+| Description | *File Dialog for Dear ImGui* |
+| -- | -- |
+| Homepage | [https://github.com/john-chapman/im3d](https://github.com/john-chapman/im3d) |
+| License | MIT |
+| Versions | 2023.06.09 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [im3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/im3d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] im3d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("im3d")
+```
+
+
 ### imcoolbar (android)
 
 
