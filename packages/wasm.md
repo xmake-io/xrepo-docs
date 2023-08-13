@@ -1621,6 +1621,30 @@ add_requires("exprtk")
 
 
 ## f
+### fast-cdr (wasm)
+
+
+| Description | *eProsima FastCDR library provides two serialization mechanisms. One is the standard CDR serialization mechanism, while the other is a faster implementation of it.* |
+| -- | -- |
+| Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
+| License | Apache-2.0 |
+| Versions | v1.1.0 |
+| Architectures | wasm32 |
+| Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm fast-cdr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fast-cdr")
+```
+
+
 ### fast_float (wasm)
 
 
@@ -1770,7 +1794,7 @@ add_requires("fluxsort")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
-| Versions | 10.0.0, 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
+| Versions | 10.0.0, 10.1.0, 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
 | Architectures | wasm32 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -7088,7 +7112,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3 |
+| Versions | v3.2.1, v3.2.3, v3.2.4 |
 | Architectures | wasm32 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
