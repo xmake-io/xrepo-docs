@@ -1835,6 +1835,30 @@ add_requires("freetype")
 ```
 
 
+### fribidi (wasm)
+
+
+| Description | *The Free Implementation of the Unicode Bidirectional Algorithm.* |
+| -- | -- |
+| Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
+| License | LGPL-2.1 |
+| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13 |
+| Architectures | wasm32 |
+| Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm fribidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fribidi")
+```
+
+
 ### frozen (wasm)
 
 
@@ -2236,6 +2260,30 @@ xrepo install -p wasm happly
 
 ```lua
 add_requires("happly")
+```
+
+
+### harfbuzz (wasm)
+
+
+| Description | *HarfBuzz is a text shaping library.* |
+| -- | -- |
+| Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
+| License | MIT |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1 |
+| Architectures | wasm32 |
+| Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm harfbuzz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("harfbuzz")
 ```
 
 
@@ -2689,6 +2737,30 @@ xrepo install -p wasm lexy
 
 ```lua
 add_requires("lexy")
+```
+
+
+### libass (wasm)
+
+
+| Description | *libass is a portable subtitle renderer for the ASS/SSA (Advanced Substation Alpha/Substation Alpha) subtitle format.* |
+| -- | -- |
+| Homepage | [https://github.com/libass/libass](https://github.com/libass/libass) |
+| License | ISC |
+| Versions | 0.15.2, 0.16.0, 0.17.0, 0.17.1 |
+| Architectures | wasm32 |
+| Definition | [libass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libass/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libass
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libass")
 ```
 
 
