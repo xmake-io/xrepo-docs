@@ -21434,6 +21434,30 @@ add_requires("wfrest")
 ```
 
 
+### wgpu-native (linux)
+
+
+| Description | *Native WebGPU implementation based on wgpu-core* |
+| -- | -- |
+| Homepage | [https://github.com/gfx-rs/wgpu-native](https://github.com/gfx-rs/wgpu-native) |
+| License | Apache-2.0 |
+| Versions | v0.17.0+2 |
+| Architectures | x86_64 |
+| Definition | [wgpu-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wgpu-native/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wgpu-native
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wgpu-native")
+```
+
+
 ### which (linux)
 
 
