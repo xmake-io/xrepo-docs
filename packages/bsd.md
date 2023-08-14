@@ -7981,7 +7981,7 @@ add_requires("unity_test")
 | -- | -- |
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
-| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0 |
+| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4 |
 | Architectures | i386, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 
