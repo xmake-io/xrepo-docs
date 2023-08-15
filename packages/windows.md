@@ -12561,8 +12561,9 @@ add_requires("openvdb")
 | Description | *C++ Profiler For Games (API)* |
 | -- | -- |
 | Homepage | [https://optick.dev](https://optick.dev) |
-| Versions | 1.3.1 |
-| Architectures | arm64, x64, x86 |
+| License | MIT |
+| Versions | 1.3.1, 1.4.0 |
+| Architectures | x64, x86 |
 | Definition | [optick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/optick/xmake.lua) |
 
 ##### Install command
