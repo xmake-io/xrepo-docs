@@ -2394,6 +2394,30 @@ add_requires("cpp-semver")
 ```
 
 
+### cpp20-http-client (macosx)
+
+
+| Description | *An HTTP(S) client library for C++20.* |
+| -- | -- |
+| Homepage | [https://github.com/avocadoboi/cpp20-http-client](https://github.com/avocadoboi/cpp20-http-client) |
+| License | MIT |
+| Versions | 2023.08.11 |
+| Architectures | arm64, x86_64 |
+| Definition | [cpp20-http-client/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp20-http-client/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp20-http-client
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp20-http-client")
+```
+
+
 ### cpptrace (macosx)
 
 
@@ -14491,6 +14515,30 @@ xrepo install patch
 
 ```lua
 add_requires("patch")
+```
+
+
+### pcg-cpp (macosx)
+
+
+| Description | *PCG — C++ Implementation* |
+| -- | -- |
+| Homepage | [http://www.pcg-random.org](http://www.pcg-random.org) |
+| License | Apache-2.0 |
+| Versions | 2022.04.09 |
+| Architectures | arm64, x86_64 |
+| Definition | [pcg-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcg-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pcg-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pcg-cpp")
 ```
 
 

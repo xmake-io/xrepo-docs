@@ -4733,6 +4733,30 @@ add_requires("patch")
 ```
 
 
+### pcg-cpp (msys)
+
+
+| Description | *PCG — C++ Implementation* |
+| -- | -- |
+| Homepage | [http://www.pcg-random.org](http://www.pcg-random.org) |
+| License | Apache-2.0 |
+| Versions | 2022.04.09 |
+| Architectures | i386, x86_64 |
+| Definition | [pcg-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcg-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pcg-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pcg-cpp")
+```
+
+
 ### pcre2 (msys)
 
 
