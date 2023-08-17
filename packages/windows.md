@@ -8269,6 +8269,30 @@ add_requires("libpsl")
 ```
 
 
+### libraqm (windows)
+
+
+| Description | *A library for complex text layout* |
+| -- | -- |
+| Homepage | [https://host-oman.github.io/libraqm](https://host-oman.github.io/libraqm) |
+| License | MIT |
+| Versions | v0.10.1 |
+| Architectures | x64, x86 |
+| Definition | [libraqm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraqm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libraqm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libraqm")
+```
+
+
 ### libraw (windows)
 
 
