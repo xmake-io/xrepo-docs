@@ -7150,6 +7150,30 @@ add_requires("jsoncpp")
 
 
 ## k
+### kahip (macosx)
+
+
+| Description | *KaHIP - Karlsruhe High Quality Partitioning* |
+| -- | -- |
+| Homepage | [https://kahip.github.io/](https://kahip.github.io/) |
+| License | MIT |
+| Versions | v3.15 |
+| Architectures | arm64, x86_64 |
+| Definition | [kahip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kahip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kahip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kahip")
+```
+
+
 ### kcp (macosx)
 
 
