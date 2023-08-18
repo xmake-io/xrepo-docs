@@ -1595,6 +1595,30 @@ add_requires("entt")
 ```
 
 
+### expected-lite (wasm)
+
+
+| Description | *expected lite - Expected objects in C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/expected-lite](https://github.com/martinmoene/expected-lite) |
+| License | BSL-1.0 |
+| Versions | v0.6.3 |
+| Architectures | wasm32 |
+| Definition | [expected-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm expected-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expected-lite")
+```
+
+
 ### exprtk (wasm)
 
 
@@ -4942,6 +4966,30 @@ xrepo install -p wasm pcre2
 
 ```lua
 add_requires("pcre2")
+```
+
+
+### perlinnoise (wasm)
+
+
+| Description | *Header-only Perlin noise library for modern C++ (C++17/C++20)* |
+| -- | -- |
+| Homepage | [https://github.com/Reputeless/PerlinNoise](https://github.com/Reputeless/PerlinNoise) |
+| License | MIT |
+| Versions | v3.0.0 |
+| Architectures | wasm32 |
+| Definition | [perlinnoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/perlinnoise/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm perlinnoise
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("perlinnoise")
 ```
 
 

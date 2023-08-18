@@ -4252,6 +4252,30 @@ add_requires("expat")
 ```
 
 
+### expected-lite (linux)
+
+
+| Description | *expected lite - Expected objects in C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/expected-lite](https://github.com/martinmoene/expected-lite) |
+| License | BSL-1.0 |
+| Versions | v0.6.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [expected-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install expected-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expected-lite")
+```
+
+
 ### expresscpp (linux)
 
 
@@ -15887,6 +15911,30 @@ xrepo install pegtl
 
 ```lua
 add_requires("pegtl")
+```
+
+
+### perlinnoise (linux)
+
+
+| Description | *Header-only Perlin noise library for modern C++ (C++17/C++20)* |
+| -- | -- |
+| Homepage | [https://github.com/Reputeless/PerlinNoise](https://github.com/Reputeless/PerlinNoise) |
+| License | MIT |
+| Versions | v3.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [perlinnoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/perlinnoise/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install perlinnoise
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("perlinnoise")
 ```
 
 

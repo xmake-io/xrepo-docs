@@ -1975,6 +1975,30 @@ add_requires("entt")
 ```
 
 
+### expected-lite (android)
+
+
+| Description | *expected lite - Expected objects in C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/expected-lite](https://github.com/martinmoene/expected-lite) |
+| License | BSL-1.0 |
+| Versions | v0.6.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [expected-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] expected-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expected-lite")
+```
+
+
 ### exprtk (android)
 
 
@@ -6549,6 +6573,30 @@ xrepo install -p android [--ndk=/xxx] pcre2
 
 ```lua
 add_requires("pcre2")
+```
+
+
+### perlinnoise (android)
+
+
+| Description | *Header-only Perlin noise library for modern C++ (C++17/C++20)* |
+| -- | -- |
+| Homepage | [https://github.com/Reputeless/PerlinNoise](https://github.com/Reputeless/PerlinNoise) |
+| License | MIT |
+| Versions | v3.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [perlinnoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/perlinnoise/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] perlinnoise
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("perlinnoise")
 ```
 
 
