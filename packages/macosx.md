@@ -17430,6 +17430,30 @@ add_requires("sol2")
 ```
 
 
+### soloud (macosx)
+
+
+| Description | *SoLoud is an easy to use, free, portable c/c++ audio engine for games.* |
+| -- | -- |
+| Homepage | [https://github.com/jarikomppa/soloud](https://github.com/jarikomppa/soloud) |
+| License | zlib |
+| Versions | 2020.02.07 |
+| Architectures | arm64, x86_64 |
+| Definition | [soloud/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soloud/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soloud
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soloud")
+```
+
+
 ### sophus (macosx)
 
 
