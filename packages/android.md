@@ -2287,6 +2287,30 @@ add_requires("fltk")
 ```
 
 
+### flux (android)
+
+
+| Description | *A C++20 library for sequence-orientated programming* |
+| -- | -- |
+| Homepage | [https://tristanbrindle.com/flux/](https://tristanbrindle.com/flux/) |
+| License | BSL-1.0 |
+| Versions | 2023.08.17 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [flux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flux/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] flux
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flux")
+```
+
+
 ### fluxsort (android)
 
 

@@ -2097,6 +2097,30 @@ add_requires("flex")
 ```
 
 
+### flux (bsd)
+
+
+| Description | *A C++20 library for sequence-orientated programming* |
+| -- | -- |
+| Homepage | [https://tristanbrindle.com/flux/](https://tristanbrindle.com/flux/) |
+| License | BSL-1.0 |
+| Versions | 2023.08.17 |
+| Architectures | i386, x86_64 |
+| Definition | [flux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flux/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flux
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flux")
+```
+
+
 ### fluxsort (bsd)
 
 

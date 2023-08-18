@@ -2027,6 +2027,30 @@ add_requires("flex")
 ```
 
 
+### flux (cross)
+
+
+| Description | *A C++20 library for sequence-orientated programming* |
+| -- | -- |
+| Homepage | [https://tristanbrindle.com/flux/](https://tristanbrindle.com/flux/) |
+| License | BSL-1.0 |
+| Versions | 2023.08.17 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [flux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flux/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] flux
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flux")
+```
+
+
 ### fluxsort (cross)
 
 
