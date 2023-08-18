@@ -5037,6 +5037,29 @@ add_requires("libyaml")
 ```
 
 
+### lightmapper (mingw)
+
+
+| Description | *A C/C++ single-file library for drop-in lightmap baking. Just use your existing OpenGL renderer to bounce light!* |
+| -- | -- |
+| Homepage | [https://github.com/ands/lightmapper](https://github.com/ands/lightmapper) |
+| Versions | 2022.01.03 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [lightmapper/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightmapper/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] lightmapper
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lightmapper")
+```
+
+
 ### litehtml (mingw)
 
 
