@@ -5336,6 +5336,29 @@ add_requires("glad")
 ```
 
 
+### glaze (windows)
+
+
+| Description | *Extremely fast, in memory, JSON and interface library for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
+| Versions | v1.3.5 |
+| Architectures | arm64, x64, x86 |
+| Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glaze
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glaze")
+```
+
+
 ### glew (windows)
 
 
@@ -9757,6 +9780,30 @@ add_requires("m4")
 ```
 
 
+### maddy (windows)
+
+
+| Description | *C++ Markdown to HTML header-only parser library* |
+| -- | -- |
+| Homepage | [https://github.com/progsource/maddy](https://github.com/progsource/maddy) |
+| License | MIT |
+| Versions | 1.2.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [maddy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/maddy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install maddy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("maddy")
+```
+
+
 ### magic_enum (windows)
 
 
@@ -10442,6 +10489,30 @@ xrepo install microsoft-proxy
 
 ```lua
 add_requires("microsoft-proxy")
+```
+
+
+### microsoft-wtl (windows)
+
+
+| Description | *Windows Template Library (WTL) is a C++ library for developing Windows applications and UI components. It extends ATL (Active Template Library) and provides a set of classes for controls, dialogs, frame windows, GDI objects, and more.* |
+| -- | -- |
+| Homepage | [https://wtl.sourceforge.io](https://wtl.sourceforge.io) |
+| License | MS-PL |
+| Versions | 2022.3.11 |
+| Architectures | arm64, x64, x86 |
+| Definition | [microsoft-wtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-wtl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install microsoft-wtl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-wtl")
 ```
 
 
@@ -13359,6 +13430,30 @@ xrepo install plog
 
 ```lua
 add_requires("plog")
+```
+
+
+### plusaes (windows)
+
+
+| Description | *Header only C++ AES cipher library* |
+| -- | -- |
+| Homepage | [https://kkayataka.github.io/plusaes/doc/index.html](https://kkayataka.github.io/plusaes/doc/index.html) |
+| License | BSL-1.0 |
+| Versions | v1.0.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [plusaes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plusaes/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install plusaes
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plusaes")
 ```
 
 
@@ -17862,6 +17957,30 @@ add_requires("v8")
 ```
 
 
+### variant-lite (windows)
+
+
+| Description | *variant lite - A C++17-like variant, a type-safe union for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/variant-lite](https://github.com/martinmoene/variant-lite) |
+| License | BSL-1.0 |
+| Versions | 2022.12.03 |
+| Architectures | arm64, x64, x86 |
+| Definition | [variant-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/variant-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install variant-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("variant-lite")
+```
+
+
 ### vc (windows)
 
 
@@ -18360,6 +18479,30 @@ xrepo install vulkanscenegraph
 
 ```lua
 add_requires("vulkanscenegraph")
+```
+
+
+### vvenc (windows)
+
+
+| Description | *Fraunhofer Versatile Video Encoder (VVenC)* |
+| -- | -- |
+| Homepage | [https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html](https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html) |
+| License | BSD-3-Clause-Clear |
+| Versions | v1.9.0 |
+| Architectures | x64, x86 |
+| Definition | [vvenc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vvenc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vvenc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vvenc")
 ```
 
 
@@ -19293,6 +19436,30 @@ xrepo install zltoolkit
 
 ```lua
 add_requires("zltoolkit")
+```
+
+
+### zmqpb (windows)
+
+
+| Description | *A helper to use zeromq and protobuf together* |
+| -- | -- |
+| Homepage | [https://github.com/SFGrenade/ZmqPb/](https://github.com/SFGrenade/ZmqPb/) |
+| License | MPL-2.0 |
+| Versions | 0.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [zmqpb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zmqpb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zmqpb")
 ```
 
 

@@ -5327,6 +5327,29 @@ add_requires("glad")
 ```
 
 
+### glaze (macosx)
+
+
+| Description | *Extremely fast, in memory, JSON and interface library for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
+| Versions | v1.3.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glaze
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glaze")
+```
+
+
 ### glew (macosx)
 
 
@@ -11362,6 +11385,30 @@ add_requires("m4")
 ```
 
 
+### maddy (macosx)
+
+
+| Description | *C++ Markdown to HTML header-only parser library* |
+| -- | -- |
+| Homepage | [https://github.com/progsource/maddy](https://github.com/progsource/maddy) |
+| License | MIT |
+| Versions | 1.2.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [maddy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/maddy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install maddy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("maddy")
+```
+
+
 ### magic_enum (macosx)
 
 
@@ -15082,6 +15129,30 @@ xrepo install plog
 
 ```lua
 add_requires("plog")
+```
+
+
+### plusaes (macosx)
+
+
+| Description | *Header only C++ AES cipher library* |
+| -- | -- |
+| Homepage | [https://kkayataka.github.io/plusaes/doc/index.html](https://kkayataka.github.io/plusaes/doc/index.html) |
+| License | BSL-1.0 |
+| Versions | v1.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [plusaes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plusaes/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install plusaes
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plusaes")
 ```
 
 
@@ -19775,6 +19846,30 @@ add_requires("v8")
 ```
 
 
+### variant-lite (macosx)
+
+
+| Description | *variant lite - A C++17-like variant, a type-safe union for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/variant-lite](https://github.com/martinmoene/variant-lite) |
+| License | BSL-1.0 |
+| Versions | 2022.12.03 |
+| Architectures | arm64, x86_64 |
+| Definition | [variant-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/variant-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install variant-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("variant-lite")
+```
+
+
 ### vc (macosx)
 
 
@@ -20154,6 +20249,30 @@ xrepo install vulkanscenegraph
 
 ```lua
 add_requires("vulkanscenegraph")
+```
+
+
+### vvenc (macosx)
+
+
+| Description | *Fraunhofer Versatile Video Encoder (VVenC)* |
+| -- | -- |
+| Homepage | [https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html](https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html) |
+| License | BSD-3-Clause-Clear |
+| Versions | v1.9.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [vvenc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vvenc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vvenc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vvenc")
 ```
 
 
@@ -21293,6 +21412,30 @@ xrepo install zltoolkit
 
 ```lua
 add_requires("zltoolkit")
+```
+
+
+### zmqpb (macosx)
+
+
+| Description | *A helper to use zeromq and protobuf together* |
+| -- | -- |
+| Homepage | [https://github.com/SFGrenade/ZmqPb/](https://github.com/SFGrenade/ZmqPb/) |
+| License | MPL-2.0 |
+| Versions | 0.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [zmqpb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zmqpb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zmqpb")
 ```
 
 

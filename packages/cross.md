@@ -2314,6 +2314,29 @@ add_requires("ghc_filesystem")
 ```
 
 
+### glaze (cross)
+
+
+| Description | *Extremely fast, in memory, JSON and interface library for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
+| Versions | v1.3.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] glaze
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glaze")
+```
+
+
 ### gli (cross)
 
 
@@ -4132,6 +4155,30 @@ add_requires("m4")
 ```
 
 
+### maddy (cross)
+
+
+| Description | *C++ Markdown to HTML header-only parser library* |
+| -- | -- |
+| Homepage | [https://github.com/progsource/maddy](https://github.com/progsource/maddy) |
+| License | MIT |
+| Versions | 1.2.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [maddy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/maddy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] maddy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("maddy")
+```
+
+
 ### magic_enum (cross)
 
 
@@ -5626,6 +5673,30 @@ xrepo install -p cross [--sdk=/xxx] plog
 
 ```lua
 add_requires("plog")
+```
+
+
+### plusaes (cross)
+
+
+| Description | *Header only C++ AES cipher library* |
+| -- | -- |
+| Homepage | [https://kkayataka.github.io/plusaes/doc/index.html](https://kkayataka.github.io/plusaes/doc/index.html) |
+| License | BSL-1.0 |
+| Versions | v1.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [plusaes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plusaes/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] plusaes
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plusaes")
 ```
 
 
@@ -7983,6 +8054,30 @@ add_requires("uthash")
 
 
 ## v
+### variant-lite (cross)
+
+
+| Description | *variant lite - A C++17-like variant, a type-safe union for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/variant-lite](https://github.com/martinmoene/variant-lite) |
+| License | BSL-1.0 |
+| Versions | 2022.12.03 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [variant-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/variant-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] variant-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("variant-lite")
+```
+
+
 ### vectorial (cross)
 
 
