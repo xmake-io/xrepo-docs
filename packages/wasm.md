@@ -856,6 +856,30 @@ add_requires("cmake")
 ```
 
 
+### cmidi2 (wasm)
+
+
+| Description | *header-only MIDI 2.0 UMP and MIDI-CI binary processor library* |
+| -- | -- |
+| Homepage | [https://github.com/atsushieno/cmidi2](https://github.com/atsushieno/cmidi2) |
+| License | MIT |
+| Versions | 2023.08.07 |
+| Architectures | wasm32 |
+| Definition | [cmidi2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmidi2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm cmidi2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cmidi2")
+```
+
+
 ### cnpy (wasm)
 
 

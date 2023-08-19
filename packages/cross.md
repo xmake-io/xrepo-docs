@@ -951,6 +951,30 @@ add_requires("cmake")
 ```
 
 
+### cmidi2 (cross)
+
+
+| Description | *header-only MIDI 2.0 UMP and MIDI-CI binary processor library* |
+| -- | -- |
+| Homepage | [https://github.com/atsushieno/cmidi2](https://github.com/atsushieno/cmidi2) |
+| License | MIT |
+| Versions | 2023.08.07 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cmidi2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmidi2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cmidi2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cmidi2")
+```
+
+
 ### cnpy (cross)
 
 

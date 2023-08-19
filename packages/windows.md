@@ -1903,6 +1903,30 @@ add_requires("cmake")
 ```
 
 
+### cmidi2 (windows)
+
+
+| Description | *header-only MIDI 2.0 UMP and MIDI-CI binary processor library* |
+| -- | -- |
+| Homepage | [https://github.com/atsushieno/cmidi2](https://github.com/atsushieno/cmidi2) |
+| License | MIT |
+| Versions | 2023.08.07 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cmidi2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmidi2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cmidi2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cmidi2")
+```
+
+
 ### cmocka (windows)
 
 
