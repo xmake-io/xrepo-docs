@@ -10991,7 +10991,7 @@ add_requires("llhttp")
 | Description | *The LLVM Compiler Infrastructure* |
 | -- | -- |
 | Homepage | [https://llvm.org/](https://llvm.org/) |
-| Versions | 11.0.0, 14.0.0, 15.0.7, 16.0.5 |
+| Versions | 11.0.0, 14.0.0, 15.0.7, 16.0.5, 16.0.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
 
@@ -16930,6 +16930,29 @@ xrepo install rtm
 
 ```lua
 add_requires("rtm")
+```
+
+
+### rtmidi (macosx)
+
+
+| Description | *A set of C++ classes that provide a common API for realtime MIDI input/output across Linux (ALSA & JACK), Macintosh OS X (CoreMIDI) and Windows (Multimedia)* |
+| -- | -- |
+| Homepage | [https://github.com/thestk/rtmidi](https://github.com/thestk/rtmidi) |
+| Versions | 6.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [rtmidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtmidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rtmidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rtmidi")
 ```
 
 

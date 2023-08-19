@@ -6411,6 +6411,29 @@ add_requires("rsm-mmio")
 ```
 
 
+### rtmidi (cross)
+
+
+| Description | *A set of C++ classes that provide a common API for realtime MIDI input/output across Linux (ALSA & JACK), Macintosh OS X (CoreMIDI) and Windows (Multimedia)* |
+| -- | -- |
+| Homepage | [https://github.com/thestk/rtmidi](https://github.com/thestk/rtmidi) |
+| Versions | 6.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [rtmidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtmidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] rtmidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rtmidi")
+```
+
+
 ### rttr (cross)
 
 

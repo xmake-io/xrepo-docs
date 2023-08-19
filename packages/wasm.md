@@ -5986,6 +5986,29 @@ add_requires("rsm-mmio")
 ```
 
 
+### rtmidi (wasm)
+
+
+| Description | *A set of C++ classes that provide a common API for realtime MIDI input/output across Linux (ALSA & JACK), Macintosh OS X (CoreMIDI) and Windows (Multimedia)* |
+| -- | -- |
+| Homepage | [https://github.com/thestk/rtmidi](https://github.com/thestk/rtmidi) |
+| Versions | 6.0.0 |
+| Architectures | wasm32 |
+| Definition | [rtmidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtmidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm rtmidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rtmidi")
+```
+
+
 ### rttr (wasm)
 
 
