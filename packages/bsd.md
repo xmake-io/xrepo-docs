@@ -5742,6 +5742,30 @@ add_requires("openssl3")
 ```
 
 
+### optional-lite (bsd)
+
+
+| Description | *optional lite - A C++17-like optional, a nullable object for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/optional-lite](https://github.com/martinmoene/optional-lite) |
+| License | BSL-1.0 |
+| Versions | 2023.05.11 |
+| Architectures | i386, x86_64 |
+| Definition | [optional-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/optional-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install optional-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("optional-lite")
+```
+
+
 ### orangeduck_mpc (bsd)
 
 

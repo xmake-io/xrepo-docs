@@ -15532,6 +15532,30 @@ add_requires("optick")
 ```
 
 
+### optional-lite (linux)
+
+
+| Description | *optional lite - A C++17-like optional, a nullable object for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/optional-lite](https://github.com/martinmoene/optional-lite) |
+| License | BSL-1.0 |
+| Versions | 2023.05.11 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [optional-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/optional-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install optional-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("optional-lite")
+```
+
+
 ### orangeduck_mpc (linux)
 
 
