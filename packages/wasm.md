@@ -1045,6 +1045,30 @@ add_requires("cpp-semver")
 ```
 
 
+### cpp-sort (wasm)
+
+
+| Description | *Sorting algorithms & related tools for C++14* |
+| -- | -- |
+| Homepage | [https://github.com/Morwenn/cpp-sort](https://github.com/Morwenn/cpp-sort) |
+| License | MIT |
+| Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.2, 1.14.0, 1.15.0 |
+| Architectures | wasm32 |
+| Definition | [cpp-sort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-sort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm cpp-sort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-sort")
+```
+
+
 ### crc32c (wasm)
 
 
@@ -1952,6 +1976,30 @@ xrepo install -p wasm frozen
 
 ```lua
 add_requires("frozen")
+```
+
+
+### function2 (wasm)
+
+
+| Description | *Improved and configurable drop-in replacement to std::function that supports move only types, multiple overloads and more* |
+| -- | -- |
+| Homepage | [http://naios.github.io/function2](http://naios.github.io/function2) |
+| License | BSL-1.0 |
+| Versions | 4.1.0, 4.2.0, 4.2.1, 4.2.2, 4.2.3 |
+| Architectures | wasm32 |
+| Definition | [function2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/function2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm function2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("function2")
 ```
 
 

@@ -2305,6 +2305,30 @@ add_requires("cpp-semver")
 ```
 
 
+### cpp-sort (windows)
+
+
+| Description | *Sorting algorithms & related tools for C++14* |
+| -- | -- |
+| Homepage | [https://github.com/Morwenn/cpp-sort](https://github.com/Morwenn/cpp-sort) |
+| License | MIT |
+| Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.2, 1.14.0, 1.15.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cpp-sort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-sort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp-sort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-sort")
+```
+
+
 ### cpp20-http-client (windows)
 
 
@@ -4927,6 +4951,30 @@ xrepo install ftxui
 
 ```lua
 add_requires("ftxui")
+```
+
+
+### function2 (windows)
+
+
+| Description | *Improved and configurable drop-in replacement to std::function that supports move only types, multiple overloads and more* |
+| -- | -- |
+| Homepage | [http://naios.github.io/function2](http://naios.github.io/function2) |
+| License | BSL-1.0 |
+| Versions | 4.1.0, 4.2.0, 4.2.1, 4.2.2, 4.2.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [function2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/function2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install function2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("function2")
 ```
 
 
@@ -9007,7 +9055,7 @@ add_requires("libusb")
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
 | License | MIT |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.44.1 |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.44.1, v1.46.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -12185,7 +12233,7 @@ add_requires("onedpl")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0 |
+| Versions | 2020.3, 2021.10.0, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
 
@@ -14878,6 +14926,30 @@ add_requires("rest_rpc")
 ```
 
 
+### restinio (windows)
+
+
+| Description | *Cross-platform, efficient, customizable, and robust asynchronous HTTP/WebSocket server C++14 library with the right balance between performance and ease of use* |
+| -- | -- |
+| Homepage | [https://github.com/Stiffstream/restinio](https://github.com/Stiffstream/restinio) |
+| License | BSD-3-Clause |
+| Versions | 0.6.17, 0.6.18, 0.6.19 |
+| Architectures | arm64, x64, x86 |
+| Definition | [restinio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/restinio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install restinio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("restinio")
+```
+
+
 ### rlottie (windows)
 
 
@@ -16611,7 +16683,7 @@ add_requires("taywee_args")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0 |
+| Versions | 2020.3, 2021.10.0, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [tbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbb/xmake.lua) |
 

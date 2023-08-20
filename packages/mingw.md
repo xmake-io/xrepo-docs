@@ -1379,6 +1379,30 @@ add_requires("cpp-semver")
 ```
 
 
+### cpp-sort (mingw)
+
+
+| Description | *Sorting algorithms & related tools for C++14* |
+| -- | -- |
+| Homepage | [https://github.com/Morwenn/cpp-sort](https://github.com/Morwenn/cpp-sort) |
+| License | MIT |
+| Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.2, 1.14.0, 1.15.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cpp-sort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-sort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cpp-sort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-sort")
+```
+
+
 ### cr (mingw)
 
 
@@ -2668,6 +2692,30 @@ xrepo install -p mingw [--mingw=/xxx] ftxui
 
 ```lua
 add_requires("ftxui")
+```
+
+
+### function2 (mingw)
+
+
+| Description | *Improved and configurable drop-in replacement to std::function that supports move only types, multiple overloads and more* |
+| -- | -- |
+| Homepage | [http://naios.github.io/function2](http://naios.github.io/function2) |
+| License | BSL-1.0 |
+| Versions | 4.1.0, 4.2.0, 4.2.1, 4.2.2, 4.2.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [function2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/function2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] function2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("function2")
 ```
 
 
@@ -4995,7 +5043,7 @@ add_requires("libusb")
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
 | License | MIT |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.44.1 |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.44.1, v1.46.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -8353,6 +8401,30 @@ xrepo install -p mingw [--mingw=/xxx] rest_rpc
 
 ```lua
 add_requires("rest_rpc")
+```
+
+
+### restinio (mingw)
+
+
+| Description | *Cross-platform, efficient, customizable, and robust asynchronous HTTP/WebSocket server C++14 library with the right balance between performance and ease of use* |
+| -- | -- |
+| Homepage | [https://github.com/Stiffstream/restinio](https://github.com/Stiffstream/restinio) |
+| License | BSD-3-Clause |
+| Versions | 0.6.17, 0.6.18, 0.6.19 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [restinio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/restinio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] restinio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("restinio")
 ```
 
 
