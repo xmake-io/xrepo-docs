@@ -881,6 +881,30 @@ add_requires("clara")
 ```
 
 
+### clean-test (cross)
+
+
+| Description | *A modern C++-20 testing framework.* |
+| -- | -- |
+| Homepage | [https://clean-test.dev](https://clean-test.dev) |
+| License | BSL-1.0 |
+| Versions | 2023.05.15 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [clean-test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clean-test/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] clean-test
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clean-test")
+```
+
+
 ### cli (cross)
 
 

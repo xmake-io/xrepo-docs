@@ -2113,6 +2113,30 @@ add_requires("clblast")
 ```
 
 
+### clean-test (linux)
+
+
+| Description | *A modern C++-20 testing framework.* |
+| -- | -- |
+| Homepage | [https://clean-test.dev](https://clean-test.dev) |
+| License | BSL-1.0 |
+| Versions | 2023.05.15 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [clean-test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clean-test/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clean-test
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clean-test")
+```
+
+
 ### clhep (linux)
 
 

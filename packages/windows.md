@@ -1761,6 +1761,30 @@ add_requires("clblast")
 ```
 
 
+### clean-test (windows)
+
+
+| Description | *A modern C++-20 testing framework.* |
+| -- | -- |
+| Homepage | [https://clean-test.dev](https://clean-test.dev) |
+| License | BSL-1.0 |
+| Versions | 2023.05.15 |
+| Architectures | arm64, x64, x86 |
+| Definition | [clean-test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clean-test/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clean-test
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clean-test")
+```
+
+
 ### clhep (windows)
 
 
@@ -18813,6 +18837,30 @@ xrepo install winflexbison
 
 ```lua
 add_requires("winflexbison")
+```
+
+
+### winreg (windows)
+
+
+| Description | *Convenient high-level C++ wrapper around the Windows Registry API* |
+| -- | -- |
+| Homepage | [https://github.com/GiovanniDicanio/WinReg](https://github.com/GiovanniDicanio/WinReg) |
+| License | MIT |
+| Versions | v6.1.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [winreg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/winreg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install winreg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("winreg")
 ```
 
 

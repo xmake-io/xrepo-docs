@@ -929,6 +929,30 @@ add_requires("clara")
 ```
 
 
+### clean-test (bsd)
+
+
+| Description | *A modern C++-20 testing framework.* |
+| -- | -- |
+| Homepage | [https://clean-test.dev](https://clean-test.dev) |
+| License | BSL-1.0 |
+| Versions | 2023.05.15 |
+| Architectures | i386, x86_64 |
+| Definition | [clean-test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clean-test/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clean-test
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clean-test")
+```
+
+
 ### cli (bsd)
 
 

@@ -1048,6 +1048,30 @@ add_requires("clara")
 ```
 
 
+### clean-test (mingw)
+
+
+| Description | *A modern C++-20 testing framework.* |
+| -- | -- |
+| Homepage | [https://clean-test.dev](https://clean-test.dev) |
+| License | BSL-1.0 |
+| Versions | 2023.05.15 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [clean-test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clean-test/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] clean-test
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clean-test")
+```
+
+
 ### cli (mingw)
 
 
@@ -10849,6 +10873,30 @@ xrepo install -p mingw [--mingw=/xxx] whisper.cpp
 
 ```lua
 add_requires("whisper.cpp")
+```
+
+
+### winreg (mingw)
+
+
+| Description | *Convenient high-level C++ wrapper around the Windows Registry API* |
+| -- | -- |
+| Homepage | [https://github.com/GiovanniDicanio/WinReg](https://github.com/GiovanniDicanio/WinReg) |
+| License | MIT |
+| Versions | v6.1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [winreg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/winreg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] winreg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("winreg")
 ```
 
 
