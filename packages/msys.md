@@ -5800,30 +5800,6 @@ add_requires("rsm-autotoml")
 ```
 
 
-### rsm-binary-io (msys)
-
-
-| Description | *A binary i/o library for C++, without the agonizing pain* |
-| -- | -- |
-| Homepage | [https://github.com/Ryan-rsm-McKenzie/binary_io](https://github.com/Ryan-rsm-McKenzie/binary_io) |
-| License | MIT |
-| Versions | 2.0.5 |
-| Architectures | i386, x86_64 |
-| Definition | [rsm-binary-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-binary-io/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install rsm-binary-io
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("rsm-binary-io")
-```
-
-
 ### rsm-mmio (msys)
 
 

@@ -6466,7 +6466,7 @@ add_requires("rsm-autotoml")
 | -- | -- |
 | Homepage | [https://github.com/Ryan-rsm-McKenzie/binary_io](https://github.com/Ryan-rsm-McKenzie/binary_io) |
 | License | MIT |
-| Versions | 2.0.5 |
+| Versions | 2.0.5, 2.0.6 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rsm-binary-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-binary-io/xmake.lua) |
 
