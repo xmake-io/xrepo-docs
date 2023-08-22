@@ -21184,7 +21184,7 @@ add_requires("xz")
 | -- | -- |
 | Homepage | [https://github.com/jbeder/yaml-cpp/](https://github.com/jbeder/yaml-cpp/) |
 | License | MIT |
-| Versions | 0.6.3, 0.7.0 |
+| Versions | 0.6.3, 0.7.0, 0.8.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [yaml-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml-cpp/xmake.lua) |
 
