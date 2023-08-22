@@ -7638,6 +7638,30 @@ add_requires("strtk")
 ```
 
 
+### subhook (bsd)
+
+
+| Description | *Simple hooking library for C/C++ (x86 only, 32/64-bit, no dependencies)* |
+| -- | -- |
+| Homepage | [https://github.com/Zeex/subhook](https://github.com/Zeex/subhook) |
+| License | BSD-2-Clause |
+| Versions | 2023.02.10 |
+| Architectures | i386, x86_64 |
+| Definition | [subhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/subhook/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install subhook
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("subhook")
+```
+
+
 ### subprocess.h (bsd)
 
 
