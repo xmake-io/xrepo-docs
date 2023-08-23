@@ -18519,6 +18519,30 @@ add_requires("scotch")
 ```
 
 
+### semver (linux)
+
+
+| Description | *Semantic Versioning for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/semver](https://github.com/Neargye/semver) |
+| License | MIT |
+| Versions | 2023.05.27 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/semver/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install semver
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("semver")
+```
+
+
 ### sentencepiece (linux)
 
 

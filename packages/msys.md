@@ -6013,6 +6013,30 @@ add_requires("scons")
 ```
 
 
+### semver (msys)
+
+
+| Description | *Semantic Versioning for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/semver](https://github.com/Neargye/semver) |
+| License | MIT |
+| Versions | 2023.05.27 |
+| Architectures | i386, x86_64 |
+| Definition | [semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/semver/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install semver
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("semver")
+```
+
+
 ### sheenbidi (msys)
 
 
