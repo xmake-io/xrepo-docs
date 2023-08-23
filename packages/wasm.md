@@ -4274,6 +4274,30 @@ add_requires("miniaudio")
 ```
 
 
+### miniball (wasm)
+
+
+| Description | *For computing the smallest enclosing balls of points in arbitrary dimensions* |
+| -- | -- |
+| Homepage | [https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html](https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html) |
+| License | GPL-3.0 |
+| Versions | v3.0 |
+| Architectures | wasm32 |
+| Definition | [miniball/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniball/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm miniball
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("miniball")
+```
+
+
 ### minilzo (wasm)
 
 

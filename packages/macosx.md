@@ -12167,6 +12167,30 @@ add_requires("miniaudio")
 ```
 
 
+### miniball (macosx)
+
+
+| Description | *For computing the smallest enclosing balls of points in arbitrary dimensions* |
+| -- | -- |
+| Homepage | [https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html](https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html) |
+| License | GPL-3.0 |
+| Versions | v3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [miniball/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniball/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install miniball
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("miniball")
+```
+
+
 ### minifb (macosx)
 
 

@@ -4583,6 +4583,30 @@ add_requires("miniaudio")
 ```
 
 
+### miniball (cross)
+
+
+| Description | *For computing the smallest enclosing balls of points in arbitrary dimensions* |
+| -- | -- |
+| Homepage | [https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html](https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html) |
+| License | GPL-3.0 |
+| Versions | v3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [miniball/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniball/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] miniball
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("miniball")
+```
+
+
 ### minilzo (cross)
 
 
