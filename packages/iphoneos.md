@@ -2785,6 +2785,30 @@ add_requires("gyp-next")
 
 
 ## h
+### half (iphoneos)
+
+
+| Description | *C++ library for half precision floating point arithmetics* |
+| -- | -- |
+| Homepage | [https://half.sourceforge.net](https://half.sourceforge.net) |
+| License | MIT |
+| Versions | 2.2.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [half/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/half/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos half
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("half")
+```
+
+
 ### handy (iphoneos)
 
 

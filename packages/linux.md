@@ -6605,6 +6605,30 @@ add_requires("h5cpp")
 ```
 
 
+### half (linux)
+
+
+| Description | *C++ library for half precision floating point arithmetics* |
+| -- | -- |
+| Homepage | [https://half.sourceforge.net](https://half.sourceforge.net) |
+| License | MIT |
+| Versions | 2.2.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [half/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/half/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install half
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("half")
+```
+
+
 ### handy (linux)
 
 
