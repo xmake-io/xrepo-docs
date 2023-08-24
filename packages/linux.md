@@ -9185,6 +9185,29 @@ add_requires("libgpg-error")
 ```
 
 
+### libgpiod (linux)
+
+
+| Description | *libgpiod - C library and tools for interacting with the linux GPIO character device (gpiod stands for GPIO device)* |
+| -- | -- |
+| Homepage | [https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/about/](https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/about/) |
+| Versions | v1.6.4, v2.0, v2.0.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libgpiod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgpiod/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libgpiod
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgpiod")
+```
+
+
 ### libharu (linux)
 
 
