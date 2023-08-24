@@ -407,6 +407,30 @@ add_requires("autoconf")
 ```
 
 
+### autoconf-archive (windows)
+
+
+| Description | *A mirror of the GNU Autoconf Archive, a collection of more than 500 macros for GNU Autoconf that have been contributed as free software by friendly supporters of the cause from all over the Internet.* |
+| -- | -- |
+| Homepage | [http://www.gnu.org/software/autoconf-archive/](http://www.gnu.org/software/autoconf-archive/) |
+| License | GPL-3.0-or-later |
+| Versions | 2023.02.20 |
+| Architectures | arm64, x64, x86 |
+| Definition | [autoconf-archive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf-archive/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install autoconf-archive
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("autoconf-archive")
+```
+
+
 ### autodiff (windows)
 
 

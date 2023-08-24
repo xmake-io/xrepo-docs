@@ -190,6 +190,30 @@ add_requires("autoconf")
 ```
 
 
+### autoconf-archive (cross)
+
+
+| Description | *A mirror of the GNU Autoconf Archive, a collection of more than 500 macros for GNU Autoconf that have been contributed as free software by friendly supporters of the cause from all over the Internet.* |
+| -- | -- |
+| Homepage | [http://www.gnu.org/software/autoconf-archive/](http://www.gnu.org/software/autoconf-archive/) |
+| License | GPL-3.0-or-later |
+| Versions | 2023.02.20 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [autoconf-archive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf-archive/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] autoconf-archive
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("autoconf-archive")
+```
+
+
 ### automake (cross)
 
 
