@@ -1843,7 +1843,7 @@ add_requires("fdk-aac")
 | -- | -- |
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
-| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5 |
+| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6 |
 | Architectures | wasm32 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
@@ -3782,7 +3782,7 @@ add_requires("lolly")
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
-| Versions | v5.1.1, v5.1.5, v5.2.3, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4 |
+| Versions | v5.1.1, v5.1.5, v5.2.3, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4, v5.4.6 |
 | Architectures | wasm32 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
