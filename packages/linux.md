@@ -4187,7 +4187,7 @@ add_requires("embree")
 | Description | *EmmyLua Debugger* |
 | -- | -- |
 | Homepage | [https://github.com/EmmyLua/EmmyLuaDebugger](https://github.com/EmmyLua/EmmyLuaDebugger) |
-| Versions | 1.6.2, 2023.08.25 |
+| Versions | 1.6.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [emmylua_debugger/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emmylua_debugger/xmake.lua) |
 
