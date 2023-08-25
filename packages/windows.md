@@ -1665,6 +1665,30 @@ add_requires("cimg")
 ```
 
 
+### cimgui (windows)
+
+
+| Description | *c-api for imgui (https://github.com/ocornut/imgui) Look at: https://github.com/cimgui for other widgets* |
+| -- | -- |
+| Homepage | [https://github.com/cimgui/cimgui](https://github.com/cimgui/cimgui) |
+| License | MIT |
+| Versions | 2023.08.02 |
+| Architectures | x64, x86 |
+| Definition | [cimgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cimgui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cimgui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cimgui")
+```
+
+
 ### cinatra (windows)
 
 
