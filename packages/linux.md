@@ -4181,6 +4181,29 @@ add_requires("embree")
 ```
 
 
+### emmylua_debugger (linux)
+
+
+| Description | *EmmyLua Debugger* |
+| -- | -- |
+| Homepage | [https://github.com/EmmyLua/EmmyLuaDebugger](https://github.com/EmmyLua/EmmyLuaDebugger) |
+| Versions | 1.6.2, 2023.08.25 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [emmylua_debugger/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emmylua_debugger/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install emmylua_debugger
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("emmylua_debugger")
+```
+
+
 ### emscripten (linux)
 
 
