@@ -1,4 +1,28 @@
 ## a
+### abseil (cross)
+
+
+| Description | *C++ Common Libraries* |
+| -- | -- |
+| Homepage | [https://abseil.io](https://abseil.io) |
+| License | Apache-2.0 |
+| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] abseil
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("abseil")
+```
+
+
 ### ada (cross)
 
 
@@ -1783,6 +1807,30 @@ xrepo install -p cross [--sdk=/xxx] effolkronium-random
 
 ```lua
 add_requires("effolkronium-random")
+```
+
+
+### eigen (cross)
+
+
+| Description | *C++ template library for linear algebra* |
+| -- | -- |
+| Homepage | [https://eigen.tuxfamily.org/](https://eigen.tuxfamily.org/) |
+| License | MPL-2.0 |
+| Versions | 3.3.7, 3.3.8, 3.3.9, 3.4.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [eigen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eigen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] eigen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eigen")
 ```
 
 
