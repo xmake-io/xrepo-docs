@@ -2841,7 +2841,7 @@ add_requires("kcp")
 | Description | *Efficient C++ implementation of the Cassowary constraint solving algorithm* |
 | -- | -- |
 | Homepage | [https://kiwisolver.readthedocs.io/en/latest/](https://kiwisolver.readthedocs.io/en/latest/) |
-| Versions | 1.3.1, 1.3.2, 1.4.4 |
+| Versions | 1.3.1, 1.3.2, 1.4.4, 1.4.5 |
 | Architectures | wasm32 |
 | Definition | [kiwisolver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kiwisolver/xmake.lua) |
 
@@ -6316,6 +6316,30 @@ xrepo install -p wasm simde
 
 ```lua
 add_requires("simde")
+```
+
+
+### simdutf (wasm)
+
+
+| Description | *Unicode routines (UTF8, UTF16, UTF32): billions of characters per second using SSE2, AVX2, NEON, AVX-512. Part of Node.js.* |
+| -- | -- |
+| Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
+| License | Apache-2.0 |
+| Versions | v3.2.17 |
+| Architectures | wasm32 |
+| Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm simdutf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simdutf")
 ```
 
 

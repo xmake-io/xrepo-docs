@@ -4361,7 +4361,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.3.1, 1.3.2, 1.4.4</td>
+<td>1.3.1, 1.3.2, 1.4.4, 1.4.5</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -9552,6 +9552,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("simde")
+</code></pre>
+<h3 id="simdutfwasm">simdutf (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Unicode routines (UTF8, UTF16, UTF32): billions of characters per second using SSE2, AVX2, NEON, AVX-512. Part of Node.js.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://simdutf.github.io/simdutf/">https://simdutf.github.io/simdutf/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v3.2.17</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua">simdutf/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm simdutf
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("simdutf")
 </code></pre>
 <h3 id="simpleiniwasm">simpleini (wasm)</h3>
 <table>
