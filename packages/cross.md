@@ -3240,6 +3240,30 @@ add_requires("kiwisolver")
 
 
 ## l
+### lexbor (cross)
+
+
+| Description | *Lexbor is development of an open source HTML Renderer library. https://lexbor.com* |
+| -- | -- |
+| Homepage | [https://github.com/lexbor/lexbor](https://github.com/lexbor/lexbor) |
+| License | Apache-2.0 |
+| Versions | v2.3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [lexbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexbor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] lexbor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lexbor")
+```
+
+
 ### lexy (cross)
 
 
@@ -3613,6 +3637,30 @@ xrepo install -p cross [--sdk=/xxx] librdkafka
 
 ```lua
 add_requires("librdkafka")
+```
+
+
+### libremidi (cross)
+
+
+| Description | *A modern C++ MIDI real-time & file I/O library. Supports Windows, macOS, Linux and WebMIDI.* |
+| -- | -- |
+| Homepage | [https://github.com/jcelerier/libremidi](https://github.com/jcelerier/libremidi) |
+| License | BSD-2-Clause |
+| Versions | v3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libremidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libremidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libremidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libremidi")
 ```
 
 

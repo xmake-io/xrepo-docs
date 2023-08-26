@@ -8218,6 +8218,30 @@ add_requires("leveldb")
 ```
 
 
+### lexbor (linux)
+
+
+| Description | *Lexbor is development of an open source HTML Renderer library. https://lexbor.com* |
+| -- | -- |
+| Homepage | [https://github.com/lexbor/lexbor](https://github.com/lexbor/lexbor) |
+| License | Apache-2.0 |
+| Versions | v2.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [lexbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexbor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lexbor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lexbor")
+```
+
+
 ### lexy (linux)
 
 
@@ -10194,6 +10218,30 @@ xrepo install librdkafka
 
 ```lua
 add_requires("librdkafka")
+```
+
+
+### libremidi (linux)
+
+
+| Description | *A modern C++ MIDI real-time & file I/O library. Supports Windows, macOS, Linux and WebMIDI.* |
+| -- | -- |
+| Homepage | [https://github.com/jcelerier/libremidi](https://github.com/jcelerier/libremidi) |
+| License | BSD-2-Clause |
+| Versions | v3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libremidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libremidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libremidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libremidi")
 ```
 
 
