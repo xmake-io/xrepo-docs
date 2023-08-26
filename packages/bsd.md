@@ -1,4 +1,28 @@
 ## a
+### actor-framework (bsd)
+
+
+| Description | *An Open Source Implementation of the Actor Model in C++* |
+| -- | -- |
+| Homepage | [http://actor-framework.org/](http://actor-framework.org/) |
+| License | BSD-3-Clause |
+| Versions | 0.19.2 |
+| Architectures | i386, x86_64 |
+| Definition | [actor-framework/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/actor-framework/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install actor-framework
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("actor-framework")
+```
+
+
 ### ada (bsd)
 
 
@@ -3391,7 +3415,7 @@ add_requires("lame")
 | -- | -- |
 | Homepage | [https://github.com/lexbor/lexbor](https://github.com/lexbor/lexbor) |
 | License | Apache-2.0 |
-| Versions | v2.3.0 |
+| Versions | v2.2.0, v2.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [lexbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexbor/xmake.lua) |
 

@@ -2891,7 +2891,7 @@ add_requires("lcms")
 | -- | -- |
 | Homepage | [https://github.com/lexbor/lexbor](https://github.com/lexbor/lexbor) |
 | License | Apache-2.0 |
-| Versions | v2.3.0 |
+| Versions | v2.2.0, v2.3.0 |
 | Architectures | wasm32 |
 | Definition | [lexbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexbor/xmake.lua) |
 

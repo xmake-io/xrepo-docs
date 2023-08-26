@@ -3768,7 +3768,7 @@ add_requires("kiwisolver")
 | -- | -- |
 | Homepage | [https://github.com/lexbor/lexbor](https://github.com/lexbor/lexbor) |
 | License | Apache-2.0 |
-| Versions | v2.3.0 |
+| Versions | v2.2.0, v2.3.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [lexbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexbor/xmake.lua) |
 
