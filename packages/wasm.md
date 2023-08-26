@@ -71,6 +71,30 @@ add_requires("argparse")
 ```
 
 
+### asap (wasm)
+
+
+| Description | *A C++ header-only library for creating, displaying, iterating and manipulating dates* |
+| -- | -- |
+| Homepage | [https://github.com/mobius3/asap](https://github.com/mobius3/asap) |
+| License | MIT |
+| Versions | 2023.04.21 |
+| Architectures | wasm32 |
+| Definition | [asap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm asap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asap")
+```
+
+
 ### aseprite-tga (wasm)
 
 
@@ -6436,6 +6460,29 @@ xrepo install -p wasm snitch
 
 ```lua
 add_requires("snitch")
+```
+
+
+### sobjectizer (wasm)
+
+
+| Description | *An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production.* |
+| -- | -- |
+| Homepage | [https://stiffstream.com/en/products/sobjectizer.html](https://stiffstream.com/en/products/sobjectizer.html) |
+| Versions | 5.8.0 |
+| Architectures | wasm32 |
+| Definition | [sobjectizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sobjectizer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm sobjectizer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sobjectizer")
 ```
 
 

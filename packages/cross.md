@@ -119,6 +119,30 @@ add_requires("argparse")
 ```
 
 
+### asap (cross)
+
+
+| Description | *A C++ header-only library for creating, displaying, iterating and manipulating dates* |
+| -- | -- |
+| Homepage | [https://github.com/mobius3/asap](https://github.com/mobius3/asap) |
+| License | MIT |
+| Versions | 2023.04.21 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [asap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] asap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asap")
+```
+
+
 ### aseprite-tga (cross)
 
 
@@ -6981,6 +7005,29 @@ xrepo install -p cross [--sdk=/xxx] snitch
 
 ```lua
 add_requires("snitch")
+```
+
+
+### sobjectizer (cross)
+
+
+| Description | *An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production.* |
+| -- | -- |
+| Homepage | [https://stiffstream.com/en/products/sobjectizer.html](https://stiffstream.com/en/products/sobjectizer.html) |
+| Versions | 5.8.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [sobjectizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sobjectizer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] sobjectizer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sobjectizer")
 ```
 
 
