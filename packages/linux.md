@@ -4283,7 +4283,7 @@ add_requires("emmylua_debugger")
 | -- | -- |
 | Homepage | [https://emscripten.org/](https://emscripten.org/) |
 | License | MIT |
-| Versions | 3.1.42 |
+| Versions | 3.1.14, 3.1.25, 3.1.42 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [emscripten/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emscripten/xmake.lua) |
 
