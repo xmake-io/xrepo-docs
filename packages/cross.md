@@ -1284,6 +1284,30 @@ add_requires("cpp20-http-client")
 ```
 
 
+### cppitertools (cross)
+
+
+| Description | *Implementation of python itertools and builtin iteration functions for C++17* |
+| -- | -- |
+| Homepage | [https://twitter.com/cppitertools](https://twitter.com/cppitertools) |
+| License | BSD-2-Clause |
+| Versions | 2023.07.04 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cppitertools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppitertools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cppitertools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppitertools")
+```
+
+
 ### cr (cross)
 
 
@@ -7580,11 +7604,11 @@ add_requires("swig")
 ### tabulate (cross)
 
 
-| Description | *Header-only library for printing aligned, formatted and colorized tables in Modern C++* |
+| Description | *Table Maker for Modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/tabulate](https://github.com/p-ranav/tabulate) |
 | License | MIT |
-| Versions | 1.4 |
+| Versions | v1.5 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tabulate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tabulate/xmake.lua) |
 

@@ -1117,6 +1117,30 @@ add_requires("cpp-sort")
 ```
 
 
+### cppitertools (wasm)
+
+
+| Description | *Implementation of python itertools and builtin iteration functions for C++17* |
+| -- | -- |
+| Homepage | [https://twitter.com/cppitertools](https://twitter.com/cppitertools) |
+| License | BSD-2-Clause |
+| Versions | 2023.07.04 |
+| Architectures | wasm32 |
+| Definition | [cppitertools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppitertools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm cppitertools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppitertools")
+```
+
+
 ### crc32c (wasm)
 
 
@@ -6989,11 +7013,11 @@ add_requires("swig")
 ### tabulate (wasm)
 
 
-| Description | *Header-only library for printing aligned, formatted and colorized tables in Modern C++* |
+| Description | *Table Maker for Modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/tabulate](https://github.com/p-ranav/tabulate) |
 | License | MIT |
-| Versions | 1.4 |
+| Versions | v1.5 |
 | Architectures | wasm32 |
 | Definition | [tabulate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tabulate/xmake.lua) |
 
