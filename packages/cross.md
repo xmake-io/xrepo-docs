@@ -4988,6 +4988,30 @@ add_requires("muslcc")
 ```
 
 
+### mustache (cross)
+
+
+| Description | *Mustache text templates for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/kainjow/Mustache](https://github.com/kainjow/Mustache) |
+| License | BSL-1.0 |
+| Versions | 2021.12.10 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mustache/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mustache/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mustache
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mustache")
+```
+
+
 
 ## n
 ### named_type (cross)
@@ -6817,6 +6841,30 @@ add_requires("scons")
 ```
 
 
+### scope_guard (cross)
+
+
+| Description | *Scope Guard & Defer C++* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
+| License | MIT |
+| Versions | 2022.04.05 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scope_guard")
+```
+
+
 ### semver (cross)
 
 
@@ -7452,6 +7500,30 @@ xrepo install -p cross [--sdk=/xxx] strtk
 
 ```lua
 add_requires("strtk")
+```
+
+
+### svector (cross)
+
+
+| Description | *Compact SVO optimized vector for C++17 or higher* |
+| -- | -- |
+| Homepage | [https://github.com/martinus/svector](https://github.com/martinus/svector) |
+| License | MIT |
+| Versions | v1.0.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [svector/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svector/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] svector
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("svector")
 ```
 
 

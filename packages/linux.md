@@ -14039,6 +14039,30 @@ add_requires("muslcc")
 ```
 
 
+### mustache (linux)
+
+
+| Description | *Mustache text templates for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/kainjow/Mustache](https://github.com/kainjow/Mustache) |
+| License | BSL-1.0 |
+| Versions | 2021.12.10 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mustache/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mustache/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mustache
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mustache")
+```
+
+
 ### mxml (linux)
 
 
@@ -18686,6 +18710,30 @@ add_requires("scons")
 ```
 
 
+### scope_guard (linux)
+
+
+| Description | *Scope Guard & Defer C++* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
+| License | MIT |
+| Versions | 2022.04.05 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scope_guard")
+```
+
+
 ### scotch (linux)
 
 
@@ -19982,6 +20030,30 @@ xrepo install superlu
 
 ```lua
 add_requires("superlu")
+```
+
+
+### svector (linux)
+
+
+| Description | *Compact SVO optimized vector for C++17 or higher* |
+| -- | -- |
+| Homepage | [https://github.com/martinus/svector](https://github.com/martinus/svector) |
+| License | MIT |
+| Versions | v1.0.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [svector/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svector/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install svector
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("svector")
 ```
 
 

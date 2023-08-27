@@ -4631,6 +4631,30 @@ add_requires("muslcc")
 ```
 
 
+### mustache (wasm)
+
+
+| Description | *Mustache text templates for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/kainjow/Mustache](https://github.com/kainjow/Mustache) |
+| License | BSL-1.0 |
+| Versions | 2021.12.10 |
+| Architectures | wasm32 |
+| Definition | [mustache/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mustache/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm mustache
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mustache")
+```
+
+
 
 ## n
 ### named_type (wasm)
@@ -6296,6 +6320,30 @@ add_requires("scons")
 ```
 
 
+### scope_guard (wasm)
+
+
+| Description | *Scope Guard & Defer C++* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
+| License | MIT |
+| Versions | 2022.04.05 |
+| Architectures | wasm32 |
+| Definition | [scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("scope_guard")
+```
+
+
 ### semver (wasm)
 
 
@@ -6861,6 +6909,30 @@ xrepo install -p wasm strtk
 
 ```lua
 add_requires("strtk")
+```
+
+
+### svector (wasm)
+
+
+| Description | *Compact SVO optimized vector for C++17 or higher* |
+| -- | -- |
+| Homepage | [https://github.com/martinus/svector](https://github.com/martinus/svector) |
+| License | MIT |
+| Versions | v1.0.3 |
+| Architectures | wasm32 |
+| Definition | [svector/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svector/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm svector
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("svector")
 ```
 
 
