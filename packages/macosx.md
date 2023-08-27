@@ -11576,6 +11576,29 @@ add_requires("lz4")
 ```
 
 
+### lzham_codec (macosx)
+
+
+| Description | *Lossless data compression codec with LZMA-like ratios but 1.5x-8x faster decompression speed, C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/richgel999/lzham_codec](https://github.com/richgel999/lzham_codec) |
+| Versions | 2023.01.03 |
+| Architectures | arm64, x86_64 |
+| Definition | [lzham_codec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzham_codec/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lzham_codec
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lzham_codec")
+```
+
+
 ### lzma (macosx)
 
 
@@ -16582,6 +16605,30 @@ add_requires("quill")
 
 
 ## r
+### rang (macosx)
+
+
+| Description | *A Minimal, Header only Modern c++ library for terminal goodies 💄✨* |
+| -- | -- |
+| Homepage | [https://agauniyal.github.io/rang/](https://agauniyal.github.io/rang/) |
+| License | Unlicense |
+| Versions | 2022.07.01 |
+| Architectures | arm64, x86_64 |
+| Definition | [rang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rang/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rang
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rang")
+```
+
+
 ### range-v3 (macosx)
 
 
@@ -19775,6 +19822,30 @@ xrepo install tuplet
 
 ```lua
 add_requires("tuplet")
+```
+
+
+### tweeny (macosx)
+
+
+| Description | *A modern C++ tweening library* |
+| -- | -- |
+| Homepage | [http://mobius3.github.io/tweeny](http://mobius3.github.io/tweeny) |
+| License | MIT |
+| Versions | 2023.05.09 |
+| Architectures | arm64, x86_64 |
+| Definition | [tweeny/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tweeny/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tweeny
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tweeny")
 ```
 
 
