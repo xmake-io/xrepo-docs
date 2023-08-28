@@ -5303,6 +5303,30 @@ add_requires("pkgconf")
 ```
 
 
+### plf_colony (msys)
+
+
+| Description | *An unordered C++ data container providing fast iteration/insertion/erasure while maintaining pointer/iterator validity to non-erased elements regardless of insertions/erasures. Provides higher-performance than std:: library containers for high-modification scenarios with unordered data.* |
+| -- | -- |
+| Homepage | [https://plflib.org/colony.htm](https://plflib.org/colony.htm) |
+| License | zlib |
+| Versions | 2023.08.25 |
+| Architectures | i386, x86_64 |
+| Definition | [plf_colony/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_colony/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install plf_colony
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_colony")
+```
+
+
 ### plog (msys)
 
 

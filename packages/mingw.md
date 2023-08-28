@@ -2125,7 +2125,7 @@ add_requires("dr_wav")
 | Description | *High-Performance C/C++ library for parsing binary output files and key files of LS Dyna (d3plot, binout, input deck)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07 |
+| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
@@ -7694,6 +7694,30 @@ xrepo install -p mingw [--mingw=/xxx] pkgconf
 
 ```lua
 add_requires("pkgconf")
+```
+
+
+### plf_colony (mingw)
+
+
+| Description | *An unordered C++ data container providing fast iteration/insertion/erasure while maintaining pointer/iterator validity to non-erased elements regardless of insertions/erasures. Provides higher-performance than std:: library containers for high-modification scenarios with unordered data.* |
+| -- | -- |
+| Homepage | [https://plflib.org/colony.htm](https://plflib.org/colony.htm) |
+| License | zlib |
+| Versions | 2023.08.25 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [plf_colony/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_colony/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] plf_colony
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_colony")
 ```
 
 
