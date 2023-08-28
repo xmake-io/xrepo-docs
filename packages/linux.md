@@ -23549,6 +23549,30 @@ add_requires("zlibcomplete")
 ```
 
 
+### zlmediakit (linux)
+
+
+| Description | *WebRTC/RTSP/RTMP/HTTP/HLS/HTTP-FLV/WebSocket-FLV/HTTP-TS/HTTP-fMP4/WebSocket-TS/WebSocket-fMP4/GB28181/SRT server and client framework based on C++11* |
+| -- | -- |
+| Homepage | [https://github.com/ZLMediaKit/ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit) |
+| License | MIT |
+| Versions | 2023.8.26 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [zlmediakit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlmediakit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zlmediakit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlmediakit")
+```
+
+
 ### zltoolkit (linux)
 
 
@@ -23556,7 +23580,7 @@ add_requires("zlibcomplete")
 | -- | -- |
 | Homepage | [https://github.com/ZLMediaKit/ZLToolKit](https://github.com/ZLMediaKit/ZLToolKit) |
 | License | MIT |
-| Versions | 2023.7.8 |
+| Versions | 2023.7.8, 2023.8.26 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zltoolkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zltoolkit/xmake.lua) |
 

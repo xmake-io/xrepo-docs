@@ -20059,6 +20059,30 @@ add_requires("zlibcomplete")
 ```
 
 
+### zlmediakit (windows)
+
+
+| Description | *WebRTC/RTSP/RTMP/HTTP/HLS/HTTP-FLV/WebSocket-FLV/HTTP-TS/HTTP-fMP4/WebSocket-TS/WebSocket-fMP4/GB28181/SRT server and client framework based on C++11* |
+| -- | -- |
+| Homepage | [https://github.com/ZLMediaKit/ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit) |
+| License | MIT |
+| Versions | 2023.8.26 |
+| Architectures | arm64, x64, x86 |
+| Definition | [zlmediakit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlmediakit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zlmediakit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlmediakit")
+```
+
+
 ### zltoolkit (windows)
 
 
@@ -20066,7 +20090,7 @@ add_requires("zlibcomplete")
 | -- | -- |
 | Homepage | [https://github.com/ZLMediaKit/ZLToolKit](https://github.com/ZLMediaKit/ZLToolKit) |
 | License | MIT |
-| Versions | 2023.7.8 |
+| Versions | 2023.7.8, 2023.8.26 |
 | Architectures | arm64, x64, x86 |
 | Definition | [zltoolkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zltoolkit/xmake.lua) |
 
