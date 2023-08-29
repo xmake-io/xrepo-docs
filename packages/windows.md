@@ -5645,6 +5645,30 @@ add_requires("glfw")
 ```
 
 
+### glfw3webgpu (windows)
+
+
+| Description | *An extension for the GLFW library for using WebGPU native.* |
+| -- | -- |
+| Homepage | [https://github.com/eliemichel/glfw3webgpu](https://github.com/eliemichel/glfw3webgpu) |
+| License | MIT |
+| Versions | v1.0.1 |
+| Architectures | x64, x86 |
+| Definition | [glfw3webgpu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw3webgpu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glfw3webgpu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glfw3webgpu")
+```
+
+
 ### gli (windows)
 
 
@@ -15029,7 +15053,7 @@ add_requires("quickjs")
 | Description | *Asynchronous Low Latency C++ Logging Library* |
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
-| Versions | 2.8.0, 2.9.0, 2.9.1 |
+| Versions | 2.8.0, 2.9.0, 2.9.1, 3.3.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
