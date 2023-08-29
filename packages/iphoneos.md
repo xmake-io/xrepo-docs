@@ -1928,6 +1928,30 @@ add_requires("entt")
 ```
 
 
+### etl (iphoneos)
+
+
+| Description | *Embedded Template Library* |
+| -- | -- |
+| Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
+| License | MIT |
+| Versions | 20.38.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos etl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("etl")
+```
+
+
 ### expected-lite (iphoneos)
 
 
@@ -2734,6 +2758,30 @@ xrepo install -p iphoneos gsl
 
 ```lua
 add_requires("gsl")
+```
+
+
+### gsl-lite (iphoneos)
+
+
+| Description | *gsl-lite – A single-file header-only version of ISO C++ Guidelines Support Library (GSL) for C++98, C++11, and later* |
+| -- | -- |
+| Homepage | [https://github.com/gsl-lite/gsl-lite](https://github.com/gsl-lite/gsl-lite) |
+| License | MIT |
+| Versions | v0.41.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [gsl-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos gsl-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gsl-lite")
 ```
 
 
@@ -6741,6 +6789,52 @@ xrepo install -p iphoneos qoi
 
 ```lua
 add_requires("qoi")
+```
+
+
+### qr-code-generator-c (iphoneos)
+
+
+| Description | *High-quality QR Code generator library in Java, TypeScript/JavaScript, Python, Rust, C++, C.* |
+| -- | -- |
+| Homepage | [https://www.nayuki.io/page/qr-code-generator-library](https://www.nayuki.io/page/qr-code-generator-library) |
+| Versions | v1.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [qr-code-generator-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qr-code-generator-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos qr-code-generator-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qr-code-generator-c")
+```
+
+
+### qr-code-generator-cpp (iphoneos)
+
+
+| Description | *High-quality QR Code generator library in Java, TypeScript/JavaScript, Python, Rust, C++, C.* |
+| -- | -- |
+| Homepage | [https://www.nayuki.io/page/qr-code-generator-library](https://www.nayuki.io/page/qr-code-generator-library) |
+| Versions | v1.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [qr-code-generator-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qr-code-generator-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos qr-code-generator-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qr-code-generator-cpp")
 ```
 
 
