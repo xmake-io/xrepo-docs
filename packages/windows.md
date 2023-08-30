@@ -9925,6 +9925,30 @@ add_requires("lua-format")
 ```
 
 
+### luabridge3 (windows)
+
+
+| Description | *LuaBridge3 is a lightweight and dependency-free library for mapping data, functions, and classes back and forth between C++ and Lua.* |
+| -- | -- |
+| Homepage | [https://kunitoki.github.io/LuaBridge3](https://kunitoki.github.io/LuaBridge3) |
+| License | MIT |
+| Versions | 3.0-rc3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [luabridge3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luabridge3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install luabridge3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("luabridge3")
+```
+
+
 ### luajit (windows)
 
 
