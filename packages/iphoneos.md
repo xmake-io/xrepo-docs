@@ -7697,6 +7697,29 @@ add_requires("scope_guard")
 ```
 
 
+### sdsl-lite (iphoneos)
+
+
+| Description | *Succinct Data Structure Library 3.0* |
+| -- | -- |
+| Homepage | [https://github.com/xxsds/sdsl-lite](https://github.com/xxsds/sdsl-lite) |
+| Versions | v3.0.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [sdsl-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sdsl-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos sdsl-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sdsl-lite")
+```
+
+
 ### semver (iphoneos)
 
 
@@ -7718,6 +7741,30 @@ xrepo install -p iphoneos semver
 
 ```lua
 add_requires("semver")
+```
+
+
+### seqan3 (iphoneos)
+
+
+| Description | *The modern C++ library for sequence analysis. Contains version 3 of the library and API docs.* |
+| -- | -- |
+| Homepage | [https://www.seqan.de](https://www.seqan.de) |
+| License | BSD-3-Clause |
+| Versions | 3.2.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [seqan3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/seqan3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos seqan3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("seqan3")
 ```
 
 
