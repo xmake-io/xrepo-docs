@@ -1546,6 +1546,30 @@ add_requires("c-ares")
 ```
 
 
+### c-blosc2 (linux)
+
+
+| Description | *A fast, compressed, persistent binary data store library for C.* |
+| -- | -- |
+| Homepage | [https://www.blosc.org](https://www.blosc.org) |
+| License | BSD-3-Clause |
+| Versions | v2.10.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install c-blosc2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("c-blosc2")
+```
+
+
 ### ca-certificates (linux)
 
 
@@ -2349,6 +2373,30 @@ xrepo install clip
 
 ```lua
 add_requires("clip")
+```
+
+
+### clipper2 (linux)
+
+
+| Description | *Polygon Clipping and Offsetting - C++, C# and Delphi* |
+| -- | -- |
+| Homepage | [https://github.com/AngusJohnson/Clipper2](https://github.com/AngusJohnson/Clipper2) |
+| License | BSL-1.0 |
+| Versions | 1.2.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [clipper2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clipper2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clipper2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clipper2")
 ```
 
 

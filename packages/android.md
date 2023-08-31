@@ -689,6 +689,30 @@ add_requires("bzip2")
 
 
 ## c
+### c-blosc2 (android)
+
+
+| Description | *A fast, compressed, persistent binary data store library for C.* |
+| -- | -- |
+| Homepage | [https://www.blosc.org](https://www.blosc.org) |
+| License | BSD-3-Clause |
+| Versions | v2.10.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] c-blosc2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("c-blosc2")
+```
+
+
 ### ca-certificates (android)
 
 
@@ -1114,6 +1138,30 @@ xrepo install -p android [--ndk=/xxx] clib
 
 ```lua
 add_requires("clib")
+```
+
+
+### clipper2 (android)
+
+
+| Description | *Polygon Clipping and Offsetting - C++, C# and Delphi* |
+| -- | -- |
+| Homepage | [https://github.com/AngusJohnson/Clipper2](https://github.com/AngusJohnson/Clipper2) |
+| License | BSL-1.0 |
+| Versions | 1.2.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [clipper2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clipper2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] clipper2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clipper2")
 ```
 
 

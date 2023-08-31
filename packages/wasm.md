@@ -548,6 +548,30 @@ add_requires("bzip2")
 
 
 ## c
+### c-blosc2 (wasm)
+
+
+| Description | *A fast, compressed, persistent binary data store library for C.* |
+| -- | -- |
+| Homepage | [https://www.blosc.org](https://www.blosc.org) |
+| License | BSD-3-Clause |
+| Versions | v2.10.2 |
+| Architectures | wasm32 |
+| Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm c-blosc2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("c-blosc2")
+```
+
+
 ### ca-certificates (wasm)
 
 
@@ -878,6 +902,30 @@ xrepo install -p wasm clib
 
 ```lua
 add_requires("clib")
+```
+
+
+### clipper2 (wasm)
+
+
+| Description | *Polygon Clipping and Offsetting - C++, C# and Delphi* |
+| -- | -- |
+| Homepage | [https://github.com/AngusJohnson/Clipper2](https://github.com/AngusJohnson/Clipper2) |
+| License | BSL-1.0 |
+| Versions | 1.2.2 |
+| Architectures | wasm32 |
+| Definition | [clipper2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clipper2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm clipper2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clipper2")
 ```
 
 
