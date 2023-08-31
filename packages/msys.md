@@ -4302,6 +4302,29 @@ add_requires("meson")
 ```
 
 
+### micro-gl (msys)
+
+
+| Description | *Realtime, Embeddable, Modular, Headers Only C++11 CPU vector graphics. no STD lib, no FPU and no GPU required !* |
+| -- | -- |
+| Homepage | [http://micro-gl.github.io/docs/microgl](http://micro-gl.github.io/docs/microgl) |
+| Versions | 2023.08.30 |
+| Architectures | i386, x86_64 |
+| Definition | [micro-gl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/micro-gl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install micro-gl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("micro-gl")
+```
+
+
 ### microsoft-gsl (msys)
 
 

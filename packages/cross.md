@@ -4800,6 +4800,29 @@ add_requires("meson")
 ```
 
 
+### micro-gl (cross)
+
+
+| Description | *Realtime, Embeddable, Modular, Headers Only C++11 CPU vector graphics. no STD lib, no FPU and no GPU required !* |
+| -- | -- |
+| Homepage | [http://micro-gl.github.io/docs/microgl](http://micro-gl.github.io/docs/microgl) |
+| Versions | 2023.08.30 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [micro-gl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/micro-gl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] micro-gl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("micro-gl")
+```
+
+
 ### microsoft-gsl (cross)
 
 
