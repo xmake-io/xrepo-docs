@@ -3852,7 +3852,7 @@ add_requires("doxygen")
 | -- | -- |
 | Homepage | [https://github.com/brainboxdotcc/DPP](https://github.com/brainboxdotcc/DPP) |
 | License | Apache-2.0 |
-| Versions | v10.0.10, v10.0.11, v10.0.12, v10.0.13, v10.0.14, v10.0.15, v10.0.16, v10.0.17, v10.0.18, v10.0.19, v10.0.20, v10.0.21, v10.0.22, v10.0.23, v10.0.24, v10.0.8 |
+| Versions | v10.0.10, v10.0.11, v10.0.12, v10.0.13, v10.0.14, v10.0.15, v10.0.16, v10.0.17, v10.0.18, v10.0.19, v10.0.20, v10.0.21, v10.0.22, v10.0.23, v10.0.24, v10.0.25, v10.0.8 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dpp/xmake.lua) |
 
@@ -5262,7 +5262,7 @@ add_requires("fmi4cpp")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
-| Versions | 10.0.0, 10.1.0, 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
+| Versions | 10.0.0, 10.1.0, 10.1.1, 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
