@@ -3414,7 +3414,7 @@ add_requires("lexbor")
 | Description | *C++ parsing DSL* |
 | -- | -- |
 | Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
-| Versions | 2022.03.21 |
+| Versions | 2022.03.21, 2022.12.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
 

@@ -3058,7 +3058,7 @@ add_requires("lexbor")
 | Description | *C++ parsing DSL* |
 | -- | -- |
 | Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
-| Versions | 2022.03.21 |
+| Versions | 2022.03.21, 2022.12.1 |
 | Architectures | wasm32 |
 | Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
 

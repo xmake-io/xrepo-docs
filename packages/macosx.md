@@ -7894,7 +7894,7 @@ add_requires("lexbor")
 | Description | *C++ parsing DSL* |
 | -- | -- |
 | Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
-| Versions | 2022.03.21 |
+| Versions | 2022.03.21, 2022.12.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
 
@@ -14895,6 +14895,30 @@ xrepo install openvdb
 
 ```lua
 add_requires("openvdb")
+```
+
+
+### openvr (macosx)
+
+
+| Description | *OpenVR SDK* |
+| -- | -- |
+| Homepage | [https://www.steamvr.com/](https://www.steamvr.com/) |
+| License | BSD-3-Clause |
+| Versions | v1.26.7 |
+| Architectures | arm64, x86_64 |
+| Definition | [openvr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openvr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openvr")
 ```
 
 
