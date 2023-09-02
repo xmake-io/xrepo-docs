@@ -506,7 +506,8 @@ add_requires("branchless-utf8")
 | Description | *Brotli compression format.* |
 | -- | -- |
 | Homepage | [https://github.com/google/brotli](https://github.com/google/brotli) |
-| Versions | 1.0.9 |
+| License | MIT |
+| Versions | v1.0.9, v1.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [brotli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brotli/xmake.lua) |
 
@@ -3412,7 +3413,7 @@ add_requires("libsais")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2 |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3 |
 | Architectures | i386, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
