@@ -2481,6 +2481,30 @@ add_requires("frozen")
 ```
 
 
+### fruit (bsd)
+
+
+| Description | *Fruit, a dependency injection framework for C++* |
+| -- | -- |
+| Homepage | [https://github.com/google/fruit/wiki](https://github.com/google/fruit/wiki) |
+| License | Apache-2.0 |
+| Versions | v3.7.0, v3.7.1 |
+| Architectures | i386, x86_64 |
+| Definition | [fruit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fruit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fruit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fruit")
+```
+
+
 ### ftxui (bsd)
 
 

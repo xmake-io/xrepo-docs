@@ -2623,6 +2623,30 @@ add_requires("frozen")
 ```
 
 
+### fruit (android)
+
+
+| Description | *Fruit, a dependency injection framework for C++* |
+| -- | -- |
+| Homepage | [https://github.com/google/fruit/wiki](https://github.com/google/fruit/wiki) |
+| License | Apache-2.0 |
+| Versions | v3.7.0, v3.7.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [fruit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fruit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] fruit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fruit")
+```
+
+
 ### function2 (android)
 
 

@@ -2435,6 +2435,30 @@ add_requires("frozen")
 ```
 
 
+### fruit (cross)
+
+
+| Description | *Fruit, a dependency injection framework for C++* |
+| -- | -- |
+| Homepage | [https://github.com/google/fruit/wiki](https://github.com/google/fruit/wiki) |
+| License | Apache-2.0 |
+| Versions | v3.7.0, v3.7.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [fruit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fruit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] fruit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fruit")
+```
+
+
 ### function2 (cross)
 
 
