@@ -3680,6 +3680,54 @@ add_requires("devil")
 ```
 
 
+### directx-headers (linux)
+
+
+| Description | *Official DirectX headers* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/DirectX-Headers](https://github.com/microsoft/DirectX-Headers) |
+| License | MIT |
+| Versions | v1.610.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [directx-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directx-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install directx-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("directx-headers")
+```
+
+
+### directxmath (linux)
+
+
+| Description | *DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/DirectXMath](https://github.com/microsoft/DirectXMath) |
+| License | MIT |
+| Versions | 2022.12 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [directxmath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directxmath/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install directxmath
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("directxmath")
+```
+
+
 ### directxshadercompiler (linux)
 
 
@@ -3701,6 +3749,30 @@ xrepo install directxshadercompiler
 
 ```lua
 add_requires("directxshadercompiler")
+```
+
+
+### directxtex (linux)
+
+
+| Description | *DirectXTex texture processing library* |
+| -- | -- |
+| Homepage | [https://walbourn.github.io/directxtex/](https://walbourn.github.io/directxtex/) |
+| License | MIT |
+| Versions | 2023.06 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [directxtex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directxtex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install directxtex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("directxtex")
 ```
 
 
@@ -18779,6 +18851,30 @@ xrepo install rsm-binary-io
 
 ```lua
 add_requires("rsm-binary-io")
+```
+
+
+### rsm-bsa (linux)
+
+
+| Description | *C++ library for working with the Bethesda archive file format* |
+| -- | -- |
+| Homepage | [https://github.com/Ryan-rsm-McKenzie/bsa](https://github.com/Ryan-rsm-McKenzie/bsa) |
+| License | MIT |
+| Versions | 4.1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rsm-bsa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-bsa/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rsm-bsa
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rsm-bsa")
 ```
 
 

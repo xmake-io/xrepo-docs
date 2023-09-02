@@ -15806,6 +15806,30 @@ add_requires("rsm-binary-io")
 ```
 
 
+### rsm-bsa (windows)
+
+
+| Description | *C++ library for working with the Bethesda archive file format* |
+| -- | -- |
+| Homepage | [https://github.com/Ryan-rsm-McKenzie/bsa](https://github.com/Ryan-rsm-McKenzie/bsa) |
+| License | MIT |
+| Versions | 4.1.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [rsm-bsa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-bsa/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rsm-bsa
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rsm-bsa")
+```
+
+
 ### rsm-mmio (windows)
 
 
