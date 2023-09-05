@@ -10647,7 +10647,7 @@ add_requires("mathfu")
 | -- | -- |
 | Homepage | [https://alandefreitas.github.io/matplotplusplus/](https://alandefreitas.github.io/matplotplusplus/) |
 | License | MIT |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.2.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [matplotplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matplotplusplus/xmake.lua) |
 
