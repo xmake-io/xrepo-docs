@@ -6197,6 +6197,29 @@ add_requires("mpmcqueue")
 ```
 
 
+### mscharconv (android)
+
+
+| Description | *<charconv> from Microsoft STL, but multi-platform * |
+| -- | -- |
+| Homepage | [https://github.com/iboB/mscharconv](https://github.com/iboB/mscharconv) |
+| Versions | latest |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [mscharconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mscharconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mscharconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mscharconv")
+```
+
+
 ### msdfgen (android)
 
 

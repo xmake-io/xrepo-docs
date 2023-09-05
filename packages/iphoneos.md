@@ -5675,6 +5675,29 @@ add_requires("mpmcqueue")
 ```
 
 
+### mscharconv (iphoneos)
+
+
+| Description | *<charconv> from Microsoft STL, but multi-platform * |
+| -- | -- |
+| Homepage | [https://github.com/iboB/mscharconv](https://github.com/iboB/mscharconv) |
+| Versions | latest |
+| Architectures | arm64, x86_64 |
+| Definition | [mscharconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mscharconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos mscharconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mscharconv")
+```
+
+
 ### msdfgen (iphoneos)
 
 

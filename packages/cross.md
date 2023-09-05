@@ -5156,6 +5156,29 @@ add_requires("mpmcqueue")
 ```
 
 
+### mscharconv (cross)
+
+
+| Description | *<charconv> from Microsoft STL, but multi-platform * |
+| -- | -- |
+| Homepage | [https://github.com/iboB/mscharconv](https://github.com/iboB/mscharconv) |
+| Versions | latest |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mscharconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mscharconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mscharconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mscharconv")
+```
+
+
 ### msdfgen (cross)
 
 

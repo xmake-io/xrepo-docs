@@ -5602,6 +5602,29 @@ add_requires("mpmcqueue")
 ```
 
 
+### mscharconv (bsd)
+
+
+| Description | *<charconv> from Microsoft STL, but multi-platform * |
+| -- | -- |
+| Homepage | [https://github.com/iboB/mscharconv](https://github.com/iboB/mscharconv) |
+| Versions | latest |
+| Architectures | i386, x86_64 |
+| Definition | [mscharconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mscharconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mscharconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mscharconv")
+```
+
+
 ### msdfgen (bsd)
 
 

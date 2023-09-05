@@ -12203,7 +12203,7 @@ add_requires("mathfu")
 | -- | -- |
 | Homepage | [https://alandefreitas.github.io/matplotplusplus/](https://alandefreitas.github.io/matplotplusplus/) |
 | License | MIT |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [matplotplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matplotplusplus/xmake.lua) |
 
@@ -13162,6 +13162,29 @@ xrepo install mpmcqueue
 
 ```lua
 add_requires("mpmcqueue")
+```
+
+
+### mscharconv (macosx)
+
+
+| Description | *<charconv> from Microsoft STL, but multi-platform * |
+| -- | -- |
+| Homepage | [https://github.com/iboB/mscharconv](https://github.com/iboB/mscharconv) |
+| Versions | latest |
+| Architectures | arm64, x86_64 |
+| Definition | [mscharconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mscharconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mscharconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mscharconv")
 ```
 
 
