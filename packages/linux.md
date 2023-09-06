@@ -22769,6 +22769,30 @@ add_requires("vvenc")
 
 
 ## w
+### wasm-micro-runtime (linux)
+
+
+| Description | *WebAssembly Micro Runtime (WAMR)* |
+| -- | -- |
+| Homepage | [https://github.com/bytecodealliance/wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime) |
+| License | Apache-2.0 |
+| Versions | 1.2.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [wasm-micro-runtime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wasm-micro-runtime/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wasm-micro-runtime
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wasm-micro-runtime")
+```
+
+
 ### wavpack (linux)
 
 
