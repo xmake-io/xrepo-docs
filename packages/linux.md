@@ -22654,7 +22654,7 @@ add_requires("vulkan-memory-allocator")
 | -- | -- |
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | CC0 |
-| Versions | v3.0.0, v3.0.1-1 |
+| Versions | v3.0.0, v3.0.1-1, v3.0.1-3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-memory-allocator-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator-hpp/xmake.lua) |
 
