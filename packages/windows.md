@@ -7501,7 +7501,7 @@ add_requires("kompute")
 | Description | *A portable, simple zip library written in C* |
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
-| Versions | v0.2.2, v0.2.5 |
+| Versions | v0.2.2, v0.2.5, v0.2.6 |
 | Architectures | arm64, x64, x86 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
