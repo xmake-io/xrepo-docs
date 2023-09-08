@@ -500,6 +500,30 @@ add_requires("blake3")
 ```
 
 
+### boost_sml (iphoneos)
+
+
+| Description | *SML: C++14 State Machine Library* |
+| -- | -- |
+| Homepage | [https://boost-ext.github.io/sml](https://boost-ext.github.io/sml) |
+| License | BSL-1.0 |
+| Versions | v1.1.8 |
+| Architectures | arm64, x86_64 |
+| Definition | [boost_sml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_sml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos boost_sml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_sml")
+```
+
+
 ### branchless-utf8 (iphoneos)
 
 
@@ -1566,6 +1590,29 @@ xrepo install -p iphoneos date
 
 ```lua
 add_requires("date")
+```
+
+
+### daw_header_libraries (iphoneos)
+
+
+| Description | *Various header libraries mostly future std lib, replacements for(e.g. visit), or some misc * |
+| -- | -- |
+| Homepage | [https://beached.github.io/header_libraries/](https://beached.github.io/header_libraries/) |
+| Versions | v2.96.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [daw_header_libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos daw_header_libraries
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("daw_header_libraries")
 ```
 
 
@@ -5652,6 +5699,29 @@ add_requires("moonjit")
 ```
 
 
+### mpg123 (iphoneos)
+
+
+| Description | *Fast console MPEG Audio Player and decoder library* |
+| -- | -- |
+| Homepage | [https://www.mpg123.de/](https://www.mpg123.de/) |
+| Versions | 1.30.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [mpg123/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpg123/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos mpg123
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mpg123")
+```
+
+
 ### mpmcqueue (iphoneos)
 
 
@@ -6555,6 +6625,30 @@ xrepo install -p iphoneos picojson
 
 ```lua
 add_requires("picojson")
+```
+
+
+### picosha2 (iphoneos)
+
+
+| Description | *a header-file-only, SHA256 hash generator in C++* |
+| -- | -- |
+| Homepage | [https://github.com/okdshin/PicoSHA2](https://github.com/okdshin/PicoSHA2) |
+| License | MIT |
+| Versions | 2022.08.08 |
+| Architectures | arm64, x86_64 |
+| Definition | [picosha2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picosha2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos picosha2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("picosha2")
 ```
 
 

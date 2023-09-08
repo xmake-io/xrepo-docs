@@ -429,6 +429,30 @@ add_requires("bison")
 ```
 
 
+### boost_sml (wasm)
+
+
+| Description | *SML: C++14 State Machine Library* |
+| -- | -- |
+| Homepage | [https://boost-ext.github.io/sml](https://boost-ext.github.io/sml) |
+| License | BSL-1.0 |
+| Versions | v1.1.8 |
+| Architectures | wasm32 |
+| Definition | [boost_sml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_sml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm boost_sml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_sml")
+```
+
+
 ### branchless-utf8 (wasm)
 
 
@@ -1377,6 +1401,29 @@ xrepo install -p wasm date
 
 ```lua
 add_requires("date")
+```
+
+
+### daw_header_libraries (wasm)
+
+
+| Description | *Various header libraries mostly future std lib, replacements for(e.g. visit), or some misc * |
+| -- | -- |
+| Homepage | [https://beached.github.io/header_libraries/](https://beached.github.io/header_libraries/) |
+| Versions | v2.96.1 |
+| Architectures | wasm32 |
+| Definition | [daw_header_libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm daw_header_libraries
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("daw_header_libraries")
 ```
 
 
@@ -5586,6 +5633,30 @@ xrepo install -p wasm picojson
 
 ```lua
 add_requires("picojson")
+```
+
+
+### picosha2 (wasm)
+
+
+| Description | *a header-file-only, SHA256 hash generator in C++* |
+| -- | -- |
+| Homepage | [https://github.com/okdshin/PicoSHA2](https://github.com/okdshin/PicoSHA2) |
+| License | MIT |
+| Versions | 2022.08.08 |
+| Architectures | wasm32 |
+| Definition | [picosha2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picosha2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm picosha2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("picosha2")
 ```
 
 

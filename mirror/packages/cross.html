@@ -892,6 +892,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("boost")
 </code></pre>
+<h3 id="boost_smlcross">boost_sml (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SML: C++14 State Machine Library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://boost-ext.github.io/sml">https://boost-ext.github.io/sml</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.1.8</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_sml/xmake.lua">boost_sml/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] boost_sml
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("boost_sml")
+</code></pre>
 <h3 id="branchlessutf8cross">branchless-utf8 (cross)</h3>
 <table>
 <thead>
@@ -2465,6 +2502,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("date")
+</code></pre>
+<h3 id="daw_header_librariescross">daw_header_libraries (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Various header libraries mostly future std lib, replacements for(e.g. visit), or some misc </em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://beached.github.io/header_libraries/">https://beached.github.io/header_libraries/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v2.96.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua">daw_header_libraries/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] daw_header_libraries
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("daw_header_libraries")
 </code></pre>
 <h3 id="dbgmacrocross">dbg-macro (cross)</h3>
 <table>
@@ -7801,6 +7871,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("mongoose")
 </code></pre>
+<h3 id="mpg123cross">mpg123 (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Fast console MPEG Audio Player and decoder library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.mpg123.de/">https://www.mpg123.de/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.30.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpg123/xmake.lua">mpg123/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] mpg123
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("mpg123")
+</code></pre>
 <h3 id="mpmcqueuecross">mpmcqueue (cross)</h3>
 <table>
 <thead>
@@ -9297,6 +9400,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("picojson")
+</code></pre>
+<h3 id="picosha2cross">picosha2 (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>a header-file-only, SHA256 hash generator in C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/okdshin/PicoSHA2">https://github.com/okdshin/PicoSHA2</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2022.08.08</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picosha2/xmake.lua">picosha2/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] picosha2
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("picosha2")
 </code></pre>
 <h3 id="pkgconfigcross">pkg-config (cross)</h3>
 <table>
