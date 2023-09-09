@@ -5437,6 +5437,30 @@ add_requires("lz4")
 ```
 
 
+### lzav (android)
+
+
+| Description | *Fast In-Memory Data Compression Algorithm (safe, inline C/C++) 460+MB/s compress, 2500+MB/s decompress, ratio better than LZ4* |
+| -- | -- |
+| Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
+| License | MIT |
+| Versions | 2.14 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] lzav
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lzav")
+```
+
+
 ### lzham_codec (android)
 
 
