@@ -2428,7 +2428,7 @@ add_requires("convertutf")
 | Description | *A tiny boost library in C++11.* |
 | -- | -- |
 | Homepage | [https://github.com/idealvin/coost](https://github.com/idealvin/coost) |
-| Versions | v3.0.0 |
+| Versions | v3.0.0, v3.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [coost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coost/xmake.lua) |
 
