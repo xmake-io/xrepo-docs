@@ -120,6 +120,29 @@ add_requires("ada")
 ```
 
 
+### alsa-lib (linux)
+
+
+| Description | *The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.* |
+| -- | -- |
+| Homepage | [https://alsa-project.org/wiki/Main_Page](https://alsa-project.org/wiki/Main_Page) |
+| Versions | 1.2.10 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [alsa-lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alsa-lib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install alsa-lib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("alsa-lib")
+```
+
+
 ### amgcl (linux)
 
 
