@@ -16358,7 +16358,8 @@ add_requires("serial")
 | Description | *Simple and Fast Multimedia Library* |
 | -- | -- |
 | Homepage | [https://www.sfml-dev.org](https://www.sfml-dev.org) |
-| Versions | 2.5.1 |
+| License | zlib |
+| Versions | 2.5.1, 2.6.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sfml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfml/xmake.lua) |
 
