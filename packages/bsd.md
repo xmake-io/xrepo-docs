@@ -4237,6 +4237,29 @@ add_requires("libsimdpp")
 ```
 
 
+### libsndio (bsd)
+
+
+| Description | *Sndio is a small audio and MIDI framework part of the OpenBSD project and ported to FreeBSD, Linux and NetBSD* |
+| -- | -- |
+| Homepage | [https://sndio.org](https://sndio.org) |
+| Versions | 1.9.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libsndio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsndio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsndio")
+```
+
+
 ### libsoundio (bsd)
 
 

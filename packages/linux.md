@@ -10912,6 +10912,29 @@ add_requires("libsndfile")
 ```
 
 
+### libsndio (linux)
+
+
+| Description | *Sndio is a small audio and MIDI framework part of the OpenBSD project and ported to FreeBSD, Linux and NetBSD* |
+| -- | -- |
+| Homepage | [https://sndio.org](https://sndio.org) |
+| Versions | 1.9.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libsndio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsndio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsndio")
+```
+
+
 ### libsodium (linux)
 
 
