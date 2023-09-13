@@ -6460,6 +6460,30 @@ add_requires("minimp3")
 ```
 
 
+### minitrace (mingw)
+
+
+| Description | *Simple C/C++ library for producing JSON traces suitable for Chrome's built-in trace viewer (about:tracing).* |
+| -- | -- |
+| Homepage | [https://github.com/hrydgard/minitrace](https://github.com/hrydgard/minitrace) |
+| License | MIT |
+| Versions | 2023.09.04 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [minitrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minitrace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] minitrace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minitrace")
+```
+
+
 ### miniz (mingw)
 
 
@@ -8973,6 +8997,30 @@ xrepo install -p mingw [--mingw=/xxx] recastnavigation
 
 ```lua
 add_requires("recastnavigation")
+```
+
+
+### remotery (mingw)
+
+
+| Description | *Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer* |
+| -- | -- |
+| Homepage | [https://github.com/Celtoys/Remotery](https://github.com/Celtoys/Remotery) |
+| License | Apache-2.0 |
+| Versions | 2023.08.02 |
+| Architectures | x86_64 |
+| Definition | [remotery/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/remotery/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] remotery
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("remotery")
 ```
 
 

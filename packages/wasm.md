@@ -4751,6 +4751,30 @@ add_requires("minimp3")
 ```
 
 
+### minitrace (wasm)
+
+
+| Description | *Simple C/C++ library for producing JSON traces suitable for Chrome's built-in trace viewer (about:tracing).* |
+| -- | -- |
+| Homepage | [https://github.com/hrydgard/minitrace](https://github.com/hrydgard/minitrace) |
+| License | MIT |
+| Versions | 2023.09.04 |
+| Architectures | wasm32 |
+| Definition | [minitrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minitrace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm minitrace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("minitrace")
+```
+
+
 ### miniz (wasm)
 
 
