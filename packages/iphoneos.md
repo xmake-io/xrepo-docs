@@ -285,6 +285,30 @@ add_requires("avir")
 ```
 
 
+### aws-c-common (iphoneos)
+
+
+| Description | *Core c99 package for AWS SDK for C* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
+| License | Apache-2.0 |
+| Versions | v0.9.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos aws-c-common
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-common")
+```
+
+
 
 ## b
 ### b2 (iphoneos)

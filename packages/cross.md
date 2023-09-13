@@ -309,6 +309,30 @@ add_requires("avir")
 ```
 
 
+### aws-c-common (cross)
+
+
+| Description | *Core c99 package for AWS SDK for C* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
+| License | Apache-2.0 |
+| Versions | v0.9.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-c-common
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-common")
+```
+
+
 
 ## b
 ### b2 (cross)
