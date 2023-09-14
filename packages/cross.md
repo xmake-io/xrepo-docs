@@ -357,6 +357,30 @@ add_requires("aws-c-common")
 ```
 
 
+### aws-c-compression (cross)
+
+
+| Description | *C99 implementation of huffman encoding/decoding* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-compression](https://github.com/awslabs/aws-c-compression) |
+| License | Apache-2.0 |
+| Versions | v0.2.17 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-c-compression/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-compression/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-c-compression
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-compression")
+```
+
+
 
 ## b
 ### b2 (cross)

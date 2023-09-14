@@ -356,6 +356,30 @@ add_requires("aws-c-common")
 ```
 
 
+### aws-c-compression (android)
+
+
+| Description | *C99 implementation of huffman encoding/decoding* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-compression](https://github.com/awslabs/aws-c-compression) |
+| License | Apache-2.0 |
+| Versions | v0.2.17 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [aws-c-compression/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-compression/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] aws-c-compression
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-compression")
+```
+
+
 
 ## b
 ### b2 (android)
