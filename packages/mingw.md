@@ -454,6 +454,29 @@ add_requires("bazel")
 ```
 
 
+### bento4 (mingw)
+
+
+| Description | *Full-featured MP4 format, MPEG DASH, HLS, CMAF SDK and tools* |
+| -- | -- |
+| Homepage | [http://www.bento4.com](http://www.bento4.com) |
+| Versions | 2023.08.08 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [bento4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bento4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] bento4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bento4")
+```
+
+
 ### better-enums (mingw)
 
 

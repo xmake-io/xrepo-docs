@@ -358,6 +358,29 @@ add_requires("bazel")
 ```
 
 
+### bento4 (wasm)
+
+
+| Description | *Full-featured MP4 format, MPEG DASH, HLS, CMAF SDK and tools* |
+| -- | -- |
+| Homepage | [http://www.bento4.com](http://www.bento4.com) |
+| Versions | 2023.08.08 |
+| Architectures | wasm32 |
+| Definition | [bento4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bento4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm bento4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bento4")
+```
+
+
 ### better-enums (wasm)
 
 
