@@ -7588,7 +7588,7 @@ add_requires("imcoolbar")
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
-| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86, v1.87, v1.87-docking, v1.88, v1.88-docking, v1.89, v1.89-docking, v1.89.3, v1.89.3-docking, v1.89.4, v1.89.4-docking, v1.89.5, v1.89.5-docking, v1.89.6, v1.89.6-docking, v1.89.7, v1.89.7-docking, v1.89.8, v1.89.8-docking |
+| Versions | v1.75, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86, v1.87, v1.87-docking, v1.88, v1.88-docking, v1.89, v1.89-docking, v1.89.3, v1.89.3-docking, v1.89.4, v1.89.4-docking, v1.89.5, v1.89.5-docking, v1.89.6, v1.89.6-docking, v1.89.7, v1.89.7-docking, v1.89.8, v1.89.8-docking, v1.89.9, v1.89.9-docking |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -22819,7 +22819,7 @@ add_requires("vulkan-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
 | License | Apache-2.0 |
-| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254 |
+| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254, v1.3.261 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
 
