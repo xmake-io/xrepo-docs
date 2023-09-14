@@ -550,6 +550,30 @@ add_requires("avir")
 ```
 
 
+### aws-c-cal (windows)
+
+
+| Description | *Aws Crypto Abstraction Layer: Cross-Platform, C99 wrapper for cryptography primitives.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
+| License | Apache-2.0 |
+| Versions | v0.6.2 |
+| Architectures | x64, x86 |
+| Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-c-cal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-cal")
+```
+
+
 ### aws-c-common (windows)
 
 
