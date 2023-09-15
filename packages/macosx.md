@@ -8131,7 +8131,7 @@ add_requires("libaesgm")
 | -- | -- |
 | Homepage | [https://libarchive.org/](https://libarchive.org/) |
 | License | BSD-2-Clause |
-| Versions | 3.5.1, 3.5.2 |
+| Versions | 3.5.1, 3.5.2, 3.6.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
 
