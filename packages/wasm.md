@@ -1425,6 +1425,29 @@ add_requires("cubeb")
 ```
 
 
+### cutlass (wasm)
+
+
+| Description | *CUDA Templates for Linear Algebra Subroutines* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
+| Versions | v3.2.0 |
+| Architectures | wasm32 |
+| Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm cutlass
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cutlass")
+```
+
+
 ### cxxopts (wasm)
 
 

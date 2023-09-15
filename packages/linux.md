@@ -3439,6 +3439,29 @@ add_requires("cumem")
 ```
 
 
+### cutlass (linux)
+
+
+| Description | *CUDA Templates for Linear Algebra Subroutines* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
+| Versions | v3.2.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cutlass
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cutlass")
+```
+
+
 ### cxxopts (linux)
 
 

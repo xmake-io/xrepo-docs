@@ -1640,6 +1640,29 @@ add_requires("cubeb")
 ```
 
 
+### cutlass (cross)
+
+
+| Description | *CUDA Templates for Linear Algebra Subroutines* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
+| Versions | v3.2.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cutlass
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cutlass")
+```
+
+
 ### cxxopts (cross)
 
 
