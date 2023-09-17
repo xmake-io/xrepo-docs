@@ -7856,6 +7856,30 @@ add_requires("rxcpp")
 
 
 ## s
+### s2n-tls (bsd)
+
+
+| Description | *An implementation of the TLS/SSL protocols* |
+| -- | -- |
+| Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
+| License | Apache-2.0 |
+| Versions | v1.3.51 |
+| Architectures | i386, x86_64 |
+| Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install s2n-tls
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("s2n-tls")
+```
+
+
 ### s7 (bsd)
 
 
