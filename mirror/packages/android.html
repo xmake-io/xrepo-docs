@@ -3471,6 +3471,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("elfutils")
 </code></pre>
+<h3 id="emioandroid">emio (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A safe and fast high-level and low-level character input/output library for bare-metal and RTOS based embedded systems with a very small binary footprint.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://viatorus.github.io/emio/">https://viatorus.github.io/emio/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.4.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emio/xmake.lua">emio/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] emio
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("emio")
+</code></pre>
 <h3 id="enetandroid">enet (android)</h3>
 <table>
 <thead>
@@ -4768,6 +4801,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("glslang")
+</code></pre>
+<h3 id="gmsslandroid">gmssl (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Password Toolkit supporting National secret chip SM2/SM3/SM4/SM9/SSL</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/guanzhi/GmSSL">https://github.com/guanzhi/GmSSL</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v3.1.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmssl/xmake.lua">gmssl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] gmssl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gmssl")
 </code></pre>
 <h3 id="gnandroid">gn (android)</h3>
 <table>
@@ -16999,6 +17069,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("zlibcomplete")
+</code></pre>
+<h3 id="zopfliandroid">zopfli (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Zopfli Compression Algorithm is a compression library programmed in C to perform very good, but slow, deflate or zlib compression.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/google/zopfli">https://github.com/google/zopfli</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2021.06.14</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zopfli/xmake.lua">zopfli/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] zopfli
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("zopfli")
 </code></pre>
 <h3 id="zstdandroid">zstd (android)</h3>
 <table>

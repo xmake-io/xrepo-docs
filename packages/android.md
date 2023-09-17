@@ -2237,6 +2237,29 @@ add_requires("elfutils")
 ```
 
 
+### emio (android)
+
+
+| Description | *A safe and fast high-level and low-level character input/output library for bare-metal and RTOS based embedded systems with a very small binary footprint.* |
+| -- | -- |
+| Homepage | [https://viatorus.github.io/emio/](https://viatorus.github.io/emio/) |
+| Versions | 0.4.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [emio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] emio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("emio")
+```
+
+
 ### enet (android)
 
 
@@ -3093,6 +3116,30 @@ xrepo install -p android [--ndk=/xxx] glslang
 
 ```lua
 add_requires("glslang")
+```
+
+
+### gmssl (android)
+
+
+| Description | *Password Toolkit supporting National secret chip SM2/SM3/SM4/SM9/SSL* |
+| -- | -- |
+| Homepage | [https://github.com/guanzhi/GmSSL](https://github.com/guanzhi/GmSSL) |
+| License | Apache-2.0 |
+| Versions | v3.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [gmssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] gmssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gmssl")
 ```
 
 
@@ -11258,6 +11305,30 @@ xrepo install -p android [--ndk=/xxx] zlibcomplete
 
 ```lua
 add_requires("zlibcomplete")
+```
+
+
+### zopfli (android)
+
+
+| Description | *Zopfli Compression Algorithm is a compression library programmed in C to perform very good, but slow, deflate or zlib compression.* |
+| -- | -- |
+| Homepage | [https://github.com/google/zopfli](https://github.com/google/zopfli) |
+| License | Apache-2.0 |
+| Versions | 2021.06.14 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [zopfli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zopfli/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] zopfli
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zopfli")
 ```
 
 
