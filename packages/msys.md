@@ -8539,6 +8539,30 @@ add_requires("xlnt")
 ```
 
 
+### xpack (msys)
+
+
+| Description | *convert json/xml/bson to c++ struct* |
+| -- | -- |
+| Homepage | [https://github.com/xyz347/xpack](https://github.com/xyz347/xpack) |
+| License | Apache-2.0 |
+| Versions | v1.0.5 |
+| Architectures | i386, x86_64 |
+| Definition | [xpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xpack")
+```
+
+
 ### xxhash (msys)
 
 

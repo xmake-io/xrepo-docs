@@ -9436,6 +9436,30 @@ add_requires("xlnt")
 ```
 
 
+### xpack (cross)
+
+
+| Description | *convert json/xml/bson to c++ struct* |
+| -- | -- |
+| Homepage | [https://github.com/xyz347/xpack](https://github.com/xyz347/xpack) |
+| License | Apache-2.0 |
+| Versions | v1.0.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [xpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] xpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xpack")
+```
+
+
 ### xxhash (cross)
 
 

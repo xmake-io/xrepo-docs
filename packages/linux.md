@@ -23831,6 +23831,54 @@ add_requires("xorgproto")
 ```
 
 
+### xpack (linux)
+
+
+| Description | *convert json/xml/bson to c++ struct* |
+| -- | -- |
+| Homepage | [https://github.com/xyz347/xpack](https://github.com/xyz347/xpack) |
+| License | Apache-2.0 |
+| Versions | v1.0.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xpack")
+```
+
+
+### xproperty (linux)
+
+
+| Description | *Traitlets-like C++ properties and implementation of the observer pattern* |
+| -- | -- |
+| Homepage | [https://github.com/jupyter-xeus/xproperty](https://github.com/jupyter-xeus/xproperty) |
+| License | BSD-3-Clause |
+| Versions | 2021.04.13 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xproperty/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xproperty/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xproperty
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xproperty")
+```
+
+
 ### xquic (linux)
 
 
