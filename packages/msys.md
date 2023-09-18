@@ -381,6 +381,30 @@ add_requires("aws-c-compression")
 ```
 
 
+### aws-c-io (msys)
+
+
+| Description | *This is a module for the AWS SDK for C. It handles all IO and TLS work for application protocols. * |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
+| License | Apache-2.0 |
+| Versions | v0.13.32 |
+| Architectures | i386, x86_64 |
+| Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-c-io
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-io")
+```
+
+
 
 ## b
 ### b2 (msys)
