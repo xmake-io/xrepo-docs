@@ -6044,7 +6044,7 @@ add_requires("gmm")
 | -- | -- |
 | Homepage | [https://gmplib.org/](https://gmplib.org/) |
 | License | LGPL-3.0 |
-| Versions | 6.2.1 |
+| Versions | 6.2.1, 6.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [gmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmp/xmake.lua) |
 
