@@ -381,6 +381,30 @@ add_requires("aws-c-compression")
 ```
 
 
+### aws-c-http (cross)
+
+
+| Description | *C99 implementation of the HTTP/1.1 and HTTP/2 specifications* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
+| License | Apache-2.0 |
+| Versions | v0.7.12 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-c-http
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-http")
+```
+
+
 ### aws-c-io (cross)
 
 
