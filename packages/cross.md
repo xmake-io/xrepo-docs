@@ -429,6 +429,54 @@ add_requires("aws-c-io")
 ```
 
 
+### aws-c-mqtt (cross)
+
+
+| Description | *C99 implementation of the MQTT 3.1.1 specification.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
+| License | Apache-2.0 |
+| Versions | v0.9.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-c-mqtt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-mqtt")
+```
+
+
+### aws-c-sdkutils (cross)
+
+
+| Description | *C99 library implementing AWS SDK specific utilities. Includes utilities for ARN parsing, reading AWS profiles, etc...* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
+| License | Apache-2.0 |
+| Versions | v0.1.12 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-c-sdkutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-sdkutils")
+```
+
+
 
 ## b
 ### b2 (cross)

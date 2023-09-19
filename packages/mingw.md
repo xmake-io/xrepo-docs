@@ -9662,6 +9662,30 @@ add_requires("sheenbidi")
 ```
 
 
+### simdcomp (mingw)
+
+
+| Description | *A simple C library for compressing lists of integers using binary packing* |
+| -- | -- |
+| Homepage | [https://github.com/lemire/simdcomp](https://github.com/lemire/simdcomp) |
+| License | BSD-3-Clause |
+| Versions | 2023.08.19 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [simdcomp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdcomp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] simdcomp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simdcomp")
+```
+
+
 ### simde (mingw)
 
 

@@ -453,6 +453,54 @@ add_requires("aws-c-io")
 ```
 
 
+### aws-c-mqtt (bsd)
+
+
+| Description | *C99 implementation of the MQTT 3.1.1 specification.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
+| License | Apache-2.0 |
+| Versions | v0.9.5 |
+| Architectures | i386, x86_64 |
+| Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-c-mqtt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-mqtt")
+```
+
+
+### aws-c-sdkutils (bsd)
+
+
+| Description | *C99 library implementing AWS SDK specific utilities. Includes utilities for ARN parsing, reading AWS profiles, etc...* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
+| License | Apache-2.0 |
+| Versions | v0.1.12 |
+| Architectures | i386, x86_64 |
+| Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-c-sdkutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-sdkutils")
+```
+
+
 
 ## b
 ### b2 (bsd)
@@ -8160,6 +8208,30 @@ xrepo install sheenbidi
 
 ```lua
 add_requires("sheenbidi")
+```
+
+
+### simdcomp (bsd)
+
+
+| Description | *A simple C library for compressing lists of integers using binary packing* |
+| -- | -- |
+| Homepage | [https://github.com/lemire/simdcomp](https://github.com/lemire/simdcomp) |
+| License | BSD-3-Clause |
+| Versions | 2023.08.19 |
+| Architectures | i386, x86_64 |
+| Definition | [simdcomp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdcomp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install simdcomp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simdcomp")
 ```
 
 
