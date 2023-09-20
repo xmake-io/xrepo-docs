@@ -501,6 +501,30 @@ add_requires("aws-c-sdkutils")
 ```
 
 
+### aws-checksums (cross)
+
+
+| Description | *Cross platform HW accelerated CRC32c and CRC32 with fallback to efficient SW implementations - C interface with language bindings for AWS SDKs* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
+| License | Apache-2.0 |
+| Versions | v0.1.17 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-checksums
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-checksums")
+```
+
+
 
 ## b
 ### b2 (cross)
