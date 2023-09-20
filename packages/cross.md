@@ -309,6 +309,30 @@ add_requires("avir")
 ```
 
 
+### aws-c-auth (cross)
+
+
+| Description | *C99 library implementation of AWS client-side authentication: standard credentials providers and signing.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
+| License | Apache-2.0 |
+| Versions | v0.7.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-c-auth
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-auth")
+```
+
+
 ### aws-c-cal (cross)
 
 

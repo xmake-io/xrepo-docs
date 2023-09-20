@@ -715,6 +715,30 @@ add_requires("awk")
 ```
 
 
+### aws-c-auth (linux)
+
+
+| Description | *C99 library implementation of AWS client-side authentication: standard credentials providers and signing.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
+| License | Apache-2.0 |
+| Versions | v0.7.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-c-auth
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-auth")
+```
+
+
 ### aws-c-cal (linux)
 
 
