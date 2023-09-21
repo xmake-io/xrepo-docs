@@ -96,6 +96,30 @@ add_requires("ada")
 ```
 
 
+### alembic (windows)
+
+
+| Description | *Open framework for storing and sharing scene data that includes a C++ library, a file format, and client plugins and applications.* |
+| -- | -- |
+| Homepage | [https://alembic.io/](https://alembic.io/) |
+| License | BSD-3-Clause |
+| Versions | 1.8.5 |
+| Architectures | arm64, x64, x86 |
+| Definition | [alembic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alembic/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install alembic
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("alembic")
+```
+
+
 ### amgcl (windows)
 
 
@@ -7148,7 +7172,7 @@ add_requires("im3d")
 | -- | -- |
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
-| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4, v3.1.5 |
+| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4, v3.1.5, v3.1.9 |
 | Architectures | arm64, x64, x86 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
