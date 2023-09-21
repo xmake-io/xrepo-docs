@@ -3740,6 +3740,30 @@ add_requires("hash-library")
 ```
 
 
+### highs (mingw)
+
+
+| Description | *Linear optimization software* |
+| -- | -- |
+| Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
+| License | MIT |
+| Versions | v1.5.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] highs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("highs")
+```
+
+
 ### hiredis (mingw)
 
 

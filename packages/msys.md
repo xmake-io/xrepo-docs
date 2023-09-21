@@ -501,6 +501,30 @@ add_requires("aws-c-mqtt")
 ```
 
 
+### aws-c-s3 (msys)
+
+
+| Description | *C99 library implementation for communicating with the S3 service, designed for maximizing throughput on high bandwidth EC2 instances.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
+| License | Apache-2.0 |
+| Versions | v0.3.17 |
+| Architectures | i386, x86_64 |
+| Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-c-s3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-s3")
+```
+
+
 ### aws-c-sdkutils (msys)
 
 
@@ -3142,6 +3166,30 @@ xrepo install hash-library
 
 ```lua
 add_requires("hash-library")
+```
+
+
+### highs (msys)
+
+
+| Description | *Linear optimization software* |
+| -- | -- |
+| Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
+| License | MIT |
+| Versions | v1.5.3 |
+| Architectures | i386, x86_64 |
+| Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install highs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("highs")
 ```
 
 

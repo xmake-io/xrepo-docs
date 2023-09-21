@@ -862,6 +862,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("aws-c-mqtt")
 </code></pre>
+<h3 id="awscs3cross">aws-c-s3 (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C99 library implementation for communicating with the S3 service, designed for maximizing throughput on high bandwidth EC2 instances.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/awslabs/aws-c-s3">https://github.com/awslabs/aws-c-s3</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.3.17</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua">aws-c-s3/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] aws-c-s3
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("aws-c-s3")
+</code></pre>
 <h3 id="awscsdkutilscross">aws-c-sdkutils (cross)</h3>
 <table>
 <thead>
@@ -5209,6 +5246,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("hash-library")
+</code></pre>
+<h3 id="highscross">highs (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Linear optimization software</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/ERGO-Code/HiGHS">https://github.com/ERGO-Code/HiGHS</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.5.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua">highs/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] highs
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("highs")
 </code></pre>
 <h3 id="hirediscross">hiredis (cross)</h3>
 <table>

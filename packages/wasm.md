@@ -2859,6 +2859,30 @@ add_requires("hash-library")
 ```
 
 
+### highs (wasm)
+
+
+| Description | *Linear optimization software* |
+| -- | -- |
+| Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
+| License | MIT |
+| Versions | v1.5.3 |
+| Architectures | wasm32 |
+| Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm highs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("highs")
+```
+
+
 ### hiredis (wasm)
 
 
