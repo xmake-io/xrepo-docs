@@ -405,6 +405,30 @@ add_requires("aws-c-compression")
 ```
 
 
+### aws-c-event-stream (cross)
+
+
+| Description | *C99 implementation of the vnd.amazon.eventstream content-type.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-event-stream](https://github.com/awslabs/aws-c-event-stream) |
+| License | Apache-2.0 |
+| Versions | v0.3.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-c-event-stream/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-event-stream/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-c-event-stream
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-event-stream")
+```
+
+
 ### aws-c-http (cross)
 
 

@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: aws-c-auth, aws-c-mqtt, aws-c-sdkutils**
+- **Recently added: aws-c-event-stream, aws-c-auth, aws-c-mqtt**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
