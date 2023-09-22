@@ -23743,6 +23743,30 @@ add_requires("wxwidgets")
 ```
 
 
+### wyhash (linux)
+
+
+| Description | *The FASTEST QUALITY hash function, random number generators (PRNG) and hash map.* |
+| -- | -- |
+| Homepage | [https://github.com/wangyi-fudan/wyhash](https://github.com/wangyi-fudan/wyhash) |
+| License | Unlicense |
+| Versions | 2023.04.10 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [wyhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wyhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wyhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wyhash")
+```
+
+
 
 ## x
 ### x264 (linux)

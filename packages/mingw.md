@@ -11900,6 +11900,30 @@ add_requires("workspace_hanya")
 ```
 
 
+### wyhash (mingw)
+
+
+| Description | *The FASTEST QUALITY hash function, random number generators (PRNG) and hash map.* |
+| -- | -- |
+| Homepage | [https://github.com/wangyi-fudan/wyhash](https://github.com/wangyi-fudan/wyhash) |
+| License | Unlicense |
+| Versions | 2023.04.10 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [wyhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wyhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] wyhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wyhash")
+```
+
+
 
 ## x
 ### x265 (mingw)
