@@ -5287,7 +5287,7 @@ add_requires("libsdl_ttf")
 | -- | -- |
 | Homepage | [https://libsndfile.github.io/libsndfile/](https://libsndfile.github.io/libsndfile/) |
 | License | LGPL-2.1 |
-| Versions | 1.0.31, v1.0.30 |
+| Versions | 1.0.31 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsndfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndfile/xmake.lua) |
 

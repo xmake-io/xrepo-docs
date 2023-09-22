@@ -573,6 +573,30 @@ add_requires("aws-checksums")
 ```
 
 
+### aws-crt-cpp (msys)
+
+
+| Description | *C++ wrapper around the aws-c-* libraries. Provides Cross-Platform Transport Protocols and SSL/TLS implementations for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
+| License | Apache-2.0 |
+| Versions | v0.23.1 |
+| Architectures | i386, x86_64 |
+| Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-crt-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-crt-cpp")
+```
+
+
 
 ## b
 ### b2 (msys)

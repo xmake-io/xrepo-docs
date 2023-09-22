@@ -907,6 +907,30 @@ add_requires("aws-checksums")
 ```
 
 
+### aws-crt-cpp (macosx)
+
+
+| Description | *C++ wrapper around the aws-c-* libraries. Provides Cross-Platform Transport Protocols and SSL/TLS implementations for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
+| License | Apache-2.0 |
+| Versions | v0.23.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-crt-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-crt-cpp")
+```
+
+
 ### aws-sdk-cpp (macosx)
 
 
@@ -10400,7 +10424,7 @@ add_requires("libsm")
 | -- | -- |
 | Homepage | [https://libsndfile.github.io/libsndfile/](https://libsndfile.github.io/libsndfile/) |
 | License | LGPL-2.1 |
-| Versions | 1.0.31, v1.0.30 |
+| Versions | 1.0.31 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsndfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndfile/xmake.lua) |
 
@@ -13317,7 +13341,7 @@ add_requires("mjson")
 | Description | *Intel® oneAPI Math Kernel Library* |
 | -- | -- |
 | Homepage | [https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html) |
-| Versions | 2021.2.0+296, 2021.3.0+520, 2022.1.0+223 |
+| Versions | 2021.2.0+296, 2021.3.0+520, 2022.1.0+223, 2023.2.0+49495 |
 | Architectures | arm64, x86_64 |
 | Definition | [mkl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mkl/xmake.lua) |
 
@@ -20735,7 +20759,7 @@ add_requires("tracy")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8 |
+| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.14, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 
