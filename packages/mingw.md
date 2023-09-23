@@ -10253,6 +10253,30 @@ add_requires("srell")
 ```
 
 
+### ssp (mingw)
+
+
+| Description | *C++ CSV parser* |
+| -- | -- |
+| Homepage | [https://github.com/red0124/ssp](https://github.com/red0124/ssp) |
+| License | MIT |
+| Versions | v1.6.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [ssp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/ssp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ssp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ssp")
+```
+
+
 ### stb (mingw)
 
 

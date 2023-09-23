@@ -17704,6 +17704,30 @@ add_requires("srell")
 ```
 
 
+### ssp (windows)
+
+
+| Description | *C++ CSV parser* |
+| -- | -- |
+| Homepage | [https://github.com/red0124/ssp](https://github.com/red0124/ssp) |
+| License | MIT |
+| Versions | v1.6.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [ssp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/ssp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ssp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ssp")
+```
+
+
 ### stackwalker (windows)
 
 
