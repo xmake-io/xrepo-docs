@@ -644,6 +644,29 @@ add_requires("boost")
 ```
 
 
+### boost_di (mingw)
+
+
+| Description | *DI: C++14 Dependency Injection Library* |
+| -- | -- |
+| Homepage | [https://boost-ext.github.io/di](https://boost-ext.github.io/di) |
+| Versions | v1.3.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [boost_di/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_di/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] boost_di
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_di")
+```
+
+
 ### boost_sml (mingw)
 
 

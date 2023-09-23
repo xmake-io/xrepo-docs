@@ -812,6 +812,29 @@ add_requires("boost")
 ```
 
 
+### boost_di (cross)
+
+
+| Description | *DI: C++14 Dependency Injection Library* |
+| -- | -- |
+| Homepage | [https://boost-ext.github.io/di](https://boost-ext.github.io/di) |
+| Versions | v1.3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [boost_di/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_di/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] boost_di
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_di")
+```
+
+
 ### boost_sml (cross)
 
 

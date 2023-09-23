@@ -1552,6 +1552,29 @@ add_requires("boost")
 ```
 
 
+### boost_di (linux)
+
+
+| Description | *DI: C++14 Dependency Injection Library* |
+| -- | -- |
+| Homepage | [https://boost-ext.github.io/di](https://boost-ext.github.io/di) |
+| Versions | v1.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [boost_di/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_di/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install boost_di
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_di")
+```
+
+
 ### boost_sml (linux)
 
 
@@ -9661,6 +9684,30 @@ xrepo install libev
 
 ```lua
 add_requires("libev")
+```
+
+
+### libevdev (linux)
+
+
+| Description | *libevdev is a wrapper library for evdev devices. it moves the common tasks when dealing with evdev devices into a library and provides a library interface to the callers, thus avoiding erroneous ioctls, etc. The eventual goal is that libevdev wraps all ioctls available to evdev devices, thus making direct access unnecessary.* |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/libevdev/](https://www.freedesktop.org/wiki/Software/libevdev/) |
+| License | MIT |
+| Versions | 1.13.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libevdev/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libevdev/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libevdev
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libevdev")
 ```
 
 

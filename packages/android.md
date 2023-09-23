@@ -642,6 +642,29 @@ add_requires("blake3")
 ```
 
 
+### boost_di (android)
+
+
+| Description | *DI: C++14 Dependency Injection Library* |
+| -- | -- |
+| Homepage | [https://boost-ext.github.io/di](https://boost-ext.github.io/di) |
+| Versions | v1.3.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [boost_di/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_di/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] boost_di
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_di")
+```
+
+
 ### boost_sml (android)
 
 

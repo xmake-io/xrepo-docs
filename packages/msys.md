@@ -788,6 +788,29 @@ add_requires("bison")
 ```
 
 
+### boost_di (msys)
+
+
+| Description | *DI: C++14 Dependency Injection Library* |
+| -- | -- |
+| Homepage | [https://boost-ext.github.io/di](https://boost-ext.github.io/di) |
+| Versions | v1.3.0 |
+| Architectures | i386, x86_64 |
+| Definition | [boost_di/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_di/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install boost_di
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_di")
+```
+
+
 ### boost_sml (msys)
 
 

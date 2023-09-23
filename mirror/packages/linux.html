@@ -2456,6 +2456,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("boost")
 </code></pre>
+<h3 id="boost_dilinux">boost_di (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>DI: C++14 Dependency Injection Library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://boost-ext.github.io/di">https://boost-ext.github.io/di</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.3.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_di/xmake.lua">boost_di/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install boost_di
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("boost_di")
+</code></pre>
 <h3 id="boost_smllinux">boost_sml (linux)</h3>
 <table>
 <thead>
@@ -14626,6 +14659,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libev")
+</code></pre>
+<h3 id="libevdevlinux">libevdev (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>libevdev is a wrapper library for evdev devices. it moves the common tasks when dealing with evdev devices into a library and provides a library interface to the callers, thus avoiding erroneous ioctls, etc. The eventual goal is that libevdev wraps all ioctls available to evdev devices, thus making direct access unnecessary.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.freedesktop.org/wiki/Software/libevdev/">https://www.freedesktop.org/wiki/Software/libevdev/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.13.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libevdev/xmake.lua">libevdev/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libevdev
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libevdev")
 </code></pre>
 <h3 id="libeventlinux">libevent (linux)</h3>
 <table>
