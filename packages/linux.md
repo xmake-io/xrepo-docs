@@ -21128,6 +21128,30 @@ add_requires("string-view-lite")
 ```
 
 
+### stringzilla (linux)
+
+
+| Description | *Up to 10x faster string search, split, sort, and shuffle for long strings and multi-gigabyte files in Python and C, leveraging SIMD with just a few lines of Arm Neon and x86 AVX2 & AVX-512 intrinsics 🦖* |
+| -- | -- |
+| Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
+| License | Apache-2.0 |
+| Versions | v1.2.2 |
+| Architectures | x86_64 |
+| Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stringzilla
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stringzilla")
+```
+
+
 ### strtk (linux)
 
 
