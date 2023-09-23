@@ -2478,6 +2478,29 @@ add_requires("fluxsort")
 ```
 
 
+### fmi (iphoneos)
+
+
+| Description | *Specification of the Functional Mock-Up Interface (FMI)* |
+| -- | -- |
+| Homepage | [https://fmi-standard.org/](https://fmi-standard.org/) |
+| Versions | v3.0.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [fmi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos fmi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fmi")
+```
+
+
 ### fmt (iphoneos)
 
 
