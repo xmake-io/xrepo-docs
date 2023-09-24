@@ -8198,6 +8198,30 @@ add_requires("indicators")
 ```
 
 
+### infoware (linux)
+
+
+| Description | *C++ Library for pulling system and hardware information, without hitting the command line.* |
+| -- | -- |
+| Homepage | [https://github.com/ThePhD/infoware](https://github.com/ThePhD/infoware) |
+| License | CC0-1.0 |
+| Versions | 2023.04.12 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [infoware/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/infoware/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install infoware
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("infoware")
+```
+
+
 ### inja (linux)
 
 
@@ -8691,6 +8715,30 @@ xrepo install jsoncpp
 
 ```lua
 add_requires("jsoncpp")
+```
+
+
+### jwt-cpp (linux)
+
+
+| Description | *A header only library for creating and validating json web tokens in c++* |
+| -- | -- |
+| Homepage | [https://thalhammer.github.io/jwt-cpp/](https://thalhammer.github.io/jwt-cpp/) |
+| License | MIT |
+| Versions | v0.6.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [jwt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jwt-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jwt-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jwt-cpp")
 ```
 
 

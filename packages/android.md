@@ -4138,6 +4138,30 @@ add_requires("jsoncpp")
 ```
 
 
+### jwt-cpp (android)
+
+
+| Description | *A header only library for creating and validating json web tokens in c++* |
+| -- | -- |
+| Homepage | [https://thalhammer.github.io/jwt-cpp/](https://thalhammer.github.io/jwt-cpp/) |
+| License | MIT |
+| Versions | v0.6.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [jwt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jwt-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] jwt-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jwt-cpp")
+```
+
+
 
 ## k
 ### kcp (android)

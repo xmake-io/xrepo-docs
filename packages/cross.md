@@ -3833,6 +3833,30 @@ add_requires("jsoncpp")
 ```
 
 
+### jwt-cpp (cross)
+
+
+| Description | *A header only library for creating and validating json web tokens in c++* |
+| -- | -- |
+| Homepage | [https://thalhammer.github.io/jwt-cpp/](https://thalhammer.github.io/jwt-cpp/) |
+| License | MIT |
+| Versions | v0.6.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [jwt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jwt-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] jwt-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jwt-cpp")
+```
+
+
 
 ## k
 ### kcp (cross)
