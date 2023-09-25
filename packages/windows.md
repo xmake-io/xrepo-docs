@@ -19514,7 +19514,7 @@ add_requires("utf8proc")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5 |
 | Architectures | arm64, x64, x86 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
