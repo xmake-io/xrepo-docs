@@ -4500,6 +4500,30 @@ add_requires("kiwisolver")
 
 
 ## l
+### lemon (mingw)
+
+
+| Description | *Library for Efficient Modeling and Optimization in Networks.* |
+| -- | -- |
+| Homepage | [https://lemon.cs.elte.hu/trac/lemon](https://lemon.cs.elte.hu/trac/lemon) |
+| License | BSL-1.0 |
+| Versions | 1.3.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [lemon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lemon/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] lemon
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lemon")
+```
+
+
 ### leveldb (mingw)
 
 

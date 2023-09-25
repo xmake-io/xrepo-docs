@@ -3907,6 +3907,30 @@ add_requires("kiwisolver")
 
 
 ## l
+### lemon (cross)
+
+
+| Description | *Library for Efficient Modeling and Optimization in Networks.* |
+| -- | -- |
+| Homepage | [https://lemon.cs.elte.hu/trac/lemon](https://lemon.cs.elte.hu/trac/lemon) |
+| License | BSL-1.0 |
+| Versions | 1.3.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [lemon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lemon/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] lemon
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lemon")
+```
+
+
 ### lexbor (cross)
 
 
