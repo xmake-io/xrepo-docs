@@ -8115,6 +8115,30 @@ add_requires("kuba-zip")
 
 
 ## l
+### lame (windows)
+
+
+| Description | *High quality MPEG Audio Layer III (MP3) encoder* |
+| -- | -- |
+| Homepage | [https://lame.sourceforge.io/](https://lame.sourceforge.io/) |
+| License | LGPL-2.0-or-later |
+| Versions | 3.100 |
+| Architectures | x86 |
+| Definition | [lame/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lame/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lame
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lame")
+```
+
+
 ### lbuild (windows)
 
 
