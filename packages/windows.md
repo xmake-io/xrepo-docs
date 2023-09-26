@@ -3375,6 +3375,30 @@ add_requires("cumem")
 ```
 
 
+### curlcpp (windows)
+
+
+| Description | *An object oriented C++ wrapper for CURL (libcurl)* |
+| -- | -- |
+| Homepage | [https://josephp91.github.io/curlcpp](https://josephp91.github.io/curlcpp) |
+| License | MIT |
+| Versions | 3.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [curlcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/curlcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install curlcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("curlcpp")
+```
+
+
 ### cutlass (windows)
 
 
