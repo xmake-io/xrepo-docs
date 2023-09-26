@@ -5313,6 +5313,30 @@ add_requires("fltk")
 ```
 
 
+### fluidsynth (windows)
+
+
+| Description | *FluidSynth is a real-time software synthesizer based on the SoundFont 2 specifications and has reached widespread distribution.* |
+| -- | -- |
+| Homepage | [https://www.fluidsynth.org/](https://www.fluidsynth.org/) |
+| License | LGPL-2.1 |
+| Versions | v2.3.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [fluidsynth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluidsynth/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fluidsynth
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fluidsynth")
+```
+
+
 ### flux (windows)
 
 
