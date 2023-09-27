@@ -4096,6 +4096,30 @@ add_requires("libsdl_ttf")
 ```
 
 
+### libsigcplusplus (msys)
+
+
+| Description | *libsigc++ implements a typesafe callback system for standard C++. It allows you to define signals and to connect those signals to any callback function, either global or a member function, regardless of whether it is static or virtual.* |
+| -- | -- |
+| Homepage | [https://libsigcplusplus.github.io/libsigcplusplus/](https://libsigcplusplus.github.io/libsigcplusplus/) |
+| License | LGPL-3.0 |
+| Versions | 3.4.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libsigcplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsigcplusplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsigcplusplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsigcplusplus")
+```
+
+
 ### libsoundio (msys)
 
 
