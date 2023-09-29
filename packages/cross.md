@@ -3510,7 +3510,7 @@ add_requires("highs")
 | -- | -- |
 | Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
 | License | BSD-3-Clause |
-| Versions | v1.0.2, v1.1.0 |
+| Versions | v1.0.2, v1.1.0, v1.2.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
 
