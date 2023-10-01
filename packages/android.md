@@ -1165,6 +1165,30 @@ add_requires("cimg")
 ```
 
 
+### cista (android)
+
+
+| Description | *Cista is a simple, high-performance, zero-copy C++ serialization & reflection library.* |
+| -- | -- |
+| Homepage | [https://cista.rocks](https://cista.rocks) |
+| License | MIT |
+| Versions | v0.14 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cista/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cista/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cista
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cista")
+```
+
+
 ### civetweb (android)
 
 

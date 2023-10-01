@@ -1336,6 +1336,30 @@ add_requires("cimg")
 ```
 
 
+### cista (bsd)
+
+
+| Description | *Cista is a simple, high-performance, zero-copy C++ serialization & reflection library.* |
+| -- | -- |
+| Homepage | [https://cista.rocks](https://cista.rocks) |
+| License | MIT |
+| Versions | v0.14 |
+| Architectures | i386, x86_64 |
+| Definition | [cista/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cista/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cista
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cista")
+```
+
+
 ### civetweb (bsd)
 
 

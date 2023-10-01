@@ -1264,6 +1264,30 @@ add_requires("cimg")
 ```
 
 
+### cista (cross)
+
+
+| Description | *Cista is a simple, high-performance, zero-copy C++ serialization & reflection library.* |
+| -- | -- |
+| Homepage | [https://cista.rocks](https://cista.rocks) |
+| License | MIT |
+| Versions | v0.14 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cista/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cista/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cista
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cista")
+```
+
+
 ### civetweb (cross)
 
 
