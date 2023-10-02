@@ -21403,7 +21403,7 @@ add_requires("zltoolkit")
 | -- | -- |
 | Homepage | [https://github.com/SFGrenade/ZmqPb/](https://github.com/SFGrenade/ZmqPb/) |
 | License | MPL-2.0 |
-| Versions | 0.1 |
+| Versions | 0.1, 0.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [zmqpb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua) |
 
