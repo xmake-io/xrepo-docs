@@ -2430,6 +2430,30 @@ add_requires("enet")
 ```
 
 
+### enet6 (cross)
+
+
+| Description | *A fork of ENet (reliable UDP networking library) in order to add IPv6 support.* |
+| -- | -- |
+| Homepage | [https://github.com/SirLynix/enet6](https://github.com/SirLynix/enet6) |
+| License | MIT |
+| Versions | v6.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [enet6/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet6/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] enet6
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("enet6")
+```
+
+
 ### entt (cross)
 
 

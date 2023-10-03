@@ -4617,6 +4617,30 @@ add_requires("enet")
 ```
 
 
+### enet6 (windows)
+
+
+| Description | *A fork of ENet (reliable UDP networking library) in order to add IPv6 support.* |
+| -- | -- |
+| Homepage | [https://github.com/SirLynix/enet6](https://github.com/SirLynix/enet6) |
+| License | MIT |
+| Versions | v6.0.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [enet6/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet6/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install enet6
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("enet6")
+```
+
+
 ### enkits (windows)
 
 

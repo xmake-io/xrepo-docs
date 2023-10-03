@@ -2355,6 +2355,30 @@ add_requires("enet")
 ```
 
 
+### enet6 (android)
+
+
+| Description | *A fork of ENet (reliable UDP networking library) in order to add IPv6 support.* |
+| -- | -- |
+| Homepage | [https://github.com/SirLynix/enet6](https://github.com/SirLynix/enet6) |
+| License | MIT |
+| Versions | v6.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [enet6/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet6/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] enet6
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("enet6")
+```
+
+
 ### entt (android)
 
 
