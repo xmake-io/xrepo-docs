@@ -3594,6 +3594,30 @@ add_requires("libmodplug")
 ```
 
 
+### libnpy (wasm)
+
+
+| Description | *C++ library for reading and writing of numpy's .npy files* |
+| -- | -- |
+| Homepage | [https://github.com/llohse/libnpy](https://github.com/llohse/libnpy) |
+| License | MIT |
+| Versions | v1.0.1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnpy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libnpy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnpy")
+```
+
+
 ### libogg (wasm)
 
 

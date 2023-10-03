@@ -4262,6 +4262,30 @@ add_requires("libmodplug")
 ```
 
 
+### libnpy (cross)
+
+
+| Description | *C++ library for reading and writing of numpy's .npy files* |
+| -- | -- |
+| Homepage | [https://github.com/llohse/libnpy](https://github.com/llohse/libnpy) |
+| License | MIT |
+| Versions | v1.0.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnpy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libnpy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnpy")
+```
+
+
 ### libogg (cross)
 
 

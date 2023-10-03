@@ -3905,6 +3905,30 @@ add_requires("libmodplug")
 ```
 
 
+### libnpy (msys)
+
+
+| Description | *C++ library for reading and writing of numpy's .npy files* |
+| -- | -- |
+| Homepage | [https://github.com/llohse/libnpy](https://github.com/llohse/libnpy) |
+| License | MIT |
+| Versions | v1.0.1 |
+| Architectures | i386, x86_64 |
+| Definition | [libnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnpy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libnpy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnpy")
+```
+
+
 ### librdkafka (msys)
 
 

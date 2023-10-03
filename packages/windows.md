@@ -9275,6 +9275,30 @@ add_requires("libmspack")
 ```
 
 
+### libnpy (windows)
+
+
+| Description | *C++ library for reading and writing of numpy's .npy files* |
+| -- | -- |
+| Homepage | [https://github.com/llohse/libnpy](https://github.com/llohse/libnpy) |
+| License | MIT |
+| Versions | v1.0.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnpy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libnpy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnpy")
+```
+
+
 ### liboai (windows)
 
 
@@ -15746,7 +15770,7 @@ add_requires("qt5widgets")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Versions | 6.3.0, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0 |
 | Architectures | x64 |
 | Definition | [qt6base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6base/xmake.lua) |
 
