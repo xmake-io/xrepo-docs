@@ -20846,6 +20846,30 @@ add_requires("xlnt")
 ```
 
 
+### xlsxio (windows)
+
+
+| Description | *XLSX I/O - C library for reading and writing .xlsx files* |
+| -- | -- |
+| Homepage | [https://github.com/brechtsanders/xlsxio](https://github.com/brechtsanders/xlsxio) |
+| License | MIT |
+| Versions | 0.2.34 |
+| Architectures | arm64, x64, x86 |
+| Definition | [xlsxio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlsxio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xlsxio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xlsxio")
+```
+
+
 ### xpack (windows)
 
 
