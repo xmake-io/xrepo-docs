@@ -15075,7 +15075,7 @@ add_requires("oatpp")
 | Description | *Portable framework for the Objective-C language.* |
 | -- | -- |
 | Homepage | [https://objfw.nil.im](https://objfw.nil.im) |
-| Versions | 2023.03.18 |
+| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [objfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/objfw/xmake.lua) |
 
