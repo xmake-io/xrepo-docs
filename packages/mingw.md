@@ -2483,7 +2483,7 @@ add_requires("enet")
 | -- | -- |
 | Homepage | [https://github.com/SirLynix/enet6](https://github.com/SirLynix/enet6) |
 | License | MIT |
-| Versions | v6.0.0 |
+| Versions | v6.0.0, v6.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [enet6/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet6/xmake.lua) |
 
