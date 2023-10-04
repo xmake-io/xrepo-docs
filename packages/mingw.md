@@ -5477,7 +5477,7 @@ add_requires("libsigcplusplus")
 | -- | -- |
 | Homepage | [https://libsndfile.github.io/libsndfile/](https://libsndfile.github.io/libsndfile/) |
 | License | LGPL-2.1 |
-| Versions | 1.0.31 |
+| Versions | 1.0.31, 1.2.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsndfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsndfile/xmake.lua) |
 
@@ -6679,7 +6679,7 @@ add_requires("minhook")
 | Description | *Single file audio playback and capture library written in C.* |
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
-| Versions | 0.11.15, 0.11.16, 0.11.17 |
+| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
