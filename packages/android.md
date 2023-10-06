@@ -1616,6 +1616,29 @@ add_requires("cppitertools")
 ```
 
 
+### cppp-reiconv (android)
+
+
+| Description | *A character set conversion library based on GNU LIBICONV.* |
+| -- | -- |
+| Homepage | [https://github.com/cppp-project/cppp-reiconv](https://github.com/cppp-project/cppp-reiconv) |
+| Versions | v2.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cppp-reiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppp-reiconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cppp-reiconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppp-reiconv")
+```
+
+
 ### cpu-features (android)
 
 
@@ -2424,6 +2447,30 @@ xrepo install -p android [--ndk=/xxx] etl
 
 ```lua
 add_requires("etl")
+```
+
+
+### eve (android)
+
+
+| Description | *Expressive Vector Engine - SIMD in C++ Goes Brrrr* |
+| -- | -- |
+| Homepage | [https://jfalcou.github.io/eve/](https://jfalcou.github.io/eve/) |
+| License | BSL-1.0 |
+| Versions | 2023.02.15 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [eve/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eve/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] eve
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eve")
 ```
 
 
