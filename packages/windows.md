@@ -15865,7 +15865,7 @@ add_requires("qt6base")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Versions | 6.3.0, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0 |
 | Architectures | x64 |
 | Definition | [qt6core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6core/xmake.lua) |
 
@@ -15889,7 +15889,7 @@ add_requires("qt6core")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Versions | 6.3.0, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0 |
 | Architectures | x64 |
 | Definition | [qt6gui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6gui/xmake.lua) |
 
@@ -15913,7 +15913,7 @@ add_requires("qt6gui")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Versions | 6.3.0, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0 |
 | Architectures | x64 |
 | Definition | [qt6network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6network/xmake.lua) |
 
@@ -15937,7 +15937,7 @@ add_requires("qt6network")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.5.1, 6.6.0 |
+| Versions | 6.3.0, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0 |
 | Architectures | x64 |
 | Definition | [qt6widgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6widgets/xmake.lua) |
 
