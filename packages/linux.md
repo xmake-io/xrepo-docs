@@ -9454,6 +9454,30 @@ add_requires("libbacktrace")
 ```
 
 
+### libbigwig (linux)
+
+
+| Description | *A C library for handling bigWig files* |
+| -- | -- |
+| Homepage | [https://github.com/dpryan79/libBigWig](https://github.com/dpryan79/libBigWig) |
+| License | MIT |
+| Versions | 0.4.7 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libbigwig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbigwig/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libbigwig
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbigwig")
+```
+
+
 ### libbpf (linux)
 
 

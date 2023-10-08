@@ -4121,6 +4121,30 @@ add_requires("libass")
 ```
 
 
+### libbigwig (cross)
+
+
+| Description | *A C library for handling bigWig files* |
+| -- | -- |
+| Homepage | [https://github.com/dpryan79/libBigWig](https://github.com/dpryan79/libBigWig) |
+| License | MIT |
+| Versions | 0.4.7 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libbigwig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbigwig/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libbigwig
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbigwig")
+```
+
+
 ### libcurl (cross)
 
 
