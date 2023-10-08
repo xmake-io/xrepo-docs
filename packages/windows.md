@@ -10503,6 +10503,29 @@ add_requires("lightningscanner")
 ```
 
 
+### linmath.h (windows)
+
+
+| Description | *a lean linear math library, aimed at graphics programming. Supports vec3, vec4, mat4x4 and quaternions* |
+| -- | -- |
+| Homepage | [https://github.com/datenwolf/linmath.h](https://github.com/datenwolf/linmath.h) |
+| Versions | 2022.06.19 |
+| Architectures | arm64, x64, x86 |
+| Definition | [linmath.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linmath.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install linmath.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("linmath.h")
+```
+
+
 ### litehtml (windows)
 
 

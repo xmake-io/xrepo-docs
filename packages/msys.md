@@ -4354,6 +4354,29 @@ add_requires("lightmapper")
 ```
 
 
+### linmath.h (msys)
+
+
+| Description | *a lean linear math library, aimed at graphics programming. Supports vec3, vec4, mat4x4 and quaternions* |
+| -- | -- |
+| Homepage | [https://github.com/datenwolf/linmath.h](https://github.com/datenwolf/linmath.h) |
+| Versions | 2022.06.19 |
+| Architectures | i386, x86_64 |
+| Definition | [linmath.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linmath.h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install linmath.h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("linmath.h")
+```
+
+
 ### litehtml (msys)
 
 
