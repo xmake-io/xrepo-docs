@@ -8594,7 +8594,7 @@ add_requires("libccd")
 | Description | *a small C library for x86 CPU detection and feature extraction* |
 | -- | -- |
 | Homepage | [https://github.com/anrieff/libcpuid](https://github.com/anrieff/libcpuid) |
-| Versions | v0.5.1, v0.6.3 |
+| Versions | v0.5.1, v0.6.3, v0.6.4 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libcpuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcpuid/xmake.lua) |
 
@@ -16946,6 +16946,30 @@ xrepo install s7
 
 ```lua
 add_requires("s7")
+```
+
+
+### samurai (windows)
+
+
+| Description | *Intervals coupled with algebra of set to handle adaptive mesh refinement and operators on it.* |
+| -- | -- |
+| Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
+| License | BSD-3-Clause |
+| Versions | v0.6.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install samurai
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("samurai")
 ```
 
 

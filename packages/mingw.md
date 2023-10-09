@@ -4765,7 +4765,7 @@ add_requires("libbigwig")
 | Description | *a small C library for x86 CPU detection and feature extraction* |
 | -- | -- |
 | Homepage | [https://github.com/anrieff/libcpuid](https://github.com/anrieff/libcpuid) |
-| Versions | v0.5.1, v0.6.3 |
+| Versions | v0.5.1, v0.6.3, v0.6.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libcpuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcpuid/xmake.lua) |
 
