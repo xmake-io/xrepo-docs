@@ -6177,8 +6177,8 @@ add_requires("ghc_filesystem")
 | -- | -- |
 | Homepage | [https://www.ghostscript.com/](https://www.ghostscript.com/) |
 | License | AGPL-3.0 |
-| Versions | 9.55.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | 10.0.0, 10.02.0, 9.55.0 |
+| Architectures | x64, x86 |
 | Definition | [ghostscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghostscript/xmake.lua) |
 
 ##### Install command
