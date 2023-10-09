@@ -11521,6 +11521,30 @@ add_requires("mcut")
 ```
 
 
+### md4qt (windows)
+
+
+| Description | *Markdown parser for Qt6 or ICU* |
+| -- | -- |
+| Homepage | [https://github.com/igormironchik/md4qt](https://github.com/igormironchik/md4qt) |
+| License | MIT |
+| Versions | 2.1.0 |
+| Architectures | x64 |
+| Definition | [md4qt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/md4qt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install md4qt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("md4qt")
+```
+
+
 ### mdns (windows)
 
 
