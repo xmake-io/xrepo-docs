@@ -18202,6 +18202,30 @@ add_requires("stlab")
 ```
 
 
+### streamvbyte (windows)
+
+
+| Description | *Fast integer compression in C using the StreamVByte codec* |
+| -- | -- |
+| Homepage | [https://github.com/lemire/streamvbyte](https://github.com/lemire/streamvbyte) |
+| License | Apache-2.0 |
+| Versions | v1.0.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [streamvbyte/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/streamvbyte/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install streamvbyte
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("streamvbyte")
+```
+
+
 ### string-view-lite (windows)
 
 

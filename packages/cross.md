@@ -8761,6 +8761,30 @@ add_requires("stb")
 ```
 
 
+### streamvbyte (cross)
+
+
+| Description | *Fast integer compression in C using the StreamVByte codec* |
+| -- | -- |
+| Homepage | [https://github.com/lemire/streamvbyte](https://github.com/lemire/streamvbyte) |
+| License | Apache-2.0 |
+| Versions | v1.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [streamvbyte/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/streamvbyte/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] streamvbyte
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("streamvbyte")
+```
+
+
 ### string-view-lite (cross)
 
 

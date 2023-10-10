@@ -10632,6 +10632,30 @@ add_requires("stb")
 ```
 
 
+### streamvbyte (mingw)
+
+
+| Description | *Fast integer compression in C using the StreamVByte codec* |
+| -- | -- |
+| Homepage | [https://github.com/lemire/streamvbyte](https://github.com/lemire/streamvbyte) |
+| License | Apache-2.0 |
+| Versions | v1.0.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [streamvbyte/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/streamvbyte/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] streamvbyte
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("streamvbyte")
+```
+
+
 ### string-view-lite (mingw)
 
 
