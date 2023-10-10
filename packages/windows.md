@@ -10289,6 +10289,30 @@ add_requires("libwebsockets")
 ```
 
 
+### libxlsxwriter (windows)
+
+
+| Description | *A C library for creating Excel XLSX files.* |
+| -- | -- |
+| Homepage | [https://libxlsxwriter.github.io](https://libxlsxwriter.github.io) |
+| License | BSD-2-Clause |
+| Versions | 1.1.5 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libxlsxwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxlsxwriter/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxlsxwriter
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxlsxwriter")
+```
+
+
 ### libxmake (windows)
 
 

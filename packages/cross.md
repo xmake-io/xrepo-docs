@@ -4853,6 +4853,30 @@ add_requires("libuuid")
 ```
 
 
+### libxlsxwriter (cross)
+
+
+| Description | *A C library for creating Excel XLSX files.* |
+| -- | -- |
+| Homepage | [https://libxlsxwriter.github.io](https://libxlsxwriter.github.io) |
+| License | BSD-2-Clause |
+| Versions | 1.1.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxlsxwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxlsxwriter/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxlsxwriter
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxlsxwriter")
+```
+
+
 ### lightmapper (cross)
 
 
