@@ -5558,6 +5558,30 @@ add_requires("ndk")
 ```
 
 
+### neargye-scope_guard (wasm)
+
+
+| Description | *Scope Guard & Defer C++* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
+| License | MIT |
+| Versions | 2022.04.05 |
+| Architectures | wasm32, wasm64 |
+| Definition | [neargye-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/neargye-scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm neargye-scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("neargye-scope_guard")
+```
+
+
 ### niftiheader (wasm)
 
 
@@ -6817,6 +6841,30 @@ add_requires("reproc")
 ```
 
 
+### ricab-scope_guard (wasm)
+
+
+| Description | *A modern C++ scope guard that is easy to use but hard to misuse.* |
+| -- | -- |
+| Homepage | [https://ricab.github.io/scope_guard/](https://ricab.github.io/scope_guard/) |
+| License | Unlicense |
+| Versions | v1.1.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [ricab-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ricab-scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm ricab-scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ricab-scope_guard")
+```
+
+
 ### rlottie (wasm)
 
 
@@ -7169,30 +7217,6 @@ xrepo install -p wasm scons
 
 ```lua
 add_requires("scons")
-```
-
-
-### scope_guard (wasm)
-
-
-| Description | *Scope Guard & Defer C++* |
-| -- | -- |
-| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
-| License | MIT |
-| Versions | 2022.04.05 |
-| Architectures | wasm32, wasm64 |
-| Definition | [scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scope_guard/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p wasm scope_guard
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("scope_guard")
 ```
 
 

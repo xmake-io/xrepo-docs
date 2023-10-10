@@ -6505,6 +6505,30 @@ add_requires("ndk")
 ```
 
 
+### neargye-scope_guard (iphoneos)
+
+
+| Description | *Scope Guard & Defer C++* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
+| License | MIT |
+| Versions | 2022.04.05 |
+| Architectures | arm64, x86_64 |
+| Definition | [neargye-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/neargye-scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos neargye-scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("neargye-scope_guard")
+```
+
+
 ### niftiheader (iphoneos)
 
 
@@ -8050,6 +8074,30 @@ add_requires("restinio")
 ```
 
 
+### ricab-scope_guard (iphoneos)
+
+
+| Description | *A modern C++ scope guard that is easy to use but hard to misuse.* |
+| -- | -- |
+| Homepage | [https://ricab.github.io/scope_guard/](https://ricab.github.io/scope_guard/) |
+| License | Unlicense |
+| Versions | v1.1.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [ricab-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ricab-scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos ricab-scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ricab-scope_guard")
+```
+
+
 ### robin-hood-hashing (iphoneos)
 
 
@@ -8356,30 +8404,6 @@ xrepo install -p iphoneos scons
 
 ```lua
 add_requires("scons")
-```
-
-
-### scope_guard (iphoneos)
-
-
-| Description | *Scope Guard & Defer C++* |
-| -- | -- |
-| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
-| License | MIT |
-| Versions | 2022.04.05 |
-| Architectures | arm64, x86_64 |
-| Definition | [scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scope_guard/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos scope_guard
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("scope_guard")
 ```
 
 

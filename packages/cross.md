@@ -6273,6 +6273,30 @@ add_requires("ndk")
 ```
 
 
+### neargye-scope_guard (cross)
+
+
+| Description | *Scope Guard & Defer C++* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
+| License | MIT |
+| Versions | 2022.04.05 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [neargye-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/neargye-scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] neargye-scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("neargye-scope_guard")
+```
+
+
 ### niftiheader (cross)
 
 
@@ -7743,6 +7767,30 @@ add_requires("restinio")
 ```
 
 
+### ricab-scope_guard (cross)
+
+
+| Description | *A modern C++ scope guard that is easy to use but hard to misuse.* |
+| -- | -- |
+| Homepage | [https://ricab.github.io/scope_guard/](https://ricab.github.io/scope_guard/) |
+| License | Unlicense |
+| Versions | v1.1.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ricab-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ricab-scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ricab-scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ricab-scope_guard")
+```
+
+
 ### robin-hood-hashing (cross)
 
 
@@ -8073,30 +8121,6 @@ xrepo install -p cross [--sdk=/xxx] scons
 
 ```lua
 add_requires("scons")
-```
-
-
-### scope_guard (cross)
-
-
-| Description | *Scope Guard & Defer C++* |
-| -- | -- |
-| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
-| License | MIT |
-| Versions | 2022.04.05 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
-| Definition | [scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scope_guard/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p cross [--sdk=/xxx] scope_guard
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("scope_guard")
 ```
 
 

@@ -3242,7 +3242,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | 2023.06.26 |
+| Versions | 2023.06.26, 2023.07.22 |
 | Architectures | arm64, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -12988,6 +12988,30 @@ add_requires("ndk")
 ```
 
 
+### neargye-scope_guard (windows)
+
+
+| Description | *Scope Guard & Defer C++* |
+| -- | -- |
+| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
+| License | MIT |
+| Versions | 2022.04.05 |
+| Architectures | arm64, x64, x86 |
+| Definition | [neargye-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/neargye-scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install neargye-scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("neargye-scope_guard")
+```
+
+
 ### newtondynamics (windows)
 
 
@@ -16522,6 +16546,30 @@ add_requires("restinio")
 ```
 
 
+### ricab-scope_guard (windows)
+
+
+| Description | *A modern C++ scope guard that is easy to use but hard to misuse.* |
+| -- | -- |
+| Homepage | [https://ricab.github.io/scope_guard/](https://ricab.github.io/scope_guard/) |
+| License | Unlicense |
+| Versions | v1.1.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [ricab-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ricab-scope_guard/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ricab-scope_guard
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ricab-scope_guard")
+```
+
+
 ### rlottie (windows)
 
 
@@ -17064,30 +17112,6 @@ xrepo install scons
 
 ```lua
 add_requires("scons")
-```
-
-
-### scope_guard (windows)
-
-
-| Description | *Scope Guard & Defer C++* |
-| -- | -- |
-| Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
-| License | MIT |
-| Versions | 2022.04.05 |
-| Architectures | arm64, x64, x86 |
-| Definition | [scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scope_guard/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install scope_guard
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("scope_guard")
 ```
 
 
