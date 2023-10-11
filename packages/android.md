@@ -10469,6 +10469,30 @@ add_requires("tl_function_ref")
 ```
 
 
+### tmx (android)
+
+
+| Description | *C tmx map loader* |
+| -- | -- |
+| Homepage | [http://libtmx.rtfd.io/](http://libtmx.rtfd.io/) |
+| License | BSD-2-Clause |
+| Versions | 1.2.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tmx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tmx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tmx")
+```
+
+
 ### toml++ (android)
 
 
