@@ -15282,6 +15282,30 @@ add_requires("oatpp")
 ```
 
 
+### oatpp-websocket (macosx)
+
+
+| Description | *It provides WebSocket functionality for oatpp applications.* |
+| -- | -- |
+| Homepage | [https://oatpp.io/](https://oatpp.io/) |
+| License | Apache-2.0 |
+| Versions | 1.0.0, 1.2.5, 1.3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [oatpp-websocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oatpp-websocket/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install oatpp-websocket
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("oatpp-websocket")
+```
+
+
 ### objfw (macosx)
 
 
