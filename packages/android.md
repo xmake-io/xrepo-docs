@@ -1971,6 +1971,30 @@ add_requires("daw_header_libraries")
 ```
 
 
+### daw_json_link (android)
+
+
+| Description | *Fast, convenient JSON serialization and parsing in C++* |
+| -- | -- |
+| Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
+| License | BSL-1.0 |
+| Versions | v3.20.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] daw_json_link
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("daw_json_link")
+```
+
+
 ### dbg-macro (android)
 
 
