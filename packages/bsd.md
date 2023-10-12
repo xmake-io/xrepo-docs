@@ -4595,6 +4595,29 @@ add_requires("libmodplug")
 ```
 
 
+### libnet (bsd)
+
+
+| Description | *A portable framework for low-level network packet construction* |
+| -- | -- |
+| Homepage | [https://codedocs.xyz/libnet/libnet/](https://codedocs.xyz/libnet/libnet/) |
+| Versions | v1.3 |
+| Architectures | i386, x86_64 |
+| Definition | [libnet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libnet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnet")
+```
+
+
 ### libnpy (bsd)
 
 

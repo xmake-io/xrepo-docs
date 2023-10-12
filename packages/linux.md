@@ -10893,6 +10893,29 @@ add_requires("libmspack")
 ```
 
 
+### libnet (linux)
+
+
+| Description | *A portable framework for low-level network packet construction* |
+| -- | -- |
+| Homepage | [https://codedocs.xyz/libnet/libnet/](https://codedocs.xyz/libnet/libnet/) |
+| Versions | v1.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libnet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libnet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnet")
+```
+
+
 ### libnpy (linux)
 
 
