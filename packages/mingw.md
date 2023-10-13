@@ -8762,6 +8762,30 @@ add_requires("pthreads4w")
 ```
 
 
+### pugixml (mingw)
+
+
+| Description | *Light-weight, simple and fast XML parser for C++ with XPath support* |
+| -- | -- |
+| Homepage | [https://pugixml.org/](https://pugixml.org/) |
+| License | MIT |
+| Versions | v1.11.4, v1.13 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [pugixml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pugixml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] pugixml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pugixml")
+```
+
+
 ### pystring (mingw)
 
 
