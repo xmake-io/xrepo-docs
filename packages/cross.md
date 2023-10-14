@@ -7694,6 +7694,30 @@ add_requires("re2")
 ```
 
 
+### reactiveplusplus (cross)
+
+
+| Description | *Implementation of async observable/observer (Reactive Programming) in C++ with care about performance and templates in mind in ReactiveX approach* |
+| -- | -- |
+| Homepage | [https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html](https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html) |
+| License | BSL-1.0 |
+| Versions | v0.2.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [reactiveplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reactiveplusplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] reactiveplusplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reactiveplusplus")
+```
+
+
 ### readerwriterqueue (cross)
 
 
@@ -10030,6 +10054,30 @@ add_requires("vulkan-headers")
 
 
 ## w
+### watcher (cross)
+
+
+| Description | *Filesystem watcher. Works anywhere. Simple, efficient and friendly.* |
+| -- | -- |
+| Homepage | [https://github.com/e-dant/watcher](https://github.com/e-dant/watcher) |
+| License | MIT |
+| Versions | 0.9.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [watcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/watcher/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] watcher
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("watcher")
+```
+
+
 ### webui (cross)
 
 

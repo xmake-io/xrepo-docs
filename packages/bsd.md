@@ -8138,6 +8138,30 @@ add_requires("re2")
 ```
 
 
+### reactiveplusplus (bsd)
+
+
+| Description | *Implementation of async observable/observer (Reactive Programming) in C++ with care about performance and templates in mind in ReactiveX approach* |
+| -- | -- |
+| Homepage | [https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html](https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html) |
+| License | BSL-1.0 |
+| Versions | v0.2.3 |
+| Architectures | i386, x86_64 |
+| Definition | [reactiveplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reactiveplusplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install reactiveplusplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reactiveplusplus")
+```
+
+
 ### readerwriterqueue (bsd)
 
 

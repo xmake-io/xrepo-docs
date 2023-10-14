@@ -8686,6 +8686,30 @@ add_requires("re2")
 ```
 
 
+### reactiveplusplus (android)
+
+
+| Description | *Implementation of async observable/observer (Reactive Programming) in C++ with care about performance and templates in mind in ReactiveX approach* |
+| -- | -- |
+| Homepage | [https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html](https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html) |
+| License | BSL-1.0 |
+| Versions | v0.2.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [reactiveplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reactiveplusplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] reactiveplusplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reactiveplusplus")
+```
+
+
 ### readerwriterqueue (android)
 
 
@@ -11279,6 +11303,30 @@ xrepo install -p android [--ndk=/xxx] wasm-micro-runtime
 
 ```lua
 add_requires("wasm-micro-runtime")
+```
+
+
+### watcher (android)
+
+
+| Description | *Filesystem watcher. Works anywhere. Simple, efficient and friendly.* |
+| -- | -- |
+| Homepage | [https://github.com/e-dant/watcher](https://github.com/e-dant/watcher) |
+| License | MIT |
+| Versions | 0.9.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [watcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/watcher/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] watcher
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("watcher")
 ```
 
 
