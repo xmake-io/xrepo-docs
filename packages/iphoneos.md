@@ -2930,6 +2930,29 @@ add_requires("ghc_filesystem")
 ```
 
 
+### gifdec (iphoneos)
+
+
+| Description | *small C GIF decoder* |
+| -- | -- |
+| Homepage | [https://github.com/lecram/gifdec](https://github.com/lecram/gifdec) |
+| Versions | 2021.12.04 |
+| Architectures | arm64, x86_64 |
+| Definition | [gifdec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gifdec/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos gifdec
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gifdec")
+```
+
+
 ### giflib (iphoneos)
 
 

@@ -3172,6 +3172,29 @@ add_requires("ghc_filesystem")
 ```
 
 
+### gifdec (cross)
+
+
+| Description | *small C GIF decoder* |
+| -- | -- |
+| Homepage | [https://github.com/lecram/gifdec](https://github.com/lecram/gifdec) |
+| Versions | 2021.12.04 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [gifdec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gifdec/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] gifdec
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gifdec")
+```
+
+
 ### glaze (cross)
 
 

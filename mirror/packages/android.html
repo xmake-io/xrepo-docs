@@ -4876,6 +4876,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ghc_filesystem")
 </code></pre>
+<h3 id="gifdecandroid">gifdec (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>small C GIF decoder</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/lecram/gifdec">https://github.com/lecram/gifdec</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2021.12.04</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gifdec/xmake.lua">gifdec/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] gifdec
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gifdec")
+</code></pre>
 <h3 id="giflibandroid">giflib (android)</h3>
 <table>
 <thead>
