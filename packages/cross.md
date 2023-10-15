@@ -9557,7 +9557,7 @@ add_requires("tl_function_ref")
 | Description | *toml++ is a header-only TOML config file parser and serializer for C++17 (and later!).* |
 | -- | -- |
 | Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
-| Versions | v2.5.0, v3.0.0, v3.1.0, v3.2.0, v3.3.0 |
+| Versions | v2.5.0, v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
 

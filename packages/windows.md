@@ -19137,7 +19137,7 @@ add_requires("tinyexr")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/tinyfiledialogs/](https://sourceforge.net/projects/tinyfiledialogs/) |
 | License | zlib |
-| Versions | 3.8.8 |
+| Versions | 3.15.1, 3.8.8 |
 | Architectures | arm64, x64, x86 |
 | Definition | [tinyfiledialogs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyfiledialogs/xmake.lua) |
 
@@ -19373,7 +19373,7 @@ add_requires("tmxparser")
 | Description | *toml++ is a header-only TOML config file parser and serializer for C++17 (and later!).* |
 | -- | -- |
 | Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
-| Versions | v2.5.0, v3.0.0, v3.1.0, v3.2.0, v3.3.0 |
+| Versions | v2.5.0, v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
 
