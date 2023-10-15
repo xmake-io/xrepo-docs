@@ -5652,7 +5652,7 @@ add_requires("freeglut")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/freeimage/](https://sourceforge.net/projects/freeimage/) |
 | Versions | 3.18.0 |
-| Architectures | arm64, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [freeimage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeimage/xmake.lua) |
 
 ##### Install command
