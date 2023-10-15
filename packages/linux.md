@@ -13219,6 +13219,30 @@ add_requires("linux-headers")
 ```
 
 
+### linux-syscall-support (linux)
+
+
+| Description | *Linux Syscall Support provides a header file that can be included into your application whenever you need to make direct system calls.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/linux-syscall-support](https://chromium.googlesource.com/linux-syscall-support) |
+| License | BSD-3-Clause |
+| Versions | v2022.10.12 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [linux-syscall-support/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-syscall-support/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install linux-syscall-support
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("linux-syscall-support")
+```
+
+
 ### linux-tools (linux)
 
 

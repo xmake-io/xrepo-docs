@@ -1433,6 +1433,29 @@ add_requires("branchless-utf8")
 ```
 
 
+### breakpad (windows)
+
+
+| Description | *Mirror of Google Breakpad project* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/breakpad/breakpad](https://chromium.googlesource.com/breakpad/breakpad) |
+| Versions | v2023.01.27 |
+| Architectures | x64, x86 |
+| Definition | [breakpad/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/breakpad/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install breakpad
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("breakpad")
+```
+
+
 ### brotli (windows)
 
 
