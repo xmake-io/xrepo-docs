@@ -9809,6 +9809,30 @@ add_requires("libdill")
 ```
 
 
+### libdisasm (linux)
+
+
+| Description | *The libdisasm library provides basic disassembly of Intel x86 instructions from a binary stream.* |
+| -- | -- |
+| Homepage | [https://bastard.sourceforge.net/libdisasm.html](https://bastard.sourceforge.net/libdisasm.html) |
+| License | MIT |
+| Versions | 0.23 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libdisasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdisasm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdisasm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdisasm")
+```
+
+
 ### libdivide (linux)
 
 

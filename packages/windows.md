@@ -8754,6 +8754,30 @@ add_requires("libdeflate")
 ```
 
 
+### libdisasm (windows)
+
+
+| Description | *The libdisasm library provides basic disassembly of Intel x86 instructions from a binary stream.* |
+| -- | -- |
+| Homepage | [https://bastard.sourceforge.net/libdisasm.html](https://bastard.sourceforge.net/libdisasm.html) |
+| License | MIT |
+| Versions | 0.23 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libdisasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdisasm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdisasm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdisasm")
+```
+
+
 ### libdivide (windows)
 
 

@@ -4520,6 +4520,30 @@ add_requires("libdeflate")
 ```
 
 
+### libdisasm (android)
+
+
+| Description | *The libdisasm library provides basic disassembly of Intel x86 instructions from a binary stream.* |
+| -- | -- |
+| Homepage | [https://bastard.sourceforge.net/libdisasm.html](https://bastard.sourceforge.net/libdisasm.html) |
+| License | MIT |
+| Versions | 0.23 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libdisasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdisasm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libdisasm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdisasm")
+```
+
+
 ### libdivide (android)
 
 
