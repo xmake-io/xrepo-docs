@@ -3379,7 +3379,7 @@ add_requires("cppzmq")
 | -- | -- |
 | Homepage | [https://docs.libcpr.org/](https://docs.libcpr.org/) |
 | License | MIT |
-| Versions | 1.10.2, 1.10.3, 1.6.2, 1.7.2, 1.8.3, 1.9.4 |
+| Versions | 1.10.2, 1.10.3, 1.10.5, 1.6.2, 1.7.2, 1.8.3, 1.9.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpr/xmake.lua) |
 
