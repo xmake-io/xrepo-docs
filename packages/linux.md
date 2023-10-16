@@ -23770,7 +23770,7 @@ add_requires("vectorial")
 | Description | *Verilator open-source SystemVerilog simulator and lint system* |
 | -- | -- |
 | Homepage | [https://verilator.org](https://verilator.org) |
-| Versions | 2023.1.10 |
+| Versions | v5.016 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
 
