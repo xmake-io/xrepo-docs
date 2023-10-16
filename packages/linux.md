@@ -23597,6 +23597,30 @@ add_requires("util-macros")
 ```
 
 
+### uuid_v4 (linux)
+
+
+| Description | *Super fast C++ library to generate and parse UUIDv4* |
+| -- | -- |
+| Homepage | [https://github.com/crashoz/uuid_v4](https://github.com/crashoz/uuid_v4) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [uuid_v4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uuid_v4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uuid_v4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uuid_v4")
+```
+
+
 ### uvw (linux)
 
 

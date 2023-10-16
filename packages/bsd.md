@@ -10493,6 +10493,30 @@ add_requires("uthash")
 ```
 
 
+### uuid_v4 (bsd)
+
+
+| Description | *Super fast C++ library to generate and parse UUIDv4* |
+| -- | -- |
+| Homepage | [https://github.com/crashoz/uuid_v4](https://github.com/crashoz/uuid_v4) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [uuid_v4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uuid_v4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uuid_v4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uuid_v4")
+```
+
+
 
 ## v
 ### variant-lite (bsd)
