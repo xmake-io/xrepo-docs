@@ -9598,6 +9598,54 @@ add_requires("toml11")
 ```
 
 
+### tomlc99 (cross)
+
+
+| Description | *TOML C library* |
+| -- | -- |
+| Homepage | [https://github.com/cktan/tomlc99](https://github.com/cktan/tomlc99) |
+| License | MIT |
+| Versions | 2023.09.30 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [tomlc99/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tomlc99/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] tomlc99
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tomlc99")
+```
+
+
+### tomlcpp (cross)
+
+
+| Description | *No fanfare TOML C++ Library* |
+| -- | -- |
+| Homepage | [https://github.com/cktan/tomlcpp](https://github.com/cktan/tomlcpp) |
+| License | MIT |
+| Versions | 2022.06.25 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [tomlcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tomlcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] tomlcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tomlcpp")
+```
+
+
 ### toojpeg (cross)
 
 
