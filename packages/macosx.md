@@ -144,6 +144,30 @@ add_requires("amgcl")
 ```
 
 
+### amqp-cpp (macosx)
+
+
+| Description | *C++ library for asynchronous non-blocking communication with RabbitMQ* |
+| -- | -- |
+| Homepage | [https://github.com/CopernicaMarketingSoftware/AMQP-CPP](https://github.com/CopernicaMarketingSoftware/AMQP-CPP) |
+| License | Apache-2.0 |
+| Versions | v4.3.26 |
+| Architectures | arm64, x86_64 |
+| Definition | [amqp-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amqp-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install amqp-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("amqp-cpp")
+```
+
+
 ### apr (macosx)
 
 
@@ -2541,6 +2565,30 @@ xrepo install clib
 
 ```lua
 add_requires("clib")
+```
+
+
+### clipboard_lite (macosx)
+
+
+| Description | *cross platform clipboard library* |
+| -- | -- |
+| Homepage | [https://github.com/smasherprog/clipboard_lite](https://github.com/smasherprog/clipboard_lite) |
+| License | MIT |
+| Versions | 2023.10.16 |
+| Architectures | arm64, x86_64 |
+| Definition | [clipboard_lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clipboard_lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clipboard_lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clipboard_lite")
 ```
 
 

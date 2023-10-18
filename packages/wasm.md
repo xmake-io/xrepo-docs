@@ -1,4 +1,28 @@
 ## a
+### amqp-cpp (wasm)
+
+
+| Description | *C++ library for asynchronous non-blocking communication with RabbitMQ* |
+| -- | -- |
+| Homepage | [https://github.com/CopernicaMarketingSoftware/AMQP-CPP](https://github.com/CopernicaMarketingSoftware/AMQP-CPP) |
+| License | Apache-2.0 |
+| Versions | v4.3.26 |
+| Architectures | wasm32, wasm64 |
+| Definition | [amqp-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amqp-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm amqp-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("amqp-cpp")
+```
+
+
 ### aqt (wasm)
 
 

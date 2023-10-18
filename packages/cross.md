@@ -47,6 +47,30 @@ add_requires("ada")
 ```
 
 
+### amqp-cpp (cross)
+
+
+| Description | *C++ library for asynchronous non-blocking communication with RabbitMQ* |
+| -- | -- |
+| Homepage | [https://github.com/CopernicaMarketingSoftware/AMQP-CPP](https://github.com/CopernicaMarketingSoftware/AMQP-CPP) |
+| License | Apache-2.0 |
+| Versions | v4.3.26 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [amqp-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amqp-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] amqp-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("amqp-cpp")
+```
+
+
 ### aqt (cross)
 
 
