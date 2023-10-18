@@ -4684,6 +4684,30 @@ add_requires("libflac")
 ```
 
 
+### libfyaml (android)
+
+
+| Description | *Fully feature complete YAML parser and emitter, supporting the latest YAML spec and passing the full YAML testsuite.* |
+| -- | -- |
+| Homepage | [https://github.com/pantoniou/libfyaml](https://github.com/pantoniou/libfyaml) |
+| License | MIT |
+| Versions | v0.9 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libfyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfyaml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libfyaml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfyaml")
+```
+
+
 ### libgit2 (android)
 
 

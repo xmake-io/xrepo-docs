@@ -10210,6 +10210,30 @@ add_requires("libfuse")
 ```
 
 
+### libfyaml (linux)
+
+
+| Description | *Fully feature complete YAML parser and emitter, supporting the latest YAML spec and passing the full YAML testsuite.* |
+| -- | -- |
+| Homepage | [https://github.com/pantoniou/libfyaml](https://github.com/pantoniou/libfyaml) |
+| License | MIT |
+| Versions | v0.9 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libfyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfyaml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfyaml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfyaml")
+```
+
+
 ### libgcrypt (linux)
 
 

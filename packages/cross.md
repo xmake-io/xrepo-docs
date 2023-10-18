@@ -4334,6 +4334,30 @@ add_requires("libffi")
 ```
 
 
+### libfyaml (cross)
+
+
+| Description | *Fully feature complete YAML parser and emitter, supporting the latest YAML spec and passing the full YAML testsuite.* |
+| -- | -- |
+| Homepage | [https://github.com/pantoniou/libfyaml](https://github.com/pantoniou/libfyaml) |
+| License | MIT |
+| Versions | v0.9 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libfyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfyaml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libfyaml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfyaml")
+```
+
+
 ### libiconv (cross)
 
 
