@@ -3514,6 +3514,30 @@ add_requires("curlcpp")
 ```
 
 
+### curlpp (macosx)
+
+
+| Description | *C++ wrapper around libcURL* |
+| -- | -- |
+| Homepage | [http://www.curlpp.org](http://www.curlpp.org) |
+| License | MIT |
+| Versions | 2023.07.27 |
+| Architectures | arm64, x86_64 |
+| Definition | [curlpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/curlpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install curlpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("curlpp")
+```
+
+
 ### cutlass (macosx)
 
 
@@ -3963,6 +3987,29 @@ xrepo install discord
 
 ```lua
 add_requires("discord")
+```
+
+
+### distorm (macosx)
+
+
+| Description | *Powerful Disassembler Library For x86/AMD64* |
+| -- | -- |
+| Homepage | [https://github.com/gdabah/distorm](https://github.com/gdabah/distorm) |
+| Versions | 2021.12.18 |
+| Architectures | arm64, x86_64 |
+| Definition | [distorm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/distorm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install distorm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("distorm")
 ```
 
 

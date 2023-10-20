@@ -2284,6 +2284,29 @@ add_requires("demumble")
 ```
 
 
+### distorm (bsd)
+
+
+| Description | *Powerful Disassembler Library For x86/AMD64* |
+| -- | -- |
+| Homepage | [https://github.com/gdabah/distorm](https://github.com/gdabah/distorm) |
+| Versions | 2021.12.18 |
+| Architectures | i386, x86_64 |
+| Definition | [distorm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/distorm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install distorm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("distorm")
+```
+
+
 ### docopt (bsd)
 
 
