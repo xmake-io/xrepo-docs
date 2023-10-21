@@ -21201,6 +21201,30 @@ add_requires("winreg")
 ```
 
 
+### wintoast (windows)
+
+
+| Description | *WinToast is a lightly library written in C++ which brings a complete integration of the modern toast notifications of Windows 8, Windows 10 and Windows 11.* |
+| -- | -- |
+| Homepage | [https://github.com/mohabouje/WinToast](https://github.com/mohabouje/WinToast) |
+| License | MIT |
+| Versions | v1.3.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [wintoast/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wintoast/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wintoast
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wintoast")
+```
+
+
 ### wolfssl (windows)
 
 
