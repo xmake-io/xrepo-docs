@@ -7377,6 +7377,30 @@ add_requires("hpsocket")
 ```
 
 
+### hpx (windows)
+
+
+| Description | *The C++ Standard Library for Parallelism and Concurrency* |
+| -- | -- |
+| Homepage | [https://hpx.stellar-group.org](https://hpx.stellar-group.org) |
+| License | BSL-1.0 |
+| Versions | v1.9.1 |
+| Architectures | x64 |
+| Definition | [hpx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hpx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hpx")
+```
+
+
 ### http_parser (windows)
 
 
