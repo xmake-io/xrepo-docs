@@ -4002,6 +4002,30 @@ add_requires("infoware")
 ```
 
 
+### inifile-cpp (bsd)
+
+
+| Description | *A header-only and easy to use Ini file parser for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/Rookfighter/inifile-cpp](https://github.com/Rookfighter/inifile-cpp) |
+| License | MIT |
+| Versions | 2022.06.25 |
+| Architectures | i386, x86_64 |
+| Definition | [inifile-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inifile-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install inifile-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("inifile-cpp")
+```
+
+
 ### inja (bsd)
 
 
