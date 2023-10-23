@@ -13996,7 +13996,7 @@ add_requires("onnx")
 | -- | -- |
 | Homepage | [https://www.onnxruntime.ai](https://www.onnxruntime.ai) |
 | License | MIT |
-| Versions | 1.11.1 |
+| Versions | 1.11.1, 1.16.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [onnxruntime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onnxruntime/xmake.lua) |
 
