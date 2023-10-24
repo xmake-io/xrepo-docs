@@ -17417,7 +17417,7 @@ add_requires("opensubdiv")
 | Description | *OpenVDB - Sparse volume data structure and tools* |
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
-| Versions | v10.0.1, v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0 |
+| Versions | v10.0.1, v10.1.0, v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
