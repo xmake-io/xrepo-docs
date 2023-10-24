@@ -8918,7 +8918,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 

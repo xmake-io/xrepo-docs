@@ -10106,7 +10106,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
