@@ -4926,6 +4926,30 @@ add_requires("eve")
 ```
 
 
+### eventpp (windows)
+
+
+| Description | *Event Dispatcher and callback list for C++* |
+| -- | -- |
+| Homepage | [https://github.com/wqking/eventpp](https://github.com/wqking/eventpp) |
+| License | Apache-2.0 |
+| Versions | v0.1.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [eventpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eventpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install eventpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eventpp")
+```
+
+
 ### expat (windows)
 
 

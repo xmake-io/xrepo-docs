@@ -2714,6 +2714,30 @@ add_requires("eve")
 ```
 
 
+### eventpp (mingw)
+
+
+| Description | *Event Dispatcher and callback list for C++* |
+| -- | -- |
+| Homepage | [https://github.com/wqking/eventpp](https://github.com/wqking/eventpp) |
+| License | Apache-2.0 |
+| Versions | v0.1.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [eventpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eventpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] eventpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eventpp")
+```
+
+
 ### expat (mingw)
 
 
