@@ -3619,6 +3619,54 @@ add_requires("inifile-cpp")
 ```
 
 
+### iniparser (msys)
+
+
+| Description | *ini file parser* |
+| -- | -- |
+| Homepage | [http://ndevilla.free.fr/iniparser](http://ndevilla.free.fr/iniparser) |
+| License | MIT |
+| Versions | 2023.09.15 |
+| Architectures | i386, x86_64 |
+| Definition | [iniparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iniparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install iniparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iniparser")
+```
+
+
+### inipp (msys)
+
+
+| Description | *Simple C++ ini parser.* |
+| -- | -- |
+| Homepage | [https://github.com/mcmtroffaes/inipp](https://github.com/mcmtroffaes/inipp) |
+| License | MIT |
+| Versions | 2022.02.03 |
+| Architectures | i386, x86_64 |
+| Definition | [inipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inipp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install inipp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("inipp")
+```
+
+
 ### inja (msys)
 
 

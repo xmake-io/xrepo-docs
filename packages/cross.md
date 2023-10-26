@@ -3883,6 +3883,54 @@ add_requires("inifile-cpp")
 ```
 
 
+### iniparser (cross)
+
+
+| Description | *ini file parser* |
+| -- | -- |
+| Homepage | [http://ndevilla.free.fr/iniparser](http://ndevilla.free.fr/iniparser) |
+| License | MIT |
+| Versions | 2023.09.15 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [iniparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iniparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] iniparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iniparser")
+```
+
+
+### inipp (cross)
+
+
+| Description | *Simple C++ ini parser.* |
+| -- | -- |
+| Homepage | [https://github.com/mcmtroffaes/inipp](https://github.com/mcmtroffaes/inipp) |
+| License | MIT |
+| Versions | 2022.02.03 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [inipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inipp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] inipp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("inipp")
+```
+
+
 ### inja (cross)
 
 

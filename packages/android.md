@@ -4116,6 +4116,54 @@ add_requires("inifile-cpp")
 ```
 
 
+### iniparser (android)
+
+
+| Description | *ini file parser* |
+| -- | -- |
+| Homepage | [http://ndevilla.free.fr/iniparser](http://ndevilla.free.fr/iniparser) |
+| License | MIT |
+| Versions | 2023.09.15 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [iniparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iniparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] iniparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iniparser")
+```
+
+
+### inipp (android)
+
+
+| Description | *Simple C++ ini parser.* |
+| -- | -- |
+| Homepage | [https://github.com/mcmtroffaes/inipp](https://github.com/mcmtroffaes/inipp) |
+| License | MIT |
+| Versions | 2022.02.03 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [inipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inipp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] inipp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("inipp")
+```
+
+
 ### inja (android)
 
 
