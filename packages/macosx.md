@@ -18103,6 +18103,54 @@ add_requires("qt6network")
 ```
 
 
+### qt6qml (macosx)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0 |
+| Architectures | x86_64 |
+| Definition | [qt6qml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6qml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt6qml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6qml")
+```
+
+
+### qt6quick (macosx)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0 |
+| Architectures | x86_64 |
+| Definition | [qt6quick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6quick/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt6quick
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6quick")
+```
+
+
 ### qt6widgets (macosx)
 
 
