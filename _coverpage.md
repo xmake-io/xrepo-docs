@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: pahomqttc, qt6qml, qt6quick**
+- **Recently added: bcg729, pahomqttc, qt6qml**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

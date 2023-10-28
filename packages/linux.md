@@ -1195,6 +1195,29 @@ add_requires("bc")
 ```
 
 
+### bcg729 (linux)
+
+
+| Description | *Bcg729 is an opensource implementation of both encoder and decoder of the ITU G729 Annex A/B speech codec.* |
+| -- | -- |
+| Homepage | [http://linphone.org](http://linphone.org) |
+| Versions | 1.0.4, 1.1.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [bcg729/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bcg729/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bcg729
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bcg729")
+```
+
+
 ### bdwgc (linux)
 
 
@@ -18465,7 +18488,7 @@ add_requires("pocketpy")
 | -- | -- |
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSL-1.0 |
-| Versions | 1.11.0, 1.11.1, 1.11.6, 1.12.1, 1.12.2, 1.12.4 |
+| Versions | 1.11.0, 1.11.1, 1.11.6, 1.11.8, 1.12.1, 1.12.2, 1.12.4, 1.12.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [poco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poco/xmake.lua) |
 

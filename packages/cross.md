@@ -670,6 +670,29 @@ add_requires("bazel")
 ```
 
 
+### bcg729 (cross)
+
+
+| Description | *Bcg729 is an opensource implementation of both encoder and decoder of the ITU G729 Annex A/B speech codec.* |
+| -- | -- |
+| Homepage | [http://linphone.org](http://linphone.org) |
+| Versions | 1.0.4, 1.1.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [bcg729/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bcg729/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] bcg729
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bcg729")
+```
+
+
 ### bento4 (cross)
 
 
