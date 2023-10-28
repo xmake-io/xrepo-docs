@@ -14821,6 +14821,30 @@ add_requires("pagmo")
 ```
 
 
+### pahomqttc (windows)
+
+
+| Description | *Eclipse Paho MQTT C Client Library* |
+| -- | -- |
+| Homepage | [https://github.com/eclipse/paho.mqtt.c](https://github.com/eclipse/paho.mqtt.c) |
+| License | MIT |
+| Versions | v1.3.13 |
+| Architectures | arm64, x64, x86 |
+| Definition | [pahomqttc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pahomqttc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pahomqttc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pahomqttc")
+```
+
+
 ### parallel-hashmap (windows)
 
 
