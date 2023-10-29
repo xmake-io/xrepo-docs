@@ -10062,6 +10062,29 @@ add_requires("srell")
 ```
 
 
+### srtp (android)
+
+
+| Description | *Library for SRTP (Secure Realtime Transport Protocol)* |
+| -- | -- |
+| Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
+| Versions | v2.5.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] srtp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("srtp")
+```
+
+
 ### ssp (android)
 
 

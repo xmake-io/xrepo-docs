@@ -11014,6 +11014,29 @@ add_requires("srell")
 ```
 
 
+### srtp (mingw)
+
+
+| Description | *Library for SRTP (Secure Realtime Transport Protocol)* |
+| -- | -- |
+| Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
+| Versions | v2.5.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] srtp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("srtp")
+```
+
+
 ### ssp (mingw)
 
 

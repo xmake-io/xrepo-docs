@@ -9071,6 +9071,29 @@ add_requires("srell")
 ```
 
 
+### srtp (cross)
+
+
+| Description | *Library for SRTP (Secure Realtime Transport Protocol)* |
+| -- | -- |
+| Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
+| Versions | v2.5.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] srtp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("srtp")
+```
+
+
 ### ssp (cross)
 
 
