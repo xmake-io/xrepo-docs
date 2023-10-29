@@ -3702,6 +3702,30 @@ add_requires("csvparser")
 ```
 
 
+### cthash (linux)
+
+
+| Description | *constexpr implementation of SHA-2 and SHA-3 family of hashes* |
+| -- | -- |
+| Homepage | [https://github.com/hanickadot/cthash](https://github.com/hanickadot/cthash) |
+| License | Apache-2.0 |
+| Versions | 2023.10.24 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cthash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cthash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cthash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cthash")
+```
+
+
 ### ctre (linux)
 
 
@@ -10643,7 +10667,7 @@ add_requires("libheif")
 | Description | *Like libevent, libev, and libuv, libhv provides event-loop with non-blocking IO and timer, but simpler api and richer protocols.* |
 | -- | -- |
 | Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
-| Versions | 1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.6, 1.3.0, 1.3.1 |
+| Versions | 1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.6, 1.3.0, 1.3.1, 1.3.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
 

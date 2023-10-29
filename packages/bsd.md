@@ -2021,6 +2021,30 @@ add_requires("csvparser")
 ```
 
 
+### cthash (bsd)
+
+
+| Description | *constexpr implementation of SHA-2 and SHA-3 family of hashes* |
+| -- | -- |
+| Homepage | [https://github.com/hanickadot/cthash](https://github.com/hanickadot/cthash) |
+| License | Apache-2.0 |
+| Versions | 2023.10.24 |
+| Architectures | i386, x86_64 |
+| Definition | [cthash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cthash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cthash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cthash")
+```
+
+
 ### ctre (bsd)
 
 
