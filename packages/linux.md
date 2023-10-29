@@ -24658,7 +24658,7 @@ add_requires("wayland")
 | -- | -- |
 | Homepage | [https://wayland.freedesktop.org](https://wayland.freedesktop.org) |
 | License | MIT |
-| Versions | 1.24 |
+| Versions | 1.24, 1.25, 1.26, 1.27, 1.28, 1.29, 1.30, 1.31, 1.32 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wayland-protocols/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland-protocols/xmake.lua) |
 
