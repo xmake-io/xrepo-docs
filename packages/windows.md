@@ -14868,6 +14868,30 @@ add_requires("pahomqttc")
 ```
 
 
+### pahomqttcpp (windows)
+
+
+| Description | *Eclipse Paho MQTT C++ Client Library* |
+| -- | -- |
+| Homepage | [https://github.com/eclipse/paho.mqtt.cpp](https://github.com/eclipse/paho.mqtt.cpp) |
+| License | EPL v1.0 |
+| Versions | v1.2.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [pahomqttcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pahomqttcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pahomqttcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pahomqttcpp")
+```
+
+
 ### parallel-hashmap (windows)
 
 
@@ -22261,7 +22285,7 @@ add_requires("zltoolkit")
 | -- | -- |
 | Homepage | [https://github.com/SFGrenade/ZmqPb/](https://github.com/SFGrenade/ZmqPb/) |
 | License | MPL-2.0 |
-| Versions | 0.1, 0.2 |
+| Versions | 0.1, 0.2, 0.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [zmqpb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua) |
 
