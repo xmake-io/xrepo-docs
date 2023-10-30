@@ -6916,6 +6916,29 @@ add_requires("opencl-headers")
 ```
 
 
+### opencore-amr (cross)
+
+
+| Description | *Library of OpenCORE Framework implementation of Adaptive Multi Rate Narrowband and Wideband (AMR-NB and AMR-WB) speech codec.* |
+| -- | -- |
+| Homepage | [https://opencore-amr.sourceforge.io](https://opencore-amr.sourceforge.io) |
+| Versions | 0.1.6 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [opencore-amr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencore-amr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] opencore-amr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencore-amr")
+```
+
+
 ### openssl (cross)
 
 
