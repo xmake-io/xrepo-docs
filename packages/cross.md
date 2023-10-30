@@ -4406,6 +4406,30 @@ add_requires("libbigwig")
 ```
 
 
+### libccd (cross)
+
+
+| Description | *libccd is library for a collision detection between two convex shapes.* |
+| -- | -- |
+| Homepage | [https://github.com/danfis/libccd/](https://github.com/danfis/libccd/) |
+| License | BSD-3-Clause |
+| Versions | v2.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libccd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libccd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libccd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libccd")
+```
+
+
 ### libcurl (cross)
 
 
