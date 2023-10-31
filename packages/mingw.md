@@ -6203,6 +6203,30 @@ add_requires("libyaml")
 ```
 
 
+### libyuv (mingw)
+
+
+| Description | *libyuv is an open source project that includes YUV scaling and conversion functionality.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/libyuv/libyuv/](https://chromium.googlesource.com/libyuv/libyuv/) |
+| License | BSD-3-Clause |
+| Versions | 2023.10.27 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libyuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libyuv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libyuv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libyuv")
+```
+
+
 ### lightmapper (mingw)
 
 

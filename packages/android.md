@@ -5750,6 +5750,30 @@ add_requires("libxml2")
 ```
 
 
+### libyuv (android)
+
+
+| Description | *libyuv is an open source project that includes YUV scaling and conversion functionality.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/libyuv/libyuv/](https://chromium.googlesource.com/libyuv/libyuv/) |
+| License | BSD-3-Clause |
+| Versions | 2023.10.27 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libyuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libyuv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libyuv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libyuv")
+```
+
+
 ### lightmapper (android)
 
 

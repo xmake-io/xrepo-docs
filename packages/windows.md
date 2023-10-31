@@ -10716,6 +10716,30 @@ add_requires("libyaml")
 ```
 
 
+### libyuv (windows)
+
+
+| Description | *libyuv is an open source project that includes YUV scaling and conversion functionality.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/libyuv/libyuv/](https://chromium.googlesource.com/libyuv/libyuv/) |
+| License | BSD-3-Clause |
+| Versions | 2023.10.27 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libyuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libyuv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libyuv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libyuv")
+```
+
+
 ### libzip (windows)
 
 
