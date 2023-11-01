@@ -7061,7 +7061,7 @@ add_requires("readerwriterqueue")
 | -- | -- |
 | Homepage | [https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) |
 | License | zlib |
-| Versions | 1.5.1 |
+| Versions | 1.5.1, v1.6.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [recastnavigation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/recastnavigation/xmake.lua) |
 

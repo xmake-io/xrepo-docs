@@ -9549,6 +9549,30 @@ add_requires("libfabric")
 ```
 
 
+### libfacedetection (macosx)
+
+
+| Description | *An open source library for face detection in images. The face detection speed can reach 1000FPS. * |
+| -- | -- |
+| Homepage | [https://github.com/ShiqiYu/libfacedetection](https://github.com/ShiqiYu/libfacedetection) |
+| License | BSD-3-Clause |
+| Versions | v3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libfacedetection/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfacedetection/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfacedetection
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfacedetection")
+```
+
+
 ### libffi (macosx)
 
 
@@ -18703,7 +18727,7 @@ add_requires("readline")
 | -- | -- |
 | Homepage | [https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) |
 | License | zlib |
-| Versions | 1.5.1 |
+| Versions | 1.5.1, v1.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [recastnavigation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/recastnavigation/xmake.lua) |
 
