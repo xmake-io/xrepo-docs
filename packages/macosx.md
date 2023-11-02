@@ -4346,6 +4346,30 @@ add_requires("drogon")
 ```
 
 
+### duckx (macosx)
+
+
+| Description | *C++ library for creating and modifying Microsoft Word (.docx) files* |
+| -- | -- |
+| Homepage | [https://github.com/amiremohamadi/DuckX](https://github.com/amiremohamadi/DuckX) |
+| License | MIT |
+| Versions | 2021.08.05 |
+| Architectures | arm64, x86_64 |
+| Definition | [duckx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duckx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install duckx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("duckx")
+```
+
+
 ### dune-common (macosx)
 
 
@@ -8726,6 +8750,7 @@ add_requires("krb5")
 | Description | *A portable, simple zip library written in C* |
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
+| License | Unlicense |
 | Versions | v0.2.2, v0.2.5, v0.2.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
