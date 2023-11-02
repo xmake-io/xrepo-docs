@@ -10825,6 +10825,30 @@ add_requires("tinyobjloader")
 ```
 
 
+### tinyply (android)
+
+
+| Description | *C++11 ply 3d mesh format importer & exporter* |
+| -- | -- |
+| Homepage | [https://github.com/ddiakopoulos/tinyply](https://github.com/ddiakopoulos/tinyply) |
+| License | BSD-2-Clause |
+| Versions | 2.3.4 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tinyply/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyply/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tinyply
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyply")
+```
+
+
 ### tinyxml (android)
 
 

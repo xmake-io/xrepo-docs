@@ -23172,6 +23172,30 @@ add_requires("tinyobjloader")
 ```
 
 
+### tinyply (linux)
+
+
+| Description | *C++11 ply 3d mesh format importer & exporter* |
+| -- | -- |
+| Homepage | [https://github.com/ddiakopoulos/tinyply](https://github.com/ddiakopoulos/tinyply) |
+| License | BSD-2-Clause |
+| Versions | 2.3.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [tinyply/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyply/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyply
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyply")
+```
+
+
 ### tinyxml (linux)
 
 
