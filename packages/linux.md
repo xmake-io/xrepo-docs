@@ -4973,7 +4973,7 @@ add_requires("elfio")
 | -- | -- |
 | Homepage | [https://fedorahosted.org/elfutils/](https://fedorahosted.org/elfutils/) |
 | License | GPL-2.0 |
-| Versions | 0.183 |
+| Versions | 0.183, 0.189 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [elfutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/elfutils/xmake.lua) |
 
