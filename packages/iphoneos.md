@@ -4305,6 +4305,30 @@ add_requires("kiwisolver")
 
 
 ## l
+### lerc (iphoneos)
+
+
+| Description | *Limited Error Raster Compression* |
+| -- | -- |
+| Homepage | [https://github.com/esri/lerc](https://github.com/esri/lerc) |
+| License | Apache-2.0 |
+| Versions | v4.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [lerc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lerc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos lerc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lerc")
+```
+
+
 ### lexbor (iphoneos)
 
 
@@ -10578,7 +10602,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 

@@ -9433,6 +9433,30 @@ add_requires("leptonica")
 ```
 
 
+### lerc (linux)
+
+
+| Description | *Limited Error Raster Compression* |
+| -- | -- |
+| Homepage | [https://github.com/esri/lerc](https://github.com/esri/lerc) |
+| License | Apache-2.0 |
+| Versions | v4.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [lerc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lerc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lerc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lerc")
+```
+
+
 ### leveldb (linux)
 
 
@@ -12624,7 +12648,7 @@ add_requires("libwebsockets")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
 
@@ -24010,7 +24034,7 @@ add_requires("utf8proc")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
@@ -24965,7 +24989,7 @@ add_requires("wolfssl")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
 
