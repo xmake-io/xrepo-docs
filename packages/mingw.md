@@ -13356,6 +13356,30 @@ add_requires("yasm")
 ```
 
 
+### yoga (mingw)
+
+
+| Description | *Yoga is a cross-platform layout engine which implements Flexbox. Follow https://twitter.com/yogalayout for updates.* |
+| -- | -- |
+| Homepage | [https://yogalayout.com/](https://yogalayout.com/) |
+| License | MIT |
+| Versions | v2.0.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [yoga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yoga/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] yoga
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yoga")
+```
+
+
 ### yomm2 (mingw)
 
 

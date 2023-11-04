@@ -10771,6 +10771,30 @@ add_requires("yasm")
 ```
 
 
+### yoga (cross)
+
+
+| Description | *Yoga is a cross-platform layout engine which implements Flexbox. Follow https://twitter.com/yogalayout for updates.* |
+| -- | -- |
+| Homepage | [https://yogalayout.com/](https://yogalayout.com/) |
+| License | MIT |
+| Versions | v2.0.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [yoga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yoga/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] yoga
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yoga")
+```
+
+
 ### yomm2 (cross)
 
 
