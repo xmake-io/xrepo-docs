@@ -18918,6 +18918,30 @@ add_requires("strtk")
 ```
 
 
+### stx (windows)
+
+
+| Description | *C++17 & C++ 20 error-handling and utility extensions. * |
+| -- | -- |
+| Homepage | [https://lamarrr.github.io/STX](https://lamarrr.github.io/STX) |
+| License | MIT |
+| Versions | v1.0.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [stx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stx")
+```
+
+
 ### subhook (windows)
 
 
