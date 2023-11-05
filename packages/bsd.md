@@ -3810,6 +3810,30 @@ add_requires("hash-library")
 ```
 
 
+### hedley (bsd)
+
+
+| Description | *A C/C++ header to help move #ifdefs out of your code* |
+| -- | -- |
+| Homepage | [https://nemequ.github.io/hedley/](https://nemequ.github.io/hedley/) |
+| License | CC0-1.0 |
+| Versions | v15 |
+| Architectures | i386, x86_64 |
+| Definition | [hedley/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hedley/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hedley
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hedley")
+```
+
+
 ### hffix (bsd)
 
 
@@ -7641,6 +7665,30 @@ xrepo install outcome
 
 ```lua
 add_requires("outcome")
+```
+
+
+### ozz-animation (bsd)
+
+
+| Description | *Open source c++ skeletal animation library and toolset* |
+| -- | -- |
+| Homepage | [http://guillaumeblanc.github.io/ozz-animation/](http://guillaumeblanc.github.io/ozz-animation/) |
+| License | MIT |
+| Versions | 0.14.2 |
+| Architectures | i386, x86_64 |
+| Definition | [ozz-animation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ozz-animation/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ozz-animation
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ozz-animation")
 ```
 
 
