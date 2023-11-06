@@ -3399,6 +3399,30 @@ add_requires("cryptopp")
 ```
 
 
+### cs_libguarded (windows)
+
+
+| Description | *Header-only library for multithreaded programming* |
+| -- | -- |
+| Homepage | [https://www.copperspice.com/](https://www.copperspice.com/) |
+| License | BSD-2-Clause |
+| Versions | 2023.08.02 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cs_libguarded/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cs_libguarded/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cs_libguarded
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cs_libguarded")
+```
+
+
 ### csv2 (windows)
 
 

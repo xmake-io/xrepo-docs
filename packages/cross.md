@@ -1855,6 +1855,30 @@ add_requires("crypto-algorithms")
 ```
 
 
+### cs_libguarded (cross)
+
+
+| Description | *Header-only library for multithreaded programming* |
+| -- | -- |
+| Homepage | [https://www.copperspice.com/](https://www.copperspice.com/) |
+| License | BSD-2-Clause |
+| Versions | 2023.08.02 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cs_libguarded/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cs_libguarded/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cs_libguarded
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cs_libguarded")
+```
+
+
 ### csv2 (cross)
 
 
