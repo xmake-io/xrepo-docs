@@ -2409,7 +2409,7 @@ add_requires("doxygen")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.29, 0.12.39, 0.12.41 |
+| Versions | 0.12.29, 0.12.39, 0.12.41, 0.12.42 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
 
@@ -2433,7 +2433,7 @@ add_requires("dr_flac")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37 |
+| Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37, 0.6.38 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
 
@@ -2457,7 +2457,7 @@ add_requires("dr_mp3")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.19, 0.13.10, 0.13.11, 0.13.12, 0.13.8 |
+| Versions | 0.12.19, 0.13.10, 0.13.11, 0.13.12, 0.13.13, 0.13.8 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
@@ -4958,7 +4958,7 @@ add_requires("libsais")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3, 2.28.4 |
+| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3, 2.28.4, 2.28.5 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -10439,7 +10439,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
@@ -10702,10 +10702,10 @@ add_requires("x265")
 ### xbyak (cross)
 
 
-| Description | *A JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512 by C++ header* |
+| Description | *JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512* |
 | -- | -- |
 | Homepage | [https://github.com/herumi/xbyak](https://github.com/herumi/xbyak) |
-| Versions | v6.02, v6.03 |
+| Versions | v6.02, v6.03, v6.73 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [xbyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xbyak/xmake.lua) |
 
