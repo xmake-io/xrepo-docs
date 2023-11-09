@@ -8675,6 +8675,30 @@ add_requires("kahip")
 ```
 
 
+### kangaru (macosx)
+
+
+| Description | *🦘 A dependency injection container for C++11, C++14 and later* |
+| -- | -- |
+| Homepage | [https://github.com/gracicot/kangaru](https://github.com/gracicot/kangaru) |
+| License | MIT |
+| Versions | v4.3.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [kangaru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kangaru/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kangaru
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kangaru")
+```
+
+
 ### kcp (macosx)
 
 
@@ -12886,6 +12910,30 @@ xrepo install lolly
 
 ```lua
 add_requires("lolly")
+```
+
+
+### ls-qpack (macosx)
+
+
+| Description | *QPACK compression library for use with HTTP/3* |
+| -- | -- |
+| Homepage | [https://github.com/litespeedtech/ls-qpack](https://github.com/litespeedtech/ls-qpack) |
+| License | MIT |
+| Versions | v2.5.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [ls-qpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-qpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ls-qpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ls-qpack")
 ```
 
 

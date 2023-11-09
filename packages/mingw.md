@@ -4856,6 +4856,30 @@ add_requires("jwt-cpp")
 
 
 ## k
+### kangaru (mingw)
+
+
+| Description | *🦘 A dependency injection container for C++11, C++14 and later* |
+| -- | -- |
+| Homepage | [https://github.com/gracicot/kangaru](https://github.com/gracicot/kangaru) |
+| License | MIT |
+| Versions | v4.3.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [kangaru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kangaru/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] kangaru
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kangaru")
+```
+
+
 ### kcp (mingw)
 
 
