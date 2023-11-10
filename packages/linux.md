@@ -7818,6 +7818,30 @@ add_requires("h5cpp")
 ```
 
 
+### haclog (linux)
+
+
+| Description | *Haclog(Happy Aync C log) is an extremely fast plain C logging library* |
+| -- | -- |
+| Homepage | [https://github.com/MuggleWei/haclog](https://github.com/MuggleWei/haclog) |
+| License | MIT |
+| Versions | v0.0.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [haclog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/haclog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install haclog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("haclog")
+```
+
+
 ### half (linux)
 
 
