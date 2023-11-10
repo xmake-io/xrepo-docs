@@ -3018,6 +3018,30 @@ add_requires("console-bridge")
 ```
 
 
+### continuable (linux)
+
+
+| Description | *C++14 asynchronous allocation aware futures (supporting then, exception handling, coroutines and connections)* |
+| -- | -- |
+| Homepage | [https://naios.github.io/continuable/](https://naios.github.io/continuable/) |
+| License | MIT |
+| Versions | 4.2.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [continuable/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/continuable/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install continuable
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("continuable")
+```
+
+
 ### convertutf (linux)
 
 

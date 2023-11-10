@@ -1523,6 +1523,30 @@ add_requires("concurrentqueue")
 ```
 
 
+### continuable (mingw)
+
+
+| Description | *C++14 asynchronous allocation aware futures (supporting then, exception handling, coroutines and connections)* |
+| -- | -- |
+| Homepage | [https://naios.github.io/continuable/](https://naios.github.io/continuable/) |
+| License | MIT |
+| Versions | 4.2.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [continuable/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/continuable/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] continuable
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("continuable")
+```
+
+
 ### convertutf (mingw)
 
 
