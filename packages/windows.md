@@ -1699,7 +1699,8 @@ add_requires("ca-certificates")
 | Description | *Vector graphics library with cross-device output support.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 1.17.6, 1.17.8 |
+| License | MPL-1.1 |
+| Versions | 1.17.6, 1.17.8, 1.18.0 |
 | Architectures | x64, x86 |
 | Definition | [cairo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairo/xmake.lua) |
 
