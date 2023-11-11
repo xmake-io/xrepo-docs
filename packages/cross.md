@@ -7036,6 +7036,30 @@ add_requires("olive.c")
 ```
 
 
+### oniguruma (cross)
+
+
+| Description | *regular expression library* |
+| -- | -- |
+| Homepage | [https://github.com/kkos/oniguruma](https://github.com/kkos/oniguruma) |
+| License | BSD |
+| Versions | v6.9.9 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [oniguruma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oniguruma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] oniguruma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("oniguruma")
+```
+
+
 ### openal-soft (cross)
 
 

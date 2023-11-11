@@ -17204,6 +17204,30 @@ add_requires("onetbb")
 ```
 
 
+### oniguruma (linux)
+
+
+| Description | *regular expression library* |
+| -- | -- |
+| Homepage | [https://github.com/kkos/oniguruma](https://github.com/kkos/oniguruma) |
+| License | BSD |
+| Versions | v6.9.9 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [oniguruma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oniguruma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install oniguruma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("oniguruma")
+```
+
+
 ### onnx (linux)
 
 

@@ -7434,6 +7434,30 @@ add_requires("olive.c")
 ```
 
 
+### oniguruma (bsd)
+
+
+| Description | *regular expression library* |
+| -- | -- |
+| Homepage | [https://github.com/kkos/oniguruma](https://github.com/kkos/oniguruma) |
+| License | BSD |
+| Versions | v6.9.9 |
+| Architectures | i386, x86_64 |
+| Definition | [oniguruma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oniguruma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install oniguruma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("oniguruma")
+```
+
+
 ### opencc (bsd)
 
 

@@ -14277,6 +14277,30 @@ add_requires("onetbb")
 ```
 
 
+### oniguruma (windows)
+
+
+| Description | *regular expression library* |
+| -- | -- |
+| Homepage | [https://github.com/kkos/oniguruma](https://github.com/kkos/oniguruma) |
+| License | BSD |
+| Versions | v6.9.9 |
+| Architectures | arm64, x64, x86 |
+| Definition | [oniguruma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oniguruma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install oniguruma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("oniguruma")
+```
+
+
 ### onnx (windows)
 
 
