@@ -9262,7 +9262,7 @@ add_requires("libenvpp")
 | -- | -- |
 | Homepage | [https://download.gnome.org/sources/libepoxy/](https://download.gnome.org/sources/libepoxy/) |
 | License | MIT |
-| Versions | 1.5.9 |
+| Versions | 1.5.10, 1.5.9 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libepoxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libepoxy/xmake.lua) |
 
