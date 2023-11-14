@@ -17881,6 +17881,30 @@ add_requires("scons")
 ```
 
 
+### seasocks (windows)
+
+
+| Description | *Simple, small, C++ embeddable webserver with WebSockets support* |
+| -- | -- |
+| Homepage | [https://github.com/mattgodbolt/seasocks](https://github.com/mattgodbolt/seasocks) |
+| License | BSD-2-Clause |
+| Versions | v1.4.6 |
+| Architectures | arm64, x64, x86 |
+| Definition | [seasocks/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/seasocks/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install seasocks
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("seasocks")
+```
+
+
 ### semi-static-conditions (windows)
 
 

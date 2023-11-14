@@ -21162,6 +21162,30 @@ add_requires("sdsl-lite")
 ```
 
 
+### seasocks (linux)
+
+
+| Description | *Simple, small, C++ embeddable webserver with WebSockets support* |
+| -- | -- |
+| Homepage | [https://github.com/mattgodbolt/seasocks](https://github.com/mattgodbolt/seasocks) |
+| License | BSD-2-Clause |
+| Versions | v1.4.6 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [seasocks/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/seasocks/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install seasocks
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("seasocks")
+```
+
+
 ### semi-static-conditions (linux)
 
 
