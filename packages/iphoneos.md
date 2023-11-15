@@ -4172,7 +4172,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.1 |
+| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
 

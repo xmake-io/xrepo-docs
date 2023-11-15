@@ -4337,6 +4337,30 @@ add_requires("ispc")
 
 
 ## j
+### joltphysics (bsd)
+
+
+| Description | *A multi core friendly rigid body physics and collision detection library suitable for games and VR applications.* |
+| -- | -- |
+| Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
+| License | MIT |
+| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install joltphysics
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("joltphysics")
+```
+
+
 ### jsmn (bsd)
 
 

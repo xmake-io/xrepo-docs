@@ -8314,7 +8314,7 @@ add_requires("johnnyengine")
 | -- | -- |
 | Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.1 |
+| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
 
@@ -16788,6 +16788,30 @@ xrepo install qt6widgets
 
 ```lua
 add_requires("qt6widgets")
+```
+
+
+### qtawesome (windows)
+
+
+| Description | *QtAwesome - Font Awesome for Qt Applications* |
+| -- | -- |
+| Homepage | [https://github.com/gamecreature/QtAwesome](https://github.com/gamecreature/QtAwesome) |
+| License | MIT |
+| Versions | 6.4.2 |
+| Architectures | x64 |
+| Definition | [qtawesome/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qtawesome/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qtawesome
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qtawesome")
 ```
 
 
