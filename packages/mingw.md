@@ -2938,7 +2938,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.10.1, v3.4.0, v3.5.1, v5.2.0 |
+| Versions | v3.10.1, v3.4.0, v3.5.1, v5.2.0, v5.3.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
