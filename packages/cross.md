@@ -6039,6 +6039,30 @@ add_requires("mathfu")
 ```
 
 
+### matio (cross)
+
+
+| Description | *MATLAB MAT File I/O Library* |
+| -- | -- |
+| Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
+| License | BSD-2-Clause |
+| Versions | v1.5.26 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] matio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("matio")
+```
+
+
 ### mbedtls (cross)
 
 

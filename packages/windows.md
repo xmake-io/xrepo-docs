@@ -12023,6 +12023,30 @@ add_requires("mathfu")
 ```
 
 
+### matio (windows)
+
+
+| Description | *MATLAB MAT File I/O Library* |
+| -- | -- |
+| Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
+| License | BSD-2-Clause |
+| Versions | v1.5.26 |
+| Architectures | arm64, x64, x86 |
+| Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install matio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("matio")
+```
+
+
 ### matplotplusplus (windows)
 
 
