@@ -4121,6 +4121,30 @@ add_requires("inja")
 ```
 
 
+### iowow (cross)
+
+
+| Description | *A C utility library and persistent key/value storage engine* |
+| -- | -- |
+| Homepage | [https://iowow.softmotions.com](https://iowow.softmotions.com) |
+| License | MIT |
+| Versions | v1.4.17 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [iowow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iowow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] iowow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iowow")
+```
+
+
 ### ip2region (cross)
 
 

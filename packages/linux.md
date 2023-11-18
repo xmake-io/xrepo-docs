@@ -8770,6 +8770,30 @@ add_requires("inja")
 ```
 
 
+### iowow (linux)
+
+
+| Description | *A C utility library and persistent key/value storage engine* |
+| -- | -- |
+| Homepage | [https://iowow.softmotions.com](https://iowow.softmotions.com) |
+| License | MIT |
+| Versions | v1.4.17 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [iowow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iowow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install iowow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iowow")
+```
+
+
 ### ip2region (linux)
 
 

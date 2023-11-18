@@ -4240,6 +4240,30 @@ add_requires("inja")
 ```
 
 
+### iowow (bsd)
+
+
+| Description | *A C utility library and persistent key/value storage engine* |
+| -- | -- |
+| Homepage | [https://iowow.softmotions.com](https://iowow.softmotions.com) |
+| License | MIT |
+| Versions | v1.4.17 |
+| Architectures | i386, x86_64 |
+| Definition | [iowow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iowow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install iowow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iowow")
+```
+
+
 ### ip2region (bsd)
 
 
