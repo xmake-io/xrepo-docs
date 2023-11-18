@@ -10026,6 +10026,30 @@ add_requires("libccd")
 ```
 
 
+### libco (linux)
+
+
+| Description | *Libco is a c/c++ coroutine library.* |
+| -- | -- |
+| Homepage | [https://github.com/Tencent/libco](https://github.com/Tencent/libco) |
+| License | Apache-2.0 |
+| Versions | v1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libco")
+```
+
+
 ### libcpuid (linux)
 
 
