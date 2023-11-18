@@ -3563,6 +3563,30 @@ add_requires("crc32c")
 ```
 
 
+### croaring (linux)
+
+
+| Description | *Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, and StarRocks* |
+| -- | -- |
+| Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
+| License | Apache-2.0 |
+| Versions | v2.0.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install croaring
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("croaring")
+```
+
+
 ### crossguid (linux)
 
 
