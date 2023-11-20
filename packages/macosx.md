@@ -6662,10 +6662,11 @@ add_requires("gli")
 ### glib (macosx)
 
 
-| Description | *Core application library for C.* |
+| Description | *Low-level core library that forms the basis for projects such as GTK+ and GNOME.* |
 | -- | -- |
-| Homepage | [https://developer.gnome.org/glib/](https://developer.gnome.org/glib/) |
-| Versions | 2.71.0 |
+| Homepage | [https://docs.gtk.org/glib/](https://docs.gtk.org/glib/) |
+| License | LGPL-2.1 |
+| Versions | 2.71.0, 2.78.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 
@@ -10316,7 +10317,7 @@ add_requires("libimobiledevice-glue")
 | Description | *GNU gettext runtime* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
-| Versions | 0.21 |
+| Versions | 0.21, 0.22.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libintl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libintl/xmake.lua) |
 

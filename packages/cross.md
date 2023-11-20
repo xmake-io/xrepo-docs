@@ -3458,10 +3458,11 @@ add_requires("gli")
 ### glib (cross)
 
 
-| Description | *Core application library for C.* |
+| Description | *Low-level core library that forms the basis for projects such as GTK+ and GNOME.* |
 | -- | -- |
-| Homepage | [https://developer.gnome.org/glib/](https://developer.gnome.org/glib/) |
-| Versions | 2.71.0 |
+| Homepage | [https://docs.gtk.org/glib/](https://docs.gtk.org/glib/) |
+| License | LGPL-2.1 |
+| Versions | 2.71.0, 2.78.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 

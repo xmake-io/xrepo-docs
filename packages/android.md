@@ -5166,7 +5166,7 @@ add_requires("libiconv")
 | Description | *GNU gettext runtime* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
-| Versions | 0.21 |
+| Versions | 0.21, 0.22.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libintl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libintl/xmake.lua) |
 
