@@ -12149,8 +12149,8 @@ add_requires("matplotplusplus")
 | -- | -- |
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
 | License | Apache-2.0 |
-| Versions | v2.13.0, v2.25.0, v2.28.3, v2.7.6, v3.4.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | v2.13.0, v2.25.0, v2.28.3, v2.7.6, v3.4.0, v3.5.1 |
+| Architectures | x64, x86 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 
 ##### Install command

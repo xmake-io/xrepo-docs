@@ -5468,30 +5468,6 @@ add_requires("mathfu")
 ```
 
 
-### mbedtls (msys)
-
-
-| Description | *An SSL library* |
-| -- | -- |
-| Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
-| License | Apache-2.0 |
-| Versions | v2.13.0, v2.25.0, v2.28.3, v2.7.6, v3.4.0 |
-| Architectures | i386, x86_64 |
-| Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install mbedtls
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("mbedtls")
-```
-
-
 ### mdns (msys)
 
 
