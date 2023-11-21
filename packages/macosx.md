@@ -509,7 +509,7 @@ add_requires("assimp")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/async_simple](https://github.com/alibaba/async_simple) |
 | License | Apache-2.0 |
-| Versions | 1.1 |
+| Versions | 1.1, 1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [async_simple/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/async_simple/xmake.lua) |
 
@@ -5835,7 +5835,7 @@ add_requires("folly")
 | Description | *A library for configuring and customizing font access.* |
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/fontconfig/](https://www.freedesktop.org/wiki/Software/fontconfig/) |
-| Versions | 2.13.1, 2.13.93, 2.13.94, 2.14.0 |
+| Versions | 2.13.1, 2.13.93, 2.13.94, 2.14.0, 2.14.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [fontconfig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fontconfig/xmake.lua) |
 
@@ -7449,7 +7449,7 @@ add_requires("happly")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1 |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -24786,7 +24786,7 @@ add_requires("zltoolkit")
 | -- | -- |
 | Homepage | [https://github.com/SFGrenade/ZmqPb/](https://github.com/SFGrenade/ZmqPb/) |
 | License | MPL-2.0 |
-| Versions | 0.1, 0.2, 0.3 |
+| Versions | 0.1, 0.2, 0.3, 0.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [zmqpb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua) |
 
