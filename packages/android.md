@@ -1977,7 +1977,7 @@ add_requires("cthash")
 | Description | *ctre is a Compile time PCRE (almost) compatible regular expression matcher.* |
 | -- | -- |
 | Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
-| Versions | 3.4.1 |
+| Versions | 3.4.1, 3.5, 3.6, 3.7.2, 3.8.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
 

@@ -3569,7 +3569,7 @@ add_requires("cthash")
 | Description | *ctre is a Compile time PCRE (almost) compatible regular expression matcher.* |
 | -- | -- |
 | Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
-| Versions | 3.4.1 |
+| Versions | 3.4.1, 3.5, 3.6, 3.7.2, 3.8.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
 
@@ -3823,6 +3823,30 @@ xrepo install dav1d
 
 ```lua
 add_requires("dav1d")
+```
+
+
+### davix (macosx)
+
+
+| Description | *High-performance file management over WebDAV/HTTP* |
+| -- | -- |
+| Homepage | [https://davix.web.cern.ch/](https://davix.web.cern.ch/) |
+| License | LGPL-2.1 |
+| Versions | 0.8.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [davix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/davix/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install davix
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("davix")
 ```
 
 
@@ -22882,7 +22906,7 @@ add_requires("uthash")
 | -- | -- |
 | Homepage | [https://github.com/util-linux/util-linux](https://github.com/util-linux/util-linux) |
 | License | GPL-2.0 |
-| Versions | 2.32.1, 2.36.2, 2.39 |
+| Versions | 2.32.1, 2.36.2, 2.39, 2.39.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [util-linux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/util-linux/xmake.lua) |
 
