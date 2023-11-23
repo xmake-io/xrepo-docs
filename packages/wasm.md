@@ -5351,7 +5351,7 @@ add_requires("mdns")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -6520,7 +6520,7 @@ add_requires("pcg-cpp")
 | Description | *A Perl Compatible Regular Expressions Library* |
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
-| Versions | 10.39, 10.40 |
+| Versions | 10.39, 10.40, 10.42 |
 | Architectures | wasm32, wasm64 |
 | Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
 
@@ -6661,7 +6661,7 @@ add_requires("pkg-config")
 | Description | *A program which helps to configure compiler and linker flags for development frameworks.* |
 | -- | -- |
 | Homepage | [http://pkgconf.org](http://pkgconf.org) |
-| Versions | 1.7.4, 1.8.0, 1.9.3, 1.9.4, 1.9.5 |
+| Versions | 1.7.4, 1.8.0, 1.9.3, 1.9.4, 1.9.5, 2.0.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
 
