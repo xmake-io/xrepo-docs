@@ -14623,6 +14623,29 @@ add_requires("make")
 ```
 
 
+### makeself (linux)
+
+
+| Description | *A self-extracting archiving tool for Unix systems, in 100% shell script.* |
+| -- | -- |
+| Homepage | [https://makeself.io](https://makeself.io) |
+| Versions | 2.5.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [makeself/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/makeself/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install makeself
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("makeself")
+```
+
+
 ### managedc (linux)
 
 

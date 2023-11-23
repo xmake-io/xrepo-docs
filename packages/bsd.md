@@ -6269,6 +6269,29 @@ add_requires("make")
 ```
 
 
+### makeself (bsd)
+
+
+| Description | *A self-extracting archiving tool for Unix systems, in 100% shell script.* |
+| -- | -- |
+| Homepage | [https://makeself.io](https://makeself.io) |
+| Versions | 2.5.0 |
+| Architectures | i386, x86_64 |
+| Definition | [makeself/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/makeself/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install makeself
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("makeself")
+```
+
+
 ### mapbox_earcut (bsd)
 
 
