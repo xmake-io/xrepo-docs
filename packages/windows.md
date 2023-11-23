@@ -16934,6 +16934,30 @@ add_requires("qtawesome")
 ```
 
 
+### qtpromise (windows)
+
+
+| Description | *Promises/A+ implementation for Qt/C++* |
+| -- | -- |
+| Homepage | [https://qtpromise.netlify.com](https://qtpromise.netlify.com) |
+| License | MIT |
+| Versions | v0.7.0 |
+| Architectures | x64 |
+| Definition | [qtpromise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qtpromise/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qtpromise
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qtpromise")
+```
+
+
 ### quadsort (windows)
 
 
