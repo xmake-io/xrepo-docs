@@ -10469,7 +10469,7 @@ add_requires("libsndfile")
 | Description | *Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.* |
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
-| Versions | 1.0.18 |
+| Versions | 1.0.18, 1.0.19 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
@@ -14727,6 +14727,30 @@ xrepo install openimageio
 
 ```lua
 add_requires("openimageio")
+```
+
+
+### openjdk (windows)
+
+
+| Description | *Java Development Kit builds, from Oracle* |
+| -- | -- |
+| Homepage | [https://jdk.java.net](https://jdk.java.net) |
+| License | GPL-2.0 |
+| Versions | 20.0.2 |
+| Architectures | x64 |
+| Definition | [openjdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openjdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openjdk")
 ```
 
 

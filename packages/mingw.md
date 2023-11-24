@@ -6119,7 +6119,7 @@ add_requires("libsndfile")
 | Description | *Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.* |
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
-| Versions | 1.0.18 |
+| Versions | 1.0.18, 1.0.19 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
@@ -8528,6 +8528,30 @@ xrepo install -p mingw [--mingw=/xxx] opencore-amr
 
 ```lua
 add_requires("opencore-amr")
+```
+
+
+### openjdk (mingw)
+
+
+| Description | *Java Development Kit builds, from Oracle* |
+| -- | -- |
+| Homepage | [https://jdk.java.net](https://jdk.java.net) |
+| License | GPL-2.0 |
+| Versions | 20.0.2 |
+| Architectures | x86_64 |
+| Definition | [openjdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] openjdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openjdk")
 ```
 
 

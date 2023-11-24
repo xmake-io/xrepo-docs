@@ -12278,7 +12278,7 @@ add_requires("libsndio")
 | Description | *Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.* |
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
-| Versions | 1.0.18 |
+| Versions | 1.0.18, 1.0.19 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 

@@ -17263,7 +17263,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.0.18</td>
+<td>1.0.18, 1.0.19</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -24931,6 +24931,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("openimageio")
+</code></pre>
+<h3 id="openjdkmacosx">openjdk (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Java Development Kit builds, from Oracle</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://jdk.java.net">https://jdk.java.net</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>20.0.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjdk/xmake.lua">openjdk/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install openjdk
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("openjdk")
 </code></pre>
 <h3 id="openjpegmacosx">openjpeg (macosx)</h3>
 <table>
