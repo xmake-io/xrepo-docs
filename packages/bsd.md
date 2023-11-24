@@ -2005,7 +2005,7 @@ add_requires("crypto-algorithms")
 | Description | *free C++ class library of cryptographic schemes* |
 | -- | -- |
 | Homepage | [https://cryptopp.com/](https://cryptopp.com/) |
-| Versions | 8.4.0, 8.5.0, 8.6.0, 8.7.0 |
+| Versions | 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.9.0 |
 | Architectures | i386, x86_64 |
 | Definition | [cryptopp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cryptopp/xmake.lua) |
 
