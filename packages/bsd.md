@@ -5500,7 +5500,7 @@ add_requires("libsvm")
 | Description | *TIFF Library and Utilities.* |
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
-| Versions | v4.1.0, v4.2.0, v4.3.0, v4.4.0 |
+| Versions | v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.6.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 
@@ -6252,7 +6252,7 @@ add_requires("magic_enum")
 | Description | *GNU make tool.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
-| Versions | 4.2.1, 4.3 |
+| Versions | 4.2.1, 4.3, 4.4.1 |
 | Architectures | i386, x86_64 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 

@@ -9759,7 +9759,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 3.0.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
@@ -10633,7 +10633,7 @@ add_requires("libsvm")
 | Description | *TIFF Library and Utilities.* |
 | -- | -- |
 | Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
-| Versions | v4.1.0, v4.2.0, v4.3.0, v4.4.0 |
+| Versions | v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.6.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
 
@@ -11887,7 +11887,7 @@ add_requires("magnum-plugins")
 | Description | *GNU make tool.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
-| Versions | 4.2.1, 4.3 |
+| Versions | 4.2.1, 4.3, 4.4.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 

@@ -5974,7 +5974,7 @@ add_requires("magic_enum")
 | Description | *GNU make tool.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
-| Versions | 4.2.1, 4.3 |
+| Versions | 4.2.1, 4.3, 4.4.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 
