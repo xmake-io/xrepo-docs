@@ -8562,6 +8562,30 @@ add_requires("jemalloc")
 ```
 
 
+### jnipp (macosx)
+
+
+| Description | *C++ wrapper for the Java Native Interface* |
+| -- | -- |
+| Homepage | [https://github.com/mitchdowd/jnipp](https://github.com/mitchdowd/jnipp) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [jnipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jnipp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jnipp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jnipp")
+```
+
+
 ### johnnyengine (macosx)
 
 

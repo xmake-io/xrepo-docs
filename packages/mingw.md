@@ -4762,6 +4762,30 @@ add_requires("jansson")
 ```
 
 
+### jnipp (mingw)
+
+
+| Description | *C++ wrapper for the Java Native Interface* |
+| -- | -- |
+| Homepage | [https://github.com/mitchdowd/jnipp](https://github.com/mitchdowd/jnipp) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | x86_64 |
+| Definition | [jnipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jnipp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] jnipp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jnipp")
+```
+
+
 ### joltphysics (mingw)
 
 
