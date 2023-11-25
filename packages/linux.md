@@ -1557,8 +1557,8 @@ add_requires("blosc")
 | Description | *Library for the Bluetooth protocol stack for Linux* |
 | -- | -- |
 | Homepage | [http://www.bluez.org](http://www.bluez.org) |
-| License | GPL-2.0 |
-| Versions | 5.68 |
+| License | GPL-2.0-or-later |
+| Versions | 5.68, 5.69, 5.70 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bluez/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bluez/xmake.lua) |
 
