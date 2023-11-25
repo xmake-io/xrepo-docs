@@ -4884,7 +4884,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.10, v1.13, v1.15, v1.17, v1.8 |
+| Versions | v1.10, v1.13, v1.15, v1.17, v1.19, v1.8 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 

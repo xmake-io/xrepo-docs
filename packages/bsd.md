@@ -4748,7 +4748,7 @@ add_requires("libbigwig")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.10, v1.13, v1.15, v1.17, v1.8 |
+| Versions | v1.10, v1.13, v1.15, v1.17, v1.19, v1.8 |
 | Architectures | i386, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
