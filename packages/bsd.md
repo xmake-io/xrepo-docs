@@ -11785,6 +11785,30 @@ add_requires("zopfli")
 ```
 
 
+### zpp_throwing (bsd)
+
+
+| Description | *Using coroutines to implement C++ exceptions for freestanding environments* |
+| -- | -- |
+| Homepage | [https://github.com/eyalz800/zpp_throwing](https://github.com/eyalz800/zpp_throwing) |
+| License | MIT |
+| Versions | v1.0.1 |
+| Architectures | i386, x86_64 |
+| Definition | [zpp_throwing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zpp_throwing/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zpp_throwing
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zpp_throwing")
+```
+
+
 ### zstd (bsd)
 
 
