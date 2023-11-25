@@ -2789,7 +2789,7 @@ add_requires("collada-dom")
 | -- | -- |
 | Homepage | [https://github.com/David-Haim/concurrencpp](https://github.com/David-Haim/concurrencpp) |
 | License | MIT |
-| Versions | 0.1.5, 0.1.6 |
+| Versions | 0.1.5, 0.1.6, 0.1.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [concurrencpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrencpp/xmake.lua) |
 
