@@ -292,7 +292,7 @@ add_requires("autoconf-archive")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
-| Versions | 1.15.1, 1.16.1, 1.16.4, 1.9.5, 1.9.6 |
+| Versions | 1.15.1, 1.16.1, 1.16.4, 1.16.5, 1.9.5, 1.9.6 |
 | Architectures | i386, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
@@ -794,7 +794,7 @@ add_requires("bin2c")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/binutils/binutils.html](https://www.gnu.org/software/binutils/binutils.html) |
 | License | GPL-2.0 |
-| Versions | 2.34, 2.38 |
+| Versions | 2.34, 2.38, 2.41 |
 | Architectures | i386, x86_64 |
 | Definition | [binutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/binutils/xmake.lua) |
 
@@ -7066,7 +7066,7 @@ add_requires("prvhash")
 | Description | *Pystring is a collection of C++ functions which match the interface and behavior of python's string class methods using std::string.* |
 | -- | -- |
 | Homepage | [https://github.com/imageworks/pystring](https://github.com/imageworks/pystring) |
-| Versions | 2020.02.04 |
+| Versions | 2020.02.04, 2023.07.23 |
 | Architectures | i386, x86_64 |
 | Definition | [pystring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pystring/xmake.lua) |
 
@@ -8467,7 +8467,7 @@ add_requires("string-view-lite")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2 |
+| Versions | v1.2.2, v2.0.3 |
 | Architectures | i386, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 

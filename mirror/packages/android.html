@@ -581,7 +581,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.15.1, 1.16.1, 1.16.4, 1.9.5, 1.9.6</td>
+<td>1.15.1, 1.16.1, 1.16.4, 1.16.5, 1.9.5, 1.9.6</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -1043,7 +1043,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.34, 2.38</td>
+<td>2.34, 2.38, 2.41</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -13346,7 +13346,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2020.02.04</td>
+<td>2020.02.04, 2023.07.23</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -15926,6 +15926,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("string-view-lite")
+</code></pre>
+<h3 id="stringzillaandroid">stringzilla (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Up to 10x faster string search, split, sort, and shuffle for long strings and multi-gigabyte files in Python and C, leveraging SIMD with just a few lines of Arm Neon and x86 AVX2 &amp; AVX-512 intrinsics 🦖</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://ashvardanian.com/posts/stringzilla/">https://ashvardanian.com/posts/stringzilla/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.2.2, v2.0.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua">stringzilla/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] stringzilla
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("stringzilla")
 </code></pre>
 <h3 id="strtkandroid">strtk (android)</h3>
 <table>

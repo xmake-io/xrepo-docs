@@ -603,7 +603,7 @@ add_requires("autodiff")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
-| Versions | 1.15.1, 1.16.1, 1.16.4, 1.9.5, 1.9.6 |
+| Versions | 1.15.1, 1.16.1, 1.16.4, 1.16.5, 1.9.5, 1.9.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
@@ -1270,7 +1270,7 @@ add_requires("bin2c")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/binutils/binutils.html](https://www.gnu.org/software/binutils/binutils.html) |
 | License | GPL-2.0 |
-| Versions | 2.34, 2.38 |
+| Versions | 2.34, 2.38, 2.41 |
 | Architectures | arm64, x86_64 |
 | Definition | [binutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/binutils/xmake.lua) |
 
@@ -6950,7 +6950,7 @@ add_requires("gnu-rm")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/sed/](https://www.gnu.org/software/sed/) |
 | License | GPL-3.0 |
-| Versions | 4.8 |
+| Versions | 4.8, 4.9 |
 | Architectures | arm64, x86_64 |
 | Definition | [gnu-sed/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-sed/xmake.lua) |
 
@@ -11638,7 +11638,7 @@ add_requires("libtask")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libtasn1/](https://www.gnu.org/software/libtasn1/) |
 | License | LGPL-2.1 |
-| Versions | 4.15.0 |
+| Versions | 4.15.0, 4.19.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libtasn1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtasn1/xmake.lua) |
 
@@ -11779,7 +11779,7 @@ add_requires("libui")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libunistring/](https://www.gnu.org/software/libunistring/) |
 | License | GPL-3.0 |
-| Versions | 0.9.10 |
+| Versions | 0.9.10, 1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libunistring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunistring/xmake.lua) |
 
@@ -14747,7 +14747,7 @@ add_requires("mosquitto")
 | -- | -- |
 | Homepage | [http://www.multiprecision.org/mpc/](http://www.multiprecision.org/mpc/) |
 | License | LGPL-3.0 |
-| Versions | 1.2.1 |
+| Versions | 1.2.1, 1.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [mpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpc/xmake.lua) |
 
@@ -15458,7 +15458,7 @@ add_requires("neargye-scope_guard")
 | -- | -- |
 | Homepage | [https://www.lysator.liu.se/~nisse/nettle/](https://www.lysator.liu.se/~nisse/nettle/) |
 | License | LGPL-3.0 |
-| Versions | 3.6 |
+| Versions | 3.6, 3.9.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [nettle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nettle/xmake.lua) |
 
@@ -18281,7 +18281,7 @@ add_requires("pycdc")
 | Description | *Pystring is a collection of C++ functions which match the interface and behavior of python's string class methods using std::string.* |
 | -- | -- |
 | Homepage | [https://github.com/imageworks/pystring](https://github.com/imageworks/pystring) |
-| Versions | 2020.02.04 |
+| Versions | 2020.02.04, 2023.07.23 |
 | Architectures | arm64, x86_64 |
 | Definition | [pystring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pystring/xmake.lua) |
 
@@ -21210,6 +21210,30 @@ xrepo install string-view-lite
 
 ```lua
 add_requires("string-view-lite")
+```
+
+
+### stringzilla (macosx)
+
+
+| Description | *Up to 10x faster string search, split, sort, and shuffle for long strings and multi-gigabyte files in Python and C, leveraging SIMD with just a few lines of Arm Neon and x86 AVX2 & AVX-512 intrinsics 🦖* |
+| -- | -- |
+| Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
+| License | Apache-2.0 |
+| Versions | v1.2.2, v2.0.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stringzilla
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stringzilla")
 ```
 
 
