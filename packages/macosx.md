@@ -4762,7 +4762,7 @@ add_requires("elfio")
 | -- | -- |
 | Homepage | [https://www.embree.org/](https://www.embree.org/) |
 | License | Apache-2.0 |
-| Versions | v3.12.1, v3.13.0, v3.13.3, v3.13.4, v3.13.5 |
+| Versions | v3.12.1, v3.13.0, v3.13.3, v3.13.4, v3.13.5, v4.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [embree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/embree/xmake.lua) |
 
