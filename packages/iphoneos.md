@@ -2282,6 +2282,30 @@ add_requires("easyloggingpp")
 ```
 
 
+### easywsclient (iphoneos)
+
+
+| Description | *A short and sweet WebSocket client for C++* |
+| -- | -- |
+| Homepage | [https://github.com/dhbaird/easywsclient](https://github.com/dhbaird/easywsclient) |
+| License | MIT |
+| Versions | 2021.01.12 |
+| Architectures | arm64, x86_64 |
+| Definition | [easywsclient/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/easywsclient/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos easywsclient
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("easywsclient")
+```
+
+
 ### effolkronium-random (iphoneos)
 
 
