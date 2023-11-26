@@ -6287,9 +6287,9 @@ add_requires("gdal")
 
 | Description | *GdkPixbuf is a library that loads image data in various formats and stores it as linear buffers in memory. The buffers can then be scaled, composited, modified, saved, or rendered.* |
 | -- | -- |
-| Homepage | [https://gitlab.gnome.org/GNOME/gdk-pixbuf](https://gitlab.gnome.org/GNOME/gdk-pixbuf) |
-| License | LGPL-2.0 |
-| Versions | 2.42.6 |
+| Homepage | [https://docs.gtk.org/gdk-pixbuf/](https://docs.gtk.org/gdk-pixbuf/) |
+| License | LGPL-2.1 |
+| Versions | 2.42.10, 2.42.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [gdk-pixbuf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdk-pixbuf/xmake.lua) |
 

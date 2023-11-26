@@ -6361,6 +6361,30 @@ add_requires("gdal")
 ```
 
 
+### gdk-pixbuf (windows)
+
+
+| Description | *GdkPixbuf is a library that loads image data in various formats and stores it as linear buffers in memory. The buffers can then be scaled, composited, modified, saved, or rendered.* |
+| -- | -- |
+| Homepage | [https://docs.gtk.org/gdk-pixbuf/](https://docs.gtk.org/gdk-pixbuf/) |
+| License | LGPL-2.1 |
+| Versions | 2.42.10, 2.42.6 |
+| Architectures | arm64, x64, x86 |
+| Definition | [gdk-pixbuf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdk-pixbuf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gdk-pixbuf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gdk-pixbuf")
+```
+
+
 ### geant4 (windows)
 
 
