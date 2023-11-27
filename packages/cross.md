@@ -4288,6 +4288,30 @@ add_requires("ispc")
 ```
 
 
+### ixwebsocket (cross)
+
+
+| Description | *websocket and http client and server library, with TLS support and very few dependencies* |
+| -- | -- |
+| Homepage | [https://github.com/machinezone/IXWebSocket](https://github.com/machinezone/IXWebSocket) |
+| License | BSD-3-Clause |
+| Versions | v11.4.4 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ixwebsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ixwebsocket/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ixwebsocket
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ixwebsocket")
+```
+
+
 
 ## j
 ### jsmn (cross)

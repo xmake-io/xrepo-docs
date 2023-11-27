@@ -4234,6 +4234,30 @@ add_requires("ispc")
 ```
 
 
+### ixwebsocket (iphoneos)
+
+
+| Description | *websocket and http client and server library, with TLS support and very few dependencies* |
+| -- | -- |
+| Homepage | [https://github.com/machinezone/IXWebSocket](https://github.com/machinezone/IXWebSocket) |
+| License | BSD-3-Clause |
+| Versions | v11.4.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [ixwebsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ixwebsocket/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos ixwebsocket
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ixwebsocket")
+```
+
+
 
 ## j
 ### joltphysics (iphoneos)
