@@ -13999,7 +13999,7 @@ add_requires("ninja")
 | -- | -- |
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
 | License | MIT |
-| Versions | v3.10.0, v3.10.5, v3.11.2, v3.9.1 |
+| Versions | v3.10.0, v3.10.5, v3.11.2, v3.11.3, v3.9.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
