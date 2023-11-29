@@ -7982,6 +7982,30 @@ add_requires("sobjectizer")
 ```
 
 
+### soci (wasm)
+
+
+| Description | *Official repository of the SOCI - The C++ Database Access Library* |
+| -- | -- |
+| Homepage | [http://soci.sourceforge.net/](http://soci.sourceforge.net/) |
+| License | BSL-1.0 |
+| Versions | v4.0.3 |
+| Architectures | wasm32, wasm64 |
+| Definition | [soci/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soci/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm soci
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soci")
+```
+
+
 ### sockpp (wasm)
 
 

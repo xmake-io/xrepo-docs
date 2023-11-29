@@ -18762,6 +18762,30 @@ add_requires("sobjectizer")
 ```
 
 
+### soci (windows)
+
+
+| Description | *Official repository of the SOCI - The C++ Database Access Library* |
+| -- | -- |
+| Homepage | [http://soci.sourceforge.net/](http://soci.sourceforge.net/) |
+| License | BSL-1.0 |
+| Versions | v4.0.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [soci/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soci/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soci
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soci")
+```
+
+
 ### sockpp (windows)
 
 

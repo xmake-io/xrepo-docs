@@ -8130,6 +8130,30 @@ add_requires("sobjectizer")
 ```
 
 
+### soci (msys)
+
+
+| Description | *Official repository of the SOCI - The C++ Database Access Library* |
+| -- | -- |
+| Homepage | [http://soci.sourceforge.net/](http://soci.sourceforge.net/) |
+| License | BSL-1.0 |
+| Versions | v4.0.3 |
+| Architectures | i386, x86_64 |
+| Definition | [soci/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soci/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soci
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soci")
+```
+
+
 ### sockpp (msys)
 
 

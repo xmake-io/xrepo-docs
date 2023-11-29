@@ -9383,6 +9383,30 @@ add_requires("sobjectizer")
 ```
 
 
+### soci (iphoneos)
+
+
+| Description | *Official repository of the SOCI - The C++ Database Access Library* |
+| -- | -- |
+| Homepage | [http://soci.sourceforge.net/](http://soci.sourceforge.net/) |
+| License | BSL-1.0 |
+| Versions | v4.0.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [soci/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soci/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos soci
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soci")
+```
+
+
 ### sockpp (iphoneos)
 
 

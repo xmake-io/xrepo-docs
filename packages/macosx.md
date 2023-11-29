@@ -1673,7 +1673,7 @@ add_requires("brotli")
 | Description | *brpc is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc.* |
 | -- | -- |
 | Homepage | [https://github.com/apache/incubator-brpc](https://github.com/apache/incubator-brpc) |
-| Versions | 1.3.0, 1.4.0, 1.5.0, 1.6.1 |
+| Versions | 1.3.0, 1.4.0, 1.5.0, 1.6.1, 1.7.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [brpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brpc/xmake.lua) |
 
@@ -20598,6 +20598,30 @@ xrepo install sobjectizer
 
 ```lua
 add_requires("sobjectizer")
+```
+
+
+### soci (macosx)
+
+
+| Description | *Official repository of the SOCI - The C++ Database Access Library* |
+| -- | -- |
+| Homepage | [http://soci.sourceforge.net/](http://soci.sourceforge.net/) |
+| License | BSL-1.0 |
+| Versions | v4.0.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [soci/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soci/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soci
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soci")
 ```
 
 
