@@ -7234,6 +7234,54 @@ add_requires("gtest")
 ```
 
 
+### gtk+4 (windows)
+
+
+| Description | *Toolkit for creating graphical user interfaces* |
+| -- | -- |
+| Homepage | [https://gtk.org/](https://gtk.org/) |
+| License | LGPL-2.0-or-later |
+| Versions | 4.13.3 |
+| Architectures | x64, x86 |
+| Definition | [gtk+4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtk+4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gtk+4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gtk+4")
+```
+
+
+### gtk4 (windows)
+
+
+| Description | *Toolkit for creating graphical user interfaces* |
+| -- | -- |
+| Homepage | [https://gtk.org/](https://gtk.org/) |
+| License | LGPL-2.0-or-later |
+| Versions | 4.13.3 |
+| Architectures | x64, x86 |
+| Definition | [gtk4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtk4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gtk4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gtk4")
+```
+
+
 ### guetzli (windows)
 
 
@@ -13667,7 +13715,7 @@ add_requires("nanovg")
 | -- | -- |
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
 | License | BSD-2-Clause |
-| Versions | 2.13.03, 2.15.05 |
+| Versions | 2.13.03, 2.15.05, 2.16.01 |
 | Architectures | arm64, x64, x86 |
 | Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 

@@ -7085,7 +7085,7 @@ add_requires("nanosvg")
 | -- | -- |
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
 | License | BSD-2-Clause |
-| Versions | 2.13.03, 2.15.05 |
+| Versions | 2.13.03, 2.15.05, 2.16.01 |
 | Architectures | arm64, x86_64 |
 | Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 

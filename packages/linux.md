@@ -7819,6 +7819,54 @@ add_requires("gtest")
 ```
 
 
+### gtk+4 (linux)
+
+
+| Description | *Toolkit for creating graphical user interfaces* |
+| -- | -- |
+| Homepage | [https://gtk.org/](https://gtk.org/) |
+| License | LGPL-2.0-or-later |
+| Versions | 4.13.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [gtk+4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtk+4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gtk+4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gtk+4")
+```
+
+
+### gtk4 (linux)
+
+
+| Description | *Toolkit for creating graphical user interfaces* |
+| -- | -- |
+| Homepage | [https://gtk.org/](https://gtk.org/) |
+| License | LGPL-2.0-or-later |
+| Versions | 4.13.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [gtk4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtk4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gtk4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gtk4")
+```
+
+
 ### guetzli (linux)
 
 
@@ -10429,6 +10477,29 @@ xrepo install libdivsufsort
 
 ```lua
 add_requires("libdivsufsort")
+```
+
+
+### libdrm (linux)
+
+
+| Description | *libdrm - userspace library for drm (direct rendering manager)* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/mesa/drm](https://gitlab.freedesktop.org/mesa/drm) |
+| Versions | 2.4.118 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libdrm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdrm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdrm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdrm")
 ```
 
 
@@ -13217,7 +13288,7 @@ add_requires("libxft")
 | Description | *X.Org: Library for the X Input Extension* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.7.10, 1.8 |
+| Versions | 1.7.10, 1.8, 1.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxi/xmake.lua) |
 
@@ -16476,7 +16547,7 @@ add_requires("nanovg")
 | -- | -- |
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
 | License | BSD-2-Clause |
-| Versions | 2.13.03, 2.15.05 |
+| Versions | 2.13.03, 2.15.05, 2.16.01 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 
