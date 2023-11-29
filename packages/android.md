@@ -454,6 +454,30 @@ add_requires("b2")
 ```
 
 
+### backportcpp (android)
+
+
+| Description | *Library of backported modern C++ types to work with C++11* |
+| -- | -- |
+| Homepage | [https://github.com/bitwizeshift/BackportCpp](https://github.com/bitwizeshift/BackportCpp) |
+| License | MIT |
+| Versions | v1.2.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [backportcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/backportcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] backportcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("backportcpp")
+```
+
+
 ### base-n (android)
 
 
