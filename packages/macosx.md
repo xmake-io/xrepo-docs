@@ -17972,6 +17972,30 @@ add_requires("poppler")
 ```
 
 
+### popt (macosx)
+
+
+| Description | *C library for parsing command line parameters* |
+| -- | -- |
+| Homepage | [http://ftp.rpm.org/popt/](http://ftp.rpm.org/popt/) |
+| License | MIT |
+| Versions | 1.19 |
+| Architectures | arm64, x86_64 |
+| Definition | [popt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/popt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install popt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("popt")
+```
+
+
 ### portaudio (macosx)
 
 
