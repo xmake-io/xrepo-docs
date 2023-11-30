@@ -3617,6 +3617,30 @@ add_requires("ispc")
 ```
 
 
+### itlib (wasm)
+
+
+| Description | *A collection of std-like single-header C++ libraries* |
+| -- | -- |
+| Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
+| License | MIT |
+| Versions | v1.10.3 |
+| Architectures | wasm32, wasm64 |
+| Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm itlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("itlib")
+```
+
+
 ### ixwebsocket (wasm)
 
 

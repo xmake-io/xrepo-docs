@@ -4258,6 +4258,30 @@ add_requires("ispc")
 ```
 
 
+### itlib (iphoneos)
+
+
+| Description | *A collection of std-like single-header C++ libraries* |
+| -- | -- |
+| Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
+| License | MIT |
+| Versions | v1.10.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos itlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("itlib")
+```
+
+
 ### ixwebsocket (iphoneos)
 
 
