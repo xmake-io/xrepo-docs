@@ -21403,7 +21403,7 @@ add_requires("vc")
 | -- | -- |
 | Homepage | [https://github.com/Chuyu-Team/VC-LTL5](https://github.com/Chuyu-Team/VC-LTL5) |
 | License | EPL-2.0 |
-| Versions | 5.0.6, 5.0.7 |
+| Versions | 5.0.6, 5.0.7, 5.0.9 |
 | Architectures | arm64, x64, x86 |
 | Definition | [vc-ltl5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vc-ltl5/xmake.lua) |
 
