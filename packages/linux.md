@@ -24448,7 +24448,7 @@ add_requires("unity_test")
 | -- | -- |
 | Homepage | [https://github.com/MisterTea/UniversalStacktrace](https://github.com/MisterTea/UniversalStacktrace) |
 | License | Apache-2.0 |
-| Versions | 2022.11.06 |
+| Versions | 2022.11.06, 2023.10.15 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [universal_stacktrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/universal_stacktrace/xmake.lua) |
 
