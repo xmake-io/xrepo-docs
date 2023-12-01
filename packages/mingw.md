@@ -239,6 +239,30 @@ add_requires("asio")
 ```
 
 
+### asio2 (mingw)
+
+
+| Description | *Header only c++ network library, based on asio, support tcp,udp,http,websocket,rpc,ssl,icmp,serial_port.* |
+| -- | -- |
+| Homepage | [https://github.com/zhllxt/asio2](https://github.com/zhllxt/asio2) |
+| License | BSL-1.0 |
+| Versions | 2023.05.09 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [asio2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] asio2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asio2")
+```
+
+
 ### assimp (mingw)
 
 

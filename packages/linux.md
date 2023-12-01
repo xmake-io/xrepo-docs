@@ -455,6 +455,30 @@ add_requires("asio")
 ```
 
 
+### asio2 (linux)
+
+
+| Description | *Header only c++ network library, based on asio, support tcp,udp,http,websocket,rpc,ssl,icmp,serial_port.* |
+| -- | -- |
+| Homepage | [https://github.com/zhllxt/asio2](https://github.com/zhllxt/asio2) |
+| License | BSL-1.0 |
+| Versions | 2023.05.09 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [asio2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install asio2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asio2")
+```
+
+
 ### asmjit (linux)
 
 
