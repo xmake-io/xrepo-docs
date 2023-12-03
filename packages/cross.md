@@ -7204,6 +7204,30 @@ add_requires("nuklear")
 
 
 ## o
+### ocilib (cross)
+
+
+| Description | *OCILIB (C and C++ Drivers for Oracle) - Open source C and C++ library for accessing Oracle databases* |
+| -- | -- |
+| Homepage | [http://www.ocilib.net](http://www.ocilib.net) |
+| License | Apache-2.0 |
+| Versions | v4.7.6 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ocilib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ocilib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ocilib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ocilib")
+```
+
+
 ### olive.c (cross)
 
 

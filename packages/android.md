@@ -7957,6 +7957,30 @@ add_requires("nuklear")
 
 
 ## o
+### ocilib (android)
+
+
+| Description | *OCILIB (C and C++ Drivers for Oracle) - Open source C and C++ library for accessing Oracle databases* |
+| -- | -- |
+| Homepage | [http://www.ocilib.net](http://www.ocilib.net) |
+| License | Apache-2.0 |
+| Versions | v4.7.6 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [ocilib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ocilib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ocilib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ocilib")
+```
+
+
 ### olive.c (android)
 
 

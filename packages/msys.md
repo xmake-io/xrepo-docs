@@ -6444,6 +6444,30 @@ add_requires("nuklear")
 
 
 ## o
+### ocilib (msys)
+
+
+| Description | *OCILIB (C and C++ Drivers for Oracle) - Open source C and C++ library for accessing Oracle databases* |
+| -- | -- |
+| Homepage | [http://www.ocilib.net](http://www.ocilib.net) |
+| License | Apache-2.0 |
+| Versions | v4.7.6 |
+| Architectures | i386, x86_64 |
+| Definition | [ocilib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ocilib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ocilib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ocilib")
+```
+
+
 ### olive.c (msys)
 
 
