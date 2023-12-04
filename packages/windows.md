@@ -408,6 +408,30 @@ add_requires("asio2")
 ```
 
 
+### asio3 (windows)
+
+
+| Description | *Header only c++ network library, based on c++ 20 coroutine and asio* |
+| -- | -- |
+| Homepage | [https://github.com/zhllxt/asio3](https://github.com/zhllxt/asio3) |
+| License | BSL-1.0 |
+| Versions | 2023.12.03 |
+| Architectures | arm64, x64, x86 |
+| Definition | [asio3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install asio3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("asio3")
+```
+
+
 ### asmjit (windows)
 
 
