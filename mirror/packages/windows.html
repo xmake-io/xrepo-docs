@@ -904,6 +904,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("async_simple")
 </code></pre>
+<h3 id="atomic_queuewindows">atomic_queue (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C++ lockless queue.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/max0x7ba/atomic_queue">https://github.com/max0x7ba/atomic_queue</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.5</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua">atomic_queue/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install atomic_queue
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("atomic_queue")
+</code></pre>
 <h3 id="autoconfwindows">autoconf (windows)</h3>
 <table>
 <thead>
@@ -5563,6 +5600,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ctre")
+</code></pre>
+<h3 id="ctrlcwindows">ctrl-c (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Crossplatform code to handle Ctrl+C signal</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/evgenykislov/ctrl-c">https://github.com/evgenykislov/ctrl-c</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.09.02</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctrl-c/xmake.lua">ctrl-c/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install ctrl-c
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("ctrl-c")
 </code></pre>
 <h3 id="cubebwindows">cubeb (windows)</h3>
 <table>
@@ -33803,7 +33877,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.2.0, v3.2.2</td>
+<td>v3.2.0, v3.2.2, v3.2.3, v3.2.4</td>
 </tr>
 <tr>
 <td>Architectures</td>

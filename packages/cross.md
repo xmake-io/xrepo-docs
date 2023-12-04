@@ -239,6 +239,30 @@ add_requires("assimp")
 ```
 
 
+### atomic_queue (cross)
+
+
+| Description | *C++ lockless queue.* |
+| -- | -- |
+| Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
+| License | MIT |
+| Versions | v1.5 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] atomic_queue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("atomic_queue")
+```
+
+
 ### autoconf (cross)
 
 
@@ -2042,6 +2066,30 @@ xrepo install -p cross [--sdk=/xxx] ctre
 
 ```lua
 add_requires("ctre")
+```
+
+
+### ctrl-c (cross)
+
+
+| Description | *Crossplatform code to handle Ctrl+C signal* |
+| -- | -- |
+| Homepage | [https://github.com/evgenykislov/ctrl-c](https://github.com/evgenykislov/ctrl-c) |
+| License | MIT |
+| Versions | 2023.09.02 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ctrl-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctrl-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ctrl-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ctrl-c")
 ```
 
 

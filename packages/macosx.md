@@ -574,6 +574,30 @@ add_requires("async_simple")
 ```
 
 
+### atomic_queue (macosx)
+
+
+| Description | *C++ lockless queue.* |
+| -- | -- |
+| Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
+| License | MIT |
+| Versions | v1.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install atomic_queue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("atomic_queue")
+```
+
+
 ### autoconf (macosx)
 
 
@@ -3655,6 +3679,30 @@ xrepo install ctre
 
 ```lua
 add_requires("ctre")
+```
+
+
+### ctrl-c (macosx)
+
+
+| Description | *Crossplatform code to handle Ctrl+C signal* |
+| -- | -- |
+| Homepage | [https://github.com/evgenykislov/ctrl-c](https://github.com/evgenykislov/ctrl-c) |
+| License | MIT |
+| Versions | 2023.09.02 |
+| Architectures | arm64, x86_64 |
+| Definition | [ctrl-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctrl-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ctrl-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ctrl-c")
 ```
 
 
@@ -24101,7 +24149,7 @@ add_requires("workspace_hanya")
 | Description | *Cross-Platform C++ GUI Library* |
 | -- | -- |
 | Homepage | [https://www.wxwidgets.org/](https://www.wxwidgets.org/) |
-| Versions | v3.2.0, v3.2.2 |
+| Versions | v3.2.0, v3.2.2, v3.2.3, v3.2.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [wxwidgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wxwidgets/xmake.lua) |
 

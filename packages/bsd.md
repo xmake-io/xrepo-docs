@@ -311,6 +311,30 @@ add_requires("assimp")
 ```
 
 
+### atomic_queue (bsd)
+
+
+| Description | *C++ lockless queue.* |
+| -- | -- |
+| Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
+| License | MIT |
+| Versions | v1.5 |
+| Architectures | i386, x86_64 |
+| Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install atomic_queue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("atomic_queue")
+```
+
+
 ### autoconf (bsd)
 
 
