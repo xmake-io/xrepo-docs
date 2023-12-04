@@ -3263,7 +3263,7 @@ add_requires("cppp-reiconv")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/cpptrace](https://github.com/jeremy-rifkin/cpptrace) |
 | License | MIT |
-| Versions | v0.1 |
+| Versions | v0.1, v0.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpptrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpptrace/xmake.lua) |
 
@@ -9934,6 +9934,29 @@ xrepo install libdivsufsort
 
 ```lua
 add_requires("libdivsufsort")
+```
+
+
+### libdwarf (macosx)
+
+
+| Description | *Libdwarf is a C library intended to simplify reading (and writing) applications using DWARF2, DWARF3, DWARF4 and DWARF5* |
+| -- | -- |
+| Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
+| Versions | 0.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdwarf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdwarf")
 ```
 
 
