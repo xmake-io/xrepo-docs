@@ -1856,6 +1856,30 @@ add_requires("cppp-reiconv")
 ```
 
 
+### cpptrace (mingw)
+
+
+| Description | *Lightweight, zero-configuration-required, and cross-platform stacktrace library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/jeremy-rifkin/cpptrace](https://github.com/jeremy-rifkin/cpptrace) |
+| License | MIT |
+| Versions | v0.1, v0.3.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cpptrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpptrace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cpptrace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpptrace")
+```
+
+
 ### cr (mingw)
 
 
