@@ -22919,6 +22919,29 @@ add_requires("ssp")
 ```
 
 
+### standardlib (linux)
+
+
+| Description | *an actually usable and maximally efficient C standard library to make C as easy (or easier) than other languages* |
+| -- | -- |
+| Homepage | [https://github.com/gregoryc/standardlib](https://github.com/gregoryc/standardlib) |
+| Versions | 2023.12.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [standardlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/standardlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install standardlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("standardlib")
+```
+
+
 ### starpu (linux)
 
 
