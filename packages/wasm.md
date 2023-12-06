@@ -1901,6 +1901,30 @@ add_requires("demumble")
 ```
 
 
+### digestpp (wasm)
+
+
+| Description | *C++11 header-only message digest library* |
+| -- | -- |
+| Homepage | [https://github.com/kerukuro/digestpp](https://github.com/kerukuro/digestpp) |
+| License | MIT |
+| Versions | 2023.11.8 |
+| Architectures | wasm32, wasm64 |
+| Definition | [digestpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/digestpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm digestpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("digestpp")
+```
+
+
 ### distorm (wasm)
 
 
@@ -6705,6 +6729,30 @@ add_requires("perlinnoise")
 ```
 
 
+### picobench (wasm)
+
+
+| Description | *A micro microbenchmarking library for C++11 in a single header file* |
+| -- | -- |
+| Homepage | [https://github.com/iboB/picobench](https://github.com/iboB/picobench) |
+| License | MIT |
+| Versions | 2.06 |
+| Architectures | wasm32, wasm64 |
+| Definition | [picobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picobench/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm picobench
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("picobench")
+```
+
+
 ### picojson (wasm)
 
 
@@ -7818,6 +7866,30 @@ add_requires("s7")
 ```
 
 
+### sailormoon_flags (wasm)
+
+
+| Description | *Simple, extensible, header-only C++17 argument parser released into the public domain.* |
+| -- | -- |
+| Homepage | [https://github.com/sailormoon/flags](https://github.com/sailormoon/flags) |
+| License | MIT |
+| Versions | 1.1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [sailormoon_flags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sailormoon_flags/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm sailormoon_flags
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sailormoon_flags")
+```
+
+
 ### scnlib (wasm)
 
 
@@ -8429,6 +8501,30 @@ xrepo install -p wasm stb
 
 ```lua
 add_requires("stb")
+```
+
+
+### stduuid (wasm)
+
+
+| Description | *A C++17 cross-platform implementation for UUIDs* |
+| -- | -- |
+| Homepage | [https://github.com/mariusbancila/stduuid](https://github.com/mariusbancila/stduuid) |
+| License | MIT |
+| Versions | 1.2.3 |
+| Architectures | wasm32, wasm64 |
+| Definition | [stduuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stduuid/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm stduuid
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stduuid")
 ```
 
 
@@ -9171,6 +9267,30 @@ xrepo install -p wasm toojpeg
 
 ```lua
 add_requires("toojpeg")
+```
+
+
+### transwarp (wasm)
+
+
+| Description | *A header-only C++ library for task concurrency* |
+| -- | -- |
+| Homepage | [https://github.com/bloomen/transwarp](https://github.com/bloomen/transwarp) |
+| License | MIT |
+| Versions | 2.2.3 |
+| Architectures | wasm32, wasm64 |
+| Definition | [transwarp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/transwarp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm transwarp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("transwarp")
 ```
 
 

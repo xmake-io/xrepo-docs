@@ -4231,6 +4231,30 @@ add_requires("devil")
 ```
 
 
+### digestpp (macosx)
+
+
+| Description | *C++11 header-only message digest library* |
+| -- | -- |
+| Homepage | [https://github.com/kerukuro/digestpp](https://github.com/kerukuro/digestpp) |
+| License | MIT |
+| Versions | 2023.11.8 |
+| Architectures | arm64, x86_64 |
+| Definition | [digestpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/digestpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install digestpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("digestpp")
+```
+
+
 ### discord (macosx)
 
 
@@ -17759,6 +17783,30 @@ add_requires("perlinnoise")
 ```
 
 
+### picobench (macosx)
+
+
+| Description | *A micro microbenchmarking library for C++11 in a single header file* |
+| -- | -- |
+| Homepage | [https://github.com/iboB/picobench](https://github.com/iboB/picobench) |
+| License | MIT |
+| Versions | 2.06 |
+| Architectures | arm64, x86_64 |
+| Definition | [picobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picobench/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install picobench
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("picobench")
+```
+
+
 ### picojson (macosx)
 
 
@@ -20154,6 +20202,30 @@ add_requires("s7")
 ```
 
 
+### sailormoon_flags (macosx)
+
+
+| Description | *Simple, extensible, header-only C++17 argument parser released into the public domain.* |
+| -- | -- |
+| Homepage | [https://github.com/sailormoon/flags](https://github.com/sailormoon/flags) |
+| License | MIT |
+| Versions | 1.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [sailormoon_flags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sailormoon_flags/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sailormoon_flags
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sailormoon_flags")
+```
+
+
 ### samurai (macosx)
 
 
@@ -21476,6 +21548,30 @@ add_requires("stb")
 ```
 
 
+### stduuid (macosx)
+
+
+| Description | *A C++17 cross-platform implementation for UUIDs* |
+| -- | -- |
+| Homepage | [https://github.com/mariusbancila/stduuid](https://github.com/mariusbancila/stduuid) |
+| License | MIT |
+| Versions | 1.2.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [stduuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stduuid/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stduuid
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stduuid")
+```
+
+
 ### stlab (macosx)
 
 
@@ -22780,6 +22876,30 @@ xrepo install tracy
 
 ```lua
 add_requires("tracy")
+```
+
+
+### transwarp (macosx)
+
+
+| Description | *A header-only C++ library for task concurrency* |
+| -- | -- |
+| Homepage | [https://github.com/bloomen/transwarp](https://github.com/bloomen/transwarp) |
+| License | MIT |
+| Versions | 2.2.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [transwarp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/transwarp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install transwarp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("transwarp")
 ```
 
 

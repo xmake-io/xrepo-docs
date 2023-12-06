@@ -2428,6 +2428,30 @@ add_requires("demumble")
 ```
 
 
+### digestpp (cross)
+
+
+| Description | *C++11 header-only message digest library* |
+| -- | -- |
+| Homepage | [https://github.com/kerukuro/digestpp](https://github.com/kerukuro/digestpp) |
+| License | MIT |
+| Versions | 2023.11.8 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [digestpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/digestpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] digestpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("digestpp")
+```
+
+
 ### distorm (cross)
 
 
@@ -7799,6 +7823,30 @@ add_requires("perlinnoise")
 ```
 
 
+### picobench (cross)
+
+
+| Description | *A micro microbenchmarking library for C++11 in a single header file* |
+| -- | -- |
+| Homepage | [https://github.com/iboB/picobench](https://github.com/iboB/picobench) |
+| License | MIT |
+| Versions | 2.06 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [picobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picobench/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] picobench
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("picobench")
+```
+
+
 ### picojson (cross)
 
 
@@ -8938,6 +8986,30 @@ add_requires("s7")
 ```
 
 
+### sailormoon_flags (cross)
+
+
+| Description | *Simple, extensible, header-only C++17 argument parser released into the public domain.* |
+| -- | -- |
+| Homepage | [https://github.com/sailormoon/flags](https://github.com/sailormoon/flags) |
+| License | MIT |
+| Versions | 1.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [sailormoon_flags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sailormoon_flags/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] sailormoon_flags
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sailormoon_flags")
+```
+
+
 ### scnlib (cross)
 
 
@@ -9689,6 +9761,30 @@ xrepo install -p cross [--sdk=/xxx] stb
 
 ```lua
 add_requires("stb")
+```
+
+
+### stduuid (cross)
+
+
+| Description | *A C++17 cross-platform implementation for UUIDs* |
+| -- | -- |
+| Homepage | [https://github.com/mariusbancila/stduuid](https://github.com/mariusbancila/stduuid) |
+| License | MIT |
+| Versions | 1.2.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [stduuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stduuid/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] stduuid
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stduuid")
 ```
 
 
@@ -10527,6 +10623,30 @@ xrepo install -p cross [--sdk=/xxx] toojpeg
 
 ```lua
 add_requires("toojpeg")
+```
+
+
+### transwarp (cross)
+
+
+| Description | *A header-only C++ library for task concurrency* |
+| -- | -- |
+| Homepage | [https://github.com/bloomen/transwarp](https://github.com/bloomen/transwarp) |
+| License | MIT |
+| Versions | 2.2.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [transwarp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/transwarp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] transwarp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("transwarp")
 ```
 
 
