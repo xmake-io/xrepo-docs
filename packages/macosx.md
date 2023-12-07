@@ -17523,6 +17523,30 @@ add_requires("patch")
 ```
 
 
+### paul_thread_pool (macosx)
+
+
+| Description | *A modern, fast, lightweight thread pool library based on C++20* |
+| -- | -- |
+| Homepage | [https://github.com/DeveloperPaul123/thread-pool](https://github.com/DeveloperPaul123/thread-pool) |
+| License | MIT |
+| Versions | 0.6.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [paul_thread_pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/paul_thread_pool/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install paul_thread_pool
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("paul_thread_pool")
+```
+
+
 ### pcg-cpp (macosx)
 
 
