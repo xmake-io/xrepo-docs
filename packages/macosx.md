@@ -7825,6 +7825,30 @@ add_requires("hffix")
 ```
 
 
+### hidapi (macosx)
+
+
+| Description | *A Simple cross-platform library for communicating with HID devices* |
+| -- | -- |
+| Homepage | [https://libusb.info/hidapi/](https://libusb.info/hidapi/) |
+| License | BSD-3-Clause |
+| Versions | 0.14.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [hidapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hidapi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hidapi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hidapi")
+```
+
+
 ### highfive (macosx)
 
 
