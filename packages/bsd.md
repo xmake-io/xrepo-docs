@@ -11285,6 +11285,30 @@ add_requires("uchardet")
 ```
 
 
+### ufbx (bsd)
+
+
+| Description | *Single source file FBX loader* |
+| -- | -- |
+| Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
+| License | MIT |
+| Versions | v0.6.1 |
+| Architectures | i386, x86_64 |
+| Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ufbx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ufbx")
+```
+
+
 ### uni_algo (bsd)
 
 

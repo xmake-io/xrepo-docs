@@ -9416,6 +9416,30 @@ add_requires("uchardet")
 ```
 
 
+### ufbx (wasm)
+
+
+| Description | *Single source file FBX loader* |
+| -- | -- |
+| Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
+| License | MIT |
+| Versions | v0.6.1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm ufbx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ufbx")
+```
+
+
 ### uni_algo (wasm)
 
 
