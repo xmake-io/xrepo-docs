@@ -5989,6 +5989,30 @@ add_requires("libunwind")
 ```
 
 
+### libusb (android)
+
+
+| Description | *A cross-platform library to access USB devices * |
+| -- | -- |
+| Homepage | [https://libusb.info](https://libusb.info) |
+| License | LGPL-2.1 |
+| Versions | v1.0.26 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libusb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusb")
+```
+
+
 ### libuuid (android)
 
 

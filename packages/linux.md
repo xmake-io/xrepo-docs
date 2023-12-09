@@ -13031,10 +13031,11 @@ add_requires("liburing")
 ### libusb (linux)
 
 
-| Description | *A cross-platform library to access USB devices.* |
+| Description | *A cross-platform library to access USB devices * |
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
-| Versions | v1.0.24 |
+| License | LGPL-2.1 |
+| Versions | v1.0.26 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 

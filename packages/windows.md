@@ -11083,10 +11083,11 @@ add_requires("libui")
 ### libusb (windows)
 
 
-| Description | *A cross-platform library to access USB devices.* |
+| Description | *A cross-platform library to access USB devices * |
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
-| Versions | v1.0.24 |
+| License | LGPL-2.1 |
+| Versions | v1.0.26 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 

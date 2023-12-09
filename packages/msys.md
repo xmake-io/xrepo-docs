@@ -4975,6 +4975,30 @@ add_requires("libtool")
 ```
 
 
+### libusb (msys)
+
+
+| Description | *A cross-platform library to access USB devices * |
+| -- | -- |
+| Homepage | [https://libusb.info](https://libusb.info) |
+| License | LGPL-2.1 |
+| Versions | v1.0.26 |
+| Architectures | i386, x86_64 |
+| Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libusb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusb")
+```
+
+
 ### libxlsxwriter (msys)
 
 
