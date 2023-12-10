@@ -4574,6 +4574,30 @@ add_requires("itlib")
 ```
 
 
+### ittapi (bsd)
+
+
+| Description | *Intel® Instrumentation and Tracing Technology (ITT) and Just-In-Time (JIT) API* |
+| -- | -- |
+| Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
+| License | BSD-3-Clause |
+| Versions | v3.24.4 |
+| Architectures | i386, x86_64 |
+| Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ittapi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ittapi")
+```
+
+
 ### ixwebsocket (bsd)
 
 

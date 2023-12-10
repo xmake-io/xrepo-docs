@@ -4408,6 +4408,30 @@ add_requires("itlib")
 ```
 
 
+### ittapi (cross)
+
+
+| Description | *Intel® Instrumentation and Tracing Technology (ITT) and Just-In-Time (JIT) API* |
+| -- | -- |
+| Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
+| License | BSD-3-Clause |
+| Versions | v3.24.4 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ittapi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ittapi")
+```
+
+
 ### ixwebsocket (cross)
 
 

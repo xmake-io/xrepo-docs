@@ -4903,7 +4903,7 @@ add_requires("draco")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
 | License | MIT |
-| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2 |
+| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2, v1.9.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
 
@@ -9296,6 +9296,30 @@ xrepo install itstool
 
 ```lua
 add_requires("itstool")
+```
+
+
+### ittapi (linux)
+
+
+| Description | *Intel® Instrumentation and Tracing Technology (ITT) and Just-In-Time (JIT) API* |
+| -- | -- |
+| Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
+| License | BSD-3-Clause |
+| Versions | v3.24.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ittapi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ittapi")
 ```
 
 
