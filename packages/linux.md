@@ -150,6 +150,7 @@ add_requires("alembic")
 | Description | *The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.* |
 | -- | -- |
 | Homepage | [https://alsa-project.org/wiki/Main_Page](https://alsa-project.org/wiki/Main_Page) |
+| License | LGPL-2.1 |
 | Versions | 1.2.10 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [alsa-lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alsa-lib/xmake.lua) |
@@ -9419,6 +9420,30 @@ add_requires("jemalloc")
 ```
 
 
+### jnipp (linux)
+
+
+| Description | *C++ wrapper for the Java Native Interface* |
+| -- | -- |
+| Homepage | [https://github.com/mitchdowd/jnipp](https://github.com/mitchdowd/jnipp) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | x86_64 |
+| Definition | [jnipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jnipp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jnipp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jnipp")
+```
+
+
 ### johnnyengine (linux)
 
 
@@ -18085,6 +18110,30 @@ xrepo install openimageio
 
 ```lua
 add_requires("openimageio")
+```
+
+
+### openjdk (linux)
+
+
+| Description | *Java Development Kit builds, from Oracle* |
+| -- | -- |
+| Homepage | [https://jdk.java.net](https://jdk.java.net) |
+| License | GPL-2.0 |
+| Versions | 20.0.2 |
+| Architectures | x86_64 |
+| Definition | [openjdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openjdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openjdk")
 ```
 
 
