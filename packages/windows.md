@@ -13647,7 +13647,7 @@ add_requires("mxml")
 | -- | -- |
 | Homepage | [https://dev.mysql.com/doc](https://dev.mysql.com/doc) |
 | Versions | 5.7.29, 8.0.31 |
-| Architectures | arm64, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [mysql/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mysql/xmake.lua) |
 
 ##### Install command
