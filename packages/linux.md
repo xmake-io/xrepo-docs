@@ -3376,6 +3376,30 @@ add_requires("cpp-sort")
 ```
 
 
+### cpp-tbox (linux)
+
+
+| Description | *A complete Linux application software development tool library and runtime framework, aim at make C++ development easy.* |
+| -- | -- |
+| Homepage | [https://github.com/cpp-main/cpp-tbox](https://github.com/cpp-main/cpp-tbox) |
+| License | MIT |
+| Versions | 2023.12.13 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cpp-tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-tbox/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp-tbox
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-tbox")
+```
+
+
 ### cpp20-http-client (linux)
 
 
