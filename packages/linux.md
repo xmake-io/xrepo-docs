@@ -27418,6 +27418,30 @@ add_requires("zstd")
 ```
 
 
+### zxing-cpp (linux)
+
+
+| Description | *C++ port of ZXing* |
+| -- | -- |
+| Homepage | [https://github.com/zxing-cpp/zxing-cpp](https://github.com/zxing-cpp/zxing-cpp) |
+| License | Apache-2.0 |
+| Versions | v2.2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [zxing-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zxing-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zxing-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zxing-cpp")
+```
+
+
 ### zycore-c (linux)
 
 
