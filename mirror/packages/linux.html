@@ -3427,7 +3427,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0</td>
+<td>v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -32370,6 +32370,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("rply")
+</code></pre>
+<h3 id="rpmlinux">rpm (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Standard unix software packaging tool</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://rpm.org">https://rpm.org</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>4.19.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rpm/xmake.lua">rpm/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install rpm
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("rpm")
 </code></pre>
 <h3 id="rpmalloclinux">rpmalloc (linux)</h3>
 <table>

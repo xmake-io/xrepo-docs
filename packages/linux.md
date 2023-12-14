@@ -2197,7 +2197,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0 |
+| Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -21453,6 +21453,29 @@ xrepo install rply
 
 ```lua
 add_requires("rply")
+```
+
+
+### rpm (linux)
+
+
+| Description | *Standard unix software packaging tool* |
+| -- | -- |
+| Homepage | [https://rpm.org](https://rpm.org) |
+| Versions | 4.19.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rpm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rpm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rpm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rpm")
 ```
 
 
