@@ -5831,6 +5831,29 @@ add_requires("libflac")
 ```
 
 
+### libgd (mingw)
+
+
+| Description | *GD is an open source code library for the dynamic creation of images by programmers.* |
+| -- | -- |
+| Homepage | [http://libgd.org/](http://libgd.org/) |
+| Versions | 2.3.2, 2023.12.04 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libgd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libgd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgd")
+```
+
+
 ### libhv (mingw)
 
 

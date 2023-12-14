@@ -10370,7 +10370,7 @@ add_requires("libgcrypt")
 | Description | *GD is an open source code library for the dynamic creation of images by programmers.* |
 | -- | -- |
 | Homepage | [http://libgd.org/](http://libgd.org/) |
-| Versions | 2.3.2 |
+| Versions | 2.3.2, 2023.12.04 |
 | Architectures | arm64, x86_64 |
 | Definition | [libgd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgd/xmake.lua) |
 
