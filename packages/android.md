@@ -10315,7 +10315,7 @@ add_requires("simplethreadpool")
 | Description | *A fast compressor/decompressor* |
 | -- | -- |
 | Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
-| Versions | 1.1.8, 1.1.9 |
+| Versions | 1.1.10, 1.1.8, 1.1.9 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
 
@@ -12937,7 +12937,7 @@ add_requires("zlib")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
-| Versions | 2.0.5, 2.0.6 |
+| Versions | 2.0.5, 2.0.6, 2.1.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 

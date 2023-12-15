@@ -11409,7 +11409,7 @@ add_requires("simpleini")
 | Description | *A fast compressor/decompressor* |
 | -- | -- |
 | Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
-| Versions | 1.1.8, 1.1.9 |
+| Versions | 1.1.10, 1.1.8, 1.1.9 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
 
@@ -14261,6 +14261,30 @@ xrepo install -p mingw [--mingw=/xxx] zlib
 
 ```lua
 add_requires("zlib")
+```
+
+
+### zlib-ng (mingw)
+
+
+| Description | *zlib replacement with optimizations for next generation systems.* |
+| -- | -- |
+| Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
+| License | zlib |
+| Versions | 2.0.5, 2.0.6, 2.1.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] zlib-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlib-ng")
 ```
 
 

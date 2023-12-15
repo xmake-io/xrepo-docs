@@ -15083,7 +15083,7 @@ add_requires("moonjit")
 | -- | -- |
 | Homepage | [https://mosquitto.org](https://mosquitto.org) |
 | License | EPL-2.0 |
-| Versions | v2.0.15 |
+| Versions | v2.0.15, v2.0.18 |
 | Architectures | arm64, x86_64 |
 | Definition | [mosquitto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mosquitto/xmake.lua) |
 
@@ -20921,7 +20921,7 @@ add_requires("skia")
 | Description | *A fast compressor/decompressor* |
 | -- | -- |
 | Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
-| Versions | 1.1.8, 1.1.9 |
+| Versions | 1.1.10, 1.1.8, 1.1.9 |
 | Architectures | arm64, x86_64 |
 | Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
 
@@ -25409,7 +25409,7 @@ add_requires("zlib")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
-| Versions | 2.0.5, 2.0.6 |
+| Versions | 2.0.5, 2.0.6, 2.1.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 
