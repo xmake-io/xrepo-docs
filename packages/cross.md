@@ -10028,6 +10028,30 @@ add_requires("swig")
 ```
 
 
+### symengine (cross)
+
+
+| Description | *SymEngine is a fast symbolic manipulation library, written in C++* |
+| -- | -- |
+| Homepage | [https://symengine.org](https://symengine.org) |
+| License | MIT |
+| Versions | v0.11.2 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [symengine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/symengine/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] symengine
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("symengine")
+```
+
+
 
 ## t
 ### tabulate (cross)

@@ -22002,6 +22002,30 @@ add_requires("swisseph")
 ```
 
 
+### symengine (macosx)
+
+
+| Description | *SymEngine is a fast symbolic manipulation library, written in C++* |
+| -- | -- |
+| Homepage | [https://symengine.org](https://symengine.org) |
+| License | MIT |
+| Versions | v0.11.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [symengine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/symengine/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install symengine
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("symengine")
+```
+
+
 ### szip (macosx)
 
 

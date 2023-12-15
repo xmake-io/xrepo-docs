@@ -10566,6 +10566,30 @@ add_requires("swig")
 ```
 
 
+### symengine (bsd)
+
+
+| Description | *SymEngine is a fast symbolic manipulation library, written in C++* |
+| -- | -- |
+| Homepage | [https://symengine.org](https://symengine.org) |
+| License | MIT |
+| Versions | v0.11.2 |
+| Architectures | i386, x86_64 |
+| Definition | [symengine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/symengine/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install symengine
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("symengine")
+```
+
+
 
 ## t
 ### tabulate (bsd)
