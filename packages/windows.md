@@ -22912,7 +22912,7 @@ add_requires("xproperty")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xsimd/](https://github.com/xtensor-stack/xsimd/) |
 | License | BSD-3-Clause |
-| Versions | 7.6.0, 8.0.3, 8.0.5, 9.0.1 |
+| Versions | 10.0.0, 7.6.0, 8.0.3, 8.0.5, 9.0.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [xsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xsimd/xmake.lua) |
 
@@ -22936,7 +22936,7 @@ add_requires("xsimd")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtensor/](https://github.com/xtensor-stack/xtensor/) |
 | License | BSD-3-Clause |
-| Versions | 0.23.10, 0.24.0, 0.24.1, 0.24.3 |
+| Versions | 0.23.10, 0.24.0, 0.24.1, 0.24.3, 0.24.7 |
 | Architectures | arm64, x64, x86 |
 | Definition | [xtensor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor/xmake.lua) |
 
@@ -23008,7 +23008,7 @@ add_requires("xtensor-io")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtl/](https://github.com/xtensor-stack/xtl/) |
 | License | BSD-3-Clause |
-| Versions | 0.7.2, 0.7.3, 0.7.4 |
+| Versions | 0.7.2, 0.7.3, 0.7.4, 0.7.6 |
 | Architectures | arm64, x64, x86 |
 | Definition | [xtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtl/xmake.lua) |
 
