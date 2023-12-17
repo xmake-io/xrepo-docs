@@ -10088,6 +10088,30 @@ add_requires("vulkan-headers")
 ```
 
 
+### vulkan-utility-libraries (msys)
+
+
+| Description | *Utility libraries for Vulkan developers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Utility-Libraries](https://github.com/KhronosGroup/Vulkan-Utility-Libraries) |
+| License | Apache-2.0 |
+| Versions | v1.3.268 |
+| Architectures | i386, x86_64 |
+| Definition | [vulkan-utility-libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-utility-libraries/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-utility-libraries
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-utility-libraries")
+```
+
+
 ### vvenc (msys)
 
 

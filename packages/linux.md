@@ -25847,6 +25847,30 @@ add_requires("vulkan-tools")
 ```
 
 
+### vulkan-utility-libraries (linux)
+
+
+| Description | *Utility libraries for Vulkan developers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Utility-Libraries](https://github.com/KhronosGroup/Vulkan-Utility-Libraries) |
+| License | Apache-2.0 |
+| Versions | v1.3.268 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [vulkan-utility-libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-utility-libraries/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-utility-libraries
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-utility-libraries")
+```
+
+
 ### vulkan-validationlayers (linux)
 
 
