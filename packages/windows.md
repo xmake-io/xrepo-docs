@@ -13333,6 +13333,29 @@ add_requires("mma")
 ```
 
 
+### mman_win32 (windows)
+
+
+| Description | *mman library for Windows. mirror of https://code.google.com/p/mman-win32/* |
+| -- | -- |
+| Homepage | [https://github.com/alitrack/mman-win32](https://github.com/alitrack/mman-win32) |
+| Versions | 2019.10.11 |
+| Architectures | arm64, x64, x86 |
+| Definition | [mman_win32/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mman_win32/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mman_win32
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mman_win32")
+```
+
+
 ### mnn (windows)
 
 
@@ -22686,6 +22709,29 @@ xrepo install winflexbison
 
 ```lua
 add_requires("winflexbison")
+```
+
+
+### wingetopt (windows)
+
+
+| Description | *getopt library for Windows compilers* |
+| -- | -- |
+| Homepage | [https://github.com/alex85k/wingetopt](https://github.com/alex85k/wingetopt) |
+| Versions | 2023.10.29 |
+| Architectures | arm64, x64, x86 |
+| Definition | [wingetopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wingetopt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wingetopt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wingetopt")
 ```
 
 
