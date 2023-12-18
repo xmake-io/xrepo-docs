@@ -21356,6 +21356,30 @@ add_requires("unicorn")
 ```
 
 
+### unistd_h (windows)
+
+
+| Description | *header-only Windows implementation of the <unistd.h> header* |
+| -- | -- |
+| Homepage | [https://github.com/win32ports/unistd_h](https://github.com/win32ports/unistd_h) |
+| License | MIT |
+| Versions | 2019.07.30 |
+| Architectures | arm64, x64, x86 |
+| Definition | [unistd_h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unistd_h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install unistd_h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("unistd_h")
+```
+
+
 ### units (windows)
 
 
