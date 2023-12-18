@@ -4354,6 +4354,30 @@ add_requires("dirent")
 ```
 
 
+### dirent_h (windows)
+
+
+| Description | *header-only Windows implementation of the <dirent.h> header* |
+| -- | -- |
+| Homepage | [https://github.com/win32ports/dirent_h](https://github.com/win32ports/dirent_h) |
+| License | MIT |
+| Versions | 2021.09.25 |
+| Architectures | arm64, x64, x86 |
+| Definition | [dirent_h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dirent_h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dirent_h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dirent_h")
+```
+
+
 ### discord (windows)
 
 
@@ -19807,6 +19831,30 @@ add_requires("string-view-lite")
 ```
 
 
+### strings_h (windows)
+
+
+| Description | *header-only Windows implementation of the <strings.h> header* |
+| -- | -- |
+| Homepage | [https://github.com/win32ports/strings_h](https://github.com/win32ports/strings_h) |
+| License | MIT |
+| Versions | 2023.03.17 |
+| Architectures | arm64, x64, x86 |
+| Definition | [strings_h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strings_h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install strings_h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("strings_h")
+```
+
+
 ### stringzilla (windows)
 
 
@@ -20066,6 +20114,54 @@ xrepo install symengine
 
 ```lua
 add_requires("symengine")
+```
+
+
+### sys_time_h (windows)
+
+
+| Description | *header-only Windows implementation of the <sys/time.h> header* |
+| -- | -- |
+| Homepage | [https://github.com/win32ports/sys_time_h](https://github.com/win32ports/sys_time_h) |
+| License | MIT |
+| Versions | 2023.03.22 |
+| Architectures | arm64, x64, x86 |
+| Definition | [sys_time_h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sys_time_h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sys_time_h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sys_time_h")
+```
+
+
+### sys_wait_h (windows)
+
+
+| Description | *header-only Windows implementation of the <sys/wait.h> header* |
+| -- | -- |
+| Homepage | [https://github.com/win32ports/sys_wait_h](https://github.com/win32ports/sys_wait_h) |
+| License | MIT |
+| Versions | 2019.05.12 |
+| Architectures | arm64, x64, x86 |
+| Definition | [sys_wait_h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sys_wait_h/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sys_wait_h
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sys_wait_h")
 ```
 
 
