@@ -2915,7 +2915,7 @@ add_requires("fdk-aac")
 | -- | -- |
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
-| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9 |
+| Versions | v2.4.8, v3.0.0, v3.2.10, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9 |
 | Architectures | i386, x86_64 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
@@ -3552,7 +3552,8 @@ add_requires("gsl-lite")
 | Description | *Google Testing and Mocking Framework.* |
 | -- | -- |
 | Homepage | [https://github.com/google/googletest](https://github.com/google/googletest) |
-| Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.8.1 |
+| License | BSD-3 |
+| Versions | v1.10.0, v1.11.0, v1.12.0, v1.12.1, v1.13.0, v1.14.0, v1.8.1 |
 | Architectures | i386, x86_64 |
 | Definition | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
 
