@@ -1474,6 +1474,30 @@ add_requires("convertutf")
 ```
 
 
+### cpp-dump (iphoneos)
+
+
+| Description | *A C++ library for debugging purposes that can print any variable, even user-defined types.* |
+| -- | -- |
+| Homepage | [https://github.com/philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) |
+| License | MIT |
+| Versions | v0.5.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [cpp-dump/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-dump/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos cpp-dump
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-dump")
+```
+
+
 ### cpp-httplib (iphoneos)
 
 

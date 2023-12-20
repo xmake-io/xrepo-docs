@@ -2953,6 +2953,30 @@ add_requires("corrade")
 ```
 
 
+### cpp-dump (windows)
+
+
+| Description | *A C++ library for debugging purposes that can print any variable, even user-defined types.* |
+| -- | -- |
+| Homepage | [https://github.com/philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) |
+| License | MIT |
+| Versions | v0.5.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cpp-dump/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-dump/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp-dump
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-dump")
+```
+
+
 ### cpp-httplib (windows)
 
 
@@ -12287,6 +12311,30 @@ xrepo install magnum-plugins
 
 ```lua
 add_requires("magnum-plugins")
+```
+
+
+### mailio (windows)
+
+
+| Description | *mailio is a cross platform C++ library for MIME format and SMTP, POP3 and IMAP protocols. It is based on standard C++ 17 and Boost library.* |
+| -- | -- |
+| Homepage | [https://github.com/karastojko/mailio](https://github.com/karastojko/mailio) |
+| License | BSD |
+| Versions | 0.23.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [mailio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mailio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mailio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mailio")
 ```
 
 

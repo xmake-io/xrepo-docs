@@ -1667,6 +1667,30 @@ add_requires("convertutf")
 ```
 
 
+### cpp-dump (cross)
+
+
+| Description | *A C++ library for debugging purposes that can print any variable, even user-defined types.* |
+| -- | -- |
+| Homepage | [https://github.com/philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) |
+| License | MIT |
+| Versions | v0.5.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cpp-dump/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-dump/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cpp-dump
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-dump")
+```
+
+
 ### cpp-httplib (cross)
 
 
@@ -6181,6 +6205,30 @@ xrepo install -p cross [--sdk=/xxx] magic_enum
 
 ```lua
 add_requires("magic_enum")
+```
+
+
+### mailio (cross)
+
+
+| Description | *mailio is a cross platform C++ library for MIME format and SMTP, POP3 and IMAP protocols. It is based on standard C++ 17 and Boost library.* |
+| -- | -- |
+| Homepage | [https://github.com/karastojko/mailio](https://github.com/karastojko/mailio) |
+| License | BSD |
+| Versions | 0.23.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mailio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mailio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mailio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mailio")
 ```
 
 

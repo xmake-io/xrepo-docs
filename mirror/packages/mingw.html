@@ -2617,6 +2617,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("convertutf")
 </code></pre>
+<h3 id="cppdumpmingw">cpp-dump (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A C++ library for debugging purposes that can print any variable, even user-defined types.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/philip82148/cpp-dump">https://github.com/philip82148/cpp-dump</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.5.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-dump/xmake.lua">cpp-dump/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] cpp-dump
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("cpp-dump")
+</code></pre>
 <h3 id="cpphttplibmingw">cpp-httplib (mingw)</h3>
 <table>
 <thead>
@@ -11079,6 +11116,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("magic_enum")
+</code></pre>
+<h3 id="mailiomingw">mailio (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>mailio is a cross platform C++ library for MIME format and SMTP, POP3 and IMAP protocols. It is based on standard C++ 17 and Boost library.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/karastojko/mailio">https://github.com/karastojko/mailio</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.23.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mailio/xmake.lua">mailio/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] mailio
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("mailio")
 </code></pre>
 <h3 id="makemingw">make (mingw)</h3>
 <table>
