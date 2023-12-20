@@ -22526,6 +22526,30 @@ add_requires("skia")
 ```
 
 
+### smoothcpp (linux)
+
+
+| Description | *Easy to use first cross platform cpp library. Intended as a supplement to the c++ standard library.* |
+| -- | -- |
+| Homepage | [https://github.com/heheda123123/smoothcpp](https://github.com/heheda123123/smoothcpp) |
+| License | MIT |
+| Versions | 2023.12.20 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [smoothcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/smoothcpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install smoothcpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("smoothcpp")
+```
+
+
 ### snappy (linux)
 
 
