@@ -4762,7 +4762,7 @@ add_requires("eabase")
 | -- | -- |
 | Homepage | [https://github.com/electronicarts/EASTL](https://github.com/electronicarts/EASTL) |
 | License | BSD-3-Clause |
-| Versions | 3.17.03, 3.17.06, 3.21.12 |
+| Versions | 3.17.03, 3.17.06, 3.18.00, 3.21.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [eastl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eastl/xmake.lua) |
 
