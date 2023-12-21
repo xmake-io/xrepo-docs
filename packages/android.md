@@ -95,6 +95,30 @@ add_requires("aqt")
 ```
 
 
+### arduinojson (android)
+
+
+| Description | *📟 JSON library for Arduino and embedded C++. Simple and efficient.* |
+| -- | -- |
+| Homepage | [https://arduinojson.org](https://arduinojson.org) |
+| License | MIT |
+| Versions | v6.21.4 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] arduinojson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("arduinojson")
+```
+
+
 ### argh (android)
 
 

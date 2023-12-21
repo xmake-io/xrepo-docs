@@ -47,6 +47,30 @@ add_requires("aqt")
 ```
 
 
+### arduinojson (wasm)
+
+
+| Description | *📟 JSON library for Arduino and embedded C++. Simple and efficient.* |
+| -- | -- |
+| Homepage | [https://arduinojson.org](https://arduinojson.org) |
+| License | MIT |
+| Versions | v6.21.4 |
+| Architectures | wasm32, wasm64 |
+| Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm arduinojson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("arduinojson")
+```
+
+
 ### argh (wasm)
 
 

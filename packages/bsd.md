@@ -95,6 +95,30 @@ add_requires("aqt")
 ```
 
 
+### arduinojson (bsd)
+
+
+| Description | *📟 JSON library for Arduino and embedded C++. Simple and efficient.* |
+| -- | -- |
+| Homepage | [https://arduinojson.org](https://arduinojson.org) |
+| License | MIT |
+| Versions | v6.21.4 |
+| Architectures | i386, x86_64 |
+| Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install arduinojson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("arduinojson")
+```
+
+
 ### argh (bsd)
 
 

@@ -95,6 +95,30 @@ add_requires("aqt")
 ```
 
 
+### arduinojson (cross)
+
+
+| Description | *📟 JSON library for Arduino and embedded C++. Simple and efficient.* |
+| -- | -- |
+| Homepage | [https://arduinojson.org](https://arduinojson.org) |
+| License | MIT |
+| Versions | v6.21.4 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] arduinojson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("arduinojson")
+```
+
+
 ### argh (cross)
 
 
