@@ -18995,6 +18995,30 @@ add_requires("paul_thread_pool")
 ```
 
 
+### pca9685 (linux)
+
+
+| Description | *PCA9685 C++ Library. Works with SunFounder* |
+| -- | -- |
+| Homepage | [https://github.com/chaoticmachinery/pca9685](https://github.com/chaoticmachinery/pca9685) |
+| License | LGPL-2.1 |
+| Versions | 2017.12.07 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [pca9685/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pca9685/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pca9685
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pca9685")
+```
+
+
 ### pcg-cpp (linux)
 
 
