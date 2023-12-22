@@ -3518,6 +3518,29 @@ add_requires("cppfront")
 ```
 
 
+### cppgpio (linux)
+
+
+| Description | *C++14 GPIO library for embedded systems on Linux* |
+| -- | -- |
+| Homepage | [https://github.com/JoachimSchurig/CppGPIO](https://github.com/JoachimSchurig/CppGPIO) |
+| Versions | 2016.03.11, 2016.04.04, 2022.02.20 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cppgpio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppgpio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppgpio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppgpio")
+```
+
+
 ### cppitertools (linux)
 
 
