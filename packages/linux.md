@@ -19398,6 +19398,29 @@ add_requires("piex")
 ```
 
 
+### pigpio (linux)
+
+
+| Description | *pigpio is a C library for the Raspberry which allows control of the General Purpose Input Outputs (GPIO).* |
+| -- | -- |
+| Homepage | [https://github.com/joan2937/pigpio](https://github.com/joan2937/pigpio) |
+| Versions | v79 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [pigpio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pigpio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pigpio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pigpio")
+```
+
+
 ### pigz (linux)
 
 
