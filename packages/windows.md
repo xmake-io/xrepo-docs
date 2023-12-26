@@ -22768,7 +22768,7 @@ add_requires("whisper.cpp")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/wil](https://github.com/microsoft/wil) |
 | License | MIT |
-| Versions | 2022.09.16 |
+| Versions | 2022.09.16, 2023.12.16 |
 | Architectures | arm64, x64, x86 |
 | Definition | [wil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wil/xmake.lua) |
 
