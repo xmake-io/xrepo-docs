@@ -16570,6 +16570,29 @@ add_requires("msquic")
 ```
 
 
+### muduo (linux)
+
+
+| Description | *Event-driven network library for multi-threaded Linux server in C++11* |
+| -- | -- |
+| Homepage | [https://github.com/chenshuo/muduo](https://github.com/chenshuo/muduo) |
+| Versions | 2022.11.01 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [muduo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muduo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install muduo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muduo")
+```
+
+
 ### mumps (linux)
 
 
@@ -21084,7 +21107,7 @@ add_requires("raylib")
 | -- | -- |
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01 |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
