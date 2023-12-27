@@ -2839,10 +2839,11 @@ add_requires("concurrencpp")
 ### concurrentqueue (windows)
 
 
-| Description | *An industrial-strength lock-free queue for C++.* |
+| Description | *A fast multi-producer, multi-consumer lock-free concurrent queue for C++11* |
 | -- | -- |
 | Homepage | [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) |
-| Versions |  |
+| License | BSD |
+| Versions | v1.0.4 |
 | Architectures | arm64, x64, x86 |
 | Definition | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
 
@@ -4446,6 +4447,30 @@ xrepo install discord
 
 ```lua
 add_requires("discord")
+```
+
+
+### dispenso (windows)
+
+
+| Description | *The project provides high-performance concurrency, enabling highly parallel computation.* |
+| -- | -- |
+| Homepage | [https://github.com/facebookincubator/dispenso](https://github.com/facebookincubator/dispenso) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | x64 |
+| Definition | [dispenso/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dispenso/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dispenso
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dispenso")
 ```
 
 

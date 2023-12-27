@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: muduo, pigpio, port**
+- **Recently added: dispenso, muduo, pigpio**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

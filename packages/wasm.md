@@ -1265,10 +1265,11 @@ add_requires("cnpy")
 ### concurrentqueue (wasm)
 
 
-| Description | *An industrial-strength lock-free queue for C++.* |
+| Description | *A fast multi-producer, multi-consumer lock-free concurrent queue for C++11* |
 | -- | -- |
 | Homepage | [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) |
-| Versions |  |
+| License | BSD |
+| Versions | v1.0.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
 
@@ -1970,6 +1971,30 @@ xrepo install -p wasm digestpp
 
 ```lua
 add_requires("digestpp")
+```
+
+
+### dispenso (wasm)
+
+
+| Description | *The project provides high-performance concurrency, enabling highly parallel computation.* |
+| -- | -- |
+| Homepage | [https://github.com/facebookincubator/dispenso](https://github.com/facebookincubator/dispenso) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [dispenso/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dispenso/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm dispenso
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dispenso")
 ```
 
 
