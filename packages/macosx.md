@@ -17913,7 +17913,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, v4.5.10, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.6.1 |
+| Versions | 4.1, v4.5.10, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.6.1, v4.6.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
