@@ -5172,6 +5172,30 @@ add_requires("libmodplug")
 ```
 
 
+### libmorton (cross)
+
+
+| Description | *C++ header-only library with methods to efficiently encode/decode Morton codes in/from 2D/3D coordinates* |
+| -- | -- |
+| Homepage | [https://github.com/Forceflow/libmorton](https://github.com/Forceflow/libmorton) |
+| License | MIT |
+| Versions | v0.2.12 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libmorton/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmorton/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libmorton
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmorton")
+```
+
+
 ### libnpy (cross)
 
 

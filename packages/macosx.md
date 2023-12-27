@@ -11026,6 +11026,30 @@ add_requires("libmodplug")
 ```
 
 
+### libmorton (macosx)
+
+
+| Description | *C++ header-only library with methods to efficiently encode/decode Morton codes in/from 2D/3D coordinates* |
+| -- | -- |
+| Homepage | [https://github.com/Forceflow/libmorton](https://github.com/Forceflow/libmorton) |
+| License | MIT |
+| Versions | v0.2.12 |
+| Architectures | arm64, x86_64 |
+| Definition | [libmorton/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmorton/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmorton
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmorton")
+```
+
+
 ### libmspack (macosx)
 
 
