@@ -17766,7 +17766,7 @@ add_requires("oatpp-websocket")
 | Description | *Portable framework for the Objective-C language.* |
 | -- | -- |
 | Homepage | [https://objfw.nil.im](https://objfw.nil.im) |
-| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3 |
+| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [objfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/objfw/xmake.lua) |
 
