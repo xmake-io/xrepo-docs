@@ -9760,6 +9760,29 @@ add_requires("libdivsufsort")
 ```
 
 
+### libdwarf (windows)
+
+
+| Description | *Libdwarf is a C library intended to simplify reading (and writing) applications using DWARF2, DWARF3, DWARF4 and DWARF5* |
+| -- | -- |
+| Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
+| Versions | 0.8.0, 0.9.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdwarf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdwarf")
+```
+
+
 ### libenvpp (windows)
 
 
