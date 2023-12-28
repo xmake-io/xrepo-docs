@@ -8843,7 +8843,7 @@ add_requires("johnnyengine")
 | -- | -- |
 | Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1 |
+| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1, v4.0.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
 
