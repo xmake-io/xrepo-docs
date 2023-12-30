@@ -1735,6 +1735,30 @@ add_requires("cubeb")
 ```
 
 
+### cuda-samples (wasm)
+
+
+| Description | *CUDA Sample Utility Code* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) |
+| License | BSD-3-Clause |
+| Versions | v11.8, v12.3 |
+| Architectures | wasm32, wasm64 |
+| Definition | [cuda-samples/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda-samples/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm cuda-samples
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cuda-samples")
+```
+
+
 ### cutlass (wasm)
 
 
@@ -2842,7 +2866,7 @@ add_requires("function2")
 | Description | *Functional Programming Library for C++. Write concise and readable C++ code.* |
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
-| Versions | v0.2.18-p0 |
+| Versions | v0.2.22 |
 | Architectures | wasm32, wasm64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 

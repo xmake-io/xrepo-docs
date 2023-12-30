@@ -3735,6 +3735,30 @@ add_requires("cubeb")
 ```
 
 
+### cuda-samples (windows)
+
+
+| Description | *CUDA Sample Utility Code* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) |
+| License | BSD-3-Clause |
+| Versions | v11.8, v12.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cuda-samples/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda-samples/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cuda-samples
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cuda-samples")
+```
+
+
 ### cumem (windows)
 
 
@@ -5847,7 +5871,7 @@ add_requires("filament")
 | -- | -- |
 | Homepage | [https://github.com/flann-lib/flann/](https://github.com/flann-lib/flann/) |
 | License | BSD-3-Clause |
-| Versions | 1.9.1 |
+| Versions | 1.9.1, 1.9.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [flann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flann/xmake.lua) |
 
@@ -6314,6 +6338,30 @@ add_requires("frozenca-btree")
 ```
 
 
+### frugally-deep (windows)
+
+
+| Description | *Header-only library for using Keras (TensorFlow) models in C++.* |
+| -- | -- |
+| Homepage | [https://github.com/Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) |
+| License | MIT |
+| Versions | v0.15.29 |
+| Architectures | arm64, x64, x86 |
+| Definition | [frugally-deep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frugally-deep/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install frugally-deep
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("frugally-deep")
+```
+
+
 ### fruit (windows)
 
 
@@ -6416,7 +6464,7 @@ add_requires("function2")
 | Description | *Functional Programming Library for C++. Write concise and readable C++ code.* |
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
-| Versions | v0.2.18-p0 |
+| Versions | v0.2.22 |
 | Architectures | arm64, x64, x86 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 

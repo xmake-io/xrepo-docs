@@ -2166,6 +2166,30 @@ add_requires("cubeb")
 ```
 
 
+### cuda-samples (cross)
+
+
+| Description | *CUDA Sample Utility Code* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) |
+| License | BSD-3-Clause |
+| Versions | v11.8, v12.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cuda-samples/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda-samples/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cuda-samples
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cuda-samples")
+```
+
+
 ### curlcpp (cross)
 
 
@@ -3411,6 +3435,30 @@ add_requires("frozen")
 ```
 
 
+### frugally-deep (cross)
+
+
+| Description | *Header-only library for using Keras (TensorFlow) models in C++.* |
+| -- | -- |
+| Homepage | [https://github.com/Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) |
+| License | MIT |
+| Versions | v0.15.29 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [frugally-deep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frugally-deep/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] frugally-deep
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("frugally-deep")
+```
+
+
 ### fruit (cross)
 
 
@@ -3465,7 +3513,7 @@ add_requires("function2")
 | Description | *Functional Programming Library for C++. Write concise and readable C++ code.* |
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
-| Versions | v0.2.18-p0 |
+| Versions | v0.2.22 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
