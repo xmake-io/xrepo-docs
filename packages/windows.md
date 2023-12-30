@@ -13502,6 +13502,30 @@ add_requires("mkl")
 ```
 
 
+### mlpack (windows)
+
+
+| Description | *mlpack: a fast, header-only C++ machine learning library* |
+| -- | -- |
+| Homepage | [https://www.mlpack.org/](https://www.mlpack.org/) |
+| License | BSD-3-Clause |
+| Versions | 4.3.0 |
+| Architectures | x64, x86 |
+| Definition | [mlpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mlpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mlpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mlpack")
+```
+
+
 ### mma (windows)
 
 
@@ -13830,6 +13854,29 @@ xrepo install msgpack-cxx
 
 ```lua
 add_requires("msgpack-cxx")
+```
+
+
+### mujs (windows)
+
+
+| Description | *An embeddable Javascript interpreter in C.* |
+| -- | -- |
+| Homepage | [http://mujs.com/](http://mujs.com/) |
+| Versions | 1.3.4 |
+| Architectures | arm64, x64, x86 |
+| Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mujs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mujs")
 ```
 
 

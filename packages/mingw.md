@@ -8295,6 +8295,29 @@ add_requires("msgpack-cxx")
 ```
 
 
+### mujs (mingw)
+
+
+| Description | *An embeddable Javascript interpreter in C.* |
+| -- | -- |
+| Homepage | [http://mujs.com/](http://mujs.com/) |
+| Versions | 1.3.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] mujs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mujs")
+```
+
+
 ### muslcc (mingw)
 
 

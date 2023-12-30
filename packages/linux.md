@@ -16195,6 +16195,30 @@ add_requires("mkl")
 ```
 
 
+### mlpack (linux)
+
+
+| Description | *mlpack: a fast, header-only C++ machine learning library* |
+| -- | -- |
+| Homepage | [https://www.mlpack.org/](https://www.mlpack.org/) |
+| License | BSD-3-Clause |
+| Versions | 4.3.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mlpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mlpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mlpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mlpack")
+```
+
+
 ### mma (linux)
 
 
@@ -16687,6 +16711,29 @@ xrepo install muduo
 
 ```lua
 add_requires("muduo")
+```
+
+
+### mujs (linux)
+
+
+| Description | *An embeddable Javascript interpreter in C.* |
+| -- | -- |
+| Homepage | [http://mujs.com/](http://mujs.com/) |
+| Versions | 1.3.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mujs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mujs")
 ```
 
 
