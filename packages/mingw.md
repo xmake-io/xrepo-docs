@@ -7773,6 +7773,30 @@ add_requires("micro-gl")
 ```
 
 
+### microsoft-detours (mingw)
+
+
+| Description | *Detours is a software package for monitoring and instrumenting API calls on Windows. It is distributed in source code form.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/Detours](https://github.com/microsoft/Detours) |
+| License | MIT |
+| Versions | 2023.6.8 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [microsoft-detours/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-detours/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] microsoft-detours
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-detours")
+```
+
+
 ### microsoft-gsl (mingw)
 
 
