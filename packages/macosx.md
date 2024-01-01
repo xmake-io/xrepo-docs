@@ -4523,7 +4523,7 @@ add_requires("double-conversion")
 | -- | -- |
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
-| Versions | 1.9.1, 1.9.2, 1.9.3, 1.9.5, 1.9.6 |
+| Versions | 1.10.0, 1.9.1, 1.9.2, 1.9.3, 1.9.5, 1.9.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
@@ -15846,7 +15846,7 @@ add_requires("nanovdb")
 | -- | -- |
 | Homepage | [https://github.com/memononen/nanovg/](https://github.com/memononen/nanovg/) |
 | License | zlib |
-| Versions | 2021.11.2 |
+| Versions | 2021.11.2, 2023.8.27 |
 | Architectures | arm64, x86_64 |
 | Definition | [nanovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanovg/xmake.lua) |
 

@@ -2527,7 +2527,7 @@ add_requires("doctest")
 | -- | -- |
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
-| Versions | 1.9.1, 1.9.2, 1.9.3, 1.9.5, 1.9.6 |
+| Versions | 1.10.0, 1.9.1, 1.9.2, 1.9.3, 1.9.5, 1.9.6 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
