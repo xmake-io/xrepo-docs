@@ -1920,7 +1920,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0</td>
+<td>v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -16000,6 +16000,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("tiny-process-library")
 </code></pre>
+<h3 id="tinyalloccross">tinyalloc (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>malloc / free replacement for unmanaged, linear memory situations (e.g. WASM, embedded devices...)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/thi-ng/tinyalloc">https://github.com/thi-ng/tinyalloc</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2021.10.08</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyalloc/xmake.lua">tinyalloc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] tinyalloc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("tinyalloc")
+</code></pre>
 <h3 id="tinycborcross">tinycbor (cross)</h3>
 <table>
 <thead>
@@ -17065,7 +17102,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4</td>
+<td>v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5</td>
 </tr>
 <tr>
 <td>Architectures</td>

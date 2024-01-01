@@ -1102,7 +1102,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0 |
+| Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -12785,6 +12785,30 @@ add_requires("tiny-process-library")
 ```
 
 
+### tinyalloc (mingw)
+
+
+| Description | *malloc / free replacement for unmanaged, linear memory situations (e.g. WASM, embedded devices...)* |
+| -- | -- |
+| Homepage | [https://github.com/thi-ng/tinyalloc](https://github.com/thi-ng/tinyalloc) |
+| License | Apache-2.0 |
+| Versions | 2021.10.08 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [tinyalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] tinyalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyalloc")
+```
+
+
 ### tinycbor (mingw)
 
 
@@ -13625,7 +13649,7 @@ add_requires("utf8proc")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
