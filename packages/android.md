@@ -1457,7 +1457,7 @@ add_requires("clipper2")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4 |
+| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
