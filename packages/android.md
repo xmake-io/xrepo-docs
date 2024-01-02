@@ -2905,6 +2905,30 @@ add_requires("eventpp")
 ```
 
 
+### expat (android)
+
+
+| Description | *XML 1.0 parser* |
+| -- | -- |
+| Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
+| License | MIT |
+| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] expat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expat")
+```
+
+
 ### expected-lite (android)
 
 
