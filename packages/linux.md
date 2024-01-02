@@ -21227,7 +21227,7 @@ add_requires("raygui")
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
-| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
