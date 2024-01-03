@@ -3026,6 +3026,30 @@ add_requires("glaze")
 ```
 
 
+### glbinding (wasm)
+
+
+| Description | *A C++ binding for the OpenGL API, generated using the gl.xml specification. * |
+| -- | -- |
+| Homepage | [https://glbinding.org](https://glbinding.org) |
+| License | MIT |
+| Versions | v2.0.0, v2.1.1, v2.1.2, v2.1.3, v2.1.4, v3.0.2, v3.1.0, v3.3.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [glbinding/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glbinding/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm glbinding
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glbinding")
+```
+
+
 ### gli (wasm)
 
 
@@ -3976,6 +4000,29 @@ xrepo install -p wasm kcp
 
 ```lua
 add_requires("kcp")
+```
+
+
+### khrplatform (wasm)
+
+
+| Description | *Khronos Shared Platform Header (<KHR/khrplatform.h>)* |
+| -- | -- |
+| Homepage | [https://registry.khronos.org/EGL](https://registry.khronos.org/EGL) |
+| Versions | latest |
+| Architectures | wasm32, wasm64 |
+| Definition | [khrplatform/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/khrplatform/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm khrplatform
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("khrplatform")
 ```
 
 

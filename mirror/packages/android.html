@@ -5641,6 +5641,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("glaze")
 </code></pre>
+<h3 id="glbindingandroid">glbinding (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A C++ binding for the OpenGL API, generated using the gl.xml specification. </em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://glbinding.org">https://glbinding.org</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v2.0.0, v2.1.1, v2.1.2, v2.1.3, v2.1.4, v3.0.2, v3.1.0, v3.3.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glbinding/xmake.lua">glbinding/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] glbinding
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glbinding")
+</code></pre>
 <h3 id="gliandroid">gli (android)</h3>
 <table>
 <thead>
@@ -7636,6 +7673,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("kcp")
+</code></pre>
+<h3 id="khrplatformandroid">khrplatform (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Khronos Shared Platform Header (<KHR/khrplatform.h>)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://registry.khronos.org/EGL">https://registry.khronos.org/EGL</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>latest</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/k/khrplatform/xmake.lua">khrplatform/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] khrplatform
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("khrplatform")
 </code></pre>
 <h3 id="kiwisolverandroid">kiwisolver (android)</h3>
 <table>
