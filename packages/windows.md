@@ -13502,6 +13502,30 @@ add_requires("mint")
 ```
 
 
+### mio (windows)
+
+
+| Description | *Cross-platform C++11 header-only library for memory mapped file IO* |
+| -- | -- |
+| Homepage | [https://github.com/mandreyel/mio](https://github.com/mandreyel/mio) |
+| License | MIT |
+| Versions | 2021.9.21, 2023.3.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [mio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mio")
+```
+
+
 ### mjson (windows)
 
 

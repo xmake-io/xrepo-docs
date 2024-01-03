@@ -15017,7 +15017,7 @@ add_requires("minizip-ng")
 | -- | -- |
 | Homepage | [https://github.com/mandreyel/mio](https://github.com/mandreyel/mio) |
 | License | MIT |
-| Versions | 2021.9.21 |
+| Versions | 2021.9.21, 2023.3.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [mio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mio/xmake.lua) |
 
