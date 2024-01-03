@@ -6357,7 +6357,7 @@ add_requires("libvorbis")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
 
@@ -12866,7 +12866,7 @@ add_requires("whisper.cpp")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
 
