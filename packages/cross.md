@@ -3483,6 +3483,30 @@ add_requires("fruit")
 ```
 
 
+### ftxui (cross)
+
+
+| Description | *:computer: C++ Functional Terminal User Interface. :heart:* |
+| -- | -- |
+| Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
+| License | MIT |
+| Versions | v3.0.0, v4.1.1, v5.0.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ftxui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ftxui")
+```
+
+
 ### function2 (cross)
 
 
