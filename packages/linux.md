@@ -21251,7 +21251,7 @@ add_requires("rapidjson")
 | -- | -- |
 | Homepage | [https://github.com/raysan5/raygui](https://github.com/raysan5/raygui) |
 | License | zlib |
-| Versions | 3.0, 3.2 |
+| Versions | 3.0, 3.2, 4.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [raygui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raygui/xmake.lua) |
 
@@ -22983,7 +22983,7 @@ add_requires("soci")
 | -- | -- |
 | Homepage | [https://github.com/fpagliughi/sockpp](https://github.com/fpagliughi/sockpp) |
 | License | BSD-3-Clause |
-| Versions | v0.8.1 |
+| Versions | v0.8.1, v0.8.3, v1.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sockpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sockpp/xmake.lua) |
 

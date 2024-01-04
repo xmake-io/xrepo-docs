@@ -9636,7 +9636,7 @@ add_requires("soci")
 | -- | -- |
 | Homepage | [https://github.com/fpagliughi/sockpp](https://github.com/fpagliughi/sockpp) |
 | License | BSD-3-Clause |
-| Versions | v0.8.1 |
+| Versions | v0.8.1, v0.8.3, v1.0.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sockpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sockpp/xmake.lua) |
 

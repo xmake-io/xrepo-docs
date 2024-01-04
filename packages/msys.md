@@ -8593,7 +8593,7 @@ add_requires("soci")
 | -- | -- |
 | Homepage | [https://github.com/fpagliughi/sockpp](https://github.com/fpagliughi/sockpp) |
 | License | BSD-3-Clause |
-| Versions | v0.8.1 |
+| Versions | v0.8.1, v0.8.3, v1.0.0 |
 | Architectures | i386, x86_64 |
 | Definition | [sockpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sockpp/xmake.lua) |
 
