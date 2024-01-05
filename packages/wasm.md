@@ -10308,7 +10308,7 @@ add_requires("yoga")
 | Description | *The fastest JSON library in C.* |
 | -- | -- |
 | Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
-| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1 |
+| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1, 0.8.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
 

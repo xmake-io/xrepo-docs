@@ -11833,7 +11833,7 @@ add_requires("yomm2")
 | Description | *The fastest JSON library in C.* |
 | -- | -- |
 | Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
-| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1 |
+| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1, 0.8.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
 
