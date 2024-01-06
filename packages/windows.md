@@ -18226,11 +18226,11 @@ add_requires("remotery")
 ### rendergraph (windows)
 
 
-| Description | *Vulkan render graph management library. .* |
+| Description | *Vulkan render graph management library.* |
 | -- | -- |
 | Homepage | [https://github.com/DragonJoker/RenderGraph/](https://github.com/DragonJoker/RenderGraph/) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.2.0, v1.3.0 |
+| Versions | v1.0.0, v1.1.0, v1.2.0, v1.3.0, v1.4.0 |
 | Architectures | x64 |
 | Definition | [rendergraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rendergraph/xmake.lua) |
 
