@@ -4119,6 +4119,30 @@ add_requires("ifort")
 ```
 
 
+### iguana (iphoneos)
+
+
+| Description | *universal serialization engine* |
+| -- | -- |
+| Homepage | [https://github.com/qicosmos/iguana](https://github.com/qicosmos/iguana) |
+| License | Apache-2.0 |
+| Versions | v1.0.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [iguana/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iguana/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos iguana
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iguana")
+```
+
+
 ### im3d (iphoneos)
 
 

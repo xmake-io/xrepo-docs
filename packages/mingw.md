@@ -4646,6 +4646,30 @@ add_requires("ifort")
 ```
 
 
+### iguana (mingw)
+
+
+| Description | *universal serialization engine* |
+| -- | -- |
+| Homepage | [https://github.com/qicosmos/iguana](https://github.com/qicosmos/iguana) |
+| License | Apache-2.0 |
+| Versions | v1.0.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [iguana/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iguana/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] iguana
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iguana")
+```
+
+
 ### im3d (mingw)
 
 

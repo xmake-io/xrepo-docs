@@ -4316,6 +4316,30 @@ add_requires("ifort")
 ```
 
 
+### iguana (cross)
+
+
+| Description | *universal serialization engine* |
+| -- | -- |
+| Homepage | [https://github.com/qicosmos/iguana](https://github.com/qicosmos/iguana) |
+| License | Apache-2.0 |
+| Versions | v1.0.3 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [iguana/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iguana/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] iguana
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("iguana")
+```
+
+
 ### im3d (cross)
 
 
