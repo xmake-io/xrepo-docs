@@ -18713,6 +18713,7 @@ add_requires("openscenegraph")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
+| License | Apache-2.0 |
 | Versions | 1.0.0, 1.0.2-u, 1.1.0-l, 1.1.1-h, 1.1.1-k, 1.1.1-l, 1.1.1-m, 1.1.1-n, 1.1.1-o, 1.1.1-p, 1.1.1-q, 1.1.1-r, 1.1.1-s, 1.1.1-t, 1.1.1-w |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
