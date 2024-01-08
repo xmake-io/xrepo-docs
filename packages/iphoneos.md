@@ -5148,7 +5148,7 @@ add_requires("libfyaml")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0 |
+| Versions | v1.3.0, v1.7.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 

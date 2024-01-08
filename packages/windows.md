@@ -10147,8 +10147,8 @@ add_requires("libgeotiff")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | v1.3.0, v1.7.1 |
+| Architectures | x64, x86 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
 ##### Install command
