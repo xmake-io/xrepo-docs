@@ -26549,7 +26549,7 @@ add_requires("webui")
 | -- | -- |
 | Homepage | [https://github.com/wfrest/wfrest](https://github.com/wfrest/wfrest) |
 | License | Apache-2.0 |
-| Versions | v0.9.3 |
+| Versions | v0.9.3, v0.9.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wfrest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wfrest/xmake.lua) |
 
