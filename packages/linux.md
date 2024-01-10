@@ -19360,7 +19360,7 @@ add_requires("pciutils")
 | -- | -- |
 | Homepage | [https://pointclouds.org/](https://pointclouds.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.12.0, 1.12.1 |
+| Versions | 1.12.0, 1.12.1, 1.14.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcl/xmake.lua) |
 

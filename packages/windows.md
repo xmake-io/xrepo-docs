@@ -16267,7 +16267,7 @@ add_requires("pcg32")
 | -- | -- |
 | Homepage | [https://pointclouds.org/](https://pointclouds.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.12.0, 1.12.1 |
+| Versions | 1.12.0, 1.12.1, 1.14.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [pcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcl/xmake.lua) |
 
