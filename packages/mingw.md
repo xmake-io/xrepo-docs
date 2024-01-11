@@ -7757,7 +7757,7 @@ add_requires("mcut")
 | -- | -- |
 | Homepage | [https://github.com/igormironchik/md4qt](https://github.com/igormironchik/md4qt) |
 | License | MIT |
-| Versions | 2.1.0 |
+| Versions | 2.1.0, 2.4.2 |
 | Architectures | x86_64 |
 | Definition | [md4qt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/md4qt/xmake.lua) |
 
