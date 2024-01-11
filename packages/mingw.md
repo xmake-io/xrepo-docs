@@ -11153,7 +11153,7 @@ add_requires("robin-hood-hashing")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
 | License | MIT |
-| Versions | v0.6.3 |
+| Versions | v0.6.3, v1.2.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
 
