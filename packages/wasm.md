@@ -1,4 +1,28 @@
 ## a
+### aitoolkit (wasm)
+
+
+| Description | *Give a brain to your game's NPCs* |
+| -- | -- |
+| Homepage | [https://linkdd.github.io/aitoolkit/](https://linkdd.github.io/aitoolkit/) |
+| License | MIT |
+| Versions | v0.3.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [aitoolkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aitoolkit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm aitoolkit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aitoolkit")
+```
+
+
 ### amqp-cpp (wasm)
 
 

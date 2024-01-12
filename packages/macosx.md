@@ -96,6 +96,30 @@ add_requires("ada")
 ```
 
 
+### aitoolkit (macosx)
+
+
+| Description | *Give a brain to your game's NPCs* |
+| -- | -- |
+| Homepage | [https://linkdd.github.io/aitoolkit/](https://linkdd.github.io/aitoolkit/) |
+| License | MIT |
+| Versions | v0.3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [aitoolkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aitoolkit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aitoolkit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aitoolkit")
+```
+
+
 ### alembic (macosx)
 
 
@@ -23528,6 +23552,30 @@ xrepo install ufbx
 
 ```lua
 add_requires("ufbx")
+```
+
+
+### ultralight (macosx)
+
+
+| Description | *Ultralight makes it easy for C/C++ developers to seamlessly integrate web-content into games and desktop apps.* |
+| -- | -- |
+| Homepage | [https://ultralig.ht](https://ultralig.ht) |
+| License | LGPL |
+| Versions | 1.3.0 |
+| Architectures | x86_64 |
+| Definition | [ultralight/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ultralight/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ultralight
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ultralight")
 ```
 
 

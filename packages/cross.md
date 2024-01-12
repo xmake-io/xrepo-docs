@@ -47,6 +47,30 @@ add_requires("ada")
 ```
 
 
+### aitoolkit (cross)
+
+
+| Description | *Give a brain to your game's NPCs* |
+| -- | -- |
+| Homepage | [https://linkdd.github.io/aitoolkit/](https://linkdd.github.io/aitoolkit/) |
+| License | MIT |
+| Versions | v0.3.0 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aitoolkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aitoolkit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aitoolkit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aitoolkit")
+```
+
+
 ### amqp-cpp (cross)
 
 
