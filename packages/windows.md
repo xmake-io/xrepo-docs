@@ -1986,7 +1986,7 @@ add_requires("cef")
 | -- | -- |
 | Homepage | [https://github.com/DigitalInBlue/Celero](https://github.com/DigitalInBlue/Celero) |
 | License | Apache-2.0 |
-| Versions | v2.8.2, v2.8.5 |
+| Versions | v2.8.2, v2.8.5, v2.9.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [celero/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/celero/xmake.lua) |
 
@@ -7012,7 +7012,7 @@ add_requires("glfw")
 | -- | -- |
 | Homepage | [https://github.com/eliemichel/glfw3webgpu](https://github.com/eliemichel/glfw3webgpu) |
 | License | MIT |
-| Versions | v1.0.1 |
+| Versions | v1.0.1, v1.1.0 |
 | Architectures | x64, x86 |
 | Definition | [glfw3webgpu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw3webgpu/xmake.lua) |
 
@@ -18681,7 +18681,7 @@ add_requires("rsm-mmio")
 | Description | *A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO, and WASAPI) operating systems.* |
 | -- | -- |
 | Homepage | [https://github.com/thestk/rtaudio](https://github.com/thestk/rtaudio) |
-| Versions | 6.0.0 |
+| Versions | 6.0.0, 6.0.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [rtaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtaudio/xmake.lua) |
 
