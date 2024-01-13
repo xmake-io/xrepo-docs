@@ -20400,7 +20400,7 @@ add_requires("ptl")
 | -- | -- |
 | Homepage | [https://pugixml.org/](https://pugixml.org/) |
 | License | MIT |
-| Versions | v1.11.4, v1.13 |
+| Versions | v1.11.4, v1.13, v1.14 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pugixml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pugixml/xmake.lua) |
 
