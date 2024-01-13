@@ -9023,7 +9023,7 @@ add_requires("imgui")
 | -- | -- |
 | Homepage | [https://github.com/aiekick/ImGuiFileDialog](https://github.com/aiekick/ImGuiFileDialog) |
 | License | MIT |
-| Versions | v0.6.5 |
+| Versions | v0.6.5, v0.6.6 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imgui-file-dialog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui-file-dialog/xmake.lua) |
 
@@ -17455,7 +17455,7 @@ add_requires("newtondynamics4")
 | -- | -- |
 | Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
 | License | MIT |
-| Versions | 1.46.0 |
+| Versions | 1.46.0, 1.58.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
 

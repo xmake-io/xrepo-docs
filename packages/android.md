@@ -4508,7 +4508,7 @@ add_requires("imgui")
 | -- | -- |
 | Homepage | [https://github.com/aiekick/ImGuiFileDialog](https://github.com/aiekick/ImGuiFileDialog) |
 | License | MIT |
-| Versions | v0.6.5 |
+| Versions | v0.6.5, v0.6.6 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [imgui-file-dialog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui-file-dialog/xmake.lua) |
 
