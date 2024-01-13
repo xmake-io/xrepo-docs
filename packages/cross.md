@@ -3538,7 +3538,7 @@ add_requires("ftxui")
 | -- | -- |
 | Homepage | [http://naios.github.io/function2](http://naios.github.io/function2) |
 | License | BSL-1.0 |
-| Versions | 4.1.0, 4.2.0, 4.2.1, 4.2.2, 4.2.3 |
+| Versions | 4.1.0, 4.2.0, 4.2.1, 4.2.2, 4.2.3, 4.2.4 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [function2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/function2/xmake.lua) |
 
