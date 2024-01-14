@@ -8561,7 +8561,7 @@ add_requires("protoc")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/prvhash](https://github.com/avaneev/prvhash) |
 | License | MIT |
-| Versions | 4.0 |
+| Versions | 4.0, 4.3.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [prvhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prvhash/xmake.lua) |
 
