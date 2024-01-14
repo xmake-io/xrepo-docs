@@ -120,6 +120,30 @@ add_requires("ada")
 ```
 
 
+### agg (linux)
+
+
+| Description | *Anti-Grain Geometry: A High Quality Rendering Engine for C++* |
+| -- | -- |
+| Homepage | [https://agg.sourceforge.net/antigrain.com/index.html](https://agg.sourceforge.net/antigrain.com/index.html) |
+| License | BSD-3-Clause |
+| Versions | 2.7.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [agg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/agg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install agg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("agg")
+```
+
+
 ### aitoolkit (linux)
 
 
@@ -23268,7 +23292,8 @@ add_requires("sparsepp")
 | Description | *Fast C++ logging library.* |
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| Versions | v1.10.0, v1.11.0, v1.12.0, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
+| License | MIT |
+| Versions | v1.10.0, v1.11.0, v1.12.0, v1.13.0, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
