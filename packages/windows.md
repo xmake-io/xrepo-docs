@@ -23967,7 +23967,7 @@ add_requires("zeromq")
 | -- | -- |
 | Homepage | [https://computing.llnl.gov/projects/zfp](https://computing.llnl.gov/projects/zfp) |
 | License | BSD-3-Clause |
-| Versions | 0.5.5 |
+| Versions | 0.5.5, 1.0.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [zfp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zfp/xmake.lua) |
 
