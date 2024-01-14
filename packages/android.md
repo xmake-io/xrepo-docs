@@ -1719,7 +1719,7 @@ add_requires("cpp-peglib")
 | -- | -- |
 | Homepage | [https://github.com/z4kn4fein/cpp-semver](https://github.com/z4kn4fein/cpp-semver) |
 | License | MIT |
-| Versions | v0.3.1 |
+| Versions | v0.3.1, v0.3.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [cpp-semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-semver/xmake.lua) |
 
