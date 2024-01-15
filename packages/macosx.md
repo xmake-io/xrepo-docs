@@ -1391,7 +1391,7 @@ add_requires("better-enums")
 | -- | -- |
 | Homepage | [https://bkaradzic.github.io/bgfx/](https://bkaradzic.github.io/bgfx/) |
 | License | BSD-2-Clause |
-| Versions | 7816, 8203 |
+| Versions | 7816, 8203, 8674 |
 | Architectures | arm64, x86_64 |
 | Definition | [bgfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bgfx/xmake.lua) |
 
@@ -17203,7 +17203,7 @@ add_requires("opencore-amr")
 | -- | -- |
 | Homepage | [https://opencv.org/](https://opencv.org/) |
 | License | Apache-2.0 |
-| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3, 4.5.4, 4.5.5, 4.6.0, 4.8.0 |
+| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3, 4.5.4, 4.5.5, 4.6.0, 4.8.0, 4.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
 
