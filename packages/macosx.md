@@ -1510,7 +1510,7 @@ add_requires("blah")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3 |
+| Versions | 1.3.1, 1.3.3, 1.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
@@ -9451,8 +9451,8 @@ add_requires("kiwisolver")
 | -- | -- |
 | Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.0.01 |
-| Architectures | arm64, x86_64 |
+| Versions | 4.0.01, 4.2.00 |
+| Architectures | x86_64 |
 | Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
 
 ##### Install command
@@ -16871,8 +16871,8 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4 |
-| Architectures | arm64, x86_64 |
+| Versions | v2.5.4, v3.3.4 |
+| Architectures | x86_64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
 ##### Install command
