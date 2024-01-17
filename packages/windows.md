@@ -1956,6 +1956,30 @@ add_requires("cargs")
 ```
 
 
+### cartographer (windows)
+
+
+| Description | *Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.* |
+| -- | -- |
+| Homepage | [https://github.com/cartographer-project/cartographer](https://github.com/cartographer-project/cartographer) |
+| License | Apache-2.0 |
+| Versions | 1.0.0 |
+| Architectures | x64, x86 |
+| Definition | [cartographer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cartographer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cartographer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cartographer")
+```
+
+
 ### catch2 (windows)
 
 
