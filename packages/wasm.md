@@ -5753,6 +5753,30 @@ add_requires("mdns")
 ```
 
 
+### mds (wasm)
+
+
+| Description | *A C++ containers library that is as easy to use as Python's containers library.* |
+| -- | -- |
+| Homepage | [https://github.com/chen-qingyu/MyDataStructure](https://github.com/chen-qingyu/MyDataStructure) |
+| License | GPL-3.0 |
+| Versions | 1.1.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [mds/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mds/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm mds
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mds")
+```
+
+
 ### meson (wasm)
 
 
@@ -8231,7 +8255,7 @@ add_requires("scons")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/semver](https://github.com/Neargye/semver) |
 | License | MIT |
-| Versions | 2023.05.27 |
+| Versions | 2023.05.27, 2023.10.04 |
 | Architectures | wasm32, wasm64 |
 | Definition | [semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/semver/xmake.lua) |
 

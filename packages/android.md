@@ -7249,6 +7249,30 @@ add_requires("mdns")
 ```
 
 
+### mds (android)
+
+
+| Description | *A C++ containers library that is as easy to use as Python's containers library.* |
+| -- | -- |
+| Homepage | [https://github.com/chen-qingyu/MyDataStructure](https://github.com/chen-qingyu/MyDataStructure) |
+| License | GPL-3.0 |
+| Versions | 1.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [mds/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mds/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mds
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mds")
+```
+
+
 ### memorymapping (android)
 
 
@@ -10414,7 +10438,7 @@ add_requires("sdsl-lite")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/semver](https://github.com/Neargye/semver) |
 | License | MIT |
-| Versions | 2023.05.27 |
+| Versions | 2023.05.27, 2023.10.04 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/semver/xmake.lua) |
 
