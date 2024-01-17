@@ -576,6 +576,30 @@ add_requires("assimp")
 ```
 
 
+### astc-encoder (windows)
+
+
+| Description | *The Arm ASTC Encoder, a compressor for the Adaptive Scalable Texture Compression data format.* |
+| -- | -- |
+| Homepage | [https://developer.arm.com/graphics](https://developer.arm.com/graphics) |
+| License | Apache-2.0 |
+| Versions | 4.6.1 |
+| Architectures | x64, x86 |
+| Definition | [astc-encoder/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/astc-encoder/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install astc-encoder
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("astc-encoder")
+```
+
+
 ### async_simple (windows)
 
 
@@ -12989,7 +13013,7 @@ add_requires("mdns")
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/MyDataStructure](https://github.com/chen-qingyu/MyDataStructure) |
 | License | GPL-3.0 |
-| Versions | 1.1.0 |
+| Versions | 1.1.0, 1.1.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [mds/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mds/xmake.lua) |
 

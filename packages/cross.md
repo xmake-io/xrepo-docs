@@ -6694,7 +6694,7 @@ add_requires("mdns")
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/MyDataStructure](https://github.com/chen-qingyu/MyDataStructure) |
 | License | GPL-3.0 |
-| Versions | 1.1.0 |
+| Versions | 1.1.0, 1.1.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mds/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mds/xmake.lua) |
 
