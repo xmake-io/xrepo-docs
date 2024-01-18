@@ -7141,7 +7141,7 @@ add_requires("litehtml")
 | Description | *A little fail-safe filesystem designed for microcontrollers* |
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
-| Versions | v2.5.0 |
+| Versions | v2.5.0, v2.8.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
 

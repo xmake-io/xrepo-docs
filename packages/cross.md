@@ -3109,7 +3109,7 @@ add_requires("exprtk")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v2.1.3 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -6053,7 +6053,7 @@ add_requires("litehtml")
 | Description | *A little fail-safe filesystem designed for microcontrollers* |
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
-| Versions | v2.5.0 |
+| Versions | v2.5.0, v2.8.2 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
 
