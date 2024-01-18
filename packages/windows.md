@@ -13130,7 +13130,8 @@ add_requires("meson")
 | Description | *Serial Graph Partitioning and Fill-reducing Matrix Ordering* |
 | -- | -- |
 | Homepage | [http://glaros.dtc.umn.edu/gkhome/metis/metis/overview](http://glaros.dtc.umn.edu/gkhome/metis/metis/overview) |
-| Versions | 5.1.1 |
+| License | Apache-2.0 |
+| Versions | v5.2.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [metis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/metis/xmake.lua) |
 
@@ -15411,7 +15412,7 @@ add_requires("openal-soft")
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
 | License | BSD-3-Clause |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26 |
 | Architectures | x64, x86 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
@@ -18138,7 +18139,8 @@ add_requires("rapidcsv")
 | Description | *RapidJSON is a JSON parser and generator for C++.* |
 | -- | -- |
 | Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
-| Versions | 2022.7.20, v1.1.0, v1.1.0-arrow |
+| License | MIT |
+| Versions | 2022.7.20, 2023.12.6, v1.1.0, v1.1.0-arrow |
 | Architectures | arm64, x64, x86 |
 | Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
 

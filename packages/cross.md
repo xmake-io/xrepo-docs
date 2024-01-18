@@ -8875,7 +8875,8 @@ add_requires("rapidcsv")
 | Description | *RapidJSON is a JSON parser and generator for C++.* |
 | -- | -- |
 | Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
-| Versions | 2022.7.20, v1.1.0, v1.1.0-arrow |
+| License | MIT |
+| Versions | 2022.7.20, 2023.12.6, v1.1.0, v1.1.0-arrow |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
 
