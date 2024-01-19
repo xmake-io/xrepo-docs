@@ -7787,7 +7787,7 @@ add_requires("opencl-clhpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
 | License | Apache-2.0 |
-| Versions | v2021.06.30 |
+| Versions | v2021.06.30, v2023.12.14 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
 
