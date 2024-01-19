@@ -7043,6 +7043,30 @@ add_requires("ordered_map")
 ```
 
 
+### ormpp (msys)
+
+
+| Description | *modern C++ ORM, C++17, support mysql, postgresql,sqlite* |
+| -- | -- |
+| Homepage | [https://github.com/qicosmos/ormpp](https://github.com/qicosmos/ormpp) |
+| License | Apache-2.0 |
+| Versions | v0.1.1 |
+| Architectures | i386, x86_64 |
+| Definition | [ormpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ormpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ormpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ormpp")
+```
+
+
 ### osmanip (msys)
 
 

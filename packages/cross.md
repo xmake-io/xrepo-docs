@@ -7969,6 +7969,30 @@ add_requires("ordered_map")
 ```
 
 
+### ormpp (cross)
+
+
+| Description | *modern C++ ORM, C++17, support mysql, postgresql,sqlite* |
+| -- | -- |
+| Homepage | [https://github.com/qicosmos/ormpp](https://github.com/qicosmos/ormpp) |
+| License | Apache-2.0 |
+| Versions | v0.1.1 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ormpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ormpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ormpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ormpp")
+```
+
+
 ### osmanip (cross)
 
 
