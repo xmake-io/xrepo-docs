@@ -23945,7 +23945,7 @@ add_requires("yomm2")
 | -- | -- |
 | Homepage | [https://github.com/Chuyu-Team/YY-Thunks](https://github.com/Chuyu-Team/YY-Thunks) |
 | License | MIT |
-| Versions | 1.0.7 |
+| Versions | 1.0.7, 1.0.9 |
 | Architectures | x64, x86 |
 | Definition | [yy-thunks/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yy-thunks/xmake.lua) |
 
