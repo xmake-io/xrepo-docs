@@ -9639,7 +9639,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
 | License | MIT |
-| Versions | v4.19 |
+| Versions | v4.19, v4.22 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
 

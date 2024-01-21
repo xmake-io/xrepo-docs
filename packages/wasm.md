@@ -8399,7 +8399,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
 | License | MIT |
-| Versions | v4.19 |
+| Versions | v4.19, v4.22 |
 | Architectures | wasm32, wasm64 |
 | Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
 

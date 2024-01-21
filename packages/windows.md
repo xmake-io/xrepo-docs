@@ -14932,7 +14932,7 @@ add_requires("nodesoup")
 | -- | -- |
 | Homepage | [https://github.com/boostorg/nowide/tree/standalone](https://github.com/boostorg/nowide/tree/standalone) |
 | License | Boost Software License, Version 1.0 |
-| Versions | 11.2.0 |
+| Versions | 11.2.0, 11.3.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [nowide_standalone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nowide_standalone/xmake.lua) |
 
@@ -16221,7 +16221,7 @@ add_requires("pahomqttc")
 | -- | -- |
 | Homepage | [https://github.com/eclipse/paho.mqtt.cpp](https://github.com/eclipse/paho.mqtt.cpp) |
 | License | EPL v1.0 |
-| Versions | v1.2.0 |
+| Versions | v1.2.0, v1.3.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [pahomqttcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pahomqttcpp/xmake.lua) |
 
@@ -19493,7 +19493,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
 | License | MIT |
-| Versions | v4.19 |
+| Versions | v4.19, v4.22 |
 | Architectures | arm64, x64, x86 |
 | Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
 
