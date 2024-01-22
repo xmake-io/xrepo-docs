@@ -2220,7 +2220,8 @@ add_requires("cereal")
 | Description | *Ceres Solver is an open source C++ library for modeling and solving large, complicated optimization problems.* |
 | -- | -- |
 | Homepage | [http://ceres-solver.org/](http://ceres-solver.org/) |
-| Versions | 2.0.0, 2.1.0 |
+| License | BSD-3-Clause |
+| Versions | 2.0.0, 2.1.0, 2.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [ceres-solver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceres-solver/xmake.lua) |
 
@@ -22302,7 +22303,7 @@ add_requires("subprocess.h")
 | Description | *SuiteSparse is a suite of sparse matrix algorithms* |
 | -- | -- |
 | Homepage | [https://people.engr.tamu.edu/davis/suitesparse.html](https://people.engr.tamu.edu/davis/suitesparse.html) |
-| Versions | v5.10.1, v5.12.0, v5.13.0 |
+| Versions | v5.10.1, v5.12.0, v5.13.0, v7.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [suitesparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/suitesparse/xmake.lua) |
 
