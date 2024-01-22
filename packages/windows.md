@@ -2011,7 +2011,7 @@ add_requires("cartographer")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1 |
+| Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -2964,7 +2964,7 @@ add_requires("concurrentqueue")
 | -- | -- |
 | Homepage | [https://github.com/ros/console_bridge](https://github.com/ros/console_bridge) |
 | License | BSD-3-Clause |
-| Versions | 1.0.1 |
+| Versions | 1.0.1, 1.0.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [console-bridge/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/console-bridge/xmake.lua) |
 
@@ -5367,7 +5367,7 @@ add_requires("ensmallen")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
-| Versions | v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
+| Versions | v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -21392,7 +21392,8 @@ add_requires("tinyxml")
 | Description | *simple, small, efficient, C++ XML parser that can be easily integrating into other programs.* |
 | -- | -- |
 | Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
-| Versions | 8.0.0, 9.0.0 |
+| License | zlib |
+| Versions | 10.0.0, 8.0.0, 9.0.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [tinyxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml2/xmake.lua) |
 
@@ -22107,7 +22108,7 @@ add_requires("unzip")
 | -- | -- |
 | Homepage | [https://wiki.ros.org/urdf](https://wiki.ros.org/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.4 |
+| Versions | 1.0.4, 4.0.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [urdfdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua) |
 
@@ -22131,7 +22132,7 @@ add_requires("urdfdom")
 | -- | -- |
 | Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.5 |
+| Versions | 1.0.5, 1.1.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
 
