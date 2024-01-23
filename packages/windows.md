@@ -2131,7 +2131,7 @@ add_requires("cereal")
 | Homepage | [http://ceres-solver.org/](http://ceres-solver.org/) |
 | License | BSD-3-Clause |
 | Versions | 2.0.0, 2.1.0, 2.2.0 |
-| Architectures | x64 |
+| Architectures | x64, x86 |
 | Definition | [ceres-solver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceres-solver/xmake.lua) |
 
 ##### Install command
@@ -20511,7 +20511,7 @@ add_requires("subprocess.h")
 | -- | -- |
 | Homepage | [https://people.engr.tamu.edu/davis/suitesparse.html](https://people.engr.tamu.edu/davis/suitesparse.html) |
 | Versions | v5.10.1, v5.12.0, v5.13.0, v7.5.1 |
-| Architectures | x64 |
+| Architectures | x64, x86 |
 | Definition | [suitesparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/suitesparse/xmake.lua) |
 
 ##### Install command
