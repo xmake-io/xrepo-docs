@@ -7869,30 +7869,6 @@ add_requires("mdns")
 ```
 
 
-### mds (mingw)
-
-
-| Description | *A C++ containers library that is as easy to use as Python's containers library.* |
-| -- | -- |
-| Homepage | [https://github.com/chen-qingyu/MyDataStructure](https://github.com/chen-qingyu/MyDataStructure) |
-| License | GPL-3.0 |
-| Versions | 1.1.0, 1.1.1 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [mds/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mds/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] mds
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("mds")
-```
-
-
 ### meson (mingw)
 
 
@@ -10334,6 +10310,29 @@ xrepo install -p mingw [--mingw=/xxx] python2
 
 ```lua
 add_requires("python2")
+```
+
+
+### pytype (mingw)
+
+
+| Description | *A C++ type library that is as easy to use as Python built-in types.* |
+| -- | -- |
+| Homepage | [https://github.com/chen-qingyu/Pytype](https://github.com/chen-qingyu/Pytype) |
+| Versions | v1.0.0, v1.1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [pytype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pytype/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] pytype
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pytype")
 ```
 
 
