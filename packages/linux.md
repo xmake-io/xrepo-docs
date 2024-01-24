@@ -16983,7 +16983,7 @@ add_requires("mustache")
 | -- | -- |
 | Homepage | [https://www.msweet.org/mxml/](https://www.msweet.org/mxml/) |
 | License | Apache-2.0 |
-| Versions | 3.3 |
+| Versions | 3.3, 3.3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mxml/xmake.lua) |
 
