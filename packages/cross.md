@@ -2813,6 +2813,30 @@ add_requires("effolkronium-random")
 ```
 
 
+### egl-headers (cross)
+
+
+| Description | *EGL API and Extension Registry* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/EGL-Registry](https://github.com/KhronosGroup/EGL-Registry) |
+| License | MIT |
+| Versions | 2023.12.16 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [egl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/egl-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] egl-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("egl-headers")
+```
+
+
 ### eigen (cross)
 
 
@@ -7381,7 +7405,7 @@ add_requires("ndarray")
 | Description | *Android NDK toolchain.* |
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
-| Versions | 21.0, 22.0 |
+| Versions | 21.0, 22.0, 26.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 
@@ -7800,6 +7824,30 @@ xrepo install -p cross [--sdk=/xxx] opencore-amr
 
 ```lua
 add_requires("opencore-amr")
+```
+
+
+### opengl-headers (cross)
+
+
+| Description | *OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenGL-Registry/](https://github.com/KhronosGroup/OpenGL-Registry/) |
+| License | MIT |
+| Versions | 2024.01.04 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [opengl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opengl-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] opengl-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opengl-headers")
 ```
 
 
@@ -12002,7 +12050,7 @@ add_requires("zig")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
-| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3 |
+| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3, v1.3.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 

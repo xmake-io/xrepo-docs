@@ -4359,6 +4359,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("effolkronium-random")
 </code></pre>
+<h3 id="eglheaderscross">egl-headers (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>EGL API and Extension Registry</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/EGL-Registry">https://github.com/KhronosGroup/EGL-Registry</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.12.16</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/e/egl-headers/xmake.lua">egl-headers/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] egl-headers
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("egl-headers")
+</code></pre>
 <h3 id="eigencross">eigen (cross)</h3>
 <table>
 <thead>
@@ -11231,7 +11268,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>21.0, 22.0</td>
+<td>21.0, 22.0, 26.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11858,6 +11895,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("opencore-amr")
+</code></pre>
+<h3 id="openglheaderscross">opengl-headers (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/KhronosGroup/OpenGL-Registry/">https://github.com/KhronosGroup/OpenGL-Registry/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.01.04</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opengl-headers/xmake.lua">opengl-headers/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] opengl-headers
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("opengl-headers")
 </code></pre>
 <h3 id="opensslcross">openssl (cross)</h3>
 <table>
@@ -18185,7 +18259,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3</td>
+<td>v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3, v1.3.1</td>
 </tr>
 <tr>
 <td>Architectures</td>

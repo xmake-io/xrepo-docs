@@ -5449,6 +5449,30 @@ add_requires("efsw")
 ```
 
 
+### egl-headers (linux)
+
+
+| Description | *EGL API and Extension Registry* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/EGL-Registry](https://github.com/KhronosGroup/EGL-Registry) |
+| License | MIT |
+| Versions | 2023.12.16 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [egl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/egl-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install egl-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("egl-headers")
+```
+
+
 ### eigen (linux)
 
 
@@ -17385,7 +17409,7 @@ add_requires("ndarray")
 | Description | *Android NDK toolchain.* |
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
-| Versions | 21.0, 22.0 |
+| Versions | 21.0, 22.0, 26.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 
@@ -18566,6 +18590,30 @@ xrepo install openexr
 
 ```lua
 add_requires("openexr")
+```
+
+
+### opengl-headers (linux)
+
+
+| Description | *OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/OpenGL-Registry/](https://github.com/KhronosGroup/OpenGL-Registry/) |
+| License | MIT |
+| Versions | 2024.01.04 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [opengl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opengl-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install opengl-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opengl-headers")
 ```
 
 
@@ -27882,7 +27930,7 @@ add_requires("zimg")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
-| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3 |
+| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3, v1.3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
