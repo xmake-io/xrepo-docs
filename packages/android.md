@@ -7273,29 +7273,6 @@ add_requires("mdns")
 ```
 
 
-### memorymapping (android)
-
-
-| Description | *fmemopen port library* |
-| -- | -- |
-| Homepage | [https://github.com/NimbusKit/memorymapping](https://github.com/NimbusKit/memorymapping) |
-| Versions | 2014.12.21 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
-| Definition | [memorymapping/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/memorymapping/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] memorymapping
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("memorymapping")
-```
-
-
 ### meson (android)
 
 
