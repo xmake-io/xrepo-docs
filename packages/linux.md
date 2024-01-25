@@ -21303,7 +21303,7 @@ add_requires("quickcpplib")
 | Description | *QuickJS is a small and embeddable Javascript engine* |
 | -- | -- |
 | Homepage | [https://bellard.org/quickjs/](https://bellard.org/quickjs/) |
-| Versions | 2021.03.27 |
+| Versions | 2021.03.27, 2023.12.09, 2024.01.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs/xmake.lua) |
 
