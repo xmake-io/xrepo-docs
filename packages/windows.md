@@ -10647,7 +10647,7 @@ add_requires("libmorton")
 | -- | -- |
 | Homepage | [https://www.cabextract.org.uk/libmspack/](https://www.cabextract.org.uk/libmspack/) |
 | License | LGPL-2.0 |
-| Versions | v0.10.1alpha |
+| Versions | v0.10.1alpha, v1.11 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libmspack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmspack/xmake.lua) |
 
@@ -18188,7 +18188,7 @@ add_requires("range-v3")
 | Description | *C++ header-only library for CSV parsing (by d99kris)* |
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
-| Versions | 8.50 |
+| Versions | 8.50, 8.80 |
 | Architectures | arm64, x64, x86 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 

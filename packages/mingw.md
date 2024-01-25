@@ -11011,7 +11011,7 @@ add_requires("range-v3")
 | Description | *C++ header-only library for CSV parsing (by d99kris)* |
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
-| Versions | 8.50 |
+| Versions | 8.50, 8.80 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
