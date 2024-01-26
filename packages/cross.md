@@ -8683,8 +8683,8 @@ add_requires("python2")
 
 | Description | *A C++ type library that is as easy to use as Python built-in types.* |
 | -- | -- |
-| Homepage | [https://github.com/chen-qingyu/Pytype](https://github.com/chen-qingyu/Pytype) |
-| Versions | v1.0.0, v1.1.0 |
+| Homepage | [https://github.com/chen-qingyu/pytype-cpp](https://github.com/chen-qingyu/pytype-cpp) |
+| Versions | v1.3.1 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pytype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pytype/xmake.lua) |
 
