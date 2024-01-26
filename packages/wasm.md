@@ -9560,6 +9560,30 @@ add_requires("tl_function_ref")
 ```
 
 
+### tl_optional (wasm)
+
+
+| Description | *C++11/14/17 std::optional with functional-style extensions and support for references.* |
+| -- | -- |
+| Homepage | [https://github.com/TartanLlama/optional](https://github.com/TartanLlama/optional) |
+| License | CC0 |
+| Versions | v1.1.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [tl_optional/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_optional/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm tl_optional
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tl_optional")
+```
+
+
 ### toml++ (wasm)
 
 

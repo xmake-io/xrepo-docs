@@ -11955,6 +11955,30 @@ add_requires("tl_function_ref")
 ```
 
 
+### tl_optional (android)
+
+
+| Description | *C++11/14/17 std::optional with functional-style extensions and support for references.* |
+| -- | -- |
+| Homepage | [https://github.com/TartanLlama/optional](https://github.com/TartanLlama/optional) |
+| License | CC0 |
+| Versions | v1.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tl_optional/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_optional/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tl_optional
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tl_optional")
+```
+
+
 ### tmx (android)
 
 
