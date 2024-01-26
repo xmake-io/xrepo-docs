@@ -8405,7 +8405,7 @@ add_requires("plf_colony")
 | -- | -- |
 | Homepage | [https://github.com/SergiusTheBest/plog](https://github.com/SergiusTheBest/plog) |
 | License | MIT |
-| Versions | 1.1.9 |
+| Versions | 1.1.10, 1.1.9 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [plog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plog/xmake.lua) |
 
