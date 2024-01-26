@@ -4958,7 +4958,7 @@ add_requires("dxsdk")
 | Description | *High-Performance C/C++ library for parsing binary output files and key files of LS Dyna (d3plot, binout, input deck)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12 |
+| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
@@ -11473,7 +11473,7 @@ add_requires("libtool")
 | -- | -- |
 | Homepage | [https://pytorch.org/](https://pytorch.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.11.0, v1.12.1, v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1, v2.1.0 |
+| Versions | v1.11.0, v1.12.1, v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1, v2.1.0, v2.1.2 |
 | Architectures | x64 |
 | Definition | [libtorch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtorch/xmake.lua) |
 
