@@ -17445,6 +17445,29 @@ add_requires("pycdc")
 ```
 
 
+### pyincpp (windows)
+
+
+| Description | *A C++ type library that is as easy to use as Python built-in types.* |
+| -- | -- |
+| Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
+| Versions | v1.3.2 |
+| Architectures | arm64, x64, x86 |
+| Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pyincpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pyincpp")
+```
+
+
 ### pystring (windows)
 
 
@@ -17511,29 +17534,6 @@ xrepo install python2
 
 ```lua
 add_requires("python2")
-```
-
-
-### pytype (windows)
-
-
-| Description | *A C++ type library that is as easy to use as Python built-in types.* |
-| -- | -- |
-| Homepage | [https://github.com/chen-qingyu/pytype-cpp](https://github.com/chen-qingyu/pytype-cpp) |
-| Versions | v1.3.1 |
-| Architectures | arm64, x64, x86 |
-| Definition | [pytype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pytype/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install pytype
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("pytype")
 ```
 
 
