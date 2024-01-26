@@ -1987,7 +1987,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/cartographer-project/cartographer](https://github.com/cartographer-project/cartographer) |
 | License | Apache-2.0 |
-| Versions | 1.0.0 |
+| Versions | 1.0.0, 2.0.0 |
 | Architectures | x64, x86 |
 | Definition | [cartographer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cartographer/xmake.lua) |
 

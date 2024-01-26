@@ -2293,7 +2293,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/cartographer-project/cartographer](https://github.com/cartographer-project/cartographer) |
 | License | Apache-2.0 |
-| Versions | 1.0.0 |
+| Versions | 1.0.0, 2.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cartographer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cartographer/xmake.lua) |
 
