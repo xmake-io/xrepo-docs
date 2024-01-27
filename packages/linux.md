@@ -7734,6 +7734,30 @@ add_requires("glog")
 ```
 
 
+### glpk (linux)
+
+
+| Description | *The GLPK (GNU Linear Programming Kit) package is intended for solving large-scale linear programming (LP), mixed integer programming (MIP), and other related problems.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/glpk/](https://www.gnu.org/software/glpk/) |
+| License | GPL-3.0 |
+| Versions | 5.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [glpk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glpk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glpk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glpk")
+```
+
+
 ### glslang (linux)
 
 
