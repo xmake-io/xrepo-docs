@@ -21684,7 +21684,7 @@ add_requires("redex")
 | Description | *Redis client written in C++* |
 | -- | -- |
 | Homepage | [https://github.com/sewenew/redis-plus-plus](https://github.com/sewenew/redis-plus-plus) |
-| Versions | 1.3.5, 1.3.6, 1.3.7, 1.3.8, 1.3.9 |
+| Versions | 1.3.11, 1.3.5, 1.3.6, 1.3.7, 1.3.8, 1.3.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [redis-plus-plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redis-plus-plus/xmake.lua) |
 
@@ -27884,7 +27884,7 @@ add_requires("zasm")
 | -- | -- |
 | Homepage | [https://zeromq.org/](https://zeromq.org/) |
 | License | MPL-2.0 |
-| Versions | 4.3.2, 4.3.4 |
+| Versions | 4.3.2, 4.3.4, 4.3.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zeromq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zeromq/xmake.lua) |
 
