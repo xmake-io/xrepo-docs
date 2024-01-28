@@ -1,5 +1,6 @@
 -- imports
 import("devel.git")
+import("core.base.semver")
 
 function mtime(file)
     return os.date("%Y-%m-%dT%H:%M:%S+08:00", os.mtime(file))
@@ -251,7 +252,13 @@ function write_package(file, pkg, plat, archs)
     end
     archs = table.copy(archs)
     table.sort(archs)
-    table.sort(versions)
+    table.sort(versions, function (a, b)
+        if semver.is_valid(a) and semver.is_valid(b) then
+            return semver.compare(a, b) < 0
+        else
+            return a < b
+        end
+    end)
     file:print("| Versions | %s |", table.concat(versions, ", "))
     file:print("| Architectures | %s |", table.concat(archs, ", "))
     file:print("| Definition | [%s/xmake.lua](%s) |", name, xmakefile)
