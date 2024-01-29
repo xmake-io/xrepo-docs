@@ -3817,7 +3817,7 @@ add_requires("glog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
@@ -10938,7 +10938,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -10962,7 +10962,7 @@ add_requires("spirv-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
@@ -12654,7 +12654,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
 | License | MIT |
-| Versions | 1.2.162, 1.2.190, 1.3.204, 1.3.231+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.162, 1.2.190, 1.3.204, 1.3.231+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
 
@@ -12678,7 +12678,7 @@ add_requires("volk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
@@ -12702,7 +12702,7 @@ add_requires("vulkan-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
 | License | Apache-2.0 |
-| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254, v1.3.261, v1.3.268, v1.3.272 |
+| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254, v1.3.261, v1.3.268, v1.3.272, v1.3.275 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
 
@@ -12966,7 +12966,7 @@ add_requires("which")
 | Description | *Port of OpenAI's Whisper model in C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) |
-| Versions | 1.4.2 |
+| Versions | 1.4.2, 1.5.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [whisper.cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/whisper.cpp/xmake.lua) |
 

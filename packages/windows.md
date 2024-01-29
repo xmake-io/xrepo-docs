@@ -7275,7 +7275,7 @@ add_requires("glpk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
@@ -11901,8 +11901,8 @@ add_requires("lightmapper")
 | -- | -- |
 | Homepage | [https://localcc.github.io/LightningScanner/](https://localcc.github.io/LightningScanner/) |
 | License | MIT |
-| Versions | v1.0.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | v1.0.0, v1.0.2 |
+| Architectures | x64, x86 |
 | Definition | [lightningscanner/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightningscanner/xmake.lua) |
 
 ##### Install command
@@ -20040,7 +20040,7 @@ add_requires("spirv-cross")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -20064,7 +20064,7 @@ add_requires("spirv-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Reflect](https://github.com/KhronosGroup/SPIRV-Reflect) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.231+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.231+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [spirv-reflect/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-reflect/xmake.lua) |
 
@@ -20088,7 +20088,7 @@ add_requires("spirv-reflect")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
@@ -22844,7 +22844,7 @@ add_requires("vld")
 | -- | -- |
 | Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
 | License | MIT |
-| Versions | 1.2.162, 1.2.190, 1.3.204, 1.3.231+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.162, 1.2.190, 1.3.204, 1.3.231+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
 
@@ -22892,7 +22892,7 @@ add_requires("vtk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
@@ -22916,7 +22916,7 @@ add_requires("vulkan-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
 | License | Apache-2.0 |
-| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254, v1.3.261, v1.3.268, v1.3.272 |
+| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254, v1.3.261, v1.3.268, v1.3.272, v1.3.275 |
 | Architectures | x64, x86 |
 | Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
 
@@ -22940,7 +22940,7 @@ add_requires("vulkan-hpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
 | Architectures | x64, x86 |
 | Definition | [vulkan-loader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-loader/xmake.lua) |
 
@@ -23036,7 +23036,7 @@ add_requires("vulkan-tools")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Utility-Libraries](https://github.com/KhronosGroup/Vulkan-Utility-Libraries) |
 | License | Apache-2.0 |
-| Versions | v1.3.268 |
+| Versions | v1.3.268, v1.3.275 |
 | Architectures | arm64, x64, x86 |
 | Definition | [vulkan-utility-libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-utility-libraries/xmake.lua) |
 
@@ -23299,7 +23299,7 @@ add_requires("which")
 | Description | *Port of OpenAI's Whisper model in C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) |
-| Versions | 1.4.2 |
+| Versions | 1.4.2, 1.5.4 |
 | Architectures | arm64, x64, x86 |
 | Definition | [whisper.cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/whisper.cpp/xmake.lua) |
 
