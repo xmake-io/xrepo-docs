@@ -508,7 +508,7 @@ add_requires("autodiff")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
-| Versions | 1.15.1, 1.16.1, 1.16.4, 1.16.5, 1.9.5, 1.9.6 |
+| Versions | 1.9.5, 1.9.6, 1.15.1, 1.16.1, 1.16.4, 1.16.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
@@ -842,7 +842,7 @@ add_requires("blake3")
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.20.1, v1.21.1, v1.21.4, v1.5.0 |
+| Versions | v1.5.0, v1.20.1, v1.21.1, v1.21.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 
@@ -1174,7 +1174,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.13.10, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.9.2, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -1793,7 +1793,7 @@ add_requires("cpp-dump")
 | Description | *A C++11 single-file header-only cross platform HTTP/HTTPS library.* |
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
-| Versions | 0.12.1, 0.12.6, 0.14.0, 0.8.5, 0.9.2 |
+| Versions | 0.8.5, 0.9.2, 0.12.1, 0.12.6, 0.14.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -2745,7 +2745,7 @@ add_requires("docopt")
 | Description | *The fastest feature-rich C++11/14/17/20 single-header testing framework for unit tests and TDD* |
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
-| Versions | 2.3.1, 2.3.6, 2.4.10, 2.4.11, 2.4.8, 2.4.9 |
+| Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
@@ -2769,7 +2769,7 @@ add_requires("doctest")
 | -- | -- |
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
-| Versions | 1.10.0, 1.9.1, 1.9.2, 1.9.3, 1.9.5, 1.9.6 |
+| Versions | 1.9.1, 1.9.2, 1.9.3, 1.9.5, 1.9.6, 1.10.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
@@ -2841,7 +2841,7 @@ add_requires("dr_mp3")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.19, 0.13.10, 0.13.11, 0.13.12, 0.13.13, 0.13.8 |
+| Versions | 0.12.19, 0.13.8, 0.13.10, 0.13.11, 0.13.12, 0.13.13 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
@@ -3153,7 +3153,7 @@ add_requires("enet6")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
-| Versions | v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
+| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -3249,7 +3249,7 @@ add_requires("eventpp")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.10, 2.2.6, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0 |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -3347,7 +3347,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.10.1, v3.4.0, v3.5.1, v5.2.0, v5.3.0, v6.0.0 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -3538,7 +3538,7 @@ add_requires("flatbuffers")
 | -- | -- |
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
-| Versions | v2.4.8, v3.0.0, v3.2.10, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9 |
+| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
@@ -3655,7 +3655,7 @@ add_requires("fmi")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
-| Versions | 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0 |
+| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -3679,7 +3679,7 @@ add_requires("fmt")
 | -- | -- |
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
 | License | BSD |
-| Versions | 2.10.4, 2.11.0, 2.11.1, 2.12.0, 2.12.1, 2.13.0, 2.13.1, 2.9.1 |
+| Versions | 2.9.1, 2.10.4, 2.11.0, 2.11.1, 2.12.0, 2.12.1, 2.13.0, 2.13.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 
@@ -4413,7 +4413,7 @@ add_requires("gsl-lite")
 | -- | -- |
 | Homepage | [https://github.com/google/googletest](https://github.com/google/googletest) |
 | License | BSD-3 |
-| Versions | v1.10.0, v1.11.0, v1.12.0, v1.12.1, v1.13.0, v1.14.0, v1.8.1 |
+| Versions | v1.8.1, v1.10.0, v1.11.0, v1.12.0, v1.12.1, v1.13.0, v1.14.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
 
@@ -4821,7 +4821,7 @@ add_requires("imcoolbar")
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
-| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83, v1.83-docking, v1.84.1, v1.84.2, v1.85, v1.85-docking, v1.86, v1.87, v1.87-docking, v1.88, v1.88-docking, v1.89, v1.89-docking, v1.89.3, v1.89.3-docking, v1.89.4, v1.89.4-docking, v1.89.5, v1.89.5-docking, v1.89.6, v1.89.6-docking, v1.89.7, v1.89.7-docking, v1.89.8, v1.89.8-docking, v1.89.9, v1.89.9-docking, v1.90, v1.90-docking, v1.90.1, v1.90.1-docking |
+| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -5914,7 +5914,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.10, v1.13, v1.15, v1.17, v1.19, v1.8 |
+| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -6623,7 +6623,7 @@ add_requires("libsamplerate")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.0.8, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3, 2.28.4, 2.28.5 |
+| Versions | 2.0.8, 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3, 2.28.4, 2.28.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -7805,7 +7805,7 @@ add_requires("mathfu")
 | -- | -- |
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
 | License | Apache-2.0 |
-| Versions | v2.13.0, v2.25.0, v2.28.3, v2.7.6, v3.4.0, v3.5.1 |
+| Versions | v2.7.6, v2.13.0, v2.25.0, v2.28.3, v3.4.0, v3.5.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 
@@ -8944,7 +8944,7 @@ add_requires("niftiheader")
 | Description | *Small build system for use with gyp or CMake.* |
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
-| Versions | 1.10.1, 1.10.2, 1.11.0, 1.11.1, 1.9.0 |
+| Versions | 1.9.0, 1.10.1, 1.10.2, 1.11.0, 1.11.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
@@ -8968,7 +8968,7 @@ add_requires("ninja")
 | -- | -- |
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
 | License | MIT |
-| Versions | v3.10.0, v3.10.5, v3.11.2, v3.11.3, v3.9.1 |
+| Versions | v3.9.1, v3.10.0, v3.10.5, v3.11.2, v3.11.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
@@ -9803,7 +9803,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, v4.5.10, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.6.1, v4.6.2 |
+| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -10041,7 +10041,7 @@ add_requires("plf_colony")
 | -- | -- |
 | Homepage | [https://github.com/SergiusTheBest/plog](https://github.com/SergiusTheBest/plog) |
 | License | MIT |
-| Versions | 1.1.10, 1.1.9 |
+| Versions | 1.1.9, 1.1.10 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [plog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plog/xmake.lua) |
 
@@ -10344,7 +10344,7 @@ add_requires("pystring")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.18, 3.10.11, 3.10.6, 3.11.3, 3.7.9, 3.8.10, 3.9.10, 3.9.13, 3.9.5, 3.9.6 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
@@ -11035,7 +11035,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
 | License | MIT |
-| Versions | 2022.7.20, 2023.12.6, v1.1.0, v1.1.0-arrow |
+| Versions | v1.1.0-arrow, v1.1.0, 2022.7.20, 2023.12.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
 
@@ -11913,7 +11913,7 @@ add_requires("smoothcpp")
 | Description | *A fast compressor/decompressor* |
 | -- | -- |
 | Homepage | [https://github.com/google/snappy](https://github.com/google/snappy) |
-| Versions | 1.1.10, 1.1.8, 1.1.9 |
+| Versions | 1.1.8, 1.1.9, 1.1.10 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [snappy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snappy/xmake.lua) |
 
@@ -12174,7 +12174,7 @@ add_requires("sparsepp")
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
 | License | MIT |
-| Versions | v1.10.0, v1.11.0, v1.12.0, v1.13.0, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
+| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.10.0, v1.11.0, v1.12.0, v1.13.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
@@ -12293,7 +12293,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -13175,7 +13175,7 @@ add_requires("tinyformat")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
-| Versions | v2.5.0, v2.6.3, v2.8.13, v2.8.9 |
+| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 
@@ -13271,7 +13271,7 @@ add_requires("tinyxml")
 | -- | -- |
 | Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
 | License | zlib |
-| Versions | 10.0.0, 8.0.0, 9.0.0 |
+| Versions | 8.0.0, 9.0.0, 10.0.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [tinyxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml2/xmake.lua) |
 
@@ -14657,7 +14657,7 @@ add_requires("xxhash")
 | Description | *General-purpose data compression with high compression ratio.* |
 | -- | -- |
 | Homepage | [https://tukaani.org/xz/](https://tukaani.org/xz/) |
-| Versions | 5.2.10, 5.2.5, 5.4.1 |
+| Versions | 5.2.5, 5.2.10, 5.4.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [xz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz/xmake.lua) |
 
