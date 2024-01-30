@@ -3822,7 +3822,8 @@ add_requires("glib")
 | Description | *OpenGL Mathematics (GLM)* |
 | -- | -- |
 | Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
-| Versions | 0.9.9+8 |
+| License | MIT |
+| Versions | 0.9.9+8, 1.0.0 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
 
