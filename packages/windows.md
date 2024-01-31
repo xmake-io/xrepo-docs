@@ -6682,7 +6682,7 @@ add_requires("g2o")
 | -- | -- |
 | Homepage | [http://github.com/KjellKod/g3log](http://github.com/KjellKod/g3log) |
 | License | Unlicense |
-| Versions | 2.3 |
+| Versions | 2.3, 2.4 |
 | Architectures | arm64, x64, x86 |
 | Definition | [g3log/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/g3log/xmake.lua) |
 
@@ -10719,7 +10719,7 @@ add_requires("libnpy")
 | Description | *A C++17 library to access the entire OpenAI API.* |
 | -- | -- |
 | Homepage | [https://github.com/D7EAD/liboai](https://github.com/D7EAD/liboai) |
-| Versions | 3.1.0 |
+| Versions | 3.1.0, 3.2.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [liboai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liboai/xmake.lua) |
 

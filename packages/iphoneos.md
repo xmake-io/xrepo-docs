@@ -3297,7 +3297,7 @@ add_requires("fx-gltf")
 | -- | -- |
 | Homepage | [http://github.com/KjellKod/g3log](http://github.com/KjellKod/g3log) |
 | License | Unlicense |
-| Versions | 2.3 |
+| Versions | 2.3, 2.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [g3log/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/g3log/xmake.lua) |
 
