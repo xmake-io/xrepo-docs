@@ -5576,7 +5576,7 @@ add_requires("libremidi")
 | -- | -- |
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
-| Versions | v2.7.1 |
+| Versions | v2.7.1, v2.7.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
@@ -10251,7 +10251,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -10767,6 +10767,30 @@ xrepo install -p iphoneos tetgen
 
 ```lua
 add_requires("tetgen")
+```
+
+
+### tf_workstealingqueue (iphoneos)
+
+
+| Description | *A fast work-stealing queue template in C++* |
+| -- | -- |
+| Homepage | [https://github.com/taskflow/work-stealing-queue](https://github.com/taskflow/work-stealing-queue) |
+| License | MIT |
+| Versions | 2022.07.20 |
+| Architectures | arm64, x86_64 |
+| Definition | [tf_workstealingqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tf_workstealingqueue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos tf_workstealingqueue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tf_workstealingqueue")
 ```
 
 
