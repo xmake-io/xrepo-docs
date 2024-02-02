@@ -7109,7 +7109,7 @@ add_requires("glew")
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
 | License | zlib |
-| Versions | 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7, 3.3.8 |
+| Versions | 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7, 3.3.8, 3.3.9 |
 | Architectures | arm64, x64, x86 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
