@@ -3896,7 +3896,7 @@ add_requires("fx-gltf")
 | -- | -- |
 | Homepage | [https://www.kthohr.com/gcem.html](https://www.kthohr.com/gcem.html) |
 | License | Apache-2.0 |
-| Versions | v1.13.1, v1.16.0 |
+| Versions | v1.13.1, v1.16.0, v1.17.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [gcem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gcem/xmake.lua) |
 
@@ -8636,7 +8636,7 @@ add_requires("named_type")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
 | License | MIT |
-| Versions | 0.10.3 |
+| Versions | 0.10.3, 0.10.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
 

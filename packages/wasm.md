@@ -6307,7 +6307,7 @@ add_requires("named_type")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
 | License | MIT |
-| Versions | 0.10.3 |
+| Versions | 0.10.3, 0.10.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
 
