@@ -1523,6 +1523,29 @@ add_requires("convertutf")
 ```
 
 
+### cosmocc (iphoneos)
+
+
+| Description | *build-once run-anywhere c library* |
+| -- | -- |
+| Homepage | [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan) |
+| Versions | 3.2.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [cosmocc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cosmocc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos cosmocc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cosmocc")
+```
+
+
 ### cpp-dump (iphoneos)
 
 

@@ -1860,6 +1860,29 @@ add_requires("convertutf")
 ```
 
 
+### cosmocc (bsd)
+
+
+| Description | *build-once run-anywhere c library* |
+| -- | -- |
+| Homepage | [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan) |
+| Versions | 3.2.4 |
+| Architectures | i386, x86_64 |
+| Definition | [cosmocc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cosmocc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cosmocc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cosmocc")
+```
+
+
 ### cpp-dump (bsd)
 
 

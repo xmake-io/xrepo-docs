@@ -3332,6 +3332,29 @@ add_requires("corrade")
 ```
 
 
+### cosmocc (linux)
+
+
+| Description | *build-once run-anywhere c library* |
+| -- | -- |
+| Homepage | [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan) |
+| Versions | 3.2.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cosmocc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cosmocc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cosmocc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cosmocc")
+```
+
+
 ### cpp-dump (linux)
 
 

@@ -1716,6 +1716,29 @@ add_requires("convertutf")
 ```
 
 
+### cosmocc (cross)
+
+
+| Description | *build-once run-anywhere c library* |
+| -- | -- |
+| Homepage | [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan) |
+| Versions | 3.2.4 |
+| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cosmocc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cosmocc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cosmocc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cosmocc")
+```
+
+
 ### cpp-dump (cross)
 
 
