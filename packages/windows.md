@@ -5414,7 +5414,7 @@ add_requires("ensmallen")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
-| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0 |
+| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -8297,8 +8297,8 @@ add_requires("hwloc")
 | -- | -- |
 | Homepage | [https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods) |
 | License | Apache-2.0 |
-| Versions | v2.20.0, v2.23.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | v2.20.0, v2.23.0, v2.30.0 |
+| Architectures | x64, x86 |
 | Definition | [hypre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hypre/xmake.lua) |
 
 ##### Install command
