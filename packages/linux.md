@@ -12812,7 +12812,7 @@ add_requires("libsamplerate")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.8, 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3, 2.28.4, 2.28.5 |
+| Versions | 2.0.8, 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3, 2.28.4, 2.28.5, 2.30.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -12859,7 +12859,7 @@ add_requires("libsdl_gfx")
 | -- | -- |
 | Homepage | [http://www.libsdl.org/projects/SDL_image/](http://www.libsdl.org/projects/SDL_image/) |
 | License | zlib |
-| Versions | 2.6.0, 2.6.1, 2.6.2 |
+| Versions | 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_image/xmake.lua) |
 
@@ -12883,7 +12883,7 @@ add_requires("libsdl_image")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/) |
 | License | zlib |
-| Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2 |
+| Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_mixer/xmake.lua) |
 
@@ -12931,7 +12931,7 @@ add_requires("libsdl_net")
 | -- | -- |
 | Homepage | [https://github.com/libsdl-org/SDL_ttf/](https://github.com/libsdl-org/SDL_ttf/) |
 | License | zlib |
-| Versions | 2.20.0, 2.20.1, 2.20.2 |
+| Versions | 2.20.0, 2.20.1, 2.20.2, 2.22.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_ttf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_ttf/xmake.lua) |
 
