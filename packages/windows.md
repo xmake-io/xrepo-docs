@@ -151,7 +151,7 @@ add_requires("aitoolkit")
 | -- | -- |
 | Homepage | [https://alembic.io/](https://alembic.io/) |
 | License | BSD-3-Clause |
-| Versions | 1.8.5 |
+| Versions | 1.8.5, 1.8.6 |
 | Architectures | arm64, x64, x86 |
 | Definition | [alembic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alembic/xmake.lua) |
 
@@ -7796,7 +7796,7 @@ add_requires("gumbo-parser")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
-| Versions | v0.11.0 |
+| Versions | v0.11.0, v0.16.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
@@ -18108,6 +18108,29 @@ xrepo install quake_triangle
 
 ```lua
 add_requires("quake_triangle")
+```
+
+
+### quantlib (windows)
+
+
+| Description | *The QuantLib C++ library* |
+| -- | -- |
+| Homepage | [http://quantlib.org](http://quantlib.org) |
+| Versions | 1.33 |
+| Architectures | arm64, x64, x86 |
+| Definition | [quantlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quantlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quantlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quantlib")
 ```
 
 

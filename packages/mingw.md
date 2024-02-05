@@ -4509,7 +4509,7 @@ add_requires("gumbo-parser")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
-| Versions | v0.11.0 |
+| Versions | v0.11.0, v0.16.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
@@ -10907,6 +10907,29 @@ xrepo install -p mingw [--mingw=/xxx] quake_triangle
 
 ```lua
 add_requires("quake_triangle")
+```
+
+
+### quantlib (mingw)
+
+
+| Description | *The QuantLib C++ library* |
+| -- | -- |
+| Homepage | [http://quantlib.org](http://quantlib.org) |
+| Versions | 1.33 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [quantlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quantlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] quantlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quantlib")
 ```
 
 
