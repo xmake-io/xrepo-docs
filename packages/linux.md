@@ -391,7 +391,7 @@ add_requires("argh")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/argparse](https://github.com/p-ranav/argparse) |
 | License | MIT |
-| Versions | 2.6, 2.7, 2.8, 2.9 |
+| Versions | 2.6, 2.7, 2.8, 2.9, 3.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [argparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argparse/xmake.lua) |
 
