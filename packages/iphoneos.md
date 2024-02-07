@@ -935,7 +935,7 @@ add_requires("c-blosc2")
 | Description | *Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.* |
 | -- | -- |
 | Homepage | [https://mkcert.org/](https://mkcert.org/) |
-| Versions | 20211118, 20220604, 20230306 |
+| Versions | 20211118, 20220604, 20230306, 20240207 |
 | Architectures | arm64, x86_64 |
 | Definition | [ca-certificates/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua) |
 
@@ -6829,7 +6829,7 @@ add_requires("memorymapping")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -8750,7 +8750,7 @@ add_requires("pystring")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
-| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
@@ -10274,7 +10274,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
