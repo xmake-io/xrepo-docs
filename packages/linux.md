@@ -13541,7 +13541,7 @@ add_requires("liburing")
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
 | License | LGPL-2.1 |
-| Versions | v1.0.26 |
+| Versions | v1.0.26, v1.0.27 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 
@@ -19265,7 +19265,7 @@ add_requires("outcome")
 | -- | -- |
 | Homepage | [http://guillaumeblanc.github.io/ozz-animation/](http://guillaumeblanc.github.io/ozz-animation/) |
 | License | MIT |
-| Versions | 0.14.2 |
+| Versions | 0.14.2, 0.14.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ozz-animation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ozz-animation/xmake.lua) |
 
