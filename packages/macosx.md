@@ -18750,7 +18750,7 @@ add_requires("poco")
 | -- | -- |
 | Homepage | [https://polyscope.run/](https://polyscope.run/) |
 | License | MIT |
-| Versions | v1.3.0 |
+| Versions | v1.3.0, v2.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [polyscope/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/polyscope/xmake.lua) |
 
@@ -21997,7 +21997,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22207,7 +22207,7 @@ add_requires("starpu")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30 |
+| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30, 2023.12.15 |
 | Architectures | arm64, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
