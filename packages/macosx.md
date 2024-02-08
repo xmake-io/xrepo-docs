@@ -1606,7 +1606,7 @@ add_requires("blitz")
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.5.0, v1.20.1, v1.21.1, v1.21.4 |
+| Versions | v1.5.0, v1.20.1, v1.21.1, v1.21.4, v1.21.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 
@@ -17348,7 +17348,8 @@ add_requires("opencv")
 | Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
-| Versions | 2.5.3, 2.5.5, 2.5.7, 3.1.0, 3.1.1, 3.1.3, 3.1.4, 3.1.5 |
+| License | BSD-3-Clause |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -17654,7 +17655,8 @@ add_requires("opensubdiv")
 | Description | *OpenVDB - Sparse volume data structure and tools* |
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
-| Versions | v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0, v10.0.1, v10.1.0 |
+| License | MPL-2.0 |
+| Versions | v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0, v10.0.1, v10.1.0, v11.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
