@@ -3657,7 +3657,8 @@ add_requires("fx-gltf")
 | Description | *GENie - Project generator tool* |
 | -- | -- |
 | Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
-| Versions | 1160.0 |
+| License | BSD-3-Clause |
+| Versions | 1160, 1165, 1170 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
 
