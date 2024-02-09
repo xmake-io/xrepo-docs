@@ -126,7 +126,7 @@ add_requires("aqt")
 | -- | -- |
 | Homepage | [https://arduinojson.org](https://arduinojson.org) |
 | License | MIT |
-| Versions | v6.21.4 |
+| Versions | v6.21.4, v7.0.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
 
@@ -11032,7 +11032,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -12201,7 +12201,7 @@ add_requires("transwarp")
 | -- | -- |
 | Homepage | [https://github.com/rollbear/trompeloeil](https://github.com/rollbear/trompeloeil) |
 | License | BSL-1.0 |
-| Versions | v43 |
+| Versions | v43, v47 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [trompeloeil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trompeloeil/xmake.lua) |
 
