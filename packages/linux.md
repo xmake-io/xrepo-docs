@@ -21900,7 +21900,7 @@ add_requires("restinio")
 | Description | *RHash (Recursive Hasher) is a console utility for computing and verifying hash sums of files.* |
 | -- | -- |
 | Homepage | [http://rhash.sourceforge.net/](http://rhash.sourceforge.net/) |
-| Versions | 1.4.2 |
+| Versions | 1.4.2, 1.4.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rhash/xmake.lua) |
 
