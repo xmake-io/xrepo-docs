@@ -1318,7 +1318,7 @@ add_requires("cgetopt")
 | -- | -- |
 | Homepage | [https://github.com/recp/cglm](https://github.com/recp/cglm) |
 | License | MIT |
-| Versions | v0.9.0 |
+| Versions | v0.9.0, v0.9.2 |
 | Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cglm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cglm/xmake.lua) |
 
