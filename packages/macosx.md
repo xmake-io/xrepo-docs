@@ -3354,6 +3354,29 @@ add_requires("cpp20-http-client")
 ```
 
 
+### cppcheck (macosx)
+
+
+| Description | *A static analysis tool for C/C++ code* |
+| -- | -- |
+| Homepage | [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/) |
+| Versions | 2.13.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [cppcheck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcheck/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppcheck
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppcheck")
+```
+
+
 ### cppitertools (macosx)
 
 
@@ -4571,7 +4594,7 @@ add_requires("doctest")
 | Description | *.NET is the free, open-source, cross-platform framework for building modern apps and powerful cloud services.* |
 | -- | -- |
 | Homepage | [https://dotnet.microsoft.com/](https://dotnet.microsoft.com/) |
-| Versions | 7.0.202 |
+| Versions | 7.0.4, 7.0.15, 8.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [dotnet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dotnet/xmake.lua) |
 

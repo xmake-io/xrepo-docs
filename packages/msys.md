@@ -1810,6 +1810,29 @@ add_requires("cpp-sort")
 ```
 
 
+### cppcheck (msys)
+
+
+| Description | *A static analysis tool for C/C++ code* |
+| -- | -- |
+| Homepage | [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/) |
+| Versions | 2.13.0 |
+| Architectures | i386, x86_64 |
+| Definition | [cppcheck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcheck/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppcheck
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppcheck")
+```
+
+
 ### cppitertools (msys)
 
 
