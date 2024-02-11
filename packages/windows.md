@@ -16652,7 +16652,7 @@ add_requires("pdfhummus")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 3.2.2, 3.2.5 |
+| Versions | 3.2.2, 3.2.5, 3.2.7 |
 | Architectures | arm64, x64, x86 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
