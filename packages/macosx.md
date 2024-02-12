@@ -12762,7 +12762,7 @@ add_requires("libwfkafka")
 | Description | *X.Org: Core X11 protocol client library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1 |
+| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1, 1.8.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
 
@@ -12923,7 +12923,7 @@ add_requires("libxdmcp")
 | Description | *X.Org: Library for common extensions to the X11 protocol* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.3.5 |
+| Versions | 1.3.5, 1.3.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxext/xmake.lua) |
 
@@ -13156,7 +13156,7 @@ add_requires("libxpm")
 | Description | *X.Org: X Resize, Rotate and Reflection extension library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.5.2 |
+| Versions | 1.5.2, 1.5.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxrandr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxrandr/xmake.lua) |
 
@@ -18208,7 +18208,7 @@ add_requires("pcg32")
 | -- | -- |
 | Homepage | [https://mj.ucw.cz/sw/pciutils/](https://mj.ucw.cz/sw/pciutils/) |
 | License | GPL-2.0 |
-| Versions | 3.7.0 |
+| Versions | 3.7.0, 3.10.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [pciutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pciutils/xmake.lua) |
 
@@ -18538,7 +18538,7 @@ add_requires("pigz")
 | Description | *Low-level library for pixel manipulation.* |
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
-| Versions | 0.40.0, 0.42.0, 0.42.2 |
+| Versions | 0.40.0, 0.42.0, 0.42.2, 0.43.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [pixman/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pixman/xmake.lua) |
 
@@ -22023,7 +22023,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
