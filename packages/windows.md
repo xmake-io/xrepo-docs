@@ -15437,7 +15437,7 @@ add_requires("onnx")
 | -- | -- |
 | Homepage | [https://www.onnxruntime.ai](https://www.onnxruntime.ai) |
 | License | MIT |
-| Versions | 1.11.1, 1.16.1 |
+| Versions | 1.11.1, 1.16.1, 1.17.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [onnxruntime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onnxruntime/xmake.lua) |
 
@@ -20231,7 +20231,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
