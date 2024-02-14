@@ -19461,7 +19461,7 @@ add_requires("papi")
 | -- | -- |
 | Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
 | License | Apache-2.0 |
-| Versions | 1.33, 1.34, 1.35, 1.37 |
+| Versions | v1.3.12, 1.33, 1.34, 1.35, 1.37 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loongarch64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
 

@@ -16416,7 +16416,7 @@ add_requires("pango")
 | -- | -- |
 | Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
 | License | Apache-2.0 |
-| Versions | 1.33, 1.34, 1.35, 1.37 |
+| Versions | v1.3.12, 1.33, 1.34, 1.35, 1.37 |
 | Architectures | arm64, x64, x86 |
 | Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
 
