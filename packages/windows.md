@@ -240,6 +240,30 @@ add_requires("angelscript")
 ```
 
 
+### angle (windows)
+
+
+| Description | *ANGLE - Almost Native Graphics Layer Engine* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/angle/angle](https://chromium.googlesource.com/angle/angle) |
+| License | BSD-3-Clause |
+| Versions | 6288 |
+| Architectures | arm64, x64, x86 |
+| Definition | [angle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/angle/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install angle
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("angle")
+```
+
+
 ### apr (windows)
 
 
@@ -13204,7 +13228,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
