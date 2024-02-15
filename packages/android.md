@@ -12536,7 +12536,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
 | License | MIT |
-| Versions | v2.7.0, v2.8.0 |
+| Versions | v2.7.0, v2.8.0, v2.9.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
 
