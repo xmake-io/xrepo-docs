@@ -7251,6 +7251,30 @@ add_requires("mma")
 ```
 
 
+### moltenvk (iphoneos)
+
+
+| Description | *MoltenVK is a Vulkan Portability implementation.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/MoltenVK](https://github.com/KhronosGroup/MoltenVK) |
+| License | Apache-2.0 |
+| Versions | v1.1.0, v1.1.4, v1.1.5, v1.2.0, v1.2.7 |
+| Architectures | arm64, x86_64 |
+| Definition | [moltenvk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moltenvk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos moltenvk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("moltenvk")
+```
+
+
 ### mongoose (iphoneos)
 
 
@@ -10323,7 +10347,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
