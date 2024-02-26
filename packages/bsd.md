@@ -2434,7 +2434,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
 | License | MIT |
-| Versions | v2.2.0, v3.0.0, v3.1.1, v3.2.0 |
+| Versions | v2.2.0, v3.0.0, v3.1.1, v3.2.0, v3.2.1 |
 | Architectures | i386, x86_64 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
