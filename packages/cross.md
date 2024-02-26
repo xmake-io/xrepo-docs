@@ -10445,7 +10445,7 @@ add_requires("strtk")
 | -- | -- |
 | Homepage | [https://lamarrr.github.io/STX](https://lamarrr.github.io/STX) |
 | License | MIT |
-| Versions | v1.0.3 |
+| Versions | v1.0.3, v1.0.5 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [stx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stx/xmake.lua) |
 
