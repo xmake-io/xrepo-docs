@@ -19925,8 +19925,8 @@ add_requires("snitch")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/snmalloc](https://github.com/microsoft/snmalloc) |
 | License | MIT |
-| Versions | 0.6.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | 0.6.0, 0.6.2 |
+| Architectures | x64, x86 |
 | Definition | [snmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snmalloc/xmake.lua) |
 
 ##### Install command
