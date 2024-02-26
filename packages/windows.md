@@ -31,7 +31,7 @@ add_requires("7z")
 | -- | -- |
 | Homepage | [https://abseil.io](https://abseil.io) |
 | License | Apache-2.0 |
-| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1 |
+| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
@@ -45,6 +45,30 @@ xrepo install abseil
 
 ```lua
 add_requires("abseil")
+```
+
+
+### access_private (windows)
+
+
+| Description | *Access private members and statics of a C++ class* |
+| -- | -- |
+| Homepage | [https://github.com/martong/access_private](https://github.com/martong/access_private) |
+| License | MIT |
+| Versions | 2024.02.01 |
+| Architectures | arm64, x64, x86 |
+| Definition | [access_private/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/access_private/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install access_private
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("access_private")
 ```
 
 
@@ -271,8 +295,8 @@ add_requires("angle")
 | -- | -- |
 | Homepage | [https://github.com/apache/apr](https://github.com/apache/apr) |
 | License | Apache-2.0 |
-| Versions | 1.7.0 |
-| Architectures | arm64, x64, x86 |
+| Versions | 1.7.0, 1.7.4 |
+| Architectures | x64, x86 |
 | Definition | [apr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/apr/xmake.lua) |
 
 ##### Install command
@@ -1229,7 +1253,7 @@ add_requires("bcg729")
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
 | License | Apache-2.0 |
-| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0 |
+| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0, 1.8.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
@@ -3459,7 +3483,7 @@ add_requires("cppp-reiconv")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/cpptrace](https://github.com/jeremy-rifkin/cpptrace) |
 | License | MIT |
-| Versions | v0.1, v0.3.1 |
+| Versions | v0.1, v0.3.1, v0.4.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cpptrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpptrace/xmake.lua) |
 
@@ -4027,7 +4051,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
 | License | MIT |
-| Versions | v2.2.0, v3.0.0, v3.1.1 |
+| Versions | v2.2.0, v3.0.0, v3.1.1, v3.2.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
@@ -5413,7 +5437,7 @@ add_requires("enet6")
 | -- | -- |
 | Homepage | [https://github.com/dougbinks/enkiTS](https://github.com/dougbinks/enkiTS) |
 | License | zlib |
-| Versions | v1.10 |
+| Versions | v1.10, v1.11 |
 | Architectures | arm64, x64, x86 |
 | Definition | [enkits/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enkits/xmake.lua) |
 
@@ -5967,7 +5991,7 @@ add_requires("fdk-aac")
 | Homepage | [https://www.ffmpeg.org](https://www.ffmpeg.org) |
 | License | GPL-3.0 |
 | Versions | 4.0.2, 5.0.1, 5.1.1, 5.1.2, 6.0.1, 6.1 |
-| Architectures | x64 |
+| Architectures | arm64, x64, x86 |
 | Definition | [ffmpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffmpeg/xmake.lua) |
 
 ##### Install command
@@ -7884,6 +7908,30 @@ add_requires("gyp-next")
 ```
 
 
+### gzip-hpp (windows)
+
+
+| Description | *Gzip header-only C++ library* |
+| -- | -- |
+| Homepage | [https://github.com/mapbox/gzip-hpp](https://github.com/mapbox/gzip-hpp) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [gzip-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gzip-hpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gzip-hpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gzip-hpp")
+```
+
+
 
 ## h
 ### h5cpp (windows)
@@ -8536,7 +8584,7 @@ add_requires("imcoolbar")
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
-| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2 |
+| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -10883,7 +10931,7 @@ add_requires("libpeconv")
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -16440,7 +16488,7 @@ add_requires("parallel-hashmap")
 | -- | -- |
 | Homepage | [http://partio.us/](http://partio.us/) |
 | License | BSD-3-Clause |
-| Versions | v1.14.0, v1.14.6 |
+| Versions | v1.14.0, v1.14.6, v1.17.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [partio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/partio/xmake.lua) |
 
@@ -17398,6 +17446,54 @@ xrepo install prvhash
 
 ```lua
 add_requires("prvhash")
+```
+
+
+### pseudo-double-c (windows)
+
+
+| Description | *A relatively fast C and C++ 64 bit floating point library written using only integer operations for cross platform consistency. Tested with gcc/clang/Visual Studio, on x86-64/ARMv8 (64 bit)* |
+| -- | -- |
+| Homepage | [https://github.com/royward/pseudo-double](https://github.com/royward/pseudo-double) |
+| License | BSD-3-Clause |
+| Versions | 2024.01.17 |
+| Architectures | x64 |
+| Definition | [pseudo-double-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pseudo-double-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pseudo-double-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pseudo-double-c")
+```
+
+
+### pseudo-double-cpp (windows)
+
+
+| Description | *A relatively fast C and C++ 64 bit floating point library written using only integer operations for cross platform consistency. Tested with gcc/clang/Visual Studio, on x86-64/ARMv8 (64 bit)* |
+| -- | -- |
+| Homepage | [https://github.com/royward/pseudo-double](https://github.com/royward/pseudo-double) |
+| License | BSD-3-Clause |
+| Versions | 2024.01.17 |
+| Architectures | x64 |
+| Definition | [pseudo-double-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pseudo-double-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pseudo-double-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pseudo-double-cpp")
 ```
 
 
@@ -18736,7 +18832,7 @@ add_requires("rlottie")
 | -- | -- |
 | Homepage | [https://mikke89.github.io/RmlUiDoc/](https://mikke89.github.io/RmlUiDoc/) |
 | License | MIT |
-| Versions | 5.0 |
+| Versions | 5.0, 5.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [rmlui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rmlui/xmake.lua) |
 
@@ -20255,7 +20351,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20703,7 +20799,7 @@ add_requires("subprocess.h")
 | Description | *SuiteSparse is a suite of sparse matrix algorithms* |
 | -- | -- |
 | Homepage | [https://people.engr.tamu.edu/davis/suitesparse.html](https://people.engr.tamu.edu/davis/suitesparse.html) |
-| Versions | v5.10.1, v5.12.0, v5.13.0, v7.5.1 |
+| Versions | v5.10.1, v5.12.0, v5.13.0, v7.5.1, v7.6.0 |
 | Architectures | x64, x86 |
 | Definition | [suitesparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/suitesparse/xmake.lua) |
 
@@ -21513,7 +21609,7 @@ add_requires("tinyformat")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
-| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13 |
+| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21 |
 | Architectures | arm64, x64, x86 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 
@@ -23677,6 +23773,29 @@ add_requires("wyhash")
 
 
 ## x
+### x264 (windows)
+
+
+| Description | *A free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format.* |
+| -- | -- |
+| Homepage | [https://www.videolan.org/developers/x264.html](https://www.videolan.org/developers/x264.html) |
+| Versions | v2018.09.25, v2021.09.29, v2023.04.04 |
+| Architectures | arm64, x64, x86 |
+| Definition | [x264/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x264/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install x264
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("x264")
+```
+
+
 ### x265 (windows)
 
 

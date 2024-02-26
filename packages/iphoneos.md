@@ -1,4 +1,28 @@
 ## a
+### access_private (iphoneos)
+
+
+| Description | *Access private members and statics of a C++ class* |
+| -- | -- |
+| Homepage | [https://github.com/martong/access_private](https://github.com/martong/access_private) |
+| License | MIT |
+| Versions | 2024.02.01 |
+| Architectures | arm64, x86_64 |
+| Definition | [access_private/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/access_private/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos access_private
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("access_private")
+```
+
+
 ### ada (iphoneos)
 
 
@@ -2073,7 +2097,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
 | License | MIT |
-| Versions | v2.2.0, v3.0.0, v3.1.1 |
+| Versions | v2.2.0, v3.0.0, v3.1.1, v3.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
@@ -3904,6 +3928,30 @@ add_requires("gyp-next")
 ```
 
 
+### gzip-hpp (iphoneos)
+
+
+| Description | *Gzip header-only C++ library* |
+| -- | -- |
+| Homepage | [https://github.com/mapbox/gzip-hpp](https://github.com/mapbox/gzip-hpp) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [gzip-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gzip-hpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos gzip-hpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gzip-hpp")
+```
+
+
 
 ## h
 ### half (iphoneos)
@@ -4271,7 +4319,7 @@ add_requires("imcoolbar")
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
-| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2 |
+| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -5481,7 +5529,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43 |
 | Architectures | arm64, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -10275,7 +10323,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -11063,7 +11111,7 @@ add_requires("tinyformat")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
-| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13 |
+| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21 |
 | Architectures | arm64, x86_64 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 

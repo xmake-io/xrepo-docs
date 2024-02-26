@@ -146,7 +146,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1</td>
+<td>20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -163,6 +163,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("abseil")
+</code></pre>
+<h3 id="access_privatewindows">access_private (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Access private members and statics of a C++ class</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/martong/access_private">https://github.com/martong/access_private</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.02.01</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/access_private/xmake.lua">access_private/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install access_private
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("access_private")
 </code></pre>
 <h3 id="actorframeworkwindows">actor-framework (windows)</h3>
 <table>
@@ -516,11 +553,11 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.7.0</td>
+<td>1.7.0, 1.7.4</td>
 </tr>
 <tr>
 <td>Architectures</td>
-<td>arm64, x64, x86</td>
+<td>x64, x86</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -1981,7 +2018,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0</td>
+<td>1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0, 1.8.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -5348,7 +5385,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.1, v0.3.1</td>
+<td>v0.1, v0.3.1, v0.4.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -6204,7 +6241,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.2.0, v3.0.0, v3.1.1</td>
+<td>v2.2.0, v3.0.0, v3.1.1, v3.2.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -8312,7 +8349,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.10</td>
+<td>v1.10, v1.11</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -9164,7 +9201,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>x64</td>
+<td>arm64, x64, x86</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -12055,6 +12092,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("gyp-next")
 </code></pre>
+<h3 id="gziphppwindows">gzip-hpp (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Gzip header-only C++ library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/mapbox/gzip-hpp">https://github.com/mapbox/gzip-hpp</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.1.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gzip-hpp/xmake.lua">gzip-hpp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install gzip-hpp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gzip-hpp")
+</code></pre>
 <h2 id="h">h</h2>
 <h3 id="h5cppwindows">h5cpp (windows)</h3>
 <table>
@@ -13047,7 +13121,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2</td>
+<td>v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -16573,7 +16647,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42</td>
+<td>v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -24967,7 +25041,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.14.0, v1.14.6</td>
+<td>v1.14.0, v1.14.6, v1.17.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -26400,6 +26474,80 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("prvhash")
+</code></pre>
+<h3 id="pseudodoublecwindows">pseudo-double-c (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A relatively fast C and C++ 64 bit floating point library written using only integer operations for cross platform consistency. Tested with gcc/clang/Visual Studio, on x86-64/ARMv8 (64 bit)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/royward/pseudo-double">https://github.com/royward/pseudo-double</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.01.17</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>x64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pseudo-double-c/xmake.lua">pseudo-double-c/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install pseudo-double-c
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("pseudo-double-c")
+</code></pre>
+<h3 id="pseudodoublecppwindows">pseudo-double-cpp (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A relatively fast C and C++ 64 bit floating point library written using only integer operations for cross platform consistency. Tested with gcc/clang/Visual Studio, on x86-64/ARMv8 (64 bit)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/royward/pseudo-double">https://github.com/royward/pseudo-double</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.01.17</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>x64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pseudo-double-cpp/xmake.lua">pseudo-double-cpp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install pseudo-double-cpp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("pseudo-double-cpp")
 </code></pre>
 <h3 id="ptexwindows">ptex (windows)</h3>
 <table>
@@ -28414,7 +28562,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>5.0</td>
+<td>5.0, 5.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30707,7 +30855,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -31378,7 +31526,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v5.10.1, v5.12.0, v5.13.0, v7.5.1</td>
+<td>v5.10.1, v5.12.0, v5.13.0, v7.5.1, v7.6.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -32605,7 +32753,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.5.0, v2.6.3, v2.8.9, v2.8.13</td>
+<td>v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -35873,6 +36021,39 @@
 <pre><code class="lang-lua">add_requires("wyhash")
 </code></pre>
 <h2 id="x">x</h2>
+<h3 id="x264windows">x264 (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.videolan.org/developers/x264.html">https://www.videolan.org/developers/x264.html</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v2018.09.25, v2021.09.29, v2023.04.04</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x264/xmake.lua">x264/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install x264
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("x264")
+</code></pre>
 <h3 id="x265windows">x265 (windows)</h3>
 <table>
 <thead>

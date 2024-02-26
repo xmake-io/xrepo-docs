@@ -6,8 +6,8 @@
 | -- | -- |
 | Homepage | [https://abseil.io](https://abseil.io) |
 | License | Apache-2.0 |
-| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
 ##### Install command
@@ -23,6 +23,30 @@ add_requires("abseil")
 ```
 
 
+### access_private (cross)
+
+
+| Description | *Access private members and statics of a C++ class* |
+| -- | -- |
+| Homepage | [https://github.com/martong/access_private](https://github.com/martong/access_private) |
+| License | MIT |
+| Versions | 2024.02.01 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [access_private/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/access_private/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] access_private
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("access_private")
+```
+
+
 ### ada (cross)
 
 
@@ -31,7 +55,7 @@ add_requires("abseil")
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
 | Versions | 2.3.1, 2.4.0, 2.4.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
 ##### Install command
@@ -55,7 +79,7 @@ add_requires("ada")
 | Homepage | [https://linkdd.github.io/aitoolkit/](https://linkdd.github.io/aitoolkit/) |
 | License | MIT |
 | Versions | v0.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aitoolkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aitoolkit/xmake.lua) |
 
 ##### Install command
@@ -79,7 +103,7 @@ add_requires("aitoolkit")
 | Homepage | [https://github.com/CopernicaMarketingSoftware/AMQP-CPP](https://github.com/CopernicaMarketingSoftware/AMQP-CPP) |
 | License | Apache-2.0 |
 | Versions | v4.3.26 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [amqp-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amqp-cpp/xmake.lua) |
 
 ##### Install command
@@ -103,7 +127,7 @@ add_requires("amqp-cpp")
 | Homepage | [https://github.com/miurahr/aqtinstall](https://github.com/miurahr/aqtinstall) |
 | License | MIT |
 | Versions |  |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aqt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aqt/xmake.lua) |
 
 ##### Install command
@@ -127,7 +151,7 @@ add_requires("aqt")
 | Homepage | [https://arduinojson.org](https://arduinojson.org) |
 | License | MIT |
 | Versions | v6.21.4, v7.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
 
 ##### Install command
@@ -151,7 +175,7 @@ add_requires("arduinojson")
 | Homepage | [https://github.com/adishavit/argh](https://github.com/adishavit/argh) |
 | License | BSD-3-Clause |
 | Versions | v1.3.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [argh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argh/xmake.lua) |
 
 ##### Install command
@@ -175,7 +199,7 @@ add_requires("argh")
 | Homepage | [https://github.com/p-ranav/argparse](https://github.com/p-ranav/argparse) |
 | License | MIT |
 | Versions | 2.6, 2.7, 2.8, 2.9, 3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [argparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argparse/xmake.lua) |
 
 ##### Install command
@@ -199,7 +223,7 @@ add_requires("argparse")
 | Homepage | [https://github.com/mobius3/asap](https://github.com/mobius3/asap) |
 | License | MIT |
 | Versions | 2023.04.21 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [asap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asap/xmake.lua) |
 
 ##### Install command
@@ -223,7 +247,7 @@ add_requires("asap")
 | Homepage | [https://github.com/aseprite/tga](https://github.com/aseprite/tga) |
 | License | MIT |
 | Versions | 2023.6.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aseprite-tga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aseprite-tga/xmake.lua) |
 
 ##### Install command
@@ -247,7 +271,7 @@ add_requires("aseprite-tga")
 | Homepage | [http://think-async.com/Asio/](http://think-async.com/Asio/) |
 | License | BSL-1.0 |
 | Versions | 1.20.0, 1.21.0, 1.24.0, 1.28.0, 1.29.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [asio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio/xmake.lua) |
 
 ##### Install command
@@ -271,7 +295,7 @@ add_requires("asio")
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
 | Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
 ##### Install command
@@ -295,7 +319,7 @@ add_requires("assimp")
 | Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
 | License | MIT |
 | Versions | v1.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
 
 ##### Install command
@@ -318,7 +342,7 @@ add_requires("atomic_queue")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
 | Versions | 2.68, 2.69, 2.71 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
 ##### Install command
@@ -342,7 +366,7 @@ add_requires("autoconf")
 | Homepage | [http://www.gnu.org/software/autoconf-archive/](http://www.gnu.org/software/autoconf-archive/) |
 | License | GPL-3.0-or-later |
 | Versions | 2023.02.20 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [autoconf-archive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf-archive/xmake.lua) |
 
 ##### Install command
@@ -365,7 +389,7 @@ add_requires("autoconf-archive")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
 | Versions | 1.9.5, 1.9.6, 1.15.1, 1.16.1, 1.16.4, 1.16.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
 ##### Install command
@@ -389,7 +413,7 @@ add_requires("automake")
 | Homepage | [https://github.com/avaneev/avir](https://github.com/avaneev/avir) |
 | License | MIT |
 | Versions | 3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [avir/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/avir/xmake.lua) |
 
 ##### Install command
@@ -413,7 +437,7 @@ add_requires("avir")
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
 | Versions | v0.7.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
 ##### Install command
@@ -437,7 +461,7 @@ add_requires("aws-c-auth")
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
 | Versions | v0.6.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
 ##### Install command
@@ -461,7 +485,7 @@ add_requires("aws-c-cal")
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
 | Versions | v0.9.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
 ##### Install command
@@ -485,7 +509,7 @@ add_requires("aws-c-common")
 | Homepage | [https://github.com/awslabs/aws-c-compression](https://github.com/awslabs/aws-c-compression) |
 | License | Apache-2.0 |
 | Versions | v0.2.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-compression/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-compression/xmake.lua) |
 
 ##### Install command
@@ -509,7 +533,7 @@ add_requires("aws-c-compression")
 | Homepage | [https://github.com/awslabs/aws-c-event-stream](https://github.com/awslabs/aws-c-event-stream) |
 | License | Apache-2.0 |
 | Versions | v0.3.2, v0.4.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-event-stream/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-event-stream/xmake.lua) |
 
 ##### Install command
@@ -533,7 +557,7 @@ add_requires("aws-c-event-stream")
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
 | Versions | v0.7.12 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
 ##### Install command
@@ -557,7 +581,7 @@ add_requires("aws-c-http")
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
 | Versions | v0.13.32 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
 ##### Install command
@@ -581,7 +605,7 @@ add_requires("aws-c-io")
 | Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
 | License | Apache-2.0 |
 | Versions | v0.9.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
 
 ##### Install command
@@ -605,7 +629,7 @@ add_requires("aws-c-mqtt")
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
 | Versions | v0.3.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
 ##### Install command
@@ -629,7 +653,7 @@ add_requires("aws-c-s3")
 | Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
 | License | Apache-2.0 |
 | Versions | v0.1.12 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
 
 ##### Install command
@@ -653,7 +677,7 @@ add_requires("aws-c-sdkutils")
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
 | Versions | v0.1.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
 ##### Install command
@@ -679,7 +703,7 @@ add_requires("aws-checksums")
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
 | Versions | 4.9.6, 5.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
 ##### Install command
@@ -703,7 +727,7 @@ add_requires("b2")
 | Homepage | [https://github.com/bitwizeshift/BackportCpp](https://github.com/bitwizeshift/BackportCpp) |
 | License | MIT |
 | Versions | v1.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [backportcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/backportcpp/xmake.lua) |
 
 ##### Install command
@@ -727,7 +751,7 @@ add_requires("backportcpp")
 | Homepage | [https://github.com/azawadzki/base-n](https://github.com/azawadzki/base-n) |
 | License | MIT |
 | Versions | 2020.05.28 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [base-n/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base-n/xmake.lua) |
 
 ##### Install command
@@ -750,7 +774,7 @@ add_requires("base-n")
 | -- | -- |
 | Homepage | [https://bazel.build/](https://bazel.build/) |
 | Versions | 5.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [bazel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bazel/xmake.lua) |
 
 ##### Install command
@@ -773,7 +797,7 @@ add_requires("bazel")
 | -- | -- |
 | Homepage | [http://linphone.org](http://linphone.org) |
 | Versions | 1.0.4, 1.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [bcg729/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bcg729/xmake.lua) |
 
 ##### Install command
@@ -796,7 +820,7 @@ add_requires("bcg729")
 | -- | -- |
 | Homepage | [http://www.bento4.com](http://www.bento4.com) |
 | Versions | 2023.08.08 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [bento4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bento4/xmake.lua) |
 
 ##### Install command
@@ -820,7 +844,7 @@ add_requires("bento4")
 | Homepage | [http://aantron.github.io/better-enums](http://aantron.github.io/better-enums) |
 | License | BSD-2-Clause |
 | Versions | 0.11.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [better-enums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/better-enums/xmake.lua) |
 
 ##### Install command
@@ -843,7 +867,7 @@ add_requires("better-enums")
 | -- | -- |
 | Homepage | [https://github.com/gwilymk/bin2c](https://github.com/gwilymk/bin2c) |
 | Versions | 0.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [bin2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bin2c/xmake.lua) |
 
 ##### Install command
@@ -867,7 +891,7 @@ add_requires("bin2c")
 | Homepage | [https://www.gnu.org/software/binutils/binutils.html](https://www.gnu.org/software/binutils/binutils.html) |
 | License | GPL-2.0 |
 | Versions | 2.34, 2.38, 2.41 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [binutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/binutils/xmake.lua) |
 
 ##### Install command
@@ -891,7 +915,7 @@ add_requires("binutils")
 | Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
 | License | GPL-3.0 |
 | Versions | 3.7.4, 3.7.6, 3.8.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
 
 ##### Install command
@@ -915,7 +939,7 @@ add_requires("bison")
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
 | Versions | 1.3.1, 1.3.3, 1.5.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
 ##### Install command
@@ -939,7 +963,7 @@ add_requires("blake3")
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
 | License | BSL-1.0 |
 | Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
 ##### Install command
@@ -962,7 +986,7 @@ add_requires("boost")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/di](https://boost-ext.github.io/di) |
 | Versions | v1.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [boost_di/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_di/xmake.lua) |
 
 ##### Install command
@@ -986,7 +1010,7 @@ add_requires("boost_di")
 | Homepage | [https://boost-ext.github.io/sml](https://boost-ext.github.io/sml) |
 | License | BSL-1.0 |
 | Versions | v1.1.8 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [boost_sml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_sml/xmake.lua) |
 
 ##### Install command
@@ -1009,7 +1033,7 @@ add_requires("boost_sml")
 | -- | -- |
 | Homepage | [https://github.com/skeeto/branchless-utf8](https://github.com/skeeto/branchless-utf8) |
 | Versions | 2022.08.30 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [branchless-utf8/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/branchless-utf8/xmake.lua) |
 
 ##### Install command
@@ -1033,7 +1057,7 @@ add_requires("branchless-utf8")
 | Homepage | [https://github.com/google/brotli](https://github.com/google/brotli) |
 | License | MIT |
 | Versions | v1.0.9, v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [brotli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brotli/xmake.lua) |
 
 ##### Install command
@@ -1056,7 +1080,7 @@ add_requires("brotli")
 | -- | -- |
 | Homepage | [https://github.com/IronsDu/brynet](https://github.com/IronsDu/brynet) |
 | Versions | 1.0.9 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [brynet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brynet/xmake.lua) |
 
 ##### Install command
@@ -1080,7 +1104,7 @@ add_requires("brynet")
 | Homepage | [http://bulletphysics.org](http://bulletphysics.org) |
 | License | zlib |
 | Versions | 2.88, 3.05, 3.09, 3.24, 3.25 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [bullet3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bullet3/xmake.lua) |
 
 ##### Install command
@@ -1104,7 +1128,7 @@ add_requires("bullet3")
 | Homepage | [https://github.com/madmann91/bvh](https://github.com/madmann91/bvh) |
 | License | MIT |
 | Versions | 2023.6.30 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [bvh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bvh/xmake.lua) |
 
 ##### Install command
@@ -1127,7 +1151,7 @@ add_requires("bvh")
 | -- | -- |
 | Homepage | [https://sourceware.org/bzip2/](https://sourceware.org/bzip2/) |
 | Versions | 1.0.8 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [bzip2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip2/xmake.lua) |
 
 ##### Install command
@@ -1153,7 +1177,7 @@ add_requires("bzip2")
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
 | Versions | v2.10.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
 ##### Install command
@@ -1176,7 +1200,7 @@ add_requires("c-blosc2")
 | -- | -- |
 | Homepage | [https://mkcert.org/](https://mkcert.org/) |
 | Versions | 20211118, 20220604, 20230306, 20240207 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ca-certificates/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua) |
 
 ##### Install command
@@ -1200,7 +1224,7 @@ add_requires("ca-certificates")
 | Homepage | [https://likle.github.io/cargs/](https://likle.github.io/cargs/) |
 | License | MIT |
 | Versions | v1.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cargs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cargs/xmake.lua) |
 
 ##### Install command
@@ -1224,7 +1248,7 @@ add_requires("cargs")
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
 | Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
 ##### Install command
@@ -1248,7 +1272,7 @@ add_requires("catch2")
 | Homepage | [https://uscilab.github.io/cereal/index.html](https://uscilab.github.io/cereal/index.html) |
 | License | BSD-3-Clause |
 | Versions | 1.3.0, 1.3.1, 1.3.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cereal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cereal/xmake.lua) |
 
 ##### Install command
@@ -1272,7 +1296,7 @@ add_requires("cereal")
 | Homepage | [https://github.com/erstan/ceval](https://github.com/erstan/ceval) |
 | License | MIT |
 | Versions | 1.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ceval/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceval/xmake.lua) |
 
 ##### Install command
@@ -1295,7 +1319,7 @@ add_requires("ceval")
 | -- | -- |
 | Homepage | [https://github.com/xq114/cgetopt/](https://github.com/xq114/cgetopt/) |
 | Versions | 1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cgetopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgetopt/xmake.lua) |
 
 ##### Install command
@@ -1319,7 +1343,7 @@ add_requires("cgetopt")
 | Homepage | [https://github.com/recp/cglm](https://github.com/recp/cglm) |
 | License | MIT |
 | Versions | v0.9.0, v0.9.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cglm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cglm/xmake.lua) |
 
 ##### Install command
@@ -1343,7 +1367,7 @@ add_requires("cglm")
 | Homepage | [https://github.com/jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) |
 | License | MIT |
 | Versions | v1.13 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgltf/xmake.lua) |
 
 ##### Install command
@@ -1367,7 +1391,7 @@ add_requires("cgltf")
 | Homepage | [https://chromium.googlesource.com/chromium/src/third_party/zlib/](https://chromium.googlesource.com/chromium/src/third_party/zlib/) |
 | License | zlib |
 | Versions | 2022.02.22, 2023.03.14, 2024.01.29 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [chromium_zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chromium_zlib/xmake.lua) |
 
 ##### Install command
@@ -1391,7 +1415,7 @@ add_requires("chromium_zlib")
 | Homepage | [https://github.com/greyclab/cimg](https://github.com/greyclab/cimg) |
 | License | CeCILL-C |
 | Versions | v3.2.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cimg/xmake.lua) |
 
 ##### Install command
@@ -1415,7 +1439,7 @@ add_requires("cimg")
 | Homepage | [https://cista.rocks](https://cista.rocks) |
 | License | MIT |
 | Versions | v0.14 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cista/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cista/xmake.lua) |
 
 ##### Install command
@@ -1439,7 +1463,7 @@ add_requires("cista")
 | Homepage | [https://github.com/civetweb/civetweb](https://github.com/civetweb/civetweb) |
 | License | MIT |
 | Versions | v1.15 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [civetweb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/civetweb/xmake.lua) |
 
 ##### Install command
@@ -1463,7 +1487,7 @@ add_requires("civetweb")
 | Homepage | [https://github.com/catchorg/Clara](https://github.com/catchorg/Clara) |
 | License | BSL-1.0 |
 | Versions | 1.1.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [clara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clara/xmake.lua) |
 
 ##### Install command
@@ -1487,7 +1511,7 @@ add_requires("clara")
 | Homepage | [https://clean-test.dev](https://clean-test.dev) |
 | License | BSL-1.0 |
 | Versions | 2023.05.15 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [clean-test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clean-test/xmake.lua) |
 
 ##### Install command
@@ -1510,7 +1534,7 @@ add_requires("clean-test")
 | -- | -- |
 | Homepage | [https://github.com/daniele77/cli](https://github.com/daniele77/cli) |
 | Versions | v2.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli/xmake.lua) |
 
 ##### Install command
@@ -1534,7 +1558,7 @@ add_requires("cli")
 | Homepage | [https://github.com/aheck/clib](https://github.com/aheck/clib) |
 | License | MIT |
 | Versions | 2022.12.25 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [clib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clib/xmake.lua) |
 
 ##### Install command
@@ -1558,7 +1582,7 @@ add_requires("clib")
 | Homepage | [https://github.com/AngusJohnson/Clipper2](https://github.com/AngusJohnson/Clipper2) |
 | License | BSL-1.0 |
 | Versions | 1.2.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [clipper2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clipper2/xmake.lua) |
 
 ##### Install command
@@ -1581,7 +1605,7 @@ add_requires("clipper2")
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
 | Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
 ##### Install command
@@ -1605,7 +1629,7 @@ add_requires("cmake")
 | Homepage | [https://github.com/atsushieno/cmidi2](https://github.com/atsushieno/cmidi2) |
 | License | MIT |
 | Versions | 2023.08.07 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cmidi2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmidi2/xmake.lua) |
 
 ##### Install command
@@ -1629,7 +1653,7 @@ add_requires("cmidi2")
 | Homepage | [https://github.com/rogersce/cnpy](https://github.com/rogersce/cnpy) |
 | License | MIT |
 | Versions | 2018.06.01 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnpy/xmake.lua) |
 
 ##### Install command
@@ -1653,7 +1677,7 @@ add_requires("cnpy")
 | Homepage | [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) |
 | License | BSD |
 | Versions | v1.0.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
 
 ##### Install command
@@ -1677,7 +1701,7 @@ add_requires("concurrentqueue")
 | Homepage | [https://naios.github.io/continuable/](https://naios.github.io/continuable/) |
 | License | MIT |
 | Versions | 4.2.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [continuable/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/continuable/xmake.lua) |
 
 ##### Install command
@@ -1700,7 +1724,7 @@ add_requires("continuable")
 | -- | -- |
 | Homepage | [https://home.unicode.org/](https://home.unicode.org/) |
 | Versions | v1.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [convertutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/convertutf/xmake.lua) |
 
 ##### Install command
@@ -1723,7 +1747,7 @@ add_requires("convertutf")
 | -- | -- |
 | Homepage | [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan) |
 | Versions | 3.2.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cosmocc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cosmocc/xmake.lua) |
 
 ##### Install command
@@ -1747,7 +1771,7 @@ add_requires("cosmocc")
 | Homepage | [https://github.com/philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) |
 | License | MIT |
 | Versions | v0.5.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-dump/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-dump/xmake.lua) |
 
 ##### Install command
@@ -1770,7 +1794,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | Versions | 0.8.5, 0.9.2, 0.12.1, 0.12.6, 0.14.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
 ##### Install command
@@ -1794,7 +1818,7 @@ add_requires("cpp-httplib")
 | Homepage | [https://github.com/yhirose/cpp-linenoise](https://github.com/yhirose/cpp-linenoise) |
 | License | BSD-2-Clause |
 | Versions | 2021.11.05 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-linenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-linenoise/xmake.lua) |
 
 ##### Install command
@@ -1818,7 +1842,7 @@ add_requires("cpp-linenoise")
 | Homepage | [https://yhirose.github.io/cpp-peglib](https://yhirose.github.io/cpp-peglib) |
 | License | MIT |
 | Versions | 1.8.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-peglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua) |
 
 ##### Install command
@@ -1842,7 +1866,7 @@ add_requires("cpp-peglib")
 | Homepage | [https://github.com/z4kn4fein/cpp-semver](https://github.com/z4kn4fein/cpp-semver) |
 | License | MIT |
 | Versions | v0.3.1, v0.3.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-semver/xmake.lua) |
 
 ##### Install command
@@ -1866,7 +1890,7 @@ add_requires("cpp-semver")
 | Homepage | [https://github.com/Morwenn/cpp-sort](https://github.com/Morwenn/cpp-sort) |
 | License | MIT |
 | Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.2, 1.14.0, 1.15.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-sort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-sort/xmake.lua) |
 
 ##### Install command
@@ -1890,7 +1914,7 @@ add_requires("cpp-sort")
 | Homepage | [https://github.com/avocadoboi/cpp20-http-client](https://github.com/avocadoboi/cpp20-http-client) |
 | License | MIT |
 | Versions | 2023.08.11 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp20-http-client/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp20-http-client/xmake.lua) |
 
 ##### Install command
@@ -1914,7 +1938,7 @@ add_requires("cpp20-http-client")
 | Homepage | [https://twitter.com/cppitertools](https://twitter.com/cppitertools) |
 | License | BSD-2-Clause |
 | Versions | 2023.07.04 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cppitertools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppitertools/xmake.lua) |
 
 ##### Install command
@@ -1937,7 +1961,7 @@ add_requires("cppitertools")
 | -- | -- |
 | Homepage | [https://github.com/cppp-project/cppp-reiconv](https://github.com/cppp-project/cppp-reiconv) |
 | Versions | v2.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cppp-reiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppp-reiconv/xmake.lua) |
 
 ##### Install command
@@ -1961,7 +1985,7 @@ add_requires("cppp-reiconv")
 | Homepage | [https://fungos.github.io/cr-simple-c-hot-reload/](https://fungos.github.io/cr-simple-c-hot-reload/) |
 | License | MIT |
 | Versions | 2022.11.06 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cr/xmake.lua) |
 
 ##### Install command
@@ -1984,7 +2008,7 @@ add_requires("cr")
 | -- | -- |
 | Homepage | [https://github.com/google/crc32c](https://github.com/google/crc32c) |
 | Versions | 1.1.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [crc32c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crc32c/xmake.lua) |
 
 ##### Install command
@@ -2008,7 +2032,7 @@ add_requires("crc32c")
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
 | Versions | v2.0.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
 ##### Install command
@@ -2031,7 +2055,7 @@ add_requires("croaring")
 | -- | -- |
 | Homepage | [https://github.com/KorewaWatchful/crypto-algorithms](https://github.com/KorewaWatchful/crypto-algorithms) |
 | Versions | 2020.4.20 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [crypto-algorithms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crypto-algorithms/xmake.lua) |
 
 ##### Install command
@@ -2055,7 +2079,7 @@ add_requires("crypto-algorithms")
 | Homepage | [https://www.copperspice.com/](https://www.copperspice.com/) |
 | License | BSD-2-Clause |
 | Versions | 2023.08.02 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cs_libguarded/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cs_libguarded/xmake.lua) |
 
 ##### Install command
@@ -2079,7 +2103,7 @@ add_requires("cs_libguarded")
 | Homepage | [https://github.com/p-ranav/csv2](https://github.com/p-ranav/csv2) |
 | License | MIT |
 | Versions | v0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [csv2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csv2/xmake.lua) |
 
 ##### Install command
@@ -2102,7 +2126,7 @@ add_requires("csv2")
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
 | Versions | 2.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
 ##### Install command
@@ -2126,7 +2150,7 @@ add_requires("csvparser")
 | Homepage | [https://github.com/hanickadot/cthash](https://github.com/hanickadot/cthash) |
 | License | Apache-2.0 |
 | Versions | 2023.10.24 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cthash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cthash/xmake.lua) |
 
 ##### Install command
@@ -2149,7 +2173,7 @@ add_requires("cthash")
 | -- | -- |
 | Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
 | Versions | 3.4.1, 3.5, 3.6, 3.7.2, 3.8.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
 
 ##### Install command
@@ -2173,7 +2197,7 @@ add_requires("ctre")
 | Homepage | [https://github.com/evgenykislov/ctrl-c](https://github.com/evgenykislov/ctrl-c) |
 | License | MIT |
 | Versions | 2023.09.02 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ctrl-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctrl-c/xmake.lua) |
 
 ##### Install command
@@ -2197,7 +2221,7 @@ add_requires("ctrl-c")
 | Homepage | [https://github.com/mozilla/cubeb](https://github.com/mozilla/cubeb) |
 | License | ISC |
 | Versions | 2023.7.31 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cubeb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cubeb/xmake.lua) |
 
 ##### Install command
@@ -2221,7 +2245,7 @@ add_requires("cubeb")
 | Homepage | [https://github.com/NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) |
 | License | BSD-3-Clause |
 | Versions | v11.8, v12.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cuda-samples/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda-samples/xmake.lua) |
 
 ##### Install command
@@ -2245,7 +2269,7 @@ add_requires("cuda-samples")
 | Homepage | [https://josephp91.github.io/curlcpp](https://josephp91.github.io/curlcpp) |
 | License | MIT |
 | Versions | 3.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [curlcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/curlcpp/xmake.lua) |
 
 ##### Install command
@@ -2269,7 +2293,7 @@ add_requires("curlcpp")
 | Homepage | [http://www.curlpp.org](http://www.curlpp.org) |
 | License | MIT |
 | Versions | 2023.07.27 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [curlpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/curlpp/xmake.lua) |
 
 ##### Install command
@@ -2292,7 +2316,7 @@ add_requires("curlpp")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | Versions | v3.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
 ##### Install command
@@ -2315,8 +2339,8 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
 | License | MIT |
-| Versions | v2.2.0, v3.0.0, v3.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Versions | v2.2.0, v3.0.0, v3.1.1, v3.2.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
 ##### Install command
@@ -2342,7 +2366,7 @@ add_requires("cxxopts")
 | Homepage | [https://github.com/HowardHinnant/date](https://github.com/HowardHinnant/date) |
 | License | MIT |
 | Versions | v3.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [date/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/date/xmake.lua) |
 
 ##### Install command
@@ -2365,7 +2389,7 @@ add_requires("date")
 | -- | -- |
 | Homepage | [https://beached.github.io/header_libraries/](https://beached.github.io/header_libraries/) |
 | Versions | v2.96.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [daw_header_libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua) |
 
 ##### Install command
@@ -2389,7 +2413,7 @@ add_requires("daw_header_libraries")
 | Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
 | License | BSL-1.0 |
 | Versions | v3.20.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
 
 ##### Install command
@@ -2413,7 +2437,7 @@ add_requires("daw_json_link")
 | Homepage | [https://github.com/sharkdp/dbg-macro](https://github.com/sharkdp/dbg-macro) |
 | License | MIT |
 | Versions | v0.4.0, v0.5.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dbg-macro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbg-macro/xmake.lua) |
 
 ##### Install command
@@ -2437,7 +2461,7 @@ add_requires("dbg-macro")
 | Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
 | License | MIT |
 | Versions | 1.14.2, 1.14.6, 1.14.8 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
 
 ##### Install command
@@ -2461,7 +2485,7 @@ add_requires("dbus")
 | Homepage | [http://foonathan.net/blog/2016/09/16/assertions.html](http://foonathan.net/blog/2016/09/16/assertions.html) |
 | License | zlib |
 | Versions | 2022.11.13 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [debug_assert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debug_assert/xmake.lua) |
 
 ##### Install command
@@ -2484,7 +2508,7 @@ add_requires("debug_assert")
 | -- | -- |
 | Homepage | [https://github.com/scottt/debugbreak](https://github.com/scottt/debugbreak) |
 | Versions | v1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [debugbreak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debugbreak/xmake.lua) |
 
 ##### Install command
@@ -2508,7 +2532,7 @@ add_requires("debugbreak")
 | Homepage | [https://github.com/vpiotr/decimal_for_cpp](https://github.com/vpiotr/decimal_for_cpp) |
 | License | BSD-3-Clause |
 | Versions | 1.19 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [decimal_for_cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/decimal_for_cpp/xmake.lua) |
 
 ##### Install command
@@ -2532,7 +2556,7 @@ add_requires("decimal_for_cpp")
 | Homepage | [https://github.com/nico/demumble](https://github.com/nico/demumble) |
 | License | Apache-2.0 |
 | Versions | 2022.3.23 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [demumble/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/demumble/xmake.lua) |
 
 ##### Install command
@@ -2556,7 +2580,7 @@ add_requires("demumble")
 | Homepage | [https://github.com/kerukuro/digestpp](https://github.com/kerukuro/digestpp) |
 | License | MIT |
 | Versions | 2023.11.8 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [digestpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/digestpp/xmake.lua) |
 
 ##### Install command
@@ -2580,7 +2604,7 @@ add_requires("digestpp")
 | Homepage | [https://github.com/facebookincubator/dispenso](https://github.com/facebookincubator/dispenso) |
 | License | MIT |
 | Versions | v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dispenso/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dispenso/xmake.lua) |
 
 ##### Install command
@@ -2603,7 +2627,7 @@ add_requires("dispenso")
 | -- | -- |
 | Homepage | [https://github.com/gdabah/distorm](https://github.com/gdabah/distorm) |
 | Versions | 2021.12.18 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [distorm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/distorm/xmake.lua) |
 
 ##### Install command
@@ -2627,7 +2651,7 @@ add_requires("distorm")
 | Homepage | [https://github.com/docopt/docopt.cpp](https://github.com/docopt/docopt.cpp) |
 | License | BSL-1.0 |
 | Versions | v0.6.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [docopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/docopt/xmake.lua) |
 
 ##### Install command
@@ -2650,7 +2674,7 @@ add_requires("docopt")
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
 | Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
 ##### Install command
@@ -2674,7 +2698,7 @@ add_requires("doctest")
 | Homepage | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 | License | GPL-2.0 |
 | Versions | 1.9.1, 1.9.2, 1.9.3, 1.9.5, 1.9.6, 1.10.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [doxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doxygen/xmake.lua) |
 
 ##### Install command
@@ -2698,7 +2722,7 @@ add_requires("doxygen")
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
 | Versions | 0.12.29, 0.12.39, 0.12.41, 0.12.42 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
 
 ##### Install command
@@ -2722,7 +2746,7 @@ add_requires("dr_flac")
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
 | Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37, 0.6.38 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
 
 ##### Install command
@@ -2746,7 +2770,7 @@ add_requires("dr_mp3")
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
 | Versions | 0.12.19, 0.13.8, 0.13.10, 0.13.11, 0.13.12, 0.13.13 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
 ##### Install command
@@ -2772,7 +2796,7 @@ add_requires("dr_wav")
 | Homepage | [https://github.com/amrayn/easyloggingpp](https://github.com/amrayn/easyloggingpp) |
 | License | MIT |
 | Versions | v9.97.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [easyloggingpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/easyloggingpp/xmake.lua) |
 
 ##### Install command
@@ -2796,7 +2820,7 @@ add_requires("easyloggingpp")
 | Homepage | [https://github.com/dhbaird/easywsclient](https://github.com/dhbaird/easywsclient) |
 | License | MIT |
 | Versions | 2021.01.12 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [easywsclient/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/easywsclient/xmake.lua) |
 
 ##### Install command
@@ -2820,7 +2844,7 @@ add_requires("easywsclient")
 | Homepage | [https://github.com/effolkronium/random](https://github.com/effolkronium/random) |
 | License | MIT |
 | Versions | v1.4.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [effolkronium-random/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/effolkronium-random/xmake.lua) |
 
 ##### Install command
@@ -2844,7 +2868,7 @@ add_requires("effolkronium-random")
 | Homepage | [https://github.com/KhronosGroup/EGL-Registry](https://github.com/KhronosGroup/EGL-Registry) |
 | License | MIT |
 | Versions | 2023.12.16 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [egl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/egl-headers/xmake.lua) |
 
 ##### Install command
@@ -2868,7 +2892,7 @@ add_requires("egl-headers")
 | Homepage | [https://eigen.tuxfamily.org/](https://eigen.tuxfamily.org/) |
 | License | MPL-2.0 |
 | Versions | 3.3.7, 3.3.8, 3.3.9, 3.4.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [eigen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eigen/xmake.lua) |
 
 ##### Install command
@@ -2892,7 +2916,7 @@ add_requires("eigen")
 | Homepage | [http://serge1.github.io/ELFIO](http://serge1.github.io/ELFIO) |
 | License | MIT |
 | Versions | 3.11 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [elfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/elfio/xmake.lua) |
 
 ##### Install command
@@ -2915,7 +2939,7 @@ add_requires("elfio")
 | -- | -- |
 | Homepage | [https://viatorus.github.io/emio/](https://viatorus.github.io/emio/) |
 | Versions | 0.4.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [emio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emio/xmake.lua) |
 
 ##### Install command
@@ -2939,7 +2963,7 @@ add_requires("emio")
 | Homepage | [http://enet.bespin.org](http://enet.bespin.org) |
 | License | MIT |
 | Versions | v1.3.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [enet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet/xmake.lua) |
 
 ##### Install command
@@ -2963,7 +2987,7 @@ add_requires("enet")
 | Homepage | [https://github.com/SirLynix/enet6](https://github.com/SirLynix/enet6) |
 | License | MIT |
 | Versions | v6.0.0, v6.0.1, v6.0.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [enet6/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet6/xmake.lua) |
 
 ##### Install command
@@ -2987,7 +3011,7 @@ add_requires("enet6")
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
 | Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
 ##### Install command
@@ -3011,7 +3035,7 @@ add_requires("entt")
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
 | Versions | 20.38.0, 20.38.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
 ##### Install command
@@ -3035,7 +3059,7 @@ add_requires("etl")
 | Homepage | [https://jfalcou.github.io/eve/](https://jfalcou.github.io/eve/) |
 | License | BSL-1.0 |
 | Versions | 2023.02.15 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [eve/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eve/xmake.lua) |
 
 ##### Install command
@@ -3059,7 +3083,7 @@ add_requires("eve")
 | Homepage | [https://github.com/wqking/eventpp](https://github.com/wqking/eventpp) |
 | License | Apache-2.0 |
 | Versions | v0.1.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [eventpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eventpp/xmake.lua) |
 
 ##### Install command
@@ -3083,7 +3107,7 @@ add_requires("eventpp")
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
 | Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
 ##### Install command
@@ -3107,7 +3131,7 @@ add_requires("expat")
 | Homepage | [https://github.com/martinmoene/expected-lite](https://github.com/martinmoene/expected-lite) |
 | License | BSL-1.0 |
 | Versions | v0.6.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [expected-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected-lite/xmake.lua) |
 
 ##### Install command
@@ -3131,7 +3155,7 @@ add_requires("expected-lite")
 | Homepage | [https://www.partow.net/programming/exprtk/index.html](https://www.partow.net/programming/exprtk/index.html) |
 | License | MIT |
 | Versions | 2022.01.01 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [exprtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exprtk/xmake.lua) |
 
 ##### Install command
@@ -3157,7 +3181,7 @@ add_requires("exprtk")
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
 | Versions | v1.1.0, v2.1.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
 ##### Install command
@@ -3181,7 +3205,7 @@ add_requires("fast-cdr")
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
 | Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
 ##### Install command
@@ -3205,7 +3229,7 @@ add_requires("fast_float")
 | Homepage | [https://github.com/thisistherk/fast_obj](https://github.com/thisistherk/fast_obj) |
 | License | MIT |
 | Versions | 2023.08.08 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fast_obj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_obj/xmake.lua) |
 
 ##### Install command
@@ -3228,7 +3252,7 @@ add_requires("fast_obj")
 | -- | -- |
 | Homepage | [https://github.com/ben-strasser/fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser) |
 | Versions | 2021.01.03 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fastcppcsvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastcppcsvparser/xmake.lua) |
 
 ##### Install command
@@ -3252,7 +3276,7 @@ add_requires("fastcppcsvparser")
 | Homepage | [https://sourceforge.net/projects/opencore-amr/](https://sourceforge.net/projects/opencore-amr/) |
 | License | Apache-2.0 |
 | Versions | 2.0.0, 2.0.1, 2.0.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fdk-aac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fdk-aac/xmake.lua) |
 
 ##### Install command
@@ -3276,7 +3300,7 @@ add_requires("fdk-aac")
 | Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
 | License | Apache-2.0 |
 | Versions | v1.12.0, v2.0.0, v23.1.21, v23.5.26 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
 
 ##### Install command
@@ -3300,7 +3324,7 @@ add_requires("flatbuffers")
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
 | Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10, v3.2.11 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
 ##### Install command
@@ -3324,7 +3348,7 @@ add_requires("flecs")
 | Homepage | [https://github.com/westes/flex/](https://github.com/westes/flex/) |
 | License | BSD-2-Clause |
 | Versions | 2.6.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flex/xmake.lua) |
 
 ##### Install command
@@ -3348,7 +3372,7 @@ add_requires("flex")
 | Homepage | [https://tristanbrindle.com/flux/](https://tristanbrindle.com/flux/) |
 | License | BSL-1.0 |
 | Versions | 2023.08.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [flux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flux/xmake.lua) |
 
 ##### Install command
@@ -3372,7 +3396,7 @@ add_requires("flux")
 | Homepage | [https://github.com/scandum/fluxsort](https://github.com/scandum/fluxsort) |
 | License | MIT |
 | Versions | 2023.02.05 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fluxsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluxsort/xmake.lua) |
 
 ##### Install command
@@ -3395,7 +3419,7 @@ add_requires("fluxsort")
 | -- | -- |
 | Homepage | [https://fmi-standard.org/](https://fmi-standard.org/) |
 | Versions | v3.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fmi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmi/xmake.lua) |
 
 ##### Install command
@@ -3418,7 +3442,7 @@ add_requires("fmi")
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
 | Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
 ##### Install command
@@ -3442,7 +3466,7 @@ add_requires("fmt")
 | Homepage | [https://www.freetype.org](https://www.freetype.org) |
 | License | BSD |
 | Versions | 2.9.1, 2.10.4, 2.11.0, 2.11.1, 2.12.0, 2.12.1, 2.13.0, 2.13.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [freetype/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freetype/xmake.lua) |
 
 ##### Install command
@@ -3466,7 +3490,7 @@ add_requires("freetype")
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
 | Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
 ##### Install command
@@ -3490,7 +3514,7 @@ add_requires("fribidi")
 | Homepage | [https://github.com/serge-sans-paille/frozen](https://github.com/serge-sans-paille/frozen) |
 | License | Apache-2.0 |
 | Versions | 1.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [frozen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frozen/xmake.lua) |
 
 ##### Install command
@@ -3514,7 +3538,7 @@ add_requires("frozen")
 | Homepage | [https://github.com/Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) |
 | License | MIT |
 | Versions | v0.15.29 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [frugally-deep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frugally-deep/xmake.lua) |
 
 ##### Install command
@@ -3538,7 +3562,7 @@ add_requires("frugally-deep")
 | Homepage | [https://github.com/google/fruit/wiki](https://github.com/google/fruit/wiki) |
 | License | Apache-2.0 |
 | Versions | v3.7.0, v3.7.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fruit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fruit/xmake.lua) |
 
 ##### Install command
@@ -3562,7 +3586,7 @@ add_requires("fruit")
 | Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
 | License | MIT |
 | Versions | v3.0.0, v4.1.1, v5.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
 
 ##### Install command
@@ -3586,7 +3610,7 @@ add_requires("ftxui")
 | Homepage | [http://naios.github.io/function2](http://naios.github.io/function2) |
 | License | BSL-1.0 |
 | Versions | 4.1.0, 4.2.0, 4.2.1, 4.2.2, 4.2.3, 4.2.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [function2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/function2/xmake.lua) |
 
 ##### Install command
@@ -3609,7 +3633,7 @@ add_requires("function2")
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
 | Versions | v0.2.22 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
 ##### Install command
@@ -3633,7 +3657,7 @@ add_requires("functionalplus")
 | Homepage | [https://github.com/jessey-git/fx-gltf](https://github.com/jessey-git/fx-gltf) |
 | License | MIT |
 | Versions | v1.2.0, v2.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fx-gltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fx-gltf/xmake.lua) |
 
 ##### Install command
@@ -3659,7 +3683,7 @@ add_requires("fx-gltf")
 | Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
 | License | BSD-3-Clause |
 | Versions | 1160, 1165, 1170 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
 
 ##### Install command
@@ -3683,7 +3707,7 @@ add_requires("genie")
 | Homepage | [https://github.com/gflags/gflags/](https://github.com/gflags/gflags/) |
 | License | BSD-3-Clause |
 | Versions | v2.2.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gflags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gflags/xmake.lua) |
 
 ##### Install command
@@ -3707,7 +3731,7 @@ add_requires("gflags")
 | Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
 | License | MIT |
 | Versions | v1.5.10, v1.5.12 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
 
 ##### Install command
@@ -3730,7 +3754,7 @@ add_requires("ghc_filesystem")
 | -- | -- |
 | Homepage | [https://github.com/lecram/gifdec](https://github.com/lecram/gifdec) |
 | Versions | 2021.12.04 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gifdec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gifdec/xmake.lua) |
 
 ##### Install command
@@ -3753,7 +3777,7 @@ add_requires("gifdec")
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
 | Versions | v1.3.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
 ##### Install command
@@ -3777,7 +3801,7 @@ add_requires("glaze")
 | Homepage | [https://glbinding.org](https://glbinding.org) |
 | License | MIT |
 | Versions | v2.0.0, v2.1.1, v2.1.2, v2.1.3, v2.1.4, v3.0.2, v3.1.0, v3.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [glbinding/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glbinding/xmake.lua) |
 
 ##### Install command
@@ -3800,7 +3824,7 @@ add_requires("glbinding")
 | -- | -- |
 | Homepage | [https://gli.g-truc.net/](https://gli.g-truc.net/) |
 | Versions | 0.8.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gli/xmake.lua) |
 
 ##### Install command
@@ -3824,7 +3848,7 @@ add_requires("gli")
 | Homepage | [https://docs.gtk.org/glib/](https://docs.gtk.org/glib/) |
 | License | LGPL-2.1 |
 | Versions | 2.71.0, 2.78.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 
 ##### Install command
@@ -3848,7 +3872,7 @@ add_requires("glib")
 | Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
 | License | MIT |
 | Versions | 0.9.9+8, 1.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
 
 ##### Install command
@@ -3872,7 +3896,7 @@ add_requires("glm")
 | Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
 | License | BSD-3-Clause |
 | Versions | v0.4.0, v0.5.0, v0.6.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
 
 ##### Install command
@@ -3896,7 +3920,7 @@ add_requires("glog")
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
 ##### Install command
@@ -3920,7 +3944,7 @@ add_requires("glslang")
 | Homepage | [https://github.com/guanzhi/GmSSL](https://github.com/guanzhi/GmSSL) |
 | License | Apache-2.0 |
 | Versions | v3.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gmssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmssl/xmake.lua) |
 
 ##### Install command
@@ -3943,7 +3967,7 @@ add_requires("gmssl")
 | -- | -- |
 | Homepage | [https://gn.googlesource.com/gn](https://gn.googlesource.com/gn) |
 | Versions | 20211117 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gn/xmake.lua) |
 
 ##### Install command
@@ -3966,7 +3990,7 @@ add_requires("gn")
 | -- | -- |
 | Homepage | [https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) |
 | Versions | 2020.10, 2021.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gnu-rm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-rm/xmake.lua) |
 
 ##### Install command
@@ -3989,7 +4013,7 @@ add_requires("gnu-rm")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gperf](https://www.gnu.org/software/gperf) |
 | Versions | 3.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gperf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gperf/xmake.lua) |
 
 ##### Install command
@@ -4013,7 +4037,7 @@ add_requires("gperf")
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
 | Versions | v3.1.0, v4.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
 ##### Install command
@@ -4037,7 +4061,7 @@ add_requires("gsl")
 | Homepage | [https://github.com/gsl-lite/gsl-lite](https://github.com/gsl-lite/gsl-lite) |
 | License | MIT |
 | Versions | v0.41.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gsl-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl-lite/xmake.lua) |
 
 ##### Install command
@@ -4061,7 +4085,7 @@ add_requires("gsl-lite")
 | Homepage | [https://github.com/google/googletest](https://github.com/google/googletest) |
 | License | BSD-3 |
 | Versions | v1.8.1, v1.10.0, v1.11.0, v1.12.0, v1.12.1, v1.13.0, v1.14.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gtest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtest/xmake.lua) |
 
 ##### Install command
@@ -4084,7 +4108,7 @@ add_requires("gtest")
 | -- | -- |
 | Homepage | [https://github.com/google/guetzli](https://github.com/google/guetzli) |
 | Versions | v1.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [guetzli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/guetzli/xmake.lua) |
 
 ##### Install command
@@ -4108,7 +4132,7 @@ add_requires("guetzli")
 | Homepage | [https://github.com/google/gumbo-parser](https://github.com/google/gumbo-parser) |
 | License | Apache-2.0 |
 | Versions | v0.10.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gumbo-parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gumbo-parser/xmake.lua) |
 
 ##### Install command
@@ -4132,7 +4156,7 @@ add_requires("gumbo-parser")
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
 | Versions | v0.11.0, v0.16.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
 ##### Install command
@@ -4148,6 +4172,30 @@ add_requires("gyp-next")
 ```
 
 
+### gzip-hpp (cross)
+
+
+| Description | *Gzip header-only C++ library* |
+| -- | -- |
+| Homepage | [https://github.com/mapbox/gzip-hpp](https://github.com/mapbox/gzip-hpp) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [gzip-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gzip-hpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] gzip-hpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gzip-hpp")
+```
+
+
 
 ## h
 ### haclog (cross)
@@ -4158,7 +4206,7 @@ add_requires("gyp-next")
 | Homepage | [https://github.com/MuggleWei/haclog](https://github.com/MuggleWei/haclog) |
 | License | MIT |
 | Versions | v0.0.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [haclog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/haclog/xmake.lua) |
 
 ##### Install command
@@ -4182,7 +4230,7 @@ add_requires("haclog")
 | Homepage | [https://github.com/nmwsharp/happly](https://github.com/nmwsharp/happly) |
 | License | MIT |
 | Versions | 2022.01.07 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [happly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/happly/xmake.lua) |
 
 ##### Install command
@@ -4206,7 +4254,7 @@ add_requires("happly")
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
 | Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
 ##### Install command
@@ -4230,7 +4278,7 @@ add_requires("harfbuzz")
 | Homepage | [https://create.stephan-brumme.com/hash-library/](https://create.stephan-brumme.com/hash-library/) |
 | License | zlib |
 | Versions | 2021.09.29 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [hash-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hash-library/xmake.lua) |
 
 ##### Install command
@@ -4254,7 +4302,7 @@ add_requires("hash-library")
 | Homepage | [https://nemequ.github.io/hedley/](https://nemequ.github.io/hedley/) |
 | License | CC0-1.0 |
 | Versions | v15 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [hedley/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hedley/xmake.lua) |
 
 ##### Install command
@@ -4278,7 +4326,7 @@ add_requires("hedley")
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
 | Versions | v1.5.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
 ##### Install command
@@ -4302,7 +4350,7 @@ add_requires("highs")
 | Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
 | License | BSD-3-Clause |
 | Versions | v1.0.2, v1.1.0, v1.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
 
 ##### Install command
@@ -4325,7 +4373,7 @@ add_requires("hiredis")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
 | Versions | v2.3.0, v2.3.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
 
 ##### Install command
@@ -4348,7 +4396,7 @@ add_requires("hopscotch-map")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/http-parser](https://github.com/nodejs/http-parser) |
 | Versions | v2.9.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [http_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/http_parser/xmake.lua) |
 
 ##### Install command
@@ -4373,7 +4421,7 @@ add_requires("http_parser")
 | -- | -- |
 | Homepage | [https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html) |
 | Versions | 2021.4.0+3224 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ifort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ifort/xmake.lua) |
 
 ##### Install command
@@ -4397,7 +4445,7 @@ add_requires("ifort")
 | Homepage | [https://github.com/qicosmos/iguana](https://github.com/qicosmos/iguana) |
 | License | Apache-2.0 |
 | Versions | v1.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [iguana/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iguana/xmake.lua) |
 
 ##### Install command
@@ -4421,7 +4469,7 @@ add_requires("iguana")
 | Homepage | [https://github.com/john-chapman/im3d](https://github.com/john-chapman/im3d) |
 | License | MIT |
 | Versions | 2023.06.09 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [im3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/im3d/xmake.lua) |
 
 ##### Install command
@@ -4445,7 +4493,7 @@ add_requires("im3d")
 | Homepage | [https://github.com/p-ranav/indicators](https://github.com/p-ranav/indicators) |
 | License | MIT |
 | Versions | 2.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [indicators/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/indicators/xmake.lua) |
 
 ##### Install command
@@ -4469,7 +4517,7 @@ add_requires("indicators")
 | Homepage | [https://github.com/Rookfighter/inifile-cpp](https://github.com/Rookfighter/inifile-cpp) |
 | License | MIT |
 | Versions | 2022.06.25 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [inifile-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inifile-cpp/xmake.lua) |
 
 ##### Install command
@@ -4493,7 +4541,7 @@ add_requires("inifile-cpp")
 | Homepage | [http://ndevilla.free.fr/iniparser](http://ndevilla.free.fr/iniparser) |
 | License | MIT |
 | Versions | 2023.09.15 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [iniparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iniparser/xmake.lua) |
 
 ##### Install command
@@ -4517,7 +4565,7 @@ add_requires("iniparser")
 | Homepage | [https://github.com/mcmtroffaes/inipp](https://github.com/mcmtroffaes/inipp) |
 | License | MIT |
 | Versions | 2022.02.03 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [inipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inipp/xmake.lua) |
 
 ##### Install command
@@ -4540,7 +4588,7 @@ add_requires("inipp")
 | -- | -- |
 | Homepage | [https://pantor.github.io/inja/](https://pantor.github.io/inja/) |
 | Versions | v2.1.0, v3.4.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
 
 ##### Install command
@@ -4564,7 +4612,7 @@ add_requires("inja")
 | Homepage | [https://iowow.softmotions.com](https://iowow.softmotions.com) |
 | License | MIT |
 | Versions | v1.4.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [iowow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iowow/xmake.lua) |
 
 ##### Install command
@@ -4588,7 +4636,7 @@ add_requires("iowow")
 | Homepage | [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) |
 | License | Apache-2.0 |
 | Versions | v2020.10.31 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ip2region/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ip2region/xmake.lua) |
 
 ##### Install command
@@ -4611,7 +4659,7 @@ add_requires("ip2region")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/irrlicht/](https://sourceforge.net/projects/irrlicht/) |
 | Versions | 1.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [irrxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/irrxml/xmake.lua) |
 
 ##### Install command
@@ -4635,7 +4683,7 @@ add_requires("irrxml")
 | Homepage | [https://ispc.github.io/](https://ispc.github.io/) |
 | License | BSD-3-Clause |
 | Versions | 1.17.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ispc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ispc/xmake.lua) |
 
 ##### Install command
@@ -4659,7 +4707,7 @@ add_requires("ispc")
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
 | Versions | v1.10.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
 ##### Install command
@@ -4683,7 +4731,7 @@ add_requires("itlib")
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
 | Versions | v3.24.4, v3.24.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
 ##### Install command
@@ -4707,7 +4755,7 @@ add_requires("ittapi")
 | Homepage | [https://github.com/machinezone/IXWebSocket](https://github.com/machinezone/IXWebSocket) |
 | License | BSD-3-Clause |
 | Versions | v11.4.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ixwebsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ixwebsocket/xmake.lua) |
 
 ##### Install command
@@ -4732,7 +4780,7 @@ add_requires("ixwebsocket")
 | -- | -- |
 | Homepage | [https://github.com/zserge/jsmn](https://github.com/zserge/jsmn) |
 | Versions | v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [jsmn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsmn/xmake.lua) |
 
 ##### Install command
@@ -4755,7 +4803,7 @@ add_requires("jsmn")
 | -- | -- |
 | Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
 | Versions | 2.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
 
 ##### Install command
@@ -4778,7 +4826,7 @@ add_requires("json-schema-validator")
 | -- | -- |
 | Homepage | [https://github.com/sheredom/json.h](https://github.com/sheredom/json.h) |
 | Versions | 2022.11.27 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [json.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json.h/xmake.lua) |
 
 ##### Install command
@@ -4801,7 +4849,7 @@ add_requires("json.h")
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
 | Versions | v0.158.0, v0.170.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
 ##### Install command
@@ -4824,7 +4872,7 @@ add_requires("jsoncons")
 | -- | -- |
 | Homepage | [https://github.com/open-source-parsers/jsoncpp/wiki](https://github.com/open-source-parsers/jsoncpp/wiki) |
 | Versions | 1.9.4, 1.9.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [jsoncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncpp/xmake.lua) |
 
 ##### Install command
@@ -4848,7 +4896,7 @@ add_requires("jsoncpp")
 | Homepage | [https://thalhammer.github.io/jwt-cpp/](https://thalhammer.github.io/jwt-cpp/) |
 | License | MIT |
 | Versions | v0.6.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [jwt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jwt-cpp/xmake.lua) |
 
 ##### Install command
@@ -4874,7 +4922,7 @@ add_requires("jwt-cpp")
 | Homepage | [https://github.com/gracicot/kangaru](https://github.com/gracicot/kangaru) |
 | License | MIT |
 | Versions | v4.3.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [kangaru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kangaru/xmake.lua) |
 
 ##### Install command
@@ -4897,7 +4945,7 @@ add_requires("kangaru")
 | -- | -- |
 | Homepage | [https://github.com/skywind3000/kcp](https://github.com/skywind3000/kcp) |
 | Versions | 1.7 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [kcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kcp/xmake.lua) |
 
 ##### Install command
@@ -4920,7 +4968,7 @@ add_requires("kcp")
 | -- | -- |
 | Homepage | [https://registry.khronos.org/EGL](https://registry.khronos.org/EGL) |
 | Versions | latest |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [khrplatform/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/khrplatform/xmake.lua) |
 
 ##### Install command
@@ -4943,7 +4991,7 @@ add_requires("khrplatform")
 | -- | -- |
 | Homepage | [https://kiwisolver.readthedocs.io/en/latest/](https://kiwisolver.readthedocs.io/en/latest/) |
 | Versions | 1.3.1, 1.3.2, 1.4.4, 1.4.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [kiwisolver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kiwisolver/xmake.lua) |
 
 ##### Install command
@@ -4969,7 +5017,7 @@ add_requires("kiwisolver")
 | Homepage | [https://lemon.cs.elte.hu/trac/lemon](https://lemon.cs.elte.hu/trac/lemon) |
 | License | BSL-1.0 |
 | Versions | 1.3.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lemon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lemon/xmake.lua) |
 
 ##### Install command
@@ -4993,7 +5041,7 @@ add_requires("lemon")
 | Homepage | [https://github.com/esri/lerc](https://github.com/esri/lerc) |
 | License | Apache-2.0 |
 | Versions | v4.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lerc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lerc/xmake.lua) |
 
 ##### Install command
@@ -5017,7 +5065,7 @@ add_requires("lerc")
 | Homepage | [https://github.com/lexbor/lexbor](https://github.com/lexbor/lexbor) |
 | License | Apache-2.0 |
 | Versions | v2.2.0, v2.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lexbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexbor/xmake.lua) |
 
 ##### Install command
@@ -5040,7 +5088,7 @@ add_requires("lexbor")
 | -- | -- |
 | Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
 | Versions | 2022.03.21, 2022.12.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
 
 ##### Install command
@@ -5064,7 +5112,7 @@ add_requires("lexy")
 | Homepage | [https://github.com/libass/libass](https://github.com/libass/libass) |
 | License | ISC |
 | Versions | 0.15.2, 0.16.0, 0.17.0, 0.17.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libass/xmake.lua) |
 
 ##### Install command
@@ -5088,7 +5136,7 @@ add_requires("libass")
 | Homepage | [https://github.com/dpryan79/libBigWig](https://github.com/dpryan79/libBigWig) |
 | License | MIT |
 | Versions | 0.4.7 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libbigwig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbigwig/xmake.lua) |
 
 ##### Install command
@@ -5112,7 +5160,7 @@ add_requires("libbigwig")
 | Homepage | [https://github.com/danfis/libccd/](https://github.com/danfis/libccd/) |
 | License | BSD-3-Clause |
 | Versions | v2.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libccd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libccd/xmake.lua) |
 
 ##### Install command
@@ -5136,7 +5184,7 @@ add_requires("libccd")
 | Homepage | [https://curl.haxx.se/](https://curl.haxx.se/) |
 | License | MIT |
 | Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0, 7.80.0, 7.81.0, 7.82.0, 7.84.0, 7.85.0, 7.86.0, 7.87.0, 8.0.1, 8.4.0, 8.5.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libcurl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcurl/xmake.lua) |
 
 ##### Install command
@@ -5160,7 +5208,7 @@ add_requires("libcurl")
 | Homepage | [https://bastard.sourceforge.net/libdisasm.html](https://bastard.sourceforge.net/libdisasm.html) |
 | License | MIT |
 | Versions | 0.23 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libdisasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdisasm/xmake.lua) |
 
 ##### Install command
@@ -5183,7 +5231,7 @@ add_requires("libdisasm")
 | -- | -- |
 | Homepage | [http://libdivide.com](http://libdivide.com) |
 | Versions | 5.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
 
 ##### Install command
@@ -5206,7 +5254,7 @@ add_requires("libdivide")
 | -- | -- |
 | Homepage | [https://android.googlesource.com/platform/external/libdivsufsort/](https://android.googlesource.com/platform/external/libdivsufsort/) |
 | Versions | 2021.2.18 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libdivsufsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivsufsort/xmake.lua) |
 
 ##### Install command
@@ -5230,7 +5278,7 @@ add_requires("libdivsufsort")
 | Homepage | [https://github.com/ph3at/libenvpp](https://github.com/ph3at/libenvpp) |
 | License | Apache-2.0 |
 | Versions | v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libenvpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libenvpp/xmake.lua) |
 
 ##### Install command
@@ -5254,7 +5302,7 @@ add_requires("libenvpp")
 | Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
 | License | MIT |
 | Versions | 3.2.1, 3.3, 3.4.2, 3.4.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
 
 ##### Install command
@@ -5278,7 +5326,7 @@ add_requires("libffi")
 | Homepage | [https://github.com/pantoniou/libfyaml](https://github.com/pantoniou/libfyaml) |
 | License | MIT |
 | Versions | v0.9 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libfyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfyaml/xmake.lua) |
 
 ##### Install command
@@ -5301,7 +5349,7 @@ add_requires("libfyaml")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
 | Versions | 1.15, 1.16, 1.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
 
 ##### Install command
@@ -5324,7 +5372,7 @@ add_requires("libiconv")
 | -- | -- |
 | Homepage | [http://ijg.org/](http://ijg.org/) |
 | Versions | v9b, v9c, v9d, v9e |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg/xmake.lua) |
 
 ##### Install command
@@ -5348,7 +5396,7 @@ add_requires("libjpeg")
 | Homepage | [https://libmodbus.org](https://libmodbus.org) |
 | License | LGPL-2.1 |
 | Versions | v3.1.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libmodbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodbus/xmake.lua) |
 
 ##### Install command
@@ -5372,7 +5420,7 @@ add_requires("libmodbus")
 | Homepage | [http://modplug-xmms.sf.net](http://modplug-xmms.sf.net) |
 | License | Public Domain |
 | Versions | 2022.1.31 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libmodplug/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodplug/xmake.lua) |
 
 ##### Install command
@@ -5396,7 +5444,7 @@ add_requires("libmodplug")
 | Homepage | [https://github.com/Forceflow/libmorton](https://github.com/Forceflow/libmorton) |
 | License | MIT |
 | Versions | v0.2.12 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libmorton/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmorton/xmake.lua) |
 
 ##### Install command
@@ -5420,7 +5468,7 @@ add_requires("libmorton")
 | Homepage | [https://github.com/llohse/libnpy](https://github.com/llohse/libnpy) |
 | License | MIT |
 | Versions | v1.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libnpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnpy/xmake.lua) |
 
 ##### Install command
@@ -5443,7 +5491,7 @@ add_requires("libnpy")
 | -- | -- |
 | Homepage | [https://www.xiph.org/ogg/](https://www.xiph.org/ogg/) |
 | Versions | v1.3.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libogg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libogg/xmake.lua) |
 
 ##### Install command
@@ -5466,7 +5514,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://openmp.llvm.org/](https://openmp.llvm.org/) |
 | Versions | 10.0.1, 11.1.0, 12.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libomp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libomp/xmake.lua) |
 
 ##### Install command
@@ -5490,7 +5538,7 @@ add_requires("libomp")
 | Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
 | License | LGPL-2.1 |
 | Versions | 2.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
 
 ##### Install command
@@ -5513,8 +5561,8 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
 ##### Install command
@@ -5538,7 +5586,7 @@ add_requires("libpng")
 | Homepage | [https://github.com/fukuchi/libqrencode](https://github.com/fukuchi/libqrencode) |
 | License | LGPL-2.1 |
 | Versions | 4.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libqrencode/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libqrencode/xmake.lua) |
 
 ##### Install command
@@ -5561,7 +5609,7 @@ add_requires("libqrencode")
 | -- | -- |
 | Homepage | [https://github.com/edenhill/librdkafka](https://github.com/edenhill/librdkafka) |
 | Versions | v1.6.2, v1.8.2-POST2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
 ##### Install command
@@ -5585,7 +5633,7 @@ add_requires("librdkafka")
 | Homepage | [https://github.com/jcelerier/libremidi](https://github.com/jcelerier/libremidi) |
 | License | BSD-2-Clause |
 | Versions | v3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libremidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libremidi/xmake.lua) |
 
 ##### Install command
@@ -5609,7 +5657,7 @@ add_requires("libremidi")
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
 | Versions | v2.7.1, v2.7.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
 ##### Install command
@@ -5633,7 +5681,7 @@ add_requires("libsais")
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
 | Versions | 2.0.8, 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3, 2.28.4, 2.28.5, 2.30.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
 ##### Install command
@@ -5657,7 +5705,7 @@ add_requires("libsdl")
 | Homepage | [http://www.libsdl.org/projects/SDL_image/](http://www.libsdl.org/projects/SDL_image/) |
 | License | zlib |
 | Versions | 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsdl_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_image/xmake.lua) |
 
 ##### Install command
@@ -5681,7 +5729,7 @@ add_requires("libsdl_image")
 | Homepage | [https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/) |
 | License | zlib |
 | Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsdl_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_mixer/xmake.lua) |
 
 ##### Install command
@@ -5705,7 +5753,7 @@ add_requires("libsdl_mixer")
 | Homepage | [https://www.libsdl.org/projects/SDL_net/](https://www.libsdl.org/projects/SDL_net/) |
 | License | zlib |
 | Versions | 2.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsdl_net/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_net/xmake.lua) |
 
 ##### Install command
@@ -5729,7 +5777,7 @@ add_requires("libsdl_net")
 | Homepage | [https://github.com/libsdl-org/SDL_ttf/](https://github.com/libsdl-org/SDL_ttf/) |
 | License | zlib |
 | Versions | 2.20.0, 2.20.1, 2.20.2, 2.22.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsdl_ttf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_ttf/xmake.lua) |
 
 ##### Install command
@@ -5753,7 +5801,7 @@ add_requires("libsdl_ttf")
 | Homepage | [https://libsigcplusplus.github.io/libsigcplusplus/](https://libsigcplusplus.github.io/libsigcplusplus/) |
 | License | LGPL-3.0 |
 | Versions | 3.4.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsigcplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsigcplusplus/xmake.lua) |
 
 ##### Install command
@@ -5777,7 +5825,7 @@ add_requires("libsigcplusplus")
 | Homepage | [http://libsound.io/](http://libsound.io/) |
 | License | MIT |
 | Versions | 2.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsoundio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsoundio/xmake.lua) |
 
 ##### Install command
@@ -5800,7 +5848,7 @@ add_requires("libsoundio")
 | -- | -- |
 | Homepage | [https://libspng.org](https://libspng.org) |
 | Versions | v0.7.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libspng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libspng/xmake.lua) |
 
 ##### Install command
@@ -5823,7 +5871,7 @@ add_requires("libspng")
 | -- | -- |
 | Homepage | [https://github.com/uael/sv](https://github.com/uael/sv) |
 | Versions | 2021.11.27 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsv/xmake.lua) |
 
 ##### Install command
@@ -5846,7 +5894,7 @@ add_requires("libsv")
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
 | Versions | v325 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
 
 ##### Install command
@@ -5869,7 +5917,7 @@ add_requires("libsvm")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libtool/](https://www.gnu.org/software/libtool/) |
 | Versions | 2.4.5, 2.4.6, 2.4.7 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
 
 ##### Install command
@@ -5892,7 +5940,7 @@ add_requires("libtool")
 | -- | -- |
 | Homepage | [https://www.nongnu.org/libunwind/](https://www.nongnu.org/libunwind/) |
 | Versions | v1.5, v1.6.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libunwind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunwind/xmake.lua) |
 
 ##### Install command
@@ -5916,7 +5964,7 @@ add_requires("libunwind")
 | Homepage | [https://sourceforge.net/projects/libuuid](https://sourceforge.net/projects/libuuid) |
 | License | BSD-3-Clause |
 | Versions | 1.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libuuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuuid/xmake.lua) |
 
 ##### Install command
@@ -5940,7 +5988,7 @@ add_requires("libuuid")
 | Homepage | [https://libxlsxwriter.github.io](https://libxlsxwriter.github.io) |
 | License | BSD-2-Clause |
 | Versions | 1.1.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libxlsxwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxlsxwriter/xmake.lua) |
 
 ##### Install command
@@ -5964,7 +6012,7 @@ add_requires("libxlsxwriter")
 | Homepage | [https://chromium.googlesource.com/libyuv/libyuv/](https://chromium.googlesource.com/libyuv/libyuv/) |
 | License | BSD-3-Clause |
 | Versions | 2023.10.27 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libyuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libyuv/xmake.lua) |
 
 ##### Install command
@@ -5987,7 +6035,7 @@ add_requires("libyuv")
 | -- | -- |
 | Homepage | [https://github.com/ands/lightmapper](https://github.com/ands/lightmapper) |
 | Versions | 2022.01.03 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lightmapper/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightmapper/xmake.lua) |
 
 ##### Install command
@@ -6010,7 +6058,7 @@ add_requires("lightmapper")
 | -- | -- |
 | Homepage | [https://github.com/antirez/linenoise](https://github.com/antirez/linenoise) |
 | Versions | 2020.3.12 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [linenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linenoise/xmake.lua) |
 
 ##### Install command
@@ -6033,7 +6081,7 @@ add_requires("linenoise")
 | -- | -- |
 | Homepage | [https://github.com/datenwolf/linmath.h](https://github.com/datenwolf/linmath.h) |
 | Versions | 2022.06.19 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [linmath.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linmath.h/xmake.lua) |
 
 ##### Install command
@@ -6057,7 +6105,7 @@ add_requires("linmath.h")
 | Homepage | [https://kernel.org/](https://kernel.org/) |
 | License | GPL-2.0-only |
 | Versions | 4.20.9, 5.0.8, 5.9.16, 5.10.46, 5.15, 5.16.9 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [linux-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-headers/xmake.lua) |
 
 ##### Install command
@@ -6080,7 +6128,7 @@ add_requires("linux-headers")
 | -- | -- |
 | Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
 | Versions | 2023.01.05 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
 
 ##### Install command
@@ -6103,7 +6151,7 @@ add_requires("litehtml")
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
 | Versions | v2.5.0, v2.8.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
 
 ##### Install command
@@ -6127,7 +6175,7 @@ add_requires("littlefs")
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
 | Versions | v3.0.0, v8.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
 ##### Install command
@@ -6150,7 +6198,7 @@ add_requires("llhttp")
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
 | Versions | 20211002, 20220323 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 
 ##### Install command
@@ -6174,7 +6222,7 @@ add_requires("llvm-mingw")
 | Homepage | [https://lodev.org/lodepng/](https://lodev.org/lodepng/) |
 | License | zlib |
 | Versions |  |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lodepng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lodepng/xmake.lua) |
 
 ##### Install command
@@ -6197,7 +6245,7 @@ add_requires("lodepng")
 | -- | -- |
 | Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
 | Versions | v2.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
 
 ##### Install command
@@ -6220,7 +6268,7 @@ add_requires("loguru")
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
 | Versions | v5.1.1, v5.1.5, v5.2.3, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4, v5.4.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
 ##### Install command
@@ -6243,7 +6291,7 @@ add_requires("lua")
 | -- | -- |
 | Homepage | [https://github.com/Koihik/LuaFormatter](https://github.com/Koihik/LuaFormatter) |
 | Versions | 1.3.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lua-format/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua-format/xmake.lua) |
 
 ##### Install command
@@ -6267,7 +6315,7 @@ add_requires("lua-format")
 | Homepage | [https://kunitoki.github.io/LuaBridge3](https://kunitoki.github.io/LuaBridge3) |
 | License | MIT |
 | Versions | 3.0-rc3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [luabridge3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luabridge3/xmake.lua) |
 
 ##### Install command
@@ -6291,7 +6339,7 @@ add_requires("luabridge3")
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
 | Versions | v8.0.2, v8.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
 ##### Install command
@@ -6315,7 +6363,7 @@ add_requires("lvgl")
 | Homepage | [https://www.bfgroup.xyz/Lyra/](https://www.bfgroup.xyz/Lyra/) |
 | License | BSL-1.0 |
 | Versions | 1.5.1, 1.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lyra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lyra/xmake.lua) |
 
 ##### Install command
@@ -6338,7 +6386,7 @@ add_requires("lyra")
 | -- | -- |
 | Homepage | [https://www.lz4.org/](https://www.lz4.org/) |
 | Versions | v1.9.3, v1.9.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lz4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lz4/xmake.lua) |
 
 ##### Install command
@@ -6362,7 +6410,7 @@ add_requires("lz4")
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
 | Versions | 2.14 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
 ##### Install command
@@ -6385,7 +6433,7 @@ add_requires("lzav")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/lzham_codec](https://github.com/richgel999/lzham_codec) |
 | Versions | 2023.01.03 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lzham_codec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzham_codec/xmake.lua) |
 
 ##### Install command
@@ -6409,7 +6457,7 @@ add_requires("lzham_codec")
 | Homepage | [http://www.oberhumer.com/opensource/lzo](http://www.oberhumer.com/opensource/lzo) |
 | License | GPL-2.0 |
 | Versions | 2.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzo/xmake.lua) |
 
 ##### Install command
@@ -6434,7 +6482,7 @@ add_requires("lzo")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/m4](https://www.gnu.org/software/m4) |
 | Versions | 1.4.18, 1.4.19 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [m4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/m4/xmake.lua) |
 
 ##### Install command
@@ -6458,7 +6506,7 @@ add_requires("m4")
 | Homepage | [https://github.com/progsource/maddy](https://github.com/progsource/maddy) |
 | License | MIT |
 | Versions | 1.2.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [maddy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/maddy/xmake.lua) |
 
 ##### Install command
@@ -6482,7 +6530,7 @@ add_requires("maddy")
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
 | Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2, v0.9.0, v0.9.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 
 ##### Install command
@@ -6506,7 +6554,7 @@ add_requires("magic_enum")
 | Homepage | [https://github.com/karastojko/mailio](https://github.com/karastojko/mailio) |
 | License | BSD |
 | Versions | 0.23.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mailio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mailio/xmake.lua) |
 
 ##### Install command
@@ -6529,7 +6577,7 @@ add_requires("mailio")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/) |
 | Versions | 4.2.1, 4.3, 4.4.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [make/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/make/xmake.lua) |
 
 ##### Install command
@@ -6553,7 +6601,7 @@ add_requires("make")
 | Homepage | [https://github.com/mapbox/earcut.hpp](https://github.com/mapbox/earcut.hpp) |
 | License | ISC |
 | Versions | 2.2.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mapbox_earcut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_earcut/xmake.lua) |
 
 ##### Install command
@@ -6577,7 +6625,7 @@ add_requires("mapbox_earcut")
 | Homepage | [https://github.com/mapbox/eternal](https://github.com/mapbox/eternal) |
 | License | ISC |
 | Versions | v1.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mapbox_eternal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_eternal/xmake.lua) |
 
 ##### Install command
@@ -6601,7 +6649,7 @@ add_requires("mapbox_eternal")
 | Homepage | [https://github.com/mapbox/geometry.hpp](https://github.com/mapbox/geometry.hpp) |
 | License | ISC |
 | Versions | 1.1.0, 2.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mapbox_geometry/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_geometry/xmake.lua) |
 
 ##### Install command
@@ -6625,7 +6673,7 @@ add_requires("mapbox_geometry")
 | Homepage | [https://github.com/mapbox/variant](https://github.com/mapbox/variant) |
 | License | BSD |
 | Versions | v1.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mapbox_variant/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_variant/xmake.lua) |
 
 ##### Install command
@@ -6649,7 +6697,7 @@ add_requires("mapbox_variant")
 | Homepage | [http://google.github.io/mathfu](http://google.github.io/mathfu) |
 | License | Apache-2.0 |
 | Versions | 2022.5.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mathfu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mathfu/xmake.lua) |
 
 ##### Install command
@@ -6673,7 +6721,7 @@ add_requires("mathfu")
 | Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
 | License | BSD-2-Clause |
 | Versions | v1.5.26 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
 
 ##### Install command
@@ -6697,7 +6745,7 @@ add_requires("matio")
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
 | License | Apache-2.0 |
 | Versions | v2.7.6, v2.13.0, v2.25.0, v2.28.3, v3.4.0, v3.5.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 
 ##### Install command
@@ -6720,7 +6768,7 @@ add_requires("mbedtls")
 | -- | -- |
 | Homepage | [https://github.com/mjansson/mdns](https://github.com/mjansson/mdns) |
 | Versions | 1.4.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mdns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdns/xmake.lua) |
 
 ##### Install command
@@ -6744,7 +6792,7 @@ add_requires("mdns")
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
 | Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
 ##### Install command
@@ -6767,7 +6815,7 @@ add_requires("meson")
 | -- | -- |
 | Homepage | [http://micro-gl.github.io/docs/microgl](http://micro-gl.github.io/docs/microgl) |
 | Versions | 2023.08.30 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [micro-gl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/micro-gl/xmake.lua) |
 
 ##### Install command
@@ -6791,7 +6839,7 @@ add_requires("micro-gl")
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
 | Versions | v3.1.0, v4.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
 ##### Install command
@@ -6815,7 +6863,7 @@ add_requires("microsoft-gsl")
 | Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
 | License | MIT |
 | Versions | 1.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [microsoft-proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-proxy/xmake.lua) |
 
 ##### Install command
@@ -6838,7 +6886,7 @@ add_requires("microsoft-proxy")
 | -- | -- |
 | Homepage | [http://www.mikktspace.com/](http://www.mikktspace.com/) |
 | Versions | 2020.03.26 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mikktspace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mikktspace/xmake.lua) |
 
 ##### Install command
@@ -6861,7 +6909,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
 | Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
 ##### Install command
@@ -6885,7 +6933,7 @@ add_requires("miniaudio")
 | Homepage | [https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html](https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html) |
 | License | GPL-3.0 |
 | Versions | v3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [miniball/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniball/xmake.lua) |
 
 ##### Install command
@@ -6908,7 +6956,7 @@ add_requires("miniball")
 | -- | -- |
 | Homepage | [http://www.oberhumer.com/opensource/lzo/#minilzo](http://www.oberhumer.com/opensource/lzo/#minilzo) |
 | Versions | 2.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [minilzo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minilzo/xmake.lua) |
 
 ##### Install command
@@ -6932,7 +6980,7 @@ add_requires("minilzo")
 | Homepage | [https://github.com/lieff/minimp3](https://github.com/lieff/minimp3) |
 | License | CC0 |
 | Versions | 2021.05.29 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [minimp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minimp3/xmake.lua) |
 
 ##### Install command
@@ -6956,7 +7004,7 @@ add_requires("minimp3")
 | Homepage | [https://github.com/hrydgard/minitrace](https://github.com/hrydgard/minitrace) |
 | License | MIT |
 | Versions | 2023.09.04 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [minitrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minitrace/xmake.lua) |
 
 ##### Install command
@@ -6980,7 +7028,7 @@ add_requires("minitrace")
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
 | Versions | 2.1.0, 2.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
 ##### Install command
@@ -7004,7 +7052,7 @@ add_requires("miniz")
 | Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
 | License | zlib |
 | Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
 
 ##### Install command
@@ -7028,7 +7076,7 @@ add_requires("minizip")
 | Homepage | [https://github.com/cesanta/mjson](https://github.com/cesanta/mjson) |
 | License | MIT |
 | Versions | 1.2.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mjson/xmake.lua) |
 
 ##### Install command
@@ -7052,7 +7100,7 @@ add_requires("mjson")
 | Homepage | [https://github.com/jdumas/mma](https://github.com/jdumas/mma) |
 | License | MIT |
 | Versions | 2018.08.01 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mma/xmake.lua) |
 
 ##### Install command
@@ -7076,7 +7124,7 @@ add_requires("mma")
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
 | Versions | 7.11 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
 ##### Install command
@@ -7099,7 +7147,7 @@ add_requires("mongoose")
 | -- | -- |
 | Homepage | [https://www.mpg123.de/](https://www.mpg123.de/) |
 | Versions | 1.30.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mpg123/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpg123/xmake.lua) |
 
 ##### Install command
@@ -7122,7 +7170,7 @@ add_requires("mpg123")
 | -- | -- |
 | Homepage | [https://github.com/rigtorp/MPMCQueue](https://github.com/rigtorp/MPMCQueue) |
 | Versions | v1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mpmcqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpmcqueue/xmake.lua) |
 
 ##### Install command
@@ -7145,7 +7193,7 @@ add_requires("mpmcqueue")
 | -- | -- |
 | Homepage | [https://github.com/iboB/mscharconv](https://github.com/iboB/mscharconv) |
 | Versions | latest |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mscharconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mscharconv/xmake.lua) |
 
 ##### Install command
@@ -7169,7 +7217,7 @@ add_requires("mscharconv")
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
 | Versions | v1.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
 ##### Install command
@@ -7192,7 +7240,7 @@ add_requires("msdfgen")
 | -- | -- |
 | Homepage | [http://mujs.com/](http://mujs.com/) |
 | Versions | 1.3.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
 
 ##### Install command
@@ -7215,7 +7263,7 @@ add_requires("mujs")
 | -- | -- |
 | Homepage | [https://musl.cc/](https://musl.cc/) |
 | Versions | 20210202 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [muslcc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muslcc/xmake.lua) |
 
 ##### Install command
@@ -7239,7 +7287,7 @@ add_requires("muslcc")
 | Homepage | [https://github.com/kainjow/Mustache](https://github.com/kainjow/Mustache) |
 | License | BSL-1.0 |
 | Versions | 2021.12.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mustache/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mustache/xmake.lua) |
 
 ##### Install command
@@ -7265,7 +7313,7 @@ add_requires("mustache")
 | Homepage | [https://github.com/joboccara/NamedType](https://github.com/joboccara/NamedType) |
 | License | MIT |
 | Versions | v1.1.0.20210209 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [named_type/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/named_type/xmake.lua) |
 
 ##### Install command
@@ -7289,7 +7337,7 @@ add_requires("named_type")
 | Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
 | License | MIT |
 | Versions | 0.10.3, 0.10.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
 
 ##### Install command
@@ -7313,7 +7361,7 @@ add_requires("nameof")
 | Homepage | [https://nanobench.ankerl.com](https://nanobench.ankerl.com) |
 | License | MIT |
 | Versions | v4.3.11 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nanobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanobench/xmake.lua) |
 
 ##### Install command
@@ -7337,7 +7385,7 @@ add_requires("nanobench")
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
 | Versions | v1.3.2, v1.4.2, v1.5.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 
 ##### Install command
@@ -7361,7 +7409,7 @@ add_requires("nanoflann")
 | Homepage | [https://github.com/memononen/nanosvg](https://github.com/memononen/nanosvg) |
 | License | zlib |
 | Versions | 2022.07.09 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nanosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanosvg/xmake.lua) |
 
 ##### Install command
@@ -7385,7 +7433,7 @@ add_requires("nanosvg")
 | Homepage | [https://www.nasm.us/](https://www.nasm.us/) |
 | License | BSD-2-Clause |
 | Versions | 2.13.03, 2.15.05, 2.16.01 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nasm/xmake.lua) |
 
 ##### Install command
@@ -7408,7 +7456,7 @@ add_requires("nasm")
 | -- | -- |
 | Homepage | [https://github.com/ndarray/ndarray](https://github.com/ndarray/ndarray) |
 | Versions | 1.6.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ndarray/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndarray/xmake.lua) |
 
 ##### Install command
@@ -7431,7 +7479,7 @@ add_requires("ndarray")
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
 | Versions | 21.0, 22.0, 26.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 
 ##### Install command
@@ -7455,7 +7503,7 @@ add_requires("ndk")
 | Homepage | [https://github.com/Neargye/scope_guard](https://github.com/Neargye/scope_guard) |
 | License | MIT |
 | Versions | 2022.04.05 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [neargye-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/neargye-scope_guard/xmake.lua) |
 
 ##### Install command
@@ -7479,7 +7527,7 @@ add_requires("neargye-scope_guard")
 | Homepage | [https://nifti.nimh.nih.gov/](https://nifti.nimh.nih.gov/) |
 | License | Public Domain |
 | Versions | 0.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [niftiheader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/niftiheader/xmake.lua) |
 
 ##### Install command
@@ -7502,7 +7550,7 @@ add_requires("niftiheader")
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
 | Versions | 1.9.0, 1.10.1, 1.10.2, 1.11.0, 1.11.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
 ##### Install command
@@ -7526,7 +7574,7 @@ add_requires("ninja")
 | Homepage | [https://nlohmann.github.io/json/](https://nlohmann.github.io/json/) |
 | License | MIT |
 | Versions | v3.9.1, v3.10.0, v3.10.5, v3.11.2, v3.11.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nlohmann_json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlohmann_json/xmake.lua) |
 
 ##### Install command
@@ -7549,7 +7597,7 @@ add_requires("nlohmann_json")
 | -- | -- |
 | Homepage | [https://github.com/nanomsg/nng](https://github.com/nanomsg/nng) |
 | Versions | 1.3.2, 1.4.0, 1.5.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
 
 ##### Install command
@@ -7572,7 +7620,7 @@ add_requires("nng")
 | -- | -- |
 | Homepage | [https://github.com/cwzx/nngpp](https://github.com/cwzx/nngpp) |
 | Versions | v2020.10.30 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nngpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nngpp/xmake.lua) |
 
 ##### Install command
@@ -7596,7 +7644,7 @@ add_requires("nngpp")
 | Homepage | [https://github.com/fr00b0/nod](https://github.com/fr00b0/nod) |
 | License | MIT |
 | Versions | v0.5.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nod/xmake.lua) |
 
 ##### Install command
@@ -7619,7 +7667,7 @@ add_requires("nod")
 | -- | -- |
 | Homepage | [https://github.com/olvb/nodesoup](https://github.com/olvb/nodesoup) |
 | Versions | 2020.09.05 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nodesoup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nodesoup/xmake.lua) |
 
 ##### Install command
@@ -7643,7 +7691,7 @@ add_requires("nodesoup")
 | Homepage | [https://github.com/ned14/ntkernel-error-category](https://github.com/ned14/ntkernel-error-category) |
 | License | Apache-2.0 |
 | Versions | v1.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ntkernel-error-category/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ntkernel-error-category/xmake.lua) |
 
 ##### Install command
@@ -7667,7 +7715,7 @@ add_requires("ntkernel-error-category")
 | Homepage | [https://immediate-mode-ui.github.io/Nuklear/doc/index.html](https://immediate-mode-ui.github.io/Nuklear/doc/index.html) |
 | License | MIT |
 | Versions | 4.10.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nuklear/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nuklear/xmake.lua) |
 
 ##### Install command
@@ -7693,7 +7741,7 @@ add_requires("nuklear")
 | Homepage | [http://www.ocilib.net](http://www.ocilib.net) |
 | License | Apache-2.0 |
 | Versions | v4.7.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ocilib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ocilib/xmake.lua) |
 
 ##### Install command
@@ -7717,7 +7765,7 @@ add_requires("ocilib")
 | Homepage | [https://tsoding.github.io/olive.c/](https://tsoding.github.io/olive.c/) |
 | License | MIT |
 | Versions | 2022.12.14 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [olive.c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/olive.c/xmake.lua) |
 
 ##### Install command
@@ -7741,7 +7789,7 @@ add_requires("olive.c")
 | Homepage | [https://github.com/kkos/oniguruma](https://github.com/kkos/oniguruma) |
 | License | BSD |
 | Versions | v6.9.9 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [oniguruma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oniguruma/xmake.lua) |
 
 ##### Install command
@@ -7765,7 +7813,7 @@ add_requires("oniguruma")
 | Homepage | [https://openal-soft.org](https://openal-soft.org) |
 | License | LGPL-2.0 |
 | Versions | 1.21.1, 1.22.0, 1.22.2, 1.23.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [openal-soft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua) |
 
 ##### Install command
@@ -7789,7 +7837,7 @@ add_requires("openal-soft")
 | Homepage | [https://github.com/KhronosGroup/OpenCL-CLHPP/](https://github.com/KhronosGroup/OpenCL-CLHPP/) |
 | License | Apache-2.0 |
 | Versions | 1.2.8, 2.0.15 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [opencl-clhpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-clhpp/xmake.lua) |
 
 ##### Install command
@@ -7813,7 +7861,7 @@ add_requires("opencl-clhpp")
 | Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
 | License | Apache-2.0 |
 | Versions | v2021.06.30, v2023.12.14 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
 
 ##### Install command
@@ -7836,7 +7884,7 @@ add_requires("opencl-headers")
 | -- | -- |
 | Homepage | [https://opencore-amr.sourceforge.io](https://opencore-amr.sourceforge.io) |
 | Versions | 0.1.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [opencore-amr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencore-amr/xmake.lua) |
 
 ##### Install command
@@ -7860,7 +7908,7 @@ add_requires("opencore-amr")
 | Homepage | [https://github.com/KhronosGroup/OpenGL-Registry/](https://github.com/KhronosGroup/OpenGL-Registry/) |
 | License | MIT |
 | Versions | 2024.01.04 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [opengl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opengl-headers/xmake.lua) |
 
 ##### Install command
@@ -7884,7 +7932,7 @@ add_requires("opengl-headers")
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
 | License | Apache-2.0 |
 | Versions | 1.0.0, 1.0.2-u, 1.1.0-l, 1.1.1-h, 1.1.1-k, 1.1.1-l, 1.1.1-m, 1.1.1-n, 1.1.1-o, 1.1.1-p, 1.1.1-q, 1.1.1-r, 1.1.1-s, 1.1.1-t, 1.1.1-w |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl/xmake.lua) |
 
 ##### Install command
@@ -7907,7 +7955,7 @@ add_requires("openssl")
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
 | Versions | 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [openssl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl3/xmake.lua) |
 
 ##### Install command
@@ -7931,7 +7979,7 @@ add_requires("openssl3")
 | Homepage | [https://optick.dev](https://optick.dev) |
 | License | MIT |
 | Versions | 1.3.1, 1.4.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [optick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/optick/xmake.lua) |
 
 ##### Install command
@@ -7955,7 +8003,7 @@ add_requires("optick")
 | Homepage | [https://github.com/martinmoene/optional-lite](https://github.com/martinmoene/optional-lite) |
 | License | BSL-1.0 |
 | Versions | 2023.05.11 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [optional-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/optional-lite/xmake.lua) |
 
 ##### Install command
@@ -7978,7 +8026,7 @@ add_requires("optional-lite")
 | -- | -- |
 | Homepage | [https://github.com/orangeduck/mpc](https://github.com/orangeduck/mpc) |
 | Versions | 0.9.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [orangeduck_mpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orangeduck_mpc/xmake.lua) |
 
 ##### Install command
@@ -8002,7 +8050,7 @@ add_requires("orangeduck_mpc")
 | Homepage | [https://github.com/Tessil/ordered-map](https://github.com/Tessil/ordered-map) |
 | License | MIT |
 | Versions | v1.0.0, v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ordered_map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ordered_map/xmake.lua) |
 
 ##### Install command
@@ -8026,7 +8074,7 @@ add_requires("ordered_map")
 | Homepage | [https://github.com/qicosmos/ormpp](https://github.com/qicosmos/ormpp) |
 | License | Apache-2.0 |
 | Versions | v0.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ormpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ormpp/xmake.lua) |
 
 ##### Install command
@@ -8050,7 +8098,7 @@ add_requires("ormpp")
 | Homepage | [https://github.com/JustWhit3/osmanip](https://github.com/JustWhit3/osmanip) |
 | License | MIT |
 | Versions | v4.6.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [osmanip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osmanip/xmake.lua) |
 
 ##### Install command
@@ -8074,7 +8122,7 @@ add_requires("osmanip")
 | Homepage | [https://github.com/soasis/out_ptr](https://github.com/soasis/out_ptr) |
 | License | Apache-2.0 |
 | Versions | 2022.10.07 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [out_ptr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/out_ptr/xmake.lua) |
 
 ##### Install command
@@ -8098,7 +8146,7 @@ add_requires("out_ptr")
 | Homepage | [https://github.com/ned14/outcome](https://github.com/ned14/outcome) |
 | License | Apache-2.0 |
 | Versions | v2.2.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [outcome/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/outcome/xmake.lua) |
 
 ##### Install command
@@ -8122,7 +8170,7 @@ add_requires("outcome")
 | Homepage | [http://guillaumeblanc.github.io/ozz-animation/](http://guillaumeblanc.github.io/ozz-animation/) |
 | License | MIT |
 | Versions | 0.14.2, 0.14.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ozz-animation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ozz-animation/xmake.lua) |
 
 ##### Install command
@@ -8148,7 +8196,7 @@ add_requires("ozz-animation")
 | Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
 | License | Apache-2.0 |
 | Versions | v1.3.12, 1.33, 1.34, 1.35, 1.37 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
 
 ##### Install command
@@ -8171,7 +8219,7 @@ add_requires("parallel-hashmap")
 | -- | -- |
 | Homepage | [http://www.gnu.org/software/patch/patch.html](http://www.gnu.org/software/patch/patch.html) |
 | Versions | 2.7.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [patch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patch/xmake.lua) |
 
 ##### Install command
@@ -8195,7 +8243,7 @@ add_requires("patch")
 | Homepage | [http://www.pcg-random.org](http://www.pcg-random.org) |
 | License | Apache-2.0 |
 | Versions | 2022.04.09 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pcg-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcg-cpp/xmake.lua) |
 
 ##### Install command
@@ -8218,7 +8266,7 @@ add_requires("pcg-cpp")
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
 | Versions | 8.45 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pcre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre/xmake.lua) |
 
 ##### Install command
@@ -8241,7 +8289,7 @@ add_requires("pcre")
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
 | Versions | 10.39, 10.40, 10.42 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
 
 ##### Install command
@@ -8265,7 +8313,7 @@ add_requires("pcre2")
 | Homepage | [https://github.com/Reputeless/PerlinNoise](https://github.com/Reputeless/PerlinNoise) |
 | License | MIT |
 | Versions | v3.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [perlinnoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/perlinnoise/xmake.lua) |
 
 ##### Install command
@@ -8289,7 +8337,7 @@ add_requires("perlinnoise")
 | Homepage | [https://github.com/iboB/picobench](https://github.com/iboB/picobench) |
 | License | MIT |
 | Versions | 2.06 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [picobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picobench/xmake.lua) |
 
 ##### Install command
@@ -8313,7 +8361,7 @@ add_requires("picobench")
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSD-2-Clause |
 | Versions | v1.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [picojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picojson/xmake.lua) |
 
 ##### Install command
@@ -8337,7 +8385,7 @@ add_requires("picojson")
 | Homepage | [https://github.com/okdshin/PicoSHA2](https://github.com/okdshin/PicoSHA2) |
 | License | MIT |
 | Versions | 2022.08.08 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [picosha2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picosha2/xmake.lua) |
 
 ##### Install command
@@ -8360,7 +8408,7 @@ add_requires("picosha2")
 | -- | -- |
 | Homepage | [https://freedesktop.org/wiki/Software/pkg-config/](https://freedesktop.org/wiki/Software/pkg-config/) |
 | Versions | 0.29.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pkg-config/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkg-config/xmake.lua) |
 
 ##### Install command
@@ -8383,7 +8431,7 @@ add_requires("pkg-config")
 | -- | -- |
 | Homepage | [http://pkgconf.org](http://pkgconf.org) |
 | Versions | 1.7.4, 1.8.0, 1.9.3, 1.9.4, 1.9.5, 2.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
 
 ##### Install command
@@ -8407,7 +8455,7 @@ add_requires("pkgconf")
 | Homepage | [https://plflib.org/colony.htm](https://plflib.org/colony.htm) |
 | License | zlib |
 | Versions | 2023.08.25 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [plf_colony/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_colony/xmake.lua) |
 
 ##### Install command
@@ -8431,7 +8479,7 @@ add_requires("plf_colony")
 | Homepage | [https://github.com/SergiusTheBest/plog](https://github.com/SergiusTheBest/plog) |
 | License | MIT |
 | Versions | 1.1.9, 1.1.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [plog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plog/xmake.lua) |
 
 ##### Install command
@@ -8455,7 +8503,7 @@ add_requires("plog")
 | Homepage | [https://kkayataka.github.io/plusaes/doc/index.html](https://kkayataka.github.io/plusaes/doc/index.html) |
 | License | BSL-1.0 |
 | Versions | v1.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [plusaes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plusaes/xmake.lua) |
 
 ##### Install command
@@ -8479,7 +8527,7 @@ add_requires("plusaes")
 | Homepage | [https://github.com/mreineck/pocketfft](https://github.com/mreineck/pocketfft) |
 | License | BSD-3-Clause |
 | Versions | 2023.02.14 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pocketfft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketfft/xmake.lua) |
 
 ##### Install command
@@ -8502,7 +8550,7 @@ add_requires("pocketfft")
 | -- | -- |
 | Homepage | [http://www.portaudio.com](http://www.portaudio.com) |
 | Versions | 2023.08.05 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [portaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/portaudio/xmake.lua) |
 
 ##### Install command
@@ -8525,7 +8573,7 @@ add_requires("portaudio")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/pprint](https://github.com/p-ranav/pprint) |
 | Versions | 2020.2.20 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pprint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pprint/xmake.lua) |
 
 ##### Install command
@@ -8548,7 +8596,7 @@ add_requires("pprint")
 | -- | -- |
 | Homepage | [http://gamma.cs.unc.edu/SSV/](http://gamma.cs.unc.edu/SSV/) |
 | Versions | 1.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pqp/xmake.lua) |
 
 ##### Install command
@@ -8571,7 +8619,7 @@ add_requires("pqp")
 | -- | -- |
 | Homepage | [https://premake.github.io/](https://premake.github.io/) |
 | Versions | 2022.11.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [premake5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/premake5/xmake.lua) |
 
 ##### Install command
@@ -8594,7 +8642,7 @@ add_requires("premake5")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | Versions | 3.8.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [protoc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protoc/xmake.lua) |
 
 ##### Install command
@@ -8618,7 +8666,7 @@ add_requires("protoc")
 | Homepage | [https://github.com/avaneev/prvhash](https://github.com/avaneev/prvhash) |
 | License | MIT |
 | Versions | 4.0, 4.3.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [prvhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prvhash/xmake.lua) |
 
 ##### Install command
@@ -8641,7 +8689,7 @@ add_requires("prvhash")
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
 | Versions | v1.3.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
 ##### Install command
@@ -8664,7 +8712,7 @@ add_requires("pyincpp")
 | -- | -- |
 | Homepage | [https://github.com/imageworks/pystring](https://github.com/imageworks/pystring) |
 | Versions | 2020.02.04, 2023.07.23 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pystring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pystring/xmake.lua) |
 
 ##### Install command
@@ -8687,7 +8735,7 @@ add_requires("pystring")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
 ##### Install command
@@ -8710,7 +8758,7 @@ add_requires("python")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | Versions | 2.7.15, 2.7.18 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [python2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python2/xmake.lua) |
 
 ##### Install command
@@ -8736,7 +8784,7 @@ add_requires("python2")
 | Homepage | [https://qoiformat.org/](https://qoiformat.org/) |
 | License | MIT |
 | Versions | 2021.12.22, 2022.11.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [qoi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qoi/xmake.lua) |
 
 ##### Install command
@@ -8759,7 +8807,7 @@ add_requires("qoi")
 | -- | -- |
 | Homepage | [https://www.nayuki.io/page/qr-code-generator-library](https://www.nayuki.io/page/qr-code-generator-library) |
 | Versions | v1.8.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [qr-code-generator-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qr-code-generator-c/xmake.lua) |
 
 ##### Install command
@@ -8782,7 +8830,7 @@ add_requires("qr-code-generator-c")
 | -- | -- |
 | Homepage | [https://www.nayuki.io/page/qr-code-generator-library](https://www.nayuki.io/page/qr-code-generator-library) |
 | Versions | v1.8.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [qr-code-generator-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qr-code-generator-cpp/xmake.lua) |
 
 ##### Install command
@@ -8806,7 +8854,7 @@ add_requires("qr-code-generator-cpp")
 | Homepage | [https://github.com/scandum/quadsort](https://github.com/scandum/quadsort) |
 | License | MIT |
 | Versions | 2023.02.03 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [quadsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quadsort/xmake.lua) |
 
 ##### Install command
@@ -8829,7 +8877,7 @@ add_requires("quadsort")
 | -- | -- |
 | Homepage | [http://www.cs.cmu.edu/~quake/triangle.html](http://www.cs.cmu.edu/~quake/triangle.html) |
 | Versions | 1.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [quake_triangle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quake_triangle/xmake.lua) |
 
 ##### Install command
@@ -8852,7 +8900,7 @@ add_requires("quake_triangle")
 | -- | -- |
 | Homepage | [http://quantlib.org](http://quantlib.org) |
 | Versions | 1.33 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [quantlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quantlib/xmake.lua) |
 
 ##### Install command
@@ -8876,7 +8924,7 @@ add_requires("quantlib")
 | Homepage | [https://github.com/ned14/quickcpplib](https://github.com/ned14/quickcpplib) |
 | License | Apache-2.0 |
 | Versions | 20221116 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [quickcpplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickcpplib/xmake.lua) |
 
 ##### Install command
@@ -8899,7 +8947,7 @@ add_requires("quickcpplib")
 | -- | -- |
 | Homepage | [https://bellard.org/quickjs/](https://bellard.org/quickjs/) |
 | Versions | 2021.03.27, 2023.12.09, 2024.01.13 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [quickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs/xmake.lua) |
 
 ##### Install command
@@ -8925,7 +8973,7 @@ add_requires("quickjs")
 | Homepage | [https://agauniyal.github.io/rang/](https://agauniyal.github.io/rang/) |
 | License | Unlicense |
 | Versions | 2022.07.01 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rang/xmake.lua) |
 
 ##### Install command
@@ -8949,7 +8997,7 @@ add_requires("rang")
 | Homepage | [https://github.com/ericniebler/range-v3/](https://github.com/ericniebler/range-v3/) |
 | License | BSL-1.0 |
 | Versions | 0.11.0, 0.12.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [range-v3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/range-v3/xmake.lua) |
 
 ##### Install command
@@ -8972,7 +9020,7 @@ add_requires("range-v3")
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
 | Versions | 8.50, 8.80 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
 ##### Install command
@@ -8996,7 +9044,7 @@ add_requires("rapidcsv")
 | Homepage | [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson) |
 | License | MIT |
 | Versions | v1.1.0-arrow, v1.1.0, 2022.7.20, 2023.12.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rapidjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidjson/xmake.lua) |
 
 ##### Install command
@@ -9020,7 +9068,7 @@ add_requires("rapidjson")
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
 | Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
 ##### Install command
@@ -9044,7 +9092,7 @@ add_requires("re2")
 | Homepage | [https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html](https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html) |
 | License | BSL-1.0 |
 | Versions | v0.2.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [reactiveplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reactiveplusplus/xmake.lua) |
 
 ##### Install command
@@ -9068,7 +9116,7 @@ add_requires("reactiveplusplus")
 | Homepage | [https://github.com/cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) |
 | License | BSD-3-Clause |
 | Versions | v1.0.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [readerwriterqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readerwriterqueue/xmake.lua) |
 
 ##### Install command
@@ -9092,7 +9140,7 @@ add_requires("readerwriterqueue")
 | Homepage | [https://github.com/recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) |
 | License | zlib |
 | Versions | 1.5.1, v1.6.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [recastnavigation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/recastnavigation/xmake.lua) |
 
 ##### Install command
@@ -9116,7 +9164,7 @@ add_requires("recastnavigation")
 | Homepage | [https://github.com/Celtoys/Remotery](https://github.com/Celtoys/Remotery) |
 | License | Apache-2.0 |
 | Versions | 2023.08.02 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [remotery/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/remotery/xmake.lua) |
 
 ##### Install command
@@ -9140,7 +9188,7 @@ add_requires("remotery")
 | Homepage | [https://github.com/DaanDeMeyer/reproc](https://github.com/DaanDeMeyer/reproc) |
 | License | MIT |
 | Versions | v14.2.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [reproc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reproc/xmake.lua) |
 
 ##### Install command
@@ -9164,7 +9212,7 @@ add_requires("reproc")
 | Homepage | [https://github.com/Stiffstream/restinio](https://github.com/Stiffstream/restinio) |
 | License | BSD-3-Clause |
 | Versions | 0.6.17, 0.6.18, 0.6.19 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [restinio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/restinio/xmake.lua) |
 
 ##### Install command
@@ -9188,7 +9236,7 @@ add_requires("restinio")
 | Homepage | [https://ricab.github.io/scope_guard/](https://ricab.github.io/scope_guard/) |
 | License | Unlicense |
 | Versions | v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ricab-scope_guard/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ricab-scope_guard/xmake.lua) |
 
 ##### Install command
@@ -9212,7 +9260,7 @@ add_requires("ricab-scope_guard")
 | Homepage | [https://github.com/martinus/robin-hood-hashing](https://github.com/martinus/robin-hood-hashing) |
 | License | MIT |
 | Versions | 3.11.3, 3.11.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [robin-hood-hashing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-hood-hashing/xmake.lua) |
 
 ##### Install command
@@ -9236,7 +9284,7 @@ add_requires("robin-hood-hashing")
 | Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
 | License | MIT |
 | Versions | v0.6.3, v1.2.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
 
 ##### Install command
@@ -9260,7 +9308,7 @@ add_requires("robin-map")
 | Homepage | [http://w3.impa.br/~diego/software/rply/](http://w3.impa.br/~diego/software/rply/) |
 | License | MIT |
 | Versions | 1.1.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rply/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rply/xmake.lua) |
 
 ##### Install command
@@ -9283,7 +9331,7 @@ add_requires("rply")
 | -- | -- |
 | Homepage | [https://github.com/mjansson/rpmalloc](https://github.com/mjansson/rpmalloc) |
 | Versions | 1.4.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rpmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rpmalloc/xmake.lua) |
 
 ##### Install command
@@ -9307,7 +9355,7 @@ add_requires("rpmalloc")
 | Homepage | [https://github.com/Ryan-rsm-McKenzie/AutoTOML](https://github.com/Ryan-rsm-McKenzie/AutoTOML) |
 | License | MIT |
 | Versions | 2020.12.29 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rsm-autotoml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-autotoml/xmake.lua) |
 
 ##### Install command
@@ -9331,7 +9379,7 @@ add_requires("rsm-autotoml")
 | Homepage | [https://github.com/Ryan-rsm-McKenzie/binary_io](https://github.com/Ryan-rsm-McKenzie/binary_io) |
 | License | MIT |
 | Versions | 2.0.5, 2.0.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rsm-binary-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-binary-io/xmake.lua) |
 
 ##### Install command
@@ -9355,7 +9403,7 @@ add_requires("rsm-binary-io")
 | Homepage | [https://github.com/Ryan-rsm-McKenzie/mmio](https://github.com/Ryan-rsm-McKenzie/mmio) |
 | License | MIT |
 | Versions | 2.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rsm-mmio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rsm-mmio/xmake.lua) |
 
 ##### Install command
@@ -9378,7 +9426,7 @@ add_requires("rsm-mmio")
 | -- | -- |
 | Homepage | [https://github.com/thestk/rtmidi](https://github.com/thestk/rtmidi) |
 | Versions | 6.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rtmidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtmidi/xmake.lua) |
 
 ##### Install command
@@ -9402,7 +9450,7 @@ add_requires("rtmidi")
 | Homepage | [https://www.rttr.org](https://www.rttr.org) |
 | License | MIT |
 | Versions | 0.9.5, 0.9.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rttr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rttr/xmake.lua) |
 
 ##### Install command
@@ -9426,7 +9474,7 @@ add_requires("rttr")
 | Homepage | [http://reactivex.io/RxCpp/](http://reactivex.io/RxCpp/) |
 | License | Apache-2.0 |
 | Versions | v3.0.0, v4.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rxcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rxcpp/xmake.lua) |
 
 ##### Install command
@@ -9452,7 +9500,7 @@ add_requires("rxcpp")
 | Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
 | License | Apache-2.0 |
 | Versions | v1.3.51, v1.4.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
 
 ##### Install command
@@ -9475,7 +9523,7 @@ add_requires("s2n-tls")
 | -- | -- |
 | Homepage | [https://ccrma.stanford.edu/software/snd/snd/s7.html](https://ccrma.stanford.edu/software/snd/snd/s7.html) |
 | Versions | 2023.04.13 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [s7/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s7/xmake.lua) |
 
 ##### Install command
@@ -9499,7 +9547,7 @@ add_requires("s7")
 | Homepage | [https://github.com/sailormoon/flags](https://github.com/sailormoon/flags) |
 | License | MIT |
 | Versions | 1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sailormoon_flags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sailormoon_flags/xmake.lua) |
 
 ##### Install command
@@ -9522,7 +9570,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
 | Versions | 0.4, 1.1.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
 
 ##### Install command
@@ -9545,7 +9593,7 @@ add_requires("scnlib")
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
 | Versions | 4.1.0, 4.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 
 ##### Install command
@@ -9568,7 +9616,7 @@ add_requires("scons")
 | -- | -- |
 | Homepage | [https://github.com/xxsds/sdsl-lite](https://github.com/xxsds/sdsl-lite) |
 | Versions | v3.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sdsl-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sdsl-lite/xmake.lua) |
 
 ##### Install command
@@ -9592,7 +9640,7 @@ add_requires("sdsl-lite")
 | Homepage | [https://github.com/Neargye/semver](https://github.com/Neargye/semver) |
 | License | MIT |
 | Versions | 2023.05.27, 2023.10.04 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/semver/xmake.lua) |
 
 ##### Install command
@@ -9616,7 +9664,7 @@ add_requires("semver")
 | Homepage | [https://www.seqan.de](https://www.seqan.de) |
 | License | BSD-3-Clause |
 | Versions | 3.2.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [seqan3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/seqan3/xmake.lua) |
 
 ##### Install command
@@ -9640,7 +9688,7 @@ add_requires("seqan3")
 | Homepage | [http://wjwwood.github.io/serial](http://wjwwood.github.io/serial) |
 | License | MIT |
 | Versions | 2022.3.9 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [serial/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/serial/xmake.lua) |
 
 ##### Install command
@@ -9664,7 +9712,7 @@ add_requires("serial")
 | Homepage | [https://github.com/Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi) |
 | License | Apache-2.0 |
 | Versions | v2.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sheenbidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sheenbidi/xmake.lua) |
 
 ##### Install command
@@ -9687,7 +9735,7 @@ add_requires("sheenbidi")
 | -- | -- |
 | Homepage | [simd-everywhere.github.io/blog/](simd-everywhere.github.io/blog/) |
 | Versions | 0.7.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [simde/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simde/xmake.lua) |
 
 ##### Install command
@@ -9711,7 +9759,7 @@ add_requires("simde")
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
 | Versions | v3.2.17 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
 ##### Install command
@@ -9735,7 +9783,7 @@ add_requires("simdutf")
 | Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
 | License | MIT |
 | Versions | v4.19, v4.22 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
 
 ##### Install command
@@ -9759,7 +9807,7 @@ add_requires("simpleini")
 | Homepage | [https://github.com/romch007/simplethreadpool](https://github.com/romch007/simplethreadpool) |
 | License | MIT |
 | Versions | 2022.11.18 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [simplethreadpool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplethreadpool/xmake.lua) |
 
 ##### Install command
@@ -9783,7 +9831,7 @@ add_requires("simplethreadpool")
 | Homepage | [https://github.com/cschreib/snitch](https://github.com/cschreib/snitch) |
 | License | BSL-1.0 |
 | Versions | 1.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [snitch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snitch/xmake.lua) |
 
 ##### Install command
@@ -9806,7 +9854,7 @@ add_requires("snitch")
 | -- | -- |
 | Homepage | [https://stiffstream.com/en/products/sobjectizer.html](https://stiffstream.com/en/products/sobjectizer.html) |
 | Versions | 5.8.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sobjectizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sobjectizer/xmake.lua) |
 
 ##### Install command
@@ -9830,7 +9878,7 @@ add_requires("sobjectizer")
 | Homepage | [http://soci.sourceforge.net/](http://soci.sourceforge.net/) |
 | License | BSL-1.0 |
 | Versions | v4.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [soci/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soci/xmake.lua) |
 
 ##### Install command
@@ -9854,7 +9902,7 @@ add_requires("soci")
 | Homepage | [https://github.com/fpagliughi/sockpp](https://github.com/fpagliughi/sockpp) |
 | License | BSD-3-Clause |
 | Versions | v0.8.1, v0.8.3, v1.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sockpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sockpp/xmake.lua) |
 
 ##### Install command
@@ -9878,7 +9926,7 @@ add_requires("sockpp")
 | Homepage | [https://github.com/floooh/sokol](https://github.com/floooh/sokol) |
 | License | zlib |
 | Versions | 2022.02.10, 2023.01.27 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sokol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sokol/xmake.lua) |
 
 ##### Install command
@@ -9901,7 +9949,7 @@ add_requires("sokol")
 | -- | -- |
 | Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
 | Versions | v3.2.1, v3.2.2, v3.2.3, v3.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
 
 ##### Install command
@@ -9925,7 +9973,7 @@ add_requires("sol2")
 | Homepage | [https://github.com/jarikomppa/soloud](https://github.com/jarikomppa/soloud) |
 | License | zlib |
 | Versions | 2020.02.07 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [soloud/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soloud/xmake.lua) |
 
 ##### Install command
@@ -9949,7 +9997,7 @@ add_requires("soloud")
 | Homepage | [https://modplug-xmms.sourceforge.net](https://modplug-xmms.sourceforge.net) |
 | License | LGPL-2.1 |
 | Versions | 2.3.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [soundtouch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soundtouch/xmake.lua) |
 
 ##### Install command
@@ -9973,7 +10021,7 @@ add_requires("soundtouch")
 | Homepage | [https://github.com/martinmoene/span-lite](https://github.com/martinmoene/span-lite) |
 | License | BSL |
 | Versions | 0.10.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [span-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/span-lite/xmake.lua) |
 
 ##### Install command
@@ -9996,7 +10044,7 @@ add_requires("span-lite")
 | -- | -- |
 | Homepage | [https://github.com/greg7mdp/sparsepp](https://github.com/greg7mdp/sparsepp) |
 | Versions | 1.22 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sparsepp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sparsepp/xmake.lua) |
 
 ##### Install command
@@ -10020,7 +10068,7 @@ add_requires("sparsepp")
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
 | License | MIT |
 | Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.10.0, v1.11.0, v1.12.0, v1.13.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
 ##### Install command
@@ -10044,7 +10092,7 @@ add_requires("spdlog")
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
 | Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
 ##### Install command
@@ -10068,7 +10116,7 @@ add_requires("spirv-headers")
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
 ##### Install command
@@ -10091,7 +10139,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
 | Versions | 4.5.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 
 ##### Install command
@@ -10113,8 +10161,8 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
 ##### Install command
@@ -10137,7 +10185,7 @@ add_requires("sqlite3")
 | -- | -- |
 | Homepage | [https://github.com/fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) |
 | Versions | 1.8.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite_orm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite_orm/xmake.lua) |
 
 ##### Install command
@@ -10160,7 +10208,7 @@ add_requires("sqlite_orm")
 | -- | -- |
 | Homepage | [http://srombauts.github.io/SQLiteCpp](http://srombauts.github.io/SQLiteCpp) |
 | Versions | 3.2.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlitecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlitecpp/xmake.lua) |
 
 ##### Install command
@@ -10184,7 +10232,7 @@ add_requires("sqlitecpp")
 | Homepage | [https://akenotsuki.com/misc/srell](https://akenotsuki.com/misc/srell) |
 | License | BSD-2-Clause |
 | Versions | 3.018, 4.019 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [srell/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srell/xmake.lua) |
 
 ##### Install command
@@ -10207,7 +10255,7 @@ add_requires("srell")
 | -- | -- |
 | Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
 | Versions | v2.5.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
 
 ##### Install command
@@ -10231,7 +10279,7 @@ add_requires("srtp")
 | Homepage | [https://github.com/red0124/ssp](https://github.com/red0124/ssp) |
 | License | MIT |
 | Versions | v1.6.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ssp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/ssp/xmake.lua) |
 
 ##### Install command
@@ -10254,7 +10302,7 @@ add_requires("ssp")
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
 | Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30, 2023.12.15 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
 ##### Install command
@@ -10278,7 +10326,7 @@ add_requires("stb")
 | Homepage | [https://github.com/mariusbancila/stduuid](https://github.com/mariusbancila/stduuid) |
 | License | MIT |
 | Versions | 1.2.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [stduuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stduuid/xmake.lua) |
 
 ##### Install command
@@ -10302,7 +10350,7 @@ add_requires("stduuid")
 | Homepage | [https://github.com/lemire/streamvbyte](https://github.com/lemire/streamvbyte) |
 | License | Apache-2.0 |
 | Versions | v1.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [streamvbyte/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/streamvbyte/xmake.lua) |
 
 ##### Install command
@@ -10326,7 +10374,7 @@ add_requires("streamvbyte")
 | Homepage | [https://github.com/martinmoene/string-view-lite](https://github.com/martinmoene/string-view-lite) |
 | License | BSL-1.0 |
 | Versions | v1.7.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [string-view-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/string-view-lite/xmake.lua) |
 
 ##### Install command
@@ -10350,7 +10398,7 @@ add_requires("string-view-lite")
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
 | Versions | v1.2.2, v2.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
 ##### Install command
@@ -10374,7 +10422,7 @@ add_requires("stringzilla")
 | Homepage | [https://www.partow.net/programming/strtk/index.html](https://www.partow.net/programming/strtk/index.html) |
 | License | MIT |
 | Versions | 2020.01.01 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [strtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strtk/xmake.lua) |
 
 ##### Install command
@@ -10398,7 +10446,7 @@ add_requires("strtk")
 | Homepage | [https://lamarrr.github.io/STX](https://lamarrr.github.io/STX) |
 | License | MIT |
 | Versions | v1.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [stx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stx/xmake.lua) |
 
 ##### Install command
@@ -10422,7 +10470,7 @@ add_requires("stx")
 | Homepage | [https://github.com/martinus/svector](https://github.com/martinus/svector) |
 | License | MIT |
 | Versions | v1.0.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [svector/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svector/xmake.lua) |
 
 ##### Install command
@@ -10446,7 +10494,7 @@ add_requires("svector")
 | Homepage | [https://gitlab.com/AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) |
 | License | BSD-2-clause |
 | Versions | 1.4.0, 1.4.1, 1.5.0, 1.6.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [svt-av1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svt-av1/xmake.lua) |
 
 ##### Install command
@@ -10470,7 +10518,7 @@ add_requires("svt-av1")
 | Homepage | [http://swig.org/](http://swig.org/) |
 | License | GPL-3.0 |
 | Versions | 4.0.2, 4.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
 
 ##### Install command
@@ -10494,7 +10542,7 @@ add_requires("swig")
 | Homepage | [https://symengine.org](https://symengine.org) |
 | License | MIT |
 | Versions | v0.11.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [symengine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/symengine/xmake.lua) |
 
 ##### Install command
@@ -10520,7 +10568,7 @@ add_requires("symengine")
 | Homepage | [https://github.com/p-ranav/tabulate](https://github.com/p-ranav/tabulate) |
 | License | MIT |
 | Versions | v1.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tabulate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tabulate/xmake.lua) |
 
 ##### Install command
@@ -10544,7 +10592,7 @@ add_requires("tabulate")
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
 | Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 
 ##### Install command
@@ -10568,7 +10616,7 @@ add_requires("taskflow")
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
 | Versions | 6.3.0, 6.4.6 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 
 ##### Install command
@@ -10591,7 +10639,7 @@ add_requires("taywee_args")
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
 | Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1, v1.7.4, v1.7.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
 ##### Install command
@@ -10615,7 +10663,7 @@ add_requires("tbox")
 | Homepage | [https://sourceforge.net/projects/tclap/](https://sourceforge.net/projects/tclap/) |
 | License | MIT |
 | Versions | 1.4.0-rc1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tclap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tclap/xmake.lua) |
 
 ##### Install command
@@ -10639,7 +10687,7 @@ add_requires("tclap")
 | Homepage | [https://github.com/ikalnytskyi/termcolor](https://github.com/ikalnytskyi/termcolor) |
 | License | BSD-3-Clause |
 | Versions | 2.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [termcolor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/termcolor/xmake.lua) |
 
 ##### Install command
@@ -10663,7 +10711,7 @@ add_requires("termcolor")
 | Homepage | [https://www.wias-berlin.de/software/index.jsp?id=TetGen](https://www.wias-berlin.de/software/index.jsp?id=TetGen) |
 | License | AGPL-3.0 |
 | Versions | 1.6.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tetgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tetgen/xmake.lua) |
 
 ##### Install command
@@ -10687,7 +10735,7 @@ add_requires("tetgen")
 | Homepage | [https://github.com/taskflow/work-stealing-queue](https://github.com/taskflow/work-stealing-queue) |
 | License | MIT |
 | Versions | 2022.07.20 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tf_workstealingqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tf_workstealingqueue/xmake.lua) |
 
 ##### Install command
@@ -10711,7 +10759,7 @@ add_requires("tf_workstealingqueue")
 | Homepage | [http://reo7sp.github.io/tgbot-cpp](http://reo7sp.github.io/tgbot-cpp) |
 | License | MIT |
 | Versions | v1.7.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tgbot-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tgbot-cpp/xmake.lua) |
 
 ##### Install command
@@ -10735,7 +10783,7 @@ add_requires("tgbot-cpp")
 | Homepage | [https://theora.org/](https://theora.org/) |
 | License | BSD-3-Clause |
 | Versions | v1.0, v1.1.0, v1.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [theora/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/theora/xmake.lua) |
 
 ##### Install command
@@ -10759,7 +10807,7 @@ add_requires("theora")
 | Homepage | [https://github.com/bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) |
 | License | MIT |
 | Versions | v3.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [thread-pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thread-pool/xmake.lua) |
 
 ##### Install command
@@ -10783,7 +10831,7 @@ add_requires("thread-pool")
 | Homepage | [https://thrift.apache.org/](https://thrift.apache.org/) |
 | License | Apache-2.0 |
 | Versions | v0.16.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [thrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrift/xmake.lua) |
 
 ##### Install command
@@ -10807,7 +10855,7 @@ add_requires("thrift")
 | Homepage | [https://github.com/NVIDIA/thrust](https://github.com/NVIDIA/thrust) |
 | License | Apache-2.0 |
 | Versions | 1.17.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [thrust/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrust/xmake.lua) |
 
 ##### Install command
@@ -10831,7 +10879,7 @@ add_requires("thrust")
 | Homepage | [https://gitlab.com/eidheim/tiny-process-library](https://gitlab.com/eidheim/tiny-process-library) |
 | License | MIT |
 | Versions | v2.0.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tiny-process-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiny-process-library/xmake.lua) |
 
 ##### Install command
@@ -10855,7 +10903,7 @@ add_requires("tiny-process-library")
 | Homepage | [https://github.com/thi-ng/tinyalloc](https://github.com/thi-ng/tinyalloc) |
 | License | Apache-2.0 |
 | Versions | 2021.10.08 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tinyalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyalloc/xmake.lua) |
 
 ##### Install command
@@ -10879,7 +10927,7 @@ add_requires("tinyalloc")
 | Homepage | [https://github.com/intel/tinycbor](https://github.com/intel/tinycbor) |
 | License | MIT |
 | Versions | v0.6.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tinycbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycbor/xmake.lua) |
 
 ##### Install command
@@ -10902,7 +10950,7 @@ add_requires("tinycbor")
 | -- | -- |
 | Homepage | [https://github.com/intel/tinycrypt](https://github.com/intel/tinycrypt) |
 | Versions | 2019.9.18 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tinycrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycrypt/xmake.lua) |
 
 ##### Install command
@@ -10926,7 +10974,7 @@ add_requires("tinycrypt")
 | Homepage | [https://codeplea.com/tinyexpr](https://codeplea.com/tinyexpr) |
 | License | zlib |
 | Versions | 2022.11.21 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tinyexpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexpr/xmake.lua) |
 
 ##### Install command
@@ -10950,7 +10998,7 @@ add_requires("tinyexpr")
 | Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
 | License | BSD-3-Clause |
 | Versions | v1.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
 
 ##### Install command
@@ -10973,7 +11021,7 @@ add_requires("tinyexr")
 | -- | -- |
 | Homepage | [https://github.com/c42f/tinyformat/](https://github.com/c42f/tinyformat/) |
 | Versions | 2.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tinyformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyformat/xmake.lua) |
 
 ##### Install command
@@ -10996,8 +11044,8 @@ add_requires("tinyformat")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
-| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 
 ##### Install command
@@ -11021,7 +11069,7 @@ add_requires("tinygltf")
 | Homepage | [https://sourceforge.net/projects/tinyxml/](https://sourceforge.net/projects/tinyxml/) |
 | License | zlib |
 | Versions | 2.6.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tinyxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml/xmake.lua) |
 
 ##### Install command
@@ -11045,7 +11093,7 @@ add_requires("tinyxml")
 | Homepage | [https://github.com/TartanLlama/expected](https://github.com/TartanLlama/expected) |
 | License | CC0 |
 | Versions | v1.0.0, v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tl_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_expected/xmake.lua) |
 
 ##### Install command
@@ -11069,7 +11117,7 @@ add_requires("tl_expected")
 | Homepage | [https://github.com/TartanLlama/function_ref](https://github.com/TartanLlama/function_ref) |
 | License | CC0 |
 | Versions | v1.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tl_function_ref/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_function_ref/xmake.lua) |
 
 ##### Install command
@@ -11093,7 +11141,7 @@ add_requires("tl_function_ref")
 | Homepage | [https://github.com/TartanLlama/optional](https://github.com/TartanLlama/optional) |
 | License | CC0 |
 | Versions | v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tl_optional/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tl_optional/xmake.lua) |
 
 ##### Install command
@@ -11116,7 +11164,7 @@ add_requires("tl_optional")
 | -- | -- |
 | Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
 | Versions | v2.5.0, v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
 
 ##### Install command
@@ -11140,7 +11188,7 @@ add_requires("toml++")
 | Homepage | [https://github.com/ToruNiina/toml11](https://github.com/ToruNiina/toml11) |
 | License | MIT |
 | Versions | v3.7.0, v3.8.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [toml11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml11/xmake.lua) |
 
 ##### Install command
@@ -11164,7 +11212,7 @@ add_requires("toml11")
 | Homepage | [https://github.com/cktan/tomlc99](https://github.com/cktan/tomlc99) |
 | License | MIT |
 | Versions | 2023.09.30 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tomlc99/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tomlc99/xmake.lua) |
 
 ##### Install command
@@ -11188,7 +11236,7 @@ add_requires("tomlc99")
 | Homepage | [https://github.com/cktan/tomlcpp](https://github.com/cktan/tomlcpp) |
 | License | MIT |
 | Versions | 2022.06.25 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tomlcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tomlcpp/xmake.lua) |
 
 ##### Install command
@@ -11212,7 +11260,7 @@ add_requires("tomlcpp")
 | Homepage | [https://create.stephan-brumme.com/toojpeg/](https://create.stephan-brumme.com/toojpeg/) |
 | License | zlib |
 | Versions | 1.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [toojpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toojpeg/xmake.lua) |
 
 ##### Install command
@@ -11236,7 +11284,7 @@ add_requires("toojpeg")
 | Homepage | [https://github.com/bloomen/transwarp](https://github.com/bloomen/transwarp) |
 | License | MIT |
 | Versions | 2.2.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [transwarp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/transwarp/xmake.lua) |
 
 ##### Install command
@@ -11260,7 +11308,7 @@ add_requires("transwarp")
 | Homepage | [https://github.com/rollbear/trompeloeil](https://github.com/rollbear/trompeloeil) |
 | License | BSL-1.0 |
 | Versions | v43, v47 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [trompeloeil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trompeloeil/xmake.lua) |
 
 ##### Install command
@@ -11284,7 +11332,7 @@ add_requires("trompeloeil")
 | Homepage | [https://github.com/codeinred/tuplet](https://github.com/codeinred/tuplet) |
 | License | BSL-1.0 |
 | Versions | v2.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tuplet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tuplet/xmake.lua) |
 
 ##### Install command
@@ -11308,7 +11356,7 @@ add_requires("tuplet")
 | Homepage | [http://mobius3.github.io/tweeny](http://mobius3.github.io/tweeny) |
 | License | MIT |
 | Versions | 2023.05.09 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tweeny/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tweeny/xmake.lua) |
 
 ##### Install command
@@ -11332,7 +11380,7 @@ add_requires("tweeny")
 | Homepage | [https://type_safe.foonathan.net](https://type_safe.foonathan.net) |
 | License | MIT |
 | Versions | v0.2.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [type_safe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/type_safe/xmake.lua) |
 
 ##### Install command
@@ -11358,7 +11406,7 @@ add_requires("type_safe")
 | Homepage | [https://www.freedesktop.org/wiki/Software/uchardet/](https://www.freedesktop.org/wiki/Software/uchardet/) |
 | License | MPL-1.1 |
 | Versions | 0.0.7, 0.0.8 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [uchardet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uchardet/xmake.lua) |
 
 ##### Install command
@@ -11382,7 +11430,7 @@ add_requires("uchardet")
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
 | Versions | v0.6.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
 ##### Install command
@@ -11406,7 +11454,7 @@ add_requires("ufbx")
 | Homepage | [https://github.com/uni-algo/uni-algo/](https://github.com/uni-algo/uni-algo/) |
 | License | MIT |
 | Versions | v0.7.1, v0.8.0, v0.8.1, v0.8.2, v1.0.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [uni_algo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uni_algo/xmake.lua) |
 
 ##### Install command
@@ -11429,7 +11477,7 @@ add_requires("uni_algo")
 | -- | -- |
 | Homepage | [https://nholthaus.github.io/units/](https://nholthaus.github.io/units/) |
 | Versions | v2.3.3 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [units/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/units/xmake.lua) |
 
 ##### Install command
@@ -11453,7 +11501,7 @@ add_requires("units")
 | Homepage | [http://www.throwtheswitch.org/unity](http://www.throwtheswitch.org/unity) |
 | License | MIT |
 | Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [unity_test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unity_test/xmake.lua) |
 
 ##### Install command
@@ -11477,7 +11525,7 @@ add_requires("unity_test")
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
 | Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4, v4.4.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 
 ##### Install command
@@ -11500,7 +11548,7 @@ add_requires("unordered_dense")
 | -- | -- |
 | Homepage | [http://infozip.sourceforge.net/UnZip.html](http://infozip.sourceforge.net/UnZip.html) |
 | Versions | 6.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [unzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unzip/xmake.lua) |
 
 ##### Install command
@@ -11524,7 +11572,7 @@ add_requires("unzip")
 | Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
 | License | BSD-3-Clause |
 | Versions | 1.0.5, 1.1.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
 
 ##### Install command
@@ -11547,7 +11595,7 @@ add_requires("urdfdom-headers")
 | -- | -- |
 | Homepage | [https://www.duskborn.com/utest_h/](https://www.duskborn.com/utest_h/) |
 | Versions | 2022.09.01 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [utest.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utest.h/xmake.lua) |
 
 ##### Install command
@@ -11570,7 +11618,7 @@ add_requires("utest.h")
 | -- | -- |
 | Homepage | [https://github.com/sheredom/utf8.h](https://github.com/sheredom/utf8.h) |
 | Versions | 2022.07.04 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [utf8.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8.h/xmake.lua) |
 
 ##### Install command
@@ -11594,7 +11642,7 @@ add_requires("utf8.h")
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
 | Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
 ##### Install command
@@ -11617,7 +11665,7 @@ add_requires("utfcpp")
 | -- | -- |
 | Homepage | [https://troydhanson.github.io/uthash](https://troydhanson.github.io/uthash) |
 | Versions | 2023.7.11 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [uthash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uthash/xmake.lua) |
 
 ##### Install command
@@ -11643,7 +11691,7 @@ add_requires("uthash")
 | Homepage | [https://github.com/martinmoene/variant-lite](https://github.com/martinmoene/variant-lite) |
 | License | BSL-1.0 |
 | Versions | 2022.12.03 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [variant-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/variant-lite/xmake.lua) |
 
 ##### Install command
@@ -11666,7 +11714,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/scoopr/vectorial](https://github.com/scoopr/vectorial) |
 | Versions | 2019.06.28 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [vectorial/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vectorial/xmake.lua) |
 
 ##### Install command
@@ -11690,7 +11738,7 @@ add_requires("vectorial")
 | Homepage | [https://github.com/cbeck88/visit_struct](https://github.com/cbeck88/visit_struct) |
 | License | BSL-1.0 |
 | Versions | v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [visit_struct/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/visit_struct/xmake.lua) |
 
 ##### Install command
@@ -11714,7 +11762,7 @@ add_requires("visit_struct")
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
 | Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
 ##### Install command
@@ -11738,7 +11786,7 @@ add_requires("vulkan-headers")
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Utility-Libraries](https://github.com/KhronosGroup/Vulkan-Utility-Libraries) |
 | License | Apache-2.0 |
 | Versions | v1.3.268, v1.3.275 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [vulkan-utility-libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-utility-libraries/xmake.lua) |
 
 ##### Install command
@@ -11764,7 +11812,7 @@ add_requires("vulkan-utility-libraries")
 | Homepage | [https://github.com/e-dant/watcher](https://github.com/e-dant/watcher) |
 | License | MIT |
 | Versions | 0.9.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [watcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/watcher/xmake.lua) |
 
 ##### Install command
@@ -11788,7 +11836,7 @@ add_requires("watcher")
 | Homepage | [https://webui.me](https://webui.me) |
 | License | MIT |
 | Versions | 2.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [webui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/webui/xmake.lua) |
 
 ##### Install command
@@ -11811,7 +11859,7 @@ add_requires("webui")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/which/](https://www.gnu.org/software/which/) |
 | Versions | 2.16, 2.17, 2.19, 2.20, 2.21 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [which/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/which/xmake.lua) |
 
 ##### Install command
@@ -11835,7 +11883,7 @@ add_requires("which")
 | Homepage | [https://github.com/wangyi-fudan/wyhash](https://github.com/wangyi-fudan/wyhash) |
 | License | Unlicense |
 | Versions | 2023.04.10 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [wyhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wyhash/xmake.lua) |
 
 ##### Install command
@@ -11861,7 +11909,7 @@ add_requires("wyhash")
 | Homepage | [http://x265.org](http://x265.org) |
 | License | GPL-2.0 |
 | Versions | 3.2, 3.2.1, 3.3, 3.4 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [x265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x265/xmake.lua) |
 
 ##### Install command
@@ -11884,7 +11932,7 @@ add_requires("x265")
 | -- | -- |
 | Homepage | [https://github.com/herumi/xbyak](https://github.com/herumi/xbyak) |
 | Versions | v6.02, v6.03, v6.73 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [xbyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xbyak/xmake.lua) |
 
 ##### Install command
@@ -11908,7 +11956,7 @@ add_requires("xbyak")
 | Homepage | [https://github.com/tfussell/xlnt](https://github.com/tfussell/xlnt) |
 | License | MIT |
 | Versions | 2023.03.02 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [xlnt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlnt/xmake.lua) |
 
 ##### Install command
@@ -11932,7 +11980,7 @@ add_requires("xlnt")
 | Homepage | [https://github.com/brechtsanders/xlsxio](https://github.com/brechtsanders/xlsxio) |
 | License | MIT |
 | Versions | 0.2.34 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [xlsxio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlsxio/xmake.lua) |
 
 ##### Install command
@@ -11956,7 +12004,7 @@ add_requires("xlsxio")
 | Homepage | [https://github.com/xyz347/xpack](https://github.com/xyz347/xpack) |
 | License | Apache-2.0 |
 | Versions | v1.0.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [xpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xpack/xmake.lua) |
 
 ##### Install command
@@ -11980,7 +12028,7 @@ add_requires("xpack")
 | Homepage | [http://cyan4973.github.io/xxHash/](http://cyan4973.github.io/xxHash/) |
 | License | BSD-2-Clause |
 | Versions | v0.8.0, v0.8.1, v0.8.2 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [xxhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxhash/xmake.lua) |
 
 ##### Install command
@@ -12005,7 +12053,7 @@ add_requires("xxhash")
 | -- | -- |
 | Homepage | [https://yasm.tortall.net/](https://yasm.tortall.net/) |
 | Versions | 1.3.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [yasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yasm/xmake.lua) |
 
 ##### Install command
@@ -12029,7 +12077,7 @@ add_requires("yasm")
 | Homepage | [https://yogalayout.com/](https://yogalayout.com/) |
 | License | MIT |
 | Versions | v2.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [yoga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yoga/xmake.lua) |
 
 ##### Install command
@@ -12053,7 +12101,7 @@ add_requires("yoga")
 | Homepage | [https://github.com/jll63/yomm2](https://github.com/jll63/yomm2) |
 | License | BSL-1.0 |
 | Versions | v1.4.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [yomm2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yomm2/xmake.lua) |
 
 ##### Install command
@@ -12076,7 +12124,7 @@ add_requires("yomm2")
 | -- | -- |
 | Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
 | Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1, 0.8.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
 
 ##### Install command
@@ -12101,7 +12149,7 @@ add_requires("yyjson")
 | -- | -- |
 | Homepage | [https://github.com/zyantific/zasm](https://github.com/zyantific/zasm) |
 | Versions | 2023.6.21 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zasm/xmake.lua) |
 
 ##### Install command
@@ -12124,7 +12172,7 @@ add_requires("zasm")
 | -- | -- |
 | Homepage | [https://www.ziglang.org/](https://www.ziglang.org/) |
 | Versions | 0.10.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
 
 ##### Install command
@@ -12147,7 +12195,7 @@ add_requires("zig")
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
 | Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3, v1.3.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
 ##### Install command
@@ -12171,7 +12219,7 @@ add_requires("zlib")
 | Homepage | [https://github.com/rudi-cilibrasi/zlibcomplete](https://github.com/rudi-cilibrasi/zlibcomplete) |
 | License | MIT |
 | Versions | 1.0.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zlibcomplete/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlibcomplete/xmake.lua) |
 
 ##### Install command
@@ -12195,7 +12243,7 @@ add_requires("zlibcomplete")
 | Homepage | [https://github.com/google/zopfli](https://github.com/google/zopfli) |
 | License | Apache-2.0 |
 | Versions | 2021.06.14 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zopfli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zopfli/xmake.lua) |
 
 ##### Install command
@@ -12219,7 +12267,7 @@ add_requires("zopfli")
 | Homepage | [https://github.com/eyalz800/zpp_throwing](https://github.com/eyalz800/zpp_throwing) |
 | License | MIT |
 | Versions | v1.0.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zpp_throwing/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zpp_throwing/xmake.lua) |
 
 ##### Install command
@@ -12243,7 +12291,7 @@ add_requires("zpp_throwing")
 | Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
 | License | BSD-3-Clause |
 | Versions | v1.4.5, v1.5.0, v1.5.2, v1.5.5 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zstd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstd/xmake.lua) |
 
 ##### Install command
@@ -12267,7 +12315,7 @@ add_requires("zstd")
 | Homepage | [https://github.com/zxing-cpp/zxing-cpp](https://github.com/zxing-cpp/zxing-cpp) |
 | License | Apache-2.0 |
 | Versions | v2.2.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zxing-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zxing-cpp/xmake.lua) |
 
 ##### Install command
@@ -12291,7 +12339,7 @@ add_requires("zxing-cpp")
 | Homepage | [https://github.com/zyantific/zycore-c](https://github.com/zyantific/zycore-c) |
 | License | MIT |
 | Versions | v1.0.0, v1.1.0 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zycore-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zycore-c/xmake.lua) |
 
 ##### Install command
@@ -12315,7 +12363,7 @@ add_requires("zycore-c")
 | Homepage | [https://zydis.re](https://zydis.re) |
 | License | MIT |
 | Versions | v3.2.1 |
-| Architectures | arm, arm64, i386, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zydis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zydis/xmake.lua) |
 
 ##### Install command
