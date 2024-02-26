@@ -4851,6 +4851,30 @@ add_requires("drogon")
 ```
 
 
+### duckdb (macosx)
+
+
+| Description | *DuckDB is an in-process SQL OLAP Database Management System* |
+| -- | -- |
+| Homepage | [http://duckdb.org/](http://duckdb.org/) |
+| License | MIT |
+| Versions | v0.10.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [duckdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duckdb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install duckdb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("duckdb")
+```
+
+
 ### duckx (macosx)
 
 
