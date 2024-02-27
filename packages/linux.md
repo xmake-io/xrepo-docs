@@ -6814,7 +6814,7 @@ add_requires("fmtlog")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20 |
+| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
