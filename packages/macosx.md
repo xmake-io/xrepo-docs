@@ -2293,7 +2293,7 @@ add_requires("ceres-solver")
 | -- | -- |
 | Homepage | [https://github.com/erstan/ceval](https://github.com/erstan/ceval) |
 | License | MIT |
-| Versions | 1.0.0 |
+| Versions | 1.0.0, 1.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ceval/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceval/xmake.lua) |
 

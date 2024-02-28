@@ -984,7 +984,7 @@ add_requires("cereal")
 | -- | -- |
 | Homepage | [https://github.com/erstan/ceval](https://github.com/erstan/ceval) |
 | License | MIT |
-| Versions | 1.0.0 |
+| Versions | 1.0.0, 1.0.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ceval/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ceval/xmake.lua) |
 
