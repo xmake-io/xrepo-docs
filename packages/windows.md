@@ -4577,7 +4577,7 @@ add_requires("directxtex")
 | Description | *This package contains the "DirectX Tool Kit", a collection of helper classes for writing Direct3D 11 C++ code for Universal Windows Platform (UWP) apps for Windows 10, Xbox One, and Win32 desktop applications for Windows 7 Service Pack 1 or later.* |
 | -- | -- |
 | Homepage | [https://github.com/microsoft/DirectXTK](https://github.com/microsoft/DirectXTK) |
-| Versions | 20.9.0, 21.4.0, 21.11.0 |
+| Versions | 20.9.0, 21.4.0, 21.11.0, 24.2.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [directxtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directxtk/xmake.lua) |
 
