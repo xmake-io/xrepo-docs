@@ -6100,7 +6100,8 @@ add_requires("libtool")
 | Description | *A portable and efficient C programming interface (API) to determine the call-chain of a program.* |
 | -- | -- |
 | Homepage | [https://www.nongnu.org/libunwind/](https://www.nongnu.org/libunwind/) |
-| Versions | v1.5, v1.6.2 |
+| License | MIT |
+| Versions | v1.5, v1.6.2, v1.7.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libunwind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunwind/xmake.lua) |
 

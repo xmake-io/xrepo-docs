@@ -6352,29 +6352,6 @@ add_requires("libtool")
 ```
 
 
-### libunwind (android)
-
-
-| Description | *A portable and efficient C programming interface (API) to determine the call-chain of a program.* |
-| -- | -- |
-| Homepage | [https://www.nongnu.org/libunwind/](https://www.nongnu.org/libunwind/) |
-| Versions | v1.5, v1.6.2 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
-| Definition | [libunwind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunwind/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] libunwind
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("libunwind")
-```
-
-
 ### libusb (android)
 
 
