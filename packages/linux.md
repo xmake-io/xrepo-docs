@@ -28579,7 +28579,7 @@ add_requires("zydis")
 | -- | -- |
 | Homepage | [http://zziplib.sourceforge.net/](http://zziplib.sourceforge.net/) |
 | License | GPL-2.0 |
-| Versions | v0.13.72 |
+| Versions | v0.13.72, v0.13.73 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zziplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zziplib/xmake.lua) |
 
