@@ -103,7 +103,7 @@ add_requires("actor-framework")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | 2.3.1, 2.4.0, 2.4.1 |
+| Versions | 2.3.1, 2.4.0, 2.4.1, 2.7.6 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -11121,7 +11121,7 @@ add_requires("libressl")
 | -- | -- |
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
-| Versions | v2.7.1, v2.7.3 |
+| Versions | v2.7.1, v2.7.3, v2.7.5 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 

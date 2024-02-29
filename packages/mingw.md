@@ -54,7 +54,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | 2.3.1, 2.4.0, 2.4.1 |
+| Versions | 2.3.1, 2.4.0, 2.4.1, 2.7.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -6648,7 +6648,7 @@ add_requires("libremidi")
 | -- | -- |
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
-| Versions | v2.7.1, v2.7.3 |
+| Versions | v2.7.1, v2.7.3, v2.7.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 

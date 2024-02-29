@@ -4723,7 +4723,7 @@ add_requires("libremidi")
 | -- | -- |
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
-| Versions | v2.7.1, v2.7.3 |
+| Versions | v2.7.1, v2.7.3, v2.7.5 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
