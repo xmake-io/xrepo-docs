@@ -15995,7 +15995,7 @@ add_requires("mbedtls")
 | -- | -- |
 | Homepage | [https://cutdigital.github.io/mcut.site/](https://cutdigital.github.io/mcut.site/) |
 | License | GPL-3.0 |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.2.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mcut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mcut/xmake.lua) |
 
@@ -16056,6 +16056,30 @@ xrepo install mdns
 
 ```lua
 add_requires("mdns")
+```
+
+
+### mecab (linux)
+
+
+| Description | *Yet another part-of-speech and morphological analyzer.* |
+| -- | -- |
+| Homepage | [https://taku910.github.io/mecab/](https://taku910.github.io/mecab/) |
+| License | GPL-2.0 |
+| Versions | 0.996 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mecab/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mecab/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mecab
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mecab")
 ```
 
 
