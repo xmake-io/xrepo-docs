@@ -4741,6 +4741,29 @@ add_requires("inifile-cpp")
 ```
 
 
+### inih (android)
+
+
+| Description | *Simple .INI file parser in C, good for embedded systems* |
+| -- | -- |
+| Homepage | [https://github.com/benhoyt/inih](https://github.com/benhoyt/inih) |
+| Versions | 58 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [inih/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inih/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] inih
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("inih")
+```
+
+
 ### iniparser (android)
 
 

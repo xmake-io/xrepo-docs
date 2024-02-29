@@ -7718,7 +7718,7 @@ add_requires("glew")
 | -- | -- |
 | Homepage | [https://www.glfw.org/](https://www.glfw.org/) |
 | License | zlib |
-| Versions | 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7, 3.3.8, 3.3.9 |
+| Versions | 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7, 3.3.8, 3.3.9, 3.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw/xmake.lua) |
 
@@ -9492,6 +9492,29 @@ xrepo install inifile-cpp
 
 ```lua
 add_requires("inifile-cpp")
+```
+
+
+### inih (linux)
+
+
+| Description | *Simple .INI file parser in C, good for embedded systems* |
+| -- | -- |
+| Homepage | [https://github.com/benhoyt/inih](https://github.com/benhoyt/inih) |
+| Versions | 58 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [inih/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inih/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install inih
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("inih")
 ```
 
 

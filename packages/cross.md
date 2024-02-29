@@ -4533,6 +4533,29 @@ add_requires("inifile-cpp")
 ```
 
 
+### inih (cross)
+
+
+| Description | *Simple .INI file parser in C, good for embedded systems* |
+| -- | -- |
+| Homepage | [https://github.com/benhoyt/inih](https://github.com/benhoyt/inih) |
+| Versions | 58 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [inih/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inih/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] inih
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("inih")
+```
+
+
 ### iniparser (cross)
 
 

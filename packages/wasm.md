@@ -3790,6 +3790,29 @@ add_requires("inifile-cpp")
 ```
 
 
+### inih (wasm)
+
+
+| Description | *Simple .INI file parser in C, good for embedded systems* |
+| -- | -- |
+| Homepage | [https://github.com/benhoyt/inih](https://github.com/benhoyt/inih) |
+| Versions | 58 |
+| Architectures | wasm32, wasm64 |
+| Definition | [inih/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inih/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm inih
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("inih")
+```
+
+
 ### iniparser (wasm)
 
 
