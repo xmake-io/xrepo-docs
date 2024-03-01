@@ -12499,6 +12499,30 @@ add_requires("libnpy")
 ```
 
 
+### libntl (linux)
+
+
+| Description | *NTL: A Library for doing Number Theory* |
+| -- | -- |
+| Homepage | [https://libntl.org/](https://libntl.org/) |
+| License | LGPL-2.1 |
+| Versions | v11.5.1 |
+| Architectures | x86_64 |
+| Definition | [libntl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libntl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libntl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libntl")
+```
+
+
 ### liboai (linux)
 
 
