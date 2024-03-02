@@ -1793,7 +1793,7 @@ add_requires("convertutf")
 | Description | *build-once run-anywhere c library* |
 | -- | -- |
 | Homepage | [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan) |
-| Versions | 3.2.4 |
+| Versions | 3.2.4, 3.3.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cosmocc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cosmocc/xmake.lua) |
 
@@ -7989,6 +7989,30 @@ add_requires("mdns")
 ```
 
 
+### memplumber (mingw)
+
+
+| Description | *MemPlumber is a library that helps developers with debugging of memory allocations and detection of memory leaks in C++ applications* |
+| -- | -- |
+| Homepage | [https://github.com/seladb/MemPlumber](https://github.com/seladb/MemPlumber) |
+| License | MIT |
+| Versions | 2022.01.27 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [memplumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/memplumber/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] memplumber
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("memplumber")
+```
+
+
 ### meson (mingw)
 
 
@@ -12436,7 +12460,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
