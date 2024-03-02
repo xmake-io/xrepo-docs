@@ -9472,7 +9472,7 @@ add_requires("opengl-headers")
 | -- | -- |
 | Homepage | [https://jdk.java.net](https://jdk.java.net) |
 | License | GPL-2.0 |
-| Versions | 20.0.2 |
+| Versions | 17, 21 |
 | Architectures | x86_64 |
 | Definition | [openjdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjdk/xmake.lua) |
 
