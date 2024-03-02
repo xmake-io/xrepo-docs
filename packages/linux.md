@@ -5357,7 +5357,7 @@ add_requires("dune-common")
 | Description | *High-Performance C/C++ library for parsing binary output files and key files of LS Dyna (d3plot, binout, input deck)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01 |
+| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01, 24.02 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
@@ -10427,7 +10427,7 @@ add_requires("krb5")
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
 | License | Unlicense |
-| Versions | v0.2.2, v0.2.5, v0.2.6 |
+| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
@@ -25892,7 +25892,7 @@ add_requires("uchardet")
 | -- | -- |
 | Homepage | [https://openucx.org/](https://openucx.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.11.0 |
+| Versions | 1.11.0, 1.15.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ucx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ucx/xmake.lua) |
 
