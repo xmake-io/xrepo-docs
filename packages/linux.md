@@ -14719,7 +14719,7 @@ add_requires("lief")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM) |
 | License | MIT |
-| Versions | 3.2.1, 3.3.2 |
+| Versions | 3.2.1, 3.3.2, 4.2.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lightgbm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightgbm/xmake.lua) |
 
@@ -24391,7 +24391,7 @@ add_requires("string-view-lite")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
