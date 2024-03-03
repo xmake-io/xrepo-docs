@@ -12291,6 +12291,29 @@ add_requires("transwarp")
 ```
 
 
+### tree-sitter (android)
+
+
+| Description | *An incremental parsing system for programming tools* |
+| -- | -- |
+| Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
+| Versions | 0.21.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tree-sitter
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tree-sitter")
+```
+
+
 ### trompeloeil (android)
 
 
@@ -12919,7 +12942,7 @@ add_requires("vulkan-memory-allocator-hpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-ValidationLayers/](https://github.com/KhronosGroup/Vulkan-ValidationLayers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.275+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [vulkan-validationlayers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-validationlayers/xmake.lua) |
 

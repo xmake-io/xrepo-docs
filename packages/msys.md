@@ -10184,6 +10184,29 @@ add_requires("transwarp")
 ```
 
 
+### tree-sitter (msys)
+
+
+| Description | *An incremental parsing system for programming tools* |
+| -- | -- |
+| Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
+| Versions | 0.21.0 |
+| Architectures | i386, x86_64 |
+| Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tree-sitter
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tree-sitter")
+```
+
+
 ### trompeloeil (msys)
 
 
