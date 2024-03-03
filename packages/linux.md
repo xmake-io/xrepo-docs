@@ -6547,6 +6547,30 @@ add_requires("filament")
 ```
 
 
+### fizz (linux)
+
+
+| Description | *C++14 implementation of the TLS-1.3 standard * |
+| -- | -- |
+| Homepage | [https://github.com/facebookincubator/fizz](https://github.com/facebookincubator/fizz) |
+| License | BSD |
+| Versions | 2024.02.26 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fizz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fizz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fizz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fizz")
+```
+
+
 ### flann (linux)
 
 

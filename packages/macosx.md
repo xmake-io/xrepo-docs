@@ -6048,6 +6048,30 @@ add_requires("filament")
 ```
 
 
+### fizz (macosx)
+
+
+| Description | *C++14 implementation of the TLS-1.3 standard * |
+| -- | -- |
+| Homepage | [https://github.com/facebookincubator/fizz](https://github.com/facebookincubator/fizz) |
+| License | BSD |
+| Versions | 2024.02.26 |
+| Architectures | arm64, x86_64 |
+| Definition | [fizz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fizz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fizz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fizz")
+```
+
+
 ### flann (macosx)
 
 
@@ -6317,7 +6341,7 @@ add_requires("fmtlog")
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
 | Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26 |
-| Architectures | x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
 ##### Install command
