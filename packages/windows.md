@@ -13870,7 +13870,7 @@ add_requires("minizip-ng")
 | -- | -- |
 | Homepage | [https://github.com/Chuyu-Team/MINT](https://github.com/Chuyu-Team/MINT) |
 | License | MIT |
-| Versions | 2023.0 |
+| Versions | 2023.0, 2024.0, 2024.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [mint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mint/xmake.lua) |
 
