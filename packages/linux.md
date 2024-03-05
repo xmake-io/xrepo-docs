@@ -27099,6 +27099,30 @@ add_requires("vvenc")
 
 
 ## w
+### wangle (linux)
+
+
+| Description | *Wangle is a framework providing a set of common client/server abstractions for building services in a consistent, modular, and composable way.* |
+| -- | -- |
+| Homepage | [https://github.com/facebook/wangle](https://github.com/facebook/wangle) |
+| License | Apache-2.0 |
+| Versions | 2024.02.26 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [wangle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wangle/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wangle
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wangle")
+```
+
+
 ### wasm-micro-runtime (linux)
 
 
