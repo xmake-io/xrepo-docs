@@ -4595,7 +4595,7 @@ add_requires("daw_header_libraries")
 | -- | -- |
 | Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
 | License | BSL-1.0 |
-| Versions | v3.20.1 |
+| Versions | v3.20.1, v3.23.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
 
@@ -17357,6 +17357,30 @@ xrepo install mustache
 
 ```lua
 add_requires("mustache")
+```
+
+
+### mvfst (linux)
+
+
+| Description | *An implementation of the QUIC transport protocol.* |
+| -- | -- |
+| Homepage | [https://github.com/facebook/mvfst](https://github.com/facebook/mvfst) |
+| License | MIT |
+| Versions | 2024.03.04 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mvfst/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mvfst/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mvfst
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mvfst")
 ```
 
 

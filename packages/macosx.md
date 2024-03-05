@@ -4240,7 +4240,7 @@ add_requires("daw_header_libraries")
 | -- | -- |
 | Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
 | License | BSL-1.0 |
-| Versions | v3.20.1 |
+| Versions | v3.20.1, v3.23.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
 
