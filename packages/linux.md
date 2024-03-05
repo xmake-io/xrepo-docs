@@ -1035,7 +1035,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3 |
+| Versions | v0.9.3, v0.9.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -1227,7 +1227,7 @@ add_requires("aws-c-sdkutils")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
-| Versions | v0.1.17 |
+| Versions | v0.1.17, v0.1.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
@@ -7553,7 +7553,7 @@ add_requires("gflags")
 | -- | -- |
 | Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
 | License | MIT |
-| Versions | v1.5.10, v1.5.12 |
+| Versions | v1.5.10, v1.5.12, v1.5.14 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
 
