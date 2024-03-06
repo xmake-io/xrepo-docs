@@ -9588,29 +9588,6 @@ add_requires("sailormoon_flags")
 ```
 
 
-### scnlib (cross)
-
-
-| Description | *scnlib is a modern C++ library for replacing scanf and std::istream* |
-| -- | -- |
-| Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
-| Versions | 0.4, 1.1.2 |
-| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
-| Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p cross [--sdk=/xxx] scnlib
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("scnlib")
-```
-
-
 ### scons (cross)
 
 

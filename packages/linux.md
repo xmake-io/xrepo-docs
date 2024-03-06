@@ -22924,7 +22924,7 @@ add_requires("samurai")
 | Description | *scnlib is a modern C++ library for replacing scanf and std::istream* |
 | -- | -- |
 | Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
-| Versions | 0.4, 1.1.2 |
+| Versions | 0.4, 1.1.2, 2.0.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
 
