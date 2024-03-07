@@ -10030,30 +10030,6 @@ add_requires("rapidjson")
 ```
 
 
-### re2 (android)
-
-
-| Description | *RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.* |
-| -- | -- |
-| Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
-| License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
-| Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] re2
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("re2")
-```
-
-
 ### reactiveplusplus (android)
 
 
