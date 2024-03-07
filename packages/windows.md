@@ -1111,7 +1111,7 @@ add_requires("aws-crt-cpp")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
-| Versions | 4.9.6, 5.0.0 |
+| Versions | 4.9.6, 5.0.0, 5.0.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
@@ -4244,7 +4244,7 @@ add_requires("daw_json_link")
 | -- | -- |
 | Homepage | [https://github.com/sharkdp/dbg-macro](https://github.com/sharkdp/dbg-macro) |
 | License | MIT |
-| Versions | v0.4.0, v0.5.0 |
+| Versions | v0.4.0, v0.5.0, v0.5.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dbg-macro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbg-macro/xmake.lua) |
 
@@ -17765,7 +17765,7 @@ add_requires("pycdc")
 | Description | *A C++ type library that is as easy to use as Python built-in types.* |
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
-| Versions | v1.3.2 |
+| Versions | v1.3.2, v1.3.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
