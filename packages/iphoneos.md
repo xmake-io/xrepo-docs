@@ -4771,7 +4771,7 @@ add_requires("json-c")
 | Description | *JSON schema validator for JSON for Modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
-| Versions | 2.1.0 |
+| Versions | 2.1.0, 2.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
 
