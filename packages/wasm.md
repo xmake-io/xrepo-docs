@@ -2700,7 +2700,7 @@ add_requires("fastcppcsvparser")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/opencore-amr/](https://sourceforge.net/projects/opencore-amr/) |
 | License | Apache-2.0 |
-| Versions | 2.0.0, 2.0.1, 2.0.2 |
+| Versions | 2.0.0, 2.0.1, 2.0.2, 2.0.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [fdk-aac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fdk-aac/xmake.lua) |
 
@@ -5452,7 +5452,7 @@ add_requires("luabridge3")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2, v8.2.0 |
+| Versions | v8.0.2, v8.2.0, v9.0.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
@@ -8829,7 +8829,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

@@ -1749,7 +1749,7 @@ add_requires("boost_sml")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/ut/](https://boost-ext.github.io/ut/) |
 | License | BSL-1.0 |
-| Versions | v1.1.9 |
+| Versions | v1.1.9, v2.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [boost_ut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_ut/xmake.lua) |
 
@@ -5935,7 +5935,7 @@ add_requires("fcl")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/opencore-amr/](https://sourceforge.net/projects/opencore-amr/) |
 | License | Apache-2.0 |
-| Versions | 2.0.0, 2.0.1, 2.0.2 |
+| Versions | 2.0.0, 2.0.1, 2.0.2, 2.0.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [fdk-aac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fdk-aac/xmake.lua) |
 
@@ -10191,7 +10191,7 @@ add_requires("libass")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/libassert](https://github.com/jeremy-rifkin/libassert) |
 | License | MIT |
-| Versions | v1.2 |
+| Versions | v1.2, v1.2.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libassert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libassert/xmake.lua) |
 
@@ -10688,7 +10688,7 @@ add_requires("libevent")
 | -- | -- |
 | Homepage | [https://ofiwg.github.io/libfabric/](https://ofiwg.github.io/libfabric/) |
 | License | BSD-2-Clause |
-| Versions | 1.13.0, 1.17.0 |
+| Versions | 1.13.0, 1.17.0, 1.20.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libfabric/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfabric/xmake.lua) |
 
@@ -14193,7 +14193,7 @@ add_requires("lunasvg")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2, v8.2.0 |
+| Versions | v8.0.2, v8.2.0, v9.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
@@ -22287,7 +22287,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
