@@ -24408,6 +24408,29 @@ add_requires("stb")
 ```
 
 
+### stdexec (linux)
+
+
+| Description | *`std::execution`, the proposed C++ framework for asynchronous and parallel programming. * |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/stdexec](https://github.com/NVIDIA/stdexec) |
+| Versions | 2024.03.08 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [stdexec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stdexec/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stdexec
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stdexec")
+```
+
+
 ### stduuid (linux)
 
 
