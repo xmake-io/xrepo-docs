@@ -1456,6 +1456,30 @@ add_requires("bgfx")
 ```
 
 
+### bght (macosx)
+
+
+| Description | *BGHT: Better GPU Hash Tables* |
+| -- | -- |
+| Homepage | [https://owensgroup.github.io/BGHT/](https://owensgroup.github.io/BGHT/) |
+| License | Apache-2.0 |
+| Versions | 2024.03.06 |
+| Architectures | arm64, x86_64 |
+| Definition | [bght/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bght/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bght
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bght")
+```
+
+
 ### bin2c (macosx)
 
 
@@ -22288,7 +22312,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
