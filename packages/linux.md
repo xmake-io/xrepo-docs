@@ -1131,7 +1131,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32 |
+| Versions | v0.13.32, v0.14.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -2199,7 +2199,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2 |
+| Versions | v2.10.2, v2.13.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -4355,7 +4355,7 @@ add_requires("curlpp")
 | Description | *CUDA Templates for Linear Algebra Subroutines* |
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
-| Versions | v3.2.0 |
+| Versions | v3.2.0, v3.4.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
