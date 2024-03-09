@@ -11176,7 +11176,7 @@ add_requires("srell")
 | Description | *Library for SRTP (Secure Realtime Transport Protocol)* |
 | -- | -- |
 | Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
-| Versions | v2.5.0 |
+| Versions | v2.5.0, v2.6 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
 

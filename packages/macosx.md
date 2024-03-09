@@ -22427,7 +22427,7 @@ add_requires("srt")
 | Description | *Library for SRTP (Secure Realtime Transport Protocol)* |
 | -- | -- |
 | Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
-| Versions | v2.5.0 |
+| Versions | v2.5.0, v2.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
 
@@ -23236,7 +23236,7 @@ add_requires("tf_workstealingqueue")
 | -- | -- |
 | Homepage | [http://reo7sp.github.io/tgbot-cpp](http://reo7sp.github.io/tgbot-cpp) |
 | License | MIT |
-| Versions | v1.7.2 |
+| Versions | v1.7.2, v1.7.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [tgbot-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tgbot-cpp/xmake.lua) |
 
