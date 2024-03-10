@@ -16116,7 +16116,7 @@ add_requires("matio")
 | -- | -- |
 | Homepage | [https://alandefreitas.github.io/matplotplusplus/](https://alandefreitas.github.io/matplotplusplus/) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0 |
+| Versions | v1.1.0, v1.2.0, v1.2.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [matplotplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matplotplusplus/xmake.lua) |
 
@@ -22806,7 +22806,7 @@ add_requires("rtaudio")
 | -- | -- |
 | Homepage | [https://github.com/nfrechette/rtm](https://github.com/nfrechette/rtm) |
 | License | MIT |
-| Versions | v2.1.5 |
+| Versions | v2.1.5, v2.3.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rtm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtm/xmake.lua) |
 
