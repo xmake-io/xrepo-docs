@@ -13256,7 +13256,7 @@ add_requires("mcut")
 | -- | -- |
 | Homepage | [https://github.com/igormironchik/md4qt](https://github.com/igormironchik/md4qt) |
 | License | MIT |
-| Versions | 2.1.0, 2.4.2 |
+| Versions | 2.1.0, 2.4.2, 2.8.0 |
 | Architectures | x64 |
 | Definition | [md4qt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/md4qt/xmake.lua) |
 
@@ -16609,7 +16609,7 @@ add_requires("parallel-hashmap")
 | -- | -- |
 | Homepage | [http://partio.us/](http://partio.us/) |
 | License | BSD-3-Clause |
-| Versions | v1.14.0, v1.14.6, v1.17.1 |
+| Versions | v1.14.0, v1.14.6, v1.17.1, v1.17.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [partio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/partio/xmake.lua) |
 
@@ -20472,7 +20472,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
