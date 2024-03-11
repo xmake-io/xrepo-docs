@@ -8544,7 +8544,7 @@ add_requires("mman_win32")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11 |
+| Versions | 7.11, 7.13 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
@@ -10020,7 +10020,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2 |
+| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -11178,7 +11178,7 @@ add_requires("quickjs")
 | Description | *Asynchronous Low Latency C++ Logging Library* |
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
-| Versions | 2.8.0, 2.9.0, 2.9.1, 3.3.1 |
+| Versions | 2.8.0, 2.9.0, 2.9.1, 3.3.1, 3.6.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
