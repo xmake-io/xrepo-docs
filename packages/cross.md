@@ -6153,7 +6153,7 @@ add_requires("linmath.h")
 | -- | -- |
 | Homepage | [https://kernel.org/](https://kernel.org/) |
 | License | GPL-2.0-only |
-| Versions | 4.20.9, 5.0.8, 5.9.16, 5.10.46, 5.15, 5.16.9 |
+| Versions | 4.20.9, 5.0.8, 5.9.16, 5.10.46, 5.15, 5.16.9, 6.7.6 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [linux-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-headers/xmake.lua) |
 
@@ -10187,7 +10187,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
