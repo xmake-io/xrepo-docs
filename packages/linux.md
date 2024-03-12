@@ -5575,7 +5575,7 @@ add_requires("effcee")
 | -- | -- |
 | Homepage | [https://github.com/effolkronium/random](https://github.com/effolkronium/random) |
 | License | MIT |
-| Versions | v1.4.1 |
+| Versions | v1.4.1, v1.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [effolkronium-random/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/effolkronium-random/xmake.lua) |
 
@@ -6435,7 +6435,7 @@ add_requires("fastor")
 | -- | -- |
 | Homepage | [https://github.com/facebook/fbthrift](https://github.com/facebook/fbthrift) |
 | License | Apache-2.0 |
-| Versions | 2024.03.04 |
+| Versions | 2024.03.04, 2024.03.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fbthrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fbthrift/xmake.lua) |
 
@@ -6603,7 +6603,7 @@ add_requires("filament")
 | -- | -- |
 | Homepage | [https://github.com/facebookincubator/fizz](https://github.com/facebookincubator/fizz) |
 | License | BSD |
-| Versions | 2024.02.26, 2024.03.04 |
+| Versions | 2024.02.26, 2024.03.04, 2024.03.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fizz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fizz/xmake.lua) |
 
@@ -6911,7 +6911,7 @@ add_requires("fmtlog")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04 |
+| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
@@ -17464,7 +17464,7 @@ add_requires("mustache")
 | -- | -- |
 | Homepage | [https://github.com/facebook/mvfst](https://github.com/facebook/mvfst) |
 | License | MIT |
-| Versions | 2024.03.04 |
+| Versions | 2024.03.04, 2024.03.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mvfst/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mvfst/xmake.lua) |
 
@@ -20909,7 +20909,7 @@ add_requires("protoc")
 | -- | -- |
 | Homepage | [https://github.com/facebook/proxygen](https://github.com/facebook/proxygen) |
 | License | BSD |
-| Versions | 2024.03.04 |
+| Versions | 2024.03.04, 2024.03.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [proxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proxygen/xmake.lua) |
 
@@ -24183,7 +24183,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27274,7 +27274,7 @@ add_requires("vvenc")
 | -- | -- |
 | Homepage | [https://github.com/facebook/wangle](https://github.com/facebook/wangle) |
 | License | Apache-2.0 |
-| Versions | 2024.02.26, 2024.03.04 |
+| Versions | 2024.02.26, 2024.03.04, 2024.03.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wangle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wangle/xmake.lua) |
 
