@@ -11980,7 +11980,7 @@ add_requires("x265")
 | Description | *JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512* |
 | -- | -- |
 | Homepage | [https://github.com/herumi/xbyak](https://github.com/herumi/xbyak) |
-| Versions | v6.02, v6.03, v6.73 |
+| Versions | v6.02, v6.03, v6.73, v7.06 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [xbyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xbyak/xmake.lua) |
 

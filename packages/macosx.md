@@ -582,7 +582,7 @@ add_requires("asio3")
 | -- | -- |
 | Homepage | [https://asmjit.com/](https://asmjit.com/) |
 | License | zlib |
-| Versions | 2021.06.27, 2022.01.18 |
+| Versions | 2021.06.27, 2022.01.18, 2024.03.09 |
 | Architectures | arm64, x86_64 |
 | Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
 
@@ -677,7 +677,7 @@ add_requires("assimp")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/async_simple](https://github.com/alibaba/async_simple) |
 | License | Apache-2.0 |
-| Versions | 1.1, 1.2 |
+| Versions | 1.1, 1.2, 1.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [async_simple/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/async_simple/xmake.lua) |
 
@@ -25618,7 +25618,7 @@ add_requires("x265")
 | Description | *JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512* |
 | -- | -- |
 | Homepage | [https://github.com/herumi/xbyak](https://github.com/herumi/xbyak) |
-| Versions | v6.02, v6.03, v6.73 |
+| Versions | v6.02, v6.03, v6.73, v7.06 |
 | Architectures | arm64, x86_64 |
 | Definition | [xbyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xbyak/xmake.lua) |
 
