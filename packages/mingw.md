@@ -1294,7 +1294,7 @@ add_requires("ceval")
 | -- | -- |
 | Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
 | License | LGPL-3.0 |
-| Versions | 5.1.1, 5.2.1, 5.3, 5.4, 5.5.2 |
+| Versions | 5.1.1, 5.2.1, 5.3, 5.4, 5.5.2, 5.6.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
 
@@ -11964,7 +11964,7 @@ add_requires("sfml")
 | -- | -- |
 | Homepage | [https://github.com/Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi) |
 | License | Apache-2.0 |
-| Versions | v2.6 |
+| Versions | v2.6, v2.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sheenbidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sheenbidi/xmake.lua) |
 

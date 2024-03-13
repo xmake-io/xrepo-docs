@@ -10179,7 +10179,7 @@ add_requires("seqan3")
 | -- | -- |
 | Homepage | [https://github.com/Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi) |
 | License | Apache-2.0 |
-| Versions | v2.6 |
+| Versions | v2.6, v2.7 |
 | Architectures | i386, x86_64 |
 | Definition | [sheenbidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sheenbidi/xmake.lua) |
 
