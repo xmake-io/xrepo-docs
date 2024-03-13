@@ -13069,6 +13069,29 @@ add_requires("librdkafka")
 ```
 
 
+### libredwg (linux)
+
+
+| Description | *A library to allow reading data from a DWG file.* |
+| -- | -- |
+| Homepage | [https://github.com/LibreDWG/libredwg](https://github.com/LibreDWG/libredwg) |
+| Versions | 0.13.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libredwg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libredwg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libredwg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libredwg")
+```
+
+
 ### libremidi (linux)
 
 
@@ -24183,7 +24206,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
