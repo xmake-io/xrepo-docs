@@ -14681,7 +14681,7 @@ add_requires("winreg")
 | -- | -- |
 | Homepage | [https://www.wolfssl.com](https://www.wolfssl.com) |
 | License | GPL-2.0 |
-| Versions | 5.3.0, 5.6.2 |
+| Versions | 5.3.0, 5.6.2, 5.6.3, 5.6.4, 5.6.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [wolfssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wolfssl/xmake.lua) |
 
