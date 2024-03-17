@@ -9133,6 +9133,30 @@ add_requires("rapidjson")
 ```
 
 
+### rapidxml (cross)
+
+
+| Description | *An attempt to create the fastest XML parser possible* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/rapidxml](https://sourceforge.net/projects/rapidxml) |
+| License | MIT |
+| Versions | 1.13 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [rapidxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] rapidxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidxml")
+```
+
+
 ### re2 (cross)
 
 
@@ -9642,7 +9666,7 @@ add_requires("sailormoon_flags")
 | Description | *A software construction tool* |
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
-| Versions | 4.1.0, 4.3.0 |
+| Versions | 4.1.0, 4.3.0, 4.6.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 
@@ -10447,7 +10471,7 @@ add_requires("string-view-lite")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.6.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 

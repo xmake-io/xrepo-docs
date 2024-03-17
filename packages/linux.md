@@ -19081,7 +19081,7 @@ add_requires("opencv")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -20815,7 +20815,7 @@ add_requires("proj")
 | -- | -- |
 | Homepage | [https://github.com/jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) |
 | License | MIT |
-| Versions | v1.0.0, v1.2.1 |
+| Versions | v1.0.0, v1.2.1, v1.2.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [prometheus-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/prometheus-cpp/xmake.lua) |
 
@@ -22088,6 +22088,30 @@ add_requires("rapidjson")
 ```
 
 
+### rapidxml (linux)
+
+
+| Description | *An attempt to create the fastest XML parser possible* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/rapidxml](https://sourceforge.net/projects/rapidxml) |
+| License | MIT |
+| Versions | 1.13 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rapidxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidxml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rapidxml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidxml")
+```
+
+
 ### raygui (linux)
 
 
@@ -23091,7 +23115,7 @@ add_requires("scnlib")
 | Description | *A software construction tool* |
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
-| Versions | 4.1.0, 4.3.0 |
+| Versions | 4.1.0, 4.3.0, 4.6.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 
@@ -24606,7 +24630,7 @@ add_requires("string-view-lite")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.6.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
@@ -25985,7 +26009,7 @@ add_requires("transwarp")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14 |
+| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 
