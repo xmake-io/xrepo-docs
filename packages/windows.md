@@ -247,8 +247,8 @@ add_requires("amqp-cpp")
 | -- | -- |
 | Homepage | [http://angelcode.com/angelscript/](http://angelcode.com/angelscript/) |
 | License | zlib |
-| Versions | 2.34.0, 2.35.0, 2.35.1 |
-| Architectures | arm64, x64, x86 |
+| Versions | 2.34.0, 2.35.0, 2.35.1, 2.36.0 |
+| Architectures | x64, x86 |
 | Definition | [angelscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/angelscript/xmake.lua) |
 
 ##### Install command
@@ -3437,7 +3437,7 @@ add_requires("cppcoro")
 | Description | *A personal experimental C++ Syntax 2 -> Syntax 1 compiler* |
 | -- | -- |
 | Homepage | [https://github.com/hsutter/cppfront](https://github.com/hsutter/cppfront) |
-| Versions | 2023.08.29 |
+| Versions | v0.7.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cppfront/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppfront/xmake.lua) |
 
@@ -20543,7 +20543,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
