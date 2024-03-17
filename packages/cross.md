@@ -9897,6 +9897,30 @@ add_requires("simplethreadpool")
 ```
 
 
+### simsimd (cross)
+
+
+| Description | *Vector Similarity Functions 3x-200x Faster than SciPy and NumPy* |
+| -- | -- |
+| Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
+| License | Apache-2.0 |
+| Versions | v3.9.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] simsimd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simsimd")
+```
+
+
 ### snitch (cross)
 
 

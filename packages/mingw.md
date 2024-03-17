@@ -12148,6 +12148,30 @@ add_requires("simpleini")
 ```
 
 
+### simsimd (mingw)
+
+
+| Description | *Vector Similarity Functions 3x-200x Faster than SciPy and NumPy* |
+| -- | -- |
+| Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
+| License | Apache-2.0 |
+| Versions | v3.9.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] simsimd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simsimd")
+```
+
+
 ### smoothcpp (mingw)
 
 
