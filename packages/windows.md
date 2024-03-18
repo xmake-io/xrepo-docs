@@ -19396,6 +19396,30 @@ add_requires("rttr")
 ```
 
 
+### ruapu (windows)
+
+
+| Description | *Detect CPU features with single-file* |
+| -- | -- |
+| Homepage | [https://github.com/nihui/ruapu](https://github.com/nihui/ruapu) |
+| License | MIT |
+| Versions | 0.1.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [ruapu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ruapu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ruapu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ruapu")
+```
+
+
 ### ruy (windows)
 
 

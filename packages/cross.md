@@ -9563,6 +9563,30 @@ add_requires("rttr")
 ```
 
 
+### ruapu (cross)
+
+
+| Description | *Detect CPU features with single-file* |
+| -- | -- |
+| Homepage | [https://github.com/nihui/ruapu](https://github.com/nihui/ruapu) |
+| License | MIT |
+| Versions | 0.1.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ruapu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ruapu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ruapu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ruapu")
+```
+
+
 ### rxcpp (cross)
 
 

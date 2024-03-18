@@ -11837,6 +11837,30 @@ add_requires("rttr")
 ```
 
 
+### ruapu (mingw)
+
+
+| Description | *Detect CPU features with single-file* |
+| -- | -- |
+| Homepage | [https://github.com/nihui/ruapu](https://github.com/nihui/ruapu) |
+| License | MIT |
+| Versions | 0.1.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [ruapu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ruapu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ruapu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ruapu")
+```
+
+
 ### rxcpp (mingw)
 
 

@@ -10507,6 +10507,30 @@ add_requires("rttr")
 ```
 
 
+### ruapu (android)
+
+
+| Description | *Detect CPU features with single-file* |
+| -- | -- |
+| Homepage | [https://github.com/nihui/ruapu](https://github.com/nihui/ruapu) |
+| License | MIT |
+| Versions | 0.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [ruapu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ruapu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ruapu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ruapu")
+```
+
+
 ### ruy (android)
 
 
