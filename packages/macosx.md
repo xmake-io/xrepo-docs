@@ -22517,6 +22517,30 @@ add_requires("srell")
 ```
 
 
+### srpc (macosx)
+
+
+| Description | *RPC framework based on C++ Workflow. Supports SRPC, Baidu bRPC, Tencent tRPC, thrift protocols.* |
+| -- | -- |
+| Homepage | [https://github.com/sogou/srpc](https://github.com/sogou/srpc) |
+| License | Apache-2.0 |
+| Versions | v0.10.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [srpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srpc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install srpc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("srpc")
+```
+
+
 ### srt (macosx)
 
 
