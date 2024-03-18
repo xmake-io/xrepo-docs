@@ -9052,7 +9052,7 @@ add_requires("hiredis")
 | -- | -- |
 | Homepage | [https://github.com/redorav/hlslpp](https://github.com/redorav/hlslpp) |
 | License | MIT |
-| Versions | 3.1, 3.2.3 |
+| Versions | 3.1, 3.2.3, 3.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hlslpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hlslpp/xmake.lua) |
 
@@ -21147,7 +21147,8 @@ add_requires("pugixml")
 | Description | *Pulsar C++ client library* |
 | -- | -- |
 | Homepage | [https://github.com/apache/pulsar-client-cpp](https://github.com/apache/pulsar-client-cpp) |
-| Versions | 3.1.2 |
+| License | Apache-2.0 |
+| Versions | 3.1.2, 3.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pulsar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pulsar/xmake.lua) |
 
@@ -24278,7 +24279,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
