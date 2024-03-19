@@ -436,7 +436,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
 | License | Apache-2.0 |
-| Versions | v0.1.12 |
+| Versions | v0.1.12, v0.1.15 |
 | Architectures | wasm32, wasm64 |
 | Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
 
@@ -8514,6 +8514,30 @@ add_requires("sailormoon_flags")
 ```
 
 
+### samurai (wasm)
+
+
+| Description | *Intervals coupled with algebra of set to handle adaptive mesh refinement and operators on it.* |
+| -- | -- |
+| Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
+| License | BSD-3-Clause |
+| Versions | v0.6.0, v0.10.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm samurai
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("samurai")
+```
+
+
 ### scons (wasm)
 
 
@@ -8996,7 +9020,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
