@@ -2199,7 +2199,7 @@ add_requires("bzip2")
 | Description | *A C library for asynchronous DNS requests* |
 | -- | -- |
 | Homepage | [https://c-ares.org/](https://c-ares.org/) |
-| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0 |
+| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
 
@@ -4882,7 +4882,7 @@ add_requires("digestpp")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/DirectX-Headers](https://github.com/microsoft/DirectX-Headers) |
 | License | MIT |
-| Versions | v1.610.0 |
+| Versions | v1.610.0, v1.613.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [directx-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directx-headers/xmake.lua) |
 
@@ -6435,7 +6435,7 @@ add_requires("fastor")
 | -- | -- |
 | Homepage | [https://github.com/facebook/fbthrift](https://github.com/facebook/fbthrift) |
 | License | Apache-2.0 |
-| Versions | 2024.03.04, 2024.03.11 |
+| Versions | 2024.03.04, 2024.03.11, 2024.03.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fbthrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fbthrift/xmake.lua) |
 
@@ -6603,7 +6603,7 @@ add_requires("filament")
 | -- | -- |
 | Homepage | [https://github.com/facebookincubator/fizz](https://github.com/facebookincubator/fizz) |
 | License | BSD |
-| Versions | 2024.02.26, 2024.03.04, 2024.03.11 |
+| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fizz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fizz/xmake.lua) |
 
@@ -6911,7 +6911,7 @@ add_requires("fmtlog")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11 |
+| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
@@ -17511,7 +17511,7 @@ add_requires("mustache")
 | -- | -- |
 | Homepage | [https://github.com/facebook/mvfst](https://github.com/facebook/mvfst) |
 | License | MIT |
-| Versions | 2024.03.04, 2024.03.11 |
+| Versions | 2024.03.04, 2024.03.11, 2024.03.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mvfst/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mvfst/xmake.lua) |
 
@@ -20956,7 +20956,7 @@ add_requires("protoc")
 | -- | -- |
 | Homepage | [https://github.com/facebook/proxygen](https://github.com/facebook/proxygen) |
 | License | BSD |
-| Versions | 2024.03.04, 2024.03.11 |
+| Versions | 2024.03.04, 2024.03.11, 2024.03.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [proxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proxygen/xmake.lua) |
 
@@ -24327,7 +24327,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27442,7 +27442,7 @@ add_requires("vvenc")
 | -- | -- |
 | Homepage | [https://github.com/facebook/wangle](https://github.com/facebook/wangle) |
 | License | Apache-2.0 |
-| Versions | 2024.02.26, 2024.03.04, 2024.03.11 |
+| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wangle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wangle/xmake.lua) |
 
