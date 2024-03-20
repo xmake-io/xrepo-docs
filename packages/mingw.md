@@ -12834,6 +12834,30 @@ add_requires("stb")
 ```
 
 
+### stc (mingw)
+
+
+| Description | *A modern, user friendly, generic, type-safe and fast C99 container library: String, Vector, Sorted and Unordered Map and Set, Deque, Forward List, Smart Pointers, Bitset and Random numbers.* |
+| -- | -- |
+| Homepage | [https://github.com/stclib/STC](https://github.com/stclib/STC) |
+| License | MIT |
+| Versions | v4.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [stc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] stc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stc")
+```
+
+
 ### stduuid (mingw)
 
 
