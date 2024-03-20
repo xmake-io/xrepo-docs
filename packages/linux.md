@@ -5120,7 +5120,7 @@ add_requires("dotnet")
 | -- | -- |
 | Homepage | [https://github.com/google/double-conversion](https://github.com/google/double-conversion) |
 | License | BSD-3-Clause |
-| Versions | v3.1.5 |
+| Versions | v3.1.5, v3.3.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [double-conversion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/double-conversion/xmake.lua) |
 
@@ -13573,7 +13573,7 @@ add_requires("libspectre")
 | Description | *Simple, modern libpng alternative* |
 | -- | -- |
 | Homepage | [https://libspng.org](https://libspng.org) |
-| Versions | v0.7.1 |
+| Versions | v0.7.1, v0.7.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libspng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libspng/xmake.lua) |
 
@@ -15689,7 +15689,7 @@ add_requires("m4")
 | -- | -- |
 | Homepage | [https://github.com/progsource/maddy](https://github.com/progsource/maddy) |
 | License | MIT |
-| Versions | 1.2.1 |
+| Versions | 1.2.1, 1.3.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [maddy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/maddy/xmake.lua) |
 
@@ -24351,7 +24351,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
