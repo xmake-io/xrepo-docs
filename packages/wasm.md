@@ -8514,30 +8514,6 @@ add_requires("sailormoon_flags")
 ```
 
 
-### samurai (wasm)
-
-
-| Description | *Intervals coupled with algebra of set to handle adaptive mesh refinement and operators on it.* |
-| -- | -- |
-| Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
-| License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0 |
-| Architectures | wasm32, wasm64 |
-| Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p wasm samurai
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("samurai")
-```
-
-
 ### scons (wasm)
 
 
@@ -9020,7 +8996,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -9247,30 +9223,6 @@ xrepo install -p wasm string-view-lite
 
 ```lua
 add_requires("string-view-lite")
-```
-
-
-### stringzilla (wasm)
-
-
-| Description | *Up to 10x faster string search, split, sort, and shuffle for long strings and multi-gigabyte files in Python and C, leveraging SIMD with just a few lines of Arm Neon and x86 AVX2 & AVX-512 intrinsics 🦖* |
-| -- | -- |
-| Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
-| License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.6.2 |
-| Architectures | wasm32, wasm64 |
-| Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p wasm stringzilla
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("stringzilla")
 ```
 
 
