@@ -4464,7 +4464,7 @@ add_requires("libdivsufsort")
 | -- | -- |
 | Homepage | [https://github.com/ph3at/libenvpp](https://github.com/ph3at/libenvpp) |
 | License | Apache-2.0 |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.4.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libenvpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libenvpp/xmake.lua) |
 

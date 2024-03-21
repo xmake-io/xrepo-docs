@@ -6200,7 +6200,7 @@ add_requires("libdwarf")
 | -- | -- |
 | Homepage | [https://github.com/ph3at/libenvpp](https://github.com/ph3at/libenvpp) |
 | License | Apache-2.0 |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.4.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libenvpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libenvpp/xmake.lua) |
 
