@@ -198,7 +198,7 @@ add_requires("aqt")
 | -- | -- |
 | Homepage | [https://arduinojson.org](https://arduinojson.org) |
 | License | MIT |
-| Versions | v6.21.4, v7.0.3 |
+| Versions | v6.21.4, v7.0.3, v7.0.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
 
@@ -1116,6 +1116,30 @@ xrepo install -p mingw [--mingw=/xxx] bzip2
 
 ```lua
 add_requires("bzip2")
+```
+
+
+### bzip3 (mingw)
+
+
+| Description | *A better and stronger spiritual successor to BZip2.* |
+| -- | -- |
+| Homepage | [https://github.com/kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3) |
+| License | LGPL-3.0 |
+| Versions | 1.4.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [bzip3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] bzip3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bzip3")
 ```
 
 
@@ -12653,7 +12677,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
