@@ -10742,7 +10742,7 @@ add_requires("lemon")
 | -- | -- |
 | Homepage | [http://www.leptonica.org/](http://www.leptonica.org/) |
 | License | BSD-2-Clause |
-| Versions | 1.80.0, 1.81.1, 1.82.0 |
+| Versions | 1.80.0, 1.81.1, 1.82.0, 1.84.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [leptonica/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leptonica/xmake.lua) |
 
@@ -24375,7 +24375,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -25297,7 +25297,7 @@ add_requires("termcolor")
 | -- | -- |
 | Homepage | [https://tesseract-ocr.github.io/](https://tesseract-ocr.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.1.1, 4.1.3, 5.0.1, 5.2.0 |
+| Versions | 4.1.1, 4.1.3, 5.0.1, 5.2.0, 5.3.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tesseract/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tesseract/xmake.lua) |
 
@@ -28365,7 +28365,7 @@ add_requires("xquic")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xsimd/](https://github.com/xtensor-stack/xsimd/) |
 | License | BSD-3-Clause |
-| Versions | 7.6.0, 8.0.3, 8.0.5, 9.0.1, 10.0.0 |
+| Versions | 7.6.0, 8.0.3, 8.0.5, 9.0.1, 10.0.0, 11.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xsimd/xmake.lua) |
 
@@ -28389,7 +28389,7 @@ add_requires("xsimd")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtensor/](https://github.com/xtensor-stack/xtensor/) |
 | License | BSD-3-Clause |
-| Versions | 0.23.10, 0.24.0, 0.24.1, 0.24.3, 0.24.7 |
+| Versions | 0.23.10, 0.24.0, 0.24.1, 0.24.3, 0.24.7, 0.25.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xtensor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor/xmake.lua) |
 
