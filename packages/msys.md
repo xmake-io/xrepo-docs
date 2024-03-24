@@ -6313,7 +6313,7 @@ add_requires("microsoft-gsl")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
 | License | MIT |
-| Versions | 1.1.1 |
+| Versions | 1.1.1, 2.2.1 |
 | Architectures | i386, x86_64 |
 | Definition | [microsoft-proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-proxy/xmake.lua) |
 
@@ -9208,6 +9208,30 @@ add_requires("span-lite")
 ```
 
 
+### sparse-map (msys)
+
+
+| Description | *C++ implementation of a memory efficient hash map and hash set* |
+| -- | -- |
+| Homepage | [https://github.com/Tessil/sparse-map](https://github.com/Tessil/sparse-map) |
+| License | MIT |
+| Versions | v0.6.2 |
+| Architectures | i386, x86_64 |
+| Definition | [sparse-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sparse-map/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sparse-map
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sparse-map")
+```
+
+
 ### spdlog (msys)
 
 
@@ -9286,7 +9310,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
