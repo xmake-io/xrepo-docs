@@ -3530,7 +3530,7 @@ add_requires("cpp-ipc")
 | Description | *A fast C++11/14/17/20 header only library for lazy evaluation and function tools* |
 | -- | -- |
 | Homepage | [https://github.com/MarcDirven/cpp-lazy](https://github.com/MarcDirven/cpp-lazy) |
-| Versions | v7.0.2 |
+| Versions | v7.0.2, v8.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-lazy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-lazy/xmake.lua) |
 
@@ -5288,7 +5288,7 @@ add_requires("dr_wav")
 | -- | -- |
 | Homepage | [https://google.github.io/draco/](https://google.github.io/draco/) |
 | License | Apache-2.0 |
-| Versions | 1.4.1, 1.5.0, 1.5.6 |
+| Versions | 1.4.1, 1.5.0, 1.5.6, 1.5.7 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [draco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/draco/xmake.lua) |
 
@@ -19368,7 +19368,7 @@ add_requires("openmp")
 | -- | -- |
 | Homepage | [http://www.openpgl.org/](http://www.openpgl.org/) |
 | License | Apache-2.0 |
-| Versions | 0.5.0 |
+| Versions | 0.5.0, 0.6.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openpgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openpgl/xmake.lua) |
 
@@ -24376,7 +24376,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26178,7 +26178,7 @@ add_requires("trantor")
 | Description | *An incremental parsing system for programming tools* |
 | -- | -- |
 | Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
-| Versions | 0.21.0 |
+| Versions | 0.21.0, 0.22.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
 
