@@ -6388,7 +6388,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -23449,7 +23449,7 @@ add_requires("sentencepiece")
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.4, 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0 |
+| Versions | 0.4.4, 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 

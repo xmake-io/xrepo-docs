@@ -3224,7 +3224,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -11605,7 +11605,7 @@ add_requires("string-view-lite")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.6.2 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0 |
 | Architectures | arm64-v8a, armeabi, mip64, mips, x86, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
