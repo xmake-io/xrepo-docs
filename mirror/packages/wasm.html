@@ -2115,6 +2115,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("cmidi2")
 </code></pre>
+<h3 id="cminpackwasm">cminpack (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A C/C++ rewrite of the MINPACK software (originally in FORTRAN) for solving nonlinear equations and nonlinear least squares problems</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://devernay.free.fr/hacks/cminpack/">http://devernay.free.fr/hacks/cminpack/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.01.04</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cminpack/xmake.lua">cminpack/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm cminpack
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("cminpack")
+</code></pre>
 <h3 id="cnpywasm">cnpy (wasm)</h3>
 <table>
 <thead>
@@ -13681,7 +13714,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200</td>
 </tr>
 <tr>
 <td>Architectures</td>
