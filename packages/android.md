@@ -1284,6 +1284,30 @@ add_requires("cgltf")
 ```
 
 
+### cgraph (android)
+
+
+| Description | *A common used C++ DAG framework* |
+| -- | -- |
+| Homepage | [http://www.chunel.cn](http://www.chunel.cn) |
+| License | MIT |
+| Versions | v2.5.4 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cgraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgraph/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cgraph
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgraph")
+```
+
+
 ### chaiscript (android)
 
 
@@ -6027,7 +6051,7 @@ add_requires("libogg")
 | Description | *Modern audio compression for the internet.* |
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
-| Versions | 1.3.1, 1.4 |
+| Versions | 1.3.1, 1.4, 1.5, 1.5.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -11321,7 +11345,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

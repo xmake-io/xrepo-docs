@@ -1406,6 +1406,30 @@ add_requires("cgltf")
 ```
 
 
+### cgraph (mingw)
+
+
+| Description | *A common used C++ DAG framework* |
+| -- | -- |
+| Homepage | [http://www.chunel.cn](http://www.chunel.cn) |
+| License | MIT |
+| Versions | v2.5.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cgraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgraph/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cgraph
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgraph")
+```
+
+
 ### chipmunk2d (mingw)
 
 
@@ -3550,6 +3574,30 @@ xrepo install -p mingw [--mingw=/xxx] fastcppcsvparser
 
 ```lua
 add_requires("fastcppcsvparser")
+```
+
+
+### fastgltf (mingw)
+
+
+| Description | *A modern C++17 glTF 2.0 library focused on speed, correctness, and usability* |
+| -- | -- |
+| Homepage | [https://fastgltf.readthedocs.io/v0.7.x/](https://fastgltf.readthedocs.io/v0.7.x/) |
+| License | MIT |
+| Versions | v0.7.1 |
+| Architectures | x86_64 |
+| Definition | [fastgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastgltf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] fastgltf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fastgltf")
 ```
 
 
@@ -6626,7 +6674,7 @@ add_requires("libogg")
 | Description | *Modern audio compression for the internet.* |
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
-| Versions | 1.3.1, 1.4 |
+| Versions | 1.3.1, 1.4, 1.5, 1.5.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -12725,7 +12773,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
