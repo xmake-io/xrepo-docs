@@ -3178,7 +3178,7 @@ add_requires("eventpp")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0 |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -10402,7 +10402,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

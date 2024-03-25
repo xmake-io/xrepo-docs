@@ -5408,7 +5408,7 @@ add_requires("emio")
 | Description | *EmmyLua Debugger* |
 | -- | -- |
 | Homepage | [https://github.com/EmmyLua/EmmyLuaDebugger](https://github.com/EmmyLua/EmmyLuaDebugger) |
-| Versions | 1.6.3 |
+| Versions | 1.6.3, 1.7.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [emmylua_debugger/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emmylua_debugger/xmake.lua) |
 
@@ -5648,7 +5648,7 @@ add_requires("eventpp")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0 |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -8388,7 +8388,7 @@ add_requires("hedley")
 | -- | -- |
 | Homepage | [https://github.com/jamesdbrock/hffix](https://github.com/jamesdbrock/hffix) |
 | License | BSD-2-Clause |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [hffix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hffix/xmake.lua) |
 
@@ -22623,7 +22623,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22763,7 +22763,7 @@ add_requires("srpc")
 | Description | *Secure Reliable Transport (SRT) Protocol* |
 | -- | -- |
 | Homepage | [https://www.srtalliance.org/](https://www.srtalliance.org/) |
-| Versions | v1.4.2 |
+| Versions | v1.4.2, v1.5.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [srt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srt/xmake.lua) |
 
