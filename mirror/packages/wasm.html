@@ -13751,7 +13751,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -14748,6 +14748,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("tinycrypt")
+</code></pre>
+<h3 id="tinydirwasm">tinydir (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Lightweight, portable and easy to integrate C directory and file reader</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/cxong/tinydir">https://github.com/cxong/tinydir</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.2.6</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinydir/xmake.lua">tinydir/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm tinydir
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("tinydir")
 </code></pre>
 <h3 id="tinyexprwasm">tinyexpr (wasm)</h3>
 <table>
