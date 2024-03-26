@@ -869,7 +869,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13 |
+| Versions | v0.9.3, v0.9.13, v0.9.14 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -6460,30 +6460,6 @@ add_requires("fmtlog")
 ```
 
 
-### folly (windows)
-
-
-| Description | *An open-source C++ library developed and used at Facebook.* |
-| -- | -- |
-| Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
-| License | Apache-2.0 |
-| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18 |
-| Architectures | x64 |
-| Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install folly
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("folly")
-```
-
-
 ### fontconfig (windows)
 
 
@@ -6799,7 +6775,7 @@ add_requires("function2")
 | Description | *Functional Programming Library for C++. Write concise and readable C++ code.* |
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
-| Versions | v0.2.22 |
+| Versions | v0.2.22, v0.2.23 |
 | Architectures | arm64, x64, x86 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
@@ -20545,7 +20521,7 @@ add_requires("soundtouch")
 | -- | -- |
 | Homepage | [https://github.com/martinmoene/span-lite](https://github.com/martinmoene/span-lite) |
 | License | BSL |
-| Versions | 0.10.3 |
+| Versions | 0.10.3, 0.11.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [span-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/span-lite/xmake.lua) |
 

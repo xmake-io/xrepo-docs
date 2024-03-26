@@ -4012,7 +4012,7 @@ add_requires("function2")
 | Description | *Functional Programming Library for C++. Write concise and readable C++ code.* |
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
-| Versions | v0.2.22 |
+| Versions | v0.2.22, v0.2.23 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
@@ -12583,7 +12583,7 @@ add_requires("soundtouch")
 | -- | -- |
 | Homepage | [https://github.com/martinmoene/span-lite](https://github.com/martinmoene/span-lite) |
 | License | BSL |
-| Versions | 0.10.3 |
+| Versions | 0.10.3, 0.11.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [span-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/span-lite/xmake.lua) |
 

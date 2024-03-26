@@ -556,7 +556,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13 |
+| Versions | v0.9.3, v0.9.13, v0.9.14 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -3726,7 +3726,7 @@ add_requires("function2")
 | Description | *Functional Programming Library for C++. Write concise and readable C++ code.* |
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
-| Versions | v0.2.22 |
+| Versions | v0.2.22, v0.2.23 |
 | Architectures | i386, x86_64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
@@ -10727,7 +10727,7 @@ add_requires("soundtouch")
 | -- | -- |
 | Homepage | [https://github.com/martinmoene/span-lite](https://github.com/martinmoene/span-lite) |
 | License | BSL |
-| Versions | 0.10.3 |
+| Versions | 0.10.3, 0.11.0 |
 | Architectures | i386, x86_64 |
 | Definition | [span-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/span-lite/xmake.lua) |
 
