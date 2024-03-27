@@ -10225,7 +10225,7 @@ add_requires("libcurl")
 | -- | -- |
 | Homepage | [https://www.libde265.org/](https://www.libde265.org/) |
 | License | LGPL-3.0 |
-| Versions | 1.0.8 |
+| Versions | 1.0.8, 1.0.15 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libde265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libde265/xmake.lua) |
 
@@ -18619,7 +18619,7 @@ add_requires("quickjs")
 | Description | *Asynchronous Low Latency C++ Logging Library* |
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
-| Versions | 2.8.0, 2.9.0, 2.9.1, 3.3.1, 3.6.0 |
+| Versions | 2.8.0, 2.9.0, 2.9.1, 3.3.1, 3.6.0, 3.8.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -19451,7 +19451,7 @@ add_requires("rtaudio")
 | -- | -- |
 | Homepage | [https://github.com/nfrechette/rtm](https://github.com/nfrechette/rtm) |
 | License | MIT |
-| Versions | v2.1.5, v2.3.0 |
+| Versions | v2.1.5, v2.3.0, v2.3.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [rtm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtm/xmake.lua) |
 
@@ -20734,7 +20734,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
