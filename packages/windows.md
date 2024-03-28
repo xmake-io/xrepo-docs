@@ -25141,7 +25141,7 @@ add_requires("zxing-cpp")
 | -- | -- |
 | Homepage | [https://github.com/zyantific/zycore-c](https://github.com/zyantific/zycore-c) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0 |
+| Versions | v1.0.0, v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.4.1, v1.5.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [zycore-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zycore-c/xmake.lua) |
 

@@ -11044,28 +11044,4 @@ add_requires("zxing-cpp")
 ```
 
 
-### zycore-c (wasm)
-
-
-| Description | *Internal library providing platform independent types, macros and a fallback for environments without LibC.* |
-| -- | -- |
-| Homepage | [https://github.com/zyantific/zycore-c](https://github.com/zyantific/zycore-c) |
-| License | MIT |
-| Versions | v1.0.0, v1.1.0 |
-| Architectures | wasm32, wasm64 |
-| Definition | [zycore-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zycore-c/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p wasm zycore-c
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("zycore-c")
-```
-
-
 
