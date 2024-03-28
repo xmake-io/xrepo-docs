@@ -7728,6 +7728,30 @@ add_requires("pseudo-double-c")
 ```
 
 
+### pugixml (wasm)
+
+
+| Description | *Light-weight, simple and fast XML parser for C++ with XPath support* |
+| -- | -- |
+| Homepage | [https://pugixml.org/](https://pugixml.org/) |
+| License | MIT |
+| Versions | v1.11.4, v1.13, v1.14 |
+| Architectures | wasm32, wasm64 |
+| Definition | [pugixml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pugixml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm pugixml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pugixml")
+```
+
+
 ### pyincpp (wasm)
 
 
@@ -9067,7 +9091,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

@@ -12773,7 +12773,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -13884,6 +13884,30 @@ xrepo install -p mingw [--mingw=/xxx] tl_optional
 
 ```lua
 add_requires("tl_optional")
+```
+
+
+### tmxlite (mingw)
+
+
+| Description | *lightweight C++14 parser for Tiled tmx files* |
+| -- | -- |
+| Homepage | [https://github.com/fallahn/tmxlite](https://github.com/fallahn/tmxlite) |
+| License | zlib |
+| Versions | v1.4.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [tmxlite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmxlite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] tmxlite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tmxlite")
 ```
 
 
@@ -15637,7 +15661,7 @@ add_requires("zycore-c")
 | -- | -- |
 | Homepage | [https://zydis.re](https://zydis.re) |
 | License | MIT |
-| Versions | v3.2.1 |
+| Versions | v3.2.1, v4.0.0, v4.1.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [zydis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zydis/xmake.lua) |
 
