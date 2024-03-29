@@ -3654,7 +3654,7 @@ add_requires("hedley")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3 |
+| Versions | v1.5.3, v1.7.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
