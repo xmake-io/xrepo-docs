@@ -30,7 +30,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | 2.3.1, 2.4.0, 2.4.1, 2.7.6 |
+| Versions | 2.3.1, 2.4.0, 2.4.1, 2.7.6, 2.7.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -6974,7 +6974,7 @@ add_requires("mbedtls")
 | Description | *Public domain mDNS/DNS-SD library in C* |
 | -- | -- |
 | Homepage | [https://github.com/mjansson/mdns](https://github.com/mjansson/mdns) |
-| Versions | 1.4.2 |
+| Versions | 1.4.2, 1.4.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [mdns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdns/xmake.lua) |
 
@@ -10610,7 +10610,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
