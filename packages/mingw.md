@@ -6816,7 +6816,7 @@ add_requires("librdkafka")
 | -- | -- |
 | Homepage | [https://github.com/jcelerier/libremidi](https://github.com/jcelerier/libremidi) |
 | License | BSD-2-Clause |
-| Versions | v3.0 |
+| Versions | v3.0, v4.5.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libremidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libremidi/xmake.lua) |
 
