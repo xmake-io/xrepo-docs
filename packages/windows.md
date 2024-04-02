@@ -15129,7 +15129,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.2.0, 1.3.0, 1.4.0 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -16629,7 +16629,7 @@ add_requires("outcome")
 | -- | -- |
 | Homepage | [http://guillaumeblanc.github.io/ozz-animation/](http://guillaumeblanc.github.io/ozz-animation/) |
 | License | MIT |
-| Versions | 0.14.2, 0.14.3 |
+| Versions | 0.14.2, 0.14.3, 0.15.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ozz-animation/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ozz-animation/xmake.lua) |
 
@@ -20758,7 +20758,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22420,7 +22420,7 @@ add_requires("toojpeg")
 | Description | *C++ frame profiler* |
 | -- | -- |
 | Homepage | [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy) |
-| Versions | v0.8.2, v0.9, v0.9.1 |
+| Versions | v0.8.2, v0.9, v0.9.1, v0.10 |
 | Architectures | x64 |
 | Definition | [tracy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tracy/xmake.lua) |
 
