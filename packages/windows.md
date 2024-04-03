@@ -2083,7 +2083,7 @@ add_requires("capstone")
 | -- | -- |
 | Homepage | [https://likle.github.io/cargs/](https://likle.github.io/cargs/) |
 | License | MIT |
-| Versions | v1.0.3 |
+| Versions | v1.0.3, v1.1.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cargs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cargs/xmake.lua) |
 
@@ -18977,7 +18977,7 @@ add_requires("recastnavigation")
 | Description | *Redis client written in C++* |
 | -- | -- |
 | Homepage | [https://github.com/sewenew/redis-plus-plus](https://github.com/sewenew/redis-plus-plus) |
-| Versions | 1.3.5, 1.3.6, 1.3.7, 1.3.8, 1.3.9, 1.3.11 |
+| Versions | 1.3.5, 1.3.6, 1.3.7, 1.3.8, 1.3.9, 1.3.11, 1.3.12 |
 | Architectures | arm64, x64, x86 |
 | Definition | [redis-plus-plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redis-plus-plus/xmake.lua) |
 
@@ -20758,7 +20758,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
