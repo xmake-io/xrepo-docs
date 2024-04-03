@@ -13465,7 +13465,7 @@ add_requires("theora")
 | -- | -- |
 | Homepage | [https://github.com/bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) |
 | License | MIT |
-| Versions | v3.3.0 |
+| Versions | v3.3.0, v4.1.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [thread-pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thread-pool/xmake.lua) |
 
