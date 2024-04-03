@@ -7888,7 +7888,7 @@ add_requires("glad")
 | Description | *Extremely fast, in memory, JSON and interface library for modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
-| Versions | v1.3.5, v2.2.0, v2.3.1 |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
