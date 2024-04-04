@@ -3030,7 +3030,7 @@ add_requires("duckx")
 | Description | *High-Performance C/C++ library for parsing binary output files and key files of LS Dyna (d3plot, binout, input deck)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01, 24.02 |
+| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01, 24.02, 24.03 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
@@ -10139,7 +10139,7 @@ add_requires("pdcurses")
 | Description | *PDCurses Modified - a curses library modified and extended from the 'official' pdcurses* |
 | -- | -- |
 | Homepage | [https://projectpluto.com/win32a.htm](https://projectpluto.com/win32a.htm) |
-| Versions | v4.3.4 |
+| Versions | v4.3.4, v4.4.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [pdcursesmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdcursesmod/xmake.lua) |
 
@@ -12773,7 +12773,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

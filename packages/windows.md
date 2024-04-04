@@ -5172,7 +5172,7 @@ add_requires("dxsdk")
 | Description | *High-Performance C/C++ library for parsing binary output files and key files of LS Dyna (d3plot, binout, input deck)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01, 24.02 |
+| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01, 24.02, 24.03 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
@@ -12684,7 +12684,7 @@ add_requires("luau")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
 | License | MIT |
-| Versions | v2.3.5 |
+| Versions | v2.3.5, v2.3.9 |
 | Architectures | arm64, x64, x86 |
 | Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
 
@@ -16986,7 +16986,7 @@ add_requires("pdcurses")
 | Description | *PDCurses Modified - a curses library modified and extended from the 'official' pdcurses* |
 | -- | -- |
 | Homepage | [https://projectpluto.com/win32a.htm](https://projectpluto.com/win32a.htm) |
-| Versions | v4.3.4 |
+| Versions | v4.3.4, v4.4.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [pdcursesmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdcursesmod/xmake.lua) |
 
@@ -20758,7 +20758,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
