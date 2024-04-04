@@ -7007,7 +7007,7 @@ add_requires("fmt")
 | -- | -- |
 | Homepage | [https://github.com/MengRao/fmtlog](https://github.com/MengRao/fmtlog) |
 | License | MIT |
-| Versions | v2.1.2 |
+| Versions | v2.1.2, v2.2.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fmtlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmtlog/xmake.lua) |
 
@@ -22739,7 +22739,7 @@ add_requires("robin-hood-hashing")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
 | License | MIT |
-| Versions | v0.6.3, v1.2.1 |
+| Versions | v0.6.3, v1.2.1, v1.2.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
 
@@ -23473,7 +23473,7 @@ add_requires("sentencepiece")
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.4, 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1 |
+| Versions | 0.4.4, 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
@@ -24495,7 +24495,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
