@@ -10762,7 +10762,7 @@ add_requires("libdivsufsort")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -16376,7 +16376,7 @@ add_requires("mustache")
 | -- | -- |
 | Homepage | [https://www.msweet.org/mxml/](https://www.msweet.org/mxml/) |
 | License | Apache-2.0 |
-| Versions | 3.3, 3.3.1 |
+| Versions | 3.3, 3.3.1, 4.0.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [mxml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mxml/xmake.lua) |
 
