@@ -30,7 +30,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [https://linkdd.github.io/aitoolkit/](https://linkdd.github.io/aitoolkit/) |
 | License | MIT |
-| Versions | v0.3.0 |
+| Versions | v0.3.0, v0.5.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [aitoolkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aitoolkit/xmake.lua) |
 
@@ -7782,7 +7782,7 @@ add_requires("pugixml")
 | Description | *A C++ type library that is as easy to use as Python built-in types.* |
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
-| Versions | v1.3.2, v1.3.3 |
+| Versions | v1.3.2, v1.3.3, v1.4.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
@@ -8639,7 +8639,7 @@ add_requires("sailormoon_flags")
 | Description | *A software construction tool* |
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
-| Versions | 4.1.0, 4.3.0, 4.6.0 |
+| Versions | 4.1.0, 4.3.0, 4.6.0, 4.7.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 
@@ -9115,7 +9115,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
