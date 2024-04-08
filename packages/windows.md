@@ -631,7 +631,7 @@ add_requires("asmtk")
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
-| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1 |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -2607,7 +2607,7 @@ add_requires("cimgui")
 | -- | -- |
 | Homepage | [https://github.com/qicosmos/cinatra](https://github.com/qicosmos/cinatra) |
 | License | MIT |
-| Versions | 0.8.0 |
+| Versions | 0.8.0, 0.8.9 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cinatra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cinatra/xmake.lua) |
 
@@ -20782,7 +20782,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22316,6 +22316,30 @@ xrepo install tmxparser
 
 ```lua
 add_requires("tmxparser")
+```
+
+
+### tobiaslocker_base64 (windows)
+
+
+| Description | *A modern C++ base64 encoder / decoder * |
+| -- | -- |
+| Homepage | [https://github.com/tobiaslocker/base64](https://github.com/tobiaslocker/base64) |
+| License | MIT |
+| Versions | 2024.02.26 |
+| Architectures | x64, x86 |
+| Definition | [tobiaslocker_base64/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tobiaslocker_base64/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tobiaslocker_base64
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tobiaslocker_base64")
 ```
 
 
