@@ -2104,7 +2104,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2 |
+| Versions | v2.10.2, v2.13.2, v2.14.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -3363,7 +3363,7 @@ add_requires("cpp-dump")
 | Description | *A C++11 single-file header-only cross platform HTTP/HTTPS library.* |
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
-| Versions | 0.8.5, 0.9.2, 0.12.1, 0.12.6, 0.14.0 |
+| Versions | 0.8.5, 0.9.2, 0.12.1, 0.12.6, 0.14.0, 0.14.1, 0.14.2, 0.14.3, 0.15.0, 0.15.1, 0.15.2, 0.15.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -6673,7 +6673,7 @@ add_requires("frozen")
 | -- | -- |
 | Homepage | [https://github.com/Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) |
 | License | MIT |
-| Versions | v0.15.29 |
+| Versions | v0.15.29, v0.15.31 |
 | Architectures | arm64, x86_64 |
 | Definition | [frugally-deep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frugally-deep/xmake.lua) |
 
@@ -11165,7 +11165,7 @@ add_requires("libgeotiff")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0, v1.7.1 |
+| Versions | v1.3.0, v1.7.1, v1.8.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
@@ -15070,11 +15070,11 @@ add_requires("matplotplusplus")
 ### mbedtls (macosx)
 
 
-| Description | *An SSL library* |
+| Description | *An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API* |
 | -- | -- |
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
 | License | Apache-2.0 |
-| Versions | v2.7.6, v2.13.0, v2.25.0, v2.28.3, v3.4.0, v3.5.1 |
+| Versions | v2.7.6, v2.13.0, v2.25.0, v2.28.3, v3.4.0, v3.5.1, v3.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 
@@ -22670,7 +22670,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
