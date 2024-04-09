@@ -1840,6 +1840,7 @@ add_requires("cpp-dump")
 | Description | *A C++11 single-file header-only cross platform HTTP/HTTPS library.* |
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
+| License | MIT |
 | Versions | 0.8.5, 0.9.2, 0.12.1, 0.12.6, 0.14.0, 0.14.1, 0.14.2, 0.14.3, 0.15.0, 0.15.1, 0.15.2, 0.15.3 |
 | Architectures | i386, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
@@ -9405,7 +9406,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
