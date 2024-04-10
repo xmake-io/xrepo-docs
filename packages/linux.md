@@ -24543,7 +24543,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29144,6 +29144,30 @@ xrepo install zlmediakit
 
 ```lua
 add_requires("zlmediakit")
+```
+
+
+### zlog (linux)
+
+
+| Description | *A reliable, high-performance, thread safe, flexsible, clear-model, pure C logging library.* |
+| -- | -- |
+| Homepage | [https://github.com/HardySimpson/zlog](https://github.com/HardySimpson/zlog) |
+| License | Apache-2.0 |
+| Versions | 1.2.17 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [zlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zlog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zlog")
 ```
 
 
