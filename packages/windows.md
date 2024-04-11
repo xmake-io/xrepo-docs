@@ -16343,6 +16343,7 @@ add_requires("openssl")
 | Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
+| License | Apache-2.0 |
 | Versions | 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7 |
 | Architectures | arm64, x64, x86 |
 | Definition | [openssl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl3/xmake.lua) |
@@ -17453,30 +17454,6 @@ xrepo install plf_stack
 
 ```lua
 add_requires("plf_stack")
-```
-
-
-### plflibs (windows)
-
-
-| Description | *Meta-package for all plf libraries.* |
-| -- | -- |
-| Homepage | [https://plflib.org](https://plflib.org) |
-| License | zlib |
-| Versions |  |
-| Architectures | arm64, x64, x86 |
-| Definition | [plflibs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plflibs/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install plflibs
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("plflibs")
 ```
 
 
@@ -20951,7 +20928,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
