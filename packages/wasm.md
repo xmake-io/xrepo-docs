@@ -7501,7 +7501,7 @@ add_requires("pkgconf")
 | -- | -- |
 | Homepage | [https://plflib.org/colony.htm](https://plflib.org/colony.htm) |
 | License | zlib |
-| Versions | 2023.08.25 |
+| Versions | v7.41 |
 | Architectures | wasm32, wasm64 |
 | Definition | [plf_colony/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_colony/xmake.lua) |
 
@@ -7515,6 +7515,174 @@ xrepo install -p wasm plf_colony
 
 ```lua
 add_requires("plf_colony")
+```
+
+
+### plf_indiesort (wasm)
+
+
+| Description | *A sort wrapper enabling both use of random-access sorting on non-random access containers, and increased performance for the sorting of large types.* |
+| -- | -- |
+| Homepage | [https://plflib.org/indiesort.htm](https://plflib.org/indiesort.htm) |
+| License | zlib |
+| Versions | v1.41 |
+| Architectures | wasm32, wasm64 |
+| Definition | [plf_indiesort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_indiesort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm plf_indiesort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_indiesort")
+```
+
+
+### plf_list (wasm)
+
+
+| Description | *A data container replicating std::list functionality but with (on average) 333% faster insertion, 81% faster erasure and 16% faster iteration.* |
+| -- | -- |
+| Homepage | [https://plflib.org/list.htm](https://plflib.org/list.htm) |
+| License | zlib |
+| Versions | 2.73 |
+| Architectures | wasm32, wasm64 |
+| Definition | [plf_list/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_list/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm plf_list
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_list")
+```
+
+
+### plf_queue (wasm)
+
+
+| Description | *A data container replicating std::queue functionality but with better performance than standard library containers in a queue context.* |
+| -- | -- |
+| Homepage | [https://plflib.org/queue.htm](https://plflib.org/queue.htm) |
+| License | zlib |
+| Versions | v2.0.3 |
+| Architectures | wasm32, wasm64 |
+| Definition | [plf_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_queue/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm plf_queue
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_queue")
+```
+
+
+### plf_rand (wasm)
+
+
+| Description | *A replacement for rand()/srand() that's ~700% faster with (typically) better statistical distribution. An adaptation of PCG with fallback to xorshift for C++98/03.* |
+| -- | -- |
+| Homepage | [https://plflib.org/rand.htm](https://plflib.org/rand.htm) |
+| License | zlib |
+| Versions | v1.05 |
+| Architectures | wasm32, wasm64 |
+| Definition | [plf_rand/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_rand/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm plf_rand
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_rand")
+```
+
+
+### plf_reorderase (wasm)
+
+
+| Description | *A faster method for singular erasures, ranged erasures, and erase_if-style erasures for vector/deque/static_vector when element order is not important.* |
+| -- | -- |
+| Homepage | [https://plflib.org/reorderase.htm](https://plflib.org/reorderase.htm) |
+| License | zlib |
+| Versions | v1.11 |
+| Architectures | wasm32, wasm64 |
+| Definition | [plf_reorderase/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_reorderase/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm plf_reorderase
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_reorderase")
+```
+
+
+### plf_stack (wasm)
+
+
+| Description | *A data container replicating std::stack functionality but with better performance than standard library containers in a stack context.* |
+| -- | -- |
+| Homepage | [https://plflib.org/stack.htm](https://plflib.org/stack.htm) |
+| License | zlib |
+| Versions | v2.03 |
+| Architectures | wasm32, wasm64 |
+| Definition | [plf_stack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_stack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm plf_stack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_stack")
+```
+
+
+### plflibs (wasm)
+
+
+| Description | *Meta-package for all plf libraries.* |
+| -- | -- |
+| Homepage | [https://plflib.org](https://plflib.org) |
+| License | zlib |
+| Versions |  |
+| Architectures | wasm32, wasm64 |
+| Definition | [plflibs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plflibs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm plflibs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plflibs")
 ```
 
 
@@ -8164,7 +8332,7 @@ add_requires("rapidxml")
 | -- | -- |
 | Homepage | [https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html](https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html) |
 | License | BSL-1.0 |
-| Versions | v0.2.3 |
+| Versions | v2.1.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [reactiveplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reactiveplusplus/xmake.lua) |
 
@@ -9116,7 +9284,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

@@ -1906,7 +1906,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.13.32, v0.14.5, v0.14.6</td>
+<td>v0.13.32, v0.14.5, v0.14.6, v0.14.7</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -16906,7 +16906,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2, v1.2.2, v2.0.0</td>
+<td>v1.2, v1.2.2, v2.0.0, v2.0.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -31221,7 +31221,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2023.08.25</td>
+<td>v7.41</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -31238,6 +31238,265 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("plf_colony")
+</code></pre>
+<h3 id="plf_indiesortlinux">plf_indiesort (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A sort wrapper enabling both use of random-access sorting on non-random access containers, and increased performance for the sorting of large types.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://plflib.org/indiesort.htm">https://plflib.org/indiesort.htm</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.41</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_indiesort/xmake.lua">plf_indiesort/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install plf_indiesort
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("plf_indiesort")
+</code></pre>
+<h3 id="plf_listlinux">plf_list (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A data container replicating std::list functionality but with (on average) 333% faster insertion, 81% faster erasure and 16% faster iteration.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://plflib.org/list.htm">https://plflib.org/list.htm</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.73</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_list/xmake.lua">plf_list/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install plf_list
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("plf_list")
+</code></pre>
+<h3 id="plf_queuelinux">plf_queue (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A data container replicating std::queue functionality but with better performance than standard library containers in a queue context.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://plflib.org/queue.htm">https://plflib.org/queue.htm</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v2.0.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_queue/xmake.lua">plf_queue/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install plf_queue
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("plf_queue")
+</code></pre>
+<h3 id="plf_randlinux">plf_rand (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A replacement for rand()/srand() that&#39;s ~700% faster with (typically) better statistical distribution. An adaptation of PCG with fallback to xorshift for C++98/03.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://plflib.org/rand.htm">https://plflib.org/rand.htm</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.05</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_rand/xmake.lua">plf_rand/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install plf_rand
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("plf_rand")
+</code></pre>
+<h3 id="plf_reorderaselinux">plf_reorderase (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A faster method for singular erasures, ranged erasures, and erase_if-style erasures for vector/deque/static_vector when element order is not important.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://plflib.org/reorderase.htm">https://plflib.org/reorderase.htm</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.11</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_reorderase/xmake.lua">plf_reorderase/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install plf_reorderase
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("plf_reorderase")
+</code></pre>
+<h3 id="plf_stacklinux">plf_stack (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A data container replicating std::stack functionality but with better performance than standard library containers in a stack context.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://plflib.org/stack.htm">https://plflib.org/stack.htm</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v2.03</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_stack/xmake.lua">plf_stack/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install plf_stack
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("plf_stack")
+</code></pre>
+<h3 id="plflibslinux">plflibs (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Meta-package for all plf libraries.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://plflib.org">https://plflib.org</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plflibs/xmake.lua">plflibs/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install plflibs
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("plflibs")
 </code></pre>
 <h3 id="ploglinux">plog (linux)</h3>
 <table>
@@ -33865,7 +34124,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.2.3</td>
+<td>v2.1.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -37092,7 +37351,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -41720,7 +41979,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.268, v1.3.275</td>
+<td>v1.3.268, v1.3.275, v1.3.281</td>
 </tr>
 <tr>
 <td>Architectures</td>
