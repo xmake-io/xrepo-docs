@@ -962,7 +962,7 @@ add_requires("aws-c-common")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-compression](https://github.com/awslabs/aws-c-compression) |
 | License | Apache-2.0 |
-| Versions | v0.2.17 |
+| Versions | v0.2.17, v0.2.18 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-compression/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-compression/xmake.lua) |
 
@@ -23922,6 +23922,30 @@ xrepo install thrust
 
 ```lua
 add_requires("thrust")
+```
+
+
+### tiny-optional (macosx)
+
+
+| Description | *Replacement for std::optional that does not unnecessarily waste memory* |
+| -- | -- |
+| Homepage | [https://github.com/Sedeniono/tiny-optional](https://github.com/Sedeniono/tiny-optional) |
+| License | BSL-1.0 |
+| Versions | v1.2.0 |
+| Architectures | x86_64 |
+| Definition | [tiny-optional/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiny-optional/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tiny-optional
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tiny-optional")
 ```
 
 
