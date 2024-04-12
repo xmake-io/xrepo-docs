@@ -1654,7 +1654,7 @@ add_requires("cimg")
 | -- | -- |
 | Homepage | [https://cista.rocks](https://cista.rocks) |
 | License | MIT |
-| Versions | v0.14 |
+| Versions | v0.14, v0.15 |
 | Architectures | i386, x86_64 |
 | Definition | [cista/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cista/xmake.lua) |
 
