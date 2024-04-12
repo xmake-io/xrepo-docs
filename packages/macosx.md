@@ -14673,7 +14673,7 @@ add_requires("magic_enum")
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
 | Versions | v2020.06 |
-| Architectures | x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [magnum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum/xmake.lua) |
 
 ##### Install command
@@ -14721,7 +14721,7 @@ add_requires("magnum-extras")
 | Homepage | [https://magnum.graphics/](https://magnum.graphics/) |
 | License | MIT |
 | Versions | v2020.06 |
-| Architectures | x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [magnum-integration/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magnum-integration/xmake.lua) |
 
 ##### Install command
