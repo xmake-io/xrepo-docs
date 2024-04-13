@@ -10241,7 +10241,7 @@ add_requires("simsimd")
 | -- | -- |
 | Homepage | [https://github.com/cschreib/snitch](https://github.com/cschreib/snitch) |
 | License | BSL-1.0 |
-| Versions | 1.0.0 |
+| Versions | 1.0.0, 1.2.4 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [snitch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snitch/xmake.lua) |
 
@@ -10596,7 +10596,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -11517,6 +11517,30 @@ xrepo install -p cross [--sdk=/xxx] tinygltf
 
 ```lua
 add_requires("tinygltf")
+```
+
+
+### tinyobjloader (cross)
+
+
+| Description | *Tiny but powerful single file wavefront obj loader* |
+| -- | -- |
+| Homepage | [https://github.com/tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) |
+| License | MIT |
+| Versions | v1.0.7, v2.0.0rc10, v2.0.0rc13 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [tinyobjloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyobjloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] tinyobjloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyobjloader")
 ```
 
 

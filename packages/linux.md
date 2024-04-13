@@ -2985,7 +2985,7 @@ add_requires("cjson")
 | Description | *Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.* |
 | -- | -- |
 | Homepage | [http://concurrencykit.org/](http://concurrencykit.org/) |
-| Versions | 0.7.1 |
+| Versions | 0.7.1, 0.7.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ck/xmake.lua) |
 
@@ -11476,7 +11476,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19 |
+| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -16973,7 +16973,7 @@ add_requires("minizip")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
 | License | zlib |
-| Versions | 3.0.3, 3.0.5, 4.0.4 |
+| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 
@@ -24166,7 +24166,7 @@ add_requires("snappy")
 | -- | -- |
 | Homepage | [https://github.com/cschreib/snitch](https://github.com/cschreib/snitch) |
 | License | BSL-1.0 |
-| Versions | 1.0.0 |
+| Versions | 1.0.0, 1.2.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [snitch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snitch/xmake.lua) |
 
@@ -24688,7 +24688,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26134,7 +26134,7 @@ add_requires("tinygltf")
 | -- | -- |
 | Homepage | [https://github.com/tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) |
 | License | MIT |
-| Versions | v1.0.7, v2.0.0rc10 |
+| Versions | v1.0.7, v2.0.0rc10, v2.0.0rc13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinyobjloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyobjloader/xmake.lua) |
 
