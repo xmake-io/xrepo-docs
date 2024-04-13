@@ -11197,7 +11197,7 @@ add_requires("libpng")
 | -- | -- |
 | Homepage | [https://github.com/rockdaboot/libpsl](https://github.com/rockdaboot/libpsl) |
 | License | MIT |
-| Versions | 0.21.1 |
+| Versions | 0.21.1, 0.21.5 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libpsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpsl/xmake.lua) |
 

@@ -13104,7 +13104,7 @@ add_requires("libpqxx")
 | -- | -- |
 | Homepage | [https://github.com/rockdaboot/libpsl](https://github.com/rockdaboot/libpsl) |
 | License | MIT |
-| Versions | 0.21.1 |
+| Versions | 0.21.1, 0.21.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpsl/xmake.lua) |
 
