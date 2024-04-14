@@ -13472,7 +13472,7 @@ add_requires("vulkan-validationlayers")
 | -- | -- |
 | Homepage | [https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html](https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html) |
 | License | BSD-3-Clause-Clear |
-| Versions | v1.9.0 |
+| Versions | v1.9.0, v1.11.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [vvenc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vvenc/xmake.lua) |
 
