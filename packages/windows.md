@@ -17837,29 +17837,6 @@ add_requires("promise-cpp")
 ```
 
 
-### protobuf-c (windows)
-
-
-| Description | *Google's data interchange format for c* |
-| -- | -- |
-| Homepage | [https://github.com/protobuf-c/protobuf-c](https://github.com/protobuf-c/protobuf-c) |
-| Versions | 1.3.1 |
-| Architectures | arm64, x64, x86 |
-| Definition | [protobuf-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-c/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install protobuf-c
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("protobuf-c")
-```
-
-
 ### protobuf-cpp (windows)
 
 

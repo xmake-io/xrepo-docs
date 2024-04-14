@@ -19660,7 +19660,7 @@ add_requires("promise-cpp")
 | Description | *Google's data interchange format for c* |
 | -- | -- |
 | Homepage | [https://github.com/protobuf-c/protobuf-c](https://github.com/protobuf-c/protobuf-c) |
-| Versions | 1.3.1 |
+| Versions | 1.3.1, 1.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [protobuf-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-c/xmake.lua) |
 
