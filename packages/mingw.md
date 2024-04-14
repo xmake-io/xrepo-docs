@@ -54,7 +54,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | 2.3.1, 2.4.0, 2.4.1, 2.7.6, 2.7.7 |
+| Versions | 2.3.1, 2.4.0, 2.4.1, 2.7.6, 2.7.7, 2.7.8 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -12468,7 +12468,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -12967,7 +12967,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -15666,7 +15666,7 @@ add_requires("zasm")
 | -- | -- |
 | Homepage | [https://github.com/zeus-cpp/expected](https://github.com/zeus-cpp/expected) |
 | License | MIT |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [zeus_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zeus_expected/xmake.lua) |
 
