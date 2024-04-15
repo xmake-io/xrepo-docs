@@ -17656,7 +17656,7 @@ add_requires("polyhook2")
 | -- | -- |
 | Homepage | [https://polyscope.run/](https://polyscope.run/) |
 | License | MIT |
-| Versions | v1.3.0, v2.1.0 |
+| Versions | v1.3.0, v2.1.0, v2.2.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [polyscope/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/polyscope/xmake.lua) |
 
