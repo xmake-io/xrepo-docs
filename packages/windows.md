@@ -19433,8 +19433,8 @@ add_requires("robotstxt")
 | Description | *A library that provides an embeddable, persistent key-value store for fast storage.* |
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
-| Versions | v7.10.2 |
-| Architectures | arm64, x64, x86 |
+| Versions | v7.10.2, v9.0.0 |
+| Architectures | x64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
 ##### Install command
@@ -19838,7 +19838,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
 | License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0 |
+| Versions | v0.6.0, v0.10.0, v0.12.0 |
 | Architectures | x64, x86 |
 | Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
 
@@ -20929,7 +20929,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -21750,6 +21750,30 @@ xrepo install tclsh
 
 ```lua
 add_requires("tclsh")
+```
+
+
+### teascript (windows)
+
+
+| Description | *TeaScript C++ Library - embedded scripting language for C++ Applications* |
+| -- | -- |
+| Homepage | [https://tea-age.solutions/teascript/overview-and-highlights/](https://tea-age.solutions/teascript/overview-and-highlights/) |
+| License | MPL-2.0 |
+| Versions | v0.13.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [teascript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/teascript/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install teascript
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("teascript")
 ```
 
 
