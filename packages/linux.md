@@ -1935,6 +1935,29 @@ add_requires("boost_di")
 ```
 
 
+### boost_reflect (linux)
+
+
+| Description | *C++20 static reflection library* |
+| -- | -- |
+| Homepage | [https://github.com/boost-ext/reflect](https://github.com/boost-ext/reflect) |
+| Versions | v1.1.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [boost_reflect/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_reflect/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install boost_reflect
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_reflect")
+```
+
+
 ### boost_sml (linux)
 
 
@@ -9649,7 +9672,7 @@ add_requires("imgui")
 | -- | -- |
 | Homepage | [https://github.com/aiekick/ImGuiFileDialog](https://github.com/aiekick/ImGuiFileDialog) |
 | License | MIT |
-| Versions | v0.6.5, v0.6.6 |
+| Versions | v0.6.5, v0.6.6, v0.6.7 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imgui-file-dialog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui-file-dialog/xmake.lua) |
 
@@ -24783,7 +24806,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
