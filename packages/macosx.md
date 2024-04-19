@@ -26975,7 +26975,7 @@ add_requires("yasm")
 | -- | -- |
 | Homepage | [https://yogalayout.com/](https://yogalayout.com/) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.2, v3.0.3 |
+| Versions | v2.0.1, v3.0.0, v3.0.2, v3.0.3, v3.0.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [yoga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yoga/xmake.lua) |
 
