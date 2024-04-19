@@ -917,7 +917,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13, v0.9.14 |
+| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -5967,7 +5967,7 @@ add_requires("farmhash")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3 |
+| Versions | v1.1.0, v2.1.3, v2.2.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -15177,7 +15177,7 @@ add_requires("newtondynamics4")
 | -- | -- |
 | Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
 | License | MIT |
-| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0 |
+| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
 
@@ -21000,7 +21000,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
