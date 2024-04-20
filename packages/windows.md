@@ -1484,6 +1484,30 @@ add_requires("bison")
 ```
 
 
+### bitsery (windows)
+
+
+| Description | *Header only C++ binary serialization library. It is designed around the networking requirements for real-time data delivery, especially for games.* |
+| -- | -- |
+| Homepage | [https://github.com/fraillt/bitsery](https://github.com/fraillt/bitsery) |
+| License | MIT |
+| Versions | v5.2.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [bitsery/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bitsery/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bitsery
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bitsery")
+```
+
+
 ### blah (windows)
 
 
@@ -5677,7 +5701,7 @@ add_requires("ensmallen")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
-| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1 |
+| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1, v3.13.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -15390,7 +15414,7 @@ add_requires("nlopt")
 | Description | *NNG, like its predecessors nanomsg (and to some extent ZeroMQ), is a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.* |
 | -- | -- |
 | Homepage | [https://github.com/nanomsg/nng](https://github.com/nanomsg/nng) |
-| Versions | 1.3.2, 1.4.0, 1.5.2 |
+| Versions | 1.3.2, 1.4.0, 1.5.2, 1.7.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
 
@@ -21024,7 +21048,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
