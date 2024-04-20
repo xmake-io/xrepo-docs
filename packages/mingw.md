@@ -533,7 +533,7 @@ add_requires("autoconf-archive")
 | -- | -- |
 | Homepage | [https://autodiff.github.io](https://autodiff.github.io) |
 | License | MIT |
-| Versions | v1.0.3 |
+| Versions | v1.0.3, v1.1.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [autodiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autodiff/xmake.lua) |
 
@@ -7526,7 +7526,7 @@ add_requires("litehtml")
 | Description | *A little fail-safe filesystem designed for microcontrollers* |
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
-| Versions | v2.5.0, v2.8.2 |
+| Versions | v2.5.0, v2.8.2, v2.9.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
 
@@ -13038,7 +13038,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
