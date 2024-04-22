@@ -3032,7 +3032,7 @@ add_requires("clipper2")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1, 3.28.3 |
+| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1, 3.28.3, 3.29.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
@@ -5902,6 +5902,30 @@ xrepo install faad2
 
 ```lua
 add_requires("faad2")
+```
+
+
+### fakeit (macosx)
+
+
+| Description | *C++ mocking made easy. A simple yet very expressive, headers only library for c++ mocking.* |
+| -- | -- |
+| Homepage | [https://github.com/eranpeer/FakeIt](https://github.com/eranpeer/FakeIt) |
+| License | MIT |
+| Versions | 2.4.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [fakeit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fakeit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fakeit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fakeit")
 ```
 
 
