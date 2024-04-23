@@ -18812,6 +18812,30 @@ add_requires("noise-c")
 ```
 
 
+### noisy (linux)
+
+
+| Description | *A C++ type to trace calls to special member functions.* |
+| -- | -- |
+| Homepage | [https://vzalzal.com/posts/noisy-the-class-you-wrote-a-hundred-times/](https://vzalzal.com/posts/noisy-the-class-you-wrote-a-hundred-times/) |
+| License | MIT |
+| Versions | 2024.04.22 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [noisy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/noisy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install noisy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("noisy")
+```
+
+
 ### nowide_standalone (linux)
 
 
@@ -24950,7 +24974,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29323,7 +29347,7 @@ add_requires("yoga")
 | -- | -- |
 | Homepage | [https://github.com/jll63/yomm2](https://github.com/jll63/yomm2) |
 | License | BSL-1.0 |
-| Versions | v1.4.0 |
+| Versions | v1.4.0, v1.5.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [yomm2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yomm2/xmake.lua) |
 
