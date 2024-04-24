@@ -2033,10 +2033,10 @@ add_requires("boost_ut")
 ### boringssl (linux)
 
 
-| Description | *A fork of OpenSSL that is designed to meet Google's needs.* |
+| Description | *BoringSSL is a fork of OpenSSL that is designed to meet Google's needs.* |
 | -- | -- |
 | Homepage | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
-| Versions | 2021.12.29 |
+| Versions | 2021.12.29, 2022.06.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [boringssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boringssl/xmake.lua) |
 
@@ -6148,7 +6148,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10 |
+| Versions | 20.38.0, 20.38.10, 20.38.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -8481,7 +8481,7 @@ add_requires("gnu-sed")
 | Description | *The Go Programming Language* |
 | -- | -- |
 | Homepage | [https://golang.org/](https://golang.org/) |
-| Versions | 1.17.6 |
+| Versions | 1.17.6, 1.22.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [go/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/go/xmake.lua) |
 
@@ -16522,7 +16522,7 @@ add_requires("mathfu")
 | -- | -- |
 | Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
 | License | BSD-2-Clause |
-| Versions | v1.5.26 |
+| Versions | v1.5.26, v1.5.27 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
 
@@ -24974,7 +24974,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
