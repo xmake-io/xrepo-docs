@@ -6769,7 +6769,7 @@ add_requires("frozen")
 | -- | -- |
 | Homepage | [https://github.com/Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) |
 | License | MIT |
-| Versions | v0.15.29, v0.15.31 |
+| Versions | v0.15.29, v0.15.31, v0.16.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [frugally-deep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frugally-deep/xmake.lua) |
 
@@ -23079,7 +23079,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
