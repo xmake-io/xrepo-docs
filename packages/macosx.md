@@ -23079,7 +23079,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -23575,7 +23575,7 @@ add_requires("subprocess.h")
 | Description | *SuiteSparse is a suite of sparse matrix algorithms* |
 | -- | -- |
 | Homepage | [https://people.engr.tamu.edu/davis/suitesparse.html](https://people.engr.tamu.edu/davis/suitesparse.html) |
-| Versions | v5.10.1, v5.12.0, v5.13.0, v7.5.1, v7.6.0 |
+| Versions | v5.10.1, v5.12.0, v5.13.0, v7.5.1, v7.6.0, v7.7.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [suitesparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/suitesparse/xmake.lua) |
 
