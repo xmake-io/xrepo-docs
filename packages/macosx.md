@@ -21537,7 +21537,7 @@ add_requires("robotstxt")
 | Description | *A library that provides an embeddable, persistent key-value store for fast storage.* |
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
-| Versions | v7.10.2, v9.0.0 |
+| Versions | v7.10.2, v9.0.0, v9.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
