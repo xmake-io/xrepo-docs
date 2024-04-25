@@ -1059,7 +1059,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2 |
+| Versions | v0.6.2, v0.6.11 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -23670,7 +23670,7 @@ add_requires("rxcpp")
 | -- | -- |
 | Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
 | License | Apache-2.0 |
-| Versions | v1.3.51, v1.4.3 |
+| Versions | v1.3.51, v1.4.3, v1.4.12 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
 
@@ -24974,7 +24974,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27066,7 +27066,7 @@ add_requires("ucx")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1 |
+| Versions | v0.6.1, v0.11.1, v0.12.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 

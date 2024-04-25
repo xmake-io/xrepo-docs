@@ -10970,7 +10970,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -12310,7 +12310,7 @@ add_requires("uchardet")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1 |
+| Versions | v0.6.1, v0.11.1, v0.12.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
