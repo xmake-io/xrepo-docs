@@ -12658,6 +12658,29 @@ add_requires("llvm")
 ```
 
 
+### llvm-arm (windows)
+
+
+| Description | *A project dedicated to building LLVM toolchain for 32-bit Arm embedded targets.* |
+| -- | -- |
+| Homepage | [https://github.com/ARM-software/LLVM-embedded-toolchain-for-Arm](https://github.com/ARM-software/LLVM-embedded-toolchain-for-Arm) |
+| Versions | 17.0.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [llvm-arm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-arm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install llvm-arm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llvm-arm")
+```
+
+
 ### llvm-mingw (windows)
 
 
@@ -21168,7 +21191,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
