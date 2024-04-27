@@ -1797,7 +1797,7 @@ add_requires("boost_di")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/sml](https://boost-ext.github.io/sml) |
 | License | BSL-1.0 |
-| Versions | v1.1.8 |
+| Versions | v1.1.8, v1.1.11 |
 | Architectures | arm64, x86_64 |
 | Definition | [boost_sml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_sml/xmake.lua) |
 
@@ -23102,7 +23102,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27190,7 +27190,7 @@ add_requires("yoga")
 | -- | -- |
 | Homepage | [https://github.com/jll63/yomm2](https://github.com/jll63/yomm2) |
 | License | BSL-1.0 |
-| Versions | v1.4.0, v1.5.0 |
+| Versions | v1.4.0, v1.5.0, v1.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [yomm2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yomm2/xmake.lua) |
 
