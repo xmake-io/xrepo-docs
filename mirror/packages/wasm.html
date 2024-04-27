@@ -2654,6 +2654,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("cpp-sort")
 </code></pre>
+<h3 id="cppcodecwasm">cppcodec (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Header-only C++11 library to encode/decode base64, base64url, base32, base32hex and hex (a.k.a. base16) as specified in RFC 4648, plus Crockford&#39;s base32. MIT licensed with consistent, flexible API.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/tplgy/cppcodec">https://github.com/tplgy/cppcodec</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2022.09.07</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcodec/xmake.lua">cppcodec/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm cppcodec
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("cppcodec")
+</code></pre>
 <h3 id="cppitertoolswasm">cppitertools (wasm)</h3>
 <table>
 <thead>

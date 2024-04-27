@@ -796,7 +796,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4 |
+| Versions | v0.23.1, v0.26.4, v0.26.8 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -2239,6 +2239,30 @@ xrepo install cpp20-http-client
 
 ```lua
 add_requires("cpp20-http-client")
+```
+
+
+### cppcodec (bsd)
+
+
+| Description | *Header-only C++11 library to encode/decode base64, base64url, base32, base32hex and hex (a.k.a. base16) as specified in RFC 4648, plus Crockford's base32. MIT licensed with consistent, flexible API.* |
+| -- | -- |
+| Homepage | [https://github.com/tplgy/cppcodec](https://github.com/tplgy/cppcodec) |
+| License | MIT |
+| Versions | 2022.09.07 |
+| Architectures | i386, x86_64 |
+| Definition | [cppcodec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcodec/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppcodec
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppcodec")
 ```
 
 

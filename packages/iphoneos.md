@@ -1904,6 +1904,30 @@ add_requires("cpp-sort")
 ```
 
 
+### cppcodec (iphoneos)
+
+
+| Description | *Header-only C++11 library to encode/decode base64, base64url, base32, base32hex and hex (a.k.a. base16) as specified in RFC 4648, plus Crockford's base32. MIT licensed with consistent, flexible API.* |
+| -- | -- |
+| Homepage | [https://github.com/tplgy/cppcodec](https://github.com/tplgy/cppcodec) |
+| License | MIT |
+| Versions | 2022.09.07 |
+| Architectures | arm64, x86_64 |
+| Definition | [cppcodec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcodec/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos cppcodec
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppcodec")
+```
+
+
 ### cppitertools (iphoneos)
 
 
