@@ -23515,6 +23515,30 @@ add_requires("usd")
 ```
 
 
+### usockets (windows)
+
+
+| Description | *µSockets is the non-blocking, thread-per-CPU foundation library used by µWebSockets. It provides optimized networking - using the same opaque API (programming interface) across all supported transports, event-loops and platforms.* |
+| -- | -- |
+| Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
+| License | Apache-2.0 |
+| Versions | v0.8.8 |
+| Architectures | arm64, x64, x86 |
+| Definition | [usockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usockets/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install usockets
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("usockets")
+```
+
+
 ### utest.h (windows)
 
 
