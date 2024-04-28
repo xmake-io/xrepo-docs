@@ -6278,7 +6278,7 @@ add_requires("fdk-aac")
 | -- | -- |
 | Homepage | [https://www.ffmpeg.org](https://www.ffmpeg.org) |
 | License | GPL-3.0 |
-| Versions | 4.0.2, 5.0.1, 5.1.1, 5.1.2, 6.0.1, 6.1 |
+| Versions | 4.0.2, 5.0.1, 5.1.1, 5.1.2, 6.0.1, 6.1, 7.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ffmpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffmpeg/xmake.lua) |
 
@@ -23796,6 +23796,30 @@ xrepo install uvwasi
 
 ```lua
 add_requires("uvwasi")
+```
+
+
+### uwebsockets (windows)
+
+
+| Description | *Simple, secure & standards compliant web server for the most demanding of applications.* |
+| -- | -- |
+| Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
+| License | Apache-2.0 |
+| Versions | v20.60.0, v20.61.0, v20.62.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [uwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uwebsockets/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uwebsockets
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uwebsockets")
 ```
 
 

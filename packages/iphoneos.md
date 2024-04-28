@@ -3241,6 +3241,30 @@ add_requires("fdk-aac")
 ```
 
 
+### ffmpeg (iphoneos)
+
+
+| Description | *A collection of libraries to process multimedia content such as audio, video, subtitles and related metadata.* |
+| -- | -- |
+| Homepage | [https://www.ffmpeg.org](https://www.ffmpeg.org) |
+| License | GPL-3.0 |
+| Versions | 4.0.2, 5.0.1, 5.1.1, 5.1.2, 6.0.1, 6.1, 7.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [ffmpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffmpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos ffmpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ffmpeg")
+```
+
+
 ### flatbuffers (iphoneos)
 
 
