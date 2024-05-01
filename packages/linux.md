@@ -5550,7 +5550,7 @@ add_requires("drogon")
 | -- | -- |
 | Homepage | [http://duckdb.org/](http://duckdb.org/) |
 | License | MIT |
-| Versions | v0.10.0, v0.10.1 |
+| Versions | v0.10.0, v0.10.1, v0.10.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [duckdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duckdb/xmake.lua) |
 
@@ -6052,7 +6052,7 @@ add_requires("emscripten")
 | -- | -- |
 | Homepage | [http://enet.bespin.org](http://enet.bespin.org) |
 | License | MIT |
-| Versions | v1.3.17 |
+| Versions | v1.3.17, v1.3.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [enet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet/xmake.lua) |
 
@@ -8435,7 +8435,7 @@ add_requires("gn")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gsl/](https://www.gnu.org/software/gsl/) |
 | License | GPL-3.0 |
-| Versions | 2.7 |
+| Versions | 2.7, 2.7.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gnu-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-gsl/xmake.lua) |
 
@@ -21297,7 +21297,7 @@ add_requires("pocketfft")
 | -- | -- |
 | Homepage | [https://github.com/blueloveTH/pocketpy](https://github.com/blueloveTH/pocketpy) |
 | License | MIT |
-| Versions | v0.9.0 |
+| Versions | v0.9.0, v1.4.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pocketpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketpy/xmake.lua) |
 
@@ -22117,6 +22117,30 @@ add_requires("qhull")
 ```
 
 
+### qmsetup (linux)
+
+
+| Description | *CMake Modules and Basic Libraries for C/C++ projects.* |
+| -- | -- |
+| Homepage | [https://github.com/stdware/qmsetup](https://github.com/stdware/qmsetup) |
+| License | MIT |
+| Versions | 2024.04.23 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [qmsetup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qmsetup/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qmsetup
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qmsetup")
+```
+
+
 ### qoi (linux)
 
 
@@ -22707,6 +22731,30 @@ xrepo install quill
 
 ```lua
 add_requires("quill")
+```
+
+
+### qwindowkit (linux)
+
+
+| Description | *Cross-platform frameless window framework for Qt. Support Windows, macOS, Linux.* |
+| -- | -- |
+| Homepage | [https://github.com/stdware/qwindowkit](https://github.com/stdware/qwindowkit) |
+| License | Apache-2.0 |
+| Versions | 1.1 |
+| Architectures | x86_64 |
+| Definition | [qwindowkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qwindowkit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qwindowkit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qwindowkit")
 ```
 
 
@@ -25070,7 +25118,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

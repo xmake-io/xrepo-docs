@@ -8645,7 +8645,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.17</td>
+<td>v1.3.17, v1.3.18</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11860,6 +11860,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("gn")
+</code></pre>
+<h3 id="gnugslwindows">gnu-gsl (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.gnu.org/software/gsl/">https://www.gnu.org/software/gsl/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.7, 2.7.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-gsl/xmake.lua">gnu-gsl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install gnu-gsl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gnu-gsl")
 </code></pre>
 <h3 id="gnurmwindows">gnu-rm (windows)</h3>
 <table>
@@ -27221,7 +27258,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.9.0</td>
+<td>v0.9.0, v1.4.5</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -28220,6 +28257,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("qhull")
 </code></pre>
+<h3 id="qmsetupwindows">qmsetup (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>CMake Modules and Basic Libraries for C/C++ projects.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/stdware/qmsetup">https://github.com/stdware/qmsetup</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.04.23</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qmsetup/xmake.lua">qmsetup/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install qmsetup
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("qmsetup")
+</code></pre>
 <h3 id="qoiwindows">qoi (windows)</h3>
 <table>
 <thead>
@@ -29083,6 +29157,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("quill")
+</code></pre>
+<h3 id="qwindowkitwindows">qwindowkit (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Cross-platform frameless window framework for Qt. Support Windows, macOS, Linux.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/stdware/qwindowkit">https://github.com/stdware/qwindowkit</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>x64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qwindowkit/xmake.lua">qwindowkit/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install qwindowkit
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("qwindowkit")
 </code></pre>
 <h2 id="r">r</h2>
 <h3 id="rangwindows">rang (windows)</h3>
@@ -32265,7 +32376,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
