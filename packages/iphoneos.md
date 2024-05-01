@@ -8660,7 +8660,7 @@ add_requires("ordered_map")
 | -- | -- |
 | Homepage | [https://github.com/qicosmos/ormpp](https://github.com/qicosmos/ormpp) |
 | License | Apache-2.0 |
-| Versions | v0.1.1 |
+| Versions | v0.1.1, v0.1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [ormpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ormpp/xmake.lua) |
 
@@ -11089,7 +11089,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -11654,6 +11654,30 @@ xrepo install -p iphoneos theora
 
 ```lua
 add_requires("theora")
+```
+
+
+### thorvg (iphoneos)
+
+
+| Description | *Thor Vector Graphics is a lightweight portable library used for drawing vector-based scenes and animations including SVG and Lottie. It can be freely utilized across various software platforms and applications to visualize graphical contents.* |
+| -- | -- |
+| Homepage | [https://www.thorvg.org](https://www.thorvg.org) |
+| License | MIT |
+| Versions | v0.13.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [thorvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thorvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos thorvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("thorvg")
 ```
 
 
