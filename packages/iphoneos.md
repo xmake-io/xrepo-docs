@@ -6619,7 +6619,7 @@ add_requires("llvm-arm")
 | Description | *An LLVM/Clang/LLD based mingw-w64 toolchain* |
 | -- | -- |
 | Homepage | [https://github.com/mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) |
-| Versions | 20211002, 20220323 |
+| Versions | 20211002, 20220323, 20240417 |
 | Architectures | arm64, x86_64 |
 | Definition | [llvm-mingw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm-mingw/xmake.lua) |
 
@@ -9491,6 +9491,7 @@ add_requires("pystring")
 | Description | *The python programming language.* |
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
+| License | PSF |
 | Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
@@ -10209,7 +10210,7 @@ add_requires("robin-hood-hashing")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
 | License | MIT |
-| Versions | v0.6.3, v1.2.1, v1.2.2 |
+| Versions | v0.6.3, v1.2.1, v1.2.2, v1.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
 
@@ -10581,6 +10582,30 @@ xrepo install -p iphoneos seqan3
 
 ```lua
 add_requires("seqan3")
+```
+
+
+### shaderc (iphoneos)
+
+
+| Description | *A collection of tools, libraries, and tests for Vulkan shader compilation.* |
+| -- | -- |
+| Homepage | [https://github.com/google/shaderc](https://github.com/google/shaderc) |
+| License | Apache-2.0 |
+| Versions | v2022.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [shaderc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos shaderc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("shaderc")
 ```
 
 
@@ -11019,7 +11044,7 @@ add_requires("sparsepp")
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
 | License | MIT |
-| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.10.0, v1.11.0, v1.12.0, v1.13.0, v1.14.0 |
+| Versions | v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.10.0, v1.11.0, v1.12.0, v1.13.0, v1.14.0, v1.14.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
@@ -11113,7 +11138,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
