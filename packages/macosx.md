@@ -7508,7 +7508,7 @@ add_requires("glfw")
 | -- | -- |
 | Homepage | [https://github.com/eliemichel/glfw3webgpu](https://github.com/eliemichel/glfw3webgpu) |
 | License | MIT |
-| Versions | v1.0.1, v1.1.0 |
+| Versions | v1.0.1, v1.1.0, v1.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [glfw3webgpu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glfw3webgpu/xmake.lua) |
 
@@ -14838,7 +14838,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14 |
+| Versions | 2.14, 4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -22392,7 +22392,7 @@ add_requires("sfntly")
 | -- | -- |
 | Homepage | [https://github.com/google/shaderc](https://github.com/google/shaderc) |
 | License | Apache-2.0 |
-| Versions | v2022.2 |
+| Versions | v2022.2, v2024.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [shaderc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderc/xmake.lua) |
 
@@ -25269,7 +25269,7 @@ add_requires("uchardet")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1, v0.12.0 |
+| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
