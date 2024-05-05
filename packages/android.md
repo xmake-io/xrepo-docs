@@ -1813,7 +1813,7 @@ add_requires("convertutf")
 | Description | *build-once run-anywhere c library* |
 | -- | -- |
 | Homepage | [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan) |
-| Versions | 3.2.4, 3.3.2 |
+| Versions | 3.2.4, 3.3.2, 3.3.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [cosmocc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cosmocc/xmake.lua) |
 
@@ -6929,7 +6929,7 @@ add_requires("litehtml")
 | Description | *A little fail-safe filesystem designed for microcontrollers* |
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
-| Versions | v2.5.0, v2.8.2, v2.9.2 |
+| Versions | v2.5.0, v2.8.2, v2.9.2, v2.9.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
 
@@ -11353,7 +11353,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -11827,7 +11827,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
