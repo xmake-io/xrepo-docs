@@ -2243,6 +2243,29 @@ add_requires("celero")
 ```
 
 
+### cello (windows)
+
+
+| Description | *Higher level programming in C* |
+| -- | -- |
+| Homepage | [http://libcello.org/](http://libcello.org/) |
+| Versions | 2.1.0 |
+| Architectures | x64, x86 |
+| Definition | [cello/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cello/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cello
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cello")
+```
+
+
 ### cereal (windows)
 
 
@@ -12995,7 +13018,7 @@ add_requires("luajit")
 | -- | -- |
 | Homepage | [https://luau-lang.org/](https://luau-lang.org/) |
 | License | MIT |
-| Versions | 0.538 |
+| Versions | 0.538, 0.623, 0.624 |
 | Architectures | arm64, x64, x86 |
 | Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
 
@@ -14800,7 +14823,7 @@ add_requires("mscharconv")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
-| Versions | v1.10 |
+| Versions | v1.10, v1.11 |
 | Architectures | arm64, x64, x86 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
@@ -21337,7 +21360,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -21682,6 +21705,30 @@ xrepo install strings_h
 
 ```lua
 add_requires("strings_h")
+```
+
+
+### stringzilla (windows)
+
+
+| Description | *Up to 10x faster string search, split, sort, and shuffle for long strings and multi-gigabyte files in Python and C, leveraging SIMD with just a few lines of Arm Neon and x86 AVX2 & AVX-512 intrinsics 🦖* |
+| -- | -- |
+| Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
+| License | Apache-2.0 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4 |
+| Architectures | arm64, x64, x86 |
+| Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stringzilla
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stringzilla")
 ```
 
 
@@ -24358,8 +24405,8 @@ add_requires("vulkan-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
 | License | Apache-2.0 |
-| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254, v1.3.261, v1.3.268, v1.3.272, v1.3.275 |
-| Architectures | x64, x86 |
+| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254, v1.3.261, v1.3.268, v1.3.272, v1.3.275, v1.3.276, v1.3.277, v1.3.278, v1.3.279, v1.3.280, v1.3.281 |
+| Architectures | x64 |
 | Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
 
 ##### Install command
@@ -25831,30 +25878,6 @@ xrepo install zltoolkit
 
 ```lua
 add_requires("zltoolkit")
-```
-
-
-### zmqpb (windows)
-
-
-| Description | *A helper to use zeromq and protobuf together* |
-| -- | -- |
-| Homepage | [https://github.com/SFGrenade/ZmqPb/](https://github.com/SFGrenade/ZmqPb/) |
-| License | MPL-2.0 |
-| Versions | 0.1, 0.2, 0.3, 0.4 |
-| Architectures | arm64, x64, x86 |
-| Definition | [zmqpb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install zmqpb
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("zmqpb")
 ```
 
 

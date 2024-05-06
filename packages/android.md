@@ -1213,6 +1213,29 @@ add_requires("catch2")
 ```
 
 
+### cello (android)
+
+
+| Description | *Higher level programming in C* |
+| -- | -- |
+| Homepage | [http://libcello.org/](http://libcello.org/) |
+| Versions | 2.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cello/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cello/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cello
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cello")
+```
+
+
 ### cereal (android)
 
 
@@ -7228,6 +7251,30 @@ add_requires("luajit")
 ```
 
 
+### luau (android)
+
+
+| Description | *A fast, small, safe, gradually typed embeddable scripting language derived from Lua.* |
+| -- | -- |
+| Homepage | [https://luau-lang.org/](https://luau-lang.org/) |
+| License | MIT |
+| Versions | 0.538, 0.623, 0.624 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] luau
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("luau")
+```
+
+
 ### lvgl (android)
 
 
@@ -8256,7 +8303,7 @@ add_requires("mscharconv")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
-| Versions | v1.10 |
+| Versions | v1.10, v1.11 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
@@ -11827,7 +11874,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -12918,6 +12965,30 @@ add_requires("tmx")
 ```
 
 
+### tobiaslocker_base64 (android)
+
+
+| Description | *A modern C++ base64 encoder / decoder * |
+| -- | -- |
+| Homepage | [https://github.com/tobiaslocker/base64](https://github.com/tobiaslocker/base64) |
+| License | MIT |
+| Versions | 2024.02.26 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tobiaslocker_base64/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tobiaslocker_base64/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tobiaslocker_base64
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tobiaslocker_base64")
+```
+
+
 ### toml++ (android)
 
 
@@ -13630,30 +13701,6 @@ xrepo install -p android [--ndk=/xxx] vulkan-headers
 
 ```lua
 add_requires("vulkan-headers")
-```
-
-
-### vulkan-hpp (android)
-
-
-| Description | *Open-Source Vulkan C++ API* |
-| -- | -- |
-| Homepage | [https://github.com/KhronosGroup/Vulkan-Hpp/](https://github.com/KhronosGroup/Vulkan-Hpp/) |
-| License | Apache-2.0 |
-| Versions | v1.2.180, v1.2.189, v1.2.198, v1.3.231, v1.3.236, v1.3.240, v1.3.244, v1.3.254, v1.3.261, v1.3.268, v1.3.272, v1.3.275 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
-| Definition | [vulkan-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-hpp/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] vulkan-hpp
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("vulkan-hpp")
 ```
 
 

@@ -4554,6 +4554,30 @@ add_requires("libass")
 ```
 
 
+### libdicom (wasm)
+
+
+| Description | *C library for reading DICOM files* |
+| -- | -- |
+| Homepage | [https://libdicom.readthedocs.io](https://libdicom.readthedocs.io) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libdicom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdicom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libdicom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdicom")
+```
+
+
 ### libdisasm (wasm)
 
 
@@ -6569,7 +6593,7 @@ add_requires("mscharconv")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
-| Versions | v1.10 |
+| Versions | v1.10, v1.11 |
 | Architectures | wasm32, wasm64 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
@@ -9452,7 +9476,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -9680,6 +9704,30 @@ xrepo install -p wasm string-view-lite
 
 ```lua
 add_requires("string-view-lite")
+```
+
+
+### stringzilla (wasm)
+
+
+| Description | *Up to 10x faster string search, split, sort, and shuffle for long strings and multi-gigabyte files in Python and C, leveraging SIMD with just a few lines of Arm Neon and x86 AVX2 & AVX-512 intrinsics 🦖* |
+| -- | -- |
+| Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
+| License | Apache-2.0 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4 |
+| Architectures | wasm32, wasm64 |
+| Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm stringzilla
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stringzilla")
 ```
 
 
@@ -10350,6 +10398,30 @@ xrepo install -p wasm tl_optional
 
 ```lua
 add_requires("tl_optional")
+```
+
+
+### tobiaslocker_base64 (wasm)
+
+
+| Description | *A modern C++ base64 encoder / decoder * |
+| -- | -- |
+| Homepage | [https://github.com/tobiaslocker/base64](https://github.com/tobiaslocker/base64) |
+| License | MIT |
+| Versions | 2024.02.26 |
+| Architectures | wasm32, wasm64 |
+| Definition | [tobiaslocker_base64/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tobiaslocker_base64/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm tobiaslocker_base64
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tobiaslocker_base64")
 ```
 
 
