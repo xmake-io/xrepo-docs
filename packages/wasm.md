@@ -1008,7 +1008,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -6967,6 +6967,30 @@ add_requires("nlohmann_json")
 ```
 
 
+### nmd (wasm)
+
+
+| Description | *An x86 assembler and disassembler along with a C89 header file (nmd_assembly.h), and a C89 2D graphics library (nmd_graphics.h).* |
+| -- | -- |
+| Homepage | [https://github.com/Nomade040/nmd](https://github.com/Nomade040/nmd) |
+| License | Unlicense |
+| Versions | 2021.03.28 |
+| Architectures | wasm32, wasm64 |
+| Definition | [nmd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nmd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm nmd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nmd")
+```
+
+
 ### nod (wasm)
 
 
@@ -9476,7 +9500,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
