@@ -3422,7 +3422,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.0.4</td>
+<td>v2.0.4, v3.0.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4263,6 +4263,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("distorm")
+</code></pre>
+<h3 id="dlibandroid">dlib (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A toolkit for making real world machine learning and data analysis applications in C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://dlib.net">https://dlib.net</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Boost</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v19.22, v19.24.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua">dlib/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] dlib
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("dlib")
 </code></pre>
 <h3 id="docoptandroid">docopt (android)</h3>
 <table>
@@ -5684,43 +5721,6 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("freetype")
-</code></pre>
-<h3 id="fribidiandroid">fribidi (android)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>The Free Implementation of the Unicode Bidirectional Algorithm.</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://github.com/fribidi/fribidi">https://github.com/fribidi/fribidi</a></td>
-</tr>
-<tr>
-<td>License</td>
-<td>LGPL-2.1</td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>1.0.10, 1.0.11, 1.0.12, 1.0.13</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua">fribidi/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] fribidi
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("fribidi")
 </code></pre>
 <h3 id="frozenandroid">frozen (android)</h3>
 <table>

@@ -3912,7 +3912,7 @@ add_requires("crc32c")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4 |
+| Versions | v2.0.4, v3.0.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -4958,7 +4958,7 @@ add_requires("distorm")
 | -- | -- |
 | Homepage | [https://dlib.net](https://dlib.net) |
 | License | Boost |
-| Versions | v19.22 |
+| Versions | v19.22, v19.24.4 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua) |
 
@@ -6751,8 +6751,8 @@ add_requires("freetype")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13 |
-| Architectures | arm64, x64, x86 |
+| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13, 1.0.14 |
+| Architectures | x64, x86 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
 ##### Install command

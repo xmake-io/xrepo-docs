@@ -2194,7 +2194,7 @@ add_requires("crc32c")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4 |
+| Versions | v2.0.4, v3.0.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -2755,6 +2755,30 @@ xrepo install -p android [--ndk=/xxx] distorm
 
 ```lua
 add_requires("distorm")
+```
+
+
+### dlib (android)
+
+
+| Description | *A toolkit for making real world machine learning and data analysis applications in C++* |
+| -- | -- |
+| Homepage | [https://dlib.net](https://dlib.net) |
+| License | Boost |
+| Versions | v19.22, v19.24.4 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [dlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] dlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dlib")
 ```
 
 
@@ -3689,30 +3713,6 @@ xrepo install -p android [--ndk=/xxx] freetype
 
 ```lua
 add_requires("freetype")
-```
-
-
-### fribidi (android)
-
-
-| Description | *The Free Implementation of the Unicode Bidirectional Algorithm.* |
-| -- | -- |
-| Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
-| License | LGPL-2.1 |
-| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
-| Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] fribidi
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("fribidi")
 ```
 
 
