@@ -8801,7 +8801,7 @@ add_requires("icbc")
 | Description | *C/C++ libraries for Unicode and globalization.* |
 | -- | -- |
 | Homepage | [http://site.icu-project.org/](http://site.icu-project.org/) |
-| Versions | 64.2, 68.1, 68.2, 69.1, 70.1, 71.1, 72.1, 73.1, 73.2 |
+| Versions | 64.2, 68.1, 68.2, 69.1, 70.1, 71.1, 72.1, 73.1, 73.2, 75.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [icu4c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icu4c/xmake.lua) |
 
@@ -21456,7 +21456,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
