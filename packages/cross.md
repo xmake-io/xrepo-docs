@@ -4128,6 +4128,30 @@ add_requires("glm")
 ```
 
 
+### glob (cross)
+
+
+| Description | *Glob for C++17* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/glob](https://github.com/p-ranav/glob) |
+| License | MIT |
+| Versions | 2024.04.18 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [glob/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glob/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] glob
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glob")
+```
+
+
 ### glog (cross)
 
 
@@ -9835,7 +9859,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://rapidfuzz.github.io/rapidfuzz-cpp](https://rapidfuzz.github.io/rapidfuzz-cpp) |
 | License | MIT |
-| Versions | v3.0.2 |
+| Versions | v3.0.2, v3.0.4 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rapidfuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidfuzz/xmake.lua) |
 
@@ -11052,7 +11076,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -12883,6 +12907,30 @@ xrepo install -p cross [--sdk=/xxx] watcher
 
 ```lua
 add_requires("watcher")
+```
+
+
+### webdriverxx (cross)
+
+
+| Description | *A C++ client library for Selenium Webdriver* |
+| -- | -- |
+| Homepage | [https://GermanAizek.github.io/webdriverxx](https://GermanAizek.github.io/webdriverxx) |
+| License | MIT |
+| Versions | 2023.04.22 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [webdriverxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/webdriverxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] webdriverxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("webdriverxx")
 ```
 
 
