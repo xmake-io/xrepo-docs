@@ -10814,7 +10814,7 @@ add_requires("kahip")
 | -- | -- |
 | Homepage | [https://github.com/gracicot/kangaru](https://github.com/gracicot/kangaru) |
 | License | MIT |
-| Versions | v4.3.1 |
+| Versions | v4.3.1, v4.3.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kangaru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kangaru/xmake.lua) |
 
@@ -24740,7 +24740,7 @@ add_requires("snappy")
 | -- | -- |
 | Homepage | [https://github.com/cschreib/snitch](https://github.com/cschreib/snitch) |
 | License | BSL-1.0 |
-| Versions | 1.0.0, 1.2.4 |
+| Versions | 1.0.0, 1.2.4, 1.2.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [snitch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snitch/xmake.lua) |
 
@@ -25262,7 +25262,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27352,7 +27352,7 @@ add_requires("tweeny")
 | -- | -- |
 | Homepage | [https://type_safe.foonathan.net](https://type_safe.foonathan.net) |
 | License | MIT |
-| Versions | v0.2.2 |
+| Versions | v0.2.2, v0.2.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [type_safe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/type_safe/xmake.lua) |
 
@@ -28901,7 +28901,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f0543e2ff0 |
+| License | table: 0x55cc9ed87ea0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
