@@ -1485,7 +1485,7 @@ add_requires("cgif")
 | -- | -- |
 | Homepage | [https://github.com/recp/cglm](https://github.com/recp/cglm) |
 | License | MIT |
-| Versions | v0.9.0, v0.9.2, v0.9.4 |
+| Versions | v0.9.0, v0.9.2, v0.9.3, v0.9.4 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cglm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cglm/xmake.lua) |
 
@@ -11023,6 +11023,30 @@ add_requires("spdlog")
 ```
 
 
+### spectra (cross)
+
+
+| Description | *Sparse Eigenvalue Computation Toolkit as a Redesigned ARPACK* |
+| -- | -- |
+| Homepage | [https://spectralib.org/](https://spectralib.org/) |
+| License | MPL-2.0 |
+| Versions | v1.0.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [spectra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spectra/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] spectra
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spectra")
+```
+
+
 ### spirv-headers (cross)
 
 
@@ -11100,7 +11124,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
