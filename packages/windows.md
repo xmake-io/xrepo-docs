@@ -5124,7 +5124,7 @@ add_requires("doxygen")
 | -- | -- |
 | Homepage | [https://github.com/brainboxdotcc/DPP](https://github.com/brainboxdotcc/DPP) |
 | License | Apache-2.0 |
-| Versions | v10.0.8, v10.0.10, v10.0.11, v10.0.12, v10.0.13, v10.0.14, v10.0.15, v10.0.16, v10.0.17, v10.0.18, v10.0.19, v10.0.20, v10.0.21, v10.0.22, v10.0.23, v10.0.24, v10.0.25, v10.0.26, v10.0.27, v10.0.28, v10.0.29 |
+| Versions | v10.0.8, v10.0.10, v10.0.11, v10.0.12, v10.0.13, v10.0.14, v10.0.15, v10.0.16, v10.0.17, v10.0.18, v10.0.19, v10.0.20, v10.0.21, v10.0.22, v10.0.23, v10.0.24, v10.0.25, v10.0.26, v10.0.27, v10.0.28, v10.0.29, v10.0.30 |
 | Architectures | arm64, x64, x86 |
 | Definition | [dpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dpp/xmake.lua) |
 
@@ -18061,7 +18061,7 @@ add_requires("pocketpy")
 | -- | -- |
 | Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
 | License | BSL-1.0 |
-| Versions | 1.11.0, 1.11.1, 1.11.6, 1.11.8, 1.12.1, 1.12.2, 1.12.4, 1.12.5 |
+| Versions | 1.11.0, 1.11.1, 1.11.6, 1.11.8, 1.12.1, 1.12.2, 1.12.4, 1.12.5, 1.13.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [poco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poco/xmake.lua) |
 
@@ -21504,7 +21504,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
