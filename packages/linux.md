@@ -2053,6 +2053,30 @@ add_requires("boringssl")
 ```
 
 
+### botan (linux)
+
+
+| Description | *Cryptography Toolkit* |
+| -- | -- |
+| Homepage | [https://botan.randombit.net](https://botan.randombit.net) |
+| License | BSD-2-Clause |
+| Versions | 3.4.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [botan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/botan/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install botan
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("botan")
+```
+
+
 ### box2d (linux)
 
 
@@ -12200,6 +12224,30 @@ xrepo install libflac
 
 ```lua
 add_requires("libflac")
+```
+
+
+### libfork (linux)
+
+
+| Description | *A bleeding-edge, lock-free, wait-free, continuation-stealing tasking library built on C++20's coroutines* |
+| -- | -- |
+| Homepage | [https://conorwilliams.github.io/libfork/](https://conorwilliams.github.io/libfork/) |
+| License | MPL-2.0 |
+| Versions | v3.8.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libfork/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfork/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfork
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfork")
 ```
 
 
@@ -25311,7 +25359,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28950,7 +28998,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a9c53a8db0 |
+| License | table: 0x55bf689969c0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
