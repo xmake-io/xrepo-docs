@@ -13532,7 +13532,7 @@ add_requires("libwebsockets")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3, v0.11.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
 
@@ -23464,7 +23464,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26792,11 +26792,11 @@ add_requires("webui")
 ### wfrest (macosx)
 
 
-| Description | *wfrest: C++ Web Framework REST API* |
+| Description | *C++ Web Framework REST API* |
 | -- | -- |
 | Homepage | [https://github.com/wfrest/wfrest](https://github.com/wfrest/wfrest) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.4, v0.9.5 |
+| Versions | v0.9.3, v0.9.4, v0.9.5, v0.9.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [wfrest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wfrest/xmake.lua) |
 
@@ -26866,7 +26866,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f869754710 |
+| License | table: 0x55d254a078c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -26887,11 +26887,11 @@ add_requires("wigxjpf")
 ### workflow (macosx)
 
 
-| Description | *C++ Parallel Computing and Asynchronous Networking Engine* |
+| Description | *C++ Parallel Computing and Asynchronous Networking Framework* |
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3, v0.11.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
 
