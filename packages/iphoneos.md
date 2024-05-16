@@ -10777,6 +10777,30 @@ add_requires("sfl-library")
 ```
 
 
+### sfparse (iphoneos)
+
+
+| Description | *Structured Field Values parser* |
+| -- | -- |
+| Homepage | [https://github.com/ngtcp2/sfparse](https://github.com/ngtcp2/sfparse) |
+| License | MIT |
+| Versions | 2024.05.12 |
+| Architectures | arm64, x86_64 |
+| Definition | [sfparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfparse/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos sfparse
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sfparse")
+```
+
+
 ### shaderc (iphoneos)
 
 
@@ -11330,7 +11354,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
