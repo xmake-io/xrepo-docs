@@ -11521,7 +11521,7 @@ add_requires("sfparse")
 | -- | -- |
 | Homepage | [https://github.com/google/shaderc](https://github.com/google/shaderc) |
 | License | Apache-2.0 |
-| Versions | v2022.2, v2024.0 |
+| Versions | v2022.2, v2024.0, v2024.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [shaderc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shaderc/xmake.lua) |
 
@@ -12043,7 +12043,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -14168,7 +14168,7 @@ add_requires("which")
 | Description | *Port of OpenAI's Whisper model in C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) |
-| Versions | 1.4.2, 1.5.4, 1.5.5 |
+| Versions | 1.4.2, 1.5.4, 1.5.5, 1.6.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [whisper.cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/whisper.cpp/xmake.lua) |
 
