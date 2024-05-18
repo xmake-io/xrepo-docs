@@ -10020,6 +10020,30 @@ add_requires("rapidxml")
 ```
 
 
+### re-flex (cross)
+
+
+| Description | *A high-performance C++ regex library and lexical analyzer generator with Unicode support.* |
+| -- | -- |
+| Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
+| License | BSD-3-Clause |
+| Versions | v4.3.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] re-flex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("re-flex")
+```
+
+
 ### re2 (cross)
 
 
@@ -11244,7 +11268,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
