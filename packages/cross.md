@@ -10484,7 +10484,7 @@ add_requires("rxcpp")
 | -- | -- |
 | Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
 | License | Apache-2.0 |
-| Versions | v1.3.51, v1.4.3, v1.4.12 |
+| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
 

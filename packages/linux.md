@@ -12448,7 +12448,7 @@ add_requires("libgeotiff")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0, v1.7.1, v1.8.0 |
+| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
@@ -24031,7 +24031,7 @@ add_requires("rxcpp")
 | -- | -- |
 | Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
 | License | Apache-2.0 |
-| Versions | v1.3.51, v1.4.3, v1.4.12 |
+| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
 
@@ -24670,7 +24670,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2 |
 | Architectures | x86_64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
@@ -29046,7 +29046,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56478debeac0 |
+| License | table: 0x5645a51d0220 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
