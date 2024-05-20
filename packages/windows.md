@@ -12235,6 +12235,30 @@ add_requires("libtins")
 ```
 
 
+### libtommath (windows)
+
+
+| Description | *LibTomMath is a free open source portable number theoretic multiple-precision integer library written entirely in C.* |
+| -- | -- |
+| Homepage | [https://www.libtom.net](https://www.libtom.net) |
+| License | Unlicense |
+| Versions | 1.3.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [libtommath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtommath/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libtommath
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtommath")
+```
+
+
 ### libtool (windows)
 
 
@@ -21672,7 +21696,7 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
