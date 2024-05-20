@@ -741,6 +741,30 @@ add_requires("bcg729")
 ```
 
 
+### benchmark (mingw)
+
+
+| Description | *A microbenchmark support library* |
+| -- | -- |
+| Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
+| License | Apache-2.0 |
+| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0, 1.8.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] benchmark
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("benchmark")
+```
+
+
 ### bento4 (mingw)
 
 
@@ -13614,7 +13638,7 @@ add_requires("spirv-tools")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
