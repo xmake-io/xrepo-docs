@@ -11106,6 +11106,7 @@ add_requires("libhv")
 | Description | *Character set conversion library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
+| License | LGPL-2.0 |
 | Versions | 1.15, 1.16, 1.17 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
@@ -21696,7 +21697,8 @@ add_requires("sqlcipher")
 | Description | *The most used database engine in the world* |
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
+| License | Public Domain |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26175,6 +26177,7 @@ add_requires("zig")
 | Description | *A Massively Spiffy Yet Delicately Unobtrusive Compression Library* |
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
+| License | zlib |
 | Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3, v1.3.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
