@@ -92,7 +92,7 @@
   line-height: 1;
 }
 </style>
-    <h2 id="">简介</h2>
+    <p># 简介</p>
 <p>xrepo 是一个基于 <a href="https://github.com/xmake-io/xmake">Xmake</a> 的跨平台 C/C++ 包管理器。</p>
 <p>它基于 xmake 提供的运行时，但却是一个完整独立的包管理程序，相比 vcpkg/homebrew 此类包管理器，xrepo 能够同时提供更多平台和架构的 C/C++ 包。</p>
 <p>并且还支持多版本语义选择，另外它还是一个去中心化的分布式仓库，不仅仅提供了官方的 <a href="https://github.com/xmake-io/xmake-repo">xmake-repo</a> 仓库，还支持用户自建多个私有仓库。</p>
@@ -303,6 +303,14 @@ The package info of project:
          -> asflags: Set the assembler flags.
          -> vs_runtime: Set vs compiler runtime. (default: MT)
             -> values: {"MT","MD"}
+</code></pre>
+<h3 id="">下载包源码</h3>
+<p>我们可以使用 <code>xrepo download</code> 命令，仅仅下载指定包的源码，而不去安装它。</p>
+<pre><code class="lang-bash">$ xrepo download zlib
+$ xrepo download "zlib 2.x"
+</code></pre>
+<p>默认的下载目录就是当前的目录下 <code>packages</code> 子目录中，我们也可以通过 <code>-o outputdir</code> 参数修改下载目录。</p>
+<pre><code class="lang-bash">$ xrepo download -o /tmp zlib
 </code></pre>
 </article>
 </body>

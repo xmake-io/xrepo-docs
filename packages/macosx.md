@@ -19705,6 +19705,30 @@ add_requires("pkgconf")
 ```
 
 
+### platformfolders (macosx)
+
+
+| Description | *A C++ library to look for special directories like "My Documents" and "%APPDATA%" so that you do not need to write Linux, Windows or Mac OS X specific code* |
+| -- | -- |
+| Homepage | [https://github.com/sago007/PlatformFolders](https://github.com/sago007/PlatformFolders) |
+| License | MIT |
+| Versions | 4.2.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [platformfolders/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/platformfolders/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install platformfolders
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("platformfolders")
+```
+
+
 ### plf_colony (macosx)
 
 
@@ -26988,7 +27012,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ed2a6d8150 |
+| License | table: 0x55c6b444c220 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

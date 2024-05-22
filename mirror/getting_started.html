@@ -305,6 +305,14 @@ The package info of project:
          -> vs_runtime: Set vs compiler runtime. (default: MT)
             -> values: {"MT","MD"}
 </code></pre>
+<h3 id="downloadpackagesourcecode">Download package source code</h3>
+<p>We can use the <code>xrepo download</code> command to only download the source code of the specified package without installing it.</p>
+<pre><code class="lang-bash">$ xrepo download zlib
+$ xrepo download "zlib 2.x"
+</code></pre>
+<p>The default download directory is in the <code>packages</code> subdirectory of the current directory. We can also modify the download directory through the <code>-o outputdir</code> parameter.</p>
+<pre><code class="lang-bash">$ xrepo download -o /tmp zlib
+</code></pre>
 </article>
 </body>
 </html>

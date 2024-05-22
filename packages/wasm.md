@@ -7948,6 +7948,30 @@ add_requires("pkgconf")
 ```
 
 
+### platformfolders (wasm)
+
+
+| Description | *A C++ library to look for special directories like "My Documents" and "%APPDATA%" so that you do not need to write Linux, Windows or Mac OS X specific code* |
+| -- | -- |
+| Homepage | [https://github.com/sago007/PlatformFolders](https://github.com/sago007/PlatformFolders) |
+| License | MIT |
+| Versions | 4.2.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [platformfolders/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/platformfolders/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm platformfolders
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("platformfolders")
+```
+
+
 ### plf_colony (wasm)
 
 

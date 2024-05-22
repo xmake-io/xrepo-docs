@@ -5958,6 +5958,29 @@ add_requires("libusb")
 ```
 
 
+### libva (msys)
+
+
+| Description | *Libva is an implementation for VA-API (Video Acceleration API)* |
+| -- | -- |
+| Homepage | [https://01.org/linuxmedia](https://01.org/linuxmedia) |
+| Versions | 2.21.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libva/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libva/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libva
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libva")
+```
+
+
 ### libxlsxwriter (msys)
 
 
@@ -8305,6 +8328,30 @@ xrepo install pkgconf
 
 ```lua
 add_requires("pkgconf")
+```
+
+
+### platformfolders (msys)
+
+
+| Description | *A C++ library to look for special directories like "My Documents" and "%APPDATA%" so that you do not need to write Linux, Windows or Mac OS X specific code* |
+| -- | -- |
+| Homepage | [https://github.com/sago007/PlatformFolders](https://github.com/sago007/PlatformFolders) |
+| License | MIT |
+| Versions | 4.2.0 |
+| Architectures | i386, x86_64 |
+| Definition | [platformfolders/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/platformfolders/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install platformfolders
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("platformfolders")
 ```
 
 
