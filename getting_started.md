@@ -314,3 +314,17 @@ The package info of project:
             -> values: {"MT","MD"}
 ```
 
+### Download package source code
+
+We can use the `xrepo download` command to only download the source code of the specified package without installing it.
+
+```bash
+$ xrepo download zlib
+$ xrepo download "zlib 2.x"
+```
+
+The default download directory is in the `packages` subdirectory of the current directory. We can also modify the download directory through the `-o outputdir` parameter.
+
+```bash
+$ xrepo download -o /tmp zlib
+```

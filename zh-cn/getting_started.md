@@ -1,4 +1,4 @@
-## 简介
+\# 简介
 
 xrepo 是一个基于 [Xmake](https://github.com/xmake-io/xmake) 的跨平台 C/C++ 包管理器。
 
@@ -315,3 +315,17 @@ The package info of project:
             -> values: {"MT","MD"}
 ```
 
+### 下载包源码
+
+我们可以使用 `xrepo download` 命令，仅仅下载指定包的源码，而不去安装它。
+
+```bash
+$ xrepo download zlib
+$ xrepo download "zlib 2.x"
+```
+
+默认的下载目录就是当前的目录下 `packages` 子目录中，我们也可以通过 `-o outputdir` 参数修改下载目录。
+
+```bash
+$ xrepo download -o /tmp zlib
+```
