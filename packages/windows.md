@@ -7322,11 +7322,11 @@ add_requires("geographiclib")
 ### geos (windows)
 
 
-| Description | *GEOS (Geometry Engine - Open Source) is a C++ port of the ​JTS Topology Suite (JTS).* |
+| Description | *GEOS (Geometry Engine - Open Source) is a C++ port of the JTS Topology Suite (JTS).* |
 | -- | -- |
 | Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
 | License | LGPL-2.1 |
-| Versions | 3.9.1 |
+| Versions | 3.9.1, 3.11.3 |
 | Architectures | arm64, x64, x86 |
 | Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
 
@@ -7445,7 +7445,7 @@ add_requires("gifdec")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/giflib/](https://sourceforge.net/projects/giflib/) |
 | License | MIT |
-| Versions | 5.2.1 |
+| Versions | 5.2.1, 5.2.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [giflib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/giflib/xmake.lua) |
 
@@ -18441,7 +18441,7 @@ add_requires("premake5")
 | -- | -- |
 | Homepage | [https://proj.org/index.html](https://proj.org/index.html) |
 | License | MIT |
-| Versions | 8.2.1, 9.0.1 |
+| Versions | 8.2.1, 9.0.1, 9.4.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [proj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proj/xmake.lua) |
 
@@ -21745,7 +21745,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
