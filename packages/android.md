@@ -10274,6 +10274,30 @@ add_requires("premake5")
 ```
 
 
+### promise-cpp (android)
+
+
+| Description | *C++ promise/A+ library in Javascript style.* |
+| -- | -- |
+| Homepage | [https://github.com/xhawk18/promise-cpp](https://github.com/xhawk18/promise-cpp) |
+| License | MIT |
+| Versions | 2.1.3, 2.1.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [promise-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/promise-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] promise-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("promise-cpp")
+```
+
+
 ### protoc (android)
 
 
@@ -12189,7 +12213,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -14698,7 +14722,7 @@ add_requires("zlib")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
-| Versions | 2.0.5, 2.0.6, 2.1.5 |
+| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 

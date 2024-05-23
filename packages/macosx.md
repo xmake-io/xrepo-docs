@@ -1392,7 +1392,7 @@ add_requires("bdwgc")
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
 | License | Apache-2.0 |
-| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0, 1.8.3 |
+| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0, 1.8.3, 1.8.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
@@ -18191,7 +18191,7 @@ add_requires("oniguruma")
 | -- | -- |
 | Homepage | [https://onnx.ai/](https://onnx.ai/) |
 | License | Apache-2.0 |
-| Versions | v1.11.0, v1.12.0, v1.15.0 |
+| Versions | v1.11.0, v1.12.0, v1.15.0, v1.16.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [onnx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onnx/xmake.lua) |
 
@@ -20260,7 +20260,7 @@ add_requires("proj")
 | -- | -- |
 | Homepage | [https://github.com/xhawk18/promise-cpp](https://github.com/xhawk18/promise-cpp) |
 | License | MIT |
-| Versions | 2.1.3 |
+| Versions | 2.1.3, 2.1.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [promise-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/promise-cpp/xmake.lua) |
 
@@ -23634,7 +23634,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27036,7 +27036,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55bc4c0e1320 |
+| License | table: 0x55c877b9c5a0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -28129,7 +28129,7 @@ add_requires("zlib")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
-| Versions | 2.0.5, 2.0.6, 2.1.5 |
+| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 
