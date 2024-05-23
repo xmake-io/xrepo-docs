@@ -260,7 +260,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.3.0, v0.5.0</td>
+<td>v0.3.0, v0.5.0, v0.5.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -17470,7 +17470,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8</td>
+<td>2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.12.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -19069,6 +19069,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ricab-scope_guard")
+</code></pre>
+<h3 id="ringspanlitemingw">ring-span-lite (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>ring-span lite - A C++yy-like ring_span type for C++98, C++11 and later in a single-file header-only library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/martinmoene/ring-span-lite">https://github.com/martinmoene/ring-span-lite</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.7.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ring-span-lite/xmake.lua">ring-span-lite/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] ring-span-lite
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("ring-span-lite")
 </code></pre>
 <h3 id="robinhoodhashingmingw">robin-hood-hashing (mingw)</h3>
 <table>
@@ -20822,7 +20859,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300</td>
 </tr>
 <tr>
 <td>Architectures</td>

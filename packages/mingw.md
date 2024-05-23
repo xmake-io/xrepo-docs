@@ -102,7 +102,7 @@ add_requires("agg")
 | -- | -- |
 | Homepage | [https://linkdd.github.io/aitoolkit/](https://linkdd.github.io/aitoolkit/) |
 | License | MIT |
-| Versions | v0.3.0, v0.5.0 |
+| Versions | v0.3.0, v0.5.0, v0.5.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [aitoolkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aitoolkit/xmake.lua) |
 
@@ -11496,7 +11496,7 @@ add_requires("pystring")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | License | PSF |
-| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.12.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
@@ -12558,6 +12558,30 @@ xrepo install -p mingw [--mingw=/xxx] ricab-scope_guard
 
 ```lua
 add_requires("ricab-scope_guard")
+```
+
+
+### ring-span-lite (mingw)
+
+
+| Description | *ring-span lite - A C++yy-like ring_span type for C++98, C++11 and later in a single-file header-only library* |
+| -- | -- |
+| Homepage | [https://github.com/martinmoene/ring-span-lite](https://github.com/martinmoene/ring-span-lite) |
+| License | BSL-1.0 |
+| Versions | v0.7.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [ring-span-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ring-span-lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] ring-span-lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ring-span-lite")
 ```
 
 
@@ -13711,7 +13735,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
