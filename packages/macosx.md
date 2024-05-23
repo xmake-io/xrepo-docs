@@ -7295,7 +7295,7 @@ add_requires("geographiclib")
 | -- | -- |
 | Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
 | License | LGPL-2.1 |
-| Versions | 3.9.1, 3.11.3 |
+| Versions | 3.9.1, 3.11.3, 3.12.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
 
@@ -19753,6 +19753,30 @@ add_requires("plf_colony")
 ```
 
 
+### plf_hive (macosx)
+
+
+| Description | *plf::hive is a fork of plf::colony to match the current C++ standards proposal.* |
+| -- | -- |
+| Homepage | [https://plflib.org/colony.htm](https://plflib.org/colony.htm) |
+| License | zlib |
+| Versions | 2024.04.21 |
+| Architectures | arm64, x86_64 |
+| Definition | [plf_hive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_hive/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install plf_hive
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_hive")
+```
+
+
 ### plf_indiesort (macosx)
 
 
@@ -23634,7 +23658,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -24026,6 +24050,30 @@ xrepo install string-view-lite
 
 ```lua
 add_requires("string-view-lite")
+```
+
+
+### stringbuilder (macosx)
+
+
+| Description | *Fast, efficient and convenient alternative to std::stringstream and std::string concatenation.* |
+| -- | -- |
+| Homepage | [https://github.com/Isameru/stringbuilder](https://github.com/Isameru/stringbuilder) |
+| License | MIT |
+| Versions | 2023.7.10 |
+| Architectures | arm64, x86_64 |
+| Definition | [stringbuilder/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringbuilder/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stringbuilder
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stringbuilder")
 ```
 
 
@@ -27036,7 +27084,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c877b9c5a0 |
+| License | table: 0x55c3e4b05ee0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

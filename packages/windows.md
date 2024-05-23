@@ -7326,7 +7326,7 @@ add_requires("geographiclib")
 | -- | -- |
 | Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
 | License | LGPL-2.1 |
-| Versions | 3.9.1, 3.11.3 |
+| Versions | 3.9.1, 3.11.3, 3.12.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
 
@@ -17958,6 +17958,30 @@ add_requires("plf_colony")
 ```
 
 
+### plf_hive (windows)
+
+
+| Description | *plf::hive is a fork of plf::colony to match the current C++ standards proposal.* |
+| -- | -- |
+| Homepage | [https://plflib.org/colony.htm](https://plflib.org/colony.htm) |
+| License | zlib |
+| Versions | 2024.04.21 |
+| Architectures | arm64, x64, x86 |
+| Definition | [plf_hive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_hive/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install plf_hive
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_hive")
+```
+
+
 ### plf_indiesort (windows)
 
 
@@ -21769,7 +21793,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -25818,7 +25842,7 @@ add_requires("xtensor")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtensor-blas/](https://github.com/xtensor-stack/xtensor-blas/) |
 | License | BSD-3-Clause |
-| Versions | 0.19.1, 0.20.0 |
+| Versions | 0.19.1, 0.20.0, 0.21.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [xtensor-blas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensor-blas/xmake.lua) |
 

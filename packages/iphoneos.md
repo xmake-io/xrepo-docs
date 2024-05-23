@@ -9323,6 +9323,30 @@ add_requires("plf_colony")
 ```
 
 
+### plf_hive (iphoneos)
+
+
+| Description | *plf::hive is a fork of plf::colony to match the current C++ standards proposal.* |
+| -- | -- |
+| Homepage | [https://plflib.org/colony.htm](https://plflib.org/colony.htm) |
+| License | zlib |
+| Versions | 2024.04.21 |
+| Architectures | arm64, x86_64 |
+| Definition | [plf_hive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plf_hive/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos plf_hive
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plf_hive")
+```
+
+
 ### plf_indiesort (iphoneos)
 
 
@@ -11523,7 +11547,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -11751,6 +11775,30 @@ xrepo install -p iphoneos string-view-lite
 
 ```lua
 add_requires("string-view-lite")
+```
+
+
+### stringbuilder (iphoneos)
+
+
+| Description | *Fast, efficient and convenient alternative to std::stringstream and std::string concatenation.* |
+| -- | -- |
+| Homepage | [https://github.com/Isameru/stringbuilder](https://github.com/Isameru/stringbuilder) |
+| License | MIT |
+| Versions | 2023.7.10 |
+| Architectures | arm64, x86_64 |
+| Definition | [stringbuilder/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringbuilder/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos stringbuilder
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stringbuilder")
 ```
 
 
