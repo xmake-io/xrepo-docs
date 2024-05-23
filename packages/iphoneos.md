@@ -2076,7 +2076,7 @@ add_requires("crc32c")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1 |
+| Versions | v2.0.4, v3.0.1, v4.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -2217,7 +2217,7 @@ add_requires("csv2")
 | Description | *A modern C++ library for reading, writing, and analyzing CSV (and similar) files (by vincentlaucsb)* |
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
-| Versions | 2.1.1, 2.2.0, 2.2.1 |
+| Versions | 2.1.1, 2.2.0, 2.2.1, 2.2.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
@@ -2264,7 +2264,7 @@ add_requires("cthash")
 | Description | *ctre is a Compile time PCRE (almost) compatible regular expression matcher.* |
 | -- | -- |
 | Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
-| Versions | 3.4.1, 3.5, 3.6, 3.7.2, 3.8.1 |
+| Versions | 3.4.1, 3.5, 3.6, 3.7.2, 3.8.1, 3.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
 

@@ -3960,7 +3960,7 @@ add_requires("crc32c")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1 |
+| Versions | v2.0.4, v3.0.1, v4.0.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -4125,7 +4125,7 @@ add_requires("csv2")
 | Description | *A modern C++ library for reading, writing, and analyzing CSV (and similar) files (by vincentlaucsb)* |
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
-| Versions | 2.1.1, 2.2.0, 2.2.1 |
+| Versions | 2.1.1, 2.2.0, 2.2.1, 2.2.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
@@ -4148,7 +4148,7 @@ add_requires("csvparser")
 | Description | *ctre is a Compile time PCRE (almost) compatible regular expression matcher.* |
 | -- | -- |
 | Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
-| Versions | 3.4.1, 3.5, 3.6, 3.7.2, 3.8.1 |
+| Versions | 3.4.1, 3.5, 3.6, 3.7.2, 3.8.1, 3.9.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
 
@@ -6206,7 +6206,7 @@ add_requires("fast_float")
 | -- | -- |
 | Homepage | [https://github.com/cppfastio/fast_io](https://github.com/cppfastio/fast_io) |
 | License | MIT |
-| Versions | 2023.1.28 |
+| Versions | 2023.1.28, 2024.3.31 |
 | Architectures | arm64, x64, x86 |
 | Definition | [fast_io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_io/xmake.lua) |
 
@@ -10013,7 +10013,7 @@ add_requires("kiwisolver")
 | -- | -- |
 | Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00 |
+| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01 |
 | Architectures | x64 |
 | Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
 
