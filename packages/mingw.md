@@ -12370,6 +12370,30 @@ add_requires("raylib")
 ```
 
 
+### raylib-cpp (mingw)
+
+
+| Description | *C++ Object Oriented Wrapper for raylib* |
+| -- | -- |
+| Homepage | [https://github.com/RobLoach/raylib-cpp](https://github.com/RobLoach/raylib-cpp) |
+| License | zlib |
+| Versions | v5.0.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [raylib-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] raylib-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("raylib-cpp")
+```
+
+
 ### re-flex (mingw)
 
 
@@ -13783,7 +13807,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
