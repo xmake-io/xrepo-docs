@@ -12526,7 +12526,7 @@ add_requires("libxlsxwriter")
 | Description | *The c/c++ bindings of the xmake core engine* |
 | -- | -- |
 | Homepage | [https://xmake.io](https://xmake.io) |
-| Versions | v2.7.9, v2.8.9, v2.9.1 |
+| Versions | v2.7.9, v2.8.9, v2.9.1, v2.9.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libxmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmake/xmake.lua) |
 
