@@ -7967,6 +7967,30 @@ add_requires("moonjit")
 ```
 
 
+### morton-nd (iphoneos)
+
+
+| Description | *A header-only compile-time Morton encoding / decoding library for N dimensions.* |
+| -- | -- |
+| Homepage | [https://github.com/morton-nd/morton-nd](https://github.com/morton-nd/morton-nd) |
+| License | MIT |
+| Versions | v4.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [morton-nd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/morton-nd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos morton-nd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("morton-nd")
+```
+
+
 ### mpg123 (iphoneos)
 
 
@@ -8320,6 +8344,29 @@ xrepo install -p iphoneos neargye-scope_guard
 
 ```lua
 add_requires("neargye-scope_guard")
+```
+
+
+### nifti (iphoneos)
+
+
+| Description | *C libraries for NIFTI support* |
+| -- | -- |
+| Homepage | [https://github.com/NIFTI-Imaging/nifti_clib](https://github.com/NIFTI-Imaging/nifti_clib) |
+| Versions | 2024.01.25 |
+| Architectures | arm64, x86_64 |
+| Definition | [nifti/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nifti/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos nifti
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nifti")
 ```
 
 
@@ -11547,7 +11594,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
