@@ -4153,6 +4153,30 @@ add_requires("giflib")
 ```
 
 
+### gklib (cross)
+
+
+| Description | *A library of various helper routines and frameworks used by many of the lab's software* |
+| -- | -- |
+| Homepage | [https://github.com/KarypisLab/GKlib](https://github.com/KarypisLab/GKlib) |
+| License | Apache-2.0 |
+| Versions | 2023.03.26 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [gklib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gklib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] gklib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gklib")
+```
+
+
 ### glbinding (cross)
 
 

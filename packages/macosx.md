@@ -7526,6 +7526,30 @@ add_requires("git-crypt")
 ```
 
 
+### gklib (macosx)
+
+
+| Description | *A library of various helper routines and frameworks used by many of the lab's software* |
+| -- | -- |
+| Homepage | [https://github.com/KarypisLab/GKlib](https://github.com/KarypisLab/GKlib) |
+| License | Apache-2.0 |
+| Versions | 2023.03.26 |
+| Architectures | arm64, x86_64 |
+| Definition | [gklib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gklib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gklib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gklib")
+```
+
+
 ### glad (macosx)
 
 
@@ -27180,7 +27204,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b7904a7070 |
+| License | table: 0x561c964f5190 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

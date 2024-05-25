@@ -7510,6 +7510,30 @@ add_requires("ginkgo")
 ```
 
 
+### gklib (windows)
+
+
+| Description | *A library of various helper routines and frameworks used by many of the lab's software* |
+| -- | -- |
+| Homepage | [https://github.com/KarypisLab/GKlib](https://github.com/KarypisLab/GKlib) |
+| License | Apache-2.0 |
+| Versions | 2023.03.26 |
+| Architectures | arm64, x64, x86 |
+| Definition | [gklib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gklib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gklib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gklib")
+```
+
+
 ### glad (windows)
 
 
