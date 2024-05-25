@@ -3553,6 +3553,30 @@ add_requires("glob")
 ```
 
 
+### glog (wasm)
+
+
+| Description | *C++ implementation of the Google logging module* |
+| -- | -- |
+| Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
+| License | BSD-3-Clause |
+| Versions | v0.4.0, v0.5.0, v0.6.0, v0.7.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm glog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glog")
+```
+
+
 ### glslang (wasm)
 
 
@@ -9981,7 +10005,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -11103,7 +11127,7 @@ add_requires("transwarp")
 | Description | *An incremental parsing system for programming tools* |
 | -- | -- |
 | Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
-| Versions | 0.21.0, 0.22.2, 0.22.5 |
+| Versions | 0.21.0, 0.22.2, 0.22.5, 0.22.6 |
 | Architectures | wasm32, wasm64 |
 | Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
 
