@@ -10466,7 +10466,7 @@ add_requires("libass")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/libassert](https://github.com/jeremy-rifkin/libassert) |
 | License | MIT |
-| Versions | v1.2, v1.2.2, v2.0.0, v2.0.1 |
+| Versions | v1.2, v1.2.2, v2.0.0, v2.0.1, v2.0.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libassert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libassert/xmake.lua) |
 
@@ -21913,7 +21913,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26248,7 +26248,7 @@ add_requires("yy-thunks")
 | Description | *The fastest JSON library in C.* |
 | -- | -- |
 | Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
-| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1, 0.8.0 |
+| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1, 0.8.0, 0.9.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
 
