@@ -583,7 +583,7 @@ add_requires("asio3")
 | -- | -- |
 | Homepage | [https://asmjit.com/](https://asmjit.com/) |
 | License | zlib |
-| Versions | 2021.06.27, 2022.01.18, 2024.03.09 |
+| Versions | 2021.06.27, 2022.01.18, 2024.03.09, 2024.05.21 |
 | Architectures | arm64, x64, x86 |
 | Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
 
@@ -607,7 +607,7 @@ add_requires("asmjit")
 | -- | -- |
 | Homepage | [https://github.com/asmjit/asmtk](https://github.com/asmjit/asmtk) |
 | License | zlib |
-| Versions | 2023.6.14 |
+| Versions | 2023.07.18 |
 | Architectures | arm64, x64, x86 |
 | Definition | [asmtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmtk/xmake.lua) |
 
@@ -21937,7 +21937,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
