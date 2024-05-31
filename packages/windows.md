@@ -3105,8 +3105,8 @@ add_requires("cmidi2")
 
 | Description | *A C/C++ rewrite of the MINPACK software (originally in FORTRAN) for solving nonlinear equations and nonlinear least squares problems* |
 | -- | -- |
-| Homepage | [http://devernay.free.fr/hacks/cminpack/](http://devernay.free.fr/hacks/cminpack/) |
-| Versions | 2024.01.04 |
+| Homepage | [https://devernay.github.io/cminpack/](https://devernay.github.io/cminpack/) |
+| Versions | v1.3.9 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cminpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cminpack/xmake.lua) |
 
@@ -3913,8 +3913,9 @@ add_requires("cr")
 | Description | *Crashpad is a crash-reporting system.* |
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/crashpad/crashpad/+/refs/heads/main/README.md](https://chromium.googlesource.com/crashpad/crashpad/+/refs/heads/main/README.md) |
-| Versions |  |
-| Architectures | arm64, x64, x86 |
+| License | Apache-2.0 |
+| Versions | 2024.04.15 |
+| Architectures | x64, x86 |
 | Definition | [crashpad/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crashpad/xmake.lua) |
 
 ##### Install command
@@ -21961,7 +21962,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

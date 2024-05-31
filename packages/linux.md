@@ -3458,8 +3458,8 @@ add_requires("cmidi2")
 
 | Description | *A C/C++ rewrite of the MINPACK software (originally in FORTRAN) for solving nonlinear equations and nonlinear least squares problems* |
 | -- | -- |
-| Homepage | [http://devernay.free.fr/hacks/cminpack/](http://devernay.free.fr/hacks/cminpack/) |
-| Versions | 2024.01.04 |
+| Homepage | [https://devernay.github.io/cminpack/](https://devernay.github.io/cminpack/) |
+| Versions | v1.3.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cminpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cminpack/xmake.lua) |
 
@@ -4256,6 +4256,30 @@ xrepo install cr
 
 ```lua
 add_requires("cr")
+```
+
+
+### crashpad (linux)
+
+
+| Description | *Crashpad is a crash-reporting system.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/crashpad/crashpad/+/refs/heads/main/README.md](https://chromium.googlesource.com/crashpad/crashpad/+/refs/heads/main/README.md) |
+| License | Apache-2.0 |
+| Versions | 2024.04.15 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [crashpad/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crashpad/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install crashpad
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crashpad")
 ```
 
 
@@ -25768,7 +25792,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29431,7 +29455,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f1e0f49680 |
+| License | table: 0x55886710d390 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

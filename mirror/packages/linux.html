@@ -5344,11 +5344,11 @@
 <tbody>
 <tr>
 <td>Homepage</td>
-<td><a href="http://devernay.free.fr/hacks/cminpack/">http://devernay.free.fr/hacks/cminpack/</a></td>
+<td><a href="https://devernay.github.io/cminpack/">https://devernay.github.io/cminpack/</a></td>
 </tr>
 <tr>
 <td>Versions</td>
-<td>2024.01.04</td>
+<td>v1.3.9</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -6550,6 +6550,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("cr")
+</code></pre>
+<h3 id="crashpadlinux">crashpad (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Crashpad is a crash-reporting system.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://chromium.googlesource.com/crashpad/crashpad/+/refs/heads/main/README.md">https://chromium.googlesource.com/crashpad/crashpad/+/refs/heads/main/README.md</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.04.15</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crashpad/xmake.lua">crashpad/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install crashpad
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("crashpad")
 </code></pre>
 <h3 id="crc32clinux">crc32c (linux)</h3>
 <table>
@@ -38983,7 +39020,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -44521,7 +44558,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x55f1e0f49680</td>
+<td>table: 0x55886710d390</td>
 </tr>
 <tr>
 <td>Versions</td>
