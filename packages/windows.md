@@ -4787,6 +4787,30 @@ add_requires("devil")
 ```
 
 
+### dfdutils (windows)
+
+
+| Description | *Utilities for working with Khronos data format descriptors* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/dfdutils](https://github.com/KhronosGroup/dfdutils) |
+| License | Apache-2.0 |
+| Versions | 2023.10.27 |
+| Architectures | arm64, x64, x86 |
+| Definition | [dfdutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dfdutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dfdutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dfdutils")
+```
+
+
 ### digestpp (windows)
 
 
@@ -21986,7 +22010,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
