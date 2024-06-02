@@ -8899,7 +8899,7 @@ add_requires("hpsocket")
 | -- | -- |
 | Homepage | [https://hpx.stellar-group.org](https://hpx.stellar-group.org) |
 | License | BSL-1.0 |
-| Versions | v1.9.1 |
+| Versions | v1.9.1, v1.10.0 |
 | Architectures | x64 |
 | Definition | [hpx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpx/xmake.lua) |
 
@@ -22010,7 +22010,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -24366,7 +24366,7 @@ add_requires("urdfdom-headers")
 | -- | -- |
 | Homepage | [https://uriparser.github.io/](https://uriparser.github.io/) |
 | License | BSD-3-Clause |
-| Versions | 0.9.5, 0.9.6, 0.9.7 |
+| Versions | 0.9.5, 0.9.6, 0.9.7, 0.9.8 |
 | Architectures | arm64, x64, x86 |
 | Definition | [uriparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uriparser/xmake.lua) |
 
