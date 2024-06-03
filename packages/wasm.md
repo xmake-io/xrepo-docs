@@ -2740,6 +2740,30 @@ add_requires("easywsclient")
 ```
 
 
+### edlib (wasm)
+
+
+| Description | *Lightweight, super fast C/C++ (& Python) library for sequence alignment using edit (Levenshtein) distance.* |
+| -- | -- |
+| Homepage | [http://martinsos.github.io/edlib](http://martinsos.github.io/edlib) |
+| License | MIT |
+| Versions | v1.2.7 |
+| Architectures | wasm32, wasm64 |
+| Definition | [edlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/edlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm edlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("edlib")
+```
+
+
 ### effolkronium-random (wasm)
 
 
@@ -4134,7 +4158,7 @@ add_requires("highs")
 | -- | -- |
 | Homepage | [https://github.com/google/highway](https://github.com/google/highway) |
 | License | Apache-2.0 |
-| Versions | 1.1.0 |
+| Versions | 1.1.0, 1.2.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [highway/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highway/xmake.lua) |
 
@@ -10220,7 +10244,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -12195,6 +12219,29 @@ xrepo install -p wasm zig
 
 ```lua
 add_requires("zig")
+```
+
+
+### zip (wasm)
+
+
+| Description | *Info-ZIP zip utility* |
+| -- | -- |
+| Homepage | [http://www.info-zip.org/Zip.html](http://www.info-zip.org/Zip.html) |
+| Versions | 3.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm zip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zip")
 ```
 
 

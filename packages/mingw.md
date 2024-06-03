@@ -3504,6 +3504,30 @@ add_requires("easywsclient")
 ```
 
 
+### edlib (mingw)
+
+
+| Description | *Lightweight, super fast C/C++ (& Python) library for sequence alignment using edit (Levenshtein) distance.* |
+| -- | -- |
+| Homepage | [http://martinsos.github.io/edlib](http://martinsos.github.io/edlib) |
+| License | MIT |
+| Versions | v1.2.7 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [edlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/edlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] edlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("edlib")
+```
+
+
 ### effolkronium-random (mingw)
 
 
@@ -5326,7 +5350,7 @@ add_requires("highs")
 | -- | -- |
 | Homepage | [https://github.com/google/highway](https://github.com/google/highway) |
 | License | Apache-2.0 |
-| Versions | 1.1.0 |
+| Versions | 1.1.0, 1.2.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [highway/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highway/xmake.lua) |
 
@@ -12472,7 +12496,8 @@ add_requires("quickjs")
 | Description | *Asynchronous Low Latency C++ Logging Library* |
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
-| Versions | 2.8.0, 2.9.0, 2.9.1, 3.3.1, 3.6.0, 3.8.0 |
+| License | MIT |
+| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -14118,7 +14143,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17045,6 +17070,29 @@ xrepo install -p mingw [--mingw=/xxx] zig
 
 ```lua
 add_requires("zig")
+```
+
+
+### zip (mingw)
+
+
+| Description | *Info-ZIP zip utility* |
+| -- | -- |
+| Homepage | [http://www.info-zip.org/Zip.html](http://www.info-zip.org/Zip.html) |
+| Versions | 3.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] zip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zip")
 ```
 
 
