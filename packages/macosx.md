@@ -4329,6 +4329,30 @@ add_requires("cuda-samples")
 ```
 
 
+### curl (macosx)
+
+
+| Description | *The multiprotocol file transfer library.* |
+| -- | -- |
+| Homepage | [https://curl.haxx.se/](https://curl.haxx.se/) |
+| License | MIT |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [curl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/curl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install curl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("curl")
+```
+
+
 ### curlcpp (macosx)
 
 
@@ -7929,6 +7953,30 @@ xrepo install glpk
 
 ```lua
 add_requires("glpk")
+```
+
+
+### glshaderpp (macosx)
+
+
+| Description | *A lightweight header-only library to compile and link OpenGL GLSL shaders.* |
+| -- | -- |
+| Homepage | [https://gitlab-lepuy.iut.uca.fr/opengl/glshaderpp](https://gitlab-lepuy.iut.uca.fr/opengl/glshaderpp) |
+| License | LGPL-3.0-or-later |
+| Versions | v1.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [glshaderpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glshaderpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glshaderpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glshaderpp")
 ```
 
 
@@ -23923,7 +23971,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27349,7 +27397,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55bbf2472c60 |
+| License | table: 0x5618c59ca2e0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
