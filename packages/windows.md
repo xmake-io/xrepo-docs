@@ -1157,7 +1157,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11 |
 | Architectures | x64, x86 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -5965,7 +5965,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16 |
 | Architectures | arm64, x64, x86 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -20894,7 +20894,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
 | License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0, v0.12.0 |
+| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0 |
 | Architectures | x64, x86 |
 | Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
 
@@ -22059,7 +22059,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
