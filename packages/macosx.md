@@ -23281,7 +23281,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -25183,7 +25183,7 @@ add_requires("thrust")
 | -- | -- |
 | Homepage | [https://github.com/Sedeniono/tiny-optional](https://github.com/Sedeniono/tiny-optional) |
 | License | BSL-1.0 |
-| Versions | v1.2.0 |
+| Versions | v1.2.0, v1.2.1 |
 | Architectures | x86_64 |
 | Definition | [tiny-optional/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiny-optional/xmake.lua) |
 
@@ -27421,7 +27421,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f13a5b2090 |
+| License | table: 0x55608c1fa650 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
