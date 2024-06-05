@@ -21554,6 +21554,30 @@ add_requires("skia")
 ```
 
 
+### slang (windows)
+
+
+| Description | *Making it easier to work with shaders* |
+| -- | -- |
+| Homepage | [https://github.com/shader-slang/slang](https://github.com/shader-slang/slang) |
+| License | MIT |
+| Versions | v2024.1.17, v2024.1.18 |
+| Architectures | x64 |
+| Definition | [slang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/slang/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install slang
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("slang")
+```
+
+
 ### smoothcpp (windows)
 
 
@@ -22107,7 +22131,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -25811,6 +25835,30 @@ xrepo install wolfssl
 
 ```lua
 add_requires("wolfssl")
+```
+
+
+### workflow (windows)
+
+
+| Description | *C++ Parallel Computing and Asynchronous Networking Framework* |
+| -- | -- |
+| Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
+| License | Apache-2.0 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3, v0.11.4 |
+| Architectures | arm64, x64, x86 |
+| Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install workflow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("workflow")
 ```
 
 
