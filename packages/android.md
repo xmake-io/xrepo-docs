@@ -1523,6 +1523,30 @@ add_requires("chaiscript")
 ```
 
 
+### charls (android)
+
+
+| Description | *CharLS, a C++ JPEG-LS library implementation* |
+| -- | -- |
+| Homepage | [https://github.com/team-charls/charls](https://github.com/team-charls/charls) |
+| License | BSD-3-Clause |
+| Versions | 2.4.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [charls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/charls/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] charls
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("charls")
+```
+
+
 ### chipmunk2d (android)
 
 
@@ -11468,6 +11492,30 @@ add_requires("recastnavigation")
 ```
 
 
+### reflect-cpp (android)
+
+
+| Description | *A C++20 library for fast serialization, deserialization and validation using reflection. Supports JSON, BSON, CBOR, flexbuffers, msgpack, TOML, XML, YAML / msgpack.org[C++20]* |
+| -- | -- |
+| Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
+| License | MIT |
+| Versions | v0.10.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] reflect-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reflect-cpp")
+```
+
+
 ### remotery (android)
 
 
@@ -12025,7 +12073,7 @@ add_requires("seqan3")
 | -- | -- |
 | Homepage | [https://github.com/slavenf/sfl-library](https://github.com/slavenf/sfl-library) |
 | License | zlib |
-| Versions | 1.5.0 |
+| Versions | 1.5.0, 1.6.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sfl-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfl-library/xmake.lua) |
 
@@ -12596,7 +12644,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

@@ -2623,6 +2623,30 @@ add_requires("chaiscript")
 ```
 
 
+### charls (windows)
+
+
+| Description | *CharLS, a C++ JPEG-LS library implementation* |
+| -- | -- |
+| Homepage | [https://github.com/team-charls/charls](https://github.com/team-charls/charls) |
+| License | BSD-3-Clause |
+| Versions | 2.4.2 |
+| Architectures | arm64, x64, x86 |
+| Definition | [charls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/charls/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install charls
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("charls")
+```
+
+
 ### chipmunk2d (windows)
 
 
@@ -20292,6 +20316,30 @@ add_requires("redis-plus-plus")
 ```
 
 
+### reflect-cpp (windows)
+
+
+| Description | *A C++20 library for fast serialization, deserialization and validation using reflection. Supports JSON, BSON, CBOR, flexbuffers, msgpack, TOML, XML, YAML / msgpack.org[C++20]* |
+| -- | -- |
+| Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
+| License | MIT |
+| Versions | v0.10.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install reflect-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reflect-cpp")
+```
+
+
 ### remotery (windows)
 
 
@@ -21204,7 +21252,7 @@ add_requires("serial")
 | -- | -- |
 | Homepage | [https://github.com/slavenf/sfl-library](https://github.com/slavenf/sfl-library) |
 | License | zlib |
-| Versions | 1.5.0 |
+| Versions | 1.5.0, 1.6.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sfl-library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfl-library/xmake.lua) |
 
@@ -22179,7 +22227,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
