@@ -1123,6 +1123,30 @@ add_requires("blake3")
 ```
 
 
+### blend2d (cross)
+
+
+| Description | *2D Vector Graphics Engine Powered by a JIT Compiler* |
+| -- | -- |
+| Homepage | [https://blend2d.com](https://blend2d.com) |
+| License | zlib |
+| Versions | 0.11.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [blend2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blend2d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] blend2d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blend2d")
+```
+
+
 ### boost (cross)
 
 
@@ -5653,6 +5677,30 @@ xrepo install -p cross [--sdk=/xxx] kcp
 
 ```lua
 add_requires("kcp")
+```
+
+
+### kdbindings (cross)
+
+
+| Description | *Reactive programming & data binding in C++* |
+| -- | -- |
+| Homepage | [https://github.com/KDAB/KDBindings](https://github.com/KDAB/KDBindings) |
+| License | MIT |
+| Versions | v1.0.5 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [kdbindings/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kdbindings/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] kdbindings
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kdbindings")
 ```
 
 
@@ -11820,7 +11868,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
