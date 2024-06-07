@@ -1869,7 +1869,7 @@ add_requires("chromium_zlib")
 | -- | -- |
 | Homepage | [https://github.com/greyclab/cimg](https://github.com/greyclab/cimg) |
 | License | CeCILL-C |
-| Versions | v3.2.6 |
+| Versions | v3.2.6, v3.3.6 |
 | Architectures | i386, x86_64 |
 | Definition | [cimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cimg/xmake.lua) |
 
