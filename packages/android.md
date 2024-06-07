@@ -30,7 +30,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | 2.3.1, 2.4.0, 2.4.1, 2.7.6, 2.7.7, 2.7.8 |
+| Versions | 2.3.1, 2.4.0, 2.4.1, 2.7.6, 2.7.7, 2.7.8, 2.8.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
