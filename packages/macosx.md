@@ -2121,6 +2121,30 @@ add_requires("bvh")
 ```
 
 
+### bytepack (macosx)
+
+
+| Description | *C++ Binary Serialization Made Easy: Header-only, configurable endianness, cross-platform, no IDL, no exceptions, and no macros* |
+| -- | -- |
+| Homepage | [https://github.com/farukeryilmaz/bytepack](https://github.com/farukeryilmaz/bytepack) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [bytepack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bytepack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bytepack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bytepack")
+```
+
+
 ### bzip2 (macosx)
 
 
@@ -3744,7 +3768,7 @@ add_requires("cpp20-http-client")
 | Description | *A static analysis tool for C/C++ code* |
 | -- | -- |
 | Homepage | [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/) |
-| Versions | 2.13.0, 2.13.4 |
+| Versions | 2.13.0, 2.13.4, 2.14.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [cppcheck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcheck/xmake.lua) |
 
@@ -27589,7 +27613,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e3a78511e0 |
+| License | table: 0x5637b0781590 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -28633,7 +28657,7 @@ add_requires("zfp")
 | Description | *Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.* |
 | -- | -- |
 | Homepage | [https://www.ziglang.org/](https://www.ziglang.org/) |
-| Versions | 0.10.1, 0.11.0, 0.12.0 |
+| Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
 

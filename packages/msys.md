@@ -1313,6 +1313,30 @@ add_requires("bvh")
 ```
 
 
+### bytepack (msys)
+
+
+| Description | *C++ Binary Serialization Made Easy: Header-only, configurable endianness, cross-platform, no IDL, no exceptions, and no macros* |
+| -- | -- |
+| Homepage | [https://github.com/farukeryilmaz/bytepack](https://github.com/farukeryilmaz/bytepack) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [bytepack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bytepack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bytepack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bytepack")
+```
+
+
 ### bzip2 (msys)
 
 
@@ -2246,7 +2270,7 @@ add_requires("cpp-sort")
 | Description | *A static analysis tool for C/C++ code* |
 | -- | -- |
 | Homepage | [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/) |
-| Versions | 2.13.0, 2.13.4 |
+| Versions | 2.13.0, 2.13.4, 2.14.1 |
 | Architectures | i386, x86_64 |
 | Definition | [cppcheck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcheck/xmake.lua) |
 
@@ -13140,7 +13164,7 @@ add_requires("zeus_expected")
 | Description | *Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.* |
 | -- | -- |
 | Homepage | [https://www.ziglang.org/](https://www.ziglang.org/) |
-| Versions | 0.10.1, 0.11.0, 0.12.0 |
+| Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0 |
 | Architectures | i386, x86_64 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
 

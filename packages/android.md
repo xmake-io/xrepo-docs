@@ -1166,6 +1166,30 @@ add_requires("bvh")
 ```
 
 
+### bytepack (android)
+
+
+| Description | *C++ Binary Serialization Made Easy: Header-only, configurable endianness, cross-platform, no IDL, no exceptions, and no macros* |
+| -- | -- |
+| Homepage | [https://github.com/farukeryilmaz/bytepack](https://github.com/farukeryilmaz/bytepack) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [bytepack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bytepack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] bytepack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bytepack")
+```
+
+
 ### bzip2 (android)
 
 
@@ -15224,7 +15248,7 @@ add_requires("zeus_expected")
 | Description | *Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.* |
 | -- | -- |
 | Homepage | [https://www.ziglang.org/](https://www.ziglang.org/) |
-| Versions | 0.10.1, 0.11.0, 0.12.0 |
+| Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
 
