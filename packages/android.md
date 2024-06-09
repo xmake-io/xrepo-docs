@@ -11420,6 +11420,29 @@ add_requires("rapidfuzz")
 ```
 
 
+### rapidhash (android)
+
+
+| Description | *Very fast, high quality, platform independant hashing algorithm.* |
+| -- | -- |
+| Homepage | [https://github.com/Nicoshev/rapidhash](https://github.com/Nicoshev/rapidhash) |
+| Versions | 2024.06.06 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [rapidhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] rapidhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidhash")
+```
+
+
 ### rapidjson (android)
 
 
@@ -12716,7 +12739,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

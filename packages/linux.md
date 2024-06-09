@@ -23648,6 +23648,29 @@ add_requires("rapidfuzz")
 ```
 
 
+### rapidhash (linux)
+
+
+| Description | *Very fast, high quality, platform independant hashing algorithm.* |
+| -- | -- |
+| Homepage | [https://github.com/Nicoshev/rapidhash](https://github.com/Nicoshev/rapidhash) |
+| Versions | 2024.06.06 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rapidhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidhash/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rapidhash
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidhash")
+```
+
+
 ### rapidjson (linux)
 
 
@@ -26129,7 +26152,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29864,7 +29887,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e361bb0fa0 |
+| License | table: 0x560e3ff75580 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
