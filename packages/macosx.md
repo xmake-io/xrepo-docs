@@ -1034,7 +1034,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1 |
+| Versions | v0.7.12, v0.8.1, v0.8.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -17146,7 +17146,7 @@ add_requires("mscharconv")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
-| Versions | v1.10, v1.11 |
+| Versions | v1.10, v1.11, v1.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
@@ -27637,7 +27637,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5577ca203560 |
+| License | table: 0x5575929dbf10 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

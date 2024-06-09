@@ -8355,7 +8355,7 @@ add_requires("mscharconv")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
-| Versions | v1.10, v1.11 |
+| Versions | v1.10, v1.11, v1.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 

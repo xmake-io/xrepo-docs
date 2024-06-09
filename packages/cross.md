@@ -652,7 +652,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1 |
+| Versions | v0.7.12, v0.8.1, v0.8.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -8367,7 +8367,7 @@ add_requires("mscharconv")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
-| Versions | v1.10, v1.11 |
+| Versions | v1.10, v1.11, v1.12 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
