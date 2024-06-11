@@ -9471,6 +9471,30 @@ add_requires("oniguruma")
 ```
 
 
+### openal-soft (bsd)
+
+
+| Description | *OpenAL Soft is a software implementation of the OpenAL 3D audio API.* |
+| -- | -- |
+| Homepage | [https://openal-soft.org](https://openal-soft.org) |
+| License | LGPL-2.0 |
+| Versions | 1.21.1, 1.22.0, 1.22.2, 1.23.1 |
+| Architectures | i386, x86_64 |
+| Definition | [openal-soft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openal-soft
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openal-soft")
+```
+
+
 ### opencc (bsd)
 
 
@@ -12524,7 +12548,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -13169,7 +13193,7 @@ add_requires("tclap")
 | -- | -- |
 | Homepage | [https://tea-age.solutions/teascript/overview-and-highlights/](https://tea-age.solutions/teascript/overview-and-highlights/) |
 | License | MPL-2.0 |
-| Versions | v0.13.0 |
+| Versions | v0.13.0, v0.14.0 |
 | Architectures | i386, x86_64 |
 | Definition | [teascript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/teascript/xmake.lua) |
 
