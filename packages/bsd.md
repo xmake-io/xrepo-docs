@@ -1862,6 +1862,30 @@ add_requires("charls")
 ```
 
 
+### chipmunk2d (bsd)
+
+
+| Description | *A fast and lightweight 2D game physics library.* |
+| -- | -- |
+| Homepage | [https://chipmunk-physics.net/](https://chipmunk-physics.net/) |
+| License | MIT |
+| Versions | 7.0.3 |
+| Architectures | i386, x86_64 |
+| Definition | [chipmunk2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/chipmunk2d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install chipmunk2d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("chipmunk2d")
+```
+
+
 ### chromium_zlib (bsd)
 
 
@@ -12500,7 +12524,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -14470,6 +14494,30 @@ xrepo install vulkan-headers
 
 ```lua
 add_requires("vulkan-headers")
+```
+
+
+### vulkan-memory-allocator (bsd)
+
+
+| Description | *Easy to integrate Vulkan memory allocation library.* |
+| -- | -- |
+| Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
+| License | MIT |
+| Versions | v3.0.0, v3.0.1, v3.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vulkan-memory-allocator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-memory-allocator")
 ```
 
 
