@@ -2120,6 +2120,30 @@ add_requires("cosmocc")
 ```
 
 
+### cpp-async (msys)
+
+
+| Description | *Support types and functions for C++20 coroutines* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/cpp-async](https://github.com/microsoft/cpp-async) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [cpp-async/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-async/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp-async
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-async")
+```
+
+
 ### cpp-dump (msys)
 
 
@@ -6414,6 +6438,30 @@ add_requires("libusb")
 ```
 
 
+### libuv (msys)
+
+
+| Description | *A multi-platform support library with a focus on asynchronous I/O.* |
+| -- | -- |
+| Homepage | [http://libuv.org/](http://libuv.org/) |
+| License | MIT |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.44.1, v1.46.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libuv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libuv")
+```
+
+
 ### libva (msys)
 
 
@@ -7293,7 +7341,7 @@ add_requires("mdns")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1 |
 | Architectures | i386, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -10986,7 +11034,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -12720,6 +12768,29 @@ xrepo install vectorial
 
 ```lua
 add_requires("vectorial")
+```
+
+
+### verdict (msys)
+
+
+| Description | *Compute quality functions of 2 and 3-dimensional regions.* |
+| -- | -- |
+| Homepage | [https://github.com/sandialabs/verdict](https://github.com/sandialabs/verdict) |
+| Versions | 1.4.2 |
+| Architectures | i386, x86_64 |
+| Definition | [verdict/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verdict/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install verdict
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("verdict")
 ```
 
 
