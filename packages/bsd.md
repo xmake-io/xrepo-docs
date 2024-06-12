@@ -3889,6 +3889,30 @@ add_requires("eventpp")
 ```
 
 
+### expat (bsd)
+
+
+| Description | *XML 1.0 parser* |
+| -- | -- |
+| Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
+| License | MIT |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2 |
+| Architectures | i386, x86_64 |
+| Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install expat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expat")
+```
+
+
 ### expected-lite (bsd)
 
 
@@ -12596,7 +12620,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -14688,6 +14712,30 @@ xrepo install wavpack
 
 ```lua
 add_requires("wavpack")
+```
+
+
+### wayland (bsd)
+
+
+| Description | *Wayland is a protocol for a compositor to talk to its clients as well as a C library implementation of that protocol.* |
+| -- | -- |
+| Homepage | [https://wayland.freedesktop.org/](https://wayland.freedesktop.org/) |
+| License | MIT |
+| Versions | 1.18.0, 1.19.0, 1.23.0 |
+| Architectures | i386, x86_64 |
+| Definition | [wayland/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wayland
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wayland")
 ```
 
 
