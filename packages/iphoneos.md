@@ -7473,6 +7473,30 @@ add_requires("luau")
 ```
 
 
+### lunasvg (iphoneos)
+
+
+| Description | *LunaSVG - SVG rendering library in C++* |
+| -- | -- |
+| Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
+| License | MIT |
+| Versions | v2.3.5, v2.3.9 |
+| Architectures | arm64, x86_64 |
+| Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos lunasvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lunasvg")
+```
+
+
 ### lvgl (iphoneos)
 
 

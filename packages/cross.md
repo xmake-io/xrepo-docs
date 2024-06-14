@@ -7530,6 +7530,30 @@ add_requires("luau")
 ```
 
 
+### lunasvg (cross)
+
+
+| Description | *LunaSVG - SVG rendering library in C++* |
+| -- | -- |
+| Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
+| License | MIT |
+| Versions | v2.3.5, v2.3.9 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] lunasvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lunasvg")
+```
+
+
 ### lvgl (cross)
 
 
