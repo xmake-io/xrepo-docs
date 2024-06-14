@@ -5746,7 +5746,7 @@ add_requires("effolkronium-random")
 | -- | -- |
 | Homepage | [https://github.com/SpartanJ/efsw](https://github.com/SpartanJ/efsw) |
 | License | MIT |
-| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1 |
+| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [efsw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/efsw/xmake.lua) |
 
@@ -8414,7 +8414,8 @@ add_requires("godotcpp")
 | Description | *C++ bindings for the Godot 4 script API* |
 | -- | -- |
 | Homepage | [https://godotengine.org/](https://godotengine.org/) |
-| Versions | 4.0 |
+| License | MIT |
+| Versions | 4.0, 4.1, 4.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [godotcpp4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp4/xmake.lua) |
 
@@ -13042,7 +13043,7 @@ add_requires("libressl")
 | -- | -- |
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
-| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2 |
+| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
@@ -24282,7 +24283,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27779,7 +27780,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x556b3ecfcc40 |
+| License | table: 0x556f471ad540 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
