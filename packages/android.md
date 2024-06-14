@@ -143,6 +143,30 @@ add_requires("angelscript")
 ```
 
 
+### antlr4-runtime (android)
+
+
+| Description | *ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.* |
+| -- | -- |
+| Homepage | [http://antlr.org](http://antlr.org) |
+| License | BSD-3-Clause |
+| Versions | 4.13.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [antlr4-runtime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/antlr4-runtime/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] antlr4-runtime
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("antlr4-runtime")
+```
+
+
 ### aqt (android)
 
 
@@ -12814,7 +12838,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

@@ -336,6 +336,30 @@ add_requires("angle")
 ```
 
 
+### antlr4-runtime (windows)
+
+
+| Description | *ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.* |
+| -- | -- |
+| Homepage | [http://antlr.org](http://antlr.org) |
+| License | BSD-3-Clause |
+| Versions | 4.13.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [antlr4-runtime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/antlr4-runtime/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install antlr4-runtime
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("antlr4-runtime")
+```
+
+
 ### apr (windows)
 
 
@@ -22396,7 +22420,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
