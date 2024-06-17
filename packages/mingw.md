@@ -3653,7 +3653,7 @@ add_requires("dylib")
 | Description | *High-Performance C/C++ library for parsing binary output files and key files of LS Dyna (d3plot, binout, input deck)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
-| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01, 24.02, 24.03 |
+| Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01, 24.02, 24.03, 24.05 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
 
@@ -6280,7 +6280,7 @@ add_requires("itlib")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -14575,7 +14575,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
