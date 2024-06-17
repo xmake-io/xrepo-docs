@@ -9156,7 +9156,7 @@ add_requires("highfive")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0 |
+| Versions | v1.5.3, v1.7.0, v1.7.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -16028,6 +16028,30 @@ add_requires("mathfu")
 ```
 
 
+### mathter (macosx)
+
+
+| Description | *A flexible and fast matrix, transform and geometry library.* |
+| -- | -- |
+| Homepage | [https://github.com/petiaccja/Mathter](https://github.com/petiaccja/Mathter) |
+| License | MIT |
+| Versions | v1.1.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [mathter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mathter/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mathter
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mathter")
+```
+
+
 ### matio (macosx)
 
 
@@ -17981,7 +18005,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0 |
+| Versions | v1.3.0, v1.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
@@ -24331,7 +24355,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27852,7 +27876,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564ede8db9e0 |
+| License | table: 0x55cba70877a0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
