@@ -2110,7 +2110,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -3751,7 +3751,7 @@ add_requires("cpp-semver")
 | -- | -- |
 | Homepage | [https://github.com/Morwenn/cpp-sort](https://github.com/Morwenn/cpp-sort) |
 | License | MIT |
-| Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.2, 1.14.0, 1.15.0 |
+| Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.2, 1.14.0, 1.15.0, 1.16.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cpp-sort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-sort/xmake.lua) |
 
@@ -15262,7 +15262,7 @@ add_requires("mjson")
 | Description | *Intel® oneAPI Math Kernel Library* |
 | -- | -- |
 | Homepage | [https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html) |
-| Versions | 2021.2.0+296, 2021.3.0+520, 2022.1.0+223, 2023.2.0+49495, 2024.1.0+691 |
+| Versions | 2021.2.0+296, 2021.3.0+520, 2022.1.0+223, 2023.2.0+49495, 2024.1.0+691, 2024.2.0+663 |
 | Architectures | x64, x86 |
 | Definition | [mkl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mkl/xmake.lua) |
 
@@ -15664,7 +15664,7 @@ add_requires("msgpack-cxx")
 | Description | *An embeddable Javascript interpreter in C.* |
 | -- | -- |
 | Homepage | [http://mujs.com/](http://mujs.com/) |
-| Versions | 1.3.4 |
+| Versions | 1.3.4, 1.3.5 |
 | Architectures | arm64, x64, x86 |
 | Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
 
@@ -21397,7 +21397,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
 | License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0 |
+| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0 |
 | Architectures | x64, x86 |
 | Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
 
