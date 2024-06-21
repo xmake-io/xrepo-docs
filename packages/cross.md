@@ -1576,6 +1576,30 @@ add_requires("catch2")
 ```
 
 
+### cdt (cross)
+
+
+| Description | *Constrained Delaunay Triangulation (C++)* |
+| -- | -- |
+| Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
+| License | MPL-2.0 |
+| Versions | 1.4.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cdt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cdt")
+```
+
+
 ### cello (cross)
 
 
@@ -2072,6 +2096,30 @@ xrepo install -p cross [--sdk=/xxx] cmark
 
 ```lua
 add_requires("cmark")
+```
+
+
+### cmdparser (cross)
+
+
+| Description | *A simple and lightweight command line parser using C++11.* |
+| -- | -- |
+| Homepage | [https://github.com/FlorianRappl/CmdParser](https://github.com/FlorianRappl/CmdParser) |
+| License | MIT |
+| Versions | 2024.02.13 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cmdparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmdparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cmdparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cmdparser")
 ```
 
 
@@ -12345,7 +12393,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

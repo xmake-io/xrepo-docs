@@ -2340,6 +2340,30 @@ add_requires("caudio")
 ```
 
 
+### cdt (windows)
+
+
+| Description | *Constrained Delaunay Triangulation (C++)* |
+| -- | -- |
+| Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
+| License | MPL-2.0 |
+| Versions | 1.4.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cdt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cdt")
+```
+
+
 ### cef (windows)
 
 
@@ -3218,6 +3242,30 @@ xrepo install cmark
 
 ```lua
 add_requires("cmark")
+```
+
+
+### cmdparser (windows)
+
+
+| Description | *A simple and lightweight command line parser using C++11.* |
+| -- | -- |
+| Homepage | [https://github.com/FlorianRappl/CmdParser](https://github.com/FlorianRappl/CmdParser) |
+| License | MIT |
+| Versions | 2024.02.13 |
+| Architectures | arm64, x64, x86 |
+| Definition | [cmdparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmdparser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cmdparser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cmdparser")
 ```
 
 
@@ -22586,7 +22634,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
