@@ -3987,7 +3987,7 @@ add_requires("cppp-reiconv")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/cpptrace](https://github.com/jeremy-rifkin/cpptrace) |
 | License | MIT |
-| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1 |
+| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cpptrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpptrace/xmake.lua) |
 
@@ -7256,7 +7256,7 @@ add_requires("freetype")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13, 1.0.14 |
+| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13, 1.0.14, 1.0.15 |
 | Architectures | x64, x86 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
@@ -13647,7 +13647,7 @@ add_requires("ls-qpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic) |
 | License | MIT |
-| Versions | v4.0.8 |
+| Versions | v4.0.8, v4.0.9 |
 | Architectures | x64, x86 |
 | Definition | [lsquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsquic/xmake.lua) |
 
@@ -14376,6 +14376,30 @@ add_requires("marl")
 ```
 
 
+### matchit (windows)
+
+
+| Description | *A lightweight single-header pattern-matching library for C++17 with macro-free APIs.* |
+| -- | -- |
+| Homepage | [https://bowenfu.github.io/matchit.cpp/](https://bowenfu.github.io/matchit.cpp/) |
+| License | Apache-2.0 |
+| Versions | v1.0.1 |
+| Architectures | arm64, x64, x86 |
+| Definition | [matchit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matchit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install matchit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("matchit")
+```
+
+
 ### mathfu (windows)
 
 
@@ -14407,7 +14431,7 @@ add_requires("mathfu")
 | -- | -- |
 | Homepage | [https://github.com/petiaccja/Mathter](https://github.com/petiaccja/Mathter) |
 | License | MIT |
-| Versions | v1.1.1 |
+| Versions | v1.1.1, v1.1.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [mathter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mathter/xmake.lua) |
 
@@ -22634,7 +22658,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

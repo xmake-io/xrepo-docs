@@ -4156,7 +4156,7 @@ add_requires("freetype")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13, 1.0.14 |
+| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13, 1.0.14, 1.0.15 |
 | Architectures | i386, x86_64 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
@@ -7453,6 +7453,30 @@ add_requires("mapbox_variant")
 ```
 
 
+### matchit (msys)
+
+
+| Description | *A lightweight single-header pattern-matching library for C++17 with macro-free APIs.* |
+| -- | -- |
+| Homepage | [https://bowenfu.github.io/matchit.cpp/](https://bowenfu.github.io/matchit.cpp/) |
+| License | Apache-2.0 |
+| Versions | v1.0.1 |
+| Architectures | i386, x86_64 |
+| Definition | [matchit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matchit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install matchit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("matchit")
+```
+
+
 ### mathfu (msys)
 
 
@@ -7484,7 +7508,7 @@ add_requires("mathfu")
 | -- | -- |
 | Homepage | [https://github.com/petiaccja/Mathter](https://github.com/petiaccja/Mathter) |
 | License | MIT |
-| Versions | v1.1.1 |
+| Versions | v1.1.1, v1.1.2 |
 | Architectures | i386, x86_64 |
 | Definition | [mathter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mathter/xmake.lua) |
 
@@ -11391,7 +11415,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
