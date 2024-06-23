@@ -12661,6 +12661,30 @@ add_requires("libmspack")
 ```
 
 
+### libnest2d (macosx)
+
+
+| Description | *2D irregular bin packaging and nesting library written in modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/tamasmeszaros/libnest2d](https://github.com/tamasmeszaros/libnest2d) |
+| License | LGPL-3.0 |
+| Versions | 2022.11.16 |
+| Architectures | arm64, x86_64 |
+| Definition | [libnest2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnest2d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libnest2d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnest2d")
+```
+
+
 ### libnet (macosx)
 
 
@@ -20808,6 +20832,30 @@ add_requires("poco")
 ```
 
 
+### polyclipping (macosx)
+
+
+| Description | *Polygon and line clipping and offsetting library* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/polyclipping](https://sourceforge.net/projects/polyclipping) |
+| License | BSL-1.0 |
+| Versions | 6.4.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [polyclipping/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/polyclipping/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install polyclipping
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("polyclipping")
+```
+
+
 ### polyscope (macosx)
 
 
@@ -24521,7 +24569,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28042,7 +28090,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5572be4ec5d0 |
+| License | table: 0x56021367ef00 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
