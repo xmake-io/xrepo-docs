@@ -6871,6 +6871,29 @@ add_requires("libpng")
 ```
 
 
+### libpthread-stubs (bsd)
+
+
+| Description | *X.Org: pthread-stubs.pc* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 0.4, 0.5 |
+| Architectures | i386, x86_64 |
+| Definition | [libpthread-stubs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpthread-stubs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpthread-stubs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpthread-stubs")
+```
+
+
 ### libqrencode (bsd)
 
 
@@ -7459,6 +7482,121 @@ xrepo install libwebp
 
 ```lua
 add_requires("libwebp")
+```
+
+
+### libx11 (bsd)
+
+
+| Description | *X.Org: Core X11 protocol client library* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1, 1.8.7 |
+| Architectures | i386, x86_64 |
+| Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libx11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libx11")
+```
+
+
+### libxau (bsd)
+
+
+| Description | *X.Org: A Sample Authorization Protocol for X* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.0.10, 1.0.11 |
+| Architectures | i386, x86_64 |
+| Definition | [libxau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxau/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxau
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxau")
+```
+
+
+### libxcb (bsd)
+
+
+| Description | *X.Org: Interface to the X Window System protocol* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.13.1, 1.14, 1.16 |
+| Architectures | i386, x86_64 |
+| Definition | [libxcb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxcb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxcb")
+```
+
+
+### libxdmcp (bsd)
+
+
+| Description | *X.Org: X Display Manager Control Protocol library* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.1.3, 1.1.4 |
+| Architectures | i386, x86_64 |
+| Definition | [libxdmcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxdmcp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxdmcp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxdmcp")
+```
+
+
+### libxext (bsd)
+
+
+| Description | *X.Org: Library for common extensions to the X11 protocol* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.3.5, 1.3.6 |
+| Architectures | i386, x86_64 |
+| Definition | [libxext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxext/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxext
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxext")
 ```
 
 
@@ -13051,7 +13189,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -14880,6 +15018,29 @@ add_requires("uthash")
 ```
 
 
+### util-macros (bsd)
+
+
+| Description | *X.Org: Set of autoconf macros used to build other xorg packages* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.19.3, 1.20.0 |
+| Architectures | i386, x86_64 |
+| Definition | [util-macros/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/util-macros/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install util-macros
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("util-macros")
+```
+
+
 ### uuid_v4 (bsd)
 
 
@@ -15290,6 +15451,29 @@ add_requires("xbyak")
 ```
 
 
+### xcb-proto (bsd)
+
+
+| Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.13, 1.14, 1.14.1, 1.16.0 |
+| Architectures | i386, x86_64 |
+| Definition | [xcb-proto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-proto/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xcb-proto
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xcb-proto")
+```
+
+
 ### xlnt (bsd)
 
 
@@ -15314,6 +15498,29 @@ add_requires("xlnt")
 ```
 
 
+### xorgproto (bsd)
+
+
+| Description | *X.Org: Protocol Headers* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 2021.5, 2022.2, 2023.2 |
+| Architectures | i386, x86_64 |
+| Definition | [xorgproto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xorgproto/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xorgproto
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xorgproto")
+```
+
+
 ### xpack (bsd)
 
 
@@ -15335,6 +15542,29 @@ xrepo install xpack
 
 ```lua
 add_requires("xpack")
+```
+
+
+### xtrans (bsd)
+
+
+| Description | *X.Org: X Network Transport layer shared code* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.4.0 |
+| Architectures | i386, x86_64 |
+| Definition | [xtrans/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtrans/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xtrans
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtrans")
 ```
 
 
