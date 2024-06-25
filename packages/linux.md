@@ -7298,7 +7298,7 @@ add_requires("fbgemm")
 | -- | -- |
 | Homepage | [https://github.com/facebook/fbthrift](https://github.com/facebook/fbthrift) |
 | License | Apache-2.0 |
-| Versions | 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17 |
+| Versions | 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fbthrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fbthrift/xmake.lua) |
 
@@ -7466,7 +7466,7 @@ add_requires("filament")
 | -- | -- |
 | Homepage | [https://github.com/facebookincubator/fizz](https://github.com/facebookincubator/fizz) |
 | License | BSD |
-| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17 |
+| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fizz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fizz/xmake.lua) |
 
@@ -7774,7 +7774,7 @@ add_requires("fmtlog")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17 |
+| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
@@ -18998,7 +18998,7 @@ add_requires("mustache")
 | -- | -- |
 | Homepage | [https://github.com/facebook/mvfst](https://github.com/facebook/mvfst) |
 | License | MIT |
-| Versions | 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17 |
+| Versions | 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mvfst/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mvfst/xmake.lua) |
 
@@ -22826,7 +22826,7 @@ add_requires("protoc")
 | -- | -- |
 | Homepage | [https://github.com/facebook/proxygen](https://github.com/facebook/proxygen) |
 | License | BSD |
-| Versions | 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17 |
+| Versions | 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [proxygen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proxygen/xmake.lua) |
 
@@ -26560,7 +26560,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28460,7 +28460,7 @@ add_requires("toml++")
 | -- | -- |
 | Homepage | [https://github.com/ToruNiina/toml11](https://github.com/ToruNiina/toml11) |
 | License | MIT |
-| Versions | v3.7.0, v3.8.1 |
+| Versions | v3.7.0, v3.8.1, v4.0.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [toml11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml11/xmake.lua) |
 
@@ -30034,7 +30034,7 @@ add_requires("vvenc")
 | -- | -- |
 | Homepage | [https://github.com/facebook/wangle](https://github.com/facebook/wangle) |
 | License | Apache-2.0 |
-| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17 |
+| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wangle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wangle/xmake.lua) |
 
@@ -30342,7 +30342,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563a89e5c460 |
+| License | table: 0x555d66376800 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
