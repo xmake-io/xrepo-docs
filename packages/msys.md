@@ -6202,6 +6202,30 @@ add_requires("libmorton")
 ```
 
 
+### libmspack (msys)
+
+
+| Description | *libmspack is a portable library for some loosely related Microsoft compression formats.* |
+| -- | -- |
+| Homepage | [https://www.cabextract.org.uk/libmspack/](https://www.cabextract.org.uk/libmspack/) |
+| License | LGPL-2.0 |
+| Versions | v0.10.1alpha, v1.11 |
+| Architectures | i386, x86_64 |
+| Definition | [libmspack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmspack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libmspack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmspack")
+```
+
+
 ### libnpy (msys)
 
 
@@ -11536,7 +11560,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
