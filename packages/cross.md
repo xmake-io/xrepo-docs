@@ -4107,6 +4107,30 @@ add_requires("fastcppcsvparser")
 ```
 
 
+### fatal (cross)
+
+
+| Description | *Fatal is a library for fast prototyping software in modern C++.* |
+| -- | -- |
+| Homepage | [https://github.com/facebook/fatal](https://github.com/facebook/fatal) |
+| License | BSD |
+| Versions | 2024.06.24 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [fatal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fatal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] fatal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fatal")
+```
+
+
 ### fdk-aac (cross)
 
 
@@ -12514,7 +12538,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
