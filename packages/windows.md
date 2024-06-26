@@ -1683,7 +1683,7 @@ add_requires("blitz")
 | -- | -- |
 | Homepage | [https://www.blosc.org/](https://www.blosc.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.5.0, v1.20.1, v1.21.1, v1.21.4, v1.21.5 |
+| Versions | v1.5.0, v1.20.1, v1.21.1, v1.21.4, v1.21.5, v1.21.6 |
 | Architectures | arm64, x64, x86 |
 | Definition | [blosc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blosc/xmake.lua) |
 
@@ -5155,7 +5155,7 @@ add_requires("directxmath")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/DirectXShaderCompiler/](https://github.com/microsoft/DirectXShaderCompiler/) |
 | License | LLVM |
-| Versions | v1.7.2212, v1.8.2403 |
+| Versions | v1.7.2212, v1.8.2403, v1.8.2405 |
 | Architectures | x64 |
 | Definition | [directxshadercompiler/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directxshadercompiler/xmake.lua) |
 
@@ -13273,7 +13273,7 @@ add_requires("lief")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM) |
 | License | MIT |
-| Versions | 3.2.1, 3.3.2, 4.2.0, 4.3.0 |
+| Versions | 3.2.1, 3.3.2, 4.2.0, 4.3.0, 4.4.0 |
 | Architectures | x64 |
 | Definition | [lightgbm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightgbm/xmake.lua) |
 
@@ -22731,7 +22731,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
