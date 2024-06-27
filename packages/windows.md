@@ -16847,6 +16847,29 @@ add_requires("nowide_standalone")
 ```
 
 
+### npcap_sdk (windows)
+
+
+| Description | *Npcap is the Nmap Project's packet capture (and sending) library for Microsoft Windows.* |
+| -- | -- |
+| Homepage | [https://npcap.com/](https://npcap.com/) |
+| Versions | 1.13 |
+| Architectures | arm64, x64, x86 |
+| Definition | [npcap_sdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/npcap_sdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install npcap_sdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("npcap_sdk")
+```
+
+
 ### nsync (windows)
 
 
@@ -26485,6 +26508,30 @@ xrepo install wingetopt
 
 ```lua
 add_requires("wingetopt")
+```
+
+
+### winlamb (windows)
+
+
+| Description | *A lightweight modern C++11 library for Win32 API, using lambdas to handle Windows messages.* |
+| -- | -- |
+| Homepage | [https://github.com/rodrigocfd/winlamb](https://github.com/rodrigocfd/winlamb) |
+| License | MIT |
+| Versions | 2023.07.07 |
+| Architectures | arm64, x64, x86 |
+| Definition | [winlamb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/winlamb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install winlamb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("winlamb")
 ```
 
 
