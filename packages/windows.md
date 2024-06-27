@@ -1,3 +1,29 @@
+## 1
+### 11zip (windows)
+
+
+| Description | *Dead simple zipping / unzipping C++ Lib* |
+| -- | -- |
+| Homepage | [https://github.com/Sygmei/11Zip](https://github.com/Sygmei/11Zip) |
+| License | MIT |
+| Versions | 2023.05.10 |
+| Architectures | arm64, x64, x86 |
+| Definition | [11zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/1/11zip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install 11zip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("11zip")
+```
+
+
+
 ## 7
 ### 7z (windows)
 
@@ -22779,7 +22805,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
