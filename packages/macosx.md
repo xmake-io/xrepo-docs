@@ -15518,7 +15518,7 @@ add_requires("lsquic")
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
 | Homepage | [http://lua.org](http://lua.org) |
-| Versions | v5.1.1, v5.1.5, v5.2.3, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4, v5.4.6 |
+| Versions | v5.1.1, v5.1.5, v5.2.3, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4, v5.4.6, v5.4.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
@@ -28213,7 +28213,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5629934c7b00 |
+| License | table: 0x560de79cd620 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
