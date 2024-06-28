@@ -489,7 +489,7 @@ add_requires("aqt")
 | -- | -- |
 | Homepage | [https://arduinojson.org](https://arduinojson.org) |
 | License | MIT |
-| Versions | v6.21.4, v7.0.3, v7.0.4 |
+| Versions | v6.21.4, v7.0.3, v7.0.4, v7.1.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
 
@@ -1422,7 +1422,7 @@ add_requires("aws-sdk-cpp")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
-| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0 |
+| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
@@ -14398,7 +14398,7 @@ add_requires("libressl")
 | -- | -- |
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
-| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3 |
+| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3, v2.8.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
@@ -23044,7 +23044,7 @@ add_requires("psimd")
 | -- | -- |
 | Homepage | [http://ptex.us/](http://ptex.us/) |
 | License | BSD-3-Clause |
-| Versions | v2.3.2, v2.4.1, v2.4.2 |
+| Versions | v2.3.2, v2.4.1, v2.4.2, v2.4.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
 
@@ -23399,7 +23399,7 @@ add_requires("qmsetup")
 | -- | -- |
 | Homepage | [https://qoiformat.org/](https://qoiformat.org/) |
 | License | MIT |
-| Versions | 2021.12.22, 2022.11.17 |
+| Versions | 2021.12.22, 2022.11.17, 2024.03.18 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qoi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qoi/xmake.lua) |
 
@@ -26658,7 +26658,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30440,7 +30440,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55acbbeb6450 |
+| License | table: 0x5629934c7b00 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
