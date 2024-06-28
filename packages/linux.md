@@ -177,7 +177,7 @@ add_requires("ada")
 | -- | -- |
 | Homepage | [https://github.com/opencv/ade](https://github.com/opencv/ade) |
 | License | Apache-2.0 |
-| Versions | v0.1.2d |
+| Versions | v0.1.2d, v0.1.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ade/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ade/xmake.lua) |
 
@@ -681,7 +681,7 @@ add_requires("asio")
 | -- | -- |
 | Homepage | [https://github.com/zhllxt/asio2](https://github.com/zhllxt/asio2) |
 | License | BSL-1.0 |
-| Versions | 2023.05.09 |
+| Versions | v2.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [asio2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio2/xmake.lua) |
 
@@ -26658,7 +26658,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30440,7 +30440,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5653df7a2f50 |
+| License | table: 0x55d2b69265a0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
