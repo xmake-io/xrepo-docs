@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: wjakob_filesystem, pcapplusplus, yalantinglibs**
+- **Recently added: mapbox_polylabel, wjakob_filesystem, pcapplusplus**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

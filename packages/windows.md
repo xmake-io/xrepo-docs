@@ -12162,7 +12162,7 @@ add_requires("libogg")
 | Description | *Modern audio compression for the internet.* |
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
-| Versions | 1.3.1, 1.4, 1.5, 1.5.1 |
+| Versions | 1.3.1, 1.4, 1.5, 1.5.1, 1.5.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -14405,6 +14405,30 @@ add_requires("mapbox_geometry")
 ```
 
 
+### mapbox_polylabel (windows)
+
+
+| Description | *A fast algorithm for finding the pole of inaccessibility of a polygon (in JavaScript and C++)* |
+| -- | -- |
+| Homepage | [https://github.com/mapbox/polylabel](https://github.com/mapbox/polylabel) |
+| License | ISC |
+| Versions | v2.0.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [mapbox_polylabel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_polylabel/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mapbox_polylabel
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mapbox_polylabel")
+```
+
+
 ### mapbox_variant (windows)
 
 
@@ -14412,7 +14436,7 @@ add_requires("mapbox_geometry")
 | -- | -- |
 | Homepage | [https://github.com/mapbox/variant](https://github.com/mapbox/variant) |
 | License | BSD |
-| Versions | v1.2.0 |
+| Versions | v1.2.0, 2020.12.02 |
 | Architectures | arm64, x64, x86 |
 | Definition | [mapbox_variant/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_variant/xmake.lua) |
 
@@ -16262,7 +16286,7 @@ add_requires("nativefiledialog")
 | Description | *Cross platform (Windows, Mac, Linux) native file dialog library with C and C++ bindings, based on mlabbe/nativefiledialog.* |
 | -- | -- |
 | Homepage | [https://github.com/btzy/nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) |
-| Versions | v1.0.2, v1.1.0, v1.1.1 |
+| Versions | v1.0.2, v1.1.0, v1.1.1, v1.2.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [nativefiledialog-extended/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nativefiledialog-extended/xmake.lua) |
 
@@ -22851,7 +22875,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27330,7 +27354,7 @@ add_requires("yasm")
 | -- | -- |
 | Homepage | [https://yogalayout.com/](https://yogalayout.com/) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.2, v3.0.3, v3.0.4 |
+| Versions | v2.0.1, v3.0.0, v3.0.2, v3.0.3, v3.0.4, v3.1.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [yoga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yoga/xmake.lua) |
 

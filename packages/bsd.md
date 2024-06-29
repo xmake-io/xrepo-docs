@@ -8544,6 +8544,30 @@ add_requires("mapbox_geometry")
 ```
 
 
+### mapbox_polylabel (bsd)
+
+
+| Description | *A fast algorithm for finding the pole of inaccessibility of a polygon (in JavaScript and C++)* |
+| -- | -- |
+| Homepage | [https://github.com/mapbox/polylabel](https://github.com/mapbox/polylabel) |
+| License | ISC |
+| Versions | v2.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [mapbox_polylabel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_polylabel/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mapbox_polylabel
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mapbox_polylabel")
+```
+
+
 ### mapbox_variant (bsd)
 
 
@@ -8551,7 +8575,7 @@ add_requires("mapbox_geometry")
 | -- | -- |
 | Homepage | [https://github.com/mapbox/variant](https://github.com/mapbox/variant) |
 | License | BSD |
-| Versions | v1.2.0 |
+| Versions | v1.2.0, 2020.12.02 |
 | Architectures | i386, x86_64 |
 | Definition | [mapbox_variant/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_variant/xmake.lua) |
 
@@ -13333,7 +13357,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -15815,7 +15839,7 @@ add_requires("yasm")
 | -- | -- |
 | Homepage | [https://yogalayout.com/](https://yogalayout.com/) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.2, v3.0.3, v3.0.4 |
+| Versions | v2.0.1, v3.0.0, v3.0.2, v3.0.3, v3.0.4, v3.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [yoga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yoga/xmake.lua) |
 
