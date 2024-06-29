@@ -4727,6 +4727,30 @@ add_requires("fmt")
 ```
 
 
+### freeglut (mingw)
+
+
+| Description | *Free implementation of the OpenGL Utility Toolkit (GLUT)* |
+| -- | -- |
+| Homepage | [http://freeglut.sourceforge.net](http://freeglut.sourceforge.net) |
+| License | MIT |
+| Versions | 3.4.0, 3.6.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [freeglut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeglut/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] freeglut
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("freeglut")
+```
+
+
 ### freetype (mingw)
 
 
@@ -15032,7 +15056,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17551,6 +17575,30 @@ xrepo install -p mingw [--mingw=/xxx] winreg
 
 ```lua
 add_requires("winreg")
+```
+
+
+### wjakob_filesystem (mingw)
+
+
+| Description | *A tiny self-contained path manipulation library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/wjakob/filesystem](https://github.com/wjakob/filesystem) |
+| License | BSD-3-Clause |
+| Versions | 2021.10.28 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [wjakob_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wjakob_filesystem/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] wjakob_filesystem
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wjakob_filesystem")
 ```
 
 

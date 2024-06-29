@@ -7914,11 +7914,11 @@ add_requires("fpng")
 ### freeglut (linux)
 
 
-| Description | *A free-software/open-source alternative to the OpenGL Utility Toolkit (GLUT) library.* |
+| Description | *Free implementation of the OpenGL Utility Toolkit (GLUT)* |
 | -- | -- |
 | Homepage | [http://freeglut.sourceforge.net](http://freeglut.sourceforge.net) |
 | License | MIT |
-| Versions | v3.4.0 |
+| Versions | 3.4.0, 3.6.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freeglut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeglut/xmake.lua) |
 
@@ -26658,7 +26658,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30440,7 +30440,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d2b69265a0 |
+| License | table: 0x56038c2eb920 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -30455,6 +30455,30 @@ xrepo install wigxjpf
 
 ```lua
 add_requires("wigxjpf")
+```
+
+
+### wjakob_filesystem (linux)
+
+
+| Description | *A tiny self-contained path manipulation library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/wjakob/filesystem](https://github.com/wjakob/filesystem) |
+| License | BSD-3-Clause |
+| Versions | 2021.10.28 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [wjakob_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wjakob_filesystem/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wjakob_filesystem
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wjakob_filesystem")
 ```
 
 
