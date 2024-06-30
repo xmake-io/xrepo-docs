@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: pe-parse, mapbox_polylabel, wjakob_filesystem**
+- **Recently added: faker-cxx, pe-parse, mapbox_polylabel**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

@@ -4752,7 +4752,7 @@ add_requires("d3d12-memory-allocator")
 | -- | -- |
 | Homepage | [https://dartsim.github.io/](https://dartsim.github.io/) |
 | License | BSD-2-Clause |
-| Versions | v6.13.0 |
+| Versions | v6.13.0, v6.14.2 |
 | Architectures | x64 |
 | Definition | [dartsim/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dartsim/xmake.lua) |
 
@@ -6536,6 +6536,30 @@ xrepo install fakeit
 
 ```lua
 add_requires("fakeit")
+```
+
+
+### faker-cxx (windows)
+
+
+| Description | *C++ Faker library for generating fake (but realistic) data.* |
+| -- | -- |
+| Homepage | [https://cieslarmichal.github.io/faker-cxx/](https://cieslarmichal.github.io/faker-cxx/) |
+| License | MIT |
+| Versions | v2.0.0 |
+| Architectures | arm64, x64, x86 |
+| Definition | [faker-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faker-cxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install faker-cxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("faker-cxx")
 ```
 
 
@@ -10359,7 +10383,7 @@ add_requires("jsmn")
 | -- | -- |
 | Homepage | [https://github.com/json-c/json-c/wiki](https://github.com/json-c/json-c/wiki) |
 | License | MIT |
-| Versions | 0.17-20230812 |
+| Versions | 0.17 |
 | Architectures | arm64, x64, x86 |
 | Definition | [json-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-c/xmake.lua) |
 
@@ -22899,7 +22923,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
