@@ -242,6 +242,30 @@ add_requires("alembic")
 ```
 
 
+### algo_plus (windows)
+
+
+| Description | *AlgoPlus is a C++17 library for complex data structures and algorithms* |
+| -- | -- |
+| Homepage | [https://csrt-ntua.github.io/AlgoPlus](https://csrt-ntua.github.io/AlgoPlus) |
+| License | Apache-2.0 |
+| Versions | 2024.07.02 |
+| Architectures | arm64, x64, x86 |
+| Definition | [algo_plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/algo_plus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install algo_plus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("algo_plus")
+```
+
+
 ### amgcl (windows)
 
 

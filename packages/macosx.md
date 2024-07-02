@@ -242,6 +242,30 @@ add_requires("alembic")
 ```
 
 
+### algo_plus (macosx)
+
+
+| Description | *AlgoPlus is a C++17 library for complex data structures and algorithms* |
+| -- | -- |
+| Homepage | [https://csrt-ntua.github.io/AlgoPlus](https://csrt-ntua.github.io/AlgoPlus) |
+| License | Apache-2.0 |
+| Versions | 2024.07.02 |
+| Architectures | arm64, x86_64 |
+| Definition | [algo_plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/algo_plus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install algo_plus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("algo_plus")
+```
+
+
 ### amgcl (macosx)
 
 
@@ -28309,7 +28333,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x555dbb4a29a0 |
+| License | table: 0x560e30e6ebc0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

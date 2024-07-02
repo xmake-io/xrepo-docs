@@ -119,6 +119,30 @@ add_requires("aitoolkit")
 ```
 
 
+### algo_plus (cross)
+
+
+| Description | *AlgoPlus is a C++17 library for complex data structures and algorithms* |
+| -- | -- |
+| Homepage | [https://csrt-ntua.github.io/AlgoPlus](https://csrt-ntua.github.io/AlgoPlus) |
+| License | Apache-2.0 |
+| Versions | 2024.07.02 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [algo_plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/algo_plus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] algo_plus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("algo_plus")
+```
+
+
 ### amqp-cpp (cross)
 
 
