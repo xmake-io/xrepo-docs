@@ -4919,7 +4919,7 @@ add_requires("daw_header_libraries")
 | -- | -- |
 | Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
 | License | BSL-1.0 |
-| Versions | v3.20.1, v3.23.2, v3.24.0 |
+| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
 
@@ -10192,7 +10192,7 @@ add_requires("itlib")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -19570,7 +19570,7 @@ add_requires("promise-cpp")
 | Description | *Google's data interchange format for cpp* |
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
-| Versions | 3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0 |
+| Versions | 3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2 |
 | Architectures | arm64, x64, x86 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
@@ -21068,7 +21068,7 @@ add_requires("redis-plus-plus")
 | -- | -- |
 | Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
 | License | MIT |
-| Versions | v0.10.0, v0.11.1 |
+| Versions | v0.10.0, v0.11.1, v0.12.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
 
@@ -22995,7 +22995,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
