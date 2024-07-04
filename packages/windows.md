@@ -14976,6 +14976,30 @@ add_requires("meson")
 ```
 
 
+### metalang99 (windows)
+
+
+| Description | *Full-blown preprocessor metaprogramming* |
+| -- | -- |
+| Homepage | [https://github.com/Hirrolot/metalang99](https://github.com/Hirrolot/metalang99) |
+| License | MIT |
+| Versions | 1.13.2, 1.13.3 |
+| Architectures | arm64, x64, x86 |
+| Definition | [metalang99/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/metalang99/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install metalang99
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("metalang99")
+```
+
+
 ### metis (windows)
 
 
@@ -19287,7 +19311,7 @@ add_requires("pocketfft")
 | -- | -- |
 | Homepage | [https://github.com/blueloveTH/pocketpy](https://github.com/blueloveTH/pocketpy) |
 | License | MIT |
-| Versions | v0.9.0, v1.4.5 |
+| Versions | v0.9.0, v1.4.5, v1.4.6 |
 | Architectures | x64 |
 | Definition | [pocketpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketpy/xmake.lua) |
 
@@ -22996,7 +23020,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
