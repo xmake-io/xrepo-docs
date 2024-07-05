@@ -7256,7 +7256,7 @@ add_requires("fltk")
 | -- | -- |
 | Homepage | [https://www.fluidsynth.org/](https://www.fluidsynth.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.3.3 |
+| Versions | v2.3.3, v2.3.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [fluidsynth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluidsynth/xmake.lua) |
 
@@ -28502,7 +28502,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f2c3098fc0 |
+| License | table: 0x555d0c892f70 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

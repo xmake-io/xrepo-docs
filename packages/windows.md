@@ -7216,7 +7216,7 @@ add_requires("fltk")
 | -- | -- |
 | Homepage | [https://www.fluidsynth.org/](https://www.fluidsynth.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.3.3 |
+| Versions | v2.3.3, v2.3.5 |
 | Architectures | arm64, x64, x86 |
 | Definition | [fluidsynth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluidsynth/xmake.lua) |
 
