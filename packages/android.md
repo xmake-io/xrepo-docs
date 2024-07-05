@@ -7557,6 +7557,30 @@ add_requires("libsvm")
 ```
 
 
+### libtomcrypt (android)
+
+
+| Description | *A fairly comprehensive, modular and portable cryptographic toolkit.* |
+| -- | -- |
+| Homepage | [https://www.libtom.net](https://www.libtom.net) |
+| License | Unlicense |
+| Versions | 2024.06.26 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libtomcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtomcrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libtomcrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtomcrypt")
+```
+
+
 ### libtommath (android)
 
 

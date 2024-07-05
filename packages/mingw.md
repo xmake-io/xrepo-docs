@@ -7497,7 +7497,7 @@ add_requires("libdivsufsort")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -8509,6 +8509,30 @@ xrepo install -p mingw [--mingw=/xxx] libtiff
 
 ```lua
 add_requires("libtiff")
+```
+
+
+### libtomcrypt (mingw)
+
+
+| Description | *A fairly comprehensive, modular and portable cryptographic toolkit.* |
+| -- | -- |
+| Homepage | [https://www.libtom.net](https://www.libtom.net) |
+| License | Unlicense |
+| Versions | 2024.06.26 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libtomcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtomcrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libtomcrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtomcrypt")
 ```
 
 

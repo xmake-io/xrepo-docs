@@ -7302,6 +7302,30 @@ add_requires("libsvm")
 ```
 
 
+### libtomcrypt (cross)
+
+
+| Description | *A fairly comprehensive, modular and portable cryptographic toolkit.* |
+| -- | -- |
+| Homepage | [https://www.libtom.net](https://www.libtom.net) |
+| License | Unlicense |
+| Versions | 2024.06.26 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libtomcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtomcrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libtomcrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtomcrypt")
+```
+
+
 ### libtommath (cross)
 
 
