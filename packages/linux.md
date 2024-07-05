@@ -3814,6 +3814,30 @@ add_requires("collada-dom")
 ```
 
 
+### commata (linux)
+
+
+| Description | *Just another header-only C++17 CSV parser* |
+| -- | -- |
+| Homepage | [https://furfurylic.github.io/commata/CommataSpecification.xml](https://furfurylic.github.io/commata/CommataSpecification.xml) |
+| License | Unlicense |
+| Versions | v1.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [commata/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/commata/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install commata
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("commata")
+```
+
+
 ### concurrentqueue (linux)
 
 
@@ -26922,7 +26946,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30704,7 +30728,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a2210d4030 |
+| License | table: 0x55904cf509a0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
