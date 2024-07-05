@@ -7327,6 +7327,30 @@ add_requires("fmtlog")
 ```
 
 
+### folly (windows)
+
+
+| Description | *An open-source C++ library developed and used at Facebook.* |
+| -- | -- |
+| Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
+| License | Apache-2.0 |
+| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01 |
+| Architectures | x64 |
+| Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install folly
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("folly")
+```
+
+
 ### fontconfig (windows)
 
 
@@ -8335,7 +8359,7 @@ add_requires("glob")
 | -- | -- |
 | Homepage | [https://github.com/google/glog/](https://github.com/google/glog/) |
 | License | BSD-3-Clause |
-| Versions | v0.4.0, v0.5.0, v0.6.0, v0.7.0 |
+| Versions | v0.4.0, v0.5.0, v0.6.0, v0.7.0, v0.7.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [glog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glog/xmake.lua) |
 
@@ -23092,7 +23116,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
