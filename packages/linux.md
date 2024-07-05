@@ -129,7 +129,7 @@ add_requires("acl")
 | -- | -- |
 | Homepage | [http://actor-framework.org/](http://actor-framework.org/) |
 | License | BSD-3-Clause |
-| Versions | 0.19.2, 0.19.6 |
+| Versions | 0.19.2, 0.19.6, 1.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [actor-framework/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/actor-framework/xmake.lua) |
 
@@ -30728,7 +30728,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55904cf509a0 |
+| License | table: 0x555f5703d550 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

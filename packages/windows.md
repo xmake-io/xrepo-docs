@@ -105,7 +105,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [http://actor-framework.org/](http://actor-framework.org/) |
 | License | BSD-3-Clause |
-| Versions | 0.19.2, 0.19.6 |
+| Versions | 0.19.2, 0.19.6, 1.0.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [actor-framework/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/actor-framework/xmake.lua) |
 
