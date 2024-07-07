@@ -56,7 +56,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -13583,7 +13583,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -16282,7 +16282,7 @@ add_requires("zlib")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
-| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6 |
+| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 
