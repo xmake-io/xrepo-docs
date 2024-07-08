@@ -2326,7 +2326,7 @@ add_requires("capstone")
 | -- | -- |
 | Homepage | [https://likle.github.io/cargs/](https://likle.github.io/cargs/) |
 | License | MIT |
-| Versions | v1.0.3, v1.1.0 |
+| Versions | v1.0.3, v1.1.0, v1.2.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [cargs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cargs/xmake.lua) |
 
@@ -22022,7 +22022,7 @@ add_requires("scnlib")
 | Description | *A software construction tool* |
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
-| Versions | 4.1.0, 4.3.0, 4.6.0, 4.7.0 |
+| Versions | 4.1.0, 4.3.0, 4.6.0, 4.7.0, 4.8.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 
@@ -23164,7 +23164,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26233,7 +26233,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285 |
+| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289 |
 | Architectures | arm64, x64, x86 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 
