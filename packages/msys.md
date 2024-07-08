@@ -1344,7 +1344,7 @@ add_requires("bullet3")
 | -- | -- |
 | Homepage | [https://github.com/madmann91/bvh](https://github.com/madmann91/bvh) |
 | License | MIT |
-| Versions | 2023.6.30 |
+| Versions | 2023.6.30, 2024.7.8 |
 | Architectures | i386, x86_64 |
 | Definition | [bvh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bvh/xmake.lua) |
 
