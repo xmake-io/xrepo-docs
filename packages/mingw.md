@@ -911,6 +911,29 @@ add_requires("bcg729")
 ```
 
 
+### bdwgc (mingw)
+
+
+| Description | *The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)* |
+| -- | -- |
+| Homepage | [https://www.hboehm.info/gc/](https://www.hboehm.info/gc/) |
+| Versions | v8.2.4, v8.2.6 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [bdwgc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bdwgc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] bdwgc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bdwgc")
+```
+
+
 ### benchmark (mingw)
 
 
@@ -2133,7 +2156,7 @@ add_requires("clipper2")
 | -- | -- |
 | Homepage | [https://github.com/fdefelici/clove-unit](https://github.com/fdefelici/clove-unit) |
 | License | MIT |
-| Versions | v2.4.4 |
+| Versions | v2.4.4, v2.4.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [clove-unit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clove-unit/xmake.lua) |
 
@@ -9178,7 +9201,7 @@ add_requires("luau")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
 | License | MIT |
-| Versions | v2.3.5, v2.3.9 |
+| Versions | v2.3.5, v2.3.9, v2.4.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
 
@@ -9536,7 +9559,7 @@ add_requires("mapbox_geometry")
 | -- | -- |
 | Homepage | [https://github.com/mapbox/polylabel](https://github.com/mapbox/polylabel) |
 | License | ISC |
-| Versions | v2.0.0 |
+| Versions | v2.0.0, v2.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [mapbox_polylabel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_polylabel/xmake.lua) |
 
@@ -12108,7 +12131,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4 |
+| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -15345,7 +15368,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

@@ -1416,6 +1416,29 @@ add_requires("bcg729")
 ```
 
 
+### bdwgc (windows)
+
+
+| Description | *The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)* |
+| -- | -- |
+| Homepage | [https://www.hboehm.info/gc/](https://www.hboehm.info/gc/) |
+| Versions | v8.2.4, v8.2.6 |
+| Architectures | arm64, x64, x86 |
+| Definition | [bdwgc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bdwgc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bdwgc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bdwgc")
+```
+
+
 ### benchmark (windows)
 
 
@@ -3256,7 +3279,7 @@ add_requires("clipper2")
 | -- | -- |
 | Homepage | [https://github.com/fdefelici/clove-unit](https://github.com/fdefelici/clove-unit) |
 | License | MIT |
-| Versions | v2.4.4 |
+| Versions | v2.4.4, v2.4.5 |
 | Architectures | arm64, x64, x86 |
 | Definition | [clove-unit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clove-unit/xmake.lua) |
 
@@ -7358,7 +7381,7 @@ add_requires("fmtlog")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01 |
+| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01, 2024.07.08 |
 | Architectures | x64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
@@ -14151,7 +14174,7 @@ add_requires("luau")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
 | License | MIT |
-| Versions | v2.3.5, v2.3.9 |
+| Versions | v2.3.5, v2.3.9, v2.4.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
 
@@ -14652,7 +14675,7 @@ add_requires("mapbox_geometry")
 | -- | -- |
 | Homepage | [https://github.com/mapbox/polylabel](https://github.com/mapbox/polylabel) |
 | License | ISC |
-| Versions | v2.0.0 |
+| Versions | v2.0.0, v2.0.1 |
 | Architectures | arm64, x64, x86 |
 | Definition | [mapbox_polylabel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_polylabel/xmake.lua) |
 
@@ -18835,7 +18858,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4 |
+| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6 |
 | Architectures | arm64, x64, x86 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -23164,7 +23187,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -25899,7 +25922,7 @@ add_requires("uvwasi")
 | -- | -- |
 | Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
 | License | Apache-2.0 |
-| Versions | v20.60.0, v20.61.0, v20.62.0 |
+| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [uwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uwebsockets/xmake.lua) |
 

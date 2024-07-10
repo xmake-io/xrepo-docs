@@ -1005,6 +1005,29 @@ add_requires("bcg729")
 ```
 
 
+### bdwgc (cross)
+
+
+| Description | *The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)* |
+| -- | -- |
+| Homepage | [https://www.hboehm.info/gc/](https://www.hboehm.info/gc/) |
+| Versions | v8.2.4, v8.2.6 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [bdwgc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bdwgc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] bdwgc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bdwgc")
+```
+
+
 ### bento4 (cross)
 
 
@@ -2108,7 +2131,7 @@ add_requires("clipper2")
 | -- | -- |
 | Homepage | [https://github.com/fdefelici/clove-unit](https://github.com/fdefelici/clove-unit) |
 | License | MIT |
-| Versions | v2.4.4 |
+| Versions | v2.4.4, v2.4.5 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [clove-unit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clove-unit/xmake.lua) |
 
@@ -7969,7 +7992,7 @@ add_requires("luau")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
 | License | MIT |
-| Versions | v2.3.5, v2.3.9 |
+| Versions | v2.3.5, v2.3.9, v2.4.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
 
@@ -8327,7 +8350,7 @@ add_requires("mapbox_geometry")
 | -- | -- |
 | Homepage | [https://github.com/mapbox/polylabel](https://github.com/mapbox/polylabel) |
 | License | ISC |
-| Versions | v2.0.0 |
+| Versions | v2.0.0, v2.0.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mapbox_polylabel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mapbox_polylabel/xmake.lua) |
 
@@ -12922,7 +12945,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
