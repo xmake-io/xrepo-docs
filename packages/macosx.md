@@ -12597,6 +12597,30 @@ add_requires("libimobiledevice-glue")
 ```
 
 
+### libinterpolate (macosx)
+
+
+| Description | *A C++ library for interpolation.* |
+| -- | -- |
+| Homepage | [https://github.com/CD3/libInterpolate](https://github.com/CD3/libInterpolate) |
+| License | MIT |
+| Versions | 2024.04.29 |
+| Architectures | arm64, x86_64 |
+| Definition | [libinterpolate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libinterpolate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libinterpolate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libinterpolate")
+```
+
+
 ### libintl (macosx)
 
 
@@ -25052,7 +25076,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28597,7 +28621,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5629c9ddf460 |
+| License | table: 0x55ecb1fc7060 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
