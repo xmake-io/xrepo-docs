@@ -4942,7 +4942,7 @@ add_requires("datatype99")
 | -- | -- |
 | Homepage | [https://github.com/HowardHinnant/date](https://github.com/HowardHinnant/date) |
 | License | MIT |
-| Versions | v3.0.1 |
+| Versions | 2021.04.17, 2024.05.14 |
 | Architectures | arm64, x64, x86 |
 | Definition | [date/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/date/xmake.lua) |
 
@@ -23210,7 +23210,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28192,7 +28192,7 @@ add_requires("zydis")
 | -- | -- |
 | Homepage | [http://zziplib.sourceforge.net/](http://zziplib.sourceforge.net/) |
 | License | GPL-2.0 |
-| Versions | v0.13.72, v0.13.73, v0.13.74, v0.13.76 |
+| Versions | v0.13.72, v0.13.73, v0.13.74, v0.13.76, v0.13.77 |
 | Architectures | arm64, x64, x86 |
 | Definition | [zziplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zziplib/xmake.lua) |
 
