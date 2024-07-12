@@ -8915,7 +8915,7 @@ add_requires("mdns")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -10843,7 +10843,7 @@ add_requires("pahomqttc")
 | -- | -- |
 | Homepage | [https://github.com/eclipse/paho.mqtt.cpp](https://github.com/eclipse/paho.mqtt.cpp) |
 | License | EPL-2.0 |
-| Versions | v1.2.0, v1.3.2, v1.4.0 |
+| Versions | v1.2.0, v1.3.2, v1.4.0, v1.4.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [pahomqttcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pahomqttcpp/xmake.lua) |
 
@@ -13226,7 +13226,7 @@ add_requires("sheenbidi")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -13678,7 +13678,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
