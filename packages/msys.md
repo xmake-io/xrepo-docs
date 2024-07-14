@@ -1843,7 +1843,7 @@ add_requires("cgltf")
 | -- | -- |
 | Homepage | [http://www.chunel.cn](http://www.chunel.cn) |
 | License | MIT |
-| Versions | v2.5.4 |
+| Versions | v2.5.4, v2.6.0 |
 | Architectures | i386, x86_64 |
 | Definition | [cgraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgraph/xmake.lua) |
 
@@ -8477,6 +8477,30 @@ add_requires("msdfgen")
 ```
 
 
+### msgpack-cxx (msys)
+
+
+| Description | *MessagePack implementation for C++* |
+| -- | -- |
+| Homepage | [https://msgpack.org/](https://msgpack.org/) |
+| License | BSL-1.0 |
+| Versions | 4.1.1, 6.1.0, 6.1.1 |
+| Architectures | i386, x86_64 |
+| Definition | [msgpack-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-cxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install msgpack-cxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msgpack-cxx")
+```
+
+
 ### mujs (msys)
 
 
@@ -11394,7 +11418,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://scnlib.readthedocs.io/](https://scnlib.readthedocs.io/) |
 | License | Apache-2.0 |
-| Versions | v0.4, v1.1.2, v2.0.2, v2.0.3 |
+| Versions | v0.4, v1.1.2, v2.0.2, v2.0.3, v3.0.1 |
 | Architectures | i386, x86_64 |
 | Definition | [scnlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scnlib/xmake.lua) |
 
@@ -11990,7 +12014,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
