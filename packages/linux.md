@@ -10388,6 +10388,30 @@ add_requires("hwloc")
 ```
 
 
+### hyperscan (linux)
+
+
+| Description | *High-performance regular expression matching library* |
+| -- | -- |
+| Homepage | [https://www.hyperscan.io](https://www.hyperscan.io) |
+| License | BSD-3 |
+| Versions | v5.4.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [hyperscan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hyperscan/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hyperscan
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hyperscan")
+```
+
+
 ### hypre (linux)
 
 
@@ -24491,6 +24515,30 @@ add_requires("qwindowkit")
 
 
 ## r
+### ragel (linux)
+
+
+| Description | *Ragel State Machine Compiler* |
+| -- | -- |
+| Homepage | [https://www.colm.net/open-source/ragel/](https://www.colm.net/open-source/ragel/) |
+| License | MIT |
+| Versions | 6.10 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ragel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ragel/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ragel
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ragel")
+```
+
+
 ### rang (linux)
 
 
@@ -27114,7 +27162,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30920,7 +30968,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a2494dbcb0 |
+| License | table: 0x561dad6dfdc0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -9613,6 +9613,30 @@ add_requires("hwloc")
 ```
 
 
+### hyperscan (windows)
+
+
+| Description | *High-performance regular expression matching library* |
+| -- | -- |
+| Homepage | [https://www.hyperscan.io](https://www.hyperscan.io) |
+| License | BSD-3 |
+| Versions | v5.4.2 |
+| Architectures | x64, x86 |
+| Definition | [hyperscan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hyperscan/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hyperscan
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hyperscan")
+```
+
+
 ### hypre (windows)
 
 
@@ -20968,6 +20992,30 @@ add_requires("qwindowkit")
 
 
 ## r
+### ragel (windows)
+
+
+| Description | *Ragel State Machine Compiler* |
+| -- | -- |
+| Homepage | [https://www.colm.net/open-source/ragel/](https://www.colm.net/open-source/ragel/) |
+| License | MIT |
+| Versions | 6.10 |
+| Architectures | x64, x86 |
+| Definition | [ragel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/ragel/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ragel
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ragel")
+```
+
+
 ### rang (windows)
 
 
@@ -23330,7 +23378,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
