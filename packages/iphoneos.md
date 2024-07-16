@@ -7228,7 +7228,7 @@ add_requires("libsv")
 | Description | *A simple, easy-to-use, and efficient software for SVM classification and regression* |
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
-| Versions | v325, v332 |
+| Versions | v325, v332, v333 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
 
@@ -13007,7 +13007,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -14393,7 +14393,7 @@ add_requires("tree-sitter")
 | -- | -- |
 | Homepage | [https://github.com/rollbear/trompeloeil](https://github.com/rollbear/trompeloeil) |
 | License | BSL-1.0 |
-| Versions | v43, v47 |
+| Versions | v43, v47, v48 |
 | Architectures | arm64, x86_64 |
 | Definition | [trompeloeil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trompeloeil/xmake.lua) |
 
