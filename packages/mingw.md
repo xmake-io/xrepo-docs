@@ -1131,8 +1131,8 @@ add_requires("bitsery")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1 |
-| Architectures | x86_64 |
+| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2 |
+| Architectures | arm, arm64, i386, x86_64 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
 ##### Install command
@@ -15512,7 +15512,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -16372,7 +16372,7 @@ add_requires("theora")
 | -- | -- |
 | Homepage | [https://www.thorvg.org](https://www.thorvg.org) |
 | License | MIT |
-| Versions | v0.13.2, v0.13.5, v0.13.6, v0.13.8, v0.14.1 |
+| Versions | v0.13.2, v0.13.5, v0.13.6, v0.13.8, v0.14.1, v0.14.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [thorvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thorvg/xmake.lua) |
 

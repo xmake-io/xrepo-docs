@@ -1476,6 +1476,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("bitsery")
 </code></pre>
+<h3 id="blake3wasm">blake3 (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>BLAKE3 is a cryptographic hash function that is much faster than MD5, SHA-1, SHA-2, SHA-3, and BLAKE2; secure, unlike MD5 and SHA-1 (and secure against length extension, unlike SHA-2); highly parallelizable across any number of threads and SIMD lanes, because it&#39;s a Merkle tree on the inside; capable of verified streaming and incremental updates (Merkle tree); a PRF, MAC, KDF, and XOF, as well as a regular hash; and is a single algorithm with no variants, fast on x86-64 and also on smaller architectures.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://blake3.io/">https://blake3.io/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>CC0-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua">blake3/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm blake3
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("blake3")
+</code></pre>
 <h3 id="blend2dwasm">blend2d (wasm)</h3>
 <table>
 <thead>
@@ -17373,7 +17410,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -18324,7 +18361,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.13.2, v0.13.5, v0.13.6, v0.13.8, v0.14.1</td>
+<td>v0.13.2, v0.13.5, v0.13.6, v0.13.8, v0.14.1, v0.14.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
