@@ -8893,6 +8893,30 @@ add_requires("libyuv")
 ```
 
 
+### libzip (mingw)
+
+
+| Description | *A C library for reading, creating, and modifying zip archives.* |
+| -- | -- |
+| Homepage | [https://libzip.org/](https://libzip.org/) |
+| License | BSD-3-Clause |
+| Versions | v1.8.0, v1.9.2, v1.10.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libzip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libzip")
+```
+
+
 ### lightmapper (mingw)
 
 
