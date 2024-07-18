@@ -3479,6 +3479,30 @@ add_requires("dlib")
 ```
 
 
+### dlpack (msys)
+
+
+| Description | *common in-memory tensor structure * |
+| -- | -- |
+| Homepage | [https://dmlc.github.io/dlpack/latest](https://dmlc.github.io/dlpack/latest) |
+| License | Apache-2.0 |
+| Versions | v0.8 |
+| Architectures | i386, x86_64 |
+| Definition | [dlpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dlpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dlpack")
+```
+
+
 ### docopt (msys)
 
 
@@ -12087,7 +12111,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
