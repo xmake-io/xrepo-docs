@@ -246,7 +246,7 @@ add_requires("argh")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/argparse](https://github.com/p-ranav/argparse) |
 | License | MIT |
-| Versions | 2.6, 2.7, 2.8, 2.9, 3.0 |
+| Versions | 2.6, 2.7, 2.8, 2.9, 3.0, 3.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [argparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argparse/xmake.lua) |
 
@@ -2296,7 +2296,7 @@ add_requires("crc32c")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1, v4.0.0 |
+| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -5162,7 +5162,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
-| Versions | v1.10.3 |
+| Versions | v1.10.3, v1.11.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
@@ -11442,7 +11442,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

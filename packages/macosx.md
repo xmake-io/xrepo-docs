@@ -488,7 +488,7 @@ add_requires("argp-standalone")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/argparse](https://github.com/p-ranav/argparse) |
 | License | MIT |
-| Versions | 2.6, 2.7, 2.8, 2.9, 3.0 |
+| Versions | 2.6, 2.7, 2.8, 2.9, 3.0, 3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [argparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argparse/xmake.lua) |
 
@@ -4297,7 +4297,7 @@ add_requires("crc32c")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1, v4.0.0 |
+| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -4963,7 +4963,7 @@ add_requires("date")
 | -- | -- |
 | Homepage | [https://www.videolan.org/projects/dav1d.html](https://www.videolan.org/projects/dav1d.html) |
 | License | BSD-2-Clause |
-| Versions | 0.9.0, 1.1.0 |
+| Versions | 0.9.0, 1.1.0, 1.4.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [dav1d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dav1d/xmake.lua) |
 
@@ -6897,7 +6897,7 @@ add_requires("fastcppcsvparser")
 | -- | -- |
 | Homepage | [https://fastgltf.readthedocs.io/v0.7.x/](https://fastgltf.readthedocs.io/v0.7.x/) |
 | License | MIT |
-| Versions | v0.7.1 |
+| Versions | v0.7.1, v0.7.2 |
 | Architectures | x86_64 |
 | Definition | [fastgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastgltf/xmake.lua) |
 
@@ -7137,7 +7137,7 @@ add_requires("filament")
 | -- | -- |
 | Homepage | [https://github.com/facebookincubator/fizz](https://github.com/facebookincubator/fizz) |
 | License | BSD |
-| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01, 2024.07.08 |
+| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01, 2024.07.08, 2024.07.15 |
 | Architectures | arm64, x86_64 |
 | Definition | [fizz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fizz/xmake.lua) |
 
@@ -7422,7 +7422,7 @@ add_requires("fmtlog")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01, 2024.07.08 |
+| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01, 2024.07.08, 2024.07.15 |
 | Architectures | arm64, x86_64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
@@ -10446,7 +10446,7 @@ add_requires("itk")
 | -- | -- |
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
-| Versions | v1.10.3 |
+| Versions | v1.10.3, v1.11.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
@@ -25125,7 +25125,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28167,7 +28167,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289 |
+| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290 |
 | Architectures | arm64, x86_64 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 
@@ -28433,7 +28433,7 @@ add_requires("vvenc")
 | -- | -- |
 | Homepage | [https://github.com/facebook/wangle](https://github.com/facebook/wangle) |
 | License | Apache-2.0 |
-| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01, 2024.07.08 |
+| Versions | 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01, 2024.07.08, 2024.07.15 |
 | Architectures | arm64, x86_64 |
 | Definition | [wangle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wangle/xmake.lua) |
 
@@ -28670,7 +28670,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56071fd98b00 |
+| License | table: 0x55f20efedbf0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
