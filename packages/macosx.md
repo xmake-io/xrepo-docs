@@ -20194,6 +20194,30 @@ add_requires("ormpp")
 ```
 
 
+### osip (macosx)
+
+
+| Description | *oSIP is an LGPL implementation of SIP. It is used mostly with eXosip2 stack (GPL) which provides simpler API for User-Agent implementation.* |
+| -- | -- |
+| Homepage | [https://savannah.gnu.org/projects/osip](https://savannah.gnu.org/projects/osip) |
+| License | LGPL |
+| Versions | 5.3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [osip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install osip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("osip")
+```
+
+
 ### osmanip (macosx)
 
 
@@ -22673,7 +22697,7 @@ add_requires("quickjspp")
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
 | License | MIT |
-| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0 |
+| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -25149,7 +25173,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28694,7 +28718,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5591313eda70 |
+| License | table: 0x55c4ce1bfd60 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
