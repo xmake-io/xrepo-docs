@@ -1487,6 +1487,30 @@ add_requires("backportcpp")
 ```
 
 
+### backward-cpp (linux)
+
+
+| Description | *Backward is a beautiful stack trace pretty printer for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/bombela/backward-cpp](https://github.com/bombela/backward-cpp) |
+| License | MIT |
+| Versions | v1.6 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [backward-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/backward-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install backward-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("backward-cpp")
+```
+
+
 ### base-n (linux)
 
 
@@ -31017,7 +31041,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x560a02ed6370 |
+| License | table: 0x55ed4ef97fa0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

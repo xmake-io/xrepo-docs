@@ -793,6 +793,30 @@ add_requires("backportcpp")
 ```
 
 
+### backward-cpp (mingw)
+
+
+| Description | *Backward is a beautiful stack trace pretty printer for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/bombela/backward-cpp](https://github.com/bombela/backward-cpp) |
+| License | MIT |
+| Versions | v1.6 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [backward-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/backward-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] backward-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("backward-cpp")
+```
+
+
 ### base-n (mingw)
 
 
