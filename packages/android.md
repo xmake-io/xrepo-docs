@@ -11866,7 +11866,7 @@ add_requires("pugixml")
 | Description | *A C++ type library that is as easy to use as Python built-in types.* |
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
-| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0 |
+| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
@@ -13727,7 +13727,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

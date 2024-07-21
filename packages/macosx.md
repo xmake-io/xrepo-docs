@@ -12417,7 +12417,7 @@ add_requires("libharu")
 | -- | -- |
 | Homepage | [https://github.com/strukturag/libheif](https://github.com/strukturag/libheif) |
 | License | LGPL-3.0 |
-| Versions | 1.12.0, 1.17.6 |
+| Versions | 1.12.0, 1.17.6, 1.18.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libheif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libheif/xmake.lua) |
 
@@ -17564,7 +17564,7 @@ add_requires("mold")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/MoltenVK](https://github.com/KhronosGroup/MoltenVK) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v1.1.4, v1.1.5, v1.2.0, v1.2.7, v1.2.8, v1.2.9 |
+| Versions | v1.1.0, v1.1.4, v1.1.5, v1.2.0, v1.2.7, v1.2.8, v1.2.9, v1.2.10 |
 | Architectures | arm64, x86_64 |
 | Definition | [moltenvk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moltenvk/xmake.lua) |
 
@@ -19169,6 +19169,30 @@ xrepo install oatpp
 
 ```lua
 add_requires("oatpp")
+```
+
+
+### oatpp-openssl (macosx)
+
+
+| Description | *It provides secure server and client connection providers for oatpp applications.* |
+| -- | -- |
+| Homepage | [https://oatpp.io/](https://oatpp.io/) |
+| License | Apache-2.0 |
+| Versions | 1.3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [oatpp-openssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oatpp-openssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install oatpp-openssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("oatpp-openssl")
 ```
 
 
@@ -21984,7 +22008,7 @@ add_requires("pycdc")
 | Description | *A C++ type library that is as easy to use as Python built-in types.* |
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
-| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0 |
+| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
@@ -25173,7 +25197,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26337,7 +26361,7 @@ add_requires("theora")
 | -- | -- |
 | Homepage | [https://www.thorvg.org](https://www.thorvg.org) |
 | License | MIT |
-| Versions | v0.13.2, v0.13.5, v0.13.6, v0.13.8, v0.14.1, v0.14.2 |
+| Versions | v0.13.2, v0.13.5, v0.13.6, v0.13.8, v0.14.1, v0.14.2, v0.14.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [thorvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thorvg/xmake.lua) |
 
@@ -28718,7 +28742,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557139f078c0 |
+| License | table: 0x5627b38d8160 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
