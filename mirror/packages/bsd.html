@@ -7229,7 +7229,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1</td>
+<td>5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -10239,6 +10239,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libatomic_ops")
+</code></pre>
+<h3 id="libavifbsd">libavif (bsd)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>libavif - Library for encoding and decoding .avif files</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/AOMediaCodec/libavif">https://github.com/AOMediaCodec/libavif</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-2-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.9.1, v1.0.4, v1.1.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua">libavif/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libavif
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libavif")
 </code></pre>
 <h3 id="libbigwigbsd">libbigwig (bsd)</h3>
 <table>
