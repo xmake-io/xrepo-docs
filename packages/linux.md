@@ -2514,7 +2514,7 @@ add_requires("bzip3")
 | -- | -- |
 | Homepage | [https://c-ares.org/](https://c-ares.org/) |
 | License | MIT |
-| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0 |
+| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0, 1.32.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
 
@@ -19695,7 +19695,7 @@ add_requires("nanobench")
 | -- | -- |
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
-| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5 |
+| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5, v1.6.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 
@@ -21147,7 +21147,7 @@ add_requires("openal-soft")
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
 | License | BSD-3-Clause |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26, 0.3.27 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
@@ -27283,7 +27283,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29350,7 +29350,7 @@ add_requires("transwarp")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19 |
+| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 
@@ -31089,7 +31089,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55eda66cb460 |
+| License | table: 0x55af2175b1d0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

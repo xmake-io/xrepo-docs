@@ -1320,7 +1320,7 @@ add_requires("bzip3")
 | -- | -- |
 | Homepage | [https://c-ares.org/](https://c-ares.org/) |
 | License | MIT |
-| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0 |
+| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0, 1.32.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
 
@@ -9796,7 +9796,7 @@ add_requires("nanobench")
 | -- | -- |
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
-| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5 |
+| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5, v1.6.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 
@@ -13751,7 +13751,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
