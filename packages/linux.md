@@ -458,6 +458,30 @@ add_requires("antlr4-runtime")
 ```
 
 
+### aom (linux)
+
+
+| Description | *AV1 Codec Library* |
+| -- | -- |
+| Homepage | [https://aomedia.googlesource.com/aom](https://aomedia.googlesource.com/aom) |
+| License | BSD-2-Clause |
+| Versions | 3.9.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [aom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aom")
+```
+
+
 ### apr (linux)
 
 
@@ -16539,6 +16563,30 @@ add_requires("libyuv")
 ```
 
 
+### libzen (linux)
+
+
+| Description | *Small C++ derivate classes to have an easier life* |
+| -- | -- |
+| Homepage | [https://mediaarea.net](https://mediaarea.net) |
+| License | zlib |
+| Versions | v0.4.41 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libzen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libzen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libzen")
+```
+
+
 ### libzip (linux)
 
 
@@ -27307,7 +27355,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31137,7 +31185,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e5967ddb20 |
+| License | table: 0x565513a6a730 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
