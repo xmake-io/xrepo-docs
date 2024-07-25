@@ -12279,7 +12279,7 @@ add_requires("rtmidi")
 | -- | -- |
 | Homepage | [https://www.rttr.org](https://www.rttr.org) |
 | License | MIT |
-| Versions | 0.9.5, 0.9.6 |
+| Versions | 0.9.7 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rttr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rttr/xmake.lua) |
 

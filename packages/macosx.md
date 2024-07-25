@@ -23889,7 +23889,7 @@ add_requires("rtmidi")
 | -- | -- |
 | Homepage | [https://www.rttr.org](https://www.rttr.org) |
 | License | MIT |
-| Versions | 0.9.5, 0.9.6 |
+| Versions | 0.9.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [rttr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rttr/xmake.lua) |
 
@@ -28886,7 +28886,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557f162919d0 |
+| License | table: 0x556e69ddf710 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -13059,7 +13059,7 @@ add_requires("rsm-mmio")
 | -- | -- |
 | Homepage | [https://www.rttr.org](https://www.rttr.org) |
 | License | MIT |
-| Versions | 0.9.5, 0.9.6 |
+| Versions | 0.9.7 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [rttr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rttr/xmake.lua) |
 
