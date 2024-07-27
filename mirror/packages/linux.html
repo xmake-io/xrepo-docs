@@ -1944,7 +1944,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23</td>
+<td>v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -19868,7 +19868,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.13.0, 1.17.0, 1.20.1, 1.20.2</td>
+<td>1.13.0, 1.17.0, 1.20.1, 1.20.2, 1.22.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -33714,6 +33714,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("patch")
 </code></pre>
+<h3 id="patchelflinux">patchelf (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A small utility to modify the dynamic linker and RPATH of ELF executables</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/NixOS/patchelf">https://github.com/NixOS/patchelf</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.18.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patchelf/xmake.lua">patchelf/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install patchelf
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("patchelf")
+</code></pre>
 <h3 id="paul_thread_poollinux">paul_thread_pool (linux)</h3>
 <table>
 <thead>
@@ -38693,7 +38730,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1</td>
+<td>v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -41434,7 +41471,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -47264,7 +47301,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x5628dc29c1a0</td>
+<td>table: 0x5576ce3c2c20</td>
 </tr>
 <tr>
 <td>Versions</td>

@@ -724,7 +724,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23 |
+| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -11190,6 +11190,30 @@ add_requires("patch")
 ```
 
 
+### patchelf (bsd)
+
+
+| Description | *A small utility to modify the dynamic linker and RPATH of ELF executables* |
+| -- | -- |
+| Homepage | [https://github.com/NixOS/patchelf](https://github.com/NixOS/patchelf) |
+| License | GPL-3.0 |
+| Versions | 0.18.0 |
+| Architectures | i386, x86_64 |
+| Definition | [patchelf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patchelf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install patchelf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("patchelf")
+```
+
+
 ### pcg-cpp (bsd)
 
 
@@ -13957,7 +13981,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
