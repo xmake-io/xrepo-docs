@@ -4684,7 +4684,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v11.8, v12.3, v12.4.1</td>
+<td>v11.8, v12.3, v12.4.1, v12.5</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4812,6 +4812,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("curlpp")
+</code></pre>
+<h3 id="cute_headerscross">cute_headers (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/RandyGaul/cute_headers">https://github.com/RandyGaul/cute_headers</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Public Domain</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.07.22</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cute_headers/xmake.lua">cute_headers/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] cute_headers
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("cute_headers")
 </code></pre>
 <h3 id="cutlasscross">cutlass (cross)</h3>
 <table>
@@ -20079,7 +20116,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -21972,7 +22009,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.7.0, v3.8.1, v4.0.1, v4.0.2, v4.0.3</td>
+<td>v3.7.0, v3.8.1, v4.0.1, v4.0.2, v4.0.3, v4.1.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
