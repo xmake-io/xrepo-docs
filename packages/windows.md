@@ -825,7 +825,7 @@ add_requires("async_simple")
 | -- | -- |
 | Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
 | License | MIT |
-| Versions | v1.5, v1.6.3 |
+| Versions | v1.5, v1.6.3, v1.6.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
 
@@ -1135,7 +1135,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -6304,7 +6304,7 @@ add_requires("elfio")
 | -- | -- |
 | Homepage | [https://www.embree.org/](https://www.embree.org/) |
 | License | Apache-2.0 |
-| Versions | v3.12.1, v3.13.0, v3.13.3, v3.13.4, v3.13.5, v4.3.0 |
+| Versions | v3.12.1, v3.13.0, v3.13.3, v3.13.4, v3.13.5, v4.3.0, v4.3.3 |
 | Architectures | x64, x86 |
 | Definition | [embree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/embree/xmake.lua) |
 
@@ -6976,7 +6976,7 @@ add_requires("fastcppcsvparser")
 | -- | -- |
 | Homepage | [https://fastgltf.readthedocs.io/v0.7.x/](https://fastgltf.readthedocs.io/v0.7.x/) |
 | License | MIT |
-| Versions | v0.7.1, v0.7.2 |
+| Versions | v0.7.1, v0.7.2, v0.8.0 |
 | Architectures | x64 |
 | Definition | [fastgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastgltf/xmake.lua) |
 
@@ -8312,7 +8312,7 @@ add_requires("glad")
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
 | License | MIT |
-| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5 |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
@@ -23523,7 +23523,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

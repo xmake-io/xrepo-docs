@@ -823,7 +823,7 @@ add_requires("async_simple")
 | -- | -- |
 | Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
 | License | MIT |
-| Versions | v1.5, v1.6.3 |
+| Versions | v1.5, v1.6.3, v1.6.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
 
@@ -1156,7 +1156,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -6253,7 +6253,7 @@ add_requires("elfio")
 | -- | -- |
 | Homepage | [https://www.embree.org/](https://www.embree.org/) |
 | License | Apache-2.0 |
-| Versions | v3.12.1, v3.13.0, v3.13.3, v3.13.4, v3.13.5, v4.3.0 |
+| Versions | v3.12.1, v3.13.0, v3.13.3, v3.13.4, v3.13.5, v4.3.0, v4.3.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [embree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/embree/xmake.lua) |
 
@@ -7018,7 +7018,7 @@ add_requires("fastcppcsvparser")
 | -- | -- |
 | Homepage | [https://fastgltf.readthedocs.io/v0.7.x/](https://fastgltf.readthedocs.io/v0.7.x/) |
 | License | MIT |
-| Versions | v0.7.1, v0.7.2 |
+| Versions | v0.7.1, v0.7.2, v0.8.0 |
 | Architectures | x86_64 |
 | Definition | [fastgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastgltf/xmake.lua) |
 
@@ -25390,7 +25390,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28983,7 +28983,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557a021cce90 |
+| License | table: 0x558767191420 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -30243,7 +30243,7 @@ add_requires("zlmediakit")
 | -- | -- |
 | Homepage | [https://github.com/HardySimpson/zlog](https://github.com/HardySimpson/zlog) |
 | License | Apache-2.0 |
-| Versions | 1.2.17 |
+| Versions | 1.2.17, 1.2.18 |
 | Architectures | arm64, x86_64 |
 | Definition | [zlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlog/xmake.lua) |
 

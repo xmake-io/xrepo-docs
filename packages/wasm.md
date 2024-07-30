@@ -390,7 +390,7 @@ add_requires("assimp")
 | -- | -- |
 | Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
 | License | MIT |
-| Versions | v1.5, v1.6.3 |
+| Versions | v1.5, v1.6.3, v1.6.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
 
@@ -4258,7 +4258,7 @@ add_requires("gklib")
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
 | License | MIT |
-| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5 |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7 |
 | Architectures | wasm32, wasm64 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
@@ -11587,7 +11587,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
