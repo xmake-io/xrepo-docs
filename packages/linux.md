@@ -1301,7 +1301,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -5962,7 +5962,7 @@ add_requires("dlfcn-win32")
 | -- | -- |
 | Homepage | [https://dlib.net](https://dlib.net) |
 | License | Boost |
-| Versions | v19.22, v19.24.4 |
+| Versions | v19.22, v19.24.4, v19.24.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua) |
 
@@ -8064,6 +8064,7 @@ add_requires("fmi4cpp")
 | Description | *fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.* |
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
+| License | MIT |
 | Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
@@ -23646,7 +23647,7 @@ add_requires("protobuf-c")
 | Description | *Google's data interchange format for cpp* |
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
-| Versions | 3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2 |
+| Versions | 3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
@@ -27452,7 +27453,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31306,7 +31307,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x556230468940 |
+| License | table: 0x55646c602740 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
