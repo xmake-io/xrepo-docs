@@ -10432,7 +10432,7 @@ add_requires("itk")
 | -- | -- |
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
-| Versions | v1.10.3, v1.11.0 |
+| Versions | v1.10.3, v1.11.0, v1.11.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
@@ -17791,7 +17791,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3 |
 | Architectures | x64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -23548,7 +23548,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27957,7 +27957,7 @@ add_requires("xz")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/yalantinglibs](https://github.com/alibaba/yalantinglibs) |
 | License | Apache-2.0 |
-| Versions | 0.3.4, 0.3.5 |
+| Versions | 0.3.4, 0.3.5, 0.3.6 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [yalantinglibs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yalantinglibs/xmake.lua) |
 

@@ -3359,6 +3359,30 @@ add_requires("doctest")
 ```
 
 
+### double-conversion (iphoneos)
+
+
+| Description | *Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles.* |
+| -- | -- |
+| Homepage | [https://github.com/google/double-conversion](https://github.com/google/double-conversion) |
+| License | BSD-3-Clause |
+| Versions | v3.1.5, v3.3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [double-conversion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/double-conversion/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos double-conversion
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("double-conversion")
+```
+
+
 ### doxygen (iphoneos)
 
 
@@ -5829,7 +5853,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
-| Versions | v1.10.3, v1.11.0 |
+| Versions | v1.10.3, v1.11.0, v1.11.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
@@ -13274,7 +13298,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
