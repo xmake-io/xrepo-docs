@@ -907,6 +907,30 @@ add_requires("bitsery")
 ```
 
 
+### blake2 (wasm)
+
+
+| Description | *BLAKE2 official implementations* |
+| -- | -- |
+| Homepage | [https://blake2.net](https://blake2.net) |
+| License | CC0-1.0 |
+| Versions | 2023.02.12 |
+| Architectures | wasm32, wasm64 |
+| Definition | [blake2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm blake2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blake2")
+```
+
+
 ### blake3 (wasm)
 
 
@@ -5729,6 +5753,30 @@ xrepo install -p wasm libatomic_ops
 
 ```lua
 add_requires("libatomic_ops")
+```
+
+
+### libb2 (wasm)
+
+
+| Description | *C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp* |
+| -- | -- |
+| Homepage | [https://blake2.net](https://blake2.net) |
+| License | CC0-1.0 |
+| Versions | v0.98.1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libb2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libb2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libb2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libb2")
 ```
 
 
@@ -11636,7 +11684,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
