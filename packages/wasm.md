@@ -1439,6 +1439,7 @@ add_requires("ceval")
 | Description | *A GNU getopt() implementation written in pure C.* |
 | -- | -- |
 | Homepage | [https://github.com/xq114/cgetopt/](https://github.com/xq114/cgetopt/) |
+| License | zlib |
 | Versions | 1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cgetopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgetopt/xmake.lua) |
@@ -1654,6 +1655,7 @@ add_requires("clara")
 | Description | *A library for interactive command line interfaces in modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/daniele77/cli](https://github.com/daniele77/cli) |
+| License | BSL-1.0 |
 | Versions | v2.0.0, v2.1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli/xmake.lua) |
@@ -1985,6 +1987,7 @@ add_requires("convertutf")
 | Description | *build-once run-anywhere c library* |
 | -- | -- |
 | Homepage | [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan) |
+| License | ISC |
 | Versions | 3.2.4, 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7, 3.3.8, 3.3.9, 3.3.10, 3.4.0, 3.5.0, 3.5.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cosmocc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cosmocc/xmake.lua) |
@@ -2652,6 +2655,7 @@ add_requires("cute_headers")
 | Description | *CUDA Templates for Linear Algebra Subroutines* |
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
+| License | BSD-3-Clause |
 | Versions | v3.2.0, v3.4.1, v3.5.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
@@ -2773,6 +2777,7 @@ add_requires("date")
 | Description | *Various header libraries mostly future std lib, replacements for(e.g. visit), or some misc * |
 | -- | -- |
 | Homepage | [https://beached.github.io/header_libraries/](https://beached.github.io/header_libraries/) |
+| License | BSL-1.0 |
 | Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [daw_header_libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua) |
@@ -2844,6 +2849,7 @@ add_requires("debug_assert")
 | Description | *break into the debugger programmatically* |
 | -- | -- |
 | Homepage | [https://github.com/scottt/debugbreak](https://github.com/scottt/debugbreak) |
+| License | BSD-2-Clause |
 | Versions | v1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [debugbreak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debugbreak/xmake.lua) |
@@ -3106,6 +3112,7 @@ add_requires("docopt")
 | Description | *The fastest feature-rich C++11/14/17/20 single-header testing framework for unit tests and TDD* |
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
+| License | MIT |
 | Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11 |
 | Architectures | wasm32, wasm64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
@@ -4114,6 +4121,7 @@ add_requires("function2")
 | Description | *Functional Programming Library for C++. Write concise and readable C++ code.* |
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
+| License | BSL-1.0 |
 | Versions | v0.2.22, v0.2.23, v0.2.24 |
 | Architectures | wasm32, wasm64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
@@ -4903,6 +4911,7 @@ add_requires("hiredis")
 | Description | *A C++ implementation of a fast hash map and hash set using hopscotch hashing* |
 | -- | -- |
 | Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
+| License | MIT |
 | Versions | v2.3.0, v2.3.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
@@ -5165,6 +5174,7 @@ add_requires("inipp")
 | Description | *A Template Engine for Modern C++* |
 | -- | -- |
 | Homepage | [https://pantor.github.io/inja/](https://pantor.github.io/inja/) |
+| License | MIT |
 | Versions | v2.1.0, v3.4.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
@@ -5381,6 +5391,7 @@ add_requires("joltphysics")
 | Description | *Jsmn is a world fastest JSON parser/tokenizer* |
 | -- | -- |
 | Homepage | [https://github.com/zserge/jsmn](https://github.com/zserge/jsmn) |
+| License | MIT |
 | Versions | v1.1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [jsmn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsmn/xmake.lua) |
@@ -5451,6 +5462,7 @@ add_requires("json.h")
 | Description | *A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON* |
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
+| License | BSL-1.0 |
 | Versions | v0.158.0, v0.170.2, v0.176.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
@@ -5500,6 +5512,7 @@ add_requires("kangaru")
 | Description | *A Fast and Reliable ARQ Protocol.* |
 | -- | -- |
 | Homepage | [https://github.com/skywind3000/kcp](https://github.com/skywind3000/kcp) |
+| License | MIT |
 | Versions | 1.7 |
 | Architectures | wasm32, wasm64 |
 | Definition | [kcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kcp/xmake.lua) |
@@ -5667,6 +5680,7 @@ add_requires("lexbor")
 | Description | *C++ parsing DSL* |
 | -- | -- |
 | Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
+| License | BSL-1.0 |
 | Versions | 2022.03.21, 2022.12.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
@@ -6641,6 +6655,7 @@ add_requires("libsv")
 | Description | *A simple, easy-to-use, and efficient software for SVM classification and regression* |
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
+| License | BSD-3-Clause |
 | Versions | v325, v332, v333 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
@@ -6902,6 +6917,7 @@ add_requires("lightmapper")
 | Description | *A small self-contained alternative to readline and libedit* |
 | -- | -- |
 | Homepage | [https://github.com/antirez/linenoise](https://github.com/antirez/linenoise) |
+| License | BSD-2-Clause |
 | Versions | 2020.3.12 |
 | Architectures | wasm32, wasm64 |
 | Definition | [linenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linenoise/xmake.lua) |
@@ -6925,6 +6941,7 @@ add_requires("linenoise")
 | Description | *a lean linear math library, aimed at graphics programming. Supports vec3, vec4, mat4x4 and quaternions* |
 | -- | -- |
 | Homepage | [https://github.com/datenwolf/linmath.h](https://github.com/datenwolf/linmath.h) |
+| License | WTFPL |
 | Versions | 2022.06.19 |
 | Architectures | wasm32, wasm64 |
 | Definition | [linmath.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linmath.h/xmake.lua) |
@@ -6971,6 +6988,7 @@ add_requires("litehtml")
 | Description | *A little fail-safe filesystem designed for microcontrollers* |
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
+| License | BSD-3-Clause |
 | Versions | v2.5.0, v2.8.2, v2.9.2, v2.9.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
@@ -7777,6 +7795,7 @@ add_requires("md4c")
 | Description | *Public domain mDNS/DNS-SD library in C* |
 | -- | -- |
 | Homepage | [https://github.com/mjansson/mdns](https://github.com/mjansson/mdns) |
+| License | Unlicense |
 | Versions | 1.4.2, 1.4.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [mdns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdns/xmake.lua) |
@@ -8252,6 +8271,7 @@ add_requires("morton-nd")
 | Description | *A bounded multi-producer multi-consumer concurrent queue written in C++11* |
 | -- | -- |
 | Homepage | [https://github.com/rigtorp/MPMCQueue](https://github.com/rigtorp/MPMCQueue) |
+| License | MIT |
 | Versions | v1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [mpmcqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpmcqueue/xmake.lua) |
@@ -8346,6 +8366,7 @@ add_requires("msgpack-cxx")
 | Description | *An embeddable Javascript interpreter in C.* |
 | -- | -- |
 | Homepage | [http://mujs.com/](http://mujs.com/) |
+| License | ISC |
 | Versions | 1.3.4, 1.3.5 |
 | Architectures | wasm32, wasm64 |
 | Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
@@ -9947,6 +9968,7 @@ add_requires("portaudio")
 | Description | *Pretty Printer for Modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/pprint](https://github.com/p-ranav/pprint) |
+| License | MIT |
 | Versions | 2020.2.20 |
 | Architectures | wasm32, wasm64 |
 | Definition | [pprint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pprint/xmake.lua) |
@@ -10469,6 +10491,7 @@ add_requires("range-v3")
 | Description | *C++ header-only library for CSV parsing (by d99kris)* |
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
+| License | BSD-3-Clause |
 | Versions | 8.50, 8.80, 8.82, 8.83 |
 | Architectures | wasm32, wasm64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
@@ -11303,6 +11326,7 @@ add_requires("sheenbidi")
 | Description | *Implementations of SIMD instruction sets for systems which don't natively support them.* |
 | -- | -- |
 | Homepage | [simd-everywhere.github.io/blog/](simd-everywhere.github.io/blog/) |
+| License | MIT |
 | Versions | 0.7.2, 0.8.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [simde/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simde/xmake.lua) |
@@ -12569,7 +12593,7 @@ add_requires("tinyexpr")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
 | License | BSD-3-Clause |
-| Versions | v1.0.1, v1.0.8 |
+| Versions | v1.0.1, v1.0.8, v1.0.9 |
 | Architectures | wasm32, wasm64 |
 | Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
 
@@ -12759,6 +12783,7 @@ add_requires("tobiaslocker_base64")
 | Description | *toml++ is a header-only TOML config file parser and serializer for C++17 (and later!).* |
 | -- | -- |
 | Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
+| License | MIT |
 | Versions | v2.5.0, v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
@@ -13119,6 +13144,7 @@ add_requires("uni_algo")
 | Description | *A compile-time, header-only, dimensional analysis library built on c++14 with no dependencies.* |
 | -- | -- |
 | Homepage | [https://nholthaus.github.io/units/](https://nholthaus.github.io/units/) |
+| License | MIT |
 | Versions | v2.3.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [units/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/units/xmake.lua) |

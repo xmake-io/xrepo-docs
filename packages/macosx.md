@@ -2774,6 +2774,7 @@ add_requires("cgal")
 | Description | *A GNU getopt() implementation written in pure C.* |
 | -- | -- |
 | Homepage | [https://github.com/xq114/cgetopt/](https://github.com/xq114/cgetopt/) |
+| License | zlib |
 | Versions | 1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cgetopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgetopt/xmake.lua) |
@@ -3251,6 +3252,7 @@ add_requires("clhep")
 | Description | *A library for interactive command line interfaces in modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/daniele77/cli](https://github.com/daniele77/cli) |
+| License | BSL-1.0 |
 | Versions | v2.0.0, v2.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli/xmake.lua) |
@@ -3797,6 +3799,7 @@ add_requires("corrade")
 | Description | *build-once run-anywhere c library* |
 | -- | -- |
 | Homepage | [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan) |
+| License | ISC |
 | Versions | 3.2.4, 3.3.2, 3.3.4, 3.3.5, 3.3.6, 3.3.7, 3.3.8, 3.3.9, 3.3.10, 3.4.0, 3.5.0, 3.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [cosmocc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cosmocc/xmake.lua) |
@@ -3916,6 +3919,7 @@ add_requires("cpp-httplib")
 | Description | *A fast C++11/14/17/20 header only library for lazy evaluation and function tools* |
 | -- | -- |
 | Homepage | [https://github.com/MarcDirven/cpp-lazy](https://github.com/MarcDirven/cpp-lazy) |
+| License | MIT |
 | Versions | v7.0.2, v8.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-lazy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-lazy/xmake.lua) |
@@ -4867,6 +4871,7 @@ add_requires("cute_headers")
 | Description | *CUDA Templates for Linear Algebra Subroutines* |
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
+| License | BSD-3-Clause |
 | Versions | v3.2.0, v3.4.1, v3.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
@@ -5107,6 +5112,7 @@ add_requires("davix")
 | Description | *Various header libraries mostly future std lib, replacements for(e.g. visit), or some misc * |
 | -- | -- |
 | Homepage | [https://beached.github.io/header_libraries/](https://beached.github.io/header_libraries/) |
+| License | BSL-1.0 |
 | Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [daw_header_libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua) |
@@ -5250,6 +5256,7 @@ add_requires("debug_assert")
 | Description | *break into the debugger programmatically* |
 | -- | -- |
 | Homepage | [https://github.com/scottt/debugbreak](https://github.com/scottt/debugbreak) |
+| License | BSD-2-Clause |
 | Versions | v1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [debugbreak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debugbreak/xmake.lua) |
@@ -5606,6 +5613,7 @@ add_requires("docopt")
 | Description | *The fastest feature-rich C++11/14/17/20 single-header testing framework for unit tests and TDD* |
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
+| License | MIT |
 | Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11 |
 | Architectures | arm64, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
@@ -5964,6 +5972,7 @@ add_requires("dylib")
 | Description | *High-Performance C/C++ library for parsing binary output files and key files of LS Dyna (d3plot, binout, input deck)* |
 | -- | -- |
 | Homepage | [https://github.com/PucklaJ/dynareadout](https://github.com/PucklaJ/dynareadout) |
+| License | zlib |
 | Versions | 22.12, 23.01, 23.02, 23.04, 23.05, 23.06, 23.07, 23.08, 23.09, 23.10, 23.10.1, 23.11, 23.12, 24.01, 24.02, 24.03, 24.05, 24.07 |
 | Architectures | arm64, x86_64 |
 | Definition | [dynareadout/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dynareadout/xmake.lua) |
@@ -6706,6 +6715,7 @@ add_requires("expected-lite")
 | Description | *Fast, unopinionated, minimalist web framework for C++ Perfect for building REST APIs.* |
 | -- | -- |
 | Homepage | [https://github.com/expresscpp/expresscpp.git](https://github.com/expresscpp/expresscpp.git) |
+| License | MIT |
 | Versions | v0.20.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [expresscpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expresscpp/xmake.lua) |
@@ -6779,6 +6789,7 @@ add_requires("ezc3d")
 | Description | *Freeware Advanced Audio Coder faac mirror* |
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/faac/](https://sourceforge.net/projects/faac/) |
+| License | LGPL-2.1 |
 | Versions | 1.30 |
 | Architectures | arm64, x86_64 |
 | Definition | [faac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faac/xmake.lua) |
@@ -7876,6 +7887,7 @@ add_requires("function2")
 | Description | *Functional Programming Library for C++. Write concise and readable C++ code.* |
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
+| License | BSL-1.0 |
 | Versions | v0.2.22, v0.2.23, v0.2.24 |
 | Architectures | arm64, x86_64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
@@ -9426,6 +9438,7 @@ add_requires("half")
 | Description | *A simple C++11 network server framework* |
 | -- | -- |
 | Homepage | [https://github.com/yedf2/handy](https://github.com/yedf2/handy) |
+| License | BSD-2-Clause |
 | Versions | 0.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [handy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/handy/xmake.lua) |
@@ -9640,6 +9653,7 @@ add_requires("hidapi")
 | Description | *HighFive - Header-only C++ HDF5 interface* |
 | -- | -- |
 | Homepage | [https://github.com/BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) |
+| License | BSL-1.0 |
 | Versions | v2.3.1, v2.6.1, v2.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [highfive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highfive/xmake.lua) |
@@ -9759,6 +9773,7 @@ add_requires("hlslpp")
 | Description | *A C++ implementation of a fast hash map and hash set using hopscotch hashing* |
 | -- | -- |
 | Homepage | [https://github.com/Tessil/hopscotch-map](https://github.com/Tessil/hopscotch-map) |
+| License | MIT |
 | Versions | v2.3.0, v2.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [hopscotch-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hopscotch-map/xmake.lua) |
@@ -9855,6 +9870,7 @@ add_requires("hypre")
 | Description | *A High Quality SIMD BC1 Encoder* |
 | -- | -- |
 | Homepage | [https://github.com/castano/icbc](https://github.com/castano/icbc) |
+| License | MIT |
 | Versions | 1.05 |
 | Architectures | arm64, x86_64 |
 | Definition | [icbc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icbc/xmake.lua) |
@@ -10377,6 +10393,7 @@ add_requires("inipp")
 | Description | *A Template Engine for Modern C++* |
 | -- | -- |
 | Homepage | [https://pantor.github.io/inja/](https://pantor.github.io/inja/) |
+| License | MIT |
 | Versions | v2.1.0, v3.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
@@ -10903,6 +10920,7 @@ add_requires("jsbsim")
 | Description | *Jsmn is a world fastest JSON parser/tokenizer* |
 | -- | -- |
 | Homepage | [https://github.com/zserge/jsmn](https://github.com/zserge/jsmn) |
+| License | MIT |
 | Versions | v1.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [jsmn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsmn/xmake.lua) |
@@ -10996,6 +11014,7 @@ add_requires("json.h")
 | Description | *A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON* |
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
+| License | BSL-1.0 |
 | Versions | v0.158.0, v0.170.2, v0.176.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
@@ -11116,6 +11135,7 @@ add_requires("kangaru")
 | Description | *A Fast and Reliable ARQ Protocol.* |
 | -- | -- |
 | Homepage | [https://github.com/skywind3000/kcp](https://github.com/skywind3000/kcp) |
+| License | MIT |
 | Versions | 1.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [kcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kcp/xmake.lua) |
@@ -11449,6 +11469,7 @@ add_requires("lerc")
 | Description | *LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.* |
 | -- | -- |
 | Homepage | [https://github.com/google/leveldb](https://github.com/google/leveldb) |
+| License | BSD-3-Clause |
 | Versions | 1.22, 1.23 |
 | Architectures | arm64, x86_64 |
 | Definition | [leveldb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leveldb/xmake.lua) |
@@ -11496,6 +11517,7 @@ add_requires("lexbor")
 | Description | *C++ parsing DSL* |
 | -- | -- |
 | Homepage | [https://lexy.foonathan.net](https://lexy.foonathan.net) |
+| License | BSL-1.0 |
 | Versions | 2022.03.21, 2022.12.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [lexy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexy/xmake.lua) |
@@ -11543,6 +11565,7 @@ add_requires("liba52")
 | Description | *A blazing fast and lightweight C asymmetric coroutine library* |
 | -- | -- |
 | Homepage | [https://github.com/hnes/libaco](https://github.com/hnes/libaco) |
+| License | Apache-2.0 |
 | Versions | v1.2.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [libaco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libaco/xmake.lua) |
@@ -12350,6 +12373,7 @@ add_requires("libffi")
 | Description | *The high performance coroutine library for Linux/FreeBSD/MacOS/Windows, supporting select/poll/epoll/kqueue/iocp/windows GUI* |
 | -- | -- |
 | Homepage | [https://github.com/iqiyi/libfiber](https://github.com/iqiyi/libfiber) |
+| License | LGPL-3.0 |
 | Versions | v0.9.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libfiber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfiber/xmake.lua) |
@@ -12468,6 +12492,7 @@ add_requires("libfreenect2")
 | Description | *A cross-platform file change monitor with multiple backends: Apple OS X File System Events, *BSD kqueue, Solaris/Illumos File Events Notification, Linux inotify, Microsoft Windows and a stat()-based backend.* |
 | -- | -- |
 | Homepage | [https://emcrisostomo.github.io/fswatch/](https://emcrisostomo.github.io/fswatch/) |
+| License | GPL-3.0 |
 | Versions | 1.17.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libfswatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfswatch/xmake.lua) |
@@ -12682,6 +12707,7 @@ add_requires("libheif")
 | Description | *Like libevent, libev, and libuv, libhv provides event-loop with non-blocking IO and timer, but simpler api and richer protocols.* |
 | -- | -- |
 | Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
+| License | BSD-3-Clause |
 | Versions | 1.0.0, 1.1.0, 1.1.1, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.6, 1.3.0, 1.3.1, 1.3.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
@@ -13272,6 +13298,7 @@ add_requires("libnest2d")
 | Description | *A portable framework for low-level network packet construction* |
 | -- | -- |
 | Homepage | [https://codedocs.xyz/libnet/libnet/](https://codedocs.xyz/libnet/libnet/) |
+| License | MIT |
 | Versions | v1.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libnet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnet/xmake.lua) |
@@ -14336,6 +14363,7 @@ add_requires("libsv")
 | Description | *A simple, easy-to-use, and efficient software for SVM classification and regression* |
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
+| License | BSD-3-Clause |
 | Versions | v325, v332, v333 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
@@ -15675,6 +15703,7 @@ add_requires("linalg")
 | Description | *A small self-contained alternative to readline and libedit* |
 | -- | -- |
 | Homepage | [https://github.com/antirez/linenoise](https://github.com/antirez/linenoise) |
+| License | BSD-2-Clause |
 | Versions | 2020.3.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [linenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linenoise/xmake.lua) |
@@ -15698,6 +15727,7 @@ add_requires("linenoise")
 | Description | *a lean linear math library, aimed at graphics programming. Supports vec3, vec4, mat4x4 and quaternions* |
 | -- | -- |
 | Homepage | [https://github.com/datenwolf/linmath.h](https://github.com/datenwolf/linmath.h) |
+| License | WTFPL |
 | Versions | 2022.06.19 |
 | Architectures | arm64, x86_64 |
 | Definition | [linmath.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linmath.h/xmake.lua) |
@@ -15744,6 +15774,7 @@ add_requires("litehtml")
 | Description | *A little fail-safe filesystem designed for microcontrollers* |
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
+| License | BSD-3-Clause |
 | Versions | v2.5.0, v2.8.2, v2.9.2, v2.9.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
@@ -17070,6 +17101,7 @@ add_requires("md4qt")
 | Description | *Public domain mDNS/DNS-SD library in C* |
 | -- | -- |
 | Homepage | [https://github.com/mjansson/mdns](https://github.com/mjansson/mdns) |
+| License | Unlicense |
 | Versions | 1.4.2, 1.4.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [mdns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdns/xmake.lua) |
@@ -17164,6 +17196,7 @@ add_requires("memplumber")
 | Description | *Official version of the Meow hash, an extremely fast level 1 hash* |
 | -- | -- |
 | Homepage | [https://mollyrocket.com/meowhash](https://mollyrocket.com/meowhash) |
+| License | zlib |
 | Versions | 1.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [meowhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meowhash/xmake.lua) |
@@ -17901,6 +17934,7 @@ add_requires("mongo-c-driver")
 | Description | *mongodb c++ driver* |
 | -- | -- |
 | Homepage | [https://github.com/mongodb/mongo-cxx-driver](https://github.com/mongodb/mongo-cxx-driver) |
+| License | Apache-2.0 |
 | Versions | 3.6.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [mongo-cxx-driver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongo-cxx-driver/xmake.lua) |
@@ -18160,6 +18194,7 @@ add_requires("mpich")
 | Description | *A bounded multi-producer multi-consumer concurrent queue written in C++11* |
 | -- | -- |
 | Homepage | [https://github.com/rigtorp/MPMCQueue](https://github.com/rigtorp/MPMCQueue) |
+| License | MIT |
 | Versions | v1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [mpmcqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpmcqueue/xmake.lua) |
@@ -18302,6 +18337,7 @@ add_requires("msquic")
 | Description | *An embeddable Javascript interpreter in C.* |
 | -- | -- |
 | Homepage | [http://mujs.com/](http://mujs.com/) |
+| License | ISC |
 | Versions | 1.3.4, 1.3.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
@@ -21898,6 +21934,7 @@ add_requires("portaudio")
 | Description | *Pretty Printer for Modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/pprint](https://github.com/p-ranav/pprint) |
+| License | MIT |
 | Versions | 2020.2.20 |
 | Architectures | arm64, x86_64 |
 | Definition | [pprint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pprint/xmake.lua) |
@@ -23156,6 +23193,7 @@ add_requires("range-v3")
 | Description | *C++ header-only library for CSV parsing (by d99kris)* |
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
+| License | BSD-3-Clause |
 | Versions | 8.50, 8.80, 8.82, 8.83 |
 | Architectures | arm64, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
@@ -23632,6 +23670,7 @@ add_requires("reproc")
 | Description | *c++11, high performance, cross platform, easy to use rpc framework.* |
 | -- | -- |
 | Homepage | [https://github.com/qicosmos/rest_rpc](https://github.com/qicosmos/rest_rpc) |
+| License | MIT |
 | Versions | 2023.6.14 |
 | Architectures | arm64, x86_64 |
 | Definition | [rest_rpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rest_rpc/xmake.lua) |
@@ -24749,6 +24788,7 @@ add_requires("simdcomp")
 | Description | *Implementations of SIMD instruction sets for systems which don't natively support them.* |
 | -- | -- |
 | Homepage | [simd-everywhere.github.io/blog/](simd-everywhere.github.io/blog/) |
+| License | MIT |
 | Versions | 0.7.2, 0.8.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [simde/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simde/xmake.lua) |
@@ -25581,6 +25621,7 @@ add_requires("sqlitecpp")
 | Description | *A type safe SQL template library for C++* |
 | -- | -- |
 | Homepage | [https://github.com/rbock/sqlpp11](https://github.com/rbock/sqlpp11) |
+| License | BSD-2-Clause |
 | Versions | 0.61, 0.64 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlpp11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlpp11/xmake.lua) |
@@ -25652,6 +25693,7 @@ add_requires("srpc")
 | Description | *Secure Reliable Transport (SRT) Protocol* |
 | -- | -- |
 | Homepage | [https://www.srtalliance.org/](https://www.srtalliance.org/) |
+| License | MPL-2.0 |
 | Versions | v1.4.2, v1.5.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [srt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srt/xmake.lua) |
@@ -26984,7 +27026,7 @@ add_requires("tinyexpr")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
 | License | BSD-3-Clause |
-| Versions | v1.0.1, v1.0.8 |
+| Versions | v1.0.1, v1.0.8, v1.0.9 |
 | Architectures | arm64, x86_64 |
 | Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
 
@@ -27317,6 +27359,7 @@ add_requires("tobiaslocker_base64")
 | Description | *toml++ is a header-only TOML config file parser and serializer for C++17 (and later!).* |
 | -- | -- |
 | Homepage | [https://marzer.github.io/tomlplusplus/](https://marzer.github.io/tomlplusplus/) |
+| License | MIT |
 | Versions | v2.5.0, v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [toml++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toml++/xmake.lua) |
@@ -27771,6 +27814,7 @@ add_requires("unicorn")
 | Description | *A compile-time, header-only, dimensional analysis library built on c++14 with no dependencies.* |
 | -- | -- |
 | Homepage | [https://nholthaus.github.io/units/](https://nholthaus.github.io/units/) |
+| License | MIT |
 | Versions | v2.3.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [units/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/units/xmake.lua) |
@@ -29104,7 +29148,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c566332f80 |
+| License | table: 0x562a0248e820 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
