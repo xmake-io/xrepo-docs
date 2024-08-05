@@ -1156,7 +1156,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -2170,6 +2170,30 @@ xrepo install brpc
 
 ```lua
 add_requires("brpc")
+```
+
+
+### brynet (macosx)
+
+
+| Description | *A Header-Only cross-platform C++ TCP network library* |
+| -- | -- |
+| Homepage | [https://github.com/IronsDu/brynet](https://github.com/IronsDu/brynet) |
+| License | MIT |
+| Versions | 2024.06.03 |
+| Architectures | arm64, x86_64 |
+| Definition | [brynet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brynet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install brynet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brynet")
 ```
 
 
@@ -11732,7 +11756,7 @@ add_requires("libatomic_ops")
 | -- | -- |
 | Homepage | [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) |
 | License | BSD-2-Clause |
-| Versions | v0.9.1, v1.0.4, v1.1.0 |
+| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libavif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua) |
 
@@ -23384,7 +23408,7 @@ add_requires("raylib-cpp")
 | -- | -- |
 | Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
 | License | BSD-3-Clause |
-| Versions | v4.3.0, v4.4.0 |
+| Versions | v4.3.0, v4.4.0, v4.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
 
@@ -29148,7 +29172,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5631c8317e90 |
+| License | table: 0x560acaf24da0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

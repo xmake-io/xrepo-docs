@@ -1220,10 +1220,11 @@ add_requires("brotli")
 ### brynet (android)
 
 
-| Description | *Header Only Cross platform high performance TCP network library using C++ 11* |
+| Description | *A Header-Only cross-platform C++ TCP network library* |
 | -- | -- |
 | Homepage | [https://github.com/IronsDu/brynet](https://github.com/IronsDu/brynet) |
-| Versions | 1.0.9 |
+| License | MIT |
+| Versions | 2024.06.03 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [brynet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brynet/xmake.lua) |
 
@@ -6658,7 +6659,7 @@ add_requires("libatomic_ops")
 | -- | -- |
 | Homepage | [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) |
 | License | BSD-2-Clause |
-| Versions | v0.9.1, v1.0.4, v1.1.0 |
+| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [libavif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua) |
 
@@ -12825,7 +12826,7 @@ add_requires("rapidxml")
 | -- | -- |
 | Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
 | License | BSD-3-Clause |
-| Versions | v4.3.0, v4.4.0 |
+| Versions | v4.3.0, v4.4.0, v4.5.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
 

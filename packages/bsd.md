@@ -820,7 +820,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -1525,6 +1525,30 @@ xrepo install brotli
 
 ```lua
 add_requires("brotli")
+```
+
+
+### brynet (bsd)
+
+
+| Description | *A Header-Only cross-platform C++ TCP network library* |
+| -- | -- |
+| Homepage | [https://github.com/IronsDu/brynet](https://github.com/IronsDu/brynet) |
+| License | MIT |
+| Versions | 2024.06.03 |
+| Architectures | i386, x86_64 |
+| Definition | [brynet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brynet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install brynet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brynet")
 ```
 
 
@@ -6877,7 +6901,7 @@ add_requires("libatomic_ops")
 | -- | -- |
 | Homepage | [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) |
 | License | BSD-2-Clause |
-| Versions | v0.9.1, v1.0.4, v1.1.0 |
+| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1 |
 | Architectures | i386, x86_64 |
 | Definition | [libavif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua) |
 
@@ -12818,7 +12842,7 @@ add_requires("rapidxml")
 | -- | -- |
 | Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
 | License | BSD-3-Clause |
-| Versions | v4.3.0, v4.4.0 |
+| Versions | v4.3.0, v4.4.0, v4.5.0 |
 | Architectures | i386, x86_64 |
 | Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
 

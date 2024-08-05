@@ -10611,7 +10611,7 @@ add_requires("rapidxml")
 | -- | -- |
 | Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
 | License | BSD-3-Clause |
-| Versions | v4.3.0, v4.4.0 |
+| Versions | v4.3.0, v4.4.0, v4.5.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
 
