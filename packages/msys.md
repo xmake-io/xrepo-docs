@@ -7372,7 +7372,7 @@ add_requires("libusb")
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
 | License | MIT |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.44.1, v1.46.0, v1.47.0, v1.48.0 |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.43.0, v1.44.1, v1.45.0, v1.46.0, v1.47.0, v1.48.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -12495,7 +12495,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -14230,6 +14230,30 @@ xrepo install uuid_v4
 
 ```lua
 add_requires("uuid_v4")
+```
+
+
+### uvw (msys)
+
+
+| Description | *Header-only, event based, tiny and easy to use libuv wrapper in modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/skypjack/uvw](https://github.com/skypjack/uvw) |
+| License | MIT |
+| Versions | v2.10.0, v2.11.0, v2.12.1, v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0 |
+| Architectures | i386, x86_64 |
+| Definition | [uvw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uvw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install uvw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("uvw")
 ```
 
 
