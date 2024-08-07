@@ -3968,6 +3968,30 @@ add_requires("egl-headers")
 ```
 
 
+### eigen (msys)
+
+
+| Description | *C++ template library for linear algebra* |
+| -- | -- |
+| Homepage | [https://eigen.tuxfamily.org/](https://eigen.tuxfamily.org/) |
+| License | MPL-2.0 |
+| Versions | 3.3.7, 3.3.8, 3.3.9, 3.4.0 |
+| Architectures | i386, x86_64 |
+| Definition | [eigen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eigen/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install eigen
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eigen")
+```
+
+
 ### elfio (msys)
 
 
@@ -4142,7 +4166,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1 |
 | Architectures | i386, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -10653,6 +10677,30 @@ add_requires("portaudio")
 ```
 
 
+### poselib (msys)
+
+
+| Description | *Minimal solvers for calibrated camera pose estimation* |
+| -- | -- |
+| Homepage | [https://github.com/PoseLib/PoseLib](https://github.com/PoseLib/PoseLib) |
+| License | BSD-3-Clause |
+| Versions | v2.0.4 |
+| Architectures | i386, x86_64 |
+| Definition | [poselib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poselib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install poselib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("poselib")
+```
+
+
 ### pprint (msys)
 
 
@@ -12495,7 +12543,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
