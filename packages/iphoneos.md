@@ -287,6 +287,30 @@ add_requires("argparse")
 ```
 
 
+### argz (iphoneos)
+
+
+| Description | *A light weight C++ in memory argument parser* |
+| -- | -- |
+| Homepage | [https://github.com/stephenberry/argz](https://github.com/stephenberry/argz) |
+| License | Apache-2.0 |
+| Versions | v0.2.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [argz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos argz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("argz")
+```
+
+
 ### asap (iphoneos)
 
 
@@ -13516,7 +13540,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
