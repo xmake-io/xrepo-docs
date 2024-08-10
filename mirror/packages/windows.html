@@ -10129,7 +10129,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1</td>
+<td>20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -14607,7 +14607,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.3.1, v2.6.1, v2.9.0</td>
+<td>v2.3.1, v2.6.1, v2.9.0, v2.10.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -16460,7 +16460,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.0</td>
+<td>v1.2.0, v1.2.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -18663,7 +18663,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.12.0, 1.17.6, 1.18.0</td>
+<td>1.12.0, 1.17.6, 1.18.0, 1.18.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27709,7 +27709,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26, 0.3.27</td>
+<td>0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26, 0.3.27, 0.3.28</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -35151,7 +35151,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0</td>
+<td>v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -36200,7 +36200,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -43637,6 +43637,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("zltoolkit")
+</code></pre>
+<h3 id="zmqpbwindows">zmqpb (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A helper to use zeromq and protobuf together</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/SFGrenade/ZmqPb-Cpp/">https://github.com/SFGrenade/ZmqPb-Cpp/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MPL-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.1, 0.2, 0.3, 0.4, 0.8, 0.9, 0.10.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua">zmqpb/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install zmqpb
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("zmqpb")
 </code></pre>
 <h3 id="zopfliwindows">zopfli (windows)</h3>
 <table>

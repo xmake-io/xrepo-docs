@@ -7048,7 +7048,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -10343,7 +10343,7 @@ add_requires("hidapi")
 | -- | -- |
 | Homepage | [https://github.com/BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) |
 | License | BSL-1.0 |
-| Versions | v2.3.1, v2.6.1, v2.9.0 |
+| Versions | v2.3.1, v2.6.1, v2.9.0, v2.10.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [highfive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highfive/xmake.lua) |
 
@@ -11682,7 +11682,7 @@ add_requires("joltphysics")
 | -- | -- |
 | Homepage | [https://github.com/JSBSim-Team/jsbsim](https://github.com/JSBSim-Team/jsbsim) |
 | License | LGPL-2.1 |
-| Versions | v1.2.0 |
+| Versions | v1.2.0, v1.2.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [jsbsim/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsbsim/xmake.lua) |
 
@@ -13727,7 +13727,7 @@ add_requires("libharu")
 | -- | -- |
 | Homepage | [https://github.com/strukturag/libheif](https://github.com/strukturag/libheif) |
 | License | LGPL-3.0 |
-| Versions | 1.12.0, 1.17.6, 1.18.0 |
+| Versions | 1.12.0, 1.17.6, 1.18.0, 1.18.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libheif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libheif/xmake.lua) |
 
@@ -21476,7 +21476,7 @@ add_requires("openal-soft")
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
 | License | BSD-3-Clause |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26, 0.3.27 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26, 0.3.27, 0.3.28 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
@@ -26926,7 +26926,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -27664,7 +27664,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31523,7 +31523,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56425c563dd0 |
+| License | table: 0x5644dd3663f0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -32877,9 +32877,9 @@ add_requires("zltoolkit")
 
 | Description | *A helper to use zeromq and protobuf together* |
 | -- | -- |
-| Homepage | [https://github.com/SFGrenade/ZmqPb/](https://github.com/SFGrenade/ZmqPb/) |
+| Homepage | [https://github.com/SFGrenade/ZmqPb-Cpp/](https://github.com/SFGrenade/ZmqPb-Cpp/) |
 | License | MPL-2.0 |
-| Versions | 0.1, 0.2, 0.3, 0.4, 0.8, 0.9 |
+| Versions | 0.1, 0.2, 0.3, 0.4, 0.8, 0.9, 0.10.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zmqpb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua) |
 

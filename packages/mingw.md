@@ -4576,7 +4576,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -7160,7 +7160,7 @@ add_requires("joltphysics")
 | -- | -- |
 | Homepage | [https://github.com/JSBSim-Team/jsbsim](https://github.com/JSBSim-Team/jsbsim) |
 | License | LGPL-2.1 |
-| Versions | v1.2.0 |
+| Versions | v1.2.0, v1.2.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [jsbsim/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsbsim/xmake.lua) |
 
@@ -15546,7 +15546,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -16070,7 +16070,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
