@@ -11737,7 +11737,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20 |
+| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20, v1.21 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -18062,7 +18062,7 @@ add_requires("oniguruma")
 | -- | -- |
 | Homepage | [https://onnx.ai/](https://onnx.ai/) |
 | License | Apache-2.0 |
-| Versions | v1.11.0, v1.12.0, v1.15.0, v1.16.0, v1.16.1 |
+| Versions | v1.11.0, v1.12.0, v1.15.0, v1.16.0, v1.16.1, v1.16.2 |
 | Architectures | x64, x86 |
 | Definition | [onnx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onnx/xmake.lua) |
 
@@ -21824,7 +21824,7 @@ add_requires("redis-plus-plus")
 | -- | -- |
 | Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
 | License | MIT |
-| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0 |
+| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
 
@@ -23040,7 +23040,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0 |
 | Architectures | x64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
@@ -23754,7 +23754,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
