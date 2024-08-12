@@ -10848,6 +10848,7 @@ add_requires("olive.c")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
+| License | Apache-2.0 |
 | Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0, 2021.10.0, 2021.11.0, 2021.12.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
@@ -14235,7 +14236,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -14785,6 +14786,7 @@ add_requires("taywee_args")
 | Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
+| License | Apache-2.0 |
 | Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0, 2021.10.0, 2021.11.0, 2021.12.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [tbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbb/xmake.lua) |
