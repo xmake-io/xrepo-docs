@@ -4677,6 +4677,30 @@ add_requires("ctpg")
 ```
 
 
+### ctrack (windows)
+
+
+| Description | *A lightweight, high-performance C++ benchmarking and tracking library for effortless function profiling in both development and production environments.* |
+| -- | -- |
+| Homepage | [https://github.com/Compaile/ctrack](https://github.com/Compaile/ctrack) |
+| License | MIT |
+| Versions | v1.0.2 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [ctrack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctrack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ctrack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ctrack")
+```
+
+
 ### ctre (windows)
 
 
@@ -11130,6 +11154,30 @@ xrepo install kuba-zip
 
 ```lua
 add_requires("kuba-zip")
+```
+
+
+### kvazaar (windows)
+
+
+| Description | *An open-source HEVC encoder* |
+| -- | -- |
+| Homepage | [https://github.com/ultravideo/kvazaar](https://github.com/ultravideo/kvazaar) |
+| License | BSD-3-Clause |
+| Versions | v2.3.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [kvazaar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kvazaar/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kvazaar
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kvazaar")
 ```
 
 
@@ -23754,7 +23802,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

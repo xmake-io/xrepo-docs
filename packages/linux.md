@@ -5053,6 +5053,30 @@ add_requires("ctpg")
 ```
 
 
+### ctrack (linux)
+
+
+| Description | *A lightweight, high-performance C++ benchmarking and tracking library for effortless function profiling in both development and production environments.* |
+| -- | -- |
+| Homepage | [https://github.com/Compaile/ctrack](https://github.com/Compaile/ctrack) |
+| License | MIT |
+| Versions | v1.0.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ctrack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctrack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ctrack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ctrack")
+```
+
+
 ### ctre (linux)
 
 
@@ -12123,6 +12147,30 @@ xrepo install kuba-zip
 
 ```lua
 add_requires("kuba-zip")
+```
+
+
+### kvazaar (linux)
+
+
+| Description | *An open-source HEVC encoder* |
+| -- | -- |
+| Homepage | [https://github.com/ultravideo/kvazaar](https://github.com/ultravideo/kvazaar) |
+| License | BSD-3-Clause |
+| Versions | v2.3.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [kvazaar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kvazaar/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kvazaar
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kvazaar")
 ```
 
 
@@ -27687,7 +27735,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31570,7 +31618,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5649262a5910 |
+| License | table: 0x55bcb4b84d70 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
