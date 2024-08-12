@@ -4483,7 +4483,7 @@ add_requires("fast_float")
 | -- | -- |
 | Homepage | [https://github.com/thisistherk/fast_obj](https://github.com/thisistherk/fast_obj) |
 | License | MIT |
-| Versions | 2023.08.08 |
+| Versions | v1.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fast_obj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_obj/xmake.lua) |
 
@@ -12177,6 +12177,30 @@ xrepo install -p cross [--sdk=/xxx] re-flex
 
 ```lua
 add_requires("re-flex")
+```
+
+
+### re-spirv (cross)
+
+
+| Description | *Lightweight and fast SPIR-V re-optimizer designed around spec constant usage.* |
+| -- | -- |
+| Homepage | [https://github.com/rt64/re-spirv](https://github.com/rt64/re-spirv) |
+| License | MIT |
+| Versions | 2024.08.07 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [re-spirv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-spirv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] re-spirv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("re-spirv")
 ```
 
 
