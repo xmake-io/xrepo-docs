@@ -3900,7 +3900,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | 0.8.5, 0.9.2, 0.12.1, 0.12.6, 0.14.0, 0.14.1, 0.14.2, 0.14.3, 0.15.0, 0.15.1, 0.15.2, 0.15.3 |
+| Versions | 0.8.5, 0.9.2, 0.12.1, 0.12.6, 0.14.0, 0.14.1, 0.14.2, 0.14.3, 0.15.0, 0.15.1, 0.15.2, 0.15.3, 0.16.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -11191,7 +11191,7 @@ add_requires("kvazaar")
 | Homepage | [https://lame.sourceforge.io/](https://lame.sourceforge.io/) |
 | License | LGPL-2.0-or-later |
 | Versions | 3.100 |
-| Architectures | x86 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [lame/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lame/xmake.lua) |
 
 ##### Install command
