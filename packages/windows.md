@@ -1135,7 +1135,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1, v0.8.2 |
+| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -23854,7 +23854,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26050,7 +26050,7 @@ add_requires("udt")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2 |
+| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
@@ -26765,7 +26765,7 @@ add_requires("vc")
 | -- | -- |
 | Homepage | [https://github.com/Chuyu-Team/VC-LTL5](https://github.com/Chuyu-Team/VC-LTL5) |
 | License | EPL-2.0 |
-| Versions | 5.0.6, 5.0.7, 5.0.9 |
+| Versions | 5.0.6, 5.0.7, 5.0.9, 5.1.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [vc-ltl5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vc-ltl5/xmake.lua) |
 
@@ -28939,7 +28939,7 @@ add_requires("zydis")
 | -- | -- |
 | Homepage | [http://zziplib.sourceforge.net/](http://zziplib.sourceforge.net/) |
 | License | GPL-2.0 |
-| Versions | v0.13.72, v0.13.73, v0.13.74, v0.13.76, v0.13.77 |
+| Versions | v0.13.72, v0.13.73, v0.13.74, v0.13.76, v0.13.77, v0.13.78 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [zziplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zziplib/xmake.lua) |
 

@@ -13614,7 +13614,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -15147,7 +15147,7 @@ add_requires("udt")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2 |
+| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
@@ -15908,6 +15908,30 @@ add_requires("xxhash")
 
 
 ## y
+### yaml-cpp (iphoneos)
+
+
+| Description | *A YAML parser and emitter in C++* |
+| -- | -- |
+| Homepage | [https://github.com/jbeder/yaml-cpp/](https://github.com/jbeder/yaml-cpp/) |
+| License | MIT |
+| Versions | 0.6.3, 0.7.0, 0.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [yaml-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos yaml-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yaml-cpp")
+```
+
+
 ### yas (iphoneos)
 
 
