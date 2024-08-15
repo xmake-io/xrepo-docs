@@ -1755,7 +1755,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25</td>
+<td>v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -9323,6 +9323,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("dynareadout")
+</code></pre>
+<h3 id="dyncallmacosx">dyncall (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>dyncall library provides a clean and portable C interface to dynamically issue calls to foreign code using small call kernels written in assembly.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.dyncall.org">https://www.dyncall.org</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dyncall/xmake.lua">dyncall/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install dyncall
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("dyncall")
 </code></pre>
 <h2 id="e">e</h2>
 <h3 id="e2fsprogsmacosx">e2fsprogs (macosx)</h3>
@@ -35362,7 +35395,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0</td>
+<td>v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -39165,7 +39198,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -44665,7 +44698,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x55b7e63183f0</td>
+<td>table: 0x560b21b33b60</td>
 </tr>
 <tr>
 <td>Versions</td>
