@@ -1656,7 +1656,7 @@ add_requires("c-blosc2")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1 |
+| Versions | 0.2.1, 0.2.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -1727,7 +1727,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -2491,7 +2491,7 @@ add_requires("cpp-async")
 | -- | -- |
 | Homepage | [https://github.com/andreiavrammsd/cpp-channel](https://github.com/andreiavrammsd/cpp-channel) |
 | License | MIT |
-| Versions | v0.8.2 |
+| Versions | v0.8.2, v0.8.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-channel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-channel/xmake.lua) |
 
@@ -13693,7 +13693,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

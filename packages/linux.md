@@ -2658,7 +2658,7 @@ add_requires("c-blosc2")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1 |
+| Versions | 0.2.1, 0.2.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -2824,7 +2824,7 @@ add_requires("cartographer")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -4134,7 +4134,7 @@ add_requires("cpp-async")
 | -- | -- |
 | Homepage | [https://github.com/andreiavrammsd/cpp-channel](https://github.com/andreiavrammsd/cpp-channel) |
 | License | MIT |
-| Versions | v0.8.2 |
+| Versions | v0.8.2, v0.8.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-channel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-channel/xmake.lua) |
 
@@ -21261,7 +21261,7 @@ add_requires("obfuscate")
 | Description | *Portable framework for the Objective-C language.* |
 | -- | -- |
 | Homepage | [https://objfw.nil.im](https://objfw.nil.im) |
-| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.0.10, 1.0.11, 1.0.12, 1.1.0, 1.1.1, 1.1.2, 1.1.3, 1.1.4 |
+| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.0.10, 1.0.11, 1.0.12, 1.1.0, 1.1.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.6 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [objfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/objfw/xmake.lua) |
 
@@ -27834,7 +27834,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31719,7 +31719,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b52633c440 |
+| License | table: 0x562e23cf2f30 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
