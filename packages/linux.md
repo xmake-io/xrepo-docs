@@ -3729,7 +3729,7 @@ add_requires("cmake")
 | Description | *CommonMark parsing and rendering library and program in C* |
 | -- | -- |
 | Homepage | [https://github.com/commonmark/cmark](https://github.com/commonmark/cmark) |
-| Versions | 0.31.0 |
+| Versions | 0.31.0, 0.31.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmark/xmake.lua) |
 
@@ -19004,7 +19004,7 @@ add_requires("mimalloc")
 | -- | -- |
 | Homepage | [https://github.com/metayeti/mINI](https://github.com/metayeti/mINI) |
 | License | MIT |
-| Versions | 0.9.15 |
+| Versions | 0.9.15, 0.9.16 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mini/xmake.lua) |
 
@@ -22478,7 +22478,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://esa.github.io/pagmo2/index.html](https://esa.github.io/pagmo2/index.html) |
 | License | LGPL-3.0 |
-| Versions | v2.18.0, v2.19.0 |
+| Versions | v2.18.0, v2.19.0, v2.19.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pagmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pagmo/xmake.lua) |
 
@@ -25668,7 +25668,7 @@ add_requires("redis-plus-plus")
 | -- | -- |
 | Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
 | License | MIT |
-| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0 |
+| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
 
@@ -27834,7 +27834,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31719,7 +31719,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563467af9b60 |
+| License | table: 0x555e4fdf4300 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
