@@ -8866,7 +8866,7 @@ add_requires("gmp")
 | -- | -- |
 | Homepage | [http://gmsh.info/](http://gmsh.info/) |
 | License | GPL-2.0 |
-| Versions | 4.8.4, 4.11.1 |
+| Versions | 4.8.4, 4.11.1, 4.13.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [gmsh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmsh/xmake.lua) |
 
@@ -10824,7 +10824,7 @@ add_requires("itstool")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -25842,7 +25842,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29466,7 +29466,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c5e18c3120 |
+| License | table: 0x55c357467900 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
