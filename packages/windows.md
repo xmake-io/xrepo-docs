@@ -1279,7 +1279,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5 |
 | Architectures | x64, x86 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -11974,7 +11974,7 @@ add_requires("libdivsufsort")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -20236,7 +20236,7 @@ add_requires("polyhook2")
 | -- | -- |
 | Homepage | [https://polyscope.run/](https://polyscope.run/) |
 | License | MIT |
-| Versions | v1.3.0, v2.1.0, v2.2.1 |
+| Versions | v1.3.0, v2.1.0, v2.2.1, v2.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [polyscope/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/polyscope/xmake.lua) |
 
@@ -23925,7 +23925,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27623,7 +27623,7 @@ add_requires("whisper.cpp")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/wil](https://github.com/microsoft/wil) |
 | License | MIT |
-| Versions | 2022.09.16, 2023.12.16 |
+| Versions | 2022.09.16, 2023.12.16, 2024.08.03 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [wil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wil/xmake.lua) |
 
