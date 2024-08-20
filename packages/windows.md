@@ -1111,7 +1111,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-event-stream](https://github.com/awslabs/aws-c-event-stream) |
 | License | Apache-2.0 |
-| Versions | v0.3.2, v0.4.1, v0.4.2 |
+| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-event-stream/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-event-stream/xmake.lua) |
 
@@ -3424,7 +3424,7 @@ add_requires("clove-unit")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1, 3.28.3, 3.29.2, 3.30.1 |
+| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1, 3.28.3, 3.29.2, 3.30.1, 3.30.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
@@ -23925,7 +23925,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
