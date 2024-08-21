@@ -7088,6 +7088,30 @@ add_requires("enkits")
 ```
 
 
+### enoki (linux)
+
+
+| Description | *Enoki: structured vectorization and differentiation on modern processor architectures* |
+| -- | -- |
+| Homepage | [https://github.com/mitsuba-renderer/enoki](https://github.com/mitsuba-renderer/enoki) |
+| License | BSD-3-Clause |
+| Versions | 2024.04.19 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [enoki/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enoki/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install enoki
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("enoki")
+```
+
+
 ### ensmallen (linux)
 
 
@@ -7829,6 +7853,30 @@ xrepo install fcl
 
 ```lua
 add_requires("fcl")
+```
+
+
+### fcpw (linux)
+
+
+| Description | *FCPW: Fastest Closest Points in the West* |
+| -- | -- |
+| Homepage | [https://github.com/rohan-sawhney/fcpw](https://github.com/rohan-sawhney/fcpw) |
+| License | MIT |
+| Versions | v1.0.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [fcpw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fcpw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fcpw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fcpw")
 ```
 
 
@@ -27931,7 +27979,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31816,7 +31864,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56156d0737d0 |
+| License | table: 0x5618262e26b0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

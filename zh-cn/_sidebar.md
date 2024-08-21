@@ -1,7 +1,7 @@
 - 快速入门
   - [赞助](https://xmake.io/#/zh-cn/about/sponsor)
   - [快速上手](zh-cn/getting_started.md)
-- 包列表 (1454)
+- 包列表 (1456)
   - [android](packages/android.md)
   - [bsd](packages/bsd.md)
   - [cross](packages/cross.md)
