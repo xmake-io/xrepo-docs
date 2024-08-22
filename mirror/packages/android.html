@@ -22150,7 +22150,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -22220,7 +22220,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.2.1, 3.3.1</td>
+<td>3.2.1, 3.3.1, 3.3.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -23077,6 +23077,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("tclap")
+</code></pre>
+<h3 id="termcapandroid">termcap (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Enables programs to use display terminals in a terminal-independent manner</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.gnu.org/software/termcap">https://www.gnu.org/software/termcap</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-2.0-or-later</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.3.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/termcap/xmake.lua">termcap/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] termcap
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("termcap")
 </code></pre>
 <h3 id="termcolorandroid">termcolor (android)</h3>
 <table>
@@ -25613,7 +25650,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.9.3, v0.9.4, v0.9.5, v0.9.6</td>
+<td>v0.9.3, v0.9.4, v0.9.5, v0.9.6, v0.9.7</td>
 </tr>
 <tr>
 <td>Architectures</td>

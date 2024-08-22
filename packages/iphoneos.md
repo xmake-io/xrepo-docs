@@ -13902,7 +13902,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -13949,7 +13949,7 @@ add_requires("sqlite_orm")
 | -- | -- |
 | Homepage | [http://srombauts.github.io/SQLiteCpp](http://srombauts.github.io/SQLiteCpp) |
 | License | MIT |
-| Versions | 3.2.1, 3.3.1 |
+| Versions | 3.2.1, 3.3.1, 3.3.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlitecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlitecpp/xmake.lua) |
 
@@ -14467,6 +14467,30 @@ xrepo install -p iphoneos tclap
 
 ```lua
 add_requires("tclap")
+```
+
+
+### termcap (iphoneos)
+
+
+| Description | *Enables programs to use display terminals in a terminal-independent manner* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/termcap](https://www.gnu.org/software/termcap) |
+| License | GPL-2.0-or-later |
+| Versions | 1.3.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [termcap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/termcap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos termcap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("termcap")
 ```
 
 

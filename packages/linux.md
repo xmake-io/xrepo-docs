@@ -4586,7 +4586,7 @@ add_requires("cppp-reiconv")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/cpptrace](https://github.com/jeremy-rifkin/cpptrace) |
 | License | MIT |
-| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3 |
+| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpptrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpptrace/xmake.lua) |
 
@@ -26170,7 +26170,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -27979,7 +27979,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28026,7 +28026,7 @@ add_requires("sqlite_orm")
 | -- | -- |
 | Homepage | [http://srombauts.github.io/SQLiteCpp](http://srombauts.github.io/SQLiteCpp) |
 | License | MIT |
-| Versions | 3.2.1, 3.3.1 |
+| Versions | 3.2.1, 3.3.1, 3.3.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlitecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlitecpp/xmake.lua) |
 
@@ -28620,7 +28620,7 @@ add_requires("subprocess.h")
 | Description | *SuiteSparse is a suite of sparse matrix algorithms* |
 | -- | -- |
 | Homepage | [https://people.engr.tamu.edu/davis/suitesparse.html](https://people.engr.tamu.edu/davis/suitesparse.html) |
-| Versions | v5.10.1, v5.12.0, v5.13.0, v7.5.1, v7.6.0, v7.7.0 |
+| Versions | v5.10.1, v5.12.0, v5.13.0, v7.5.1, v7.6.0, v7.7.0, v7.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [suitesparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/suitesparse/xmake.lua) |
 
@@ -29039,6 +29039,30 @@ xrepo install telebot
 
 ```lua
 add_requires("telebot")
+```
+
+
+### termcap (linux)
+
+
+| Description | *Enables programs to use display terminals in a terminal-independent manner* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/termcap](https://www.gnu.org/software/termcap) |
+| License | GPL-2.0-or-later |
+| Versions | 1.3.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [termcap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/termcap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install termcap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("termcap")
 ```
 
 
@@ -31771,7 +31795,7 @@ add_requires("webui")
 | -- | -- |
 | Homepage | [https://github.com/wfrest/wfrest](https://github.com/wfrest/wfrest) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.4, v0.9.5, v0.9.6 |
+| Versions | v0.9.3, v0.9.4, v0.9.5, v0.9.6, v0.9.7 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wfrest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wfrest/xmake.lua) |
 
@@ -31864,7 +31888,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5618262e26b0 |
+| License | table: 0x560a55dcec60 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

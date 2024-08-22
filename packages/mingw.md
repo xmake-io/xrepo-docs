@@ -2946,7 +2946,7 @@ add_requires("cppp-reiconv")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/cpptrace](https://github.com/jeremy-rifkin/cpptrace) |
 | License | MIT |
-| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3 |
+| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.7.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cpptrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpptrace/xmake.lua) |
 
@@ -15264,7 +15264,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2 |
 | Architectures | x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -16385,7 +16385,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -16432,7 +16432,7 @@ add_requires("sqlite_orm")
 | -- | -- |
 | Homepage | [http://srombauts.github.io/SQLiteCpp](http://srombauts.github.io/SQLiteCpp) |
 | License | MIT |
-| Versions | 3.2.1, 3.3.1 |
+| Versions | 3.2.1, 3.3.1, 3.3.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlitecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlitecpp/xmake.lua) |
 
@@ -17139,6 +17139,30 @@ xrepo install -p mingw [--mingw=/xxx] telebot
 
 ```lua
 add_requires("telebot")
+```
+
+
+### termcap (mingw)
+
+
+| Description | *Enables programs to use display terminals in a terminal-independent manner* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/termcap](https://www.gnu.org/software/termcap) |
+| License | GPL-2.0-or-later |
+| Versions | 1.3.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [termcap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/termcap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] termcap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("termcap")
 ```
 
 
