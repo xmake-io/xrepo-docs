@@ -7843,6 +7843,30 @@ add_requires("libspng")
 ```
 
 
+### libsquish (iphoneos)
+
+
+| Description | *The libSquish library compresses images with the DXT standard (also known as S3TC).* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/libsquish/](https://sourceforge.net/projects/libsquish/) |
+| License | MIT |
+| Versions | 1.15 |
+| Architectures | arm64, x86_64 |
+| Definition | [libsquish/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsquish/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libsquish
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsquish")
+```
+
+
 ### libsv (iphoneos)
 
 
@@ -13902,7 +13926,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

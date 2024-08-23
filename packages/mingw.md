@@ -1037,7 +1037,7 @@ add_requires("bdwgc")
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
 | License | Apache-2.0 |
-| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0, 1.8.3, 1.8.4, 1.8.5 |
+| Versions | 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0, 1.8.3, 1.8.4, 1.8.5, 1.9.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
@@ -9230,6 +9230,30 @@ add_requires("libspng")
 ```
 
 
+### libsquish (mingw)
+
+
+| Description | *The libSquish library compresses images with the DXT standard (also known as S3TC).* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/libsquish/](https://sourceforge.net/projects/libsquish/) |
+| License | MIT |
+| Versions | 1.15 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libsquish/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsquish/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libsquish
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsquish")
+```
+
+
 ### libsv (mingw)
 
 
@@ -16385,7 +16409,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
