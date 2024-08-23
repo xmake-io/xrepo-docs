@@ -4016,6 +4016,30 @@ add_requires("easywsclient")
 ```
 
 
+### editline (msys)
+
+
+| Description | *Autotool- and libtoolized port of the NetBSD Editline library (libedit).* |
+| -- | -- |
+| Homepage | [http://thrysoee.dk/editline](http://thrysoee.dk/editline) |
+| License | BSD-3-Clause |
+| Versions | 3.1 |
+| Architectures | i386, x86_64 |
+| Definition | [editline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/editline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install editline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("editline")
+```
+
+
 ### edlib (msys)
 
 
@@ -9557,6 +9581,30 @@ add_requires("nasm")
 ```
 
 
+### ncurses (msys)
+
+
+| Description | *A free software emulation of curses.* |
+| -- | -- |
+| Homepage | [https://invisible-island.net/ncurses/](https://invisible-island.net/ncurses/) |
+| License | MIT |
+| Versions | 6.1, 6.2, 6.3, 6.4, 6.5 |
+| Architectures | i386, x86_64 |
+| Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ncurses
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ncurses")
+```
+
+
 ### ndk (msys)
 
 
@@ -11371,6 +11419,30 @@ add_requires("python2")
 
 
 ## q
+### qcbor (msys)
+
+
+| Description | *Comprehensive, powerful, commercial-quality CBOR encoder/ decoder that is still suited for small devices.* |
+| -- | -- |
+| Homepage | [https://github.com/laurencelundblade/QCBOR](https://github.com/laurencelundblade/QCBOR) |
+| License | BSD-3-Clause |
+| Versions | v1.4.1 |
+| Architectures | i386, x86_64 |
+| Definition | [qcbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qcbor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qcbor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qcbor")
+```
+
+
 ### qmsetup (msys)
 
 
@@ -13001,7 +13073,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

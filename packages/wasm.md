@@ -10561,6 +10561,30 @@ add_requires("python2")
 
 
 ## q
+### qcbor (wasm)
+
+
+| Description | *Comprehensive, powerful, commercial-quality CBOR encoder/ decoder that is still suited for small devices.* |
+| -- | -- |
+| Homepage | [https://github.com/laurencelundblade/QCBOR](https://github.com/laurencelundblade/QCBOR) |
+| License | BSD-3-Clause |
+| Versions | v1.4.1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [qcbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qcbor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm qcbor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qcbor")
+```
+
+
 ### qmsetup (wasm)
 
 
@@ -12095,7 +12119,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
