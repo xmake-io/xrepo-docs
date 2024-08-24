@@ -2039,7 +2039,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0, 1.32.2, 1.32.3, 1.33.0</td>
+<td>1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0, 1.32.2, 1.32.3, 1.33.0, 1.33.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -10648,7 +10648,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v325, v332, v333</td>
+<td>v325, v332, v333, v334</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11550,6 +11550,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("luabridge3")
+</code></pre>
+<h3 id="luauwasm">luau (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A fast, small, safe, gradually typed embeddable scripting language derived from Lua.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://luau-lang.org/">https://luau-lang.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.538, 0.623, 0.624, 0.638</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua">luau/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm luau
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("luau")
 </code></pre>
 <h3 id="lunasvgwasm">lunasvg (wasm)</h3>
 <table>
@@ -18525,7 +18562,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>

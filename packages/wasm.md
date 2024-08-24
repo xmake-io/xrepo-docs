@@ -1273,7 +1273,7 @@ add_requires("bzip3")
 | -- | -- |
 | Homepage | [https://c-ares.org/](https://c-ares.org/) |
 | License | MIT |
-| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0, 1.32.2, 1.32.3, 1.33.0 |
+| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0, 1.32.2, 1.32.3, 1.33.0, 1.33.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
 
@@ -6922,7 +6922,7 @@ add_requires("libsv")
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
 | License | BSD-3-Clause |
-| Versions | v325, v332, v333 |
+| Versions | v325, v332, v333, v334 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
 
@@ -7526,6 +7526,30 @@ xrepo install -p wasm luabridge3
 
 ```lua
 add_requires("luabridge3")
+```
+
+
+### luau (wasm)
+
+
+| Description | *A fast, small, safe, gradually typed embeddable scripting language derived from Lua.* |
+| -- | -- |
+| Homepage | [https://luau-lang.org/](https://luau-lang.org/) |
+| License | MIT |
+| Versions | 0.538, 0.623, 0.624, 0.638 |
+| Architectures | wasm32, wasm64 |
+| Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm luau
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("luau")
 ```
 
 
@@ -12119,7 +12143,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
