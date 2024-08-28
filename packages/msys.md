@@ -4016,30 +4016,6 @@ add_requires("easywsclient")
 ```
 
 
-### editline (msys)
-
-
-| Description | *Autotool- and libtoolized port of the NetBSD Editline library (libedit).* |
-| -- | -- |
-| Homepage | [http://thrysoee.dk/editline](http://thrysoee.dk/editline) |
-| License | BSD-3-Clause |
-| Versions | 3.1 |
-| Architectures | i386, x86_64 |
-| Definition | [editline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/editline/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install editline
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("editline")
-```
-
-
 ### edlib (msys)
 
 
@@ -6890,6 +6866,30 @@ add_requires("libdivsufsort")
 ```
 
 
+### libedit (msys)
+
+
+| Description | *Autotool- and libtoolized port of the NetBSD Editline library (libedit).* |
+| -- | -- |
+| Homepage | [http://thrysoee.dk/editline](http://thrysoee.dk/editline) |
+| License | BSD-3-Clause |
+| Versions | 3.1 |
+| Architectures | i386, x86_64 |
+| Definition | [libedit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libedit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libedit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libedit")
+```
+
+
 ### libelfin (msys)
 
 
@@ -7747,6 +7747,30 @@ xrepo install libtool
 
 ```lua
 add_requires("libtool")
+```
+
+
+### libudis86 (msys)
+
+
+| Description | *Disassembler Library for x86 and x86-64* |
+| -- | -- |
+| Homepage | [http://udis86.sourceforge.net](http://udis86.sourceforge.net) |
+| License | BSD-2-Clause |
+| Versions | 2014.12.25 |
+| Architectures | i386, x86_64 |
+| Definition | [libudis86/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libudis86/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libudis86
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libudis86")
 ```
 
 
@@ -11920,6 +11944,30 @@ add_requires("rapidxml")
 ```
 
 
+### raw_pdb (msys)
+
+
+| Description | *A C++11 library for reading Microsoft Program DataBase PDB files* |
+| -- | -- |
+| Homepage | [https://github.com/MolecularMatters/raw_pdb](https://github.com/MolecularMatters/raw_pdb) |
+| License | BSD-2-Clause |
+| Versions | 2022.10.17, 2024.08.27 |
+| Architectures | i386, x86_64 |
+| Definition | [raw_pdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raw_pdb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install raw_pdb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("raw_pdb")
+```
+
+
 ### re-flex (msys)
 
 
@@ -13193,7 +13241,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

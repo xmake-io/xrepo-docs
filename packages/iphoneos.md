@@ -8009,6 +8009,30 @@ add_requires("libtool")
 ```
 
 
+### libudis86 (iphoneos)
+
+
+| Description | *Disassembler Library for x86 and x86-64* |
+| -- | -- |
+| Homepage | [http://udis86.sourceforge.net](http://udis86.sourceforge.net) |
+| License | BSD-2-Clause |
+| Versions | 2014.12.25 |
+| Architectures | arm64, x86_64 |
+| Definition | [libudis86/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libudis86/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libudis86
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libudis86")
+```
+
+
 ### libuuid (iphoneos)
 
 
@@ -14046,7 +14070,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

@@ -9654,43 +9654,6 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ed")
 </code></pre>
-<h3 id="editlinemacosx">editline (macosx)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>Autotool- and libtoolized port of the NetBSD Editline library (libedit).</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="http://thrysoee.dk/editline">http://thrysoee.dk/editline</a></td>
-</tr>
-<tr>
-<td>License</td>
-<td>BSD-3-Clause</td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>3.1</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm64, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/e/editline/xmake.lua">editline/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install editline
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("editline")
-</code></pre>
 <h3 id="edlibmacosx">edlib (macosx)</h3>
 <table>
 <thead>
@@ -19072,6 +19035,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libdwarf")
 </code></pre>
+<h3 id="libeditmacosx">libedit (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Autotool- and libtoolized port of the NetBSD Editline library (libedit).</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://thrysoee.dk/editline">http://thrysoee.dk/editline</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libedit/xmake.lua">libedit/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libedit
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libedit")
+</code></pre>
 <h3 id="libelfinmacosx">libelfin (macosx)</h3>
 <table>
 <thead>
@@ -22766,6 +22766,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libtorch")
+</code></pre>
+<h3 id="libudis86macosx">libudis86 (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Disassembler Library for x86 and x86-64</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://udis86.sourceforge.net">http://udis86.sourceforge.net</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-2-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2014.12.25</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libudis86/xmake.lua">libudis86/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libudis86
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libudis86")
 </code></pre>
 <h3 id="libuimacosx">libui (macosx)</h3>
 <table>
@@ -39687,7 +39724,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -45228,7 +45265,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x556dc9d78430</td>
+<td>table: 0x5593d0233c80</td>
 </tr>
 <tr>
 <td>Versions</td>
