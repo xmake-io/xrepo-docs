@@ -4491,7 +4491,7 @@ add_requires("cppcodec")
 | Description | *A personal experimental C++ Syntax 2 -> Syntax 1 compiler* |
 | -- | -- |
 | Homepage | [https://github.com/hsutter/cppfront](https://github.com/hsutter/cppfront) |
-| Versions | v0.7.0, v0.7.2 |
+| Versions | v0.7.0, v0.7.2, v0.7.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppfront/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppfront/xmake.lua) |
 
@@ -7215,7 +7215,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -8866,7 +8866,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -25665,6 +25665,30 @@ add_requires("rapidjson")
 ```
 
 
+### rapidobj (linux)
+
+
+| Description | *A fast, header-only, C++17 library for parsing Wavefront .obj files.* |
+| -- | -- |
+| Homepage | [https://github.com/guybrush77/rapidobj](https://github.com/guybrush77/rapidobj) |
+| License | MIT |
+| Versions | v1.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rapidobj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidobj/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rapidobj
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidobj")
+```
+
+
 ### rapidxml (linux)
 
 
@@ -28196,7 +28220,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28599,7 +28623,7 @@ add_requires("stdexec")
 | -- | -- |
 | Homepage | [https://github.com/mariusbancila/stduuid](https://github.com/mariusbancila/stduuid) |
 | License | MIT |
-| Versions | 1.2.3 |
+| Versions | v1.2.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [stduuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stduuid/xmake.lua) |
 
@@ -32106,7 +32130,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b480612600 |
+| License | table: 0x556dc9d78430 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

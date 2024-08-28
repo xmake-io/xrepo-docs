@@ -4672,7 +4672,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -14923,6 +14923,30 @@ add_requires("rapidjson")
 ```
 
 
+### rapidobj (mingw)
+
+
+| Description | *A fast, header-only, C++17 library for parsing Wavefront .obj files.* |
+| -- | -- |
+| Homepage | [https://github.com/guybrush77/rapidobj](https://github.com/guybrush77/rapidobj) |
+| License | MIT |
+| Versions | v1.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [rapidobj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidobj/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] rapidobj
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rapidobj")
+```
+
+
 ### rapidxml (mingw)
 
 
@@ -16553,7 +16577,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -16837,7 +16861,7 @@ add_requires("stdexec")
 | -- | -- |
 | Homepage | [https://github.com/mariusbancila/stduuid](https://github.com/mariusbancila/stduuid) |
 | License | MIT |
-| Versions | 1.2.3 |
+| Versions | v1.2.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [stduuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stduuid/xmake.lua) |
 
