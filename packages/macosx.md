@@ -24870,8 +24870,8 @@ add_requires("scons")
 | Description | *Scotch: a software package for graph and mesh/hypergraph partitioning, graph clustering, and sparse matrix ordering* |
 | -- | -- |
 | Homepage | [https://www.labri.fr/perso/pelegrin/scotch/](https://www.labri.fr/perso/pelegrin/scotch/) |
-| Versions | v6.1.1 |
-| Architectures | x86_64 |
+| Versions | v6.1.1, v7.0.5 |
+| Architectures | arm64, x86_64 |
 | Definition | [scotch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scotch/xmake.lua) |
 
 ##### Install command
@@ -26084,7 +26084,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29733,7 +29733,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5641ec99d6c0 |
+| License | table: 0x55b480612600 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
