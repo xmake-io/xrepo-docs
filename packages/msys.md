@@ -4351,6 +4351,30 @@ add_requires("eventpp")
 ```
 
 
+### expat (msys)
+
+
+| Description | *XML 1.0 parser* |
+| -- | -- |
+| Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
+| License | MIT |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2 |
+| Architectures | i386, x86_64 |
+| Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install expat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expat")
+```
+
+
 ### expected-lite (msys)
 
 
@@ -11208,6 +11232,30 @@ add_requires("pocketfft")
 ```
 
 
+### poco (msys)
+
+
+| Description | *The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.* |
+| -- | -- |
+| Homepage | [https://pocoproject.org/](https://pocoproject.org/) |
+| License | BSL-1.0 |
+| Versions | 1.11.0, 1.11.1, 1.11.6, 1.11.8, 1.12.1, 1.12.2, 1.12.4, 1.12.5, 1.13.3 |
+| Architectures | i386, x86_64 |
+| Definition | [poco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/poco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install poco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("poco")
+```
+
+
 ### polyclipping (msys)
 
 
@@ -13313,7 +13361,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
