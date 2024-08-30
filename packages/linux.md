@@ -13063,7 +13063,7 @@ add_requires("libco")
 | Description | *a small C library for x86 CPU detection and feature extraction* |
 | -- | -- |
 | Homepage | [https://github.com/anrieff/libcpuid](https://github.com/anrieff/libcpuid) |
-| Versions | v0.5.1, v0.6.3, v0.6.4, v0.6.5 |
+| Versions | v0.5.1, v0.6.3, v0.6.4, v0.6.5, v0.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libcpuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcpuid/xmake.lua) |
 
@@ -25474,6 +25474,30 @@ add_requires("quickjs")
 ```
 
 
+### quickjs-ng (linux)
+
+
+| Description | *QuickJS, the Next Generation: a mighty JavaScript engine* |
+| -- | -- |
+| Homepage | [https://github.com/quickjs-ng/quickjs](https://github.com/quickjs-ng/quickjs) |
+| License | MIT |
+| Versions | v0.5.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [quickjs-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install quickjs-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("quickjs-ng")
+```
+
+
 ### quickjspp (linux)
 
 
@@ -28317,7 +28341,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32227,7 +32251,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5583b05aad20 |
+| License | table: 0x55b42a16e520 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
