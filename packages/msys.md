@@ -11687,8 +11687,8 @@ add_requires("qr-code-generator-cpp")
 | Description | *Quadsort is a branchless stable adaptive mergesort faster than quicksort.* |
 | -- | -- |
 | Homepage | [https://github.com/scandum/quadsort](https://github.com/scandum/quadsort) |
-| License | MIT |
-| Versions | 2023.02.03 |
+| License | Unlicense |
+| Versions | 1.1.5+4, 1.2.1+3 |
 | Architectures | i386, x86_64 |
 | Definition | [quadsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quadsort/xmake.lua) |
 
@@ -13313,7 +13313,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
