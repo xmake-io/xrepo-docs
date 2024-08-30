@@ -9101,6 +9101,30 @@ add_requires("gr")
 ```
 
 
+### graaf (windows)
+
+
+| Description | *A general-purpose lightweight C++ graph library* |
+| -- | -- |
+| Homepage | [https://bobluppes.github.io/graaf/](https://bobluppes.github.io/graaf/) |
+| License | MIT |
+| Versions | v1.1.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [graaf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/graaf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install graaf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("graaf")
+```
+
+
 ### graphene (windows)
 
 
@@ -19688,7 +19712,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6 |
+| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6, v4.6.7 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -20666,7 +20690,7 @@ add_requires("promise-cpp")
 | Description | *Google's data interchange format for cpp* |
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
-| Versions | 3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3 |
+| Versions | 3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
@@ -24216,7 +24240,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26171,7 +26195,7 @@ add_requires("toojpeg")
 | Description | *C++ frame profiler* |
 | -- | -- |
 | Homepage | [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy) |
-| Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0 |
+| Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0, v0.11.1 |
 | Architectures | x64 |
 | Definition | [tracy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tracy/xmake.lua) |
 

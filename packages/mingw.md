@@ -6098,6 +6098,30 @@ add_requires("gperf")
 ```
 
 
+### graaf (mingw)
+
+
+| Description | *A general-purpose lightweight C++ graph library* |
+| -- | -- |
+| Homepage | [https://bobluppes.github.io/graaf/](https://bobluppes.github.io/graaf/) |
+| License | MIT |
+| Versions | v1.1.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [graaf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/graaf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] graaf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("graaf")
+```
+
+
 ### gsl (mingw)
 
 
@@ -13168,7 +13192,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6 |
+| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6, v4.6.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -16649,7 +16673,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
