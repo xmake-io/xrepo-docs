@@ -129,7 +129,7 @@ add_requires("actor-framework")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -26229,7 +26229,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29878,7 +29878,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55726fd47ba0 |
+| License | table: 0x562fea2db1f0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
