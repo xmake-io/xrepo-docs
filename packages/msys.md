@@ -143,6 +143,30 @@ add_requires("algo_plus")
 ```
 
 
+### alpaca (msys)
+
+
+| Description | *Serialization library written in C++17 - Pack C++ structs into a compact byte-array without any macros or boilerplate code* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/alpaca](https://github.com/p-ranav/alpaca) |
+| License | MIT |
+| Versions | v0.2.1 |
+| Architectures | i386, x86_64 |
+| Definition | [alpaca/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alpaca/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install alpaca
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("alpaca")
+```
+
+
 ### amqp-cpp (msys)
 
 

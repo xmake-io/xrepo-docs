@@ -290,6 +290,30 @@ add_requires("algo_plus")
 ```
 
 
+### alpaca (linux)
+
+
+| Description | *Serialization library written in C++17 - Pack C++ structs into a compact byte-array without any macros or boilerplate code* |
+| -- | -- |
+| Homepage | [https://github.com/p-ranav/alpaca](https://github.com/p-ranav/alpaca) |
+| License | MIT |
+| Versions | v0.2.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [alpaca/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alpaca/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install alpaca
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("alpaca")
+```
+
+
 ### alsa-lib (linux)
 
 
@@ -32324,7 +32348,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55abcf9df370 |
+| License | table: 0x55692154cda0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
