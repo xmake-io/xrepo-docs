@@ -6,7 +6,7 @@
 
 - *简单，轻量，跨平台*
 - *现代化的 C/C++ 包管理工具，分布式仓库支持*
-- **Recently added: alpaca, plutovg, imgui-color-text-edit**
+- **Recently added: c-vector, alpaca, plutovg**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [GitHub](https://github.com/xmake-io/xrepo/)
