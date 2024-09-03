@@ -1848,7 +1848,7 @@ add_requires("blake2")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3 |
+| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
@@ -8009,7 +8009,7 @@ add_requires("fribidi")
 | -- | -- |
 | Homepage | [https://github.com/serge-sans-paille/frozen](https://github.com/serge-sans-paille/frozen) |
 | License | Apache-2.0 |
-| Versions | 1.1.1 |
+| Versions | 1.1.1, 1.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [frozen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frozen/xmake.lua) |
 
@@ -14870,7 +14870,7 @@ add_requires("libsv")
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
 | License | BSD-3-Clause |
-| Versions | v325, v332, v333, v334 |
+| Versions | v325, v332, v333, v334, v335 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
 
@@ -16752,7 +16752,7 @@ add_requires("luajit")
 | -- | -- |
 | Homepage | [https://luau-lang.org/](https://luau-lang.org/) |
 | License | MIT |
-| Versions | 0.538, 0.623, 0.624, 0.638 |
+| Versions | 0.538, 0.623, 0.624, 0.638, 0.640 |
 | Architectures | arm64, x86_64 |
 | Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
 
@@ -19513,7 +19513,7 @@ add_requires("newtondynamics4")
 | -- | -- |
 | Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
 | License | MIT |
-| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1 |
+| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1, 1.63.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
 
@@ -26375,7 +26375,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30024,7 +30024,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f8f175e8d0 |
+| License | table: 0x56304cd74ae0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
