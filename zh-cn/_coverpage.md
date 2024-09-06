@@ -6,7 +6,7 @@
 
 - *简单，轻量，跨平台*
 - *现代化的 C/C++ 包管理工具，分布式仓库支持*
-- **Recently added: at-spi2-core, cpp-rotor, imguitextselect**
+- **Recently added: cppjieba, limonp, at-spi2-core**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [GitHub](https://github.com/xmake-io/xrepo/)

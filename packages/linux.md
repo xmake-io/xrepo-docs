@@ -4652,6 +4652,30 @@ add_requires("cppitertools")
 ```
 
 
+### cppjieba (linux)
+
+
+| Description | *"结巴"中文分词的C++版本* |
+| -- | -- |
+| Homepage | [https://github.com/yanyiwu/cppjieba](https://github.com/yanyiwu/cppjieba) |
+| License | MIT |
+| Versions | v5.2.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cppjieba/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppjieba/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppjieba
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppjieba")
+```
+
+
 ### cppp-reiconv (linux)
 
 
@@ -17531,6 +17555,30 @@ xrepo install lightningscanner
 
 ```lua
 add_requires("lightningscanner")
+```
+
+
+### limonp (linux)
+
+
+| Description | *C++ headers(hpp) library with Python style.* |
+| -- | -- |
+| Homepage | [https://github.com/yanyiwu/limonp](https://github.com/yanyiwu/limonp) |
+| License | MIT |
+| Versions | v0.9.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [limonp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/limonp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install limonp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("limonp")
 ```
 
 
@@ -32448,7 +32496,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x556ec2382260 |
+| License | table: 0x555a38762c00 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

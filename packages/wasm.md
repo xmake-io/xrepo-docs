@@ -2365,6 +2365,30 @@ add_requires("cppitertools")
 ```
 
 
+### cppjieba (wasm)
+
+
+| Description | *"结巴"中文分词的C++版本* |
+| -- | -- |
+| Homepage | [https://github.com/yanyiwu/cppjieba](https://github.com/yanyiwu/cppjieba) |
+| License | MIT |
+| Versions | v5.2.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [cppjieba/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppjieba/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm cppjieba
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppjieba")
+```
+
+
 ### cppp-reiconv (wasm)
 
 
@@ -7342,6 +7366,30 @@ xrepo install -p wasm lightmapper
 
 ```lua
 add_requires("lightmapper")
+```
+
+
+### limonp (wasm)
+
+
+| Description | *C++ headers(hpp) library with Python style.* |
+| -- | -- |
+| Homepage | [https://github.com/yanyiwu/limonp](https://github.com/yanyiwu/limonp) |
+| License | MIT |
+| Versions | v0.9.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [limonp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/limonp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm limonp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("limonp")
 ```
 
 

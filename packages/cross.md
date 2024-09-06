@@ -2868,6 +2868,30 @@ add_requires("cppitertools")
 ```
 
 
+### cppjieba (cross)
+
+
+| Description | *"结巴"中文分词的C++版本* |
+| -- | -- |
+| Homepage | [https://github.com/yanyiwu/cppjieba](https://github.com/yanyiwu/cppjieba) |
+| License | MIT |
+| Versions | v5.2.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cppjieba/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppjieba/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cppjieba
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppjieba")
+```
+
+
 ### cppp-reiconv (cross)
 
 
@@ -8443,6 +8467,30 @@ xrepo install -p cross [--sdk=/xxx] lightmapper
 
 ```lua
 add_requires("lightmapper")
+```
+
+
+### limonp (cross)
+
+
+| Description | *C++ headers(hpp) library with Python style.* |
+| -- | -- |
+| Homepage | [https://github.com/yanyiwu/limonp](https://github.com/yanyiwu/limonp) |
+| License | MIT |
+| Versions | v0.9.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [limonp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/limonp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] limonp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("limonp")
 ```
 
 
