@@ -3083,6 +3083,30 @@ add_requires("cppp-reiconv")
 ```
 
 
+### cppunit (bsd)
+
+
+| Description | *CppUnit is the C++ port of the famous JUnit framework for unit testing* |
+| -- | -- |
+| Homepage | [https://freedesktop.org/wiki/Software/cppunit](https://freedesktop.org/wiki/Software/cppunit) |
+| License | LGPL-2.1-or-later |
+| Versions | 1.15.1 |
+| Architectures | i386, x86_64 |
+| Definition | [cppunit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppunit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppunit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppunit")
+```
+
+
 ### cpuinfo (bsd)
 
 
@@ -13280,7 +13304,7 @@ add_requires("qdcae")
 | -- | -- |
 | Homepage | [https://github.com/stdware/qmsetup](https://github.com/stdware/qmsetup) |
 | License | MIT |
-| Versions | 2024.04.23 |
+| Versions | 2024.09.02 |
 | Architectures | i386, x86_64 |
 | Definition | [qmsetup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qmsetup/xmake.lua) |
 
@@ -15189,7 +15213,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -15751,6 +15775,30 @@ xrepo install symengine
 
 ```lua
 add_requires("symengine")
+```
+
+
+### syscmdline (bsd)
+
+
+| Description | *C++ Advanced Command Line Parser* |
+| -- | -- |
+| Homepage | [https://github.com/SineStriker/syscmdline](https://github.com/SineStriker/syscmdline) |
+| License | MIT |
+| Versions | 2024.03.27 |
+| Architectures | i386, x86_64 |
+| Definition | [syscmdline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/syscmdline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install syscmdline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("syscmdline")
 ```
 
 

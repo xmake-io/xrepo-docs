@@ -4724,6 +4724,30 @@ add_requires("cpptrace")
 ```
 
 
+### cppunit (linux)
+
+
+| Description | *CppUnit is the C++ port of the famous JUnit framework for unit testing* |
+| -- | -- |
+| Homepage | [https://freedesktop.org/wiki/Software/cppunit](https://freedesktop.org/wiki/Software/cppunit) |
+| License | LGPL-2.1-or-later |
+| Versions | 1.15.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cppunit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppunit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppunit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppunit")
+```
+
+
 ### cppzmq (linux)
 
 
@@ -11159,7 +11183,7 @@ add_requires("imcoolbar")
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
-| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3, v1.90.4-docking, v1.90.4, v1.90.5-docking, v1.90.5, v1.90.6-docking, v1.90.6, v1.90.7-docking, v1.90.7, v1.90.8-docking, v1.90.8, v1.90.9-docking, v1.90.9, v1.91.0-docking, v1.91.0 |
+| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3, v1.90.4-docking, v1.90.4, v1.90.5-docking, v1.90.5, v1.90.6-docking, v1.90.6, v1.90.7-docking, v1.90.7, v1.90.8-docking, v1.90.8, v1.90.9-docking, v1.90.9, v1.91.0-docking, v1.91.0, v1.91.1-docking, v1.91.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -25204,7 +25228,7 @@ add_requires("qhull")
 | -- | -- |
 | Homepage | [https://github.com/stdware/qmsetup](https://github.com/stdware/qmsetup) |
 | License | MIT |
-| Versions | 2024.04.23 |
+| Versions | 2024.09.02 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qmsetup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qmsetup/xmake.lua) |
 
@@ -28635,7 +28659,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29434,6 +29458,30 @@ xrepo install symengine
 
 ```lua
 add_requires("symengine")
+```
+
+
+### syscmdline (linux)
+
+
+| Description | *C++ Advanced Command Line Parser* |
+| -- | -- |
+| Homepage | [https://github.com/SineStriker/syscmdline](https://github.com/SineStriker/syscmdline) |
+| License | MIT |
+| Versions | 2024.03.27 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [syscmdline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/syscmdline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install syscmdline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("syscmdline")
 ```
 
 
@@ -32546,7 +32594,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a27e2ae640 |
+| License | table: 0x55f6b649d630 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -6108,7 +6108,7 @@ add_requires("imcoolbar")
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
-| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3, v1.90.4-docking, v1.90.4, v1.90.5-docking, v1.90.5, v1.90.6-docking, v1.90.6, v1.90.7-docking, v1.90.7, v1.90.8-docking, v1.90.8, v1.90.9-docking, v1.90.9, v1.91.0-docking, v1.91.0 |
+| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3, v1.90.4-docking, v1.90.4, v1.90.5-docking, v1.90.5, v1.90.6-docking, v1.90.6, v1.90.7-docking, v1.90.7, v1.90.8-docking, v1.90.8, v1.90.9-docking, v1.90.9, v1.91.0-docking, v1.91.0, v1.91.1-docking, v1.91.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -13073,7 +13073,7 @@ add_requires("qcbor")
 | -- | -- |
 | Homepage | [https://github.com/stdware/qmsetup](https://github.com/stdware/qmsetup) |
 | License | MIT |
-| Versions | 2024.04.23 |
+| Versions | 2024.09.02 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [qmsetup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qmsetup/xmake.lua) |
 
@@ -15007,7 +15007,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -15474,6 +15474,30 @@ xrepo install -p android [--ndk=/xxx] swig
 
 ```lua
 add_requires("swig")
+```
+
+
+### syscmdline (android)
+
+
+| Description | *C++ Advanced Command Line Parser* |
+| -- | -- |
+| Homepage | [https://github.com/SineStriker/syscmdline](https://github.com/SineStriker/syscmdline) |
+| License | MIT |
+| Versions | 2024.03.27 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [syscmdline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/syscmdline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] syscmdline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("syscmdline")
 ```
 
 
