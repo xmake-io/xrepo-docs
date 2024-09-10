@@ -1063,7 +1063,7 @@ add_requires("avir")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
-| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25 |
+| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
@@ -15118,7 +15118,7 @@ add_requires("luajit")
 | -- | -- |
 | Homepage | [https://www.luau.org/](https://www.luau.org/) |
 | License | MIT |
-| Versions | 0.538, 0.623, 0.624, 0.638, 0.640 |
+| Versions | 0.538, 0.623, 0.624, 0.638, 0.640, 0.642 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
 
@@ -16955,7 +16955,7 @@ add_requires("mongo-cxx-driver")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11, 7.13, 7.14 |
+| Versions | 7.11, 7.13, 7.14, 7.15 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
@@ -18955,7 +18955,7 @@ add_requires("opencv")
 | -- | -- |
 | Homepage | [https://github.com/nihui/opencv-mobile](https://github.com/nihui/opencv-mobile) |
 | License | Apache-2.0 |
-| Versions | 4.10.0 |
+| Versions | 3.4.20, 4.10.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [opencv-mobile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv-mobile/xmake.lua) |
 
@@ -24582,7 +24582,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27803,7 +27803,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292 |
+| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 

@@ -9231,7 +9231,7 @@ add_requires("luajit")
 | -- | -- |
 | Homepage | [https://www.luau.org/](https://www.luau.org/) |
 | License | MIT |
-| Versions | 0.538, 0.623, 0.624, 0.638, 0.640 |
+| Versions | 0.538, 0.623, 0.624, 0.638, 0.640, 0.642 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
 
@@ -10377,7 +10377,7 @@ add_requires("mnn")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11, 7.13, 7.14 |
+| Versions | 7.11, 7.13, 7.14, 7.15 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
@@ -15007,7 +15007,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
