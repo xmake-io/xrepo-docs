@@ -9182,7 +9182,7 @@ add_requires("gnu-rm")
 
 | Description | *The Go Programming Language* |
 | -- | -- |
-| Homepage | [https://golang.org/](https://golang.org/) |
+| Homepage | [https://go.dev](https://go.dev) |
 | License | BSD-3-Clause |
 | Versions | 1.17.6, 1.22.2, 1.22.4, 1.22.6, 1.22.7, 1.23.0, 1.23.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
@@ -24606,7 +24606,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29477,7 +29477,7 @@ add_requires("zfp")
 
 | Description | *Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.* |
 | -- | -- |
-| Homepage | [https://www.ziglang.org/](https://www.ziglang.org/) |
+| Homepage | [https://ziglang.org](https://ziglang.org) |
 | Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
