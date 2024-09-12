@@ -4046,6 +4046,30 @@ add_requires("fakeit")
 ```
 
 
+### faker-cxx (wasm)
+
+
+| Description | *C++ Faker library for generating fake (but realistic) data.* |
+| -- | -- |
+| Homepage | [https://cieslarmichal.github.io/faker-cxx/](https://cieslarmichal.github.io/faker-cxx/) |
+| License | MIT |
+| Versions | v2.0.0, v3.0.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [faker-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faker-cxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm faker-cxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("faker-cxx")
+```
+
+
 ### fast-cdr (wasm)
 
 
@@ -5526,6 +5550,30 @@ xrepo install -p wasm inipp
 
 ```lua
 add_requires("inipp")
+```
+
+
+### inja (wasm)
+
+
+| Description | *A Template Engine for Modern C++* |
+| -- | -- |
+| Homepage | [https://pantor.github.io/inja/](https://pantor.github.io/inja/) |
+| License | MIT |
+| Versions | v2.1.0, v3.4.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [inja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inja/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm inja
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("inja")
 ```
 
 
@@ -11545,6 +11593,30 @@ add_requires("recastnavigation")
 ```
 
 
+### reflect-cpp (wasm)
+
+
+| Description | *A C++20 library for fast serialization, deserialization and validation using reflection. Supports JSON, BSON, CBOR, flexbuffers, msgpack, TOML, XML, YAML / msgpack.org[C++20]* |
+| -- | -- |
+| Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
+| License | MIT |
+| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm reflect-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reflect-cpp")
+```
+
+
 ### reproc (wasm)
 
 
@@ -12625,7 +12697,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
