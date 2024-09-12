@@ -964,7 +964,7 @@ add_requires("aws-c-sdkutils")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
-| Versions | v0.1.17, v0.1.18 |
+| Versions | v0.1.17, v0.1.18, v0.1.19 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
@@ -8493,7 +8493,7 @@ add_requires("loguru")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/ls-hpack](https://github.com/litespeedtech/ls-hpack) |
 | License | MIT |
-| Versions | v2.3.3 |
+| Versions | v2.3.3, v2.3.4 |
 | Architectures | i386, x86_64 |
 | Definition | [ls-hpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-hpack/xmake.lua) |
 
@@ -13451,6 +13451,30 @@ add_requires("soloud")
 ```
 
 
+### sophus (msys)
+
+
+| Description | *C++ implementation of Lie Groups using Eigen.* |
+| -- | -- |
+| Homepage | [https://strasdat.github.io/Sophus/](https://strasdat.github.io/Sophus/) |
+| License | MIT |
+| Versions | 1.22.10, 1.24.6 |
+| Architectures | i386, x86_64 |
+| Definition | [sophus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sophus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sophus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sophus")
+```
+
+
 ### soundtouch (msys)
 
 
@@ -13626,7 +13650,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
