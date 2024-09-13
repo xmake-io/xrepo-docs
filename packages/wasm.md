@@ -8653,6 +8653,30 @@ add_requires("mikktspace")
 ```
 
 
+### mimalloc (wasm)
+
+
+| Description | *mimalloc (pronounced 'me-malloc') is a general purpose allocator with excellent performance characteristics.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
+| License | MIT |
+| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7 |
+| Architectures | wasm32, wasm64 |
+| Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm mimalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mimalloc")
+```
+
+
 ### mini (wasm)
 
 
@@ -12721,7 +12745,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
