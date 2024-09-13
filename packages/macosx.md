@@ -15485,6 +15485,30 @@ add_requires("libvorbis")
 ```
 
 
+### libvpx (macosx)
+
+
+| Description | *libvpx is a free software video codec library from Google and the Alliance for Open Media (AOMedia)* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/webm/libvpx/](https://chromium.googlesource.com/webm/libvpx/) |
+| License | BSD-3-Clause |
+| Versions | v1.14.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [libvpx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvpx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libvpx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libvpx")
+```
+
+
 ### libwebm (macosx)
 
 
@@ -26594,7 +26618,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30268,7 +30292,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55fc716d71a0 |
+| License | table: 0x5596a9fb8e70 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
