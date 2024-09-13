@@ -458,6 +458,30 @@ add_requires("aqt")
 ```
 
 
+### aravis (macosx)
+
+
+| Description | *A vision library for genicam based cameras* |
+| -- | -- |
+| Homepage | [https://github.com/AravisProject/aravis](https://github.com/AravisProject/aravis) |
+| License | LGPL-2.1 |
+| Versions | 0.8.33 |
+| Architectures | x86_64 |
+| Definition | [aravis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aravis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aravis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aravis")
+```
+
+
 ### arduinojson (macosx)
 
 
@@ -3721,6 +3745,30 @@ xrepo install cmocka
 
 ```lua
 add_requires("cmocka")
+```
+
+
+### cnats (macosx)
+
+
+| Description | *A C client for NATS* |
+| -- | -- |
+| Homepage | [https://github.com/nats-io/nats.c](https://github.com/nats-io/nats.c) |
+| License | Apache-2.0 |
+| Versions | v3.8.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [cnats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnats/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cnats
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cnats")
 ```
 
 
@@ -7343,7 +7391,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -26546,7 +26594,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30220,7 +30268,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55caf3db83a0 |
+| License | table: 0x564e00344e20 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
