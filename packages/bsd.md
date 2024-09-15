@@ -5049,6 +5049,30 @@ add_requires("fdk-aac")
 ```
 
 
+### flann (bsd)
+
+
+| Description | *Fast Library for Approximate Nearest Neighbors* |
+| -- | -- |
+| Homepage | [https://github.com/flann-lib/flann/](https://github.com/flann-lib/flann/) |
+| License | BSD-3-Clause |
+| Versions | 1.9.1, 1.9.2 |
+| Architectures | i386, x86_64 |
+| Definition | [flann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flann/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flann
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flann")
+```
+
+
 ### flecs (bsd)
 
 
@@ -5343,7 +5367,7 @@ add_requires("function2")
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
 | License | BSL-1.0 |
-| Versions | v0.2.22, v0.2.23, v0.2.24 |
+| Versions | v0.2.22, v0.2.23, v0.2.24, v0.2.25 |
 | Architectures | i386, x86_64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
@@ -15284,7 +15308,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -15641,7 +15665,7 @@ add_requires("stringbuilder")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6 |
 | Architectures | i386, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
