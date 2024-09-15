@@ -24678,7 +24678,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26004,6 +26004,30 @@ xrepo install tiltedcore
 
 ```lua
 add_requires("tiltedcore")
+```
+
+
+### tiny-aes-c (windows)
+
+
+| Description | *Small portable AES128/192/256 in C* |
+| -- | -- |
+| Homepage | [https://github.com/kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c) |
+| License | Unlicense |
+| Versions | 2021.12.22 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [tiny-aes-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiny-aes-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tiny-aes-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tiny-aes-c")
 ```
 
 
