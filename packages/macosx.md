@@ -21494,7 +21494,7 @@ add_requires("osmanip")
 | -- | -- |
 | Homepage | [https://osqp.org/](https://osqp.org/) |
 | License | Apache-2.0 |
-| Versions | v0.6.2 |
+| Versions | v0.6.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [osqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osqp/xmake.lua) |
 
@@ -23416,6 +23416,30 @@ xrepo install qcbor
 
 ```lua
 add_requires("qcbor")
+```
+
+
+### qdldl (macosx)
+
+
+| Description | *A free LDL factorisation routine* |
+| -- | -- |
+| Homepage | [https://github.com/osqp/qdldl](https://github.com/osqp/qdldl) |
+| License | Apache-2.0 |
+| Versions | v0.1.7 |
+| Architectures | arm64, x86_64 |
+| Definition | [qdldl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qdldl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qdldl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qdldl")
 ```
 
 
@@ -26618,7 +26642,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30292,7 +30316,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5593db8ecb60 |
+| License | table: 0x560b79606980 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
