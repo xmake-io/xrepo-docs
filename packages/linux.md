@@ -12205,6 +12205,30 @@ add_requires("jpcre2")
 ```
 
 
+### jrtplib (linux)
+
+
+| Description | *JRTPLIB is an object-oriented RTP library written in C++* |
+| -- | -- |
+| Homepage | [https://research.edm.uhasselt.be/jori/page/CS/Jrtplib.html](https://research.edm.uhasselt.be/jori/page/CS/Jrtplib.html) |
+| License | MIT |
+| Versions | 2023.11.23 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [jrtplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jrtplib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jrtplib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jrtplib")
+```
+
+
 ### jsbsim (linux)
 
 
@@ -20648,6 +20672,30 @@ add_requires("mumps")
 ```
 
 
+### munkres-algorithm (linux)
+
+
+| Description | *Modern C++ implementation of Munkres (Hungarian) algorithm* |
+| -- | -- |
+| Homepage | [https://github.com/aaron-michaux/munkres-algorithm](https://github.com/aaron-michaux/munkres-algorithm) |
+| License | MIT |
+| Versions | 2021.04.05 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [munkres-algorithm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/munkres-algorithm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install munkres-algorithm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("munkres-algorithm")
+```
+
+
 ### muslcc (linux)
 
 
@@ -28827,7 +28875,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32809,7 +32857,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x561e85270fa0 |
+| License | table: 0x55eecf374f30 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
