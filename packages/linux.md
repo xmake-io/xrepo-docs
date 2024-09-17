@@ -2391,6 +2391,29 @@ add_requires("box2d")
 ```
 
 
+### bqlog (linux)
+
+
+| Description | *Maybe the world's fastest logging library, originating from the client of the top mobile game Honor of Kings, is lightweight, works on PC, mobile, and servers, supports C#, Java, and C++, and is well adapted to Unity and Unreal engines.* |
+| -- | -- |
+| Homepage | [https://github.com/Tencent/BqLog](https://github.com/Tencent/BqLog) |
+| Versions | 1.4.4 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [bqlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bqlog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bqlog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bqlog")
+```
+
+
 ### branchless-utf8 (linux)
 
 
@@ -4058,6 +4081,30 @@ add_requires("cnpy")
 ```
 
 
+### coin-or-asl (linux)
+
+
+| Description | *The Advanced Linux Sound Architecture (ALSA) provides audio and MIDI functionality to the Linux operating system.* |
+| -- | -- |
+| Homepage | [https://github.com/coin-or-tools/ThirdParty-ASL/](https://github.com/coin-or-tools/ThirdParty-ASL/) |
+| License | EPL-1.0 |
+| Versions | 2.0.1 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [coin-or-asl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coin-or-asl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install coin-or-asl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("coin-or-asl")
+```
+
+
 ### collada-dom (linux)
 
 
@@ -5589,7 +5636,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
@@ -21724,7 +21771,7 @@ add_requires("node-addon-api")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-api-headers](https://github.com/nodejs/node-api-headers) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0 |
+| Versions | v1.1.0, v1.2.0, v1.3.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [node-api-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-api-headers/xmake.lua) |
 
@@ -25231,7 +25278,7 @@ add_requires("pupnp")
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2, v2.10.0, v2.12.0, v2.13.1, v2.13.5 |
+| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2, v2.10.0, v2.12.0, v2.13.1, v2.13.5, v2.13.6 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
@@ -28899,7 +28946,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32881,7 +32928,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e159837b20 |
+| License | table: 0x55bd1ccea0b0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

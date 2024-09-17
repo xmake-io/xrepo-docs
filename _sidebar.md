@@ -1,7 +1,7 @@
 - Getting Started
   - [Sponsor](https://xmake.io/#/about/sponsor)
   - [Quick Start](getting_started.md)
-- Packages (1498)
+- Packages (1500)
   - [android](packages/android.md)
   - [bsd](packages/bsd.md)
   - [cross](packages/cross.md)
