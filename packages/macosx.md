@@ -5611,6 +5611,30 @@ add_requires("dcmtk")
 ```
 
 
+### debug-hpp (macosx)
+
+
+| Description | *printing everything including STL containers without pain* |
+| -- | -- |
+| Homepage | [https://github.com/archibate/debug-hpp](https://github.com/archibate/debug-hpp) |
+| License | Unlicense |
+| Versions | 2024.09.06 |
+| Architectures | arm64, x86_64 |
+| Definition | [debug-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/debug-hpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install debug-hpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("debug-hpp")
+```
+
+
 ### debug_assert (macosx)
 
 
@@ -26763,7 +26787,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29268,7 +29292,7 @@ add_requires("unzip")
 | -- | -- |
 | Homepage | [https://wiki.ros.org/urdf](https://wiki.ros.org/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.4, 4.0.0 |
+| Versions | 1.0.4, 4.0.0, 4.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [urdfdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua) |
 
@@ -30461,7 +30485,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c9988d5200 |
+| License | table: 0x559c9dffa2b0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
