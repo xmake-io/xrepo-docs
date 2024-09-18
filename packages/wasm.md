@@ -3012,6 +3012,30 @@ add_requires("cxxopts")
 
 
 ## d
+### dataframe (wasm)
+
+
+| Description | *This is a C++ analytical library that provides interface and functionality similar to packages/libraries in Python and R.* |
+| -- | -- |
+| Homepage | [https://github.com/hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) |
+| License | MIT |
+| Versions | 1.21.0, 1.22.0, 3.0.0, 3.1.0, 3.2.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm dataframe
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dataframe")
+```
+
+
 ### datatype99 (wasm)
 
 
@@ -12864,7 +12888,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
