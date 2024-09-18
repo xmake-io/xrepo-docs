@@ -2990,7 +2990,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0</td>
+<td>v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -5639,6 +5639,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("cubeb")
+</code></pre>
+<h3 id="cudamingw">cuda (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>CUDA® is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs).</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://developer.nvidia.com/cuda-zone/">https://developer.nvidia.com/cuda-zone/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda/xmake.lua">cuda/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] cuda
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("cuda")
 </code></pre>
 <h3 id="cudasamplesmingw">cuda-samples (mingw)</h3>
 <table>
@@ -9172,6 +9205,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("gflags")
 </code></pre>
+<h3 id="gfortranmingw">gfortran (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The GNU Fortran compiler</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://gcc.gnu.org/fortran/">https://gcc.gnu.org/fortran/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gfortran/xmake.lua">gfortran/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] gfortran
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gfortran")
+</code></pre>
 <h3 id="ghc_filesystemmingw">ghc_filesystem (mingw)</h3>
 <table>
 <thead>
@@ -9714,6 +9780,105 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("glslang")
+</code></pre>
+<h3 id="glumingw">glu (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>OpenGL utility library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://gitlab.freedesktop.org/mesa/glu">https://gitlab.freedesktop.org/mesa/glu</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glu/xmake.lua">glu/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] glu
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glu")
+</code></pre>
+<h3 id="glutmingw">glut (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>OpenGL utility toolkit</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.opengl.org/resources/libraries/glut/">https://www.opengl.org/resources/libraries/glut/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glut/xmake.lua">glut/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] glut
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glut")
+</code></pre>
+<h3 id="glxmingw">glx (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>an extension to the X Window System core protocol providing an interface between OpenGL and the X Window System</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glXIntro.xml">https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glXIntro.xml</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glx/xmake.lua">glx/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] glx
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glx")
 </code></pre>
 <h3 id="gmmmingw">gmm (mingw)</h3>
 <table>
@@ -10579,6 +10744,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("hopscotch-map")
+</code></pre>
+<h3 id="houdinimingw">houdini (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Houdini is built from the ground up to be a procedural system that empowers artists to work freely, create multiple iterations and rapidly share workflows with colleagues.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.sidefx.com/">https://www.sidefx.com/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/h/houdini/xmake.lua">houdini/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] houdini
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("houdini")
 </code></pre>
 <h3 id="http_parsermingw">http_parser (mingw)</h3>
 <table>
@@ -12866,6 +13064,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libbigwig")
+</code></pre>
+<h3 id="libcmingw">libc++ (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>libc++ is a new implementation of the C++ standard library, targeting C++11 and above.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://libcxx.llvm.org/">https://libcxx.llvm.org/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libc++/xmake.lua">libc++/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] libc++
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libc++")
 </code></pre>
 <h3 id="libcbormingw">libcbor (mingw)</h3>
 <table>
@@ -16945,6 +17176,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("mathter")
 </code></pre>
+<h3 id="matlabmingw">matlab (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Build MEX function or engine application in matlab</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.mathworks.com/help/matlab/ref/mex.html">https://www.mathworks.com/help/matlab/ref/mex.html</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matlab/xmake.lua">matlab/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] matlab
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("matlab")
+</code></pre>
 <h3 id="mbedtlsmingw">mbedtls (mingw)</h3>
 <table>
 <thead>
@@ -19669,6 +19933,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("nuklear")
 </code></pre>
+<h3 id="nvtxmingw">nvtx (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A C-based Application Programming Interface (API) for annotating events, code ranges, and resources in your applications.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/NVIDIA/NVTX">https://github.com/NVIDIA/NVTX</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nvtx/xmake.lua">nvtx/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] nvtx
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("nvtx")
+</code></pre>
 <h2 id="o">o</h2>
 <h3 id="obfuscatemingw">obfuscate (mingw)</h3>
 <table>
@@ -19999,6 +20296,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("openfbx")
 </code></pre>
+<h3 id="openglmingw">opengl (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>OpenGL - The Industry Standard for High Performance Graphics</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://opengl.org/">https://opengl.org/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opengl/xmake.lua">opengl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] opengl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("opengl")
+</code></pre>
 <h3 id="openglheadersmingw">opengl-headers (mingw)</h3>
 <table>
 <thead>
@@ -20220,6 +20550,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("optional-lite")
+</code></pre>
+<h3 id="optixmingw">optix (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>NVIDIA OPTIX™ RAY TRACING ENGINE</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://developer.nvidia.com/optix">https://developer.nvidia.com/optix</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/optix/xmake.lua">optix/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] optix
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("optix")
 </code></pre>
 <h3 id="orangeduck_mpcmingw">orangeduck_mpc (mingw)</h3>
 <table>
@@ -22006,6 +22369,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("poselib")
+</code></pre>
+<h3 id="postgresqlmingw">postgresql (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>PostgreSQL Database Management System</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.postgresql.org/">https://www.postgresql.org/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/postgresql/xmake.lua">postgresql/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] postgresql
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("postgresql")
 </code></pre>
 <h3 id="pprintmingw">pprint (mingw)</h3>
 <table>
@@ -26369,7 +26765,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30177,6 +30573,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("vulkan-utility-libraries")
+</code></pre>
+<h3 id="vulkansdkmingw">vulkansdk (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>LunarG Vulkan® SDK</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.lunarg.com/vulkan-sdk/">https://www.lunarg.com/vulkan-sdk/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkansdk/xmake.lua">vulkansdk/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] vulkansdk
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("vulkansdk")
 </code></pre>
 <h3 id="vvencmingw">vvenc (mingw)</h3>
 <table>

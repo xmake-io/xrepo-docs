@@ -1605,7 +1605,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -3146,6 +3146,29 @@ xrepo install -p iphoneos ctrl-c
 
 ```lua
 add_requires("ctrl-c")
+```
+
+
+### cuda (iphoneos)
+
+
+| Description | *CUDA® is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs).* |
+| -- | -- |
+| Homepage | [https://developer.nvidia.com/cuda-zone/](https://developer.nvidia.com/cuda-zone/) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [cuda/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos cuda
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cuda")
 ```
 
 
@@ -5120,6 +5143,29 @@ add_requires("gflags")
 ```
 
 
+### gfortran (iphoneos)
+
+
+| Description | *The GNU Fortran compiler* |
+| -- | -- |
+| Homepage | [https://gcc.gnu.org/fortran/](https://gcc.gnu.org/fortran/) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [gfortran/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gfortran/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos gfortran
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gfortran")
+```
+
+
 ### ghc_filesystem (iphoneos)
 
 
@@ -5331,6 +5377,75 @@ xrepo install -p iphoneos glslang
 
 ```lua
 add_requires("glslang")
+```
+
+
+### glu (iphoneos)
+
+
+| Description | *OpenGL utility library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/mesa/glu](https://gitlab.freedesktop.org/mesa/glu) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [glu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos glu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glu")
+```
+
+
+### glut (iphoneos)
+
+
+| Description | *OpenGL utility toolkit* |
+| -- | -- |
+| Homepage | [https://www.opengl.org/resources/libraries/glut/](https://www.opengl.org/resources/libraries/glut/) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [glut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glut/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos glut
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glut")
+```
+
+
+### glx (iphoneos)
+
+
+| Description | *an extension to the X Window System core protocol providing an interface between OpenGL and the X Window System* |
+| -- | -- |
+| Homepage | [https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glXIntro.xml](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glXIntro.xml) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [glx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos glx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glx")
 ```
 
 
@@ -5952,6 +6067,29 @@ xrepo install -p iphoneos hopscotch-map
 
 ```lua
 add_requires("hopscotch-map")
+```
+
+
+### houdini (iphoneos)
+
+
+| Description | *Houdini is built from the ground up to be a procedural system that empowers artists to work freely, create multiple iterations and rapidly share workflows with colleagues.* |
+| -- | -- |
+| Homepage | [https://www.sidefx.com/](https://www.sidefx.com/) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [houdini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/houdini/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos houdini
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("houdini")
 ```
 
 
@@ -7126,6 +7264,29 @@ xrepo install -p iphoneos libbigwig
 
 ```lua
 add_requires("libbigwig")
+```
+
+
+### libc++ (iphoneos)
+
+
+| Description | *libc++ is a new implementation of the C++ standard library, targeting C++11 and above.* |
+| -- | -- |
+| Homepage | [https://libcxx.llvm.org/](https://libcxx.llvm.org/) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [libc++/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libc++/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libc++
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libc++")
 ```
 
 
@@ -9654,6 +9815,29 @@ add_requires("matio")
 ```
 
 
+### matlab (iphoneos)
+
+
+| Description | *Build MEX function or engine application in matlab* |
+| -- | -- |
+| Homepage | [https://www.mathworks.com/help/matlab/ref/mex.html](https://www.mathworks.com/help/matlab/ref/mex.html) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [matlab/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matlab/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos matlab
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("matlab")
+```
+
+
 ### mbedtls (iphoneos)
 
 
@@ -11128,6 +11312,29 @@ add_requires("nuklear")
 ```
 
 
+### nvtx (iphoneos)
+
+
+| Description | *A C-based Application Programming Interface (API) for annotating events, code ranges, and resources in your applications.* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/NVTX](https://github.com/NVIDIA/NVTX) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [nvtx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nvtx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos nvtx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nvtx")
+```
+
+
 
 ## o
 ### obfuscate (iphoneos)
@@ -11345,6 +11552,29 @@ add_requires("openfbx")
 ```
 
 
+### opengl (iphoneos)
+
+
+| Description | *OpenGL - The Industry Standard for High Performance Graphics* |
+| -- | -- |
+| Homepage | [https://opengl.org/](https://opengl.org/) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [opengl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opengl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos opengl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opengl")
+```
+
+
 ### opengl-headers (iphoneos)
 
 
@@ -11413,6 +11643,29 @@ xrepo install -p iphoneos optional-lite
 
 ```lua
 add_requires("optional-lite")
+```
+
+
+### optix (iphoneos)
+
+
+| Description | *NVIDIA OPTIX™ RAY TRACING ENGINE* |
+| -- | -- |
+| Homepage | [https://developer.nvidia.com/optix](https://developer.nvidia.com/optix) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [optix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/optix/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos optix
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("optix")
 ```
 
 
@@ -12419,6 +12672,29 @@ xrepo install -p iphoneos poselib
 
 ```lua
 add_requires("poselib")
+```
+
+
+### postgresql (iphoneos)
+
+
+| Description | *PostgreSQL Database Management System* |
+| -- | -- |
+| Homepage | [https://www.postgresql.org/](https://www.postgresql.org/) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [postgresql/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/postgresql/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos postgresql
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("postgresql")
 ```
 
 
@@ -14742,7 +15018,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -16886,6 +17162,29 @@ xrepo install -p iphoneos vulkan-memory-allocator-hpp
 
 ```lua
 add_requires("vulkan-memory-allocator-hpp")
+```
+
+
+### vulkansdk (iphoneos)
+
+
+| Description | *LunarG Vulkan® SDK* |
+| -- | -- |
+| Homepage | [https://www.lunarg.com/vulkan-sdk/](https://www.lunarg.com/vulkan-sdk/) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [vulkansdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkansdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos vulkansdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkansdk")
 ```
 
 
