@@ -13937,6 +13937,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("littlefs")
 </code></pre>
+<h3 id="llamacppandroid">llama.cpp (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Port of Facebook&#39;s LLaMA model in C/C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/ggerganov/llama.cpp">https://github.com/ggerganov/llama.cpp</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3775</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llama.cpp/xmake.lua">llama.cpp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] llama.cpp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("llama.cpp")
+</code></pre>
 <h3 id="llfioandroid">llfio (android)</h3>
 <table>
 <thead>
@@ -23371,7 +23408,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
