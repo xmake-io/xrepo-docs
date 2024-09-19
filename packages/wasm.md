@@ -7723,6 +7723,30 @@ add_requires("libxlsxwriter")
 ```
 
 
+### libxml2 (wasm)
+
+
+| Description | *The XML C parser and toolkit of Gnome.* |
+| -- | -- |
+| Homepage | [http://xmlsoft.org/](http://xmlsoft.org/) |
+| License | MIT |
+| Versions | v2.11.9, v2.12.9, v2.13.2, v2.13.4 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxml2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libxml2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxml2")
+```
+
+
 ### libyuv (wasm)
 
 
@@ -13260,7 +13284,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
