@@ -1327,7 +1327,7 @@ add_requires("aws-c-sdkutils")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
-| Versions | v0.1.17, v0.1.18, v0.1.19 |
+| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
@@ -5897,6 +5897,30 @@ xrepo install directxtk
 
 ```lua
 add_requires("directxtk")
+```
+
+
+### directxtk12 (windows)
+
+
+| Description | *A collection of helper classes for writing DirectX 12 code in C++* |
+| -- | -- |
+| Homepage | [https://github.com/Microsoft/DirectXTK12](https://github.com/Microsoft/DirectXTK12) |
+| License | MIT |
+| Versions | 2024.06, 2024.09 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [directxtk12/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directxtk12/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install directxtk12
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("directxtk12")
 ```
 
 
@@ -25121,7 +25145,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
