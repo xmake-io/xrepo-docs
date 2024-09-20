@@ -27087,7 +27087,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29609,6 +29609,30 @@ add_requires("unzip")
 ```
 
 
+### upa-url (macosx)
+
+
+| Description | *An implementation of the WHATWG URL Standard in C++* |
+| -- | -- |
+| Homepage | [https://upa-url.github.io/docs/](https://upa-url.github.io/docs/) |
+| License | BSD-2-Clause |
+| Versions | v1.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [upa-url/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/upa-url/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install upa-url
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("upa-url")
+```
+
+
 ### urdfdom (macosx)
 
 
@@ -30832,7 +30856,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e02dcd3890 |
+| License | table: 0x5562bba9fca0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
