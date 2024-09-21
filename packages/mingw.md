@@ -14670,7 +14670,7 @@ add_requires("polyclipping")
 | Description | *PortAudio is a cross-platform, open-source C language library for real-time audio input and output.* |
 | -- | -- |
 | Homepage | [http://www.portaudio.com](http://www.portaudio.com) |
-| Versions | 2023.08.05 |
+| Versions | 2023.08.05, 2024.08.25 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [portaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/portaudio/xmake.lua) |
 
@@ -17602,7 +17602,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
