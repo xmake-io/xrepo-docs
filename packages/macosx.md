@@ -16710,7 +16710,7 @@ add_requires("lightningscanner")
 | -- | -- |
 | Homepage | [https://github.com/yanyiwu/limonp](https://github.com/yanyiwu/limonp) |
 | License | MIT |
-| Versions | v0.9.0 |
+| Versions | v0.9.0, v1.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [limonp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/limonp/xmake.lua) |
 
@@ -18157,7 +18157,7 @@ add_requires("md4c")
 | -- | -- |
 | Homepage | [https://github.com/igormironchik/md4qt](https://github.com/igormironchik/md4qt) |
 | License | MIT |
-| Versions | 2.1.0, 2.4.2, 2.8.0, 2.8.1 |
+| Versions | 2.1.0, 2.4.2, 2.8.0, 2.8.1, 3.0.0 |
 | Architectures | x86_64 |
 | Definition | [md4qt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/md4qt/xmake.lua) |
 
@@ -27088,7 +27088,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -30857,7 +30857,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563627069400 |
+| License | table: 0x55ede4107950 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
