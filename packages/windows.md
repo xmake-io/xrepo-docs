@@ -20611,6 +20611,30 @@ add_requires("pe-parse")
 ```
 
 
+### pedeps (windows)
+
+
+| Description | *Cross-platform C library to read data from PE/PE+ files (the format of Windows .exe and .dll files)* |
+| -- | -- |
+| Homepage | [https://github.com/brechtsanders/pedeps](https://github.com/brechtsanders/pedeps) |
+| License | MIT |
+| Versions | 0.1.15 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [pedeps/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pedeps/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pedeps
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pedeps")
+```
+
+
 ### pegtl (windows)
 
 
@@ -25169,7 +25193,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
