@@ -14880,7 +14880,7 @@ add_requires("libzen")
 | -- | -- |
 | Homepage | [https://libzip.org/](https://libzip.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.8.0, v1.9.2, v1.10.1 |
+| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
 
@@ -17297,6 +17297,30 @@ xrepo install mmeter
 
 ```lua
 add_requires("mmeter")
+```
+
+
+### mmloader (windows)
+
+
+| Description | *A library for loading dll module bypassing windows PE loader from memory (x86/x64)* |
+| -- | -- |
+| Homepage | [http://tishion.github.io/mmLoader/](http://tishion.github.io/mmLoader/) |
+| License | MIT |
+| Versions | 2024.03.20 |
+| Architectures | x64, x86 |
+| Definition | [mmloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mmloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mmloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mmloader")
 ```
 
 
@@ -25216,7 +25240,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
