@@ -6263,7 +6263,7 @@ add_requires("doxygen")
 | -- | -- |
 | Homepage | [https://github.com/brainboxdotcc/DPP](https://github.com/brainboxdotcc/DPP) |
 | License | Apache-2.0 |
-| Versions | v10.0.8, v10.0.10, v10.0.11, v10.0.12, v10.0.13, v10.0.14, v10.0.15, v10.0.16, v10.0.17, v10.0.18, v10.0.19, v10.0.20, v10.0.21, v10.0.22, v10.0.23, v10.0.24, v10.0.25, v10.0.26, v10.0.27, v10.0.28, v10.0.29, v10.0.30 |
+| Versions | v10.0.8, v10.0.10, v10.0.11, v10.0.12, v10.0.13, v10.0.14, v10.0.15, v10.0.16, v10.0.17, v10.0.18, v10.0.19, v10.0.20, v10.0.21, v10.0.22, v10.0.23, v10.0.24, v10.0.25, v10.0.26, v10.0.27, v10.0.28, v10.0.29, v10.0.30, v10.0.31 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [dpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dpp/xmake.lua) |
 
@@ -11992,6 +11992,30 @@ xrepo install lame
 
 ```lua
 add_requires("lame")
+```
+
+
+### lazy_importer (windows)
+
+
+| Description | *library for importing functions from dlls in a hidden, reverse engineer unfriendly way* |
+| -- | -- |
+| Homepage | [https://github.com/JustasMasiulis/lazy_importer](https://github.com/JustasMasiulis/lazy_importer) |
+| License | Apache-2.0 |
+| Versions | 2023.08.02 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [lazy_importer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lazy_importer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lazy_importer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lazy_importer")
 ```
 
 
@@ -25264,7 +25288,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
