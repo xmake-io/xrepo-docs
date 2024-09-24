@@ -7818,6 +7818,30 @@ add_requires("libnpy")
 ```
 
 
+### libpeconv (msys)
+
+
+| Description | *A library to load, manipulate, dump PE files. See also: https://github.com/hasherezade/libpeconv_tpl* |
+| -- | -- |
+| Homepage | [https://hasherezade.github.io/libpeconv](https://hasherezade.github.io/libpeconv) |
+| License | BSD-2-Clause |
+| Versions | 2023.05.31, 2024.09.06 |
+| Architectures | i386, x86_64 |
+| Definition | [libpeconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpeconv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpeconv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpeconv")
+```
+
+
 ### libpng (msys)
 
 
@@ -14357,7 +14381,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
