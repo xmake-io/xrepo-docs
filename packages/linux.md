@@ -536,7 +536,7 @@ add_requires("aom")
 | -- | -- |
 | Homepage | [https://github.com/apache/apr](https://github.com/apache/apr) |
 | License | Apache-2.0 |
-| Versions | 1.7.0, 1.7.4 |
+| Versions | 1.7.0, 1.7.4, 1.7.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [apr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/apr/xmake.lua) |
 
@@ -1564,7 +1564,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -6807,7 +6807,7 @@ add_requires("drogon")
 | -- | -- |
 | Homepage | [http://duckdb.org/](http://duckdb.org/) |
 | License | MIT |
-| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0 |
+| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [duckdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duckdb/xmake.lua) |
 
@@ -9343,7 +9343,7 @@ add_requires("geographiclib")
 | -- | -- |
 | Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
 | License | LGPL-2.1 |
-| Versions | 3.9.1, 3.11.3, 3.12.1 |
+| Versions | 3.9.1, 3.11.3, 3.12.1, 3.13.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
 
@@ -29437,7 +29437,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33490,7 +33490,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ba6f7fe2e0 |
+| License | table: 0x55c73fff0f30 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
