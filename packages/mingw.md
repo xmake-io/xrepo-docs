@@ -17840,7 +17840,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20758,7 +20758,8 @@ add_requires("wyhash")
 | Description | *A free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format.* |
 | -- | -- |
 | Homepage | [https://www.videolan.org/developers/x264.html](https://www.videolan.org/developers/x264.html) |
-| Versions | v2018.09.25, v2021.09.29, v2023.04.04 |
+| License | GPL-2.0 |
+| Versions | v2018.09.25, v2021.09.29, v2023.04.04, v2024.02.27 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [x264/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x264/xmake.lua) |
 
