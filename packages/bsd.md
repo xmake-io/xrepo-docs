@@ -2674,6 +2674,30 @@ add_requires("cmidi2")
 ```
 
 
+### cnl (bsd)
+
+
+| Description | *A Compositional Numeric Library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/johnmcfarlane/cnl](https://github.com/johnmcfarlane/cnl) |
+| License | BSL-1.0 |
+| Versions | 2023.12.23 |
+| Architectures | i386, x86_64 |
+| Definition | [cnl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cnl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cnl")
+```
+
+
 ### cnpy (bsd)
 
 
@@ -5357,6 +5381,30 @@ add_requires("fmt")
 ```
 
 
+### fpm (bsd)
+
+
+| Description | *C++ header-only fixed-point math library* |
+| -- | -- |
+| Homepage | [https://mikelankamp.github.io/fpm](https://mikelankamp.github.io/fpm) |
+| License | MIT |
+| Versions | 2024.09.06 |
+| Architectures | i386, x86_64 |
+| Definition | [fpm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fpm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fpm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fpm")
+```
+
+
 ### freetype (bsd)
 
 
@@ -8032,6 +8080,54 @@ xrepo install libfido2
 
 ```lua
 add_requires("libfido2")
+```
+
+
+### libfixmath (bsd)
+
+
+| Description | *Cross Platform Fixed Point Maths Library* |
+| -- | -- |
+| Homepage | [https://code.google.com/p/libfixmath/](https://code.google.com/p/libfixmath/) |
+| License | MIT |
+| Versions | 2023.08.06 |
+| Architectures | i386, x86_64 |
+| Definition | [libfixmath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfixmath/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfixmath
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfixmath")
+```
+
+
+### libfixmatrix (bsd)
+
+
+| Description | *C library for fixed point matrix, quaternion and vector calculations* |
+| -- | -- |
+| Homepage | [https://github.com/PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix) |
+| License | MIT |
+| Versions | 2014.01.17 |
+| Architectures | i386, x86_64 |
+| Definition | [libfixmatrix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfixmatrix/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libfixmatrix
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libfixmatrix")
 ```
 
 
@@ -15965,7 +16061,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

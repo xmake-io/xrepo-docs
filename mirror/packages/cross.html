@@ -3924,6 +3924,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("cnats")
 </code></pre>
+<h3 id="cnlcross">cnl (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A Compositional Numeric Library for C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/johnmcfarlane/cnl">https://github.com/johnmcfarlane/cnl</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.12.23</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnl/xmake.lua">cnl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] cnl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("cnl")
+</code></pre>
 <h3 id="cnpycross">cnpy (cross)</h3>
 <table>
 <thead>
@@ -8031,6 +8068,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("fmt")
 </code></pre>
+<h3 id="fpmcross">fpm (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C++ header-only fixed-point math library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://mikelankamp.github.io/fpm">https://mikelankamp.github.io/fpm</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.09.06</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fpm/xmake.lua">fpm/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] fpm
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("fpm")
+</code></pre>
 <h3 id="freetypecross">freetype (cross)</h3>
 <table>
 <thead>
@@ -11944,6 +12018,80 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libffi")
+</code></pre>
+<h3 id="libfixmathcross">libfixmath (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Cross Platform Fixed Point Maths Library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://code.google.com/p/libfixmath/">https://code.google.com/p/libfixmath/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.08.06</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfixmath/xmake.lua">libfixmath/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] libfixmath
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libfixmath")
+</code></pre>
+<h3 id="libfixmatrixcross">libfixmatrix (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C library for fixed point matrix, quaternion and vector calculations</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/PetteriAimonen/libfixmatrix">https://github.com/PetteriAimonen/libfixmatrix</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2014.01.17</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfixmatrix/xmake.lua">libfixmatrix/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] libfixmatrix
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libfixmatrix")
 </code></pre>
 <h3 id="libforkcross">libfork (cross)</h3>
 <table>
@@ -22959,7 +23107,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
