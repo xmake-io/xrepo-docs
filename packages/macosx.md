@@ -10298,7 +10298,7 @@ add_requires("hash-library")
 | -- | -- |
 | Homepage | [https://www.hdfgroup.org/solutions/hdf5/](https://www.hdfgroup.org/solutions/hdf5/) |
 | License | BSD-3-Clause |
-| Versions | 1.10.7, 1.12.0, 1.12.1, 1.12.2, 1.13.2, 1.13.3, 1.14.0 |
+| Versions | 1.10.7, 1.12.0, 1.12.1, 1.12.2, 1.13.2, 1.13.3, 1.14.0, 1.14.4-3 |
 | Architectures | arm64, x86_64 |
 | Definition | [hdf5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdf5/xmake.lua) |
 
@@ -19583,7 +19583,7 @@ add_requires("msdfgen")
 | -- | -- |
 | Homepage | [https://msgpack.org/](https://msgpack.org/) |
 | License | BSL-1.0 |
-| Versions | 4.0.0, 6.0.1, 6.0.2 |
+| Versions | 4.0.0, 6.0.1, 6.0.2, 6.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [msgpack-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-c/xmake.lua) |
 
@@ -23279,7 +23279,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1 |
+| Versions | v0.0.1, v0.0.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 
@@ -27326,7 +27326,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31095,7 +31095,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5596288b8d10 |
+| License | table: 0x5639a1fce290 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
