@@ -8447,7 +8447,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44 |
 | Architectures | i386, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -16085,7 +16085,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -18233,11 +18233,11 @@ add_requires("variant-lite")
 ### vcpkg (bsd)
 
 
-| Description | *Vcpkg helps you manage C and C++ libraries on Windows, Linux and MacOS.* |
+| Description | *C++ Library Manager for Windows, Linux, and MacOS* |
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23 |
 | Architectures | i386, x86_64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 
@@ -18561,6 +18561,30 @@ xrepo install which
 
 ```lua
 add_requires("which")
+```
+
+
+### wirehair (bsd)
+
+
+| Description | *Wirehair : O(N) Fountain Code for Large Data* |
+| -- | -- |
+| Homepage | [http://wirehairfec.com](http://wirehairfec.com) |
+| License | BSD-3-Clause |
+| Versions | 2023.12.02 |
+| Architectures | i386, x86_64 |
+| Definition | [wirehair/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wirehair/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wirehair
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wirehair")
 ```
 
 

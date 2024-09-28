@@ -12990,7 +12990,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43</td>
+<td>v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -24285,7 +24285,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27338,7 +27338,7 @@
 <thead>
 <tr>
 <th>Description</th>
-<th><em>Vcpkg helps you manage C and C++ libraries on Windows, Linux and MacOS.</em></th>
+<th><em>C++ Library Manager for Windows, Linux, and MacOS</em></th>
 </tr>
 </thead>
 <tbody>
@@ -27352,7 +27352,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2024.05.24, 2024.07.12</td>
+<td>2024.05.24, 2024.07.12, 2024.08.23</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -28053,6 +28053,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("whisper.cpp")
+</code></pre>
+<h3 id="wirehairandroid">wirehair (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Wirehair : O(N) Fountain Code for Large Data</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://wirehairfec.com">http://wirehairfec.com</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.12.02</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wirehair/xmake.lua">wirehair/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] wirehair
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("wirehair")
 </code></pre>
 <h3 id="wjakob_filesystemandroid">wjakob_filesystem (android)</h3>
 <table>
