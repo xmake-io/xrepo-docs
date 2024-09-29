@@ -22023,6 +22023,30 @@ add_requires("ngtcp2")
 ```
 
 
+### nifly (linux)
+
+
+| Description | *C++ NIF library for the Gamebryo/NetImmerse File Format* |
+| -- | -- |
+| Homepage | [https://github.com/ousnius/nifly](https://github.com/ousnius/nifly) |
+| License | GPL-3.0 |
+| Versions | 2024.09.28 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [nifly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nifly/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nifly
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nifly")
+```
+
+
 ### nifti (linux)
 
 
@@ -29628,7 +29652,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33681,7 +33705,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564e5641b930 |
+| License | table: 0x558c1dd4c7d0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -34919,7 +34943,7 @@ add_requires("zig")
 | -- | -- |
 | Homepage | [https://github.com/sekrit-twc/zimg](https://github.com/sekrit-twc/zimg) |
 | License | WTFPL |
-| Versions | 3.0.3 |
+| Versions | 3.0.3, 3.0.5 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zimg/xmake.lua) |
 
