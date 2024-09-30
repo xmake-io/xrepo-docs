@@ -5796,7 +5796,7 @@ add_requires("gklib")
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
 | License | MIT |
-| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2 |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0 |
 | Architectures | i386, x86_64 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
@@ -6293,7 +6293,7 @@ add_requires("gumbo-parser")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
-| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1 |
+| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2 |
 | Architectures | i386, x86_64 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
@@ -7468,7 +7468,7 @@ add_requires("khrplatform")
 | Description | *Efficient C++ implementation of the Cassowary constraint solving algorithm* |
 | -- | -- |
 | Homepage | [https://kiwisolver.readthedocs.io/en/latest/](https://kiwisolver.readthedocs.io/en/latest/) |
-| Versions | 1.3.1, 1.3.2, 1.4.4, 1.4.5, 1.4.6 |
+| Versions | 1.3.1, 1.3.2, 1.4.4, 1.4.5, 1.4.6, 1.4.7 |
 | Architectures | i386, x86_64 |
 | Definition | [kiwisolver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kiwisolver/xmake.lua) |
 
@@ -16182,7 +16182,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
