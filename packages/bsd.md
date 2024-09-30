@@ -6125,6 +6125,7 @@ add_requires("gnu-rm")
 | Description | *Perfect hash function generator.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gperf](https://www.gnu.org/software/gperf) |
+| License | GPL-3.0-or-later |
 | Versions | 3.1 |
 | Architectures | i386, x86_64 |
 | Definition | [gperf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gperf/xmake.lua) |
@@ -8179,6 +8180,30 @@ add_requires("libfswatch")
 ```
 
 
+### libhubbub (bsd)
+
+
+| Description | *Hubbub is an HTML5 compliant parsing library* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libhubbub](https://www.netsurf-browser.org/projects/libhubbub) |
+| License | MIT |
+| Versions | 0.3.8 |
+| Architectures | i386, x86_64 |
+| Definition | [libhubbub/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhubbub/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libhubbub
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libhubbub")
+```
+
+
 ### libiconv (bsd)
 
 
@@ -8437,6 +8462,30 @@ xrepo install libogg
 
 ```lua
 add_requires("libogg")
+```
+
+
+### libparserutils (bsd)
+
+
+| Description | *LibParserUtils is a library for building efficient parsers* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libparserutils](https://www.netsurf-browser.org/projects/libparserutils) |
+| License | MIT |
+| Versions | 0.2.5 |
+| Architectures | i386, x86_64 |
+| Definition | [libparserutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libparserutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libparserutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libparserutils")
 ```
 
 
@@ -16133,7 +16182,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

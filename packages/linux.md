@@ -10386,6 +10386,7 @@ add_requires("godotcpp4")
 | Description | *Perfect hash function generator.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gperf](https://www.gnu.org/software/gperf) |
+| License | GPL-3.0-or-later |
 | Versions | 3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gperf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gperf/xmake.lua) |
@@ -14961,6 +14962,30 @@ add_requires("libheif")
 ```
 
 
+### libhubbub (linux)
+
+
+| Description | *Hubbub is an HTML5 compliant parsing library* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libhubbub](https://www.netsurf-browser.org/projects/libhubbub) |
+| License | MIT |
+| Versions | 0.3.8 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libhubbub/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhubbub/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libhubbub
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libhubbub")
+```
+
+
 ### libhv (linux)
 
 
@@ -15832,6 +15857,30 @@ xrepo install libpaper
 
 ```lua
 add_requires("libpaper")
+```
+
+
+### libparserutils (linux)
+
+
+| Description | *LibParserUtils is a library for building efficient parsers* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libparserutils](https://www.netsurf-browser.org/projects/libparserutils) |
+| License | MIT |
+| Versions | 0.2.5 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libparserutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libparserutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libparserutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libparserutils")
 ```
 
 
@@ -29676,7 +29725,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33729,7 +33778,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x562c5eb1a1c0 |
+| License | table: 0x559154c47e50 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
