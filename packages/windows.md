@@ -12804,6 +12804,30 @@ add_requires("libdivsufsort")
 ```
 
 
+### libdom (windows)
+
+
+| Description | *LibDOM is an implementation of the W3C DOM* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libdom](https://www.netsurf-browser.org/projects/libdom) |
+| License | MIT |
+| Versions | 0.4.2 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [libdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdom")
+```
+
+
 ### libdwarf (windows)
 
 
@@ -14824,6 +14848,30 @@ xrepo install libvorbis
 
 ```lua
 add_requires("libvorbis")
+```
+
+
+### libwapcaplet (windows)
+
+
+| Description | *LibWapcaplet is a string internment library* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libwapcaplet](https://www.netsurf-browser.org/projects/libwapcaplet) |
+| License | MIT |
+| Versions | 0.4.3 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [libwapcaplet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwapcaplet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libwapcaplet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libwapcaplet")
 ```
 
 
@@ -25529,7 +25577,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

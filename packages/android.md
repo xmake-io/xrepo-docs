@@ -7819,6 +7819,30 @@ add_requires("libdivsufsort")
 ```
 
 
+### libdom (android)
+
+
+| Description | *LibDOM is an implementation of the W3C DOM* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libdom](https://www.netsurf-browser.org/projects/libdom) |
+| License | MIT |
+| Versions | 0.4.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libdom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdom")
+```
+
+
 ### libelf (android)
 
 
@@ -9176,6 +9200,30 @@ xrepo install -p android [--ndk=/xxx] libvorbis
 
 ```lua
 add_requires("libvorbis")
+```
+
+
+### libwapcaplet (android)
+
+
+| Description | *LibWapcaplet is a string internment library* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libwapcaplet](https://www.netsurf-browser.org/projects/libwapcaplet) |
+| License | MIT |
+| Versions | 0.4.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libwapcaplet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwapcaplet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libwapcaplet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libwapcaplet")
 ```
 
 
@@ -16003,7 +16051,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

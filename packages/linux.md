@@ -14153,6 +14153,30 @@ add_requires("libdivsufsort")
 ```
 
 
+### libdom (linux)
+
+
+| Description | *LibDOM is an implementation of the W3C DOM* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libdom](https://www.netsurf-browser.org/projects/libdom) |
+| License | MIT |
+| Versions | 0.4.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdom")
+```
+
+
 ### libdrm (linux)
 
 
@@ -17402,6 +17426,30 @@ xrepo install libvpx
 
 ```lua
 add_requires("libvpx")
+```
+
+
+### libwapcaplet (linux)
+
+
+| Description | *LibWapcaplet is a string internment library* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libwapcaplet](https://www.netsurf-browser.org/projects/libwapcaplet) |
+| License | MIT |
+| Versions | 0.4.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libwapcaplet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwapcaplet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libwapcaplet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libwapcaplet")
 ```
 
 
@@ -29725,7 +29773,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33778,7 +33826,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f88eae5ba0 |
+| License | table: 0x55caef17a3d0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
