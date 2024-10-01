@@ -5798,7 +5798,7 @@ add_requires("freetype")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13, 1.0.14, 1.0.15 |
+| Versions | 1.0.10, 1.0.11, 1.0.12, 1.0.13, 1.0.14, 1.0.15, 1.0.16 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
@@ -8212,7 +8212,7 @@ add_requires("kcp")
 | -- | -- |
 | Homepage | [https://github.com/KDAB/KDBindings](https://github.com/KDAB/KDBindings) |
 | License | MIT |
-| Versions | v1.0.5 |
+| Versions | v1.0.5, v1.1.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [kdbindings/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kdbindings/xmake.lua) |
 
@@ -10158,6 +10158,30 @@ xrepo install -p mingw [--mingw=/xxx] libsv
 
 ```lua
 add_requires("libsv")
+```
+
+
+### libsvgtiny (mingw)
+
+
+| Description | *Libsvgtiny is a library for parsing SVG files for display.* |
+| -- | -- |
+| Homepage | [https://www.netsurf-browser.org/projects/libsvgtiny](https://www.netsurf-browser.org/projects/libsvgtiny) |
+| License | MIT |
+| Versions | 0.1.8 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libsvgtiny/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvgtiny/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libsvgtiny
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsvgtiny")
 ```
 
 
@@ -17365,7 +17389,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1 |
 | Architectures | x86_64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
@@ -17961,7 +17985,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
