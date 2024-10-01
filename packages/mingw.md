@@ -13349,6 +13349,29 @@ add_requires("nowide_standalone")
 ```
 
 
+### npcap_sdk (mingw)
+
+
+| Description | *Npcap is the Nmap Project's packet capture (and sending) library for Microsoft Windows.* |
+| -- | -- |
+| Homepage | [https://npcap.com/](https://npcap.com/) |
+| Versions | 1.12, 1.13 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [npcap_sdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/npcap_sdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] npcap_sdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("npcap_sdk")
+```
+
+
 ### nsync (mingw)
 
 

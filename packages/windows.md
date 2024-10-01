@@ -19043,7 +19043,7 @@ add_requires("nowide_standalone")
 | Description | *Npcap is the Nmap Project's packet capture (and sending) library for Microsoft Windows.* |
 | -- | -- |
 | Homepage | [https://npcap.com/](https://npcap.com/) |
-| Versions | 1.13 |
+| Versions | 1.12, 1.13 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [npcap_sdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/npcap_sdk/xmake.lua) |
 
