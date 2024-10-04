@@ -11345,6 +11345,7 @@ add_requires("hpsocket")
 | Description | *Parser for HTTP messages written in C.* |
 | -- | -- |
 | Homepage | [https://github.com/nodejs/http-parser](https://github.com/nodejs/http-parser) |
+| License | MIT |
 | Versions | v2.9.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [http_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/http_parser/xmake.lua) |
@@ -18731,7 +18732,7 @@ add_requires("llfio")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
-| Versions | v3.0.0, v8.1.0 |
+| Versions | v3.0.0, v8.1.0, v9.2.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
@@ -26129,7 +26130,8 @@ add_requires("pybind11")
 | Description | *C++ python bytecode disassembler and decompiler* |
 | -- | -- |
 | Homepage | [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc) |
-| Versions | 2022.10.04 |
+| License | GPL-3.0 |
+| Versions | 2024.08.12 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pycdc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pycdc/xmake.lua) |
 
@@ -29822,7 +29824,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33875,7 +33877,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564c4c6871c0 |
+| License | table: 0x558f6ea41010 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
