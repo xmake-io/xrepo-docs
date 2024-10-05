@@ -7964,6 +7964,30 @@ add_requires("libnpy")
 ```
 
 
+### liboqs (msys)
+
+
+| Description | *C library for prototyping and experimenting with quantum-resistant cryptography* |
+| -- | -- |
+| Homepage | [https://openquantumsafe.org](https://openquantumsafe.org) |
+| License | MIT |
+| Versions | 0.10.1, 0.11.0 |
+| Architectures | i386, x86_64 |
+| Definition | [liboqs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liboqs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install liboqs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("liboqs")
+```
+
+
 ### libparserutils (msys)
 
 
@@ -8416,6 +8440,30 @@ xrepo install libsquish
 
 ```lua
 add_requires("libsquish")
+```
+
+
+### libssh2 (msys)
+
+
+| Description | *C library implementing the SSH2 protocol* |
+| -- | -- |
+| Homepage | [https://www.libssh2.org/](https://www.libssh2.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.10.0, 1.11.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libssh2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libssh2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libssh2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libssh2")
 ```
 
 
@@ -14742,7 +14790,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
