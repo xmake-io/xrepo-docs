@@ -27497,7 +27497,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31266,7 +31266,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5598cf984d80 |
+| License | table: 0x559a62758550 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -31305,6 +31305,30 @@ xrepo install wjakob_filesystem
 
 ```lua
 add_requires("wjakob_filesystem")
+```
+
+
+### wolfssl (macosx)
+
+
+| Description | *The wolfSSL library is a small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.  wolfSSL supports up to TLS 1.3!* |
+| -- | -- |
+| Homepage | [https://www.wolfssl.com](https://www.wolfssl.com) |
+| License | GPL-2.0 |
+| Versions | 5.3.0, 5.6.2, 5.6.3, 5.6.4, 5.6.6, 5.7.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [wolfssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wolfssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wolfssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wolfssl")
 ```
 
 
