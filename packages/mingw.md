@@ -1291,30 +1291,6 @@ add_requires("binutils")
 ```
 
 
-### bison (mingw)
-
-
-| Description | *A general-purpose parser generator.* |
-| -- | -- |
-| Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
-| License | GPL-3.0 |
-| Versions | 3.7.4, 3.7.6, 3.8.2 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] bison
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("bison")
-```
-
-
 ### bitsery (mingw)
 
 
@@ -18105,7 +18081,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
