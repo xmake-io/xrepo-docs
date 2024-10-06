@@ -12943,6 +12943,30 @@ add_requires("patch")
 ```
 
 
+### pcapplusplus (android)
+
+
+| Description | *PcapPlusPlus is a multiplatform C++ library for capturing, parsing and crafting of network packets.* |
+| -- | -- |
+| Homepage | [https://github.com/seladb/PcapPlusPlus](https://github.com/seladb/PcapPlusPlus) |
+| License | Unlicense |
+| Versions | v23.09, v24.09 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [pcapplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcapplusplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] pcapplusplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pcapplusplus")
+```
+
+
 ### pcg-cpp (android)
 
 
@@ -16196,7 +16220,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
