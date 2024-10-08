@@ -10514,7 +10514,7 @@ add_requires("hiredis")
 | -- | -- |
 | Homepage | [https://github.com/redorav/hlslpp](https://github.com/redorav/hlslpp) |
 | License | MIT |
-| Versions | 3.1, 3.2.3, 3.4, 3.5, 3.5.1 |
+| Versions | 3.1, 3.2.3, 3.4, 3.5, 3.5.1, 3.5.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [hlslpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hlslpp/xmake.lua) |
 
@@ -11542,7 +11542,7 @@ add_requires("itstool")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -18875,7 +18875,7 @@ add_requires("mimalloc")
 | -- | -- |
 | Homepage | [https://github.com/metayeti/mINI](https://github.com/metayeti/mINI) |
 | License | MIT |
-| Versions | 0.9.15, 0.9.16 |
+| Versions | 0.9.15, 0.9.16, 0.9.17 |
 | Architectures | arm64, x86_64 |
 | Definition | [mini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mini/xmake.lua) |
 
@@ -27522,7 +27522,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28834,7 +28834,7 @@ add_requires("thread-pool")
 | -- | -- |
 | Homepage | [https://thrift.apache.org/](https://thrift.apache.org/) |
 | License | Apache-2.0 |
-| Versions | v0.16.0, v0.17.0, v0.18.0, v0.18.1, v0.19.0, v0.20.0 |
+| Versions | v0.16.0, v0.17.0, v0.18.0, v0.18.1, v0.19.0, v0.20.0, v0.21.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [thrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrift/xmake.lua) |
 
@@ -31291,7 +31291,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5591e62f5810 |
+| License | table: 0x5637f52fdca0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
