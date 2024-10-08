@@ -8526,6 +8526,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("gklib")
 </code></pre>
+<h3 id="glazemsys">glaze (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Extremely fast, in memory, JSON and interface library for modern C++</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/stephenberry/glaze">https://github.com/stephenberry/glaze</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua">glaze/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install glaze
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glaze")
+</code></pre>
 <h3 id="glbindingmsys">glbinding (msys)</h3>
 <table>
 <thead>
@@ -12302,6 +12339,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libparserutils")
+</code></pre>
+<h3 id="libpcapmsys">libpcap (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>the LIBpcap interface to various kernel packet capture mechanism</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.tcpdump.org/">https://www.tcpdump.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.10.1, 1.10.2, 1.10.3, 1.10.4, 1.10.5</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpcap/xmake.lua">libpcap/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libpcap
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libpcap")
 </code></pre>
 <h3 id="libpeconvmsys">libpeconv (msys)</h3>
 <table>
@@ -16693,7 +16767,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.0, v1.4.0, v1.5.0</td>
+<td>v1.3.0, v1.4.0, v1.5.0, v1.6.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -17101,6 +17175,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("noisy")
+</code></pre>
+<h3 id="npcap_sdkmsys">npcap_sdk (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Npcap is the Nmap Project&#39;s packet capture (and sending) library for Microsoft Windows.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://npcap.com/">https://npcap.com/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.12, 1.13</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/npcap_sdk/xmake.lua">npcap_sdk/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install npcap_sdk
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("npcap_sdk")
 </code></pre>
 <h3 id="nsyncmsys">nsync (msys)</h3>
 <table>
@@ -22638,7 +22745,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>

@@ -5502,6 +5502,30 @@ add_requires("gklib")
 ```
 
 
+### glaze (android)
+
+
+| Description | *Extremely fast, in memory, JSON and interface library for modern C++* |
+| -- | -- |
+| Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
+| License | MIT |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] glaze
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glaze")
+```
+
+
 ### glbinding (android)
 
 
@@ -11736,7 +11760,7 @@ add_requires("neco")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
@@ -16189,6 +16213,30 @@ add_requires("spirv-headers")
 ```
 
 
+### spirv-reflect (android)
+
+
+| Description | *SPIRV-Reflect is a lightweight library that provides a C/C++ reflection API for SPIR-V shader bytecode in Vulkan applications.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Reflect](https://github.com/KhronosGroup/SPIRV-Reflect) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.231+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [spirv-reflect/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-reflect/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] spirv-reflect
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-reflect")
+```
+
+
 ### spirv-tools (android)
 
 
@@ -16244,7 +16292,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
