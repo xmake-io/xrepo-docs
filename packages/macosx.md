@@ -4637,7 +4637,7 @@ add_requires("cpu-features")
 | -- | -- |
 | Homepage | [https://github.com/pytorch/cpuinfo](https://github.com/pytorch/cpuinfo) |
 | License | BSD-2-Clause |
-| Versions | 2022.09.15, 2023.07.21 |
+| Versions | 2023.07.21, 2024.09.26 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpuinfo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpuinfo/xmake.lua) |
 
@@ -12108,6 +12108,30 @@ xrepo install kdbindings
 
 ```lua
 add_requires("kdbindings")
+```
+
+
+### keystone (macosx)
+
+
+| Description | *Keystone assembler framework: Core (Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) + bindings* |
+| -- | -- |
+| Homepage | [http://www.keystone-engine.org](http://www.keystone-engine.org) |
+| License | GPL-2.0 |
+| Versions | 0.9.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [keystone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/keystone/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install keystone
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("keystone")
 ```
 
 
@@ -27546,7 +27570,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28236,8 +28260,8 @@ add_requires("svector")
 | Description | *Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)* |
 | -- | -- |
 | Homepage | [https://gitlab.com/AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) |
-| License | BSD-2-clause |
-| Versions | 1.4.0, 1.4.1, 1.5.0, 1.6.0 |
+| License | BSD-3-Clause |
+| Versions | v1.4.0, v1.4.1, v1.5.0, v1.6.0, v2.1.0, v2.2.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [svt-av1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svt-av1/xmake.lua) |
 
@@ -31315,7 +31339,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f4e7f67a10 |
+| License | table: 0x55aedb308330 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

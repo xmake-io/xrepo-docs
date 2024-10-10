@@ -7252,6 +7252,30 @@ add_requires("kdbindings")
 ```
 
 
+### keystone (cross)
+
+
+| Description | *Keystone assembler framework: Core (Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) + bindings* |
+| -- | -- |
+| Homepage | [http://www.keystone-engine.org](http://www.keystone-engine.org) |
+| License | GPL-2.0 |
+| Versions | 0.9.2 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [keystone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/keystone/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] keystone
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("keystone")
+```
+
+
 ### khrplatform (cross)
 
 
@@ -15533,7 +15557,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -15952,30 +15976,6 @@ xrepo install -p cross [--sdk=/xxx] svector
 
 ```lua
 add_requires("svector")
-```
-
-
-### svt-av1 (cross)
-
-
-| Description | *Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)* |
-| -- | -- |
-| Homepage | [https://gitlab.com/AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) |
-| License | BSD-2-clause |
-| Versions | 1.4.0, 1.4.1, 1.5.0, 1.6.0 |
-| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
-| Definition | [svt-av1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/svt-av1/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p cross [--sdk=/xxx] svt-av1
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("svt-av1")
 ```
 
 
