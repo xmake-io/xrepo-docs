@@ -18943,6 +18943,30 @@ add_requires("x264")
 ```
 
 
+### x265 (android)
+
+
+| Description | *A free software library and application for encoding video streams into the H.265/MPEG-H HEVC compression format.* |
+| -- | -- |
+| Homepage | [http://x265.org](http://x265.org) |
+| License | GPL-2.0 |
+| Versions | 3.2, 3.2.1, 3.3, 3.4, 4.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [x265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x265/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] x265
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("x265")
+```
+
+
 ### xbyak (android)
 
 

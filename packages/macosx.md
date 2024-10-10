@@ -31315,7 +31315,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55652137e290 |
+| License | table: 0x559c328f8390 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -31533,7 +31533,7 @@ add_requires("x264")
 | -- | -- |
 | Homepage | [http://x265.org](http://x265.org) |
 | License | GPL-2.0 |
-| Versions | 3.2, 3.2.1, 3.3, 3.4 |
+| Versions | 3.2, 3.2.1, 3.3, 3.4, 4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [x265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/x265/xmake.lua) |
 
