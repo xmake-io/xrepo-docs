@@ -10892,7 +10892,7 @@ add_requires("h5cpp")
 | -- | -- |
 | Homepage | [https://github.com/MuggleWei/haclog](https://github.com/MuggleWei/haclog) |
 | License | MIT |
-| Versions | v0.0.5, v0.1.6, v0.2.0 |
+| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [haclog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/haclog/xmake.lua) |
 
@@ -11720,6 +11720,30 @@ xrepo install imgui-file-dialog
 
 ```lua
 add_requires("imgui-file-dialog")
+```
+
+
+### imgui-filebrowser (linux)
+
+
+| Description | *File browser implementation for dear-imgui. C++17 is required.* |
+| -- | -- |
+| Homepage | [https://github.com/AirGuanZ/imgui-filebrowser](https://github.com/AirGuanZ/imgui-filebrowser) |
+| License | MIT |
+| Versions | 2024.10.07 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [imgui-filebrowser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui-filebrowser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install imgui-filebrowser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imgui-filebrowser")
 ```
 
 
@@ -19015,7 +19039,7 @@ add_requires("ls-qpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic) |
 | License | MIT |
-| Versions | v4.0.8, v4.0.9, v4.0.11 |
+| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lsquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsquic/xmake.lua) |
 
@@ -29135,7 +29159,7 @@ add_requires("simplethreadpool")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
 | License | Apache-2.0 |
-| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0 |
+| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
 
@@ -29849,7 +29873,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33902,7 +33926,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55aedb308330 |
+| License | table: 0x558f880fdb10 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

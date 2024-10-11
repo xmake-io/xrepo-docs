@@ -7319,6 +7319,30 @@ add_requires("imgui-file-dialog")
 ```
 
 
+### imgui-filebrowser (mingw)
+
+
+| Description | *File browser implementation for dear-imgui. C++17 is required.* |
+| -- | -- |
+| Homepage | [https://github.com/AirGuanZ/imgui-filebrowser](https://github.com/AirGuanZ/imgui-filebrowser) |
+| License | MIT |
+| Versions | 2024.10.07 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [imgui-filebrowser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui-filebrowser/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] imgui-filebrowser
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("imgui-filebrowser")
+```
+
+
 ### imgui-sfml (mingw)
 
 
@@ -17677,7 +17701,7 @@ add_requires("simpleini")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
 | License | Apache-2.0 |
-| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0 |
+| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
 
@@ -18225,7 +18249,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
