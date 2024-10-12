@@ -1278,7 +1278,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.10.3, v0.10.4, v0.10.6 |
+| Versions | v0.9.5, v0.10.3, v0.10.4, v0.10.6, v0.10.7 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
 
@@ -3160,7 +3160,7 @@ add_requires("chromium_zlib")
 | -- | -- |
 | Homepage | [https://cimg.eu/](https://cimg.eu/) |
 | License | CeCILL-C |
-| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2 |
+| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2, v3.4.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cimg/xmake.lua) |
 
@@ -10519,7 +10519,7 @@ add_requires("hyperscan")
 | -- | -- |
 | Homepage | [https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods) |
 | License | Apache-2.0 |
-| Versions | v2.20.0, v2.23.0, v2.30.0, v2.31.0 |
+| Versions | v2.20.0, v2.23.0, v2.30.0, v2.31.0, v2.32.0 |
 | Architectures | x64, x86 |
 | Definition | [hypre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hypre/xmake.lua) |
 
@@ -22338,7 +22338,7 @@ add_requires("pycdc")
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
 | License | MIT |
-| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1 |
+| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
@@ -25723,7 +25723,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
