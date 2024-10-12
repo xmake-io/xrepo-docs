@@ -886,6 +886,30 @@ add_requires("avir")
 ```
 
 
+### aws-c-cal (mingw)
+
+
+| Description | *Aws Crypto Abstraction Layer: Cross-Platform, C99 wrapper for cryptography primitives.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
+| License | Apache-2.0 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4 |
+| Architectures | arm, arm64, x86_64 |
+| Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] aws-c-cal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-cal")
+```
+
+
 ### aws-c-common (mingw)
 
 
@@ -907,6 +931,30 @@ xrepo install -p mingw [--mingw=/xxx] aws-c-common
 
 ```lua
 add_requires("aws-c-common")
+```
+
+
+### aws-c-io (mingw)
+
+
+| Description | *This is a module for the AWS SDK for C. It handles all IO and TLS work for application protocols. * |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
+| License | Apache-2.0 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19 |
+| Architectures | arm, arm64, x86_64 |
+| Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] aws-c-io
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-io")
 ```
 
 
@@ -9013,6 +9061,30 @@ xrepo install -p mingw [--mingw=/xxx] libdwarf
 
 ```lua
 add_requires("libdwarf")
+```
+
+
+### libebur128 (mingw)
+
+
+| Description | *A library implementing the EBU R128 loudness standard.* |
+| -- | -- |
+| Homepage | [https://github.com/jiixyj/libebur128](https://github.com/jiixyj/libebur128) |
+| License | MIT |
+| Versions | v1.2.6 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libebur128/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libebur128/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libebur128
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libebur128")
 ```
 
 
@@ -18249,7 +18321,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

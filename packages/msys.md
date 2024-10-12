@@ -868,7 +868,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -7578,6 +7578,30 @@ xrepo install libdom
 
 ```lua
 add_requires("libdom")
+```
+
+
+### libebur128 (msys)
+
+
+| Description | *A library implementing the EBU R128 loudness standard.* |
+| -- | -- |
+| Homepage | [https://github.com/jiixyj/libebur128](https://github.com/jiixyj/libebur128) |
+| License | MIT |
+| Versions | v1.2.6 |
+| Architectures | i386, x86_64 |
+| Definition | [libebur128/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libebur128/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libebur128
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libebur128")
 ```
 
 
@@ -14957,7 +14981,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
