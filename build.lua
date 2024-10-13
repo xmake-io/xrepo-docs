@@ -299,8 +299,10 @@ function latest_packages()
         for _, line in ipairs(results:split('\n', {plain = true})) do
             line = line:split('|')[1]
             line = line:trim()
-            if line:endswith("xmake.lua") then
-                table.insert(latest, path.filename(path.directory(line)))
+            local filename = path.filename(line)
+            local packagename = path.filename(path.directory(line))
+            if filename == "xmake.lua" and packagename ~= "port" then
+                table.insert(latest, packagename)
             end
         end
     end
