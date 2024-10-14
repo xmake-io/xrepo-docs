@@ -1314,6 +1314,30 @@ add_requires("binutils")
 ```
 
 
+### bison (msys)
+
+
+| Description | *A general-purpose parser generator.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
+| License | GPL-3.0 |
+| Versions | 3.7.4, 3.7.6, 3.8.2 |
+| Architectures | i386, x86_64 |
+| Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bison
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bison")
+```
+
+
 ### bitsery (msys)
 
 
@@ -5047,6 +5071,30 @@ add_requires("flecs")
 ```
 
 
+### flex (msys)
+
+
+| Description | *%s* |
+| -- | -- |
+| Homepage | [https://github.com/westes/flex/](https://github.com/westes/flex/) |
+| License | BSD-2-Clause |
+| Versions | 2.6.4 |
+| Architectures | i386, x86_64 |
+| Definition | [flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install flex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("flex")
+```
+
+
 ### fltk (msys)
 
 
@@ -7684,7 +7732,7 @@ add_requires("libelfin")
 | -- | -- |
 | Homepage | [https://github.com/ph3at/libenvpp](https://github.com/ph3at/libenvpp) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2 |
+| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2, v1.4.3 |
 | Architectures | i386, x86_64 |
 | Definition | [libenvpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libenvpp/xmake.lua) |
 
@@ -12207,6 +12255,29 @@ add_requires("pegtl")
 ```
 
 
+### peloader (msys)
+
+
+| Description | *PE loader with various shellcode injection techniques* |
+| -- | -- |
+| Homepage | [https://github.com/Hagrid29/PELoader](https://github.com/Hagrid29/PELoader) |
+| Versions | 2022.10.17 |
+| Architectures | i386, x86_64 |
+| Definition | [peloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/peloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install peloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("peloader")
+```
+
+
 ### perlinnoise (msys)
 
 
@@ -13159,6 +13230,29 @@ add_requires("python")
 ```
 
 
+### python-launcher (msys)
+
+
+| Description | *The python programming language.* |
+| -- | -- |
+| Homepage | [https://www.python.org/](https://www.python.org/) |
+| Versions | 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.11.3 |
+| Architectures | i386, x86_64 |
+| Definition | [python-launcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python-launcher/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install python-launcher
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("python-launcher")
+```
+
+
 ### python2 (msys)
 
 
@@ -13370,6 +13464,30 @@ xrepo install qr-code-generator-cpp
 
 ```lua
 add_requires("qr-code-generator-cpp")
+```
+
+
+### qtifw (msys)
+
+
+| Description | *The Qt Installer Framework provides a set of tools and utilities to create installers for the supported desktop Qt platforms: Linux, Microsoft Windows, and macOS.* |
+| -- | -- |
+| Homepage | [https://doc.qt.io/qtinstallerframework/](https://doc.qt.io/qtinstallerframework/) |
+| License | GPL-3 |
+| Versions | 4.7.0 |
+| Architectures | i386, x86_64 |
+| Definition | [qtifw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qtifw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qtifw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qtifw")
 ```
 
 
@@ -15053,7 +15171,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -15305,6 +15423,29 @@ xrepo install stduuid
 
 ```lua
 add_requires("stduuid")
+```
+
+
+### strawberry-perl (msys)
+
+
+| Description | *Strawberry Perl is a perl environment for MS Windows containing all you need to run and develop perl applications.* |
+| -- | -- |
+| Homepage | [http://strawberryperl.com/](http://strawberryperl.com/) |
+| Versions | 5.32.0+1 |
+| Architectures | i386, x86_64 |
+| Definition | [strawberry-perl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strawberry-perl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install strawberry-perl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("strawberry-perl")
 ```
 
 

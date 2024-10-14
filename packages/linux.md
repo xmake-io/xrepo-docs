@@ -585,7 +585,7 @@ add_requires("aqt")
 | Homepage | [https://github.com/AravisProject/aravis](https://github.com/AravisProject/aravis) |
 | License | LGPL-2.1 |
 | Versions | 0.8.33 |
-| Architectures | x86_64 |
+| Architectures | armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aravis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aravis/xmake.lua) |
 
 ##### Install command
@@ -14400,7 +14400,7 @@ add_requires("libelfin")
 | -- | -- |
 | Homepage | [https://github.com/ph3at/libenvpp](https://github.com/ph3at/libenvpp) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2 |
+| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2, v1.4.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libenvpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libenvpp/xmake.lua) |
 
@@ -15851,7 +15851,7 @@ add_requires("libnpy")
 | Homepage | [https://libntl.org/](https://libntl.org/) |
 | License | LGPL-2.1 |
 | Versions | v11.5.1 |
-| Architectures | x86_64 |
+| Architectures | armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libntl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libntl/xmake.lua) |
 
 ##### Install command
@@ -29969,7 +29969,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34022,7 +34022,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55dadee35a00 |
+| License | table: 0x55b673792f00 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

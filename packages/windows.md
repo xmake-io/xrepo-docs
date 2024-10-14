@@ -218,6 +218,29 @@ add_requires("aitoolkit")
 ```
 
 
+### alcatraz (windows)
+
+
+| Description | *x64 binary obfuscator* |
+| -- | -- |
+| Homepage | [https://github.com/weak1337/Alcatraz](https://github.com/weak1337/Alcatraz) |
+| Versions | 2023.07.14 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [alcatraz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alcatraz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install alcatraz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("alcatraz")
+```
+
+
 ### alembic (windows)
 
 
@@ -526,6 +549,30 @@ xrepo install aqt
 
 ```lua
 add_requires("aqt")
+```
+
+
+### aravis (windows)
+
+
+| Description | *A vision library for genicam based cameras* |
+| -- | -- |
+| Homepage | [https://github.com/AravisProject/aravis](https://github.com/AravisProject/aravis) |
+| License | LGPL-2.1 |
+| Versions | 0.8.33 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [aravis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aravis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aravis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aravis")
 ```
 
 
@@ -1673,6 +1720,30 @@ xrepo install better-enums
 
 ```lua
 add_requires("better-enums")
+```
+
+
+### bgfx (windows)
+
+
+| Description | *Cross-platform, graphics API agnostic, “Bring Your Own Engine/Framework” style rendering library* |
+| -- | -- |
+| Homepage | [https://bkaradzic.github.io/bgfx/](https://bkaradzic.github.io/bgfx/) |
+| License | BSD-2-Clause |
+| Versions | 7816, 8203, 8674, 8752 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [bgfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bgfx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bgfx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bgfx")
 ```
 
 
@@ -6422,6 +6493,30 @@ xrepo install dragonbox
 
 ```lua
 add_requires("dragonbox")
+```
+
+
+### drogon (windows)
+
+
+| Description | *Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows* |
+| -- | -- |
+| Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
+| License | MIT |
+| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2, v1.9.1, v1.9.3, v1.9.4, v1.9.5, v1.9.6 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install drogon
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("drogon")
 ```
 
 
@@ -11565,6 +11660,30 @@ add_requires("joltphysics")
 ```
 
 
+### jom (windows)
+
+
+| Description | *the parallel make tool for Windows.* |
+| -- | -- |
+| Homepage | [https://www.qt.io/](https://www.qt.io/) |
+| License | GPL |
+| Versions | 1.1.3, 1.1.4 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [jom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jom")
+```
+
+
 ### jpcre2 (windows)
 
 
@@ -12956,7 +13075,7 @@ add_requires("libebur128")
 | -- | -- |
 | Homepage | [https://github.com/ph3at/libenvpp](https://github.com/ph3at/libenvpp) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2 |
+| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2, v1.4.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libenvpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libenvpp/xmake.lua) |
 
@@ -17304,6 +17423,29 @@ add_requires("mimalloc")
 ```
 
 
+### mingw-w64 (windows)
+
+
+| Description | *The mingw-w64 project is a complete runtime environment for gcc to support binaries native to Windows 64-bit and 32-bit operating systems.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/mingw-w64/](https://sourceforge.net/projects/mingw-w64/) |
+| Versions | 8.1.0, 11.2.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [mingw-w64/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mingw-w64/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mingw-w64
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mingw-w64")
+```
+
+
 ### minhook (windows)
 
 
@@ -18135,6 +18277,52 @@ xrepo install msmpi
 
 ```lua
 add_requires("msmpi")
+```
+
+
+### msys2 (windows)
+
+
+| Description | *Software Distribution and Building Platform for Windows* |
+| -- | -- |
+| Homepage | [https://www.msys2.org/](https://www.msys2.org/) |
+| Versions |  |
+| Architectures | x64 |
+| Definition | [msys2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msys2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install msys2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msys2")
+```
+
+
+### msys2-base (windows)
+
+
+| Description | *Software Distribution and Building Platform for Windows* |
+| -- | -- |
+| Homepage | [https://www.msys2.org/](https://www.msys2.org/) |
+| Versions | 2024.01.13 |
+| Architectures | x64 |
+| Definition | [msys2-base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msys2-base/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install msys2-base
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msys2-base")
 ```
 
 
@@ -19250,6 +19438,29 @@ xrepo install npcap_sdk
 
 ```lua
 add_requires("npcap_sdk")
+```
+
+
+### nsis (windows)
+
+
+| Description | *NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers.* |
+| -- | -- |
+| Homepage | [https://nsis.sourceforge.io/](https://nsis.sourceforge.io/) |
+| Versions | 3.09 |
+| Architectures | x64, x86 |
+| Definition | [nsis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nsis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nsis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nsis")
 ```
 
 
@@ -21212,6 +21423,29 @@ add_requires("pegtl")
 ```
 
 
+### peloader (windows)
+
+
+| Description | *PE loader with various shellcode injection techniques* |
+| -- | -- |
+| Homepage | [https://github.com/Hagrid29/PELoader](https://github.com/Hagrid29/PELoader) |
+| Versions | 2022.10.17 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [peloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/peloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install peloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("peloader")
+```
+
+
 ### perlinnoise (windows)
 
 
@@ -22118,6 +22352,30 @@ add_requires("premake5")
 ```
 
 
+### process-dump (windows)
+
+
+| Description | *Windows tool for dumping malware PE files from memory back to disk for analysis.* |
+| -- | -- |
+| Homepage | [http://split-code.com/processdump.html](http://split-code.com/processdump.html) |
+| License | MIT |
+| Versions | v2.1.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [process-dump/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/process-dump/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install process-dump
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("process-dump")
+```
+
+
 ### proj (windows)
 
 
@@ -22403,6 +22661,30 @@ add_requires("pugixml")
 ```
 
 
+### pybind11 (windows)
+
+
+| Description | *Seamless operability between C++11 and Python.* |
+| -- | -- |
+| Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
+| License | BSD-3-Clause |
+| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2, v2.10.0, v2.12.0, v2.13.1, v2.13.5, v2.13.6 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pybind11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pybind11")
+```
+
+
 ### pycdc (windows)
 
 
@@ -22495,6 +22777,29 @@ xrepo install python
 
 ```lua
 add_requires("python")
+```
+
+
+### python-launcher (windows)
+
+
+| Description | *The python programming language.* |
+| -- | -- |
+| Homepage | [https://www.python.org/](https://www.python.org/) |
+| Versions | 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.11.3 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [python-launcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python-launcher/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install python-launcher
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("python-launcher")
 ```
 
 
@@ -23068,6 +23373,30 @@ xrepo install qtawesome
 
 ```lua
 add_requires("qtawesome")
+```
+
+
+### qtifw (windows)
+
+
+| Description | *The Qt Installer Framework provides a set of tools and utilities to create installers for the supported desktop Qt platforms: Linux, Microsoft Windows, and macOS.* |
+| -- | -- |
+| Homepage | [https://doc.qt.io/qtinstallerframework/](https://doc.qt.io/qtinstallerframework/) |
+| License | GPL-3 |
+| Versions | 4.7.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [qtifw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qtifw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qtifw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qtifw")
 ```
 
 
@@ -25819,7 +26148,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26190,6 +26519,29 @@ xrepo install stlab
 
 ```lua
 add_requires("stlab")
+```
+
+
+### strawberry-perl (windows)
+
+
+| Description | *Strawberry Perl is a perl environment for MS Windows containing all you need to run and develop perl applications.* |
+| -- | -- |
+| Homepage | [http://strawberryperl.com/](http://strawberryperl.com/) |
+| Versions | 5.32.0+1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [strawberry-perl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strawberry-perl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install strawberry-perl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("strawberry-perl")
 ```
 
 
@@ -29489,6 +29841,30 @@ add_requires("vvenc")
 
 
 ## w
+### w64devkit (windows)
+
+
+| Description | *Portable C and C++ Development Kit for x64 (and x86) Windows* |
+| -- | -- |
+| Homepage | [https://github.com/skeeto/w64devkit](https://github.com/skeeto/w64devkit) |
+| License | Unlicense |
+| Versions |  |
+| Architectures | x64 |
+| Definition | [w64devkit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/w64devkit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install w64devkit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("w64devkit")
+```
+
+
 ### wasm-micro-runtime (windows)
 
 
