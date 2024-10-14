@@ -7813,6 +7813,29 @@ add_requires("ffmpeg")
 ```
 
 
+### ffts (macosx)
+
+
+| Description | *The Fastest Fourier Transform in the South* |
+| -- | -- |
+| Homepage | [http://anthonix.com/ffts](http://anthonix.com/ffts) |
+| Versions | 2019.03.19 |
+| Architectures | arm64, x86_64 |
+| Definition | [ffts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffts/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ffts
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ffts")
+```
+
+
 ### fftw (macosx)
 
 
@@ -15937,6 +15960,30 @@ add_requires("libui")
 ```
 
 
+### libunifex (macosx)
+
+
+| Description | *The 'libunifex' project is a prototype implementation of the C++ sender/receiver async programming model that is currently being considered for standardisation.* |
+| -- | -- |
+| Homepage | [https://github.com/facebookexperimental/libunifex](https://github.com/facebookexperimental/libunifex) |
+| License | Apache-2.0 |
+| Versions | v0.4.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libunifex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunifex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libunifex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libunifex")
+```
+
+
 ### libunistring (macosx)
 
 
@@ -22950,7 +22997,7 @@ add_requires("pedeps")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 3.2.2, 3.2.5, 3.2.7 |
+| Versions | 3.2.2, 3.2.5, 3.2.7, 3.2.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
@@ -23523,7 +23570,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1, v0.0.6 |
+| Versions | v0.0.1, v0.0.6, v0.0.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 
@@ -25929,7 +25976,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -27619,7 +27666,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31388,7 +31435,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55aaaecb2f60 |
+| License | table: 0x56553b1fcac0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
