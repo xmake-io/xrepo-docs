@@ -320,7 +320,7 @@ function build_packages()
 
     -- load packages
     local oldir = os.cd(repodir)
-    local packages = import("scripts.packages", {rootdir = repodir, anonymous = true})()
+    local packages = import("scripts.packages", {rootdir = repodir, anonymous = true})({native = true})
     local latest = latest_packages()
     os.cd(oldir)
 
