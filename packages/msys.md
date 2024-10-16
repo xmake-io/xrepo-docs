@@ -844,7 +844,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7 |
+| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -2563,7 +2563,7 @@ add_requires("cnpy")
 | -- | -- |
 | Homepage | [https://furfurylic.github.io/commata/CommataSpecification.xml](https://furfurylic.github.io/commata/CommataSpecification.xml) |
 | License | Unlicense |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.0.1 |
 | Architectures | i386, x86_64 |
 | Definition | [commata/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/commata/xmake.lua) |
 
@@ -9512,6 +9512,30 @@ add_requires("ls-hpack")
 ```
 
 
+### ls-qpack (msys)
+
+
+| Description | *QPACK compression library for use with HTTP/3* |
+| -- | -- |
+| Homepage | [https://github.com/litespeedtech/ls-qpack](https://github.com/litespeedtech/ls-qpack) |
+| License | MIT |
+| Versions | v2.5.3, v2.5.4, v2.5.5 |
+| Architectures | i386, x86_64 |
+| Definition | [ls-qpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-qpack/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ls-qpack
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ls-qpack")
+```
+
+
 ### lua (msys)
 
 
@@ -15171,7 +15195,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17242,6 +17266,30 @@ xrepo install visit_struct
 
 ```lua
 add_requires("visit_struct")
+```
+
+
+### vladimirshaleev-ipaddress (msys)
+
+
+| Description | *A library for working and manipulating IPv4/IPv6 addresses and networks* |
+| -- | -- |
+| Homepage | [https://vladimirshaleev.github.io/ipaddress/](https://vladimirshaleev.github.io/ipaddress/) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [vladimirshaleev-ipaddress/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vladimirshaleev-ipaddress/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vladimirshaleev-ipaddress
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vladimirshaleev-ipaddress")
 ```
 
 

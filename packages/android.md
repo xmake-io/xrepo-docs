@@ -2515,7 +2515,7 @@ add_requires("cnpy")
 | -- | -- |
 | Homepage | [https://furfurylic.github.io/commata/CommataSpecification.xml](https://furfurylic.github.io/commata/CommataSpecification.xml) |
 | License | Unlicense |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.0.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [commata/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/commata/xmake.lua) |
 
@@ -10140,7 +10140,7 @@ add_requires("ls-hpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/ls-qpack](https://github.com/litespeedtech/ls-qpack) |
 | License | MIT |
-| Versions | v2.5.3, v2.5.4 |
+| Versions | v2.5.3, v2.5.4, v2.5.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [ls-qpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-qpack/xmake.lua) |
 
@@ -11952,7 +11952,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -16508,7 +16508,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -18603,6 +18603,30 @@ xrepo install -p android [--ndk=/xxx] visit_struct
 
 ```lua
 add_requires("visit_struct")
+```
+
+
+### vladimirshaleev-ipaddress (android)
+
+
+| Description | *A library for working and manipulating IPv4/IPv6 addresses and networks* |
+| -- | -- |
+| Homepage | [https://vladimirshaleev.github.io/ipaddress/](https://vladimirshaleev.github.io/ipaddress/) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [vladimirshaleev-ipaddress/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vladimirshaleev-ipaddress/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] vladimirshaleev-ipaddress
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vladimirshaleev-ipaddress")
 ```
 
 
