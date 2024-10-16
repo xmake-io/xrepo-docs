@@ -1101,6 +1101,29 @@ add_requires("automake")
 ```
 
 
+### autotools (macosx)
+
+
+| Description | *%s* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| Versions |  |
+| Architectures | arm64, x86_64 |
+| Definition | [autotools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autotools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install autotools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("autotools")
+```
+
+
 ### avir (macosx)
 
 
@@ -14852,7 +14875,7 @@ add_requires("libpcap")
 | -- | -- |
 | Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
 | License | LGPL-2.1 |
-| Versions | 2.2.0 |
+| Versions | 2.2.0, 2.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
 
@@ -27714,7 +27737,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31507,7 +31530,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x555a9adc6670 |
+| License | table: 0x559aaed37a80 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
