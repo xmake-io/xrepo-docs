@@ -7377,7 +7377,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4</td>
+<td>v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -14849,6 +14849,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libxml2")
+</code></pre>
+<h3 id="libxsltandroid">libxslt (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Libxslt is the XSLT C library developed for the GNOME project.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://xmlsoft.org/XSLT/">http://xmlsoft.org/XSLT/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.1.42</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxslt/xmake.lua">libxslt/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] libxslt
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libxslt")
 </code></pre>
 <h3 id="libyuvandroid">libyuv (android)</h3>
 <table>
@@ -25288,7 +25325,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -26548,6 +26585,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("thrust")
+</code></pre>
+<h3 id="tidyhtml5android">tidy-html5 (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The granddaddy of HTML tools, with support for modern standards</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://www.html-tidy.org">http://www.html-tidy.org</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>5.9.20</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tidy-html5/xmake.lua">tidy-html5/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] tidy-html5
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("tidy-html5")
 </code></pre>
 <h3 id="tinyaescandroid">tiny-aes-c (android)</h3>
 <table>
@@ -30013,7 +30083,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1</td>
+<td>2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1, 2.2.2</td>
 </tr>
 <tr>
 <td>Architectures</td>

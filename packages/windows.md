@@ -248,7 +248,7 @@ add_requires("alcatraz")
 | -- | -- |
 | Homepage | [https://alembic.io/](https://alembic.io/) |
 | License | BSD-3-Clause |
-| Versions | 1.8.5, 1.8.6 |
+| Versions | 1.8.5, 1.8.6, 1.8.7 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [alembic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alembic/xmake.lua) |
 
@@ -7512,7 +7512,7 @@ add_requires("farmhash")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4 |
+| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -12528,7 +12528,7 @@ add_requires("libaesgm")
 | -- | -- |
 | Homepage | [https://libarchive.org/](https://libarchive.org/) |
 | License | BSD-2-Clause |
-| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2 |
+| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2, 3.7.7 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
 
@@ -15408,7 +15408,7 @@ add_requires("libxml2")
 | -- | -- |
 | Homepage | [http://xmlsoft.org/XSLT/](http://xmlsoft.org/XSLT/) |
 | License | MIT |
-| Versions | 1.1.34 |
+| Versions | v1.1.42 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libxslt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxslt/xmake.lua) |
 
@@ -19879,7 +19879,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6 |
 | Architectures | x64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -24528,7 +24528,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2 |
 | Architectures | arm64, x64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -26195,7 +26195,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27545,6 +27545,29 @@ xrepo install ti-cgt
 
 ```lua
 add_requires("ti-cgt")
+```
+
+
+### tidy-html5 (windows)
+
+
+| Description | *The granddaddy of HTML tools, with support for modern standards* |
+| -- | -- |
+| Homepage | [http://www.html-tidy.org](http://www.html-tidy.org) |
+| Versions | 5.9.20 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [tidy-html5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tidy-html5/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tidy-html5
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tidy-html5")
 ```
 
 
@@ -31376,7 +31399,7 @@ add_requires("zlib")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
-| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1 |
+| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1, 2.2.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 

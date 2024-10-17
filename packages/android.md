@@ -4768,7 +4768,7 @@ add_requires("faker-cxx")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4 |
+| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -9680,6 +9680,30 @@ xrepo install -p android [--ndk=/xxx] libxml2
 
 ```lua
 add_requires("libxml2")
+```
+
+
+### libxslt (android)
+
+
+| Description | *Libxslt is the XSLT C library developed for the GNOME project.* |
+| -- | -- |
+| Homepage | [http://xmlsoft.org/XSLT/](http://xmlsoft.org/XSLT/) |
+| License | MIT |
+| Versions | v1.1.42 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libxslt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxslt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libxslt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxslt")
 ```
 
 
@@ -16555,7 +16579,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17383,6 +17407,29 @@ xrepo install -p android [--ndk=/xxx] thrust
 
 ```lua
 add_requires("thrust")
+```
+
+
+### tidy-html5 (android)
+
+
+| Description | *The granddaddy of HTML tools, with support for modern standards* |
+| -- | -- |
+| Homepage | [http://www.html-tidy.org](http://www.html-tidy.org) |
+| Versions | 5.9.20 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [tidy-html5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tidy-html5/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tidy-html5
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tidy-html5")
 ```
 
 
@@ -19666,7 +19713,7 @@ add_requires("zlib")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
-| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1 |
+| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1, 2.2.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 
