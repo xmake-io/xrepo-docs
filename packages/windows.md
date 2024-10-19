@@ -4330,7 +4330,7 @@ add_requires("cpp-peglib")
 | -- | -- |
 | Homepage | [https://github.com/basiliscos/cpp-rotor](https://github.com/basiliscos/cpp-rotor) |
 | License | MIT |
-| Versions | v0.30 |
+| Versions | v0.30, v0.31 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cpp-rotor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-rotor/xmake.lua) |
 
@@ -7198,7 +7198,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -7416,7 +7416,7 @@ add_requires("faiss")
 | -- | -- |
 | Homepage | [https://github.com/eranpeer/FakeIt](https://github.com/eranpeer/FakeIt) |
 | License | MIT |
-| Versions | 2.4.0 |
+| Versions | 2.4.0, 2.4.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fakeit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fakeit/xmake.lua) |
 
@@ -10398,7 +10398,7 @@ add_requires("highfive")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2 |
+| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0 |
 | Architectures | x64, x86 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -19871,6 +19871,30 @@ add_requires("ogre-next")
 ```
 
 
+### ois (windows)
+
+
+| Description | *Official OIS repository. Object oriented Input System* |
+| -- | -- |
+| Homepage | [https://wgois.github.io/OIS/](https://wgois.github.io/OIS/) |
+| License | zlib |
+| Versions | v1.5.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [ois/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ois/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ois
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ois")
+```
+
+
 ### olive.c (windows)
 
 
@@ -20725,6 +20749,30 @@ xrepo install openvr
 
 ```lua
 add_requires("openvr")
+```
+
+
+### openxlsx (windows)
+
+
+| Description | *A C++ library for reading, writing, creating and modifying Microsoft Excel® (.xlsx) files.* |
+| -- | -- |
+| Homepage | [https://github.com/troldal/OpenXLSX](https://github.com/troldal/OpenXLSX) |
+| License | BSD-3-Clause |
+| Versions | 2024.10.17 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [openxlsx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openxlsx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openxlsx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openxlsx")
 ```
 
 
@@ -26218,7 +26266,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
