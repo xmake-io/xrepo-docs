@@ -7407,7 +7407,7 @@ add_requires("emhash")
 | Description | *A safe and fast high-level and low-level character input/output library for bare-metal and RTOS based embedded systems with a very small binary footprint.* |
 | -- | -- |
 | Homepage | [https://viatorus.github.io/emio/](https://viatorus.github.io/emio/) |
-| Versions | 0.4.0, 0.7.0 |
+| Versions | 0.4.0, 0.7.0, 0.8.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [emio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emio/xmake.lua) |
 
@@ -14972,7 +14972,7 @@ add_requires("libgeotiff")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1 |
+| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
@@ -30063,7 +30063,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34163,7 +34163,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563d105a2220 |
+| License | table: 0x5568b24edf60 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -35296,6 +35296,30 @@ xrepo install zasm
 
 ```lua
 add_requires("zasm")
+```
+
+
+### zbar (linux)
+
+
+| Description | *Library for reading bar codes from various sources* |
+| -- | -- |
+| Homepage | [https://github.com/mchehab/zbar](https://github.com/mchehab/zbar) |
+| License | LGPL-2.1 |
+| Versions | 0.23.93 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [zbar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zbar/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zbar
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zbar")
 ```
 
 
