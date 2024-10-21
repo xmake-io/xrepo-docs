@@ -8248,7 +8248,7 @@ add_requires("fmtlog")
 | -- | -- |
 | Homepage | [https://github.com/facebook/folly](https://github.com/facebook/folly) |
 | License | Apache-2.0 |
-| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01, 2024.07.08, 2024.07.15 |
+| Versions | 2021.06.28, 2021.08.02, 2021.11.01, 2022.02.14, 2022.04.25, 2022.08.29, 2023.11.20, 2024.02.26, 2024.03.04, 2024.03.11, 2024.03.18, 2024.03.25, 2024.04.01, 2024.06.10, 2024.06.17, 2024.06.24, 2024.07.01, 2024.07.08, 2024.07.15, 2024.10.07 |
 | Architectures | arm64, x86_64 |
 | Definition | [folly/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/folly/xmake.lua) |
 
@@ -31624,7 +31624,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e5d7585c60 |
+| License | table: 0x563d105a2220 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
