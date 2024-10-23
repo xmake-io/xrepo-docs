@@ -7557,6 +7557,30 @@ add_requires("kiwisolver")
 ```
 
 
+### klib (bsd)
+
+
+| Description | *A standalone and lightweight C library* |
+| -- | -- |
+| Homepage | [http://attractivechaos.github.io/klib/](http://attractivechaos.github.io/klib/) |
+| License | MIT |
+| Versions | 2024.06.03 |
+| Architectures | i386, x86_64 |
+| Definition | [klib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/klib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install klib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("klib")
+```
+
+
 
 ## l
 ### lame (bsd)
@@ -9544,7 +9568,7 @@ add_requires("libuuid")
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
 | License | MIT |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.43.0, v1.44.1, v1.45.0, v1.46.0, v1.47.0, v1.48.0, v1.49.0, v1.49.1 |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.43.0, v1.44.1, v1.45.0, v1.46.0, v1.47.0, v1.48.0, v1.49.0, v1.49.1, v1.49.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -11204,7 +11228,7 @@ add_requires("meowhash")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0 |
 | Architectures | i386, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -16733,7 +16757,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17618,7 +17642,7 @@ add_requires("theora")
 | -- | -- |
 | Homepage | [https://www.thorvg.org](https://www.thorvg.org) |
 | License | MIT |
-| Versions | v0.13.2, v0.13.5, v0.13.6, v0.13.8, v0.14.1, v0.14.2, v0.14.3, v0.14.6, v0.14.10, v0.15.1 |
+| Versions | v0.13.2, v0.13.5, v0.13.6, v0.13.8, v0.14.1, v0.14.2, v0.14.3, v0.14.6, v0.14.10, v0.15.1, v0.15.2 |
 | Architectures | i386, x86_64 |
 | Definition | [thorvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thorvg/xmake.lua) |
 
