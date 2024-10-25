@@ -1276,7 +1276,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-event-stream](https://github.com/awslabs/aws-c-event-stream) |
 | License | Apache-2.0 |
-| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3 |
+| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-event-stream/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-event-stream/xmake.lua) |
 
@@ -1324,7 +1324,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -1420,7 +1420,7 @@ add_requires("aws-c-sdkutils")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
-| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20 |
+| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
@@ -4210,7 +4210,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -9750,8 +9750,8 @@ add_requires("gperf")
 | -- | -- |
 | Homepage | [https://github.com/gperftools/gperftools](https://github.com/gperftools/gperftools) |
 | License | BSD-3-Clause |
-| Versions | 2.10 |
-| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Versions | 2.10, 2.11, 2.12, 2.13, 2.14, 2.15, 2.16 |
+| Architectures | arm, arm64ec, x64, x86 |
 | Definition | [gperftools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gperftools/xmake.lua) |
 
 ##### Install command
@@ -10085,7 +10085,7 @@ add_requires("gumbo-parser")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
-| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2 |
+| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
@@ -11020,7 +11020,8 @@ add_requires("imguitextselect")
 | Description | *Immediate mode 3D gizmo for scene editing and other controls based on Dear Imgui* |
 | -- | -- |
 | Homepage | [https://github.com/CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) |
-| Versions | 1.83, 1.89+WIP |
+| License | MIT |
+| Versions | 1.83, 1.89+wip, 1.91.3+wip |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [imguizmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imguizmo/xmake.lua) |
 
@@ -11307,7 +11308,7 @@ add_requires("interface99")
 | -- | -- |
 | Homepage | [https://github.com/chfast/intx](https://github.com/chfast/intx) |
 | License | Apache-2.0 |
-| Versions | v0.11.0, v0.12.0 |
+| Versions | v0.11.0, v0.12.0, v0.12.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [intx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/intx/xmake.lua) |
 
@@ -12932,7 +12933,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20, v1.21 |
+| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20, v1.21, v1.22 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -15217,7 +15218,7 @@ add_requires("libva")
 | -- | -- |
 | Homepage | [https://libvips.github.io/libvips/](https://libvips.github.io/libvips/) |
 | License | LGPL-2.1 |
-| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4 |
+| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libvips/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvips/xmake.lua) |
 
@@ -22285,11 +22286,11 @@ add_requires("polyclipping")
 ### polyhook2 (windows)
 
 
-| Description | *C++17, x86/x64 Hooking Libary v2.0* |
+| Description | *C++20, x86/x64 Hooking Libary v2.0* |
 | -- | -- |
 | Homepage | [https://github.com/stevemk14ebr/PolyHook_2_0](https://github.com/stevemk14ebr/PolyHook_2_0) |
 | License | MIT |
-| Versions | 2023.7.15 |
+| Versions | 2023.7.15, 2024.8.1 |
 | Architectures | x64, x86 |
 | Definition | [polyhook2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/polyhook2/xmake.lua) |
 
@@ -26290,7 +26291,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28482,7 +28483,7 @@ add_requires("trantor")
 | -- | -- |
 | Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
 | License | MIT |
-| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2 |
+| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
 
@@ -28937,7 +28938,7 @@ add_requires("unzip")
 | -- | -- |
 | Homepage | [https://upa-url.github.io/docs/](https://upa-url.github.io/docs/) |
 | License | BSD-2-Clause |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.0.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [upa-url/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/upa-url/xmake.lua) |
 
