@@ -1469,7 +1469,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10</td>
+<td>v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -24213,7 +24213,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -26791,6 +26791,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("uni_algo")
 </code></pre>
+<h3 id="unicorncross">unicorn (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, S390x, TriCore, X86)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://www.unicorn-engine.org">http://www.unicorn-engine.org</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.1.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unicorn/xmake.lua">unicorn/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] unicorn
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("unicorn")
+</code></pre>
 <h3 id="unitscross">units (cross)</h3>
 <table>
 <thead>
@@ -27239,7 +27276,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30</td>
+<td>2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21</td>
 </tr>
 <tr>
 <td>Architectures</td>
