@@ -1204,7 +1204,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -8754,7 +8754,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3 |
 | Architectures | x64, x86 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -17644,7 +17644,7 @@ add_requires("miniball")
 | -- | -- |
 | Homepage | [https://github.com/emoon/minifb](https://github.com/emoon/minifb) |
 | License | MIT |
-| Versions | 2022.11.12 |
+| Versions | 2023.09.21 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [minifb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minifb/xmake.lua) |
 
@@ -21501,7 +21501,7 @@ add_requires("pdfhummus")
 | -- | -- |
 | Homepage | [https://www.msweet.org/pdfio](https://www.msweet.org/pdfio) |
 | License | Apache-2.0 |
-| Versions | v1.3.0, v1.3.1 |
+| Versions | v1.3.0, v1.3.1, v1.3.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pdfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfio/xmake.lua) |
 
@@ -26315,7 +26315,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
