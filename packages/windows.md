@@ -129,7 +129,7 @@ add_requires("actor-framework")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -15076,7 +15076,7 @@ add_requires("libtool")
 | -- | -- |
 | Homepage | [https://pytorch.org/](https://pytorch.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1, v1.11.0, v1.12.1, v2.1.0, v2.1.2, v2.2.2, v2.3.1, v2.4.0 |
+| Versions | v1.8.0, v1.8.1, v1.8.2, v1.9.0, v1.9.1, v1.11.0, v1.12.1, v2.1.0, v2.1.2, v2.2.2, v2.3.1, v2.4.0, v2.5.0 |
 | Architectures | x64 |
 | Definition | [libtorch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtorch/xmake.lua) |
 
@@ -16358,7 +16358,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3 |
+| Versions | 2.14, 4.0, 4.3, 4.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -24696,7 +24696,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3 |
 | Architectures | arm64, x64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -26363,7 +26363,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
