@@ -15641,6 +15641,30 @@ add_requires("lightgbm")
 ```
 
 
+### lighthook (windows)
+
+
+| Description | *Single-header, minimalistic, cross-platform hook library written in pure C * |
+| -- | -- |
+| Homepage | [https://github.com/SamuelTulach/LightHook](https://github.com/SamuelTulach/LightHook) |
+| License | MIT |
+| Versions | 2 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [lighthook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lighthook/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lighthook
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lighthook")
+```
+
+
 ### lightmapper (windows)
 
 
