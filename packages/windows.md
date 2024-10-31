@@ -1558,6 +1558,30 @@ add_requires("backward-cpp")
 ```
 
 
+### barkeep (windows)
+
+
+| Description | *Small C++ header to display async animations, counters, and progress bars* |
+| -- | -- |
+| Homepage | [https://oir.github.io/barkeep/](https://oir.github.io/barkeep/) |
+| License | Apache-2.0 |
+| Versions | v0.1.3 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [barkeep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/barkeep/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install barkeep
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("barkeep")
+```
+
+
 ### base-n (windows)
 
 
@@ -23981,7 +24005,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://rapidfuzz.github.io/rapidfuzz-cpp](https://rapidfuzz.github.io/rapidfuzz-cpp) |
 | License | MIT |
-| Versions | v3.0.2, v3.0.4, v3.0.5 |
+| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [rapidfuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidfuzz/xmake.lua) |
 
@@ -26387,7 +26411,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
