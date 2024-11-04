@@ -1386,6 +1386,30 @@ add_requires("blend2d")
 ```
 
 
+### boost (android)
+
+
+| Description | *Collection of portable C++ source libraries.* |
+| -- | -- |
+| Homepage | [https://www.boost.org/](https://www.boost.org/) |
+| License | BSL-1.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] boost
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost")
+```
+
+
 ### boost_di (android)
 
 
@@ -1430,6 +1454,30 @@ xrepo install -p android [--ndk=/xxx] boost_sml
 
 ```lua
 add_requires("boost_sml")
+```
+
+
+### boostdep (android)
+
+
+| Description | *A tool to create Boost module dependency reports* |
+| -- | -- |
+| Homepage | [https://boost.org/tools/boostdep](https://boost.org/tools/boostdep) |
+| License | BSL-1.0 |
+| Versions | 2024.10.07 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [boostdep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boostdep/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] boostdep
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boostdep")
 ```
 
 
@@ -7254,7 +7302,7 @@ add_requires("ixwebsocket")
 | -- | -- |
 | Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1, v4.0.2, v5.0.0, v5.1.0 |
+| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1, v4.0.2, v5.0.0, v5.1.0, v5.2.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
 
@@ -16700,7 +16748,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
