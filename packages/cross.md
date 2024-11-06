@@ -6224,7 +6224,7 @@ add_requires("graaf")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -9924,6 +9924,30 @@ add_requires("lodepng")
 ```
 
 
+### log4cplus (cross)
+
+
+| Description | *log4cplus is a simple to use C++ logging API providing thread-safe, flexible, and arbitrarily granular control over log management and configuration.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/log4cplus/](https://sourceforge.net/projects/log4cplus/) |
+| License | BSD-2-Clause |
+| Versions | 2.0.6, 2.0.7, 2.1.1, 2.1.2 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [log4cplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/log4cplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] log4cplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("log4cplus")
+```
+
+
 ### loguru (cross)
 
 
@@ -10598,7 +10622,7 @@ add_requires("mathter")
 | -- | -- |
 | Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
 | License | BSD-2-Clause |
-| Versions | v1.5.26, v1.5.27 |
+| Versions | v1.5.26, v1.5.27, v1.5.28 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
 
@@ -10812,7 +10836,7 @@ add_requires("micro-gl")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
@@ -13437,7 +13461,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8 |
+| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 
@@ -17876,7 +17900,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.0.6 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 

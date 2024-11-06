@@ -10674,7 +10674,7 @@ add_requires("grpc")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -14425,7 +14425,8 @@ add_requires("libdom")
 | Description | *libdrm - userspace library for drm (direct rendering manager)* |
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/mesa/drm](https://gitlab.freedesktop.org/mesa/drm) |
-| Versions | 2.4.118 |
+| License | MIT |
+| Versions | 2.4.118, 2.4.123 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libdrm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdrm/xmake.lua) |
 
@@ -19209,7 +19210,7 @@ add_requires("lodepng")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/log4cplus/](https://sourceforge.net/projects/log4cplus/) |
 | License | BSD-2-Clause |
-| Versions | 2.0.6, 2.0.7, 2.1.1 |
+| Versions | 2.0.6, 2.0.7, 2.1.1, 2.1.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [log4cplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/log4cplus/xmake.lua) |
 
@@ -20254,7 +20255,7 @@ add_requires("mathter")
 | -- | -- |
 | Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
 | License | BSD-2-Clause |
-| Versions | v1.5.26, v1.5.27 |
+| Versions | v1.5.26, v1.5.27, v1.5.28 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
 
@@ -20708,7 +20709,7 @@ add_requires("microprofile")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
@@ -25756,7 +25757,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8 |
+| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 
@@ -33213,7 +33214,7 @@ add_requires("utf8proc")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.0.6 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
@@ -34358,7 +34359,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56375403d5a0 |
+| License | table: 0x55cb7de920f0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

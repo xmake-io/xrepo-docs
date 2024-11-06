@@ -6317,7 +6317,7 @@ add_requires("graaf")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -8153,6 +8153,30 @@ xrepo install libdom
 
 ```lua
 add_requires("libdom")
+```
+
+
+### libdrm (bsd)
+
+
+| Description | *libdrm - userspace library for drm (direct rendering manager)* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/mesa/drm](https://gitlab.freedesktop.org/mesa/drm) |
+| License | MIT |
+| Versions | 2.4.118, 2.4.123 |
+| Architectures | i386, x86_64 |
+| Definition | [libdrm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdrm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libdrm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdrm")
 ```
 
 
@@ -10461,6 +10485,30 @@ add_requires("lodepng")
 ```
 
 
+### log4cplus (bsd)
+
+
+| Description | *log4cplus is a simple to use C++ logging API providing thread-safe, flexible, and arbitrarily granular control over log management and configuration.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/log4cplus/](https://sourceforge.net/projects/log4cplus/) |
+| License | BSD-2-Clause |
+| Versions | 2.0.6, 2.0.7, 2.1.1, 2.1.2 |
+| Architectures | i386, x86_64 |
+| Definition | [log4cplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/log4cplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install log4cplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("log4cplus")
+```
+
+
 ### loguru (bsd)
 
 
@@ -11229,7 +11277,7 @@ add_requires("mathter")
 | -- | -- |
 | Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
 | License | BSD-2-Clause |
-| Versions | v1.5.26, v1.5.27 |
+| Versions | v1.5.26, v1.5.27, v1.5.28 |
 | Architectures | i386, x86_64 |
 | Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
 
@@ -11491,7 +11539,7 @@ add_requires("microprofile")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
@@ -14305,7 +14353,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8 |
+| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9 |
 | Architectures | i386, x86_64 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 
@@ -18933,7 +18981,7 @@ add_requires("utf8proc")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.0.6 |
 | Architectures | i386, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
