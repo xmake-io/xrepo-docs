@@ -868,7 +868,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -892,7 +892,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
 | License | Apache-2.0 |
-| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19 |
+| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
 
@@ -12524,7 +12524,7 @@ add_requires("nod")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-api-headers](https://github.com/nodejs/node-api-headers) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0, v1.3.0 |
+| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [node-api-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-api-headers/xmake.lua) |
 
@@ -14139,6 +14139,30 @@ xrepo install -p android [--ndk=/xxx] plusaes
 
 ```lua
 add_requires("plusaes")
+```
+
+
+### plutosvg (android)
+
+
+| Description | *Tiny SVG rendering library in C* |
+| -- | -- |
+| Homepage | [https://github.com/sammycage/plutosvg](https://github.com/sammycage/plutosvg) |
+| License | MIT |
+| Versions | v0.0.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [plutosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutosvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] plutosvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plutosvg")
 ```
 
 
@@ -16035,7 +16059,7 @@ add_requires("rxcpp")
 | -- | -- |
 | Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
 | License | Apache-2.0 |
-| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6 |
+| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
 
@@ -16821,7 +16845,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
