@@ -4875,7 +4875,7 @@ add_requires("cppcodec")
 | Description | *A personal experimental C++ Syntax 2 -> Syntax 1 compiler* |
 | -- | -- |
 | Homepage | [https://github.com/hsutter/cppfront](https://github.com/hsutter/cppfront) |
-| Versions | v0.7.0, v0.7.2, v0.7.4 |
+| Versions | v0.7.0, v0.7.2, v0.7.4, v0.8.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppfront/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppfront/xmake.lua) |
 
@@ -5090,7 +5090,7 @@ add_requires("cpr")
 | -- | -- |
 | Homepage | [https://github.com/google/cpu_features](https://github.com/google/cpu_features) |
 | License | Apache-2.0 |
-| Versions | v0.6.0, v0.7.0 |
+| Versions | v0.6.0, v0.7.0, v0.9.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpu-features/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpu-features/xmake.lua) |
 
@@ -7670,7 +7670,7 @@ add_requires("ensmallen")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
-| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1, v3.13.2 |
+| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1, v3.13.2, v3.14.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -30282,7 +30282,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34383,7 +34383,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c7873387f0 |
+| License | table: 0x55cf229ec520 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

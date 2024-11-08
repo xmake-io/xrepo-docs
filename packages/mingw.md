@@ -3371,6 +3371,30 @@ add_requires("cppunit")
 ```
 
 
+### cpu-features (mingw)
+
+
+| Description | *A cross platform C99 library to get cpu features at runtime.* |
+| -- | -- |
+| Homepage | [https://github.com/google/cpu_features](https://github.com/google/cpu_features) |
+| License | Apache-2.0 |
+| Versions | v0.6.0, v0.7.0, v0.9.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [cpu-features/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpu-features/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] cpu-features
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpu-features")
+```
+
+
 ### cpuinfo (mingw)
 
 
@@ -5175,7 +5199,7 @@ add_requires("enoki")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
-| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1, v3.13.2 |
+| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1, v3.13.2, v3.14.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -18800,7 +18824,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
