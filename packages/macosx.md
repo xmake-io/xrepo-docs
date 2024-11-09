@@ -1370,7 +1370,7 @@ add_requires("aws-c-mqtt")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -1394,7 +1394,7 @@ add_requires("aws-c-s3")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
 | License | Apache-2.0 |
-| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0 |
+| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
 
@@ -17902,7 +17902,7 @@ add_requires("luau")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
 | License | MIT |
-| Versions | v2.3.5, v2.3.9, v2.4.0, v2.4.1 |
+| Versions | v2.3.5, v2.3.9, v2.4.0, v2.4.1, v3.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
 
@@ -19154,6 +19154,30 @@ xrepo install microsoft-proxy
 
 ```lua
 add_requires("microsoft-proxy")
+```
+
+
+### microsoft-seal (macosx)
+
+
+| Description | *Microsoft SEAL is an easy-to-use and powerful homomorphic encryption library.* |
+| -- | -- |
+| Homepage | [https://www.microsoft.com/en-us/research/group/cryptography-research/](https://www.microsoft.com/en-us/research/group/cryptography-research/) |
+| License | MIT |
+| Versions | v4.1.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [microsoft-seal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-seal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install microsoft-seal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-seal")
 ```
 
 
@@ -26313,7 +26337,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -28003,7 +28027,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31631,7 +31655,7 @@ add_requires("wasm-micro-runtime")
 | -- | -- |
 | Homepage | [https://github.com/e-dant/watcher](https://github.com/e-dant/watcher) |
 | License | MIT |
-| Versions | 0.9.5, 0.11.0, 0.12.2 |
+| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [watcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/watcher/xmake.lua) |
 
@@ -31820,7 +31844,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5568e65ea590 |
+| License | table: 0x5588d47ec8b0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
