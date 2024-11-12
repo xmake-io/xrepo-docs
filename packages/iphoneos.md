@@ -1051,6 +1051,30 @@ add_requires("bdwgc")
 ```
 
 
+### benchmark (iphoneos)
+
+
+| Description | *A microbenchmark support library* |
+| -- | -- |
+| Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
+| License | Apache-2.0 |
+| Versions | v1.5.2, v1.5.3, v1.5.4, v1.5.5, v1.5.6, v1.6.0, v1.6.1, v1.7.0, v1.7.1, v1.8.0, v1.8.3, v1.8.4, v1.8.5, v1.9.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos benchmark
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("benchmark")
+```
+
+
 ### bento4 (iphoneos)
 
 
@@ -2228,7 +2252,7 @@ add_requires("clara")
 | -- | -- |
 | Homepage | [https://github.com/daniele77/cli](https://github.com/daniele77/cli) |
 | License | BSL-1.0 |
-| Versions | v2.0.0, v2.1.0 |
+| Versions | v2.0.0, v2.1.0, v2.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli/xmake.lua) |
 
@@ -16245,7 +16269,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
