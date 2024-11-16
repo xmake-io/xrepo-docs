@@ -1420,7 +1420,7 @@ add_requires("aws-c-sdkutils")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
-| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0 |
+| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0, v0.2.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
@@ -8086,7 +8086,7 @@ add_requires("flatbuffers")
 | -- | -- |
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
-| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10, v3.2.11, v3.2.12, v4.0.0, v4.0.1, v4.0.2 |
+| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10, v3.2.11, v3.2.12, v4.0.0, v4.0.1, v4.0.2, v4.0.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
@@ -10494,7 +10494,7 @@ add_requires("highfive")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0 |
+| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1 |
 | Architectures | x64, x86 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -16597,7 +16597,7 @@ add_requires("maddy")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
-| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2, v0.9.0, v0.9.5, v0.9.6 |
+| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2, v0.9.0, v0.9.5, v0.9.6, v0.9.7 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 
@@ -26122,6 +26122,30 @@ add_requires("sockpp")
 ```
 
 
+### soil2 (windows)
+
+
+| Description | *SOIL2 is a tiny C library used primarily for uploading textures into OpenGL.* |
+| -- | -- |
+| Homepage | [https://github.com/SpartanJ/SOIL2](https://github.com/SpartanJ/SOIL2) |
+| License | MIT-0 |
+| Versions | 2024.10.14 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [soil2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soil2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soil2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soil2")
+```
+
+
 ### sokol (windows)
 
 
@@ -26557,7 +26581,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
