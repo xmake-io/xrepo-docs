@@ -8182,30 +8182,6 @@ add_requires("jansson")
 ```
 
 
-### jnipp (mingw)
-
-
-| Description | *C++ wrapper for the Java Native Interface* |
-| -- | -- |
-| Homepage | [https://github.com/mitchdowd/jnipp](https://github.com/mitchdowd/jnipp) |
-| License | MIT |
-| Versions | v1.0.0 |
-| Architectures | x86_64 |
-| Definition | [jnipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jnipp/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] jnipp
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("jnipp")
-```
-
-
 ### joltphysics (mingw)
 
 
@@ -14501,30 +14477,6 @@ add_requires("openh264")
 ```
 
 
-### openjdk (mingw)
-
-
-| Description | *Java Development Kit builds, from Oracle* |
-| -- | -- |
-| Homepage | [https://jdk.java.net](https://jdk.java.net) |
-| License | GPL-2.0 |
-| Versions | 17, 21 |
-| Architectures | x86_64 |
-| Definition | [openjdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjdk/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] openjdk
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("openjdk")
-```
-
-
 ### openssl (mingw)
 
 
@@ -18945,7 +18897,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
