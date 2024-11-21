@@ -3106,6 +3106,30 @@ add_requires("cppp-reiconv")
 ```
 
 
+### cppzmq (android)
+
+
+| Description | *Header-only C++ binding for libzmq* |
+| -- | -- |
+| Homepage | [http://www.zeromq.org/](http://www.zeromq.org/) |
+| License | MIT |
+| Versions | v4.8.1, v4.9.0, v4.10.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cppzmq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppzmq/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cppzmq
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppzmq")
+```
+
+
 ### cpu-features (android)
 
 
@@ -16965,7 +16989,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20019,6 +20043,30 @@ xrepo install -p android [--ndk=/xxx] zbar
 
 ```lua
 add_requires("zbar")
+```
+
+
+### zeromq (android)
+
+
+| Description | *High-performance, asynchronous messaging library* |
+| -- | -- |
+| Homepage | [https://zeromq.org/](https://zeromq.org/) |
+| License | MPL-2.0 |
+| Versions | 4.3.2, 4.3.4, 4.3.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [zeromq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zeromq/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] zeromq
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zeromq")
 ```
 
 
