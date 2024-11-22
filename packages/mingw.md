@@ -964,7 +964,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0 |
+| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3 |
 | Architectures | arm, arm64, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -988,7 +988,7 @@ add_requires("aws-c-common")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3 |
 | Architectures | arm, arm64, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -5008,7 +5008,7 @@ add_requires("effolkronium-random")
 | -- | -- |
 | Homepage | [https://github.com/SpartanJ/efsw](https://github.com/SpartanJ/efsw) |
 | License | MIT |
-| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0 |
+| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0, 1.4.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [efsw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/efsw/xmake.lua) |
 
@@ -17321,7 +17321,7 @@ add_requires("raylib-cpp")
 | -- | -- |
 | Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
 | License | BSD-3-Clause |
-| Versions | v4.3.0, v4.4.0, v4.5.0 |
+| Versions | v4.3.0, v4.4.0, v4.5.0, v5.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
 
@@ -18945,7 +18945,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
