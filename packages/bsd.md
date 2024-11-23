@@ -143,6 +143,30 @@ add_requires("aitoolkit")
 ```
 
 
+### alembic (bsd)
+
+
+| Description | *Open framework for storing and sharing scene data that includes a C++ library, a file format, and client plugins and applications.* |
+| -- | -- |
+| Homepage | [https://alembic.io/](https://alembic.io/) |
+| License | BSD-3-Clause |
+| Versions | 1.8.5, 1.8.6, 1.8.7 |
+| Architectures | i386, x86_64 |
+| Definition | [alembic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alembic/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install alembic
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("alembic")
+```
+
+
 ### algo_plus (bsd)
 
 
@@ -13369,6 +13393,30 @@ add_requires("opencore-amr")
 ```
 
 
+### openexr (bsd)
+
+
+| Description | *OpenEXR provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry.* |
+| -- | -- |
+| Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
+| License | BSD-3-Clause |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2 |
+| Architectures | i386, x86_64 |
+| Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openexr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openexr")
+```
+
+
 ### openfbx (bsd)
 
 
@@ -17239,7 +17287,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
