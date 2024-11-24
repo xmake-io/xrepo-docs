@@ -6122,29 +6122,6 @@ add_requires("glu")
 ```
 
 
-### glut (msys)
-
-
-| Description | *OpenGL utility toolkit* |
-| -- | -- |
-| Homepage | [https://www.opengl.org/resources/libraries/glut/](https://www.opengl.org/resources/libraries/glut/) |
-| Versions |  |
-| Architectures | i386, x86_64 |
-| Definition | [glut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glut/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install glut
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("glut")
-```
-
-
 ### glx (msys)
 
 
@@ -15915,7 +15892,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
