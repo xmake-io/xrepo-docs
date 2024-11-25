@@ -10212,7 +10212,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5 |
 | Architectures | i386, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -11395,6 +11395,29 @@ xrepo install msgpack-cxx
 
 ```lua
 add_requires("msgpack-cxx")
+```
+
+
+### msvc (msys)
+
+
+| Description | *Microsoft Visual C/C++ Compiler* |
+| -- | -- |
+| Homepage | [https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/) |
+| Versions | 14.29.16+11, 14.30.17+0, 14.31.17+1, 14.32.17+2, 14.33.17+3, 14.34.17+4, 14.35.17+5, 14.36.17+6, 14.37.17+7, 14.38.17+8, 14.39.17+9, 14.40.17+10, 14.41.17+11, 14.42.17+12 |
+| Architectures | i386, x86_64 |
+| Definition | [msvc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msvc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install msvc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msvc")
 ```
 
 
@@ -13570,6 +13593,29 @@ xrepo install polyclipping
 
 ```lua
 add_requires("polyclipping")
+```
+
+
+### portable_build_tools (msys)
+
+
+| Description | *Portable VS Build Tools installer* |
+| -- | -- |
+| Homepage | [https://github.com/Data-Oriented-House/PortableBuildTools](https://github.com/Data-Oriented-House/PortableBuildTools) |
+| Versions | v2.8 |
+| Architectures | i386, x86_64 |
+| Definition | [portable_build_tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/portable_build_tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install portable_build_tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("portable_build_tools")
 ```
 
 
@@ -15892,7 +15938,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
