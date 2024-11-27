@@ -5032,7 +5032,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -11376,6 +11376,30 @@ add_requires("microprofile")
 ```
 
 
+### microsoft-apsi (android)
+
+
+| Description | *APSI is a C++ library for Asymmetric (unlabeled or labeled) Private Set Intersection.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/APSI](https://github.com/microsoft/APSI) |
+| License | MIT |
+| Versions | v0.12.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [microsoft-apsi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-apsi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] microsoft-apsi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microsoft-apsi")
+```
+
+
 ### microsoft-gsl (android)
 
 
@@ -17038,7 +17062,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
