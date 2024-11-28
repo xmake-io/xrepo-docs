@@ -1515,7 +1515,7 @@ add_requires("aws-crt-cpp")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -17354,6 +17354,30 @@ add_requires("mem")
 ```
 
 
+### memorymodulepp (windows)
+
+
+| Description | *MemoryModulePP, used to load a DLL from memory. MemoryModulePP is compatible with Win32 API and supports exception handling.* |
+| -- | -- |
+| Homepage | [https://github.com/bb107/MemoryModulePP](https://github.com/bb107/MemoryModulePP) |
+| License | MIT |
+| Versions | 2024.11.7 |
+| Architectures | x64, x86 |
+| Definition | [memorymodulepp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/memorymodulepp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install memorymodulepp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("memorymodulepp")
+```
+
+
 ### memplumber (windows)
 
 
@@ -19951,7 +19975,7 @@ add_requires("ntkernel-error-category")
 | -- | -- |
 | Homepage | [https://immediate-mode-ui.github.io/Nuklear/doc/index.html](https://immediate-mode-ui.github.io/Nuklear/doc/index.html) |
 | License | MIT |
-| Versions | 4.10.5, 4.12.0 |
+| Versions | 4.10.5, 4.12.0, 4.12.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [nuklear/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nuklear/xmake.lua) |
 
@@ -22483,7 +22507,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutosvg](https://github.com/sammycage/plutosvg) |
 | License | MIT |
-| Versions | v0.0.2 |
+| Versions | v0.0.2, v0.0.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [plutosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutosvg/xmake.lua) |
 
@@ -26675,7 +26699,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://github.com/asg017/sqlite-vec](https://github.com/asg017/sqlite-vec) |
 | License | Apache-2.0 |
-| Versions | 0.1.3 |
+| Versions | 0.1.3, 0.1.6 |
 | Architectures | arm, arm64, arm64ec, x64 |
 | Definition | [sqlite-vec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite-vec/xmake.lua) |
 
@@ -26699,7 +26723,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

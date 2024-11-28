@@ -13138,7 +13138,7 @@ add_requires("ntkernel-error-category")
 | -- | -- |
 | Homepage | [https://immediate-mode-ui.github.io/Nuklear/doc/index.html](https://immediate-mode-ui.github.io/Nuklear/doc/index.html) |
 | License | MIT |
-| Versions | 4.10.5, 4.12.0 |
+| Versions | 4.10.5, 4.12.0, 4.12.2 |
 | Architectures | i386, x86_64 |
 | Definition | [nuklear/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nuklear/xmake.lua) |
 
@@ -14667,7 +14667,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutosvg](https://github.com/sammycage/plutosvg) |
 | License | MIT |
-| Versions | v0.0.2 |
+| Versions | v0.0.2, v0.0.3 |
 | Architectures | i386, x86_64 |
 | Definition | [plutosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutosvg/xmake.lua) |
 
@@ -17288,7 +17288,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
