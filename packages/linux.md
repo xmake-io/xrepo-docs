@@ -12973,7 +12973,7 @@ add_requires("json.h")
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
 | License | BSL-1.0 |
-| Versions | v0.158.0, v0.170.2, v0.176.0, v0.177.0 |
+| Versions | v0.170.2, v0.176.0, v0.177.0, v0.178.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
@@ -13071,7 +13071,7 @@ add_requires("jwt-cpp")
 | -- | -- |
 | Homepage | [https://kahip.github.io/](https://kahip.github.io/) |
 | License | MIT |
-| Versions | v3.15, v3.16 |
+| Versions | v3.15, v3.16, v3.17 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kahip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kahip/xmake.lua) |
 
@@ -23182,7 +23182,7 @@ add_requires("nuklear")
 | -- | -- |
 | Homepage | [https://github.com/numactl/numactl](https://github.com/numactl/numactl) |
 | License | LGPL-2.1 |
-| Versions | 2.0.14, 2.0.18 |
+| Versions | 2.0.14, 2.0.18, 2.0.19 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [numactl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/numactl/xmake.lua) |
 
@@ -29642,7 +29642,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -30428,7 +30428,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34529,7 +34529,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56503911a020 |
+| License | table: 0x55dafdc3b770 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
