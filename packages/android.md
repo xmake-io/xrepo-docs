@@ -3848,6 +3848,30 @@ add_requires("date")
 ```
 
 
+### dav1d (android)
+
+
+| Description | *dav1d is a new AV1 cross-platform decoder, open-source, and focused on speed, size and correctness.* |
+| -- | -- |
+| Homepage | [https://www.videolan.org/projects/dav1d.html](https://www.videolan.org/projects/dav1d.html) |
+| License | BSD-2-Clause |
+| Versions | 0.9.0, 1.1.0, 1.4.3, 1.5.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [dav1d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dav1d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] dav1d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dav1d")
+```
+
+
 ### daw_header_libraries (android)
 
 
@@ -17206,7 +17230,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -19372,6 +19396,30 @@ xrepo install -p android [--ndk=/xxx] vladimirshaleev-ipaddress
 
 ```lua
 add_requires("vladimirshaleev-ipaddress")
+```
+
+
+### vmaf (android)
+
+
+| Description | *Perceptual video quality assessment based on multi-method fusion.* |
+| -- | -- |
+| Homepage | [https://github.com/Netflix/vmaf](https://github.com/Netflix/vmaf) |
+| License | BSD-2-Clause |
+| Versions | v3.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [vmaf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vmaf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] vmaf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vmaf")
 ```
 
 

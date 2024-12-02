@@ -3394,6 +3394,30 @@ add_requires("date")
 ```
 
 
+### dav1d (wasm)
+
+
+| Description | *dav1d is a new AV1 cross-platform decoder, open-source, and focused on speed, size and correctness.* |
+| -- | -- |
+| Homepage | [https://www.videolan.org/projects/dav1d.html](https://www.videolan.org/projects/dav1d.html) |
+| License | BSD-2-Clause |
+| Versions | 0.9.0, 1.1.0, 1.4.3, 1.5.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [dav1d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dav1d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm dav1d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dav1d")
+```
+
+
 ### daw_header_libraries (wasm)
 
 
@@ -14653,7 +14677,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
