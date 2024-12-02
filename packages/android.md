@@ -2126,6 +2126,30 @@ add_requires("cgetopt")
 ```
 
 
+### cgif (android)
+
+
+| Description | *GIF encoder written in C* |
+| -- | -- |
+| Homepage | [https://github.com/dloebl/cgif](https://github.com/dloebl/cgif) |
+| License | MIT |
+| Versions | v0.4.0, v0.4.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [cgif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgif/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cgif
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cgif")
+```
+
+
 ### cglm (android)
 
 
@@ -8183,6 +8207,30 @@ add_requires("libdeflate")
 ```
 
 
+### libdicom (android)
+
+
+| Description | *C library for reading DICOM files* |
+| -- | -- |
+| Homepage | [https://libdicom.readthedocs.io](https://libdicom.readthedocs.io) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [libdicom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdicom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libdicom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdicom")
+```
+
+
 ### libdisasm (android)
 
 
@@ -13259,6 +13307,30 @@ add_requires("opengl-headers")
 ```
 
 
+### openh264 (android)
+
+
+| Description | *OpenH264 is a codec library which supports H.264 encoding and decoding.* |
+| -- | -- |
+| Homepage | [http://www.openh264.org/](http://www.openh264.org/) |
+| License | BSD-2-Clause |
+| Versions | v2.1.1, v2.4.1, v2.5.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [openh264/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openh264/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] openh264
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openh264")
+```
+
+
 ### openrestry-luajit (android)
 
 
@@ -17134,7 +17206,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17491,7 +17563,7 @@ add_requires("stringbuilder")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10, v3.10.11, v3.11.0 |
 | Architectures | arm64-v8a, armeabi, mip64, mips, x86, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
