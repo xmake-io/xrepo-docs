@@ -17206,7 +17206,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17986,6 +17986,30 @@ xrepo install -p android [--ndk=/xxx] theora
 
 ```lua
 add_requires("theora")
+```
+
+
+### thorvg (android)
+
+
+| Description | *Thor Vector Graphics is a lightweight portable library used for drawing vector-based scenes and animations including SVG and Lottie. It can be freely utilized across various software platforms and applications to visualize graphical contents.* |
+| -- | -- |
+| Homepage | [https://www.thorvg.org](https://www.thorvg.org) |
+| License | MIT |
+| Versions | v0.13.2, v0.13.5, v0.13.6, v0.13.8, v0.14.1, v0.14.2, v0.14.3, v0.14.6, v0.14.10, v0.15.1, v0.15.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [thorvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thorvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] thorvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("thorvg")
 ```
 
 
