@@ -344,7 +344,7 @@ add_requires("amqp-cpp")
 | Description | *AMReX: Software Framework for Block Structured AMR* |
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
-| Versions | 24.09 |
+| Versions | 24.09, 24.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
@@ -1014,7 +1014,7 @@ add_requires("atomic_queue")
 | -- | -- |
 | Homepage | [https://github.com/adamstark/AudioFile](https://github.com/adamstark/AudioFile) |
 | License | MIT |
-| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.1.0, 1.1.1 |
+| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.1.0, 1.1.1, 1.1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [audiofile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/audiofile/xmake.lua) |
 
@@ -8822,7 +8822,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -13572,7 +13572,7 @@ add_requires("libelfin")
 | -- | -- |
 | Homepage | [https://github.com/ph3at/libenvpp](https://github.com/ph3at/libenvpp) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4 |
+| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4, v1.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libenvpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libenvpp/xmake.lua) |
 
@@ -18356,7 +18356,7 @@ add_requires("magnum-plugins")
 | -- | -- |
 | Homepage | [https://github.com/karastojko/mailio](https://github.com/karastojko/mailio) |
 | License | BSD |
-| Versions | 0.23.0 |
+| Versions | 0.23.0, 0.24.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [mailio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mailio/xmake.lua) |
 
@@ -27601,7 +27601,7 @@ add_requires("snitch")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/snmalloc](https://github.com/microsoft/snmalloc) |
 | License | MIT |
-| Versions | 0.6.0, 0.6.2 |
+| Versions | 0.6.0, 0.6.2, 0.7.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [snmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snmalloc/xmake.lua) |
 
@@ -28172,7 +28172,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31415,7 +31415,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295 |
+| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302 |
 | Architectures | arm64, x86_64 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 
@@ -31989,7 +31989,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55cf3e6b5870 |
+| License | table: 0x55bd6bb05580 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -426,6 +426,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("amqp-cpp")
 </code></pre>
+<h3 id="amrexmsys">amrex (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>AMReX: Software Framework for Block Structured AMR</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://amrex-codes.github.io/amrex">https://amrex-codes.github.io/amrex</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>24.09, 24.12</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua">amrex/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install amrex
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("amrex")
+</code></pre>
 <h3 id="angelscriptmsys">angelscript (msys)</h3>
 <table>
 <thead>
@@ -1111,7 +1144,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.1.0, 1.1.1</td>
+<td>1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.1.0, 1.1.1, 1.1.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -12548,7 +12581,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.1.0, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4</td>
+<td>v1.1.0, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4, v1.5.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -15935,6 +15968,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("magic_enum")
+</code></pre>
+<h3 id="mailiomsys">mailio (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>mailio is a cross platform C++ library for MIME format and SMTP, POP3 and IMAP protocols. It is based on standard C++ 17 and Boost library.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/karastojko/mailio">https://github.com/karastojko/mailio</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.23.0, 0.24.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mailio/xmake.lua">mailio/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install mailio
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("mailio")
 </code></pre>
 <h3 id="makemsys">make (msys)</h3>
 <table>
@@ -20931,7 +21001,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.8</td>
+<td>v2.8, v2.8.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -23906,6 +23976,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("snitch")
 </code></pre>
+<h3 id="snmallocmsys">snmalloc (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Message passing based allocator</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/microsoft/snmalloc">https://github.com/microsoft/snmalloc</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.6.0, 0.6.2, 0.7.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snmalloc/xmake.lua">snmalloc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install snmalloc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("snmalloc")
+</code></pre>
 <h3 id="sobjectizermsys">sobjectizer (msys)</h3>
 <table>
 <thead>
@@ -24509,7 +24616,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>

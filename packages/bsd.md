@@ -221,7 +221,7 @@ add_requires("amqp-cpp")
 | Description | *AMReX: Software Framework for Block Structured AMR* |
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
-| Versions | 24.09 |
+| Versions | 24.09, 24.12 |
 | Architectures | i386, x86_64 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
@@ -725,7 +725,7 @@ add_requires("atomic_queue")
 | -- | -- |
 | Homepage | [https://github.com/adamstark/AudioFile](https://github.com/adamstark/AudioFile) |
 | License | MIT |
-| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.1.0, 1.1.1 |
+| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.1.0, 1.1.1, 1.1.2 |
 | Architectures | i386, x86_64 |
 | Definition | [audiofile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/audiofile/xmake.lua) |
 
@@ -8524,7 +8524,7 @@ add_requires("libelfin")
 | -- | -- |
 | Homepage | [https://github.com/ph3at/libenvpp](https://github.com/ph3at/libenvpp) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4 |
+| Versions | v1.1.0, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4, v1.5.1 |
 | Architectures | i386, x86_64 |
 | Definition | [libenvpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libenvpp/xmake.lua) |
 
@@ -11209,7 +11209,7 @@ add_requires("magic_enum")
 | -- | -- |
 | Homepage | [https://github.com/karastojko/mailio](https://github.com/karastojko/mailio) |
 | License | BSD |
-| Versions | 0.23.0 |
+| Versions | 0.23.0, 0.24.1 |
 | Architectures | i386, x86_64 |
 | Definition | [mailio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mailio/xmake.lua) |
 
@@ -17003,7 +17003,7 @@ add_requires("snitch")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/snmalloc](https://github.com/microsoft/snmalloc) |
 | License | MIT |
-| Versions | 0.6.0, 0.6.2 |
+| Versions | 0.6.0, 0.6.2, 0.7.0 |
 | Architectures | i386, x86_64 |
 | Definition | [snmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snmalloc/xmake.lua) |
 
@@ -17384,7 +17384,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
