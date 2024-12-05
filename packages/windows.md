@@ -248,7 +248,7 @@ add_requires("alcatraz")
 | -- | -- |
 | Homepage | [https://alembic.io/](https://alembic.io/) |
 | License | BSD-3-Clause |
-| Versions | 1.8.5, 1.8.6, 1.8.7 |
+| Versions | 1.8.5, 1.8.6, 1.8.7, 1.8.8 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [alembic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alembic/xmake.lua) |
 
@@ -1420,7 +1420,7 @@ add_requires("aws-c-mqtt")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -1778,7 +1778,7 @@ add_requires("bdwgc")
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
 | License | Apache-2.0 |
-| Versions | v1.5.2, v1.5.3, v1.5.4, v1.5.5, v1.5.6, v1.6.0, v1.6.1, v1.7.0, v1.7.1, v1.8.0, v1.8.3, v1.8.4, v1.8.5, v1.9.0 |
+| Versions | v1.5.2, v1.5.3, v1.5.4, v1.5.5, v1.5.6, v1.6.0, v1.6.1, v1.7.0, v1.7.1, v1.8.0, v1.8.3, v1.8.4, v1.8.5, v1.9.0, v1.9.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
@@ -2040,7 +2040,7 @@ add_requires("blake2")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4 |
+| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
@@ -13243,7 +13243,7 @@ add_requires("libdom")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -20407,7 +20407,7 @@ add_requires("onedpl")
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
 | License | Apache-2.0 |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0, 2021.10.0, 2021.11.0, 2021.12.0 |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0, 2021.10.0, 2021.11.0, 2021.12.0, 2021.13.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
 
@@ -26796,7 +26796,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27703,7 +27703,7 @@ add_requires("taywee_args")
 | -- | -- |
 | Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
 | License | Apache-2.0 |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0, 2021.10.0, 2021.11.0, 2021.12.0 |
+| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0, 2021.10.0, 2021.11.0, 2021.12.0, 2021.13.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [tbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbb/xmake.lua) |
 
@@ -31714,7 +31714,7 @@ add_requires("yoga")
 | -- | -- |
 | Homepage | [https://github.com/jll63/yomm2](https://github.com/jll63/yomm2) |
 | License | BSL-1.0 |
-| Versions | v1.4.0, v1.5.0, v1.5.1, v1.5.2 |
+| Versions | v1.4.0, v1.5.0, v1.5.1, v1.5.2, v1.6.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [yomm2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yomm2/xmake.lua) |
 
