@@ -7203,7 +7203,7 @@ add_requires("isocline")
 | -- | -- |
 | Homepage | [https://ispc.github.io/](https://ispc.github.io/) |
 | License | BSD-3-Clause |
-| Versions | 1.17.0 |
+| Versions | 1.17.0, 1.25.3 |
 | Architectures | i386, x86_64 |
 | Definition | [ispc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ispc/xmake.lua) |
 
@@ -16153,7 +16153,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17948,7 +17948,7 @@ add_requires("unity_test")
 | -- | -- |
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
-| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4, v4.4.0 |
+| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4, v4.4.0, v4.5.0 |
 | Architectures | i386, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 
