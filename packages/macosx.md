@@ -12301,6 +12301,30 @@ add_requires("jwt-cpp")
 ```
 
 
+### jxrlib (macosx)
+
+
+| Description | *jxrlib is JPEG XR Image Codec reference implementation library released by Microsoft under BSD-2-Clause License. This repo is a clone of jxrlib as released by Microsoft from it's original Codeplex location https://jxrlib.codeplex.com.  The only changes comprise addition of LICENSE and README.md in repo root.* |
+| -- | -- |
+| Homepage | [https://github.com/4creators/jxrlib](https://github.com/4creators/jxrlib) |
+| License | BSD-2-Clause |
+| Versions | v2019.10.9 |
+| Architectures | arm64, x86_64 |
+| Definition | [jxrlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jxrlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jxrlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jxrlib")
+```
+
+
 
 ## k
 ### kahip (macosx)
@@ -28244,7 +28268,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32061,7 +32085,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563d7aaba2e0 |
+| License | table: 0x556e919834b0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
