@@ -4880,6 +4880,30 @@ add_requires("duckx")
 ```
 
 
+### duktape (mingw)
+
+
+| Description | *Duktape - embeddable Javascript engine with a focus on portability and compact footprint* |
+| -- | -- |
+| Homepage | [https://github.com/svaarala/duktape](https://github.com/svaarala/duktape) |
+| License | MIT |
+| Versions | 2.7.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [duktape/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duktape/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] duktape
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("duktape")
+```
+
+
 ### dylib (mingw)
 
 
@@ -7589,7 +7613,7 @@ add_requires("ifort")
 | -- | -- |
 | Homepage | [https://github.com/qicosmos/iguana](https://github.com/qicosmos/iguana) |
 | License | Apache-2.0 |
-| Versions | v1.0.3, 1.0.4, 1.0.5 |
+| Versions | v1.0.3, 1.0.4, 1.0.5, 1.0.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [iguana/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iguana/xmake.lua) |
 
@@ -19185,7 +19209,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
