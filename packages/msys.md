@@ -1480,30 +1480,6 @@ add_requires("binutils")
 ```
 
 
-### bison (msys)
-
-
-| Description | *A general-purpose parser generator.* |
-| -- | -- |
-| Homepage | [https://www.gnu.org/software/bison/](https://www.gnu.org/software/bison/) |
-| License | GPL-3.0 |
-| Versions | 3.7.4, 3.7.6, 3.8.2 |
-| Architectures | i386, x86_64 |
-| Definition | [bison/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bison/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install bison
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("bison")
-```
-
-
 ### bitsery (msys)
 
 
@@ -16249,7 +16225,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -18343,6 +18319,30 @@ xrepo install verdict
 
 ```lua
 add_requires("verdict")
+```
+
+
+### verilator (msys)
+
+
+| Description | *Verilator open-source SystemVerilog simulator and lint system* |
+| -- | -- |
+| Homepage | [https://verilator.org](https://verilator.org) |
+| License | LGPL-3.0 |
+| Versions | v5.016 |
+| Architectures | i386, x86_64 |
+| Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install verilator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("verilator")
 ```
 
 

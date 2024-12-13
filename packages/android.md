@@ -5431,30 +5431,6 @@ add_requires("flecs")
 ```
 
 
-### flex (android)
-
-
-| Description | *%s* |
-| -- | -- |
-| Homepage | [https://github.com/westes/flex/](https://github.com/westes/flex/) |
-| License | BSD-2-Clause |
-| Versions | 2.6.4 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
-| Definition | [flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flex/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] flex
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("flex")
-```
-
-
 ### flux (android)
 
 
@@ -17422,7 +17398,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -19540,6 +19516,30 @@ xrepo install -p android [--ndk=/xxx] verdict
 
 ```lua
 add_requires("verdict")
+```
+
+
+### verilator (android)
+
+
+| Description | *Verilator open-source SystemVerilog simulator and lint system* |
+| -- | -- |
+| Homepage | [https://verilator.org](https://verilator.org) |
+| License | LGPL-3.0 |
+| Versions | v5.016 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
+| Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] verilator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("verilator")
 ```
 
 
