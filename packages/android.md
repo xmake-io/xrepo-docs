@@ -9167,7 +9167,7 @@ add_requires("libopus")
 | -- | -- |
 | Homepage | [https://openquantumsafe.org](https://openquantumsafe.org) |
 | License | MIT |
-| Versions | 0.10.1, 0.11.0, 0.12.0 |
+| Versions | 0.10.1, 0.11.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [liboqs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liboqs/xmake.lua) |
 
@@ -14726,7 +14726,7 @@ add_requires("pocketfft")
 | -- | -- |
 | Homepage | [https://github.com/blueloveTH/pocketpy](https://github.com/blueloveTH/pocketpy) |
 | License | MIT |
-| Versions | v0.9.0, v1.4.5, v1.4.6, v2.0.3 |
+| Versions | v0.9.0, v1.4.5, v1.4.6 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [pocketpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketpy/xmake.lua) |
 
@@ -17398,7 +17398,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

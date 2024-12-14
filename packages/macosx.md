@@ -15044,7 +15044,7 @@ add_requires("libopus")
 | -- | -- |
 | Homepage | [https://openquantumsafe.org](https://openquantumsafe.org) |
 | License | MIT |
-| Versions | 0.10.1, 0.11.0, 0.12.0 |
+| Versions | 0.10.1, 0.11.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [liboqs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liboqs/xmake.lua) |
 
@@ -24219,7 +24219,7 @@ add_requires("pocketfft")
 | -- | -- |
 | Homepage | [https://github.com/blueloveTH/pocketpy](https://github.com/blueloveTH/pocketpy) |
 | License | MIT |
-| Versions | v0.9.0, v1.4.5, v1.4.6, v2.0.3 |
+| Versions | v0.9.0, v1.4.5, v1.4.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [pocketpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketpy/xmake.lua) |
 
@@ -28292,7 +28292,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31249,7 +31249,7 @@ add_requires("uvwasi")
 | -- | -- |
 | Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
 | License | Apache-2.0 |
-| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.71.0 |
+| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [uwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uwebsockets/xmake.lua) |
 
@@ -31776,7 +31776,7 @@ add_requires("vulkan-memory-allocator-hpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Utility-Libraries](https://github.com/KhronosGroup/Vulkan-Utility-Libraries) |
 | License | Apache-2.0 |
-| Versions | v1.3.268, v1.3.275, v1.3.280, v1.3.283, v1.3.290, v1.4.303 |
+| Versions | v1.3.268, v1.3.275, v1.3.280, v1.3.283, v1.3.290 |
 | Architectures | arm64, x86_64 |
 | Definition | [vulkan-utility-libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-utility-libraries/xmake.lua) |
 
@@ -32110,7 +32110,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f9365607f0 |
+| License | table: 0x559508cea120 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
