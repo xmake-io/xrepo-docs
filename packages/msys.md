@@ -2348,7 +2348,7 @@ add_requires("cgltf")
 | -- | -- |
 | Homepage | [http://www.chunel.cn](http://www.chunel.cn) |
 | License | MIT |
-| Versions | v2.5.4, v2.6.0, v2.6.1 |
+| Versions | v2.5.4, v2.6.0, v2.6.1, v2.6.2 |
 | Architectures | i386, x86_64 |
 | Definition | [cgraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgraph/xmake.lua) |
 
@@ -12144,7 +12144,7 @@ add_requires("nlohmann_json")
 | -- | -- |
 | Homepage | [https://github.com/stevengj/nlopt](https://github.com/stevengj/nlopt) |
 | License | LGPL-2.1 |
-| Versions | v2.7.0, v2.7.1, v2.8.0 |
+| Versions | v2.7.0, v2.7.1, v2.8.0, v2.9.1 |
 | Architectures | i386, x86_64 |
 | Definition | [nlopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlopt/xmake.lua) |
 
@@ -16225,7 +16225,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
