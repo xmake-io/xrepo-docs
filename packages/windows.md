@@ -456,6 +456,30 @@ add_requires("angle")
 ```
 
 
+### annoy (windows)
+
+
+| Description | *Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk* |
+| -- | -- |
+| Homepage | [https://github.com/spotify/annoy](https://github.com/spotify/annoy) |
+| License | Apache-2.0 |
+| Versions | v1.17.2 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [annoy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/annoy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install annoy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("annoy")
+```
+
+
 ### antlr4 (windows)
 
 
@@ -1300,7 +1324,7 @@ add_requires("aws-c-common")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-compression](https://github.com/awslabs/aws-c-compression) |
 | License | Apache-2.0 |
-| Versions | v0.2.17, v0.2.18, v0.2.19 |
+| Versions | v0.2.17, v0.2.18, v0.2.19, v0.3.0 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-compression/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-compression/xmake.lua) |
 
@@ -15817,7 +15841,7 @@ add_requires("libzen")
 | -- | -- |
 | Homepage | [https://libzip.org/](https://libzip.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1 |
+| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1, v1.11.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
 
@@ -18555,7 +18579,7 @@ add_requires("mongo-cxx-driver")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11, 7.13, 7.14, 7.15 |
+| Versions | 7.11, 7.13, 7.14, 7.15, 7.16 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
@@ -26964,7 +26988,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
