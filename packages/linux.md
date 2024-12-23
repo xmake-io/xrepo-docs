@@ -2445,7 +2445,7 @@ add_requires("boost_sml")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/ut/](https://boost-ext.github.io/ut/) |
 | License | BSL-1.0 |
-| Versions | v1.1.9, v2.0.1, v2.1.0 |
+| Versions | v1.1.9, v2.0.1, v2.1.0, v2.1.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [boost_ut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_ut/xmake.lua) |
 
@@ -5042,7 +5042,7 @@ add_requires("cppitertools")
 | -- | -- |
 | Homepage | [https://github.com/yanyiwu/cppjieba](https://github.com/yanyiwu/cppjieba) |
 | License | MIT |
-| Versions | v5.2.0, v5.4.0 |
+| Versions | v5.2.0, v5.4.0, v5.4.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppjieba/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppjieba/xmake.lua) |
 
@@ -5090,7 +5090,7 @@ add_requires("cppp-reiconv")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/cpptrace](https://github.com/jeremy-rifkin/cpptrace) |
 | License | MIT |
-| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.7.0, v0.7.1, v0.7.3 |
+| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.7.0, v0.7.1, v0.7.3, v0.7.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpptrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpptrace/xmake.lua) |
 
@@ -10012,7 +10012,7 @@ add_requires("glad")
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
 | License | MIT |
-| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1 |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
@@ -20806,7 +20806,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -22851,7 +22851,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
@@ -23197,6 +23197,30 @@ xrepo install node-api-headers
 
 ```lua
 add_requires("node-api-headers")
+```
+
+
+### node-api-stub (linux)
+
+
+| Description | *Node-API stub* |
+| -- | -- |
+| Homepage | [https://github.com/napi-bindings/node-api-stub](https://github.com/napi-bindings/node-api-stub) |
+| License | MIT |
+| Versions | 8.0.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [node-api-stub/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-api-stub/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install node-api-stub
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("node-api-stub")
 ```
 
 
@@ -23795,30 +23819,6 @@ xrepo install onedpl
 
 ```lua
 add_requires("onedpl")
-```
-
-
-### onetbb (linux)
-
-
-| Description | *Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.* |
-| -- | -- |
-| Homepage | [https://software.intel.com/en-us/tbb/](https://software.intel.com/en-us/tbb/) |
-| License | Apache-2.0 |
-| Versions | 2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0, 2021.10.0, 2021.11.0, 2021.12.0, 2021.13.0, 2022.0.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
-| Definition | [onetbb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install onetbb
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("onetbb")
 ```
 
 
@@ -26665,7 +26665,7 @@ add_requires("protobuf-c")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | License | BSD-3-Clause |
-| Versions | 3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1 |
+| Versions | 3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
@@ -27070,7 +27070,7 @@ add_requires("pystring")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | License | PSF |
-| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.13.0 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.12.8, 3.13.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
@@ -28835,7 +28835,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -29312,7 +29312,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
 | License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0 |
+| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
 
@@ -29667,7 +29667,7 @@ add_requires("sfntly")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/sfparse](https://github.com/ngtcp2/sfparse) |
 | License | MIT |
-| Versions | 2024.05.12 |
+| Versions | 2024.05.12, 2024.12.15 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sfparse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sfparse/xmake.lua) |
 
@@ -30692,7 +30692,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34794,7 +34794,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x556ae785d940 |
+| License | table: 0x55a3fdacacf0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

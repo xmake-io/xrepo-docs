@@ -3541,7 +3541,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.1.9, v2.0.1, v2.1.0</td>
+<td>v1.1.9, v2.0.1, v2.1.0, v2.1.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -7318,7 +7318,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v5.2.0, v5.4.0</td>
+<td>v5.2.0, v5.4.0, v5.4.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -7392,7 +7392,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.7.0, v0.7.1, v0.7.3</td>
+<td>v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.7.0, v0.7.1, v0.7.3, v0.7.4</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -14404,7 +14404,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1</td>
+<td>v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -26948,7 +26948,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0</td>
+<td>0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30047,7 +30047,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.0, v1.4.0, v1.5.0, v1.6.0</td>
+<td>v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30529,6 +30529,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("node-api-headers")
+</code></pre>
+<h3 id="nodeapistubwindows">node-api-stub (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Node-API stub</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/napi-bindings/node-api-stub">https://github.com/napi-bindings/node-api-stub</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>8.0.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-api-stub/xmake.lua">node-api-stub/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install node-api-stub
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("node-api-stub")
 </code></pre>
 <h3 id="nodeeditorwindows">nodeeditor (windows)</h3>
 <table>
@@ -31398,43 +31435,6 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("onedpl")
-</code></pre>
-<h3 id="onetbbwindows">onetbb (windows)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>Threading Building Blocks (TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://software.intel.com/en-us/tbb/">https://software.intel.com/en-us/tbb/</a></td>
-</tr>
-<tr>
-<td>License</td>
-<td>Apache-2.0</td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>2020.3, 2021.2.0, 2021.3.0, 2021.4.0, 2021.5.0, 2021.7.0, 2021.10.0, 2021.11.0, 2021.12.0, 2021.13.0, 2022.0.0</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm, arm64, arm64ec, x64, x86</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onetbb/xmake.lua">onetbb/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install onetbb
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("onetbb")
 </code></pre>
 <h3 id="onigurumawindows">oniguruma (windows)</h3>
 <table>
@@ -35487,7 +35487,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1</td>
+<td>3.8.0, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -35993,7 +35993,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.13.0</td>
+<td>2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.12.8, 3.13.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -36026,7 +36026,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.11.3</td>
+<td>3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.11.3, 3.12.8</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -38640,7 +38640,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4</td>
+<td>v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -39254,7 +39254,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0</td>
+<td>v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -39719,7 +39719,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2024.05.12</td>
+<td>2024.05.12, 2024.12.15</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -41208,7 +41208,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
