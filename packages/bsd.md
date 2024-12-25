@@ -1228,7 +1228,7 @@ add_requires("backportcpp")
 | -- | -- |
 | Homepage | [https://oir.github.io/barkeep/](https://oir.github.io/barkeep/) |
 | License | Apache-2.0 |
-| Versions | v0.1.3 |
+| Versions | v0.1.3, v0.1.4 |
 | Architectures | i386, x86_64 |
 | Definition | [barkeep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/barkeep/xmake.lua) |
 
@@ -5268,7 +5268,7 @@ add_requires("expected-lite")
 | -- | -- |
 | Homepage | [https://www.partow.net/programming/exprtk/index.html](https://www.partow.net/programming/exprtk/index.html) |
 | License | MIT |
-| Versions | 2022.01.01 |
+| Versions | 0.0.1, 0.0.2, 0.0.3 |
 | Architectures | i386, x86_64 |
 | Definition | [exprtk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exprtk/xmake.lua) |
 
@@ -11162,7 +11162,7 @@ add_requires("luau")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
 | License | MIT |
-| Versions | v2.3.5, v2.3.9, v2.4.0, v2.4.1, v3.0.1 |
+| Versions | v2.3.5, v2.3.9, v2.4.0, v2.4.1, v3.0.1, v3.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
 
@@ -17672,7 +17672,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
