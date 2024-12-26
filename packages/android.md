@@ -9239,7 +9239,7 @@ add_requires("libopus")
 | -- | -- |
 | Homepage | [https://openquantumsafe.org](https://openquantumsafe.org) |
 | License | MIT |
-| Versions | 0.10.1, 0.11.0 |
+| Versions | 0.10.1, 0.11.0, 0.12.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [liboqs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liboqs/xmake.lua) |
 
@@ -16708,7 +16708,7 @@ add_requires("rxcpp")
 | -- | -- |
 | Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
 | License | Apache-2.0 |
-| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9 |
+| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
 
@@ -17518,7 +17518,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -19218,7 +19218,7 @@ add_requires("udt")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0 |
+| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
