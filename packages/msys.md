@@ -1607,7 +1607,7 @@ add_requires("blend2d")
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
 | License | BSL-1.0 |
-| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0 |
 | Architectures | i386, x86_64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
@@ -4500,7 +4500,7 @@ add_requires("doxygen")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.29, 0.12.39, 0.12.41, 0.12.42 |
+| Versions | 0.12.29, 0.12.39, 0.12.41, 0.12.42, 0.12.43 |
 | Architectures | i386, x86_64 |
 | Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
 
@@ -4524,7 +4524,7 @@ add_requires("dr_flac")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37, 0.6.38, 0.6.39 |
+| Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37, 0.6.38, 0.6.39, 0.6.40 |
 | Architectures | i386, x86_64 |
 | Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
 
@@ -4548,7 +4548,7 @@ add_requires("dr_mp3")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.19, 0.13.8, 0.13.10, 0.13.11, 0.13.12, 0.13.13, 0.13.16 |
+| Versions | 0.12.19, 0.13.8, 0.13.10, 0.13.11, 0.13.12, 0.13.13, 0.13.16, 0.13.17 |
 | Architectures | i386, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
@@ -5626,7 +5626,7 @@ add_requires("fmi")
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
 | License | MIT |
-| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2 |
+| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2, 11.1.0 |
 | Architectures | i386, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -7732,7 +7732,7 @@ add_requires("khrplatform")
 | Description | *Efficient C++ implementation of the Cassowary constraint solving algorithm* |
 | -- | -- |
 | Homepage | [https://kiwisolver.readthedocs.io/en/latest/](https://kiwisolver.readthedocs.io/en/latest/) |
-| Versions | 1.3.1, 1.3.2, 1.4.4, 1.4.5, 1.4.6, 1.4.7 |
+| Versions | 1.3.1, 1.3.2, 1.4.4, 1.4.5, 1.4.6, 1.4.7, 1.4.8 |
 | Architectures | i386, x86_64 |
 | Definition | [kiwisolver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kiwisolver/xmake.lua) |
 
@@ -9025,7 +9025,7 @@ add_requires("libsais")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 2.0.8, 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3, 2.28.4, 2.28.5, 2.30.0, 2.30.1, 2.30.2, 2.30.3, 2.30.4, 2.30.5, 2.30.6, 2.30.7, 2.30.8, 2.30.9 |
+| Versions | 2.0.8, 2.0.12, 2.0.14, 2.0.16, 2.0.18, 2.0.20, 2.0.22, 2.24.0, 2.24.2, 2.26.0, 2.26.1, 2.26.2, 2.26.3, 2.26.4, 2.26.5, 2.28.0, 2.28.1, 2.28.2, 2.28.3, 2.28.4, 2.28.5, 2.30.0, 2.30.1, 2.30.2, 2.30.3, 2.30.4, 2.30.5, 2.30.6, 2.30.7, 2.30.8, 2.30.9, 2.30.10 |
 | Architectures | i386, x86_64 |
 | Definition | [libsdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl/xmake.lua) |
 
@@ -9837,7 +9837,7 @@ add_requires("libzippp")
 | -- | -- |
 | Homepage | [https://lief.quarkslab.com](https://lief.quarkslab.com) |
 | License | Apache-2.0 |
-| Versions | 0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0 |
+| Versions | 0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0, 0.16.1 |
 | Architectures | i386, x86_64 |
 | Definition | [lief/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lief/xmake.lua) |
 
@@ -13221,7 +13221,7 @@ add_requires("pcre2")
 | -- | -- |
 | Homepage | [https://www.msweet.org/pdfio](https://www.msweet.org/pdfio) |
 | License | Apache-2.0 |
-| Versions | v1.3.0, v1.3.1, v1.3.2 |
+| Versions | v1.3.0, v1.3.1, v1.3.2, v1.4.0 |
 | Architectures | i386, x86_64 |
 | Definition | [pdfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfio/xmake.lua) |
 
@@ -15844,7 +15844,7 @@ add_requires("simdcomp")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2 |
 | Architectures | i386, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -15892,7 +15892,7 @@ add_requires("simpleini")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
 | License | Apache-2.0 |
-| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1 |
+| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3 |
 | Architectures | i386, x86_64 |
 | Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
 
@@ -16369,7 +16369,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17898,7 +17898,7 @@ add_requires("transwarp")
 | -- | -- |
 | Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
 | License | MIT |
-| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4 |
+| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5 |
 | Architectures | i386, x86_64 |
 | Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
 
