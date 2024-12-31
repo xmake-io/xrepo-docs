@@ -3303,7 +3303,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
@@ -8190,7 +8190,7 @@ add_requires("libsdl")
 | -- | -- |
 | Homepage | [http://www.libsdl.org/projects/SDL_image/](http://www.libsdl.org/projects/SDL_image/) |
 | License | zlib |
-| Versions | 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2, 2.8.3 |
+| Versions | 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2, 2.8.3, 2.8.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libsdl_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_image/xmake.lua) |
 
@@ -15037,7 +15037,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
