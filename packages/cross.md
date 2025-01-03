@@ -5511,7 +5511,7 @@ add_requires("flann")
 | -- | -- |
 | Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
 | License | Apache-2.0 |
-| Versions | v1.12.0, v2.0.0, v23.1.21, v23.5.26, v24.3.25 |
+| Versions | v1.12.0, v2.0.0, v23.1.21, v23.5.26, v24.3.25, v24.12.23 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
 
@@ -8289,7 +8289,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20, v1.21, v1.22 |
+| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20, v1.21, v1.22, v1.23 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -10009,7 +10009,7 @@ add_requires("libzip")
 | -- | -- |
 | Homepage | [https://lief.quarkslab.com](https://lief.quarkslab.com) |
 | License | Apache-2.0 |
-| Versions | 0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0, 0.16.1 |
+| Versions | 0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0, 0.16.1, 0.16.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lief/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lief/xmake.lua) |
 
@@ -14538,7 +14538,7 @@ add_requires("pycdc")
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
 | License | MIT |
-| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2 |
+| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2, v2.6.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
@@ -16709,7 +16709,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -19869,7 +19869,7 @@ add_requires("zstd")
 | -- | -- |
 | Homepage | [https://github.com/zxing-cpp/zxing-cpp](https://github.com/zxing-cpp/zxing-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.2.1 |
+| Versions | v2.2.1, v2.3.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zxing-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zxing-cpp/xmake.lua) |
 
