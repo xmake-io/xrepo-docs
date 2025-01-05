@@ -3820,6 +3820,30 @@ add_requires("cuda-samples")
 ```
 
 
+### cunit (msys)
+
+
+| Description | *CUnit is a lightweight system for writing, administering, and running unit tests in C.* |
+| -- | -- |
+| Homepage | [https://gitlab.com/cunity/cunit](https://gitlab.com/cunity/cunit) |
+| License | LGPL-2.1 |
+| Versions | 3.4.4 |
+| Architectures | i386, x86_64 |
+| Definition | [cunit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cunit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cunit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cunit")
+```
+
+
 ### curl (msys)
 
 
@@ -11477,7 +11501,7 @@ add_requires("minitrace")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
-| Versions | 2.1.0, 2.2.0 |
+| Versions | 2.1.0, 2.2.0, 3.0.2 |
 | Architectures | i386, x86_64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
@@ -16489,7 +16513,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
