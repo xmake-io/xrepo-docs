@@ -7707,6 +7707,53 @@ add_requires("libfork")
 ```
 
 
+### libgit2 (wasm)
+
+
+| Description | *A cross-platform, linkable library implementation of Git that you can use in your application.* |
+| -- | -- |
+| Homepage | [https://libgit2.org/](https://libgit2.org/) |
+| License | GPL-2.0-only |
+| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libgit2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgit2")
+```
+
+
+### libgit2cpp (wasm)
+
+
+| Description | *C++ wrapper for libgit2* |
+| -- | -- |
+| Homepage | [https://github.com/AndreyG/libgit2cpp](https://github.com/AndreyG/libgit2cpp) |
+| Versions | 2024.06.09 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libgit2cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libgit2cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libgit2cpp")
+```
+
+
 ### libhubbub (wasm)
 
 
@@ -15085,7 +15132,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
