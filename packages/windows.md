@@ -6139,6 +6139,30 @@ add_requires("digestpp")
 ```
 
 
+### dipp (windows)
+
+
+| Description | *C++ Dependency injection inspired inspired by .NET's Microsoft.Extensions.DependencyInjection* |
+| -- | -- |
+| Homepage | [https://github.com/01Pollux/dipp](https://github.com/01Pollux/dipp) |
+| License | MIT |
+| Versions | 2024.01.12 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [dipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dipp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dipp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dipp")
+```
+
+
 ### directx-headers (windows)
 
 
@@ -20616,6 +20640,30 @@ add_requires("ode")
 ```
 
 
+### offsetallocator (windows)
+
+
+| Description | *Fast O(1) offset allocator with minimal fragmentation* |
+| -- | -- |
+| Homepage | [https://github.com/sebbbi/OffsetAllocator](https://github.com/sebbbi/OffsetAllocator) |
+| License | MIT |
+| Versions | 2023.03.27 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [offsetallocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/offsetallocator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install offsetallocator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("offsetallocator")
+```
+
+
 ### ogre-next (windows)
 
 
@@ -27179,7 +27227,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
