@@ -6496,6 +6496,30 @@ add_requires("dlpack")
 ```
 
 
+### dlss (windows)
+
+
+| Description | *NVIDIA DLSS is a new and improved deep learning neural network that boosts frame rates and generates beautiful, sharp images for your games* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/DLSS](https://github.com/NVIDIA/DLSS) |
+| License | NVIDIA RTX SDKs |
+| Versions | v3.7.20 |
+| Architectures | x64 |
+| Definition | [dlss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlss/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dlss
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dlss")
+```
+
+
 ### docopt (windows)
 
 
