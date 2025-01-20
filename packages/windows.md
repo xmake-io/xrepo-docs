@@ -22200,7 +22200,7 @@ add_requires("pcg32")
 | -- | -- |
 | Homepage | [https://pointclouds.org/](https://pointclouds.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.12.0, 1.12.1, 1.14.0 |
+| Versions | 1.12.0, 1.12.1, 1.14.0, 1.14.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcl/xmake.lua) |
 
@@ -27300,7 +27300,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
