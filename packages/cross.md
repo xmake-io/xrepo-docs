@@ -1059,7 +1059,7 @@ add_requires("aws-c-s3")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
 | License | Apache-2.0 |
-| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1 |
+| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1, v0.2.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
 
@@ -1157,7 +1157,7 @@ add_requires("backportcpp")
 | -- | -- |
 | Homepage | [https://oir.github.io/barkeep/](https://oir.github.io/barkeep/) |
 | License | Apache-2.0 |
-| Versions | v0.1.3, v0.1.4 |
+| Versions | v0.1.3, v0.1.4, v0.1.5 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [barkeep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/barkeep/xmake.lua) |
 
@@ -7761,7 +7761,7 @@ add_requires("json.h")
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
 | License | BSL-1.0 |
-| Versions | v0.170.2, v0.176.0, v0.177.0, v0.178.0, v1.0.0 |
+| Versions | v0.170.2, v0.176.0, v0.177.0, v0.178.0, v1.0.0, v1.1.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
@@ -16758,7 +16758,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://spectralib.org/](https://spectralib.org/) |
 | License | MPL-2.0 |
-| Versions | v1.0.1 |
+| Versions | v1.0.1, v1.1.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [spectra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spectra/xmake.lua) |
 
@@ -16901,7 +16901,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
