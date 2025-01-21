@@ -2587,7 +2587,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -5989,7 +5989,7 @@ add_requires("happly")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0 |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -15229,7 +15229,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
