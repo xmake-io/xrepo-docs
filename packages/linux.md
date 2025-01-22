@@ -8272,7 +8272,7 @@ add_requires("fakeit")
 | -- | -- |
 | Homepage | [https://cieslarmichal.github.io/faker-cxx/](https://cieslarmichal.github.io/faker-cxx/) |
 | License | MIT |
-| Versions | v2.0.0, v3.0.0 |
+| Versions | v2.0.0, v3.0.0, v4.0.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [faker-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faker-cxx/xmake.lua) |
 
@@ -13756,6 +13756,30 @@ xrepo install lapack
 
 ```lua
 add_requires("lapack")
+```
+
+
+### lastools (linux)
+
+
+| Description | *efficient tools for LiDAR processing* |
+| -- | -- |
+| Homepage | [https://github.com/LAStools/LAStools](https://github.com/LAStools/LAStools) |
+| License | LGPL-2.0 |
+| Versions | v2.0.3 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [lastools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lastools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lastools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lastools")
 ```
 
 
@@ -30956,7 +30980,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35106,7 +35130,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564b2090b790 |
+| License | table: 0x556840292170 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
