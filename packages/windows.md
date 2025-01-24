@@ -631,7 +631,7 @@ add_requires("aravis")
 | -- | -- |
 | Homepage | [https://arduinojson.org](https://arduinojson.org) |
 | License | MIT |
-| Versions | v6.21.4, v7.0.3, v7.0.4, v7.1.0, v7.2.0, v7.2.1 |
+| Versions | v6.21.4, v7.0.3, v7.0.4, v7.1.0, v7.2.0, v7.2.1, v7.3.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
 
@@ -4522,7 +4522,7 @@ add_requires("cpp-peglib")
 | -- | -- |
 | Homepage | [https://github.com/basiliscos/cpp-rotor](https://github.com/basiliscos/cpp-rotor) |
 | License | MIT |
-| Versions | v0.30, v0.31 |
+| Versions | v0.30, v0.31, v0.32 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cpp-rotor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-rotor/xmake.lua) |
 
@@ -11932,7 +11932,7 @@ add_requires("itlib")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -16105,7 +16105,7 @@ add_requires("libzen")
 | -- | -- |
 | Homepage | [https://libzip.org/](https://libzip.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1, v1.11.2 |
+| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1, v1.11.2, v1.11.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
 
@@ -21767,7 +21767,7 @@ add_requires("orangeduck_mpc")
 | -- | -- |
 | Homepage | [https://arrow.apache.org/](https://arrow.apache.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.3 |
+| Versions | v2.0.3, v2.1.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [orc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orc/xmake.lua) |
 
@@ -24192,6 +24192,30 @@ add_requires("qr-code-generator-cpp")
 ```
 
 
+### qt-tools (windows)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 5.12.5, 5.15.2, 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [qt-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt-tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qt-tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt-tools")
+```
+
+
 ### qt5base (windows)
 
 
@@ -25266,6 +25290,29 @@ xrepo install recastnavigation
 
 ```lua
 add_requires("recastnavigation")
+```
+
+
+### reckless (windows)
+
+
+| Description | *Reckless logging. Low-latency, high-throughput, asynchronous logging library for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/mattiasflodin/reckless](https://github.com/mattiasflodin/reckless) |
+| Versions | v3.0.3 |
+| Architectures | x64, x86 |
+| Definition | [reckless/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reckless/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install reckless
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reckless")
 ```
 
 
@@ -27324,7 +27371,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

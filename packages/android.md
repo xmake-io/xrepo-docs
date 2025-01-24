@@ -392,7 +392,7 @@ add_requires("aqt")
 | -- | -- |
 | Homepage | [https://arduinojson.org](https://arduinojson.org) |
 | License | MIT |
-| Versions | v6.21.4, v7.0.3, v7.0.4, v7.1.0, v7.2.0, v7.2.1 |
+| Versions | v6.21.4, v7.0.3, v7.0.4, v7.1.0, v7.2.0, v7.2.1, v7.3.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
 
@@ -7686,7 +7686,7 @@ add_requires("itlib")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -10484,7 +10484,7 @@ add_requires("libzen")
 | -- | -- |
 | Homepage | [https://libzip.org/](https://libzip.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1, v1.11.2 |
+| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1, v1.11.2, v1.11.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
 
@@ -15983,6 +15983,174 @@ add_requires("qt5widgets")
 ```
 
 
+### qt6base (android)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Architectures | arm64-v8a |
+| Definition | [qt6base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6base/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] qt6base
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6base")
+```
+
+
+### qt6core (android)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Architectures | arm64-v8a |
+| Definition | [qt6core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] qt6core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6core")
+```
+
+
+### qt6gui (android)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Architectures | arm64-v8a |
+| Definition | [qt6gui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6gui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] qt6gui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6gui")
+```
+
+
+### qt6network (android)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Architectures | arm64-v8a |
+| Definition | [qt6network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6network/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] qt6network
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6network")
+```
+
+
+### qt6qml (android)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Architectures | arm64-v8a |
+| Definition | [qt6qml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6qml/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] qt6qml
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6qml")
+```
+
+
+### qt6quick (android)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Architectures | arm64-v8a |
+| Definition | [qt6quick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6quick/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] qt6quick
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6quick")
+```
+
+
+### qt6widgets (android)
+
+
+| Description | *Qt is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. Cross-platform software development at its best.* |
+| -- | -- |
+| Homepage | [https://www.qt.io](https://www.qt.io) |
+| License | LGPL-3 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Architectures | arm64-v8a |
+| Definition | [qt6widgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6widgets/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] qt6widgets
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qt6widgets")
+```
+
+
 ### quadsort (android)
 
 
@@ -17806,7 +17974,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
