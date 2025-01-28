@@ -19617,7 +19617,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -19854,7 +19854,7 @@ add_requires("stb")
 | -- | -- |
 | Homepage | [https://github.com/stclib/STC](https://github.com/stclib/STC) |
 | License | MIT |
-| Versions | v4.2 |
+| Versions | v4.2, v5.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [stc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stc/xmake.lua) |
 
@@ -23013,7 +23013,7 @@ add_requires("yasm")
 | -- | -- |
 | Homepage | [https://yogalayout.com/](https://yogalayout.com/) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.2, v3.0.3, v3.0.4, v3.1.0, v3.2.0 |
+| Versions | v2.0.1, v3.0.0, v3.0.2, v3.0.3, v3.0.4, v3.1.0, v3.2.0, v3.2.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [yoga/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yoga/xmake.lua) |
 
