@@ -1442,7 +1442,7 @@ add_requires("aws-c-s3")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
 | License | Apache-2.0 |
-| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1, v0.2.2 |
+| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1, v0.2.2, v0.2.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
 
@@ -3277,7 +3277,7 @@ add_requires("cgltf")
 | Description | *CFD General Notation System* |
 | -- | -- |
 | Homepage | [http://cgns.github.io/](http://cgns.github.io/) |
-| Versions | v4.2.0, v4.4.0 |
+| Versions | v4.2.0, v4.4.0, v4.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cgns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgns/xmake.lua) |
 
@@ -3421,7 +3421,7 @@ add_requires("chromium_zlib")
 | -- | -- |
 | Homepage | [https://cimg.eu/](https://cimg.eu/) |
 | License | CeCILL-C |
-| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2, v3.4.3, v3.5.0, v3.5.1 |
+| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2, v3.4.3, v3.5.0, v3.5.1, v3.5.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [cimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cimg/xmake.lua) |
 
@@ -8750,7 +8750,7 @@ add_requires("frozen")
 | -- | -- |
 | Homepage | [https://github.com/Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) |
 | License | MIT |
-| Versions | v0.15.29, v0.15.31, v0.16.0 |
+| Versions | v0.15.29, v0.15.31, v0.16.0, v0.16.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [frugally-deep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frugally-deep/xmake.lua) |
 
@@ -12788,7 +12788,7 @@ add_requires("krb5")
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
 | License | Unlicense |
-| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2 |
+| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
@@ -26652,7 +26652,7 @@ add_requires("redis-plus-plus")
 | -- | -- |
 | Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
 | License | MIT |
-| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0 |
+| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0, v0.17.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
 
@@ -28700,7 +28700,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32566,7 +32566,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558b8038d290 |
+| License | table: 0x5561bbab1310 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
