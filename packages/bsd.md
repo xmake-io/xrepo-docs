@@ -2132,7 +2132,7 @@ add_requires("c4core")
 | Description | *Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.* |
 | -- | -- |
 | Homepage | [https://mkcert.org/](https://mkcert.org/) |
-| Versions | 20211118, 20220604, 20230306, 20240207 |
+| Versions | 20211118, 20220604, 20230306, 20240207, 20250131 |
 | Architectures | i386, x86_64 |
 | Definition | [ca-certificates/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ca-certificates/xmake.lua) |
 
@@ -10361,7 +10361,7 @@ add_requires("libuuid")
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
 | License | MIT |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.43.0, v1.44.1, v1.45.0, v1.46.0, v1.47.0, v1.48.0, v1.49.0, v1.49.1, v1.49.2 |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.43.0, v1.44.1, v1.45.0, v1.46.0, v1.47.0, v1.48.0, v1.49.0, v1.49.1, v1.49.2, v1.50.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -18008,7 +18008,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
