@@ -2679,7 +2679,7 @@ add_requires("bzip2")
 | -- | -- |
 | Homepage | [https://github.com/kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3) |
 | License | LGPL-3.0 |
-| Versions | 1.4.0 |
+| Versions | 1.4.0, 1.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [bzip3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip3/xmake.lua) |
 
@@ -4495,7 +4495,7 @@ add_requires("cpp-peglib")
 | -- | -- |
 | Homepage | [https://github.com/basiliscos/cpp-rotor](https://github.com/basiliscos/cpp-rotor) |
 | License | MIT |
-| Versions | v0.30, v0.31, v0.32 |
+| Versions | v0.30, v0.31, v0.32, v0.33 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-rotor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-rotor/xmake.lua) |
 
@@ -11975,7 +11975,7 @@ add_requires("itk")
 | -- | -- |
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
-| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4 |
+| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4, v1.11.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
@@ -15182,6 +15182,30 @@ xrepo install libntl
 
 ```lua
 add_requires("libntl")
+```
+
+
+### libnyquist (macosx)
+
+
+| Description | *:microphone: Cross platform C++11 library for decoding audio (mp3, wav, ogg, opus, flac, etc) * |
+| -- | -- |
+| Homepage | [https://github.com/ddiakopoulos/libnyquist](https://github.com/ddiakopoulos/libnyquist) |
+| License | BSD-2-Clause |
+| Versions | 2023.02.12 |
+| Architectures | arm64, x86_64 |
+| Definition | [libnyquist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnyquist/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libnyquist
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnyquist")
 ```
 
 
@@ -28724,7 +28748,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32590,7 +32614,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55859c38f200 |
+| License | table: 0x55dc5b02b750 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
