@@ -4687,7 +4687,7 @@ add_requires("cppcoro")
 | Description | *A personal experimental C++ Syntax 2 -> Syntax 1 compiler* |
 | -- | -- |
 | Homepage | [https://github.com/hsutter/cppfront](https://github.com/hsutter/cppfront) |
-| Versions | v0.7.0, v0.7.2, v0.7.4, v0.8.0 |
+| Versions | v0.7.0, v0.7.2, v0.7.4, v0.8.0, v0.8.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cppfront/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppfront/xmake.lua) |
 
@@ -22415,7 +22415,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6, v4.6.7 |
+| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6, v4.6.7, v4.6.8 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -27444,7 +27444,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

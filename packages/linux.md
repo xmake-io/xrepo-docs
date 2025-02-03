@@ -4971,7 +4971,7 @@ add_requires("cppcodec")
 | Description | *A personal experimental C++ Syntax 2 -> Syntax 1 compiler* |
 | -- | -- |
 | Homepage | [https://github.com/hsutter/cppfront](https://github.com/hsutter/cppfront) |
-| Versions | v0.7.0, v0.7.2, v0.7.4, v0.8.0 |
+| Versions | v0.7.0, v0.7.2, v0.7.4, v0.8.0, v0.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppfront/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppfront/xmake.lua) |
 
@@ -25787,7 +25787,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6, v4.6.7 |
+| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6, v4.6.7, v4.6.8 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -31100,7 +31100,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35038,8 +35038,8 @@ add_requires("wavpack")
 | -- | -- |
 | Homepage | [https://wayland.freedesktop.org/](https://wayland.freedesktop.org/) |
 | License | MIT |
-| Versions | 1.18.0, 1.19.0, 1.23.0 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Versions | 1.18.0, 1.19.0, 1.23.0, 1.23.1 |
+| Architectures | armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wayland/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland/xmake.lua) |
 
 ##### Install command
@@ -35062,8 +35062,8 @@ add_requires("wayland")
 | -- | -- |
 | Homepage | [https://wayland.freedesktop.org](https://wayland.freedesktop.org) |
 | License | MIT |
-| Versions | 1.24, 1.25, 1.26, 1.27, 1.28, 1.29, 1.30, 1.31, 1.32 |
-| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Versions | 1.24, 1.25, 1.26, 1.27, 1.28, 1.29, 1.30, 1.31, 1.32, 1.39 |
+| Architectures | armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wayland-protocols/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland-protocols/xmake.lua) |
 
 ##### Install command
@@ -35250,7 +35250,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559e4e038c60 |
+| License | table: 0x55d17d6ee160 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
