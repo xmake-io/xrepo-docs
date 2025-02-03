@@ -5748,7 +5748,7 @@ add_requires("gnu-rm")
 | -- | -- |
 | Homepage | [https://github.com/googleapis/google-cloud-cpp](https://github.com/googleapis/google-cloud-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.33.0 |
+| Versions | v2.33.0, v2.34.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [google-cloud-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/google-cloud-cpp/xmake.lua) |
 
@@ -7953,7 +7953,7 @@ add_requires("libjxl")
 | -- | -- |
 | Homepage | [https://maxmind.github.io/libmaxminddb/](https://maxmind.github.io/libmaxminddb/) |
 | License | Apache-2.0 |
-| Versions | 1.10.0, 1.11.0 |
+| Versions | 1.10.0, 1.11.0, 1.12.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libmaxminddb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmaxminddb/xmake.lua) |
 
@@ -15494,7 +15494,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -15561,11 +15561,11 @@ add_requires("sqlitecpp")
 ### srell (wasm)
 
 
-| Description | *Unicode-aware regular expression template library for C++* |
+| Description | *SRELL (std::regex-like library) is a Unicode-aware regular expression template library for C++.* |
 | -- | -- |
 | Homepage | [https://akenotsuki.com/misc/srell](https://akenotsuki.com/misc/srell) |
 | License | BSD-2-Clause |
-| Versions | 3.018, 4.019 |
+| Versions | 3.018, 4.019, 4.063 |
 | Architectures | wasm32, wasm64 |
 | Definition | [srell/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srell/xmake.lua) |
 

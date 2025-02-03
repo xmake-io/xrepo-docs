@@ -1276,7 +1276,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -10063,7 +10063,7 @@ add_requires("godotcpp4")
 | -- | -- |
 | Homepage | [https://github.com/googleapis/google-cloud-cpp](https://github.com/googleapis/google-cloud-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.33.0 |
+| Versions | v2.33.0, v2.34.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [google-cloud-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/google-cloud-cpp/xmake.lua) |
 
@@ -14319,7 +14319,7 @@ add_requires("liblas")
 | -- | -- |
 | Homepage | [https://maxmind.github.io/libmaxminddb/](https://maxmind.github.io/libmaxminddb/) |
 | License | Apache-2.0 |
-| Versions | 1.10.0, 1.11.0 |
+| Versions | 1.10.0, 1.11.0, 1.12.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libmaxminddb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmaxminddb/xmake.lua) |
 
@@ -14605,7 +14605,8 @@ add_requires("libnyquist")
 | Description | *A C++17 library to access the entire OpenAI API.* |
 | -- | -- |
 | Homepage | [https://github.com/D7EAD/liboai](https://github.com/D7EAD/liboai) |
-| Versions | 3.1.0, 3.2.1, 4.0.1 |
+| License | MIT |
+| Versions | v3.2.1, v4.0.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [liboai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liboai/xmake.lua) |
 
@@ -27443,7 +27444,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27558,11 +27559,11 @@ add_requires("squirrel")
 ### srell (windows)
 
 
-| Description | *Unicode-aware regular expression template library for C++* |
+| Description | *SRELL (std::regex-like library) is a Unicode-aware regular expression template library for C++.* |
 | -- | -- |
 | Homepage | [https://akenotsuki.com/misc/srell](https://akenotsuki.com/misc/srell) |
 | License | BSD-2-Clause |
-| Versions | 3.018, 4.019 |
+| Versions | 3.018, 4.019, 4.063 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [srell/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srell/xmake.lua) |
 
