@@ -9333,6 +9333,29 @@ add_requires("libpopcnt")
 ```
 
 
+### libpthread-stubs (cross)
+
+
+| Description | *X.Org: pthread-stubs.pc* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 0.4, 0.5 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libpthread-stubs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpthread-stubs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libpthread-stubs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpthread-stubs")
+```
+
+
 ### libqrencode (cross)
 
 
@@ -9449,6 +9472,30 @@ xrepo install -p cross [--sdk=/xxx] libsdl
 
 ```lua
 add_requires("libsdl")
+```
+
+
+### libsdl3 (cross)
+
+
+| Description | *Simple DirectMedia Layer* |
+| -- | -- |
+| Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
+| License | zlib |
+| Versions | 3.2.0, 3.2.2 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libsdl3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl3")
 ```
 
 
@@ -10071,6 +10118,121 @@ xrepo install -p cross [--sdk=/xxx] libwebsockets
 
 ```lua
 add_requires("libwebsockets")
+```
+
+
+### libx11 (cross)
+
+
+| Description | *X.Org: Core X11 protocol client library* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1, 1.8.7 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libx11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libx11")
+```
+
+
+### libxau (cross)
+
+
+| Description | *X.Org: A Sample Authorization Protocol for X* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.0.10, 1.0.11 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxau/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxau
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxau")
+```
+
+
+### libxcb (cross)
+
+
+| Description | *X.Org: Interface to the X Window System protocol* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.13.1, 1.14, 1.16 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxcb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcb/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxcb
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxcb")
+```
+
+
+### libxdmcp (cross)
+
+
+| Description | *X.Org: X Display Manager Control Protocol library* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.1.3, 1.1.4 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxdmcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxdmcp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxdmcp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxdmcp")
+```
+
+
+### libxext (cross)
+
+
+| Description | *X.Org: Library for common extensions to the X11 protocol* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.3.5, 1.3.6 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxext/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxext
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxext")
 ```
 
 
@@ -16997,7 +17159,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -19022,6 +19184,29 @@ add_requires("uthash")
 ```
 
 
+### util-macros (cross)
+
+
+| Description | *X.Org: Set of autoconf macros used to build other xorg packages* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.19.3, 1.20.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [util-macros/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/util-macros/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] util-macros
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("util-macros")
+```
+
+
 ### uvw (cross)
 
 
@@ -19623,6 +19808,29 @@ add_requires("xbyak")
 ```
 
 
+### xcb-proto (cross)
+
+
+| Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.13, 1.14, 1.14.1, 1.16.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [xcb-proto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-proto/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] xcb-proto
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xcb-proto")
+```
+
+
 ### xlnt (cross)
 
 
@@ -19671,6 +19879,29 @@ add_requires("xlsxio")
 ```
 
 
+### xorgproto (cross)
+
+
+| Description | *X.Org: Protocol Headers* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 2021.5, 2022.2, 2023.2 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [xorgproto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xorgproto/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] xorgproto
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xorgproto")
+```
+
+
 ### xpack (cross)
 
 
@@ -19692,6 +19923,29 @@ xrepo install -p cross [--sdk=/xxx] xpack
 
 ```lua
 add_requires("xpack")
+```
+
+
+### xtrans (cross)
+
+
+| Description | *X.Org: X Network Transport layer shared code* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.4.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [xtrans/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtrans/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] xtrans
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtrans")
 ```
 
 
