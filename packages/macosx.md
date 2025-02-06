@@ -17275,7 +17275,7 @@ add_requires("libxlsxwriter")
 | Description | *The c/c++ bindings of the xmake core engine* |
 | -- | -- |
 | Homepage | [https://xmake.io](https://xmake.io) |
-| Versions | v2.7.9, v2.8.9, v2.9.1, v2.9.2, v2.9.4, v2.9.5, v2.9.6, v2.9.7 |
+| Versions | v2.9.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmake/xmake.lua) |
 
@@ -23458,7 +23458,7 @@ add_requires("pagmo")
 | -- | -- |
 | Homepage | [https://github.com/eclipse/paho.mqtt.c](https://github.com/eclipse/paho.mqtt.c) |
 | License | EPL-2.0 |
-| Versions | v1.3.13 |
+| Versions | v1.3.13, v1.3.14 |
 | Architectures | arm64, x86_64 |
 | Definition | [pahomqttc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pahomqttc/xmake.lua) |
 
@@ -25007,7 +25007,7 @@ add_requires("promise-cpp")
 | Description | *Google's data interchange format for c* |
 | -- | -- |
 | Homepage | [https://github.com/protobuf-c/protobuf-c](https://github.com/protobuf-c/protobuf-c) |
-| Versions | 1.3.1, 1.5.0 |
+| Versions | 1.3.1, 1.5.0, 1.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [protobuf-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-c/xmake.lua) |
 
@@ -28773,7 +28773,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31778,7 +31778,7 @@ add_requires("uvwasi")
 | -- | -- |
 | Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
 | License | Apache-2.0 |
-| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0 |
+| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [uwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uwebsockets/xmake.lua) |
 
@@ -32639,7 +32639,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f2a5e41a20 |
+| License | table: 0x556280ef23f0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
