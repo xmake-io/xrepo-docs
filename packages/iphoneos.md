@@ -2824,7 +2824,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -8167,7 +8167,7 @@ add_requires("libb2")
 | -- | -- |
 | Homepage | [https://github.com/dpryan79/libBigWig](https://github.com/dpryan79/libBigWig) |
 | License | MIT |
-| Versions | 0.4.7 |
+| Versions | 0.4.7, 0.4.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [libbigwig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbigwig/xmake.lua) |
 
@@ -9444,6 +9444,102 @@ xrepo install -p iphoneos libsdl2
 
 ```lua
 add_requires("libsdl2")
+```
+
+
+### libsdl2_image (iphoneos)
+
+
+| Description | *Simple DirectMedia Layer image loading library* |
+| -- | -- |
+| Homepage | [http://www.libsdl.org/projects/SDL_image/](http://www.libsdl.org/projects/SDL_image/) |
+| License | zlib |
+| Versions | 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2, 2.8.3, 2.8.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [libsdl2_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_image/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libsdl2_image
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl2_image")
+```
+
+
+### libsdl2_mixer (iphoneos)
+
+
+| Description | *Simple DirectMedia Layer mixer audio library* |
+| -- | -- |
+| Homepage | [https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/) |
+| License | zlib |
+| Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libsdl2_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_mixer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libsdl2_mixer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl2_mixer")
+```
+
+
+### libsdl2_net (iphoneos)
+
+
+| Description | *Simple DirectMedia Layer networking library* |
+| -- | -- |
+| Homepage | [https://www.libsdl.org/projects/SDL_net/](https://www.libsdl.org/projects/SDL_net/) |
+| License | zlib |
+| Versions | 2.2.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libsdl2_net/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_net/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libsdl2_net
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl2_net")
+```
+
+
+### libsdl2_ttf (iphoneos)
+
+
+| Description | *Simple DirectMedia Layer text rendering library* |
+| -- | -- |
+| Homepage | [https://github.com/libsdl-org/SDL_ttf/](https://github.com/libsdl-org/SDL_ttf/) |
+| License | zlib |
+| Versions | 2.20.0, 2.20.1, 2.20.2, 2.22.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libsdl2_ttf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_ttf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libsdl2_ttf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl2_ttf")
 ```
 
 
@@ -17398,7 +17494,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

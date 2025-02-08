@@ -1539,7 +1539,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0</td>
+<td>v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0, v0.5.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -4778,7 +4778,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5</td>
+<td>v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -12671,7 +12671,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.4.7</td>
+<td>0.4.7, 0.4.8</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -14366,6 +14366,154 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libsdl2")
+</code></pre>
+<h3 id="libsdl2_imagemsys">libsdl2_image (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Simple DirectMedia Layer image loading library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://www.libsdl.org/projects/SDL_image/">http://www.libsdl.org/projects/SDL_image/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2, 2.8.3, 2.8.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_image/xmake.lua">libsdl2_image/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libsdl2_image
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsdl2_image")
+</code></pre>
+<h3 id="libsdl2_mixermsys">libsdl2_mixer (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Simple DirectMedia Layer mixer audio library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.libsdl.org/projects/SDL_mixer/">https://www.libsdl.org/projects/SDL_mixer/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_mixer/xmake.lua">libsdl2_mixer/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libsdl2_mixer
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsdl2_mixer")
+</code></pre>
+<h3 id="libsdl2_netmsys">libsdl2_net (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Simple DirectMedia Layer networking library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.libsdl.org/projects/SDL_net/">https://www.libsdl.org/projects/SDL_net/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.2.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_net/xmake.lua">libsdl2_net/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libsdl2_net
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsdl2_net")
+</code></pre>
+<h3 id="libsdl2_ttfmsys">libsdl2_ttf (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Simple DirectMedia Layer text rendering library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/libsdl-org/SDL_ttf/">https://github.com/libsdl-org/SDL_ttf/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.20.0, 2.20.1, 2.20.2, 2.22.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_ttf/xmake.lua">libsdl2_ttf/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libsdl2_ttf
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsdl2_ttf")
 </code></pre>
 <h3 id="libsdl3msys">libsdl3 (msys)</h3>
 <table>
@@ -25763,7 +25911,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
