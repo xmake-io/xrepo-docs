@@ -25944,7 +25944,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0 |
 | Architectures | arm64, x64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -27635,7 +27635,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
