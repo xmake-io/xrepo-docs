@@ -2087,7 +2087,7 @@ add_requires("clara")
 | -- | -- |
 | Homepage | [https://nicbarker.com/clay](https://nicbarker.com/clay) |
 | License | zlib |
-| Versions | v0.12 |
+| Versions | v0.12, v0.13 |
 | Architectures | wasm32, wasm64 |
 | Definition | [clay/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clay/xmake.lua) |
 
@@ -7154,6 +7154,29 @@ xrepo install -p wasm klib
 
 ```lua
 add_requires("klib")
+```
+
+
+### kotlin-native (wasm)
+
+
+| Description | *The Kotlin Programming Language. * |
+| -- | -- |
+| Homepage | [https://kotlinlang.org](https://kotlinlang.org) |
+| Versions | 2.1.10 |
+| Architectures | wasm32, wasm64 |
+| Definition | [kotlin-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kotlin-native/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm kotlin-native
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kotlin-native")
 ```
 
 
@@ -15686,7 +15709,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -16142,7 +16165,7 @@ add_requires("syscmdline")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/tabulate](https://github.com/p-ranav/tabulate) |
 | License | BSD-3-Clause |
-| Versions | 0.6.2 |
+| Versions | 0.6.2, 0.6.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ta-lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/ta-lib/xmake.lua) |
 

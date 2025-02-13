@@ -3850,7 +3850,7 @@ add_requires("clara")
 | -- | -- |
 | Homepage | [https://nicbarker.com/clay](https://nicbarker.com/clay) |
 | License | zlib |
-| Versions | v0.12 |
+| Versions | v0.12, v0.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [clay/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clay/xmake.lua) |
 
@@ -13664,6 +13664,29 @@ add_requires("kokkos-kernels")
 ```
 
 
+### kotlin-native (linux)
+
+
+| Description | *The Kotlin Programming Language. * |
+| -- | -- |
+| Homepage | [https://kotlinlang.org](https://kotlinlang.org) |
+| Versions | 2.1.10 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [kotlin-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kotlin-native/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kotlin-native
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kotlin-native")
+```
+
+
 ### krb5 (linux)
 
 
@@ -15122,7 +15145,7 @@ add_requires("libevent")
 | -- | -- |
 | Homepage | [https://ofiwg.github.io/libfabric/](https://ofiwg.github.io/libfabric/) |
 | License | BSD-2-Clause |
-| Versions | 1.13.0, 1.17.0, 1.20.1, 1.20.2, 1.22.0 |
+| Versions | 1.13.0, 1.17.0, 1.20.1, 1.20.2, 1.22.0, 2.0.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfabric/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfabric/xmake.lua) |
 
@@ -15170,7 +15193,7 @@ add_requires("libfacedetection")
 | -- | -- |
 | Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
 | License | MIT |
-| Versions | 3.2.1, 3.3, 3.4.2, 3.4.4, 3.4.6 |
+| Versions | 3.2.1, 3.3, 3.4.2, 3.4.4, 3.4.6, 3.4.7 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
 
@@ -30863,7 +30886,7 @@ add_requires("sokol")
 | Description | *A C++ library binding to Lua.* |
 | -- | -- |
 | Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
-| Versions | v3.2.1, v3.2.2, v3.2.3, v3.3.0 |
+| Versions | v3.2.1, v3.2.2, v3.2.3, v3.3.0, v3.3.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
 
@@ -31316,7 +31339,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32174,7 +32197,7 @@ add_requires("szip")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/tabulate](https://github.com/p-ranav/tabulate) |
 | License | BSD-3-Clause |
-| Versions | 0.6.2 |
+| Versions | 0.6.2, 0.6.4 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ta-lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/ta-lib/xmake.lua) |
 
@@ -35466,7 +35489,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5568782cf4b0 |
+| License | table: 0x564fd1cfd550 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

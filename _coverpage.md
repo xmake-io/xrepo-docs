@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: libsdl3_image, libsdl2_gfx, libsdl2_image**
+- **Recently added: kotlin-native, libsdl3_image, libsdl2_gfx**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
