@@ -6528,7 +6528,7 @@ add_requires("dlpack")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/DLSS](https://github.com/NVIDIA/DLSS) |
 | License | NVIDIA RTX SDKs |
-| Versions | v3.7.20 |
+| Versions | v3.7.20, v310.1.0 |
 | Architectures | x64 |
 | Definition | [dlss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlss/xmake.lua) |
 
@@ -8422,7 +8422,7 @@ add_requires("flatcc")
 | -- | -- |
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
-| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10, v3.2.11, v3.2.12, v4.0.0, v4.0.1, v4.0.2, v4.0.3 |
+| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10, v3.2.11, v3.2.12, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
@@ -16960,7 +16960,7 @@ add_requires("ls-hpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/ls-qpack](https://github.com/litespeedtech/ls-qpack) |
 | License | MIT |
-| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0 |
+| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ls-qpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-qpack/xmake.lua) |
 
@@ -27730,7 +27730,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
