@@ -2277,7 +2277,7 @@ add_requires("boost_sml")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/ut/](https://boost-ext.github.io/ut/) |
 | License | BSL-1.0 |
-| Versions | v1.1.9, v2.0.1, v2.1.0, v2.1.1 |
+| Versions | v1.1.9, v2.0.1, v2.1.0, v2.1.1, v2.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [boost_ut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_ut/xmake.lua) |
 
@@ -7844,7 +7844,7 @@ add_requires("farmhash")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5 |
+| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -28488,7 +28488,7 @@ add_requires("snitch")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/snmalloc](https://github.com/microsoft/snmalloc) |
 | License | MIT |
-| Versions | 0.6.0, 0.6.2, 0.7.0 |
+| Versions | 0.6.0, 0.6.2, 0.7.0, 0.7.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [snmalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snmalloc/xmake.lua) |
 
@@ -29059,7 +29059,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32925,7 +32925,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564916a85020 |
+| License | table: 0x55e3b7a9bbf0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
