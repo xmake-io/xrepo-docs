@@ -1854,6 +1854,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("aws-checksums")
 </code></pre>
+<h3 id="awslcmingw">aws-lc (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/aws/aws-lc">https://github.com/aws/aws-lc</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua">aws-lc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] aws-lc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("aws-lc")
+</code></pre>
 <h2 id="b">b</h2>
 <h3 id="b2mingw">b2 (mingw)</h3>
 <table>
@@ -12621,6 +12654,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("implot")
 </code></pre>
+<h3 id="implot3dmingw">implot3d (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Immediate Mode 3D Plotting</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/brenocq/implot3d">https://github.com/brenocq/implot3d</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot3d/xmake.lua">implot3d/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] implot3d
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("implot3d")
+</code></pre>
 <h3 id="indicatorsmingw">indicators (mingw)</h3>
 <table>
 <thead>
@@ -16785,7 +16855,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0</td>
+<td>2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0, 2.8.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -17007,7 +17077,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0</td>
+<td>2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0, 2.8.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -24255,7 +24325,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.6.2</td>
+<td>0.6.2, 0.7.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27469,7 +27539,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0</td>
+<td>v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30457,7 +30527,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>

@@ -1676,6 +1676,29 @@ add_requires("aws-crt-cpp")
 ```
 
 
+### aws-lc (linux)
+
+
+| Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
+| -- | -- |
+| Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aws-lc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-lc")
+```
+
+
 ### aws-sdk-cpp (linux)
 
 
@@ -12442,6 +12465,30 @@ add_requires("implot")
 ```
 
 
+### implot3d (linux)
+
+
+| Description | *Immediate Mode 3D Plotting* |
+| -- | -- |
+| Homepage | [https://github.com/brenocq/implot3d](https://github.com/brenocq/implot3d) |
+| License | MIT |
+| Versions | v0.2 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [implot3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot3d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install implot3d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("implot3d")
+```
+
+
 ### indicators (linux)
 
 
@@ -17306,7 +17353,7 @@ add_requires("libsdl2_image")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/) |
 | License | zlib |
-| Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0 |
+| Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0, 2.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl2_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_mixer/xmake.lua) |
 
@@ -17473,7 +17520,7 @@ add_requires("libsdl_image")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/projects/SDL_mixer/](https://www.libsdl.org/projects/SDL_mixer/) |
 | License | zlib |
-| Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0 |
+| Versions | 2.0.4, 2.6.0, 2.6.1, 2.6.2, 2.8.0, 2.8.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_mixer/xmake.lua) |
 
@@ -25835,7 +25882,7 @@ add_requires("patchelf")
 | -- | -- |
 | Homepage | [https://github.com/DeveloperPaul123/thread-pool](https://github.com/DeveloperPaul123/thread-pool) |
 | License | MIT |
-| Versions | 0.6.2 |
+| Versions | 0.6.2, 0.7.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [paul_thread_pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/paul_thread_pool/xmake.lua) |
 
@@ -28550,7 +28597,7 @@ add_requires("quickjspp")
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
 | License | MIT |
-| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0 |
+| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -31410,7 +31457,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35560,7 +35607,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d3323139a0 |
+| License | table: 0x560bea8c58b0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
