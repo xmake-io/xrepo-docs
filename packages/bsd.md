@@ -221,7 +221,7 @@ add_requires("amqp-cpp")
 | Description | *AMReX: Software Framework for Block Structured AMR* |
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
-| Versions | 24.09, 24.12 |
+| Versions | 24.09, 24.12, 25.02 |
 | Architectures | i386, x86_64 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
@@ -787,6 +787,30 @@ xrepo install audiofile
 
 ```lua
 add_requires("audiofile")
+```
+
+
+### aurora-au (bsd)
+
+
+| Description | *A C++14-compatible physical units library with no dependencies and a single-file delivery option. Emphasis on safety, accessibility, performance, and developer experience.* |
+| -- | -- |
+| Homepage | [https://aurora-opensource.github.io/au](https://aurora-opensource.github.io/au) |
+| License | Apache-2.0 |
+| Versions | 0.4.1 |
+| Architectures | i386, x86_64 |
+| Definition | [aurora-au/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aurora-au/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aurora-au
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aurora-au")
 ```
 
 
@@ -6394,7 +6418,7 @@ add_requires("gklib")
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
 | License | MIT |
-| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2 |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2, v4.4.3 |
 | Architectures | i386, x86_64 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
@@ -9718,7 +9742,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47 |
 | Architectures | i386, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -12617,7 +12641,7 @@ add_requires("microsoft-kuku")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
 | License | MIT |
-| Versions | 1.1.1, 2.2.1, 2.3.0, 2.4.0, 3.0.0, 3.1.0, 3.2.0 |
+| Versions | 1.1.1, 2.2.1, 2.3.0, 2.4.0, 3.0.0, 3.1.0, 3.2.0, 3.2.1 |
 | Architectures | i386, x86_64 |
 | Definition | [microsoft-proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-proxy/xmake.lua) |
 
@@ -15720,7 +15744,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutosvg](https://github.com/sammycage/plutosvg) |
 | License | MIT |
-| Versions | v0.0.2, v0.0.3, v0.0.4 |
+| Versions | v0.0.2, v0.0.3, v0.0.4, v0.0.5 |
 | Architectures | i386, x86_64 |
 | Definition | [plutosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutosvg/xmake.lua) |
 
@@ -18365,7 +18389,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
