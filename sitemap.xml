@@ -7,77 +7,77 @@
     
 <url>
   <loc>https://xrepo.xmake.io</loc>
-  <lastmod>2025-02-25T08:11:16+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/index.html</loc>
-  <lastmod>2025-02-25T08:11:27+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/zh-cn/index.html</loc>
-  <lastmod>2025-02-25T08:11:27+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/zh-cn/getting_started.html</loc>
-  <lastmod>2025-02-25T08:11:27+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/getting_started.html</loc>
-  <lastmod>2025-02-25T08:11:28+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/packages/cross.html</loc>
-  <lastmod>2025-02-25T08:11:28+08:00</lastmod>
+  <lastmod>2025-02-25T15:20:39+08:00</lastmod>
 </url>
 
 <url>
   <loc>https://xrepo.xmake.io/mirror/packages/wasm.html</loc>
-  <lastmod>2025-02-25T08:11:28+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/packages/macosx.html</loc>
-  <lastmod>2025-02-25T08:11:29+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/packages/msys.html</loc>
-  <lastmod>2025-02-25T08:11:29+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/packages/bsd.html</loc>
-  <lastmod>2025-02-25T08:11:29+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/packages/mingw.html</loc>
-  <lastmod>2025-02-25T08:11:30+08:00</lastmod>
-</url>
-
-<url>
-  <loc>https://xrepo.xmake.io/mirror/packages/iphoneos.html</loc>
-  <lastmod>2025-02-25T08:11:30+08:00</lastmod>
+  <lastmod>2025-02-25T15:20:50+08:00</lastmod>
 </url>
 
 <url>
   <loc>https://xrepo.xmake.io/mirror/packages/linux.html</loc>
-  <lastmod>2025-02-25T08:11:31+08:00</lastmod>
+  <lastmod>2025-02-25T15:20:51+08:00</lastmod>
 </url>
 
 <url>
   <loc>https://xrepo.xmake.io/mirror/packages/windows.html</loc>
-  <lastmod>2025-02-25T08:11:31+08:00</lastmod>
+  <lastmod>2025-02-25T15:20:51+08:00</lastmod>
 </url>
 
 <url>
   <loc>https://xrepo.xmake.io/mirror/packages/android.html</loc>
-  <lastmod>2025-02-25T08:11:31+08:00</lastmod>
+  <lastmod>2025-02-25T15:20:51+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/packages/cross.html</loc>
+  <lastmod>2025-02-25T15:20:52+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/packages/mingw.html</loc>
+  <lastmod>2025-02-25T15:20:52+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/packages/msys.html</loc>
+  <lastmod>2025-02-25T15:20:52+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/packages/bsd.html</loc>
+  <lastmod>2025-02-25T15:20:53+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/packages/macosx.html</loc>
+  <lastmod>2025-02-25T15:20:53+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/packages/iphoneos.html</loc>
+  <lastmod>2025-02-25T15:20:54+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/getting_started.html</loc>
+  <lastmod>2025-02-25T15:20:54+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/zh-cn/getting_started.html</loc>
+  <lastmod>2025-02-25T15:20:54+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/zh-cn/index.html</loc>
+  <lastmod>2025-02-25T15:20:54+08:00</lastmod>
+</url>
+
+<url>
+  <loc>https://xrepo.xmake.io/mirror/index.html</loc>
+  <lastmod>2025-02-25T15:20:54+08:00</lastmod>
 </url>
 
 </urlset>
