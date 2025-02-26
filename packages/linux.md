@@ -31553,7 +31553,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34723,7 +34723,7 @@ add_requires("uvwasi")
 | -- | -- |
 | Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
 | License | Apache-2.0 |
-| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0 |
+| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0, v20.74.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [uwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uwebsockets/xmake.lua) |
 
@@ -35579,6 +35579,30 @@ add_requires("websocketpp")
 ```
 
 
+### webthing-cpp (linux)
+
+
+| Description | *Webthing-CPP is a modern CPP/C++17 implementation of the WebThings API.* |
+| -- | -- |
+| Homepage | [https://github.com/bw-hro/webthing-cpp](https://github.com/bw-hro/webthing-cpp) |
+| License | MIT |
+| Versions | v1.1.0 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [webthing-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/webthing-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install webthing-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("webthing-cpp")
+```
+
+
 ### webui (linux)
 
 
@@ -35727,7 +35751,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x555a78a39d60 |
+| License | table: 0x55cd8e1431b0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
