@@ -3724,6 +3724,30 @@ add_requires("cutlass")
 ```
 
 
+### cwt-cucumber (iphoneos)
+
+
+| Description | *A C++ Cucumber interpreter* |
+| -- | -- |
+| Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
+| License | MIT |
+| Versions | 2.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos cwt-cucumber
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cwt-cucumber")
+```
+
+
 ### cxxgraph (iphoneos)
 
 
@@ -17707,7 +17731,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20115,6 +20139,30 @@ xrepo install -p iphoneos webdriverxx
 
 ```lua
 add_requires("webdriverxx")
+```
+
+
+### whereami (iphoneos)
+
+
+| Description | *Locate the current running executable and the current running module/library on the file system 🔎* |
+| -- | -- |
+| Homepage | [https://github.com/gpakosz/whereami](https://github.com/gpakosz/whereami) |
+| License | MIT |
+| Versions | 2024.08.26 |
+| Architectures | arm64, x86_64 |
+| Definition | [whereami/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/whereami/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos whereami
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("whereami")
 ```
 
 
