@@ -31577,7 +31577,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31600,7 +31600,7 @@ add_requires("sqlite3")
 | Description | *SQLite ORM light header only library for modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) |
-| Versions | v1.8.2, v1.9 |
+| Versions | v1.8.2, v1.9, v1.9.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite_orm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite_orm/xmake.lua) |
 
@@ -33257,6 +33257,30 @@ xrepo install tinycrypt
 
 ```lua
 add_requires("tinycrypt")
+```
+
+
+### tinycthread (linux)
+
+
+| Description | *A small, portable implementation of the C11 threads API.* |
+| -- | -- |
+| Homepage | [https://github.com/tinycthread/tinycthread](https://github.com/tinycthread/tinycthread) |
+| License | MIT |
+| Versions | 2016.09.30 |
+| Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [tinycthread/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycthread/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinycthread
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinycthread")
 ```
 
 
@@ -35775,7 +35799,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55bab23ee170 |
+| License | table: 0x5634add1b060 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
