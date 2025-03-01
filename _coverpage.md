@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: fixed-containers, gelldur-eventbus, tinycthread**
+- **Recently added: hyprwayland-scanner, fixed-containers, gelldur-eventbus**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
