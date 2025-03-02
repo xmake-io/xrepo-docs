@@ -10211,6 +10211,30 @@ add_requires("libsvm")
 ```
 
 
+### libtasn1 (iphoneos)
+
+
+| Description | *Libtasn1 is the ASN.1 library used by GnuTLS, p11-kit and some other packages.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libtasn1/](https://www.gnu.org/software/libtasn1/) |
+| License | LGPL-2.1 |
+| Versions | 4.15.0, 4.19.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libtasn1/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtasn1/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libtasn1
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtasn1")
+```
+
+
 ### libtomcrypt (iphoneos)
 
 
@@ -14191,6 +14215,30 @@ add_requires("ozz-animation")
 
 
 ## p
+### p11-kit (iphoneos)
+
+
+| Description | *Provides a way to load and enumerate PKCS#11 modules.* |
+| -- | -- |
+| Homepage | [https://p11-glue.github.io/p11-glue/p11-kit.html](https://p11-glue.github.io/p11-glue/p11-kit.html) |
+| License | BSD-3-Clause |
+| Versions | 0.25.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [p11-kit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/p11-kit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos p11-kit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("p11-kit")
+```
+
+
 ### pahomqttc (iphoneos)
 
 
@@ -17827,7 +17875,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
