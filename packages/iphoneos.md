@@ -366,7 +366,7 @@ add_requires("aqt")
 | -- | -- |
 | Homepage | [https://arduinojson.org](https://arduinojson.org) |
 | License | MIT |
-| Versions | v6.21.4, v7.0.3, v7.0.4, v7.1.0, v7.2.0, v7.2.1, v7.3.0 |
+| Versions | v6.21.4, v7.0.3, v7.0.4, v7.1.0, v7.2.0, v7.2.1, v7.3.0, v7.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
 
@@ -6484,7 +6484,7 @@ add_requires("grpc")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0, v4.1.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -6917,7 +6917,7 @@ add_requires("hiredis")
 | -- | -- |
 | Homepage | [https://github.com/redorav/hlslpp](https://github.com/redorav/hlslpp) |
 | License | MIT |
-| Versions | 3.1, 3.2.3, 3.4, 3.5, 3.5.1, 3.5.3 |
+| Versions | 3.1, 3.2.3, 3.4, 3.5, 3.5.1, 3.5.3, 3.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [hlslpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hlslpp/xmake.lua) |
 
@@ -11359,7 +11359,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4, 4.5 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -11979,7 +11979,7 @@ add_requires("microprofile")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0, v4.1.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
@@ -17583,6 +17583,30 @@ add_requires("sokol")
 ```
 
 
+### sokol-tools (iphoneos)
+
+
+| Description | *Command line tools for use with sokol headers* |
+| -- | -- |
+| Homepage | [https://github.com/floooh/sokol-tools](https://github.com/floooh/sokol-tools) |
+| License | MIT |
+| Versions | 2025.02.10 |
+| Architectures | arm64, x86_64 |
+| Definition | [sokol-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sokol-tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos sokol-tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sokol-tools")
+```
+
+
 ### sol2 (iphoneos)
 
 
@@ -17899,7 +17923,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
