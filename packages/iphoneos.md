@@ -5650,7 +5650,7 @@ add_requires("fmi")
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
 | License | MIT |
-| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2, 11.1.0, 11.1.1, 11.1.2, 11.1.3 |
+| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2, 11.1.0, 11.1.1, 11.1.2, 11.1.3, 11.1.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -16515,7 +16515,7 @@ add_requires("rapidxml")
 | -- | -- |
 | Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
 | License | BSD-3-Clause |
-| Versions | v4.3.0, v4.4.0, v4.5.0, v5.0.1, v5.2.2 |
+| Versions | v4.3.0, v4.4.0, v4.5.0, v5.0.1, v5.2.2, v5.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
 
@@ -17376,7 +17376,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2 |
 | Architectures | arm64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
@@ -17971,7 +17971,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
