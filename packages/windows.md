@@ -4927,7 +4927,7 @@ add_requires("cppzmq")
 | -- | -- |
 | Homepage | [https://docs.libcpr.org/](https://docs.libcpr.org/) |
 | License | MIT |
-| Versions | 1.6.2, 1.7.2, 1.8.3, 1.9.4, 1.10.2, 1.10.3, 1.10.5, 1.11.1 |
+| Versions | 1.6.2, 1.7.2, 1.8.3, 1.9.4, 1.10.2, 1.10.3, 1.10.5, 1.11.1, 1.11.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpr/xmake.lua) |
 
@@ -23658,7 +23658,7 @@ add_requires("plf_stack")
 | -- | -- |
 | Homepage | [https://github.com/ntamas/plfit](https://github.com/ntamas/plfit) |
 | License | GPL-2.0 |
-| Versions | 1.0.0 |
+| Versions | 1.0.0, 1.0.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [plfit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plfit/xmake.lua) |
 
@@ -28113,7 +28113,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28589,7 +28589,7 @@ add_requires("strings_h")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10, v3.10.11, v3.11.0, v3.11.1, v3.11.3, v3.12.1 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10, v3.10.11, v3.11.0, v3.11.1, v3.11.3, v3.12.1, v3.12.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
@@ -30715,7 +30715,7 @@ add_requires("units")
 | -- | -- |
 | Homepage | [http://www.throwtheswitch.org/unity](http://www.throwtheswitch.org/unity) |
 | License | MIT |
-| Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2, v2.6.0 |
+| Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2, v2.6.0, v2.6.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [unity_test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unity_test/xmake.lua) |
 
@@ -31453,7 +31453,7 @@ add_requires("verdict")
 | -- | -- |
 | Homepage | [https://verilator.org](https://verilator.org) |
 | License | LGPL-3.0 |
-| Versions | v5.016, v5.032 |
+| Versions | v5.016, v5.032, v5.034 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
 
