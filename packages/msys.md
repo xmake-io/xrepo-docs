@@ -6623,6 +6623,30 @@ add_requires("glx")
 ```
 
 
+### gmp (msys)
+
+
+| Description | *GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.* |
+| -- | -- |
+| Homepage | [https://gmplib.org/](https://gmplib.org/) |
+| License | LGPL-3.0 |
+| Versions | 6.2.1, 6.3.0 |
+| Architectures | i386, x86_64 |
+| Definition | [gmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gmp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gmp")
+```
+
+
 ### gmssl (msys)
 
 
@@ -12640,6 +12664,30 @@ add_requires("munkres-algorithm")
 ```
 
 
+### muparserx (msys)
+
+
+| Description | *A C++ Library for Parsing Expressions with Strings, Complex Numbers, Vectors, Matrices and more.* |
+| -- | -- |
+| Homepage | [http://beltoforion.de/en/muparserx](http://beltoforion.de/en/muparserx) |
+| License | BSD-2-Clause |
+| Versions | v4.0.12 |
+| Architectures | i386, x86_64 |
+| Definition | [muparserx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muparserx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install muparserx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muparserx")
+```
+
+
 ### muslcc (msys)
 
 
@@ -12972,6 +13020,30 @@ xrepo install neargye-scope_guard
 
 ```lua
 add_requires("neargye-scope_guard")
+```
+
+
+### nettle (msys)
+
+
+| Description | *Nettle is a cryptographic library that is designed to fit easily in more or less any context.* |
+| -- | -- |
+| Homepage | [https://www.lysator.liu.se/~nisse/nettle/](https://www.lysator.liu.se/~nisse/nettle/) |
+| License | LGPL-3.0 |
+| Versions | 3.6, 3.9.1, 3.10.1 |
+| Architectures | i386, x86_64 |
+| Definition | [nettle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nettle/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nettle
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nettle")
 ```
 
 
@@ -17469,7 +17541,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

@@ -10082,6 +10082,30 @@ add_requires("gmm")
 ```
 
 
+### gmp (windows)
+
+
+| Description | *GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.* |
+| -- | -- |
+| Homepage | [https://gmplib.org/](https://gmplib.org/) |
+| License | LGPL-3.0 |
+| Versions | 6.2.1, 6.3.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [gmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gmp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gmp")
+```
+
+
 ### gmsh (windows)
 
 
@@ -10207,7 +10231,7 @@ add_requires("gnu-rm")
 | -- | -- |
 | Homepage | [https://go.dev](https://go.dev) |
 | License | BSD-3-Clause |
-| Versions | 1.22.2, 1.22.4, 1.22.6, 1.22.7, 1.22.8, 1.22.9, 1.22.10, 1.22.11, 1.22.12, 1.23.0, 1.23.1, 1.23.2, 1.23.3, 1.23.4, 1.23.5, 1.23.6, 1.24.0 |
+| Versions | 1.22.6, 1.22.7, 1.22.8, 1.22.9, 1.22.10, 1.22.11, 1.22.12, 1.23.0, 1.23.1, 1.23.2, 1.23.3, 1.23.4, 1.23.5, 1.23.6, 1.23.7, 1.24.0, 1.24.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [go/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/go/xmake.lua) |
 
@@ -19789,6 +19813,30 @@ add_requires("munkres-algorithm")
 ```
 
 
+### muparserx (windows)
+
+
+| Description | *A C++ Library for Parsing Expressions with Strings, Complex Numbers, Vectors, Matrices and more.* |
+| -- | -- |
+| Homepage | [http://beltoforion.de/en/muparserx](http://beltoforion.de/en/muparserx) |
+| License | BSD-2-Clause |
+| Versions | v4.0.12 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [muparserx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muparserx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install muparserx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muparserx")
+```
+
+
 ### muslcc (windows)
 
 
@@ -20379,6 +20427,30 @@ xrepo install neco
 
 ```lua
 add_requires("neco")
+```
+
+
+### nettle (windows)
+
+
+| Description | *Nettle is a cryptographic library that is designed to fit easily in more or less any context.* |
+| -- | -- |
+| Homepage | [https://www.lysator.liu.se/~nisse/nettle/](https://www.lysator.liu.se/~nisse/nettle/) |
+| License | LGPL-3.0 |
+| Versions | 3.6, 3.9.1, 3.10.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [nettle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nettle/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nettle
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nettle")
 ```
 
 
@@ -28041,7 +28113,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
