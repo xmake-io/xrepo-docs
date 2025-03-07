@@ -7288,7 +7288,7 @@ add_requires("drogon")
 | -- | -- |
 | Homepage | [http://duckdb.org/](http://duckdb.org/) |
 | License | MIT |
-| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3 |
+| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3, v1.2.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [duckdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duckdb/xmake.lua) |
 
@@ -23784,7 +23784,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
@@ -25238,7 +25238,7 @@ add_requires("opengl-headers")
 | -- | -- |
 | Homepage | [http://www.openh264.org/](http://www.openh264.org/) |
 | License | BSD-2-Clause |
-| Versions | v2.1.1, v2.4.1, v2.5.0 |
+| Versions | v2.1.1, v2.4.1, v2.5.0, v2.6.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openh264/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openh264/xmake.lua) |
 
@@ -31863,7 +31863,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -36085,7 +36085,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5648211c98e0 |
+| License | table: 0x563abf6d61e0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
