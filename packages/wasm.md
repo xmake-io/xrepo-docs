@@ -5839,6 +5839,30 @@ add_requires("glog")
 ```
 
 
+### glpk (wasm)
+
+
+| Description | *The GLPK (GNU Linear Programming Kit) package is intended for solving large-scale linear programming (LP), mixed integer programming (MIP), and other related problems.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/glpk/](https://www.gnu.org/software/glpk/) |
+| License | GPL-3.0 |
+| Versions | 5.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [glpk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glpk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm glpk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glpk")
+```
+
+
 ### glslang (wasm)
 
 
@@ -16092,7 +16116,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

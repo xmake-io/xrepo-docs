@@ -5959,7 +5959,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.1+2, v1.2.1+1</td>
+<td>v1.2.1+1, v1.2.1+2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11100,6 +11100,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("glog")
+</code></pre>
+<h3 id="glpkmingw">glpk (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The GLPK (GNU Linear Programming Kit) package is intended for solving large-scale linear programming (LP), mixed integer programming (MIP), and other related problems.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.gnu.org/software/glpk/">https://www.gnu.org/software/glpk/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>5.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glpk/xmake.lua">glpk/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] glpk
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glpk")
 </code></pre>
 <h3 id="glshaderppmingw">glshaderpp (mingw)</h3>
 <table>
@@ -21677,7 +21714,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7</td>
+<td>3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -31370,7 +31407,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
