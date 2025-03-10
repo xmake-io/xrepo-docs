@@ -2157,7 +2157,7 @@ add_requires("blake2")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5 |
+| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
@@ -6429,7 +6429,7 @@ add_requires("dlfcn-win32")
 | -- | -- |
 | Homepage | [https://dlib.net](https://dlib.net) |
 | License | Boost |
-| Versions | v19.22, v19.24.4, v19.24.5, v19.24.6 |
+| Versions | v19.22, v19.24.4, v19.24.5, v19.24.6, v19.24.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [dlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua) |
 
@@ -11519,7 +11519,7 @@ add_requires("igraph")
 | -- | -- |
 | Homepage | [https://github.com/qicosmos/iguana](https://github.com/qicosmos/iguana) |
 | License | Apache-2.0 |
-| Versions | v1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7 |
+| Versions | v1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [iguana/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iguana/xmake.lua) |
 
@@ -29537,7 +29537,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33475,7 +33475,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56536efb1e00 |
+| License | table: 0x555ebf28d750 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
