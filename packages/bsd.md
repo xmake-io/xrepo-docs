@@ -78,7 +78,7 @@ add_requires("actor-framework")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1 |
 | Architectures | i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -3735,7 +3735,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -3852,7 +3852,7 @@ add_requires("cs_libguarded")
 | -- | -- |
 | Homepage | [https://github.com/itas109/CSerialPort](https://github.com/itas109/CSerialPort) |
 | License | LGPL-3.0 |
-| Versions | v4.3.1 |
+| Versions | v4.3.1, v4.3.2 |
 | Architectures | i386, x86_64 |
 | Definition | [cserialport/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cserialport/xmake.lua) |
 
@@ -17965,7 +17965,7 @@ add_requires("rxcpp")
 | -- | -- |
 | Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
 | License | Apache-2.0 |
-| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10, v1.5.12 |
+| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10, v1.5.12, v1.5.14 |
 | Architectures | i386, x86_64 |
 | Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
 
@@ -18511,7 +18511,7 @@ add_requires("snmalloc")
 | Description | *An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production.* |
 | -- | -- |
 | Homepage | [https://stiffstream.com/en/products/sobjectizer.html](https://stiffstream.com/en/products/sobjectizer.html) |
-| Versions | 5.8.0 |
+| Versions | 5.8.0, 5.8.4 |
 | Architectures | i386, x86_64 |
 | Definition | [sobjectizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sobjectizer/xmake.lua) |
 
@@ -18893,7 +18893,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -19250,7 +19250,7 @@ add_requires("stringbuilder")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10, v3.10.11, v3.11.0, v3.11.1, v3.11.3, v3.12.1, v3.12.2 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10, v3.10.11, v3.11.0, v3.11.1, v3.11.3, v3.12.1, v3.12.2, v3.12.3 |
 | Architectures | i386, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
@@ -21451,7 +21451,7 @@ add_requires("wasm-micro-runtime")
 | -- | -- |
 | Homepage | [https://github.com/dbry/WavPack](https://github.com/dbry/WavPack) |
 | License | BSD-3-Clause |
-| Versions | 4.80.0, 5.4.0, 5.5.0, 5.6.0, 5.7.0 |
+| Versions | 4.80.0, 5.4.0, 5.5.0, 5.6.0, 5.7.0, 5.8.1 |
 | Architectures | i386, x86_64 |
 | Definition | [wavpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wavpack/xmake.lua) |
 
