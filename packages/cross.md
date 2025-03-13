@@ -891,7 +891,7 @@ add_requires("avir")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
-| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0 |
+| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
@@ -939,7 +939,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1 |
+| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -3618,7 +3618,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -16179,7 +16179,7 @@ add_requires("quickjs")
 | -- | -- |
 | Homepage | [https://github.com/quickjs-ng/quickjs](https://github.com/quickjs-ng/quickjs) |
 | License | MIT |
-| Versions | v0.5.0, v0.6.1, v0.7.0, v0.8.0 |
+| Versions | v0.5.0, v0.6.1, v0.7.0, v0.8.0, v0.9.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [quickjs-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs-ng/xmake.lua) |
 
@@ -16301,7 +16301,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://rapidfuzz.github.io/rapidfuzz-cpp](https://rapidfuzz.github.io/rapidfuzz-cpp) |
 | License | MIT |
-| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1 |
+| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rapidfuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidfuzz/xmake.lua) |
 
@@ -17972,7 +17972,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
