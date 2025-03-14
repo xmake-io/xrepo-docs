@@ -788,6 +788,30 @@ add_requires("avir")
 ```
 
 
+### aws-c-auth (iphoneos)
+
+
+| Description | *C99 library implementation of AWS client-side authentication: standard credentials providers and signing.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
+| License | Apache-2.0 |
+| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6 |
+| Architectures | arm64, x86_64 |
+| Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos aws-c-auth
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-auth")
+```
+
+
 ### aws-c-cal (iphoneos)
 
 
@@ -860,6 +884,30 @@ add_requires("aws-c-compression")
 ```
 
 
+### aws-c-http (iphoneos)
+
+
+| Description | *C99 implementation of the HTTP/1.1 and HTTP/2 specifications* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
+| License | Apache-2.0 |
+| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos aws-c-http
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-http")
+```
+
+
 ### aws-c-io (iphoneos)
 
 
@@ -881,6 +929,30 @@ xrepo install -p iphoneos aws-c-io
 
 ```lua
 add_requires("aws-c-io")
+```
+
+
+### aws-c-s3 (iphoneos)
+
+
+| Description | *C99 library implementation for communicating with the S3 service, designed for maximizing throughput on high bandwidth EC2 instances.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
+| License | Apache-2.0 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12 |
+| Architectures | arm64, x86_64 |
+| Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos aws-c-s3
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-c-s3")
 ```
 
 
@@ -2919,7 +2991,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -3351,7 +3423,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -18140,7 +18212,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
