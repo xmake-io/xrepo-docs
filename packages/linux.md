@@ -9606,7 +9606,7 @@ add_requires("frozenca-btree")
 | -- | -- |
 | Homepage | [https://github.com/Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) |
 | License | MIT |
-| Versions | v0.15.29, v0.15.31, v0.16.0, v0.16.2 |
+| Versions | v0.15.29, v0.15.31, v0.16.0, v0.16.2, v0.17.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [frugally-deep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frugally-deep/xmake.lua) |
 
@@ -9895,7 +9895,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -31936,7 +31936,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -36158,7 +36158,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5612cc687cc0 |
+| License | table: 0x5588a11a6450 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
