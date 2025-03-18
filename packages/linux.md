@@ -1443,7 +1443,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -3039,7 +3039,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -24094,7 +24094,7 @@ add_requires("nlohmann_json")
 | -- | -- |
 | Homepage | [https://github.com/stevengj/nlopt](https://github.com/stevengj/nlopt) |
 | License | LGPL-2.1 |
-| Versions | v2.7.0, v2.7.1, v2.8.0, v2.9.1 |
+| Versions | v2.7.0, v2.7.1, v2.8.0, v2.9.1, v2.10.0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nlopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlopt/xmake.lua) |
 
@@ -32032,7 +32032,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33628,7 +33628,7 @@ add_requires("tinyalloc")
 | -- | -- |
 | Homepage | [https://github.com/intel/tinycbor](https://github.com/intel/tinycbor) |
 | License | MIT |
-| Versions | v0.6.0 |
+| Versions | v0.6.0, v0.6.1 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tinycbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinycbor/xmake.lua) |
 
@@ -36277,7 +36277,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ed88ce0e70 |
+| License | table: 0x55bb6ad0b0e0 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
