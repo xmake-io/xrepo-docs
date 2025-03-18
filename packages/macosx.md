@@ -15161,6 +15161,30 @@ add_requires("libjpeg-turbo")
 ```
 
 
+### libjq (macosx)
+
+
+| Description | *Command-line JSON processor* |
+| -- | -- |
+| Homepage | [https://jqlang.org](https://jqlang.org) |
+| License | MIT |
+| Versions | 1.7.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [libjq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjq/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libjq
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libjq")
+```
+
+
 ### libjxl (macosx)
 
 
@@ -16285,7 +16309,7 @@ add_requires("libsdl2_gfx")
 | -- | -- |
 | Homepage | [https://github.com/libsdl-org/SDL_image](https://github.com/libsdl-org/SDL_image) |
 | License | zlib |
-| Versions | 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2, 2.8.3, 2.8.4, 2.8.5 |
+| Versions | 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2, 2.8.3, 2.8.4, 2.8.5, 2.8.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsdl2_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_image/xmake.lua) |
 
@@ -16381,7 +16405,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 
@@ -16422,6 +16446,30 @@ add_requires("libsdl3_image")
 ```
 
 
+### libsdl3_ttf (macosx)
+
+
+| Description | *Simple DirectMedia Layer text rendering library* |
+| -- | -- |
+| Homepage | [https://github.com/libsdl-org/SDL_ttf/](https://github.com/libsdl-org/SDL_ttf/) |
+| License | zlib |
+| Versions | 3.2.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libsdl3_ttf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_ttf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsdl3_ttf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl3_ttf")
+```
+
+
 ### libsdl_gfx (macosx)
 
 
@@ -16452,7 +16500,7 @@ add_requires("libsdl_gfx")
 | -- | -- |
 | Homepage | [https://github.com/libsdl-org/SDL_image](https://github.com/libsdl-org/SDL_image) |
 | License | zlib |
-| Versions | 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2, 2.8.3, 2.8.4, 2.8.5 |
+| Versions | 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.8.0, 2.8.1, 2.8.2, 2.8.3, 2.8.4, 2.8.5, 2.8.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsdl_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl_image/xmake.lua) |
 
@@ -28316,6 +28364,30 @@ add_requires("scotch")
 ```
 
 
+### screen_capture_lite (macosx)
+
+
+| Description | *cross platform screen/window capturing library* |
+| -- | -- |
+| Homepage | [https://github.com/smasherprog/screen_capture_lite](https://github.com/smasherprog/screen_capture_lite) |
+| License | MIT |
+| Versions | 17.1.1368 |
+| Architectures | arm64, x86_64 |
+| Definition | [screen_capture_lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/screen_capture_lite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install screen_capture_lite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("screen_capture_lite")
+```
+
+
 ### sdsl-lite (macosx)
 
 
@@ -29585,7 +29657,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31338,6 +31410,29 @@ xrepo install tinygltf
 
 ```lua
 add_requires("tinygltf")
+```
+
+
+### tinyjpeg (macosx)
+
+
+| Description | *Single header lib for JPEG encoding. Public domain. C99. stb style.* |
+| -- | -- |
+| Homepage | [https://github.com/serge-rgb/TinyJPEG](https://github.com/serge-rgb/TinyJPEG) |
+| Versions | 2022.08.20 |
+| Architectures | arm64, x86_64 |
+| Definition | [tinyjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyjpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyjpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyjpeg")
 ```
 
 
@@ -33523,7 +33618,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x561dc142d190 |
+| License | table: 0x5618b3cf7be0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
