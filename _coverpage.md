@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: obfusheader.h, libsdl3_ttf, screen_capture_lite**
+- **Recently added: zoe, obfusheader.h, libsdl3_ttf**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
