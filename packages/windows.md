@@ -28331,7 +28331,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -28416,6 +28416,30 @@ xrepo install sqlpp11
 
 ```lua
 add_requires("sqlpp11")
+```
+
+
+### sqrat (windows)
+
+
+| Description | *Sqrat is a C++ library for Squirrel that facilitates exposing classes and other native functionality to Squirrel scripts.* |
+| -- | -- |
+| Homepage | [http://scrat.sourceforge.net/](http://scrat.sourceforge.net/) |
+| License | zlib |
+| Versions | 0.9.2 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [sqrat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqrat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sqrat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqrat")
 ```
 
 
