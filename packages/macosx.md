@@ -1394,7 +1394,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4 |
+| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -5140,7 +5140,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm64, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -6548,7 +6548,7 @@ add_requires("doctest")
 | Description | *.NET is the free, open-source, cross-platform framework for building modern apps and powerful cloud services.* |
 | -- | -- |
 | Homepage | [https://dotnet.microsoft.com/](https://dotnet.microsoft.com/) |
-| Versions | 7.0.4, 7.0.15, 8.0.1, 8.0.6 |
+| Versions | 7.0.4, 7.0.15, 8.0.1, 8.0.6, 9.0.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [dotnet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dotnet/xmake.lua) |
 
@@ -20910,7 +20910,7 @@ add_requires("mmeter")
 | -- | -- |
 | Homepage | [https://www.mnn.zone/](https://www.mnn.zone/) |
 | License | Apache-2.0 |
-| Versions | 1.2.1, 1.2.2, 3.0.5 |
+| Versions | 1.2.1, 1.2.2, 3.0.5, 3.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [mnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mnn/xmake.lua) |
 
@@ -26273,7 +26273,7 @@ add_requires("python2")
 | -- | -- |
 | Homepage | [https://github.com/laurencelundblade/QCBOR](https://github.com/laurencelundblade/QCBOR) |
 | License | BSD-3-Clause |
-| Versions | v1.4.1 |
+| Versions | v1.4.1, v1.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [qcbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qcbor/xmake.lua) |
 
@@ -29706,7 +29706,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33739,7 +33739,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564f1197ea60 |
+| License | table: 0x55c80f78f8e0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
