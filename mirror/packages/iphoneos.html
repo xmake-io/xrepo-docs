@@ -5329,7 +5329,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.1+2, v1.2.1+1</td>
+<td>v1.2.1+1, v1.2.1+2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -19913,6 +19913,72 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("msgpack-cxx")
 </code></pre>
+<h3 id="msvciphoneos">msvc (iphoneos)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Microsoft Visual C/C++ Compiler</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/">https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>14.29.16+11, 14.30.17+0, 14.31.17+1, 14.32.17+2, 14.33.17+3, 14.34.17+4, 14.35.17+5, 14.36.17+6, 14.37.17+7, 14.38.17+8, 14.39.17+9, 14.40.17+10, 14.41.17+11, 14.42.17+12, 14.43.17+13</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msvc/xmake.lua">msvc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p iphoneos msvc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("msvc")
+</code></pre>
+<h3 id="msvcwineiphoneos">msvc-wine (iphoneos)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Scripts for setting up and running MSVC in Wine on Linux</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/mstorsjo/msvc-wine">https://github.com/mstorsjo/msvc-wine</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2025.03.02</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msvc-wine/xmake.lua">msvc-wine/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p iphoneos msvc-wine
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("msvc-wine")
+</code></pre>
 <h3 id="mujsiphoneos">mujs (iphoneos)</h3>
 <table>
 <thead>
@@ -28078,7 +28144,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>

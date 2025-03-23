@@ -11639,6 +11639,52 @@ add_requires("msgpack-cxx")
 ```
 
 
+### msvc (wasm)
+
+
+| Description | *Microsoft Visual C/C++ Compiler* |
+| -- | -- |
+| Homepage | [https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/) |
+| Versions | 14.29.16+11, 14.30.17+0, 14.31.17+1, 14.32.17+2, 14.33.17+3, 14.34.17+4, 14.35.17+5, 14.36.17+6, 14.37.17+7, 14.38.17+8, 14.39.17+9, 14.40.17+10, 14.41.17+11, 14.42.17+12, 14.43.17+13 |
+| Architectures | wasm32, wasm64 |
+| Definition | [msvc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msvc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm msvc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msvc")
+```
+
+
+### msvc-wine (wasm)
+
+
+| Description | *Scripts for setting up and running MSVC in Wine on Linux* |
+| -- | -- |
+| Homepage | [https://github.com/mstorsjo/msvc-wine](https://github.com/mstorsjo/msvc-wine) |
+| Versions | 2025.03.02 |
+| Architectures | wasm32, wasm64 |
+| Definition | [msvc-wine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msvc-wine/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm msvc-wine
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msvc-wine")
+```
+
+
 ### mujs (wasm)
 
 
@@ -16283,7 +16329,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
