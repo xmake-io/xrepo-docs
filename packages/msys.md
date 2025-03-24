@@ -890,7 +890,7 @@ add_requires("avir")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
-| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6 |
+| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
@@ -7419,7 +7419,7 @@ add_requires("icu4c")
 | -- | -- |
 | Homepage | [https://github.com/ada-url/idna](https://github.com/ada-url/idna) |
 | License | Apache-2.0 |
-| Versions | 0.2.0 |
+| Versions | 0.2.0, 0.3.2 |
 | Architectures | i386, x86_64 |
 | Definition | [idna/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/idna/xmake.lua) |
 
@@ -8161,7 +8161,7 @@ add_requires("jsoncpp")
 | -- | -- |
 | Homepage | [https://thalhammer.github.io/jwt-cpp/](https://thalhammer.github.io/jwt-cpp/) |
 | License | MIT |
-| Versions | v0.6.0, v0.7.0 |
+| Versions | v0.6.0, v0.7.0, v0.7.1 |
 | Architectures | i386, x86_64 |
 | Definition | [jwt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jwt-cpp/xmake.lua) |
 
@@ -13523,6 +13523,30 @@ add_requires("nod")
 ```
 
 
+### node-addon-api (msys)
+
+
+| Description | *Module for using Node-API from C++* |
+| -- | -- |
+| Homepage | [https://github.com/nodejs/node-addon-api](https://github.com/nodejs/node-addon-api) |
+| License | MIT |
+| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1 |
+| Architectures | i386, x86_64 |
+| Definition | [node-addon-api/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-addon-api/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install node-addon-api
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("node-addon-api")
+```
+
+
 ### node-api-headers (msys)
 
 
@@ -13697,7 +13721,7 @@ add_requires("ntkernel-error-category")
 | -- | -- |
 | Homepage | [https://immediate-mode-ui.github.io/Nuklear/doc/index.html](https://immediate-mode-ui.github.io/Nuklear/doc/index.html) |
 | License | MIT |
-| Versions | 4.10.5, 4.12.0, 4.12.2, 4.12.3, 4.12.4 |
+| Versions | 4.10.5, 4.12.0, 4.12.2, 4.12.3, 4.12.4, 4.12.5 |
 | Architectures | i386, x86_64 |
 | Definition | [nuklear/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nuklear/xmake.lua) |
 
@@ -17853,7 +17877,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
