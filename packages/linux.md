@@ -32152,7 +32152,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35800,7 +35800,7 @@ add_requires("vmaf")
 | -- | -- |
 | Homepage | [https://github.com/zeux/volk](https://github.com/zeux/volk) |
 | License | MIT |
-| Versions | 1.2.162, 1.2.190, 1.3.204, 1.3.231+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0 |
+| Versions | 1.2.190, 1.3.204, 1.3.231+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [volk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/volk/xmake.lua) |
 
@@ -36233,7 +36233,7 @@ add_requires("wayland")
 | -- | -- |
 | Homepage | [https://wayland.freedesktop.org](https://wayland.freedesktop.org) |
 | License | MIT |
-| Versions | 1.24, 1.25, 1.26, 1.27, 1.28, 1.29, 1.30, 1.31, 1.32, 1.39 |
+| Versions | 1.24, 1.25, 1.26, 1.27, 1.28, 1.29, 1.30, 1.31, 1.32, 1.39, 1.42 |
 | Architectures | armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wayland-protocols/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland-protocols/xmake.lua) |
 
@@ -36469,7 +36469,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d007edb6d0 |
+| License | table: 0x56378f154f10 |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
