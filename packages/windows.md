@@ -871,7 +871,7 @@ add_requires("aseprite-tga")
 | -- | -- |
 | Homepage | [http://think-async.com/Asio/](http://think-async.com/Asio/) |
 | License | BSL-1.0 |
-| Versions | 1.20.0, 1.21.0, 1.24.0, 1.28.0, 1.29.0, 1.30.2, 1.32.0 |
+| Versions | 1.20.0, 1.21.0, 1.24.0, 1.28.0, 1.29.0, 1.30.2, 1.32.0, 1.34.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [asio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio/xmake.lua) |
 
@@ -5166,7 +5166,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -28425,7 +28425,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32315,7 +32315,7 @@ add_requires("vulkansdk")
 | -- | -- |
 | Homepage | [https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html](https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html) |
 | License | BSD-3-Clause-Clear |
-| Versions | v1.9.0, v1.11.1, v1.12.0, v1.12.1, v1.13.0 |
+| Versions | v1.9.0, v1.11.1, v1.12.0, v1.12.1, v1.13.0, v1.13.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [vvenc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vvenc/xmake.lua) |
 
