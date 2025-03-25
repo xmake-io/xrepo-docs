@@ -5166,7 +5166,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -7415,7 +7415,7 @@ add_requires("embree")
 | -- | -- |
 | Homepage | [https://github.com/ktprime/emhash](https://github.com/ktprime/emhash) |
 | License | MIT |
-| Versions | 2024.06.01, 2025.03.19 |
+| Versions | 2024.06.01, 2025.03.19, 2025.03.24 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [emhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emhash/xmake.lua) |
 
@@ -22718,6 +22718,30 @@ add_requires("ormpp")
 ```
 
 
+### osip (windows)
+
+
+| Description | *oSIP is an LGPL implementation of SIP. It is used mostly with eXosip2 stack (GPL) which provides simpler API for User-Agent implementation.* |
+| -- | -- |
+| Homepage | [https://savannah.gnu.org/projects/osip](https://savannah.gnu.org/projects/osip) |
+| License | LGPL |
+| Versions | 5.3.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [osip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install osip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("osip")
+```
+
+
 ### osmanip (windows)
 
 
@@ -28425,7 +28449,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

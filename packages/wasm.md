@@ -4409,7 +4409,7 @@ add_requires("elfio")
 | -- | -- |
 | Homepage | [https://github.com/ktprime/emhash](https://github.com/ktprime/emhash) |
 | License | MIT |
-| Versions | 2024.06.01, 2025.03.19 |
+| Versions | 2024.06.01, 2025.03.19, 2025.03.24 |
 | Architectures | wasm32, wasm64 |
 | Definition | [emhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emhash/xmake.lua) |
 
@@ -12977,6 +12977,30 @@ add_requires("ormpp")
 ```
 
 
+### osip (wasm)
+
+
+| Description | *oSIP is an LGPL implementation of SIP. It is used mostly with eXosip2 stack (GPL) which provides simpler API for User-Agent implementation.* |
+| -- | -- |
+| Homepage | [https://savannah.gnu.org/projects/osip](https://savannah.gnu.org/projects/osip) |
+| License | LGPL |
+| Versions | 5.3.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [osip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm osip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("osip")
+```
+
+
 ### osmanip (wasm)
 
 
@@ -16353,7 +16377,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -18761,6 +18785,30 @@ xrepo install -p wasm x265
 
 ```lua
 add_requires("x265")
+```
+
+
+### xapian-core (wasm)
+
+
+| Description | *Xapian is an Open Source Search Engine Library, with bindings to allow use from Perl, Python 2, Python 3, PHP 5, PHP 7, Java, Tcl, C#, Ruby, Lua, Erlang, Node.js, R.* |
+| -- | -- |
+| Homepage | [https://savannah.gnu.org/projects/osip](https://savannah.gnu.org/projects/osip) |
+| License | GPL-2.0-or-later |
+| Versions | 1.4.27 |
+| Architectures | wasm32, wasm64 |
+| Definition | [xapian-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xapian-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm xapian-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xapian-core")
 ```
 
 
