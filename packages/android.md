@@ -11550,6 +11550,30 @@ add_requires("linmath.h")
 ```
 
 
+### linux-syscall-support (android)
+
+
+| Description | *Linux Syscall Support provides a header file that can be included into your application whenever you need to make direct system calls.* |
+| -- | -- |
+| Homepage | [https://chromium.googlesource.com/linux-syscall-support](https://chromium.googlesource.com/linux-syscall-support) |
+| License | BSD-3-Clause |
+| Versions | v2022.10.12, v2024.02.01 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [linux-syscall-support/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/linux-syscall-support/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] linux-syscall-support
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("linux-syscall-support")
+```
+
+
 ### liquid-dsp (android)
 
 
@@ -19169,7 +19193,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
