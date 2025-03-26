@@ -9757,6 +9757,29 @@ add_requires("libjxl")
 ```
 
 
+### libkdtree (android)
+
+
+| Description | *libkdtree++ is an STL-like C++ template container implementation of k-dimensional space sorting, using a kd-tree. It sports a theoretically unlimited number of dimensions, and can store any data structure* |
+| -- | -- |
+| Homepage | [https://github.com/nvmd/libkdtree](https://github.com/nvmd/libkdtree) |
+| Versions | 0.7.4 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [libkdtree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libkdtree/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libkdtree
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libkdtree")
+```
+
+
 ### libkeyfinder (android)
 
 
@@ -19242,7 +19265,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22102,6 +22125,30 @@ xrepo install -p android [--ndk=/xxx] wjakob_filesystem
 
 ```lua
 add_requires("wjakob_filesystem")
+```
+
+
+### woff2 (android)
+
+
+| Description | *Font compression reference code.* |
+| -- | -- |
+| Homepage | [https://github.com/google/woff2](https://github.com/google/woff2) |
+| License | MIT |
+| Versions | v1.0.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [woff2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/woff2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] woff2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("woff2")
 ```
 
 
