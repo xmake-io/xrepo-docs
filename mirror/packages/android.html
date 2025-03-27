@@ -5585,7 +5585,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.1+2, v1.2.1+1</td>
+<td>v1.2.1+1, v1.2.1+2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -12373,7 +12373,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.0.0, 1.0.1</td>
+<td>1.0.0, 1.0.1, 1.0.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -12975,6 +12975,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("jsoncpp")
+</code></pre>
+<h3 id="jthreadandroid">jthread (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The JThread package provides some classes to make use of threads easy on different platforms</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/j0r1/JThread">https://github.com/j0r1/JThread</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.08.18</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jthread/xmake.lua">jthread/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] jthread
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("jthread")
 </code></pre>
 <h3 id="jwtcppandroid">jwt-cpp (android)</h3>
 <table>
@@ -28194,7 +28231,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10, v1.5.12, v1.5.14</td>
+<td>v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10, v1.5.12, v1.5.14, v1.5.15</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -29465,7 +29502,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>

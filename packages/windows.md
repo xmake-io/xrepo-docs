@@ -5166,7 +5166,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -12051,7 +12051,7 @@ add_requires("injector")
 | -- | -- |
 | Homepage | [https://github.com/Hirrolot/interface99](https://github.com/Hirrolot/interface99) |
 | License | MIT |
-| Versions | 1.0.0, 1.0.1 |
+| Versions | 1.0.0, 1.0.1, 1.0.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [interface99/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/interface99/xmake.lua) |
 
@@ -24280,7 +24280,7 @@ add_requires("poppler")
 | Description | *Portable VS Build Tools installer* |
 | -- | -- |
 | Homepage | [https://github.com/Data-Oriented-House/PortableBuildTools](https://github.com/Data-Oriented-House/PortableBuildTools) |
-| Versions | v2.8, v2.8.1, v2.9.2, v2.10 |
+| Versions | v2.8, v2.8.1, v2.9.2, v2.10, v2.10.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [portable_build_tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/portable_build_tools/xmake.lua) |
 
@@ -25729,7 +25729,7 @@ add_requires("quickjs-ng")
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
 | License | MIT |
-| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1 |
+| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -27211,7 +27211,7 @@ add_requires("scotch")
 | -- | -- |
 | Homepage | [https://github.com/smasherprog/screen_capture_lite](https://github.com/smasherprog/screen_capture_lite) |
 | License | MIT |
-| Versions | 17.1.1368 |
+| Versions | 17.1.1368, 17.1.1369 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [screen_capture_lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/screen_capture_lite/xmake.lua) |
 
@@ -28474,7 +28474,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
