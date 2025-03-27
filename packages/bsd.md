@@ -11315,7 +11315,7 @@ add_requires("libwebsockets")
 | Description | *X.Org: Core X11 protocol client library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1, 1.8.7 |
+| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1, 1.8.7, 1.8.12 |
 | Architectures | i386, x86_64 |
 | Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
 
@@ -11338,7 +11338,7 @@ add_requires("libx11")
 | Description | *X.Org: A Sample Authorization Protocol for X* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.0.10, 1.0.11 |
+| Versions | 1.0.10, 1.0.11, 1.0.12 |
 | Architectures | i386, x86_64 |
 | Definition | [libxau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxau/xmake.lua) |
 
@@ -11361,7 +11361,7 @@ add_requires("libxau")
 | Description | *X.Org: Interface to the X Window System protocol* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.13.1, 1.14, 1.16 |
+| Versions | 1.13.1, 1.14, 1.16, 1.17.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libxcb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcb/xmake.lua) |
 
@@ -11384,7 +11384,7 @@ add_requires("libxcb")
 | Description | *X.Org: X Display Manager Control Protocol library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.1.3, 1.1.4 |
+| Versions | 1.1.3, 1.1.4, 1.1.5 |
 | Architectures | i386, x86_64 |
 | Definition | [libxdmcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxdmcp/xmake.lua) |
 
@@ -11788,7 +11788,8 @@ add_requires("liquid-dsp")
 | Description | *Fast and lightweight HTML/CSS rendering engine* |
 | -- | -- |
 | Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
-| Versions | 2023.01.05 |
+| License | BSD-3-Clause |
+| Versions | v0.9 |
 | Architectures | i386, x86_64 |
 | Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
 
@@ -19204,7 +19205,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20601,6 +20602,30 @@ xrepo install tinyjpeg
 
 ```lua
 add_requires("tinyjpeg")
+```
+
+
+### tinyspline (bsd)
+
+
+| Description | *ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Go, Java, Javascript, Lua, Octave, PHP, Python, R, and Ruby.* |
+| -- | -- |
+| Homepage | [https://github.com/msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline) |
+| License | MIT |
+| Versions | v0.6.0 |
+| Architectures | i386, x86_64 |
+| Definition | [tinyspline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyspline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyspline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyspline")
 ```
 
 
@@ -22144,7 +22169,7 @@ add_requires("xbyak")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.13, 1.14, 1.14.1, 1.16.0 |
+| Versions | 1.13, 1.14, 1.14.1, 1.16.0, 1.17.0 |
 | Architectures | i386, x86_64 |
 | Definition | [xcb-proto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-proto/xmake.lua) |
 
@@ -22238,7 +22263,7 @@ add_requires("xpack")
 | Description | *X.Org: X Network Transport layer shared code* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.4.0 |
+| Versions | 1.4.0, 1.6.0 |
 | Architectures | i386, x86_64 |
 | Definition | [xtrans/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtrans/xmake.lua) |
 

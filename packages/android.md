@@ -7420,7 +7420,7 @@ add_requires("houdini")
 | -- | -- |
 | Homepage | [https://github.com/ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) |
 | License | Apache-2.0 |
-| Versions | v5.7.3, v5.8.4, v5.9.1 |
+| Versions | v5.7.3, v5.8.4, v5.9.1, v6.0.1, v6.0.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [hpsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpsocket/xmake.lua) |
 
@@ -11651,7 +11651,8 @@ add_requires("liquid-dsp")
 | Description | *Fast and lightweight HTML/CSS rendering engine* |
 | -- | -- |
 | Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
-| Versions | 2023.01.05 |
+| License | BSD-3-Clause |
+| Versions | v0.9 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
 
@@ -19265,7 +19266,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20616,6 +20617,30 @@ xrepo install -p android [--ndk=/xxx] tinyply
 
 ```lua
 add_requires("tinyply")
+```
+
+
+### tinyspline (android)
+
+
+| Description | *ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Go, Java, Javascript, Lua, Octave, PHP, Python, R, and Ruby.* |
+| -- | -- |
+| Homepage | [https://github.com/msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline) |
+| License | MIT |
+| Versions | v0.6.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [tinyspline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyspline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tinyspline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyspline")
 ```
 
 

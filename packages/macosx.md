@@ -14885,7 +14885,7 @@ add_requires("libhv")
 | Description | *X.Org: Inter-Client Exchange Library* |
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libice](https://gitlab.freedesktop.org/xorg/lib/libice) |
-| Versions | 1.0.10 |
+| Versions | 1.0.10, 1.1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libice/xmake.lua) |
 
@@ -16689,7 +16689,7 @@ add_requires("libsimdpp")
 | Description | *X.Org: X Session Management Library* |
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libsm](https://gitlab.freedesktop.org/xorg/lib/libsm) |
-| Versions | 1.2.3 |
+| Versions | 1.2.3, 1.2.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsm/xmake.lua) |
 
@@ -17642,7 +17642,7 @@ add_requires("libwfkafka")
 | Description | *X.Org: Core X11 protocol client library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1, 1.8.7 |
+| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1, 1.8.7, 1.8.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
 
@@ -17665,7 +17665,7 @@ add_requires("libx11")
 | Description | *X.Org: A Sample Authorization Protocol for X* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.0.10, 1.0.11 |
+| Versions | 1.0.10, 1.0.11, 1.0.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxau/xmake.lua) |
 
@@ -17688,7 +17688,7 @@ add_requires("libxau")
 | Description | *X.Org: X Athena Widget Set* |
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxaw](https://gitlab.freedesktop.org/xorg/lib/libxaw) |
-| Versions | 1.0.14 |
+| Versions | 1.0.14, 1.0.16 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxaw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxaw/xmake.lua) |
 
@@ -17711,7 +17711,7 @@ add_requires("libxaw")
 | Description | *X.Org: Interface to the X Window System protocol* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.13.1, 1.14, 1.16 |
+| Versions | 1.13.1, 1.14, 1.16, 1.17.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxcb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcb/xmake.lua) |
 
@@ -17757,7 +17757,7 @@ add_requires("libxcomposite")
 | Description | *X.Org: X Window System Cursor management library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.2.1 |
+| Versions | 1.2.1, 1.2.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxcursor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcursor/xmake.lua) |
 
@@ -17780,7 +17780,7 @@ add_requires("libxcursor")
 | Description | *X.Org: X Damage Extension library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.1.5 |
+| Versions | 1.1.5, 1.1.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxdamage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxdamage/xmake.lua) |
 
@@ -17803,7 +17803,7 @@ add_requires("libxdamage")
 | Description | *X.Org: X Display Manager Control Protocol library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.1.3, 1.1.4 |
+| Versions | 1.1.3, 1.1.4, 1.1.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxdmcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxdmcp/xmake.lua) |
 
@@ -17849,7 +17849,7 @@ add_requires("libxext")
 | Description | *X.Org: Header files for the XFIXES extension* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 6.0.0 |
+| Versions | 6.0.0, 6.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxfixes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxfixes/xmake.lua) |
 
@@ -17873,7 +17873,7 @@ add_requires("libxfixes")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | License | MIT |
-| Versions | 2.3.3 |
+| Versions | 2.3.3, 2.3.7, 2.3.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxft/xmake.lua) |
 
@@ -17896,7 +17896,7 @@ add_requires("libxft")
 | Description | *X.Org: Library for the X Input Extension* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.7.10, 1.8, 1.8.1 |
+| Versions | 1.7.10, 1.8, 1.8.1, 1.8.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxi/xmake.lua) |
 
@@ -18013,7 +18013,7 @@ add_requires("libxml2")
 | Description | *X.Org: X miscellaneous utility routines library* |
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxmu](https://gitlab.freedesktop.org/xorg/lib/libxmu) |
-| Versions | 1.1.3 |
+| Versions | 1.1.3, 1.2.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxmu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmu/xmake.lua) |
 
@@ -18036,7 +18036,7 @@ add_requires("libxmu")
 | Description | *X.Org: X Pixmap (XPM) image file format library* |
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxpm](https://gitlab.freedesktop.org/xorg/lib/libxpm) |
-| Versions | 3.5.13 |
+| Versions | 3.5.13, 3.5.17 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxpm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxpm/xmake.lua) |
 
@@ -18105,7 +18105,7 @@ add_requires("libxrender")
 | Description | *X.Org: Shared memory 'SyncFence' synchronization primitive* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.3 |
+| Versions | 1.3, 1.3.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxshmfence/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxshmfence/xmake.lua) |
 
@@ -18152,7 +18152,7 @@ add_requires("libxslt")
 | Description | *X.Org: X Toolkit Intrinsics library* |
 | -- | -- |
 | Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxt](https://gitlab.freedesktop.org/xorg/lib/libxt) |
-| Versions | 1.2.1 |
+| Versions | 1.2.1, 1.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxt/xmake.lua) |
 
@@ -18176,7 +18176,7 @@ add_requires("libxt")
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
 | License | MIT |
-| Versions | 1.2.3 |
+| Versions | 1.2.3, 1.2.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxtst/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxtst/xmake.lua) |
 
@@ -18199,7 +18199,7 @@ add_requires("libxtst")
 | Description | *X.Org: X Video (Xv) extension* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.0.11 |
+| Versions | 1.0.11, 1.0.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxv/xmake.lua) |
 
@@ -18222,7 +18222,7 @@ add_requires("libxv")
 | Description | *X.Org: X-Video Motion Compensation API* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.0.12 |
+| Versions | 1.0.12, 1.0.14 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxvmc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxvmc/xmake.lua) |
 
@@ -18245,7 +18245,7 @@ add_requires("libxvmc")
 | Description | *X.Org: XFree86-VidMode X extension* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.1.5 |
+| Versions | 1.1.5, 1.1.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxxf86vm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxxf86vm/xmake.lua) |
 
@@ -18578,7 +18578,8 @@ add_requires("liquid-dsp")
 | Description | *Fast and lightweight HTML/CSS rendering engine* |
 | -- | -- |
 | Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
-| Versions | 2023.01.05 |
+| License | BSD-3-Clause |
+| Versions | v0.9 |
 | Architectures | arm64, x86_64 |
 | Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
 
@@ -29824,7 +29825,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31720,6 +31721,30 @@ xrepo install tinyply
 
 ```lua
 add_requires("tinyply")
+```
+
+
+### tinyspline (macosx)
+
+
+| Description | *ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Go, Java, Javascript, Lua, Octave, PHP, Python, R, and Ruby.* |
+| -- | -- |
+| Homepage | [https://github.com/msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline) |
+| License | MIT |
+| Versions | v0.6.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [tinyspline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyspline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinyspline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyspline")
 ```
 
 
@@ -33857,7 +33882,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5644836d9df0 |
+| License | table: 0x559122b00860 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -34169,7 +34194,7 @@ add_requires("xbyak")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.13, 1.14, 1.14.1, 1.16.0 |
+| Versions | 1.13, 1.14, 1.14.1, 1.16.0, 1.17.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [xcb-proto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-proto/xmake.lua) |
 
@@ -34192,7 +34217,7 @@ add_requires("xcb-proto")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
-| Versions | 0.3.6, 0.3.8, 0.3.9, 0.4.0 |
+| Versions | 0.3.6, 0.3.8, 0.3.9, 0.4.0, 0.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [xcb-util/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util/xmake.lua) |
 
@@ -34215,7 +34240,7 @@ add_requires("xcb-util")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
-| Versions | 0.1.0, 0.1.1, 0.1.2, 0.1.3 |
+| Versions | 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [xcb-util-cursor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-cursor/xmake.lua) |
 
@@ -34238,7 +34263,7 @@ add_requires("xcb-util-cursor")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
-| Versions | 1.0 |
+| Versions | 1.0, 1.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [xcb-util-errors/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-errors/xmake.lua) |
 
@@ -34261,7 +34286,7 @@ add_requires("xcb-util-errors")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
-| Versions | 0.3.8, 0.3.9, 0.4.0 |
+| Versions | 0.3.8, 0.3.9, 0.4.0, 0.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [xcb-util-image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-image/xmake.lua) |
 
@@ -34284,7 +34309,7 @@ add_requires("xcb-util-image")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
-| Versions | 0.3.8, 0.3.9, 0.4.0 |
+| Versions | 0.3.8, 0.3.9, 0.4.0, 0.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [xcb-util-keysyms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-keysyms/xmake.lua) |
 
@@ -34307,7 +34332,7 @@ add_requires("xcb-util-keysyms")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
-| Versions | 0.3.8, 0.3.9 |
+| Versions | 0.3.8, 0.3.9, 0.3.10 |
 | Architectures | arm64, x86_64 |
 | Definition | [xcb-util-renderutil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-renderutil/xmake.lua) |
 
@@ -34330,7 +34355,7 @@ add_requires("xcb-util-renderutil")
 | Description | *X.Org: XML-XCB protocol descriptions for libxcb code generation* |
 | -- | -- |
 | Homepage | [https://xcb.freedesktop.org](https://xcb.freedesktop.org) |
-| Versions | 0.3.8, 0.3.9, 0.4.0, 0.4.1 |
+| Versions | 0.3.8, 0.3.9, 0.4.0, 0.4.1, 0.4.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [xcb-util-wm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xcb-util-wm/xmake.lua) |
 
@@ -34664,7 +34689,7 @@ add_requires("xtl")
 | Description | *X.Org: X Network Transport layer shared code* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.4.0 |
+| Versions | 1.4.0, 1.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [xtrans/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtrans/xmake.lua) |
 
