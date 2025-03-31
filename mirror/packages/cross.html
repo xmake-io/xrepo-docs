@@ -278,6 +278,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("aitoolkit")
 </code></pre>
+<h3 id="aklompbase64cross">aklomp-base64 (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Fast Base64 stream encoder/decoder in C99, with SIMD acceleration.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/aklomp/base64">https://github.com/aklomp/base64</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-2-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.5.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aklomp-base64/xmake.lua">aklomp-base64/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] aklomp-base64
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("aklomp-base64")
+</code></pre>
 <h3 id="alembiccross">alembic (cross)</h3>
 <table>
 <thead>
@@ -28222,7 +28259,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
