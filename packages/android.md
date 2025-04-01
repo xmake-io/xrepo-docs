@@ -3640,7 +3640,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -9735,6 +9735,30 @@ add_requires("libiconv")
 ```
 
 
+### libidn2 (android)
+
+
+| Description | *Libidn2 is an implementation of the IDNA2008 + TR46 specifications.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libidn/](https://www.gnu.org/software/libidn/) |
+| License | LGPL-3.0 |
+| Versions | 2.3.2, 2.3.8 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [libidn2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libidn2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libidn2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libidn2")
+```
+
+
 ### libintl (android)
 
 
@@ -11188,6 +11212,30 @@ xrepo install -p android [--ndk=/xxx] libunifex
 
 ```lua
 add_requires("libunifex")
+```
+
+
+### libunistring (android)
+
+
+| Description | *This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/libunistring/](https://www.gnu.org/software/libunistring/) |
+| License | GPL-3.0 |
+| Versions | 0.9.10, 1.1, 1.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [libunistring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunistring/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libunistring
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libunistring")
 ```
 
 
@@ -19364,7 +19412,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
