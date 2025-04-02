@@ -1516,7 +1516,7 @@ add_requires("aws-c-mqtt")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -9126,6 +9126,30 @@ xrepo install ftxui
 
 ```lua
 add_requires("ftxui")
+```
+
+
+### funchook (windows)
+
+
+| Description | *Hook function calls by inserting jump instructions at runtime.* |
+| -- | -- |
+| Homepage | [https://github.com/kubo/funchook](https://github.com/kubo/funchook) |
+| License | GPL-2.0-or-later |
+| Versions | v1.1.3 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [funchook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/funchook/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install funchook
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("funchook")
 ```
 
 
