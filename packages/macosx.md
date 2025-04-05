@@ -1634,7 +1634,7 @@ add_requires("aws-sdk-cpp")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
-| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1 |
+| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
@@ -2991,7 +2991,7 @@ add_requires("capnproto")
 | -- | -- |
 | Homepage | [http://www.capstone-engine.org](http://www.capstone-engine.org) |
 | License | BSD-3-Clause |
-| Versions | 5.0.3, 5.0.5 |
+| Versions | 5.0.3, 5.0.5, 5.0.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [capstone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capstone/xmake.lua) |
 
@@ -3851,7 +3851,7 @@ add_requires("cli")
 | -- | -- |
 | Homepage | [https://github.com/CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) |
 | License | BSD |
-| Versions | v2.2.0, v2.3.2, v2.4.1, v2.4.2 |
+| Versions | v2.2.0, v2.3.2, v2.4.1, v2.4.2, v2.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cli11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli11/xmake.lua) |
 
@@ -5188,7 +5188,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm64, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -5735,7 +5735,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
@@ -6443,30 +6443,6 @@ xrepo install distorm
 
 ```lua
 add_requires("distorm")
-```
-
-
-### dlfcn-win32 (macosx)
-
-
-| Description | *Official dlfcn-win32 repo* |
-| -- | -- |
-| Homepage | [https://github.com/dlfcn-win32/dlfcn-win32](https://github.com/dlfcn-win32/dlfcn-win32) |
-| License | MIT |
-| Versions | v1.4.1 |
-| Architectures | arm64, x86_64 |
-| Definition | [dlfcn-win32/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlfcn-win32/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install dlfcn-win32
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("dlfcn-win32")
 ```
 
 
@@ -9084,7 +9060,7 @@ add_requires("ftgl")
 | -- | -- |
 | Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
 | License | MIT |
-| Versions | v3.0.0, v4.1.1, v5.0.0 |
+| Versions | v3.0.0, v4.1.1, v5.0.0, v6.0.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
 
@@ -13885,7 +13861,7 @@ add_requires("libc++")
 | -- | -- |
 | Homepage | [https://github.com/PJK/libcbor](https://github.com/PJK/libcbor) |
 | License | MIT |
-| Versions | v0.11.0 |
+| Versions | v0.11.0, v0.12.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libcbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcbor/xmake.lua) |
 
@@ -20505,7 +20481,7 @@ add_requires("microsoft-kuku")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
 | License | MIT |
-| Versions | 1.1.1, 2.2.1, 2.3.0, 2.4.0, 3.0.0, 3.1.0, 3.2.0, 3.2.1 |
+| Versions | 1.1.1, 2.2.1, 2.3.0, 2.4.0, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [microsoft-proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-proxy/xmake.lua) |
 
@@ -20600,7 +20576,7 @@ add_requires("mimalloc")
 | -- | -- |
 | Homepage | [https://github.com/metayeti/mINI](https://github.com/metayeti/mINI) |
 | License | MIT |
-| Versions | 0.9.15, 0.9.16, 0.9.17 |
+| Versions | 0.9.15, 0.9.16, 0.9.17, 0.9.18 |
 | Architectures | arm64, x86_64 |
 | Definition | [mini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mini/xmake.lua) |
 
@@ -23391,7 +23367,7 @@ add_requires("open3d")
 | -- | -- |
 | Homepage | [https://openal-soft.org](https://openal-soft.org) |
 | License | LGPL-2.0 |
-| Versions | 1.21.1, 1.22.0, 1.22.2, 1.23.1 |
+| Versions | 1.21.1, 1.22.0, 1.22.2, 1.23.1, 1.24.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [openal-soft/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openal-soft/xmake.lua) |
 
@@ -29923,7 +29899,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33574,7 +33550,7 @@ add_requires("vulkan-memory-allocator")
 | -- | -- |
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | CC0 |
-| Versions | v3.0.0, v3.0.1-1, v3.0.1-3, v3.1.0 |
+| Versions | v3.0.0, v3.0.1-1, v3.0.1-3, v3.1.0, v3.2.0, v3.2.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [vulkan-memory-allocator-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator-hpp/xmake.lua) |
 
@@ -33980,7 +33956,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c1c4769d60 |
+| License | table: 0x564b7098d450 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -1227,7 +1227,7 @@ add_requires("aws-lc")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
-| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1 |
+| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
@@ -2228,7 +2228,7 @@ add_requires("ca-certificates")
 | -- | -- |
 | Homepage | [http://www.capstone-engine.org](http://www.capstone-engine.org) |
 | License | BSD-3-Clause |
-| Versions | 5.0.3, 5.0.5 |
+| Versions | 5.0.3, 5.0.5, 5.0.6 |
 | Architectures | i386, x86_64 |
 | Definition | [capstone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capstone/xmake.lua) |
 
@@ -3686,7 +3686,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -4138,7 +4138,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0 |
 | Architectures | i386, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
@@ -4657,30 +4657,6 @@ xrepo install distorm
 
 ```lua
 add_requires("distorm")
-```
-
-
-### dlfcn-win32 (msys)
-
-
-| Description | *Official dlfcn-win32 repo* |
-| -- | -- |
-| Homepage | [https://github.com/dlfcn-win32/dlfcn-win32](https://github.com/dlfcn-win32/dlfcn-win32) |
-| License | MIT |
-| Versions | v1.4.1 |
-| Architectures | i386, x86_64 |
-| Definition | [dlfcn-win32/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlfcn-win32/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install dlfcn-win32
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("dlfcn-win32")
 ```
 
 
@@ -8905,7 +8881,7 @@ add_requires("libc++")
 | -- | -- |
 | Homepage | [https://github.com/PJK/libcbor](https://github.com/PJK/libcbor) |
 | License | MIT |
-| Versions | v0.11.0 |
+| Versions | v0.11.0, v0.12.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libcbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcbor/xmake.lua) |
 
@@ -12506,7 +12482,7 @@ add_requires("microsoft-kuku")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/proxy](https://github.com/microsoft/proxy) |
 | License | MIT |
-| Versions | 1.1.1, 2.2.1, 2.3.0, 2.4.0, 3.0.0, 3.1.0, 3.2.0, 3.2.1 |
+| Versions | 1.1.1, 2.2.1, 2.3.0, 2.4.0, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [microsoft-proxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-proxy/xmake.lua) |
 
@@ -12601,7 +12577,7 @@ add_requires("mimalloc")
 | -- | -- |
 | Homepage | [https://github.com/metayeti/mINI](https://github.com/metayeti/mINI) |
 | License | MIT |
-| Versions | 0.9.15, 0.9.16, 0.9.17 |
+| Versions | 0.9.15, 0.9.16, 0.9.17, 0.9.18 |
 | Architectures | i386, x86_64 |
 | Definition | [mini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mini/xmake.lua) |
 
@@ -18142,7 +18118,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
