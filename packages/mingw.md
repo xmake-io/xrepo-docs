@@ -4000,7 +4000,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -14982,6 +14982,30 @@ add_requires("msgpack-cxx")
 ```
 
 
+### msgpack23 (mingw)
+
+
+| Description | *A modern, header-only C++ library for MessagePack serialization and deserialization. msgpack.org[c++23]* |
+| -- | -- |
+| Homepage | [https://github.com/rwindegger/msgpack23](https://github.com/rwindegger/msgpack23) |
+| License | MIT |
+| Versions | v2.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [msgpack23/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack23/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] msgpack23
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("msgpack23")
+```
+
+
 ### msvc (mingw)
 
 
@@ -21195,7 +21219,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22747,7 +22771,7 @@ add_requires("tinyxml")
 | -- | -- |
 | Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
 | License | zlib |
-| Versions | 8.0.0, 9.0.0, 10.0.0 |
+| Versions | 8.0.0, 9.0.0, 10.0.0, 11.0.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [tinyxml2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyxml2/xmake.lua) |
 
