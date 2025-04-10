@@ -3807,7 +3807,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -12138,6 +12138,30 @@ add_requires("lmdb")
 ```
 
 
+### lockfree (bsd)
+
+
+| Description | *A collection of lock-free data structures written in standard C++11* |
+| -- | -- |
+| Homepage | [https://github.com/DNedic/lockfree](https://github.com/DNedic/lockfree) |
+| License | MIT |
+| Versions | 2.0.10 |
+| Architectures | i386, x86_64 |
+| Definition | [lockfree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lockfree/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lockfree
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lockfree")
+```
+
+
 ### lodepng (bsd)
 
 
@@ -19398,7 +19422,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
