@@ -1491,7 +1491,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0 |
+| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -2564,7 +2564,7 @@ add_requires("boost_reflect")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/sml](https://boost-ext.github.io/sml) |
 | License | BSL-1.0 |
-| Versions | v1.1.8, v1.1.11 |
+| Versions | v1.1.8, v1.1.11, v1.1.12 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [boost_sml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_sml/xmake.lua) |
 
@@ -5569,7 +5569,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -10110,7 +10110,7 @@ add_requires("geographiclib")
 | -- | -- |
 | Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
 | License | LGPL-2.1 |
-| Versions | 3.9.1, 3.11.3, 3.12.1, 3.13.0 |
+| Versions | 3.9.1, 3.11.3, 3.12.1, 3.13.0, 3.13.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
 
@@ -28102,7 +28102,7 @@ add_requires("promise-cpp")
 | Description | *Google's data interchange format for c* |
 | -- | -- |
 | Homepage | [https://github.com/protobuf-c/protobuf-c](https://github.com/protobuf-c/protobuf-c) |
-| Versions | 1.3.1, 1.5.0, 1.5.1 |
+| Versions | 1.3.1, 1.5.0, 1.5.1, 1.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [protobuf-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-c/xmake.lua) |
 
@@ -29987,7 +29987,7 @@ add_requires("redex")
 | Description | *Redis client written in C++* |
 | -- | -- |
 | Homepage | [https://github.com/sewenew/redis-plus-plus](https://github.com/sewenew/redis-plus-plus) |
-| Versions | 1.3.5, 1.3.6, 1.3.7, 1.3.8, 1.3.9, 1.3.11, 1.3.12, 1.3.13 |
+| Versions | 1.3.5, 1.3.6, 1.3.7, 1.3.8, 1.3.9, 1.3.11, 1.3.12, 1.3.13, 1.3.14 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [redis-plus-plus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/redis-plus-plus/xmake.lua) |
 
@@ -32322,7 +32322,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -36663,7 +36663,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563d0b9aeef0 |
+| License | table: 0x556484eb4780 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
