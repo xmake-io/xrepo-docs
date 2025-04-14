@@ -890,7 +890,7 @@ add_requires("autotools")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/avir](https://github.com/avaneev/avir) |
 | License | MIT |
-| Versions | 3.0 |
+| Versions | 3.0, 3.1 |
 | Architectures | i386, x86_64 |
 | Definition | [avir/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/avir/xmake.lua) |
 
@@ -3710,7 +3710,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -4186,7 +4186,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
 | License | MIT |
-| Versions | 2.5 |
+| Versions | 2.5, 2.6 |
 | Architectures | i386, x86_64 |
 | Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
 
@@ -18262,7 +18262,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -18572,7 +18572,7 @@ add_requires("stduuid")
 | -- | -- |
 | Homepage | [https://valvesoftware.github.io/steam-audio/](https://valvesoftware.github.io/steam-audio/) |
 | License | Apache-2.0 |
-| Versions | v4.6.0 |
+| Versions | v4.6.0, v4.6.1 |
 | Architectures | i386, x86_64 |
 | Definition | [steam-audio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/steam-audio/xmake.lua) |
 
