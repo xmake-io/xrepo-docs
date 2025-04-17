@@ -343,7 +343,7 @@ add_requires("amrex")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/ANARI-SDK](https://github.com/KhronosGroup/ANARI-SDK) |
 | License | Apache-2.0 |
-| Versions | v0.12.1 |
+| Versions | v0.12.1, v0.13.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [anari/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/anari/xmake.lua) |
 
@@ -2326,7 +2326,7 @@ add_requires("c-vector")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1, 0.2.2, 0.2.5 |
+| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -7282,7 +7282,7 @@ add_requires("glaze")
 | -- | -- |
 | Homepage | [https://glbinding.org](https://glbinding.org) |
 | License | MIT |
-| Versions | v2.0.0, v2.1.1, v2.1.2, v2.1.3, v2.1.4, v3.0.2, v3.1.0, v3.3.0, v3.4.0 |
+| Versions | v2.0.0, v2.1.1, v2.1.2, v2.1.3, v2.1.4, v3.0.2, v3.1.0, v3.3.0, v3.4.0, v3.5.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [glbinding/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glbinding/xmake.lua) |
 
@@ -12630,7 +12630,7 @@ add_requires("libwebp")
 | -- | -- |
 | Homepage | [https://github.com/warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) |
 | License | MIT |
-| Versions | v4.3.3, v4.3.4 |
+| Versions | v4.3.3, v4.3.4, v4.3.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebsockets/xmake.lua) |
 
@@ -15729,7 +15729,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -19659,6 +19659,30 @@ add_requires("re2")
 ```
 
 
+### reaction (mingw)
+
+
+| Description | *A lightweight, header-only reactive programming framework leveraging modern C++20 features for building efficient dataflow applications.* |
+| -- | -- |
+| Homepage | [https://github.com/lumia431/reaction](https://github.com/lumia431/reaction) |
+| License | MIT |
+| Versions | 2025.04.16 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [reaction/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reaction/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] reaction
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("reaction")
+```
+
+
 ### reactiveplusplus (mingw)
 
 
@@ -21339,7 +21363,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
