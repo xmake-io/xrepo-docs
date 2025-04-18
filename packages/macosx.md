@@ -2396,7 +2396,7 @@ add_requires("boost_sml")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/ut/](https://boost-ext.github.io/ut/) |
 | License | BSL-1.0 |
-| Versions | v1.1.9, v2.0.1, v2.1.0, v2.1.1, v2.3.0 |
+| Versions | v1.1.9, v2.0.1, v2.1.0, v2.1.1, v2.3.0, v2.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [boost_ut/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_ut/xmake.lua) |
 
@@ -14242,7 +14242,7 @@ add_requires("libdom")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -29329,7 +29329,7 @@ add_requires("simplethreadpool")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
 | License | Apache-2.0 |
-| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0 |
+| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
 
@@ -30091,7 +30091,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34148,7 +34148,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559f0fd15530 |
+| License | table: 0x564349bd2d40 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
