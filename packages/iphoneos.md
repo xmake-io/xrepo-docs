@@ -2896,7 +2896,7 @@ add_requires("cnpy")
 | -- | -- |
 | Homepage | [https://furfurylic.github.io/commata/CommataSpecification.xml](https://furfurylic.github.io/commata/CommataSpecification.xml) |
 | License | Unlicense |
-| Versions | v1.0.0, v1.0.1 |
+| Versions | v1.0.0, v1.0.1, v1.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [commata/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/commata/xmake.lua) |
 
@@ -3543,7 +3543,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm64, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -18385,7 +18385,7 @@ add_requires("snappy")
 | -- | -- |
 | Homepage | [https://github.com/cschreib/snitch](https://github.com/cschreib/snitch) |
 | License | BSL-1.0 |
-| Versions | 1.0.0, 1.2.4, 1.2.5, 1.3.1 |
+| Versions | 1.0.0, 1.2.4, 1.2.5, 1.3.1, 1.3.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [snitch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snitch/xmake.lua) |
 
@@ -18861,7 +18861,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
