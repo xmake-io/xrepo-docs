@@ -98,6 +98,30 @@ add_requires("access_private")
 ```
 
 
+### acl-dev (macosx)
+
+
+| Description | *C/C++ server and network library, including coroutine, redis client, http/https/websocket, mqtt, mysql/postgresql/sqlite client with C/C++ for Linux, Android, iOS, MacOS, Windows.* |
+| -- | -- |
+| Homepage | [https://acl-dev.cn](https://acl-dev.cn) |
+| License | LGPL-3.0 |
+| Versions | v3.6.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [acl-dev/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/acl-dev/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install acl-dev
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("acl-dev")
+```
+
+
 ### actor-framework (macosx)
 
 
@@ -30115,7 +30139,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34196,7 +34220,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x556706f35820 |
+| License | table: 0x55854a2249c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
