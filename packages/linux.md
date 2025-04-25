@@ -5593,7 +5593,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -35828,8 +35828,8 @@ add_requires("uwebsockets")
 
 | Description | *V8 JavaScript Engine* |
 | -- | -- |
-| Homepage | [https://chromium.googlesource.com/v8/v8.git](https://chromium.googlesource.com/v8/v8.git) |
-| Versions | 10.0.58 |
+| Homepage | [https://v8.dev](https://v8.dev) |
+| Versions | 13.5.212.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [v8/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/v8/xmake.lua) |
 
@@ -36832,7 +36832,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559d92e30400 |
+| License | table: 0x5637f69b42c0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
