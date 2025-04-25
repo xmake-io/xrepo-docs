@@ -3590,7 +3590,7 @@ add_requires("cpu-features")
 | -- | -- |
 | Homepage | [https://github.com/pytorch/cpuinfo](https://github.com/pytorch/cpuinfo) |
 | License | BSD-2-Clause |
-| Versions | 2023.07.21, 2024.09.26 |
+| Versions | 2023.07.21, 2024.09.26, 2025.03.28 |
 | Architectures | i386, x86_64 |
 | Definition | [cpuinfo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpuinfo/xmake.lua) |
 
@@ -3734,7 +3734,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -18334,7 +18334,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -21707,7 +21707,7 @@ add_requires("zig")
 | -- | -- |
 | Homepage | [http://www.zint.org.uk](http://www.zint.org.uk) |
 | License | GPL-3.0 |
-| Versions | 2.14.0 |
+| Versions | 2.14.0, 2.15.0 |
 | Architectures | i386, x86_64 |
 | Definition | [zint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zint/xmake.lua) |
 
