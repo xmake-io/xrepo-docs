@@ -439,7 +439,7 @@ add_requires("amqp-cpp")
 | Description | *AMReX: Software Framework for Block Structured AMR* |
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
-| Versions | 24.09, 24.12, 25.02, 25.03 |
+| Versions | 24.09, 24.12, 25.02, 25.03, 25.04 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
@@ -5262,7 +5262,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -6051,7 +6051,7 @@ add_requires("daw_header_libraries")
 | -- | -- |
 | Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
 | License | BSL-1.0 |
-| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2 |
+| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2, v3.30.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
 
@@ -7788,6 +7788,30 @@ xrepo install eventpp
 
 ```lua
 add_requires("eventpp")
+```
+
+
+### exosip (windows)
+
+
+| Description | *eXosip is a library that hides the complexity of using the SIP protocol for mutlimedia session establishement* |
+| -- | -- |
+| Homepage | [https://savannah.nongnu.org/projects/exosip](https://savannah.nongnu.org/projects/exosip) |
+| License | GPL-2.0 |
+| Versions | 5.3.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [exosip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exosip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install exosip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("exosip")
 ```
 
 
@@ -14607,7 +14631,7 @@ add_requires("libhv")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
 | License | LGPL-2.0 |
-| Versions | 1.15, 1.16, 1.17 |
+| Versions | 1.15, 1.16, 1.17, 1.18 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
 
@@ -16679,7 +16703,7 @@ add_requires("libva")
 | -- | -- |
 | Homepage | [https://libvips.github.io/libvips/](https://libvips.github.io/libvips/) |
 | License | LGPL-2.1 |
-| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0 |
+| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libvips/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvips/xmake.lua) |
 
@@ -18823,7 +18847,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -28860,7 +28884,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

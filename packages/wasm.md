@@ -4689,6 +4689,30 @@ add_requires("eventpp")
 ```
 
 
+### exosip (wasm)
+
+
+| Description | *eXosip is a library that hides the complexity of using the SIP protocol for mutlimedia session establishement* |
+| -- | -- |
+| Homepage | [https://savannah.nongnu.org/projects/exosip](https://savannah.nongnu.org/projects/exosip) |
+| License | GPL-2.0 |
+| Versions | 5.3.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [exosip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/exosip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm exosip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("exosip")
+```
+
+
 ### expat (wasm)
 
 
@@ -8358,7 +8382,7 @@ add_requires("libhubbub")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv) |
 | License | LGPL-2.0 |
-| Versions | 1.15, 1.16, 1.17 |
+| Versions | 1.15, 1.16, 1.17, 1.18 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libiconv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libiconv/xmake.lua) |
 
@@ -11170,7 +11194,7 @@ add_requires("melon")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -16715,7 +16739,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
