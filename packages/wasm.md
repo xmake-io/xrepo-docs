@@ -54,7 +54,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -6490,7 +6490,7 @@ add_requires("highway")
 | -- | -- |
 | Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
 | License | BSD-3-Clause |
-| Versions | v1.0.2, v1.1.0, v1.2.0 |
+| Versions | v1.0.2, v1.1.0, v1.2.0, v1.3.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
 
@@ -16739,7 +16739,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -18844,7 +18844,7 @@ add_requires("verdict")
 | -- | -- |
 | Homepage | [https://verilator.org](https://verilator.org) |
 | License | LGPL-3.0 |
-| Versions | v5.016, v5.032, v5.034 |
+| Versions | v5.016, v5.032, v5.034, v5.036 |
 | Architectures | wasm32, wasm64 |
 | Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
 
