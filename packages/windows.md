@@ -26827,6 +26827,30 @@ add_requires("reproc")
 ```
 
 
+### resiprocate (windows)
+
+
+| Description | *C++ implementation of SIP, ICE, TURN and related protocols.* |
+| -- | -- |
+| Homepage | [https://resiprocate.org/Main_Page](https://resiprocate.org/Main_Page) |
+| License | VSL-1.0 |
+| Versions | 1.12.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [resiprocate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/resiprocate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install resiprocate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("resiprocate")
+```
+
+
 ### rest_rpc (windows)
 
 
@@ -28954,7 +28978,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31579,7 +31603,7 @@ add_requires("ufbx")
 | -- | -- |
 | Homepage | [https://ultralig.ht](https://ultralig.ht) |
 | License | LGPL |
-| Versions | 1.3.0, 1.4.0-beta |
+| Versions | 1.3.0, 1.4.0-beta, 1.4.0 |
 | Architectures | x64, x86 |
 | Definition | [ultralight/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ultralight/xmake.lua) |
 
