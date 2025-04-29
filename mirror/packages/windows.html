@@ -8356,6 +8356,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("cserialport")
 </code></pre>
+<h3 id="csfmlwindows">csfml (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Official binding of SFML for C</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.sfml-dev.org">https://www.sfml-dev.org</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.6.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csfml/xmake.lua">csfml/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install csfml
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("csfml")
+</code></pre>
 <h3 id="csv2windows">csv2 (windows)</h3>
 <table>
 <thead>
@@ -27403,7 +27440,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>19.00, 22.01</td>
+<td>21.07, 22.01, 23.01, 24.09</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -41754,6 +41791,72 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ruapu")
 </code></pre>
+<h3 id="rustwindows">rust (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Rust is a general-purpose programming language emphasizing performance, type safety, and concurrency.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://rust-lang.org">https://rust-lang.org</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.86.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rust/xmake.lua">rust/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install rust
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("rust")
+</code></pre>
+<h3 id="rustupwindows">rustup (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>An installer for the systems programming language Rust</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://rustup.rs">https://rustup.rs</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.28.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rustup/xmake.lua">rustup/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install rustup
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("rustup")
+</code></pre>
 <h3 id="ruywindows">ruy (windows)</h3>
 <table>
 <thead>
@@ -44094,7 +44197,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -48090,11 +48193,11 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.3.0</td>
+<td>1.3.0, 1.4.0-beta</td>
 </tr>
 <tr>
 <td>Architectures</td>
-<td>x64</td>
+<td>x64, x86</td>
 </tr>
 <tr>
 <td>Definition</td>

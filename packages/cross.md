@@ -12285,6 +12285,29 @@ add_requires("lzham_codec")
 ```
 
 
+### lzma (cross)
+
+
+| Description | *LZMA SDK* |
+| -- | -- |
+| Homepage | [https://www.7-zip.org/sdk.html](https://www.7-zip.org/sdk.html) |
+| Versions | 21.07, 22.01, 23.01, 24.09 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [lzma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzma/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] lzma
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lzma")
+```
+
+
 ### lzo (cross)
 
 
@@ -17875,6 +17898,52 @@ add_requires("ruapu")
 ```
 
 
+### rust (cross)
+
+
+| Description | *Rust is a general-purpose programming language emphasizing performance, type safety, and concurrency.* |
+| -- | -- |
+| Homepage | [https://rust-lang.org](https://rust-lang.org) |
+| Versions | 1.86.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [rust/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rust/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] rust
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rust")
+```
+
+
+### rustup (cross)
+
+
+| Description | *An installer for the systems programming language Rust* |
+| -- | -- |
+| Homepage | [https://rustup.rs](https://rustup.rs) |
+| Versions | 1.28.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [rustup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rustup/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] rustup
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rustup")
+```
+
+
 ### rxcpp (cross)
 
 
@@ -18860,7 +18929,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
