@@ -820,7 +820,7 @@ add_requires("aurora-au")
 | Description | *An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
-| Versions | 2.68, 2.69, 2.71 |
+| Versions | 2.68, 2.69, 2.71, 2.72 |
 | Architectures | i386, x86_64 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
 
@@ -867,7 +867,7 @@ add_requires("autoconf-archive")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
-| Versions | 1.9.5, 1.9.6, 1.15.1, 1.16.1, 1.16.4, 1.16.5 |
+| Versions | 1.9.5, 1.9.6, 1.15.1, 1.16.1, 1.16.4, 1.16.5, 1.17 |
 | Architectures | i386, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
 
@@ -2874,7 +2874,7 @@ add_requires("clove-unit")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1, 3.28.3, 3.29.2, 3.30.1, 3.30.2, 4.0.0 |
+| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1, 3.28.3, 3.29.2, 3.30.1, 3.30.2, 4.0.0, 4.0.1 |
 | Architectures | i386, x86_64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
@@ -10745,7 +10745,7 @@ add_requires("libtommath")
 | Description | *A generic library support script.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/libtool/](https://www.gnu.org/software/libtool/) |
-| Versions | 2.4.5, 2.4.6, 2.4.7 |
+| Versions | 2.4.5, 2.4.6, 2.4.7, 2.5.4 |
 | Architectures | i386, x86_64 |
 | Definition | [libtool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtool/xmake.lua) |
 
@@ -15325,7 +15325,7 @@ add_requires("pkg-config")
 | Description | *A program which helps to configure compiler and linker flags for development frameworks.* |
 | -- | -- |
 | Homepage | [http://pkgconf.org](http://pkgconf.org) |
-| Versions | 1.7.4, 1.8.0, 1.9.3, 1.9.4, 1.9.5, 2.0.3 |
+| Versions | 1.7.4, 1.8.0, 1.9.3, 1.9.4, 1.9.5, 2.0.3, 2.4.3 |
 | Architectures | i386, x86_64 |
 | Definition | [pkgconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pkgconf/xmake.lua) |
 
@@ -18403,7 +18403,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
