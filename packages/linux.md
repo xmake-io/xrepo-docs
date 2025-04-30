@@ -5233,7 +5233,7 @@ add_requires("cppitertools")
 | -- | -- |
 | Homepage | [https://github.com/yanyiwu/cppjieba](https://github.com/yanyiwu/cppjieba) |
 | License | MIT |
-| Versions | v5.2.0, v5.4.0, v5.4.1 |
+| Versions | v5.2.0, v5.4.0, v5.4.1, v5.5.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppjieba/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppjieba/xmake.lua) |
 
@@ -20979,7 +20979,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -32561,7 +32561,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -36926,7 +36926,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563678af7180 |
+| License | table: 0x56130e0dd1e0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

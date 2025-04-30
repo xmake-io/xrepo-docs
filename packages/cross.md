@@ -3474,7 +3474,7 @@ add_requires("cppitertools")
 | -- | -- |
 | Homepage | [https://github.com/yanyiwu/cppjieba](https://github.com/yanyiwu/cppjieba) |
 | License | MIT |
-| Versions | v5.2.0, v5.4.0, v5.4.1 |
+| Versions | v5.2.0, v5.4.0, v5.4.1, v5.5.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cppjieba/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppjieba/xmake.lua) |
 
@@ -9356,6 +9356,29 @@ add_requires("libebur128")
 ```
 
 
+### libelf (cross)
+
+
+| Description | *ELF object file access library* |
+| -- | -- |
+| Homepage | [https://web.archive.org/web/20181111033959/www.mr511.de/software/english.html](https://web.archive.org/web/20181111033959/www.mr511.de/software/english.html) |
+| Versions | 0.8.13 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libelf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libelf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libelf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libelf")
+```
+
+
 ### libelfin (cross)
 
 
@@ -12245,7 +12268,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -18953,7 +18976,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
