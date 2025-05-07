@@ -4787,7 +4787,7 @@ add_requires("docopt")
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
 | License | MIT |
-| Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11 |
+| Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11, 2.4.12 |
 | Architectures | i386, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
@@ -6962,7 +6962,7 @@ add_requires("godotcpp")
 | -- | -- |
 | Homepage | [https://github.com/googleapis/google-cloud-cpp](https://github.com/googleapis/google-cloud-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.33.0, v2.34.0, v2.36.0 |
+| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0 |
 | Architectures | i386, x86_64 |
 | Definition | [google-cloud-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/google-cloud-cpp/xmake.lua) |
 
@@ -10075,7 +10075,7 @@ add_requires("libremidi")
 | -- | -- |
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
-| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3, v2.8.4, v2.8.7 |
+| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3, v2.8.4, v2.8.7, v2.10.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
@@ -17235,7 +17235,7 @@ add_requires("robin-hood-hashing")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
 | License | MIT |
-| Versions | v0.6.3, v1.2.1, v1.2.2, v1.3.0 |
+| Versions | v0.6.3, v1.2.1, v1.2.2, v1.3.0, v1.4.0 |
 | Architectures | i386, x86_64 |
 | Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
 
@@ -18427,7 +18427,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
