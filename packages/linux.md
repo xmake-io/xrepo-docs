@@ -6804,6 +6804,30 @@ add_requires("digestpp")
 ```
 
 
+### diligentcore (linux)
+
+
+| Description | *A modern cross-platform low-level graphics API* |
+| -- | -- |
+| Homepage | [http://diligentgraphics.com/diligent-engine/](http://diligentgraphics.com/diligent-engine/) |
+| License | Apache-2.0 |
+| Versions | v2.5.6 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [diligentcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/diligentcore/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install diligentcore
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("diligentcore")
+```
+
+
 ### dipp (linux)
 
 
@@ -13672,7 +13696,7 @@ add_requires("json-c")
 | -- | -- |
 | Homepage | [https://gitlab.gnome.org/GNOME/json-glib](https://gitlab.gnome.org/GNOME/json-glib) |
 | License | LGPL-2.1 |
-| Versions | 1.9.2, 1.10.0 |
+| Versions | 1.9.2, 1.10.0, 1.10.6 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [json-glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-glib/xmake.lua) |
 
@@ -32561,7 +32585,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -36926,7 +36950,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558f574dd5c0 |
+| License | table: 0x55e436533850 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
