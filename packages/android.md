@@ -799,7 +799,7 @@ add_requires("async_simple")
 | -- | -- |
 | Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
 | License | MIT |
-| Versions | v1.5, v1.6.3, v1.6.4, v1.6.5 |
+| Versions | v1.5, v1.6.3, v1.6.4, v1.6.5, v1.6.9 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
 
@@ -1466,7 +1466,7 @@ add_requires("bdwgc")
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
 | License | Apache-2.0 |
-| Versions | v1.5.2, v1.5.3, v1.5.4, v1.5.5, v1.5.6, v1.6.0, v1.6.1, v1.7.0, v1.7.1, v1.8.0, v1.8.3, v1.8.4, v1.8.5, v1.9.0, v1.9.1, v1.9.2 |
+| Versions | v1.5.2, v1.5.3, v1.5.4, v1.5.5, v1.5.6, v1.6.0, v1.6.1, v1.7.0, v1.7.1, v1.8.0, v1.8.3, v1.8.4, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.9.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
@@ -3712,7 +3712,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -12580,7 +12580,7 @@ add_requires("macdylibbundler")
 | -- | -- |
 | Homepage | [https://github.com/progsource/maddy](https://github.com/progsource/maddy) |
 | License | MIT |
-| Versions | 1.2.1, 1.3.0 |
+| Versions | 1.2.1, 1.3.0, 1.5.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [maddy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/maddy/xmake.lua) |
 
@@ -19721,7 +19721,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
