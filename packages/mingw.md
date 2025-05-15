@@ -1299,7 +1299,7 @@ add_requires("aws-checksums")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -3496,7 +3496,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -4024,7 +4024,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -10243,7 +10243,8 @@ add_requires("libccd")
 | Description | *a small C library for x86 CPU detection and feature extraction* |
 | -- | -- |
 | Homepage | [https://github.com/anrieff/libcpuid](https://github.com/anrieff/libcpuid) |
-| Versions | v0.5.1, v0.6.3, v0.6.4, v0.6.5, v0.7.0, v0.7.1 |
+| License | BSD-2-Clause |
+| Versions | v0.5.1, v0.6.3, v0.6.4, v0.6.5, v0.7.0, v0.7.1, v0.8.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libcpuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcpuid/xmake.lua) |
 
@@ -10409,8 +10410,9 @@ add_requires("libdisasm")
 
 | Description | *Official git repository for libdivide: optimized integer division* |
 | -- | -- |
-| Homepage | [http://libdivide.com](http://libdivide.com) |
-| Versions | 5.0 |
+| Homepage | [https://libdivide.com](https://libdivide.com) |
+| License | BSL-1.0 |
+| Versions | 5.0, v5.2.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
 
@@ -21456,7 +21458,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -23560,7 +23562,7 @@ add_requires("udt")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1 |
+| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.18.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
