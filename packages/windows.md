@@ -6403,6 +6403,30 @@ add_requires("diligentcore")
 ```
 
 
+### diligentfx (windows)
+
+
+| Description | *High-level rendering components* |
+| -- | -- |
+| Homepage | [https://github.com/DiligentGraphics/DiligentFX](https://github.com/DiligentGraphics/DiligentFX) |
+| License | Apache-2.0 |
+| Versions | v2.5.6 |
+| Architectures | x64 |
+| Definition | [diligentfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/diligentfx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install diligentfx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("diligentfx")
+```
+
+
 ### diligenttools (windows)
 
 
@@ -20985,6 +21009,30 @@ add_requires("nazarautils")
 ```
 
 
+### ncurses (windows)
+
+
+| Description | *A free software emulation of curses.* |
+| -- | -- |
+| Homepage | [https://invisible-island.net/ncurses/](https://invisible-island.net/ncurses/) |
+| License | MIT |
+| Versions | 6.1, 6.2, 6.3, 6.4, 6.5 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ncurses
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ncurses")
+```
+
+
 ### ndarray (windows)
 
 
@@ -26759,6 +26807,30 @@ add_requires("readerwriterqueue")
 ```
 
 
+### readline (windows)
+
+
+| Description | *Library for command-line editing* |
+| -- | -- |
+| Homepage | [https://tiswww.case.edu/php/chet/readline/rltop.html](https://tiswww.case.edu/php/chet/readline/rltop.html) |
+| License | GPL-3.0-or-later |
+| Versions | 8.1, 8.2, 8.2.13 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [readline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install readline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("readline")
+```
+
+
 ### recastnavigation (windows)
 
 
@@ -29076,7 +29148,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32035,7 +32107,7 @@ add_requires("uriparser")
 | -- | -- |
 | Homepage | [http://www.openusd.org](http://www.openusd.org) |
 | License | Apache-2.0 |
-| Versions | v22.11, v23.02, v24.03, v24.05, v24.08 |
+| Versions | v22.11, v23.02, v24.03, v24.05, v24.08, v25.05 |
 | Architectures | x64 |
 | Definition | [usd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usd/xmake.lua) |
 
@@ -33245,6 +33317,30 @@ xrepo install wgpu-native
 
 ```lua
 add_requires("wgpu-native")
+```
+
+
+### wgsl-validator (windows)
+
+
+| Description | *WGSL validator in Rust with C bindings.* |
+| -- | -- |
+| Homepage | [https://github.com/NazaraEngine/wgsl-validator](https://github.com/NazaraEngine/wgsl-validator) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [wgsl-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wgsl-validator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wgsl-validator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wgsl-validator")
 ```
 
 

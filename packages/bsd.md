@@ -18199,6 +18199,30 @@ add_requires("readerwriterqueue")
 ```
 
 
+### readline (bsd)
+
+
+| Description | *Library for command-line editing* |
+| -- | -- |
+| Homepage | [https://tiswww.case.edu/php/chet/readline/rltop.html](https://tiswww.case.edu/php/chet/readline/rltop.html) |
+| License | GPL-3.0-or-later |
+| Versions | 8.1, 8.2, 8.2.13 |
+| Architectures | i386, x86_64 |
+| Definition | [readline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install readline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("readline")
+```
+
+
 ### recastnavigation (bsd)
 
 
@@ -19732,7 +19756,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22517,6 +22541,30 @@ xrepo install websocketpp
 
 ```lua
 add_requires("websocketpp")
+```
+
+
+### wgsl-validator (bsd)
+
+
+| Description | *WGSL validator in Rust with C bindings.* |
+| -- | -- |
+| Homepage | [https://github.com/NazaraEngine/wgsl-validator](https://github.com/NazaraEngine/wgsl-validator) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [wgsl-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wgsl-validator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wgsl-validator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wgsl-validator")
 ```
 
 

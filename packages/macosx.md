@@ -6448,6 +6448,30 @@ add_requires("diligentcore")
 ```
 
 
+### diligentfx (macosx)
+
+
+| Description | *High-level rendering components* |
+| -- | -- |
+| Homepage | [https://github.com/DiligentGraphics/DiligentFX](https://github.com/DiligentGraphics/DiligentFX) |
+| License | Apache-2.0 |
+| Versions | v2.5.6 |
+| Architectures | x86_64 |
+| Definition | [diligentfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/diligentfx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install diligentfx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("diligentfx")
+```
+
+
 ### diligenttools (macosx)
 
 
@@ -27973,7 +27997,7 @@ add_requires("readerwriterqueue")
 | -- | -- |
 | Homepage | [https://tiswww.case.edu/php/chet/readline/rltop.html](https://tiswww.case.edu/php/chet/readline/rltop.html) |
 | License | GPL-3.0-or-later |
-| Versions | 8.1, 8.2 |
+| Versions | 8.1, 8.2, 8.2.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [readline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readline/xmake.lua) |
 
@@ -30283,7 +30307,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33147,7 +33171,7 @@ add_requires("uriparser")
 | -- | -- |
 | Homepage | [http://www.openusd.org](http://www.openusd.org) |
 | License | Apache-2.0 |
-| Versions | v22.11, v23.02, v24.03, v24.05, v24.08 |
+| Versions | v22.11, v23.02, v24.03, v24.05, v24.08, v25.05 |
 | Architectures | x86_64 |
 | Definition | [usd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usd/xmake.lua) |
 
@@ -34288,6 +34312,30 @@ add_requires("wgpu-native")
 ```
 
 
+### wgsl-validator (macosx)
+
+
+| Description | *WGSL validator in Rust with C bindings.* |
+| -- | -- |
+| Homepage | [https://github.com/NazaraEngine/wgsl-validator](https://github.com/NazaraEngine/wgsl-validator) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [wgsl-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wgsl-validator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wgsl-validator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wgsl-validator")
+```
+
+
 ### whereami (macosx)
 
 
@@ -34341,7 +34389,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55de0b3b0c50 |
+| License | table: 0x55b549ac2010 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

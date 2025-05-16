@@ -14293,6 +14293,30 @@ add_requires("nazarautils")
 ```
 
 
+### ncurses (android)
+
+
+| Description | *A free software emulation of curses.* |
+| -- | -- |
+| Homepage | [https://invisible-island.net/ncurses/](https://invisible-island.net/ncurses/) |
+| License | MIT |
+| Versions | 6.1, 6.2, 6.3, 6.4, 6.5 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ncurses
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ncurses")
+```
+
+
 ### ndk (android)
 
 
@@ -18259,6 +18283,30 @@ add_requires("readerwriterqueue")
 ```
 
 
+### readline (android)
+
+
+| Description | *Library for command-line editing* |
+| -- | -- |
+| Homepage | [https://tiswww.case.edu/php/chet/readline/rltop.html](https://tiswww.case.edu/php/chet/readline/rltop.html) |
+| License | GPL-3.0-or-later |
+| Versions | 8.1, 8.2, 8.2.13 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [readline/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/readline/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] readline
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("readline")
+```
+
+
 ### recastnavigation (android)
 
 
@@ -19722,7 +19770,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22582,6 +22630,30 @@ xrepo install -p android [--ndk=/xxx] wfrest
 
 ```lua
 add_requires("wfrest")
+```
+
+
+### wgsl-validator (android)
+
+
+| Description | *WGSL validator in Rust with C bindings.* |
+| -- | -- |
+| Homepage | [https://github.com/NazaraEngine/wgsl-validator](https://github.com/NazaraEngine/wgsl-validator) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [wgsl-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wgsl-validator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] wgsl-validator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wgsl-validator")
 ```
 
 
