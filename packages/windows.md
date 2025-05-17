@@ -5285,7 +5285,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -5930,7 +5930,7 @@ add_requires("cxxopts")
 | -- | -- |
 | Homepage | [https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator](https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator) |
 | License | MIT |
-| Versions | v2.0.1 |
+| Versions | v2.0.1, v3.0.1 |
 | Architectures | x64 |
 | Definition | [d3d12-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/d3d12-memory-allocator/xmake.lua) |
 
@@ -14824,7 +14824,7 @@ add_requires("libidn2")
 | -- | -- |
 | Homepage | [https://libigl.github.io/](https://libigl.github.io/) |
 | License | MPL-2.0 |
-| Versions | v2.2.0, v2.3.0, v2.4.0, v2.5.0 |
+| Versions | v2.2.0, v2.3.0, v2.4.0, v2.5.0, v2.6.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libigl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libigl/xmake.lua) |
 
@@ -29171,7 +29171,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34879,7 +34879,7 @@ add_requires("zltoolkit")
 | -- | -- |
 | Homepage | [https://github.com/SFGrenade/ZmqPb-Cpp/](https://github.com/SFGrenade/ZmqPb-Cpp/) |
 | License | MPL-2.0 |
-| Versions | 0.1, 0.2, 0.3, 0.4, 0.8, 0.9, 0.10.2, 0.10.3, 0.10.4 |
+| Versions | 0.1, 0.2, 0.3, 0.4, 0.8, 0.9, 0.10.2, 0.10.3, 0.10.4, 0.10.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [zmqpb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua) |
 
