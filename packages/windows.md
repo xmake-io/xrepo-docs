@@ -1419,7 +1419,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2 |
+| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -28980,7 +28980,7 @@ add_requires("sparsepp")
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
 | License | MIT |
-| Versions | v1.2.1, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.10.0, v1.11.0, v1.12.0, v1.13.0, v1.14.0, v1.14.1, v1.15.0, v1.15.1, v1.15.2 |
+| Versions | v1.2.1, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.10.0, v1.11.0, v1.12.0, v1.13.0, v1.14.0, v1.14.1, v1.15.0, v1.15.1, v1.15.2, v1.15.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
@@ -29195,7 +29195,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33082,11 +33082,11 @@ add_requires("vulkan-validationlayers")
 ### vulkanscenegraph (windows)
 
 
-| Description | *VulkanSceneGraph (VSG), is a modern, cross platform, high performance scene graph library built upon Vulkan graphics/compute API.* |
+| Description | *Vulkan & C++17 based Scene Graph Project* |
 | -- | -- |
-| Homepage | [https://vsg-dev.github.io/VulkanSceneGraph/](https://vsg-dev.github.io/VulkanSceneGraph/) |
+| Homepage | [http://www.vulkanscenegraph.org](http://www.vulkanscenegraph.org) |
 | License | MIT |
-| Versions | 1.0.2 |
+| Versions | 1.0.2, v1.1.10 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [vulkanscenegraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkanscenegraph/xmake.lua) |
 
