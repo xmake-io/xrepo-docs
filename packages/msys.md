@@ -3734,7 +3734,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -4715,7 +4715,7 @@ add_requires("distorm")
 | -- | -- |
 | Homepage | [https://dlib.net](https://dlib.net) |
 | License | Boost |
-| Versions | v19.22, v19.24.4, v19.24.5, v19.24.6, v19.24.8 |
+| Versions | v19.22, v19.24.4, v19.24.5, v19.24.6, v19.24.8, v19.24.9 |
 | Architectures | i386, x86_64 |
 | Definition | [dlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua) |
 
@@ -14154,7 +14154,7 @@ add_requires("ntkernel-error-category")
 | -- | -- |
 | Homepage | [https://immediate-mode-ui.github.io/Nuklear/doc/index.html](https://immediate-mode-ui.github.io/Nuklear/doc/index.html) |
 | License | MIT |
-| Versions | 4.10.5, 4.12.0, 4.12.2, 4.12.3, 4.12.4, 4.12.5, 4.12.6 |
+| Versions | 4.10.5, 4.12.0, 4.12.2, 4.12.3, 4.12.4, 4.12.5, 4.12.6, 4.12.7 |
 | Architectures | i386, x86_64 |
 | Definition | [nuklear/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nuklear/xmake.lua) |
 
@@ -15734,7 +15734,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutosvg](https://github.com/sammycage/plutosvg) |
 | License | MIT |
-| Versions | v0.0.2, v0.0.3, v0.0.4, v0.0.5, v0.0.6 |
+| Versions | v0.0.2, v0.0.3, v0.0.4, v0.0.5, v0.0.6, v0.0.7 |
 | Architectures | i386, x86_64 |
 | Definition | [plutosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutosvg/xmake.lua) |
 
@@ -16351,7 +16351,7 @@ add_requires("qcbor")
 | -- | -- |
 | Homepage | [https://github.com/osqp/qdldl](https://github.com/osqp/qdldl) |
 | License | Apache-2.0 |
-| Versions | v0.1.7 |
+| Versions | v0.1.7, v0.1.8 |
 | Architectures | i386, x86_64 |
 | Definition | [qdldl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qdldl/xmake.lua) |
 
@@ -18500,7 +18500,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
