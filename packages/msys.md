@@ -8107,6 +8107,30 @@ add_requires("ixwebsocket")
 
 
 ## j
+### jansson (msys)
+
+
+| Description | *C library for encoding, decoding and manipulating JSON data* |
+| -- | -- |
+| Homepage | [https://github.com/akheron/jansson](https://github.com/akheron/jansson) |
+| License | MIT |
+| Versions | 2.14, 2.14.1 |
+| Architectures | i386, x86_64 |
+| Definition | [jansson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jansson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jansson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jansson")
+```
+
+
 ### jerryscript (msys)
 
 
@@ -12545,6 +12569,30 @@ xrepo install metis
 
 ```lua
 add_requires("metis")
+```
+
+
+### mhook (msys)
+
+
+| Description | *A Windows API hooking library * |
+| -- | -- |
+| Homepage | [https://github.com/martona/mhook](https://github.com/martona/mhook) |
+| License | MIT |
+| Versions | 2022.04.12 |
+| Architectures | i386, x86_64 |
+| Definition | [mhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mhook/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mhook
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mhook")
 ```
 
 
@@ -18500,7 +18548,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -21527,6 +21575,30 @@ xrepo install xbyak
 
 ```lua
 add_requires("xbyak")
+```
+
+
+### xgrammar (msys)
+
+
+| Description | *Fast, Flexible and Portable Structured Generation* |
+| -- | -- |
+| Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
+| License | Apache-2.0 |
+| Versions | v0.1.19 |
+| Architectures | i386, x86_64 |
+| Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xgrammar
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xgrammar")
 ```
 
 

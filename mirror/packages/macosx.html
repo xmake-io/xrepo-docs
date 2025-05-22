@@ -19421,7 +19421,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.14</td>
+<td>2.14, 2.14.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -46232,7 +46232,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -47698,6 +47698,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("talloc")
+</code></pre>
+<h3 id="tao_idlmacosx">tao_idl (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>tao_idl is TAO&#39;s Interface Description Language (IDL) compiler, based on Sun Microsystems&#39; OMG IDL Compiler Front End (CFE) version 1.3, implements most IDL v3 &amp; some IDL v4 features.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.dre.vanderbilt.edu/~schmidt/TAO.html">https://www.dre.vanderbilt.edu/~schmidt/TAO.html</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>DOC</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>8.0.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tao_idl/xmake.lua">tao_idl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install tao_idl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("tao_idl")
 </code></pre>
 <h3 id="taskflowmacosx">taskflow (macosx)</h3>
 <table>
@@ -52443,7 +52480,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x5654e066fa90</td>
+<td>table: 0x5615e1a7f270</td>
 </tr>
 <tr>
 <td>Versions</td>
@@ -53239,6 +53276,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("xframe")
+</code></pre>
+<h3 id="xgrammarmacosx">xgrammar (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Fast, Flexible and Portable Structured Generation</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://xgrammar.mlc.ai/">https://xgrammar.mlc.ai/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.1.19</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua">xgrammar/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install xgrammar
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("xgrammar")
 </code></pre>
 <h3 id="xlntmacosx">xlnt (macosx)</h3>
 <table>

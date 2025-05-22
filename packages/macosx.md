@@ -12670,7 +12670,7 @@ add_requires("ixwebsocket")
 | -- | -- |
 | Homepage | [https://github.com/akheron/jansson](https://github.com/akheron/jansson) |
 | License | MIT |
-| Versions | 2.14 |
+| Versions | 2.14, 2.14.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [jansson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jansson/xmake.lua) |
 
@@ -30355,7 +30355,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31323,6 +31323,30 @@ xrepo install talloc
 
 ```lua
 add_requires("talloc")
+```
+
+
+### tao_idl (macosx)
+
+
+| Description | *tao_idl is TAO's Interface Description Language (IDL) compiler, based on Sun Microsystems' OMG IDL Compiler Front End (CFE) version 1.3, implements most IDL v3 & some IDL v4 features.* |
+| -- | -- |
+| Homepage | [https://www.dre.vanderbilt.edu/~schmidt/TAO.html](https://www.dre.vanderbilt.edu/~schmidt/TAO.html) |
+| License | DOC |
+| Versions | 8.0.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [tao_idl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tao_idl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tao_idl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tao_idl")
 ```
 
 
@@ -34437,7 +34461,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5654e066fa90 |
+| License | table: 0x5615e1a7f270 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -34972,6 +34996,30 @@ xrepo install xframe
 
 ```lua
 add_requires("xframe")
+```
+
+
+### xgrammar (macosx)
+
+
+| Description | *Fast, Flexible and Portable Structured Generation* |
+| -- | -- |
+| Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
+| License | Apache-2.0 |
+| Versions | v0.1.19 |
+| Architectures | arm64, x86_64 |
+| Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xgrammar
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xgrammar")
 ```
 
 

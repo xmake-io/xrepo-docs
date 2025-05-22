@@ -12627,7 +12627,7 @@ add_requires("ixwebsocket")
 | -- | -- |
 | Homepage | [https://github.com/akheron/jansson](https://github.com/akheron/jansson) |
 | License | MIT |
-| Versions | 2.14 |
+| Versions | 2.14, 2.14.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [jansson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jansson/xmake.lua) |
 
@@ -19112,8 +19112,9 @@ add_requires("mfast")
 | Description | *A Windows API hooking library * |
 | -- | -- |
 | Homepage | [https://github.com/martona/mhook](https://github.com/martona/mhook) |
-| Versions | 2.5.1 |
-| Architectures | arm, arm64, arm64ec, x64, x86 |
+| License | MIT |
+| Versions | 2022.04.12 |
+| Architectures | x64, x86 |
 | Definition | [mhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mhook/xmake.lua) |
 
 ##### Install command
@@ -29196,7 +29197,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34080,6 +34081,30 @@ xrepo install xframe
 
 ```lua
 add_requires("xframe")
+```
+
+
+### xgrammar (windows)
+
+
+| Description | *Fast, Flexible and Portable Structured Generation* |
+| -- | -- |
+| Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
+| License | Apache-2.0 |
+| Versions | v0.1.19 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xgrammar
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xgrammar")
 ```
 
 
