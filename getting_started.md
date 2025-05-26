@@ -8,7 +8,7 @@ And it also supports multi-version semantic selection. In addition, it is also a
 
 At the same time, xrepo also supports installing packages from third-party package managers such as vcpkg/homebrew/conan, and provides unified and consistent library link information to facilitate integration and docking with third-party projects.
 
-If you want to know more, please refer to: [Documents](https://xmake.io/#/home), [Github](https://github.com/xmake-io/xrepo) and [Gitee](https://gitee.com/tboox/xrepo)
+If you want to know more, please refer to: [Documents](https://xmake.io/#/home), [Github](https://github.com/xmake-io/xrepo) and [Gitee](https://gitee.com/tboox/xrepo). You can also [search packages here](https://xmake.microblock.cc).
 
 ![](https://github.com/xmake-io/xrepo-docs/raw/master/assets/img/xrepo.gif)
 
