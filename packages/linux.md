@@ -488,7 +488,7 @@ add_requires("amqp-cpp")
 | Description | *AMReX: Software Framework for Block Structured AMR* |
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
-| Versions | 24.09, 24.12, 25.02, 25.03, 25.04 |
+| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
@@ -5641,7 +5641,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -14260,6 +14260,30 @@ xrepo install kokkos-kernels
 
 ```lua
 add_requires("kokkos-kernels")
+```
+
+
+### kokyu (linux)
+
+
+| Description | *Kokyu - portable middleware scheduling framework designed to provide flexible scheduling/dispatching services within the context of higher-level middleware.* |
+| -- | -- |
+| Homepage | [https://www.dre.vanderbilt.edu/~schmidt/ACE.html](https://www.dre.vanderbilt.edu/~schmidt/ACE.html) |
+| License | DOC |
+| Versions | 8.0.3 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [kokyu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokyu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kokyu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kokyu")
 ```
 
 
@@ -32731,7 +32755,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -32745,6 +32769,30 @@ xrepo install sqlite3
 
 ```lua
 add_requires("sqlite3")
+```
+
+
+### sqlite3-lemon (linux)
+
+
+| Description | *A parser generator* |
+| -- | -- |
+| Homepage | [https://sqlite.org/](https://sqlite.org/) |
+| License | Public Domain |
+| Versions | 3.49.0+200 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [sqlite3-lemon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3-lemon/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sqlite3-lemon
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqlite3-lemon")
 ```
 
 
@@ -37168,7 +37216,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c18520dbe0 |
+| License | table: 0x55c07cec1290 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
