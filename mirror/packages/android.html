@@ -5844,7 +5844,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.1+2, v1.2.1+1</td>
+<td>v1.2.1+1, v1.2.1+2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -6605,7 +6605,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.2.0, v3.0.0, v3.1.1, v3.2.0, v3.2.1</td>
+<td>v2.2.0, v3.0.0, v3.1.1, v3.2.0, v3.2.1, v3.3.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -8775,7 +8775,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.5.0, v0.7.0, v0.8.0</td>
+<td>v0.5.0, v0.7.0, v0.8.0, v0.8.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -10467,6 +10467,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("glog")
+</code></pre>
+<h3 id="glosshookandroid">glosshook (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A simple android NativeHook library.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/XMDS/GlossHook">https://github.com/XMDS/GlossHook</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.9.5</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glosshook/xmake.lua">glosshook/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] glosshook
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glosshook")
 </code></pre>
 <h3 id="glpkandroid">glpk (android)</h3>
 <table>
@@ -16197,7 +16234,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47</td>
+<td>v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -16674,7 +16711,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10</td>
+<td>3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30497,7 +30534,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -32551,6 +32588,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("tinyjpeg")
+</code></pre>
+<h3 id="tinymcpandroid">tinymcp (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A lightweight C++ SDK for implementing the MCP Server.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/Qihoo360/TinyMCP">https://github.com/Qihoo360/TinyMCP</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2025.05.16</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinymcp/xmake.lua">tinymcp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] tinymcp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("tinymcp")
 </code></pre>
 <h3 id="tinyobjloaderandroid">tinyobjloader (android)</h3>
 <table>

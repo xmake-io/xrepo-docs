@@ -5310,7 +5310,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -5929,7 +5929,7 @@ add_requires("cxxgraph")
 | -- | -- |
 | Homepage | [https://github.com/jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) |
 | License | MIT |
-| Versions | v2.2.0, v3.0.0, v3.1.1, v3.2.0, v3.2.1 |
+| Versions | v2.2.0, v3.0.0, v3.1.1, v3.2.0, v3.2.1, v3.3.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cxxopts/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cxxopts/xmake.lua) |
 
@@ -8326,7 +8326,7 @@ add_requires("fast-lzma2")
 | -- | -- |
 | Homepage | [https://github.com/lemire/fast_double_parser](https://github.com/lemire/fast_double_parser) |
 | License | Apache-2.0 |
-| Versions | v0.5.0, v0.7.0, v0.8.0 |
+| Versions | v0.5.0, v0.7.0, v0.8.0, v0.8.1 |
 | Architectures | x64 |
 | Definition | [fast_double_parser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_double_parser/xmake.lua) |
 
@@ -15682,7 +15682,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47 |
+| Versions | v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -16135,7 +16135,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 
@@ -17862,6 +17862,30 @@ xrepo install ls-qpack
 
 ```lua
 add_requires("ls-qpack")
+```
+
+
+### lsp-framework (windows)
+
+
+| Description | *Language Server Protocol implementation in C++* |
+| -- | -- |
+| Homepage | [https://github.com/leon-bckl/lsp-framework](https://github.com/leon-bckl/lsp-framework) |
+| License | MIT |
+| Versions | 1.0.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [lsp-framework/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsp-framework/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lsp-framework
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lsp-framework")
 ```
 
 
@@ -29340,7 +29364,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31283,6 +31307,30 @@ xrepo install tinyjpeg
 
 ```lua
 add_requires("tinyjpeg")
+```
+
+
+### tinymcp (windows)
+
+
+| Description | *A lightweight C++ SDK for implementing the MCP Server.* |
+| -- | -- |
+| Homepage | [https://github.com/Qihoo360/TinyMCP](https://github.com/Qihoo360/TinyMCP) |
+| License | MIT |
+| Versions | 2025.05.16 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [tinymcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinymcp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tinymcp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinymcp")
 ```
 
 
