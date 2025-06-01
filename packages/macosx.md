@@ -9993,7 +9993,7 @@ add_requires("glad")
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
 | License | MIT |
-| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2, v4.4.3, v5.0.2, v5.1.0, v5.1.2, v5.2.0, v5.2.1, v5.3.0 |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2, v4.4.3, v5.0.2, v5.1.0, v5.1.2, v5.2.0, v5.2.1, v5.3.0, v5.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
@@ -13960,7 +13960,7 @@ add_requires("libatomic_ops")
 | -- | -- |
 | Homepage | [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) |
 | License | BSD-2-Clause |
-| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1, v1.2.1 |
+| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1, v1.2.1, v1.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libavif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua) |
 
@@ -18773,7 +18773,7 @@ add_requires("lightningscanner")
 | -- | -- |
 | Homepage | [https://github.com/yanyiwu/limonp](https://github.com/yanyiwu/limonp) |
 | License | MIT |
-| Versions | v0.9.0, v1.0.0 |
+| Versions | v0.9.0, v1.0.0, v1.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [limonp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/limonp/xmake.lua) |
 
@@ -28188,7 +28188,7 @@ add_requires("redis-plus-plus")
 | -- | -- |
 | Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
 | License | MIT |
-| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0, v0.17.0, v0.18.0 |
+| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0, v0.17.0, v0.18.0, v0.19.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
 
@@ -30427,7 +30427,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34604,7 +34604,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e1bf9c4cf0 |
+| License | table: 0x55896e92e7e0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
