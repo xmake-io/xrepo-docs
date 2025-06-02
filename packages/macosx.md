@@ -1991,7 +1991,7 @@ add_requires("bdwgc")
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
 | License | Apache-2.0 |
-| Versions | v1.5.2, v1.5.3, v1.5.4, v1.5.5, v1.5.6, v1.6.0, v1.6.1, v1.7.0, v1.7.1, v1.8.0, v1.8.3, v1.8.4, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.9.3 |
+| Versions | v1.5.2, v1.5.3, v1.5.4, v1.5.5, v1.5.6, v1.6.0, v1.6.1, v1.7.0, v1.7.1, v1.8.0, v1.8.3, v1.8.4, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.9.3, v1.9.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
@@ -7794,7 +7794,7 @@ add_requires("epoll-shim")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -11113,7 +11113,7 @@ add_requires("h5cpp")
 | -- | -- |
 | Homepage | [https://github.com/MuggleWei/haclog](https://github.com/MuggleWei/haclog) |
 | License | MIT |
-| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0 |
+| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [haclog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/haclog/xmake.lua) |
 
@@ -12382,7 +12382,7 @@ add_requires("interface99")
 | -- | -- |
 | Homepage | [https://github.com/chfast/intx](https://github.com/chfast/intx) |
 | License | Apache-2.0 |
-| Versions | v0.11.0, v0.12.0, v0.12.1 |
+| Versions | v0.11.0, v0.12.0, v0.12.1, v0.13.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [intx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/intx/xmake.lua) |
 
@@ -30451,7 +30451,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34628,7 +34628,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55aebfe4ec20 |
+| License | table: 0x5615ee778230 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
