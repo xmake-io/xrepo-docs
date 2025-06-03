@@ -3590,7 +3590,7 @@ add_requires("cpr")
 | -- | -- |
 | Homepage | [https://github.com/google/cpu_features](https://github.com/google/cpu_features) |
 | License | Apache-2.0 |
-| Versions | v0.6.0, v0.7.0, v0.9.0, v0.10.0 |
+| Versions | v0.6.0, v0.7.0, v0.9.0, v0.10.0, v0.10.1 |
 | Architectures | i386, x86_64 |
 | Definition | [cpu-features/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpu-features/xmake.lua) |
 
@@ -14466,7 +14466,7 @@ add_requires("obfusheader.h")
 | -- | -- |
 | Homepage | [http://www.ocilib.net](http://www.ocilib.net) |
 | License | Apache-2.0 |
-| Versions | v4.7.6, v4.7.7 |
+| Versions | v4.7.6, v4.7.7, v4.8.0 |
 | Architectures | i386, x86_64 |
 | Definition | [ocilib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ocilib/xmake.lua) |
 
@@ -18691,7 +18691,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

@@ -5425,7 +5425,7 @@ add_requires("cpr")
 | -- | -- |
 | Homepage | [https://github.com/google/cpu_features](https://github.com/google/cpu_features) |
 | License | Apache-2.0 |
-| Versions | v0.6.0, v0.7.0, v0.9.0, v0.10.0 |
+| Versions | v0.6.0, v0.7.0, v0.9.0, v0.10.0, v0.10.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpu-features/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpu-features/xmake.lua) |
 
@@ -24718,9 +24718,9 @@ add_requires("nmd")
 
 | Description | *NNG, like its predecessors nanomsg (and to some extent ZeroMQ), is a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems.* |
 | -- | -- |
-| Homepage | [https://github.com/nanomsg/nng](https://github.com/nanomsg/nng) |
+| Homepage | [https://nng.nanomsg.org](https://nng.nanomsg.org) |
 | License | MIT |
-| Versions | v1.3.2, v1.4.0, v1.5.2, v1.7.3, v1.8.0, v1.10.1 |
+| Versions | v1.3.2, v1.4.0, v1.5.2, v1.7.3, v1.8.0, v1.10.1, v1.10.2, v1.11 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
 
@@ -25319,7 +25319,7 @@ add_requires("objfw")
 | -- | -- |
 | Homepage | [http://www.ocilib.net](http://www.ocilib.net) |
 | License | Apache-2.0 |
-| Versions | v4.7.6, v4.7.7 |
+| Versions | v4.7.6, v4.7.7, v4.8.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ocilib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ocilib/xmake.lua) |
 
@@ -25511,7 +25511,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1 |
 | Architectures | x86_64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -29703,7 +29703,7 @@ add_requires("quickjspp")
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
 | License | MIT |
-| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2 |
+| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -32851,7 +32851,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -37336,7 +37336,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5559f6dd4290 |
+| License | table: 0x55986633ba70 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
