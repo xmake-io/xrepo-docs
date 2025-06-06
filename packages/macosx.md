@@ -10561,7 +10561,7 @@ add_requires("gnu-sed")
 | -- | -- |
 | Homepage | [https://go.dev](https://go.dev) |
 | License | BSD-3-Clause |
-| Versions | 1.22.6, 1.22.7, 1.22.8, 1.22.9, 1.22.10, 1.22.11, 1.22.12, 1.23.0, 1.23.1, 1.23.2, 1.23.3, 1.23.4, 1.23.5, 1.23.6, 1.23.7, 1.23.8, 1.23.9, 1.24.0, 1.24.1, 1.24.2, 1.24.3 |
+| Versions | 1.22.6, 1.22.7, 1.22.8, 1.22.9, 1.22.10, 1.22.11, 1.22.12, 1.23.0, 1.23.1, 1.23.2, 1.23.3, 1.23.4, 1.23.5, 1.23.6, 1.23.7, 1.23.8, 1.23.9, 1.23.10, 1.24.0, 1.24.1, 1.24.2, 1.24.3, 1.24.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [go/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/go/xmake.lua) |
 
@@ -30499,7 +30499,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -31468,6 +31468,30 @@ xrepo install tabulate
 
 ```lua
 add_requires("tabulate")
+```
+
+
+### taglib (macosx)
+
+
+| Description | *TagLib Audio Meta-Data Library* |
+| -- | -- |
+| Homepage | [http://taglib.org/](http://taglib.org/) |
+| License | LGPL-2.1 |
+| Versions | v2.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install taglib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("taglib")
 ```
 
 
@@ -34676,7 +34700,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f08dd53250 |
+| License | table: 0x557e685f7250 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
