@@ -1063,7 +1063,7 @@ add_requires("asmtk")
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
-| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3 |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -6553,7 +6553,7 @@ add_requires("dipp")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/DirectX-Headers](https://github.com/microsoft/DirectX-Headers) |
 | License | MIT |
-| Versions | v1.610.0, v1.613.0, v1.613.1, v1.614.0, v1.614.1, v1.615.0 |
+| Versions | v1.610.0, v1.613.0, v1.613.1, v1.614.0, v1.614.1, v1.615.0, v1.616.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [directx-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directx-headers/xmake.lua) |
 
@@ -6886,7 +6886,7 @@ add_requires("dlpack")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/DLSS](https://github.com/NVIDIA/DLSS) |
 | License | NVIDIA RTX SDKs |
-| Versions | v3.7.20, v310.1.0 |
+| Versions | v3.7.20, v310.1.0, v310.2.1 |
 | Architectures | x64 |
 | Definition | [dlss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlss/xmake.lua) |
 
@@ -7725,7 +7725,7 @@ add_requires("emhash")
 | Description | *EmmyLua Debugger* |
 | -- | -- |
 | Homepage | [https://github.com/EmmyLua/EmmyLuaDebugger](https://github.com/EmmyLua/EmmyLuaDebugger) |
-| Versions | 1.6.3, 1.7.1, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.8.4 |
+| Versions | 1.6.3, 1.7.1, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [emmylua_debugger/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emmylua_debugger/xmake.lua) |
 
@@ -7917,7 +7917,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -16183,7 +16183,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 
@@ -16921,7 +16921,7 @@ add_requires("libunistring")
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
 | License | LGPL-2.1 |
-| Versions | v1.0.26, v1.0.27, v1.0.28 |
+| Versions | v1.0.26, v1.0.27, v1.0.28, v1.0.29 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 
@@ -29460,7 +29460,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29531,7 +29531,7 @@ add_requires("sqlite_orm")
 | -- | -- |
 | Homepage | [http://srombauts.github.io/SQLiteCpp](http://srombauts.github.io/SQLiteCpp) |
 | License | MIT |
-| Versions | 3.2.1, 3.3.1, 3.3.2 |
+| Versions | 3.2.1, 3.3.1, 3.3.2, 3.3.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlitecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlitecpp/xmake.lua) |
 
@@ -32418,7 +32418,7 @@ add_requires("unzip")
 | -- | -- |
 | Homepage | [https://upa-url.github.io/docs/](https://upa-url.github.io/docs/) |
 | License | BSD-2-Clause |
-| Versions | v1.0.0, v1.0.1, v1.0.2, v1.2.0, v2.0.0 |
+| Versions | v1.0.0, v1.0.1, v1.0.2, v1.2.0, v2.0.0, v2.1.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [upa-url/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/upa-url/xmake.lua) |
 
