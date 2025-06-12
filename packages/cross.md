@@ -3347,6 +3347,30 @@ add_requires("cpp-linenoise")
 ```
 
 
+### cpp-mcp (cross)
+
+
+| Description | *Lightweight C++ MCP (Model Context Protocol) SDK* |
+| -- | -- |
+| Homepage | [https://github.com/hkr04/cpp-mcp](https://github.com/hkr04/cpp-mcp) |
+| License | MIT |
+| Versions | 2025.05.24 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cpp-mcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-mcp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cpp-mcp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-mcp")
+```
+
+
 ### cpp-peglib (cross)
 
 
@@ -3810,7 +3834,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -19312,7 +19336,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -19611,6 +19635,30 @@ xrepo install -p cross [--sdk=/xxx] stduuid
 
 ```lua
 add_requires("stduuid")
+```
+
+
+### step20 (cross)
+
+
+| Description | *Step20 is a C++20, header-only library of STL-like algorithms and data structures* |
+| -- | -- |
+| Homepage | [https://github.com/storm-ptr/step20](https://github.com/storm-ptr/step20) |
+| License | MIT |
+| Versions | 2023.08.21 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [step20/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/step20/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] step20
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("step20")
 ```
 
 

@@ -2297,6 +2297,30 @@ add_requires("blitz")
 ```
 
 
+### blook (windows)
+
+
+| Description | *A modern C++ library for hacking.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | GPL-3.0 |
+| Versions | 2025.04.04 |
+| Architectures | x64, x86 |
+| Definition | [blook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blook/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install blook
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blook")
+```
+
+
 ### blosc (windows)
 
 
@@ -4730,6 +4754,30 @@ add_requires("cpp-linenoise")
 ```
 
 
+### cpp-mcp (windows)
+
+
+| Description | *Lightweight C++ MCP (Model Context Protocol) SDK* |
+| -- | -- |
+| Homepage | [https://github.com/hkr04/cpp-mcp](https://github.com/hkr04/cpp-mcp) |
+| License | MIT |
+| Versions | 2025.05.24 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [cpp-mcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-mcp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cpp-mcp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-mcp")
+```
+
+
 ### cpp-peglib (windows)
 
 
@@ -5334,7 +5382,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -8075,6 +8123,30 @@ xrepo install expected-lite
 
 ```lua
 add_requires("expected-lite")
+```
+
+
+### expresscpp (windows)
+
+
+| Description | *Fast, unopinionated, minimalist web framework for C++ Perfect for building REST APIs.* |
+| -- | -- |
+| Homepage | [https://github.com/expresscpp/expresscpp.git](https://github.com/expresscpp/expresscpp.git) |
+| License | MIT |
+| Versions | v0.20.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [expresscpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expresscpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install expresscpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("expresscpp")
 ```
 
 
@@ -29555,7 +29627,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -29974,6 +30046,30 @@ xrepo install steam-audio
 
 ```lua
 add_requires("steam-audio")
+```
+
+
+### step20 (windows)
+
+
+| Description | *Step20 is a C++20, header-only library of STL-like algorithms and data structures* |
+| -- | -- |
+| Homepage | [https://github.com/storm-ptr/step20](https://github.com/storm-ptr/step20) |
+| License | MIT |
+| Versions | 2023.08.21 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [step20/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/step20/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install step20
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("step20")
 ```
 
 
