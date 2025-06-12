@@ -1029,6 +1029,30 @@ add_requires("base-n")
 ```
 
 
+### base64-terrakuh (wasm)
+
+
+| Description | *Simple, open source, header-only base64 encoder* |
+| -- | -- |
+| Homepage | [https://terrakuh.github.io/base64/classbase64.html](https://terrakuh.github.io/base64/classbase64.html) |
+| License | Unlicense |
+| Versions | v1.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [base64-terrakuh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base64-terrakuh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm base64-terrakuh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("base64-terrakuh")
+```
+
+
 ### basisu (wasm)
 
 
@@ -16977,7 +17001,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -17469,6 +17493,30 @@ xrepo install -p wasm swig
 
 ```lua
 add_requires("swig")
+```
+
+
+### swxjson (wasm)
+
+
+| Description | *A easy to use & convenient JSON library for C++11.* |
+| -- | -- |
+| Homepage | [https://github.com/swxlion/swxJson](https://github.com/swxlion/swxJson) |
+| License | MIT |
+| Versions | v1.0.9 |
+| Architectures | wasm32, wasm64 |
+| Definition | [swxjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swxjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm swxjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("swxjson")
 ```
 
 
