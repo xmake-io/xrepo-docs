@@ -3296,6 +3296,30 @@ add_requires("cpp-semver")
 ```
 
 
+### cpp-semver-easz (iphoneos)
+
+
+| Description | *cpp-semver - Semantic Versioning in C++ header-only C++11* |
+| -- | -- |
+| Homepage | [https://github.com/easz/cpp-semver](https://github.com/easz/cpp-semver) |
+| License | MIT |
+| Versions | 2021.12.10 |
+| Architectures | arm64, x86_64 |
+| Definition | [cpp-semver-easz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-semver-easz/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos cpp-semver-easz
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-semver-easz")
+```
+
+
 ### cpp-sort (iphoneos)
 
 
@@ -9637,6 +9661,30 @@ xrepo install -p iphoneos libgit2cpp
 
 ```lua
 add_requires("libgit2cpp")
+```
+
+
+### libharu (iphoneos)
+
+
+| Description | *libHaru is a free, cross platform, open source library for generating PDF files.* |
+| -- | -- |
+| Homepage | [http://libharu.org/](http://libharu.org/) |
+| License | zlib |
+| Versions | 2.3.0, v2.4.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [libharu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libharu/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libharu
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libharu")
 ```
 
 
@@ -18855,6 +18903,30 @@ add_requires("snitch")
 ```
 
 
+### snowhouse (iphoneos)
+
+
+| Description | *An assertion library for C++* |
+| -- | -- |
+| Homepage | [https://github.com/banditcpp/snowhouse](https://github.com/banditcpp/snowhouse) |
+| License | BSL-1.0 |
+| Versions | v5.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [snowhouse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/snowhouse/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos snowhouse
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("snowhouse")
+```
+
+
 ### sobjectizer (iphoneos)
 
 
@@ -19338,7 +19410,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
