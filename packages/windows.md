@@ -4689,7 +4689,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -5454,7 +5454,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -14921,7 +14921,7 @@ add_requires("libgeotiff")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0 |
+| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0, v1.9.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
@@ -15673,6 +15673,30 @@ xrepo install libnpy
 
 ```lua
 add_requires("libnpy")
+```
+
+
+### libnpy-matajoh (windows)
+
+
+| Description | *C++ library for reading and writing of numpy's .npy files* |
+| -- | -- |
+| Homepage | [https://github.com/matajoh/libnpy](https://github.com/matajoh/libnpy) |
+| License | MIT |
+| Versions | v1.5.3 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [libnpy-matajoh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnpy-matajoh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libnpy-matajoh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnpy-matajoh")
 ```
 
 
@@ -22042,7 +22066,7 @@ add_requires("nod")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-addon-api](https://github.com/nodejs/node-addon-api) |
 | License | MIT |
-| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1 |
+| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1, v8.4.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [node-addon-api/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-addon-api/xmake.lua) |
 
@@ -22998,7 +23022,7 @@ add_requires("opencl-clhpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
 | License | Apache-2.0 |
-| Versions | v2021.06.30, v2023.12.14, v2024.05.08, v2024.10.24 |
+| Versions | v2021.06.30, v2023.12.14, v2024.05.08, v2024.10.24, v2025.06.13 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
 
@@ -23261,7 +23285,7 @@ add_requires("openjdk")
 | -- | -- |
 | Homepage | [http://www.openjpeg.org/](http://www.openjpeg.org/) |
 | License | BSD-2-Clause |
-| Versions | v2.3.1, v2.4.0, v2.5.0 |
+| Versions | v2.3.1, v2.4.0, v2.5.0, v2.5.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [openjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjpeg/xmake.lua) |
 
@@ -25550,7 +25574,7 @@ add_requires("promise-cpp")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | License | BSD-3-Clause |
-| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0 |
+| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
@@ -29747,7 +29771,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

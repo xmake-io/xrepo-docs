@@ -6,7 +6,7 @@
 
 - *简单，轻量，跨平台*
 - *现代化的 C/C++ 包管理工具，分布式仓库支持*
-- **Recently added: binn, snowhouse, cpp-semver-easz**
+- **Recently added: libnpy-matajoh, binn, snowhouse**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [GitHub](https://github.com/xmake-io/xrepo/)
