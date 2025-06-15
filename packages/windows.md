@@ -1087,7 +1087,7 @@ add_requires("assimp")
 | -- | -- |
 | Homepage | [https://developer.arm.com/graphics](https://developer.arm.com/graphics) |
 | License | Apache-2.0 |
-| Versions | 4.6.1, 4.7.0, 4.8.0, 5.2.0 |
+| Versions | 4.6.1, 4.7.0, 4.8.0, 5.2.0, 5.3.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [astc-encoder/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/astc-encoder/xmake.lua) |
 
@@ -5477,7 +5477,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -13692,6 +13692,30 @@ xrepo install kotlin-native
 
 ```lua
 add_requires("kotlin-native")
+```
+
+
+### ktx (windows)
+
+
+| Description | *KTX (Khronos Texture) Library and Tools* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) |
+| License | Apache-2.0 |
+| Versions | v4.4.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [ktx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/ktx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ktx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ktx")
 ```
 
 
@@ -29818,7 +29842,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
