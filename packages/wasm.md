@@ -1176,7 +1176,7 @@ add_requires("benchmark")
 | Description | *Full-featured MP4 format, MPEG DASH, HLS, CMAF SDK and tools* |
 | -- | -- |
 | Homepage | [http://www.bento4.com](http://www.bento4.com) |
-| Versions | 2023.08.08 |
+| Versions | 2023.08.08, 2024.11.15 |
 | Architectures | wasm32, wasm64 |
 | Definition | [bento4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bento4/xmake.lua) |
 
@@ -2468,7 +2468,7 @@ add_requires("clove-unit")
 | Description | *A cross-platform family of tool designed to build, test and package software* |
 | -- | -- |
 | Homepage | [https://cmake.org](https://cmake.org) |
-| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1, 3.28.3, 3.29.2, 3.30.1, 3.30.2, 4.0.0, 4.0.1 |
+| Versions | 3.11.4, 3.15.4, 3.18.4, 3.21.0, 3.22.1, 3.24.1, 3.24.2, 3.26.4, 3.28.1, 3.28.3, 3.29.2, 3.30.1, 3.30.2, 4.0.0, 4.0.1, 4.0.2, 4.0.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmake/xmake.lua) |
 
@@ -7544,7 +7544,7 @@ add_requires("json-c")
 | Description | *single header json parser for C and C++* |
 | -- | -- |
 | Homepage | [https://github.com/sheredom/json.h](https://github.com/sheredom/json.h) |
-| Versions | 2022.11.27 |
+| Versions | 2022.11.27, 2024.07.19 |
 | Architectures | wasm32, wasm64 |
 | Definition | [json.h/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json.h/xmake.lua) |
 
@@ -16213,7 +16213,7 @@ add_requires("robotstxt")
 | Description | *Fast single header signal/slots library for C++* |
 | -- | -- |
 | Homepage | [https://github.com/tripleslash/rocket](https://github.com/tripleslash/rocket) |
-| Versions | 2020.06.03 |
+| Versions | 2020.06.03, 2024.08.21 |
 | Architectures | wasm32, wasm64 |
 | Definition | [rocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocket/xmake.lua) |
 
@@ -17240,7 +17240,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+100, 3.50.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
