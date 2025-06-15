@@ -10835,7 +10835,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.71.0, 2.78.1</td>
+<td>2.71.0, 2.78.1, 2.85.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -13515,7 +13515,7 @@
 <thead>
 <tr>
 <th>Description</th>
-<th><em>🦘 A dependency injection container for C++11, C++14 and later</em></th>
+<th><em>�� A dependency injection container for C++11, C++14 and later</em></th>
 </tr>
 </thead>
 <tbody>
@@ -29978,7 +29978,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30983,6 +30983,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("taglib")
+</code></pre>
+<h3 id="taocppjsoncross">taocpp-json (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C++ header-only JSON library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/taocpp/json">https://github.com/taocpp/json</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2025.03.11</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taocpp-json/xmake.lua">taocpp-json/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] taocpp-json
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("taocpp-json")
 </code></pre>
 <h3 id="taskflowcross">taskflow (cross)</h3>
 <table>

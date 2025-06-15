@@ -19481,7 +19481,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+100, 3.50.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20167,6 +20167,30 @@ xrepo install -p iphoneos tao_idl
 
 ```lua
 add_requires("tao_idl")
+```
+
+
+### taocpp-json (iphoneos)
+
+
+| Description | *C++ header-only JSON library* |
+| -- | -- |
+| Homepage | [https://github.com/taocpp/json](https://github.com/taocpp/json) |
+| License | MIT |
+| Versions | 2025.03.11 |
+| Architectures | arm64, x86_64 |
+| Definition | [taocpp-json/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taocpp-json/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos taocpp-json
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("taocpp-json")
 ```
 
 
