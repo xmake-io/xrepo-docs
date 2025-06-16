@@ -2918,7 +2918,7 @@ add_requires("bullet3")
 | -- | -- |
 | Homepage | [https://github.com/madmann91/bvh](https://github.com/madmann91/bvh) |
 | License | MIT |
-| Versions | 2023.6.30, 2024.7.8 |
+| Versions | 2023.6.30, 2024.7.8, 2025.02.03 |
 | Architectures | arm64, x86_64 |
 | Definition | [bvh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bvh/xmake.lua) |
 
@@ -30785,7 +30785,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35058,7 +35058,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563ec5560830 |
+| License | table: 0x556d977a87c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
