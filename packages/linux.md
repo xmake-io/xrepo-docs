@@ -3230,7 +3230,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -13239,7 +13239,7 @@ add_requires("inih")
 | -- | -- |
 | Homepage | [http://ndevilla.free.fr/iniparser](http://ndevilla.free.fr/iniparser) |
 | License | MIT |
-| Versions | 2023.09.15 |
+| Versions | v4.2.6 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [iniparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iniparser/xmake.lua) |
 
@@ -33185,7 +33185,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -37766,7 +37766,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55cdd7e64f40 |
+| License | table: 0x56551cd26c00 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

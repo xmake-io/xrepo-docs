@@ -2371,7 +2371,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0 |
 | Architectures | i386, x86_64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -8235,7 +8235,7 @@ add_requires("inih")
 | -- | -- |
 | Homepage | [http://ndevilla.free.fr/iniparser](http://ndevilla.free.fr/iniparser) |
 | License | MIT |
-| Versions | 2023.09.15 |
+| Versions | v4.2.6 |
 | Architectures | i386, x86_64 |
 | Definition | [iniparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iniparser/xmake.lua) |
 
@@ -20401,7 +20401,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+100 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
