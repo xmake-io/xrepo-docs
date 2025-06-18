@@ -1321,7 +1321,7 @@ add_requires("aws-crt-cpp")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -7276,7 +7276,7 @@ add_requires("gn")
 | Description | *GNU Arm Embedded Toolchain* |
 | -- | -- |
 | Homepage | [https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) |
-| Versions | 2020.10, 2021.10 |
+| Versions | 2020.10, 2021.10, 2024.12 |
 | Architectures | i386, x86_64 |
 | Definition | [gnu-rm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gnu-rm/xmake.lua) |
 
@@ -19781,7 +19781,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/fantasy-peak/simple_http](https://github.com/fantasy-peak/simple_http) |
 | License | MIT |
-| Versions | v0.2.0 |
+| Versions | v0.2.0, v0.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [simple_http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simple_http/xmake.lua) |
 
@@ -20401,7 +20401,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
