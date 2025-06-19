@@ -8152,7 +8152,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v19.22, v19.24.4, v19.24.5, v19.24.6, v19.24.8, v19.24.9</td>
+<td>v19.22, v19.24.4, v19.24.5, v19.24.6, v19.24.8, v19.24.9, v20.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -33903,7 +33903,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+100, 3.50.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -38798,6 +38798,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("webui")
+</code></pre>
+<h3 id="wgpunativemingw">wgpu-native (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Native WebGPU implementation based on wgpu-core</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/gfx-rs/wgpu-native">https://github.com/gfx-rs/wgpu-native</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.17.0+2, v0.19.4+1, v24.0.0+1, v25.0.2+1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wgpu-native/xmake.lua">wgpu-native/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] wgpu-native
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("wgpu-native")
 </code></pre>
 <h3 id="wgslvalidatormingw">wgsl-validator (mingw)</h3>
 <table>
