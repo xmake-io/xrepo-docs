@@ -9832,6 +9832,30 @@ add_requires("libsvm")
 ```
 
 
+### libtcod (wasm)
+
+
+| Description | *A collection of tools and algorithms for developing traditional roguelikes.  Such as field-of-view, pathfinding, and a tile-based terminal emulator.* |
+| -- | -- |
+| Homepage | [https://github.com/libtcod/libtcod](https://github.com/libtcod/libtcod) |
+| License | BSD-3-Clause |
+| Versions | 2.1.1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libtcod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtcod/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libtcod
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtcod")
+```
+
+
 ### libtommath (wasm)
 
 
@@ -17287,7 +17311,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
