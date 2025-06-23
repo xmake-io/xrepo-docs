@@ -4191,7 +4191,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -4691,7 +4691,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
 | License | MIT |
-| Versions | 2.5, 2.6 |
+| Versions | 2.5, 2.6, 2.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
 
@@ -11526,6 +11526,30 @@ add_requires("libmd")
 ```
 
 
+### libmem (mingw)
+
+
+| Description | *Cross-platform game hacking library for C, C++, Rust, and Python, supporting process/memory hacking, hooking, detouring, and DLL/SO injection.* |
+| -- | -- |
+| Homepage | [https://github.com/rdbo/libmem](https://github.com/rdbo/libmem) |
+| License | AGPL-3.0 |
+| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libmem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmem/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libmem
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libmem")
+```
+
+
 ### libmetalink (mingw)
 
 
@@ -17951,7 +17975,7 @@ add_requires("pdcurses")
 | Description | *PDCurses Modified - a curses library modified and extended from the 'official' pdcurses* |
 | -- | -- |
 | Homepage | [https://projectpluto.com/win32a.htm](https://projectpluto.com/win32a.htm) |
-| Versions | v4.3.4, v4.4.0 |
+| Versions | v4.3.4, v4.4.0, v4.5.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [pdcursesmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdcursesmod/xmake.lua) |
 
@@ -19974,7 +19998,7 @@ add_requires("quickjs-ng")
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
 | License | MIT |
-| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3 |
+| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3, v10.0.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -22222,7 +22246,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
