@@ -6,7 +6,7 @@
 | -- | -- |
 | Homepage | [https://abseil.io](https://abseil.io) |
 | License | Apache-2.0 |
-| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1, 20240116.2, 20240722.0, 20250127.0, 20250127.1, 20250512.0 |
+| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1, 20240116.2, 20240722.0, 20250127.0, 20250127.1, 20250512.0, 20250512.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
@@ -17335,7 +17335,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+100, 3.50.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -19583,7 +19583,7 @@ add_requires("vectorial")
 | Description | *Compute quality functions of 2 and 3-dimensional regions.* |
 | -- | -- |
 | Homepage | [https://github.com/sandialabs/verdict](https://github.com/sandialabs/verdict) |
-| Versions | 1.4.2 |
+| Versions | 1.4.2, 1.4.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [verdict/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verdict/xmake.lua) |
 
