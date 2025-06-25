@@ -11455,30 +11455,6 @@ add_requires("libkeyfinder")
 ```
 
 
-### liblemon (mingw)
-
-
-| Description | *Library for Efficient Modeling and Optimization in Networks.* |
-| -- | -- |
-| Homepage | [https://lemon.cs.elte.hu/trac/lemon](https://lemon.cs.elte.hu/trac/lemon) |
-| License | BSL-1.0 |
-| Versions | 1.3.1 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [liblemon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liblemon/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] liblemon
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("liblemon")
-```
-
-
 ### libmaxminddb (mingw)
 
 
@@ -21172,7 +21148,7 @@ add_requires("s7")
 | -- | -- |
 | Homepage | [https://cursey.dev/safetyhook](https://cursey.dev/safetyhook) |
 | License | BSL-1.0 |
-| Versions | v0.6.4, v0.6.5, v0.6.6 |
+| Versions | v0.6.4, v0.6.5, v0.6.6, v0.6.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [safetyhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/safetyhook/xmake.lua) |
 
@@ -22271,7 +22247,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
