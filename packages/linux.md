@@ -1515,7 +1515,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -3180,7 +3180,7 @@ add_requires("bzip2")
 | -- | -- |
 | Homepage | [https://github.com/kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3) |
 | License | LGPL-3.0 |
-| Versions | 1.4.0, 1.5.1 |
+| Versions | 1.4.0, 1.5.1, 1.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bzip3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip3/xmake.lua) |
 
@@ -5784,7 +5784,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -11682,7 +11682,7 @@ add_requires("gsl")
 | -- | -- |
 | Homepage | [https://github.com/gsl-lite/gsl-lite](https://github.com/gsl-lite/gsl-lite) |
 | License | MIT |
-| Versions | v0.41.0, v0.42.0, v0.43.0 |
+| Versions | v0.41.0, v0.42.0, v0.43.0, v1.0.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gsl-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl-lite/xmake.lua) |
 
@@ -12881,7 +12881,7 @@ add_requires("imcoolbar")
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
-| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3, v1.90.4-docking, v1.90.4, v1.90.5-docking, v1.90.5, v1.90.6-docking, v1.90.6, v1.90.7-docking, v1.90.7, v1.90.8-docking, v1.90.8, v1.90.9-docking, v1.90.9, v1.91.0-docking, v1.91.0, v1.91.1-docking, v1.91.1, v1.91.2-docking, v1.91.2, v1.91.3-docking, v1.91.3, v1.91.4-docking, v1.91.4, v1.91.5-docking, v1.91.5, v1.91.6-docking, v1.91.6, v1.91.7-docking, v1.91.7, v1.91.8-docking, v1.91.8, v1.91.9-docking, v1.91.9 |
+| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3, v1.90.4-docking, v1.90.4, v1.90.5-docking, v1.90.5, v1.90.6-docking, v1.90.6, v1.90.7-docking, v1.90.7, v1.90.8-docking, v1.90.8, v1.90.9-docking, v1.90.9, v1.91.0-docking, v1.91.0, v1.91.1-docking, v1.91.1, v1.91.2-docking, v1.91.2, v1.91.3-docking, v1.91.3, v1.91.4-docking, v1.91.4, v1.91.5-docking, v1.91.5, v1.91.6-docking, v1.91.6, v1.91.7-docking, v1.91.7, v1.91.8-docking, v1.91.8, v1.91.9-docking, v1.91.9, v1.92.0-docking, v1.92.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -33234,7 +33234,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://spot.lrde.epita.fr/](https://spot.lrde.epita.fr/) |
 | License | GPL-3.0 |
-| Versions | 2.10.1 |
+| Versions | 2.10.1, 2.13.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [spot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spot/xmake.lua) |
 
@@ -33305,7 +33305,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+100, 3.50.0+0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -37886,7 +37886,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5633507b6930 |
+| License | table: 0x564e070ecfd0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
