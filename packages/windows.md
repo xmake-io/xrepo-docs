@@ -24884,8 +24884,8 @@ add_requires("piex")
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
 | License | MIT |
-| Versions | 0.42.0, 0.42.2, 0.43.2, 0.43.4 |
-| Architectures | arm, arm64ec, x64, x86 |
+| Versions | 0.42.0, 0.42.2, 0.43.2, 0.43.4, 0.46.2 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pixman/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pixman/xmake.lua) |
 
 ##### Install command
@@ -25660,6 +25660,29 @@ xrepo install postgresql
 
 ```lua
 add_requires("postgresql")
+```
+
+
+### ppqsort (windows)
+
+
+| Description | *Efficient implementation of parallel quicksort algorithm* |
+| -- | -- |
+| Homepage | [https://github.com/GabTux/PPQSort](https://github.com/GabTux/PPQSort) |
+| Versions | v1.0.5 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [ppqsort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ppqsort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ppqsort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ppqsort")
 ```
 
 
@@ -30033,7 +30056,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
