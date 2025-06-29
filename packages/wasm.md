@@ -2539,7 +2539,7 @@ add_requires("cmdparser")
 | -- | -- |
 | Homepage | [https://github.com/atsushieno/cmidi2](https://github.com/atsushieno/cmidi2) |
 | License | MIT |
-| Versions | 2023.08.07 |
+| Versions | 2023.08.07, 2025.06.25 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cmidi2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmidi2/xmake.lua) |
 
@@ -2777,7 +2777,7 @@ add_requires("cosmocc")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/cpp-async](https://github.com/microsoft/cpp-async) |
 | License | MIT |
-| Versions | v1.1.0 |
+| Versions | v1.1.0, v1.2.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cpp-async/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-async/xmake.lua) |
 
@@ -17360,7 +17360,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+100, 3.50.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
