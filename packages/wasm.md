@@ -2651,6 +2651,30 @@ add_requires("cnpy")
 ```
 
 
+### coin-or-coinutils (wasm)
+
+
+| Description | *COIN-OR Utilities* |
+| -- | -- |
+| Homepage | [https://github.com/coin-or/CoinUtils](https://github.com/coin-or/CoinUtils) |
+| License | EPL-2.0 |
+| Versions | 2.11.12 |
+| Architectures | wasm32, wasm64 |
+| Definition | [coin-or-coinutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coin-or-coinutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm coin-or-coinutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("coin-or-coinutils")
+```
+
+
 ### commata (wasm)
 
 
@@ -17383,7 +17407,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
