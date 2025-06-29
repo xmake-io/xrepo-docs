@@ -4303,7 +4303,7 @@ add_requires("cminpack")
 | -- | -- |
 | Homepage | [https://cmocka.org/](https://cmocka.org/) |
 | License | Apache-2.0 |
-| Versions | 1.1.5 |
+| Versions | 1.1.5, 1.1.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [cmocka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cmocka/xmake.lua) |
 
@@ -5115,7 +5115,7 @@ add_requires("cppp-reiconv")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/cpptrace](https://github.com/jeremy-rifkin/cpptrace) |
 | License | MIT |
-| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.7.0, v0.7.1, v0.7.3, v0.7.4, v0.7.5, v0.8.2, v0.8.3, v1.0.0, v1.0.1 |
+| Versions | v0.1, v0.3.1, v0.4.0, v0.5.1, v0.5.2, v0.5.4, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.7.0, v0.7.1, v0.7.3, v0.7.4, v0.7.5, v0.8.2, v0.8.3, v1.0.0, v1.0.1, v1.0.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpptrace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpptrace/xmake.lua) |
 
@@ -5427,7 +5427,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -28427,7 +28427,7 @@ add_requires("re-spirv")
 | -- | -- |
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02 |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.06.26 |
 | Architectures | arm64, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
@@ -30929,7 +30929,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35204,7 +35204,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5620ecd32190 |
+| License | table: 0x55b00f3f83d0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -36108,7 +36108,7 @@ add_requires("xz")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/yalantinglibs](https://github.com/alibaba/yalantinglibs) |
 | License | Apache-2.0 |
-| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0 |
+| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [yalantinglibs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yalantinglibs/xmake.lua) |
 
