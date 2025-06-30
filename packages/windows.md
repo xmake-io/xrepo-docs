@@ -1468,7 +1468,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-event-stream](https://github.com/awslabs/aws-c-event-stream) |
 | License | Apache-2.0 |
-| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0, v0.5.1, v0.5.4 |
+| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0, v0.5.1, v0.5.4, v0.5.5 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-event-stream/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-event-stream/xmake.lua) |
 
@@ -13821,7 +13821,7 @@ add_requires("ktx")
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
 | License | Unlicense |
-| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3 |
+| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
@@ -16135,7 +16135,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48 |
+| Versions | v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -30103,7 +30103,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
