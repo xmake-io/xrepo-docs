@@ -21510,7 +21510,7 @@ add_requires("minizip")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
 | License | zlib |
-| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8 |
+| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10 |
 | Architectures | arm64, x86_64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 
@@ -24894,7 +24894,7 @@ add_requires("openvdb")
 | -- | -- |
 | Homepage | [https://www.steamvr.com/](https://www.steamvr.com/) |
 | License | BSD-3-Clause |
-| Versions | v1.26.7, v2.5.1 |
+| Versions | v1.26.7, v2.5.1, v2.12.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [openvr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvr/xmake.lua) |
 
@@ -26710,7 +26710,7 @@ add_requires("portaudio")
 | Description | *portmidi is a cross-platform MIDI input/output library* |
 | -- | -- |
 | Homepage | [https://github.com/PortMidi/portmidi](https://github.com/PortMidi/portmidi) |
-| Versions | v2.0.4 |
+| Versions | v2.0.4, v2.0.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [portmidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/portmidi/xmake.lua) |
 
@@ -31000,7 +31000,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35275,7 +35275,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x561da5a85710 |
+| License | table: 0x55edbb6a0d80 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
