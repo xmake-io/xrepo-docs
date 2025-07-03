@@ -3976,7 +3976,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -7976,7 +7976,7 @@ add_requires("icu4c")
 | -- | -- |
 | Homepage | [https://github.com/ada-url/idna](https://github.com/ada-url/idna) |
 | License | Apache-2.0 |
-| Versions | 0.2.0, 0.3.2, 0.3.3 |
+| Versions | 0.2.0, 0.3.2, 0.3.3, 0.3.4 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [idna/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/idna/xmake.lua) |
 
@@ -8238,7 +8238,7 @@ add_requires("iniparser")
 | -- | -- |
 | Homepage | [https://github.com/mcmtroffaes/inipp](https://github.com/mcmtroffaes/inipp) |
 | License | MIT |
-| Versions | 2022.02.03 |
+| Versions | 2022.02.03, 2025.06.17 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [inipp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inipp/xmake.lua) |
 
@@ -17879,7 +17879,7 @@ add_requires("range-v3")
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
 | License | BSD-3-Clause |
-| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85 |
+| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
@@ -19885,7 +19885,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+0, 3.50.0+100, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+200, 3.50.0+100, 3.50.0+0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
