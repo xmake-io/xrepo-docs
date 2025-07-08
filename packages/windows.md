@@ -153,7 +153,7 @@ add_requires("acl-dev")
 | -- | -- |
 | Homepage | [http://actor-framework.org/](http://actor-framework.org/) |
 | License | BSD-3-Clause |
-| Versions | 0.19.2, 0.19.6, 1.0.0, 1.0.1, 1.0.2 |
+| Versions | 0.19.2, 0.19.6, 1.0.0, 1.0.1, 1.0.2, 1.1.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [actor-framework/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/actor-framework/xmake.lua) |
 
@@ -487,7 +487,7 @@ add_requires("amrex")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/ANARI-SDK](https://github.com/KhronosGroup/ANARI-SDK) |
 | License | Apache-2.0 |
-| Versions | v0.12.1, v0.13.1 |
+| Versions | v0.12.1, v0.13.1, v0.14.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [anari/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/anari/xmake.lua) |
 
@@ -5547,7 +5547,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -10993,7 +10993,7 @@ add_requires("godotcpp4")
 | -- | -- |
 | Homepage | [https://github.com/googleapis/google-cloud-cpp](https://github.com/googleapis/google-cloud-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0 |
+| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [google-cloud-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/google-cloud-cpp/xmake.lua) |
 
@@ -29293,7 +29293,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -30175,7 +30175,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+200, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+200, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -36219,7 +36219,7 @@ add_requires("zopfli")
 | -- | -- |
 | Homepage | [https://github.com/eyalz800/zpp_bits](https://github.com/eyalz800/zpp_bits) |
 | License | MIT |
-| Versions | v4.4.25, v4.5 |
+| Versions | v4.4.25, v4.5, v4.5.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [zpp_bits/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zpp_bits/xmake.lua) |
 
