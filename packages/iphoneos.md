@@ -3031,6 +3031,30 @@ add_requires("cnpy")
 ```
 
 
+### coin-or-clp (iphoneos)
+
+
+| Description | *COIN-OR Linear Programming Solver* |
+| -- | -- |
+| Homepage | [https://github.com/coin-or/Clp](https://github.com/coin-or/Clp) |
+| License | EPL-2.0 |
+| Versions | 1.17.10 |
+| Architectures | arm64, x86_64 |
+| Definition | [coin-or-clp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coin-or-clp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos coin-or-clp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("coin-or-clp")
+```
+
+
 ### coin-or-coinutils (iphoneos)
 
 
@@ -5530,7 +5554,7 @@ add_requires("expat")
 | -- | -- |
 | Homepage | [https://github.com/martinmoene/expected-lite](https://github.com/martinmoene/expected-lite) |
 | License | BSL-1.0 |
-| Versions | v0.6.3, v0.8.0 |
+| Versions | v0.6.3, v0.8.0, v0.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [expected-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected-lite/xmake.lua) |
 
@@ -10623,7 +10647,7 @@ add_requires("librdkafka")
 | -- | -- |
 | Homepage | [https://github.com/jcelerier/libremidi](https://github.com/jcelerier/libremidi) |
 | License | BSD-2-Clause |
-| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0 |
+| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libremidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libremidi/xmake.lua) |
 
@@ -11308,6 +11332,29 @@ xrepo install -p iphoneos libtcod
 
 ```lua
 add_requires("libtcod")
+```
+
+
+### libtiff (iphoneos)
+
+
+| Description | *TIFF Library and Utilities.* |
+| -- | -- |
+| Homepage | [http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/) |
+| Versions | v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.6.0, v4.7.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libtiff/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libtiff/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libtiff
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libtiff")
 ```
 
 
@@ -19791,7 +19838,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+200, 3.50.0+100, 3.50.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20463,7 +20510,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [http://taglib.org/](http://taglib.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.1 |
+| Versions | v2.1, v2.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
 
