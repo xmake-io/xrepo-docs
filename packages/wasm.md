@@ -4471,6 +4471,30 @@ add_requires("dragonbox")
 ```
 
 
+### drogon (wasm)
+
+
+| Description | *Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows* |
+| -- | -- |
+| Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
+| License | MIT |
+| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2, v1.9.1, v1.9.3, v1.9.4, v1.9.5, v1.9.6, v1.9.8, v1.9.9, v1.9.10, v1.9.11 |
+| Architectures | wasm32, wasm64 |
+| Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm drogon
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("drogon")
+```
+
+
 ### duktape (wasm)
 
 
@@ -15399,7 +15423,7 @@ add_requires("pystring")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | License | PSF |
-| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.12.8, 3.13.0, 3.13.1, 3.13.2 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.12.8, 3.12.10, 3.13.0, 3.13.1, 3.13.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
@@ -17598,7 +17622,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+100, 3.50.0+0, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
