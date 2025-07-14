@@ -6258,7 +6258,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.1+1, v1.2.1+2</td>
+<td>v1.2.1+2, v1.2.1+1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -8826,7 +8826,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0</td>
+<td>20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11448,7 +11448,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0</td>
+<td>v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -23748,6 +23748,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("olive.c")
 </code></pre>
+<h3 id="omathcross">omath (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Cross-platform modern general purpose math library written in C++23</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://libomath.org">http://libomath.org</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v3.0.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua">omath/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] omath
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("omath")
+</code></pre>
 <h3 id="onigurumacross">oniguruma (cross)</h3>
 <table>
 <thead>
@@ -29472,7 +29509,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2</td>
+<td>v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30599,7 +30636,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+0, 3.50.0+200</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -33520,7 +33557,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6</td>
+<td>v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8</td>
 </tr>
 <tr>
 <td>Architectures</td>

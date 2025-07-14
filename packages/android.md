@@ -4045,7 +4045,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -5675,7 +5675,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -7418,7 +7418,7 @@ add_requires("godotcpp4")
 | -- | -- |
 | Homepage | [https://github.com/googleapis/google-cloud-cpp](https://github.com/googleapis/google-cloud-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0 |
+| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [google-cloud-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/google-cloud-cpp/xmake.lua) |
 
@@ -8138,7 +8138,7 @@ add_requires("ifort")
 | -- | -- |
 | Homepage | [https://igraph.org](https://igraph.org) |
 | License | GPL-2.0 |
-| Versions | 0.10.15 |
+| Versions | 0.10.15, 0.10.16 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [igraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/igraph/xmake.lua) |
 
@@ -16178,6 +16178,30 @@ add_requires("opencore-amr")
 ```
 
 
+### opencv (android)
+
+
+| Description | *A open source computer vision library.* |
+| -- | -- |
+| Homepage | [https://opencv.org/](https://opencv.org/) |
+| License | Apache-2.0 |
+| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3, 4.5.4, 4.5.5, 4.6.0, 4.8.0, 4.9.0, 4.10.0, 4.11.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] opencv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencv")
+```
+
+
 ### openexr (android)
 
 
@@ -20152,7 +20176,7 @@ add_requires("sheenbidi")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -20844,7 +20868,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+0, 3.50.0+200 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22804,7 +22828,7 @@ add_requires("trantor")
 | -- | -- |
 | Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
 | License | MIT |
-| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6 |
+| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
 
