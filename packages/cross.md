@@ -4477,7 +4477,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
@@ -7662,7 +7662,7 @@ add_requires("gumbo-parser")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
-| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0 |
+| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0, v0.20.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
@@ -10105,7 +10105,7 @@ add_requires("libharu")
 | -- | -- |
 | Homepage | [https://github.com/BasedInc/libhat](https://github.com/BasedInc/libhat) |
 | License | MIT |
-| Versions | v0.5.0 |
+| Versions | v0.5.0, v0.6.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libhat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhat/xmake.lua) |
 
@@ -10796,7 +10796,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49 |
+| Versions | v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -20029,7 +20029,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+200, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+100, 3.50.0+200 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -23415,6 +23415,30 @@ xrepo install -p cross [--sdk=/xxx] xpack
 
 ```lua
 add_requires("xpack")
+```
+
+
+### xtl (cross)
+
+
+| Description | *Basic tools (containers, algorithms) used by other quantstack packages* |
+| -- | -- |
+| Homepage | [https://github.com/xtensor-stack/xtl/](https://github.com/xtensor-stack/xtl/) |
+| License | BSD-3-Clause |
+| Versions | 0.7.2, 0.7.3, 0.7.4, 0.7.6, 0.7.7, 0.8.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [xtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] xtl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtl")
 ```
 
 

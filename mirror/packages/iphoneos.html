@@ -6563,7 +6563,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0</td>
+<td>v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11239,7 +11239,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0</td>
+<td>v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0, v0.20.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -15295,7 +15295,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.5.0</td>
+<td>v0.5.0, v0.6.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -16237,7 +16237,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49</td>
+<td>v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30418,7 +30418,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+200, 3.50.0+0, 3.50.0+100</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+100, 3.50.0+200</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -35252,6 +35252,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("xpack")
+</code></pre>
+<h3 id="xtliphoneos">xtl (iphoneos)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Basic tools (containers, algorithms) used by other quantstack packages</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/xtensor-stack/xtl/">https://github.com/xtensor-stack/xtl/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.7.2, 0.7.3, 0.7.4, 0.7.6, 0.7.7, 0.8.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtl/xmake.lua">xtl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p iphoneos xtl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("xtl")
 </code></pre>
 <h3 id="xxhashiphoneos">xxhash (iphoneos)</h3>
 <table>
