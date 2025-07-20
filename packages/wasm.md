@@ -7466,6 +7466,30 @@ add_requires("ixwebsocket")
 
 
 ## j
+### jack2 (wasm)
+
+
+| Description | *Cross-platform API that enables device sharing and inter-application audio routing* |
+| -- | -- |
+| Homepage | [https://jackaudio.org/](https://jackaudio.org/) |
+| License | GPL-2.0 |
+| Versions | v1.9.22 |
+| Architectures | wasm32, wasm64 |
+| Definition | [jack2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jack2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm jack2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jack2")
+```
+
+
 ### jansson (wasm)
 
 
@@ -10437,7 +10461,7 @@ add_requires("libzen")
 | -- | -- |
 | Homepage | [https://libzip.org/](https://libzip.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1, v1.11.2, v1.11.3 |
+| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1, v1.11.2, v1.11.3, v1.11.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
 
@@ -17670,7 +17694,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+100, 3.50.0+300, 3.50.0+0, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+100, 3.50.0+300, 3.50.0+200 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
