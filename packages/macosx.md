@@ -768,6 +768,30 @@ add_requires("argtable3")
 ```
 
 
+### argus (macosx)
+
+
+| Description | *Argus is a cross-platform modern feature-rich command-line argument parser for C* |
+| -- | -- |
+| Homepage | [https://argus-lib.com](https://argus-lib.com) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [argus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install argus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("argus")
+```
+
+
 ### argz (macosx)
 
 
@@ -5521,7 +5545,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -9731,7 +9755,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -14268,9 +14292,9 @@ add_requires("libassert")
 
 | Description | *The atomic_ops project (Atomic memory update operations portable implementation)* |
 | -- | -- |
-| Homepage | [https://github.com/ivmai/libatomic_ops](https://github.com/ivmai/libatomic_ops) |
+| Homepage | [https://github.com/bdwgc/libatomic_ops/wiki/Download](https://github.com/bdwgc/libatomic_ops/wiki/Download) |
 | License | GPL-2.0 |
-| Versions | 7.8.2 |
+| Versions | v7.8.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libatomic_ops/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libatomic_ops/xmake.lua) |
 
@@ -24867,6 +24891,30 @@ add_requires("openmp")
 ```
 
 
+### openmvg (macosx)
+
+
+| Description | *open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.* |
+| -- | -- |
+| Homepage | [https://github.com/openMVG/openMVG](https://github.com/openMVG/openMVG) |
+| License | MPL-2.0 |
+| Versions | v2.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [openmvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openmvg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openmvg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openmvg")
+```
+
+
 ### openrestry-luajit (macosx)
 
 
@@ -31170,7 +31218,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+300, 3.50.0+200, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+0, 3.50.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35469,7 +35517,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f5569772e0 |
+| License | table: 0x55d0b2e91a70 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
