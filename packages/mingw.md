@@ -9999,6 +9999,30 @@ add_requires("jthread")
 ```
 
 
+### jwasm (mingw)
+
+
+| Description | *JWasm continuation* |
+| -- | -- |
+| Homepage | [https://github.com/JWasm/JWasm](https://github.com/JWasm/JWasm) |
+| License | JWasm |
+| Versions | 2025.01.10 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [jwasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jwasm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] jwasm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jwasm")
+```
+
+
 ### jwt-cpp (mingw)
 
 
@@ -22678,7 +22702,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+200, 3.50.0+300, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.50.0+300 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
