@@ -725,7 +725,7 @@ add_requires("asmtk")
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
-| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1 |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2 |
 | Architectures | i386, x86_64 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -2324,7 +2324,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1 |
 | Architectures | i386, x86_64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -4092,7 +4092,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -19767,7 +19767,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+300, 3.50.0+100, 3.50.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
