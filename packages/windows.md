@@ -1248,6 +1248,30 @@ add_requires("audiofile")
 ```
 
 
+### aui (windows)
+
+
+| Description | *Declarative UI toolkit for modern C++20* |
+| -- | -- |
+| Homepage | [https://github.com/aui-framework/aui](https://github.com/aui-framework/aui) |
+| License | MPL-2.0 |
+| Versions | v7.1.2 |
+| Architectures | x64, x86 |
+| Definition | [aui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aui")
+```
+
+
 ### aurora-au (windows)
 
 
@@ -3256,7 +3280,7 @@ add_requires("cartographer")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -22305,7 +22329,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -24204,6 +24228,30 @@ xrepo install openxlsx
 
 ```lua
 add_requires("openxlsx")
+```
+
+
+### openxr (windows)
+
+
+| Description | *Generated headers and sources for OpenXR loader.* |
+| -- | -- |
+| Homepage | [https://khronos.org/openxr](https://khronos.org/openxr) |
+| License | Apache-2.0 |
+| Versions | 1.1.49 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [openxr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openxr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openxr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openxr")
 ```
 
 
@@ -30415,7 +30463,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+300, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+300, 3.50.0+200, 3.50.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34044,7 +34092,7 @@ add_requires("vc-ltl5")
 | -- | -- |
 | Homepage | [http://www.vcglib.net/](http://www.vcglib.net/) |
 | License | GPL-3.0 |
-| Versions | 2020.12, 2021.07, 2021.10, 2022.02, 2023.12 |
+| Versions | 2020.12, 2021.07, 2021.10, 2022.02, 2023.12, 2025.07 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [vcglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcglib/xmake.lua) |
 
