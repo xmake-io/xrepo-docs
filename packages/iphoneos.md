@@ -3372,7 +3372,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -3900,7 +3900,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -12652,7 +12652,7 @@ add_requires("luau")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/lunasvg](https://github.com/sammycage/lunasvg) |
 | License | MIT |
-| Versions | v2.3.5, v2.3.9, v2.4.0, v2.4.1, v3.0.1, v3.1.0, v3.2.0, v3.3.0 |
+| Versions | v2.3.5, v2.3.9, v2.4.0, v2.4.1, v3.0.1, v3.1.0, v3.2.0, v3.3.0, v3.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [lunasvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lunasvg/xmake.lua) |
 
@@ -17046,7 +17046,7 @@ add_requires("plutosvg")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0 |
+| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0, v1.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 
@@ -17473,7 +17473,7 @@ add_requires("pycdc")
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
 | License | MIT |
-| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2, v2.6.0, v2.6.1 |
+| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.6.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
@@ -17570,7 +17570,7 @@ add_requires("python2")
 | -- | -- |
 | Homepage | [https://github.com/laurencelundblade/QCBOR](https://github.com/laurencelundblade/QCBOR) |
 | License | BSD-3-Clause |
-| Versions | v1.4.1, v1.5.1 |
+| Versions | v1.4.1, v1.5.1, v1.5.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [qcbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qcbor/xmake.lua) |
 
@@ -20126,7 +20126,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+0, 3.50.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+100, 3.50.0+200, 3.50.0+0, 3.50.0+300 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
