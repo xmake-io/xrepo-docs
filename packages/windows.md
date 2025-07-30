@@ -5571,7 +5571,7 @@ add_requires("criterion")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5 |
+| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -11642,7 +11642,7 @@ add_requires("happly")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1 |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1, 11.3.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -30272,7 +30272,7 @@ add_requires("spdlog")
 | -- | -- |
 | Homepage | [https://spectralib.org/](https://spectralib.org/) |
 | License | MPL-2.0 |
-| Versions | v1.0.1, v1.1.0 |
+| Versions | v1.0.1, v1.1.0, v1.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [spectra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spectra/xmake.lua) |
 
@@ -30463,7 +30463,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+300, 3.50.0+0, 3.50.0+100, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+300, 3.50.0+100, 3.50.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
