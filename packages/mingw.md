@@ -4358,7 +4358,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -15158,7 +15158,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -16136,7 +16136,7 @@ add_requires("msvc-wine")
 | -- | -- |
 | Homepage | [http://mujs.com/](http://mujs.com/) |
 | License | ISC |
-| Versions | 1.3.4, 1.3.5, 1.3.6 |
+| Versions | 1.3.4, 1.3.5, 1.3.6, 1.3.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
 
@@ -21986,7 +21986,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -22774,7 +22774,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+300, 3.50.0+100, 3.50.0+200, 3.50.0+0, 3.50.0+400 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+0, 3.50.0+200, 3.50.0+100 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -23660,7 +23660,7 @@ add_requires("taocpp-json")
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
-| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0 |
+| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 
