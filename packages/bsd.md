@@ -845,7 +845,7 @@ add_requires("astc-encoder")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/async_simple](https://github.com/alibaba/async_simple) |
 | License | Apache-2.0 |
-| Versions | 1.1, 1.2, 1.3 |
+| Versions | 1.1, 1.2, 1.3, 1.4 |
 | Architectures | i386, x86_64 |
 | Definition | [async_simple/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/async_simple/xmake.lua) |
 
@@ -2586,7 +2586,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
 | License | MPL-2.0 |
-| Versions | 1.4.1 |
+| Versions | 1.4.1, 1.4.4 |
 | Architectures | i386, x86_64 |
 | Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
 
@@ -4165,7 +4165,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -12963,7 +12963,7 @@ add_requires("llama.cpp")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
-| Versions | v3.0.0, v8.1.0, v9.2.1 |
+| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
@@ -15986,7 +15986,7 @@ add_requires("nod")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-addon-api](https://github.com/nodejs/node-addon-api) |
 | License | MIT |
-| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1, v8.4.0 |
+| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1, v8.4.0, v8.5.0 |
 | Architectures | i386, x86_64 |
 | Definition | [node-addon-api/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-addon-api/xmake.lua) |
 
@@ -21120,7 +21120,7 @@ add_requires("spot")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+100, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+400, 3.50.0+300, 3.50.0+100, 3.50.0+200, 3.50.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
