@@ -943,7 +943,7 @@ add_requires("asap")
 | -- | -- |
 | Homepage | [https://asbind20.readthedocs.io/](https://asbind20.readthedocs.io/) |
 | License | MIT |
-| Versions | 1.6.0, 1.7.0 |
+| Versions | 1.6.0, 1.7.0, 1.7.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [asbind20/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asbind20/xmake.lua) |
 
@@ -5259,7 +5259,7 @@ add_requires("cppfront")
 | -- | -- |
 | Homepage | [https://twitter.com/cppitertools](https://twitter.com/cppitertools) |
 | License | BSD-2-Clause |
-| Versions | 2023.07.04, 2024.10.19 |
+| Versions | v2.1, v2.2, v2.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cppitertools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppitertools/xmake.lua) |
 
@@ -6023,7 +6023,7 @@ add_requires("cuda")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) |
 | License | BSD-3-Clause |
-| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9 |
+| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9, v13.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cuda-samples/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda-samples/xmake.lua) |
 
@@ -13150,7 +13150,7 @@ add_requires("itlib")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -27961,7 +27961,7 @@ add_requires("rcmp")
 | -- | -- |
 | Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
 | License | BSD-3-Clause |
-| Versions | v4.3.0, v4.4.0, v4.5.0, v5.0.1, v5.2.2, v5.3.0 |
+| Versions | v4.3.0, v4.4.0, v4.5.0, v5.0.1, v5.2.2, v5.3.0, v6.0.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
 
@@ -30535,7 +30535,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+300, 3.50.0+400, 3.50.0+200, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+300, 3.50.0+200, 3.50.0+0, 3.50.0+100, 3.50.0+400 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35982,7 +35982,7 @@ add_requires("xz")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/yalantinglibs](https://github.com/alibaba/yalantinglibs) |
 | License | Apache-2.0 |
-| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2 |
+| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2, 0.5.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [yalantinglibs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yalantinglibs/xmake.lua) |
 
