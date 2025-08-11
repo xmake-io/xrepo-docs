@@ -20389,7 +20389,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+200, 3.50.0+0, 3.50.0+300, 3.50.0+400, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+300, 3.50.0+0, 3.50.0+200, 3.50.0+400 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -23776,6 +23776,30 @@ xrepo install -p cross [--sdk=/xxx] xlsxio
 
 ```lua
 add_requires("xlsxio")
+```
+
+
+### xor_singleheader (cross)
+
+
+| Description | *Header-only binary fuse and xor filter library.* |
+| -- | -- |
+| Homepage | [https://github.com/FastFilter/xor_singleheader](https://github.com/FastFilter/xor_singleheader) |
+| License | Apache-2.0 |
+| Versions | v2.1.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [xor_singleheader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xor_singleheader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] xor_singleheader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xor_singleheader")
 ```
 
 
