@@ -5643,7 +5643,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -7029,7 +7029,7 @@ add_requires("directxtk12")
 | -- | -- |
 | Homepage | [https://github.com/tronkko/dirent](https://github.com/tronkko/dirent) |
 | License | MIT |
-| Versions | 1.24, 1.25 |
+| Versions | 1.24, 1.25, 1.26 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [dirent/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dirent/xmake.lua) |
 
@@ -13150,7 +13150,7 @@ add_requires("itlib")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -23786,7 +23786,7 @@ add_requires("opencv-mobile")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -30559,7 +30559,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+200, 3.50.0+0, 3.50.0+100, 3.50.0+300, 3.50.0+400 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34799,6 +34799,29 @@ xrepo install vvenc
 
 ```lua
 add_requires("vvenc")
+```
+
+
+### vxl (windows)
+
+
+| Description | *A multi-platform collection of C++ software libraries for Computer Vision and Image Understanding.* |
+| -- | -- |
+| Homepage | [https://github.com/vxl/vxl](https://github.com/vxl/vxl) |
+| Versions | v3.3.2 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [vxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vxl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vxl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vxl")
 ```
 
 
