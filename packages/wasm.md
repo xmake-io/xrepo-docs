@@ -9523,29 +9523,6 @@ add_requires("libqrencode")
 ```
 
 
-### librdkafka (wasm)
-
-
-| Description | *The Apache Kafka C/C++ library* |
-| -- | -- |
-| Homepage | [https://github.com/edenhill/librdkafka](https://github.com/edenhill/librdkafka) |
-| Versions | v1.6.2, v1.8.2-POST2 |
-| Architectures | wasm32, wasm64 |
-| Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p wasm librdkafka
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("librdkafka")
-```
-
-
 ### libremidi (wasm)
 
 
@@ -17958,7 +17935,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.50.0+400, 3.50.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+400, 3.50.0+300 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
