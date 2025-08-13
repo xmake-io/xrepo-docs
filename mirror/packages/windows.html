@@ -8338,7 +8338,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.6.2, 1.7.2, 1.8.3, 1.9.4, 1.10.2, 1.10.3, 1.10.5, 1.11.1, 1.11.2</td>
+<td>1.6.2, 1.7.2, 1.8.3, 1.9.4, 1.10.2, 1.10.3, 1.10.5, 1.11.1, 1.11.2, 1.12.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -8708,7 +8708,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.1+1, v1.2.1+2</td>
+<td>v1.2.1+2, v1.2.1+1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -22972,7 +22972,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0</td>
+<td>0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -25333,7 +25333,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.10.1, v0.10.2</td>
+<td>v0.10.1, v0.10.2, v0.10.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -26366,6 +26366,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libsodium")
+</code></pre>
+<h3 id="libsolvwindows">libsolv (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Library for solving packages and reading repositories.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/openSUSE/libsolv">https://github.com/openSUSE/libsolv</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.7.34</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsolv/xmake.lua">libsolv/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libsolv
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsolv")
 </code></pre>
 <h3 id="libsoundiowindows">libsoundio (windows)</h3>
 <table>
@@ -27637,6 +27674,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libyuv")
+</code></pre>
+<h3 id="libzchunkwindows">libzchunk (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A file format designed for highly efficient deltas while maintaining good compression.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/zchunk/zchunk">https://github.com/zchunk/zchunk</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-2-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.5.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzchunk/xmake.lua">libzchunk/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libzchunk
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libzchunk")
 </code></pre>
 <h3 id="libzenwindows">libzen (windows)</h3>
 <table>
@@ -43179,7 +43253,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0, v0.17.0, v0.18.0, v0.19.0</td>
+<td>v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0, v0.17.0, v0.18.0, v0.19.0, v0.20.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -46697,7 +46771,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.50.0+300, 3.50.0+400</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0, 3.50.0+400, 3.50.0+100, 3.50.0+200, 3.50.0+300</td>
 </tr>
 <tr>
 <td>Architectures</td>
