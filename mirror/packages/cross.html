@@ -6332,7 +6332,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.1+1, v1.2.1+2</td>
+<td>v1.2.1+2, v1.2.1+1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -16538,6 +16538,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libmysofa")
 </code></pre>
+<h3 id="libnfccross">libnfc (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Header-only binary fuse and xor filter library.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/nfc-tools/libnfc">https://github.com/nfc-tools/libnfc</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.7.1, 1.8.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnfc/xmake.lua">libnfc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] libnfc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libnfc")
+</code></pre>
 <h3 id="libnpycross">libnpy (cross)</h3>
 <table>
 <thead>
@@ -16825,6 +16862,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libpcap")
+</code></pre>
+<h3 id="libpcsclitecross">libpcsclite (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Middleware to access a smart card using SCard API (PC/SC).</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://pcsclite.apdu.fr/">https://pcsclite.apdu.fr/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.3.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpcsclite/xmake.lua">libpcsclite/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] libpcsclite
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libpcsclite")
 </code></pre>
 <h3 id="libplistcross">libplist (cross)</h3>
 <table>
@@ -18404,6 +18474,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libusb")
+</code></pre>
+<h3 id="libusbcompatcross">libusb-compat (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A compatibility layer allowing applications written for libusb-0.1 to work with libusb-1.0.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/libusb/libusb-compat-0.1">https://github.com/libusb/libusb-compat-0.1</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.1.8</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb-compat/xmake.lua">libusb-compat/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] libusb-compat
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libusb-compat")
 </code></pre>
 <h3 id="libuuidcross">libuuid (cross)</h3>
 <table>
@@ -31302,7 +31409,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+400, 3.50.0+100, 3.50.0+200, 3.50.0+300</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+300, 3.50.0+200, 3.50.0+0, 3.50.0+400</td>
 </tr>
 <tr>
 <td>Architectures</td>

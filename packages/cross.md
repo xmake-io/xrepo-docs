@@ -4072,7 +4072,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -10767,6 +10767,30 @@ add_requires("libmysofa")
 ```
 
 
+### libnfc (cross)
+
+
+| Description | *Header-only binary fuse and xor filter library.* |
+| -- | -- |
+| Homepage | [https://github.com/nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) |
+| License | LGPL-3.0 |
+| Versions | 1.7.1, 1.8.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libnfc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnfc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libnfc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnfc")
+```
+
+
 ### libnpy (cross)
 
 
@@ -10954,6 +10978,29 @@ xrepo install -p cross [--sdk=/xxx] libpcap
 
 ```lua
 add_requires("libpcap")
+```
+
+
+### libpcsclite (cross)
+
+
+| Description | *Middleware to access a smart card using SCard API (PC/SC).* |
+| -- | -- |
+| Homepage | [https://pcsclite.apdu.fr/](https://pcsclite.apdu.fr/) |
+| Versions | 2.3.3 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libpcsclite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpcsclite/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libpcsclite
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpcsclite")
 ```
 
 
@@ -11983,6 +12030,30 @@ xrepo install -p cross [--sdk=/xxx] libusb
 
 ```lua
 add_requires("libusb")
+```
+
+
+### libusb-compat (cross)
+
+
+| Description | *A compatibility layer allowing applications written for libusb-0.1 to work with libusb-1.0.* |
+| -- | -- |
+| Homepage | [https://github.com/libusb/libusb-compat-0.1](https://github.com/libusb/libusb-compat-0.1) |
+| License | LGPL-2.1 |
+| Versions | v0.1.8 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libusb-compat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb-compat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libusb-compat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusb-compat")
 ```
 
 
@@ -20461,7 +20532,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+400, 3.50.0+100, 3.50.0+200, 3.50.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+300, 3.50.0+200, 3.50.0+0, 3.50.0+400 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

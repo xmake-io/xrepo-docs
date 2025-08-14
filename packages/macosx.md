@@ -5569,7 +5569,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | arm64, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -16500,6 +16500,30 @@ add_requires("libnet")
 ```
 
 
+### libnfc (macosx)
+
+
+| Description | *Header-only binary fuse and xor filter library.* |
+| -- | -- |
+| Homepage | [https://github.com/nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) |
+| License | LGPL-3.0 |
+| Versions | 1.7.1, 1.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libnfc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnfc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libnfc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnfc")
+```
+
+
 ### libnpy (macosx)
 
 
@@ -18329,6 +18353,30 @@ xrepo install libusb
 
 ```lua
 add_requires("libusb")
+```
+
+
+### libusb-compat (macosx)
+
+
+| Description | *A compatibility layer allowing applications written for libusb-0.1 to work with libusb-1.0.* |
+| -- | -- |
+| Homepage | [https://github.com/libusb/libusb-compat-0.1](https://github.com/libusb/libusb-compat-0.1) |
+| License | LGPL-2.1 |
+| Versions | v0.1.8 |
+| Architectures | arm64, x86_64 |
+| Definition | [libusb-compat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb-compat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libusb-compat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusb-compat")
 ```
 
 
@@ -31482,7 +31530,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.50.0+400, 3.50.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+300, 3.50.0+400 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -35828,7 +35876,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f0dba151e0 |
+| License | table: 0x55654f892a10 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -15872,6 +15872,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libusb")
 </code></pre>
+<h3 id="libusbcompatwasm">libusb-compat (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A compatibility layer allowing applications written for libusb-0.1 to work with libusb-1.0.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/libusb/libusb-compat-0.1">https://github.com/libusb/libusb-compat-0.1</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.1.8</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb-compat/xmake.lua">libusb-compat/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm libusb-compat
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libusb-compat")
+</code></pre>
 <h3 id="libuuidwasm">libuuid (wasm)</h3>
 <table>
 <thead>
@@ -27452,7 +27489,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+400, 3.50.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+300</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+400</td>
 </tr>
 <tr>
 <td>Architectures</td>

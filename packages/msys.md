@@ -4116,7 +4116,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2 |
+| Versions | v1.2.1+2, v1.2.1+1 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -10645,6 +10645,30 @@ add_requires("libmysofa")
 ```
 
 
+### libnfc (msys)
+
+
+| Description | *Header-only binary fuse and xor filter library.* |
+| -- | -- |
+| Homepage | [https://github.com/nfc-tools/libnfc](https://github.com/nfc-tools/libnfc) |
+| License | LGPL-3.0 |
+| Versions | 1.7.1, 1.8.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libnfc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnfc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libnfc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libnfc")
+```
+
+
 ### libnpy (msys)
 
 
@@ -11838,6 +11862,54 @@ xrepo install libusb
 
 ```lua
 add_requires("libusb")
+```
+
+
+### libusb-compat (msys)
+
+
+| Description | *A compatibility layer allowing applications written for libusb-0.1 to work with libusb-1.0.* |
+| -- | -- |
+| Homepage | [https://github.com/libusb/libusb-compat-0.1](https://github.com/libusb/libusb-compat-0.1) |
+| License | LGPL-2.1 |
+| Versions | v0.1.8 |
+| Architectures | i386, x86_64 |
+| Definition | [libusb-compat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb-compat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libusb-compat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusb-compat")
+```
+
+
+### libusb-win32 (msys)
+
+
+| Description | *libusb-win32 is a port of the libusb-0.1 API for Windows with some additional asynchronous transfer support.* |
+| -- | -- |
+| Homepage | [https://github.com/mcuee/libusb-win32](https://github.com/mcuee/libusb-win32) |
+| License | LGPL-2.0-or-later |
+| Versions | 1.4.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libusb-win32/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb-win32/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libusb-win32
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusb-win32")
 ```
 
 
@@ -20031,7 +20103,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+200, 3.50.0+400, 3.50.0+0, 3.50.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+200, 3.50.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+400 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

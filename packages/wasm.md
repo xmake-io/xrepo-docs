@@ -10335,6 +10335,30 @@ add_requires("libusb")
 ```
 
 
+### libusb-compat (wasm)
+
+
+| Description | *A compatibility layer allowing applications written for libusb-0.1 to work with libusb-1.0.* |
+| -- | -- |
+| Homepage | [https://github.com/libusb/libusb-compat-0.1](https://github.com/libusb/libusb-compat-0.1) |
+| License | LGPL-2.1 |
+| Versions | v0.1.8 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libusb-compat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb-compat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libusb-compat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libusb-compat")
+```
+
+
 ### libuuid (wasm)
 
 
@@ -17935,7 +17959,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+400, 3.50.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+400 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
