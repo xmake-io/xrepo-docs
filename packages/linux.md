@@ -5926,7 +5926,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -18362,7 +18362,7 @@ add_requires("libpq")
 | Description | *The official C++ client API for PostgreSQL.* |
 | -- | -- |
 | Homepage | [http://pqxx.org/](http://pqxx.org/) |
-| Versions | 7.7.0 |
+| Versions | 7.7.0, 7.10.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpqxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpqxx/xmake.lua) |
 
@@ -28256,7 +28256,7 @@ add_requires("pdcurses")
 | Description | *PDCurses Modified - a curses library modified and extended from the 'official' pdcurses* |
 | -- | -- |
 | Homepage | [https://projectpluto.com/win32a.htm](https://projectpluto.com/win32a.htm) |
-| Versions | v4.3.4, v4.4.0, v4.5.2 |
+| Versions | v4.3.4, v4.4.0, v4.5.2, v4.5.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pdcursesmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdcursesmod/xmake.lua) |
 
@@ -34072,7 +34072,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+400 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+400, 3.50.0+200, 3.50.0+100, 3.50.0+300 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -38727,7 +38727,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55654f892a10 |
+| License | table: 0x560b8ef100d0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
