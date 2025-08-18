@@ -2324,7 +2324,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0 |
 | Architectures | i386, x86_64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -7087,7 +7087,7 @@ add_requires("gklib")
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
 | License | MIT |
-| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2, v4.4.3, v5.0.2, v5.1.0, v5.1.2, v5.2.0, v5.2.1, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.5.0, v5.5.1, v5.5.2, v5.5.4 |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2, v4.4.3, v5.0.2, v5.1.0, v5.1.2, v5.2.0, v5.2.1, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.5.0, v5.5.1, v5.5.2, v5.5.4, v5.5.5 |
 | Architectures | i386, x86_64 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
@@ -19451,6 +19451,30 @@ add_requires("simdutf")
 ```
 
 
+### simplecpp (msys)
+
+
+| Description | *C++ preprocessor* |
+| -- | -- |
+| Homepage | [https://github.com/danmar/simplecpp](https://github.com/danmar/simplecpp) |
+| License | OBSD |
+| Versions | 1.5.1 |
+| Architectures | i386, x86_64 |
+| Definition | [simplecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplecpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install simplecpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simplecpp")
+```
+
+
 ### simpleini (msys)
 
 
@@ -20103,7 +20127,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+200, 3.50.0+400, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+300, 3.50.0+400, 3.50.0+200, 3.50.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

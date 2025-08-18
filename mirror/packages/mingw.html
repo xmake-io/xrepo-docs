@@ -3792,7 +3792,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1</td>
+<td>v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11893,7 +11893,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2, v4.4.3, v5.0.2, v5.1.0, v5.1.2, v5.2.0, v5.2.1, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.5.0, v5.5.1, v5.5.2, v5.5.4</td>
+<td>v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2, v4.4.3, v5.0.2, v5.1.0, v5.1.2, v5.2.0, v5.2.1, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.5.0, v5.5.1, v5.5.2, v5.5.4, v5.5.5</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -33933,6 +33933,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("simdutf")
 </code></pre>
+<h3 id="simplecppmingw">simplecpp (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C++ preprocessor</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/danmar/simplecpp">https://github.com/danmar/simplecpp</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>OBSD</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.5.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplecpp/xmake.lua">simplecpp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] simplecpp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("simplecpp")
+</code></pre>
 <h3 id="simpleinimingw">simpleini (mingw)</h3>
 <table>
 <thead>
@@ -35120,7 +35157,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+400, 3.50.0+200, 3.50.0+300, 3.50.0+100, 3.50.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+200, 3.50.0+400, 3.50.0+100, 3.50.0+300, 3.50.0+0</td>
 </tr>
 <tr>
 <td>Architectures</td>
