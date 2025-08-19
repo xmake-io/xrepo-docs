@@ -4165,7 +4165,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1 |
+| Versions | v1.2.1+1, v1.2.1+2 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -9952,6 +9952,30 @@ xrepo install libcron
 
 ```lua
 add_requires("libcron")
+```
+
+
+### libcurl (bsd)
+
+
+| Description | *The multiprotocol file transfer library.* |
+| -- | -- |
+| Homepage | [https://curl.haxx.se/](https://curl.haxx.se/) |
+| License | MIT |
+| Versions | 7.31.0, 7.32.0, 7.33.0, 7.34.0, 7.35.0, 7.36.0, 7.37.1, 7.38.0, 7.39.0, 7.40.0, 7.41.0, 7.42.1, 7.43.0, 7.44.0, 7.45.0, 7.46.0, 7.47.1, 7.48.0, 7.49.1, 7.50.3, 7.51.0, 7.52.1, 7.53.1, 7.54.1, 7.55.1, 7.56.1, 7.57.0, 7.58.0, 7.59.0, 7.60.0, 7.61.0, 7.61.1, 7.62.0, 7.63.0, 7.64.0, 7.64.1, 7.65.3, 7.66.0, 7.67.0, 7.68.0, 7.69.1, 7.70.0, 7.71.1, 7.72.0, 7.73.0, 7.74.0, 7.75.0, 7.76.1, 7.77.0, 7.78.0, 7.80.0, 7.81.0, 7.82.0, 7.84.0, 7.85.0, 7.86.0, 7.87.0, 8.0.1, 8.4.0, 8.5.0, 8.6.0, 8.7.1, 8.8.0, 8.9.0, 8.9.1, 8.10.0, 8.10.1, 8.11.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libcurl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcurl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libcurl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libcurl")
 ```
 
 
@@ -15931,6 +15955,30 @@ add_requires("neco")
 ```
 
 
+### netcdf-c (bsd)
+
+
+| Description | *Network Common Data Form (NetCDF) libraries and utilities.* |
+| -- | -- |
+| Homepage | [https://github.com/Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) |
+| License | BSD-3-Clause |
+| Versions | v4.9.3 |
+| Architectures | i386, x86_64 |
+| Definition | [netcdf-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/netcdf-c/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install netcdf-c
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("netcdf-c")
+```
+
+
 ### nettle (bsd)
 
 
@@ -21429,7 +21477,7 @@ add_requires("spot")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+400, 3.50.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+400, 3.50.0+200, 3.50.0+300, 3.50.0+100, 3.50.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
