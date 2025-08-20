@@ -9578,7 +9578,7 @@ add_requires("libremidi")
 | -- | -- |
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
-| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3, v2.8.4, v2.8.7, v2.10.0, v2.10.1, v2.10.2 |
+| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3, v2.8.4, v2.8.7, v2.10.0, v2.10.1, v2.10.2, v2.10.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
@@ -18007,7 +18007,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+300, 3.50.0+400 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+300, 3.50.0+200, 3.50.0+400, 3.50.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -18812,6 +18812,78 @@ xrepo install -p wasm tclap
 
 ```lua
 add_requires("tclap")
+```
+
+
+### td (wasm)
+
+
+| Description | *Cross-platform library for building Telegram clients.* |
+| -- | -- |
+| Homepage | [https://core.telegram.org/tdlib/](https://core.telegram.org/tdlib/) |
+| License | BSL-1.0 |
+| Versions | 1.8.51 |
+| Architectures | wasm32, wasm64 |
+| Definition | [td/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/td/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm td
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("td")
+```
+
+
+### tdtl (wasm)
+
+
+| Description | *Toolset for building tdlib.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | BSL-1.0 |
+| Versions | 1.8.51 |
+| Architectures | wasm32, wasm64 |
+| Definition | [tdtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tdtl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm tdtl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tdtl")
+```
+
+
+### telegram-bot-api (wasm)
+
+
+| Description | *The server provides an HTTP API for creating Telegram Bots.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | BSL-1.0 |
+| Versions | 9.1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [telegram-bot-api/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/telegram-bot-api/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm telegram-bot-api
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("telegram-bot-api")
 ```
 
 

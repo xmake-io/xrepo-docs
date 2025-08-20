@@ -14723,7 +14723,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3, v2.8.4, v2.8.7, v2.10.0, v2.10.1, v2.10.2</td>
+<td>v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3, v2.8.4, v2.8.7, v2.10.0, v2.10.1, v2.10.2, v2.10.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27563,7 +27563,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+300, 3.50.0+400</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+300, 3.50.0+200, 3.50.0+400, 3.50.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -28790,6 +28790,117 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("tclap")
+</code></pre>
+<h3 id="tdwasm">td (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Cross-platform library for building Telegram clients.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://core.telegram.org/tdlib/">https://core.telegram.org/tdlib/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.8.51</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/td/xmake.lua">td/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm td
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("td")
+</code></pre>
+<h3 id="tdtlwasm">tdtl (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Toolset for building tdlib.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td>%s</td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.8.51</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tdtl/xmake.lua">tdtl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm tdtl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("tdtl")
+</code></pre>
+<h3 id="telegrambotapiwasm">telegram-bot-api (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The server provides an HTTP API for creating Telegram Bots.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td>%s</td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>9.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/telegram-bot-api/xmake.lua">telegram-bot-api/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm telegram-bot-api
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("telegram-bot-api")
 </code></pre>
 <h3 id="termcapwasm">termcap (wasm)</h3>
 <table>
