@@ -21262,7 +21262,7 @@ add_requires("mongo-cxx-driver")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18 |
+| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
@@ -28869,7 +28869,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1 |
 | Architectures | arm64, x64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -30823,7 +30823,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+100, 3.50.0+200, 3.50.0+0, 3.50.0+300, 3.50.0+400 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+200, 3.50.0+400, 3.50.0+0, 3.50.0+100, 3.50.0+300 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -34762,7 +34762,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315 |
+| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315, v1.4.325 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 

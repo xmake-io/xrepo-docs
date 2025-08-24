@@ -12678,7 +12678,7 @@ add_requires("mmeter")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18 |
+| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19 |
 | Architectures | wasm32, wasm64 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
@@ -18080,7 +18080,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+300, 3.50.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+400 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+400, 3.50.0+300 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
