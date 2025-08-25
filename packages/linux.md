@@ -15367,7 +15367,7 @@ add_requires("libass")
 | -- | -- |
 | Homepage | [https://github.com/jeremy-rifkin/libassert](https://github.com/jeremy-rifkin/libassert) |
 | License | MIT |
-| Versions | v1.2, v1.2.2, v2.0.0, v2.0.1, v2.0.2, v2.1.0, v2.1.1, v2.1.2, v2.1.4, v2.1.5, v2.2.0 |
+| Versions | v1.2, v1.2.2, v2.0.0, v2.0.1, v2.0.2, v2.1.0, v2.1.1, v2.1.2, v2.1.4, v2.1.5, v2.2.0, v2.2.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libassert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libassert/xmake.lua) |
 
@@ -21038,7 +21038,7 @@ add_requires("libyuv")
 | -- | -- |
 | Homepage | [https://github.com/zchunk/zchunk](https://github.com/zchunk/zchunk) |
 | License | BSD-2-Clause |
-| Versions | 1.5.1 |
+| Versions | 1.5.1, 1.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libzchunk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzchunk/xmake.lua) |
 
@@ -29996,7 +29996,7 @@ add_requires("pupnp")
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2, v2.10.0, v2.12.0, v2.13.1, v2.13.5, v2.13.6, v3.0.0 |
+| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2, v2.10.0, v2.12.0, v2.13.1, v2.13.5, v2.13.6, v3.0.0, v3.0.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
@@ -31382,7 +31382,7 @@ add_requires("re-spirv")
 | -- | -- |
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17 |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17, 2025.08.12 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
@@ -34169,7 +34169,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+200, 3.50.0+100, 3.50.0+300, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -38490,7 +38490,7 @@ add_requires("vvenc")
 | Description | *A multi-platform collection of C++ software libraries for Computer Vision and Image Understanding.* |
 | -- | -- |
 | Homepage | [https://github.com/vxl/vxl](https://github.com/vxl/vxl) |
-| Versions | v3.3.2 |
+| Versions | v3.3.2, v3.5.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vxl/xmake.lua) |
 
@@ -38896,7 +38896,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55cdbbbce9f0 |
+| License | table: 0x5559a82ac8d0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
