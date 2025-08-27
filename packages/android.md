@@ -19054,7 +19054,7 @@ add_requires("qt5widgets")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0, 6.8.1, 6.8.2, 6.8.3, 6.9.0, 6.9.1 |
 | Architectures | arm64-v8a |
 | Definition | [qt6base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6base/xmake.lua) |
 
@@ -19078,7 +19078,7 @@ add_requires("qt6base")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0, 6.8.1, 6.8.2, 6.8.3, 6.9.0, 6.9.1 |
 | Architectures | arm64-v8a |
 | Definition | [qt6core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6core/xmake.lua) |
 
@@ -19102,7 +19102,7 @@ add_requires("qt6core")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0, 6.8.1, 6.8.2, 6.8.3, 6.9.0, 6.9.1 |
 | Architectures | arm64-v8a |
 | Definition | [qt6gui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6gui/xmake.lua) |
 
@@ -19126,7 +19126,7 @@ add_requires("qt6gui")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0, 6.8.1, 6.8.2, 6.8.3, 6.9.0, 6.9.1 |
 | Architectures | arm64-v8a |
 | Definition | [qt6network/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6network/xmake.lua) |
 
@@ -19150,7 +19150,7 @@ add_requires("qt6network")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0, 6.8.1, 6.8.2, 6.8.3, 6.9.0, 6.9.1 |
 | Architectures | arm64-v8a |
 | Definition | [qt6qml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6qml/xmake.lua) |
 
@@ -19174,7 +19174,7 @@ add_requires("qt6qml")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0, 6.8.1, 6.8.2, 6.8.3, 6.9.0, 6.9.1 |
 | Architectures | arm64-v8a |
 | Definition | [qt6quick/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6quick/xmake.lua) |
 
@@ -19198,7 +19198,7 @@ add_requires("qt6quick")
 | -- | -- |
 | Homepage | [https://www.qt.io](https://www.qt.io) |
 | License | LGPL-3 |
-| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0 |
+| Versions | 6.3.0, 6.3.1, 6.3.2, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.6.0, 6.6.1, 6.6.2, 6.6.3, 6.7.0, 6.7.1, 6.7.2, 6.8.0, 6.8.1, 6.8.2, 6.8.3, 6.9.0, 6.9.1 |
 | Architectures | arm64-v8a |
 | Definition | [qt6widgets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qt6widgets/xmake.lua) |
 
@@ -21446,7 +21446,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+100, 3.50.0+300, 3.50.0+0, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+0, 3.50.0+300, 3.50.0+200, 3.50.0+400, 3.50.0+100 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
