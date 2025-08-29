@@ -15926,7 +15926,7 @@ add_requires("opencl-clhpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
 | License | Apache-2.0 |
-| Versions | v2021.06.30, v2023.12.14, v2024.05.08, v2024.10.24, v2025.06.13 |
+| Versions | v2021.06.30, v2023.12.14, v2024.05.08, v2024.10.24, v2025.06.13, v2025.07.22 |
 | Architectures | i386, x86_64 |
 | Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
 
@@ -18382,7 +18382,7 @@ add_requires("range-v3")
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
 | License | BSD-3-Clause |
-| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87 |
+| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87, v8.88 |
 | Architectures | i386, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
@@ -20294,7 +20294,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+400, 3.50.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+400, 3.50.0+200, 3.50.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20523,6 +20523,30 @@ xrepo install ssp
 
 ```lua
 add_requires("ssp")
+```
+
+
+### status-code (msys)
+
+
+| Description | *Proposed SG14 status_code for the C++ standard* |
+| -- | -- |
+| Homepage | [https://github.com/ned14/status-code](https://github.com/ned14/status-code) |
+| License | Apache-2.0 |
+| Versions | 2025.05.21 |
+| Architectures | i386, x86_64 |
+| Definition | [status-code/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/status-code/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install status-code
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("status-code")
 ```
 
 
