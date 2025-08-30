@@ -702,7 +702,7 @@ add_requires("audiofile")
 | -- | -- |
 | Homepage | [https://aurora-opensource.github.io/au](https://aurora-opensource.github.io/au) |
 | License | Apache-2.0 |
-| Versions | 0.4.1 |
+| Versions | 0.4.1, 0.5.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [aurora-au/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aurora-au/xmake.lua) |
 
@@ -1846,7 +1846,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0, v2.21.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -15095,7 +15095,7 @@ add_requires("pl_mpeg")
 | -- | -- |
 | Homepage | [https://github.com/sago007/PlatformFolders](https://github.com/sago007/PlatformFolders) |
 | License | MIT |
-| Versions | 4.2.0 |
+| Versions | 4.2.0, 4.3.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [platformfolders/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/platformfolders/xmake.lua) |
 
@@ -15690,7 +15690,7 @@ add_requires("promise-cpp")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | License | BSD-3-Clause |
-| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1 |
+| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1, 32.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
@@ -18176,7 +18176,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+100, 3.50.0+300, 3.50.0+400, 3.50.0+0, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+0, 3.50.0+300, 3.50.0+400, 3.50.0+200, 3.50.0+100 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
