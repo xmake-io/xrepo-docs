@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: sdl2webgpu, sdl3webgpu, libjuice**
+- **Recently added: libdatachannel, sdl2webgpu, sdl3webgpu**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)
