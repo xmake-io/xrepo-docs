@@ -1989,7 +1989,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -8336,7 +8336,7 @@ add_requires("leveldb")
 | -- | -- |
 | Homepage | [https://github.com/lexbor/lexbor](https://github.com/lexbor/lexbor) |
 | License | Apache-2.0 |
-| Versions | v2.2.0, v2.3.0, v2.4.0 |
+| Versions | v2.2.0, v2.3.0, v2.4.0, v2.5.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [lexbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lexbor/xmake.lua) |
 
@@ -15978,7 +15978,7 @@ add_requires("qcbor")
 | -- | -- |
 | Homepage | [https://github.com/osqp/qdldl](https://github.com/osqp/qdldl) |
 | License | Apache-2.0 |
-| Versions | v0.1.7, v0.1.8 |
+| Versions | v0.1.7, v0.1.8, v0.1.9 |
 | Architectures | wasm32, wasm64 |
 | Definition | [qdldl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qdldl/xmake.lua) |
 
@@ -18200,7 +18200,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+100, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+100, 3.50.0+400, 3.50.0+300, 3.50.0+200 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
