@@ -6962,6 +6962,30 @@ add_requires("hiredis")
 ```
 
 
+### hiredis-vip (wasm)
+
+
+| Description | *Support redis cluster. Maintained and used at vipshop.* |
+| -- | -- |
+| Homepage | [https://github.com/vipshop/hiredis-vip](https://github.com/vipshop/hiredis-vip) |
+| License | BSD-3-Clause |
+| Versions | 0.3.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [hiredis-vip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis-vip/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm hiredis-vip
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hiredis-vip")
+```
+
+
 ### hopscotch-map (wasm)
 
 
@@ -13467,7 +13491,7 @@ add_requires("neargye-scope_guard")
 | -- | -- |
 | Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
 | License | MIT |
-| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1, 1.63.0, 1.64.0, 1.65.0, 1.66.0 |
+| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1, 1.63.0, 1.64.0, 1.65.0, 1.66.0, 1.67.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
 
@@ -17626,7 +17650,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6, v7.4.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -18200,7 +18224,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+100, 3.50.0+400, 3.50.0+300, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+100, 3.50.0+300, 3.50.0+200, 3.50.0+400, 3.50.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
