@@ -8441,6 +8441,30 @@ add_requires("gsl-lite")
 ```
 
 
+### gte (mingw)
+
+
+| Description | *A collection of source code for computing in the fields of mathematics, geometry, graphics, image analysis and physics.* |
+| -- | -- |
+| Homepage | [https://github.com/davideberly/GeometricTools](https://github.com/davideberly/GeometricTools) |
+| License | BSL-1.0 |
+| Versions | 2025.08.20 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [gte/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gte/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] gte
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gte")
+```
+
+
 ### gtest (mingw)
 
 
@@ -10294,7 +10318,7 @@ add_requires("keystone")
 | Description | *Khronos Shared Platform Header (<KHR/khrplatform.h>)* |
 | -- | -- |
 | Homepage | [https://registry.khronos.org/EGL](https://registry.khronos.org/EGL) |
-| Versions | latest |
+| Versions | 2023.12.16 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [khrplatform/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/khrplatform/xmake.lua) |
 
@@ -23158,7 +23182,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+400, 3.50.0+100, 3.50.0+300, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.50.0+400, 3.50.0+300 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
