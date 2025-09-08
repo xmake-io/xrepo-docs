@@ -1154,7 +1154,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-event-stream](https://github.com/awslabs/aws-c-event-stream) |
 | License | Apache-2.0 |
-| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0, v0.5.1, v0.5.4, v0.5.5 |
+| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0, v0.5.1, v0.5.4, v0.5.5, v0.5.6 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-event-stream/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-event-stream/xmake.lua) |
 
@@ -5867,7 +5867,7 @@ add_requires("epoll-shim")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1 |
 | Architectures | i386, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -7803,7 +7803,7 @@ add_requires("gumbo-parser")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
-| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0, v0.20.2 |
+| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0, v0.20.2, v0.20.4 |
 | Architectures | i386, x86_64 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
@@ -21765,7 +21765,7 @@ add_requires("sqlgen")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+0, 3.50.0+300, 3.50.0+400, 3.50.0+100, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+300, 3.50.0+100, 3.50.0+200, 3.50.0+400, 3.50.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
