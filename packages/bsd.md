@@ -1058,7 +1058,7 @@ add_requires("avir")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
-| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0 |
+| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
@@ -5425,30 +5425,6 @@ xrepo install duktape
 
 ```lua
 add_requires("duktape")
-```
-
-
-### dylib (bsd)
-
-
-| Description | *C++ cross-platform wrapper around dynamic loading of shared libraries (dll, so, dylib)* |
-| -- | -- |
-| Homepage | [https://conan.io/center/recipes/dylib](https://conan.io/center/recipes/dylib) |
-| License | MIT |
-| Versions | v2.2.1 |
-| Architectures | i386, x86_64 |
-| Definition | [dylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dylib/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install dylib
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("dylib")
 ```
 
 
@@ -21813,7 +21789,7 @@ add_requires("sqlgen")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.50.0+400, 3.50.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+100, 3.50.0+300, 3.50.0+400, 3.50.0+0, 3.50.0+200 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
