@@ -14229,6 +14229,30 @@ add_requires("llama.cpp")
 ```
 
 
+### llgl (mingw)
+
+
+| Description | *Low Level Graphics Library (LLGL) is a thin abstraction layer for the modern graphics APIs OpenGL, Direct3D, Vulkan, and Metal* |
+| -- | -- |
+| Homepage | [https://github.com/LukasBanana/LLGL](https://github.com/LukasBanana/LLGL) |
+| License | BSD-3-Clause |
+| Versions | v0.04 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [llgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llgl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] llgl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llgl")
+```
+
+
 ### llhttp (mingw)
 
 
@@ -23254,7 +23278,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+300, 3.50.0+200, 3.50.0+400, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+300 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -26051,7 +26075,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
 | License | MIT |
-| Versions | v2.7.0, v2.8.0, v2.9.0, v2.10.0 |
+| Versions | v2.7.0, v2.8.0, v2.9.0, v2.10.0, v2.11.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
 
