@@ -11623,6 +11623,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("genie")
 </code></pre>
+<h3 id="geosmingw">geos (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>GEOS (Geometry Engine - Open Source) is a C++ port of the JTS Topology Suite (JTS).</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://trac.osgeo.org/geos/">https://trac.osgeo.org/geos/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.9.1, 3.11.3, 3.12.1, 3.13.0, 3.13.1, 3.14.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua">geos/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] geos
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("geos")
+</code></pre>
 <h3 id="gflagsmingw">gflags (mingw)</h3>
 <table>
 <thead>
@@ -13388,6 +13425,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("hash-library")
+</code></pre>
+<h3 id="hashcatmingw">hashcat (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>World&#39;s fastest and most advanced password recovery utility.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://hashcat.net/hashcat/">https://hashcat.net/hashcat/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v7.1.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hashcat/xmake.lua">hashcat/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] hashcat
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("hashcat")
 </code></pre>
 <h3 id="hedleymingw">hedley (mingw)</h3>
 <table>
@@ -21091,6 +21165,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libwebsockets")
+</code></pre>
+<h3 id="libxlsmingw">libxls (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Read binary Excel files from C/C++.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td>%s</td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-2-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.6.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxls/xmake.lua">libxls/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] libxls
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libxls")
 </code></pre>
 <h3 id="libxlsxwritermingw">libxlsxwriter (mingw)</h3>
 <table>
@@ -31836,7 +31947,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3, v10.0.0, v10.0.1</td>
+<td>v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3, v10.0.0, v10.0.1, v10.1.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -32059,7 +32170,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2</td>
+<td>v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2, v3.3.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -35453,7 +35564,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+200</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+300, 3.50.0+200, 3.50.0+400, 3.50.0+0, 3.50.0+100</td>
 </tr>
 <tr>
 <td>Architectures</td>

@@ -10042,7 +10042,7 @@ add_requires("geographiclib")
 | -- | -- |
 | Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
 | License | LGPL-2.1 |
-| Versions | 3.9.1, 3.11.3, 3.12.1, 3.13.0, 3.13.1 |
+| Versions | 3.9.1, 3.11.3, 3.12.1, 3.13.0, 3.13.1, 3.14.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
 
@@ -11677,6 +11677,30 @@ xrepo install hash-library
 
 ```lua
 add_requires("hash-library")
+```
+
+
+### hashcat (macosx)
+
+
+| Description | *World's fastest and most advanced password recovery utility.* |
+| -- | -- |
+| Homepage | [https://hashcat.net/hashcat/](https://hashcat.net/hashcat/) |
+| License | MIT |
+| Versions | v7.1.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [hashcat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hashcat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hashcat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hashcat")
 ```
 
 
@@ -17246,7 +17270,7 @@ add_requires("libraqm")
 | -- | -- |
 | Homepage | [https://github.com/DEgITx/librats](https://github.com/DEgITx/librats) |
 | License | MIT |
-| Versions | 0.1.5, 0.2.1 |
+| Versions | 0.1.5, 0.2.1, 0.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [librats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librats/xmake.lua) |
 
@@ -19184,6 +19208,30 @@ add_requires("libxinerama")
 ```
 
 
+### libxls (macosx)
+
+
+| Description | *Read binary Excel files from C/C++.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | BSD-2-Clause |
+| Versions | v1.6.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [libxls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxls/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxls
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxls")
+```
+
+
 ### libxlsxwriter (macosx)
 
 
@@ -19214,7 +19262,7 @@ add_requires("libxlsxwriter")
 | Description | *The c/c++ bindings of the xmake core engine* |
 | -- | -- |
 | Homepage | [https://xmake.io](https://xmake.io) |
-| Versions | v2.9.8, v2.9.9, v3.0.0, v3.0.1 |
+| Versions | v2.9.8, v2.9.9, v3.0.0, v3.0.1, v3.0.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmake/xmake.lua) |
 
@@ -28859,7 +28907,7 @@ add_requires("quickjspp")
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
 | License | MIT |
-| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3, v10.0.0, v10.0.1 |
+| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3, v10.0.0, v10.0.1, v10.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -29029,7 +29077,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://rapidfuzz.github.io/rapidfuzz-cpp](https://rapidfuzz.github.io/rapidfuzz-cpp) |
 | License | MIT |
-| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2 |
+| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2, v3.3.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [rapidfuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidfuzz/xmake.lua) |
 
@@ -31890,7 +31938,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+100, 3.50.0+300, 3.50.0+400, 3.50.0+0, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -36333,7 +36381,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b0b49fad10 |
+| License | table: 0x55c4fc75c620 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
