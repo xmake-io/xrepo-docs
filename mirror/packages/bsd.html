@@ -17721,7 +17721,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.1, 1.3.1, 1.4, v1.4, 1.5, v1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2</td>
+<td>v1.3.1, 1.3.1, v1.4, 1.4, v1.5, 1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -19609,7 +19609,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.5, v1.6.2, v1.7.2, v1.8.0, v1.8.1, v1.8.2</td>
+<td>v1.5, v1.6.2, v1.7.2, v1.8.0, v1.8.1, v1.8.2, v1.8.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -22282,6 +22282,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("marisa")
 </code></pre>
+<h3 id="marlbsd">marl (bsd)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A hybrid thread / fiber task scheduler written in C++ 11</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/google/marl">https://github.com/google/marl</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2025.02.23</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marl/xmake.lua">marl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install marl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("marl")
+</code></pre>
 <h3 id="matchitbsd">matchit (bsd)</h3>
 <table>
 <thead>
@@ -23214,7 +23251,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22</td>
+<td>0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22, 0.11.23</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27322,7 +27359,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.25.5</td>
+<td>0.25.5, 0.25.8</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27832,7 +27869,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.2.2, 3.2.5, 3.2.7, 3.2.8</td>
+<td>2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -33569,7 +33606,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+300, 3.50.0+100, 3.50.0+0, 3.50.0+400, 3.50.0+200</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+300, 3.50.0+400, 3.50.0+100, 3.50.0+0, 3.50.0+200</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -36508,6 +36545,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("tobiaslocker_base64")
 </code></pre>
+<h3 id="tokenbsd">token (bsd)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Utilities for string tokenization. Tokens (string hashes) can be used in place of the strings themselves for fast dictionary key lookup in the place of length string comparators and improve security when used carefully to avoid unnecessary string processing.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://gitlab.kitware.com/utils/token">https://gitlab.kitware.com/utils/token</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>24.09.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/t/token/xmake.lua">token/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install token
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("token")
+</code></pre>
 <h3 id="tomlbsd">toml++ (bsd)</h3>
 <table>
 <thead>
@@ -39152,6 +39226,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("xxhash")
+</code></pre>
+<h3 id="xxmlxxbsd">xxmlxx (bsd)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A very lightweight and efficient modern C++ xml library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/luckydu-henry/xxmlxx">https://github.com/luckydu-henry/xxmlxx</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2025.09.14</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxmlxx/xmake.lua">xxmlxx/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install xxmlxx
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("xxmlxx")
 </code></pre>
 <h3 id="xzbsd">xz (bsd)</h3>
 <table>

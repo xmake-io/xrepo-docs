@@ -16494,7 +16494,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, 1.4, v1.4, 1.5, v1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | v1.3.1, 1.3.1, v1.4, 1.4, v1.5, 1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -19922,10 +19922,11 @@ add_requires("marisa")
 ### marl (windows)
 
 
-| Description | *Marl is a hybrid thread / fiber task scheduler written in C++ 11.* |
+| Description | *A hybrid thread / fiber task scheduler written in C++ 11* |
 | -- | -- |
 | Homepage | [https://github.com/google/marl](https://github.com/google/marl) |
-| Versions | 2021.8.18, 2022.3.02 |
+| License | Apache-2.0 |
+| Versions | 2025.02.23 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [marl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marl/xmake.lua) |
 
@@ -20881,7 +20882,7 @@ add_requires("mini")
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
 | License | MIT |
-| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22 |
+| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22, 0.11.23 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
@@ -23815,7 +23816,7 @@ add_requires("omath")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1 |
 | Architectures | x64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -25627,7 +25628,7 @@ add_requires("pedeps")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 3.2.2, 3.2.5, 3.2.7, 3.2.8 |
+| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
@@ -31159,7 +31160,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+300, 3.50.0+100, 3.50.0+0, 3.50.0+400, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+300, 3.50.0+400, 3.50.0+100, 3.50.0+0, 3.50.0+200 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -33702,6 +33703,30 @@ xrepo install tobiaslocker_base64
 
 ```lua
 add_requires("tobiaslocker_base64")
+```
+
+
+### token (windows)
+
+
+| Description | *Utilities for string tokenization. Tokens (string hashes) can be used in place of the strings themselves for fast dictionary key lookup in the place of length string comparators and improve security when used carefully to avoid unnecessary string processing.* |
+| -- | -- |
+| Homepage | [https://gitlab.kitware.com/utils/token](https://gitlab.kitware.com/utils/token) |
+| License | BSD-3-Clause |
+| Versions | 24.09.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [token/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/token/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install token
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("token")
 ```
 
 
@@ -36715,6 +36740,30 @@ xrepo install xxhash
 
 ```lua
 add_requires("xxhash")
+```
+
+
+### xxmlxx (windows)
+
+
+| Description | *A very lightweight and efficient modern C++ xml library* |
+| -- | -- |
+| Homepage | [https://github.com/luckydu-henry/xxmlxx](https://github.com/luckydu-henry/xxmlxx) |
+| License | MIT |
+| Versions | 2025.09.14 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [xxmlxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxmlxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xxmlxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xxmlxx")
 ```
 
 

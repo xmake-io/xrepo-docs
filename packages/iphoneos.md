@@ -10841,7 +10841,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, 1.4, v1.4, 1.5, v1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | v1.3.1, 1.3.1, v1.4, 1.4, v1.5, 1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -13436,6 +13436,30 @@ add_requires("marisa")
 ```
 
 
+### marl (iphoneos)
+
+
+| Description | *A hybrid thread / fiber task scheduler written in C++ 11* |
+| -- | -- |
+| Homepage | [https://github.com/google/marl](https://github.com/google/marl) |
+| License | Apache-2.0 |
+| Versions | 2025.02.23 |
+| Architectures | arm64, x86_64 |
+| Definition | [marl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos marl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("marl")
+```
+
+
 ### matchit (iphoneos)
 
 
@@ -13967,7 +13991,7 @@ add_requires("mini")
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
 | License | MIT |
-| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22 |
+| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22, 0.11.23 |
 | Architectures | arm64, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
@@ -16595,7 +16619,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://p11-glue.github.io/p11-glue/p11-kit.html](https://p11-glue.github.io/p11-glue/p11-kit.html) |
 | License | BSD-3-Clause |
-| Versions | 0.25.5 |
+| Versions | 0.25.5, 0.25.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [p11-kit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/p11-kit/xmake.lua) |
 
@@ -16881,7 +16905,7 @@ add_requires("pedeps")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 3.2.2, 3.2.5, 3.2.7, 3.2.8 |
+| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
@@ -20655,7 +20679,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+300, 3.50.0+400, 3.50.0+0, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+0, 3.50.0+100, 3.50.0+200 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -24069,6 +24093,30 @@ xrepo install -p iphoneos xxhash
 
 ```lua
 add_requires("xxhash")
+```
+
+
+### xxmlxx (iphoneos)
+
+
+| Description | *A very lightweight and efficient modern C++ xml library* |
+| -- | -- |
+| Homepage | [https://github.com/luckydu-henry/xxmlxx](https://github.com/luckydu-henry/xxmlxx) |
+| License | MIT |
+| Versions | 2025.09.14 |
+| Architectures | arm64, x86_64 |
+| Definition | [xxmlxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxmlxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos xxmlxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xxmlxx")
 ```
 
 

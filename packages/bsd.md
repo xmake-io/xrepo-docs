@@ -11537,7 +11537,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, 1.4, v1.4, 1.5, v1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | v1.3.1, 1.3.1, v1.4, 1.4, v1.5, 1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -12776,7 +12776,7 @@ add_requires("libunistring")
 | -- | -- |
 | Homepage | [https://www.nongnu.org/libunwind/](https://www.nongnu.org/libunwind/) |
 | License | MIT |
-| Versions | v1.5, v1.6.2, v1.7.2, v1.8.0, v1.8.1, v1.8.2 |
+| Versions | v1.5, v1.6.2, v1.7.2, v1.8.0, v1.8.1, v1.8.2, v1.8.3 |
 | Architectures | i386, x86_64 |
 | Definition | [libunwind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libunwind/xmake.lua) |
 
@@ -14550,6 +14550,30 @@ add_requires("marisa")
 ```
 
 
+### marl (bsd)
+
+
+| Description | *A hybrid thread / fiber task scheduler written in C++ 11* |
+| -- | -- |
+| Homepage | [https://github.com/google/marl](https://github.com/google/marl) |
+| License | Apache-2.0 |
+| Versions | 2025.02.23 |
+| Architectures | i386, x86_64 |
+| Definition | [marl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install marl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("marl")
+```
+
+
 ### matchit (bsd)
 
 
@@ -15154,7 +15178,7 @@ add_requires("mini")
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
 | License | MIT |
-| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22 |
+| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22, 0.11.23 |
 | Architectures | i386, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
@@ -17853,7 +17877,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://p11-glue.github.io/p11-glue/p11-kit.html](https://p11-glue.github.io/p11-glue/p11-kit.html) |
 | License | BSD-3-Clause |
-| Versions | 0.25.5 |
+| Versions | 0.25.5, 0.25.8 |
 | Architectures | i386, x86_64 |
 | Definition | [p11-kit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/p11-kit/xmake.lua) |
 
@@ -18187,7 +18211,7 @@ add_requires("pedeps")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 3.2.2, 3.2.5, 3.2.7, 3.2.8 |
+| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8 |
 | Architectures | i386, x86_64 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
@@ -21957,7 +21981,7 @@ add_requires("sqlgen")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+300, 3.50.0+100, 3.50.0+0, 3.50.0+400, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+300, 3.50.0+400, 3.50.0+100, 3.50.0+0, 3.50.0+200 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -23886,6 +23910,30 @@ add_requires("tobiaslocker_base64")
 ```
 
 
+### token (bsd)
+
+
+| Description | *Utilities for string tokenization. Tokens (string hashes) can be used in place of the strings themselves for fast dictionary key lookup in the place of length string comparators and improve security when used carefully to avoid unnecessary string processing.* |
+| -- | -- |
+| Homepage | [https://gitlab.kitware.com/utils/token](https://gitlab.kitware.com/utils/token) |
+| License | BSD-3-Clause |
+| Versions | 24.09.0 |
+| Architectures | i386, x86_64 |
+| Definition | [token/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/token/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install token
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("token")
+```
+
+
 ### toml++ (bsd)
 
 
@@ -25628,6 +25676,30 @@ xrepo install xxhash
 
 ```lua
 add_requires("xxhash")
+```
+
+
+### xxmlxx (bsd)
+
+
+| Description | *A very lightweight and efficient modern C++ xml library* |
+| -- | -- |
+| Homepage | [https://github.com/luckydu-henry/xxmlxx](https://github.com/luckydu-henry/xxmlxx) |
+| License | MIT |
+| Versions | 2025.09.14 |
+| Architectures | i386, x86_64 |
+| Definition | [xxmlxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxmlxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xxmlxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xxmlxx")
 ```
 
 

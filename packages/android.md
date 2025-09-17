@@ -11392,7 +11392,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, v1.4, 1.4, v1.5, 1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | v1.3.1, 1.3.1, 1.4, v1.4, 1.5, v1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -14155,6 +14155,30 @@ add_requires("marisa")
 ```
 
 
+### marl (android)
+
+
+| Description | *A hybrid thread / fiber task scheduler written in C++ 11* |
+| -- | -- |
+| Homepage | [https://github.com/google/marl](https://github.com/google/marl) |
+| License | Apache-2.0 |
+| Versions | 2025.02.23 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [marl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] marl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("marl")
+```
+
+
 ### matchit (android)
 
 
@@ -14711,7 +14735,7 @@ add_requires("mini")
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
 | License | MIT |
-| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22 |
+| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22, 0.11.23 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
@@ -17744,7 +17768,7 @@ add_requires("pedeps")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 3.2.2, 3.2.5, 3.2.7, 3.2.8 |
+| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
@@ -21757,7 +21781,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+400, 3.50.0+0, 3.50.0+300, 3.50.0+100, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+100, 3.50.0+300, 3.50.0+400, 3.50.0+200 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -25227,7 +25251,7 @@ add_requires("wolfssl")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3, v0.11.4, v0.11.9 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3, v0.11.4, v0.11.9, v0.11.11 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
 
@@ -25649,6 +25673,30 @@ xrepo install -p android [--ndk=/xxx] xxhash
 
 ```lua
 add_requires("xxhash")
+```
+
+
+### xxmlxx (android)
+
+
+| Description | *A very lightweight and efficient modern C++ xml library* |
+| -- | -- |
+| Homepage | [https://github.com/luckydu-henry/xxmlxx](https://github.com/luckydu-henry/xxmlxx) |
+| License | MIT |
+| Versions | 2025.09.14 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [xxmlxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxmlxx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] xxmlxx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xxmlxx")
 ```
 
 
