@@ -2155,6 +2155,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("audiofile")
 </code></pre>
+<h3 id="auditlinux">audit (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Userspace components of the audit framework.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td>%s</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v4.1.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/audit/xmake.lua">audit/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install audit
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("audit")
+</code></pre>
 <h3 id="auroraaulinux">aurora-au (linux)</h3>
 <table>
 <thead>
@@ -6155,6 +6188,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("charls")
+</code></pre>
+<h3 id="checkpolicylinux">checkpolicy (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SELinux policy compiler.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/SELinuxProject/selinux">https://github.com/SELinuxProject/selinux</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.9</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/c/checkpolicy/xmake.lua">checkpolicy/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install checkpolicy
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("checkpolicy")
 </code></pre>
 <h3 id="chipmunk2dlinux">chipmunk2d (linux)</h3>
 <table>
@@ -24130,6 +24200,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libcap")
 </code></pre>
+<h3 id="libcapnglinux">libcap-ng (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Libcap-ng is a library for Linux that makes using posix capabilities easy.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/stevegrubb/libcap-ng">https://github.com/stevegrubb/libcap-ng</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v0.8.5</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcap-ng/xmake.lua">libcap-ng/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libcap-ng
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libcap-ng")
+</code></pre>
 <h3 id="libcborlinux">libcbor (linux)</h3>
 <table>
 <thead>
@@ -27950,7 +28053,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2</td>
+<td>v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -29423,6 +29526,113 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libsdl_ttf")
+</code></pre>
+<h3 id="libselinuxlinux">libselinux (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SELinux library and simple utilities.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/SELinuxProject/selinux">https://github.com/SELinuxProject/selinux</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.9</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libselinux/xmake.lua">libselinux/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libselinux
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libselinux")
+</code></pre>
+<h3 id="libsemanagelinux">libsemanage (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SELinux binary policy manipulation library.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/SELinuxProject/selinux">https://github.com/SELinuxProject/selinux</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.9</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsemanage/xmake.lua">libsemanage/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libsemanage
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsemanage")
+</code></pre>
+<h3 id="libsepollinux">libsepol (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SELinux binary policy manipulation library.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/SELinuxProject/selinux">https://github.com/SELinuxProject/selinux</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.9</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsepol/xmake.lua">libsepol/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libsepol
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsepol")
 </code></pre>
 <h3 id="libsigclinux">libsigc++ (linux)</h3>
 <table>
@@ -45061,6 +45271,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("poco")
 </code></pre>
+<h3 id="policycoreutilslinux">policycoreutils (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SELinux policy core utilities.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/SELinuxProject/selinux">https://github.com/SELinuxProject/selinux</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.9</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/p/policycoreutils/xmake.lua">policycoreutils/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install policycoreutils
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("policycoreutils")
+</code></pre>
 <h3 id="poly2trilinux">poly2tri (linux)</h3>
 <table>
 <thead>
@@ -50482,6 +50725,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("seasocks")
 </code></pre>
+<h3 id="secilclinux">secilc (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SELinux Common Intermediate Language Compiler</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/SELinuxProject/selinux">https://github.com/SELinuxProject/selinux</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.9</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/secilc/xmake.lua">secilc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install secilc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("secilc")
+</code></pre>
 <h3 id="semistaticconditionslinux">semi-static-conditions (linux)</h3>
 <table>
 <thead>
@@ -52722,7 +52998,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+200, 3.50.0+400, 3.50.0+0, 3.50.0+100, 3.50.0+300</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -55207,7 +55483,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.7.2, v1.7.3, v1.8, v1.9</td>
+<td>v1.7.2, v1.7.3, v1.8, v1.9, v1.9.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -59998,7 +60274,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x556e240d3800</td>
+<td>table: 0x558a7468c840</td>
 </tr>
 <tr>
 <td>Versions</td>

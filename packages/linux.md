@@ -1344,6 +1344,29 @@ add_requires("audiofile")
 ```
 
 
+### audit (linux)
+
+
+| Description | *Userspace components of the audit framework.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| Versions | v4.1.2 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [audit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/audit/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install audit
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("audit")
+```
+
+
 ### aurora-au (linux)
 
 
@@ -3982,6 +4005,30 @@ xrepo install charls
 
 ```lua
 add_requires("charls")
+```
+
+
+### checkpolicy (linux)
+
+
+| Description | *SELinux policy compiler.* |
+| -- | -- |
+| Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
+| License | GPL-2.0 |
+| Versions | 3.9 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [checkpolicy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/checkpolicy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install checkpolicy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("checkpolicy")
 ```
 
 
@@ -15788,6 +15835,29 @@ add_requires("libcap")
 ```
 
 
+### libcap-ng (linux)
+
+
+| Description | *Libcap-ng is a library for Linux that makes using posix capabilities easy.* |
+| -- | -- |
+| Homepage | [https://github.com/stevegrubb/libcap-ng](https://github.com/stevegrubb/libcap-ng) |
+| Versions | v0.8.5 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libcap-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcap-ng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libcap-ng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libcap-ng")
+```
+
+
 ### libcbor (linux)
 
 
@@ -18294,7 +18364,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -19262,6 +19332,77 @@ xrepo install libsdl_ttf
 
 ```lua
 add_requires("libsdl_ttf")
+```
+
+
+### libselinux (linux)
+
+
+| Description | *SELinux library and simple utilities.* |
+| -- | -- |
+| Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
+| Versions | 3.9 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libselinux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libselinux/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libselinux
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libselinux")
+```
+
+
+### libsemanage (linux)
+
+
+| Description | *SELinux binary policy manipulation library.* |
+| -- | -- |
+| Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
+| License | LGPL-2.1 |
+| Versions | 3.9 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libsemanage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsemanage/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsemanage
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsemanage")
+```
+
+
+### libsepol (linux)
+
+
+| Description | *SELinux binary policy manipulation library.* |
+| -- | -- |
+| Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
+| License | LGPL-2.1 |
+| Versions | 3.9 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libsepol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsepol/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsepol
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsepol")
 ```
 
 
@@ -29568,6 +29709,29 @@ add_requires("poco")
 ```
 
 
+### policycoreutils (linux)
+
+
+| Description | *SELinux policy core utilities.* |
+| -- | -- |
+| Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
+| Versions | 3.9 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [policycoreutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/policycoreutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install policycoreutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("policycoreutils")
+```
+
+
 ### poly2tri (linux)
 
 
@@ -33141,6 +33305,29 @@ add_requires("seasocks")
 ```
 
 
+### secilc (linux)
+
+
+| Description | *SELinux Common Intermediate Language Compiler* |
+| -- | -- |
+| Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
+| Versions | 3.9 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [secilc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/secilc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install secilc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("secilc")
+```
+
+
 ### semi-static-conditions (linux)
 
 
@@ -34603,7 +34790,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+200, 3.50.0+400, 3.50.0+0, 3.50.0+100, 3.50.0+300 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -36229,7 +36416,7 @@ add_requires("tf_workstealingqueue")
 | -- | -- |
 | Homepage | [http://reo7sp.github.io/tgbot-cpp](http://reo7sp.github.io/tgbot-cpp) |
 | License | MIT |
-| Versions | v1.7.2, v1.7.3, v1.8, v1.9 |
+| Versions | v1.7.2, v1.7.3, v1.8, v1.9, v1.9.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tgbot-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tgbot-cpp/xmake.lua) |
 
@@ -39379,7 +39566,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x556e240d3800 |
+| License | table: 0x558a7468c840 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
