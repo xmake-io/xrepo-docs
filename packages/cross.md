@@ -9383,6 +9383,30 @@ add_requires("kdbindings")
 ```
 
 
+### kenlm (cross)
+
+
+| Description | *Faster and Smaller Language Model Queries.* |
+| -- | -- |
+| Homepage | [https://kheafield.com/code/kenlm/](https://kheafield.com/code/kenlm/) |
+| License | LGPL-2.1-or-later |
+| Versions | 2025.03.31 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [kenlm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kenlm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] kenlm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kenlm")
+```
+
+
 ### keystone (cross)
 
 
@@ -11252,7 +11276,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, 1.5.1, v1.5.1, v1.5.2, 1.5.2 |
+| Versions | v1.3.1, 1.3.1, 1.4, v1.4, v1.5, 1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -11576,6 +11600,30 @@ xrepo install -p cross [--sdk=/xxx] libremidi
 
 ```lua
 add_requires("libremidi")
+```
+
+
+### librime (cross)
+
+
+| Description | *Rime Input Method Engine, the core library* |
+| -- | -- |
+| Homepage | [https://rime.im](https://rime.im) |
+| License | BSD-3-Clause |
+| Versions | 1.14.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [librime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librime/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] librime
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("librime")
 ```
 
 
@@ -21133,7 +21181,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+300, 3.50.0+400, 3.50.0+0, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+200, 3.50.0+0, 3.50.0+100, 3.50.0+400, 3.50.0+300 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
