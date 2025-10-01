@@ -9276,7 +9276,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.2.1+1, v1.2.1+2</td>
+<td>v1.2.1+2, v1.2.1+1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -28238,7 +28238,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.1, 1.3.1, 1.4, v1.4, v1.5, 1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2</td>
+<td>v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -53335,7 +53335,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+400, 3.50.0+100, 3.50.0+300, 3.50.0+200, 3.50.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+300, 3.50.0+400</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -59032,6 +59032,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("v8")
 </code></pre>
+<h3 id="valijsonlinux">valijson (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Header-only C++ library for JSON Schema validation, with support for many popular parsers</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/tristanpenman/valijson">https://github.com/tristanpenman/valijson</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-2-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.0.6</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/v/valijson/xmake.lua">valijson/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install valijson
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("valijson")
+</code></pre>
 <h3 id="variantlitelinux">variant-lite (linux)</h3>
 <table>
 <thead>
@@ -60611,7 +60648,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x560fe280fca0</td>
+<td>table: 0x55f89b5dd100</td>
 </tr>
 <tr>
 <td>Versions</td>
