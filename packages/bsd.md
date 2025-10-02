@@ -10321,7 +10321,7 @@ add_requires("libcurl")
 | -- | -- |
 | Homepage | [https://libdatachannel.org/](https://libdatachannel.org/) |
 | License | MPL-2.0 |
-| Versions | v0.23.1 |
+| Versions | v0.23.1, v0.23.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libdatachannel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdatachannel/xmake.lua) |
 
@@ -11158,7 +11158,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1 |
+| Versions | v1.6.1, v1.6.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
@@ -11681,7 +11681,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, 1.4, v1.4, 1.5, v1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
+| Versions | 1.3.1, v1.3.1, 1.4, v1.4, v1.5, 1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -17586,6 +17586,30 @@ add_requires("openjpeg")
 ```
 
 
+### openjph (bsd)
+
+
+| Description | *Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K)* |
+| -- | -- |
+| Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
+| License | BSD-2-Clause |
+| Versions | 0.24.1 |
+| Architectures | i386, x86_64 |
+| Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openjph
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openjph")
+```
+
+
 ### openrestry-luajit (bsd)
 
 
@@ -20073,7 +20097,7 @@ add_requires("range-v3")
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
 | License | BSD-3-Clause |
-| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87, v8.88 |
+| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87, v8.88, v8.89 |
 | Architectures | i386, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
@@ -21483,7 +21507,7 @@ add_requires("simple_http")
 | -- | -- |
 | Homepage | [https://github.com/danmar/simplecpp](https://github.com/danmar/simplecpp) |
 | License | OBSD |
-| Versions | 1.5.1 |
+| Versions | 1.5.1, 1.5.2 |
 | Architectures | i386, x86_64 |
 | Definition | [simplecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplecpp/xmake.lua) |
 
@@ -22199,7 +22223,7 @@ add_requires("sqlgen")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+400, 3.50.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+300 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+100, 3.50.0+400, 3.50.0+0, 3.50.0+200, 3.50.0+300 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
