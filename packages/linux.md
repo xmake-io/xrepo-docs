@@ -920,7 +920,7 @@ add_requires("armadillo")
 | -- | -- |
 | Homepage | [https://arrayfire.org/](https://arrayfire.org/) |
 | License | BSD-3-Clause |
-| Versions | v3.9.0 |
+| Versions | v3.9.0, v3.10.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [arrayfire/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arrayfire/xmake.lua) |
 
@@ -2515,7 +2515,7 @@ add_requires("bison")
 | -- | -- |
 | Homepage | [https://github.com/fraillt/bitsery](https://github.com/fraillt/bitsery) |
 | License | MIT |
-| Versions | v5.2.3, v5.2.4 |
+| Versions | v5.2.3, v5.2.4, v5.2.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bitsery/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bitsery/xmake.lua) |
 
@@ -5424,7 +5424,7 @@ add_requires("cpp-peglib")
 | -- | -- |
 | Homepage | [https://github.com/basiliscos/cpp-rotor](https://github.com/basiliscos/cpp-rotor) |
 | License | MIT |
-| Versions | v0.30, v0.31, v0.32, v0.33, v0.34 |
+| Versions | v0.30, v0.31, v0.32, v0.33, v0.34, v0.35 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-rotor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-rotor/xmake.lua) |
 
@@ -11683,7 +11683,7 @@ add_requires("gmm")
 | -- | -- |
 | Homepage | [https://gmplib.org/](https://gmplib.org/) |
 | License | LGPL-3.0 |
-| Versions | 6.2.1, 6.3.0 |
+| Versions | 6.3.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gmp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmp/xmake.lua) |
 
@@ -14267,7 +14267,7 @@ add_requires("itstool")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3, v3.26.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -18580,7 +18580,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | v1.3.1, 1.3.1, 1.4, v1.4, 1.5, v1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -18914,7 +18914,7 @@ add_requires("libpq")
 | -- | -- |
 | Homepage | [http://pqxx.org/libpqxx/](http://pqxx.org/libpqxx/) |
 | License | BSD-3-Clause |
-| Versions | 7.7.0, 7.10.1, 7.10.2 |
+| Versions | 7.7.0, 7.10.1, 7.10.2, 7.10.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpqxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpqxx/xmake.lua) |
 
@@ -19033,7 +19033,7 @@ add_requires("libraqm")
 | -- | -- |
 | Homepage | [https://github.com/DEgITx/librats](https://github.com/DEgITx/librats) |
 | License | MIT |
-| Versions | 0.1.5, 0.2.1, 0.3.0 |
+| Versions | 0.1.5, 0.2.1, 0.3.0, 0.3.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [librats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librats/xmake.lua) |
 
@@ -24687,7 +24687,7 @@ add_requires("mmeter")
 | -- | -- |
 | Homepage | [https://www.mnn.zone/](https://www.mnn.zone/) |
 | License | Apache-2.0 |
-| Versions | 1.2.1, 1.2.2, 3.0.5, 3.1.1 |
+| Versions | 1.2.1, 1.2.2, 3.0.5, 3.1.1, 3.2.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mnn/xmake.lua) |
 
@@ -27715,7 +27715,7 @@ add_requires("opencv-mobile")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -35152,7 +35152,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+400, 3.50.0+100, 3.50.0+200, 3.50.0+300, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+300, 3.50.0+100, 3.50.0+0, 3.50.0+400 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -39952,7 +39952,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5618bb403e20 |
+| License | table: 0x56503d010b70 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
