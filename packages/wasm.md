@@ -150,7 +150,7 @@ add_requires("aklomp-base64")
 | -- | -- |
 | Homepage | [https://alembic.io/](https://alembic.io/) |
 | License | BSD-3-Clause |
-| Versions | 1.8.5, 1.8.6, 1.8.7, 1.8.8 |
+| Versions | 1.8.5, 1.8.6, 1.8.7, 1.8.8, 1.8.9 |
 | Architectures | wasm32, wasm64 |
 | Definition | [alembic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alembic/xmake.lua) |
 
@@ -6152,6 +6152,30 @@ add_requires("genie")
 ```
 
 
+### geos (wasm)
+
+
+| Description | *GEOS (Geometry Engine - Open Source) is a C++ port of the JTS Topology Suite (JTS).* |
+| -- | -- |
+| Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
+| License | LGPL-2.1 |
+| Versions | 3.9.1, 3.11.3, 3.12.1, 3.13.0, 3.13.1, 3.14.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm geos
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geos")
+```
+
+
 ### gflags (wasm)
 
 
@@ -7305,7 +7329,7 @@ add_requires("ifort")
 | -- | -- |
 | Homepage | [https://igraph.org](https://igraph.org) |
 | License | GPL-2.0 |
-| Versions | 0.10.15, 0.10.16 |
+| Versions | 0.10.15, 0.10.16, 1.0.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [igraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/igraph/xmake.lua) |
 
@@ -9723,7 +9747,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
+| Versions | v1.3.1, 1.3.1, 1.4, v1.4, v1.5, 1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -18634,7 +18658,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+400, 3.50.0+300, 3.50.0+100, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+400, 3.50.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 

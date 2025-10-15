@@ -320,7 +320,7 @@ add_requires("alcatraz")
 | -- | -- |
 | Homepage | [https://alembic.io/](https://alembic.io/) |
 | License | BSD-3-Clause |
-| Versions | 1.8.5, 1.8.6, 1.8.7, 1.8.8 |
+| Versions | 1.8.5, 1.8.6, 1.8.7, 1.8.8, 1.8.9 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [alembic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alembic/xmake.lua) |
 
@@ -12576,7 +12576,7 @@ add_requires("ignite3")
 | -- | -- |
 | Homepage | [https://igraph.org](https://igraph.org) |
 | License | GPL-2.0 |
-| Versions | 0.10.15, 0.10.16 |
+| Versions | 0.10.15, 0.10.16, 1.0.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [igraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/igraph/xmake.lua) |
 
@@ -16614,7 +16614,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, 1.4, v1.4, v1.5, 1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
+| Versions | v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -30092,7 +30092,7 @@ add_requires("sentencepiece")
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.4, 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2 |
+| Versions | 0.4.4, 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3 |
 | Architectures | x64, x86 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
@@ -31380,7 +31380,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+300, 3.50.0+100, 3.50.0+400, 3.50.0+200, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+100, 3.50.0+400, 3.50.0+200, 3.50.0+300, 3.50.0+0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
