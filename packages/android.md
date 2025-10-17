@@ -10408,6 +10408,30 @@ add_requires("libdisasm")
 ```
 
 
+### libdispatch (android)
+
+
+| Description | *The libdispatch Project, (a.k.a. Grand Central Dispatch), for concurrency on multicore hardware* |
+| -- | -- |
+| Homepage | [swift.org](swift.org) |
+| License | Apache-2.0 |
+| Versions | 6.1.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [libdispatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdispatch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libdispatch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libdispatch")
+```
+
+
 ### libdivide (android)
 
 
@@ -11607,7 +11631,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, 1.4, v1.4, 1.5, v1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
+| Versions | 1.3.1, v1.3.1, 1.4, v1.4, v1.5, 1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -13852,7 +13876,7 @@ add_requires("luajit")
 | -- | -- |
 | Homepage | [https://www.luau.org/](https://www.luau.org/) |
 | License | MIT |
-| Versions | 0.538, 0.623, 0.624, 0.638, 0.640, 0.642, 0.643, 0.683, 0.686, 0.689, 0.691, 0.693 |
+| Versions | 0.538, 0.623, 0.624, 0.638, 0.640, 0.642, 0.643, 0.683, 0.686, 0.689, 0.691, 0.693, 0.695 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
 
@@ -22142,7 +22166,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+300, 3.50.0+0, 3.50.0+400, 3.50.0+100, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+100, 3.50.0+400, 3.50.0+300, 3.50.0+200 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -23436,7 +23460,7 @@ add_requires("tiny-aes-c")
 | -- | -- |
 | Homepage | [https://github.com/Sedeniono/tiny-optional](https://github.com/Sedeniono/tiny-optional) |
 | License | BSL-1.0 |
-| Versions | v1.2.0, v1.2.1, v1.3.1, v1.4.0 |
+| Versions | v1.2.0, v1.2.1, v1.3.1, v1.4.0, v1.5.2 |
 | Architectures | mip64, mips, riscv64, x86, x86_64 |
 | Definition | [tiny-optional/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiny-optional/xmake.lua) |
 
