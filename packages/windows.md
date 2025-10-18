@@ -1588,7 +1588,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -3852,7 +3852,7 @@ add_requires("chromium_zlib")
 | -- | -- |
 | Homepage | [https://cimg.eu/](https://cimg.eu/) |
 | License | CeCILL-C |
-| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2, v3.4.3, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.5.5, v3.6.0, v3.6.1, v3.6.2 |
+| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2, v3.4.3, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.5.5, v3.6.0, v3.6.1, v3.6.2, v3.6.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cimg/xmake.lua) |
 
@@ -5691,7 +5691,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2, v1.3.0 |
+| Versions | v1.2.1+2, v1.2.1+1, v1.3.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -16662,7 +16662,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, v1.4, 1.4, v1.5, 1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | 1.3.1, v1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -19427,7 +19427,7 @@ add_requires("luasocket")
 | -- | -- |
 | Homepage | [https://www.luau.org/](https://www.luau.org/) |
 | License | MIT |
-| Versions | 0.538, 0.623, 0.624, 0.638, 0.640, 0.642, 0.643, 0.683, 0.686, 0.689, 0.691, 0.693, 0.695 |
+| Versions | 0.538, 0.623, 0.624, 0.638, 0.640, 0.642, 0.643, 0.683, 0.686, 0.689, 0.691, 0.693, 0.695, 696 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [luau/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luau/xmake.lua) |
 
@@ -31476,7 +31476,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+200, 3.50.0+300, 3.50.0+400, 3.50.0+0, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+200, 3.50.0+300, 3.50.0+0, 3.50.0+400, 3.50.0+100 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
