@@ -4406,7 +4406,7 @@ add_requires("dlib")
 | -- | -- |
 | Homepage | [https://dmlc.github.io/dlpack/latest](https://dmlc.github.io/dlpack/latest) |
 | License | Apache-2.0 |
-| Versions | v0.8, v1.0, v1.1 |
+| Versions | v0.8, v1.0, v1.1, v1.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [dlpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlpack/xmake.lua) |
 
@@ -5320,7 +5320,7 @@ add_requires("faker-cxx")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1 |
+| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -9795,7 +9795,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
+| Versions | v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -18754,7 +18754,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+400, 3.50.0+0, 3.50.0+200, 3.50.0+300, 3.50.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+100, 3.50.0+0, 3.50.0+200, 3.50.0+400, 3.50.0+300 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22443,7 +22443,7 @@ add_requires("zstd")
 | -- | -- |
 | Homepage | [https://github.com/mateidavid/zstr](https://github.com/mateidavid/zstr) |
 | License | MIT |
-| Versions | v1.0.7 |
+| Versions | v1.0.7, v1.1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [zstr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zstr/xmake.lua) |
 
