@@ -8482,6 +8482,30 @@ add_requires("fadec")
 ```
 
 
+### faiss (macosx)
+
+
+| Description | *A library for efficient similarity search and clustering of dense vectors.* |
+| -- | -- |
+| Homepage | [https://github.com/facebookresearch/faiss/](https://github.com/facebookresearch/faiss/) |
+| License | MIT |
+| Versions | v1.7.0, v1.12.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [faiss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faiss/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install faiss
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("faiss")
+```
+
+
 ### fakeit (macosx)
 
 
@@ -16110,7 +16134,7 @@ add_requires("libhubbub")
 | -- | -- |
 | Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
 | License | BSD-3-Clause |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.2.1, v1.2.2, v1.2.3, v1.2.4, v1.2.6, v1.3.0, v1.3.1, v1.3.2, v1.3.3 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.2.1, v1.2.2, v1.2.3, v1.2.4, v1.2.6, v1.3.0, v1.3.1, v1.3.2, v1.3.3, v1.3.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
 
@@ -17153,7 +17177,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, 1.4, v1.4, v1.5, 1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
+| Versions | 1.3.1, v1.3.1, v1.4, 1.4, v1.5, 1.5, 1.5.1, v1.5.1, v1.5.2, 1.5.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -31495,7 +31519,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2, v3.12.3, v4.0.6 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2, v3.12.3, v4.0.6, v4.0.7 |
 | Architectures | x86_64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
@@ -32473,7 +32497,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+300, 3.50.0+100, 3.50.0+400, 3.50.0+200, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+400, 3.50.0+300 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -36964,7 +36988,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559471c27630 |
+| License | table: 0x55f75c5b2950 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
