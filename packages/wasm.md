@@ -9191,6 +9191,30 @@ add_requires("libenvpp")
 ```
 
 
+### libepoxy (wasm)
+
+
+| Description | *Epoxy is a library for handling OpenGL function pointer management for you.* |
+| -- | -- |
+| Homepage | [https://download.gnome.org/sources/libepoxy/](https://download.gnome.org/sources/libepoxy/) |
+| License | MIT |
+| Versions | 1.5.9, 1.5.10 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libepoxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libepoxy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libepoxy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libepoxy")
+```
+
+
 ### libevent (wasm)
 
 
@@ -9843,7 +9867,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, 1.4, v1.4, 1.5, v1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
+| Versions | 1.3.1, v1.3.1, 1.4, v1.4, 1.5, v1.5, 1.5.1, v1.5.1, v1.5.2, 1.5.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -18851,7 +18875,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+400, 3.50.0+100, 3.50.0+200, 3.50.0+300, 3.50.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+200, 3.50.0+0, 3.50.0+400, 3.50.0+100, 3.50.0+300 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -20910,7 +20934,7 @@ add_requires("udt")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.18.2, v0.20.0 |
+| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.18.2, v0.20.0, v0.20.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
