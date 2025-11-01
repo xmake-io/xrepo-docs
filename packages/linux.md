@@ -1802,7 +1802,7 @@ add_requires("aws-c-mqtt")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -6069,7 +6069,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1, v1.3.0 |
+| Versions | v1.2.1+1, v1.2.1+2, v1.3.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -9922,7 +9922,7 @@ add_requires("flatcc")
 | -- | -- |
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
-| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10, v3.2.11, v3.2.12, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.1.0, v4.1.1 |
+| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10, v3.2.11, v3.2.12, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.1.0, v4.1.1, v4.1.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
@@ -10111,7 +10111,7 @@ add_requires("fmi4cpp")
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
 | License | MIT |
-| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2, 11.1.0, 11.1.1, 11.1.2, 11.1.3, 11.1.4, 11.2.0, 12.0.0 |
+| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2, 11.1.0, 11.1.1, 11.1.2, 11.1.3, 11.1.4, 11.2.0, 12.0.0, 12.1.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -18676,7 +18676,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, 1.4, v1.4, 1.5, v1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | v1.3.1, 1.3.1, 1.4, v1.4, 1.5, v1.5, 1.5.1, v1.5.1, v1.5.2, 1.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -33913,7 +33913,7 @@ add_requires("sentencepiece")
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
 | Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.4, 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3 |
+| Versions | 0.4.4, 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
@@ -35321,7 +35321,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+300, 3.50.0+400, 3.50.0+0, 3.50.0+100, 3.50.0+200 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+0, 3.50.0+100 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -38523,7 +38523,7 @@ add_requires("universal_stacktrace")
 | -- | -- |
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
-| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4, v4.4.0, v4.5.0, v4.6.0, v4.7.0 |
+| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4, v4.4.0, v4.5.0, v4.6.0, v4.7.0, v4.8.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 
@@ -40121,7 +40121,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56254e7d2940 |
+| License | table: 0x556755627210 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
