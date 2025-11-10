@@ -679,7 +679,7 @@ add_requires("asap")
 | -- | -- |
 | Homepage | [https://asbind20.readthedocs.io/](https://asbind20.readthedocs.io/) |
 | License | MIT |
-| Versions | 1.6.0, 1.7.0, 1.7.1 |
+| Versions | 1.6.0, 1.7.0, 1.7.1, 1.8.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [asbind20/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asbind20/xmake.lua) |
 
@@ -1084,7 +1084,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -4164,7 +4164,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2, v1.3.0 |
+| Versions | v1.2.1+2, v1.2.1+1, v1.3.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -16814,7 +16814,7 @@ add_requires("ntkernel-error-category")
 | -- | -- |
 | Homepage | [https://immediate-mode-ui.github.io/Nuklear/doc/index.html](https://immediate-mode-ui.github.io/Nuklear/doc/index.html) |
 | License | MIT |
-| Versions | 4.10.5, 4.12.0, 4.12.2, 4.12.3, 4.12.4, 4.12.5, 4.12.6, 4.12.7 |
+| Versions | 4.10.5, 4.12.0, 4.12.2, 4.12.3, 4.12.4, 4.12.5, 4.12.6, 4.12.7, 4.12.8 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [nuklear/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nuklear/xmake.lua) |
 
@@ -22311,7 +22311,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+300, 3.50.0+100, 3.50.0+200, 3.50.0+400, 3.50.0+0, 3.51.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+400, 3.50.0+200, 3.50.0+100, 3.50.0+300, 3.50.0+0, 3.51.0+0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
