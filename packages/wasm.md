@@ -9126,7 +9126,7 @@ add_requires("libdom")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0, 2.2.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -9915,7 +9915,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | 1.3.1, v1.3.1, v1.4, 1.4, 1.5, v1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -18947,7 +18947,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+400, 3.50.0+100, 3.50.0+300, 3.50.0+0, 3.51.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+200, 3.50.0+0, 3.50.0+300, 3.50.0+400, 3.50.0+100, 3.51.0+0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22421,7 +22421,7 @@ add_requires("zeus_expected")
 | -- | -- |
 | Homepage | [https://ziglang.org](https://ziglang.org) |
 | License | MIT |
-| Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0, 0.14.0, 0.15.1 |
+| Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0, 0.14.0, 0.15.1, 0.15.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
 

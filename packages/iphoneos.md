@@ -1035,7 +1035,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -9048,7 +9048,7 @@ add_requires("json-c")
 | Description | *JSON schema validator for JSON for Modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
-| Versions | 2.1.0, 2.3.0 |
+| Versions | 2.1.0, 2.3.0, 2.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
 
@@ -10102,7 +10102,7 @@ add_requires("libdom")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0, 2.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -11081,7 +11081,7 @@ add_requires("libogg")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, 1.4, v1.4, v1.5, 1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
+| Versions | 1.3.1, v1.3.1, 1.4, v1.4, v1.5, 1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -21185,7 +21185,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+300, 3.50.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+400, 3.51.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+400, 3.50.0+100, 3.50.0+300, 3.50.0+200, 3.50.0+0, 3.51.0+0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -24970,7 +24970,7 @@ add_requires("zeus_expected")
 | -- | -- |
 | Homepage | [https://ziglang.org](https://ziglang.org) |
 | License | MIT |
-| Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0, 0.14.0, 0.15.1 |
+| Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0, 0.14.0, 0.15.1, 0.15.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [zig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zig/xmake.lua) |
 
