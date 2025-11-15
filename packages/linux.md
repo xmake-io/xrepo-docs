@@ -18581,7 +18581,7 @@ add_requires("libnpy-matajoh")
 | -- | -- |
 | Homepage | [https://libntl.org/](https://libntl.org/) |
 | License | LGPL-2.1 |
-| Versions | v11.5.1 |
+| Versions | v11.5.1, v11.6.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libntl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libntl/xmake.lua) |
 
@@ -18700,7 +18700,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, v1.4, 1.4, v1.5, 1.5, 1.5.1, v1.5.1, v1.5.2, 1.5.2 |
+| Versions | 1.3.1, v1.3.1, 1.4, v1.4, v1.5, 1.5, v1.5.1, 1.5.1, v1.5.2, 1.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -27566,6 +27566,30 @@ add_requires("onedpl")
 ```
 
 
+### oneshot (linux)
+
+
+| Description | *A single-header scheduler aware C++ oneshot channel.* |
+| -- | -- |
+| Homepage | [https://github.com/ashtum/oneshot](https://github.com/ashtum/oneshot) |
+| License | BSL-1.0 |
+| Versions | 2025.11.14 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [oneshot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/oneshot/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install oneshot
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("oneshot")
+```
+
+
 ### oniguruma (linux)
 
 
@@ -35393,7 +35417,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+200, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+300, 3.50.0+400, 3.51.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+100, 3.50.0+400, 3.50.0+300, 3.50.0+0, 3.51.0+0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -40193,7 +40217,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e164c86e90 |
+| License | table: 0x55e58995ccb0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
