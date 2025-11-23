@@ -1156,7 +1156,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11 |
 | Architectures | arm, arm64, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -1180,7 +1180,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5 |
+| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6 |
 | Architectures | arm, arm64, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -2493,7 +2493,7 @@ add_requires("c-vector")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6 |
+| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -8000,7 +8000,7 @@ add_requires("glad")
 | -- | -- |
 | Homepage | [https://github.com/stephenberry/glaze](https://github.com/stephenberry/glaze) |
 | License | MIT |
-| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2, v4.4.3, v5.0.2, v5.1.0, v5.1.2, v5.2.0, v5.2.1, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.5.0, v5.5.1, v5.5.2, v5.5.4, v5.5.5, v5.6.0, v5.7.1, v6.0.0, v6.0.1, v6.0.2, v6.0.3 |
+| Versions | v1.3.5, v2.2.0, v2.3.1, v2.4.2, v2.4.4, v2.5.3, v2.6.4, v2.7.0, v2.9.5, v3.1.7, v3.3.2, v3.6.0, v3.6.2, v4.0.1, v4.2.2, v4.4.2, v4.4.3, v5.0.2, v5.1.0, v5.1.2, v5.2.0, v5.2.1, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.5.0, v5.5.1, v5.5.2, v5.5.4, v5.5.5, v5.6.0, v5.7.1, v6.0.0, v6.0.1, v6.0.2, v6.0.3, v6.1.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [glaze/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glaze/xmake.lua) |
 
@@ -11393,7 +11393,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20, v1.21, v1.22, v1.23, v1.24 |
+| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20, v1.21, v1.22, v1.23, v1.24, v1.25 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -12658,7 +12658,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, v1.4, 1.4, 1.5, v1.5, 1.5.1, v1.5.1, v1.5.2, 1.5.2 |
+| Versions | 1.3.1, v1.3.1, 1.4, v1.4, v1.5, 1.5, 1.5.1, v1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -14166,7 +14166,7 @@ add_requires("libwebsockets")
 | -- | -- |
 | Homepage | [https://github.com/besser82/libxcrypt](https://github.com/besser82/libxcrypt) |
 | License | GPL-2.0-or-later |
-| Versions | 4.4.38 |
+| Versions | 4.4.38, 4.5.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libxcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcrypt/xmake.lua) |
 
@@ -15141,7 +15141,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -17673,7 +17673,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -20372,7 +20372,7 @@ add_requires("portaudio")
 | Description | *portmidi is a cross-platform MIDI input/output library* |
 | -- | -- |
 | Homepage | [https://github.com/PortMidi/portmidi](https://github.com/PortMidi/portmidi) |
-| Versions | v2.0.4, v2.0.6 |
+| Versions | v2.0.4, v2.0.6, v2.0.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [portmidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/portmidi/xmake.lua) |
 
@@ -20823,7 +20823,7 @@ add_requires("python2")
 | -- | -- |
 | Homepage | [https://github.com/laurencelundblade/QCBOR](https://github.com/laurencelundblade/QCBOR) |
 | License | BSD-3-Clause |
-| Versions | v1.4.1, v1.5.1, v1.5.3 |
+| Versions | v1.4.1, v1.5.1, v1.5.3, v1.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [qcbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qcbor/xmake.lua) |
 
@@ -23929,7 +23929,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+400, 3.50.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+300, 3.51.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+100, 3.47.0+0, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+100, 3.50.0+300, 3.50.0+0, 3.50.0+400, 3.50.0+200, 3.51.0+0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -27852,7 +27852,7 @@ add_requires("xege")
 | -- | -- |
 | Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
 | License | Apache-2.0 |
-| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26 |
+| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
 
