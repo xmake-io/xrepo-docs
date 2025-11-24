@@ -4211,7 +4211,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2, v1.3.0 |
+| Versions | v1.2.1+2, v1.2.1+1, v1.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -11417,7 +11417,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | v1.3.1, 1.3.1, v1.4, 1.4, 1.5, v1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
+| Versions | v1.3.1, 1.3.1, 1.4, v1.4, v1.5, 1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -11583,9 +11583,9 @@ add_requires("libplist")
 
 | Description | *The official PNG reference library* |
 | -- | -- |
-| Homepage | [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html) |
+| Homepage | [https://www.libpng.org/pub/png/libpng.html](https://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50 |
+| Versions | v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50, v1.6.51 |
 | Architectures | i386, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -21303,7 +21303,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+100, 3.47.0+200, 3.47.0+0, 3.48.0+0, 3.49.0+0, 3.49.0+200, 3.49.0+100, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.50.0+300, 3.50.0+400, 3.51.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+0, 3.49.0+200, 3.50.0+300, 3.50.0+200, 3.50.0+0, 3.50.0+100, 3.50.0+400, 3.51.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -23909,7 +23909,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
 | License | MIT |
-| Versions | v2.7.0, v2.8.0, v2.9.0, v2.10.0, v2.11.0, v2.11.1 |
+| Versions | v2.7.0, v2.8.0, v2.9.0, v2.10.0, v2.11.0, v2.11.1, v2.11.2 |
 | Architectures | i386, x86_64 |
 | Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
 
