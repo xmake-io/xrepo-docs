@@ -10371,7 +10371,7 @@ add_requires("freeimage")
 | -- | -- |
 | Homepage | [http://www.freerdp.com](http://www.freerdp.com) |
 | License | Apache-2.0 |
-| Versions | 3.15.0, 3.16.0, 3.17.2 |
+| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freerdp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freerdp/xmake.lua) |
 
@@ -18747,7 +18747,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, 1.4, v1.4, 1.5, v1.5, 1.5.1, v1.5.1, v1.5.2, 1.5.2 |
+| Versions | 1.3.1, v1.3.1, 1.4, v1.4, 1.5, v1.5, v1.5.1, 1.5.1, 1.5.2, v1.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -26471,7 +26471,7 @@ add_requires("ng-log")
 | -- | -- |
 | Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
 | License | MIT |
-| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1, 1.63.0, 1.64.0, 1.65.0, 1.66.0, 1.67.0, 1.67.1 |
+| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1, 1.63.0, 1.64.0, 1.65.0, 1.66.0, 1.67.0, 1.67.1, 1.68.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
 
@@ -32246,7 +32246,7 @@ add_requires("range-v3")
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
 | License | BSD-3-Clause |
-| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87, v8.88, v8.89 |
+| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87, v8.88, v8.89, v8.90 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
@@ -33654,7 +33654,7 @@ add_requires("rxcpp")
 | -- | -- |
 | Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
 | License | Apache-2.0 |
-| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10, v1.5.12, v1.5.14, v1.5.15, v1.5.17, v1.5.21, v1.5.23, v1.5.25 |
+| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10, v1.5.12, v1.5.14, v1.5.15, v1.5.17, v1.5.21, v1.5.23, v1.5.25, v1.6.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
 
@@ -34510,7 +34510,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6, v7.4.0, v7.5.0 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6, v7.4.0, v7.5.0, v7.7.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -35488,7 +35488,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+300, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+100, 3.49.0+200, 3.49.0+0, 3.50.0+200, 3.50.0+400, 3.50.0+300, 3.50.0+0, 3.50.0+100, 3.51.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+400, 3.50.0+0, 3.51.0+0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -38522,7 +38522,7 @@ add_requires("udt")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.18.2, v0.20.0, v0.20.1 |
+| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.18.2, v0.20.0, v0.20.1, v0.21.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
@@ -40288,7 +40288,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5632b30b7c90 |
+| License | table: 0x5561c0cfa460 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
