@@ -245,7 +245,7 @@ add_requires("amqp-cpp")
 | Description | *AMReX: Software Framework for Block Structured AMR* |
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
-| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09 |
+| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09, 25.11 |
 | Architectures | i386, x86_64 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
@@ -4211,7 +4211,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+2, v1.2.1+1, v1.3.0 |
+| Versions | v1.2.1+1, v1.2.1+2, v1.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -5889,7 +5889,7 @@ add_requires("enkits")
 | -- | -- |
 | Homepage | [https://github.com/skypjack/entt](https://github.com/skypjack/entt) |
 | License | MIT |
-| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1, v3.13.2, v3.14.0, v3.15.0 |
+| Versions | v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.10.1, v3.10.3, v3.11.0, v3.11.1, v3.12.1, v3.12.2, v3.13.0, v3.13.1, v3.13.2, v3.14.0, v3.15.0, v3.16.0 |
 | Architectures | i386, x86_64 |
 | Definition | [entt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/entt/xmake.lua) |
 
@@ -11417,7 +11417,7 @@ add_requires("libomp")
 | -- | -- |
 | Homepage | [https://opus-codec.org](https://opus-codec.org) |
 | License | BSD-3-Clause |
-| Versions | 1.3.1, v1.3.1, v1.4, 1.4, 1.5, v1.5, 1.5.1, v1.5.1, v1.5.2, 1.5.2 |
+| Versions | 1.3.1, v1.3.1, v1.4, 1.4, v1.5, 1.5, 1.5.1, v1.5.1, v1.5.2, 1.5.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libopus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopus/xmake.lua) |
 
@@ -16358,7 +16358,7 @@ add_requires("npcap_sdk")
 | -- | -- |
 | Homepage | [https://github.com/google/nsync](https://github.com/google/nsync) |
 | License | Apache-2.0 |
-| Versions | 1.28.1, 1.29.1, 1.29.2 |
+| Versions | 1.28.1, 1.29.1, 1.29.2, 1.30.0 |
 | Architectures | i386, x86_64 |
 | Definition | [nsync/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nsync/xmake.lua) |
 
@@ -17267,7 +17267,7 @@ add_requires("orangeduck_mpc")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/ordered-map](https://github.com/Tessil/ordered-map) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0 |
+| Versions | v1.0.0, v1.1.0, v1.2.0 |
 | Architectures | i386, x86_64 |
 | Definition | [ordered_map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ordered_map/xmake.lua) |
 
@@ -21303,7 +21303,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+100, 3.45.0+300, 3.46.0+100, 3.46.0+0, 3.47.0+0, 3.47.0+200, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+100, 3.50.0+400, 3.50.0+200, 3.50.0+0, 3.50.0+300, 3.51.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+100, 3.45.0+200, 3.45.0+300, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+200, 3.49.0+0, 3.49.0+100, 3.50.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+300, 3.50.0+400, 3.51.0+0 |
 | Architectures | i386, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
