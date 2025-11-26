@@ -406,6 +406,30 @@ add_requires("aom")
 ```
 
 
+### appimage (msys)
+
+
+| Description | *AppImage packaging tool (appimagetool) for creating AppImage files* |
+| -- | -- |
+| Homepage | [https://appimage.org/](https://appimage.org/) |
+| License | MIT |
+| Versions | 12.0, 13.0 |
+| Architectures | i386, x86_64 |
+| Definition | [appimage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/appimage/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install appimage
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("appimage")
+```
+
+
 ### aqt (msys)
 
 
@@ -6106,7 +6130,7 @@ add_requires("fadec")
 | -- | -- |
 | Homepage | [https://github.com/eranpeer/FakeIt](https://github.com/eranpeer/FakeIt) |
 | License | MIT |
-| Versions | 2.4.0, 2.4.1 |
+| Versions | 2.4.0, 2.4.1, 2.5.0 |
 | Architectures | i386, x86_64 |
 | Definition | [fakeit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fakeit/xmake.lua) |
 
@@ -15666,7 +15690,7 @@ add_requires("nanobench")
 | -- | -- |
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
-| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5, v1.6.0, v1.6.1, v1.6.2, v1.7.0, v1.7.1 |
+| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5, v1.6.0, v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.8.0 |
 | Architectures | i386, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 

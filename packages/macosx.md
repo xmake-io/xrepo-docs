@@ -577,6 +577,30 @@ add_requires("aom")
 ```
 
 
+### appimage (macosx)
+
+
+| Description | *AppImage packaging tool (appimagetool) for creating AppImage files* |
+| -- | -- |
+| Homepage | [https://appimage.org/](https://appimage.org/) |
+| License | MIT |
+| Versions | 12.0, 13.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [appimage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/appimage/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install appimage
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("appimage")
+```
+
+
 ### apr (macosx)
 
 
@@ -8536,7 +8560,7 @@ add_requires("faiss")
 | -- | -- |
 | Homepage | [https://github.com/eranpeer/FakeIt](https://github.com/eranpeer/FakeIt) |
 | License | MIT |
-| Versions | 2.4.0, 2.4.1 |
+| Versions | 2.4.0, 2.4.1, 2.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [fakeit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fakeit/xmake.lua) |
 
@@ -17607,7 +17631,7 @@ add_requires("libraqm")
 | -- | -- |
 | Homepage | [https://github.com/DEgITx/librats](https://github.com/DEgITx/librats) |
 | License | MIT |
-| Versions | 0.1.5, 0.2.1, 0.3.0, 0.3.1 |
+| Versions | 0.1.5, 0.2.1, 0.3.0, 0.3.1, 0.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [librats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librats/xmake.lua) |
 
@@ -23787,7 +23811,7 @@ add_requires("nanobind")
 | -- | -- |
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
-| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5, v1.6.0, v1.6.1, v1.6.2, v1.7.0, v1.7.1 |
+| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5, v1.6.0, v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.8.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 
@@ -25341,7 +25365,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1 |
 | Architectures | x86_64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -37131,7 +37155,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d0f78f7ed0 |
+| License | table: 0x55a6633f3ee0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
