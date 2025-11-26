@@ -487,7 +487,7 @@ add_requires("amrex")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/ANARI-SDK](https://github.com/KhronosGroup/ANARI-SDK) |
 | License | Apache-2.0 |
-| Versions | v0.12.1, v0.13.1, v0.14.1 |
+| Versions | v0.12.1, v0.13.1, v0.14.1, v0.15.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [anari/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/anari/xmake.lua) |
 

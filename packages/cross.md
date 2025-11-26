@@ -270,7 +270,7 @@ add_requires("amqp-cpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/ANARI-SDK](https://github.com/KhronosGroup/ANARI-SDK) |
 | License | Apache-2.0 |
-| Versions | v0.12.1, v0.13.1, v0.14.1 |
+| Versions | v0.12.1, v0.13.1, v0.14.1, v0.15.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [anari/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/anari/xmake.lua) |
 

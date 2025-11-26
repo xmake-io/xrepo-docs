@@ -440,7 +440,7 @@ add_requires("amrex")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/ANARI-SDK](https://github.com/KhronosGroup/ANARI-SDK) |
 | License | Apache-2.0 |
-| Versions | v0.12.1, v0.13.1, v0.14.1 |
+| Versions | v0.12.1, v0.13.1, v0.14.1, v0.15.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [anari/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/anari/xmake.lua) |
 
@@ -37155,7 +37155,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a6633f3ee0 |
+| License | table: 0x565156d26600 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

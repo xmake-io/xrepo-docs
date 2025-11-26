@@ -320,7 +320,7 @@ add_requires("amqp-cpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/ANARI-SDK](https://github.com/KhronosGroup/ANARI-SDK) |
 | License | Apache-2.0 |
-| Versions | v0.12.1, v0.13.1, v0.14.1 |
+| Versions | v0.12.1, v0.13.1, v0.14.1, v0.15.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [anari/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/anari/xmake.lua) |
 
@@ -17426,6 +17426,30 @@ xrepo install -p android [--ndk=/xxx] opencv
 
 ```lua
 add_requires("opencv")
+```
+
+
+### opencv-mobile (android)
+
+
+| Description | *The minimal opencv for Android, iOS, ARM Linux, Windows, Linux, MacOS, WebAssembly* |
+| -- | -- |
+| Homepage | [https://github.com/nihui/opencv-mobile](https://github.com/nihui/opencv-mobile) |
+| License | Apache-2.0 |
+| Versions | 3.4.20, 4.10.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [opencv-mobile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv-mobile/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] opencv-mobile
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("opencv-mobile")
 ```
 
 
