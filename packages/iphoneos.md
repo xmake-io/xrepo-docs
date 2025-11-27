@@ -13445,7 +13445,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4, 5.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -16036,6 +16036,30 @@ xrepo install -p iphoneos noisy
 
 ```lua
 add_requires("noisy")
+```
+
+
+### nowide_standalone (iphoneos)
+
+
+| Description | *C++ implementation of the Python Numpy library* |
+| -- | -- |
+| Homepage | [https://github.com/boostorg/nowide/tree/standalone](https://github.com/boostorg/nowide/tree/standalone) |
+| License | Boost Software License, Version 1.0 |
+| Versions | 11.2.0, 11.3.0, 11.3.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [nowide_standalone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nowide_standalone/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos nowide_standalone
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nowide_standalone")
 ```
 
 
@@ -23241,7 +23265,7 @@ add_requires("toojpeg")
 | Description | *C++ frame profiler* |
 | -- | -- |
 | Homepage | [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy) |
-| Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0, v0.11.1, v0.12.0, v0.12.1, v0.12.2 |
+| Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0, v0.11.1, v0.12.0, v0.12.1, v0.12.2, v0.13.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [tracy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tracy/xmake.lua) |
 
@@ -23626,7 +23650,7 @@ add_requires("unzip")
 | -- | -- |
 | Homepage | [https://upa-url.github.io/docs/](https://upa-url.github.io/docs/) |
 | License | BSD-2-Clause |
-| Versions | v1.0.0, v1.0.1, v1.0.2, v1.2.0, v2.0.0, v2.1.0, v2.2.0, v2.3.0 |
+| Versions | v1.0.0, v1.0.1, v1.0.2, v1.2.0, v2.0.0, v2.1.0, v2.2.0, v2.3.0, v2.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [upa-url/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/upa-url/xmake.lua) |
 
