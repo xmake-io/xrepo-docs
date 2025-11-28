@@ -1729,7 +1729,7 @@ add_requires("aws-crt-cpp")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -7625,7 +7625,7 @@ add_requires("eabase")
 | -- | -- |
 | Homepage | [https://github.com/electronicarts/EASTL](https://github.com/electronicarts/EASTL) |
 | License | BSD-3-Clause |
-| Versions | 3.17.03, 3.17.06, 3.18.00, 3.21.12, 3.21.23, 3.27.00 |
+| Versions | 3.17.03, 3.17.06, 3.18.00, 3.21.12, 3.21.23, 3.27.00, 3.27.01 |
 | Architectures | arm64, x86_64 |
 | Definition | [eastl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eastl/xmake.lua) |
 
@@ -17774,7 +17774,7 @@ add_requires("libressl")
 | -- | -- |
 | Homepage | [https://rime.im](https://rime.im) |
 | License | BSD-3-Clause |
-| Versions | 1.14.0 |
+| Versions | 1.14.0, 1.15.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [librime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librime/xmake.lua) |
 
@@ -25962,7 +25962,7 @@ add_requires("openjdk")
 | -- | -- |
 | Homepage | [http://www.openjpeg.org/](http://www.openjpeg.org/) |
 | License | BSD-2-Clause |
-| Versions | v2.3.1, v2.4.0, v2.5.0, v2.5.3 |
+| Versions | v2.3.1, v2.4.0, v2.5.0, v2.5.3, v2.5.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [openjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjpeg/xmake.lua) |
 
@@ -31758,7 +31758,7 @@ add_requires("simplecpp")
 | -- | -- |
 | Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
 | License | MIT |
-| Versions | v4.19, v4.22 |
+| Versions | v4.19, v4.22, v4.25 |
 | Architectures | arm64, x86_64 |
 | Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
 
@@ -37155,7 +37155,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55904b6dad40 |
+| License | table: 0x55be38c09d10 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
