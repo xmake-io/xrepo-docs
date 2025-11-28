@@ -9328,7 +9328,7 @@ add_requires("field3d")
 | -- | -- |
 | Homepage | [https://google.github.io/filament/](https://google.github.io/filament/) |
 | License | Apache-2.0 |
-| Versions | 1.9.23, 1.20.3, 1.32.0 |
+| Versions | 1.9.23, 1.20.3, 1.32.0, 1.67.0, 1.67.1 |
 | Architectures | x64 |
 | Definition | [filament/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/filament/xmake.lua) |
 
