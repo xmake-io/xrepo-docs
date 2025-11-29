@@ -4644,7 +4644,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
 | License | MIT |
-| Versions | 2.5, 2.6, 2.7 |
+| Versions | 2.5, 2.6, 2.7, 2.8 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
 
@@ -16443,6 +16443,30 @@ xrepo install -p cross [--sdk=/xxx] nowide_standalone
 
 ```lua
 add_requires("nowide_standalone")
+```
+
+
+### nri (cross)
+
+
+| Description | *Modular extensible low-level render interface (RHI) with higher level extensions* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI) |
+| License | MIT |
+| Versions | v176 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [nri/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nri/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nri
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nri")
 ```
 
 

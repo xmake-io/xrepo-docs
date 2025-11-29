@@ -4954,7 +4954,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
 | License | MIT |
-| Versions | 2.5, 2.6, 2.7 |
+| Versions | 2.5, 2.6, 2.7, 2.8 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
 
@@ -18092,6 +18092,30 @@ xrepo install -p mingw [--mingw=/xxx] npcap_sdk
 
 ```lua
 add_requires("npcap_sdk")
+```
+
+
+### nri (mingw)
+
+
+| Description | *Modular extensible low-level render interface (RHI) with higher level extensions* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI) |
+| License | MIT |
+| Versions | v176 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [nri/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nri/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] nri
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nri")
 ```
 
 

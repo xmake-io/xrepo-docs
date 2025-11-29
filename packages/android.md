@@ -4640,7 +4640,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
 | License | MIT |
-| Versions | 2.5, 2.6, 2.7 |
+| Versions | 2.5, 2.6, 2.7, 2.8 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
 
@@ -16854,6 +16854,30 @@ add_requires("nowide_standalone")
 ```
 
 
+### nri (android)
+
+
+| Description | *Modular extensible low-level render interface (RHI) with higher level extensions* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI) |
+| License | MIT |
+| Versions | v176 |
+| Architectures | arm64-v8a, armeabi, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [nri/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nri/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] nri
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nri")
+```
+
+
 ### nsync (android)
 
 
@@ -17460,7 +17484,7 @@ add_requires("opencv")
 | -- | -- |
 | Homepage | [https://github.com/nihui/opencv-mobile](https://github.com/nihui/opencv-mobile) |
 | License | Apache-2.0 |
-| Versions | 3.4.20, 4.10.0 |
+| Versions |  |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [opencv-mobile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv-mobile/xmake.lua) |
 

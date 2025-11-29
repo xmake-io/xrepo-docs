@@ -6711,7 +6711,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
 | License | MIT |
-| Versions | 2.5, 2.6, 2.7 |
+| Versions | 2.5, 2.6, 2.7, 2.8 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
 
@@ -27013,6 +27013,30 @@ add_requires("nowide_standalone")
 ```
 
 
+### nri (linux)
+
+
+| Description | *Modular extensible low-level render interface (RHI) with higher level extensions* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI) |
+| License | MIT |
+| Versions | v176 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [nri/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nri/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nri
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nri")
+```
+
+
 ### nsync (linux)
 
 
@@ -28002,7 +28026,7 @@ add_requires("opencv")
 | -- | -- |
 | Homepage | [https://github.com/nihui/opencv-mobile](https://github.com/nihui/opencv-mobile) |
 | License | Apache-2.0 |
-| Versions | 3.4.20, 4.10.0 |
+| Versions |  |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencv-mobile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv-mobile/xmake.lua) |
 
@@ -40312,7 +40336,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5619d8074760 |
+| License | table: 0x564b337ea250 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
