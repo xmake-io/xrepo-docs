@@ -1983,6 +1983,30 @@ add_requires("boostdep")
 ```
 
 
+### boringssl (cross)
+
+
+| Description | *BoringSSL is a fork of OpenSSL that is designed to meet Google's needs.* |
+| -- | -- |
+| Homepage | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
+| License | Apache-2.0 |
+| Versions | 2021.12.29, 2022.06.13, 2025.11.24 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [boringssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boringssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] boringssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boringssl")
+```
+
+
 ### box2d (cross)
 
 

@@ -2707,7 +2707,8 @@ add_requires("boostdep")
 | Description | *BoringSSL is a fork of OpenSSL that is designed to meet Google's needs.* |
 | -- | -- |
 | Homepage | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
-| Versions | 2021.12.29, 2022.06.13 |
+| License | Apache-2.0 |
+| Versions | 2021.12.29, 2022.06.13, 2025.11.24 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [boringssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boringssl/xmake.lua) |
 

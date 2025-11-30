@@ -2101,6 +2101,30 @@ add_requires("boostdep")
 ```
 
 
+### boringssl (bsd)
+
+
+| Description | *BoringSSL is a fork of OpenSSL that is designed to meet Google's needs.* |
+| -- | -- |
+| Homepage | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
+| License | Apache-2.0 |
+| Versions | 2021.12.29, 2022.06.13, 2025.11.24 |
+| Architectures | i386, x86_64 |
+| Definition | [boringssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boringssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install boringssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boringssl")
+```
+
+
 ### botan (bsd)
 
 

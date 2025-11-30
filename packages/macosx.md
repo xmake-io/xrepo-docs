@@ -2705,7 +2705,8 @@ add_requires("boostdep")
 | Description | *BoringSSL is a fork of OpenSSL that is designed to meet Google's needs.* |
 | -- | -- |
 | Homepage | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
-| Versions | 2021.12.29, 2022.06.13 |
+| License | Apache-2.0 |
+| Versions | 2021.12.29, 2022.06.13, 2025.11.24 |
 | Architectures | arm64, x86_64 |
 | Definition | [boringssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boringssl/xmake.lua) |
 
@@ -37179,7 +37180,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55915a7ff2c0 |
+| License | table: 0x5631d9a1fb50 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

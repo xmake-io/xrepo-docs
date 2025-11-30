@@ -2077,6 +2077,30 @@ add_requires("boostdep")
 ```
 
 
+### boringssl (android)
+
+
+| Description | *BoringSSL is a fork of OpenSSL that is designed to meet Google's needs.* |
+| -- | -- |
+| Homepage | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
+| License | Apache-2.0 |
+| Versions | 2021.12.29, 2022.06.13, 2025.11.24 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [boringssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boringssl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] boringssl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boringssl")
+```
+
+
 ### box2d (android)
 
 
