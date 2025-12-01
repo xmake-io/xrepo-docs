@@ -22954,7 +22954,7 @@ add_requires("mold")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/MoltenVK](https://github.com/KhronosGroup/MoltenVK) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v1.1.4, v1.1.5, v1.2.0, v1.2.7, v1.2.8, v1.2.9, v1.2.10, v1.2.11, v1.3.0, v1.4.0 |
+| Versions | v1.1.0, v1.1.4, v1.1.5, v1.2.0, v1.2.7, v1.2.8, v1.2.9, v1.2.10, v1.2.11, v1.3.0, v1.4.0, v1.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [moltenvk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moltenvk/xmake.lua) |
 
@@ -23489,6 +23489,30 @@ xrepo install msvc-wine
 
 ```lua
 add_requires("msvc-wine")
+```
+
+
+### muda (macosx)
+
+
+| Description | *μ-Cuda, COVER THE LAST MILE OF CUDA. With features: intellisense-friendly, structured launch, automatic cuda graph generation and updating.* |
+| -- | -- |
+| Homepage | [https://mugdxy.github.io/muda-doc](https://mugdxy.github.io/muda-doc) |
+| License | Apache-2.0 |
+| Versions | 2025.10.9 |
+| Architectures | arm64, x86_64 |
+| Definition | [muda/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muda/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install muda
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muda")
 ```
 
 
@@ -31045,7 +31069,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
 | License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0 |
+| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0, v0.27.1 |
 | Architectures | x86_64 |
 | Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
 
@@ -37203,7 +37227,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55944ee32900 |
+| License | table: 0x5631a6d79970 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

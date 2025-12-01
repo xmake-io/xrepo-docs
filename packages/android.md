@@ -15897,6 +15897,30 @@ add_requires("msvc-wine")
 ```
 
 
+### muda (android)
+
+
+| Description | *μ-Cuda, COVER THE LAST MILE OF CUDA. With features: intellisense-friendly, structured launch, automatic cuda graph generation and updating.* |
+| -- | -- |
+| Homepage | [https://mugdxy.github.io/muda-doc](https://mugdxy.github.io/muda-doc) |
+| License | Apache-2.0 |
+| Versions | 2025.10.9 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [muda/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muda/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] muda
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muda")
+```
+
+
 ### mujs (android)
 
 

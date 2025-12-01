@@ -16294,6 +16294,30 @@ add_requires("msvc-wine")
 ```
 
 
+### muda (bsd)
+
+
+| Description | *μ-Cuda, COVER THE LAST MILE OF CUDA. With features: intellisense-friendly, structured launch, automatic cuda graph generation and updating.* |
+| -- | -- |
+| Homepage | [https://mugdxy.github.io/muda-doc](https://mugdxy.github.io/muda-doc) |
+| License | Apache-2.0 |
+| Versions | 2025.10.9 |
+| Architectures | i386, x86_64 |
+| Definition | [muda/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muda/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install muda
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muda")
+```
+
+
 ### mujs (bsd)
 
 

@@ -14806,7 +14806,7 @@ add_requires("mnn")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/MoltenVK](https://github.com/KhronosGroup/MoltenVK) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v1.1.4, v1.1.5, v1.2.0, v1.2.7, v1.2.8, v1.2.9, v1.2.10, v1.2.11, v1.3.0, v1.4.0 |
+| Versions | v1.1.0, v1.1.4, v1.1.5, v1.2.0, v1.2.7, v1.2.8, v1.2.9, v1.2.10, v1.2.11, v1.3.0, v1.4.0, v1.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [moltenvk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/moltenvk/xmake.lua) |
 
@@ -15151,6 +15151,30 @@ xrepo install -p iphoneos msvc-wine
 
 ```lua
 add_requires("msvc-wine")
+```
+
+
+### muda (iphoneos)
+
+
+| Description | *μ-Cuda, COVER THE LAST MILE OF CUDA. With features: intellisense-friendly, structured launch, automatic cuda graph generation and updating.* |
+| -- | -- |
+| Homepage | [https://mugdxy.github.io/muda-doc](https://mugdxy.github.io/muda-doc) |
+| License | Apache-2.0 |
+| Versions | 2025.10.9 |
+| Architectures | arm64, x86_64 |
+| Definition | [muda/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muda/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos muda
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("muda")
 ```
 
 
