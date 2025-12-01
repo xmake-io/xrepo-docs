@@ -25353,7 +25353,7 @@ add_requires("msdf-atlas-gen")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
-| Versions | v1.10, v1.11, v1.12, v1.12.1 |
+| Versions | v1.10, v1.11, v1.12, v1.12.1, v1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
@@ -40361,7 +40361,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563038774080 |
+| License | table: 0x5574b0fbea70 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -40954,7 +40954,7 @@ add_requires("xgrammar")
 | -- | -- |
 | Homepage | [https://github.com/tfussell/xlnt](https://github.com/tfussell/xlnt) |
 | License | MIT |
-| Versions | 2023.03.02 |
+| Versions | 2022.12.04 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xlnt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlnt/xmake.lua) |
 

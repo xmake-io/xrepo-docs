@@ -22056,7 +22056,7 @@ add_requires("msdf-atlas-gen")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
-| Versions | v1.10, v1.11, v1.12, v1.12.1 |
+| Versions | v1.10, v1.11, v1.12, v1.12.1, v1.13 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
@@ -37067,7 +37067,7 @@ add_requires("xgrammar")
 | -- | -- |
 | Homepage | [https://github.com/tfussell/xlnt](https://github.com/tfussell/xlnt) |
 | License | MIT |
-| Versions | 2023.03.02 |
+| Versions | 2022.12.04 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [xlnt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlnt/xmake.lua) |
 
