@@ -25383,6 +25383,29 @@ add_requires("tidy-html5")
 ```
 
 
+### tiltedcore (mingw)
+
+
+| Description | *Core library from Tilted Phoques* |
+| -- | -- |
+| Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
+| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5, v0.2.6, v0.2.7, v0.2.8 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [tiltedcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiltedcore/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] tiltedcore
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tiltedcore")
+```
+
+
 ### tiny-aes-c (mingw)
 
 

@@ -13631,6 +13631,30 @@ add_requires("ls-qpack")
 ```
 
 
+### lsquic (msys)
+
+
+| Description | *LiteSpeed QUIC and HTTP/3 Library* |
+| -- | -- |
+| Homepage | [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic) |
+| License | MIT |
+| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2 |
+| Architectures | i386, x86_64 |
+| Definition | [lsquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsquic/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lsquic
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lsquic")
+```
+
+
 ### lua (msys)
 
 
@@ -22730,29 +22754,6 @@ xrepo install tidy-html5
 
 ```lua
 add_requires("tidy-html5")
-```
-
-
-### tiltedcore (msys)
-
-
-| Description | *Core library from Tilted Phoques* |
-| -- | -- |
-| Homepage | [https://github.com/tiltedphoques/TiltedCore](https://github.com/tiltedphoques/TiltedCore) |
-| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5, v0.2.6, v0.2.7 |
-| Architectures | i386, x86_64 |
-| Definition | [tiltedcore/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiltedcore/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install tiltedcore
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("tiltedcore")
 ```
 
 

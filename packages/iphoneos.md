@@ -13200,6 +13200,30 @@ add_requires("ls-qpack")
 ```
 
 
+### lsquic (iphoneos)
+
+
+| Description | *LiteSpeed QUIC and HTTP/3 Library* |
+| -- | -- |
+| Homepage | [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic) |
+| License | MIT |
+| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [lsquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsquic/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos lsquic
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lsquic")
+```
+
+
 ### lua (iphoneos)
 
 
