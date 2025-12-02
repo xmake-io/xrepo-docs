@@ -9983,7 +9983,7 @@ add_requires("lastools")
 | -- | -- |
 | Homepage | [https://www.littlecms.com/](https://www.littlecms.com/) |
 | License | MIT |
-| Versions | 2.17 |
+| Versions | 2.17, 2.18 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [lcms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lcms/xmake.lua) |
 

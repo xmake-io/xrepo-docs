@@ -9796,7 +9796,7 @@ add_requires("lastools")
 | -- | -- |
 | Homepage | [https://www.littlecms.com/](https://www.littlecms.com/) |
 | License | MIT |
-| Versions | 2.17 |
+| Versions | 2.17, 2.18 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lcms/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lcms/xmake.lua) |
 
