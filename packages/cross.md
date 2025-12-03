@@ -9813,6 +9813,30 @@ add_requires("lcms")
 ```
 
 
+### ldtkloader (cross)
+
+
+| Description | *A C++11 loader for levels and tile maps created with LDtk (Level Designer ToolKit)* |
+| -- | -- |
+| Homepage | [https://github.com/Madour/LDtkLoader](https://github.com/Madour/LDtkLoader) |
+| License | zlib |
+| Versions | 1.5.3+1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ldtkloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ldtkloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ldtkloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ldtkloader")
+```
+
+
 ### leancrypto (cross)
 
 
@@ -20922,7 +20946,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/fantasy-peak/simple_http](https://github.com/fantasy-peak/simple_http) |
 | License | MIT |
-| Versions | v0.2.0, v0.3.0, v0.4.0 |
+| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [simple_http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simple_http/xmake.lua) |
 

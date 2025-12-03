@@ -14653,6 +14653,30 @@ add_requires("lcms")
 ```
 
 
+### ldtkloader (windows)
+
+
+| Description | *A C++11 loader for levels and tile maps created with LDtk (Level Designer ToolKit)* |
+| -- | -- |
+| Homepage | [https://github.com/Madour/LDtkLoader](https://github.com/Madour/LDtkLoader) |
+| License | zlib |
+| Versions | 1.5.3+1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [ldtkloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ldtkloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ldtkloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ldtkloader")
+```
+
+
 ### lemon (windows)
 
 
@@ -37380,7 +37404,7 @@ add_requires("xz")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/yalantinglibs](https://github.com/alibaba/yalantinglibs) |
 | License | Apache-2.0 |
-| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2, 0.5.3, 0.5.5 |
+| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2, 0.5.3, 0.5.5, 0.5.6 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [yalantinglibs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yalantinglibs/xmake.lua) |
 

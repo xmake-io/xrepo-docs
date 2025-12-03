@@ -15577,6 +15577,30 @@ add_requires("lcms")
 ```
 
 
+### ldtkloader (linux)
+
+
+| Description | *A C++11 loader for levels and tile maps created with LDtk (Level Designer ToolKit)* |
+| -- | -- |
+| Homepage | [https://github.com/Madour/LDtkLoader](https://github.com/Madour/LDtkLoader) |
+| License | zlib |
+| Versions | 1.5.3+1 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ldtkloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ldtkloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ldtkloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ldtkloader")
+```
+
+
 ### leancrypto (linux)
 
 
@@ -34607,7 +34631,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/fantasy-peak/simple_http](https://github.com/fantasy-peak/simple_http) |
 | License | MIT |
-| Versions | v0.2.0, v0.3.0, v0.4.0 |
+| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simple_http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simple_http/xmake.lua) |
 
@@ -40361,7 +40385,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c1f32921a0 |
+| License | table: 0x558b01833050 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -41385,7 +41409,7 @@ add_requires("xz")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/yalantinglibs](https://github.com/alibaba/yalantinglibs) |
 | License | Apache-2.0 |
-| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2, 0.5.3, 0.5.5 |
+| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2, 0.5.3, 0.5.5, 0.5.6 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [yalantinglibs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yalantinglibs/xmake.lua) |
 

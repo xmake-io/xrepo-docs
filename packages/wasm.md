@@ -8640,6 +8640,30 @@ add_requires("lcms")
 ```
 
 
+### ldtkloader (wasm)
+
+
+| Description | *A C++11 loader for levels and tile maps created with LDtk (Level Designer ToolKit)* |
+| -- | -- |
+| Homepage | [https://github.com/Madour/LDtkLoader](https://github.com/Madour/LDtkLoader) |
+| License | zlib |
+| Versions | 1.5.3+1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [ldtkloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ldtkloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm ldtkloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ldtkloader")
+```
+
+
 ### lemon (wasm)
 
 

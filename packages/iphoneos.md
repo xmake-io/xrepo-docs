@@ -9568,6 +9568,30 @@ add_requires("lcms")
 ```
 
 
+### ldtkloader (iphoneos)
+
+
+| Description | *A C++11 loader for levels and tile maps created with LDtk (Level Designer ToolKit)* |
+| -- | -- |
+| Homepage | [https://github.com/Madour/LDtkLoader](https://github.com/Madour/LDtkLoader) |
+| License | zlib |
+| Versions | 1.5.3+1 |
+| Architectures | arm64, x86_64 |
+| Definition | [ldtkloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ldtkloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos ldtkloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ldtkloader")
+```
+
+
 ### lemon (iphoneos)
 
 
