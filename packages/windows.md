@@ -4609,6 +4609,30 @@ add_requires("collada-dom")
 ```
 
 
+### colmap (windows)
+
+
+| Description | *COLMAP - Structure-from-Motion and Multi-View Stereo.* |
+| -- | -- |
+| Homepage | [https://colmap.github.io/](https://colmap.github.io/) |
+| License | BSD-3-Clause |
+| Versions | 3.13.0 |
+| Architectures | x64 |
+| Definition | [colmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/colmap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install colmap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("colmap")
+```
+
+
 ### commata (windows)
 
 

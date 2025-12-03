@@ -4987,6 +4987,30 @@ add_requires("collada-dom")
 ```
 
 
+### colmap (linux)
+
+
+| Description | *COLMAP - Structure-from-Motion and Multi-View Stereo.* |
+| -- | -- |
+| Homepage | [https://colmap.github.io/](https://colmap.github.io/) |
+| License | BSD-3-Clause |
+| Versions | 3.13.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [colmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/colmap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install colmap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("colmap")
+```
+
+
 ### commata (linux)
 
 
@@ -40386,7 +40410,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56010b873c50 |
+| License | table: 0x55c7e1d4efa0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
