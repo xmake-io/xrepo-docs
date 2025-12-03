@@ -5877,7 +5877,7 @@ add_requires("cppzmq")
 | -- | -- |
 | Homepage | [https://docs.libcpr.org/](https://docs.libcpr.org/) |
 | License | MIT |
-| Versions | 1.6.2, 1.7.2, 1.8.3, 1.9.4, 1.10.2, 1.10.3, 1.10.5, 1.11.1, 1.11.2, 1.12.0 |
+| Versions | 1.6.2, 1.7.2, 1.8.3, 1.9.4, 1.10.2, 1.10.3, 1.10.5, 1.11.1, 1.11.2, 1.12.0, 1.14.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpr/xmake.lua) |
 
@@ -10372,6 +10372,7 @@ add_requires("freeglut")
 | Description | *FreeImage is a library project for developers who would like to support popular graphics image formats (PNG, JPEG, TIFF, BMP and others).* |
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/freeimage/](https://sourceforge.net/projects/freeimage/) |
+| License | FreeImage Public License |
 | Versions | 3.18.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freeimage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freeimage/xmake.lua) |
@@ -13886,7 +13887,7 @@ add_requires("imnodes")
 | -- | -- |
 | Homepage | [https://github.com/epezent/implot](https://github.com/epezent/implot) |
 | License | MIT |
-| Versions | v0.15, v0.16 |
+| Versions | v0.15, v0.16, v0.17 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [implot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot/xmake.lua) |
 
@@ -40385,7 +40386,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5618c777a1e0 |
+| License | table: 0x56157f597510 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

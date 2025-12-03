@@ -4023,7 +4023,7 @@ add_requires("cppzmq")
 | -- | -- |
 | Homepage | [https://docs.libcpr.org/](https://docs.libcpr.org/) |
 | License | MIT |
-| Versions | 1.6.2, 1.7.2, 1.8.3, 1.9.4, 1.10.2, 1.10.3, 1.10.5, 1.11.1, 1.11.2, 1.12.0 |
+| Versions | 1.6.2, 1.7.2, 1.8.3, 1.9.4, 1.10.2, 1.10.3, 1.10.5, 1.11.1, 1.11.2, 1.12.0, 1.14.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpr/xmake.lua) |
 
@@ -8694,7 +8694,7 @@ add_requires("imgui-file-dialog")
 | -- | -- |
 | Homepage | [https://github.com/epezent/implot](https://github.com/epezent/implot) |
 | License | MIT |
-| Versions | v0.15, v0.16 |
+| Versions | v0.15, v0.16, v0.17 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [implot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot/xmake.lua) |
 

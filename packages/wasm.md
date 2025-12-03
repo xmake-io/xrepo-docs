@@ -7616,7 +7616,7 @@ add_requires("imgui-file-dialog")
 | -- | -- |
 | Homepage | [https://github.com/epezent/implot](https://github.com/epezent/implot) |
 | License | MIT |
-| Versions | v0.15, v0.16 |
+| Versions | v0.15, v0.16, v0.17 |
 | Architectures | wasm32, wasm64 |
 | Definition | [implot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot/xmake.lua) |
 
