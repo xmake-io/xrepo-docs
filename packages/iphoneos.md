@@ -8521,7 +8521,7 @@ add_requires("implot")
 | -- | -- |
 | Homepage | [https://github.com/brenocq/implot3d](https://github.com/brenocq/implot3d) |
 | License | MIT |
-| Versions | v0.2 |
+| Versions | v0.2, v0.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [implot3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot3d/xmake.lua) |
 
@@ -8535,6 +8535,30 @@ xrepo install -p iphoneos implot3d
 
 ```lua
 add_requires("implot3d")
+```
+
+
+### incbin (iphoneos)
+
+
+| Description | *Include binary files in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/graphitemaster/incbin](https://github.com/graphitemaster/incbin) |
+| License | Unlicense |
+| Versions | 2025.05.27 |
+| Architectures | arm64, x86_64 |
+| Definition | [incbin/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/incbin/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos incbin
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("incbin")
 ```
 
 
@@ -18224,7 +18248,7 @@ add_requires("plutosvg")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0, v1.3.0, v1.3.1 |
+| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0, v1.3.0, v1.3.1, v1.3.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 

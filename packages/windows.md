@@ -13129,7 +13129,7 @@ add_requires("implot")
 | -- | -- |
 | Homepage | [https://github.com/brenocq/implot3d](https://github.com/brenocq/implot3d) |
 | License | MIT |
-| Versions | v0.2 |
+| Versions | v0.2, v0.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [implot3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot3d/xmake.lua) |
 
@@ -13143,6 +13143,30 @@ xrepo install implot3d
 
 ```lua
 add_requires("implot3d")
+```
+
+
+### incbin (windows)
+
+
+| Description | *Include binary files in C/C++* |
+| -- | -- |
+| Homepage | [https://github.com/graphitemaster/incbin](https://github.com/graphitemaster/incbin) |
+| License | Unlicense |
+| Versions | 2025.05.27 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [incbin/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/incbin/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install incbin
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("incbin")
 ```
 
 
@@ -24347,7 +24371,7 @@ add_requires("omath")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1, v3.10.2 |
 | Architectures | x64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -25277,7 +25301,7 @@ add_requires("opentelemetry-cpp")
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
 | License | MPL-2.0 |
-| Versions | v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0, v10.0.1, v10.1.0, v11.0.0, v12.1.0, v12.1.1 |
+| Versions | v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0, v10.0.1, v10.1.0, v11.0.0, v12.1.0, v12.1.1, v13.0.0 |
 | Architectures | x64, x86 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
@@ -26878,7 +26902,7 @@ add_requires("plutosvg")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0, v1.3.0, v1.3.1 |
+| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0, v1.3.0, v1.3.1, v1.3.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 
@@ -35037,7 +35061,7 @@ add_requires("upa-url")
 | -- | -- |
 | Homepage | [https://wiki.ros.org/urdf](https://wiki.ros.org/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2 |
+| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2, 5.0.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [urdfdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua) |
 
