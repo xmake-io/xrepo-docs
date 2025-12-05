@@ -1658,7 +1658,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11, v0.9.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -23613,7 +23613,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1 |
+| Versions | v3.2.1, v3.3.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -26641,7 +26641,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -26950,7 +26950,7 @@ add_requires("node-addon-api")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-api-headers](https://github.com/nodejs/node-api-headers) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0 |
+| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [node-api-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-api-headers/xmake.lua) |
 
@@ -40434,7 +40434,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f22cbfdd10 |
+| License | table: 0x55f11435dbe0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

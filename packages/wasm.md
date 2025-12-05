@@ -12419,7 +12419,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1 |
+| Versions | v3.2.1, v3.3.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -14427,7 +14427,7 @@ add_requires("node-addon-api")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-api-headers](https://github.com/nodejs/node-api-headers) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0 |
+| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [node-api-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-api-headers/xmake.lua) |
 

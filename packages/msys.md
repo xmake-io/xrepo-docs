@@ -1034,7 +1034,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11, v0.9.13 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -14232,7 +14232,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1 |
+| Versions | v3.2.1, v3.3.2 |
 | Architectures | i386, x86_64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -16383,7 +16383,7 @@ add_requires("node-addon-api")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-api-headers](https://github.com/nodejs/node-api-headers) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0 |
+| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0 |
 | Architectures | i386, x86_64 |
 | Definition | [node-api-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-api-headers/xmake.lua) |
 
