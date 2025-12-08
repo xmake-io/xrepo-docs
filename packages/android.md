@@ -440,7 +440,7 @@ add_requires("antlr4-runtime")
 | -- | -- |
 | Homepage | [https://aomedia.googlesource.com/aom](https://aomedia.googlesource.com/aom) |
 | License | BSD-2-Clause |
-| Versions | 3.9.1 |
+| Versions | 3.9.1, 3.13.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aom/xmake.lua) |
 
