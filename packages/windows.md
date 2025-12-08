@@ -3733,7 +3733,7 @@ add_requires("cgns")
 | -- | -- |
 | Homepage | [http://www.chunel.cn](http://www.chunel.cn) |
 | License | MIT |
-| Versions | v2.5.4, v2.6.0, v2.6.1, v2.6.2, v3.1.0, v3.1.1, v3.1.2 |
+| Versions | v2.5.4, v2.6.0, v2.6.1, v2.6.2, v3.1.0, v3.1.1, v3.1.2, v3.2.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cgraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgraph/xmake.lua) |
 
@@ -8562,7 +8562,7 @@ add_requires("expat")
 | -- | -- |
 | Homepage | [https://github.com/martinmoene/expected-lite](https://github.com/martinmoene/expected-lite) |
 | License | BSL-1.0 |
-| Versions | v0.6.3, v0.8.0, v0.9.0 |
+| Versions | v0.6.3, v0.8.0, v0.9.0, v0.10.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [expected-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expected-lite/xmake.lua) |
 
@@ -27187,7 +27187,7 @@ add_requires("portaudio")
 | Description | *portmidi is a cross-platform MIDI input/output library* |
 | -- | -- |
 | Homepage | [https://github.com/PortMidi/portmidi](https://github.com/PortMidi/portmidi) |
-| Versions | v2.0.4, v2.0.6, v2.0.7 |
+| Versions | v2.0.4, v2.0.6, v2.0.7, v2.0.8 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [portmidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/portmidi/xmake.lua) |
 
@@ -27423,7 +27423,7 @@ add_requires("promise-cpp")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | License | BSD-3-Clause |
-| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1, 32.0, 32.1, 33.1 |
+| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1, 32.0, 32.1, 33.1, 33.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
@@ -29144,7 +29144,7 @@ add_requires("re2")
 | -- | -- |
 | Homepage | [https://re2c.org](https://re2c.org) |
 | License | Public Domain |
-| Versions | 4.2, 4.3 |
+| Versions | 4.2, 4.3, 4.3.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [re2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2c/xmake.lua) |
 
