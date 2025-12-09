@@ -11326,7 +11326,7 @@ add_requires("libyuv")
 | -- | -- |
 | Homepage | [https://github.com/zchunk/zchunk](https://github.com/zchunk/zchunk) |
 | License | BSD-2-Clause |
-| Versions | 1.5.1, 1.5.2 |
+| Versions | 1.5.1, 1.5.2, 1.5.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libzchunk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzchunk/xmake.lua) |
 
@@ -13638,7 +13638,7 @@ add_requires("msgpack-cxx")
 | -- | -- |
 | Homepage | [https://github.com/rwindegger/msgpack23](https://github.com/rwindegger/msgpack23) |
 | License | MIT |
-| Versions | v2.1 |
+| Versions | v2.1, v3.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [msgpack23/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack23/xmake.lua) |
 
@@ -14212,7 +14212,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
@@ -18626,6 +18626,30 @@ xrepo install -p wasm simsimd
 
 ```lua
 add_requires("simsimd")
+```
+
+
+### sjpeg (wasm)
+
+
+| Description | *SimpleJPEG: simple jpeg encoder* |
+| -- | -- |
+| Homepage | [https://github.com/webmproject/sjpeg](https://github.com/webmproject/sjpeg) |
+| License | Apache-2.0 |
+| Versions | 2025.06.05 |
+| Architectures | wasm32, wasm64 |
+| Definition | [sjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sjpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm sjpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sjpeg")
 ```
 
 

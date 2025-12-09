@@ -1468,7 +1468,7 @@ add_requires("avir")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
-| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1 |
+| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
@@ -18813,7 +18813,7 @@ add_requires("libyuv")
 | -- | -- |
 | Homepage | [https://github.com/zchunk/zchunk](https://github.com/zchunk/zchunk) |
 | License | BSD-2-Clause |
-| Versions | 1.5.1, 1.5.2 |
+| Versions | 1.5.1, 1.5.2, 1.5.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libzchunk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzchunk/xmake.lua) |
 
@@ -22201,7 +22201,7 @@ add_requires("msgpack-cxx")
 | -- | -- |
 | Homepage | [https://github.com/rwindegger/msgpack23](https://github.com/rwindegger/msgpack23) |
 | License | MIT |
-| Versions | v2.1 |
+| Versions | v2.1, v3.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [msgpack23/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack23/xmake.lua) |
 
@@ -23295,7 +23295,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
@@ -30994,6 +30994,30 @@ xrepo install simsimd
 
 ```lua
 add_requires("simsimd")
+```
+
+
+### sjpeg (windows)
+
+
+| Description | *SimpleJPEG: simple jpeg encoder* |
+| -- | -- |
+| Homepage | [https://github.com/webmproject/sjpeg](https://github.com/webmproject/sjpeg) |
+| License | Apache-2.0 |
+| Versions | 2025.06.05 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [sjpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sjpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sjpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sjpeg")
 ```
 
 
