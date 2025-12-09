@@ -23591,7 +23591,7 @@ add_requires("taocpp-json")
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
-| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0 |
+| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0, v3.11.0 |
 | Architectures | i386, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 

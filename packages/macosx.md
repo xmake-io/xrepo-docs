@@ -33958,7 +33958,7 @@ add_requires("taocpp-json")
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
-| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0 |
+| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0, v3.11.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 
@@ -37300,7 +37300,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55747d376c20 |
+| License | table: 0x55706023fd60 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
