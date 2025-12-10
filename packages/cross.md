@@ -15657,6 +15657,30 @@ add_requires("muda")
 ```
 
 
+### mujoco (cross)
+
+
+| Description | *Multi-Joint dynamics with Contact. A general purpose physics simulator.* |
+| -- | -- |
+| Homepage | [https://mujoco.org/](https://mujoco.org/) |
+| License | Apache-2.0 |
+| Versions | 3.4.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mujoco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujoco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mujoco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mujoco")
+```
+
+
 ### mujs (cross)
 
 

@@ -25656,6 +25656,30 @@ add_requires("muduo")
 ```
 
 
+### mujoco (linux)
+
+
+| Description | *Multi-Joint dynamics with Contact. A general purpose physics simulator.* |
+| -- | -- |
+| Homepage | [https://mujoco.org/](https://mujoco.org/) |
+| License | Apache-2.0 |
+| Versions | 3.4.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mujoco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujoco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mujoco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mujoco")
+```
+
+
 ### mujs (linux)
 
 
@@ -40506,7 +40530,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55983f62f720 |
+| License | table: 0x55b6c477a580 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -16017,6 +16017,30 @@ add_requires("muda")
 ```
 
 
+### mujoco (android)
+
+
+| Description | *Multi-Joint dynamics with Contact. A general purpose physics simulator.* |
+| -- | -- |
+| Homepage | [https://mujoco.org/](https://mujoco.org/) |
+| License | Apache-2.0 |
+| Versions | 3.4.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [mujoco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujoco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mujoco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mujoco")
+```
+
+
 ### mujs (android)
 
 

@@ -15634,6 +15634,30 @@ add_requires("muda")
 ```
 
 
+### mujoco (msys)
+
+
+| Description | *Multi-Joint dynamics with Contact. A general purpose physics simulator.* |
+| -- | -- |
+| Homepage | [https://mujoco.org/](https://mujoco.org/) |
+| License | Apache-2.0 |
+| Versions | 3.4.0 |
+| Architectures | i386, x86_64 |
+| Definition | [mujoco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujoco/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mujoco
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mujoco")
+```
+
+
 ### mujs (msys)
 
 
