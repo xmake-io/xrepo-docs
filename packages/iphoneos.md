@@ -8018,7 +8018,7 @@ add_requires("hiredis-vip")
 | -- | -- |
 | Homepage | [https://github.com/redorav/hlslpp](https://github.com/redorav/hlslpp) |
 | License | MIT |
-| Versions | 3.1, 3.2.3, 3.4, 3.5, 3.5.1, 3.5.3, 3.6, 3.7 |
+| Versions | 3.1, 3.2.3, 3.4, 3.5, 3.5.1, 3.5.3, 3.6, 3.7, 3.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [hlslpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hlslpp/xmake.lua) |
 
@@ -23505,7 +23505,7 @@ add_requires("trantor")
 | -- | -- |
 | Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
 | License | MIT |
-| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8, v0.25.10 |
+| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8, v0.25.10, v0.26.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
 
