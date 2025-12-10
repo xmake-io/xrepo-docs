@@ -20661,6 +20661,30 @@ add_requires("tinymcp")
 ```
 
 
+### tinyobjloader (wasm)
+
+
+| Description | *Tiny but powerful single file wavefront obj loader* |
+| -- | -- |
+| Homepage | [https://github.com/tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) |
+| License | MIT |
+| Versions | v1.0.7, v2.0.0rc10, v2.0.0rc13 |
+| Architectures | wasm32, wasm64 |
+| Definition | [tinyobjloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyobjloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm tinyobjloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinyobjloader")
+```
+
+
 ### tinyspline (wasm)
 
 
