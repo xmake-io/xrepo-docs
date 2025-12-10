@@ -23688,6 +23688,30 @@ add_requires("tree-sitter")
 ```
 
 
+### trianglemeshdistance (msys)
+
+
+| Description | *Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh* |
+| -- | -- |
+| Homepage | [https://github.com/InteractiveComputerGraphics/TriangleMeshDistance](https://github.com/InteractiveComputerGraphics/TriangleMeshDistance) |
+| License | Apache-2.0 |
+| Versions | 2025.12.06 |
+| Architectures | i386, x86_64 |
+| Definition | [trianglemeshdistance/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trianglemeshdistance/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install trianglemeshdistance
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("trianglemeshdistance")
+```
+
+
 ### trompeloeil (msys)
 
 

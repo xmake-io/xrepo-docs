@@ -38515,6 +38515,30 @@ add_requires("tree-sitter")
 ```
 
 
+### trianglemeshdistance (linux)
+
+
+| Description | *Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh* |
+| -- | -- |
+| Homepage | [https://github.com/InteractiveComputerGraphics/TriangleMeshDistance](https://github.com/InteractiveComputerGraphics/TriangleMeshDistance) |
+| License | Apache-2.0 |
+| Versions | 2025.12.06 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [trianglemeshdistance/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trianglemeshdistance/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install trianglemeshdistance
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("trianglemeshdistance")
+```
+
+
 ### trompeloeil (linux)
 
 
@@ -40482,7 +40506,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5600618df8e0 |
+| License | table: 0x55e054b38a90 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
