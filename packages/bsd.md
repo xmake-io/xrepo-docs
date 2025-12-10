@@ -14324,7 +14324,7 @@ add_requires("ls-qpack")
 | -- | -- |
 | Homepage | [https://github.com/leon-bckl/lsp-framework](https://github.com/leon-bckl/lsp-framework) |
 | License | MIT |
-| Versions | 1.0.1 |
+| Versions | 1.0.1, 1.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [lsp-framework/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsp-framework/xmake.lua) |
 
