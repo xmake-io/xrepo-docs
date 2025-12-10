@@ -5049,7 +5049,7 @@ add_requires("doctest")
 | -- | -- |
 | Homepage | [https://github.com/google/double-conversion](https://github.com/google/double-conversion) |
 | License | BSD-3-Clause |
-| Versions | v3.1.5, v3.3.0, v3.3.1 |
+| Versions | v3.1.5, v3.3.0, v3.3.1, v3.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [double-conversion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/double-conversion/xmake.lua) |
 
@@ -9951,6 +9951,30 @@ add_requires("libcbor")
 ```
 
 
+### libccd (iphoneos)
+
+
+| Description | *libccd is library for a collision detection between two convex shapes.* |
+| -- | -- |
+| Homepage | [https://github.com/danfis/libccd/](https://github.com/danfis/libccd/) |
+| License | BSD-3-Clause |
+| Versions | v2.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [libccd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libccd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libccd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libccd")
+```
+
+
 ### libcoro (iphoneos)
 
 
@@ -13889,6 +13913,30 @@ xrepo install -p iphoneos mapbox_variant
 
 ```lua
 add_requires("mapbox_variant")
+```
+
+
+### marchingcubecpp (iphoneos)
+
+
+| Description | *A public domain/MIT header-only marching cube implementation in C++ without anything fancy.* |
+| -- | -- |
+| Homepage | [https://github.com/aparis69/marchingcubecpp](https://github.com/aparis69/marchingcubecpp) |
+| License | MIT |
+| Versions | 2023.09.12 |
+| Architectures | arm64, x86_64 |
+| Definition | [marchingcubecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marchingcubecpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos marchingcubecpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("marchingcubecpp")
 ```
 
 

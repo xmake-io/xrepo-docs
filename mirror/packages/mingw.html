@@ -8740,7 +8740,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.1.5, v3.3.0, v3.3.1</td>
+<td>v3.1.5, v3.3.0, v3.3.1, v3.4.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -23922,6 +23922,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("mapbox_variant")
+</code></pre>
+<h3 id="marchingcubecppmingw">marchingcubecpp (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A public domain/MIT header-only marching cube implementation in C++ without anything fancy.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/aparis69/marchingcubecpp">https://github.com/aparis69/marchingcubecpp</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2023.09.12</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marchingcubecpp/xmake.lua">marchingcubecpp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] marchingcubecpp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("marchingcubecpp")
 </code></pre>
 <h3 id="marisamingw">marisa (mingw)</h3>
 <table>
@@ -42183,7 +42220,7 @@
 <thead>
 <tr>
 <th>Description</th>
-<th><em>Locate the current running executable and the current running module/library on the file system 🔎</em></th>
+<th><em>Locate the current running executable and the current running module/library on the file system ��</em></th>
 </tr>
 </thead>
 <tbody>

@@ -7482,7 +7482,7 @@ add_requires("dotnet")
 | -- | -- |
 | Homepage | [https://github.com/google/double-conversion](https://github.com/google/double-conversion) |
 | License | BSD-3-Clause |
-| Versions | v3.1.5, v3.3.0, v3.3.1 |
+| Versions | v3.1.5, v3.3.0, v3.3.1, v3.4.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [double-conversion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/double-conversion/xmake.lua) |
 
@@ -20351,6 +20351,30 @@ xrepo install mapbox_variant
 
 ```lua
 add_requires("mapbox_variant")
+```
+
+
+### marchingcubecpp (windows)
+
+
+| Description | *A public domain/MIT header-only marching cube implementation in C++ without anything fancy.* |
+| -- | -- |
+| Homepage | [https://github.com/aparis69/marchingcubecpp](https://github.com/aparis69/marchingcubecpp) |
+| License | MIT |
+| Versions | 2023.09.12 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [marchingcubecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marchingcubecpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install marchingcubecpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("marchingcubecpp")
 ```
 
 

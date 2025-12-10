@@ -7813,7 +7813,7 @@ add_requires("dotnet")
 | -- | -- |
 | Homepage | [https://github.com/google/double-conversion](https://github.com/google/double-conversion) |
 | License | BSD-3-Clause |
-| Versions | v3.1.5, v3.3.0, v3.3.1 |
+| Versions | v3.1.5, v3.3.0, v3.3.1, v3.4.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [double-conversion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/double-conversion/xmake.lua) |
 
@@ -23747,6 +23747,30 @@ xrepo install mapbox_variant
 
 ```lua
 add_requires("mapbox_variant")
+```
+
+
+### marchingcubecpp (linux)
+
+
+| Description | *A public domain/MIT header-only marching cube implementation in C++ without anything fancy.* |
+| -- | -- |
+| Homepage | [https://github.com/aparis69/marchingcubecpp](https://github.com/aparis69/marchingcubecpp) |
+| License | MIT |
+| Versions | 2023.09.12 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [marchingcubecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/marchingcubecpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install marchingcubecpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("marchingcubecpp")
 ```
 
 
@@ -40458,7 +40482,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b769249210 |
+| License | table: 0x55dca0400550 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
