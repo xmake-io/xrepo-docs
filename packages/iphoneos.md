@@ -14489,6 +14489,30 @@ add_requires("microsoft-proxy")
 ```
 
 
+### microstl (iphoneos)
+
+
+| Description | *Small header-only C++ library for STL mesh files.* |
+| -- | -- |
+| Homepage | [https://github.com/cry-inc/microstl](https://github.com/cry-inc/microstl) |
+| License | MIT |
+| Versions | 2023.02.04 |
+| Architectures | arm64, x86_64 |
+| Definition | [microstl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microstl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos microstl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microstl")
+```
+
+
 ### mikktspace (iphoneos)
 
 

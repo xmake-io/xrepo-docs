@@ -14991,6 +14991,30 @@ add_requires("microsoft-seal")
 ```
 
 
+### microstl (cross)
+
+
+| Description | *Small header-only C++ library for STL mesh files.* |
+| -- | -- |
+| Homepage | [https://github.com/cry-inc/microstl](https://github.com/cry-inc/microstl) |
+| License | MIT |
+| Versions | 2023.02.04 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [microstl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microstl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] microstl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microstl")
+```
+
+
 ### mikktspace (cross)
 
 

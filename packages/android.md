@@ -15280,6 +15280,30 @@ add_requires("microsoft-seal")
 ```
 
 
+### microstl (android)
+
+
+| Description | *Small header-only C++ library for STL mesh files.* |
+| -- | -- |
+| Homepage | [https://github.com/cry-inc/microstl](https://github.com/cry-inc/microstl) |
+| License | MIT |
+| Versions | 2023.02.04 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [microstl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microstl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] microstl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microstl")
+```
+
+
 ### mikktspace (android)
 
 

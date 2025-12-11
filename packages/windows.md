@@ -21288,6 +21288,30 @@ add_requires("microsoft-wtl")
 ```
 
 
+### microstl (windows)
+
+
+| Description | *Small header-only C++ library for STL mesh files.* |
+| -- | -- |
+| Homepage | [https://github.com/cry-inc/microstl](https://github.com/cry-inc/microstl) |
+| License | MIT |
+| Versions | 2023.02.04 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [microstl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microstl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install microstl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("microstl")
+```
+
+
 ### mikktspace (windows)
 
 
