@@ -11753,6 +11753,30 @@ add_requires("glslang")
 ```
 
 
+### glslang-nihui (linux)
+
+
+| Description | *nihui's fork of KhronosGroup/glslang for C++14 compatibility. This package is designed for Tencent/ncnn.* |
+| -- | -- |
+| Homepage | [https://github.com/nihui/glslang/](https://github.com/nihui/glslang/) |
+| License | Apache-2.0 |
+| Versions | 2025.05.03, 2025.09.16 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [glslang-nihui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang-nihui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glslang-nihui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glslang-nihui")
+```
+
+
 ### glu (linux)
 
 
@@ -40530,7 +40554,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x562de2cc5da0 |
+| License | table: 0x562657178520 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

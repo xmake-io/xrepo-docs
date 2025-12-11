@@ -11710,6 +11710,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("glslang")
 </code></pre>
+<h3 id="glslangnihuiandroid">glslang-nihui (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>nihui&#39;s fork of KhronosGroup/glslang for C++14 compatibility. This package is designed for Tencent/ncnn.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/nihui/glslang/">https://github.com/nihui/glslang/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2025.05.03, 2025.09.16</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang-nihui/xmake.lua">glslang-nihui/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] glslang-nihui
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("glslang-nihui")
+</code></pre>
 <h3 id="gluandroid">glu (android)</h3>
 <table>
 <thead>

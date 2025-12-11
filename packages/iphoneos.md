@@ -7223,6 +7223,30 @@ add_requires("glslang")
 ```
 
 
+### glslang-nihui (iphoneos)
+
+
+| Description | *nihui's fork of KhronosGroup/glslang for C++14 compatibility. This package is designed for Tencent/ncnn.* |
+| -- | -- |
+| Homepage | [https://github.com/nihui/glslang/](https://github.com/nihui/glslang/) |
+| License | Apache-2.0 |
+| Versions | 2025.05.03, 2025.09.16 |
+| Architectures | arm64, x86_64 |
+| Definition | [glslang-nihui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang-nihui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos glslang-nihui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glslang-nihui")
+```
+
+
 ### glu (iphoneos)
 
 
