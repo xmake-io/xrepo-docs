@@ -5917,7 +5917,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -8646,7 +8646,7 @@ add_requires("im3d")
 | -- | -- |
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
-| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4, v3.1.5, v3.1.9, v3.1.10, v3.1.11, v3.1.12, v3.2.1 |
+| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4, v3.1.5, v3.1.9, v3.1.10, v3.1.11, v3.1.12, v3.2.1, v3.2.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
@@ -14783,7 +14783,7 @@ add_requires("melon")
 | -- | -- |
 | Homepage | [https://github.com/zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) |
 | License | MIT |
-| Versions | v0.18, v0.20, v0.21, v0.22, v0.23, v0.24, v0.25 |
+| Versions | v0.18, v0.20, v0.21, v0.22, v0.23, v0.24, v0.25, v1.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [meshoptimizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meshoptimizer/xmake.lua) |
 

@@ -8442,7 +8442,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -12865,7 +12865,7 @@ add_requires("im3d")
 | -- | -- |
 | Homepage | [https://github.com/AcademySoftwareFoundation/Imath/](https://github.com/AcademySoftwareFoundation/Imath/) |
 | License | BSD-3-Clause |
-| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4, v3.1.5, v3.1.9, v3.1.10, v3.1.11, v3.1.12, v3.2.1 |
+| Versions | v3.1.0, v3.1.1, v3.1.2, v3.1.3, v3.1.4, v3.1.5, v3.1.9, v3.1.10, v3.1.11, v3.1.12, v3.2.1, v3.2.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [imath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imath/xmake.lua) |
 
@@ -13582,7 +13582,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://itk.org/](https://itk.org/) |
 | License | Apache-2.0 |
-| Versions | 5.2.0, 5.2.1, 5.4.4 |
+| Versions | 5.2.0, 5.2.1, 5.4.4, 5.4.5 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [itk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itk/xmake.lua) |
 
@@ -20936,7 +20936,7 @@ add_requires("meowhash")
 | -- | -- |
 | Homepage | [https://github.com/zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) |
 | License | MIT |
-| Versions | v0.18, v0.20, v0.21, v0.22, v0.23, v0.24, v0.25 |
+| Versions | v0.18, v0.20, v0.21, v0.22, v0.23, v0.24, v0.25, v1.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [meshoptimizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meshoptimizer/xmake.lua) |
 
@@ -28710,7 +28710,7 @@ add_requires("quickjs-ng")
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
 | License | MIT |
-| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3, v10.0.0, v10.0.1, v10.1.0 |
+| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3, v10.0.0, v10.0.1, v10.1.0, v11.0.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -32507,7 +32507,7 @@ add_requires("strings_h")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10, v3.10.11, v3.11.0, v3.11.1, v3.11.3, v3.12.1, v3.12.2, v3.12.3, v3.12.4, v3.12.5, v3.12.6, v4.0.0, v4.0.14, v4.3.0 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10, v3.10.11, v3.11.0, v3.11.1, v3.11.3, v3.12.1, v3.12.2, v3.12.3, v3.12.4, v3.12.5, v3.12.6, v4.0.0, v4.0.14, v4.3.0, v4.4.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
