@@ -11179,7 +11179,7 @@ add_requires("libjuice")
 | -- | -- |
 | Homepage | [https://jpeg.org/jpegxl](https://jpeg.org/jpegxl) |
 | License | BSD-3-Clause |
-| Versions | v0.8.2, v0.11.1 |
+| Versions | v0.11.1 |
 | Architectures | i386, x86_64 |
 | Definition | [libjxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjxl/xmake.lua) |
 

@@ -11151,6 +11151,30 @@ add_requires("libjuice")
 ```
 
 
+### libjxl (cross)
+
+
+| Description | *JPEG XL image format reference implementation* |
+| -- | -- |
+| Homepage | [https://jpeg.org/jpegxl](https://jpeg.org/jpegxl) |
+| License | BSD-3-Clause |
+| Versions | v0.11.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libjxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjxl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libjxl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libjxl")
+```
+
+
 ### libkdtree (cross)
 
 
