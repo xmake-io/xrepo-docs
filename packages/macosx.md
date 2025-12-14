@@ -14990,7 +14990,7 @@ add_requires("libassert")
 | -- | -- |
 | Homepage | [https://github.com/bdwgc/libatomic_ops/wiki/Download](https://github.com/bdwgc/libatomic_ops/wiki/Download) |
 | License | GPL-2.0 |
-| Versions | v7.8.2, v7.8.4 |
+| Versions | v7.8.2, v7.8.4, v7.10.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libatomic_ops/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libatomic_ops/xmake.lua) |
 
@@ -37444,7 +37444,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55758c6b80d0 |
+| License | table: 0x56048bab0db0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -38898,7 +38898,7 @@ add_requires("zlib")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
-| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1, 2.2.2, 2.2.4, 2.2.5 |
+| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1, 2.2.2, 2.2.4, 2.2.5, 2.3.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 

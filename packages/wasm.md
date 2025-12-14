@@ -8863,7 +8863,7 @@ add_requires("libass")
 | -- | -- |
 | Homepage | [https://github.com/bdwgc/libatomic_ops/wiki/Download](https://github.com/bdwgc/libatomic_ops/wiki/Download) |
 | License | GPL-2.0 |
-| Versions | v7.8.2, v7.8.4 |
+| Versions | v7.8.2, v7.8.4, v7.10.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libatomic_ops/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libatomic_ops/xmake.lua) |
 

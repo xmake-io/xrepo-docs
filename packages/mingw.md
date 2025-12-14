@@ -11178,7 +11178,7 @@ add_requires("libass")
 | -- | -- |
 | Homepage | [https://github.com/bdwgc/libatomic_ops/wiki/Download](https://github.com/bdwgc/libatomic_ops/wiki/Download) |
 | License | GPL-2.0 |
-| Versions | v7.8.2, v7.8.4 |
+| Versions | v7.8.2, v7.8.4, v7.10.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libatomic_ops/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libatomic_ops/xmake.lua) |
 
@@ -28810,7 +28810,7 @@ add_requires("zlib")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) |
 | License | zlib |
-| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1, 2.2.2, 2.2.4, 2.2.5 |
+| Versions | 2.0.5, 2.0.6, 2.1.5, 2.1.6, 2.2.1, 2.2.2, 2.2.4, 2.2.5, 2.3.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [zlib-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib-ng/xmake.lua) |
 
