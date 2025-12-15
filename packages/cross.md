@@ -17006,7 +17006,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [http://libomath.org](http://libomath.org) |
 | License | zlib |
-| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0 |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
 
@@ -19144,6 +19144,30 @@ xrepo install -p cross [--sdk=/xxx] prvhash
 
 ```lua
 add_requires("prvhash")
+```
+
+
+### ptex (cross)
+
+
+| Description | *Per-Face Texture Mapping for Production Rendering* |
+| -- | -- |
+| Homepage | [http://ptex.us/](http://ptex.us/) |
+| License | BSD-3-Clause |
+| Versions | v2.3.2, v2.4.1, v2.4.2, v2.4.3, v2.5.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ptex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ptex")
 ```
 
 

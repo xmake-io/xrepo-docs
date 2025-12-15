@@ -25576,6 +25576,30 @@ add_requires("olive.c")
 ```
 
 
+### omath (macosx)
+
+
+| Description | *Cross-platform modern general purpose math library written in C++23* |
+| -- | -- |
+| Homepage | [http://libomath.org](http://libomath.org) |
+| License | zlib |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install omath
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("omath")
+```
+
+
 ### onednn (macosx)
 
 
@@ -28753,7 +28777,7 @@ add_requires("psimd")
 | -- | -- |
 | Homepage | [http://ptex.us/](http://ptex.us/) |
 | License | BSD-3-Clause |
-| Versions | v2.3.2, v2.4.1, v2.4.2, v2.4.3 |
+| Versions | v2.3.2, v2.4.1, v2.4.2, v2.4.3, v2.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
 
@@ -37444,7 +37468,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56048bab0db0 |
+| License | table: 0x560d3d233ff0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

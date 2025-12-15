@@ -17756,6 +17756,30 @@ add_requires("olive.c")
 ```
 
 
+### omath (bsd)
+
+
+| Description | *Cross-platform modern general purpose math library written in C++23* |
+| -- | -- |
+| Homepage | [http://libomath.org](http://libomath.org) |
+| License | zlib |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0 |
+| Architectures | i386, x86_64 |
+| Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install omath
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("omath")
+```
+
+
 ### oneshot (bsd)
 
 
@@ -20043,6 +20067,30 @@ xrepo install pseudo-double-cpp
 
 ```lua
 add_requires("pseudo-double-cpp")
+```
+
+
+### ptex (bsd)
+
+
+| Description | *Per-Face Texture Mapping for Production Rendering* |
+| -- | -- |
+| Homepage | [http://ptex.us/](http://ptex.us/) |
+| License | BSD-3-Clause |
+| Versions | v2.3.2, v2.4.1, v2.4.2, v2.4.3, v2.5.1 |
+| Architectures | i386, x86_64 |
+| Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ptex
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ptex")
 ```
 
 
