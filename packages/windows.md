@@ -9877,7 +9877,7 @@ add_requires("freeimage")
 | -- | -- |
 | Homepage | [http://www.freerdp.com](http://www.freerdp.com) |
 | License | Apache-2.0 |
-| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0 |
+| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [freerdp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freerdp/xmake.lua) |
 
