@@ -7878,7 +7878,7 @@ add_requires("interface99")
 | -- | -- |
 | Homepage | [https://github.com/chfast/intx](https://github.com/chfast/intx) |
 | License | Apache-2.0 |
-| Versions | v0.11.0, v0.12.0, v0.12.1, v0.13.0 |
+| Versions | v0.11.0, v0.12.0, v0.12.1, v0.13.0, v0.14.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [intx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/intx/xmake.lua) |
 
@@ -9317,7 +9317,7 @@ add_requires("libebur128")
 | -- | -- |
 | Homepage | [https://github.com/openSUSE/libeconf](https://github.com/openSUSE/libeconf) |
 | License | MIT |
-| Versions | v0.7.10, v0.8.0 |
+| Versions | v0.7.10, v0.8.0, v0.8.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libeconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libeconf/xmake.lua) |
 
@@ -18040,7 +18040,7 @@ add_requires("robin-hood-hashing")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
 | License | MIT |
-| Versions | v0.6.3, v1.2.1, v1.2.2, v1.3.0, v1.4.0 |
+| Versions | v0.6.3, v1.2.1, v1.2.2, v1.3.0, v1.4.0, v1.4.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
 
@@ -18960,6 +18960,29 @@ xrepo install -p wasm sokol-tools
 
 ```lua
 add_requires("sokol-tools")
+```
+
+
+### sol2 (wasm)
+
+
+| Description | *A C++ library binding to Lua.* |
+| -- | -- |
+| Homepage | [https://github.com/ThePhD/sol2](https://github.com/ThePhD/sol2) |
+| Versions | v3.2.1, v3.2.2, v3.2.3, v3.3.0, v3.3.1, v3.5.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [sol2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sol2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm sol2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sol2")
 ```
 
 

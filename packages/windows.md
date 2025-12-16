@@ -1564,7 +1564,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-event-stream](https://github.com/awslabs/aws-c-event-stream) |
 | License | Apache-2.0 |
-| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0, v0.5.1, v0.5.4, v0.5.5, v0.5.6, v0.5.7 |
+| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0, v0.5.1, v0.5.4, v0.5.5, v0.5.6, v0.5.7, v0.5.9 |
 | Architectures | x64, x86 |
 | Definition | [aws-c-event-stream/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-event-stream/xmake.lua) |
 
@@ -13439,7 +13439,7 @@ add_requires("interface99")
 | -- | -- |
 | Homepage | [https://github.com/chfast/intx](https://github.com/chfast/intx) |
 | License | Apache-2.0 |
-| Versions | v0.11.0, v0.12.0, v0.12.1, v0.13.0 |
+| Versions | v0.11.0, v0.12.0, v0.12.1, v0.13.0, v0.14.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [intx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/intx/xmake.lua) |
 
@@ -29741,7 +29741,7 @@ add_requires("robin-hood-hashing")
 | -- | -- |
 | Homepage | [https://github.com/Tessil/robin-map](https://github.com/Tessil/robin-map) |
 | License | MIT |
-| Versions | v0.6.3, v1.2.1, v1.2.2, v1.3.0, v1.4.0 |
+| Versions | v0.6.3, v1.2.1, v1.2.2, v1.3.0, v1.4.0, v1.4.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [robin-map/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/robin-map/xmake.lua) |
 
