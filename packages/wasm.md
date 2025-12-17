@@ -5367,7 +5367,7 @@ add_requires("fakeit")
 | -- | -- |
 | Homepage | [https://cieslarmichal.github.io/faker-cxx/](https://cieslarmichal.github.io/faker-cxx/) |
 | License | MIT |
-| Versions | v2.0.0, v3.0.0, v4.0.1 |
+| Versions | v2.0.0, v3.0.0, v4.0.1, v4.1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [faker-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faker-cxx/xmake.lua) |
 
@@ -6919,7 +6919,7 @@ add_requires("graaf")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -13041,7 +13041,7 @@ add_requires("micro-gl")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
@@ -18684,7 +18684,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/danmar/simplecpp](https://github.com/danmar/simplecpp) |
 | License | OBSD |
-| Versions | 1.5.1, 1.5.2, 1.6.1, 1.6.3 |
+| Versions | 1.5.1, 1.5.2, 1.6.1, 1.6.3, 1.6.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [simplecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplecpp/xmake.lua) |
 
