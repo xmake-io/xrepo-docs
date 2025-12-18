@@ -17555,7 +17555,7 @@ add_requires("nazarautils")
 | -- | -- |
 | Homepage | [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn) |
 | License | BSD-3-Clause |
-| Versions | 20250503, 20250916 |
+| Versions | 2025.05.03, 2025.09.16 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ncnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncnn/xmake.lua) |
 
