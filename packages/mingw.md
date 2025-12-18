@@ -5148,7 +5148,7 @@ add_requires("dav1d")
 | -- | -- |
 | Homepage | [https://beached.github.io/header_libraries/](https://beached.github.io/header_libraries/) |
 | License | BSL-1.0 |
-| Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2 |
+| Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2, v2.131.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [daw_header_libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua) |
 
@@ -23429,7 +23429,7 @@ add_requires("simpleini")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
 | License | Apache-2.0 |
-| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3 |
+| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3, v6.5.9 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
 
@@ -28402,7 +28402,7 @@ add_requires("xxmlxx")
 | Description | *General-purpose data compression with high compression ratio.* |
 | -- | -- |
 | Homepage | [https://tukaani.org/xz/](https://tukaani.org/xz/) |
-| Versions | 5.2.11, 5.2.12, 5.2.13, 5.4.2, 5.4.3, 5.4.4, 5.4.5, 5.4.6, 5.4.7, 5.6.2, 5.6.3, 5.6.4, 5.8.1 |
+| Versions | 5.2.11, 5.2.12, 5.2.13, 5.4.2, 5.4.3, 5.4.4, 5.4.5, 5.4.6, 5.4.7, 5.6.2, 5.6.3, 5.6.4, 5.8.1, 5.8.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [xz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz/xmake.lua) |
 
