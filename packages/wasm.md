@@ -726,7 +726,7 @@ add_requires("audiofile")
 | -- | -- |
 | Homepage | [https://aurora-opensource.github.io/au](https://aurora-opensource.github.io/au) |
 | License | Apache-2.0 |
-| Versions | 0.4.1, 0.5.0 |
+| Versions | 0.4.1, 0.5.0, 0.5.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [aurora-au/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aurora-au/xmake.lua) |
 
@@ -3948,7 +3948,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.3.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 

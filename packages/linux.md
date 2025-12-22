@@ -1446,7 +1446,7 @@ add_requires("aui")
 | -- | -- |
 | Homepage | [https://aurora-opensource.github.io/au](https://aurora-opensource.github.io/au) |
 | License | Apache-2.0 |
-| Versions | 0.4.1, 0.5.0 |
+| Versions | 0.4.1, 0.5.0, 0.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aurora-au/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aurora-au/xmake.lua) |
 
@@ -6712,7 +6712,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.3.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
@@ -8029,7 +8029,7 @@ add_requires("drogon")
 | -- | -- |
 | Homepage | [http://duckdb.org/](http://duckdb.org/) |
 | License | MIT |
-| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3, v1.2.1, v1.2.2, v1.3.2, v1.4.0, v1.4.1, v1.4.2 |
+| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3, v1.2.1, v1.2.2, v1.3.2, v1.4.0, v1.4.1, v1.4.2, v1.4.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [duckdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duckdb/xmake.lua) |
 
@@ -35134,7 +35134,7 @@ add_requires("soci")
 | -- | -- |
 | Homepage | [https://github.com/socketio/socket.io-client-cpp](https://github.com/socketio/socket.io-client-cpp) |
 | License | MIT |
-| Versions | 2024.07.17 |
+| Versions | 2.1.0, 3.0.0, 3.1.0, 2024.07.17, 2025.08.28 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [socket-io-client/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/socket-io-client/xmake.lua) |
 
@@ -40578,7 +40578,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56407afbe890 |
+| License | table: 0x561889e4f4f0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -41602,7 +41602,7 @@ add_requires("xz")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/yalantinglibs](https://github.com/alibaba/yalantinglibs) |
 | License | Apache-2.0 |
-| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2, 0.5.3, 0.5.5, 0.5.6 |
+| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2, 0.5.3, 0.5.5, 0.5.6, 0.5.7 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [yalantinglibs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yalantinglibs/xmake.lua) |
 
