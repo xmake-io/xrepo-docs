@@ -14585,6 +14585,30 @@ add_requires("mathter")
 ```
 
 
+### matio (msys)
+
+
+| Description | *MATLAB MAT File I/O Library* |
+| -- | -- |
+| Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
+| License | BSD-2-Clause |
+| Versions | v1.5.26, v1.5.27, v1.5.28, v1.5.29 |
+| Architectures | i386, x86_64 |
+| Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install matio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("matio")
+```
+
+
 ### matlab (msys)
 
 
