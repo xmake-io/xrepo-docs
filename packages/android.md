@@ -15852,6 +15852,29 @@ add_requires("mpmcqueue")
 ```
 
 
+### mquickjs (android)
+
+
+| Description | *Public repository of the Micro QuickJS Javascript Engine* |
+| -- | -- |
+| Homepage | [https://github.com/bellard/mquickjs](https://github.com/bellard/mquickjs) |
+| Versions | 2025.12.22 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [mquickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mquickjs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mquickjs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mquickjs")
+```
+
+
 ### mscharconv (android)
 
 

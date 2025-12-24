@@ -22147,6 +22147,29 @@ add_requires("mpmcqueue")
 ```
 
 
+### mquickjs (windows)
+
+
+| Description | *Public repository of the Micro QuickJS Javascript Engine* |
+| -- | -- |
+| Homepage | [https://github.com/bellard/mquickjs](https://github.com/bellard/mquickjs) |
+| Versions | 2025.12.22 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [mquickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mquickjs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mquickjs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mquickjs")
+```
+
+
 ### mscharconv (windows)
 
 

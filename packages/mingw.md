@@ -16903,6 +16903,29 @@ add_requires("mpmcqueue")
 ```
 
 
+### mquickjs (mingw)
+
+
+| Description | *Public repository of the Micro QuickJS Javascript Engine* |
+| -- | -- |
+| Homepage | [https://github.com/bellard/mquickjs](https://github.com/bellard/mquickjs) |
+| Versions | 2025.12.22 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [mquickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mquickjs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] mquickjs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mquickjs")
+```
+
+
 ### mscharconv (mingw)
 
 

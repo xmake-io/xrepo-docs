@@ -25444,6 +25444,29 @@ add_requires("mpmcqueue")
 ```
 
 
+### mquickjs (linux)
+
+
+| Description | *Public repository of the Micro QuickJS Javascript Engine* |
+| -- | -- |
+| Homepage | [https://github.com/bellard/mquickjs](https://github.com/bellard/mquickjs) |
+| Versions | 2025.12.22 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mquickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mquickjs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mquickjs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mquickjs")
+```
+
+
 ### mscharconv (linux)
 
 
@@ -40579,7 +40602,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5617b4fc2eb0 |
+| License | table: 0x564d21370750 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

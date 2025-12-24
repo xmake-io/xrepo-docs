@@ -15516,6 +15516,29 @@ add_requires("mpmcqueue")
 ```
 
 
+### mquickjs (cross)
+
+
+| Description | *Public repository of the Micro QuickJS Javascript Engine* |
+| -- | -- |
+| Homepage | [https://github.com/bellard/mquickjs](https://github.com/bellard/mquickjs) |
+| Versions | 2025.12.22 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [mquickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mquickjs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] mquickjs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mquickjs")
+```
+
+
 ### mscharconv (cross)
 
 
