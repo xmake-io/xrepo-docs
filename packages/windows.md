@@ -14540,7 +14540,7 @@ add_requires("kotlin-native")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) |
 | License | Apache-2.0 |
-| Versions | v4.4.0 |
+| Versions | v4.4.0, v4.4.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ktx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/ktx/xmake.lua) |
 
@@ -16497,7 +16497,7 @@ add_requires("libmaxminddb")
 | -- | -- |
 | Homepage | [https://github.com/rdbo/libmem](https://github.com/rdbo/libmem) |
 | License | AGPL-3.0 |
-| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0 |
+| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0, 5.1.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libmem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmem/xmake.lua) |
 

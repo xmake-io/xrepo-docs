@@ -9794,7 +9794,7 @@ add_requires("kotlin-native")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) |
 | License | Apache-2.0 |
-| Versions | v4.4.0 |
+| Versions | v4.4.0, v4.4.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ktx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/ktx/xmake.lua) |
 

@@ -15465,7 +15465,7 @@ add_requires("krb5")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) |
 | License | Apache-2.0 |
-| Versions | v4.4.0 |
+| Versions | v4.4.0, v4.4.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ktx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/ktx/xmake.lua) |
 
@@ -18346,7 +18346,7 @@ add_requires("libmd")
 | -- | -- |
 | Homepage | [https://github.com/rdbo/libmem](https://github.com/rdbo/libmem) |
 | License | AGPL-3.0 |
-| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0 |
+| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0, 5.1.4 |
 | Architectures | armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libmem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmem/xmake.lua) |
 
@@ -40602,7 +40602,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558358300e60 |
+| License | table: 0x563a7ee68c40 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
