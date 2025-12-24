@@ -988,7 +988,7 @@ add_requires("aws-lc")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
-| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3 |
+| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3, 5.4.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
@@ -5773,7 +5773,7 @@ add_requires("flann")
 | -- | -- |
 | Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
 | License | Apache-2.0 |
-| Versions | v1.12.0, v2.0.0, v23.1.21, v23.5.26, v24.3.25, v24.12.23, v25.2.10, v25.9.23 |
+| Versions | v1.12.0, v2.0.0, v23.1.21, v23.5.26, v24.3.25, v24.12.23, v25.2.10, v25.9.23, v25.12.19 |
 | Architectures | wasm32, wasm64 |
 | Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
 

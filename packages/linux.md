@@ -1970,7 +1970,7 @@ add_requires("aws-sdk-cpp")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
-| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3 |
+| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3, 5.4.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
@@ -9970,7 +9970,7 @@ add_requires("flashlight")
 | -- | -- |
 | Homepage | [http://google.github.io/flatbuffers/](http://google.github.io/flatbuffers/) |
 | License | Apache-2.0 |
-| Versions | v1.12.0, v2.0.0, v23.1.21, v23.5.26, v24.3.25, v24.12.23, v25.2.10, v25.9.23 |
+| Versions | v1.12.0, v2.0.0, v23.1.21, v23.5.26, v24.3.25, v24.12.23, v25.2.10, v25.9.23, v25.12.19 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [flatbuffers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flatbuffers/xmake.lua) |
 
@@ -35682,7 +35682,8 @@ add_requires("spot")
 | Description | *SQLCipher is a standalone fork of the SQLite database library that adds 256 bit AES encryption of database files and other security features* |
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
-| Versions | 4.5.3, 4.6.0 |
+| License | BSD-3-Clause |
+| Versions | 4.5.3, 4.6.0, 4.12.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 
@@ -40578,7 +40579,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5637b640b390 |
+| License | table: 0x5617b4fc2eb0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
