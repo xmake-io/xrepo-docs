@@ -4906,7 +4906,7 @@ add_requires("dav1d")
 | -- | -- |
 | Homepage | [https://beached.github.io/header_libraries/](https://beached.github.io/header_libraries/) |
 | License | BSL-1.0 |
-| Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2, v2.131.0 |
+| Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2, v2.131.0, v2.132.1 |
 | Architectures | i386, x86_64 |
 | Definition | [daw_header_libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua) |
 
@@ -11849,7 +11849,7 @@ add_requires("librdkafka")
 | -- | -- |
 | Homepage | [https://www.intelrealsense.com/](https://www.intelrealsense.com/) |
 | License | Apache-2.0 |
-| Versions | v2.57.4 |
+| Versions | v2.57.4, v2.57.5 |
 | Architectures | i386, x86_64 |
 | Definition | [librealsense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librealsense/xmake.lua) |
 
@@ -13069,7 +13069,7 @@ add_requires("libxls")
 | -- | -- |
 | Homepage | [https://libxlsxwriter.github.io](https://libxlsxwriter.github.io) |
 | License | BSD-2-Clause |
-| Versions | 1.1.5 |
+| Versions | 1.1.5, v1.2.3 |
 | Architectures | i386, x86_64 |
 | Definition | [libxlsxwriter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxlsxwriter/xmake.lua) |
 
@@ -15260,7 +15260,7 @@ add_requires("miniz")
 | -- | -- |
 | Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
 | License | zlib |
-| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13 |
+| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3.1 |
 | Architectures | i386, x86_64 |
 | Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
 
@@ -25828,7 +25828,7 @@ add_requires("zig")
 | -- | -- |
 | Homepage | [http://www.zint.org.uk](http://www.zint.org.uk) |
 | License | GPL-3.0 |
-| Versions | 2.14.0, 2.15.0 |
+| Versions | 2.14.0, 2.15.0, 2.16.0 |
 | Architectures | i386, x86_64 |
 | Definition | [zint/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zint/xmake.lua) |
 
