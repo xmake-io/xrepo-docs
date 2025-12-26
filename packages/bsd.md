@@ -10871,7 +10871,7 @@ add_requires("libebur128")
 | -- | -- |
 | Homepage | [https://github.com/openSUSE/libeconf](https://github.com/openSUSE/libeconf) |
 | License | MIT |
-| Versions | v0.7.10, v0.8.0, v0.8.2 |
+| Versions | v0.7.10, v0.8.0, v0.8.2, v0.8.3 |
 | Architectures | i386, x86_64 |
 | Definition | [libeconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libeconf/xmake.lua) |
 

@@ -12958,7 +12958,7 @@ add_requires("imguizmo")
 | -- | -- |
 | Homepage | [https://github.com/arximboldi/immer](https://github.com/arximboldi/immer) |
 | License | BSL-1.0 |
-| Versions | v0.8.0, v0.8.1 |
+| Versions | v0.8.0, v0.8.1, v0.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [immer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/immer/xmake.lua) |
 
@@ -15611,7 +15611,7 @@ add_requires("libebur128")
 | -- | -- |
 | Homepage | [https://github.com/openSUSE/libeconf](https://github.com/openSUSE/libeconf) |
 | License | MIT |
-| Versions | v0.7.10, v0.8.0, v0.8.2 |
+| Versions | v0.7.10, v0.8.0, v0.8.2, v0.8.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libeconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libeconf/xmake.lua) |
 
@@ -37492,7 +37492,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557ae4ee6cb0 |
+| License | table: 0x55f6d5f1e610 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

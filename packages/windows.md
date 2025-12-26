@@ -13081,7 +13081,7 @@ add_requires("imguizmo")
 | -- | -- |
 | Homepage | [https://github.com/arximboldi/immer](https://github.com/arximboldi/immer) |
 | License | BSL-1.0 |
-| Versions | v0.8.0, v0.8.1 |
+| Versions | v0.8.0, v0.8.1, v0.9.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [immer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/immer/xmake.lua) |
 
