@@ -9482,7 +9482,7 @@ add_requires("jerryscript")
 | -- | -- |
 | Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1, v4.0.2, v5.0.0, v5.1.0, v5.2.0, v5.3.0, v5.4.0 |
+| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1, v4.0.2, v5.0.0, v5.1.0, v5.2.0, v5.3.0, v5.4.0, v5.5.0 |
 | Architectures | i386, x86_64 |
 | Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
 
@@ -9601,6 +9601,7 @@ add_requires("json-c")
 | Description | *JSON schema validator for JSON for Modern C++* |
 | -- | -- |
 | Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
+| License | MIT |
 | Versions | 2.1.0, 2.3.0, 2.4.0 |
 | Architectures | i386, x86_64 |
 | Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
@@ -14372,7 +14373,7 @@ add_requires("lsp-framework")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic) |
 | License | MIT |
-| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2 |
+| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2, v4.4.1 |
 | Architectures | i386, x86_64 |
 | Definition | [lsquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsquic/xmake.lua) |
 
@@ -16733,7 +16734,7 @@ add_requires("nanobind")
 | -- | -- |
 | Homepage | [https://github.com/jlblancoc/nanoflann/](https://github.com/jlblancoc/nanoflann/) |
 | License | BSD-2-Clause |
-| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5, v1.6.0, v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.8.0 |
+| Versions | v1.3.2, v1.4.2, v1.5.0, v1.5.5, v1.6.0, v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.8.0, v1.9.0 |
 | Architectures | i386, x86_64 |
 | Definition | [nanoflann/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanoflann/xmake.lua) |
 
@@ -20937,7 +20938,7 @@ add_requires("re2")
 | -- | -- |
 | Homepage | [https://re2c.org](https://re2c.org) |
 | License | Public Domain |
-| Versions | 4.2, 4.3, 4.3.1 |
+| Versions | 4.2, 4.3, 4.3.1, 4.4 |
 | Architectures | i386, x86_64 |
 | Definition | [re2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2c/xmake.lua) |
 
