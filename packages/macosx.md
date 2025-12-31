@@ -36345,7 +36345,7 @@ add_requires("utf8_range")
 | -- | -- |
 | Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
 | License | MIT |
-| Versions | v2.7.0, v2.8.0, v2.9.0, v2.10.0, v2.11.0, v2.11.1, v2.11.2 |
+| Versions | v2.7.0, v2.8.0, v2.9.0, v2.10.0, v2.11.0, v2.11.1, v2.11.2, v2.11.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
 
@@ -37493,7 +37493,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56379fd98c90 |
+| License | table: 0x55bea03c8500 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

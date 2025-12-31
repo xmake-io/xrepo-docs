@@ -24533,7 +24533,7 @@ add_requires("utf8.h")
 | -- | -- |
 | Homepage | [https://juliastrings.github.io/utf8proc/](https://juliastrings.github.io/utf8proc/) |
 | License | MIT |
-| Versions | v2.7.0, v2.8.0, v2.9.0, v2.10.0, v2.11.0, v2.11.1, v2.11.2 |
+| Versions | v2.7.0, v2.8.0, v2.9.0, v2.10.0, v2.11.0, v2.11.1, v2.11.2, v2.11.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [utf8proc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utf8proc/xmake.lua) |
 
