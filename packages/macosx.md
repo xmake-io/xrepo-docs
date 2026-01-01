@@ -16280,7 +16280,7 @@ add_requires("libhat")
 | -- | -- |
 | Homepage | [https://github.com/strukturag/libheif](https://github.com/strukturag/libheif) |
 | License | LGPL-3.0 |
-| Versions | 1.12.0, 1.17.6, 1.18.0, 1.18.2, 1.20.2, 1.21.0 |
+| Versions | 1.12.0, 1.17.6, 1.18.0, 1.18.2, 1.20.2, 1.21.0, 1.21.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libheif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libheif/xmake.lua) |
 
@@ -37493,7 +37493,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56132b513740 |
+| License | table: 0x557f0fa6c160 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
