@@ -7234,7 +7234,7 @@ add_requires("geos")
 | -- | -- |
 | Homepage | [https://github.com/gflags/gflags/](https://github.com/gflags/gflags/) |
 | License | BSD-3-Clause |
-| Versions | v2.2.2 |
+| Versions | v2.2.2, v2.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [gflags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gflags/xmake.lua) |
 
@@ -12303,7 +12303,7 @@ add_requires("libqrencode")
 | -- | -- |
 | Homepage | [http://www.libraw.org](http://www.libraw.org) |
 | License | LGPL-2.1 |
-| Versions | 0.19.5, 0.20.2, 0.21.4 |
+| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5 |
 | Architectures | i386, x86_64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 
@@ -16878,7 +16878,7 @@ add_requires("nazarautils")
 | -- | -- |
 | Homepage | [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn) |
 | License | BSD-3-Clause |
-| Versions | 2025.05.03, 2025.09.16, 20250916 |
+| Versions | 20250503, 20250916 |
 | Architectures | i386, x86_64 |
 | Definition | [ncnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncnn/xmake.lua) |
 
@@ -23398,7 +23398,7 @@ add_requires("stringbuilder")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/stringzilla/](https://ashvardanian.com/posts/stringzilla/) |
 | License | Apache-2.0 |
-| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10, v3.10.11, v3.11.0, v3.11.1, v3.11.3, v3.12.1, v3.12.2, v3.12.3, v3.12.4, v3.12.5, v3.12.6, v4.0.0, v4.0.14, v4.3.0, v4.4.2, v4.5.1 |
+| Versions | v1.2.2, v2.0.3, v2.0.4, v3.0.0, v3.1.0, v3.1.1, v3.1.2, v3.2.0, v3.3.0, v3.3.1, v3.4.0, v3.4.1, v3.5.0, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7, v3.6.8, v3.7.0, v3.7.1, v3.7.2, v3.7.3, v3.8.0, v3.8.1, v3.8.2, v3.8.3, v3.8.4, v3.9.5, v3.9.6, v3.9.8, v3.10.0, v3.10.5, v3.10.6, v3.10.7, v3.10.8, v3.10.9, v3.10.10, v3.10.11, v3.11.0, v3.11.1, v3.11.3, v3.12.1, v3.12.2, v3.12.3, v3.12.4, v3.12.5, v3.12.6, v4.0.0, v4.0.14, v4.3.0, v4.4.2, v4.5.1, v4.6.0 |
 | Architectures | i386, x86_64 |
 | Definition | [stringzilla/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stringzilla/xmake.lua) |
 
@@ -25885,7 +25885,7 @@ add_requires("verdict")
 | -- | -- |
 | Homepage | [https://verilator.org](https://verilator.org) |
 | License | LGPL-3.0 |
-| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042 |
+| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042, v5.044 |
 | Architectures | i386, x86_64 |
 | Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
 

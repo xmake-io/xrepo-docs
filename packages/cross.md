@@ -7237,7 +7237,7 @@ add_requires("geos")
 | -- | -- |
 | Homepage | [https://github.com/gflags/gflags/](https://github.com/gflags/gflags/) |
 | License | BSD-3-Clause |
-| Versions | v2.2.2 |
+| Versions | v2.2.2, v2.3.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [gflags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gflags/xmake.lua) |
 
@@ -11874,7 +11874,7 @@ add_requires("librats")
 | -- | -- |
 | Homepage | [http://www.libraw.org](http://www.libraw.org) |
 | License | LGPL-2.1 |
-| Versions | 0.19.5, 0.20.2, 0.21.4 |
+| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 
@@ -16145,7 +16145,7 @@ add_requires("nazarautils")
 | -- | -- |
 | Homepage | [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn) |
 | License | BSD-3-Clause |
-| Versions | 2025.05.03, 2025.09.16, 20250916 |
+| Versions | 20250503, 20250916 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ncnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncnn/xmake.lua) |
 
@@ -24844,7 +24844,7 @@ add_requires("verdict")
 | -- | -- |
 | Homepage | [https://verilator.org](https://verilator.org) |
 | License | LGPL-3.0 |
-| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042 |
+| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042, v5.044 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
 
