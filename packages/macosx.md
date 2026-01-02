@@ -2563,7 +2563,7 @@ add_requires("blosc")
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
 | License | BSL-1.0 |
-| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0, 1.88.0, 1.89.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0, 1.88.0, 1.89.0, 1.90.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
@@ -8753,7 +8753,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -12646,7 +12646,7 @@ add_requires("ignite3")
 | -- | -- |
 | Homepage | [https://igraph.org](https://igraph.org) |
 | License | GPL-2.0 |
-| Versions | 0.10.15, 0.10.16, 1.0.0 |
+| Versions | 0.10.15, 0.10.16, 1.0.0, 1.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [igraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/igraph/xmake.lua) |
 
@@ -32161,6 +32161,30 @@ add_requires("slang")
 ```
 
 
+### slikenet (macosx)
+
+
+| Description | *SLikeNet™ is an Open Source/Free Software cross-platform network engine written in C++ and specifially designed for games (and applications which have comparable requirements on a network engine like games) building upon the discontinued RakNet network engine which had more than 13 years of active development.* |
+| -- | -- |
+| Homepage | [https://www.slikenet.com/](https://www.slikenet.com/) |
+| License | MIT |
+| Versions | 2021.07.01 |
+| Architectures | arm64, x86_64 |
+| Definition | [slikenet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/slikenet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install slikenet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("slikenet")
+```
+
+
 ### smoothcpp (macosx)
 
 
@@ -35741,6 +35765,30 @@ add_requires("tuplet")
 ```
 
 
+### tvision (macosx)
+
+
+| Description | *A modern port of Turbo Vision 2.0, the classical framework for text-based user interfaces. Now cross-platform and with Unicode support.* |
+| -- | -- |
+| Homepage | [https://github.com/magiblot/tvision](https://github.com/magiblot/tvision) |
+| License | MIT |
+| Versions | 2025.10.31 |
+| Architectures | arm64, x86_64 |
+| Definition | [tvision/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tvision/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tvision
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tvision")
+```
+
+
 ### tweeny (macosx)
 
 
@@ -37493,7 +37541,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557f0fa6c160 |
+| License | table: 0x55968771e8b0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

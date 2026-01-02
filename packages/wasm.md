@@ -1487,7 +1487,7 @@ add_requires("blobify")
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
 | License | BSL-1.0 |
-| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0, 1.88.0, 1.89.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0, 1.88.0, 1.89.0, 1.90.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
@@ -5439,7 +5439,7 @@ add_requires("fast-lzma2")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -7496,7 +7496,7 @@ add_requires("ifort")
 | -- | -- |
 | Homepage | [https://igraph.org](https://igraph.org) |
 | License | GPL-2.0 |
-| Versions | 0.10.15, 0.10.16, 1.0.0 |
+| Versions | 0.10.15, 0.10.16, 1.0.0, 1.0.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [igraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/igraph/xmake.lua) |
 
@@ -18817,6 +18817,30 @@ xrepo install -p wasm sjpeg
 
 ```lua
 add_requires("sjpeg")
+```
+
+
+### slikenet (wasm)
+
+
+| Description | *SLikeNet™ is an Open Source/Free Software cross-platform network engine written in C++ and specifially designed for games (and applications which have comparable requirements on a network engine like games) building upon the discontinued RakNet network engine which had more than 13 years of active development.* |
+| -- | -- |
+| Homepage | [https://www.slikenet.com/](https://www.slikenet.com/) |
+| License | MIT |
+| Versions | 2021.07.01 |
+| Architectures | wasm32, wasm64 |
+| Definition | [slikenet/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/slikenet/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm slikenet
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("slikenet")
 ```
 
 
