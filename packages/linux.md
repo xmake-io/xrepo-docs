@@ -11592,7 +11592,7 @@ add_requires("glib")
 | -- | -- |
 | Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
 | License | MIT |
-| Versions | 0.9.9+8, 1.0.0, 1.0.1, 1.0.2 |
+| Versions | 0.9.9+8, 1.0.0, 1.0.1, 1.0.2, 1.0.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
 
@@ -15729,7 +15729,7 @@ add_requires("lemon")
 | -- | -- |
 | Homepage | [http://www.leptonica.org/](http://www.leptonica.org/) |
 | License | BSD-2-Clause |
-| Versions | 1.80.0, 1.81.1, 1.82.0, 1.84.1 |
+| Versions | 1.80.0, 1.81.1, 1.82.0, 1.84.1, 1.87.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [leptonica/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leptonica/xmake.lua) |
 
@@ -34896,7 +34896,7 @@ add_requires("simplethreadpool")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
 | License | Apache-2.0 |
-| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3, v6.5.9 |
+| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3, v6.5.9, v6.5.12 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
 
@@ -37333,7 +37333,7 @@ add_requires("termcolor")
 | -- | -- |
 | Homepage | [https://tesseract-ocr.github.io/](https://tesseract-ocr.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.1.1, 4.1.3, 5.0.1, 5.2.0, 5.3.4, 5.5.1 |
+| Versions | 4.1.1, 4.1.3, 5.0.1, 5.2.0, 5.3.4, 5.5.1, 5.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tesseract/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tesseract/xmake.lua) |
 
@@ -40651,7 +40651,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563e69d40b30 |
+| License | table: 0x557ff227ebf0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

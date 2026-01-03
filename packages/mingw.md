@@ -8166,7 +8166,7 @@ add_requires("glib")
 | -- | -- |
 | Homepage | [https://glm.g-truc.net/](https://glm.g-truc.net/) |
 | License | MIT |
-| Versions | 0.9.9+8, 1.0.0, 1.0.1, 1.0.2 |
+| Versions | 0.9.9+8, 1.0.0, 1.0.1, 1.0.2, 1.0.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [glm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glm/xmake.lua) |
 
@@ -23477,7 +23477,7 @@ add_requires("simpleini")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
 | License | Apache-2.0 |
-| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3, v6.5.9 |
+| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3, v6.5.9, v6.5.12 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
 
