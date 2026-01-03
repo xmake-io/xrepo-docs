@@ -10849,7 +10849,7 @@ add_requires("libfork")
 | -- | -- |
 | Homepage | [https://github.com/pantoniou/libfyaml](https://github.com/pantoniou/libfyaml) |
 | License | MIT |
-| Versions | v0.9 |
+| Versions | v0.9, v0.9.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libfyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfyaml/xmake.lua) |
 
@@ -16169,7 +16169,7 @@ add_requires("ncnn")
 | -- | -- |
 | Homepage | [https://invisible-island.net/ncurses/](https://invisible-island.net/ncurses/) |
 | License | MIT |
-| Versions | 6.1, 6.2, 6.3, 6.4, 6.5 |
+| Versions | 6.1, 6.2, 6.3, 6.4, 6.5, 6.6 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
 

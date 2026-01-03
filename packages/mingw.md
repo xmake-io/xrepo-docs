@@ -17627,7 +17627,7 @@ add_requires("ncnn")
 | -- | -- |
 | Homepage | [https://invisible-island.net/ncurses/](https://invisible-island.net/ncurses/) |
 | License | MIT |
-| Versions | 6.1, 6.2, 6.3, 6.4, 6.5 |
+| Versions | 6.1, 6.2, 6.3, 6.4, 6.5, 6.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
 

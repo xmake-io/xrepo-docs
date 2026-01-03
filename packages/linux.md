@@ -17423,7 +17423,7 @@ add_requires("libfuse")
 | -- | -- |
 | Homepage | [https://github.com/pantoniou/libfyaml](https://github.com/pantoniou/libfyaml) |
 | License | MIT |
-| Versions | v0.9 |
+| Versions | v0.9, v0.9.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfyaml/xmake.lua) |
 
@@ -26451,7 +26451,7 @@ add_requires("ncnn")
 | -- | -- |
 | Homepage | [https://invisible-island.net/ncurses/](https://invisible-island.net/ncurses/) |
 | License | MIT |
-| Versions | 6.1, 6.2, 6.3, 6.4, 6.5 |
+| Versions | 6.1, 6.2, 6.3, 6.4, 6.5, 6.6 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ncurses/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncurses/xmake.lua) |
 
@@ -40651,7 +40651,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564daa95ce80 |
+| License | table: 0x563e69d40b30 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -10605,7 +10605,7 @@ add_requires("libfork")
 | -- | -- |
 | Homepage | [https://github.com/pantoniou/libfyaml](https://github.com/pantoniou/libfyaml) |
 | License | MIT |
-| Versions | v0.9 |
+| Versions | v0.9, v0.9.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libfyaml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfyaml/xmake.lua) |
 
