@@ -30708,6 +30708,30 @@ add_requires("ring-span-lite")
 ```
 
 
+### rlimgui (macosx)
+
+
+| Description | *A Raylib integration with DearImGui* |
+| -- | -- |
+| Homepage | [https://github.com/raylib-extras/rlImGui](https://github.com/raylib-extras/rlImGui) |
+| License | zlib |
+| Versions | 2025.11.27 |
+| Architectures | arm64, x86_64 |
+| Definition | [rlimgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rlimgui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rlimgui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rlimgui")
+```
+
+
 ### rlottie (macosx)
 
 
@@ -37541,7 +37565,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557ff227ebf0 |
+| License | table: 0x563939545810 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

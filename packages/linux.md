@@ -12202,6 +12202,30 @@ add_requires("gperftools")
 ```
 
 
+### gpm (linux)
+
+
+| Description | *general purpose mouse* |
+| -- | -- |
+| Homepage | [https://www.nico.schottelius.org/software/gpm/](https://www.nico.schottelius.org/software/gpm/) |
+| License | GPL-2.0-or-later |
+| Versions | 2020.06.17 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [gpm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gpm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gpm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gpm")
+```
+
+
 ### gpujpeg (linux)
 
 
@@ -33318,6 +33342,30 @@ add_requires("ring-span-lite")
 ```
 
 
+### rlimgui (linux)
+
+
+| Description | *A Raylib integration with DearImGui* |
+| -- | -- |
+| Homepage | [https://github.com/raylib-extras/rlImGui](https://github.com/raylib-extras/rlImGui) |
+| License | zlib |
+| Versions | 2025.11.27 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rlimgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rlimgui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rlimgui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rlimgui")
+```
+
+
 ### rlottie (linux)
 
 
@@ -40651,7 +40699,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557ff227ebf0 |
+| License | table: 0x563939545810 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

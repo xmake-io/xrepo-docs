@@ -20319,6 +20319,30 @@ add_requires("ring-span-lite")
 ```
 
 
+### rlimgui (msys)
+
+
+| Description | *A Raylib integration with DearImGui* |
+| -- | -- |
+| Homepage | [https://github.com/raylib-extras/rlImGui](https://github.com/raylib-extras/rlImGui) |
+| License | zlib |
+| Versions | 2025.11.27 |
+| Architectures | i386, x86_64 |
+| Definition | [rlimgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rlimgui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rlimgui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rlimgui")
+```
+
+
 ### robin-hood-hashing (msys)
 
 

@@ -7871,6 +7871,30 @@ add_requires("gperf")
 ```
 
 
+### gpm (cross)
+
+
+| Description | *general purpose mouse* |
+| -- | -- |
+| Homepage | [https://www.nico.schottelius.org/software/gpm/](https://www.nico.schottelius.org/software/gpm/) |
+| License | GPL-2.0-or-later |
+| Versions | 2020.06.17 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [gpm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gpm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] gpm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gpm")
+```
+
+
 ### graaf (cross)
 
 

@@ -21326,6 +21326,30 @@ add_requires("ring-span-lite")
 ```
 
 
+### rlimgui (android)
+
+
+| Description | *A Raylib integration with DearImGui* |
+| -- | -- |
+| Homepage | [https://github.com/raylib-extras/rlImGui](https://github.com/raylib-extras/rlImGui) |
+| License | zlib |
+| Versions | 2025.11.27 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [rlimgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rlimgui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] rlimgui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rlimgui")
+```
+
+
 ### rlottie (android)
 
 
