@@ -20609,7 +20609,7 @@ add_requires("libtcod")
 | -- | -- |
 | Homepage | [https://github.com/tlwg/libthai](https://github.com/tlwg/libthai) |
 | License | LGPL-2.1 |
-| Versions | 0.1.29 |
+| Versions | 0.1.29, 0.1.30 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libthai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libthai/xmake.lua) |
 
@@ -21276,7 +21276,7 @@ add_requires("libwebp")
 | -- | -- |
 | Homepage | [https://github.com/warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) |
 | License | MIT |
-| Versions | v4.3.3, v4.3.4, v4.3.5, v4.4.1 |
+| Versions | v4.3.3, v4.3.4, v4.3.5, v4.4.1, v4.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebsockets/xmake.lua) |
 
@@ -27863,7 +27863,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [http://libomath.org](http://libomath.org) |
 | License | zlib |
-| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0 |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
 
@@ -37071,7 +37071,7 @@ add_requires("taocpp-json")
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
-| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0, v3.11.0 |
+| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0, v3.11.0, v4.0.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 
@@ -37453,7 +37453,7 @@ add_requires("tetgen")
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/texinfo/](https://www.gnu.org/software/texinfo/) |
 | License | GPL-3.0 |
-| Versions | 6.7 |
+| Versions | 6.7, 7.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [texinfo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/texinfo/xmake.lua) |
 
@@ -40723,7 +40723,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56270b40ebc0 |
+| License | table: 0x56300a56c770 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
