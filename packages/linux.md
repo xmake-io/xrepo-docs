@@ -19777,7 +19777,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 
@@ -21919,6 +21919,30 @@ xrepo install libxslt
 
 ```lua
 add_requires("libxslt")
+```
+
+
+### libxss (linux)
+
+
+| Description | *XScreenSaver - X11 Screen Saver extension client library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxscrnsaver](https://gitlab.freedesktop.org/xorg/lib/libxscrnsaver) |
+| License | MIT |
+| Versions | 1.2.5 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libxss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxss/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libxss
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxss")
 ```
 
 
@@ -40699,7 +40723,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563939545810 |
+| License | table: 0x56270b40ebc0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

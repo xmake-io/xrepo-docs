@@ -17670,7 +17670,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 

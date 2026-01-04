@@ -12186,7 +12186,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 
@@ -13110,6 +13110,29 @@ add_requires("libxcb")
 ```
 
 
+### libxcursor (cross)
+
+
+| Description | *X.Org: X Window System Cursor management library* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.2.1, 1.2.3 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxcursor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxcursor/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxcursor
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxcursor")
+```
+
+
 ### libxdmcp (cross)
 
 
@@ -13153,6 +13176,52 @@ xrepo install -p cross [--sdk=/xxx] libxext
 
 ```lua
 add_requires("libxext")
+```
+
+
+### libxfixes (cross)
+
+
+| Description | *X.Org: Header files for the XFIXES extension* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 6.0.0, 6.0.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxfixes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxfixes/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxfixes
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxfixes")
+```
+
+
+### libxi (cross)
+
+
+| Description | *X.Org: Library for the X Input Extension* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.7.10, 1.8, 1.8.1, 1.8.2 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxi")
 ```
 
 
@@ -13228,6 +13297,52 @@ add_requires("libxml2")
 ```
 
 
+### libxrandr (cross)
+
+
+| Description | *X.Org: X Resize, Rotate and Reflection extension library* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 1.5.2, 1.5.4 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxrandr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxrandr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxrandr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxrandr")
+```
+
+
+### libxrender (cross)
+
+
+| Description | *X.Org: Library for the Render Extension to the X11 protocol* |
+| -- | -- |
+| Homepage | [https://www.x.org/](https://www.x.org/) |
+| Versions | 0.9.11, 0.9.12 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxrender/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxrender/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxrender
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxrender")
+```
+
+
 ### libxslt (cross)
 
 
@@ -13249,6 +13364,30 @@ xrepo install -p cross [--sdk=/xxx] libxslt
 
 ```lua
 add_requires("libxslt")
+```
+
+
+### libxss (cross)
+
+
+| Description | *XScreenSaver - X11 Screen Saver extension client library* |
+| -- | -- |
+| Homepage | [https://gitlab.freedesktop.org/xorg/lib/libxscrnsaver](https://gitlab.freedesktop.org/xorg/lib/libxscrnsaver) |
+| License | MIT |
+| Versions | 1.2.5 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libxss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxss/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libxss
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libxss")
 ```
 
 
