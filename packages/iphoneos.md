@@ -431,6 +431,30 @@ add_requires("appimage")
 ```
 
 
+### approval-tests-cpp (iphoneos)
+
+
+| Description | *Native ApprovalTests for C++ on Linux, Mac and Windows* |
+| -- | -- |
+| Homepage | [https://approvaltestscpp.readthedocs.io/en/latest/](https://approvaltestscpp.readthedocs.io/en/latest/) |
+| License | Apache-2.0 |
+| Versions | v10.13.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [approval-tests-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/approval-tests-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos approval-tests-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("approval-tests-cpp")
+```
+
+
 ### aqt (iphoneos)
 
 
@@ -4400,7 +4424,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.3.3 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.3.3, v4.3.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 

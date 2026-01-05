@@ -601,6 +601,30 @@ add_requires("appimage")
 ```
 
 
+### approval-tests-cpp (macosx)
+
+
+| Description | *Native ApprovalTests for C++ on Linux, Mac and Windows* |
+| -- | -- |
+| Homepage | [https://approvaltestscpp.readthedocs.io/en/latest/](https://approvaltestscpp.readthedocs.io/en/latest/) |
+| License | Apache-2.0 |
+| Versions | v10.13.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [approval-tests-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/approval-tests-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install approval-tests-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("approval-tests-cpp")
+```
+
+
 ### apr (macosx)
 
 
@@ -5235,7 +5259,7 @@ add_requires("cpp20-http-client")
 | Description | *A static analysis tool for C/C++ code* |
 | -- | -- |
 | Homepage | [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/) |
-| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3 |
+| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3, 2.19.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [cppcheck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcheck/xmake.lua) |
 
@@ -6261,7 +6285,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.3.3 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.3.3, v4.3.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
@@ -30810,7 +30834,7 @@ add_requires("rlottie")
 | -- | -- |
 | Homepage | [https://mikke89.github.io/RmlUiDoc/](https://mikke89.github.io/RmlUiDoc/) |
 | License | MIT |
-| Versions | 5.0, 5.1, 6.0 |
+| Versions | 5.0, 5.1, 6.0, 6.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [rmlui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rmlui/xmake.lua) |
 
@@ -37613,7 +37637,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d427855690 |
+| License | table: 0x563a00d1ff10 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
