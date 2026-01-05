@@ -27966,6 +27966,30 @@ add_requires("python2")
 
 
 ## q
+### qbdi (windows)
+
+
+| Description | *A Dynamic Binary Instrumentation framework based on LLVM.* |
+| -- | -- |
+| Homepage | [https://qbdi.quarkslab.com](https://qbdi.quarkslab.com) |
+| License | Apache-2.0 |
+| Versions | v0.12.0 |
+| Architectures | x64, x86 |
+| Definition | [qbdi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qbdi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qbdi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qbdi")
+```
+
+
 ### qcbor (windows)
 
 

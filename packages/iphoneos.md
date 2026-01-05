@@ -18957,6 +18957,30 @@ add_requires("python2")
 
 
 ## q
+### qbdi (iphoneos)
+
+
+| Description | *A Dynamic Binary Instrumentation framework based on LLVM.* |
+| -- | -- |
+| Homepage | [https://qbdi.quarkslab.com](https://qbdi.quarkslab.com) |
+| License | Apache-2.0 |
+| Versions | v0.12.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [qbdi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qbdi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos qbdi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qbdi")
+```
+
+
 ### qcbor (iphoneos)
 
 

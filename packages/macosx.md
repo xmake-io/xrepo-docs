@@ -29082,6 +29082,30 @@ add_requires("python2")
 
 
 ## q
+### qbdi (macosx)
+
+
+| Description | *A Dynamic Binary Instrumentation framework based on LLVM.* |
+| -- | -- |
+| Homepage | [https://qbdi.quarkslab.com](https://qbdi.quarkslab.com) |
+| License | Apache-2.0 |
+| Versions | v0.12.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [qbdi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qbdi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qbdi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qbdi")
+```
+
+
 ### qcbor (macosx)
 
 
@@ -37589,7 +37613,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559a296aac90 |
+| License | table: 0x55d427855690 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
