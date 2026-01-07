@@ -7742,7 +7742,7 @@ add_requires("dlpack")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/DLSS](https://github.com/NVIDIA/DLSS) |
 | License | NVIDIA RTX SDKs |
-| Versions | v3.7.20, v310.1.0, v310.2.1, v310.3.0, v310.4.0 |
+| Versions | v3.7.20, v310.1.0, v310.2.1, v310.3.0, v310.4.0, v310.5.0 |
 | Architectures | x86_64 |
 | Definition | [dlss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlss/xmake.lua) |
 
@@ -16016,7 +16016,7 @@ add_requires("libaio")
 | -- | -- |
 | Homepage | [https://libarchive.org/](https://libarchive.org/) |
 | License | BSD-2-Clause |
-| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2, 3.7.7, 3.8.4 |
+| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2, 3.7.7, 3.8.4, 3.8.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
 
@@ -18158,7 +18158,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2 |
+| Versions | v1.6.1, v1.6.2, v1.7.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
@@ -20276,7 +20276,7 @@ add_requires("libsndio")
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
 | License | ISC |
-| Versions | 1.0.18, 1.0.19, 1.0.20 |
+| Versions | 1.0.18, 1.0.19, 1.0.20, 1.0.21 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
@@ -40795,7 +40795,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ca77218710 |
+| License | table: 0x558a12720a10 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

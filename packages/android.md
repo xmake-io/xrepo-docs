@@ -11417,7 +11417,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2 |
+| Versions | v1.6.1, v1.6.2, v1.7.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
@@ -12686,7 +12686,7 @@ add_requires("libsndfile")
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
 | License | ISC |
-| Versions | 1.0.18, 1.0.19, 1.0.20 |
+| Versions | 1.0.18, 1.0.19, 1.0.20, 1.0.21 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
