@@ -17819,7 +17819,7 @@ add_requires("opencore-amr")
 | -- | -- |
 | Homepage | [https://opencv.org/](https://opencv.org/) |
 | License | Apache-2.0 |
-| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3, 4.5.4, 4.5.5, 4.6.0, 4.8.0, 4.9.0, 4.10.0, 4.11.0, 4.12.0 |
+| Versions | 3.4.9, 4.2.0, 4.5.1, 4.5.2, 4.5.3, 4.5.4, 4.5.5, 4.6.0, 4.8.0, 4.9.0, 4.10.0, 4.11.0, 4.12.0, 4.13.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [opencv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencv/xmake.lua) |
 
