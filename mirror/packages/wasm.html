@@ -10597,7 +10597,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0, v2.42.0, v2.43.0</td>
+<td>v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0, v2.42.0, v2.43.0, v2.45.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -15870,7 +15870,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.14.0, 1.15.0</td>
+<td>1.14.0, 1.15.0, 1.16.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27179,6 +27179,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("raylib")
+</code></pre>
+<h3 id="raylibcppwasm">raylib-cpp (wasm)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>C++ Object Oriented Wrapper for raylib</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/RobLoach/raylib-cpp">https://github.com/RobLoach/raylib-cpp</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v5.0.1, v5.0.2, v5.5.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>wasm32, wasm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib-cpp/xmake.lua">raylib-cpp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p wasm raylib-cpp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("raylib-cpp")
 </code></pre>
 <h3 id="reflexwasm">re-flex (wasm)</h3>
 <table>

@@ -6871,7 +6871,7 @@ add_requires("gnu-rm")
 | -- | -- |
 | Homepage | [https://github.com/googleapis/google-cloud-cpp](https://github.com/googleapis/google-cloud-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0, v2.42.0, v2.43.0 |
+| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0, v2.42.0, v2.43.0, v2.45.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [google-cloud-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/google-cloud-cpp/xmake.lua) |
 
@@ -10322,7 +10322,7 @@ add_requires("libremidi")
 | -- | -- |
 | Homepage | [https://rime.im](https://rime.im) |
 | License | BSD-3-Clause |
-| Versions | 1.14.0, 1.15.0 |
+| Versions | 1.14.0, 1.15.0, 1.16.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [librime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librime/xmake.lua) |
 
@@ -17742,6 +17742,30 @@ xrepo install -p wasm raylib
 
 ```lua
 add_requires("raylib")
+```
+
+
+### raylib-cpp (wasm)
+
+
+| Description | *C++ Object Oriented Wrapper for raylib* |
+| -- | -- |
+| Homepage | [https://github.com/RobLoach/raylib-cpp](https://github.com/RobLoach/raylib-cpp) |
+| License | zlib |
+| Versions | v5.0.1, v5.0.2, v5.5.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [raylib-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm raylib-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("raylib-cpp")
 ```
 
 
