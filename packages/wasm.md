@@ -50,11 +50,11 @@ add_requires("access_private")
 ### ada (wasm)
 
 
-| Description | *WHATWG-compliant and fast URL parser written in modern C++* |
+| Description | *WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers* |
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0, v3.4.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
