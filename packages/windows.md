@@ -9210,7 +9210,7 @@ add_requires("fcgi")
 | -- | -- |
 | Homepage | [https://github.com/flexible-collision-library/fcl](https://github.com/flexible-collision-library/fcl) |
 | License | BSD-3-Clause |
-| Versions | v0.6.1, 0.7.0 |
+| Versions | 0.6.1, 0.7.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fcl/xmake.lua) |
 

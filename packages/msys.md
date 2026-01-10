@@ -7055,6 +7055,30 @@ add_requires("fruit")
 ```
 
 
+### ftgl (msys)
+
+
+| Description | *FTGL is a free open source library to enable developers to use arbitrary fonts in their OpenGL applications.* |
+| -- | -- |
+| Homepage | [https://github.com/frankheckenbach/ftgl](https://github.com/frankheckenbach/ftgl) |
+| License | MIT |
+| Versions | v2.4.0 |
+| Architectures | i386, x86_64 |
+| Definition | [ftgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftgl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ftgl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ftgl")
+```
+
+
 ### funchook (msys)
 
 
