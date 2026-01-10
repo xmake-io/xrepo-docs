@@ -37661,7 +37661,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c57c5c49d0 |
+| License | table: 0x559154d16a00 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -38601,6 +38601,30 @@ xrepo install xz
 
 ```lua
 add_requires("xz")
+```
+
+
+### xz-embedded (macosx)
+
+
+| Description | *XZ Embedded* |
+| -- | -- |
+| Homepage | [https://tukaani.org/xz/embedded.html](https://tukaani.org/xz/embedded.html) |
+| License | 0BSD |
+| Versions | 2024.12.30 |
+| Architectures | arm64, x86_64 |
+| Definition | [xz-embedded/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz-embedded/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xz-embedded
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xz-embedded")
 ```
 
 

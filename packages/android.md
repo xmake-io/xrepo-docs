@@ -27065,6 +27065,30 @@ add_requires("xz")
 ```
 
 
+### xz-embedded (android)
+
+
+| Description | *XZ Embedded* |
+| -- | -- |
+| Homepage | [https://tukaani.org/xz/embedded.html](https://tukaani.org/xz/embedded.html) |
+| License | 0BSD |
+| Versions | 2024.12.30 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [xz-embedded/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz-embedded/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] xz-embedded
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xz-embedded")
+```
+
+
 
 ## y
 ### yaml-cpp (android)

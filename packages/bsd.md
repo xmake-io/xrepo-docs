@@ -26972,6 +26972,30 @@ add_requires("xz")
 ```
 
 
+### xz-embedded (bsd)
+
+
+| Description | *XZ Embedded* |
+| -- | -- |
+| Homepage | [https://tukaani.org/xz/embedded.html](https://tukaani.org/xz/embedded.html) |
+| License | 0BSD |
+| Versions | 2024.12.30 |
+| Architectures | i386, x86_64 |
+| Definition | [xz-embedded/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz-embedded/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xz-embedded
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xz-embedded")
+```
+
+
 
 ## y
 ### yaml-cpp (bsd)
