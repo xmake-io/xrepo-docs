@@ -7777,6 +7777,30 @@ add_requires("fx-gltf")
 ```
 
 
+### fxdiv (mingw)
+
+
+| Description | *C99/C++ header-only library for division via fixed-point multiplication by inverse* |
+| -- | -- |
+| Homepage | [https://github.com/Maratyszcza/FXdiv](https://github.com/Maratyszcza/FXdiv) |
+| License | MIT |
+| Versions | 2020.12.08 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [fxdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fxdiv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] fxdiv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fxdiv")
+```
+
+
 
 ## g
 ### gaussianlib (mingw)

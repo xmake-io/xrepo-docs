@@ -10805,7 +10805,7 @@ add_requires("fx-gltf")
 | -- | -- |
 | Homepage | [https://github.com/Maratyszcza/FXdiv](https://github.com/Maratyszcza/FXdiv) |
 | License | MIT |
-| Versions | 2020.12.09 |
+| Versions | 2020.12.08 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fxdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fxdiv/xmake.lua) |
 
@@ -40819,7 +40819,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55fedd5d3ed0 |
+| License | table: 0x55832a1c9e20 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

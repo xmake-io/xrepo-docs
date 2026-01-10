@@ -7056,6 +7056,30 @@ add_requires("fx-gltf")
 ```
 
 
+### fxdiv (android)
+
+
+| Description | *C99/C++ header-only library for division via fixed-point multiplication by inverse* |
+| -- | -- |
+| Homepage | [https://github.com/Maratyszcza/FXdiv](https://github.com/Maratyszcza/FXdiv) |
+| License | MIT |
+| Versions | 2020.12.08 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [fxdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fxdiv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] fxdiv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fxdiv")
+```
+
+
 
 ## g
 ### gaussianlib (android)

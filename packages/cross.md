@@ -7156,6 +7156,30 @@ add_requires("fx-gltf")
 ```
 
 
+### fxdiv (cross)
+
+
+| Description | *C99/C++ header-only library for division via fixed-point multiplication by inverse* |
+| -- | -- |
+| Homepage | [https://github.com/Maratyszcza/FXdiv](https://github.com/Maratyszcza/FXdiv) |
+| License | MIT |
+| Versions | 2020.12.08 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [fxdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fxdiv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] fxdiv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fxdiv")
+```
+
+
 
 ## g
 ### gaussianlib (cross)

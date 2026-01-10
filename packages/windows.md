@@ -10333,7 +10333,7 @@ add_requires("fx-gltf")
 | -- | -- |
 | Homepage | [https://github.com/Maratyszcza/FXdiv](https://github.com/Maratyszcza/FXdiv) |
 | License | MIT |
-| Versions | 2020.12.09 |
+| Versions | 2020.12.08 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fxdiv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fxdiv/xmake.lua) |
 
