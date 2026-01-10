@@ -12881,7 +12881,7 @@ add_requires("half")
 | -- | -- |
 | Homepage | [https://github.com/yedf2/handy](https://github.com/yedf2/handy) |
 | License | BSD-2-Clause |
-| Versions | 0.2.0 |
+| Versions | 2023.08.19 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [handy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/handy/xmake.lua) |
 
@@ -40819,7 +40819,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e2fbe96c80 |
+| License | table: 0x55c57c5c49d0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

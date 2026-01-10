@@ -8280,6 +8280,30 @@ add_requires("haclog")
 ```
 
 
+### handy (cross)
+
+
+| Description | *A simple C++11 network server framework* |
+| -- | -- |
+| Homepage | [https://github.com/yedf2/handy](https://github.com/yedf2/handy) |
+| License | BSD-2-Clause |
+| Versions | 2023.08.19 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [handy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/handy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] handy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("handy")
+```
+
+
 ### happly (cross)
 
 

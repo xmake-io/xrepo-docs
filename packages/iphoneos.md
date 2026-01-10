@@ -7874,7 +7874,7 @@ add_requires("half")
 | -- | -- |
 | Homepage | [https://github.com/yedf2/handy](https://github.com/yedf2/handy) |
 | License | BSD-2-Clause |
-| Versions | 0.2.0 |
+| Versions | 2023.08.19 |
 | Architectures | arm64, x86_64 |
 | Definition | [handy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/handy/xmake.lua) |
 

@@ -8297,6 +8297,30 @@ add_requires("half")
 ```
 
 
+### handy (android)
+
+
+| Description | *A simple C++11 network server framework* |
+| -- | -- |
+| Homepage | [https://github.com/yedf2/handy](https://github.com/yedf2/handy) |
+| License | BSD-2-Clause |
+| Versions | 2023.08.19 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [handy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/handy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] handy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("handy")
+```
+
+
 ### happly (android)
 
 
