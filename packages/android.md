@@ -19031,6 +19031,29 @@ add_requires("piex")
 ```
 
 
+### pine (android)
+
+
+| Description | *Dynamic java method hook framework on ART. Allowing you to change almost all java methods' behavior dynamically.* |
+| -- | -- |
+| Homepage | [https://github.com/canyie/pine](https://github.com/canyie/pine) |
+| Versions | 2025.11.08 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [pine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pine/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] pine
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pine")
+```
+
+
 ### pixman (android)
 
 
