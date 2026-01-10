@@ -11046,7 +11046,7 @@ add_requires("glslang")
 | -- | -- |
 | Homepage | [https://github.com/nihui/glslang/](https://github.com/nihui/glslang/) |
 | License | Apache-2.0 |
-| Versions | 2025.05.03, 2025.09.16 |
+| Versions | 20250503, 20250916 |
 | Architectures | arm64, x86_64 |
 | Definition | [glslang-nihui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang-nihui/xmake.lua) |
 
@@ -19866,7 +19866,7 @@ add_requires("libxlsxwriter")
 | Description | *The c/c++ bindings of the xmake core engine* |
 | -- | -- |
 | Homepage | [https://xmake.io](https://xmake.io) |
-| Versions | v2.9.8, v2.9.9, v3.0.0, v3.0.1, v3.0.2, v3.0.3, v3.0.4, v3.0.5 |
+| Versions | v2.9.8, v2.9.9, v3.0.0, v3.0.1, v3.0.2, v3.0.3, v3.0.4, v3.0.5, v3.0.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmake/xmake.lua) |
 
@@ -37661,7 +37661,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5583aeced830 |
+| License | table: 0x55c28d459780 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

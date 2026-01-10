@@ -7661,7 +7661,7 @@ add_requires("glslang")
 | -- | -- |
 | Homepage | [https://github.com/nihui/glslang/](https://github.com/nihui/glslang/) |
 | License | Apache-2.0 |
-| Versions | 2025.05.03, 2025.09.16 |
+| Versions | 20250503, 20250916 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [glslang-nihui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang-nihui/xmake.lua) |
 
