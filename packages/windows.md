@@ -9586,6 +9586,78 @@ add_requires("flex")
 ```
 
 
+### floatengine (windows)
+
+
+| Description | *A high-performance, cross-platform C++ game engine.* |
+| -- | -- |
+| Homepage | [https://github.com/Fls-Float/FloatEngine](https://github.com/Fls-Float/FloatEngine) |
+| License | MIT |
+| Versions | 2025.12.20 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [floatengine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/floatengine/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install floatengine
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("floatengine")
+```
+
+
+### fls-float-raylib (windows)
+
+
+| Description | *A simple and easy-to-use library to enjoy videogames programming.* |
+| -- | -- |
+| Homepage | [http://www.raylib.com](http://www.raylib.com) |
+| License | zlib |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [fls-float-raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fls-float-raylib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fls-float-raylib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fls-float-raylib")
+```
+
+
+### fls-float-rlimgui (windows)
+
+
+| Description | *A Custom Raylib build integration with DearImGui for floatengine* |
+| -- | -- |
+| Homepage | [https://github.com/raylib-extras/rlImGui](https://github.com/raylib-extras/rlImGui) |
+| License | zlib |
+| Versions | 2025.11.27 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [fls-float-rlimgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fls-float-rlimgui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fls-float-rlimgui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fls-float-rlimgui")
+```
+
+
 ### fltk (windows)
 
 
