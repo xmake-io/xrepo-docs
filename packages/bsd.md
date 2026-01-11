@@ -1579,6 +1579,30 @@ add_requires("base64-terrakuh")
 ```
 
 
+### base64-zhicheng (bsd)
+
+
+| Description | *base64 c implementation* |
+| -- | -- |
+| Homepage | [https://github.com/zhicheng/base64](https://github.com/zhicheng/base64) |
+| License | Public Domain |
+| Versions | 2019.09.08 |
+| Architectures | i386, x86_64 |
+| Definition | [base64-zhicheng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base64-zhicheng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install base64-zhicheng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("base64-zhicheng")
+```
+
+
 ### basisu (bsd)
 
 

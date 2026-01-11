@@ -2202,6 +2202,30 @@ add_requires("base64-terrakuh")
 ```
 
 
+### base64-zhicheng (linux)
+
+
+| Description | *base64 c implementation* |
+| -- | -- |
+| Homepage | [https://github.com/zhicheng/base64](https://github.com/zhicheng/base64) |
+| License | Public Domain |
+| Versions | 2019.09.08 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [base64-zhicheng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base64-zhicheng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install base64-zhicheng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("base64-zhicheng")
+```
+
+
 ### basisu (linux)
 
 
@@ -40819,7 +40843,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564f759d3750 |
+| License | table: 0x55cb8b3bfe20 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

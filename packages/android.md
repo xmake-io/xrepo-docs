@@ -1533,6 +1533,30 @@ add_requires("base64-terrakuh")
 ```
 
 
+### base64-zhicheng (android)
+
+
+| Description | *base64 c implementation* |
+| -- | -- |
+| Homepage | [https://github.com/zhicheng/base64](https://github.com/zhicheng/base64) |
+| License | Public Domain |
+| Versions | 2019.09.08 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [base64-zhicheng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/base64-zhicheng/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] base64-zhicheng
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("base64-zhicheng")
+```
+
+
 ### basisu (android)
 
 
