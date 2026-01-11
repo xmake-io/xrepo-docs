@@ -14463,6 +14463,30 @@ add_requires("m4")
 ```
 
 
+### macdylibbundler (cross)
+
+
+| Description | *dylibbundler is a small command-line programs that aims to make bundling* |
+| -- | -- |
+| Homepage | [https://github.com/auriamg/macdylibbundler](https://github.com/auriamg/macdylibbundler) |
+| License | MIT |
+| Versions | 1.0.5 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [macdylibbundler/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/macdylibbundler/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] macdylibbundler
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("macdylibbundler")
+```
+
+
 ### maddy (cross)
 
 
@@ -24067,6 +24091,30 @@ add_requires("tlsf")
 ```
 
 
+### tmx (cross)
+
+
+| Description | *C tmx map loader* |
+| -- | -- |
+| Homepage | [http://libtmx.rtfd.io/](http://libtmx.rtfd.io/) |
+| License | BSD-2-Clause |
+| Versions | 1.2.0, 1.10.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [tmx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] tmx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tmx")
+```
+
+
 ### tmxlite (cross)
 
 
@@ -24722,7 +24770,7 @@ add_requires("upa-url")
 | -- | -- |
 | Homepage | [https://wiki.ros.org/urdf](https://wiki.ros.org/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2, 5.0.3 |
+| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2, 5.0.3, 5.0.4 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [urdfdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua) |
 

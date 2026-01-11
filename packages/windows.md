@@ -34609,7 +34609,7 @@ add_requires("tlsf")
 | -- | -- |
 | Homepage | [http://libtmx.rtfd.io/](http://libtmx.rtfd.io/) |
 | License | BSD-2-Clause |
-| Versions | 1.2.0 |
+| Versions | 1.2.0, 1.10.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [tmx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmx/xmake.lua) |
 
@@ -35470,7 +35470,7 @@ add_requires("upa-url")
 | -- | -- |
 | Homepage | [https://wiki.ros.org/urdf](https://wiki.ros.org/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2, 5.0.3 |
+| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2, 5.0.3, 5.0.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [urdfdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua) |
 

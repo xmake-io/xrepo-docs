@@ -15518,6 +15518,30 @@ add_requires("m4")
 ```
 
 
+### macdylibbundler (mingw)
+
+
+| Description | *dylibbundler is a small command-line programs that aims to make bundling* |
+| -- | -- |
+| Homepage | [https://github.com/auriamg/macdylibbundler](https://github.com/auriamg/macdylibbundler) |
+| License | MIT |
+| Versions | 1.0.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [macdylibbundler/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/macdylibbundler/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] macdylibbundler
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("macdylibbundler")
+```
+
+
 ### maddy (mingw)
 
 
@@ -26479,6 +26503,30 @@ xrepo install -p mingw [--mingw=/xxx] tlsf
 
 ```lua
 add_requires("tlsf")
+```
+
+
+### tmx (mingw)
+
+
+| Description | *C tmx map loader* |
+| -- | -- |
+| Homepage | [http://libtmx.rtfd.io/](http://libtmx.rtfd.io/) |
+| License | BSD-2-Clause |
+| Versions | 1.2.0, 1.10.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [tmx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] tmx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tmx")
 ```
 
 

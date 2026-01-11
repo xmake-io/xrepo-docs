@@ -23548,30 +23548,6 @@ add_requires("tlsf")
 ```
 
 
-### tmx (iphoneos)
-
-
-| Description | *C tmx map loader* |
-| -- | -- |
-| Homepage | [http://libtmx.rtfd.io/](http://libtmx.rtfd.io/) |
-| License | BSD-2-Clause |
-| Versions | 1.2.0 |
-| Architectures | arm64, x86_64 |
-| Definition | [tmx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmx/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos tmx
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("tmx")
-```
-
-
 ### tmxlite (iphoneos)
 
 

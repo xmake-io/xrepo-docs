@@ -14982,6 +14982,30 @@ add_requires("m4")
 ```
 
 
+### macdylibbundler (bsd)
+
+
+| Description | *dylibbundler is a small command-line programs that aims to make bundling* |
+| -- | -- |
+| Homepage | [https://github.com/auriamg/macdylibbundler](https://github.com/auriamg/macdylibbundler) |
+| License | MIT |
+| Versions | 1.0.5 |
+| Architectures | i386, x86_64 |
+| Definition | [macdylibbundler/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/macdylibbundler/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install macdylibbundler
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("macdylibbundler")
+```
+
+
 ### maddy (bsd)
 
 
@@ -25036,6 +25060,30 @@ add_requires("tlsf")
 ```
 
 
+### tmx (bsd)
+
+
+| Description | *C tmx map loader* |
+| -- | -- |
+| Homepage | [http://libtmx.rtfd.io/](http://libtmx.rtfd.io/) |
+| License | BSD-2-Clause |
+| Versions | 1.2.0, 1.10.0 |
+| Architectures | i386, x86_64 |
+| Definition | [tmx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tmx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tmx")
+```
+
+
 ### tmxlite (bsd)
 
 
@@ -25691,7 +25739,7 @@ add_requires("upa-url")
 | -- | -- |
 | Homepage | [https://wiki.ros.org/urdf](https://wiki.ros.org/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2, 5.0.3 |
+| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2, 5.0.3, 5.0.4 |
 | Architectures | i386, x86_64 |
 | Definition | [urdfdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua) |
 
