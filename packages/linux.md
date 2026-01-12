@@ -26523,7 +26523,7 @@ add_requires("nativefiledialog")
 | -- | -- |
 | Homepage | [https://github.com/btzy/nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) |
 | License | zlib |
-| Versions | v1.0.2, v1.1.0, v1.1.1, v1.2.0, v1.2.1 |
+| Versions | v1.0.2, v1.1.0, v1.1.1, v1.2.0, v1.2.1, v1.3.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nativefiledialog-extended/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nativefiledialog-extended/xmake.lua) |
 
@@ -34776,7 +34776,7 @@ add_requires("shaderwriter")
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/shared-mime-info/](https://www.freedesktop.org/wiki/Software/shared-mime-info/) |
 | License | GPL-2.0 |
-| Versions | 2.2 |
+| Versions | 2.2, 2.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [shared-mime-info/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shared-mime-info/xmake.lua) |
 
@@ -40843,7 +40843,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56347eb580c0 |
+| License | table: 0x55d3d2dded10 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

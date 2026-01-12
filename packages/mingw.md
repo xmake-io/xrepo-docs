@@ -17771,7 +17771,7 @@ add_requires("nasm")
 | -- | -- |
 | Homepage | [https://github.com/btzy/nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) |
 | License | zlib |
-| Versions | v1.0.2, v1.1.0, v1.1.1, v1.2.0, v1.2.1 |
+| Versions | v1.0.2, v1.1.0, v1.1.1, v1.2.0, v1.2.1, v1.3.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [nativefiledialog-extended/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nativefiledialog-extended/xmake.lua) |
 
