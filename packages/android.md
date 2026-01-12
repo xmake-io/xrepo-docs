@@ -14229,6 +14229,29 @@ add_requires("ls-qpack")
 ```
 
 
+### lsplt (android)
+
+
+| Description | *Simple PLT hook for Android* |
+| -- | -- |
+| Homepage | [https://github.com/LSPosed/LSPlt](https://github.com/LSPosed/LSPlt) |
+| Versions | 2025.03.26 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [lsplt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsplt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] lsplt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lsplt")
+```
+
+
 ### lsquic (android)
 
 
@@ -24382,6 +24405,30 @@ xrepo install -p android [--ndk=/xxx] tiltedcore
 
 ```lua
 add_requires("tiltedcore")
+```
+
+
+### tinjector (android)
+
+
+| Description | *Hijacking Zygote to inject .so files before the app launches.* |
+| -- | -- |
+| Homepage | [https://github.com/Mrack/TInjector](https://github.com/Mrack/TInjector) |
+| License | GPL-3.0 |
+| Versions | 2024.09.23 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [tinjector/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinjector/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tinjector
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tinjector")
 ```
 
 
