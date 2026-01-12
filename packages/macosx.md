@@ -25463,7 +25463,7 @@ add_requires("obfusheader.h")
 | -- | -- |
 | Homepage | [https://objfw.nil.im](https://objfw.nil.im) |
 | License | LGPL-3.0 |
-| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.0.10, 1.0.11, 1.0.12, 1.1.0, 1.1.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.6, 1.1.7, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.3, 1.3.1, 1.3.2, 1.4.1 |
+| Versions | 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.0.10, 1.0.11, 1.0.12, 1.1.0, 1.1.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.6, 1.1.7, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.3, 1.3.1, 1.3.2, 1.4.1, 1.4.2, 1.4.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [objfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/objfw/xmake.lua) |
 
@@ -37685,7 +37685,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563349f23d10 |
+| License | table: 0x56347eb580c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

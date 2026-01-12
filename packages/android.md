@@ -7462,6 +7462,52 @@ add_requires("giflib")
 ```
 
 
+### girlhook (android)
+
+
+| Description | *GirlHook is a Lua-scriptable ART hook framework designed for dynamic method interception.* |
+| -- | -- |
+| Homepage | [https://github.com/Lynnette177/GirlHook](https://github.com/Lynnette177/GirlHook) |
+| Versions | 1.0.4 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [girlhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/girlhook/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] girlhook
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("girlhook")
+```
+
+
+### girlloader (android)
+
+
+| Description | *G.I.R.L loader* |
+| -- | -- |
+| Homepage | [https://github.com/Lynnette177/GirlLoader](https://github.com/Lynnette177/GirlLoader) |
+| Versions | 2025.06.28 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [girlloader/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/girlloader/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] girlloader
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("girlloader")
+```
+
+
 ### gklib (android)
 
 
