@@ -3805,7 +3805,7 @@ add_requires("cgltf")
 | Description | *CFD General Notation System* |
 | -- | -- |
 | Homepage | [http://cgns.github.io/](http://cgns.github.io/) |
-| Versions | v4.2.0, v4.4.0, v4.5.0 |
+| Versions | v4.2.0, v4.4.0, v4.5.0, v4.5.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cgns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgns/xmake.lua) |
 

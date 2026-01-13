@@ -4088,7 +4088,7 @@ add_requires("cgltf")
 | Description | *CFD General Notation System* |
 | -- | -- |
 | Homepage | [http://cgns.github.io/](http://cgns.github.io/) |
-| Versions | v4.2.0, v4.4.0, v4.5.0 |
+| Versions | v4.2.0, v4.4.0, v4.5.0, v4.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cgns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgns/xmake.lua) |
 
@@ -40891,7 +40891,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558ebe2bc600 |
+| License | table: 0x556d2aa5fd20 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
