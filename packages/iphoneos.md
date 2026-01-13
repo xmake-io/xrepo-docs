@@ -1552,6 +1552,30 @@ add_requires("bdwgc")
 ```
 
 
+### beaengine (iphoneos)
+
+
+| Description | *BeaEngine disasm project* |
+| -- | -- |
+| Homepage | [https://github.com/BeaEngine/beaengine](https://github.com/BeaEngine/beaengine) |
+| License | LGPL-3.0-or-later |
+| Versions | v5.3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [beaengine/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/beaengine/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos beaengine
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("beaengine")
+```
+
+
 ### benchmark (iphoneos)
 
 
@@ -19011,7 +19035,7 @@ add_requires("pystring")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | License | PSF |
-| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.12.8, 3.12.10, 3.13.0, 3.13.1, 3.13.2 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.12.8, 3.12.10, 3.13.0, 3.13.1, 3.13.2, 3.13.11 |
 | Architectures | arm64, x86_64 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
@@ -23978,6 +24002,30 @@ xrepo install -p iphoneos uchardet
 
 ```lua
 add_requires("uchardet")
+```
+
+
+### udis86 (iphoneos)
+
+
+| Description | *Disassembler Library for x86 and x86-64* |
+| -- | -- |
+| Homepage | [http://udis86.sourceforge.net](http://udis86.sourceforge.net) |
+| License | BSD-2-Clause |
+| Versions | 2014.12.25 |
+| Architectures | arm64, x86_64 |
+| Definition | [udis86/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/udis86/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos udis86
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("udis86")
 ```
 
 
