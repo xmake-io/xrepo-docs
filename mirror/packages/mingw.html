@@ -150,7 +150,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1, 20240116.2, 20240722.0, 20250127.0, 20250127.1, 20250512.0, 20250512.1, 20250814.0, 20250814.1</td>
+<td>20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1, 20240116.2, 20240722.0, 20250127.0, 20250127.1, 20250512.0, 20250512.1, 20250814.0, 20250814.1, 20260107.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -12211,6 +12211,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("gcem")
 </code></pre>
+<h3 id="gdkpixbufmingw">gdk-pixbuf (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>GdkPixbuf is a library that loads image data in various formats and stores it as linear buffers in memory. The buffers can then be scaled, composited, modified, saved, or rendered.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://docs.gtk.org/gdk-pixbuf/">https://docs.gtk.org/gdk-pixbuf/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.42.6, 2.42.10, 2.44.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdk-pixbuf/xmake.lua">gdk-pixbuf/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] gdk-pixbuf
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gdk-pixbuf")
+</code></pre>
 <h3 id="gelldureventbusmingw">gelldur-eventbus (mingw)</h3>
 <table>
 <thead>
@@ -20391,7 +20428,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1</td>
+<td>v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1, v5.4.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -43071,7 +43108,7 @@
 <thead>
 <tr>
 <th>Description</th>
-<th><em>Locate the current running executable and the current running module/library on the file system 🔎</em></th>
+<th><em>Locate the current running executable and the current running module/library on the file system ��</em></th>
 </tr>
 </thead>
 <tbody>
