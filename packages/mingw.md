@@ -22755,6 +22755,30 @@ add_requires("restinio")
 ```
 
 
+### rewolf-wow64ext (mingw)
+
+
+| Description | *Helper library for x86 programs that runs under WOW64 layer on x64 versions of Microsoft Windows operating systems.* |
+| -- | -- |
+| Homepage | [https://github.com/rwfpl/rewolf-wow64ext](https://github.com/rwfpl/rewolf-wow64ext) |
+| License | LGPL-3.0-or-later |
+| Versions | v1.0.0+9, 2022.09.26 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [rewolf-wow64ext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rewolf-wow64ext/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] rewolf-wow64ext
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rewolf-wow64ext")
+```
+
+
 ### ricab-scope_guard (mingw)
 
 
