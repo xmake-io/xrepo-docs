@@ -2603,6 +2603,30 @@ add_requires("ca-certificates")
 ```
 
 
+### cairo (android)
+
+
+| Description | *Vector graphics library with cross-device output support.* |
+| -- | -- |
+| Homepage | [https://cairographics.org/](https://cairographics.org/) |
+| License | MPL-1.1 |
+| Versions | 1.17.6, 1.17.8, 1.18.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [cairo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cairo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cairo")
+```
+
+
 ### capstone (android)
 
 
@@ -15809,7 +15833,7 @@ add_requires("minitrace")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
-| Versions | 2.1.0, 2.2.0, 3.0.2 |
+| Versions | 2.1.0, 2.2.0, 3.0.2, 3.1.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
@@ -21328,7 +21352,7 @@ add_requires("re-spirv")
 | -- | -- |
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17, 2025.08.12 |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17, 2025.08.12, 2025.11.05 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 

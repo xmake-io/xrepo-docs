@@ -13567,7 +13567,7 @@ add_requires("minitrace")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
-| Versions | 2.1.0, 2.2.0, 3.0.2 |
+| Versions | 2.1.0, 2.2.0, 3.0.2, 3.1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
@@ -17968,7 +17968,7 @@ add_requires("re-spirv")
 | -- | -- |
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17, 2025.08.12 |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17, 2025.08.12, 2025.11.05 |
 | Architectures | wasm32, wasm64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 

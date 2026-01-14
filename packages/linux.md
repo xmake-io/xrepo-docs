@@ -6141,7 +6141,7 @@ add_requires("crc32c")
 | -- | -- |
 | Homepage | [https://github.com/Snaipe/Criterion](https://github.com/Snaipe/Criterion) |
 | License | MIT |
-| Versions | v2.4.2 |
+| Versions | v2.4.2, v2.4.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [criterion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/criterion/xmake.lua) |
 
@@ -25027,7 +25027,7 @@ add_requires("minitrace")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
-| Versions | 2.1.0, 2.2.0, 3.0.2 |
+| Versions | 2.1.0, 2.2.0, 3.0.2, 3.1.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
@@ -29607,7 +29607,7 @@ add_requires("parallel-hashmap")
 | -- | -- |
 | Homepage | [http://partio.us/](http://partio.us/) |
 | License | BSD-3-Clause |
-| Versions | v1.14.0, v1.14.6, v1.17.1, v1.17.3 |
+| Versions | v1.14.0, v1.14.6, v1.17.1, v1.17.3, v1.19.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [partio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/partio/xmake.lua) |
 
@@ -33017,7 +33017,7 @@ add_requires("re-spirv")
 | -- | -- |
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17, 2025.08.12 |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17, 2025.08.12, 2025.11.05 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
@@ -40892,7 +40892,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5591b09680a0 |
+| License | table: 0x55db9e72e3f0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

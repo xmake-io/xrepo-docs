@@ -2510,6 +2510,30 @@ add_requires("ca-certificates")
 ```
 
 
+### cairo (cross)
+
+
+| Description | *Vector graphics library with cross-device output support.* |
+| -- | -- |
+| Homepage | [https://cairographics.org/](https://cairographics.org/) |
+| License | MPL-1.1 |
+| Versions | 1.17.6, 1.17.8, 1.18.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cairo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cairo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cairo")
+```
+
+
 ### capstone (cross)
 
 
@@ -4215,7 +4239,7 @@ add_requires("crc32c")
 | -- | -- |
 | Homepage | [https://github.com/Snaipe/Criterion](https://github.com/Snaipe/Criterion) |
 | License | MIT |
-| Versions | v2.4.2 |
+| Versions | v2.4.2, v2.4.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [criterion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/criterion/xmake.lua) |
 
@@ -10890,6 +10914,30 @@ add_requires("libenvpp")
 ```
 
 
+### libepoxy (cross)
+
+
+| Description | *Epoxy is a library for handling OpenGL function pointer management for you.* |
+| -- | -- |
+| Homepage | [https://download.gnome.org/sources/libepoxy/](https://download.gnome.org/sources/libepoxy/) |
+| License | MIT |
+| Versions | 1.5.9, 1.5.10 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libepoxy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libepoxy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libepoxy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libepoxy")
+```
+
+
 ### libevent (cross)
 
 
@@ -15592,7 +15640,7 @@ add_requires("minitrace")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
-| Versions | 2.1.0, 2.2.0, 3.0.2 |
+| Versions | 2.1.0, 2.2.0, 3.0.2, 3.1.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
@@ -20370,7 +20418,7 @@ add_requires("re-spirv")
 | -- | -- |
 | Homepage | [https://github.com/google/re2](https://github.com/google/re2) |
 | License | BSD-3-Clause |
-| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17, 2025.08.12 |
+| Versions | 2020.11.01, 2021.06.01, 2021.08.01, 2021.11.01, 2022.02.01, 2023.11.01, 2024.03.01, 2024.04.01, 2024.06.01, 2024.07.02, 2025.07.17, 2025.08.12, 2025.11.05 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [re2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2/xmake.lua) |
 
