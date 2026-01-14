@@ -8087,6 +8087,30 @@ add_requires("graaf")
 ```
 
 
+### graphene (cross)
+
+
+| Description | *A thin layer of graphic data types* |
+| -- | -- |
+| Homepage | [http://ebassi.github.io/graphene/](http://ebassi.github.io/graphene/) |
+| License | MIT |
+| Versions | 1.10.8 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [graphene/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/graphene/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] graphene
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("graphene")
+```
+
+
 ### grpc (cross)
 
 

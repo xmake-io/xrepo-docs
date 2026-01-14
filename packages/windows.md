@@ -11787,7 +11787,7 @@ add_requires("graaf")
 | -- | -- |
 | Homepage | [http://ebassi.github.io/graphene/](http://ebassi.github.io/graphene/) |
 | License | MIT |
-| Versions | 1.10.6 |
+| Versions | 1.10.8 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [graphene/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/graphene/xmake.lua) |
 
