@@ -6913,6 +6913,30 @@ add_requires("fmt")
 ```
 
 
+### fontconfig (bsd)
+
+
+| Description | *A library for configuring and customizing font access.* |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/fontconfig/](https://www.freedesktop.org/wiki/Software/fontconfig/) |
+| License | MIT |
+| Versions | 2.17.1 |
+| Architectures | i386, x86_64 |
+| Definition | [fontconfig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fontconfig/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fontconfig
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fontconfig")
+```
+
+
 ### fpm (bsd)
 
 
@@ -18760,7 +18784,7 @@ add_requires("orangeduck_mpc")
 | -- | -- |
 | Homepage | [https://arrow.apache.org/](https://arrow.apache.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1 |
+| Versions | v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1, v2.2.2 |
 | Architectures | i386, x86_64 |
 | Definition | [orc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orc/xmake.lua) |
 
@@ -22391,7 +22415,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6, v7.4.0, v7.5.0, v7.7.0, v7.7.1 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6, v7.4.0, v7.5.0, v7.7.0, v7.7.1, v8.0.0 |
 | Architectures | i386, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
