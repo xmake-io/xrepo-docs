@@ -2053,6 +2053,30 @@ add_requires("box2d")
 ```
 
 
+### boxfort (iphoneos)
+
+
+| Description | *Convenient & cross-platform sandboxing C library* |
+| -- | -- |
+| Homepage | [https://github.com/Snaipe/BoxFort](https://github.com/Snaipe/BoxFort) |
+| License | MIT |
+| Versions | 2024.05.02 |
+| Architectures | arm64, x86_64 |
+| Definition | [boxfort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boxfort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos boxfort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boxfort")
+```
+
+
 ### bqlog (iphoneos)
 
 

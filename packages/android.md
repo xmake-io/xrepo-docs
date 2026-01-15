@@ -2245,6 +2245,30 @@ add_requires("box2d")
 ```
 
 
+### boxfort (android)
+
+
+| Description | *Convenient & cross-platform sandboxing C library* |
+| -- | -- |
+| Homepage | [https://github.com/Snaipe/BoxFort](https://github.com/Snaipe/BoxFort) |
+| License | MIT |
+| Versions | 2024.05.02 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [boxfort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boxfort/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] boxfort
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boxfort")
+```
+
+
 ### bqlog (android)
 
 

@@ -2877,7 +2877,7 @@ add_requires("box2d")
 | Homepage | [https://github.com/Snaipe/BoxFort](https://github.com/Snaipe/BoxFort) |
 | License | MIT |
 | Versions | 2024.05.02 |
-| Architectures | arm, arm64ec, x64, x86 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [boxfort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boxfort/xmake.lua) |
 
 ##### Install command
