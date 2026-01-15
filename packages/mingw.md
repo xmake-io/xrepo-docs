@@ -9064,6 +9064,54 @@ add_requires("gtest")
 ```
 
 
+### gtk+4 (mingw)
+
+
+| Description | *Toolkit for creating graphical user interfaces* |
+| -- | -- |
+| Homepage | [https://gtk.org/](https://gtk.org/) |
+| License | LGPL-2.0-or-later |
+| Versions | 4.13.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [gtk+4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtk+4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] gtk+4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gtk+4")
+```
+
+
+### gtk4 (mingw)
+
+
+| Description | *Toolkit for creating graphical user interfaces* |
+| -- | -- |
+| Homepage | [https://gtk.org/](https://gtk.org/) |
+| License | LGPL-2.0-or-later |
+| Versions | 4.13.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [gtk4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gtk4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] gtk4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gtk4")
+```
+
+
 ### gtl (mingw)
 
 
