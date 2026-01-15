@@ -17636,7 +17636,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [https://www.libpng.org/pub/png/libpng.html](https://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.2.56, v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50, v1.6.51, v1.6.53 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50, v1.6.51, v1.6.53, v1.6.54 |
 | Architectures | arm64, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -37734,7 +37734,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55bced97e6f0 |
+| License | table: 0x55a3af6e6780 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
