@@ -1895,7 +1895,7 @@ add_requires("blake2")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2 |
+| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2, 1.8.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
@@ -11246,6 +11246,30 @@ xrepo install -p cross [--sdk=/xxx] libhubbub
 
 ```lua
 add_requires("libhubbub")
+```
+
+
+### libhv (cross)
+
+
+| Description | *Like libevent, libev, and libuv, libhv provides event-loop with non-blocking IO and timer, but simpler api and richer protocols.* |
+| -- | -- |
+| Homepage | [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv) |
+| License | BSD-3-Clause |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.2.1, v1.2.2, v1.2.3, v1.2.4, v1.2.6, v1.3.0, v1.3.1, v1.3.2, v1.3.3, v1.3.4 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libhv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libhv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libhv")
 ```
 
 
