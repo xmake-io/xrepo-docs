@@ -1588,7 +1588,7 @@ add_requires("aws-c-common")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-compression](https://github.com/awslabs/aws-c-compression) |
 | License | Apache-2.0 |
-| Versions | v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1 |
+| Versions | v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1, v0.3.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-compression/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-compression/xmake.lua) |
 
