@@ -1228,7 +1228,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7 |
+| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
