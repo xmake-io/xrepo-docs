@@ -7374,6 +7374,30 @@ add_requires("genie")
 ```
 
 
+### geode-sdk-result (cross)
+
+
+| Description | *A result class for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
+| License | BSL-1.0 |
+| Versions | v1.3.5 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] geode-sdk-result
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geode-sdk-result")
+```
+
+
 ### geos (cross)
 
 

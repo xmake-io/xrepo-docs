@@ -10663,6 +10663,30 @@ add_requires("genie")
 ```
 
 
+### geode-sdk-result (windows)
+
+
+| Description | *A result class for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
+| License | BSL-1.0 |
+| Versions | v1.3.5 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install geode-sdk-result
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geode-sdk-result")
+```
+
+
 ### geographiclib (windows)
 
 

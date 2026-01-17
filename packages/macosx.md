@@ -10373,6 +10373,30 @@ add_requires("genie")
 ```
 
 
+### geode-sdk-result (macosx)
+
+
+| Description | *A result class for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
+| License | BSL-1.0 |
+| Versions | v1.3.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install geode-sdk-result
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geode-sdk-result")
+```
+
+
 ### geographiclib (macosx)
 
 
@@ -37734,7 +37758,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55696c977960 |
+| License | table: 0x55a95958e7e0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

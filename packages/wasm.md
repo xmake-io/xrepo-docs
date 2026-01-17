@@ -6415,6 +6415,30 @@ add_requires("genie")
 ```
 
 
+### geode-sdk-result (wasm)
+
+
+| Description | *A result class for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
+| License | BSL-1.0 |
+| Versions | v1.3.5 |
+| Architectures | wasm32, wasm64 |
+| Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm geode-sdk-result
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geode-sdk-result")
+```
+
+
 ### geos (wasm)
 
 
