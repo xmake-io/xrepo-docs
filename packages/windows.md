@@ -1780,7 +1780,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1 |
 | Architectures | x64, x86 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -6024,7 +6024,7 @@ add_requires("cserialport")
 | -- | -- |
 | Homepage | [https://www.sfml-dev.org](https://www.sfml-dev.org) |
 | License | zlib |
-| Versions | 2.6.1 |
+| Versions | 2.6.1, 3.0.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [csfml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csfml/xmake.lua) |
 
@@ -20771,7 +20771,7 @@ add_requires("mathter")
 | -- | -- |
 | Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
 | License | BSD-2-Clause |
-| Versions | v1.5.26, v1.5.27, v1.5.28, v1.5.29 |
+| Versions | v1.5.26, v1.5.27, v1.5.28, v1.5.29, v1.5.30 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
 
@@ -28142,7 +28142,7 @@ add_requires("python2")
 | -- | -- |
 | Homepage | [https://qbdi.quarkslab.com](https://qbdi.quarkslab.com) |
 | License | Apache-2.0 |
-| Versions | v0.12.0 |
+| Versions | v0.12.0, v0.12.1 |
 | Architectures | x64, x86 |
 | Definition | [qbdi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qbdi/xmake.lua) |
 
@@ -33898,7 +33898,7 @@ add_requires("thorvg")
 | -- | -- |
 | Homepage | [https://github.com/bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) |
 | License | MIT |
-| Versions | v3.3.0, v4.1.0, v5.0.0 |
+| Versions | v3.3.0, v4.1.0, v5.0.0, v5.1.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [thread-pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thread-pool/xmake.lua) |
 

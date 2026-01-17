@@ -15261,7 +15261,7 @@ add_requires("mathter")
 | -- | -- |
 | Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
 | License | BSD-2-Clause |
-| Versions | v1.5.26, v1.5.27, v1.5.28, v1.5.29 |
+| Versions | v1.5.26, v1.5.27, v1.5.28, v1.5.29, v1.5.30 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
 
@@ -20347,7 +20347,7 @@ add_requires("python2")
 | -- | -- |
 | Homepage | [https://qbdi.quarkslab.com](https://qbdi.quarkslab.com) |
 | License | Apache-2.0 |
-| Versions | v0.12.0 |
+| Versions | v0.12.0, v0.12.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [qbdi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qbdi/xmake.lua) |
 
@@ -24463,7 +24463,7 @@ add_requires("thorvg")
 | -- | -- |
 | Homepage | [https://github.com/bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) |
 | License | MIT |
-| Versions | v3.3.0, v4.1.0, v5.0.0 |
+| Versions | v3.3.0, v4.1.0, v5.0.0, v5.1.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [thread-pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thread-pool/xmake.lua) |
 

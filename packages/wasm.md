@@ -12971,7 +12971,7 @@ add_requires("mathter")
 | -- | -- |
 | Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
 | License | BSD-2-Clause |
-| Versions | v1.5.26, v1.5.27, v1.5.28, v1.5.29 |
+| Versions | v1.5.26, v1.5.27, v1.5.28, v1.5.29, v1.5.30 |
 | Architectures | wasm32, wasm64 |
 | Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
 
@@ -20647,7 +20647,7 @@ add_requires("thorvg")
 | -- | -- |
 | Homepage | [https://github.com/bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) |
 | License | MIT |
-| Versions | v3.3.0, v4.1.0, v5.0.0 |
+| Versions | v3.3.0, v4.1.0, v5.0.0, v5.1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [thread-pool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thread-pool/xmake.lua) |
 
