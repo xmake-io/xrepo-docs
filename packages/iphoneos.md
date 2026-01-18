@@ -5241,7 +5241,7 @@ add_requires("doxygen")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.29, 0.12.39, 0.12.41, 0.12.42, 0.12.43, 0.13.1, 0.13.2 |
+| Versions | 0.12.29, 0.12.39, 0.12.41, 0.12.42, 0.12.43, 0.13.1, 0.13.2, 0.13.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
 
@@ -5265,7 +5265,7 @@ add_requires("dr_flac")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37, 0.6.38, 0.6.39, 0.6.40, 0.7.1, 0.7.2 |
+| Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37, 0.6.38, 0.6.39, 0.6.40, 0.7.1, 0.7.2, 0.7.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
 
@@ -5289,7 +5289,7 @@ add_requires("dr_mp3")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.19, 0.13.8, 0.13.10, 0.13.11, 0.13.12, 0.13.13, 0.13.16, 0.13.17, 0.14.1, 0.14.2, 0.14.3 |
+| Versions | 0.12.19, 0.13.8, 0.13.10, 0.13.11, 0.13.12, 0.13.13, 0.13.16, 0.13.17, 0.14.1, 0.14.2, 0.14.3, 0.14.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
@@ -6741,6 +6741,30 @@ xrepo install -p iphoneos freexl
 
 ```lua
 add_requires("freexl")
+```
+
+
+### fribidi (iphoneos)
+
+
+| Description | *The Free Implementation of the Unicode Bidirectional Algorithm.* |
+| -- | -- |
+| Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
+| License | LGPL-2.1 |
+| Versions | v1.0.10, v1.0.11, v1.0.12, v1.0.13, v1.0.14, v1.0.15, v1.0.16 |
+| Architectures | arm64, x86_64 |
+| Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos fribidi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fribidi")
 ```
 
 
@@ -14808,7 +14832,7 @@ add_requires("mini")
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
 | License | MIT |
-| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22, 0.11.23 |
+| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22, 0.11.23, 0.11.24 |
 | Architectures | arm64, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
@@ -21737,7 +21761,7 @@ add_requires("sparsepp")
 | -- | -- |
 | Homepage | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
 | License | MIT |
-| Versions | v1.2.1, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.10.0, v1.11.0, v1.12.0, v1.13.0, v1.14.0, v1.14.1, v1.15.0, v1.15.1, v1.15.2, v1.15.3, v1.16.0 |
+| Versions | v1.2.1, v1.3.1, v1.4.2, v1.5.0, v1.8.0, v1.8.1, v1.8.2, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.10.0, v1.11.0, v1.12.0, v1.13.0, v1.14.0, v1.14.1, v1.15.0, v1.15.1, v1.15.2, v1.15.3, v1.16.0, v1.17.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [spdlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spdlog/xmake.lua) |
 
