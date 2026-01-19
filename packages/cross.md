@@ -6708,7 +6708,7 @@ add_requires("filc")
 | -- | -- |
 | Homepage | [https://github.com/teslamotors/fixed-containers](https://github.com/teslamotors/fixed-containers) |
 | License | MIT |
-| Versions | 2025.01.03 |
+| Versions | 2025.01.03, 2025.12.10 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fixed-containers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fixed-containers/xmake.lua) |
 
