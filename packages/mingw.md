@@ -1197,6 +1197,30 @@ add_requires("avir")
 ```
 
 
+### awk (mingw)
+
+
+| Description | *One true awk* |
+| -- | -- |
+| Homepage | [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk) |
+| License | MIT-Lucent |
+| Versions | 20251225 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [awk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/awk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] awk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("awk")
+```
+
+
 ### aws-c-auth (mingw)
 
 

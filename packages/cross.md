@@ -1052,6 +1052,30 @@ add_requires("avir")
 ```
 
 
+### awk (cross)
+
+
+| Description | *One true awk* |
+| -- | -- |
+| Homepage | [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk) |
+| License | MIT-Lucent |
+| Versions | 20251225 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [awk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/awk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] awk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("awk")
+```
+
+
 ### aws-c-auth (cross)
 
 

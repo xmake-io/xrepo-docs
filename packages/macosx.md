@@ -1466,7 +1466,8 @@ add_requires("avir")
 | Description | *One true awk* |
 | -- | -- |
 | Homepage | [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk) |
-| Versions | 2021.12.26 |
+| License | MIT-Lucent |
+| Versions | 20251225 |
 | Architectures | arm64, x86_64 |
 | Definition | [awk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/awk/xmake.lua) |
 
@@ -37758,7 +37759,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x555927e294c0 |
+| License | table: 0x557966824510 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

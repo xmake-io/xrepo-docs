@@ -1125,6 +1125,30 @@ add_requires("avir")
 ```
 
 
+### awk (android)
+
+
+| Description | *One true awk* |
+| -- | -- |
+| Homepage | [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk) |
+| License | MIT-Lucent |
+| Versions | 20251225 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [awk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/awk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] awk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("awk")
+```
+
+
 ### aws-c-auth (android)
 
 

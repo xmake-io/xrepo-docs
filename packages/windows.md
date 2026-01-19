@@ -1509,6 +1509,30 @@ add_requires("avir")
 ```
 
 
+### awk (windows)
+
+
+| Description | *One true awk* |
+| -- | -- |
+| Homepage | [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk) |
+| License | MIT-Lucent |
+| Versions | 20251225 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [awk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/awk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install awk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("awk")
+```
+
+
 ### aws-c-auth (windows)
 
 
