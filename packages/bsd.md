@@ -7831,7 +7831,7 @@ add_requires("glpk")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/glslang/](https://github.com/KhronosGroup/glslang/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0, 1.4.309+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0, 1.4.309+0, 1.4.335+0 |
 | Architectures | i386, x86_64 |
 | Definition | [glslang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang/xmake.lua) |
 
@@ -23203,7 +23203,7 @@ add_requires("spine-runtimes")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Headers/](https://github.com/KhronosGroup/SPIRV-Headers/) |
 | License | MIT |
-| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0, 1.4.309+0 |
+| Versions | 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0, 1.4.309+0, 1.4.335+0 |
 | Architectures | i386, x86_64 |
 | Definition | [spirv-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-headers/xmake.lua) |
 
@@ -23227,7 +23227,7 @@ add_requires("spirv-headers")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/SPIRV-Tools/](https://github.com/KhronosGroup/SPIRV-Tools/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0, 1.4.309+0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0, 1.4.309+0, 1.4.335+0 |
 | Architectures | i386, x86_64 |
 | Definition | [spirv-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-tools/xmake.lua) |
 
@@ -26408,7 +26408,7 @@ add_requires("vmaf")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Headers/](https://github.com/KhronosGroup/Vulkan-Headers/) |
 | License | Apache-2.0 |
-| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0, 1.4.309+0 |
+| Versions | 1.2.154+0, 1.2.162+0, 1.2.182+0, 1.2.189+1, 1.2.198+0, 1.3.211+0, 1.3.231+1, 1.3.236+0, 1.3.239+0, 1.3.246+1, 1.3.250+1, 1.3.261+1, 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.3.290+0, 1.4.309+0, 1.4.335+0 |
 | Architectures | i386, x86_64 |
 | Definition | [vulkan-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-headers/xmake.lua) |
 
@@ -26456,7 +26456,7 @@ add_requires("vulkan-memory-allocator")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/Vulkan-Utility-Libraries](https://github.com/KhronosGroup/Vulkan-Utility-Libraries) |
 | License | Apache-2.0 |
-| Versions | 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.4.309+0 |
+| Versions | 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.4.309+0, 1.4.335+0 |
 | Architectures | i386, x86_64 |
 | Definition | [vulkan-utility-libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-utility-libraries/xmake.lua) |
 
