@@ -23466,4 +23466,28 @@ add_requires("zxing-cpp")
 ```
 
 
+### zziplib (wasm)
+
+
+| Description | *The zziplib library is intentionally lightweight, it offers the ability to easily extract data from files archived in a single zip file.* |
+| -- | -- |
+| Homepage | [http://zziplib.sourceforge.net/](http://zziplib.sourceforge.net/) |
+| License | GPL-2.0 |
+| Versions | v0.13.72, v0.13.73, v0.13.74, v0.13.76, v0.13.77, v0.13.78, v0.13.79, v0.13.80 |
+| Architectures | wasm32, wasm64 |
+| Definition | [zziplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zziplib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm zziplib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zziplib")
+```
+
+
 
