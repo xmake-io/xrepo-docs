@@ -3924,11 +3924,11 @@ add_requires("cpp-semver-easz")
 ### cpp-sort (cross)
 
 
-| Description | *Sorting algorithms & related tools for C++14* |
+| Description | *Sorting algorithms & related tools for C++* |
 | -- | -- |
 | Homepage | [https://github.com/Morwenn/cpp-sort](https://github.com/Morwenn/cpp-sort) |
 | License | MIT |
-| Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.2, 1.14.0, 1.15.0, 1.16.0, 1.17.0, 1.17.1 |
+| Versions | 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.2, 1.14.0, 1.15.0, 1.16.0, 1.17.0, 1.17.1, 1.17.2, 2.1.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-sort/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-sort/xmake.lua) |
 
