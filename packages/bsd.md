@@ -5795,7 +5795,7 @@ add_requires("effolkronium-random")
 | -- | -- |
 | Homepage | [https://github.com/SpartanJ/efsw](https://github.com/SpartanJ/efsw) |
 | License | MIT |
-| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0, 1.4.1, 1.5.0 |
+| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0, 1.4.1, 1.5.0, 1.5.1 |
 | Architectures | i386, x86_64 |
 | Definition | [efsw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/efsw/xmake.lua) |
 

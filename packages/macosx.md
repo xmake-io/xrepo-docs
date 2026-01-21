@@ -7939,7 +7939,7 @@ add_requires("effolkronium-random")
 | -- | -- |
 | Homepage | [https://github.com/SpartanJ/efsw](https://github.com/SpartanJ/efsw) |
 | License | MIT |
-| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0, 1.4.1, 1.5.0 |
+| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0, 1.4.1, 1.5.0, 1.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [efsw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/efsw/xmake.lua) |
 
@@ -27566,7 +27566,7 @@ add_requires("pdcurses")
 | Description | *PDCurses Modified - a curses library modified and extended from the 'official' pdcurses* |
 | -- | -- |
 | Homepage | [https://projectpluto.com/win32a.htm](https://projectpluto.com/win32a.htm) |
-| Versions | v4.3.4, v4.4.0, v4.5.2, v4.5.3 |
+| Versions | v4.3.4, v4.4.0, v4.5.2, v4.5.3, v4.5.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [pdcursesmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdcursesmod/xmake.lua) |
 
@@ -37759,7 +37759,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b41caa1b50 |
+| License | table: 0x55b9bae0dde0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -38304,7 +38304,7 @@ add_requires("xframe")
 | -- | -- |
 | Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
 | License | Apache-2.0 |
-| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29 |
+| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31 |
 | Architectures | arm64, x86_64 |
 | Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
 
