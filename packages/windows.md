@@ -2208,7 +2208,7 @@ add_requires("beaengine")
 | -- | -- |
 | Homepage | [https://github.com/google/benchmark](https://github.com/google/benchmark) |
 | License | Apache-2.0 |
-| Versions | v1.5.2, v1.5.3, v1.5.4, v1.5.5, v1.5.6, v1.6.0, v1.6.1, v1.7.0, v1.7.1, v1.8.0, v1.8.3, v1.8.4, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.9.3, v1.9.4 |
+| Versions | v1.5.2, v1.5.3, v1.5.4, v1.5.5, v1.5.6, v1.6.0, v1.6.1, v1.7.0, v1.7.1, v1.8.0, v1.8.3, v1.8.4, v1.8.5, v1.9.0, v1.9.1, v1.9.2, v1.9.3, v1.9.4, v1.9.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [benchmark/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/benchmark/xmake.lua) |
 
@@ -10358,7 +10358,7 @@ add_requires("function2")
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
 | License | BSL-1.0 |
-| Versions | v0.2.22, v0.2.23, v0.2.24, v0.2.25, v0.2.26 |
+| Versions | v0.2.22, v0.2.23, v0.2.24, v0.2.25, v0.2.26, v0.2.27 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
@@ -10956,7 +10956,7 @@ add_requires("giflib")
 | -- | -- |
 | Homepage | [https://ginkgo-project.github.io/](https://ginkgo-project.github.io/) |
 | License | BSD-3-Clause |
-| Versions | v1.7.0, v1.8.0, v1.9.0 |
+| Versions | v1.7.0, v1.8.0, v1.9.0, v1.11.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ginkgo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ginkgo/xmake.lua) |
 
@@ -23656,7 +23656,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
@@ -32702,7 +32702,7 @@ add_requires("stduuid")
 | -- | -- |
 | Homepage | [https://valvesoftware.github.io/steam-audio/](https://valvesoftware.github.io/steam-audio/) |
 | License | Apache-2.0 |
-| Versions | v4.6.0, v4.6.1, v4.7.0 |
+| Versions | v4.6.0, v4.6.1, v4.7.0, v4.8.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [steam-audio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/steam-audio/xmake.lua) |
 
