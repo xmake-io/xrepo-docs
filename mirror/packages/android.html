@@ -1441,7 +1441,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2</td>
+<td>v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2, v6.0.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -28655,6 +28655,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ormpp")
 </code></pre>
+<h3 id="orocoskdlandroid">orocos-kdl (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Orocos Kinematics and Dynamics C++ library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.orocos.org/">https://www.orocos.org/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.5.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orocos-kdl/xmake.lua">orocos-kdl/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] orocos-kdl
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("orocos-kdl")
+</code></pre>
 <h3 id="osipandroid">osip (android)</h3>
 <table>
 <thead>
@@ -36044,7 +36077,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.7.0, v1.8.0</td>
+<td>v1.7.0, v1.8.0, v1.9.1</td>
 </tr>
 <tr>
 <td>Architectures</td>

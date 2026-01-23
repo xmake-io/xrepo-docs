@@ -630,7 +630,7 @@ add_requires("asmtk")
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
-| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2 |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2, v6.0.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -15737,6 +15737,29 @@ add_requires("ormpp")
 ```
 
 
+### orocos-kdl (wasm)
+
+
+| Description | *Orocos Kinematics and Dynamics C++ library* |
+| -- | -- |
+| Homepage | [https://www.orocos.org/](https://www.orocos.org/) |
+| Versions | 1.5.3 |
+| Architectures | wasm32, wasm64 |
+| Definition | [orocos-kdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orocos-kdl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm orocos-kdl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("orocos-kdl")
+```
+
+
 ### osip (wasm)
 
 
@@ -19783,7 +19806,7 @@ add_requires("srtp")
 | -- | -- |
 | Homepage | [https://github.com/DLTcollab/sse2neon](https://github.com/DLTcollab/sse2neon) |
 | License | MIT |
-| Versions | v1.7.0, v1.8.0 |
+| Versions | v1.7.0, v1.8.0, v1.9.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [sse2neon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sse2neon/xmake.lua) |
 

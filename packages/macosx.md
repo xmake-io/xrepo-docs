@@ -1134,7 +1134,7 @@ add_requires("asn1c")
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
-| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2 |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2, v6.0.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -26302,7 +26302,7 @@ add_requires("openh264")
 | -- | -- |
 | Homepage | [https://www.openimagedenoise.org](https://www.openimagedenoise.org) |
 | License | Apache-2.0 |
-| Versions | v2.3.3 |
+| Versions | v2.3.3, v2.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [openimagedenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openimagedenoise/xmake.lua) |
 
@@ -26957,6 +26957,29 @@ xrepo install ormpp
 
 ```lua
 add_requires("ormpp")
+```
+
+
+### orocos-kdl (macosx)
+
+
+| Description | *Orocos Kinematics and Dynamics C++ library* |
+| -- | -- |
+| Homepage | [https://www.orocos.org/](https://www.orocos.org/) |
+| Versions | 1.5.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [orocos-kdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orocos-kdl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install orocos-kdl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("orocos-kdl")
 ```
 
 
@@ -29878,7 +29901,7 @@ add_requires("quake_triangle")
 | Description | *The QuantLib C++ library* |
 | -- | -- |
 | Homepage | [http://quantlib.org](http://quantlib.org) |
-| Versions | 1.33, 1.34, 1.35, 1.39, 1.40 |
+| Versions | 1.33, 1.34, 1.35, 1.39, 1.40, 1.41 |
 | Architectures | arm64, x86_64 |
 | Definition | [quantlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quantlib/xmake.lua) |
 
@@ -33436,7 +33459,7 @@ add_requires("srtp")
 | -- | -- |
 | Homepage | [https://github.com/DLTcollab/sse2neon](https://github.com/DLTcollab/sse2neon) |
 | License | MIT |
-| Versions | v1.7.0, v1.8.0 |
+| Versions | v1.7.0, v1.8.0, v1.9.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [sse2neon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sse2neon/xmake.lua) |
 
@@ -37759,7 +37782,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56370f55c940 |
+| License | table: 0x563ce29d8bf0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -39357,7 +39380,7 @@ add_requires("zltoolkit")
 | -- | -- |
 | Homepage | [https://github.com/SFGrenade/ZmqPb-Cpp/](https://github.com/SFGrenade/ZmqPb-Cpp/) |
 | License | MPL-2.0 |
-| Versions | 0.1, 0.2, 0.3, 0.4, 0.8, 0.9, 0.10.2, 0.10.3, 0.10.4, 0.10.5 |
+| Versions | 0.1, 0.2, 0.3, 0.4, 0.8, 0.9, 0.10.2, 0.10.3, 0.10.4, 0.10.5, 0.10.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [zmqpb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmqpb/xmake.lua) |
 
