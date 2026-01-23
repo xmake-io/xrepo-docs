@@ -15260,6 +15260,30 @@ add_requires("omath")
 ```
 
 
+### ompl (wasm)
+
+
+| Description | *The Open Motion Planning Library (OMPL)* |
+| -- | -- |
+| Homepage | [https://ompl.kavrakilab.org/](https://ompl.kavrakilab.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.7.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [ompl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ompl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm ompl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ompl")
+```
+
+
 ### oniguruma (wasm)
 
 

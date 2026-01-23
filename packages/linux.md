@@ -28051,6 +28051,30 @@ add_requires("omath")
 ```
 
 
+### ompl (linux)
+
+
+| Description | *The Open Motion Planning Library (OMPL)* |
+| -- | -- |
+| Homepage | [https://ompl.kavrakilab.org/](https://ompl.kavrakilab.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.7.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [ompl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ompl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ompl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ompl")
+```
+
+
 ### onednn (linux)
 
 
@@ -40965,7 +40989,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5603b189ce50 |
+| License | table: 0x55bfd82296e0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

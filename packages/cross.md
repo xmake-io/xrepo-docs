@@ -17595,6 +17595,30 @@ add_requires("omath")
 ```
 
 
+### ompl (cross)
+
+
+| Description | *The Open Motion Planning Library (OMPL)* |
+| -- | -- |
+| Homepage | [https://ompl.kavrakilab.org/](https://ompl.kavrakilab.org/) |
+| License | BSD-3-Clause |
+| Versions | 1.7.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ompl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ompl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ompl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ompl")
+```
+
+
 ### oneshot (cross)
 
 
