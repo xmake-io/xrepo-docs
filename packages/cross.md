@@ -9598,6 +9598,30 @@ add_requires("jpcre2")
 ```
 
 
+### jrl-cmakemodules (cross)
+
+
+| Description | *CMake utility toolbox* |
+| -- | -- |
+| Homepage | [https://jrl-cmakemodules.readthedocs.io/en/master/](https://jrl-cmakemodules.readthedocs.io/en/master/) |
+| License | LGPL-3.0-or-later |
+| Versions | v1.1.2 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [jrl-cmakemodules/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jrl-cmakemodules/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] jrl-cmakemodules
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jrl-cmakemodules")
+```
+
+
 ### jrtplib (cross)
 
 

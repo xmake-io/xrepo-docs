@@ -13935,6 +13935,30 @@ add_requires("jpcre2")
 ```
 
 
+### jrl-cmakemodules (macosx)
+
+
+| Description | *CMake utility toolbox* |
+| -- | -- |
+| Homepage | [https://jrl-cmakemodules.readthedocs.io/en/master/](https://jrl-cmakemodules.readthedocs.io/en/master/) |
+| License | LGPL-3.0-or-later |
+| Versions | v1.1.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [jrl-cmakemodules/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jrl-cmakemodules/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jrl-cmakemodules
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jrl-cmakemodules")
+```
+
+
 ### jrtplib (macosx)
 
 
@@ -37782,7 +37806,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563ce29d8bf0 |
+| License | table: 0x55add90191e0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

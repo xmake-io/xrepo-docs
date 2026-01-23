@@ -8400,6 +8400,30 @@ add_requires("jpcre2")
 ```
 
 
+### jrl-cmakemodules (wasm)
+
+
+| Description | *CMake utility toolbox* |
+| -- | -- |
+| Homepage | [https://jrl-cmakemodules.readthedocs.io/en/master/](https://jrl-cmakemodules.readthedocs.io/en/master/) |
+| License | LGPL-3.0-or-later |
+| Versions | v1.1.2 |
+| Architectures | wasm32, wasm64 |
+| Definition | [jrl-cmakemodules/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jrl-cmakemodules/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm jrl-cmakemodules
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jrl-cmakemodules")
+```
+
+
 ### jrtplib (wasm)
 
 
