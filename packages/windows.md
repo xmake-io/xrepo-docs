@@ -19792,7 +19792,7 @@ add_requires("lsp-framework")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic) |
 | License | MIT |
-| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2, v4.4.1 |
+| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2, v4.4.1, v4.5.0 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [lsquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsquic/xmake.lua) |
 
@@ -26894,6 +26894,30 @@ xrepo install piex
 
 ```lua
 add_requires("piex")
+```
+
+
+### pinocchio (windows)
+
+
+| Description | *A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives* |
+| -- | -- |
+| Homepage | [http://stack-of-tasks.github.io/pinocchio/](http://stack-of-tasks.github.io/pinocchio/) |
+| License | BSD-2-Clause |
+| Versions | v3.9.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [pinocchio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pinocchio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pinocchio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pinocchio")
 ```
 
 

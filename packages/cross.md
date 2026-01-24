@@ -14354,7 +14354,7 @@ add_requires("ls-qpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic) |
 | License | MIT |
-| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2, v4.4.1 |
+| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2, v4.4.1, v4.5.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lsquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsquic/xmake.lua) |
 
@@ -18979,6 +18979,30 @@ xrepo install -p cross [--sdk=/xxx] picosha2
 
 ```lua
 add_requires("picosha2")
+```
+
+
+### pinocchio (cross)
+
+
+| Description | *A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives* |
+| -- | -- |
+| Homepage | [http://stack-of-tasks.github.io/pinocchio/](http://stack-of-tasks.github.io/pinocchio/) |
+| License | BSD-2-Clause |
+| Versions | v3.9.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [pinocchio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pinocchio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] pinocchio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pinocchio")
 ```
 
 
