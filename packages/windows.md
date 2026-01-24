@@ -3758,7 +3758,7 @@ add_requires("cgetopt")
 | -- | -- |
 | Homepage | [https://github.com/dloebl/cgif](https://github.com/dloebl/cgif) |
 | License | MIT |
-| Versions | v0.4.0, v0.4.1, v0.5.0 |
+| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cgif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgif/xmake.lua) |
 
@@ -14663,7 +14663,7 @@ add_requires("klib")
 | -- | -- |
 | Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0 |
+| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1 |
 | Architectures | x64 |
 | Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
 
@@ -16216,7 +16216,7 @@ add_requires("libgeotiff")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0, v1.9.1 |
+| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0, v1.9.1, v1.9.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
@@ -23346,7 +23346,7 @@ add_requires("nativefiledialog-extended")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/NazaraUtils](https://github.com/NazaraEngine/NazaraUtils) |
 | License | MIT |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.1.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [nazarautils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nazarautils/xmake.lua) |
 
@@ -37899,6 +37899,30 @@ xrepo install xsimd
 
 ```lua
 add_requires("xsimd")
+```
+
+
+### xtensa-esp-elf (windows)
+
+
+| Description | *crosstool-NG with support for Xtensa* |
+| -- | -- |
+| Homepage | [https://github.com/espressif/crosstool-NG](https://github.com/espressif/crosstool-NG) |
+| License | GPL-3.0-with-GCC-exception |
+| Versions | 14.2.0, 15.2.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [xtensa-esp-elf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensa-esp-elf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xtensa-esp-elf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtensa-esp-elf")
 ```
 
 

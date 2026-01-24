@@ -4018,7 +4018,7 @@ add_requires("cgetopt")
 | -- | -- |
 | Homepage | [https://github.com/dloebl/cgif](https://github.com/dloebl/cgif) |
 | License | MIT |
-| Versions | v0.4.0, v0.4.1, v0.5.0 |
+| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cgif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgif/xmake.lua) |
 
@@ -15518,7 +15518,7 @@ add_requires("klib")
 | -- | -- |
 | Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0 |
+| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
 
@@ -17712,7 +17712,7 @@ add_requires("libgeotiff")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0, v1.9.1 |
+| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0, v1.9.1, v1.9.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
@@ -26622,7 +26622,7 @@ add_requires("nativefiledialog-extended")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/NazaraUtils](https://github.com/NazaraEngine/NazaraUtils) |
 | License | MIT |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.1.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nazarautils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nazarautils/xmake.lua) |
 
@@ -29512,7 +29512,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://p11-glue.github.io/p11-glue/p11-kit.html](https://p11-glue.github.io/p11-glue/p11-kit.html) |
 | License | BSD-3-Clause |
-| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10 |
+| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10, 0.26.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [p11-kit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/p11-kit/xmake.lua) |
 
@@ -40989,7 +40989,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55bfd82296e0 |
+| License | table: 0x563d3e920740 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -41811,6 +41811,30 @@ xrepo install xtd
 
 ```lua
 add_requires("xtd")
+```
+
+
+### xtensa-esp-elf (linux)
+
+
+| Description | *crosstool-NG with support for Xtensa* |
+| -- | -- |
+| Homepage | [https://github.com/espressif/crosstool-NG](https://github.com/espressif/crosstool-NG) |
+| License | GPL-3.0-with-GCC-exception |
+| Versions | 14.2.0, 15.2.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [xtensa-esp-elf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtensa-esp-elf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xtensa-esp-elf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xtensa-esp-elf")
 ```
 
 
