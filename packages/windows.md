@@ -32319,7 +32319,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://github.com/getml/sqlgen](https://github.com/getml/sqlgen) |
 | License | MIT |
-| Versions | v0.2.0 |
+| Versions | v0.2.0, v0.6.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlgen/xmake.lua) |
 

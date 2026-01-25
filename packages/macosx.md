@@ -33220,7 +33220,7 @@ add_requires("sqlcipher")
 | -- | -- |
 | Homepage | [https://github.com/getml/sqlgen](https://github.com/getml/sqlgen) |
 | License | MIT |
-| Versions | v0.2.0 |
+| Versions | v0.2.0, v0.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlgen/xmake.lua) |
 
@@ -37854,7 +37854,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5592c83f6340 |
+| License | table: 0x560563a34600 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
