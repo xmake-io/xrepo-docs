@@ -17145,7 +17145,7 @@ add_requires("node-addon-api")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-api-headers](https://github.com/nodejs/node-api-headers) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0 |
+| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [node-api-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-api-headers/xmake.lua) |
 
@@ -27019,7 +27019,7 @@ add_requires("zopfli")
 | -- | -- |
 | Homepage | [https://github.com/eyalz800/zpp_bits](https://github.com/eyalz800/zpp_bits) |
 | License | MIT |
-| Versions | v4.4.25, v4.5, v4.5.1 |
+| Versions | v4.4.25, v4.5, v4.5.1, v4.6 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [zpp_bits/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zpp_bits/xmake.lua) |
 
