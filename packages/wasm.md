@@ -6923,7 +6923,7 @@ add_requires("glslang")
 | -- | -- |
 | Homepage | [https://github.com/nihui/glslang/](https://github.com/nihui/glslang/) |
 | License | Apache-2.0 |
-| Versions | 20250503, 20250916 |
+| Versions | 20250503, 20250916, 20260113 |
 | Architectures | wasm32, wasm64 |
 | Definition | [glslang-nihui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang-nihui/xmake.lua) |
 
@@ -14500,7 +14500,7 @@ add_requires("nazarautils")
 | -- | -- |
 | Homepage | [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn) |
 | License | BSD-3-Clause |
-| Versions | 20250503, 20250916 |
+| Versions | 20250503, 20250916, 20260113 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ncnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncnn/xmake.lua) |
 

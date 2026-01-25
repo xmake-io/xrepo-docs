@@ -11144,7 +11144,7 @@ add_requires("glslang")
 | -- | -- |
 | Homepage | [https://github.com/nihui/glslang/](https://github.com/nihui/glslang/) |
 | License | Apache-2.0 |
-| Versions | 20250503, 20250916 |
+| Versions | 20250503, 20250916, 20260113 |
 | Architectures | arm64, x86_64 |
 | Definition | [glslang-nihui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glslang-nihui/xmake.lua) |
 
@@ -24485,7 +24485,7 @@ add_requires("nazarautils")
 | -- | -- |
 | Homepage | [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn) |
 | License | BSD-3-Clause |
-| Versions | 20250503, 20250916 |
+| Versions | 20250503, 20250916, 20260113 |
 | Architectures | arm64, x86_64 |
 | Definition | [ncnn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ncnn/xmake.lua) |
 
@@ -37878,7 +37878,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563d8f1d6280 |
+| License | table: 0x56046b689940 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
