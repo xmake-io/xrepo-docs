@@ -1623,6 +1623,30 @@ add_requires("boost_di")
 ```
 
 
+### boost_math (wasm)
+
+
+| Description | *Boost Math Library* |
+| -- | -- |
+| Homepage | [https://www.boost.org/libs/math](https://www.boost.org/libs/math) |
+| License | BSL-1.0 |
+| Versions | 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0, 1.88.0, 1.89.0, 1.90.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [boost_math/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_math/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm boost_math
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_math")
+```
+
+
 ### boost_pfr (wasm)
 
 
@@ -13711,7 +13735,7 @@ add_requires("minizip")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
 | License | zlib |
-| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10 |
+| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 
