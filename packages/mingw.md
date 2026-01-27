@@ -27152,6 +27152,30 @@ add_requires("toojpeg")
 ```
 
 
+### toppra (mingw)
+
+
+| Description | *robotic motion planning library* |
+| -- | -- |
+| Homepage | [https://hungpham2511.github.io/toppra/index.html](https://hungpham2511.github.io/toppra/index.html) |
+| License | MIT |
+| Versions | v0.6.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [toppra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toppra/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] toppra
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toppra")
+```
+
+
 ### tracy (mingw)
 
 

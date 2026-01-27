@@ -35935,6 +35935,30 @@ add_requires("toojpeg")
 ```
 
 
+### toppra (macosx)
+
+
+| Description | *robotic motion planning library* |
+| -- | -- |
+| Homepage | [https://hungpham2511.github.io/toppra/index.html](https://hungpham2511.github.io/toppra/index.html) |
+| License | MIT |
+| Versions | v0.6.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [toppra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toppra/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install toppra
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toppra")
+```
+
+
 ### tracy (macosx)
 
 
@@ -37902,7 +37926,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x555e9436a890 |
+| License | table: 0x563a7360c5a0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

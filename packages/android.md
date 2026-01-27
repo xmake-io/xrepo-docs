@@ -25577,6 +25577,30 @@ add_requires("toojpeg")
 ```
 
 
+### toppra (android)
+
+
+| Description | *robotic motion planning library* |
+| -- | -- |
+| Homepage | [https://hungpham2511.github.io/toppra/index.html](https://hungpham2511.github.io/toppra/index.html) |
+| License | MIT |
+| Versions | v0.6.4 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [toppra/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/toppra/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] toppra
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("toppra")
+```
+
+
 ### tracy (android)
 
 
