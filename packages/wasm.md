@@ -8335,7 +8335,7 @@ add_requires("jack2")
 | -- | -- |
 | Homepage | [https://github.com/akheron/jansson](https://github.com/akheron/jansson) |
 | License | MIT |
-| Versions | 2.14, 2.14.1 |
+| Versions | 2.14, 2.14.1, 2.15.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [jansson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jansson/xmake.lua) |
 
