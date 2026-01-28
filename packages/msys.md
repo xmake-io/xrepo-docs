@@ -16600,7 +16600,7 @@ add_requires("ncurses")
 | Description | *Android NDK toolchain.* |
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
-| Versions | 22.0, 22.1, 23.0, 23.1, 23.2, 24.0, 25.0, 25.1, 25.2, 26.0, 26.1, 26.2, 26.3, 27.0, 27.1, 27.2, 27.3 |
+| Versions | 22.0, 22.1, 23.0, 23.1, 23.2, 24.0, 25.0, 25.1, 25.2, 26.0, 26.1, 26.2, 26.3, 27.0, 27.1, 27.2, 27.3, 28.0, 28.1, 28.2, 29.0 |
 | Architectures | i386, x86_64 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 

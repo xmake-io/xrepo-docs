@@ -24579,7 +24579,7 @@ add_requires("ndarray")
 | Description | *Android NDK toolchain.* |
 | -- | -- |
 | Homepage | [https://developer.android.com/ndk](https://developer.android.com/ndk) |
-| Versions | 22.0, 22.1, 23.0, 23.1, 23.2, 24.0, 25.0, 25.1, 25.2, 26.0, 26.1, 26.2, 26.3, 27.0, 27.1, 27.2, 27.3 |
+| Versions | 22.0, 22.1, 23.0, 23.1, 23.2, 24.0, 25.0, 25.1, 25.2, 26.0, 26.1, 26.2, 26.3, 27.0, 27.1, 27.2, 27.3, 28.0, 28.1, 28.2, 29.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [ndk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndk/xmake.lua) |
 
@@ -37926,7 +37926,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563a7360c5a0 |
+| License | table: 0x55ad969c7640 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
