@@ -2026,7 +2026,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2, v6.0.3</td>
+<td>v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2, v6.0.3, v6.0.4</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -5100,7 +5100,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.3.0, 1.4.0, 1.5.0, 1.6.1, 1.7.0, 1.8.0, 1.10.0, 1.14.1, 1.15.0</td>
+<td>1.3.0, 1.4.0, 1.5.0, 1.6.1, 1.7.0, 1.8.0, 1.10.0, 1.14.1, 1.15.0, 1.16.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -30166,7 +30166,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>1.14.0, 1.15.0, 1.16.0</td>
+<td>1.14.0, 1.15.0, 1.16.0, 1.16.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -34232,7 +34232,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0, 0.16.1, 0.16.2, 0.16.3, 0.16.4, 0.16.5, 0.16.6, 0.17.0, 0.17.1, 0.17.2</td>
+<td>0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0, 0.16.1, 0.16.2, 0.16.3, 0.16.4, 0.16.5, 0.16.6, 0.17.0, 0.17.1, 0.17.2, 0.17.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -51473,7 +51473,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>5.0, 5.1, 6.0, 6.1</td>
+<td>5.0, 5.1, 6.0, 6.1, 6.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -53252,6 +53252,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("sfparse")
+</code></pre>
+<h3 id="sha2linux">sha2 (linux)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Fast software implementation in C of the FIPS 180-2 hash algorithms SHA-224, SHA-256, SHA-384 and SHA-512.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/ogay/sha2">https://github.com/ogay/sha2</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2024.05.23</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sha2/xmake.lua">sha2/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install sha2
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("sha2")
 </code></pre>
 <h3 id="shaderclinux">shaderc (linux)</h3>
 <table>
@@ -62670,7 +62703,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x561ac266b060</td>
+<td>table: 0x55d693bcc040</td>
 </tr>
 <tr>
 <td>Versions</td>

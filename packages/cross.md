@@ -774,7 +774,7 @@ add_requires("asmtk")
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
-| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2, v6.0.3 |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2, v6.0.3, v6.0.4 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -12355,7 +12355,7 @@ add_requires("libremidi")
 | -- | -- |
 | Homepage | [https://rime.im](https://rime.im) |
 | License | BSD-3-Clause |
-| Versions | 1.14.0, 1.15.0, 1.16.0 |
+| Versions | 1.14.0, 1.15.0, 1.16.0, 1.16.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [librime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librime/xmake.lua) |
 
@@ -13855,7 +13855,7 @@ add_requires("libzip")
 | -- | -- |
 | Homepage | [https://lief.quarkslab.com](https://lief.quarkslab.com) |
 | License | Apache-2.0 |
-| Versions | 0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0, 0.16.1, 0.16.2, 0.16.3, 0.16.4, 0.16.5, 0.16.6, 0.17.0, 0.17.1, 0.17.2 |
+| Versions | 0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0, 0.16.1, 0.16.2, 0.16.3, 0.16.4, 0.16.5, 0.16.6, 0.17.0, 0.17.1, 0.17.2, 0.17.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lief/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lief/xmake.lua) |
 
@@ -21723,6 +21723,29 @@ xrepo install -p cross [--sdk=/xxx] sfparse
 
 ```lua
 add_requires("sfparse")
+```
+
+
+### sha2 (cross)
+
+
+| Description | *Fast software implementation in C of the FIPS 180-2 hash algorithms SHA-224, SHA-256, SHA-384 and SHA-512.* |
+| -- | -- |
+| Homepage | [https://github.com/ogay/sha2](https://github.com/ogay/sha2) |
+| Versions | 2024.05.23 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [sha2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sha2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] sha2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sha2")
 ```
 
 
