@@ -18033,7 +18033,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [http://libomath.org](http://libomath.org) |
 | License | zlib |
-| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1 |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
 
