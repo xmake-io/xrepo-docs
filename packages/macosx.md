@@ -19848,7 +19848,8 @@ add_requires("libxdmcp")
 | Description | *X.Org: Library for common extensions to the X11 protocol* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.3.5, 1.3.6 |
+| License | X11 |
+| Versions | 1.3.5, 1.3.6, 1.3.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [libxext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxext/xmake.lua) |
 
@@ -28570,7 +28571,7 @@ add_requires("pocketfft")
 | -- | -- |
 | Homepage | [https://github.com/blueloveTH/pocketpy](https://github.com/blueloveTH/pocketpy) |
 | License | MIT |
-| Versions | v0.9.0, v1.4.5, v1.4.6, v2.0.8, v2.1.1, v2.1.3 |
+| Versions | v0.9.0, v1.4.5, v1.4.6, v2.0.8, v2.1.1, v2.1.3, v2.1.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [pocketpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketpy/xmake.lua) |
 
@@ -37973,7 +37974,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a58955ecd0 |
+| License | table: 0x55934fe7a900 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

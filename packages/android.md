@@ -20063,7 +20063,7 @@ add_requires("pocketfft")
 | -- | -- |
 | Homepage | [https://github.com/blueloveTH/pocketpy](https://github.com/blueloveTH/pocketpy) |
 | License | MIT |
-| Versions | v0.9.0, v1.4.5, v1.4.6, v2.0.8, v2.1.1, v2.1.3 |
+| Versions | v0.9.0, v1.4.5, v1.4.6, v2.0.8, v2.1.1, v2.1.3, v2.1.6 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [pocketpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketpy/xmake.lua) |
 

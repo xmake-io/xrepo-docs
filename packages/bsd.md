@@ -13900,7 +13900,8 @@ add_requires("libxdmcp")
 | Description | *X.Org: Library for common extensions to the X11 protocol* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.3.5, 1.3.6 |
+| License | X11 |
+| Versions | 1.3.5, 1.3.6, 1.3.7 |
 | Architectures | i386, x86_64 |
 | Definition | [libxext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxext/xmake.lua) |
 
