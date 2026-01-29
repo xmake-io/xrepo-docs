@@ -4566,6 +4566,30 @@ add_requires("crc32c")
 ```
 
 
+### criterion (mingw)
+
+
+| Description | *A cross-platform C and C++ unit testing framework for the 21st century* |
+| -- | -- |
+| Homepage | [https://github.com/Snaipe/Criterion](https://github.com/Snaipe/Criterion) |
+| License | MIT |
+| Versions | v2.4.2, v2.4.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [criterion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/criterion/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] criterion
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("criterion")
+```
+
+
 ### croaring (mingw)
 
 
@@ -12948,7 +12972,7 @@ add_requires("libmd")
 | -- | -- |
 | Homepage | [https://github.com/rdbo/libmem](https://github.com/rdbo/libmem) |
 | License | AGPL-3.0 |
-| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0, 5.1.4 |
+| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0, 5.1.4, 5.1.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libmem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmem/xmake.lua) |
 
@@ -21038,6 +21062,30 @@ add_requires("plog")
 ```
 
 
+### plotlypp (mingw)
+
+
+| Description | *Plotly for C++. A C++ interface to the Plotly.js figure spec, for creating interactive data visualizations.* |
+| -- | -- |
+| Homepage | [https://github.com/jimmyorourke/plotlypp](https://github.com/jimmyorourke/plotlypp) |
+| License | MIT |
+| Versions | 2026.01.26 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [plotlypp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plotlypp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] plotlypp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plotlypp")
+```
+
+
 ### plusaes (mingw)
 
 
@@ -28641,7 +28689,7 @@ add_requires("wineditline")
 | Description | *getopt library for Windows compilers* |
 | -- | -- |
 | Homepage | [https://github.com/alex85k/wingetopt](https://github.com/alex85k/wingetopt) |
-| Versions | 2023.10.29 |
+| Versions | 2023.10.29, 2025.12.01 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [wingetopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wingetopt/xmake.lua) |
 

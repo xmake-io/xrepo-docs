@@ -11658,7 +11658,7 @@ add_requires("libmaxminddb")
 | -- | -- |
 | Homepage | [https://github.com/rdbo/libmem](https://github.com/rdbo/libmem) |
 | License | AGPL-3.0 |
-| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0, 5.1.4 |
+| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0, 5.1.4, 5.1.5 |
 | Architectures | i386, x86_64 |
 | Definition | [libmem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmem/xmake.lua) |
 
@@ -19101,6 +19101,30 @@ xrepo install plog
 
 ```lua
 add_requires("plog")
+```
+
+
+### plotlypp (msys)
+
+
+| Description | *Plotly for C++. A C++ interface to the Plotly.js figure spec, for creating interactive data visualizations.* |
+| -- | -- |
+| Homepage | [https://github.com/jimmyorourke/plotlypp](https://github.com/jimmyorourke/plotlypp) |
+| License | MIT |
+| Versions | 2026.01.26 |
+| Architectures | i386, x86_64 |
+| Definition | [plotlypp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plotlypp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install plotlypp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plotlypp")
 ```
 
 

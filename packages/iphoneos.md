@@ -4132,6 +4132,30 @@ add_requires("crc32c")
 ```
 
 
+### criterion (iphoneos)
+
+
+| Description | *A cross-platform C and C++ unit testing framework for the 21st century* |
+| -- | -- |
+| Homepage | [https://github.com/Snaipe/Criterion](https://github.com/Snaipe/Criterion) |
+| License | MIT |
+| Versions | v2.4.2, v2.4.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [criterion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/criterion/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos criterion
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("criterion")
+```
+
+
 ### croaring (iphoneos)
 
 

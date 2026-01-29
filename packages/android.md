@@ -4372,6 +4372,30 @@ add_requires("crc32c")
 ```
 
 
+### criterion (android)
+
+
+| Description | *A cross-platform C and C++ unit testing framework for the 21st century* |
+| -- | -- |
+| Homepage | [https://github.com/Snaipe/Criterion](https://github.com/Snaipe/Criterion) |
+| License | MIT |
+| Versions | v2.4.2, v2.4.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [criterion/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/criterion/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] criterion
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("criterion")
+```
+
+
 ### croaring (android)
 
 
@@ -11386,6 +11410,30 @@ add_requires("libfacedetection")
 ```
 
 
+### libffi (android)
+
+
+| Description | *Portable Foreign Function Interface library.* |
+| -- | -- |
+| Homepage | [https://sourceware.org/libffi/](https://sourceware.org/libffi/) |
+| License | MIT |
+| Versions | 3.2.1, 3.3, 3.4.2, 3.4.4, 3.4.6, 3.4.7, 3.4.8 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [libffi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libffi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libffi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libffi")
+```
+
+
 ### libfiber (android)
 
 
@@ -12060,7 +12108,7 @@ add_requires("libmd")
 | -- | -- |
 | Homepage | [https://github.com/rdbo/libmem](https://github.com/rdbo/libmem) |
 | License | AGPL-3.0 |
-| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0, 5.1.4 |
+| Versions | 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.1.0, 5.1.4, 5.1.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libmem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmem/xmake.lua) |
 
@@ -19885,6 +19933,30 @@ xrepo install -p android [--ndk=/xxx] plog
 
 ```lua
 add_requires("plog")
+```
+
+
+### plotlypp (android)
+
+
+| Description | *Plotly for C++. A C++ interface to the Plotly.js figure spec, for creating interactive data visualizations.* |
+| -- | -- |
+| Homepage | [https://github.com/jimmyorourke/plotlypp](https://github.com/jimmyorourke/plotlypp) |
+| License | MIT |
+| Versions | 2026.01.26 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [plotlypp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plotlypp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] plotlypp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plotlypp")
 ```
 
 

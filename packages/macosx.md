@@ -28419,6 +28419,30 @@ add_requires("plog")
 ```
 
 
+### plotlypp (macosx)
+
+
+| Description | *Plotly for C++. A C++ interface to the Plotly.js figure spec, for creating interactive data visualizations.* |
+| -- | -- |
+| Homepage | [https://github.com/jimmyorourke/plotlypp](https://github.com/jimmyorourke/plotlypp) |
+| License | MIT |
+| Versions | 2026.01.26 |
+| Architectures | arm64, x86_64 |
+| Definition | [plotlypp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plotlypp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install plotlypp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plotlypp")
+```
+
+
 ### plusaes (macosx)
 
 
@@ -37926,7 +37950,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ad969c7640 |
+| License | table: 0x556432e8d2c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

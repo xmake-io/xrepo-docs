@@ -19388,6 +19388,30 @@ add_requires("plog")
 ```
 
 
+### plotlypp (cross)
+
+
+| Description | *Plotly for C++. A C++ interface to the Plotly.js figure spec, for creating interactive data visualizations.* |
+| -- | -- |
+| Homepage | [https://github.com/jimmyorourke/plotlypp](https://github.com/jimmyorourke/plotlypp) |
+| License | MIT |
+| Versions | 2026.01.26 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [plotlypp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plotlypp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] plotlypp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("plotlypp")
+```
+
+
 ### plusaes (cross)
 
 
