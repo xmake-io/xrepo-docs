@@ -980,6 +980,30 @@ add_requires("avir")
 ```
 
 
+### avisynthplus (iphoneos)
+
+
+| Description | *AviSynth with improvements* |
+| -- | -- |
+| Homepage | [http://avs-plus.net](http://avs-plus.net) |
+| License | GPL-2.0 |
+| Versions | 2026.01.01 |
+| Architectures | arm64, x86_64 |
+| Definition | [avisynthplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/avisynthplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos avisynthplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("avisynthplus")
+```
+
+
 ### awk (iphoneos)
 
 
@@ -25509,6 +25533,30 @@ xrepo install -p iphoneos xbyak
 
 ```lua
 add_requires("xbyak")
+```
+
+
+### xent-core (iphoneos)
+
+
+| Description | *A declarative C++20 layout & reactivity engine.* |
+| -- | -- |
+| Homepage | [https://github.com/Project-Xent/xent-core](https://github.com/Project-Xent/xent-core) |
+| License | BSD-3-Clause |
+| Versions | 2026.01.30 |
+| Architectures | arm64, x86_64 |
+| Definition | [xent-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xent-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos xent-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xent-core")
 ```
 
 

@@ -22936,6 +22936,30 @@ add_requires("xbyak")
 ```
 
 
+### xent-core (wasm)
+
+
+| Description | *A declarative C++20 layout & reactivity engine.* |
+| -- | -- |
+| Homepage | [https://github.com/Project-Xent/xent-core](https://github.com/Project-Xent/xent-core) |
+| License | BSD-3-Clause |
+| Versions | 2026.01.30 |
+| Architectures | wasm32, wasm64 |
+| Definition | [xent-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xent-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm xent-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xent-core")
+```
+
+
 ### xgrammar (wasm)
 
 

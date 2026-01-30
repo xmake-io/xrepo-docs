@@ -1460,6 +1460,30 @@ add_requires("avir")
 ```
 
 
+### avisynthplus (macosx)
+
+
+| Description | *AviSynth with improvements* |
+| -- | -- |
+| Homepage | [http://avs-plus.net](http://avs-plus.net) |
+| License | GPL-2.0 |
+| Versions | 2026.01.01 |
+| Architectures | arm64, x86_64 |
+| Definition | [avisynthplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/avisynthplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install avisynthplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("avisynthplus")
+```
+
+
 ### awk (macosx)
 
 
@@ -37998,7 +38022,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c7bee4a550 |
+| License | table: 0x5614b64e0730 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -38485,6 +38509,30 @@ xrepo install xcb-util-wm
 
 ```lua
 add_requires("xcb-util-wm")
+```
+
+
+### xent-core (macosx)
+
+
+| Description | *A declarative C++20 layout & reactivity engine.* |
+| -- | -- |
+| Homepage | [https://github.com/Project-Xent/xent-core](https://github.com/Project-Xent/xent-core) |
+| License | BSD-3-Clause |
+| Versions | 2026.01.30 |
+| Architectures | arm64, x86_64 |
+| Definition | [xent-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xent-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xent-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xent-core")
 ```
 
 

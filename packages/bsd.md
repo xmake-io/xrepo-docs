@@ -1099,6 +1099,30 @@ add_requires("avir")
 ```
 
 
+### avisynthplus (bsd)
+
+
+| Description | *AviSynth with improvements* |
+| -- | -- |
+| Homepage | [http://avs-plus.net](http://avs-plus.net) |
+| License | GPL-2.0 |
+| Versions | 2026.01.01 |
+| Architectures | i386, x86_64 |
+| Definition | [avisynthplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/avisynthplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install avisynthplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("avisynthplus")
+```
+
+
 ### awk (bsd)
 
 
@@ -27164,6 +27188,30 @@ xrepo install xcb-proto
 
 ```lua
 add_requires("xcb-proto")
+```
+
+
+### xent-core (bsd)
+
+
+| Description | *A declarative C++20 layout & reactivity engine.* |
+| -- | -- |
+| Homepage | [https://github.com/Project-Xent/xent-core](https://github.com/Project-Xent/xent-core) |
+| License | BSD-3-Clause |
+| Versions | 2026.01.30 |
+| Architectures | i386, x86_64 |
+| Definition | [xent-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xent-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xent-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xent-core")
 ```
 
 
