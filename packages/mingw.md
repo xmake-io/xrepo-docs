@@ -4597,7 +4597,7 @@ add_requires("criterion")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0 |
+| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -21914,6 +21914,30 @@ xrepo install -p mingw [--mingw=/xxx] qoi
 
 ```lua
 add_requires("qoi")
+```
+
+
+### qpoases (mingw)
+
+
+| Description | *Open-source C++ implementation of the recently proposed online active set strategy* |
+| -- | -- |
+| Homepage | [https://github.com/coin-or/qpOASES](https://github.com/coin-or/qpOASES) |
+| License | LGPL-2.1 |
+| Versions | 3.2.2 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [qpoases/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qpoases/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] qpoases
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qpoases")
 ```
 
 

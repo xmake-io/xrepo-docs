@@ -6190,7 +6190,7 @@ add_requires("criterion")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0 |
+| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -7815,7 +7815,7 @@ add_requires("dlpack")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/DLSS](https://github.com/NVIDIA/DLSS) |
 | License | NVIDIA RTX SDKs |
-| Versions | v3.7.20, v310.1.0, v310.2.1, v310.3.0, v310.4.0, v310.5.0 |
+| Versions | v3.7.20, v310.1.0, v310.2.1, v310.3.0, v310.4.0, v310.5.0, v310.5.3 |
 | Architectures | x86_64 |
 | Definition | [dlss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlss/xmake.lua) |
 
@@ -26409,7 +26409,7 @@ add_requires("nanobench")
 | -- | -- |
 | Homepage | [https://github.com/wjakob/nanobind](https://github.com/wjakob/nanobind) |
 | License | BSD-3-Clause |
-| Versions | v2.2.0, v2.6.1, v2.7.0, v2.8.0, v2.9.2, v2.10.2 |
+| Versions | v2.2.0, v2.6.1, v2.7.0, v2.8.0, v2.9.2, v2.10.2, v2.11.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nanobind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanobind/xmake.lua) |
 
@@ -32125,6 +32125,30 @@ xrepo install qoi
 
 ```lua
 add_requires("qoi")
+```
+
+
+### qpoases (linux)
+
+
+| Description | *Open-source C++ implementation of the recently proposed online active set strategy* |
+| -- | -- |
+| Homepage | [https://github.com/coin-or/qpOASES](https://github.com/coin-or/qpOASES) |
+| License | LGPL-2.1 |
+| Versions | 3.2.2 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [qpoases/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qpoases/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install qpoases
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("qpoases")
 ```
 
 
@@ -41133,7 +41157,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55934fe7a900 |
+| License | table: 0x55c7bee4a550 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
