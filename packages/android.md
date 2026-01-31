@@ -6769,6 +6769,30 @@ add_requires("ffmpeg")
 ```
 
 
+### ffms2 (android)
+
+
+| Description | *An FFmpeg based source library and Avisynth/VapourSynth plugin for easy frame accurate access* |
+| -- | -- |
+| Homepage | [https://github.com/FFMS/ffms2](https://github.com/FFMS/ffms2) |
+| License | MIT |
+| Versions | 5.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [ffms2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffms2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] ffms2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ffms2")
+```
+
+
 ### ffts (android)
 
 

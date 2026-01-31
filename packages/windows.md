@@ -9419,6 +9419,30 @@ add_requires("ffmpeg")
 ```
 
 
+### ffms2 (windows)
+
+
+| Description | *An FFmpeg based source library and Avisynth/VapourSynth plugin for easy frame accurate access* |
+| -- | -- |
+| Homepage | [https://github.com/FFMS/ffms2](https://github.com/FFMS/ffms2) |
+| License | MIT |
+| Versions | 5.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [ffms2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffms2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ffms2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ffms2")
+```
+
+
 ### ffts (windows)
 
 

@@ -9226,6 +9226,30 @@ add_requires("ffmpeg")
 ```
 
 
+### ffms2 (macosx)
+
+
+| Description | *An FFmpeg based source library and Avisynth/VapourSynth plugin for easy frame accurate access* |
+| -- | -- |
+| Homepage | [https://github.com/FFMS/ffms2](https://github.com/FFMS/ffms2) |
+| License | MIT |
+| Versions | 5.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [ffms2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffms2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ffms2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ffms2")
+```
+
+
 ### ffts (macosx)
 
 
@@ -38046,7 +38070,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a78b6770f0 |
+| License | table: 0x55c6c249eb40 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
