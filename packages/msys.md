@@ -54,7 +54,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0, v3.4.1 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0, v3.4.1, v3.4.2 |
 | Architectures | i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -5457,7 +5457,7 @@ add_requires("dlib")
 | -- | -- |
 | Homepage | [https://dmlc.github.io/dlpack/latest](https://dmlc.github.io/dlpack/latest) |
 | License | Apache-2.0 |
-| Versions | v0.8, v1.0, v1.1, v1.2 |
+| Versions | v0.8, v1.0, v1.1, v1.2, v1.3 |
 | Architectures | i386, x86_64 |
 | Definition | [dlpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlpack/xmake.lua) |
 
@@ -8184,7 +8184,7 @@ add_requires("godotcpp")
 | -- | -- |
 | Homepage | [https://github.com/googleapis/google-cloud-cpp](https://github.com/googleapis/google-cloud-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0, v2.42.0, v2.43.0, v2.45.0 |
+| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0, v2.42.0, v2.43.0, v2.45.0, v2.46.0 |
 | Architectures | i386, x86_64 |
 | Definition | [google-cloud-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/google-cloud-cpp/xmake.lua) |
 
@@ -8929,7 +8929,7 @@ add_requires("icu4c")
 | -- | -- |
 | Homepage | [https://github.com/ada-url/idna](https://github.com/ada-url/idna) |
 | License | Apache-2.0 |
-| Versions | 0.2.0, 0.3.2, 0.3.3, 0.3.4 |
+| Versions | 0.2.0, 0.3.2, 0.3.3, 0.3.4, 0.4.0 |
 | Architectures | i386, x86_64 |
 | Definition | [idna/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/idna/xmake.lua) |
 
@@ -15898,6 +15898,30 @@ xrepo install mpfr
 
 ```lua
 add_requires("mpfr")
+```
+
+
+### mplib (msys)
+
+
+| Description | *a Lightweight Motion Planning Package* |
+| -- | -- |
+| Homepage | [https://motion-planning-lib.readthedocs.io/](https://motion-planning-lib.readthedocs.io/) |
+| License | MIT |
+| Versions | v0.2.1 |
+| Architectures | i386, x86_64 |
+| Definition | [mplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mplib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mplib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mplib")
 ```
 
 

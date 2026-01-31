@@ -177,7 +177,7 @@ add_requires("actor-framework")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0, v3.4.1 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0, v3.4.1, v3.4.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -3733,7 +3733,7 @@ add_requires("cfitsio")
 | -- | -- |
 | Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
 | License | LGPL-3.0 |
-| Versions | 5.1.1, 5.2.1, 5.3, 5.4, 5.5.2, 5.6.1, 6.0, 6.0.2, 6.1 |
+| Versions | 5.1.1, 5.2.1, 5.3, 5.4, 5.5.2, 5.6.1, 6.0, 6.0.2, 6.1, 6.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
 
@@ -7244,7 +7244,7 @@ add_requires("dlib")
 | -- | -- |
 | Homepage | [https://dmlc.github.io/dlpack/latest](https://dmlc.github.io/dlpack/latest) |
 | License | Apache-2.0 |
-| Versions | v0.8, v1.0, v1.1, v1.2 |
+| Versions | v0.8, v1.0, v1.1, v1.2, v1.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [dlpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlpack/xmake.lua) |
 
@@ -11569,7 +11569,7 @@ add_requires("godotcpp4")
 | -- | -- |
 | Homepage | [https://github.com/googleapis/google-cloud-cpp](https://github.com/googleapis/google-cloud-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0, v2.42.0, v2.43.0, v2.45.0 |
+| Versions | v2.33.0, v2.34.0, v2.36.0, v2.37.0, v2.38.0, v2.39.0, v2.42.0, v2.43.0, v2.45.0, v2.46.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [google-cloud-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/google-cloud-cpp/xmake.lua) |
 
@@ -12769,7 +12769,7 @@ add_requires("icu4c")
 | -- | -- |
 | Homepage | [https://github.com/ada-url/idna](https://github.com/ada-url/idna) |
 | License | Apache-2.0 |
-| Versions | 0.2.0, 0.3.2, 0.3.3, 0.3.4 |
+| Versions | 0.2.0, 0.3.2, 0.3.3, 0.3.4, 0.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [idna/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/idna/xmake.lua) |
 
@@ -23644,6 +23644,30 @@ add_requires("mpich")
 ```
 
 
+### mplib (macosx)
+
+
+| Description | *a Lightweight Motion Planning Package* |
+| -- | -- |
+| Homepage | [https://motion-planning-lib.readthedocs.io/](https://motion-planning-lib.readthedocs.io/) |
+| License | MIT |
+| Versions | v0.2.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [mplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mplib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mplib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mplib")
+```
+
+
 ### mpmcqueue (macosx)
 
 
@@ -31267,7 +31291,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5, v10.9.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -38022,7 +38046,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5614b64e0730 |
+| License | table: 0x55a78b6770f0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
