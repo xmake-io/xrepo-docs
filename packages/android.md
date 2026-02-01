@@ -12484,6 +12484,30 @@ add_requires("libp11")
 ```
 
 
+### libp2p (android)
+
+
+| Description | *Pack/unpack pixels.* |
+| -- | -- |
+| Homepage | [https://github.com/sekrit-twc/libp2p](https://github.com/sekrit-twc/libp2p) |
+| License | WTFPL |
+| Versions | 2025.06.07 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [libp2p/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libp2p/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libp2p
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libp2p")
+```
+
+
 ### libparserutils (android)
 
 

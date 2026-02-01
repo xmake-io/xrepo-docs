@@ -11698,6 +11698,30 @@ add_requires("liboqs")
 ```
 
 
+### libp2p (iphoneos)
+
+
+| Description | *Pack/unpack pixels.* |
+| -- | -- |
+| Homepage | [https://github.com/sekrit-twc/libp2p](https://github.com/sekrit-twc/libp2p) |
+| License | WTFPL |
+| Versions | 2025.06.07 |
+| Architectures | arm64, x86_64 |
+| Definition | [libp2p/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libp2p/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libp2p
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libp2p")
+```
+
+
 ### libparserutils (iphoneos)
 
 

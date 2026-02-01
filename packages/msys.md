@@ -12034,6 +12034,30 @@ add_requires("libp11")
 ```
 
 
+### libp2p (msys)
+
+
+| Description | *Pack/unpack pixels.* |
+| -- | -- |
+| Homepage | [https://github.com/sekrit-twc/libp2p](https://github.com/sekrit-twc/libp2p) |
+| License | WTFPL |
+| Versions | 2025.06.07 |
+| Architectures | i386, x86_64 |
+| Definition | [libp2p/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libp2p/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libp2p
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libp2p")
+```
+
+
 ### libparserutils (msys)
 
 

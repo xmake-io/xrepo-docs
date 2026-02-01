@@ -19225,6 +19225,30 @@ add_requires("libp11")
 ```
 
 
+### libp2p (linux)
+
+
+| Description | *Pack/unpack pixels.* |
+| -- | -- |
+| Homepage | [https://github.com/sekrit-twc/libp2p](https://github.com/sekrit-twc/libp2p) |
+| License | WTFPL |
+| Versions | 2025.06.07 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libp2p/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libp2p/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libp2p
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libp2p")
+```
+
+
 ### libpam (linux)
 
 
@@ -41229,7 +41253,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b666481060 |
+| License | table: 0x559b1f57fcd0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
