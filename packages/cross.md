@@ -12331,7 +12331,7 @@ add_requires("librdkafka")
 | -- | -- |
 | Homepage | [https://github.com/jcelerier/libremidi](https://github.com/jcelerier/libremidi) |
 | License | BSD-2-Clause |
-| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1, v5.4.2 |
+| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1, v5.4.2, v5.4.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libremidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libremidi/xmake.lua) |
 
@@ -17314,7 +17314,7 @@ add_requires("nowide_standalone")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI) |
 | License | MIT |
-| Versions | v176 |
+| Versions | v176, v177 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nri/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nri/xmake.lua) |
 

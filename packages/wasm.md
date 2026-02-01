@@ -10538,7 +10538,7 @@ add_requires("libraw")
 | -- | -- |
 | Homepage | [https://github.com/jcelerier/libremidi](https://github.com/jcelerier/libremidi) |
 | License | BSD-2-Clause |
-| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1, v5.4.2 |
+| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1, v5.4.2, v5.4.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libremidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libremidi/xmake.lua) |
 

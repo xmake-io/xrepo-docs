@@ -9873,6 +9873,30 @@ add_requires("flux")
 ```
 
 
+### fluxent (windows)
+
+
+| Description | *A lightweight Windows UI framework in modern C++.* |
+| -- | -- |
+| Homepage | [https://github.com/Project-Xent/fluxent](https://github.com/Project-Xent/fluxent) |
+| License | BSD-3-Clause |
+| Versions | 2026.01.30 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [fluxent/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fluxent/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install fluxent
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("fluxent")
+```
+
+
 ### fluxsort (windows)
 
 
@@ -13394,7 +13418,7 @@ add_requires("imguizmo")
 | -- | -- |
 | Homepage | [https://github.com/arximboldi/immer](https://github.com/arximboldi/immer) |
 | License | BSL-1.0 |
-| Versions | v0.8.0, v0.8.1, v0.9.0 |
+| Versions | v0.8.0, v0.8.1, v0.9.0, v0.9.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [immer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/immer/xmake.lua) |
 
@@ -17697,7 +17721,7 @@ add_requires("libredwg")
 | -- | -- |
 | Homepage | [https://github.com/jcelerier/libremidi](https://github.com/jcelerier/libremidi) |
 | License | BSD-2-Clause |
-| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1, v5.4.2 |
+| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1, v5.4.2, v5.4.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libremidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libremidi/xmake.lua) |
 
@@ -24300,7 +24324,7 @@ add_requires("npcap_sdk")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI) |
 | License | MIT |
-| Versions | v176 |
+| Versions | v176, v177 |
 | Architectures | arm, arm64, arm64ec, x64 |
 | Definition | [nri/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nri/xmake.lua) |
 

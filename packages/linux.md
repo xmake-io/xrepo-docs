@@ -14129,7 +14129,7 @@ add_requires("imguizmo")
 | -- | -- |
 | Homepage | [https://github.com/arximboldi/immer](https://github.com/arximboldi/immer) |
 | License | BSL-1.0 |
-| Versions | v0.8.0, v0.8.1, v0.9.0 |
+| Versions | v0.8.0, v0.8.1, v0.9.0, v0.9.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [immer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/immer/xmake.lua) |
 
@@ -19231,7 +19231,7 @@ add_requires("libp11")
 | Description | *Pluggable Authentication Modules for Linux* |
 | -- | -- |
 | Homepage | [https://github.com/linux-pam/linux-pam](https://github.com/linux-pam/linux-pam) |
-| Versions | v1.7.1 |
+| Versions | v1.7.1, v1.7.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpam/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpam/xmake.lua) |
 
@@ -19734,7 +19734,7 @@ add_requires("libredwg")
 | -- | -- |
 | Homepage | [https://github.com/jcelerier/libremidi](https://github.com/jcelerier/libremidi) |
 | License | BSD-2-Clause |
-| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1, v5.4.2 |
+| Versions | v3.0, v4.5.0, v5.1.0, v5.2.0, v5.3.0, v5.3.1, v5.4.2, v5.4.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libremidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libremidi/xmake.lua) |
 
@@ -27578,7 +27578,7 @@ add_requires("nowide_standalone")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI) |
 | License | MIT |
-| Versions | v176 |
+| Versions | v176, v177 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nri/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nri/xmake.lua) |
 
@@ -41229,7 +41229,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c6c249eb40 |
+| License | table: 0x55b666481060 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
