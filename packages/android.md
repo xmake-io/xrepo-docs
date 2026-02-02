@@ -4085,6 +4085,30 @@ add_requires("cpp-sort")
 ```
 
 
+### cpp-subprocess (android)
+
+
+| Description | *Subprocessing with modern C++.* |
+| -- | -- |
+| Homepage | [https://github.com/arun11299/cpp-subprocess](https://github.com/arun11299/cpp-subprocess) |
+| License | MIT |
+| Versions | 2025.11.10 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [cpp-subprocess/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-subprocess/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] cpp-subprocess
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-subprocess")
+```
+
+
 ### cpp20-http-client (android)
 
 

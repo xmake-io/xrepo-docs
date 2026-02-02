@@ -3969,6 +3969,30 @@ add_requires("cpp-sort")
 ```
 
 
+### cpp-subprocess (cross)
+
+
+| Description | *Subprocessing with modern C++.* |
+| -- | -- |
+| Homepage | [https://github.com/arun11299/cpp-subprocess](https://github.com/arun11299/cpp-subprocess) |
+| License | MIT |
+| Versions | 2025.11.10 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [cpp-subprocess/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-subprocess/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] cpp-subprocess
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cpp-subprocess")
+```
+
+
 ### cpp20-http-client (cross)
 
 
