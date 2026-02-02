@@ -1851,7 +1851,7 @@ add_requires("aws-crt-cpp")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
