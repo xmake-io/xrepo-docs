@@ -15159,7 +15159,7 @@ add_requires("jsmn")
 | -- | -- |
 | Homepage | [https://github.com/json-c/json-c/wiki](https://github.com/json-c/json-c/wiki) |
 | License | MIT |
-| Versions | 0.17 |
+| Versions | 0.17, 0.18 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [json-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-c/xmake.lua) |
 
@@ -41277,7 +41277,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55fae20ebb20 |
+| License | table: 0x55962df32400 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -9576,7 +9576,7 @@ add_requires("jsmn")
 | -- | -- |
 | Homepage | [https://github.com/json-c/json-c/wiki](https://github.com/json-c/json-c/wiki) |
 | License | MIT |
-| Versions | 0.17 |
+| Versions | 0.17, 0.18 |
 | Architectures | arm64, x86_64 |
 | Definition | [json-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-c/xmake.lua) |
 
