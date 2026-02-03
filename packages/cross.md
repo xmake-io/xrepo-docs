@@ -27061,6 +27061,30 @@ add_requires("zig")
 ```
 
 
+### zimg (cross)
+
+
+| Description | *Scaling, colorspace conversion, and dithering library* |
+| -- | -- |
+| Homepage | [https://github.com/sekrit-twc/zimg](https://github.com/sekrit-twc/zimg) |
+| License | WTFPL |
+| Versions | 3.0.3, 3.0.5, 3.0.6 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [zimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zimg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] zimg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zimg")
+```
+
+
 ### zint (cross)
 
 

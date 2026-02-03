@@ -23561,6 +23561,30 @@ add_requires("zig")
 ```
 
 
+### zimg (wasm)
+
+
+| Description | *Scaling, colorspace conversion, and dithering library* |
+| -- | -- |
+| Homepage | [https://github.com/sekrit-twc/zimg](https://github.com/sekrit-twc/zimg) |
+| License | WTFPL |
+| Versions | 3.0.3, 3.0.5, 3.0.6 |
+| Architectures | wasm32, wasm64 |
+| Definition | [zimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zimg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm zimg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zimg")
+```
+
+
 ### zint (wasm)
 
 

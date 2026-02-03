@@ -27892,7 +27892,7 @@ add_requires("zig")
 | -- | -- |
 | Homepage | [https://github.com/sekrit-twc/zimg](https://github.com/sekrit-twc/zimg) |
 | License | WTFPL |
-| Versions | 3.0.3, 3.0.5 |
+| Versions | 3.0.3, 3.0.5, 3.0.6 |
 | Architectures | i386, x86_64 |
 | Definition | [zimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zimg/xmake.lua) |
 
