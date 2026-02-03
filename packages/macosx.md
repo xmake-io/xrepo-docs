@@ -37228,6 +37228,30 @@ add_requires("valijson")
 ```
 
 
+### vapoursynth (macosx)
+
+
+| Description | *A video processing framework with simplicity in mind* |
+| -- | -- |
+| Homepage | [http://www.vapoursynth.com/](http://www.vapoursynth.com/) |
+| License | LGPL-2.1 |
+| Versions | 73 |
+| Architectures | arm64, x86_64 |
+| Definition | [vapoursynth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vapoursynth/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vapoursynth
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vapoursynth")
+```
+
+
 ### variant-lite (macosx)
 
 
@@ -38142,7 +38166,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55bce714a900 |
+| License | table: 0x55f978032e90 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

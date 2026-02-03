@@ -25650,6 +25650,30 @@ add_requires("valijson")
 ```
 
 
+### vapoursynth (cross)
+
+
+| Description | *A video processing framework with simplicity in mind* |
+| -- | -- |
+| Homepage | [http://www.vapoursynth.com/](http://www.vapoursynth.com/) |
+| License | LGPL-2.1 |
+| Versions | 73 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [vapoursynth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vapoursynth/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] vapoursynth
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vapoursynth")
+```
+
+
 ### variant-lite (cross)
 
 
