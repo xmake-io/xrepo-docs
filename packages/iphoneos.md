@@ -1671,6 +1671,30 @@ add_requires("bento4")
 ```
 
 
+### bestsource (iphoneos)
+
+
+| Description | *A super great audio/video source and FFmpeg wrapper* |
+| -- | -- |
+| Homepage | [https://github.com/vapoursynth/bestsource](https://github.com/vapoursynth/bestsource) |
+| License | MIT |
+| Versions | 16 |
+| Architectures | arm64, x86_64 |
+| Definition | [bestsource/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bestsource/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos bestsource
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bestsource")
+```
+
+
 ### better-enums (iphoneos)
 
 

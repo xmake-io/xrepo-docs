@@ -2272,6 +2272,30 @@ add_requires("bento4")
 ```
 
 
+### bestsource (windows)
+
+
+| Description | *A super great audio/video source and FFmpeg wrapper* |
+| -- | -- |
+| Homepage | [https://github.com/vapoursynth/bestsource](https://github.com/vapoursynth/bestsource) |
+| License | MIT |
+| Versions | 16 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [bestsource/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bestsource/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bestsource
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bestsource")
+```
+
+
 ### better-enums (windows)
 
 
