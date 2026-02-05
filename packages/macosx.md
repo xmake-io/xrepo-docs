@@ -6238,7 +6238,7 @@ add_requires("ctrack")
 | -- | -- |
 | Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
 | License | Apache-2.0 |
-| Versions | v3.4.1, v3.5, v3.6, v3.7.2, v3.8.1, v3.9.0 |
+| Versions | v3.4.1, v3.5, v3.6, v3.7.2, v3.8.1, v3.9.0, v3.10.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
 
@@ -14779,7 +14779,7 @@ add_requires("ktx")
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
 | License | Unlicense |
-| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5 |
+| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5, v0.3.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
@@ -19617,7 +19617,7 @@ add_requires("libvorbis")
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/webm/libvpx/](https://chromium.googlesource.com/webm/libvpx/) |
 | License | BSD-3-Clause |
-| Versions | v1.14.1, v1.15.0, v1.15.1, v1.15.2 |
+| Versions | v1.14.1, v1.15.0, v1.15.1, v1.15.2, v1.16.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libvpx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvpx/xmake.lua) |
 
@@ -34918,7 +34918,7 @@ add_requires("tdtl")
 | -- | -- |
 | Homepage | [https://tea-age.solutions/teascript/overview-and-highlights/](https://tea-age.solutions/teascript/overview-and-highlights/) |
 | License | MPL-2.0 |
-| Versions | v0.13.0, v0.14.0 |
+| Versions | v0.13.0, v0.14.0, v0.16.0 |
 | Architectures | arm64 |
 | Definition | [teascript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/teascript/xmake.lua) |
 
@@ -36804,7 +36804,7 @@ add_requires("urdfdom")
 | -- | -- |
 | Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1 |
+| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1, 2.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
 
@@ -38166,7 +38166,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563e922808b0 |
+| License | table: 0x562a00dbb3e0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

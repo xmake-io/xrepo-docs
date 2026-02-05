@@ -4784,7 +4784,7 @@ add_requires("ctrack")
 | -- | -- |
 | Homepage | [https://github.com/hanickadot/compile-time-regular-expressions/](https://github.com/hanickadot/compile-time-regular-expressions/) |
 | License | Apache-2.0 |
-| Versions | v3.4.1, v3.5, v3.6, v3.7.2, v3.8.1, v3.9.0 |
+| Versions | v3.4.1, v3.5, v3.6, v3.7.2, v3.8.1, v3.9.0, v3.10.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [ctre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/ctre/xmake.lua) |
 
@@ -26375,7 +26375,7 @@ add_requires("urdfdom")
 | -- | -- |
 | Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1 |
+| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1, 2.1.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
 
