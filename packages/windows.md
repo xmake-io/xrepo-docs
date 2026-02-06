@@ -8442,7 +8442,7 @@ add_requires("emhash")
 | Description | *EmmyLua Debugger* |
 | -- | -- |
 | Homepage | [https://github.com/EmmyLua/EmmyLuaDebugger](https://github.com/EmmyLua/EmmyLuaDebugger) |
-| Versions | 1.6.3, 1.7.1, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7 |
+| Versions | 1.6.3, 1.7.1, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7, 1.9.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [emmylua_debugger/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emmylua_debugger/xmake.lua) |
 
@@ -9067,7 +9067,7 @@ add_requires("farmhash")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4 |
+| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -13991,7 +13991,7 @@ add_requires("itk")
 | -- | -- |
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
-| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4, v1.11.5, v1.11.7, v1.11.8, v1.11.9, v1.12.0 |
+| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4, v1.11.5, v1.11.7, v1.11.8, v1.11.9, v1.12.0, v1.12.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
@@ -18604,7 +18604,7 @@ add_requires("libsvgtiny")
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
 | License | BSD-3-Clause |
-| Versions | v325, v332, v333, v334, v335, v336 |
+| Versions | v325, v332, v333, v334, v335, v336, v337 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
 

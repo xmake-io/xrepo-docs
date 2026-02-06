@@ -10724,7 +10724,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
-| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4, v1.11.5, v1.11.7, v1.11.8, v1.11.9, v1.12.0 |
+| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4, v1.11.5, v1.11.7, v1.11.8, v1.11.9, v1.12.0, v1.12.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
@@ -14458,7 +14458,7 @@ add_requires("libsvgtiny")
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
 | License | BSD-3-Clause |
-| Versions | v325, v332, v333, v334, v335, v336 |
+| Versions | v325, v332, v333, v334, v335, v336, v337 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
 

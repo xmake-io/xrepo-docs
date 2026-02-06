@@ -5559,7 +5559,7 @@ add_requires("faker-cxx")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4 |
+| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5 |
 | Architectures | wasm32, wasm64 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -8285,7 +8285,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
-| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4, v1.11.5, v1.11.7, v1.11.8, v1.11.9, v1.12.0 |
+| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4, v1.11.5, v1.11.7, v1.11.8, v1.11.9, v1.12.0, v1.12.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
@@ -11280,7 +11280,7 @@ add_requires("libsvgtiny")
 | -- | -- |
 | Homepage | [https://github.com/cjlin1/libsvm](https://github.com/cjlin1/libsvm) |
 | License | BSD-3-Clause |
-| Versions | v325, v332, v333, v334, v335, v336 |
+| Versions | v325, v332, v333, v334, v335, v336, v337 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libsvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsvm/xmake.lua) |
 
