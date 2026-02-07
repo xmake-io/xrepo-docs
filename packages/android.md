@@ -8636,7 +8636,7 @@ add_requires("gumbo-parser")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/gyp-next](https://github.com/nodejs/gyp-next) |
 | License | BSD-3-Clause |
-| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0, v0.20.2, v0.20.4 |
+| Versions | v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0, v0.20.2, v0.20.4, v0.21.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [gyp-next/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gyp-next/xmake.lua) |
 
@@ -8650,6 +8650,54 @@ xrepo install -p android [--ndk=/xxx] gyp-next
 
 ```lua
 add_requires("gyp-next")
+```
+
+
+### gz-cmake (android)
+
+
+| Description | *A set of CMake modules that are used by the C++-based Gazebo projects.* |
+| -- | -- |
+| Homepage | [https://gazebosim.org/libs/cmake](https://gazebosim.org/libs/cmake) |
+| License | Apache-2.0 |
+| Versions | 5.0.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [gz-cmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gz-cmake/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] gz-cmake
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gz-cmake")
+```
+
+
+### gz-utils (android)
+
+
+| Description | *Classes and functions for robot applications* |
+| -- | -- |
+| Homepage | [https://gazebosim.org/](https://gazebosim.org/) |
+| License | Apache-2.0 |
+| Versions | 4.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [gz-utils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gz-utils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] gz-utils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gz-utils")
 ```
 
 
@@ -8686,7 +8734,7 @@ add_requires("gzip-hpp")
 | -- | -- |
 | Homepage | [https://h3geo.org](https://h3geo.org) |
 | License | Apache-2.0 |
-| Versions | v4.3.0, v4.4.0 |
+| Versions | v4.3.0, v4.4.0, v4.4.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [h3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/h3/xmake.lua) |
 
@@ -25918,7 +25966,7 @@ add_requires("transwarp")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25 |
+| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25, v1.5.26 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 

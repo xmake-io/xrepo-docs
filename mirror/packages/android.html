@@ -13284,7 +13284,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0, v0.20.2, v0.20.4</td>
+<td>v0.11.0, v0.16.1, v0.16.2, v0.18.0, v0.18.1, v0.18.2, v0.18.3, v0.19.1, v0.20.0, v0.20.2, v0.20.4, v0.21.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -13301,6 +13301,80 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("gyp-next")
+</code></pre>
+<h3 id="gzcmakeandroid">gz-cmake (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A set of CMake modules that are used by the C++-based Gazebo projects.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://gazebosim.org/libs/cmake">https://gazebosim.org/libs/cmake</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>5.0.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gz-cmake/xmake.lua">gz-cmake/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] gz-cmake
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gz-cmake")
+</code></pre>
+<h3 id="gzutilsandroid">gz-utils (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Classes and functions for robot applications</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://gazebosim.org/">https://gazebosim.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>4.0.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gz-utils/xmake.lua">gz-utils/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] gz-utils
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("gz-utils")
 </code></pre>
 <h3 id="gziphppandroid">gzip-hpp (android)</h3>
 <table>
@@ -13359,7 +13433,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v4.3.0, v4.4.0</td>
+<td>v4.3.0, v4.4.0, v4.4.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -39664,7 +39738,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25</td>
+<td>v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25, v1.5.26</td>
 </tr>
 <tr>
 <td>Architectures</td>
