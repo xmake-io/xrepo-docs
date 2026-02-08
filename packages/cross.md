@@ -16980,7 +16980,7 @@ add_requires("neargye-scope_guard")
 | -- | -- |
 | Homepage | [https://www.lysator.liu.se/~nisse/nettle/](https://www.lysator.liu.se/~nisse/nettle/) |
 | License | LGPL-3.0 |
-| Versions | 3.6, 3.9.1, 3.10.1 |
+| Versions | 3.6, 3.9.1, 3.10.1, 4.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nettle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nettle/xmake.lua) |
 

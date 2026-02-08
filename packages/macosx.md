@@ -24844,7 +24844,7 @@ add_requires("netcdf-c")
 | -- | -- |
 | Homepage | [https://www.lysator.liu.se/~nisse/nettle/](https://www.lysator.liu.se/~nisse/nettle/) |
 | License | LGPL-3.0 |
-| Versions | 3.6, 3.9.1, 3.10.1 |
+| Versions | 3.6, 3.9.1, 3.10.1, 4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [nettle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nettle/xmake.lua) |
 
@@ -38214,7 +38214,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e69dbb9c20 |
+| License | table: 0x55ca7fd65600 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

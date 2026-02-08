@@ -17665,7 +17665,7 @@ add_requires("netcdf-c")
 | -- | -- |
 | Homepage | [https://www.lysator.liu.se/~nisse/nettle/](https://www.lysator.liu.se/~nisse/nettle/) |
 | License | LGPL-3.0 |
-| Versions | 3.6, 3.9.1, 3.10.1 |
+| Versions | 3.6, 3.9.1, 3.10.1, 4.0 |
 | Architectures | i386, x86_64 |
 | Definition | [nettle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nettle/xmake.lua) |
 
