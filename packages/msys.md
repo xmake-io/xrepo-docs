@@ -8536,6 +8536,30 @@ add_requires("gz-cmake")
 ```
 
 
+### gz-math (msys)
+
+
+| Description | *General purpose math library for robot applications.* |
+| -- | -- |
+| Homepage | [https://gazebosim.org/libs/math](https://gazebosim.org/libs/math) |
+| License | Apache-2.0 |
+| Versions | 9.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [gz-math/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gz-math/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gz-math
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gz-math")
+```
+
+
 ### gz-utils (msys)
 
 
@@ -25684,7 +25708,7 @@ add_requires("vvenc")
 | -- | -- |
 | Homepage | [https://github.com/e-dant/watcher](https://github.com/e-dant/watcher) |
 | License | MIT |
-| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3 |
+| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3, 0.14.4 |
 | Architectures | i386, x86_64 |
 | Definition | [watcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/watcher/xmake.lua) |
 

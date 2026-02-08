@@ -8443,6 +8443,30 @@ add_requires("gz-cmake")
 ```
 
 
+### gz-math (bsd)
+
+
+| Description | *General purpose math library for robot applications.* |
+| -- | -- |
+| Homepage | [https://gazebosim.org/libs/math](https://gazebosim.org/libs/math) |
+| License | Apache-2.0 |
+| Versions | 9.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [gz-math/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gz-math/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gz-math
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gz-math")
+```
+
+
 ### gz-utils (bsd)
 
 

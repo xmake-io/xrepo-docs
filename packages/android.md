@@ -8677,6 +8677,30 @@ add_requires("gz-cmake")
 ```
 
 
+### gz-math (android)
+
+
+| Description | *General purpose math library for robot applications.* |
+| -- | -- |
+| Homepage | [https://gazebosim.org/libs/math](https://gazebosim.org/libs/math) |
+| License | Apache-2.0 |
+| Versions | 9.0.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [gz-math/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gz-math/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] gz-math
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gz-math")
+```
+
+
 ### gz-utils (android)
 
 
@@ -11036,7 +11060,7 @@ add_requires("libbigwig")
 | -- | -- |
 | Homepage | [https://github.com/libbpf/libbpf](https://github.com/libbpf/libbpf) |
 | License | BSD-2-Clause |
-| Versions | v0.3, v1.6.2 |
+| Versions | v0.3, v1.6.2, v1.6.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libbpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbpf/xmake.lua) |
 
@@ -27142,7 +27166,7 @@ add_requires("wasm-micro-runtime")
 | -- | -- |
 | Homepage | [https://github.com/e-dant/watcher](https://github.com/e-dant/watcher) |
 | License | MIT |
-| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3 |
+| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3, 0.14.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [watcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/watcher/xmake.lua) |
 

@@ -12089,6 +12089,30 @@ add_requires("gz-cmake")
 ```
 
 
+### gz-math (macosx)
+
+
+| Description | *General purpose math library for robot applications.* |
+| -- | -- |
+| Homepage | [https://gazebosim.org/libs/math](https://gazebosim.org/libs/math) |
+| License | Apache-2.0 |
+| Versions | 9.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [gz-math/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gz-math/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gz-math
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gz-math")
+```
+
+
 ### gz-utils (macosx)
 
 
@@ -37953,7 +37977,7 @@ add_requires("wasm-micro-runtime")
 | -- | -- |
 | Homepage | [https://github.com/e-dant/watcher](https://github.com/e-dant/watcher) |
 | License | MIT |
-| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3 |
+| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3, 0.14.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [watcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/watcher/xmake.lua) |
 
@@ -38214,7 +38238,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ca7fd65600 |
+| License | table: 0x564964a282c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

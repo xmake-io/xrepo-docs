@@ -12994,6 +12994,30 @@ add_requires("gz-cmake")
 ```
 
 
+### gz-math (linux)
+
+
+| Description | *General purpose math library for robot applications.* |
+| -- | -- |
+| Homepage | [https://gazebosim.org/libs/math](https://gazebosim.org/libs/math) |
+| License | Apache-2.0 |
+| Versions | 9.0.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [gz-math/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gz-math/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gz-math
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gz-math")
+```
+
+
 ### gz-utils (linux)
 
 
@@ -16521,7 +16545,7 @@ add_requires("libbigwig")
 | -- | -- |
 | Homepage | [https://github.com/libbpf/libbpf](https://github.com/libbpf/libbpf) |
 | License | BSD-2-Clause |
-| Versions | v0.3, v1.6.2 |
+| Versions | v0.3, v1.6.2, v1.6.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libbpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbpf/xmake.lua) |
 
@@ -20378,7 +20402,7 @@ add_requires("libseccomp")
 | Description | *SELinux library and simple utilities.* |
 | -- | -- |
 | Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
-| Versions | 3.9 |
+| Versions | 3.9, 3.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libselinux/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libselinux/xmake.lua) |
 
@@ -20402,7 +20426,7 @@ add_requires("libselinux")
 | -- | -- |
 | Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
 | License | LGPL-2.1 |
-| Versions | 3.9 |
+| Versions | 3.9, 3.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsemanage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsemanage/xmake.lua) |
 
@@ -20426,7 +20450,7 @@ add_requires("libsemanage")
 | -- | -- |
 | Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
 | License | LGPL-2.1 |
-| Versions | 3.9 |
+| Versions | 3.9, 3.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsepol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsepol/xmake.lua) |
 
@@ -31209,7 +31233,7 @@ add_requires("poco")
 | Description | *SELinux policy core utilities.* |
 | -- | -- |
 | Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
-| Versions | 3.9 |
+| Versions | 3.9, 3.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [policycoreutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/policycoreutils/xmake.lua) |
 
@@ -41041,7 +41065,7 @@ add_requires("wasm-micro-runtime")
 | -- | -- |
 | Homepage | [https://github.com/e-dant/watcher](https://github.com/e-dant/watcher) |
 | License | MIT |
-| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3 |
+| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3, 0.14.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [watcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/watcher/xmake.lua) |
 
@@ -41373,7 +41397,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ca7fd65600 |
+| License | table: 0x564964a282c0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
