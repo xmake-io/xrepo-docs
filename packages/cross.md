@@ -14689,7 +14689,7 @@ add_requires("lunzip")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0 |
+| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 

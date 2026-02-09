@@ -15160,7 +15160,7 @@ add_requires("lunzip")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0 |
+| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0 |
 | Architectures | i386, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
