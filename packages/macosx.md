@@ -21386,7 +21386,7 @@ add_requires("luabridge3")
 | -- | -- |
 | Homepage | [http://luajit.org](http://luajit.org) |
 | License | MIT |
-| Versions | v2.1.0-beta3 |
+| Versions | v2.1.0-beta3, v2.1.0-beta4.20260109 |
 | Architectures | arm64, x86_64 |
 | Definition | [luajit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luajit/xmake.lua) |
 
@@ -38238,7 +38238,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564964a282c0 |
+| License | table: 0x55b14c668370 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

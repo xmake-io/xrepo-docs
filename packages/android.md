@@ -14903,7 +14903,7 @@ add_requires("luabridge3")
 | -- | -- |
 | Homepage | [http://luajit.org](http://luajit.org) |
 | License | MIT |
-| Versions | v2.1.0-beta3 |
+| Versions | v2.1.0-beta3, v2.1.0-beta4.20260109 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [luajit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/luajit/xmake.lua) |
 
