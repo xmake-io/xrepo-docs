@@ -6542,7 +6542,7 @@ add_requires("genie")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
 | License | BSL-1.0 |
-| Versions | v1.3.5 |
+| Versions | v1.3.5, v1.4.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
 
@@ -13640,7 +13640,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5 |
+| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8 |
 | Architectures | wasm32, wasm64 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
@@ -15818,7 +15818,7 @@ add_requires("opensubdiv")
 | -- | -- |
 | Homepage | [https://opentelemetry.io/](https://opentelemetry.io/) |
 | License | Apache-2.0 |
-| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0 |
+| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0, v1.25.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [opentelemetry-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opentelemetry-cpp/xmake.lua) |
 
@@ -19104,6 +19104,30 @@ xrepo install -p wasm scons
 
 ```lua
 add_requires("scons")
+```
+
+
+### sdformat (wasm)
+
+
+| Description | *Simulation Description Format (SDFormat) parser and description files.* |
+| -- | -- |
+| Homepage | [http://sdformat.org/](http://sdformat.org/) |
+| License | Apache-2.0 |
+| Versions | 16.0.1 |
+| Architectures | wasm32, wasm64 |
+| Definition | [sdformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sdformat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm sdformat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sdformat")
 ```
 
 

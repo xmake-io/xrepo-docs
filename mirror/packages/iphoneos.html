@@ -11197,7 +11197,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.5</td>
+<td>v1.3.5, v1.4.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -23196,7 +23196,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5</td>
+<td>v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -32757,6 +32757,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("scons")
+</code></pre>
+<h3 id="sdformatiphoneos">sdformat (iphoneos)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Simulation Description Format (SDFormat) parser and description files.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://sdformat.org/">http://sdformat.org/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>16.0.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sdformat/xmake.lua">sdformat/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p iphoneos sdformat
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("sdformat")
 </code></pre>
 <h3 id="sdslliteiphoneos">sdsl-lite (iphoneos)</h3>
 <table>

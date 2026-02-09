@@ -10838,7 +10838,7 @@ add_requires("genie")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
 | License | BSL-1.0 |
-| Versions | v1.3.5 |
+| Versions | v1.3.5, v1.4.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
 
@@ -11812,7 +11812,7 @@ add_requires("gnu-rm")
 | -- | -- |
 | Homepage | [https://go.dev](https://go.dev) |
 | License | BSD-3-Clause |
-| Versions | 1.23.0, 1.23.1, 1.23.2, 1.23.3, 1.23.4, 1.23.5, 1.23.6, 1.23.7, 1.23.8, 1.23.9, 1.23.10, 1.23.11, 1.23.12, 1.24.0, 1.24.1, 1.24.2, 1.24.3, 1.24.4, 1.24.5, 1.24.6, 1.24.7, 1.24.8, 1.24.9, 1.24.10, 1.24.11, 1.24.12, 1.25.0, 1.25.1, 1.25.2, 1.25.3, 1.25.4, 1.25.5, 1.25.6 |
+| Versions | 1.23.0, 1.23.1, 1.23.2, 1.23.3, 1.23.4, 1.23.5, 1.23.6, 1.23.7, 1.23.8, 1.23.9, 1.23.10, 1.23.11, 1.23.12, 1.24.0, 1.24.1, 1.24.2, 1.24.3, 1.24.4, 1.24.5, 1.24.6, 1.24.7, 1.24.8, 1.24.9, 1.24.10, 1.24.11, 1.24.12, 1.24.13, 1.25.0, 1.25.1, 1.25.2, 1.25.3, 1.25.4, 1.25.5, 1.25.6, 1.25.7 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [go/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/go/xmake.lua) |
 
@@ -14903,7 +14903,7 @@ add_requires("klib")
 | -- | -- |
 | Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1 |
+| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1, 5.0.2 |
 | Architectures | x64 |
 | Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
 
@@ -21872,7 +21872,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5 |
+| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
@@ -25974,7 +25974,7 @@ add_requires("opensubdiv")
 | -- | -- |
 | Homepage | [https://opentelemetry.io/](https://opentelemetry.io/) |
 | License | Apache-2.0 |
-| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0 |
+| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0, v1.25.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [opentelemetry-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opentelemetry-cpp/xmake.lua) |
 
@@ -31057,7 +31057,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
 | License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0, v0.27.1 |
+| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0, v0.27.1, v0.28.0 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
 
@@ -31165,6 +31165,30 @@ xrepo install screen_capture_lite
 
 ```lua
 add_requires("screen_capture_lite")
+```
+
+
+### sdformat (windows)
+
+
+| Description | *Simulation Description Format (SDFormat) parser and description files.* |
+| -- | -- |
+| Homepage | [http://sdformat.org/](http://sdformat.org/) |
+| License | Apache-2.0 |
+| Versions | 16.0.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [sdformat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sdformat/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sdformat
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sdformat")
 ```
 
 
