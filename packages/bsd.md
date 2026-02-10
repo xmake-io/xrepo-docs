@@ -13929,7 +13929,8 @@ add_requires("libwebsockets")
 | Description | *X.Org: Core X11 protocol client library* |
 | -- | -- |
 | Homepage | [https://www.x.org/](https://www.x.org/) |
-| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1, 1.8.7, 1.8.12 |
+| License | X11 |
+| Versions | 1.6.9, 1.7.0, 1.7.3, 1.8.1, 1.8.7, 1.8.12, 1.8.13 |
 | Architectures | i386, x86_64 |
 | Definition | [libx11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libx11/xmake.lua) |
 
