@@ -25362,6 +25362,30 @@ add_requires("node-api-stub")
 ```
 
 
+### node_crunch2 (macosx)
+
+
+| Description | *A C++ library for distributed computing.* |
+| -- | -- |
+| Homepage | [https://github.com/willi-kappler/node_crunch2](https://github.com/willi-kappler/node_crunch2) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [node_crunch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node_crunch2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install node_crunch2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("node_crunch2")
+```
+
+
 ### nodeeditor (macosx)
 
 
@@ -38262,7 +38286,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5645083c8d40 |
+| License | table: 0x558f3a866900 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

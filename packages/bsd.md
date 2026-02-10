@@ -18064,6 +18064,30 @@ add_requires("node-api-stub")
 ```
 
 
+### node_crunch2 (bsd)
+
+
+| Description | *A C++ library for distributed computing.* |
+| -- | -- |
+| Homepage | [https://github.com/willi-kappler/node_crunch2](https://github.com/willi-kappler/node_crunch2) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [node_crunch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node_crunch2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install node_crunch2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("node_crunch2")
+```
+
+
 ### nodesoup (bsd)
 
 
