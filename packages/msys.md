@@ -4110,6 +4110,30 @@ add_requires("cpp-subprocess")
 ```
 
 
+### cppad (msys)
+
+
+| Description | *A C++ Algorithmic Differentiation Package: Home Page* |
+| -- | -- |
+| Homepage | [https://cppad.readthedocs.io/](https://cppad.readthedocs.io/) |
+| License | EPL-2.0 |
+| Versions | 20260000.0 |
+| Architectures | i386, x86_64 |
+| Definition | [cppad/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppad/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cppad
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cppad")
+```
+
+
 ### cppcheck (msys)
 
 
@@ -6514,7 +6538,7 @@ add_requires("fast-lzma2")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3 |
 | Architectures | i386, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -10054,7 +10078,7 @@ add_requires("jwasm")
 | -- | -- |
 | Homepage | [https://thalhammer.github.io/jwt-cpp/](https://thalhammer.github.io/jwt-cpp/) |
 | License | MIT |
-| Versions | v0.6.0, v0.7.0, v0.7.1 |
+| Versions | v0.6.0, v0.7.0, v0.7.1, v0.7.2 |
 | Architectures | i386, x86_64 |
 | Definition | [jwt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jwt-cpp/xmake.lua) |
 
