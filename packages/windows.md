@@ -17577,7 +17577,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [https://www.libpng.org/pub/png/libpng.html](https://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50, v1.6.51, v1.6.53, v1.6.54 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50, v1.6.51, v1.6.53, v1.6.54, v1.6.55 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
