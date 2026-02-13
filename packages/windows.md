@@ -19104,7 +19104,7 @@ add_requires("libva")
 | -- | -- |
 | Homepage | [https://libvips.github.io/libvips/](https://libvips.github.io/libvips/) |
 | License | LGPL-2.1 |
-| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3 |
+| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libvips/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvips/xmake.lua) |
 

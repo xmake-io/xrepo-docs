@@ -21567,7 +21567,7 @@ add_requires("libverto")
 | -- | -- |
 | Homepage | [https://libvips.github.io/libvips/](https://libvips.github.io/libvips/) |
 | License | LGPL-2.1 |
-| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3 |
+| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libvips/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvips/xmake.lua) |
 
@@ -41470,7 +41470,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55abc2a0e9d0 |
+| License | table: 0x55da96c4fb60 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
