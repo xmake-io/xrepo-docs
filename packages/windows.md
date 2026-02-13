@@ -29478,7 +29478,7 @@ add_requires("quickjs")
 | -- | -- |
 | Homepage | [https://github.com/quickjs-ng/quickjs](https://github.com/quickjs-ng/quickjs) |
 | License | MIT |
-| Versions | v0.5.0, v0.6.1, v0.7.0, v0.8.0, v0.9.0, v0.11.0 |
+| Versions | v0.5.0, v0.6.1, v0.7.0, v0.8.0, v0.9.0, v0.11.0, v0.12.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [quickjs-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs-ng/xmake.lua) |
 
@@ -33228,7 +33228,7 @@ add_requires("stduuid")
 | -- | -- |
 | Homepage | [https://valvesoftware.github.io/steam-audio/](https://valvesoftware.github.io/steam-audio/) |
 | License | Apache-2.0 |
-| Versions | v4.6.0, v4.6.1, v4.7.0, v4.8.0 |
+| Versions | v4.6.0, v4.6.1, v4.7.0, v4.8.0, v4.8.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [steam-audio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/steam-audio/xmake.lua) |
 
@@ -37410,7 +37410,7 @@ add_requires("watcher")
 | -- | -- |
 | Homepage | [https://github.com/dbry/WavPack](https://github.com/dbry/WavPack) |
 | License | BSD-3-Clause |
-| Versions | 4.80.0, 5.4.0, 5.5.0, 5.6.0, 5.7.0, 5.8.1 |
+| Versions | 4.80.0, 5.4.0, 5.5.0, 5.6.0, 5.7.0, 5.8.1, 5.9.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [wavpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wavpack/xmake.lua) |
 
