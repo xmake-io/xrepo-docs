@@ -749,7 +749,7 @@ add_requires("asio")
 | -- | -- |
 | Homepage | [https://github.com/zhllxt/asio2](https://github.com/zhllxt/asio2) |
 | License | BSL-1.0 |
-| Versions | v2.9 |
+| Versions | v2.9, v3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [asio2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asio2/xmake.lua) |
 
@@ -2659,7 +2659,7 @@ add_requires("c-vector")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7 |
+| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8 |
 | Architectures | i386, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -4524,7 +4524,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2, v1.3.0 |
+| Versions | v1.2.1+1, v1.2.1+2, v1.3.0, v1.3.1 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -5722,7 +5722,7 @@ add_requires("dragonbox")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
 | License | MIT |
-| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2, v1.9.1, v1.9.3, v1.9.4, v1.9.5, v1.9.6, v1.9.8, v1.9.9, v1.9.10, v1.9.11 |
+| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2, v1.9.1, v1.9.3, v1.9.4, v1.9.5, v1.9.6, v1.9.8, v1.9.9, v1.9.10, v1.9.11, v1.9.12 |
 | Architectures | i386, x86_64 |
 | Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
 
@@ -8812,7 +8812,7 @@ add_requires("hffix")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0 |
+| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1 |
 | Architectures | i386, x86_64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -11926,7 +11926,7 @@ add_requires("libjuice")
 | -- | -- |
 | Homepage | [https://jpeg.org/jpegxl](https://jpeg.org/jpegxl) |
 | License | BSD-3-Clause |
-| Versions | v0.11.1 |
+| Versions | v0.11.1, v0.11.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libjxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjxl/xmake.lua) |
 
@@ -12784,7 +12784,7 @@ add_requires("libqrencode")
 | -- | -- |
 | Homepage | [http://www.libraw.org](http://www.libraw.org) |
 | License | LGPL-2.1 |
-| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5 |
+| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5, 0.22.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 
@@ -12804,11 +12804,11 @@ add_requires("libraw")
 ### librealsense (bsd)
 
 
-| Description | *Intel® RealSense™ SDK* |
+| Description | *RealSense SDK* |
 | -- | -- |
-| Homepage | [https://www.intelrealsense.com/](https://www.intelrealsense.com/) |
+| Homepage | [https://www.realsenseai.com/](https://www.realsenseai.com/) |
 | License | Apache-2.0 |
-| Versions | v2.57.4, v2.57.5 |
+| Versions | v2.57.4, v2.57.5, v2.57.6 |
 | Architectures | i386, x86_64 |
 | Definition | [librealsense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librealsense/xmake.lua) |
 
@@ -13834,7 +13834,7 @@ add_requires("libuuid")
 | -- | -- |
 | Homepage | [http://libuv.org/](http://libuv.org/) |
 | License | MIT |
-| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.43.0, v1.44.1, v1.45.0, v1.46.0, v1.47.0, v1.48.0, v1.49.0, v1.49.1, v1.49.2, v1.50.0, v1.51.0 |
+| Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.43.0, v1.44.1, v1.45.0, v1.46.0, v1.47.0, v1.48.0, v1.49.0, v1.49.1, v1.49.2, v1.50.0, v1.51.0, v1.52.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libuv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libuv/xmake.lua) |
 
@@ -14712,7 +14712,7 @@ add_requires("llama.cpp")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
-| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0 |
+| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0, v9.3.1 |
 | Architectures | i386, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
@@ -18911,7 +18911,7 @@ add_requires("openjpeg")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1 |
 | Architectures | i386, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -22469,7 +22469,7 @@ add_requires("rxcpp")
 | -- | -- |
 | Homepage | [https://aws.github.io/s2n-tls/doxygen/s2n_8h.html](https://aws.github.io/s2n-tls/doxygen/s2n_8h.html) |
 | License | Apache-2.0 |
-| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10, v1.5.12, v1.5.14, v1.5.15, v1.5.17, v1.5.21, v1.5.23, v1.5.25, v1.6.1, v1.6.2 |
+| Versions | v1.3.51, v1.4.3, v1.4.12, v1.4.14, v1.4.16, v1.4.17, v1.4.18, v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10, v1.5.12, v1.5.14, v1.5.15, v1.5.17, v1.5.21, v1.5.23, v1.5.25, v1.6.1, v1.6.2, v1.7.0 |
 | Architectures | i386, x86_64 |
 | Definition | [s2n-tls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua) |
 
@@ -27630,7 +27630,7 @@ add_requires("xtensa-esp-elf")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xtl/](https://github.com/xtensor-stack/xtl/) |
 | License | BSD-3-Clause |
-| Versions | 0.7.2, 0.7.3, 0.7.4, 0.7.6, 0.7.7, 0.8.0, 0.8.1 |
+| Versions | 0.7.2, 0.7.3, 0.7.4, 0.7.6, 0.7.7, 0.8.0, 0.8.1, 0.8.2 |
 | Architectures | i386, x86_64 |
 | Definition | [xtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xtl/xmake.lua) |
 
