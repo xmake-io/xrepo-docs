@@ -18505,6 +18505,30 @@ add_requires("optix")
 ```
 
 
+### or-tools (cross)
+
+
+| Description | *Google's Operations Research tools* |
+| -- | -- |
+| Homepage | [https://developers.google.com/optimization/](https://developers.google.com/optimization/) |
+| License | Apache-2.0 |
+| Versions | v9.15 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [or-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/or-tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] or-tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("or-tools")
+```
+
+
 ### orangeduck_mpc (cross)
 
 

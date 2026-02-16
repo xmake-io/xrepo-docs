@@ -29555,6 +29555,30 @@ add_requires("optix")
 ```
 
 
+### or-tools (linux)
+
+
+| Description | *Google's Operations Research tools* |
+| -- | -- |
+| Homepage | [https://developers.google.com/optimization/](https://developers.google.com/optimization/) |
+| License | Apache-2.0 |
+| Versions | v9.15 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [or-tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/or-tools/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install or-tools
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("or-tools")
+```
+
+
 ### orangeduck_mpc (linux)
 
 
@@ -41470,7 +41494,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x555a41759ce0 |
+| License | table: 0x55714cd3b6d0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
