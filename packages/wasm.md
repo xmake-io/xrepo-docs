@@ -14064,6 +14064,30 @@ add_requires("morton-nd")
 ```
 
 
+### mpg123 (wasm)
+
+
+| Description | *Fast console MPEG Audio Player and decoder library* |
+| -- | -- |
+| Homepage | [https://www.mpg123.de/](https://www.mpg123.de/) |
+| License | LGPL-2.1-or-later |
+| Versions | 1.30.2, 1.33.4 |
+| Architectures | wasm32, wasm64 |
+| Definition | [mpg123/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpg123/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm mpg123
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mpg123")
+```
+
+
 ### mplib (wasm)
 
 
@@ -15746,7 +15770,7 @@ add_requires("opengl-headers")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 

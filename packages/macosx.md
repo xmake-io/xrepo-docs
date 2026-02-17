@@ -440,7 +440,7 @@ add_requires("amqp-cpp")
 | Description | *AMReX: Software Framework for Block Structured AMR* |
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
-| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09, 25.11, 26.01 |
+| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09, 25.11, 26.01, 26.02 |
 | Architectures | arm64, x86_64 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
@@ -2206,7 +2206,7 @@ add_requires("bddisasm")
 | Description | *The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)* |
 | -- | -- |
 | Homepage | [https://www.hboehm.info/gc/](https://www.hboehm.info/gc/) |
-| Versions | v8.2.4, v8.2.6, v8.2.10 |
+| Versions | v8.2.4, v8.2.6, v8.2.10, v8.2.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [bdwgc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bdwgc/xmake.lua) |
 
@@ -14757,7 +14757,7 @@ add_requires("kokkos")
 | -- | -- |
 | Homepage | [https://github.com/kokkos/kokkos-kernels](https://github.com/kokkos/kokkos-kernels) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0 |
+| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0, 5.0.2 |
 | Architectures | x86_64 |
 | Definition | [kokkos-kernels/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos-kernels/xmake.lua) |
 
@@ -23797,7 +23797,8 @@ add_requires("mpfr")
 | Description | *Fast console MPEG Audio Player and decoder library* |
 | -- | -- |
 | Homepage | [https://www.mpg123.de/](https://www.mpg123.de/) |
-| Versions | 1.30.2 |
+| License | LGPL-2.1-or-later |
+| Versions | 1.30.2, 1.33.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [mpg123/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpg123/xmake.lua) |
 
@@ -26760,7 +26761,7 @@ add_requires("openjpeg")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -37666,7 +37667,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315, v1.4.325 |
+| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315, v1.4.325, v1.4.342 |
 | Architectures | arm64, x86_64 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 
@@ -38335,7 +38336,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x562fd2441000 |
+| License | table: 0x559d0ec323f0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

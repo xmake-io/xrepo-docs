@@ -1583,7 +1583,7 @@ add_requires("bddisasm")
 | Description | *The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (bdwgc, also known as bdw-gc, boehm-gc, libgc)* |
 | -- | -- |
 | Homepage | [https://www.hboehm.info/gc/](https://www.hboehm.info/gc/) |
-| Versions | v8.2.4, v8.2.6, v8.2.10 |
+| Versions | v8.2.4, v8.2.6, v8.2.10, v8.2.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [bdwgc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bdwgc/xmake.lua) |
 
@@ -15645,7 +15645,8 @@ add_requires("mpfr")
 | Description | *Fast console MPEG Audio Player and decoder library* |
 | -- | -- |
 | Homepage | [https://www.mpg123.de/](https://www.mpg123.de/) |
-| Versions | 1.30.2 |
+| License | LGPL-2.1-or-later |
+| Versions | 1.30.2, 1.33.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [mpg123/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mpg123/xmake.lua) |
 
@@ -17701,7 +17702,7 @@ add_requires("openimagedenoise")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
