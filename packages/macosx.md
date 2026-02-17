@@ -4044,7 +4044,7 @@ add_requires("chromium_zlib")
 | -- | -- |
 | Homepage | [https://cimg.eu/](https://cimg.eu/) |
 | License | CeCILL-C |
-| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2, v3.4.3, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.5.5, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6 |
+| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2, v3.4.3, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.5.5, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.7.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cimg/xmake.lua) |
 
@@ -38335,7 +38335,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55714cd3b6d0 |
+| License | table: 0x562fd2441000 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

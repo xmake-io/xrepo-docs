@@ -3161,7 +3161,7 @@ add_requires("chromium_zlib")
 | -- | -- |
 | Homepage | [https://cimg.eu/](https://cimg.eu/) |
 | License | CeCILL-C |
-| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2, v3.4.3, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.5.5, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6 |
+| Versions | v3.2.6, v3.3.6, v3.4.0, v3.4.1, v3.4.2, v3.4.3, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.5.5, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.7.0 |
 | Architectures | i386, x86_64 |
 | Definition | [cimg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cimg/xmake.lua) |
 
