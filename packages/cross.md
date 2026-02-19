@@ -6446,7 +6446,7 @@ add_requires("fakeit")
 | -- | -- |
 | Homepage | [https://cieslarmichal.github.io/faker-cxx/](https://cieslarmichal.github.io/faker-cxx/) |
 | License | MIT |
-| Versions | v2.0.0, v3.0.0, v4.0.1, v4.1.0 |
+| Versions | v2.0.0, v3.0.0, v4.0.1, v4.1.0, v4.3.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [faker-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faker-cxx/xmake.lua) |
 
@@ -12133,6 +12133,30 @@ add_requires("libomp")
 ```
 
 
+### libopenmpt (cross)
+
+
+| Description | *a library to render tracker music (MOD, XM, S3M, IT MPTM and dozens of other legacy formats) to a PCM audio stream* |
+| -- | -- |
+| Homepage | [https://openmpt.org/](https://openmpt.org/) |
+| License | BSD-3-Clause |
+| Versions | 0.8.4 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libopenmpt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopenmpt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libopenmpt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libopenmpt")
+```
+
+
 ### libopus (cross)
 
 
@@ -13519,6 +13543,30 @@ xrepo install -p cross [--sdk=/xxx] libvips
 
 ```lua
 add_requires("libvips")
+```
+
+
+### libvorbis (cross)
+
+
+| Description | *Reference implementation of the Ogg Vorbis audio format.* |
+| -- | -- |
+| Homepage | [https://xiph.org/vorbis](https://xiph.org/vorbis) |
+| License | BSD-3 |
+| Versions | 1.3.7 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libvorbis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvorbis/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libvorbis
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libvorbis")
 ```
 
 
@@ -25131,7 +25179,7 @@ add_requires("trantor")
 | -- | -- |
 | Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
 | License | MIT |
-| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8, v0.25.10, v0.26.2, v0.26.3 |
+| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8, v0.25.10, v0.26.2, v0.26.3, v0.26.5 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
 
