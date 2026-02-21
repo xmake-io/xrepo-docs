@@ -8562,7 +8562,7 @@ add_requires("enet")
 | -- | -- |
 | Homepage | [https://github.com/SirLynix/enet6](https://github.com/SirLynix/enet6) |
 | License | MIT |
-| Versions | v6.0.0, v6.0.1, v6.0.2, v6.1.0, v6.1.2 |
+| Versions | v6.0.0, v6.0.1, v6.0.2, v6.1.0, v6.1.2, v6.1.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [enet6/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet6/xmake.lua) |
 
@@ -24700,6 +24700,29 @@ add_requires("numcpp")
 ```
 
 
+### nvapi (windows)
+
+
+| Description | *NVAPI is NVIDIA's core software development kit that allows direct access to NVIDIA GPUs and drivers on supported platforms.* |
+| -- | -- |
+| Homepage | [https://github.com/NVIDIA/nvapi](https://github.com/NVIDIA/nvapi) |
+| Versions | 2025.12.18 |
+| Architectures | x64, x86 |
+| Definition | [nvapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nvapi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nvapi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nvapi")
+```
+
+
 ### nvtt (windows)
 
 
@@ -30700,7 +30723,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [http://rocksdb.org](http://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5, v10.9.1 |
+| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5, v10.9.1, v10.10.1 |
 | Architectures | arm64, x64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -31485,8 +31508,9 @@ add_requires("sentencepiece")
 
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
-| Homepage | [https://sentry.io](https://sentry.io) |
-| Versions | 0.4.4, 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2 |
+| Homepage | [https://sentry.io/welcome/](https://sentry.io/welcome/) |
+| License | MIT |
+| Versions | 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8 |
 | Architectures | x64, x86 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
