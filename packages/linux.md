@@ -1947,7 +1947,7 @@ add_requires("aws-c-sdkutils")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
-| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0, v0.2.2, v0.2.3, v0.2.7, v0.2.8 |
+| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0, v0.2.2, v0.2.3, v0.2.7, v0.2.8, v0.2.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
@@ -7242,7 +7242,7 @@ add_requires("davix")
 | -- | -- |
 | Homepage | [https://beached.github.io/header_libraries/](https://beached.github.io/header_libraries/) |
 | License | BSL-1.0 |
-| Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2, v2.131.0, v2.132.1 |
+| Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2, v2.131.0, v2.132.1, v2.132.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [daw_header_libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua) |
 
@@ -20178,6 +20178,29 @@ xrepo install libsdl2_mixer
 
 ```lua
 add_requires("libsdl2_mixer")
+```
+
+
+### libsdl2_mixer_x (linux)
+
+
+| Description | *SDL Mixer X (Or "MixerX" shortly) - An audio mixer library based on the SDL library, a fork of SDL_mixer* |
+| -- | -- |
+| Homepage | [https://wohlsoft.github.io/SDL-Mixer-X/](https://wohlsoft.github.io/SDL-Mixer-X/) |
+| Versions | 2.6.0, 2.7.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libsdl2_mixer_x/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_mixer_x/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsdl2_mixer_x
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl2_mixer_x")
 ```
 
 
@@ -41520,7 +41543,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b0bcd1f580 |
+| License | table: 0x55f957f0f290 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

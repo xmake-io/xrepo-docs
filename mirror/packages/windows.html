@@ -2865,7 +2865,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0, v0.2.2, v0.2.3, v0.2.7, v0.2.8</td>
+<td>v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0, v0.2.2, v0.2.3, v0.2.7, v0.2.8, v0.2.10</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -10502,7 +10502,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2, v2.131.0, v2.132.1</td>
+<td>v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2, v2.131.0, v2.132.1, v2.132.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27837,6 +27837,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libsdl2_mixer")
+</code></pre>
+<h3 id="libsdl2_mixer_xwindows">libsdl2_mixer_x (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SDL Mixer X (Or "MixerX" shortly) - An audio mixer library based on the SDL library, a fork of SDL_mixer</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://wohlsoft.github.io/SDL-Mixer-X/">https://wohlsoft.github.io/SDL-Mixer-X/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.6.0, 2.7.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl2_mixer_x/xmake.lua">libsdl2_mixer_x/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libsdl2_mixer_x
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsdl2_mixer_x")
 </code></pre>
 <h3 id="libsdl2_netwindows">libsdl2_net (windows)</h3>
 <table>
