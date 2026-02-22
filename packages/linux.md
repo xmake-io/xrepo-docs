@@ -18898,7 +18898,7 @@ add_requires("libmobi")
 | -- | -- |
 | Homepage | [https://libmodbus.org](https://libmodbus.org) |
 | License | LGPL-2.1 |
-| Versions | v3.1.10 |
+| Versions | v3.1.10, v3.1.11, v3.1.12 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libmodbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodbus/xmake.lua) |
 
@@ -36551,7 +36551,7 @@ add_requires("spot")
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
 | License | BSD-3-Clause |
-| Versions | 4.5.3, 4.6.0, 4.12.0 |
+| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 
@@ -41543,7 +41543,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f957f0f290 |
+| License | table: 0x55a4886e8180 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -42303,7 +42303,7 @@ add_requires("xpack")
 | -- | -- |
 | Homepage | [https://github.com/jupyter-xeus/xproperty](https://github.com/jupyter-xeus/xproperty) |
 | License | BSD-3-Clause |
-| Versions | 0.12.0, 0.12.1 |
+| Versions | 0.12.0, 0.12.1, 0.13.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [xproperty/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xproperty/xmake.lua) |
 

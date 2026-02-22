@@ -27678,7 +27678,7 @@ add_requires("xpack")
 | -- | -- |
 | Homepage | [https://github.com/jupyter-xeus/xproperty](https://github.com/jupyter-xeus/xproperty) |
 | License | BSD-3-Clause |
-| Versions | 0.12.0, 0.12.1 |
+| Versions | 0.12.0, 0.12.1, 0.13.0 |
 | Architectures | i386, x86_64 |
 | Definition | [xproperty/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xproperty/xmake.lua) |
 

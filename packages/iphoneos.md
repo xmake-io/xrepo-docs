@@ -22479,7 +22479,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
 | License | BSD-3-Clause |
-| Versions | 4.5.3, 4.6.0, 4.12.0 |
+| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 
@@ -25999,7 +25999,7 @@ add_requires("xpack")
 | -- | -- |
 | Homepage | [https://github.com/jupyter-xeus/xproperty](https://github.com/jupyter-xeus/xproperty) |
 | License | BSD-3-Clause |
-| Versions | 0.12.0, 0.12.1 |
+| Versions | 0.12.0, 0.12.1, 0.13.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [xproperty/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xproperty/xmake.lua) |
 
