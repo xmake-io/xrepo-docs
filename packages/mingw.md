@@ -80,7 +80,7 @@ add_requires("access_private")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0, v3.4.1, v3.4.2 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0, v3.4.1, v3.4.2, v3.4.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -1778,7 +1778,7 @@ add_requires("bcg729")
 | -- | -- |
 | Homepage | [https://github.com/bitdefender/bddisasm](https://github.com/bitdefender/bddisasm) |
 | License | Apache-2.0 |
-| Versions | v2.2.0, v3.0.0 |
+| Versions | v2.2.0, v3.0.0, v3.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [bddisasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bddisasm/xmake.lua) |
 
@@ -4238,7 +4238,7 @@ add_requires("cpp-peglib")
 | -- | -- |
 | Homepage | [https://github.com/basiliscos/cpp-rotor](https://github.com/basiliscos/cpp-rotor) |
 | License | MIT |
-| Versions | v0.30, v0.31, v0.32, v0.33, v0.34, v0.35, v0.36, v0.37 |
+| Versions | v0.30, v0.31, v0.32, v0.33, v0.34, v0.35, v0.36, v0.37, v0.40 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cpp-rotor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-rotor/xmake.lua) |
 
@@ -19829,7 +19829,7 @@ add_requires("opencore-amr")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -20068,7 +20068,7 @@ add_requires("openssl")
 | -- | -- |
 | Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
 | License | Apache-2.0 |
-| Versions | 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7, 3.0.14, 3.0.17, 3.1.8, 3.2.5, 3.3.1, 3.3.2, 3.3.4, 3.4.2, 3.5.1, 3.5.4, 3.6.0 |
+| Versions | 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7, 3.0.14, 3.0.17, 3.0.19, 3.1.8, 3.2.5, 3.3.1, 3.3.2, 3.3.4, 3.3.6, 3.4.2, 3.4.4, 3.5.1, 3.5.4, 3.5.5, 3.6.0, 3.6.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [openssl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl3/xmake.lua) |
 
@@ -23024,7 +23024,7 @@ add_requires("range-v3")
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
 | License | BSD-3-Clause |
-| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87, v8.88, v8.89, v8.90 |
+| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87, v8.88, v8.89, v8.90, v8.92 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
@@ -23456,7 +23456,7 @@ add_requires("recastnavigation")
 | -- | -- |
 | Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
 | License | MIT |
-| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0, v0.17.0, v0.18.0, v0.19.0, v0.20.0, v0.22.0 |
+| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0, v0.17.0, v0.18.0, v0.19.0, v0.20.0, v0.22.0, v0.24.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
 
@@ -26898,7 +26898,7 @@ add_requires("tiny-aes-c")
 | -- | -- |
 | Homepage | [https://github.com/Sedeniono/tiny-optional](https://github.com/Sedeniono/tiny-optional) |
 | License | BSL-1.0 |
-| Versions | v1.2.0, v1.2.1, v1.3.1, v1.4.0, v1.5.2 |
+| Versions | v1.2.0, v1.2.1, v1.3.1, v1.4.0, v1.5.2, v1.5.3 |
 | Architectures | i386, x86_64 |
 | Definition | [tiny-optional/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tiny-optional/xmake.lua) |
 
@@ -28572,7 +28572,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 
@@ -28931,7 +28931,7 @@ add_requires("vvenc")
 | -- | -- |
 | Homepage | [https://github.com/e-dant/watcher](https://github.com/e-dant/watcher) |
 | License | MIT |
-| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3, 0.14.4 |
+| Versions | 0.9.5, 0.11.0, 0.12.2, 0.13.2, 0.13.5, 0.13.6, 0.13.8, 0.14.3, 0.14.4, 0.14.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [watcher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/watcher/xmake.lua) |
 
