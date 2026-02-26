@@ -3805,7 +3805,7 @@ add_requires("cgetopt")
 | -- | -- |
 | Homepage | [https://github.com/dloebl/cgif](https://github.com/dloebl/cgif) |
 | License | MIT |
-| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1 |
+| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1, v0.5.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [cgif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgif/xmake.lua) |
 
@@ -13678,7 +13678,7 @@ add_requires("interface99")
 | -- | -- |
 | Homepage | [https://github.com/chfast/intx](https://github.com/chfast/intx) |
 | License | Apache-2.0 |
-| Versions | v0.11.0, v0.12.0, v0.12.1, v0.13.0, v0.14.0 |
+| Versions | v0.11.0, v0.12.0, v0.12.1, v0.13.0, v0.14.0, v0.15.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [intx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/intx/xmake.lua) |
 
@@ -34946,7 +34946,7 @@ add_requires("taskflow")
 | -- | -- |
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
-| Versions | 6.3.0, 6.4.6, 6.4.7 |
+| Versions | 6.3.0, 6.4.6, 6.4.7, 6.4.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 
@@ -38384,7 +38384,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b9a8221810 |
+| License | table: 0x55feba3ee720 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
