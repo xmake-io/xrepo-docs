@@ -12452,7 +12452,7 @@ add_requires("libqrencode")
 | -- | -- |
 | Homepage | [https://github.com/DEgITx/librats](https://github.com/DEgITx/librats) |
 | License | MIT |
-| Versions | 0.1.5, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.5.4 |
+| Versions | 0.1.5, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.5.4, 0.8.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [librats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librats/xmake.lua) |
 

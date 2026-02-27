@@ -12011,6 +12011,30 @@ add_requires("libqrencode")
 ```
 
 
+### librats (iphoneos)
+
+
+| Description | *High-performance, lightweight p2p native library for big networks* |
+| -- | -- |
+| Homepage | [https://github.com/DEgITx/librats](https://github.com/DEgITx/librats) |
+| License | MIT |
+| Versions | 0.1.5, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.5.4, 0.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [librats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librats/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos librats
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("librats")
+```
+
+
 ### libraw (iphoneos)
 
 
