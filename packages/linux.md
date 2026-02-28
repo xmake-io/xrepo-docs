@@ -4257,7 +4257,7 @@ add_requires("charls")
 | -- | -- |
 | Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
 | License | GPL-2.0 |
-| Versions | 3.9 |
+| Versions | 3.9, 3.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [checkpolicy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/checkpolicy/xmake.lua) |
 
@@ -10664,7 +10664,7 @@ add_requires("freeimage")
 | -- | -- |
 | Homepage | [https://www.freerdp.com/](https://www.freerdp.com/) |
 | License | Apache-2.0 |
-| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0 |
+| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [freerdp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freerdp/xmake.lua) |
 
@@ -11312,7 +11312,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/TulipHook](https://github.com/geode-sdk/TulipHook) |
 | License | BSL-1.0 |
-| Versions | v3.1.7 |
+| Versions | v3.1.7, v3.1.9 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [geode-sdk-tuliphook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-tuliphook/xmake.lua) |
 
@@ -16710,7 +16710,7 @@ add_requires("libcap")
 | Description | *Libcap-ng is a library for Linux that makes using posix capabilities easy.* |
 | -- | -- |
 | Homepage | [https://github.com/stevegrubb/libcap-ng](https://github.com/stevegrubb/libcap-ng) |
-| Versions | v0.8.5 |
+| Versions | v0.8.5, v0.9.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libcap-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcap-ng/xmake.lua) |
 
@@ -39754,7 +39754,7 @@ add_requires("udt")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.18.2, v0.20.0, v0.20.1, v0.21.2 |
+| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.18.2, v0.20.0, v0.20.1, v0.21.2, v0.21.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
@@ -41544,7 +41544,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557c4953f8f0 |
+| License | table: 0x561363915ae0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -43118,7 +43118,7 @@ add_requires("zip")
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
 | License | zlib |
-| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3, v1.3.1 |
+| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3, v1.3.1, v1.3.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
