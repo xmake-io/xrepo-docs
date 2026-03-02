@@ -2828,7 +2828,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -5355,6 +5355,30 @@ xrepo install -p mingw [--mingw=/xxx] darts
 
 ```lua
 add_requires("darts")
+```
+
+
+### dascript (mingw)
+
+
+| Description | *Daslang - high-performance statically strongly typed programming language* |
+| -- | -- |
+| Homepage | [https://github.com/GaijinEntertainment/daScript](https://github.com/GaijinEntertainment/daScript) |
+| License | BSD-3-Clause |
+| Versions | v0.5.9+2.1 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [dascript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dascript/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] dascript
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dascript")
 ```
 
 
