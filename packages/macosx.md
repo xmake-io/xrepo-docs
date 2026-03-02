@@ -1779,7 +1779,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -1825,8 +1825,9 @@ add_requires("aws-lc")
 | Description | *AWS SDK for C++* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
-| Versions | 1.9.362 |
-| Architectures | arm64, x86_64 |
+| License | Apache-2.0 |
+| Versions | 1.11.760 |
+| Architectures | arm64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
 ##### Install command
@@ -17615,7 +17616,7 @@ add_requires("libnpy")
 | -- | -- |
 | Homepage | [https://github.com/matajoh/libnpy](https://github.com/matajoh/libnpy) |
 | License | MIT |
-| Versions | v1.5.3 |
+| Versions | v1.5.3, v2.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libnpy-matajoh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnpy-matajoh/xmake.lua) |
 
@@ -38385,7 +38386,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56231b1f05b0 |
+| License | table: 0x563176aa6ee0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -11754,7 +11754,7 @@ add_requires("libnpy")
 | -- | -- |
 | Homepage | [https://github.com/matajoh/libnpy](https://github.com/matajoh/libnpy) |
 | License | MIT |
-| Versions | v1.5.3 |
+| Versions | v1.5.3, v2.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libnpy-matajoh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libnpy-matajoh/xmake.lua) |
 
