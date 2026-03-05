@@ -19396,7 +19396,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://github.com/eclipse/paho.mqtt.c](https://github.com/eclipse/paho.mqtt.c) |
 | License | EPL-2.0 |
-| Versions | v1.3.13, v1.3.14, v1.3.15 |
+| Versions | v1.3.13, v1.3.14, v1.3.15, v1.3.16 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [pahomqttc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pahomqttc/xmake.lua) |
 
@@ -19420,7 +19420,7 @@ add_requires("pahomqttc")
 | -- | -- |
 | Homepage | [https://github.com/eclipse/paho.mqtt.cpp](https://github.com/eclipse/paho.mqtt.cpp) |
 | License | EPL-2.0 |
-| Versions | v1.2.0, v1.3.2, v1.4.0, v1.4.1, v1.5.0, v1.5.1, v1.5.2 |
+| Versions | v1.2.0, v1.3.2, v1.4.0, v1.4.1, v1.5.0, v1.5.1, v1.5.2, v1.5.3, v1.6.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [pahomqttcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pahomqttcpp/xmake.lua) |
 

@@ -27644,7 +27644,7 @@ add_requires("pagmo")
 | -- | -- |
 | Homepage | [https://github.com/eclipse/paho.mqtt.c](https://github.com/eclipse/paho.mqtt.c) |
 | License | EPL-2.0 |
-| Versions | v1.3.13, v1.3.14, v1.3.15 |
+| Versions | v1.3.13, v1.3.14, v1.3.15, v1.3.16 |
 | Architectures | arm64, x86_64 |
 | Definition | [pahomqttc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pahomqttc/xmake.lua) |
 
@@ -27668,7 +27668,7 @@ add_requires("pahomqttc")
 | -- | -- |
 | Homepage | [https://github.com/eclipse/paho.mqtt.cpp](https://github.com/eclipse/paho.mqtt.cpp) |
 | License | EPL-2.0 |
-| Versions | v1.2.0, v1.3.2, v1.4.0, v1.4.1, v1.5.0, v1.5.1, v1.5.2 |
+| Versions | v1.2.0, v1.3.2, v1.4.0, v1.4.1, v1.5.0, v1.5.1, v1.5.2, v1.5.3, v1.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [pahomqttcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pahomqttcpp/xmake.lua) |
 
@@ -38410,7 +38410,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56398f6a5930 |
+| License | table: 0x5620d1133180 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
