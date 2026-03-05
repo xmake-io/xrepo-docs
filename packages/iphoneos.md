@@ -10776,7 +10776,7 @@ add_requires("libdisasm")
 | -- | -- |
 | Homepage | [https://libdivide.com](https://libdivide.com) |
 | License | BSL-1.0 |
-| Versions | 5.0, v5.2.0 |
+| Versions | 5.0, v5.2.0, v5.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
 

@@ -15905,7 +15905,7 @@ add_requires("libdisasm")
 | -- | -- |
 | Homepage | [https://libdivide.com](https://libdivide.com) |
 | License | BSL-1.0 |
-| Versions | 5.0, v5.2.0 |
+| Versions | 5.0, v5.2.0, v5.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
 
@@ -38410,7 +38410,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5620d1133180 |
+| License | table: 0x5647532ac110 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
