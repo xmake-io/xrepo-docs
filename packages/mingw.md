@@ -1467,7 +1467,7 @@ add_requires("aws-checksums")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -12426,7 +12426,7 @@ add_requires("libdom")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0, 2.2.0, 2.3.0 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -13165,7 +13165,7 @@ add_requires("libkeyfinder")
 | -- | -- |
 | Homepage | [https://maxmind.github.io/libmaxminddb/](https://maxmind.github.io/libmaxminddb/) |
 | License | Apache-2.0 |
-| Versions | 1.10.0, 1.11.0, 1.12.2 |
+| Versions | 1.10.0, 1.11.0, 1.12.2, 1.13.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libmaxminddb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmaxminddb/xmake.lua) |
 
@@ -14219,7 +14219,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0, 3.4.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 
@@ -20822,30 +20822,6 @@ xrepo install -p mingw [--mingw=/xxx] pdcursesmod
 
 ```lua
 add_requires("pdcursesmod")
-```
-
-
-### pdfhummus (mingw)
-
-
-| Description | *High performance library for creating, modiyfing and parsing PDF files in C++ * |
-| -- | -- |
-| Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
-| License | Apache-2.0 |
-| Versions | 4.1, v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6, v4.6.7, v4.6.8 |
-| Architectures | arm, arm64, i386, x86_64 |
-| Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p mingw [--mingw=/xxx] pdfhummus
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("pdfhummus")
 ```
 
 
