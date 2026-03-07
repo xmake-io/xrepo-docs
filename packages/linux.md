@@ -6288,7 +6288,7 @@ add_requires("criterion")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1 |
+| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1, v4.6.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -6596,7 +6596,7 @@ add_requires("csv2")
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
 | License | MIT |
-| Versions | 2.1.1, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.3.0, 2.4.2 |
+| Versions | 2.1.1, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.3.0, 2.4.2, 2.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
@@ -15103,6 +15103,30 @@ xrepo install jerryscript
 
 ```lua
 add_requires("jerryscript")
+```
+
+
+### jnif (linux)
+
+
+| Description | *The Java Native Instrumentation Framework, JNIF, is the first native Java bytecode rewriting library. JNIF is a C++ library for decoding, analyzing, editing, and encoding Java bytecode.* |
+| -- | -- |
+| Homepage | [https://github.com/rdbo/jnif](https://github.com/rdbo/jnif) |
+| License | MIT |
+| Versions | 2026.03.04 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [jnif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jnif/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install jnif
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jnif")
 ```
 
 
@@ -29683,7 +29707,7 @@ add_requires("orangeduck_mpc")
 | -- | -- |
 | Homepage | [https://arrow.apache.org/](https://arrow.apache.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1, v2.2.2 |
+| Versions | v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1, v2.2.2, v2.3.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [orc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orc/xmake.lua) |
 
@@ -41569,7 +41593,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5644d434e940 |
+| License | table: 0x55f182e87a70 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

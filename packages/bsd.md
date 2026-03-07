@@ -4477,7 +4477,7 @@ add_requires("criterion")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1 |
+| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1, v4.6.0 |
 | Architectures | i386, x86_64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -4690,7 +4690,7 @@ add_requires("csv2")
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
 | License | MIT |
-| Versions | 2.1.1, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.3.0, 2.4.2 |
+| Versions | 2.1.1, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.3.0, 2.4.2, 2.5.1 |
 | Architectures | i386, x86_64 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
@@ -19316,7 +19316,7 @@ add_requires("orangeduck_mpc")
 | -- | -- |
 | Homepage | [https://arrow.apache.org/](https://arrow.apache.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1, v2.2.2 |
+| Versions | v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1, v2.2.2, v2.3.0 |
 | Architectures | i386, x86_64 |
 | Definition | [orc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orc/xmake.lua) |
 

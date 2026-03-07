@@ -9156,7 +9156,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1</td>
+<td>v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1, v4.6.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -9588,7 +9588,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.1.1, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.3.0, 2.4.2</td>
+<td>2.1.1, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.3.0, 2.4.2, 2.5.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -21929,6 +21929,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("jerryscript")
+</code></pre>
+<h3 id="jnifwindows">jnif (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>The Java Native Instrumentation Framework, JNIF, is the first native Java bytecode rewriting library. JNIF is a C++ library for decoding, analyzing, editing, and encoding Java bytecode.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/rdbo/jnif">https://github.com/rdbo/jnif</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2026.03.04</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jnif/xmake.lua">jnif/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install jnif
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("jnif")
 </code></pre>
 <h3 id="jnippwindows">jnipp (windows)</h3>
 <table>
@@ -40389,7 +40426,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1, v2.2.2</td>
+<td>v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1, v2.2.2, v2.3.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
