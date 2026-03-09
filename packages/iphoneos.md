@@ -24537,6 +24537,7 @@ add_requires("toppra")
 | Description | *C++ frame profiler* |
 | -- | -- |
 | Homepage | [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy) |
+| License | BSD-3-Clause |
 | Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0, v0.11.1, v0.12.0, v0.12.1, v0.12.2, v0.13.0, v0.13.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [tracy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tracy/xmake.lua) |

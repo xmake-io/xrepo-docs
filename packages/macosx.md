@@ -36449,6 +36449,7 @@ add_requires("toppra")
 | Description | *C++ frame profiler* |
 | -- | -- |
 | Homepage | [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy) |
+| License | BSD-3-Clause |
 | Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0, v0.11.1, v0.12.0, v0.12.1, v0.12.2, v0.13.0, v0.13.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [tracy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tracy/xmake.lua) |
@@ -38434,7 +38435,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564e8c751ef0 |
+| License | table: 0x55a247b708d0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
