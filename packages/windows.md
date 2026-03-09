@@ -2828,7 +2828,7 @@ add_requires("boost_reflect")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/sml](https://boost-ext.github.io/sml) |
 | License | BSL-1.0 |
-| Versions | v1.1.8, v1.1.11, v1.1.12 |
+| Versions | v1.1.8, v1.1.11, v1.1.12, v1.1.13 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [boost_sml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_sml/xmake.lua) |
 
@@ -3973,7 +3973,7 @@ add_requires("chaiscript")
 | -- | -- |
 | Homepage | [https://github.com/team-charls/charls](https://github.com/team-charls/charls) |
 | License | BSD-3-Clause |
-| Versions | 2.4.2 |
+| Versions | 2.4.2, 2.4.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [charls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/charls/xmake.lua) |
 
@@ -9044,7 +9044,7 @@ add_requires("fakeit")
 | -- | -- |
 | Homepage | [https://cieslarmichal.github.io/faker-cxx/](https://cieslarmichal.github.io/faker-cxx/) |
 | License | MIT |
-| Versions | v2.0.0, v3.0.0, v4.0.1, v4.1.0, v4.3.1 |
+| Versions | v2.0.0, v3.0.0, v4.0.1, v4.1.0, v4.3.1, v4.3.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [faker-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faker-cxx/xmake.lua) |
 
@@ -10744,7 +10744,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1, 3.12.2 |
 | Architectures | x64, x86 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -23516,7 +23516,7 @@ add_requires("nanobench")
 | -- | -- |
 | Homepage | [https://github.com/wjakob/nanobind](https://github.com/wjakob/nanobind) |
 | License | BSD-3-Clause |
-| Versions | v2.2.0, v2.6.1, v2.7.0, v2.8.0, v2.9.2, v2.10.2, v2.11.0 |
+| Versions | v2.2.0, v2.6.1, v2.7.0, v2.8.0, v2.9.2, v2.10.2, v2.11.0, v2.12.0 |
 | Architectures | x64 |
 | Definition | [nanobind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanobind/xmake.lua) |
 
@@ -28644,7 +28644,7 @@ add_requires("pugixml")
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2, v2.10.0, v2.12.0, v2.13.1, v2.13.5, v2.13.6, v3.0.0, v3.0.1 |
+| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2, v2.10.0, v2.12.0, v2.13.1, v2.13.5, v2.13.6, v3.0.0, v3.0.1, v3.0.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 

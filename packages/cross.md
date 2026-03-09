@@ -2086,7 +2086,7 @@ add_requires("boost_pfr")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/sml](https://boost-ext.github.io/sml) |
 | License | BSL-1.0 |
-| Versions | v1.1.8, v1.1.11, v1.1.12 |
+| Versions | v1.1.8, v1.1.11, v1.1.12, v1.1.13 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [boost_sml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_sml/xmake.lua) |
 
@@ -2924,7 +2924,7 @@ add_requires("cgraph")
 | -- | -- |
 | Homepage | [https://github.com/team-charls/charls](https://github.com/team-charls/charls) |
 | License | BSD-3-Clause |
-| Versions | 2.4.2 |
+| Versions | 2.4.2, 2.4.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [charls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/charls/xmake.lua) |
 
@@ -6471,7 +6471,7 @@ add_requires("fakeit")
 | -- | -- |
 | Homepage | [https://cieslarmichal.github.io/faker-cxx/](https://cieslarmichal.github.io/faker-cxx/) |
 | License | MIT |
-| Versions | v2.0.0, v3.0.0, v4.0.1, v4.1.0, v4.3.1 |
+| Versions | v2.0.0, v3.0.0, v4.0.1, v4.1.0, v4.3.1, v4.3.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [faker-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faker-cxx/xmake.lua) |
 
