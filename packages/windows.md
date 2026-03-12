@@ -799,7 +799,7 @@ add_requires("aravis")
 | -- | -- |
 | Homepage | [https://arduinojson.org](https://arduinojson.org) |
 | License | MIT |
-| Versions | v6.21.4, v7.0.3, v7.0.4, v7.1.0, v7.2.0, v7.2.1, v7.3.0, v7.3.1, v7.4.1, v7.4.2 |
+| Versions | v6.21.4, v7.0.3, v7.0.4, v7.1.0, v7.2.0, v7.2.1, v7.3.0, v7.3.1, v7.4.1, v7.4.2, v7.4.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [arduinojson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/arduinojson/xmake.lua) |
 
@@ -1564,7 +1564,7 @@ add_requires("awk")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
-| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5 |
+| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5, v0.10.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
@@ -9188,7 +9188,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3, v8.2.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -22278,7 +22278,7 @@ add_requires("miniz")
 | -- | -- |
 | Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
 | License | zlib |
-| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3.1 |
+| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3.1, v1.3.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
 
@@ -23133,7 +23133,7 @@ add_requires("msys2-base")
 | -- | -- |
 | Homepage | [https://mugdxy.github.io/muda-doc](https://mugdxy.github.io/muda-doc) |
 | License | Apache-2.0 |
-| Versions | 2025.10.9 |
+| Versions | 2025.12.25 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [muda/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/muda/xmake.lua) |
 
