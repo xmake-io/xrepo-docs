@@ -6671,9 +6671,9 @@ add_requires("dascript")
 
 | Description | *This is a C++ analytical library that provides interface and functionality similar to packages/libraries in Python and R.* |
 | -- | -- |
-| Homepage | [https://github.com/hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) |
+| Homepage | [https://hosseinmoein.github.io/DataFrame/](https://hosseinmoein.github.io/DataFrame/) |
 | License | MIT |
-| Versions | 1.21.0, 1.22.0, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.6.0, 3.7.0 |
+| Versions | 1.21.0, 1.22.0, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.6.0, 3.7.0, 4.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
 
@@ -38435,7 +38435,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56098c702ae0 |
+| License | table: 0x55db4b70dd20 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
