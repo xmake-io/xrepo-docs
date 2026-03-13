@@ -23089,7 +23089,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/fantasy-peak/simple_http](https://github.com/fantasy-peak/simple_http) |
 | License | MIT |
-| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1 |
+| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1, v0.6.2 |
 | Architectures | i386, x86_64 |
 | Definition | [simple_http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simple_http/xmake.lua) |
 
@@ -23185,7 +23185,7 @@ add_requires("simplethreadpool")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
 | License | Apache-2.0 |
-| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3, v6.5.9, v6.5.12 |
+| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3, v6.5.9, v6.5.12, v6.5.16 |
 | Architectures | i386, x86_64 |
 | Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
 

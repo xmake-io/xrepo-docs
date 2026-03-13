@@ -8272,7 +8272,7 @@ add_requires("drogon")
 | -- | -- |
 | Homepage | [http://duckdb.org/](http://duckdb.org/) |
 | License | MIT |
-| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3, v1.2.1, v1.2.2, v1.3.2, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4 |
+| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3, v1.2.1, v1.2.2, v1.3.2, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4, v1.5.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [duckdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duckdb/xmake.lua) |
 
@@ -22253,7 +22253,7 @@ add_requires("libxlsxwriter")
 | Description | *The c/c++ bindings of the xmake core engine* |
 | -- | -- |
 | Homepage | [https://xmake.io](https://xmake.io) |
-| Versions | v2.9.8, v2.9.9, v3.0.0, v3.0.1, v3.0.2, v3.0.3, v3.0.4, v3.0.5, v3.0.6 |
+| Versions | v2.9.8, v2.9.9, v3.0.0, v3.0.1, v3.0.2, v3.0.3, v3.0.4, v3.0.5, v3.0.6, v3.0.7 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxmake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxmake/xmake.lua) |
 
@@ -35670,7 +35670,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/fantasy-peak/simple_http](https://github.com/fantasy-peak/simple_http) |
 | License | MIT |
-| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1 |
+| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1, v0.6.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simple_http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simple_http/xmake.lua) |
 
@@ -35766,7 +35766,7 @@ add_requires("simplethreadpool")
 | -- | -- |
 | Homepage | [https://ashvardanian.com/posts/simsimd-faster-scipy/](https://ashvardanian.com/posts/simsimd-faster-scipy/) |
 | License | Apache-2.0 |
-| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3, v6.5.9, v6.5.12 |
+| Versions | v3.9.0, v4.3.1, v4.3.2, v5.4.4, v5.6.0, v5.6.4, v5.9.6, v6.0.5, v6.1.1, v6.2.1, v6.2.3, v6.4.0, v6.4.1, v6.4.3, v6.5.0, v6.5.3, v6.5.9, v6.5.12, v6.5.16 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simsimd/xmake.lua) |
 
@@ -41594,7 +41594,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558bd0ed62b0 |
+| License | table: 0x558a17338a30 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
