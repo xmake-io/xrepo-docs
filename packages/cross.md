@@ -8720,7 +8720,7 @@ add_requires("happly")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1, 11.3.3 |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1, 11.3.3, 13.1.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -10804,7 +10804,7 @@ add_requires("libccd")
 | -- | -- |
 | Homepage | [https://github.com/jbaldwin/libcoro](https://github.com/jbaldwin/libcoro) |
 | License | Apache-2.0 |
-| Versions | v0.12.1, v0.13.0, v0.14.0, v0.14.1, v0.15.0 |
+| Versions | v0.12.1, v0.13.0, v0.14.0, v0.14.1, v0.15.0, v0.16.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libcoro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcoro/xmake.lua) |
 
@@ -12022,7 +12022,7 @@ add_requires("libmspack")
 | -- | -- |
 | Homepage | [https://github.com/hoene/libmysofa](https://github.com/hoene/libmysofa) |
 | License | BSD-3-Clause |
-| Versions | v1.3.2 |
+| Versions | v1.3.2, v1.3.4 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libmysofa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmysofa/xmake.lua) |
 
@@ -17079,7 +17079,7 @@ add_requires("ncurses")
 | Description | *NumPy-friendly multidimensional arrays in C++* |
 | -- | -- |
 | Homepage | [https://github.com/ndarray/ndarray](https://github.com/ndarray/ndarray) |
-| Versions | 1.6.4 |
+| Versions | 1.6.4, 1.6.5 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ndarray/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndarray/xmake.lua) |
 
@@ -18873,7 +18873,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://p11-glue.github.io/p11-glue/p11-kit.html](https://p11-glue.github.io/p11-glue/p11-kit.html) |
 | License | BSD-3-Clause |
-| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10, 0.26.1 |
+| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10, 0.26.1, 0.26.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [p11-kit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/p11-kit/xmake.lua) |
 

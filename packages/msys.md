@@ -8738,7 +8738,7 @@ add_requires("happly")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1, 11.3.3 |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1, 11.3.3, 13.1.1 |
 | Architectures | i386, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -10919,7 +10919,7 @@ add_requires("libccd")
 | -- | -- |
 | Homepage | [https://github.com/jbaldwin/libcoro](https://github.com/jbaldwin/libcoro) |
 | License | Apache-2.0 |
-| Versions | v0.12.1, v0.13.0, v0.14.0, v0.14.1, v0.15.0 |
+| Versions | v0.12.1, v0.13.0, v0.14.0, v0.14.1, v0.15.0, v0.16.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libcoro/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcoro/xmake.lua) |
 
@@ -12019,7 +12019,7 @@ add_requires("libmspack")
 | -- | -- |
 | Homepage | [https://github.com/hoene/libmysofa](https://github.com/hoene/libmysofa) |
 | License | BSD-3-Clause |
-| Versions | v1.3.2 |
+| Versions | v1.3.2, v1.3.4 |
 | Architectures | i386, x86_64 |
 | Definition | [libmysofa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmysofa/xmake.lua) |
 
