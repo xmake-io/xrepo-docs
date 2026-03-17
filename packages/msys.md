@@ -1226,7 +1226,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10 |
+| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -12498,7 +12498,7 @@ add_requires("libraw")
 | -- | -- |
 | Homepage | [https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html](https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html) |
 | License | BSD-2-Clause |
-| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0 |
+| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2 |
 | Architectures | i386, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
