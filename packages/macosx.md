@@ -8299,7 +8299,7 @@ add_requires("emock")
 | -- | -- |
 | Homepage | [https://emscripten.org/](https://emscripten.org/) |
 | License | MIT |
-| Versions | 1.39.8, 3.1.14, 3.1.25, 3.1.42, 3.1.55, 4.0.12 |
+| Versions | 1.39.8, 3.1.14, 3.1.25, 3.1.42, 3.1.55, 4.0.12, 4.0.23, 5.0.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [emscripten/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emscripten/xmake.lua) |
 
@@ -38435,7 +38435,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559400185dd0 |
+| License | table: 0x556517c62580 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

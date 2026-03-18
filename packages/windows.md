@@ -8539,7 +8539,7 @@ add_requires("emock")
 | -- | -- |
 | Homepage | [https://emscripten.org/](https://emscripten.org/) |
 | License | MIT |
-| Versions | 1.39.8, 3.1.14, 3.1.25, 3.1.42, 3.1.55, 4.0.12 |
+| Versions | 1.39.8, 3.1.14, 3.1.25, 3.1.42, 3.1.55, 4.0.12, 4.0.23, 5.0.3 |
 | Architectures | x64, x86 |
 | Definition | [emscripten/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emscripten/xmake.lua) |
 
