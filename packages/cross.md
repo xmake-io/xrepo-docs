@@ -17717,6 +17717,29 @@ add_requires("nuklear")
 ```
 
 
+### nv-codec-headers (cross)
+
+
+| Description | *FFmpeg headers for NVIDIA codec APIs (NVENC/NVDEC)* |
+| -- | -- |
+| Homepage | [https://github.com/FFmpeg/nv-codec-headers](https://github.com/FFmpeg/nv-codec-headers) |
+| Versions | 13.0.19.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [nv-codec-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nv-codec-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nv-codec-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nv-codec-headers")
+```
+
+
 ### nvtx (cross)
 
 

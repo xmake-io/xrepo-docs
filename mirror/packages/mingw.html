@@ -29751,6 +29751,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("nuklear")
 </code></pre>
+<h3 id="nvcodecheadersmingw">nv-codec-headers (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>FFmpeg headers for NVIDIA codec APIs (NVENC/NVDEC)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/FFmpeg/nv-codec-headers">https://github.com/FFmpeg/nv-codec-headers</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>13.0.19.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nv-codec-headers/xmake.lua">nv-codec-headers/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] nv-codec-headers
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("nv-codec-headers")
+</code></pre>
 <h3 id="nvtxmingw">nvtx (mingw)</h3>
 <table>
 <thead>

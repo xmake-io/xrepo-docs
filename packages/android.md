@@ -18170,6 +18170,29 @@ add_requires("nuklear")
 ```
 
 
+### nv-codec-headers (android)
+
+
+| Description | *FFmpeg headers for NVIDIA codec APIs (NVENC/NVDEC)* |
+| -- | -- |
+| Homepage | [https://github.com/FFmpeg/nv-codec-headers](https://github.com/FFmpeg/nv-codec-headers) |
+| Versions | 13.0.19.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [nv-codec-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nv-codec-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] nv-codec-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nv-codec-headers")
+```
+
+
 ### nvtx (android)
 
 
@@ -19601,6 +19624,30 @@ xrepo install -p android [--ndk=/xxx] pcg-cpp
 
 ```lua
 add_requires("pcg-cpp")
+```
+
+
+### pcre (android)
+
+
+| Description | *A Perl Compatible Regular Expressions Library* |
+| -- | -- |
+| Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
+| License | BSD-3-Clause |
+| Versions | 8.45 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [pcre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] pcre
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pcre")
 ```
 
 

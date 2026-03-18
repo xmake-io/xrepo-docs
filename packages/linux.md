@@ -28006,6 +28006,29 @@ add_requires("numcpp")
 ```
 
 
+### nv-codec-headers (linux)
+
+
+| Description | *FFmpeg headers for NVIDIA codec APIs (NVENC/NVDEC)* |
+| -- | -- |
+| Homepage | [https://github.com/FFmpeg/nv-codec-headers](https://github.com/FFmpeg/nv-codec-headers) |
+| Versions | 13.0.19.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [nv-codec-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nv-codec-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nv-codec-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nv-codec-headers")
+```
+
+
 ### nvtt (linux)
 
 
@@ -41594,7 +41617,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5595c4dd6ac0 |
+| License | table: 0x5607adab6c40 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

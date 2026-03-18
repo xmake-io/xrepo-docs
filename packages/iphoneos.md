@@ -17144,6 +17144,29 @@ add_requires("nuklear")
 ```
 
 
+### nv-codec-headers (iphoneos)
+
+
+| Description | *FFmpeg headers for NVIDIA codec APIs (NVENC/NVDEC)* |
+| -- | -- |
+| Homepage | [https://github.com/FFmpeg/nv-codec-headers](https://github.com/FFmpeg/nv-codec-headers) |
+| Versions | 13.0.19.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [nv-codec-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nv-codec-headers/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos nv-codec-headers
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nv-codec-headers")
+```
+
+
 ### nvtx (iphoneos)
 
 
