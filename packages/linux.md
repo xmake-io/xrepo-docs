@@ -3639,7 +3639,7 @@ add_requires("c-vector")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8 |
+| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -36649,7 +36649,7 @@ add_requires("sqlgen")
 | -- | -- |
 | Homepage | [https://github.com/asg017/sqlite-vec](https://github.com/asg017/sqlite-vec) |
 | License | Apache-2.0 |
-| Versions | 0.1.3, 0.1.6 |
+| Versions | 0.1.3, 0.1.6, 0.1.7 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite-vec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite-vec/xmake.lua) |
 
@@ -39514,7 +39514,7 @@ add_requires("trantor")
 | -- | -- |
 | Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
 | License | MIT |
-| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8, v0.25.10, v0.26.2, v0.26.3, v0.26.5 |
+| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8, v0.25.10, v0.26.2, v0.26.3, v0.26.5, v0.26.7 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
 
@@ -41594,7 +41594,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a9a7f7d8c0 |
+| License | table: 0x5595c4dd6ac0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
