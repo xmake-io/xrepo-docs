@@ -1875,7 +1875,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3 |
+| Versions | v0.9.5, v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
 
@@ -41616,7 +41616,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557b868f8ca0 |
+| License | table: 0x55ddf7cdc310 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

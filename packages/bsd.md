@@ -1322,7 +1322,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3 |
+| Versions | v0.9.5, v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
 
