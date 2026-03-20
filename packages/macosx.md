@@ -1611,7 +1611,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-event-stream](https://github.com/awslabs/aws-c-event-stream) |
 | License | Apache-2.0 |
-| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0, v0.5.1, v0.5.4, v0.5.5, v0.5.6, v0.5.7, v0.5.9 |
+| Versions | v0.3.2, v0.4.1, v0.4.2, v0.4.3, v0.5.0, v0.5.1, v0.5.4, v0.5.5, v0.5.6, v0.5.7, v0.5.9, v0.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-c-event-stream/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-event-stream/xmake.lua) |
 
@@ -1802,7 +1802,7 @@ add_requires("aws-crt-cpp")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -38457,7 +38457,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5594c7a207a0 |
+| License | table: 0x557b868f8ca0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
