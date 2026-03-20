@@ -20813,7 +20813,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [http://taglib.org/](http://taglib.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.1, v2.1.1 |
+| Versions | v2.1, v2.1.1, v2.2.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
 
