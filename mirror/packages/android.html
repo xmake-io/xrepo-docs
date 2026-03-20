@@ -15579,6 +15579,39 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("jansson")
 </code></pre>
+<h3 id="jemallocandroid">jemalloc (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://jemalloc.net/">http://jemalloc.net/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>5.2.1, 5.3.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua">jemalloc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] jemalloc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("jemalloc")
+</code></pre>
 <h3 id="jerryscriptandroid">jerryscript (android)</h3>
 <table>
 <thead>

@@ -10142,6 +10142,29 @@ add_requires("jansson")
 ```
 
 
+### jemalloc (android)
+
+
+| Description | *A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support.* |
+| -- | -- |
+| Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
+| Versions | 5.2.1, 5.3.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] jemalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jemalloc")
+```
+
+
 ### jerryscript (android)
 
 
