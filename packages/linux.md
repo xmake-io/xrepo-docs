@@ -5977,7 +5977,7 @@ add_requires("cppitertools")
 | -- | -- |
 | Homepage | [https://github.com/yanyiwu/cppjieba](https://github.com/yanyiwu/cppjieba) |
 | License | MIT |
-| Versions | v5.2.0, v5.4.0, v5.4.1, v5.5.0, v5.6.0 |
+| Versions | v5.2.0, v5.4.0, v5.4.1, v5.5.0, v5.6.0, v5.6.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppjieba/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppjieba/xmake.lua) |
 
@@ -26105,7 +26105,7 @@ add_requires("mscharconv")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdf-atlas-gen](https://github.com/Chlumsky/msdf-atlas-gen) |
 | License | MIT |
-| Versions | v1.3 |
+| Versions | v1.3, v1.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [msdf-atlas-gen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdf-atlas-gen/xmake.lua) |
 
@@ -27320,7 +27320,7 @@ add_requires("ng-log")
 | -- | -- |
 | Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
 | License | MIT |
-| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1, 1.63.0, 1.64.0, 1.65.0, 1.66.0, 1.67.0, 1.67.1, 1.68.0 |
+| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1, 1.63.0, 1.64.0, 1.65.0, 1.66.0, 1.67.0, 1.67.1, 1.68.0, 1.68.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
 
@@ -32379,7 +32379,7 @@ add_requires("qbdi")
 | -- | -- |
 | Homepage | [https://github.com/laurencelundblade/QCBOR](https://github.com/laurencelundblade/QCBOR) |
 | License | BSD-3-Clause |
-| Versions | v1.4.1, v1.5.1, v1.5.3, v1.6 |
+| Versions | v1.4.1, v1.5.1, v1.5.3, v1.6, v1.6.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [qcbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/qcbor/xmake.lua) |
 
@@ -33717,7 +33717,7 @@ add_requires("reaction")
 | -- | -- |
 | Homepage | [https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html](https://victimsnino.github.io/ReactivePlusPlus/v2/docs/html/md_docs_2readme.html) |
 | License | BSL-1.0 |
-| Versions | v0.2.3, v2.1.0, v2.1.1, v2.2.2 |
+| Versions | v0.2.3, v2.1.0, v2.1.1, v2.2.2, v2.2.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [reactiveplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reactiveplusplus/xmake.lua) |
 
@@ -39226,7 +39226,7 @@ add_requires("tmx")
 | -- | -- |
 | Homepage | [https://github.com/fallahn/tmxlite](https://github.com/fallahn/tmxlite) |
 | License | zlib |
-| Versions | v1.4.4 |
+| Versions | v1.4.4, v1.4.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tmxlite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tmxlite/xmake.lua) |
 
@@ -41617,7 +41617,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a34de04f70 |
+| License | table: 0x5625563ceaf0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
