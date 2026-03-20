@@ -11194,7 +11194,7 @@ add_requires("gdal")
 | -- | -- |
 | Homepage | [http://sf.net/p/gdcm](http://sf.net/p/gdcm) |
 | License | BSD License, Apache License V2.0 |
-| Versions | v3.0.24, v3.2.1 |
+| Versions | v3.0.24, v3.2.1, v3.2.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gdcm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdcm/xmake.lua) |
 
@@ -41617,7 +41617,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559e5aef5b30 |
+| License | table: 0x55a34de04f70 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
