@@ -22286,7 +22286,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/fantasy-peak/simple_http](https://github.com/fantasy-peak/simple_http) |
 | License | MIT |
-| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1, v0.6.2 |
+| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1, v0.6.2, v0.6.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [simple_http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simple_http/xmake.lua) |
 
@@ -26760,7 +26760,7 @@ add_requires("xent-core")
 | -- | -- |
 | Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
 | License | Apache-2.0 |
-| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31 |
+| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
 

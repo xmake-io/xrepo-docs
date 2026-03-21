@@ -23135,7 +23135,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/fantasy-peak/simple_http](https://github.com/fantasy-peak/simple_http) |
 | License | MIT |
-| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1, v0.6.2 |
+| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1, v0.6.2, v0.6.3 |
 | Architectures | i386, x86_64 |
 | Definition | [simple_http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simple_http/xmake.lua) |
 

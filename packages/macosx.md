@@ -14924,7 +14924,7 @@ add_requires("ktx")
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
 | License | Unlicense |
-| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5, v0.3.6 |
+| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5, v0.3.6, v0.3.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
@@ -38457,7 +38457,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564913fa8d70 |
+| License | table: 0x55f4a834de20 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -39026,7 +39026,7 @@ add_requires("xframe")
 | -- | -- |
 | Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
 | License | Apache-2.0 |
-| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31 |
+| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32 |
 | Architectures | arm64, x86_64 |
 | Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
 

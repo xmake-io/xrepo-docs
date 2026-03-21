@@ -11588,7 +11588,7 @@ add_requires("ktx")
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
 | License | Unlicense |
-| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5, v0.3.6 |
+| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5, v0.3.6, v0.3.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
@@ -29624,7 +29624,7 @@ add_requires("xent-core")
 | -- | -- |
 | Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
 | License | Apache-2.0 |
-| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31 |
+| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
 
