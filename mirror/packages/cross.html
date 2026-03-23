@@ -11716,6 +11716,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("geode-sdk-result")
 </code></pre>
+<h3 id="geographiclibcross">geographiclib (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>GeographicLib is a small C++ library for geodesic and rhumb line calculations and conversions between geographic, UTM, UPS, MGRS, geocentric</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://geographiclib.sourceforge.io/C++/doc/index.html">https://geographiclib.sourceforge.io/C++/doc/index.html</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.1.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geographiclib/xmake.lua">geographiclib/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] geographiclib
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("geographiclib")
+</code></pre>
 <h3 id="geoscross">geos (cross)</h3>
 <table>
 <thead>
@@ -15029,6 +15066,39 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("jansson")
+</code></pre>
+<h3 id="jemalloccross">jemalloc (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="http://jemalloc.net/">http://jemalloc.net/</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>5.2.1, 5.3.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua">jemalloc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] jemalloc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("jemalloc")
 </code></pre>
 <h3 id="jerryscriptcross">jerryscript (cross)</h3>
 <table>

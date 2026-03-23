@@ -7591,6 +7591,30 @@ add_requires("geode-sdk-result")
 ```
 
 
+### geographiclib (cross)
+
+
+| Description | *GeographicLib is a small C++ library for geodesic and rhumb line calculations and conversions between geographic, UTM, UPS, MGRS, geocentric* |
+| -- | -- |
+| Homepage | [https://geographiclib.sourceforge.io/C++/doc/index.html](https://geographiclib.sourceforge.io/C++/doc/index.html) |
+| License | MIT License |
+| Versions | 2.1.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [geographiclib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geographiclib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] geographiclib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geographiclib")
+```
+
+
 ### geos (cross)
 
 
@@ -9764,6 +9788,29 @@ xrepo install -p cross [--sdk=/xxx] jansson
 
 ```lua
 add_requires("jansson")
+```
+
+
+### jemalloc (cross)
+
+
+| Description | *A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support.* |
+| -- | -- |
+| Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
+| Versions | 5.2.1, 5.3.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] jemalloc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("jemalloc")
 ```
 
 
