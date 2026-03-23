@@ -1340,6 +1340,54 @@ add_requires("aws-checksums")
 ```
 
 
+### aws-crt-cpp (cross)
+
+
+| Description | *C++ wrapper around the aws-c-* libraries. Provides Cross-Platform Transport Protocols and SSL/TLS implementations for C++.* |
+| -- | -- |
+| Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
+| License | Apache-2.0 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-crt-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-crt-cpp")
+```
+
+
+### aws-sdk-cpp (cross)
+
+
+| Description | *AWS SDK for C++* |
+| -- | -- |
+| Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
+| License | Apache-2.0 |
+| Versions | 1.11.760, 1.11.769, 1.11.773 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aws-sdk-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aws-sdk-cpp")
+```
+
+
 
 ## b
 ### b2 (cross)
