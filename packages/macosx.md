@@ -21389,7 +21389,7 @@ add_requires("ls-qpack")
 | -- | -- |
 | Homepage | [https://github.com/leon-bckl/lsp-framework](https://github.com/leon-bckl/lsp-framework) |
 | License | MIT |
-| Versions | 1.0.1, 1.3.0 |
+| Versions | 1.0.1, 1.3.0, 1.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [lsp-framework/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsp-framework/xmake.lua) |
 
@@ -38481,7 +38481,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564fe344f680 |
+| License | table: 0x55d9201c3690 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
