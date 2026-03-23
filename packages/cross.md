@@ -6775,6 +6775,30 @@ add_requires("fdk-aac")
 ```
 
 
+### ffmpeg (cross)
+
+
+| Description | *A collection of libraries to process multimedia content such as audio, video, subtitles and related metadata.* |
+| -- | -- |
+| Homepage | [https://www.ffmpeg.org](https://www.ffmpeg.org) |
+| License | GPL-3.0 |
+| Versions | 4.0.2, 4.4.4, 5.0.1, 5.1.1, 5.1.2, 6.0.1, 6.1, 7.0, 7.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [ffmpeg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ffmpeg/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ffmpeg
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ffmpeg")
+```
+
+
 ### ffts (cross)
 
 
