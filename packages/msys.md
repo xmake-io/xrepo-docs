@@ -15527,7 +15527,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2 |
 | Architectures | i386, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -17955,6 +17955,30 @@ xrepo install onnx
 
 ```lua
 add_requires("onnx")
+```
+
+
+### openai-cpp (msys)
+
+
+| Description | *OpenAI C++ is a community-maintained library for the Open AI API* |
+| -- | -- |
+| Homepage | [https://github.com/olrea/openai-cpp](https://github.com/olrea/openai-cpp) |
+| License | MIT |
+| Versions | v0.1.3 |
+| Architectures | i386, x86_64 |
+| Definition | [openai-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openai-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openai-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openai-cpp")
 ```
 
 
