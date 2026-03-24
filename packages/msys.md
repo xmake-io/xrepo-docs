@@ -1298,7 +1298,7 @@ add_requires("aws-c-mqtt")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -3234,7 +3234,7 @@ add_requires("cli")
 | -- | -- |
 | Homepage | [https://github.com/CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) |
 | License | BSD |
-| Versions | v2.2.0, v2.3.2, v2.4.1, v2.4.2, v2.5.0, v2.6.1 |
+| Versions | v2.2.0, v2.3.2, v2.4.1, v2.4.2, v2.5.0, v2.6.1, v2.6.2 |
 | Architectures | i386, x86_64 |
 | Definition | [cli11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli11/xmake.lua) |
 
@@ -22954,7 +22954,7 @@ add_requires("srell")
 | -- | -- |
 | Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6, v2.7 |
+| Versions | v2.5.0, v2.6, v2.7, v2.8 |
 | Architectures | i386, x86_64 |
 | Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
 

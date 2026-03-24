@@ -1899,7 +1899,7 @@ add_requires("aws-c-mqtt")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -4665,7 +4665,7 @@ add_requires("cli")
 | -- | -- |
 | Homepage | [https://github.com/CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) |
 | License | BSD |
-| Versions | v2.2.0, v2.3.2, v2.4.1, v2.4.2, v2.5.0, v2.6.1 |
+| Versions | v2.2.0, v2.3.2, v2.4.1, v2.4.2, v2.5.0, v2.6.1, v2.6.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cli11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli11/xmake.lua) |
 
@@ -35263,7 +35263,7 @@ add_requires("sentry-native")
 | -- | -- |
 | Homepage | [https://www.seqan.de](https://www.seqan.de) |
 | License | BSD-3-Clause |
-| Versions | 3.2.0, 3.3.0, 3.4.0, 3.4.1 |
+| Versions | 3.2.0, 3.3.0, 3.4.0, 3.4.1, 3.4.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [seqan3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/seqan3/xmake.lua) |
 
@@ -36958,7 +36958,7 @@ add_requires("srt")
 | -- | -- |
 | Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6, v2.7 |
+| Versions | v2.5.0, v2.6, v2.7, v2.8 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
 
@@ -41640,7 +41640,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56049c0a7180 |
+| License | table: 0x55d010032d30 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

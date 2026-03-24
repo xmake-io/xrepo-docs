@@ -2637,7 +2637,7 @@ add_requires("cli")
 | -- | -- |
 | Homepage | [https://github.com/CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) |
 | License | BSD |
-| Versions | v2.2.0, v2.3.2, v2.4.1, v2.4.2, v2.5.0, v2.6.1 |
+| Versions | v2.2.0, v2.3.2, v2.4.1, v2.4.2, v2.5.0, v2.6.1, v2.6.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cli11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli11/xmake.lua) |
 
@@ -20236,7 +20236,7 @@ add_requires("srell")
 | -- | -- |
 | Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6, v2.7 |
+| Versions | v2.5.0, v2.6, v2.7, v2.8 |
 | Architectures | wasm32, wasm64 |
 | Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
 
