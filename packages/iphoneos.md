@@ -1530,6 +1530,30 @@ add_requires("bazel")
 ```
 
 
+### bc_crunch (iphoneos)
+
+
+| Description | *tiny dependency-free lossless compressor for BC/DXT texture streams* |
+| -- | -- |
+| Homepage | [https://github.com/Geolm/bc_crunch](https://github.com/Geolm/bc_crunch) |
+| License | zlib |
+| Versions | 1.5.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [bc_crunch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bc_crunch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos bc_crunch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bc_crunch")
+```
+
+
 ### bcg729 (iphoneos)
 
 
@@ -22623,7 +22647,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+300, 3.50.0+400, 3.51.0+0, 3.51.0+100, 3.51.0+200, 3.52.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+300, 3.35.0+400, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+0, 3.47.0+100, 3.47.0+200, 3.48.0+0, 3.49.0+0, 3.49.0+100, 3.49.0+200, 3.50.0+0, 3.50.0+100, 3.50.0+200, 3.50.0+300, 3.50.0+400, 3.51.0+0, 3.51.0+100, 3.51.0+200, 3.51.0+300 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -22861,7 +22885,7 @@ add_requires("status-code")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30, 2023.12.15, 2024.06.01, 2025.03.14 |
+| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30, 2023.12.15, 2024.06.01, 2025.03.14, 2026.03.18 |
 | Architectures | arm64, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 

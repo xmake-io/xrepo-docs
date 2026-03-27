@@ -2346,6 +2346,30 @@ add_requires("bc")
 ```
 
 
+### bc_crunch (linux)
+
+
+| Description | *tiny dependency-free lossless compressor for BC/DXT texture streams* |
+| -- | -- |
+| Homepage | [https://github.com/Geolm/bc_crunch](https://github.com/Geolm/bc_crunch) |
+| License | zlib |
+| Versions | 1.5.2 |
+| Architectures | arm64, loong64, mips64, mips64el, x86_64 |
+| Definition | [bc_crunch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bc_crunch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install bc_crunch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("bc_crunch")
+```
+
+
 ### bcg729 (linux)
 
 
@@ -36719,7 +36743,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.51.0+100, 3.51.0+0, 3.51.0+200, 3.52.0+0 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.51.0+100, 3.51.0+0, 3.51.0+200, 3.51.0+300 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
@@ -37125,7 +37149,7 @@ add_requires("status-code")
 | Description | *single-file public domain (or MIT licensed) libraries for C/C++* |
 | -- | -- |
 | Homepage | [https://github.com/nothings/stb](https://github.com/nothings/stb) |
-| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30, 2023.12.15, 2024.06.01, 2025.03.14 |
+| Versions | 2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30, 2023.12.15, 2024.06.01, 2025.03.14, 2026.03.18 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [stb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stb/xmake.lua) |
 
@@ -41640,7 +41664,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f5ecb61260 |
+| License | table: 0x55d4ca0d0af0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

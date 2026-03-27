@@ -2616,6 +2616,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("bazel")
 </code></pre>
+<h3 id="bc_crunchandroid">bc_crunch (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>tiny dependency-free lossless compressor for BC/DXT texture streams</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/Geolm/bc_crunch">https://github.com/Geolm/bc_crunch</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.5.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, mip64, riscv64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bc_crunch/xmake.lua">bc_crunch/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] bc_crunch
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("bc_crunch")
+</code></pre>
 <h3 id="bcg729android">bcg729 (android)</h3>
 <table>
 <thead>
@@ -36924,7 +36961,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.51.0+100, 3.51.0+0, 3.51.0+200, 3.52.0+0</td>
+<td>3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+200, 3.45.0+300, 3.45.0+100, 3.46.0+0, 3.46.0+100, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.51.0+100, 3.51.0+0, 3.51.0+200, 3.51.0+300</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -37360,7 +37397,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30, 2023.12.15, 2024.06.01, 2025.03.14</td>
+<td>2019.02.07, 2021.07.13, 2021.09.10, 2023.01.30, 2023.12.15, 2024.06.01, 2025.03.14, 2026.03.18</td>
 </tr>
 <tr>
 <td>Architectures</td>
