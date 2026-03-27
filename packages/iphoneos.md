@@ -6681,7 +6681,7 @@ add_requires("fgt")
 | -- | -- |
 | Homepage | [https://fil-c.org/](https://fil-c.org/) |
 | License | LLVM |
-| Versions | 0.674 |
+| Versions | 0.674, 0.678 |
 | Architectures | arm64, x86_64 |
 | Definition | [filc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/filc/xmake.lua) |
 
