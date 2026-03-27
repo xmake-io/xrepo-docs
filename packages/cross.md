@@ -6080,6 +6080,30 @@ add_requires("elfio")
 ```
 
 
+### elfutils (cross)
+
+
+| Description | *Libraries and utilities for handling ELF objects* |
+| -- | -- |
+| Homepage | [https://fedorahosted.org/elfutils/](https://fedorahosted.org/elfutils/) |
+| License | GPL-2.0 |
+| Versions | 0.183, 0.189, 0.190 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [elfutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/elfutils/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] elfutils
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("elfutils")
+```
+
+
 ### emhash (cross)
 
 
