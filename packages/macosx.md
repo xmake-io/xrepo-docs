@@ -1826,7 +1826,7 @@ add_requires("aws-lc")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.11.760, 1.11.769, 1.11.773 |
+| Versions | 1.11.760, 1.11.769, 1.11.773, 1.11.779 |
 | Architectures | arm64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
@@ -10432,7 +10432,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1, 3.12.2 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1, 3.12.2, 3.12.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -14568,7 +14568,7 @@ add_requires("jxrlib")
 | -- | -- |
 | Homepage | [https://kahip.github.io/](https://kahip.github.io/) |
 | License | MIT |
-| Versions | v3.15, v3.16, v3.17, v3.18, v3.19, v3.22 |
+| Versions | v3.15, v3.16, v3.17, v3.18, v3.19, v3.22, v3.25 |
 | Architectures | arm64, x86_64 |
 | Definition | [kahip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kahip/xmake.lua) |
 
@@ -38505,7 +38505,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x556c60e394e0 |
+| License | table: 0x556f9aed9680 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -39074,7 +39074,7 @@ add_requires("xframe")
 | -- | -- |
 | Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
 | License | Apache-2.0 |
-| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32 |
+| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32, v0.1.33 |
 | Architectures | arm64, x86_64 |
 | Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
 

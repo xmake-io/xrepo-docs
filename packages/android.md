@@ -24022,6 +24022,30 @@ add_requires("spine-runtimes")
 ```
 
 
+### spirv-cross (android)
+
+
+| Description | *SPIRV-Cross is a practical tool and library for performing reflection on SPIR-V and disassembling SPIR-V back to high level languages.* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/SPIRV-Cross/](https://github.com/KhronosGroup/SPIRV-Cross/) |
+| License | Apache-2.0 |
+| Versions | 1.2.154+1, 1.2.162+0, 1.2.189+1, 1.3.231+1, 1.3.268+0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [spirv-cross/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/spirv-cross/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] spirv-cross
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("spirv-cross")
+```
+
+
 ### spirv-headers (android)
 
 
@@ -28052,7 +28076,7 @@ add_requires("xerces-c")
 | -- | -- |
 | Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
 | License | Apache-2.0 |
-| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32 |
+| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32, v0.1.33 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
 
