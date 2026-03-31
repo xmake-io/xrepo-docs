@@ -18521,7 +18521,7 @@ add_requires("libjpeg")
 | -- | -- |
 | Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
 | License | BSD-3-Clause |
-| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 3.0.1, 3.0.3, 3.0.4, 3.1.0, 3.1.1, 3.1.2, 3.1.4.1 |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 3.0.1, 3.0.3, 3.0.4, 3.1.0, 3.1.1, 3.1.2, 3.1.4+1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
 
@@ -41664,7 +41664,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55cfe40575a0 |
+| License | table: 0x55a01bf952b0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
