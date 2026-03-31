@@ -15345,30 +15345,6 @@ add_requires("lvgl")
 ```
 
 
-### lwlog (bsd)
-
-
-| Description | *Very fast synchronous and asynchronous C++17 logging library* |
-| -- | -- |
-| Homepage | [https://github.com/ChristianPanov/lwlog](https://github.com/ChristianPanov/lwlog) |
-| License | MIT |
-| Versions | v1.3.1 |
-| Architectures | i386, x86_64 |
-| Definition | [lwlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lwlog/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install lwlog
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("lwlog")
-```
-
-
 ### lyra (bsd)
 
 

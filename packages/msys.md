@@ -14668,7 +14668,7 @@ add_requires("lvgl")
 | -- | -- |
 | Homepage | [https://github.com/ChristianPanov/lwlog](https://github.com/ChristianPanov/lwlog) |
 | License | MIT |
-| Versions | v1.3.1 |
+| Versions | v1.3.1, v1.5.0 |
 | Architectures | i386, x86_64 |
 | Definition | [lwlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lwlog/xmake.lua) |
 

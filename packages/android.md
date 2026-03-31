@@ -15207,30 +15207,6 @@ add_requires("lvgl")
 ```
 
 
-### lwlog (android)
-
-
-| Description | *Very fast synchronous and asynchronous C++17 logging library* |
-| -- | -- |
-| Homepage | [https://github.com/ChristianPanov/lwlog](https://github.com/ChristianPanov/lwlog) |
-| License | MIT |
-| Versions | v1.3.1 |
-| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
-| Definition | [lwlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lwlog/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p android [--ndk=/xxx] lwlog
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("lwlog")
-```
-
-
 ### lyra (android)
 
 
