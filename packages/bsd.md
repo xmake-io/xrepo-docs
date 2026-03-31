@@ -14807,7 +14807,7 @@ add_requires("litehtml")
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.8.2, v2.9.2, v2.9.3, v2.10.1, v2.11.0, v2.11.1, v2.11.2 |
+| Versions | v2.5.0, v2.8.2, v2.9.2, v2.9.3, v2.10.1, v2.11.0, v2.11.1, v2.11.2, v2.11.3 |
 | Architectures | i386, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
 

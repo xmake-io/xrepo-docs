@@ -21035,7 +21035,7 @@ add_requires("litehtml")
 | -- | -- |
 | Homepage | [https://github.com/littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.8.2, v2.9.2, v2.9.3, v2.10.1, v2.11.0, v2.11.1, v2.11.2 |
+| Versions | v2.5.0, v2.8.2, v2.9.2, v2.9.3, v2.10.1, v2.11.0, v2.11.1, v2.11.2, v2.11.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [littlefs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/littlefs/xmake.lua) |
 
@@ -38505,7 +38505,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5588698b3a70 |
+| License | table: 0x55e0f76f3f10 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
