@@ -20356,7 +20356,7 @@ add_requires("libsdl3")
 | -- | -- |
 | Homepage | [https://github.com/libsdl-org/SDL_image](https://github.com/libsdl-org/SDL_image) |
 | License | zlib |
-| Versions | 3.2.0 |
+| Versions | 3.2.0, 3.4.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libsdl3_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_image/xmake.lua) |
 
@@ -41664,7 +41664,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d3d6097a00 |
+| License | table: 0x558e36f30ef0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

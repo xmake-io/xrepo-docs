@@ -13026,7 +13026,7 @@ add_requires("libsdl3")
 | -- | -- |
 | Homepage | [https://github.com/libsdl-org/SDL_image](https://github.com/libsdl-org/SDL_image) |
 | License | zlib |
-| Versions | 3.2.0 |
+| Versions | 3.2.0, 3.4.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsdl3_image/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_image/xmake.lua) |
 
