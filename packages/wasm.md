@@ -4069,7 +4069,7 @@ add_requires("cubeb")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) |
 | License | BSD-3-Clause |
-| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9, v13.0, v13.1 |
+| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9, v13.0, v13.1, v13.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cuda-samples/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda-samples/xmake.lua) |
 
@@ -10061,7 +10061,7 @@ add_requires("libgit2cpp")
 | -- | -- |
 | Homepage | [http://libharu.org/](http://libharu.org/) |
 | License | zlib |
-| Versions | 2.3.0, v2.4.5 |
+| Versions | 2.3.0, v2.4.5, v2.4.6 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libharu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libharu/xmake.lua) |
 
@@ -18494,7 +18494,7 @@ add_requires("re2")
 | -- | -- |
 | Homepage | [https://re2c.org](https://re2c.org) |
 | License | Public Domain |
-| Versions | 4.2, 4.3, 4.3.1, 4.4 |
+| Versions | 4.2, 4.3, 4.3.1, 4.4, 4.5.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [re2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2c/xmake.lua) |
 

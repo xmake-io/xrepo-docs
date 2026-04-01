@@ -6384,7 +6384,7 @@ add_requires("crossguid")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2, v1.3.0, v1.3.1 |
+| Versions | v1.2.1+1, v1.2.1+2, v1.3.0, v1.3.1, v1.3.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -6788,7 +6788,7 @@ add_requires("cubeb")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) |
 | License | BSD-3-Clause |
-| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9, v13.0, v13.1 |
+| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9, v13.0, v13.1, v13.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cuda-samples/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda-samples/xmake.lua) |
 
@@ -18142,7 +18142,7 @@ add_requires("libgpiod")
 | -- | -- |
 | Homepage | [http://libharu.org/](http://libharu.org/) |
 | License | zlib |
-| Versions | 2.3.0, v2.4.5 |
+| Versions | 2.3.0, v2.4.5, v2.4.6 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libharu/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libharu/xmake.lua) |
 
@@ -33716,7 +33716,7 @@ add_requires("re2")
 | -- | -- |
 | Homepage | [https://re2c.org](https://re2c.org) |
 | License | Public Domain |
-| Versions | 4.2, 4.3, 4.3.1, 4.4 |
+| Versions | 4.2, 4.3, 4.3.1, 4.4, 4.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [re2c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re2c/xmake.lua) |
 
@@ -41664,7 +41664,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558e36f30ef0 |
+| License | table: 0x55f37267a220 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
