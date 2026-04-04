@@ -9095,6 +9095,30 @@ add_requires("kotlin-native")
 ```
 
 
+### ktx (wasm)
+
+
+| Description | *KTX (Khronos Texture) Library and Tools* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) |
+| License | Apache-2.0 |
+| Versions | v4.4.0, v4.4.2 |
+| Architectures | wasm32, wasm64 |
+| Definition | [ktx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/ktx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm ktx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ktx")
+```
+
+
 
 ## l
 ### lastools (wasm)
