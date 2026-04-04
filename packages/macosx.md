@@ -14872,6 +14872,30 @@ add_requires("kokyu")
 ```
 
 
+### kompute (macosx)
+
+
+| Description | *General purpose GPU compute framework for cross vendor graphics cards* |
+| -- | -- |
+| Homepage | [https://github.com/KomputeProject/kompute](https://github.com/KomputeProject/kompute) |
+| License | Apache-2.0 |
+| Versions | v0.8.0 |
+| Architectures | x86_64 |
+| Definition | [kompute/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kompute/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install kompute
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("kompute")
+```
+
+
 ### kotlin-native (macosx)
 
 
@@ -38506,7 +38530,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f139b22a00 |
+| License | table: 0x56547094e240 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

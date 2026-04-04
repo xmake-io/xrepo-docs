@@ -11181,7 +11181,7 @@ add_requires("libbigwig")
 | -- | -- |
 | Homepage | [https://github.com/libbpf/libbpf](https://github.com/libbpf/libbpf) |
 | License | BSD-2-Clause |
-| Versions | v0.3, v1.6.2, v1.6.3 |
+| Versions | v0.3, v1.6.2, v1.6.3, v1.7.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libbpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbpf/xmake.lua) |
 

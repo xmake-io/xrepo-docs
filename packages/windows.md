@@ -15073,7 +15073,7 @@ add_requires("kokyu")
 | Homepage | [https://github.com/KomputeProject/kompute](https://github.com/KomputeProject/kompute) |
 | License | Apache-2.0 |
 | Versions | v0.8.0 |
-| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Architectures | x64, x86 |
 | Definition | [kompute/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kompute/xmake.lua) |
 
 ##### Install command
