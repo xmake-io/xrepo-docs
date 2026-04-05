@@ -6298,7 +6298,7 @@ add_requires("entt")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2, 20.45.0, 20.46.0 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2, 20.45.0, 20.46.0, 20.47.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -10052,7 +10052,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://github.com/iboB/itlib](https://github.com/iboB/itlib) |
 | License | MIT |
-| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4, v1.11.5, v1.11.7, v1.11.8, v1.11.9, v1.12.0, v1.12.1 |
+| Versions | v1.10.3, v1.11.0, v1.11.1, v1.11.4, v1.11.5, v1.11.7, v1.11.8, v1.11.9, v1.12.0, v1.12.1, v1.12.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [itlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itlib/xmake.lua) |
 
@@ -12996,7 +12996,7 @@ add_requires("libraw")
 | -- | -- |
 | Homepage | [https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html](https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html) |
 | License | BSD-2-Clause |
-| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2 |
+| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
@@ -18847,7 +18847,7 @@ add_requires("opencv-mobile")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -27072,7 +27072,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 
