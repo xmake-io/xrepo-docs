@@ -2181,7 +2181,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0, v3.14.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -12733,7 +12733,7 @@ add_requires("lunzip")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0 |
+| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0, v9.5.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 

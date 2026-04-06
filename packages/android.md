@@ -1253,7 +1253,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13 |
+| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -1301,7 +1301,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -2803,7 +2803,7 @@ add_requires("cargs")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0, v3.14.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -15191,7 +15191,7 @@ add_requires("lunzip")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0 |
+| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0, v9.5.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
