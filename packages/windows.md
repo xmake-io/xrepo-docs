@@ -2948,7 +2948,7 @@ add_requires("boringssl")
 | -- | -- |
 | Homepage | [https://botan.randombit.net](https://botan.randombit.net) |
 | License | BSD-2-Clause |
-| Versions | 3.4.0, 3.5.0, 3.6.0, 3.6.1, 3.7.0, 3.7.1, 3.8.1 |
+| Versions | 3.4.0, 3.5.0, 3.6.0, 3.6.1, 3.7.0, 3.7.1, 3.8.1, 3.11.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [botan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/botan/xmake.lua) |
 

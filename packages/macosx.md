@@ -1827,7 +1827,7 @@ add_requires("aws-lc")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.11.760, 1.11.769, 1.11.773, 1.11.779 |
+| Versions | 1.11.760, 1.11.769, 1.11.773, 1.11.779, 1.11.784 |
 | Architectures | arm64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
@@ -2925,7 +2925,7 @@ add_requires("boringssl")
 | -- | -- |
 | Homepage | [https://botan.randombit.net](https://botan.randombit.net) |
 | License | BSD-2-Clause |
-| Versions | 3.4.0, 3.5.0, 3.6.0, 3.6.1, 3.7.0, 3.7.1, 3.8.1 |
+| Versions | 3.4.0, 3.5.0, 3.6.0, 3.6.1, 3.7.0, 3.7.1, 3.8.1, 3.11.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [botan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/botan/xmake.lua) |
 
@@ -38530,7 +38530,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563daa713ec0 |
+| License | table: 0x56220d9abe30 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
