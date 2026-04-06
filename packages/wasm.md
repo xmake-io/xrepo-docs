@@ -14475,7 +14475,7 @@ add_requires("muda")
 | -- | -- |
 | Homepage | [http://mujs.com/](http://mujs.com/) |
 | License | ISC |
-| Versions | 1.3.4, 1.3.5, 1.3.6, 1.3.7 |
+| Versions | 1.3.4, 1.3.5, 1.3.6, 1.3.7, 1.3.8 |
 | Architectures | wasm32, wasm64 |
 | Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
 

@@ -24322,7 +24322,7 @@ add_requires("mujoco")
 | -- | -- |
 | Homepage | [http://mujs.com/](http://mujs.com/) |
 | License | ISC |
-| Versions | 1.3.4, 1.3.5, 1.3.6, 1.3.7 |
+| Versions | 1.3.4, 1.3.5, 1.3.6, 1.3.7, 1.3.8 |
 | Architectures | arm64, x86_64 |
 | Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
 
@@ -38530,7 +38530,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56220d9abe30 |
+| License | table: 0x563235080c80 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

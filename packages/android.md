@@ -17076,7 +17076,7 @@ add_requires("mujoco")
 | -- | -- |
 | Homepage | [http://mujs.com/](http://mujs.com/) |
 | License | ISC |
-| Versions | 1.3.4, 1.3.5, 1.3.6, 1.3.7 |
+| Versions | 1.3.4, 1.3.5, 1.3.6, 1.3.7, 1.3.8 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [mujs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujs/xmake.lua) |
 
