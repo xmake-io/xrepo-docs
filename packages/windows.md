@@ -6674,7 +6674,7 @@ add_requires("cxxopts")
 | Homepage | [https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator](https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator) |
 | License | MIT |
 | Versions | v2.0.1, v3.0.1, v3.1.0 |
-| Architectures | x64 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [d3d12-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/d3d12-memory-allocator/xmake.lua) |
 
 ##### Install command
