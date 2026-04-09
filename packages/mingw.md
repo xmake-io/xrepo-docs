@@ -4979,7 +4979,7 @@ add_requires("csv2")
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
 | License | MIT |
-| Versions | 2.1.1, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.3.0, 2.4.2, 2.5.1 |
+| Versions | 2.2.3, 2.3.0, 2.4.2, 2.5.2, 3.1.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
@@ -13955,7 +13955,7 @@ add_requires("librdkafka")
 | -- | -- |
 | Homepage | [https://www.realsenseai.com/](https://www.realsenseai.com/) |
 | License | Apache-2.0 |
-| Versions | v2.57.4, v2.57.5, v2.57.6 |
+| Versions | v2.57.4, v2.57.5, v2.57.6, v2.57.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [librealsense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librealsense/xmake.lua) |
 

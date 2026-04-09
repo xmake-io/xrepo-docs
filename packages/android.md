@@ -4738,7 +4738,7 @@ add_requires("csv2")
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
 | License | MIT |
-| Versions | 2.1.1, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.3.0, 2.4.2, 2.5.1 |
+| Versions | 2.2.3, 2.3.0, 2.4.2, 2.5.2, 3.1.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
@@ -13020,7 +13020,7 @@ add_requires("librdkafka")
 | -- | -- |
 | Homepage | [https://www.realsenseai.com/](https://www.realsenseai.com/) |
 | License | Apache-2.0 |
-| Versions | v2.57.4, v2.57.5, v2.57.6 |
+| Versions | v2.57.4, v2.57.5, v2.57.6, v2.57.7 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [librealsense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librealsense/xmake.lua) |
 
@@ -20543,7 +20543,7 @@ add_requires("pocketfft")
 | -- | -- |
 | Homepage | [https://github.com/blueloveTH/pocketpy](https://github.com/blueloveTH/pocketpy) |
 | License | MIT |
-| Versions | v0.9.0, v1.4.5, v1.4.6, v2.0.8, v2.1.1, v2.1.3, v2.1.6 |
+| Versions | v0.9.0, v1.4.5, v1.4.6, v2.0.8, v2.1.1, v2.1.3, v2.1.6, v2.1.8 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [pocketpy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pocketpy/xmake.lua) |
 
