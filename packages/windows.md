@@ -28811,7 +28811,7 @@ add_requires("pystring")
 | -- | -- |
 | Homepage | [https://www.python.org/](https://www.python.org/) |
 | License | PSF |
-| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.12.8, 3.12.10, 3.13.0, 3.13.1, 3.13.2, 3.13.11 |
+| Versions | 2.7.18, 3.7.9, 3.8.10, 3.9.5, 3.9.6, 3.9.10, 3.9.13, 3.10.6, 3.10.11, 3.11.3, 3.11.8, 3.11.9, 3.12.3, 3.12.8, 3.12.10, 3.13.0, 3.13.1, 3.13.2, 3.13.11, 3.13.12, 3.14.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [python/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/python/xmake.lua) |
 
