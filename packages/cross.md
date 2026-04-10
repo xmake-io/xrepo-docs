@@ -15312,7 +15312,7 @@ add_requires("magic_enum")
 | -- | -- |
 | Homepage | [https://github.com/karastojko/mailio](https://github.com/karastojko/mailio) |
 | License | BSD |
-| Versions | 0.23.0, 0.24.1 |
+| Versions | 0.23.0, 0.24.1, 0.25.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [mailio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mailio/xmake.lua) |
 

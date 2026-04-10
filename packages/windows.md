@@ -20845,7 +20845,7 @@ add_requires("magnum-plugins")
 | -- | -- |
 | Homepage | [https://github.com/karastojko/mailio](https://github.com/karastojko/mailio) |
 | License | BSD |
-| Versions | 0.23.0, 0.24.1 |
+| Versions | 0.23.0, 0.24.1, 0.25.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [mailio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mailio/xmake.lua) |
 
