@@ -1296,6 +1296,30 @@ add_requires("aui")
 ```
 
 
+### aui-toolbox (macosx)
+
+
+| Description | *Build tool for the AUI declarative UI toolkit* |
+| -- | -- |
+| Homepage | [https://github.com/aui-framework/aui](https://github.com/aui-framework/aui) |
+| License | MPL-2.0 |
+| Versions | v7.1.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [aui-toolbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aui-toolbox/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aui-toolbox
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aui-toolbox")
+```
+
+
 ### aurora-au (macosx)
 
 
@@ -10671,7 +10695,7 @@ add_requires("geos")
 | Description | *GNU internationalization (i18n) and localization (l10n) library.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
-| Versions | 0.19.8-1, 0.21, 0.21.1, 0.22.5, 0.23.1, 0.24.1, 0.25 |
+| Versions | 0.19.8-1, 0.21, 0.21.1, 0.22.5, 0.23.1, 0.24.1, 0.25, 1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [gettext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gettext/xmake.lua) |
 
@@ -26284,7 +26308,7 @@ add_requires("omath")
 | -- | -- |
 | Homepage | [https://ompl.kavrakilab.org/](https://ompl.kavrakilab.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.7.0 |
+| Versions | 1.7.0, 2.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [ompl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ompl/xmake.lua) |
 
@@ -38530,7 +38554,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558d80dd8960 |
+| License | table: 0x56546fc9d7c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

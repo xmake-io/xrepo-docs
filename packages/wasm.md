@@ -743,6 +743,30 @@ add_requires("audiofile")
 ```
 
 
+### aui-toolbox (wasm)
+
+
+| Description | *Build tool for the AUI declarative UI toolkit* |
+| -- | -- |
+| Homepage | [https://github.com/aui-framework/aui](https://github.com/aui-framework/aui) |
+| License | MPL-2.0 |
+| Versions | v7.1.2 |
+| Architectures | wasm32, wasm64 |
+| Definition | [aui-toolbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aui-toolbox/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm aui-toolbox
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aui-toolbox")
+```
+
+
 ### aurora-au (wasm)
 
 
@@ -15626,7 +15650,7 @@ add_requires("omath")
 | -- | -- |
 | Homepage | [https://ompl.kavrakilab.org/](https://ompl.kavrakilab.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.7.0 |
+| Versions | 1.7.0, 2.0.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ompl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ompl/xmake.lua) |
 
