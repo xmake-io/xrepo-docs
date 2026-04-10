@@ -25776,7 +25776,7 @@ add_requires("tinyformat")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
-| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21, v2.8.22, v2.9.2, v2.9.3, v2.9.5, v2.9.6, v2.9.7 |
+| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21, v2.8.22, v2.9.2, v2.9.3, v2.9.5, v2.9.6, v2.9.7, v3.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 
