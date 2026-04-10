@@ -2042,7 +2042,7 @@ add_requires("aws-lc")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.11.760, 1.11.769, 1.11.773, 1.11.779, 1.11.784 |
+| Versions | 1.11.760, 1.11.769, 1.11.773, 1.11.779, 1.11.784, 1.11.788 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
@@ -41712,7 +41712,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564f57676920 |
+| License | table: 0x56084a97c150 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
