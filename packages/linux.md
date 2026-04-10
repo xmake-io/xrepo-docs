@@ -23886,7 +23886,7 @@ add_requires("lzham_codec")
 | Description | *LZMA SDK* |
 | -- | -- |
 | Homepage | [https://www.7-zip.org/sdk.html](https://www.7-zip.org/sdk.html) |
-| Versions | 19.00, 21.07, 22.01, 23.01, 24.09 |
+| Versions | 19.00, 21.07, 22.01, 23.01, 24.09, 26.00 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [lzma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzma/xmake.lua) |
 
@@ -41712,7 +41712,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e2a8225e80 |
+| License | table: 0x5615467239f0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -15470,7 +15470,7 @@ add_requires("lzham_codec")
 | Description | *LZMA SDK* |
 | -- | -- |
 | Homepage | [https://www.7-zip.org/sdk.html](https://www.7-zip.org/sdk.html) |
-| Versions | 19.00, 21.07, 22.01, 23.01, 24.09 |
+| Versions | 19.00, 21.07, 22.01, 23.01, 24.09, 26.00 |
 | Architectures | i386, x86_64 |
 | Definition | [lzma/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzma/xmake.lua) |
 
