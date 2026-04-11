@@ -27321,7 +27321,7 @@ add_requires("wavpack")
 | -- | -- |
 | Homepage | [https://wayland.freedesktop.org/](https://wayland.freedesktop.org/) |
 | License | MIT |
-| Versions | 1.18.0, 1.19.0, 1.23.0, 1.23.1, 1.24.0 |
+| Versions | 1.18.0, 1.19.0, 1.23.0, 1.23.1, 1.24.0, 1.25.0 |
 | Architectures | i386, x86_64 |
 | Definition | [wayland/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland/xmake.lua) |
 
