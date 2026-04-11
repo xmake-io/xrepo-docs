@@ -15400,7 +15400,7 @@ add_requires("json-c")
 | -- | -- |
 | Homepage | [https://gitlab.gnome.org/GNOME/json-glib](https://gitlab.gnome.org/GNOME/json-glib) |
 | License | LGPL-2.1 |
-| Versions | 1.9.2, 1.10.0, 1.10.6 |
+| Versions | 1.9.2, 1.10.0, 1.10.6, 1.10.8 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [json-glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-glib/xmake.lua) |
 
@@ -28420,7 +28420,7 @@ add_requires("octree")
 | -- | -- |
 | Homepage | [http://ode.org/](http://ode.org/) |
 | License | BSD-3-Clause |
-| Versions | 0.16.2 |
+| Versions | 0.16.2, 0.16.6 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ode/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ode/xmake.lua) |
 
@@ -32138,7 +32138,7 @@ add_requires("psimd")
 | -- | -- |
 | Homepage | [http://ptex.us/](http://ptex.us/) |
 | License | BSD-3-Clause |
-| Versions | v2.3.2, v2.4.1, v2.4.2, v2.4.3, v2.5.1 |
+| Versions | v2.3.2, v2.4.1, v2.4.2, v2.4.3, v2.5.1, v2.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
 
@@ -39632,7 +39632,7 @@ add_requires("trantor")
 | -- | -- |
 | Homepage | [https://tree-sitter.github.io/](https://tree-sitter.github.io/) |
 | License | MIT |
-| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8, v0.25.10, v0.26.2, v0.26.3, v0.26.5, v0.26.7 |
+| Versions | v0.21.0, v0.22.2, v0.22.5, v0.22.6, v0.23.0, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6, v0.25.3, v0.25.5, v0.25.6, v0.25.8, v0.25.10, v0.26.2, v0.26.3, v0.26.5, v0.26.7, v0.26.8 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [tree-sitter/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tree-sitter/xmake.lua) |
 
@@ -41712,7 +41712,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5633418abc90 |
+| License | table: 0x55c3bd953d80 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
