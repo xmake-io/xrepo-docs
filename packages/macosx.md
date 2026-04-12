@@ -13443,7 +13443,7 @@ add_requires("imnodes")
 | -- | -- |
 | Homepage | [https://github.com/epezent/implot](https://github.com/epezent/implot) |
 | License | MIT |
-| Versions | v0.15, v0.16, v0.17 |
+| Versions | v0.15, v0.16, v0.17, v1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [implot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot/xmake.lua) |
 
@@ -38554,7 +38554,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5555f32c1560 |
+| License | table: 0x55e2eb41ba60 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -10464,7 +10464,7 @@ add_requires("imnodes")
 | -- | -- |
 | Homepage | [https://github.com/epezent/implot](https://github.com/epezent/implot) |
 | License | MIT |
-| Versions | v0.15, v0.16, v0.17 |
+| Versions | v0.15, v0.16, v0.17, v1.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [implot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot/xmake.lua) |
 

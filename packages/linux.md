@@ -7357,6 +7357,30 @@ add_requires("daw_json_link")
 ```
 
 
+### daxa (linux)
+
+
+| Description | *Daxa is a convenient, simple and modern gpu api built on vulkan* |
+| -- | -- |
+| Homepage | [https://github.com/Ipotrick/Daxa](https://github.com/Ipotrick/Daxa) |
+| License | MIT |
+| Versions | 3.5 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [daxa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daxa/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install daxa
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("daxa")
+```
+
+
 ### dbg-macro (linux)
 
 
@@ -14395,7 +14419,7 @@ add_requires("imnodes")
 | -- | -- |
 | Homepage | [https://github.com/epezent/implot](https://github.com/epezent/implot) |
 | License | MIT |
-| Versions | v0.15, v0.16, v0.17 |
+| Versions | v0.15, v0.16, v0.17, v1.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [implot/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot/xmake.lua) |
 
@@ -41712,7 +41736,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5555f32c1560 |
+| License | table: 0x55e2eb41ba60 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
