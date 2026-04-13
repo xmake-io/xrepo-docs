@@ -18419,7 +18419,7 @@ add_requires("opencl-headers")
 | -- | -- |
 | Homepage | [https://opencolorio.org/](https://opencolorio.org/) |
 | License | BSD-3-Clause |
-| Versions | v2.1.0, v2.1.1, v2.3.2, v2.4.2 |
+| Versions | v2.1.0, v2.1.1, v2.3.2, v2.4.2, v2.5.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [opencolorio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencolorio/xmake.lua) |
 

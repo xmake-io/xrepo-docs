@@ -28970,7 +28970,7 @@ add_requires("opencl-headers")
 | -- | -- |
 | Homepage | [https://opencolorio.org/](https://opencolorio.org/) |
 | License | BSD-3-Clause |
-| Versions | v2.1.0, v2.1.1, v2.3.2, v2.4.2 |
+| Versions | v2.1.0, v2.1.1, v2.3.2, v2.4.2, v2.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencolorio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencolorio/xmake.lua) |
 
@@ -41736,7 +41736,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e2eb41ba60 |
+| License | table: 0x55e3c6c4fcd0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
