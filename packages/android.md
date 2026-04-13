@@ -19133,7 +19133,7 @@ add_requires("openssl3")
 | -- | -- |
 | Homepage | [https://opentelemetry.io/](https://opentelemetry.io/) |
 | License | Apache-2.0 |
-| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0, v1.25.0 |
+| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0, v1.25.0, v1.26.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [opentelemetry-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opentelemetry-cpp/xmake.lua) |
 

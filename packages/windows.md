@@ -4453,7 +4453,7 @@ add_requires("clib")
 | -- | -- |
 | Homepage | [https://github.com/dacap/clip](https://github.com/dacap/clip) |
 | License | MIT |
-| Versions | v1.11, v1.12, v1.13 |
+| Versions | v1.11, v1.12, v1.13, v1.15 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [clip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clip/xmake.lua) |
 
@@ -15048,7 +15048,7 @@ add_requires("kokkos")
 | -- | -- |
 | Homepage | [https://github.com/kokkos/kokkos-kernels](https://github.com/kokkos/kokkos-kernels) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0, 5.0.2 |
+| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0, 5.0.2, 5.1.0 |
 | Architectures | x64 |
 | Definition | [kokkos-kernels/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos-kernels/xmake.lua) |
 
@@ -26284,7 +26284,7 @@ add_requires("opensubdiv")
 | -- | -- |
 | Homepage | [https://opentelemetry.io/](https://opentelemetry.io/) |
 | License | Apache-2.0 |
-| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0, v1.25.0 |
+| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0, v1.25.0, v1.26.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [opentelemetry-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opentelemetry-cpp/xmake.lua) |
 
