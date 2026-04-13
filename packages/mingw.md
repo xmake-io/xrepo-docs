@@ -14928,6 +14928,30 @@ add_requires("libudis86")
 ```
 
 
+### libultrahdr (mingw)
+
+
+| Description | *Library for encoding and decoding UltraHDR images* |
+| -- | -- |
+| Homepage | [https://github.com/google/libultrahdr](https://github.com/google/libultrahdr) |
+| License | Apache-2.0 |
+| Versions | v1.4.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libultrahdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libultrahdr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libultrahdr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libultrahdr")
+```
+
+
 ### libunifex (mingw)
 
 

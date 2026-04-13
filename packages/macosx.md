@@ -19611,6 +19611,30 @@ add_requires("libui")
 ```
 
 
+### libultrahdr (macosx)
+
+
+| Description | *Library for encoding and decoding UltraHDR images* |
+| -- | -- |
+| Homepage | [https://github.com/google/libultrahdr](https://github.com/google/libultrahdr) |
+| License | Apache-2.0 |
+| Versions | v1.4.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [libultrahdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libultrahdr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libultrahdr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libultrahdr")
+```
+
+
 ### libunifex (macosx)
 
 
@@ -38554,7 +38578,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e3c6c4fcd0 |
+| License | table: 0x55e79a003970 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

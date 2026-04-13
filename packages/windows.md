@@ -19074,6 +19074,30 @@ add_requires("libui")
 ```
 
 
+### libultrahdr (windows)
+
+
+| Description | *Library for encoding and decoding UltraHDR images* |
+| -- | -- |
+| Homepage | [https://github.com/google/libultrahdr](https://github.com/google/libultrahdr) |
+| License | Apache-2.0 |
+| Versions | v1.4.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [libultrahdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libultrahdr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libultrahdr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libultrahdr")
+```
+
+
 ### libunifex (windows)
 
 

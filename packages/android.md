@@ -13945,6 +13945,30 @@ add_requires("libudis86")
 ```
 
 
+### libultrahdr (android)
+
+
+| Description | *Library for encoding and decoding UltraHDR images* |
+| -- | -- |
+| Homepage | [https://github.com/google/libultrahdr](https://github.com/google/libultrahdr) |
+| License | Apache-2.0 |
+| Versions | v1.4.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [libultrahdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libultrahdr/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libultrahdr
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libultrahdr")
+```
+
+
 ### libunifex (android)
 
 
