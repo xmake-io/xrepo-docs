@@ -1804,7 +1804,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -12478,6 +12478,30 @@ add_requires("hashcat")
 ```
 
 
+### hdbscan-cpp (macosx)
+
+
+| Description | *A C++ implementation of HDBSCAN clustering algorithm* |
+| -- | -- |
+| Homepage | [https://github.com/rohanmohapatra/hdbscan-cpp](https://github.com/rohanmohapatra/hdbscan-cpp) |
+| License | MIT |
+| Versions | 2019.07.09 |
+| Architectures | arm64, x86_64 |
+| Definition | [hdbscan-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdbscan-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hdbscan-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hdbscan-cpp")
+```
+
+
 ### hdf5 (macosx)
 
 
@@ -14135,8 +14159,9 @@ add_requires("jasper")
 
 | Description | *A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support.* |
 | -- | -- |
-| Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
-| Versions | 5.2.1, 5.3.0 |
+| Homepage | [https://jemalloc.net/](https://jemalloc.net/) |
+| License | BSD-2-Clause |
+| Versions | 5.2.1, 5.3.0, 5.3.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
 
@@ -14831,7 +14856,7 @@ add_requires("klib")
 | -- | -- |
 | Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1, 5.0.2 |
+| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1, 5.0.2, 5.1.0 |
 | Architectures | x86_64 |
 | Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
 
@@ -15833,7 +15858,7 @@ add_requires("libcurl")
 | -- | -- |
 | Homepage | [https://libdatachannel.org/](https://libdatachannel.org/) |
 | License | MPL-2.0 |
-| Versions | v0.23.1, v0.23.2, v0.24.1 |
+| Versions | v0.23.1, v0.23.2, v0.24.1, v0.24.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libdatachannel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdatachannel/xmake.lua) |
 
@@ -16550,7 +16575,7 @@ add_requires("libfreenect2")
 | -- | -- |
 | Homepage | [https://emcrisostomo.github.io/fswatch/](https://emcrisostomo.github.io/fswatch/) |
 | License | GPL-3.0 |
-| Versions | 1.17.1, 1.18.2, 1.18.3 |
+| Versions | 1.17.1, 1.18.2, 1.18.3, 1.19.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libfswatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfswatch/xmake.lua) |
 
@@ -19858,7 +19883,7 @@ add_requires("libverto")
 | -- | -- |
 | Homepage | [https://libvips.github.io/libvips/](https://libvips.github.io/libvips/) |
 | License | LGPL-2.1 |
-| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1 |
+| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1, v8.18.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libvips/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvips/xmake.lua) |
 
@@ -25922,7 +25947,7 @@ add_requires("nvtx")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/ShaderLang](https://github.com/NazaraEngine/ShaderLang) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [nzsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nzsl/xmake.lua) |
 
@@ -38578,7 +38603,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56229bbdd680 |
+| License | table: 0x55d14b658320 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -39758,6 +39783,30 @@ xrepo install yojimbo
 
 ```lua
 add_requires("yojimbo")
+```
+
+
+### yolos-cpp (macosx)
+
+
+| Description | *Cross-Platform Production-ready C++ inference engine for YOLO models (v5-v12, YOLO26).* |
+| -- | -- |
+| Homepage | [https://github.com/Geekgineer/YOLOs-CPP](https://github.com/Geekgineer/YOLOs-CPP) |
+| License | AGPL-3.0 |
+| Versions | v1.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [yolos-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yolos-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install yolos-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yolos-cpp")
 ```
 
 

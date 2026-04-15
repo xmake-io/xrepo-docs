@@ -9583,7 +9583,7 @@ add_requires("libcron")
 | -- | -- |
 | Homepage | [https://libdatachannel.org/](https://libdatachannel.org/) |
 | License | MPL-2.0 |
-| Versions | v0.23.1, v0.23.2, v0.24.1 |
+| Versions | v0.23.1, v0.23.2, v0.24.1, v0.24.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libdatachannel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdatachannel/xmake.lua) |
 
@@ -15432,7 +15432,7 @@ add_requires("nvtx")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/ShaderLang](https://github.com/NazaraEngine/ShaderLang) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [nzsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nzsl/xmake.lua) |
 

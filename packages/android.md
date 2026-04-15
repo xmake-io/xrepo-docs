@@ -9041,6 +9041,30 @@ add_requires("hash-library")
 ```
 
 
+### hdbscan-cpp (android)
+
+
+| Description | *A C++ implementation of HDBSCAN clustering algorithm* |
+| -- | -- |
+| Homepage | [https://github.com/rohanmohapatra/hdbscan-cpp](https://github.com/rohanmohapatra/hdbscan-cpp) |
+| License | MIT |
+| Versions | 2019.07.09 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [hdbscan-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdbscan-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] hdbscan-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hdbscan-cpp")
+```
+
+
 ### hedley (android)
 
 
@@ -10196,8 +10220,9 @@ add_requires("jansson")
 
 | Description | *A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support.* |
 | -- | -- |
-| Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
-| Versions | 5.2.1, 5.3.0 |
+| Homepage | [https://jemalloc.net/](https://jemalloc.net/) |
+| License | BSD-2-Clause |
+| Versions | 5.2.1, 5.3.0, 5.3.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
 
@@ -11348,7 +11373,7 @@ add_requires("libcurl")
 | -- | -- |
 | Homepage | [https://libdatachannel.org/](https://libdatachannel.org/) |
 | License | MPL-2.0 |
-| Versions | v0.23.1, v0.23.2, v0.24.1 |
+| Versions | v0.23.1, v0.23.2, v0.24.1, v0.24.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libdatachannel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdatachannel/xmake.lua) |
 
@@ -18295,7 +18320,7 @@ add_requires("nvtx")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/ShaderLang](https://github.com/NazaraEngine/ShaderLang) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [nzsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nzsl/xmake.lua) |
 

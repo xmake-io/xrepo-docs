@@ -9810,6 +9810,30 @@ add_requires("hashcat")
 ```
 
 
+### hdbscan-cpp (mingw)
+
+
+| Description | *A C++ implementation of HDBSCAN clustering algorithm* |
+| -- | -- |
+| Homepage | [https://github.com/rohanmohapatra/hdbscan-cpp](https://github.com/rohanmohapatra/hdbscan-cpp) |
+| License | MIT |
+| Versions | 2019.07.09 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [hdbscan-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hdbscan-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] hdbscan-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hdbscan-cpp")
+```
+
+
 ### hedley (mingw)
 
 
@@ -11013,8 +11037,9 @@ add_requires("jansson")
 
 | Description | *A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support.* |
 | -- | -- |
-| Homepage | [http://jemalloc.net/](http://jemalloc.net/) |
-| Versions | 5.2.1, 5.3.0 |
+| Homepage | [https://jemalloc.net/](https://jemalloc.net/) |
+| License | BSD-2-Clause |
+| Versions | 5.2.1, 5.3.0, 5.3.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
 
@@ -15126,7 +15151,7 @@ add_requires("libva")
 | -- | -- |
 | Homepage | [https://libvips.github.io/libvips/](https://libvips.github.io/libvips/) |
 | License | LGPL-2.1 |
-| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1 |
+| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1, v8.18.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libvips/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvips/xmake.lua) |
 
@@ -19563,7 +19588,7 @@ add_requires("nvtx")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/ShaderLang](https://github.com/NazaraEngine/ShaderLang) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [nzsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nzsl/xmake.lua) |
 
