@@ -21808,7 +21808,7 @@ add_requires("safetyhook")
 | -- | -- |
 | Homepage | [https://github.com/sailormoon/flags](https://github.com/sailormoon/flags) |
 | License | MIT |
-| Versions | 1.1 |
+| Versions | 1.1, 1.2 |
 | Architectures | i386, x86_64 |
 | Definition | [sailormoon_flags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sailormoon_flags/xmake.lua) |
 

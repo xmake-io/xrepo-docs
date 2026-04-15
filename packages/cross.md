@@ -22145,7 +22145,7 @@ add_requires("s7")
 | -- | -- |
 | Homepage | [https://github.com/sailormoon/flags](https://github.com/sailormoon/flags) |
 | License | MIT |
-| Versions | 1.1 |
+| Versions | 1.1, 1.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [sailormoon_flags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sailormoon_flags/xmake.lua) |
 

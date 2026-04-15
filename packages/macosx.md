@@ -32203,7 +32203,7 @@ add_requires("s7")
 | -- | -- |
 | Homepage | [https://github.com/sailormoon/flags](https://github.com/sailormoon/flags) |
 | License | MIT |
-| Versions | 1.1 |
+| Versions | 1.1, 1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [sailormoon_flags/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sailormoon_flags/xmake.lua) |
 
@@ -38603,7 +38603,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d14b658320 |
+| License | table: 0x562e14502010 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
