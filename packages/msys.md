@@ -14004,7 +14004,7 @@ add_requires("libzippp")
 | -- | -- |
 | Homepage | [https://lief.quarkslab.com](https://lief.quarkslab.com) |
 | License | Apache-2.0 |
-| Versions | 0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0, 0.16.1, 0.16.2, 0.16.3, 0.16.4, 0.16.5, 0.16.6, 0.17.0, 0.17.1, 0.17.2, 0.17.3 |
+| Versions | 0.10.1, 0.11.5, 0.14.0, 0.14.1, 0.15.1, 0.16.0, 0.16.1, 0.16.2, 0.16.3, 0.16.4, 0.16.5, 0.16.6, 0.17.0, 0.17.1, 0.17.2, 0.17.3, 0.17.6 |
 | Architectures | i386, x86_64 |
 | Definition | [lief/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lief/xmake.lua) |
 
@@ -18300,7 +18300,7 @@ add_requires("openimagedenoise")
 | -- | -- |
 | Homepage | [https://jdk.java.net](https://jdk.java.net) |
 | License | GPL-2.0 |
-| Versions | 21.0.5 |
+| Versions | 21.0.5, 21.0.10, 25.0.2 |
 | Architectures | x86_64 |
 | Definition | [openjdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjdk/xmake.lua) |
 
@@ -23552,7 +23552,7 @@ add_requires("svt-av1")
 | -- | -- |
 | Homepage | [http://swig.org/](http://swig.org/) |
 | License | GPL-3.0 |
-| Versions | 4.0.2, 4.1.1 |
+| Versions | 4.0.2, 4.1.1, 4.2.1, 4.3.1, 4.4.1 |
 | Architectures | i386, x86_64 |
 | Definition | [swig/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swig/xmake.lua) |
 
