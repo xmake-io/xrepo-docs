@@ -16028,7 +16028,7 @@ add_requires("minitrace")
 | -- | -- |
 | Homepage | [https://github.com/richgel999/miniz/](https://github.com/richgel999/miniz/) |
 | License | MIT |
-| Versions | 2.1.0, 2.2.0, 3.0.2, 3.1.0 |
+| Versions | 2.1.0, 2.2.0, 3.0.2, 3.1.0, 3.1.1 |
 | Architectures | i386, x86_64 |
 | Definition | [miniz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniz/xmake.lua) |
 
