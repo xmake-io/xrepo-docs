@@ -1491,7 +1491,7 @@ add_requires("aws-checksums")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -6012,7 +6012,7 @@ add_requires("docopt")
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
 | License | MIT |
-| Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11, 2.4.12, 2.5.0 |
+| Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11, 2.4.12, 2.5.0, 2.5.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
@@ -10296,7 +10296,7 @@ add_requires("imcoolbar")
 | -- | -- |
 | Homepage | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui) |
 | License | MIT |
-| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3, v1.90.4-docking, v1.90.4, v1.90.5-docking, v1.90.5, v1.90.6-docking, v1.90.6, v1.90.7-docking, v1.90.7, v1.90.8-docking, v1.90.8, v1.90.9-docking, v1.90.9, v1.91.0-docking, v1.91.0, v1.91.1-docking, v1.91.1, v1.91.2-docking, v1.91.2, v1.91.3-docking, v1.91.3, v1.91.4-docking, v1.91.4, v1.91.5-docking, v1.91.5, v1.91.6-docking, v1.91.6, v1.91.7-docking, v1.91.7, v1.91.8-docking, v1.91.8, v1.91.9-docking, v1.91.9, v1.92.0-docking, v1.92.0, v1.92.1-docking, v1.92.1, v1.92.2-docking, v1.92.2, v1.92.3-docking, v1.92.3, v1.92.4-docking, v1.92.4, v1.92.5-docking, v1.92.5, v1.92.6-docking, v1.92.6 |
+| Versions | v1.75, v1.76, v1.77, v1.78, v1.79, v1.80, v1.81, v1.82, v1.83-docking, v1.83, v1.84.1, v1.84.2, v1.85-docking, v1.85, v1.86, v1.87-docking, v1.87, v1.88-docking, v1.88, v1.89-docking, v1.89, v1.89.3-docking, v1.89.3, v1.89.4-docking, v1.89.4, v1.89.5-docking, v1.89.5, v1.89.6-docking, v1.89.6, v1.89.7-docking, v1.89.7, v1.89.8-docking, v1.89.8, v1.89.9-docking, v1.89.9, v1.90-docking, v1.90, v1.90.1-docking, v1.90.1, v1.90.2-docking, v1.90.2, v1.90.3-docking, v1.90.3, v1.90.4-docking, v1.90.4, v1.90.5-docking, v1.90.5, v1.90.6-docking, v1.90.6, v1.90.7-docking, v1.90.7, v1.90.8-docking, v1.90.8, v1.90.9-docking, v1.90.9, v1.91.0-docking, v1.91.0, v1.91.1-docking, v1.91.1, v1.91.2-docking, v1.91.2, v1.91.3-docking, v1.91.3, v1.91.4-docking, v1.91.4, v1.91.5-docking, v1.91.5, v1.91.6-docking, v1.91.6, v1.91.7-docking, v1.91.7, v1.91.8-docking, v1.91.8, v1.91.9-docking, v1.91.9, v1.92.0-docking, v1.92.0, v1.92.1-docking, v1.92.1, v1.92.2-docking, v1.92.2, v1.92.3-docking, v1.92.3, v1.92.4-docking, v1.92.4, v1.92.5-docking, v1.92.5, v1.92.6-docking, v1.92.6, v1.92.7-docking, v1.92.7 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [imgui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imgui/xmake.lua) |
 
@@ -11159,7 +11159,7 @@ add_requires("jrtplib")
 | -- | -- |
 | Homepage | [https://github.com/JSBSim-Team/jsbsim](https://github.com/JSBSim-Team/jsbsim) |
 | License | LGPL-2.1 |
-| Versions | v1.2.0, v1.2.1, v1.2.2, v1.2.3 |
+| Versions | v1.2.0, v1.2.1, v1.2.2, v1.2.3, v1.3.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [jsbsim/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsbsim/xmake.lua) |
 
@@ -13836,7 +13836,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [https://www.libpng.org/pub/png/libpng.html](https://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50, v1.6.51, v1.6.53, v1.6.54, v1.6.55, v1.6.56, v1.6.57 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50, v1.6.51, v1.6.53, v1.6.54, v1.6.55, v1.6.56, v1.6.57, v1.6.58 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -19017,7 +19017,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 1.21.0, 1.22.0 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 1.21.0, 1.22.0, 1.22.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -23981,9 +23981,9 @@ add_requires("rocket")
 
 | Description | *A library that provides an embeddable, persistent key-value store for fast storage.* |
 | -- | -- |
-| Homepage | [http://rocksdb.org](http://rocksdb.org) |
+| Homepage | [https://rocksdb.org](https://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v7.10.2, v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5, v10.9.1, v10.10.1 |
+| Versions | v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5, v10.9.1, v10.10.1, v11.0.4 |
 | Architectures | x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -27304,7 +27304,7 @@ add_requires("tinyexpr")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
 | License | BSD-3-Clause |
-| Versions | v1.0.1, v1.0.8, v1.0.9, v1.0.10, v1.0.12 |
+| Versions | v1.0.1, v1.0.8, v1.0.9, v1.0.10, v1.0.12, v1.0.13 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
 
