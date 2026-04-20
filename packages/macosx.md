@@ -1851,7 +1851,7 @@ add_requires("aws-lc")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.11.760, 1.11.769, 1.11.773, 1.11.779, 1.11.784, 1.11.788 |
+| Versions | 1.11.760, 1.11.769, 1.11.773, 1.11.779, 1.11.784, 1.11.788, 1.11.792 |
 | Architectures | arm64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
@@ -1996,7 +1996,7 @@ add_requires("bandit")
 | -- | -- |
 | Homepage | [https://oir.github.io/barkeep/](https://oir.github.io/barkeep/) |
 | License | Apache-2.0 |
-| Versions | v0.1.3, v0.1.4, v0.1.5 |
+| Versions | v0.1.3, v0.1.4, v0.1.5, v0.1.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [barkeep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/barkeep/xmake.lua) |
 
@@ -3426,7 +3426,7 @@ add_requires("c-vector")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10 |
+| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10, 0.2.11 |
 | Architectures | arm64, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -7367,7 +7367,7 @@ add_requires("distorm")
 | -- | -- |
 | Homepage | [https://dlib.net](https://dlib.net) |
 | License | Boost |
-| Versions | v19.22, v19.24.4, v19.24.5, v19.24.6, v19.24.8, v19.24.9, v20.0 |
+| Versions | v19.22, v19.24.4, v19.24.5, v19.24.6, v19.24.8, v19.24.9, v20.0, v20.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [dlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlib/xmake.lua) |
 
@@ -11932,7 +11932,7 @@ add_requires("gsl")
 | -- | -- |
 | Homepage | [https://github.com/gsl-lite/gsl-lite](https://github.com/gsl-lite/gsl-lite) |
 | License | MIT |
-| Versions | v0.41.0, v0.42.0, v0.43.0, v1.0.1 |
+| Versions | v0.41.0, v0.42.0, v0.43.0, v1.0.1, v1.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [gsl-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl-lite/xmake.lua) |
 
@@ -18287,7 +18287,7 @@ add_requires("libqrencode")
 | -- | -- |
 | Homepage | [https://host-oman.github.io/libraqm](https://host-oman.github.io/libraqm) |
 | License | MIT |
-| Versions | v0.10.1, v0.10.2, v0.10.3, v0.10.4 |
+| Versions | v0.10.1, v0.10.2, v0.10.3, v0.10.4, v0.10.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [libraqm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraqm/xmake.lua) |
 
@@ -21345,7 +21345,7 @@ add_requires("lmdb")
 | -- | -- |
 | Homepage | [https://github.com/DNedic/lockfree](https://github.com/DNedic/lockfree) |
 | License | MIT |
-| Versions | 2.0.10 |
+| Versions | 2.0.10, 3.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [lockfree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lockfree/xmake.lua) |
 
@@ -26811,7 +26811,7 @@ add_requires("opencv-mobile")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10 |
 | Architectures | arm64, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -27026,7 +27026,7 @@ add_requires("openjpeg")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -32227,7 +32227,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
 | License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0, v0.27.1, v0.28.0 |
+| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0, v0.27.1, v0.28.0, v0.29.2 |
 | Architectures | x86_64 |
 | Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
 
@@ -33944,7 +33944,7 @@ add_requires("sqlgen")
 | -- | -- |
 | Homepage | [https://github.com/asg017/sqlite-vec](https://github.com/asg017/sqlite-vec) |
 | License | Apache-2.0 |
-| Versions | 0.1.3, 0.1.6, 0.1.7 |
+| Versions | 0.1.3, 0.1.6, 0.1.7, 0.1.9 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlite-vec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite-vec/xmake.lua) |
 
@@ -35546,7 +35546,7 @@ add_requires("tf_workstealingqueue")
 | -- | -- |
 | Homepage | [http://reo7sp.github.io/tgbot-cpp](http://reo7sp.github.io/tgbot-cpp) |
 | License | MIT |
-| Versions | v1.7.2, v1.7.3, v1.8, v1.9, v1.9.1 |
+| Versions | v1.7.2, v1.7.3, v1.8, v1.9, v1.9.1, v1.10 |
 | Architectures | arm64, x86_64 |
 | Definition | [tgbot-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tgbot-cpp/xmake.lua) |
 
@@ -37217,7 +37217,7 @@ add_requires("upa-url")
 | -- | -- |
 | Homepage | [https://wiki.ros.org/urdf](https://wiki.ros.org/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2, 5.0.3, 5.0.4, 5.1.0 |
+| Versions | 1.0.4, 4.0.0, 4.0.1, 5.0.2, 5.0.3, 5.0.4, 5.1.0, 5.1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [urdfdom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom/xmake.lua) |
 
@@ -37239,9 +37239,9 @@ add_requires("urdfdom")
 
 | Description | *Headers for URDF parsers* |
 | -- | -- |
-| Homepage | [http://ros.org/wiki/urdf](http://ros.org/wiki/urdf) |
+| Homepage | [https://ros.org/wiki/urdf](https://ros.org/wiki/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1, 2.1.0 |
+| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1, 2.1.0, 2.1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
 
@@ -38603,7 +38603,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5610f3fc18a0 |
+| License | table: 0x56127516e590 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
