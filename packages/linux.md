@@ -7196,7 +7196,7 @@ add_requires("dascript")
 | -- | -- |
 | Homepage | [https://hosseinmoein.github.io/DataFrame/](https://hosseinmoein.github.io/DataFrame/) |
 | License | MIT |
-| Versions | 1.21.0, 1.22.0, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.6.0, 3.7.0, 4.0.0 |
+| Versions | 1.21.0, 1.22.0, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.6.0, 3.7.0, 4.0.0, 4.0.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
 
@@ -27464,7 +27464,7 @@ add_requires("ng-log")
 | -- | -- |
 | Homepage | [http://nghttp2.org/](http://nghttp2.org/) |
 | License | MIT |
-| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1, 1.63.0, 1.64.0, 1.65.0, 1.66.0, 1.67.0, 1.67.1, 1.68.0, 1.68.1 |
+| Versions | 1.46.0, 1.58.0, 1.59.0, 1.60.0, 1.61.0, 1.62.0, 1.62.1, 1.63.0, 1.64.0, 1.65.0, 1.66.0, 1.67.0, 1.67.1, 1.68.0, 1.68.1, 1.69.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [nghttp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp2/xmake.lua) |
 
@@ -41785,7 +41785,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564252e46750 |
+| License | table: 0x55f589bbbe70 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
