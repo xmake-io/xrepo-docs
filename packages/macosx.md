@@ -12676,7 +12676,7 @@ add_requires("highfive")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1 |
+| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -15548,7 +15548,7 @@ add_requires("libatomic_ops")
 | -- | -- |
 | Homepage | [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) |
 | License | BSD-2-Clause |
-| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1, v1.2.1, v1.3.0 |
+| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1, v1.2.1, v1.3.0, v1.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libavif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua) |
 
@@ -17215,7 +17215,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2, v1.7.0 |
+| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
@@ -32512,7 +32512,7 @@ add_requires("sentencepiece")
 | -- | -- |
 | Homepage | [https://sentry.io/welcome/](https://sentry.io/welcome/) |
 | License | MIT |
-| Versions | 0.4.15, 0.5.0, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2 |
+| Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7 |
 | Architectures | x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
@@ -38603,7 +38603,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5622cc3ac540 |
+| License | table: 0x559bad5445b0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

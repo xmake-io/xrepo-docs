@@ -11158,7 +11158,7 @@ add_requires("libatomic_ops")
 | -- | -- |
 | Homepage | [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) |
 | License | BSD-2-Clause |
-| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1, v1.2.1, v1.3.0 |
+| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1, v1.2.1, v1.3.0, v1.4.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libavif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua) |
 
@@ -12256,7 +12256,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2, v1.7.0 |
+| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 

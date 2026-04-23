@@ -8984,7 +8984,7 @@ add_requires("hexl")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1 |
+| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -11904,7 +11904,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2, v1.7.0 |
+| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
