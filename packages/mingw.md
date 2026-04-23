@@ -7667,7 +7667,7 @@ add_requires("floatengine")
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
 | License | zlib |
-| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [fls-float-raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fls-float-raylib/xmake.lua) |
 
@@ -23384,7 +23384,7 @@ add_requires("raw_pdb")
 | -- | -- |
 | Homepage | [http://www.raylib.com](http://www.raylib.com) |
 | License | zlib |
-| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
