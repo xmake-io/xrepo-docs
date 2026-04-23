@@ -743,6 +743,30 @@ add_requires("audiofile")
 ```
 
 
+### aui (wasm)
+
+
+| Description | *Declarative UI toolkit for modern C++20* |
+| -- | -- |
+| Homepage | [https://github.com/aui-framework/aui](https://github.com/aui-framework/aui) |
+| License | MPL-2.0 |
+| Versions | v7.1.2 |
+| Architectures | wasm32, wasm64 |
+| Definition | [aui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm aui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aui")
+```
+
+
 ### aui-toolbox (wasm)
 
 
