@@ -31105,7 +31105,7 @@ add_requires("raylib")
 | -- | -- |
 | Homepage | [https://github.com/RobLoach/raylib-cpp](https://github.com/RobLoach/raylib-cpp) |
 | License | zlib |
-| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1 |
+| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [raylib-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib-cpp/xmake.lua) |
 
@@ -37934,7 +37934,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315, v1.4.325, v1.4.342 |
+| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315, v1.4.325, v1.4.342, v1.4.349 |
 | Architectures | arm64, x86_64 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 
@@ -38603,7 +38603,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559abc924b80 |
+| License | table: 0x56134ac8a5a0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
