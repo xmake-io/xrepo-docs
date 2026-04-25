@@ -7367,7 +7367,7 @@ add_requires("directx-headers")
 | -- | -- |
 | Homepage | [https://devblogs.microsoft.com/directx/directx-12-agility-sdk](https://devblogs.microsoft.com/directx/directx-12-agility-sdk) |
 | License | Microsoft |
-| Versions | 1.618.1 |
+| Versions | 1.618.1, 1.619.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [directx12-agility/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directx12-agility/xmake.lua) |
 
