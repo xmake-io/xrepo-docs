@@ -14974,7 +14974,7 @@ add_requires("kotlin-native")
 | Description | *Kerberos: The Network Authentication Protocol* |
 | -- | -- |
 | Homepage | [http://web.mit.edu/kerberos/](http://web.mit.edu/kerberos/) |
-| Versions | 1.22.1 |
+| Versions | 1.22.1, 1.22.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [krb5/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/krb5/xmake.lua) |
 
@@ -38603,7 +38603,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56054c830720 |
+| License | table: 0x55b86338fc70 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
