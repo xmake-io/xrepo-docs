@@ -7700,7 +7700,7 @@ add_requires("dlpack")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/DLSS](https://github.com/NVIDIA/DLSS) |
 | License | NVIDIA RTX SDKs |
-| Versions | v3.7.20, v310.1.0, v310.2.1, v310.3.0, v310.4.0, v310.5.0, v310.5.3 |
+| Versions | v3.7.20, v310.1.0, v310.2.1, v310.3.0, v310.4.0, v310.5.0, v310.5.3, v310.6.0 |
 | Architectures | x64 |
 | Definition | [dlss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlss/xmake.lua) |
 
