@@ -1780,7 +1780,7 @@ add_requires("aws-c-mqtt")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -2590,7 +2590,7 @@ add_requires("blake2")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2, 1.8.3, 1.8.4 |
+| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
@@ -25951,8 +25951,8 @@ add_requires("openimagedenoise")
 | -- | -- |
 | Homepage | [https://sites.google.com/site/openimageio/home](https://sites.google.com/site/openimageio/home) |
 | License | BSD-3-Clause |
-| Versions | 2.2.19+0, 2.3.10+1, 2.3.13+0 |
-| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Versions | 2.5.19+1, 3.1.12+0 |
+| Architectures | arm, arm64ec, x64, x86 |
 | Definition | [openimageio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openimageio/xmake.lua) |
 
 ##### Install command
