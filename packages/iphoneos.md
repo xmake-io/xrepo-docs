@@ -11675,6 +11675,30 @@ add_requires("libllvm")
 ```
 
 
+### liblo (iphoneos)
+
+
+| Description | *An implementation of the Open Sound Control protocol for POSIX systems* |
+| -- | -- |
+| Homepage | [https://github.com/radarsat1/liblo](https://github.com/radarsat1/liblo) |
+| License | LGPL-2.1-or-later |
+| Versions | 0.34 |
+| Architectures | arm64, x86_64 |
+| Definition | [liblo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liblo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos liblo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("liblo")
+```
+
+
 ### libmaxminddb (iphoneos)
 
 
@@ -12737,7 +12761,7 @@ add_requires("libsndfile")
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
 | License | ISC |
-| Versions | 1.0.18, 1.0.19, 1.0.20, 1.0.21 |
+| Versions | 1.0.18, 1.0.19, 1.0.20, 1.0.21, 1.0.22 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
@@ -15527,7 +15551,7 @@ add_requires("minizip")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
 | License | zlib |
-| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0 |
+| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0, 4.1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 

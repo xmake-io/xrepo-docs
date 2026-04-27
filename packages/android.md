@@ -7352,7 +7352,7 @@ add_requires("fpm")
 | -- | -- |
 | Homepage | [https://www.freerdp.com/](https://www.freerdp.com/) |
 | License | Apache-2.0 |
-| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0 |
+| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [freerdp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freerdp/xmake.lua) |
 
@@ -7714,7 +7714,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/TulipHook](https://github.com/geode-sdk/TulipHook) |
 | License | BSL-1.0 |
-| Versions | v3.1.7, v3.1.9 |
+| Versions | v3.1.7, v3.1.9, v3.1.12 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [geode-sdk-tuliphook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-tuliphook/xmake.lua) |
 
@@ -12415,6 +12415,30 @@ add_requires("libllvm")
 ```
 
 
+### liblo (android)
+
+
+| Description | *An implementation of the Open Sound Control protocol for POSIX systems* |
+| -- | -- |
+| Homepage | [https://github.com/radarsat1/liblo](https://github.com/radarsat1/liblo) |
+| License | LGPL-2.1-or-later |
+| Versions | 0.34 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [liblo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liblo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] liblo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("liblo")
+```
+
+
 ### libmaxminddb (android)
 
 
@@ -13620,7 +13644,7 @@ add_requires("libsndfile")
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
 | License | ISC |
-| Versions | 1.0.18, 1.0.19, 1.0.20, 1.0.21 |
+| Versions | 1.0.18, 1.0.19, 1.0.20, 1.0.21, 1.0.22 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
@@ -16578,7 +16602,7 @@ add_requires("minizip")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
 | License | zlib |
-| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0 |
+| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0, 4.1.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 

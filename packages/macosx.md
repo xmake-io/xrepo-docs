@@ -10024,7 +10024,7 @@ add_requires("freeimage")
 | -- | -- |
 | Homepage | [https://www.freerdp.com/](https://www.freerdp.com/) |
 | License | Apache-2.0 |
-| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0 |
+| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [freerdp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freerdp/xmake.lua) |
 
@@ -10624,7 +10624,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/TulipHook](https://github.com/geode-sdk/TulipHook) |
 | License | BSL-1.0 |
-| Versions | v3.1.7, v3.1.9 |
+| Versions | v3.1.7, v3.1.9, v3.1.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [geode-sdk-tuliphook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-tuliphook/xmake.lua) |
 
@@ -17374,6 +17374,30 @@ add_requires("libllvm")
 ```
 
 
+### liblo (macosx)
+
+
+| Description | *An implementation of the Open Sound Control protocol for POSIX systems* |
+| -- | -- |
+| Homepage | [https://github.com/radarsat1/liblo](https://github.com/radarsat1/liblo) |
+| License | LGPL-2.1-or-later |
+| Versions | 0.34 |
+| Architectures | arm64, x86_64 |
+| Definition | [liblo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liblo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install liblo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("liblo")
+```
+
+
 ### libmagic (macosx)
 
 
@@ -19096,7 +19120,7 @@ add_requires("libsndio")
 | -- | -- |
 | Homepage | [https://libsodium.org](https://libsodium.org) |
 | License | ISC |
-| Versions | 1.0.18, 1.0.19, 1.0.20, 1.0.21 |
+| Versions | 1.0.18, 1.0.19, 1.0.20, 1.0.21, 1.0.22 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsodium/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsodium/xmake.lua) |
 
@@ -23516,7 +23540,7 @@ add_requires("minizip")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
 | License | zlib |
-| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0 |
+| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0, 4.1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 
@@ -30625,7 +30649,7 @@ add_requires("quake_triangle")
 | Description | *The QuantLib C++ library* |
 | -- | -- |
 | Homepage | [http://quantlib.org](http://quantlib.org) |
-| Versions | 1.33, 1.34, 1.35, 1.39, 1.40, 1.41 |
+| Versions | 1.33, 1.34, 1.35, 1.39, 1.40, 1.41, 1.42.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [quantlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quantlib/xmake.lua) |
 
@@ -37289,7 +37313,7 @@ add_requires("uriparser")
 | -- | -- |
 | Homepage | [http://www.openusd.org](http://www.openusd.org) |
 | License | Apache-2.0 |
-| Versions | v22.11, v23.02, v24.03, v24.05, v24.08, v25.05, v25.05.01, v25.08, v25.11, v26.03 |
+| Versions | v22.11, v23.02, v24.03, v24.05, v24.08, v25.05, v25.05.01, v25.08, v25.11, v26.03, v26.05 |
 | Architectures | arm64, x86_64 |
 | Definition | [usd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usd/xmake.lua) |
 
@@ -38603,7 +38627,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5586cecf9460 |
+| License | table: 0x563bebcd4ca0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
