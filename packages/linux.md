@@ -37463,7 +37463,7 @@ add_requires("stfl")
 | -- | -- |
 | Homepage | [https://stlab.cc/](https://stlab.cc/) |
 | License | BSL-1.0 |
-| Versions | v1.6.2 |
+| Versions | v1.6.2, v2.3.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [stlab/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stlab/xmake.lua) |
 
@@ -41810,7 +41810,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ad4ce29510 |
+| License | table: 0x56509e1abec0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

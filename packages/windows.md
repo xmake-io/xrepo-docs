@@ -33635,7 +33635,7 @@ add_requires("stfl")
 | -- | -- |
 | Homepage | [https://stlab.cc/](https://stlab.cc/) |
 | License | BSL-1.0 |
-| Versions | v1.6.2 |
+| Versions | v1.6.2, v2.3.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [stlab/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stlab/xmake.lua) |
 
