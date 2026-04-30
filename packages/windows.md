@@ -416,7 +416,7 @@ add_requires("alpaka")
 | -- | -- |
 | Homepage | [https://github.com/ddemidov/amgcl/](https://github.com/ddemidov/amgcl/) |
 | License | MIT |
-| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5 |
+| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [amgcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua) |
 
@@ -1875,7 +1875,7 @@ add_requires("aws-crt-cpp")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -10599,7 +10599,7 @@ add_requires("function2")
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
 | License | BSL-1.0 |
-| Versions | v0.2.22, v0.2.23, v0.2.24, v0.2.25, v0.2.26, v0.2.27 |
+| Versions | v0.2.22, v0.2.23, v0.2.24, v0.2.25, v0.2.26, v0.2.27, v0.2.28 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
@@ -15072,7 +15072,7 @@ add_requires("kokkos")
 | -- | -- |
 | Homepage | [https://github.com/kokkos/kokkos-kernels](https://github.com/kokkos/kokkos-kernels) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0, 5.0.2, 5.1.0 |
+| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0, 5.0.2, 5.1.0, 5.1.1 |
 | Architectures | x64 |
 | Definition | [kokkos-kernels/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos-kernels/xmake.lua) |
 
@@ -19821,7 +19821,7 @@ add_requires("lightningscanner")
 | -- | -- |
 | Homepage | [https://github.com/yanyiwu/limonp](https://github.com/yanyiwu/limonp) |
 | License | MIT |
-| Versions | v0.9.0, v1.0.0, v1.0.1 |
+| Versions | v0.9.0, v1.0.0, v1.0.1, v1.0.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [limonp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/limonp/xmake.lua) |
 

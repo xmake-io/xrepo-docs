@@ -7524,7 +7524,7 @@ add_requires("function2")
 | -- | -- |
 | Homepage | [http://www.editgym.com/fplus-api-search/](http://www.editgym.com/fplus-api-search/) |
 | License | BSL-1.0 |
-| Versions | v0.2.22, v0.2.23, v0.2.24, v0.2.25, v0.2.26, v0.2.27 |
+| Versions | v0.2.22, v0.2.23, v0.2.24, v0.2.25, v0.2.26, v0.2.27, v0.2.28 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [functionalplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/functionalplus/xmake.lua) |
 
@@ -14408,7 +14408,7 @@ add_requires("lightmapper")
 | -- | -- |
 | Homepage | [https://github.com/yanyiwu/limonp](https://github.com/yanyiwu/limonp) |
 | License | MIT |
-| Versions | v0.9.0, v1.0.0, v1.0.1 |
+| Versions | v0.9.0, v1.0.0, v1.0.1, v1.0.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [limonp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/limonp/xmake.lua) |
 
@@ -22526,7 +22526,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/fantasy-peak/simple_http](https://github.com/fantasy-peak/simple_http) |
 | License | MIT |
-| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.6.4, v0.6.5, v0.6.6 |
+| Versions | v0.2.0, v0.3.0, v0.4.0, v0.5.0, v0.6.0, v0.6.1, v0.6.2, v0.6.3, v0.6.4, v0.6.5, v0.6.6, v0.6.7 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [simple_http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simple_http/xmake.lua) |
 
