@@ -1804,7 +1804,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -17357,7 +17357,7 @@ add_requires("liblifthttp")
 | Description | *The LLVM Compiler Infrastructure.* |
 | -- | -- |
 | Homepage | [https://llvm.org/](https://llvm.org/) |
-| Versions | 19.1.7 |
+| Versions | 19.1.7, 21.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libllvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libllvm/xmake.lua) |
 
@@ -18359,7 +18359,7 @@ add_requires("librats")
 | -- | -- |
 | Homepage | [http://www.libraw.org](http://www.libraw.org) |
 | License | LGPL-2.1 |
-| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5, 0.22.0 |
+| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5, 0.22.0, 0.22.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 
@@ -23850,7 +23850,7 @@ add_requires("mongo-cxx-driver")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19, 7.20 |
+| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19, 7.20, 7.21 |
 | Architectures | arm64, x86_64 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
@@ -38627,7 +38627,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x561da9dd1500 |
+| License | table: 0x556b39e91d90 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

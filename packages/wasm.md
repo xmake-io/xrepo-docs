@@ -10803,7 +10803,7 @@ add_requires("libqrencode")
 | -- | -- |
 | Homepage | [http://www.libraw.org](http://www.libraw.org) |
 | License | LGPL-2.1 |
-| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5, 0.22.0 |
+| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5, 0.22.0, 0.22.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 
@@ -14167,7 +14167,7 @@ add_requires("mmeter")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19, 7.20 |
+| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19, 7.20, 7.21 |
 | Architectures | wasm32, wasm64 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
