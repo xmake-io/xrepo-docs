@@ -40753,6 +40753,30 @@ add_requires("valijson")
 ```
 
 
+### vamp-plugin-sdk (linux)
+
+
+| Description | *The SDK for Vamp plugins, an API for audio analysis and feature extraction plugins.* |
+| -- | -- |
+| Homepage | [https://www.vamp-plugins.org](https://www.vamp-plugins.org) |
+| License | BSD-3-Clause AND MIT |
+| Versions | 2024.11.20 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [vamp-plugin-sdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vamp-plugin-sdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vamp-plugin-sdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vamp-plugin-sdk")
+```
+
+
 ### vapoursynth (linux)
 
 
@@ -41810,7 +41834,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x556b39e91d90 |
+| License | table: 0x55a6c69ca210 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -28758,6 +28758,30 @@ add_requires("valijson")
 ```
 
 
+### vamp-plugin-sdk (mingw)
+
+
+| Description | *The SDK for Vamp plugins, an API for audio analysis and feature extraction plugins.* |
+| -- | -- |
+| Homepage | [https://www.vamp-plugins.org](https://www.vamp-plugins.org) |
+| License | BSD-3-Clause AND MIT |
+| Versions | 2024.11.20 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [vamp-plugin-sdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vamp-plugin-sdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] vamp-plugin-sdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vamp-plugin-sdk")
+```
+
+
 ### vapoursynth (mingw)
 
 
