@@ -26405,7 +26405,7 @@ add_requires("ompl")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1, v3.10.2, v3.11 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1, v3.10.2, v3.11, v3.11.3 |
 | Architectures | x86_64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -26835,7 +26835,7 @@ add_requires("opencv-mobile")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10, v3.4.11 |
 | Architectures | arm64, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -37265,7 +37265,7 @@ add_requires("urdfdom")
 | -- | -- |
 | Homepage | [https://ros.org/wiki/urdf](https://ros.org/wiki/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1, 2.1.0, 2.1.2 |
+| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1, 2.1.0, 2.1.2, 3.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
 
@@ -38651,7 +38651,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56319bfcf060 |
+| License | table: 0x5588dc0766c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -39435,7 +39435,7 @@ add_requires("xquic")
 | -- | -- |
 | Homepage | [https://github.com/xtensor-stack/xsimd/](https://github.com/xtensor-stack/xsimd/) |
 | License | BSD-3-Clause |
-| Versions | 7.6.0, 8.0.3, 8.0.5, 9.0.1, 10.0.0, 11.0.0, 12.1.1, 13.0.0, 13.1.0, 13.2.0 |
+| Versions | 7.6.0, 8.0.3, 8.0.5, 9.0.1, 10.0.0, 11.0.0, 12.1.1, 13.0.0, 13.1.0, 13.2.0, 14.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [xsimd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xsimd/xmake.lua) |
 

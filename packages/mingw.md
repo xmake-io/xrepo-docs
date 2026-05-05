@@ -20069,7 +20069,7 @@ add_requires("opencore-amr")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10, v3.4.11 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -28501,7 +28501,7 @@ add_requires("upa-url")
 | -- | -- |
 | Homepage | [https://ros.org/wiki/urdf](https://ros.org/wiki/urdf) |
 | License | BSD-3-Clause |
-| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1, 2.1.0, 2.1.2 |
+| Versions | 1.0.5, 1.1.1, 1.1.2, 2.0.0, 2.0.1, 2.1.0, 2.1.2, 3.0.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [urdfdom-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/urdfdom-headers/xmake.lua) |
 
