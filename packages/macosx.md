@@ -8348,7 +8348,7 @@ add_requires("emock")
 | -- | -- |
 | Homepage | [https://emscripten.org/](https://emscripten.org/) |
 | License | MIT |
-| Versions | 1.39.8, 3.1.14, 3.1.25, 3.1.42, 3.1.55, 4.0.12, 4.0.23, 5.0.3 |
+| Versions | 1.39.8, 3.1.14, 3.1.25, 3.1.42, 3.1.55, 4.0.12, 4.0.23, 5.0.3, 5.0.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [emscripten/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emscripten/xmake.lua) |
 
@@ -38651,7 +38651,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5596db038af0 |
+| License | table: 0x5616081d2540 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -39675,7 +39675,7 @@ add_requires("xz-embedded")
 | -- | -- |
 | Homepage | [https://github.com/alibaba/yalantinglibs](https://github.com/alibaba/yalantinglibs) |
 | License | Apache-2.0 |
-| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2, 0.5.3, 0.5.5, 0.5.6, 0.5.7, 0.5.8, 0.6.0 |
+| Versions | 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.11, 0.4.0, 0.5.2, 0.5.3, 0.5.5, 0.5.6, 0.5.7, 0.5.8, 0.6.0, 0.6.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [yalantinglibs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yalantinglibs/xmake.lua) |
 
