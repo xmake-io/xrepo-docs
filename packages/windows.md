@@ -3664,7 +3664,7 @@ add_requires("cef")
 | -- | -- |
 | Homepage | [https://github.com/DigitalInBlue/Celero](https://github.com/DigitalInBlue/Celero) |
 | License | Apache-2.0 |
-| Versions | v2.8.2, v2.8.5, v2.9.0, v2.9.1 |
+| Versions | v2.8.2, v2.8.5, v2.9.0, v2.9.1, v2.10.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [celero/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/celero/xmake.lua) |
 
@@ -3949,7 +3949,7 @@ add_requires("cgltf")
 | Description | *CFD General Notation System* |
 | -- | -- |
 | Homepage | [http://cgns.github.io/](http://cgns.github.io/) |
-| Versions | v4.2.0, v4.4.0, v4.5.0, v4.5.1 |
+| Versions | v4.2.0, v4.4.0, v4.5.0, v4.5.1, v4.5.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cgns/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgns/xmake.lua) |
 
@@ -5360,7 +5360,7 @@ add_requires("cpp-mcp")
 | -- | -- |
 | Homepage | [https://yhirose.github.io/cpp-peglib](https://yhirose.github.io/cpp-peglib) |
 | License | MIT |
-| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2 |
+| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cpp-peglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua) |
 
@@ -31749,7 +31749,7 @@ add_requires("sentencepiece")
 | -- | -- |
 | Homepage | [https://sentry.io/welcome/](https://sentry.io/welcome/) |
 | License | MIT |
-| Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7 |
+| Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7, 0.14.0 |
 | Architectures | x64, x86 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 

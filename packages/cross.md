@@ -2781,7 +2781,7 @@ add_requires("cdt")
 | -- | -- |
 | Homepage | [https://github.com/DigitalInBlue/Celero](https://github.com/DigitalInBlue/Celero) |
 | License | Apache-2.0 |
-| Versions | v2.8.2, v2.8.5, v2.9.0, v2.9.1 |
+| Versions | v2.8.2, v2.8.5, v2.9.0, v2.9.1, v2.10.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [celero/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/celero/xmake.lua) |
 
@@ -3977,7 +3977,7 @@ add_requires("cpp-mcp")
 | -- | -- |
 | Homepage | [https://yhirose.github.io/cpp-peglib](https://yhirose.github.io/cpp-peglib) |
 | License | MIT |
-| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2 |
+| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cpp-peglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua) |
 
