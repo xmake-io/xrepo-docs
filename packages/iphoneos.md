@@ -78,7 +78,7 @@ add_requires("ace")
 | -- | -- |
 | Homepage | [https://acl-dev.cn](https://acl-dev.cn) |
 | License | LGPL-3.0 |
-| Versions | v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6 |
+| Versions | v3.6.2, v3.6.3, v3.6.4, v3.6.5, v3.6.6, v3.6.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [acl-dev/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/acl-dev/xmake.lua) |
 
@@ -1059,7 +1059,7 @@ add_requires("avisynthplus")
 | -- | -- |
 | Homepage | [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk) |
 | License | MIT-Lucent |
-| Versions | 20251225 |
+| Versions | 20251225, 20260426 |
 | Architectures | arm64, x86_64 |
 | Definition | [awk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/awk/xmake.lua) |
 
@@ -1298,7 +1298,7 @@ add_requires("aws-checksums")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1, v1.73.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -3805,7 +3805,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3, v0.43.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -5602,7 +5602,7 @@ add_requires("dragonbox")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/drogon/](https://github.com/an-tao/drogon/) |
 | License | MIT |
-| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2, v1.9.1, v1.9.3, v1.9.4, v1.9.5, v1.9.6, v1.9.8, v1.9.9, v1.9.10, v1.9.11, v1.9.12 |
+| Versions | v1.4.1, v1.6.0, v1.7.1, v1.7.3, v1.7.5, v1.8.0, v1.8.1, v1.8.2, v1.9.1, v1.9.3, v1.9.4, v1.9.5, v1.9.6, v1.9.8, v1.9.9, v1.9.10, v1.9.11, v1.9.12, v1.9.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [drogon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/drogon/xmake.lua) |
 
@@ -13836,7 +13836,7 @@ add_requires("llgl")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
-| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0, v9.3.1 |
+| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0, v9.3.1, v9.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
@@ -15050,7 +15050,7 @@ add_requires("memorymapping")
 | -- | -- |
 | Homepage | [https://github.com/zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) |
 | License | MIT |
-| Versions | v0.18, v0.20, v0.21, v0.22, v0.23, v0.24, v0.25, v1.0, v1.0.1 |
+| Versions | v0.18, v0.20, v0.21, v0.22, v0.23, v0.24, v0.25, v1.0, v1.0.1, v1.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [meshoptimizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meshoptimizer/xmake.lua) |
 
@@ -18633,7 +18633,7 @@ add_requires("pcre2")
 | -- | -- |
 | Homepage | [https://www.msweet.org/pdfio](https://www.msweet.org/pdfio) |
 | License | Apache-2.0 |
-| Versions | v1.3.0, v1.3.1, v1.3.2, v1.4.0, v1.5.0, v1.6.1 |
+| Versions | v1.3.0, v1.3.1, v1.3.2, v1.4.0, v1.5.0, v1.6.1, v1.6.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [pdfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfio/xmake.lua) |
 
@@ -18801,7 +18801,7 @@ add_requires("physfs")
 | -- | -- |
 | Homepage | [https://github.com/iboB/picobench](https://github.com/iboB/picobench) |
 | License | MIT |
-| Versions | 2.06, 2.07, 2.08 |
+| Versions | 2.06, 2.07, 2.08, 2.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [picobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/picobench/xmake.lua) |
 
@@ -24729,7 +24729,7 @@ add_requires("transwarp")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25, v1.5.26 |
+| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25, v1.5.26, v1.5.28 |
 | Architectures | arm64, x86_64 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 
