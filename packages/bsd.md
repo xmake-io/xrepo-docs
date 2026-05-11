@@ -19127,7 +19127,7 @@ add_requires("openjpeg")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2 |
 | Architectures | i386, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
