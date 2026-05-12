@@ -9513,7 +9513,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4</td>
+<td>2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -11329,6 +11329,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("genie")
+</code></pre>
+<h3 id="geoutilscppiphoneos">geo-utils-cpp (iphoneos)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Header-only C++17 library for spherical (lat/lng) geometry on Earth coordinates: distance, bearing, polygon area, point-in-polygon, and path proximity.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/gistrec/geo-utils-cpp">https://github.com/gistrec/geo-utils-cpp</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.0.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geo-utils-cpp/xmake.lua">geo-utils-cpp/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p iphoneos geo-utils-cpp
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("geo-utils-cpp")
 </code></pre>
 <h3 id="geodesdkresultiphoneos">geode-sdk-result (iphoneos)</h3>
 <table>
@@ -21389,7 +21426,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.0.10, 3.0.0</td>
+<td>2.0.10, 3.0.0, 3.0.1</td>
 </tr>
 <tr>
 <td>Architectures</td>

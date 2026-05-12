@@ -6442,7 +6442,7 @@ add_requires("exosip")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4 |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -7680,6 +7680,30 @@ xrepo install -p android [--ndk=/xxx] genie
 
 ```lua
 add_requires("genie")
+```
+
+
+### geo-utils-cpp (android)
+
+
+| Description | *Header-only C++17 library for spherical (lat/lng) geometry on Earth coordinates: distance, bearing, polygon area, point-in-polygon, and path proximity.* |
+| -- | -- |
+| Homepage | [https://github.com/gistrec/geo-utils-cpp](https://github.com/gistrec/geo-utils-cpp) |
+| License | Apache-2.0 |
+| Versions | 1.0.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [geo-utils-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geo-utils-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] geo-utils-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("geo-utils-cpp")
 ```
 
 
@@ -14956,7 +14980,7 @@ add_requires("lmdb")
 | -- | -- |
 | Homepage | [https://github.com/DNedic/lockfree](https://github.com/DNedic/lockfree) |
 | License | MIT |
-| Versions | 2.0.10, 3.0.0 |
+| Versions | 2.0.10, 3.0.0, 3.0.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [lockfree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lockfree/xmake.lua) |
 
