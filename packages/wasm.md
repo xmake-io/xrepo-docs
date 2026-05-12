@@ -15480,7 +15480,7 @@ add_requires("nvtx")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/ShaderLang](https://github.com/NazaraEngine/ShaderLang) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3, v1.1.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [nzsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nzsl/xmake.lua) |
 
@@ -24119,7 +24119,7 @@ add_requires("zopfli")
 | -- | -- |
 | Homepage | [https://github.com/eyalz800/zpp_bits](https://github.com/eyalz800/zpp_bits) |
 | License | MIT |
-| Versions | v4.4.25, v4.5, v4.5.1, v4.6, v4.7 |
+| Versions | v4.4.25, v4.5, v4.5.1, v4.6, v4.7, v4.7.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [zpp_bits/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zpp_bits/xmake.lua) |
 
