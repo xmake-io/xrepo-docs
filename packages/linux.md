@@ -40777,6 +40777,30 @@ add_requires("v8")
 ```
 
 
+### valgrind (linux)
+
+
+| Description | *Valgrind is a GPL'd system for debugging and profiling Linux programs.* |
+| -- | -- |
+| Homepage | [https://valgrind.org](https://valgrind.org) |
+| License | GPL-3.0 |
+| Versions | 3.27.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [valgrind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/valgrind/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install valgrind
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("valgrind")
+```
+
+
 ### valijson (linux)
 
 
@@ -41882,7 +41906,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b32fbbbee0 |
+| License | table: 0x56341f3709a0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
