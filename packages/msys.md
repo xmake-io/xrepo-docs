@@ -7689,7 +7689,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/TulipHook](https://github.com/geode-sdk/TulipHook) |
 | License | BSL-1.0 |
-| Versions | v3.1.7, v3.1.9, v3.1.12 |
+| Versions | v3.1.7, v3.1.9, v3.1.12, v3.1.13 |
 | Architectures | i386, x86_64 |
 | Definition | [geode-sdk-tuliphook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-tuliphook/xmake.lua) |
 

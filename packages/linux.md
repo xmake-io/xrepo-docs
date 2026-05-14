@@ -441,7 +441,7 @@ add_requires("alsa-lib")
 | -- | -- |
 | Homepage | [https://github.com/ddemidov/amgcl/](https://github.com/ddemidov/amgcl/) |
 | License | MIT |
-| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6 |
+| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.8 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [amgcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua) |
 
@@ -11434,7 +11434,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/TulipHook](https://github.com/geode-sdk/TulipHook) |
 | License | BSL-1.0 |
-| Versions | v3.1.7, v3.1.9, v3.1.12 |
+| Versions | v3.1.7, v3.1.9, v3.1.12, v3.1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [geode-sdk-tuliphook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-tuliphook/xmake.lua) |
 
@@ -13868,7 +13868,7 @@ add_requires("http_parser")
 | -- | -- |
 | Homepage | [https://github.com/vcrhonek/hwdata](https://github.com/vcrhonek/hwdata) |
 | License | GPL-2.0-or-later |
-| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406 |
+| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406, v0.407 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hwdata/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hwdata/xmake.lua) |
 
@@ -15953,7 +15953,7 @@ add_requires("klib")
 | -- | -- |
 | Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1, 5.0.2, 5.1.0 |
+| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1, 5.0.2, 5.1.0, 5.1.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
 
@@ -41906,7 +41906,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x560042fb4590 |
+| License | table: 0x5594c11072e0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

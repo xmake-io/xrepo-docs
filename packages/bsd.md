@@ -9100,7 +9100,7 @@ add_requires("http_parser")
 | -- | -- |
 | Homepage | [https://github.com/vcrhonek/hwdata](https://github.com/vcrhonek/hwdata) |
 | License | GPL-2.0-or-later |
-| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406 |
+| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406, v0.407 |
 | Architectures | i386, x86_64 |
 | Definition | [hwdata/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hwdata/xmake.lua) |
 

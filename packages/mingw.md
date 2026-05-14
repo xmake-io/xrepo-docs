@@ -296,7 +296,7 @@ add_requires("alpaka")
 | -- | -- |
 | Homepage | [https://github.com/ddemidov/amgcl/](https://github.com/ddemidov/amgcl/) |
 | License | MIT |
-| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6 |
+| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.8 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [amgcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua) |
 
@@ -8411,7 +8411,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/TulipHook](https://github.com/geode-sdk/TulipHook) |
 | License | BSL-1.0 |
-| Versions | v3.1.7, v3.1.9, v3.1.12 |
+| Versions | v3.1.7, v3.1.9, v3.1.12, v3.1.13 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [geode-sdk-tuliphook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-tuliphook/xmake.lua) |
 
