@@ -3752,6 +3752,30 @@ add_requires("cairo")
 ```
 
 
+### cairomm (linux)
+
+
+| Description | *cairomm is a C++ wrapper for the cairo graphics library* |
+| -- | -- |
+| Homepage | [https://www.cairographics.org/cairomm/](https://www.cairographics.org/cairomm/) |
+| License | LGPL-2.1-or-later |
+| Versions | 1.14.5, 1.19.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [cairomm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairomm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cairomm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cairomm")
+```
+
+
 ### capnproto (linux)
 
 
@@ -41906,7 +41930,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5594c11072e0 |
+| License | table: 0x55a9d4d37500 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

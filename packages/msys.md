@@ -2724,6 +2724,30 @@ add_requires("cairo")
 ```
 
 
+### cairomm (msys)
+
+
+| Description | *cairomm is a C++ wrapper for the cairo graphics library* |
+| -- | -- |
+| Homepage | [https://www.cairographics.org/cairomm/](https://www.cairographics.org/cairomm/) |
+| License | LGPL-2.1-or-later |
+| Versions | 1.14.5, 1.19.0 |
+| Architectures | i386, x86_64 |
+| Definition | [cairomm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairomm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cairomm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cairomm")
+```
+
+
 ### capstone (msys)
 
 
