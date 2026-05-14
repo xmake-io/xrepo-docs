@@ -22399,7 +22399,7 @@ add_requires("libxinerama")
 | -- | -- |
 | Homepage | [https://xkbcommon.org/](https://xkbcommon.org/) |
 | License | MIT |
-| Versions | 1.0.3, 1.8.1 |
+| Versions | 1.0.3, 1.8.1, 1.13.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libxkbcommon/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxkbcommon/xmake.lua) |
 
@@ -41906,7 +41906,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ad45226cb0 |
+| License | table: 0x560042fb4590 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
