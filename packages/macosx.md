@@ -848,7 +848,7 @@ add_requires("argtable3")
 | -- | -- |
 | Homepage | [https://argus-lib.com](https://argus-lib.com) |
 | License | MIT |
-| Versions | v0.1.0, v0.2.0 |
+| Versions | v0.1.0, v0.2.0, v0.2.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [argus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argus/xmake.lua) |
 
@@ -38699,7 +38699,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55627162d700 |
+| License | table: 0x55c8017bb090 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
