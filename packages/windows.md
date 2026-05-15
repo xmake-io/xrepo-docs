@@ -20599,6 +20599,30 @@ add_requires("lunzip")
 ```
 
 
+### lv2 (windows)
+
+
+| Description | *The LV2 audio plugin specification* |
+| -- | -- |
+| Homepage | [https://lv2plug.in](https://lv2plug.in) |
+| License | ISC |
+| Versions | 1.18.10 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [lv2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lv2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lv2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lv2")
+```
+
+
 ### lvgl (windows)
 
 
