@@ -18252,7 +18252,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [http://libomath.org](http://libomath.org) |
 | License | zlib |
-| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0 |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
 
@@ -24633,7 +24633,7 @@ add_requires("thread-pool")
 | -- | -- |
 | Homepage | [https://thrift.apache.org/](https://thrift.apache.org/) |
 | License | Apache-2.0 |
-| Versions | v0.16.0, v0.17.0, v0.18.0, v0.18.1, v0.19.0, v0.20.0, v0.21.0, v0.22.0 |
+| Versions | v0.16.0, v0.17.0, v0.18.0, v0.18.1, v0.19.0, v0.20.0, v0.21.0, v0.22.0, v0.23.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [thrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrift/xmake.lua) |
 
