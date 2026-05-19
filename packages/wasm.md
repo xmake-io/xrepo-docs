@@ -2469,7 +2469,7 @@ add_requires("cgltf")
 | -- | -- |
 | Homepage | [http://www.chunel.cn](http://www.chunel.cn) |
 | License | MIT |
-| Versions | v2.5.4, v2.6.0, v2.6.1, v2.6.2, v3.1.0, v3.1.1, v3.1.2, v3.2.2 |
+| Versions | v2.5.4, v2.6.0, v2.6.1, v2.6.2, v3.1.0, v3.1.1, v3.1.2, v3.2.2, v3.2.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cgraph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgraph/xmake.lua) |
 
@@ -3329,7 +3329,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3, v0.43.4 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3, v0.43.4, v0.45.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -7904,7 +7904,7 @@ add_requires("hyperscan")
 | -- | -- |
 | Homepage | [https://github.com/hyprwm/hyprwayland-scanner](https://github.com/hyprwm/hyprwayland-scanner) |
 | License | BSD-3-Clause |
-| Versions | v0.4.4, v0.4.5 |
+| Versions | v0.4.4, v0.4.5, v0.4.6 |
 | Architectures | wasm32, wasm64 |
 | Definition | [hyprwayland-scanner/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hyprwayland-scanner/xmake.lua) |
 
@@ -9631,7 +9631,7 @@ add_requires("libcurl")
 | -- | -- |
 | Homepage | [https://libdatachannel.org/](https://libdatachannel.org/) |
 | License | MPL-2.0 |
-| Versions | v0.23.1, v0.23.2, v0.24.1, v0.24.2 |
+| Versions | v0.23.1, v0.23.2, v0.24.1, v0.24.2, v0.24.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libdatachannel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdatachannel/xmake.lua) |
 
@@ -20619,7 +20619,7 @@ add_requires("step20")
 | -- | -- |
 | Homepage | [https://github.com/lemire/streamvbyte](https://github.com/lemire/streamvbyte) |
 | License | Apache-2.0 |
-| Versions | v1.0.0, v2.0.0 |
+| Versions | v1.0.0, v2.0.0, v3.0.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [streamvbyte/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/streamvbyte/xmake.lua) |
 
@@ -22897,7 +22897,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27 |
 | Architectures | wasm32, wasm64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 
