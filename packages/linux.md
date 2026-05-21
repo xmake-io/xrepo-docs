@@ -25156,7 +25156,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -29140,7 +29140,7 @@ add_requires("opencl-headers")
 | -- | -- |
 | Homepage | [https://opencolorio.org/](https://opencolorio.org/) |
 | License | BSD-3-Clause |
-| Versions | v2.1.0, v2.1.1, v2.3.2, v2.4.2, v2.5.1 |
+| Versions | v2.1.0, v2.1.1, v2.3.2, v2.4.2, v2.5.1, v2.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencolorio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencolorio/xmake.lua) |
 
@@ -34172,7 +34172,7 @@ add_requires("redis-plus-plus")
 | -- | -- |
 | Homepage | [https://github.com/getml/reflect-cpp](https://github.com/getml/reflect-cpp) |
 | License | MIT |
-| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0, v0.17.0, v0.18.0, v0.19.0, v0.20.0, v0.22.0, v0.24.0 |
+| Versions | v0.10.0, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.1, v0.16.0, v0.17.0, v0.18.0, v0.19.0, v0.20.0, v0.22.0, v0.24.0, v0.25.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [reflect-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/reflect-cpp/xmake.lua) |
 
@@ -40140,7 +40140,7 @@ add_requires("udt")
 | -- | -- |
 | Homepage | [https://github.com/ufbx/ufbx](https://github.com/ufbx/ufbx) |
 | License | MIT |
-| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.18.2, v0.20.0, v0.20.1, v0.21.2, v0.21.3 |
+| Versions | v0.6.1, v0.11.1, v0.12.0, v0.13.0, v0.14.0, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.18.2, v0.20.0, v0.20.1, v0.21.2, v0.21.3, v0.22.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ufbx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ufbx/xmake.lua) |
 
@@ -41190,7 +41190,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315, v1.4.325, v1.4.342, v1.4.349 |
+| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315, v1.4.325, v1.4.342, v1.4.349, v1.4.352 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 
@@ -41978,7 +41978,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55cde1225ed0 |
+| License | table: 0x55acbfaa6b70 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
