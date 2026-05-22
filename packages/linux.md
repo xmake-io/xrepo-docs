@@ -1780,7 +1780,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0 |
+| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -41978,7 +41978,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5597111118e0 |
+| License | table: 0x56228208cad0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
