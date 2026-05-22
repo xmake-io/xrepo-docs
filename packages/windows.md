@@ -1612,7 +1612,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11, v0.9.13 |
+| Versions | v0.6.2, v0.6.11, v0.6.12, v0.6.14, v0.6.15, v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11, v0.9.13, v0.9.14 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -8563,7 +8563,7 @@ add_requires("emhash")
 | Description | *EmmyLua Debugger* |
 | -- | -- |
 | Homepage | [https://github.com/EmmyLua/EmmyLuaDebugger](https://github.com/EmmyLua/EmmyLuaDebugger) |
-| Versions | 1.6.3, 1.7.1, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7, 1.9.0 |
+| Versions | 1.6.3, 1.7.1, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7, 1.9.0, 1.9.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [emmylua_debugger/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emmylua_debugger/xmake.lua) |
 
@@ -16768,7 +16768,7 @@ add_requires("libhat")
 | -- | -- |
 | Homepage | [https://github.com/strukturag/libheif](https://github.com/strukturag/libheif) |
 | License | LGPL-3.0 |
-| Versions | 1.12.0, 1.17.6, 1.18.0, 1.18.2, 1.20.2, 1.21.0, 1.21.1, 1.21.2 |
+| Versions | 1.12.0, 1.17.6, 1.18.0, 1.18.2, 1.20.2, 1.21.0, 1.21.1, 1.21.2, 1.22.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libheif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libheif/xmake.lua) |
 
@@ -24518,7 +24518,7 @@ add_requires("nlohmann_json")
 | -- | -- |
 | Homepage | [https://github.com/stevengj/nlopt](https://github.com/stevengj/nlopt) |
 | License | LGPL-2.1 |
-| Versions | v2.7.0, v2.7.1, v2.8.0, v2.9.1, v2.10.0 |
+| Versions | v2.7.0, v2.7.1, v2.8.0, v2.9.1, v2.10.0, v2.10.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [nlopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlopt/xmake.lua) |
 
