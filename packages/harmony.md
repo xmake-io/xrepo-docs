@@ -19424,7 +19424,7 @@ add_requires("quickcpplib")
 | -- | -- |
 | Homepage | [https://github.com/quickjs-ng/quickjs](https://github.com/quickjs-ng/quickjs) |
 | License | MIT |
-| Versions | v0.5.0, v0.6.1, v0.7.0, v0.8.0, v0.9.0, v0.11.0, v0.12.1, v0.13.0, v0.14.0 |
+| Versions | v0.5.0, v0.6.1, v0.7.0, v0.8.0, v0.9.0, v0.11.0, v0.12.1, v0.13.0, v0.14.0, v0.15.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [quickjs-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs-ng/xmake.lua) |
 
