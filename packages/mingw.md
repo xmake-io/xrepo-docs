@@ -20858,7 +20858,7 @@ add_requires("pahomqttcpp")
 | -- | -- |
 | Homepage | [https://www.pango.org/](https://www.pango.org/) |
 | License | LGPL-2.0 |
-| Versions | 1.50.3, 1.51.1 |
+| Versions | 1.50.3, 1.51.1, 1.57.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [pango/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pango/xmake.lua) |
 
