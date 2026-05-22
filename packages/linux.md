@@ -966,9 +966,9 @@ add_requires("argz")
 
 | Description | *C++ library for linear algebra & scientific computing* |
 | -- | -- |
-| Homepage | [http://arma.sourceforge.net/](http://arma.sourceforge.net/) |
+| Homepage | [https://arma.sourceforge.net/](https://arma.sourceforge.net/) |
 | License | Apache-2.0 |
-| Versions | 10.7.0, 10.7.3, 10.8.1, 11.2.3 |
+| Versions | 12.8.4, 14.6.3, 15.2.6 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [armadillo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/armadillo/xmake.lua) |
 
@@ -41978,7 +41978,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x561e8447e5e0 |
+| License | table: 0x556a42b498b0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

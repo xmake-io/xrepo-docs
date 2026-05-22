@@ -965,10 +965,10 @@ add_requires("arkari")
 
 | Description | *C++ library for linear algebra & scientific computing* |
 | -- | -- |
-| Homepage | [http://arma.sourceforge.net/](http://arma.sourceforge.net/) |
+| Homepage | [https://arma.sourceforge.net/](https://arma.sourceforge.net/) |
 | License | Apache-2.0 |
-| Versions | 10.7.0, 10.7.3, 10.8.1, 11.2.3 |
-| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Versions | 12.8.4, 14.6.3, 15.2.6 |
+| Architectures | arm, arm64ec, x64, x86 |
 | Definition | [armadillo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/armadillo/xmake.lua) |
 
 ##### Install command
