@@ -870,7 +870,7 @@ add_requires("atk")
 | -- | -- |
 | Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
 | License | MIT |
-| Versions | v1.5, v1.6.3, v1.6.4, v1.6.5, v1.6.9, v1.7.1 |
+| Versions | v1.5, v1.6.3, v1.6.4, v1.6.5, v1.6.9, v1.7.1, v1.9.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
 
@@ -1371,7 +1371,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -1395,7 +1395,7 @@ add_requires("aws-crt-cpp")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.11.760, 1.11.769, 1.11.773, 1.11.779, 1.11.784, 1.11.788, 1.11.792, 1.11.797, 1.11.802, 1.11.808 |
+| Versions | 1.11.760, 1.11.769, 1.11.773, 1.11.779, 1.11.784, 1.11.788, 1.11.792, 1.11.797, 1.11.802, 1.11.808, 1.11.813 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
@@ -4241,7 +4241,7 @@ add_requires("cppitertools")
 | -- | -- |
 | Homepage | [https://github.com/yanyiwu/cppjieba](https://github.com/yanyiwu/cppjieba) |
 | License | MIT |
-| Versions | v5.2.0, v5.4.0, v5.4.1, v5.5.0, v5.6.0, v5.6.3 |
+| Versions | v5.2.0, v5.4.0, v5.4.1, v5.5.0, v5.6.0, v5.6.3, v5.6.7 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [cppjieba/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppjieba/xmake.lua) |
 
@@ -11212,7 +11212,7 @@ add_requires("libdeflate")
 | -- | -- |
 | Homepage | [https://libdicom.readthedocs.io](https://libdicom.readthedocs.io) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0 |
+| Versions | v1.1.0, v1.2.0, v1.2.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libdicom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdicom/xmake.lua) |
 
@@ -11690,7 +11690,7 @@ add_requires("libfyaml")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0, v1.9.1, v1.9.2, v1.9.3 |
+| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0, v1.9.1, v1.9.2, v1.9.3, v1.9.4 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
@@ -13363,7 +13363,7 @@ add_requires("libsodium")
 | -- | -- |
 | Homepage | [https://github.com/openSUSE/libsolv](https://github.com/openSUSE/libsolv) |
 | License | BSD-3-Clause |
-| Versions | 0.7.34, 0.7.35, 0.7.36 |
+| Versions | 0.7.34, 0.7.35, 0.7.36, 0.7.37 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libsolv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsolv/xmake.lua) |
 
@@ -18082,7 +18082,7 @@ add_requires("nvtx")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/ShaderLang](https://github.com/NazaraEngine/ShaderLang) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3, v1.1.4 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3, v1.1.4, v1.1.5 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nzsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nzsl/xmake.lua) |
 
