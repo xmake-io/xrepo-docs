@@ -28021,6 +28021,30 @@ add_requires("pango")
 ```
 
 
+### pangomm (macosx)
+
+
+| Description | *The official C++ interface for the Pango font layout library.* |
+| -- | -- |
+| Homepage | [https://gtkmm.gnome.org/](https://gtkmm.gnome.org/) |
+| License | LGPL-2.1 |
+| Versions | 2.46.4, 2.56.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [pangomm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pangomm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pangomm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pangomm")
+```
+
+
 ### par (macosx)
 
 
@@ -38747,7 +38771,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5636791a6240 |
+| License | table: 0x55617d6e76f0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -19321,6 +19321,30 @@ add_requires("pango")
 ```
 
 
+### pangomm (cross)
+
+
+| Description | *The official C++ interface for the Pango font layout library.* |
+| -- | -- |
+| Homepage | [https://gtkmm.gnome.org/](https://gtkmm.gnome.org/) |
+| License | LGPL-2.1 |
+| Versions | 2.46.4, 2.56.1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [pangomm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pangomm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] pangomm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pangomm")
+```
+
+
 ### par (cross)
 
 
