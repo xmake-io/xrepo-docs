@@ -2757,7 +2757,7 @@ add_requires("c-vector")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10, 0.2.11 |
+| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10, 0.2.11, 0.3.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -5027,7 +5027,7 @@ add_requires("csv2")
 | -- | -- |
 | Homepage | [https://github.com/vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) |
 | License | MIT |
-| Versions | 2.2.3, 2.3.0, 2.4.2, 2.5.2, 3.1.0 |
+| Versions | 2.2.3, 2.3.0, 2.4.2, 2.5.2, 3.1.0, 5.3.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [csvparser/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csvparser/xmake.lua) |
 
@@ -11037,7 +11037,7 @@ add_requires("ittapi")
 | -- | -- |
 | Homepage | [https://github.com/machinezone/IXWebSocket](https://github.com/machinezone/IXWebSocket) |
 | License | BSD-3-Clause |
-| Versions | v11.4.4, v11.4.5, v11.4.6 |
+| Versions | v11.4.4, v11.4.5, v11.4.6, v12.0.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [ixwebsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ixwebsocket/xmake.lua) |
 
@@ -12140,7 +12140,7 @@ add_requires("libatomic_ops")
 | -- | -- |
 | Homepage | [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) |
 | License | BSD-2-Clause |
-| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1, v1.2.1, v1.3.0, v1.4.1 |
+| Versions | v0.9.1, v1.0.4, v1.1.0, v1.1.1, v1.2.1, v1.3.0, v1.4.1, v1.4.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libavif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libavif/xmake.lua) |
 
@@ -17489,7 +17489,7 @@ add_requires("microsoft-proxy")
 | -- | -- |
 | Homepage | [https://www.microsoft.com/en-us/research/group/cryptography-research/](https://www.microsoft.com/en-us/research/group/cryptography-research/) |
 | License | MIT |
-| Versions | v4.1.2 |
+| Versions | v4.1.2, v4.3.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [microsoft-seal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-seal/xmake.lua) |
 
@@ -17560,7 +17560,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8 |
+| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8, v3.3.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
@@ -29290,7 +29290,7 @@ add_requires("vulkansdk")
 | -- | -- |
 | Homepage | [https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html](https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html) |
 | License | BSD-3-Clause-Clear |
-| Versions | v1.9.0, v1.11.1, v1.12.0, v1.12.1, v1.13.0, v1.13.1 |
+| Versions | v1.9.0, v1.11.1, v1.12.0, v1.12.1, v1.13.0, v1.13.1, v1.14.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [vvenc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vvenc/xmake.lua) |
 
