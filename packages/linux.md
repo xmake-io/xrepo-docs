@@ -6361,7 +6361,7 @@ add_requires("criterion")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1, v4.6.0 |
+| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1, v4.6.0, v4.7.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -24653,7 +24653,7 @@ add_requires("marchingcubecpp")
 | -- | -- |
 | Homepage | [https://github.com/mariadb-corporation/mariadb-connector-c](https://github.com/mariadb-corporation/mariadb-connector-c) |
 | License | LGPL-2.1 |
-| Versions | 3.1.13, 3.3.4, 3.3.9, 3.4.7, 3.4.8 |
+| Versions | 3.1.13, 3.3.4, 3.3.9, 3.4.7, 3.4.8, 3.4.9 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mariadb-connector-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mariadb-connector-c/xmake.lua) |
 
@@ -31621,7 +31621,7 @@ add_requires("plutosvg")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0, v1.3.0, v1.3.1, v1.3.2 |
+| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0, v1.3.0, v1.3.1, v1.3.2, v1.3.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 
@@ -41094,7 +41094,7 @@ add_requires("vectorial")
 | Description | *Compute quality functions of 2 and 3-dimensional regions.* |
 | -- | -- |
 | Homepage | [https://github.com/sandialabs/verdict](https://github.com/sandialabs/verdict) |
-| Versions | 1.4.2, 1.4.4 |
+| Versions | 1.4.2, 1.4.4, 1.4.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [verdict/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verdict/xmake.lua) |
 
@@ -42002,7 +42002,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5556bda86310 |
+| License | table: 0x56184ee99b00 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

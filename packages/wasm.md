@@ -3784,7 +3784,7 @@ add_requires("crc32c")
 | -- | -- |
 | Homepage | [http://roaringbitmap.org/](http://roaringbitmap.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1, v4.6.0 |
+| Versions | v2.0.4, v3.0.1, v4.0.0, v4.1.0, v4.1.1, v4.1.5, v4.1.7, v4.3.5, v4.3.6, v4.3.12, v4.4.0, v4.4.2, v4.5.0, v4.5.1, v4.6.0, v4.7.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [croaring/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croaring/xmake.lua) |
 
@@ -17205,7 +17205,7 @@ add_requires("plutosvg")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutovg](https://github.com/sammycage/plutovg) |
 | License | MIT |
-| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0, v1.3.0, v1.3.1, v1.3.2 |
+| Versions | v0.0.1, v0.0.6, v0.0.7, v0.0.8, v0.0.9, v0.0.12, v0.0.13, v1.0.0, v1.1.0, v1.3.0, v1.3.1, v1.3.2, v1.3.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [plutovg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutovg/xmake.lua) |
 
@@ -22919,7 +22919,7 @@ add_requires("vectorial")
 | Description | *Compute quality functions of 2 and 3-dimensional regions.* |
 | -- | -- |
 | Homepage | [https://github.com/sandialabs/verdict](https://github.com/sandialabs/verdict) |
-| Versions | 1.4.2, 1.4.4 |
+| Versions | 1.4.2, 1.4.4, 1.4.5 |
 | Architectures | wasm32, wasm64 |
 | Definition | [verdict/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verdict/xmake.lua) |
 
