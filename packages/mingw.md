@@ -4735,6 +4735,30 @@ add_requires("cr")
 ```
 
 
+### crashcatch (mingw)
+
+
+| Description | *A cross-platform, lightweight, single-header crash-reporting library for modern C++ applications.* |
+| -- | -- |
+| Homepage | [https://github.com/keithpotz/CrashCatch](https://github.com/keithpotz/CrashCatch) |
+| License | MIT |
+| Versions | 1.3.0, 1.4.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [crashcatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crashcatch/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] crashcatch
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("crashcatch")
+```
+
+
 ### crc32c (mingw)
 
 
