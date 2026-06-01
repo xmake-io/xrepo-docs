@@ -11802,6 +11802,30 @@ add_requires("libhat")
 ```
 
 
+### libheif (cross)
+
+
+| Description | *libheif is an HEIF and AVIF file format decoder and encoder.* |
+| -- | -- |
+| Homepage | [https://github.com/strukturag/libheif](https://github.com/strukturag/libheif) |
+| License | LGPL-3.0 |
+| Versions | 1.12.0, 1.17.6, 1.18.0, 1.18.2, 1.20.2, 1.21.0, 1.21.1, 1.21.2, 1.22.0, 1.22.2, 1.23.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libheif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libheif/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libheif
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libheif")
+```
+
+
 ### libhubbub (cross)
 
 
@@ -11966,6 +11990,30 @@ xrepo install -p cross [--sdk=/xxx] libjpeg
 
 ```lua
 add_requires("libjpeg")
+```
+
+
+### libjpeg-turbo (cross)
+
+
+| Description | *A JPEG image codec that uses SIMD instructions (MMX, SSE2, AVX2, Neon, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, Arm, and PowerPC systems.* |
+| -- | -- |
+| Homepage | [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/) |
+| License | BSD-3-Clause |
+| Versions | 2.0.5, 2.0.6, 2.0.90, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 3.0.1, 3.0.3, 3.0.4, 3.1.0, 3.1.1, 3.1.2, 3.1.4+1 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [libjpeg-turbo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjpeg-turbo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libjpeg-turbo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libjpeg-turbo")
 ```
 
 
