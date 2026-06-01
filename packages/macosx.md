@@ -21559,7 +21559,7 @@ add_requires("lolly")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/ls-hpack](https://github.com/litespeedtech/ls-hpack) |
 | License | MIT |
-| Versions | v2.3.3, v2.3.4 |
+| Versions | v2.3.3, v2.3.4, v2.3.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [ls-hpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-hpack/xmake.lua) |
 
@@ -33133,7 +33133,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/danmar/simplecpp](https://github.com/danmar/simplecpp) |
 | License | OBSD |
-| Versions | 1.5.1, 1.5.2, 1.6.1, 1.6.3, 1.6.4, 1.6.5 |
+| Versions | 1.5.1, 1.5.2, 1.6.1, 1.6.3, 1.6.4, 1.6.5, 1.7.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [simplecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplecpp/xmake.lua) |
 
@@ -37599,7 +37599,7 @@ add_requires("utf8proc")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.0.6, v4.0.8, v4.0.9 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.0.6, v4.0.8, v4.0.9, v4.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
@@ -38771,7 +38771,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55b5ecf511c0 |
+| License | table: 0x55e653c21340 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
