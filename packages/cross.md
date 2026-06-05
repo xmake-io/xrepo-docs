@@ -17844,7 +17844,7 @@ add_requires("nod")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-addon-api](https://github.com/nodejs/node-addon-api) |
 | License | MIT |
-| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1, v8.4.0, v8.5.0, v8.6.0, v8.7.0 |
+| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1, v8.4.0, v8.5.0, v8.6.0, v8.7.0, v8.8.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [node-addon-api/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-addon-api/xmake.lua) |
 
@@ -17868,7 +17868,7 @@ add_requires("node-addon-api")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-api-headers](https://github.com/nodejs/node-api-headers) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0 |
+| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.9.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [node-api-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-api-headers/xmake.lua) |
 
