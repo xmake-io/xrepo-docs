@@ -23576,7 +23576,7 @@ add_requires("raylib")
 | -- | -- |
 | Homepage | [https://github.com/RobLoach/raylib-cpp](https://github.com/RobLoach/raylib-cpp) |
 | License | zlib |
-| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0 |
+| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0, v6.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [raylib-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib-cpp/xmake.lua) |
 
