@@ -3879,7 +3879,7 @@ add_requires("cgetopt")
 | -- | -- |
 | Homepage | [https://github.com/dloebl/cgif](https://github.com/dloebl/cgif) |
 | License | MIT |
-| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1, v0.5.2 |
+| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1, v0.5.2, v0.5.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [cgif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgif/xmake.lua) |
 
@@ -38771,7 +38771,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5629fa51a480 |
+| License | table: 0x562254915ab0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

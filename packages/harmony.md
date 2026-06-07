@@ -2803,7 +2803,7 @@ add_requires("cgetopt")
 | -- | -- |
 | Homepage | [https://github.com/dloebl/cgif](https://github.com/dloebl/cgif) |
 | License | MIT |
-| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1, v0.5.2 |
+| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1, v0.5.2, v0.5.3 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [cgif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgif/xmake.lua) |
 
