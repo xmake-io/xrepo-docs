@@ -2462,7 +2462,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>arm64, x86_64</td>
+<td>arm64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2610,7 +2610,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>arm64, x86_64</td>
+<td>arm64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2647,7 +2647,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>arm64, x86_64</td>
+<td>arm64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2684,7 +2684,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>arm64, x86_64</td>
+<td>arm64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2721,7 +2721,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>arm64, x86_64</td>
+<td>arm64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2758,7 +2758,7 @@
 </tr>
 <tr>
 <td>Architectures</td>
-<td>arm64, x86_64</td>
+<td>arm64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -2865,11 +2865,11 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1</td>
+<td>v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
-<td>arm64, x86_64</td>
+<td>arm64</td>
 </tr>
 <tr>
 <td>Definition</td>
@@ -28269,7 +28269,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0</td>
+<td>v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0, v2.14.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -28903,6 +28903,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libsdl3_image")
+</code></pre>
+<h3 id="libsdl3_mixermacosx">libsdl3_mixer (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>An audio mixer that supports various file formats for Simple Directmedia Layer.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/libsdl-org/SDL_mixer">https://github.com/libsdl-org/SDL_mixer</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.2.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_mixer/xmake.lua">libsdl3_mixer/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install libsdl3_mixer
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsdl3_mixer")
 </code></pre>
 <h3 id="libsdl3_ttfmacosx">libsdl3_ttf (macosx)</h3>
 <table>
@@ -49339,6 +49376,43 @@
 <pre><code class="lang-lua">add_requires("rxcpp")
 </code></pre>
 <h2 id="s">s</h2>
+<h3 id="s2ntlsmacosx">s2n-tls (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>An implementation of the TLS/SSL protocols</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://aws.github.io/s2n-tls/doxygen/s2n_8h.html">https://aws.github.io/s2n-tls/doxygen/s2n_8h.html</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>v1.5.0, v1.5.1, v1.5.5, v1.5.6, v1.5.7, v1.5.9, v1.5.10, v1.5.12, v1.5.14, v1.5.15, v1.5.17, v1.5.21, v1.5.23, v1.5.25, v1.6.1, v1.6.2, v1.7.0, v1.7.2, v1.7.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/s2n-tls/xmake.lua">s2n-tls/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install s2n-tls
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("s2n-tls")
+</code></pre>
 <h3 id="s7macosx">s7 (macosx)</h3>
 <table>
 <thead>
@@ -57920,7 +57994,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27</td>
+<td>2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -59188,7 +59262,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x563b46742e00</td>
+<td>table: 0x56436b8970c0</td>
 </tr>
 <tr>
 <td>Versions</td>

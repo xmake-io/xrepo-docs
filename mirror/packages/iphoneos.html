@@ -1746,43 +1746,6 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("awk")
 </code></pre>
-<h3 id="awscauthiphoneos">aws-c-auth (iphoneos)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>C99 library implementation of AWS client-side authentication: standard credentials providers and signing.</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://github.com/awslabs/aws-c-auth">https://github.com/awslabs/aws-c-auth</a></td>
-</tr>
-<tr>
-<td>License</td>
-<td>Apache-2.0</td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5, v0.10.1, v0.10.2, v0.10.3</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm64, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua">aws-c-auth/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install -p iphoneos aws-c-auth
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("aws-c-auth")
-</code></pre>
 <h3 id="awsccaliphoneos">aws-c-cal (iphoneos)</h3>
 <table>
 <thead>
@@ -1893,117 +1856,6 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("aws-c-compression")
-</code></pre>
-<h3 id="awschttpiphoneos">aws-c-http (iphoneos)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>C99 implementation of the HTTP/1.1 and HTTP/2 specifications</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://github.com/awslabs/aws-c-http">https://github.com/awslabs/aws-c-http</a></td>
-</tr>
-<tr>
-<td>License</td>
-<td>Apache-2.0</td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm64, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua">aws-c-http/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install -p iphoneos aws-c-http
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("aws-c-http")
-</code></pre>
-<h3 id="awscioiphoneos">aws-c-io (iphoneos)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>This is a module for the AWS SDK for C. It handles all IO and TLS work for application protocols. </em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://github.com/awslabs/aws-c-io">https://github.com/awslabs/aws-c-io</a></td>
-</tr>
-<tr>
-<td>License</td>
-<td>Apache-2.0</td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm64, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua">aws-c-io/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install -p iphoneos aws-c-io
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("aws-c-io")
-</code></pre>
-<h3 id="awscs3iphoneos">aws-c-s3 (iphoneos)</h3>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th><em>C99 library implementation for communicating with the S3 service, designed for maximizing throughput on high bandwidth EC2 instances.</em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Homepage</td>
-<td><a href="https://github.com/awslabs/aws-c-s3">https://github.com/awslabs/aws-c-s3</a></td>
-</tr>
-<tr>
-<td>License</td>
-<td>Apache-2.0</td>
-</tr>
-<tr>
-<td>Versions</td>
-<td>v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5</td>
-</tr>
-<tr>
-<td>Architectures</td>
-<td>arm64, x86_64</td>
-</tr>
-<tr>
-<td>Definition</td>
-<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua">aws-c-s3/xmake.lua</a></td>
-</tr>
-</tbody>
-</table>
-<h5 id="installcommand">Install command</h5>
-<pre><code class="lang-console">xrepo install -p iphoneos aws-c-s3
-</code></pre>
-<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
-<pre><code class="lang-lua">add_requires("aws-c-s3")
 </code></pre>
 <h3 id="awscsdkutilsiphoneos">aws-c-sdkutils (iphoneos)</h3>
 <table>
@@ -18835,7 +18687,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0</td>
+<td>v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0, v2.14.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -19403,6 +19255,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libsdl3_image")
+</code></pre>
+<h3 id="libsdl3_mixeriphoneos">libsdl3_mixer (iphoneos)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>An audio mixer that supports various file formats for Simple Directmedia Layer.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/libsdl-org/SDL_mixer">https://github.com/libsdl-org/SDL_mixer</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.2.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_mixer/xmake.lua">libsdl3_mixer/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p iphoneos libsdl3_mixer
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsdl3_mixer")
 </code></pre>
 <h3 id="libsdl3_ttfiphoneos">libsdl3_ttf (iphoneos)</h3>
 <table>
@@ -39150,7 +39039,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27</td>
+<td>2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01</td>
 </tr>
 <tr>
 <td>Architectures</td>

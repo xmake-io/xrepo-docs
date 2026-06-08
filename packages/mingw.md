@@ -14100,7 +14100,7 @@ add_requires("libraw")
 | -- | -- |
 | Homepage | [https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html](https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html) |
 | License | BSD-2-Clause |
-| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0 |
+| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0, v2.14.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
@@ -14473,6 +14473,30 @@ xrepo install -p mingw [--mingw=/xxx] libsdl3_image
 
 ```lua
 add_requires("libsdl3_image")
+```
+
+
+### libsdl3_mixer (mingw)
+
+
+| Description | *An audio mixer that supports various file formats for Simple Directmedia Layer.* |
+| -- | -- |
+| Homepage | [https://github.com/libsdl-org/SDL_mixer](https://github.com/libsdl-org/SDL_mixer) |
+| License | zlib |
+| Versions | 3.2.4 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libsdl3_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_mixer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libsdl3_mixer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl3_mixer")
 ```
 
 
@@ -28981,7 +29005,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 

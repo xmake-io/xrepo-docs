@@ -1076,30 +1076,6 @@ add_requires("awk")
 ```
 
 
-### aws-c-auth (iphoneos)
-
-
-| Description | *C99 library implementation of AWS client-side authentication: standard credentials providers and signing.* |
-| -- | -- |
-| Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
-| License | Apache-2.0 |
-| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5, v0.10.1, v0.10.2, v0.10.3 |
-| Architectures | arm64, x86_64 |
-| Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos aws-c-auth
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("aws-c-auth")
-```
-
-
 ### aws-c-cal (iphoneos)
 
 
@@ -1169,78 +1145,6 @@ xrepo install -p iphoneos aws-c-compression
 
 ```lua
 add_requires("aws-c-compression")
-```
-
-
-### aws-c-http (iphoneos)
-
-
-| Description | *C99 implementation of the HTTP/1.1 and HTTP/2 specifications* |
-| -- | -- |
-| Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
-| License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0 |
-| Architectures | arm64, x86_64 |
-| Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos aws-c-http
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("aws-c-http")
-```
-
-
-### aws-c-io (iphoneos)
-
-
-| Description | *This is a module for the AWS SDK for C. It handles all IO and TLS work for application protocols. * |
-| -- | -- |
-| Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
-| License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0 |
-| Architectures | arm64, x86_64 |
-| Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos aws-c-io
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("aws-c-io")
-```
-
-
-### aws-c-s3 (iphoneos)
-
-
-| Description | *C99 library implementation for communicating with the S3 service, designed for maximizing throughput on high bandwidth EC2 instances.* |
-| -- | -- |
-| Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
-| License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5 |
-| Architectures | arm64, x86_64 |
-| Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p iphoneos aws-c-s3
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("aws-c-s3")
 ```
 
 
@@ -12258,7 +12162,7 @@ add_requires("libraw")
 | -- | -- |
 | Homepage | [https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html](https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html) |
 | License | BSD-2-Clause |
-| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0 |
+| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0, v2.14.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
@@ -12631,6 +12535,30 @@ xrepo install -p iphoneos libsdl3_image
 
 ```lua
 add_requires("libsdl3_image")
+```
+
+
+### libsdl3_mixer (iphoneos)
+
+
+| Description | *An audio mixer that supports various file formats for Simple Directmedia Layer.* |
+| -- | -- |
+| Homepage | [https://github.com/libsdl-org/SDL_mixer](https://github.com/libsdl-org/SDL_mixer) |
+| License | zlib |
+| Versions | 3.2.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [libsdl3_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_mixer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos libsdl3_mixer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl3_mixer")
 ```
 
 
@@ -25570,7 +25498,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01 |
 | Architectures | arm64, x86_64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 

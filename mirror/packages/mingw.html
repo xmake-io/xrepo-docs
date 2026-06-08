@@ -21653,7 +21653,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0</td>
+<td>v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0, v2.14.2</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -22221,6 +22221,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("libsdl3_image")
+</code></pre>
+<h3 id="libsdl3_mixermingw">libsdl3_mixer (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>An audio mixer that supports various file formats for Simple Directmedia Layer.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/libsdl-org/SDL_mixer">https://github.com/libsdl-org/SDL_mixer</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.2.4</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_mixer/xmake.lua">libsdl3_mixer/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] libsdl3_mixer
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("libsdl3_mixer")
 </code></pre>
 <h3 id="libsdl3_ttfmingw">libsdl3_ttf (mingw)</h3>
 <table>
@@ -44350,7 +44387,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27</td>
+<td>2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01</td>
 </tr>
 <tr>
 <td>Architectures</td>

@@ -11203,6 +11203,30 @@ add_requires("libsdl3_image")
 ```
 
 
+### libsdl3_mixer (wasm)
+
+
+| Description | *An audio mixer that supports various file formats for Simple Directmedia Layer.* |
+| -- | -- |
+| Homepage | [https://github.com/libsdl-org/SDL_mixer](https://github.com/libsdl-org/SDL_mixer) |
+| License | zlib |
+| Versions | 3.2.4 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libsdl3_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_mixer/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libsdl3_mixer
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsdl3_mixer")
+```
+
+
 ### libsdl3_ttf (wasm)
 
 
@@ -22897,7 +22921,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01 |
 | Architectures | wasm32, wasm64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 
