@@ -3831,7 +3831,7 @@ add_requires("concerto-core")
 | -- | -- |
 | Homepage | [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) |
 | License | BSD |
-| Versions | v1.0.4 |
+| Versions | v1.0.4, v1.0.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
 
@@ -8928,7 +8928,7 @@ add_requires("gzip-hpp")
 | -- | -- |
 | Homepage | [https://h3geo.org](https://h3geo.org) |
 | License | Apache-2.0 |
-| Versions | v4.3.0, v4.4.0, v4.4.1 |
+| Versions | v4.3.0, v4.4.0, v4.4.1, v4.5.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [h3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/h3/xmake.lua) |
 
@@ -17390,7 +17390,7 @@ add_requires("named_type")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
 | License | MIT |
-| Versions | 0.10.3, 0.10.4 |
+| Versions | 0.10.3, 0.10.4, 0.10.5 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
 

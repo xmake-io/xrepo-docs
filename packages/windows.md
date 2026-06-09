@@ -5001,7 +5001,7 @@ add_requires("concurrencpp")
 | -- | -- |
 | Homepage | [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) |
 | License | BSD |
-| Versions | v1.0.4 |
+| Versions | v1.0.4, v1.0.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [concurrentqueue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/concurrentqueue/xmake.lua) |
 
@@ -7176,7 +7176,7 @@ add_requires("demumble")
 | Description | *Tools for working with Chromium development* |
 | -- | -- |
 | Homepage | [https://chromium.googlesource.com/chromium/tools/depot_tools](https://chromium.googlesource.com/chromium/tools/depot_tools) |
-| Versions | 2022.2.1, 2024.2.29, 2024.7.4 |
+| Versions | 2022.2.1, 2024.2.29, 2024.7.4, 2026.6.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [depot_tools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/depot_tools/xmake.lua) |
 
@@ -12629,7 +12629,7 @@ add_requires("gzip-hpp")
 | -- | -- |
 | Homepage | [https://h3geo.org](https://h3geo.org) |
 | License | Apache-2.0 |
-| Versions | v4.3.0, v4.4.0, v4.4.1 |
+| Versions | v4.3.0, v4.4.0, v4.4.1, v4.5.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [h3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/h3/xmake.lua) |
 
@@ -23685,7 +23685,7 @@ add_requires("named_type")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
 | License | MIT |
-| Versions | 0.10.3, 0.10.4 |
+| Versions | 0.10.3, 0.10.4, 0.10.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
 
@@ -31559,7 +31559,7 @@ add_requires("s7")
 | -- | -- |
 | Homepage | [https://cursey.dev/safetyhook](https://cursey.dev/safetyhook) |
 | License | BSL-1.0 |
-| Versions | v0.6.4, v0.6.5, v0.6.6, v0.6.7, v0.6.9 |
+| Versions | v0.6.4, v0.6.5, v0.6.6, v0.6.7, v0.6.9, v0.6.10 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [safetyhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/safetyhook/xmake.lua) |
 
