@@ -917,6 +917,7 @@ add_requires("aurora-au")
 | Description | *An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/autoconf/autoconf.html](https://www.gnu.org/software/autoconf/autoconf.html) |
+| License | GPL-3.0-or-later |
 | Versions | 2.68, 2.69, 2.71, 2.72 |
 | Architectures | arm64, x86_64 |
 | Definition | [autoconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autoconf/xmake.lua) |
@@ -964,6 +965,7 @@ add_requires("autoconf-archive")
 | Description | *A tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/automake/](https://www.gnu.org/software/automake/) |
+| License | GPL-2.0-or-later |
 | Versions | 1.9.5, 1.9.6, 1.15.1, 1.16.1, 1.16.4, 1.16.5, 1.17 |
 | Architectures | arm64, x86_64 |
 | Definition | [automake/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/automake/xmake.lua) |
@@ -987,6 +989,7 @@ add_requires("automake")
 | Description | *%s* |
 | -- | -- |
 | Homepage | [%s](%s) |
+| License | GPL-3.0-or-later |
 | Versions |  |
 | Architectures | arm64, x86_64 |
 | Definition | [autotools/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/autotools/xmake.lua) |
@@ -1202,6 +1205,7 @@ add_requires("aws-checksums")
 | Description | *AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.* |
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
+| License | Apache-2.0 |
 | Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1, v1.73.0, v5.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
@@ -9241,6 +9245,7 @@ add_requires("inifile-cpp")
 | Description | *Simple .INI file parser in C, good for embedded systems* |
 | -- | -- |
 | Homepage | [https://github.com/benhoyt/inih](https://github.com/benhoyt/inih) |
+| License | BSD-3-Clause |
 | Versions | 58, 59, 60 |
 | Architectures | arm64, x86_64 |
 | Definition | [inih/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/inih/xmake.lua) |
@@ -15933,6 +15938,7 @@ add_requires("mpmcqueue")
 | Description | *Public repository of the Micro QuickJS Javascript Engine* |
 | -- | -- |
 | Homepage | [https://github.com/bellard/mquickjs](https://github.com/bellard/mquickjs) |
+| License | MIT |
 | Versions | 2025.12.22 |
 | Architectures | arm64, x86_64 |
 | Definition | [mquickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mquickjs/xmake.lua) |
@@ -20542,6 +20548,7 @@ add_requires("quickcpplib")
 | Description | *QuickJS is a small and embeddable Javascript engine* |
 | -- | -- |
 | Homepage | [https://bellard.org/quickjs/](https://bellard.org/quickjs/) |
+| License | MIT |
 | Versions | 2021.03.27, 2023.12.09, 2024.01.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [quickjs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quickjs/xmake.lua) |
@@ -26359,6 +26366,7 @@ add_requires("xxmlxx")
 | Description | *General-purpose data compression with high compression ratio.* |
 | -- | -- |
 | Homepage | [https://tukaani.org/xz/](https://tukaani.org/xz/) |
+| License | LGPL-2.1-or-later |
 | Versions | 5.2.11, 5.2.12, 5.2.13, 5.4.2, 5.4.3, 5.4.4, 5.4.5, 5.4.6, 5.4.7, 5.6.2, 5.6.3, 5.6.4, 5.8.1, 5.8.2, 5.8.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [xz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz/xmake.lua) |
