@@ -7455,7 +7455,7 @@ add_requires("frozen")
 | -- | -- |
 | Homepage | [https://github.com/Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) |
 | License | MIT |
-| Versions | v0.15.29, v0.15.31, v0.16.0, v0.16.2, v0.17.1, v0.18.2 |
+| Versions | v0.15.29, v0.15.31, v0.16.0, v0.16.2, v0.17.1, v0.18.2, v0.20.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [frugally-deep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frugally-deep/xmake.lua) |
 
@@ -9131,7 +9131,7 @@ add_requires("highway")
 | -- | -- |
 | Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
 | License | BSD-3-Clause |
-| Versions | v1.0.2, v1.1.0, v1.2.0, v1.3.0 |
+| Versions | v1.0.2, v1.1.0, v1.2.0, v1.3.0, v1.4.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
 
@@ -15509,7 +15509,7 @@ add_requires("maddy")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
-| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2, v0.9.0, v0.9.5, v0.9.6, v0.9.7 |
+| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2, v0.9.0, v0.9.5, v0.9.6, v0.9.7, v0.9.8 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 
