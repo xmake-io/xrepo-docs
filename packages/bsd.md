@@ -18176,7 +18176,7 @@ add_requires("nim")
 | -- | -- |
 | Homepage | [https://ninja-build.org/](https://ninja-build.org/) |
 | License | Apache-2.0 |
-| Versions | v1.9.0, v1.10.1, v1.10.2, v1.11.0, v1.11.1, v1.12.1, v1.13.1 |
+| Versions | v1.9.0, v1.10.1, v1.10.2, v1.11.0, v1.11.1, v1.12.1, v1.13.1, v1.13.2 |
 | Architectures | i386, x86_64 |
 | Definition | [ninja/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ninja/xmake.lua) |
 
