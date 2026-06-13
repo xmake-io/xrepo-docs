@@ -9772,7 +9772,7 @@ add_requires("itlib")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3, v3.26.4 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3, v3.26.4, v3.28.0 |
 | Architectures | i386, x86_64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 

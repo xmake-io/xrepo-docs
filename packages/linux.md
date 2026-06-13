@@ -15120,7 +15120,7 @@ add_requires("itstool")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3, v3.26.4 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3, v3.26.4, v3.28.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -42061,7 +42061,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55cdac2e1df0 |
+| License | table: 0x55d02a9d3320 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
