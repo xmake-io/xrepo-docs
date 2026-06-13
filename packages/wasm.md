@@ -13192,7 +13192,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1, v3.3.2, v3.5.0 |
+| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -16015,7 +16015,7 @@ add_requires("opengl-headers")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -17709,7 +17709,7 @@ add_requires("pycdc")
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
 | License | MIT |
-| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.6.2, v2.7.1 |
+| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.6.2, v2.7.1, v2.7.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
@@ -20987,7 +20987,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [http://taglib.org/](http://taglib.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.1, v2.1.1, v2.2.1 |
+| Versions | v2.1, v2.1.1, v2.2.1, v2.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
 

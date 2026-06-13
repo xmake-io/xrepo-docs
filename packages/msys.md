@@ -1302,7 +1302,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0, v0.40.1 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -13819,7 +13819,7 @@ add_requires("libwebp")
 | -- | -- |
 | Homepage | [https://github.com/warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) |
 | License | MIT |
-| Versions | v4.3.3, v4.3.4, v4.3.5, v4.4.1, v4.5.2 |
+| Versions | v4.3.3, v4.3.4, v4.3.5, v4.4.1, v4.5.2, v4.5.8 |
 | Architectures | i386, x86_64 |
 | Definition | [libwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebsockets/xmake.lua) |
 
@@ -15150,7 +15150,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1, v3.3.2, v3.5.0 |
+| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1 |
 | Architectures | i386, x86_64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -18403,7 +18403,7 @@ add_requires("openjdk")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1 |
 | Architectures | i386, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -20286,7 +20286,7 @@ add_requires("pycdc")
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
 | License | MIT |
-| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.6.2, v2.7.1 |
+| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.6.2, v2.7.1, v2.7.2 |
 | Architectures | i386, x86_64 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
@@ -23801,7 +23801,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [http://taglib.org/](http://taglib.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.1, v2.1.1, v2.2.1 |
+| Versions | v2.1, v2.1.1, v2.2.1, v2.3 |
 | Architectures | i386, x86_64 |
 | Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
 

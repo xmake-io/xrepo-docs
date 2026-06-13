@@ -1928,7 +1928,7 @@ add_requires("aws-c-mqtt")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -2000,7 +2000,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0, v0.40.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -13922,7 +13922,7 @@ add_requires("http_parser")
 | -- | -- |
 | Homepage | [https://github.com/vcrhonek/hwdata](https://github.com/vcrhonek/hwdata) |
 | License | GPL-2.0-or-later |
-| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406, v0.407 |
+| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406, v0.407, v0.408 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [hwdata/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hwdata/xmake.lua) |
 
@@ -22105,7 +22105,7 @@ add_requires("libwebp")
 | -- | -- |
 | Homepage | [https://github.com/warmcat/libwebsockets](https://github.com/warmcat/libwebsockets) |
 | License | MIT |
-| Versions | v4.3.3, v4.3.4, v4.3.5, v4.4.1, v4.5.2 |
+| Versions | v4.3.3, v4.3.4, v4.3.5, v4.4.1, v4.5.2, v4.5.8 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwebsockets/xmake.lua) |
 
@@ -24541,7 +24541,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1, v3.3.2, v3.5.0 |
+| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -25928,7 +25928,7 @@ add_requires("mkl")
 | -- | -- |
 | Homepage | [https://www.mlpack.org/](https://www.mlpack.org/) |
 | License | BSD-3-Clause |
-| Versions | 4.3.0, 4.7.0 |
+| Versions | 4.3.0, 4.7.0, 4.8.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [mlpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mlpack/xmake.lua) |
 
@@ -28839,7 +28839,7 @@ add_requires("ompl")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1, v3.10.2, v3.11, v3.11.3 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1, v3.10.2, v3.11, v3.11.3, v3.12.1 |
 | Architectures | x86_64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -29507,7 +29507,7 @@ add_requires("openjpeg")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -32629,7 +32629,7 @@ add_requires("pycdc")
 | -- | -- |
 | Homepage | [https://github.com/chen-qingyu/pyincpp](https://github.com/chen-qingyu/pyincpp) |
 | License | MIT |
-| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.6.2, v2.7.1 |
+| Versions | v1.3.2, v1.3.3, v1.4.1, v1.6.0, v1.6.1, v2.3.0, v2.4.0, v2.4.1, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.6.2, v2.7.1, v2.7.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [pyincpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pyincpp/xmake.lua) |
 
@@ -38169,7 +38169,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [http://taglib.org/](http://taglib.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.1, v2.1.1, v2.2.1 |
+| Versions | v2.1, v2.1.1, v2.2.1, v2.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
 
@@ -42061,7 +42061,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56097d4e8300 |
+| License | table: 0x55cdac2e1df0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
