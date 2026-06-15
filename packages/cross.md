@@ -18377,7 +18377,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [http://libomath.org](http://libomath.org) |
 | License | zlib |
-| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0, v5.2.1 |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0, v5.2.1, v5.3.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
 
@@ -22262,6 +22262,30 @@ xrepo install -p cross [--sdk=/xxx] ruapu
 
 ```lua
 add_requires("ruapu")
+```
+
+
+### rubberband (cross)
+
+
+| Description | *A high quality software library for audio time-stretching and pitch-shifting.* |
+| -- | -- |
+| Homepage | [https://breakfastquay.com/rubberband/](https://breakfastquay.com/rubberband/) |
+| License | GPL-2.0-or-later OR Commercial Licenses |
+| Versions | 4.0.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [rubberband/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rubberband/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] rubberband
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rubberband")
 ```
 
 

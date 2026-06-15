@@ -28791,7 +28791,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [http://libomath.org](http://libomath.org) |
 | License | zlib |
-| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0, v5.2.1 |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0, v5.2.1, v5.3.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
 
@@ -35034,6 +35034,30 @@ add_requires("ruapu")
 ```
 
 
+### rubberband (linux)
+
+
+| Description | *A high quality software library for audio time-stretching and pitch-shifting.* |
+| -- | -- |
+| Homepage | [https://breakfastquay.com/rubberband/](https://breakfastquay.com/rubberband/) |
+| License | GPL-2.0-or-later OR Commercial Licenses |
+| Versions | 4.0.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rubberband/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rubberband/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rubberband
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rubberband")
+```
+
+
 ### rust (linux)
 
 
@@ -35232,7 +35256,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
 | License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0, v0.27.1, v0.28.0, v0.29.2 |
+| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0, v0.27.1, v0.28.0, v0.29.2, v0.30.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
 
@@ -42061,7 +42085,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x565384153750 |
+| License | table: 0x563d83be0f40 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
