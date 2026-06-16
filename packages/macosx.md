@@ -14023,7 +14023,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://itk.org/](https://itk.org/) |
 | License | Apache-2.0 |
-| Versions | 5.2.0, 5.2.1, 5.4.4, 5.4.5 |
+| Versions | 5.2.0, 5.2.1, 5.4.4, 5.4.5, 5.4.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [itk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itk/xmake.lua) |
 
@@ -24358,7 +24358,7 @@ add_requires("msdfgen")
 | -- | -- |
 | Homepage | [https://msgpack.org/](https://msgpack.org/) |
 | License | BSL-1.0 |
-| Versions | 4.0.0, 6.0.1, 6.0.2, 6.1.0 |
+| Versions | 4.0.0, 6.0.1, 6.0.2, 6.1.0, 7.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [msgpack-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-c/xmake.lua) |
 
@@ -38854,7 +38854,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5620250cda70 |
+| License | table: 0x5609d6c6e4b0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

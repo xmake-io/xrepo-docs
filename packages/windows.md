@@ -14263,7 +14263,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://itk.org/](https://itk.org/) |
 | License | Apache-2.0 |
-| Versions | 5.2.0, 5.2.1, 5.4.4, 5.4.5 |
+| Versions | 5.2.0, 5.2.1, 5.4.4, 5.4.5, 5.4.6 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [itk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itk/xmake.lua) |
 
@@ -23218,7 +23218,7 @@ add_requires("msdfgen")
 | -- | -- |
 | Homepage | [https://msgpack.org/](https://msgpack.org/) |
 | License | BSL-1.0 |
-| Versions | 4.0.0, 6.0.1, 6.0.2, 6.1.0 |
+| Versions | 4.0.0, 6.0.1, 6.0.2, 6.1.0, 7.0.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [msgpack-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-c/xmake.lua) |
 

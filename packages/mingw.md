@@ -18284,7 +18284,7 @@ add_requires("msdfgen")
 | -- | -- |
 | Homepage | [https://msgpack.org/](https://msgpack.org/) |
 | License | BSL-1.0 |
-| Versions | 4.0.0, 6.0.1, 6.0.2, 6.1.0 |
+| Versions | 4.0.0, 6.0.1, 6.0.2, 6.1.0, 7.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [msgpack-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-c/xmake.lua) |
 
