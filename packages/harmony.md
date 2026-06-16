@@ -18834,7 +18834,7 @@ add_requires("premake5")
 | -- | -- |
 | Homepage | [https://proj.org/index.html](https://proj.org/index.html) |
 | License | MIT |
-| Versions | 6.3.1, 8.2.1, 9.0.1, 9.4.0 |
+| Versions | 6.3.1, 8.2.1, 9.0.1, 9.4.0, 9.6.1, 9.7.0, 9.7.1, 9.8.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [proj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proj/xmake.lua) |
 

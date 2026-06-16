@@ -9218,7 +9218,7 @@ add_requires("farmhash")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5 |
+| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5, v2.3.6 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -25458,8 +25458,8 @@ add_requires("ogre-next")
 | -- | -- |
 | Homepage | [https://wgois.github.io/OIS/](https://wgois.github.io/OIS/) |
 | License | zlib |
-| Versions | v1.5.1 |
-| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Versions | v1.5.1, v1.6.0 |
+| Architectures | arm, arm64ec, x64, x86 |
 | Definition | [ois/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ois/xmake.lua) |
 
 ##### Install command
@@ -28702,7 +28702,7 @@ add_requires("process-dump")
 | -- | -- |
 | Homepage | [https://proj.org/index.html](https://proj.org/index.html) |
 | License | MIT |
-| Versions | 6.3.1, 8.2.1, 9.0.1, 9.4.0 |
+| Versions | 6.3.1, 8.2.1, 9.0.1, 9.4.0, 9.6.1, 9.7.0, 9.7.1, 9.8.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [proj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proj/xmake.lua) |
 
