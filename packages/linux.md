@@ -18083,8 +18083,8 @@ add_requires("libfswatch")
 | Description | *FUSE (Filesystem in Userspace) is an interface for userspace programs to export a filesystem to the Linux kernel.* |
 | -- | -- |
 | Homepage | [https://github.com/libfuse/libfuse](https://github.com/libfuse/libfuse) |
-| License | GPL-2.0 |
-| Versions | 3.10.4, 3.17.1 |
+| License | LGPL-2.1 |
+| Versions | 3.10.4, 3.17.1, 3.18.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libfuse/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfuse/xmake.lua) |
 
@@ -23708,7 +23708,7 @@ add_requires("ls-hpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/ls-qpack](https://github.com/litespeedtech/ls-qpack) |
 | License | MIT |
-| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2 |
+| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ls-qpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-qpack/xmake.lua) |
 
@@ -42085,7 +42085,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5609d6c6e4b0 |
+| License | table: 0x557b92356720 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

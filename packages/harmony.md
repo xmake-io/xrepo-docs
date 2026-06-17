@@ -13411,7 +13411,7 @@ add_requires("ls-hpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/ls-qpack](https://github.com/litespeedtech/ls-qpack) |
 | License | MIT |
-| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2 |
+| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [ls-qpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-qpack/xmake.lua) |
 
