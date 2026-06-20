@@ -3550,7 +3550,7 @@ add_requires("capnproto")
 | -- | -- |
 | Homepage | [http://www.capstone-engine.org](http://www.capstone-engine.org) |
 | License | BSD-3-Clause |
-| Versions | 5.0.3, 5.0.5, 5.0.6, 5.0.7 |
+| Versions | 5.0.3, 5.0.5, 5.0.6, 5.0.7, 5.0.9 |
 | Architectures | arm64, x86_64 |
 | Definition | [capstone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capstone/xmake.lua) |
 
@@ -15102,7 +15102,7 @@ add_requires("ktx")
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
 | License | Unlicense |
-| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5, v0.3.6, v0.3.7, v0.3.8, v0.3.9 |
+| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5, v0.3.6, v0.3.7, v0.3.8, v0.3.9, v0.3.11 |
 | Architectures | arm64, x86_64 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
@@ -21357,7 +21357,7 @@ add_requires("llgl")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
-| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0, v9.3.1, v9.4.1 |
+| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0, v9.3.1, v9.4.1, v9.4.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
@@ -26964,7 +26964,7 @@ add_requires("opencv-mobile")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10, v3.4.11, v3.4.12 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10, v3.4.11, v3.4.12, v3.4.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -27179,7 +27179,7 @@ add_requires("openjpeg")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1, 0.29.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -28443,7 +28443,7 @@ add_requires("pdcursesmod")
 | -- | -- |
 | Homepage | [https://www.pdfhummus.com/](https://www.pdfhummus.com/) |
 | License | Apache-2.0 |
-| Versions | v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6, v4.6.7, v4.6.8, v4.8.1 |
+| Versions | v4.5.6, v4.5.7, v4.5.8, v4.5.9, v4.5.10, v4.6.1, v4.6.2, v4.6.3, v4.6.4, v4.6.6, v4.6.7, v4.6.8, v4.8.1, v4.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [pdfhummus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfhummus/xmake.lua) |
 
@@ -28467,7 +28467,7 @@ add_requires("pdfhummus")
 | -- | -- |
 | Homepage | [https://www.msweet.org/pdfio](https://www.msweet.org/pdfio) |
 | License | Apache-2.0 |
-| Versions | v1.3.0, v1.3.1, v1.3.2, v1.4.0, v1.5.0, v1.6.1, v1.6.3 |
+| Versions | v1.3.0, v1.3.1, v1.3.2, v1.4.0, v1.5.0, v1.6.1, v1.6.3, v1.6.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [pdfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfio/xmake.lua) |
 
@@ -34123,7 +34123,7 @@ add_requires("spot")
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
 | License | BSD-3-Clause |
-| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0 |
+| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0, 4.16.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 
@@ -34410,7 +34410,7 @@ add_requires("srpc")
 | -- | -- |
 | Homepage | [https://www.srtalliance.org/](https://www.srtalliance.org/) |
 | License | MPL-2.0 |
-| Versions | v1.4.2, v1.5.3, v1.5.4 |
+| Versions | v1.4.2, v1.5.3, v1.5.4, v1.5.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [srt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srt/xmake.lua) |
 
@@ -38854,7 +38854,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55960dd964d0 |
+| License | table: 0x55d95ffc8970 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

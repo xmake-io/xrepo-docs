@@ -2185,7 +2185,7 @@ add_requires("ca-certificates")
 | -- | -- |
 | Homepage | [http://www.capstone-engine.org](http://www.capstone-engine.org) |
 | License | BSD-3-Clause |
-| Versions | 5.0.3, 5.0.5, 5.0.6, 5.0.7 |
+| Versions | 5.0.3, 5.0.5, 5.0.6, 5.0.7, 5.0.9 |
 | Architectures | wasm32, wasm64 |
 | Definition | [capstone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/capstone/xmake.lua) |
 
@@ -12433,7 +12433,7 @@ add_requires("llgl")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
-| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0, v9.3.1, v9.4.1 |
+| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0, v9.3.1, v9.4.1, v9.4.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
@@ -15944,7 +15944,7 @@ add_requires("opencolorio")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10, v3.4.11, v3.4.12 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10, v3.4.11, v3.4.12, v3.4.13 |
 | Architectures | wasm32, wasm64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -16015,7 +16015,7 @@ add_requires("opengl-headers")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1, 0.29.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -16589,7 +16589,7 @@ add_requires("pcre2")
 | -- | -- |
 | Homepage | [https://www.msweet.org/pdfio](https://www.msweet.org/pdfio) |
 | License | Apache-2.0 |
-| Versions | v1.3.0, v1.3.1, v1.3.2, v1.4.0, v1.5.0, v1.6.1, v1.6.3 |
+| Versions | v1.3.0, v1.3.1, v1.3.2, v1.4.0, v1.5.0, v1.6.1, v1.6.3, v1.6.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [pdfio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pdfio/xmake.lua) |
 
