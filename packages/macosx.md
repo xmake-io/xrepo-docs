@@ -3431,7 +3431,7 @@ add_requires("c-vector")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10, 0.2.11, 0.3.0 |
+| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10, 0.2.11, 0.3.0, 0.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -3622,7 +3622,7 @@ add_requires("cartographer")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0, v3.14.0, v3.15.0 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0, v3.14.0, v3.15.0, v3.15.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -7756,7 +7756,7 @@ add_requires("drogon")
 | -- | -- |
 | Homepage | [https://duckdb.org/](https://duckdb.org/) |
 | License | MIT |
-| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3, v1.2.1, v1.2.2, v1.3.2, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4, v1.5.0, v1.5.2 |
+| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3, v1.2.1, v1.2.2, v1.3.2, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4, v1.5.0, v1.5.2, v1.5.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [duckdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duckdb/xmake.lua) |
 
@@ -18415,7 +18415,7 @@ add_requires("libraqm")
 | -- | -- |
 | Homepage | [https://github.com/DEgITx/librats](https://github.com/DEgITx/librats) |
 | License | MIT |
-| Versions | 0.1.5, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.5.4, 0.8.0 |
+| Versions | 0.1.5, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.5.4, 0.8.0, 1.0.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [librats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librats/xmake.lua) |
 
@@ -21615,7 +21615,7 @@ add_requires("ls-hpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/ls-qpack](https://github.com/litespeedtech/ls-qpack) |
 | License | MIT |
-| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3 |
+| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3, v2.6.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [ls-qpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-qpack/xmake.lua) |
 
@@ -25910,7 +25910,7 @@ add_requires("nowide_standalone")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI) |
 | License | MIT |
-| Versions | v176, v177 |
+| Versions | v176, v177, v179 |
 | Architectures | arm64, x86_64 |
 | Definition | [nri/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nri/xmake.lua) |
 
@@ -36248,7 +36248,7 @@ add_requires("tinyexpr")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
 | License | BSD-3-Clause |
-| Versions | v1.0.1, v1.0.8, v1.0.9, v1.0.10, v1.0.12, v1.0.13 |
+| Versions | v1.0.1, v1.0.8, v1.0.9, v1.0.10, v1.0.12, v1.0.13, v3.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
 
@@ -38854,7 +38854,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d95ffc8970 |
+| License | table: 0x55d7bd5308c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
