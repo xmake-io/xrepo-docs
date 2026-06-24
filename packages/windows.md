@@ -2881,7 +2881,7 @@ add_requires("boost_reflect")
 | -- | -- |
 | Homepage | [https://boost-ext.github.io/sml](https://boost-ext.github.io/sml) |
 | License | BSL-1.0 |
-| Versions | v1.1.8, v1.1.11, v1.1.12, v1.1.13 |
+| Versions | v1.1.8, v1.1.11, v1.1.12, v1.1.13, v1.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [boost_sml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_sml/xmake.lua) |
 
@@ -4050,7 +4050,7 @@ add_requires("chaiscript")
 | -- | -- |
 | Homepage | [https://github.com/team-charls/charls](https://github.com/team-charls/charls) |
 | License | BSD-3-Clause |
-| Versions | 2.4.2, 2.4.3 |
+| Versions | 2.4.2, 2.4.3, 2.4.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [charls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/charls/xmake.lua) |
 
@@ -10174,7 +10174,7 @@ add_requires("fmm3d")
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
 | License | MIT |
-| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2, 11.1.0, 11.1.1, 11.1.2, 11.1.3, 11.1.4, 11.2.0, 12.0.0, 12.1.0 |
+| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2, 11.1.0, 11.1.1, 11.1.2, 11.1.3, 11.1.4, 11.2.0, 12.0.0, 12.1.0, 12.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -10846,7 +10846,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1, 3.12.2, 3.12.3 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1, 3.12.2, 3.12.3, 3.13.1 |
 | Architectures | x64, x86 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -16179,7 +16179,7 @@ add_requires("libdeflate")
 | -- | -- |
 | Homepage | [https://libdicom.readthedocs.io](https://libdicom.readthedocs.io) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0, v1.2.1 |
+| Versions | v1.1.0, v1.2.0, v1.2.1, v1.3.0 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [libdicom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdicom/xmake.lua) |
 
@@ -26199,7 +26199,7 @@ add_requires("openjpeg")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1, 0.29.0 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1, 0.29.0, 0.30.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -28702,7 +28702,7 @@ add_requires("process-dump")
 | -- | -- |
 | Homepage | [https://proj.org/index.html](https://proj.org/index.html) |
 | License | MIT |
-| Versions | 6.3.1, 8.2.1, 9.0.1, 9.4.0, 9.6.1, 9.7.0, 9.7.1, 9.8.0 |
+| Versions | 6.3.1, 8.2.1, 9.0.1, 9.4.0, 9.6.1, 9.7.0, 9.7.1, 9.8.0, 9.8.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [proj/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/proj/xmake.lua) |
 
