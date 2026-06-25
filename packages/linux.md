@@ -5554,7 +5554,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3, v0.43.4, v0.45.0, v0.47.0 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3, v0.43.4, v0.45.0, v0.47.0, v0.48.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -9742,7 +9742,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3, v8.2.4, v8.2.5 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3, v8.2.4, v8.2.5, v8.2.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -15648,7 +15648,7 @@ add_requires("jsoncons")
 | -- | -- |
 | Homepage | [https://github.com/open-source-parsers/jsoncpp/wiki](https://github.com/open-source-parsers/jsoncpp/wiki) |
 | License | MIT |
-| Versions | 1.9.4, 1.9.5, 1.9.6 |
+| Versions | 1.9.4, 1.9.5, 1.9.6, 1.9.8 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [jsoncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncpp/xmake.lua) |
 
@@ -16629,7 +16629,7 @@ add_requires("libaio")
 | -- | -- |
 | Homepage | [https://libarchive.org/](https://libarchive.org/) |
 | License | BSD-2-Clause |
-| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2, 3.7.7, 3.8.4, 3.8.5, 3.8.6, 3.8.7 |
+| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2, 3.7.7, 3.8.4, 3.8.5, 3.8.6, 3.8.7, 3.8.8 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
 
@@ -17200,7 +17200,7 @@ add_requires("libcurl")
 | -- | -- |
 | Homepage | [https://libdatachannel.org/](https://libdatachannel.org/) |
 | License | MPL-2.0 |
-| Versions | v0.23.1, v0.23.2, v0.24.1, v0.24.2, v0.24.3, v0.24.4 |
+| Versions | v0.23.1, v0.23.2, v0.24.1, v0.24.2, v0.24.3, v0.24.4, v0.24.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libdatachannel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdatachannel/xmake.lua) |
 
@@ -41297,7 +41297,7 @@ add_requires("visit_struct")
 | -- | -- |
 | Homepage | [https://github.com/charles-lunarg/vk-bootstrap](https://github.com/charles-lunarg/vk-bootstrap) |
 | License | MIT |
-| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315, v1.4.325, v1.4.342, v1.4.349, v1.4.352 |
+| Versions | v0.5, v0.6, v0.7, v1.3.268, v1.3.275, v1.3.280, v1.3.282, v1.3.283, v1.3.284, v1.3.285, v1.3.289, v1.3.290, v1.3.292, v1.3.295, v1.3.302, v1.4.307, v1.4.311, v1.4.312, v1.4.315, v1.4.325, v1.4.342, v1.4.349, v1.4.352, v1.4.354 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [vk-bootstrap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vk-bootstrap/xmake.lua) |
 
@@ -42085,7 +42085,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563c824a8780 |
+| License | table: 0x55d8d45caf30 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
