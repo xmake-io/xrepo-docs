@@ -1009,6 +1009,30 @@ add_requires("atomic_queue")
 ```
 
 
+### aubio (mingw)
+
+
+| Description | *A library for audio and music analysis* |
+| -- | -- |
+| Homepage | [https://aubio.org](https://aubio.org) |
+| License | GPL-3.0-or-later |
+| Versions | 2026.4.10 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [aubio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aubio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] aubio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aubio")
+```
+
+
 ### audiofile (mingw)
 
 
@@ -1424,7 +1448,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6 |
+| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.12.7 |
 | Architectures | arm, arm64, x86_64 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 

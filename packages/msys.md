@@ -887,6 +887,30 @@ add_requires("atomic_queue")
 ```
 
 
+### aubio (msys)
+
+
+| Description | *A library for audio and music analysis* |
+| -- | -- |
+| Homepage | [https://aubio.org](https://aubio.org) |
+| License | GPL-3.0-or-later |
+| Versions | 2026.4.10 |
+| Architectures | i386, x86_64 |
+| Definition | [aubio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aubio/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aubio
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aubio")
+```
+
+
 ### audiofile (msys)
 
 
