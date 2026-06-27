@@ -37109,7 +37109,7 @@ add_requires("uvwasi")
 | -- | -- |
 | Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
 | License | Apache-2.0 |
-| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0, v20.74.0, v20.75.0, v20.77.0 |
+| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0, v20.74.0, v20.75.0, v20.77.0, v20.78.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [uwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uwebsockets/xmake.lua) |
 
@@ -39756,6 +39756,30 @@ xrepo install zip
 
 ```lua
 add_requires("zip")
+```
+
+
+### zix (windows)
+
+
+| Description | *A lightweight C99 portability and data structure library* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.8.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [zix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zix/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zix
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zix")
 ```
 
 

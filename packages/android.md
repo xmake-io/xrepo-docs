@@ -28989,6 +28989,30 @@ add_requires("zip")
 ```
 
 
+### zix (android)
+
+
+| Description | *A lightweight C99 portability and data structure library* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.8.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [zix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zix/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] zix
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zix")
+```
+
+
 ### zlib (android)
 
 

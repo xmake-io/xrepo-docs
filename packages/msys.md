@@ -27386,6 +27386,30 @@ add_requires("zip")
 ```
 
 
+### zix (msys)
+
+
+| Description | *A lightweight C99 portability and data structure library* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.8.0 |
+| Architectures | i386, x86_64 |
+| Definition | [zix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zix/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zix
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zix")
+```
+
+
 ### zlib (msys)
 
 

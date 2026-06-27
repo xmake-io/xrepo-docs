@@ -37873,7 +37873,7 @@ add_requires("uvwasi")
 | -- | -- |
 | Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
 | License | Apache-2.0 |
-| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0, v20.74.0, v20.75.0, v20.77.0 |
+| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0, v20.74.0, v20.75.0, v20.77.0, v20.78.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [uwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uwebsockets/xmake.lua) |
 
@@ -38878,7 +38878,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56318a4f64e0 |
+| License | table: 0x5596060f0fc0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -40395,6 +40395,30 @@ xrepo install zip
 
 ```lua
 add_requires("zip")
+```
+
+
+### zix (macosx)
+
+
+| Description | *A lightweight C99 portability and data structure library* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.8.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [zix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zix/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zix
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zix")
 ```
 
 

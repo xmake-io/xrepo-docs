@@ -24143,6 +24143,30 @@ add_requires("zip")
 ```
 
 
+### zix (wasm)
+
+
+| Description | *A lightweight C99 portability and data structure library* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.8.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [zix/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zix/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm zix
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zix")
+```
+
+
 ### zlib (wasm)
 
 
