@@ -25433,7 +25433,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.0, v1.16.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.0, v1.16.0, v1.17.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
@@ -38878,7 +38878,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56182b6c7570 |
+| License | table: 0x559bde3c7130 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
