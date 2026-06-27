@@ -24208,7 +24208,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [https://rocksdb.org](https://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5, v10.9.1, v10.10.1, v11.0.4, v11.1.1 |
+| Versions | v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5, v10.9.1, v10.10.1, v11.0.4, v11.1.1, v11.1.2 |
 | Architectures | x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
