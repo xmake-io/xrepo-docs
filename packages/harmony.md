@@ -24102,7 +24102,7 @@ add_requires("uvw")
 | -- | -- |
 | Homepage | [https://github.com/tristanpenman/valijson](https://github.com/tristanpenman/valijson) |
 | License | BSD-2-Clause |
-| Versions | v1.0.6 |
+| Versions | v1.0.6, v1.1.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [valijson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/valijson/xmake.lua) |
 
