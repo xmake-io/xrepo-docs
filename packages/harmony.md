@@ -20599,6 +20599,30 @@ add_requires("semver")
 ```
 
 
+### serd (harmony)
+
+
+| Description | *A lightweight C library for reading and writing RDF* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | v0.32.8 |
+| Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
+| Definition | [serd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/serd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install serd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("serd")
+```
+
+
 ### sfl-library (harmony)
 
 

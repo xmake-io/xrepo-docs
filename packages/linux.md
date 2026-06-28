@@ -35677,6 +35677,30 @@ add_requires("seqan3")
 ```
 
 
+### serd (linux)
+
+
+| Description | *A lightweight C library for reading and writing RDF* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | v0.32.8 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [serd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/serd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install serd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("serd")
+```
+
+
 ### serial (linux)
 
 
@@ -42133,7 +42157,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c1dd284200 |
+| License | table: 0x55af1fa86e40 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

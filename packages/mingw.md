@@ -24725,6 +24725,30 @@ add_requires("semver")
 ```
 
 
+### serd (mingw)
+
+
+| Description | *A lightweight C library for reading and writing RDF* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | v0.32.8 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [serd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/serd/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] serd
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("serd")
+```
+
+
 ### serial (mingw)
 
 
