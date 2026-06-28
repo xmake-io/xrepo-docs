@@ -22933,6 +22933,30 @@ add_requires("sjpeg")
 ```
 
 
+### sleef (cross)
+
+
+| Description | *SIMD Library for Evaluating Elementary Functions, vectorized libm and DFT* |
+| -- | -- |
+| Homepage | [https://sleef.org/](https://sleef.org/) |
+| License | BSL-1.0 |
+| Versions | 3.9.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [sleef/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sleef/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] sleef
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sleef")
+```
+
+
 ### slikenet (cross)
 
 

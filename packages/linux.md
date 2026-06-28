@@ -36298,6 +36298,30 @@ add_requires("slang")
 ```
 
 
+### sleef (linux)
+
+
+| Description | *SIMD Library for Evaluating Elementary Functions, vectorized libm and DFT* |
+| -- | -- |
+| Homepage | [https://sleef.org/](https://sleef.org/) |
+| License | BSL-1.0 |
+| Versions | 3.9.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [sleef/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sleef/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sleef
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sleef")
+```
+
+
 ### slikenet (linux)
 
 
@@ -42109,7 +42133,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55dcd9d40ee0 |
+| License | table: 0x55c1dd284200 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

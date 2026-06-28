@@ -32589,6 +32589,30 @@ add_requires("slang")
 ```
 
 
+### sleef (windows)
+
+
+| Description | *SIMD Library for Evaluating Elementary Functions, vectorized libm and DFT* |
+| -- | -- |
+| Homepage | [https://sleef.org/](https://sleef.org/) |
+| License | BSL-1.0 |
+| Versions | 3.9.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [sleef/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sleef/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sleef
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sleef")
+```
+
+
 ### slikenet (windows)
 
 

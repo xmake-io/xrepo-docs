@@ -19783,6 +19783,30 @@ add_requires("sjpeg")
 ```
 
 
+### sleef (wasm)
+
+
+| Description | *SIMD Library for Evaluating Elementary Functions, vectorized libm and DFT* |
+| -- | -- |
+| Homepage | [https://sleef.org/](https://sleef.org/) |
+| License | BSL-1.0 |
+| Versions | 3.9.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [sleef/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sleef/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm sleef
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sleef")
+```
+
+
 ### slikenet (wasm)
 
 
