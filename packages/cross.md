@@ -1422,7 +1422,7 @@ add_requires("aws-crt-cpp")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.11.802, 1.11.808, 1.11.813, 1.11.817, 1.11.828, 1.11.829 |
+| Versions | 1.11.802, 1.11.808, 1.11.813, 1.11.817, 1.11.828, 1.11.829, 1.11.835 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
@@ -17826,7 +17826,7 @@ add_requires("nmd")
 | -- | -- |
 | Homepage | [https://nng.nanomsg.org](https://nng.nanomsg.org) |
 | License | MIT |
-| Versions | v1.3.2, v1.4.0, v1.5.2, v1.7.3, v1.8.0, v1.10.1, v1.10.2, v1.11 |
+| Versions | v1.3.2, v1.4.0, v1.5.2, v1.7.3, v1.8.0, v1.10.1, v1.10.2, v1.11, v1.12.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nng/xmake.lua) |
 
@@ -20764,7 +20764,7 @@ add_requires("ptex")
 | -- | -- |
 | Homepage | [https://pugixml.org/](https://pugixml.org/) |
 | License | MIT |
-| Versions | v1.11.4, v1.13, v1.14, v1.15 |
+| Versions | v1.11.4, v1.13, v1.14, v1.15, v1.16 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [pugixml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pugixml/xmake.lua) |
 
