@@ -23314,6 +23314,30 @@ add_requires("sophus")
 ```
 
 
+### sord (cross)
+
+
+| Description | *Lightweight C library for storing RDF statements in memory.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.16.22 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [sord/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sord/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] sord
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sord")
+```
+
+
 ### soundtouch (cross)
 
 

@@ -27714,7 +27714,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 1.21.0, 1.22.0, 1.22.1, 1.23.0 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 1.21.0, 1.22.0, 1.22.1, 1.23.0, 1.24.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -36750,6 +36750,30 @@ add_requires("soplex")
 ```
 
 
+### sord (linux)
+
+
+| Description | *Lightweight C library for storing RDF statements in memory.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.16.22 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [sord/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sord/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sord
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sord")
+```
+
+
 ### soundtouch (linux)
 
 
@@ -42157,7 +42181,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55af1fa86e40 |
+| License | table: 0x55872c2f4a70 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -22528,6 +22528,30 @@ add_requires("sophus")
 ```
 
 
+### sord (iphoneos)
+
+
+| Description | *Lightweight C library for storing RDF statements in memory.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.16.22 |
+| Architectures | arm64, x86_64 |
+| Definition | [sord/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sord/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos sord
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sord")
+```
+
+
 ### soundtouch (iphoneos)
 
 

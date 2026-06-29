@@ -24432,7 +24432,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 1.21.0, 1.22.0, 1.22.1, 1.23.0 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 1.21.0, 1.22.0, 1.22.1, 1.23.0, 1.24.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -33038,6 +33038,30 @@ xrepo install soplex
 
 ```lua
 add_requires("soplex")
+```
+
+
+### sord (windows)
+
+
+| Description | *Lightweight C library for storing RDF statements in memory.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.16.22 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [sord/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sord/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sord
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sord")
 ```
 
 
