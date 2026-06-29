@@ -8939,7 +8939,7 @@ add_requires("h3")
 | -- | -- |
 | Homepage | [https://github.com/MuggleWei/haclog](https://github.com/MuggleWei/haclog) |
 | License | MIT |
-| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3 |
+| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3, v0.4.4 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [haclog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/haclog/xmake.lua) |
 
@@ -23813,6 +23813,30 @@ xrepo install -p cross [--sdk=/xxx] squirrel
 
 ```lua
 add_requires("squirrel")
+```
+
+
+### sratom (cross)
+
+
+| Description | *Library for serialising LV2 atoms.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.6.22 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [sratom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sratom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] sratom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sratom")
 ```
 
 

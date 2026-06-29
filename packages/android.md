@@ -8980,7 +8980,7 @@ add_requires("h3")
 | -- | -- |
 | Homepage | [https://github.com/MuggleWei/haclog](https://github.com/MuggleWei/haclog) |
 | License | MIT |
-| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3 |
+| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3, v0.4.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [haclog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/haclog/xmake.lua) |
 
@@ -22319,7 +22319,7 @@ add_requires("raylib")
 | -- | -- |
 | Homepage | [https://github.com/RobLoach/raylib-cpp](https://github.com/RobLoach/raylib-cpp) |
 | License | zlib |
-| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0, v6.0.1 |
+| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0, v6.0.1, v6.0.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [raylib-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib-cpp/xmake.lua) |
 

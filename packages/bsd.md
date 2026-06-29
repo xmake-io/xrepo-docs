@@ -24355,6 +24355,30 @@ add_requires("squirrel")
 ```
 
 
+### sratom (bsd)
+
+
+| Description | *Library for serialising LV2 atoms.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.6.22 |
+| Architectures | i386, x86_64 |
+| Definition | [sratom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sratom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sratom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sratom")
+```
+
+
 ### srell (bsd)
 
 

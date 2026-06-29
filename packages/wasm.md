@@ -18596,7 +18596,7 @@ add_requires("raylib")
 | -- | -- |
 | Homepage | [https://github.com/RobLoach/raylib-cpp](https://github.com/RobLoach/raylib-cpp) |
 | License | zlib |
-| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0, v6.0.1 |
+| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0, v6.0.1, v6.0.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [raylib-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib-cpp/xmake.lua) |
 
@@ -20496,6 +20496,30 @@ xrepo install -p wasm sqlitecpp
 
 ```lua
 add_requires("sqlitecpp")
+```
+
+
+### sratom (wasm)
+
+
+| Description | *Library for serialising LV2 atoms.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.6.22 |
+| Architectures | wasm32, wasm64 |
+| Definition | [sratom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sratom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm sratom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sratom")
 ```
 
 

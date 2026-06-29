@@ -7778,7 +7778,7 @@ add_requires("dlpack")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/DLSS](https://github.com/NVIDIA/DLSS) |
 | License | NVIDIA RTX SDKs |
-| Versions | v3.7.20, v310.1.0, v310.2.1, v310.3.0, v310.4.0, v310.5.0, v310.5.3, v310.6.0 |
+| Versions | v3.7.20, v310.1.0, v310.2.1, v310.3.0, v310.4.0, v310.5.0, v310.5.3, v310.6.0, v310.7.0 |
 | Architectures | x64 |
 | Definition | [dlss/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dlss/xmake.lua) |
 
@@ -12707,7 +12707,7 @@ add_requires("h5cpp")
 | -- | -- |
 | Homepage | [https://github.com/MuggleWei/haclog](https://github.com/MuggleWei/haclog) |
 | License | MIT |
-| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3 |
+| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3, v0.4.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [haclog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/haclog/xmake.lua) |
 
@@ -30424,7 +30424,7 @@ add_requires("raylib")
 | -- | -- |
 | Homepage | [https://github.com/RobLoach/raylib-cpp](https://github.com/RobLoach/raylib-cpp) |
 | License | zlib |
-| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0, v6.0.1 |
+| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0, v6.0.1, v6.0.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [raylib-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib-cpp/xmake.lua) |
 
@@ -33588,6 +33588,30 @@ xrepo install squirrel
 
 ```lua
 add_requires("squirrel")
+```
+
+
+### sratom (windows)
+
+
+| Description | *Library for serialising LV2 atoms.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.6.22 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [sratom/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sratom/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sratom
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sratom")
 ```
 
 
