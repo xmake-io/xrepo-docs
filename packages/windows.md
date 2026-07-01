@@ -20805,7 +20805,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4, 5.5, 5.8 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4, 5.5, 5.8, 5.9 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -30038,7 +30038,7 @@ add_requires("quickjs-ng")
 | -- | -- |
 | Homepage | [https://github.com/odygrd/quill](https://github.com/odygrd/quill) |
 | License | MIT |
-| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3, v10.0.0, v10.0.1, v10.1.0, v11.0.2, v11.1.0 |
+| Versions | v2.8.0, v2.9.0, v2.9.1, v3.3.1, v3.6.0, v3.8.0, v4.3.0, v4.5.0, v5.0.0, v5.1.0, v6.1.0, v6.1.2, v7.0.0, v7.1.0, v7.2.2, v7.3.0, v7.4.0, v7.5.0, v8.0.0, v8.1.1, v8.2.0, v9.0.2, v9.0.3, v10.0.0, v10.0.1, v10.1.0, v11.0.2, v11.1.0, v12.0.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [quill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quill/xmake.lua) |
 
@@ -34651,7 +34651,7 @@ add_requires("taskflow")
 | -- | -- |
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
-| Versions | 6.3.0, 6.4.6, 6.4.7, 6.4.8 |
+| Versions | 6.3.0, 6.4.6, 6.4.7, 6.4.8, 6.4.16 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 

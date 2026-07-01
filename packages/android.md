@@ -15461,7 +15461,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4, 5.5, 5.8 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4, 5.5, 5.8, 5.9 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -25262,7 +25262,7 @@ add_requires("taskflow")
 | -- | -- |
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
-| Versions | 6.3.0, 6.4.6, 6.4.7, 6.4.8 |
+| Versions | 6.3.0, 6.4.6, 6.4.7, 6.4.8, 6.4.16 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 
