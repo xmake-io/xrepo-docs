@@ -10678,7 +10678,7 @@ add_requires("genie")
 | -- | -- |
 | Homepage | [https://github.com/gistrec/geo-utils-cpp](https://github.com/gistrec/geo-utils-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.0.1, 1.0.2 |
+| Versions | 1.0.1, 1.0.2, 1.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [geo-utils-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geo-utils-cpp/xmake.lua) |
 
@@ -39046,7 +39046,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5653684f0390 |
+| License | table: 0x555a6daacd20 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
