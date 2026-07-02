@@ -3258,6 +3258,30 @@ add_requires("box2d")
 ```
 
 
+### box3d (linux)
+
+
+| Description | *Box3D is a 3D physics engine for games* |
+| -- | -- |
+| Homepage | [https://github.com/erincatto/box3d](https://github.com/erincatto/box3d) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [box3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box3d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install box3d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("box3d")
+```
+
+
 ### boxfort (linux)
 
 
@@ -31703,7 +31727,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutosvg](https://github.com/sammycage/plutosvg) |
 | License | MIT |
-| Versions | v0.0.2, v0.0.3, v0.0.4, v0.0.5, v0.0.6, v0.0.7 |
+| Versions | v0.0.2, v0.0.3, v0.0.4, v0.0.5, v0.0.6, v0.0.7, v0.0.8 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [plutosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutosvg/xmake.lua) |
 
@@ -34485,6 +34509,30 @@ xrepo install restinio
 
 ```lua
 add_requires("restinio")
+```
+
+
+### rgfw (linux)
+
+
+| Description | *A single-header windowing framework for creating windows, graphics contexts and handling input.* |
+| -- | -- |
+| Homepage | [https://github.com/ColleagueRiley/RGFW](https://github.com/ColleagueRiley/RGFW) |
+| License | zlib |
+| Versions | 1.8.1 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [rgfw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rgfw/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install rgfw
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("rgfw")
 ```
 
 
@@ -42229,7 +42277,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564562ba31a0 |
+| License | table: 0x5653684f0390 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

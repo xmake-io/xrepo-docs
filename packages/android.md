@@ -2418,6 +2418,30 @@ add_requires("box2d")
 ```
 
 
+### box3d (android)
+
+
+| Description | *Box3D is a 3D physics engine for games* |
+| -- | -- |
+| Homepage | [https://github.com/erincatto/box3d](https://github.com/erincatto/box3d) |
+| License | MIT |
+| Versions | v0.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [box3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box3d/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] box3d
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("box3d")
+```
+
+
 ### boxfort (android)
 
 
@@ -20670,7 +20694,7 @@ add_requires("plusaes")
 | -- | -- |
 | Homepage | [https://github.com/sammycage/plutosvg](https://github.com/sammycage/plutosvg) |
 | License | MIT |
-| Versions | v0.0.2, v0.0.3, v0.0.4, v0.0.5, v0.0.6, v0.0.7 |
+| Versions | v0.0.2, v0.0.3, v0.0.4, v0.0.5, v0.0.6, v0.0.7, v0.0.8 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [plutosvg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/plutosvg/xmake.lua) |
 
