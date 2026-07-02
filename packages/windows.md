@@ -19965,6 +19965,30 @@ add_requires("lightningscanner")
 ```
 
 
+### lilv (windows)
+
+
+| Description | *LV2 host library.* |
+| -- | -- |
+| Homepage | [%s](%s) |
+| License | ISC |
+| Versions | 0.28.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [lilv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lilv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lilv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lilv")
+```
+
+
 ### limonp (windows)
 
 
@@ -24074,7 +24098,7 @@ add_requires("nativefiledialog-extended")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/NazaraUtils](https://github.com/NazaraEngine/NazaraUtils) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.1 |
+| Versions | v1.0.0, v1.1.1, v1.1.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [nazarautils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nazarautils/xmake.lua) |
 
@@ -33431,7 +33455,7 @@ add_requires("sqlite-vec")
 | -- | -- |
 | Homepage | [https://sqlite.org/](https://sqlite.org/) |
 | License | Public Domain |
-| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+100, 3.47.0+0, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.51.0+300, 3.51.0+200, 3.51.0+100, 3.51.0+0, 3.53.0+0, 3.53.0+100 |
+| Versions | 3.23.0+0, 3.24.0+0, 3.34.0+100, 3.35.0+400, 3.35.0+300, 3.36.0+0, 3.37.0+200, 3.39.0+200, 3.43.0+200, 3.45.0+300, 3.45.0+100, 3.45.0+200, 3.46.0+100, 3.46.0+0, 3.47.0+200, 3.47.0+0, 3.47.0+100, 3.48.0+0, 3.49.0+200, 3.49.0+100, 3.49.0+0, 3.50.0+400, 3.50.0+300, 3.50.0+200, 3.50.0+100, 3.50.0+0, 3.51.0+300, 3.51.0+200, 3.51.0+0, 3.51.0+100, 3.53.0+0, 3.53.0+100, 3.53.0+200 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlite3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlite3/xmake.lua) |
 
