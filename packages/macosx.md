@@ -16917,7 +16917,7 @@ add_requires("libharu")
 | -- | -- |
 | Homepage | [https://github.com/BasedInc/libhat](https://github.com/BasedInc/libhat) |
 | License | MIT |
-| Versions | v0.5.0, v0.6.0, v0.7.0, v0.9.0 |
+| Versions | v0.5.0, v0.6.0, v0.7.0, v0.9.0, v0.10.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libhat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhat/xmake.lua) |
 
@@ -18940,7 +18940,7 @@ add_requires("libsdl3_image")
 | -- | -- |
 | Homepage | [https://github.com/libsdl-org/SDL_mixer](https://github.com/libsdl-org/SDL_mixer) |
 | License | zlib |
-| Versions | 3.2.4 |
+| Versions | 3.2.2, 3.2.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsdl3_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_mixer/xmake.lua) |
 
@@ -21108,6 +21108,30 @@ xrepo install lief
 
 ```lua
 add_requires("lief")
+```
+
+
+### lightgbm (macosx)
+
+
+| Description | *LightGBM is a gradient boosting framework that uses tree based learning algorithms.* |
+| -- | -- |
+| Homepage | [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM) |
+| License | MIT |
+| Versions | 3.2.1, 3.3.2, 4.2.0, 4.3.0, 4.4.0, 4.5.0, 4.6.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [lightgbm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lightgbm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lightgbm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lightgbm")
 ```
 
 
@@ -39046,7 +39070,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x560da0451030 |
+| License | table: 0x55ed6dee4310 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -13413,7 +13413,7 @@ add_requires("libsdl3_image")
 | -- | -- |
 | Homepage | [https://github.com/libsdl-org/SDL_mixer](https://github.com/libsdl-org/SDL_mixer) |
 | License | zlib |
-| Versions | 3.2.4 |
+| Versions | 3.2.2, 3.2.4 |
 | Architectures | i386, x86_64 |
 | Definition | [libsdl3_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_mixer/xmake.lua) |
 

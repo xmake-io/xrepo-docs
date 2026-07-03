@@ -10783,7 +10783,7 @@ add_requires("libharu")
 | -- | -- |
 | Homepage | [https://github.com/BasedInc/libhat](https://github.com/BasedInc/libhat) |
 | License | MIT |
-| Versions | v0.5.0, v0.6.0, v0.7.0, v0.9.0 |
+| Versions | v0.5.0, v0.6.0, v0.7.0, v0.9.0, v0.10.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [libhat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libhat/xmake.lua) |
 
@@ -11956,7 +11956,7 @@ add_requires("libsdl3_image")
 | -- | -- |
 | Homepage | [https://github.com/libsdl-org/SDL_mixer](https://github.com/libsdl-org/SDL_mixer) |
 | License | zlib |
-| Versions | 3.2.4 |
+| Versions | 3.2.2, 3.2.4 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [libsdl3_mixer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3_mixer/xmake.lua) |
 
