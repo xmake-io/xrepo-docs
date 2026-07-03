@@ -7742,7 +7742,7 @@ add_requires("genie")
 | -- | -- |
 | Homepage | [https://github.com/gistrec/geo-utils-cpp](https://github.com/gistrec/geo-utils-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.0.1, 1.0.2, 1.1.0 |
+| Versions | 1.0.1, 1.0.2, 1.1.0, 1.2.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [geo-utils-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geo-utils-cpp/xmake.lua) |
 
@@ -14414,7 +14414,7 @@ add_requires("libwebsockets")
 | -- | -- |
 | Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
 | License | Apache-2.0 |
-| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.11.7, v0.11.11, v1.0.0 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.11.7, v0.11.11, v1.0.0, v1.0.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libwfkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libwfkafka/xmake.lua) |
 
@@ -25262,7 +25262,7 @@ add_requires("taocpp-json")
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
-| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0, v3.11.0, v4.0.0 |
+| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0, v3.11.0, v4.0.0, v4.1.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 

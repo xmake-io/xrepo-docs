@@ -11037,7 +11037,7 @@ add_requires("genie")
 | -- | -- |
 | Homepage | [https://github.com/gistrec/geo-utils-cpp](https://github.com/gistrec/geo-utils-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.0.1, 1.0.2, 1.1.0 |
+| Versions | 1.0.1, 1.0.2, 1.1.0, 1.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [geo-utils-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geo-utils-cpp/xmake.lua) |
 
@@ -12346,7 +12346,7 @@ add_requires("gsl-lite")
 | -- | -- |
 | Homepage | [https://gstreamer.freedesktop.org](https://gstreamer.freedesktop.org) |
 | License | LGPL-2.0-or-later |
-| Versions | 1.24.2 |
+| Versions | 1.24.2, 1.29.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [gstreamer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gstreamer/xmake.lua) |
 
@@ -34699,7 +34699,7 @@ add_requires("taocpp-json")
 | -- | -- |
 | Homepage | [https://taskflow.github.io/](https://taskflow.github.io/) |
 | License | MIT |
-| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0, v3.11.0, v4.0.0 |
+| Versions | v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v3.10.0, v3.11.0, v4.0.0, v4.1.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [taskflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taskflow/xmake.lua) |
 

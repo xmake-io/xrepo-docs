@@ -6715,7 +6715,7 @@ add_requires("genie")
 | -- | -- |
 | Homepage | [https://github.com/gistrec/geo-utils-cpp](https://github.com/gistrec/geo-utils-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.0.1, 1.0.2, 1.1.0 |
+| Versions | 1.0.1, 1.0.2, 1.1.0, 1.2.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [geo-utils-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geo-utils-cpp/xmake.lua) |
 
