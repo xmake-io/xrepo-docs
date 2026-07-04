@@ -14844,7 +14844,7 @@ add_requires("liquid-dsp")
 | -- | -- |
 | Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
 | License | BSD-3-Clause |
-| Versions | v0.9 |
+| Versions | v0.9, v0.10 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
 
@@ -23490,7 +23490,7 @@ add_requires("shaderc")
 | -- | -- |
 | Homepage | [https://github.com/bytedance/android-inline-hook/tree/main/doc](https://github.com/bytedance/android-inline-hook/tree/main/doc) |
 | License | MIT |
-| Versions | v1.1.1, v2.0.0 |
+| Versions | v1.1.1, v2.0.0, v2.0.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a |
 | Definition | [shadowhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/shadowhook/xmake.lua) |
 

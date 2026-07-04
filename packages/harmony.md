@@ -13175,7 +13175,7 @@ add_requires("liquid-dsp")
 | -- | -- |
 | Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
 | License | BSD-3-Clause |
-| Versions | v0.9 |
+| Versions | v0.9, v0.10 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
 

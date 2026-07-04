@@ -5344,7 +5344,7 @@ add_requires("curl")
 | -- | -- |
 | Homepage | [http://www.curlpp.org](http://www.curlpp.org) |
 | License | MIT |
-| Versions | 2023.07.27 |
+| Versions | 2023.07.27, 2026.02.12 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [curlpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/curlpp/xmake.lua) |
 
@@ -15899,7 +15899,7 @@ add_requires("liquid-dsp")
 | -- | -- |
 | Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
 | License | BSD-3-Clause |
-| Versions | v0.9 |
+| Versions | v0.9, v0.10 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
 
@@ -17901,7 +17901,7 @@ add_requires("minimp3")
 | -- | -- |
 | Homepage | [https://minio-cpp.min.io/](https://minio-cpp.min.io/) |
 | License | Apache-2.0 |
-| Versions | v0.3.0 |
+| Versions | v0.3.0, v0.4.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [minio-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minio-cpp/xmake.lua) |
 

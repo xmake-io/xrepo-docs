@@ -7033,7 +7033,7 @@ add_requires("curlcpp")
 | -- | -- |
 | Homepage | [http://www.curlpp.org](http://www.curlpp.org) |
 | License | MIT |
-| Versions | 2023.07.27 |
+| Versions | 2023.07.27, 2026.02.12 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [curlpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/curlpp/xmake.lua) |
 
@@ -23402,7 +23402,7 @@ add_requires("liquid-dsp")
 | -- | -- |
 | Homepage | [http://www.litehtml.com/](http://www.litehtml.com/) |
 | License | BSD-3-Clause |
-| Versions | v0.9 |
+| Versions | v0.9, v0.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [litehtml/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/litehtml/xmake.lua) |
 
@@ -25785,7 +25785,7 @@ add_requires("minimp3")
 | -- | -- |
 | Homepage | [https://minio-cpp.min.io/](https://minio-cpp.min.io/) |
 | License | Apache-2.0 |
-| Versions | v0.3.0 |
+| Versions | v0.3.0, v0.4.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [minio-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minio-cpp/xmake.lua) |
 
@@ -42277,7 +42277,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5563d294fd50 |
+| License | table: 0x55c36ff9bae0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
