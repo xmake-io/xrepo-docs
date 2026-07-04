@@ -19360,7 +19360,7 @@ add_requires("rubberband")
 | Description | *Rust is a general-purpose programming language emphasizing performance, type safety, and concurrency.* |
 | -- | -- |
 | Homepage | [https://rust-lang.org](https://rust-lang.org) |
-| Versions | 1.86.0 |
+| Versions | 1.86.0, 1.96.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [rust/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rust/xmake.lua) |
 

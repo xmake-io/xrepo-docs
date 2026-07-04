@@ -17441,7 +17441,7 @@ add_requires("libmobi")
 | -- | -- |
 | Homepage | [https://libmodbus.org](https://libmodbus.org) |
 | License | LGPL-2.1 |
-| Versions | v3.1.10, v3.1.11, v3.1.12 |
+| Versions | v3.1.10, v3.1.11, v3.1.12, v3.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libmodbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodbus/xmake.lua) |
 
@@ -31569,7 +31569,7 @@ add_requires("rubberband")
 | Description | *Rust is a general-purpose programming language emphasizing performance, type safety, and concurrency.* |
 | -- | -- |
 | Homepage | [https://rust-lang.org](https://rust-lang.org) |
-| Versions | 1.86.0 |
+| Versions | 1.86.0, 1.96.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [rust/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rust/xmake.lua) |
 

@@ -17697,7 +17697,7 @@ add_requires("libmobi")
 | -- | -- |
 | Homepage | [https://libmodbus.org](https://libmodbus.org) |
 | License | LGPL-2.1 |
-| Versions | v3.1.10, v3.1.11, v3.1.12 |
+| Versions | v3.1.10, v3.1.11, v3.1.12, v3.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libmodbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmodbus/xmake.lua) |
 
@@ -32406,7 +32406,7 @@ add_requires("rubberband")
 | Description | *Rust is a general-purpose programming language emphasizing performance, type safety, and concurrency.* |
 | -- | -- |
 | Homepage | [https://rust-lang.org](https://rust-lang.org) |
-| Versions | 1.86.0 |
+| Versions | 1.86.0, 1.96.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [rust/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rust/xmake.lua) |
 
@@ -39070,7 +39070,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558ad5f43450 |
+| License | table: 0x5563d294fd50 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
