@@ -8022,6 +8022,30 @@ add_requires("gli")
 ```
 
 
+### glib (bsd)
+
+
+| Description | *Low-level core library that forms the basis for projects such as GTK+ and GNOME.* |
+| -- | -- |
+| Homepage | [https://docs.gtk.org/glib/](https://docs.gtk.org/glib/) |
+| License | LGPL-2.1 |
+| Versions | 2.71.0, 2.78.1, 2.85.0, 2.88.1 |
+| Architectures | i386, x86_64 |
+| Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glib")
+```
+
+
 ### glm (bsd)
 
 
