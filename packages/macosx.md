@@ -35654,7 +35654,7 @@ add_requires("tbb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
-| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1, v1.7.4, v1.7.5, v1.7.6 |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1, v1.7.4, v1.7.5, v1.7.6, v1.8.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
@@ -39070,7 +39070,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x560fc4d76e80 |
+| License | table: 0x56406398a6e0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

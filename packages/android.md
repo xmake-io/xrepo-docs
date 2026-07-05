@@ -25333,7 +25333,7 @@ add_requires("tbb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
-| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1, v1.7.4, v1.7.5, v1.7.6 |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1, v1.7.4, v1.7.5, v1.7.6, v1.8.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
