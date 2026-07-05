@@ -1350,7 +1350,7 @@ add_requires("aws-c-s3")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
 | License | Apache-2.0 |
-| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5, v0.2.6 |
+| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5, v0.2.6, v0.2.7 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
 
@@ -16154,7 +16154,7 @@ add_requires("melon")
 | -- | -- |
 | Homepage | [https://github.com/zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) |
 | License | MIT |
-| Versions | v0.18, v0.20, v0.21, v0.22, v0.23, v0.24, v0.25, v1.0, v1.0.1, v1.1.1 |
+| Versions | v0.18, v0.20, v0.21, v0.22, v0.23, v0.24, v0.25, v1.0, v1.0.1, v1.1.1, v1.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [meshoptimizer/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meshoptimizer/xmake.lua) |
 
@@ -26887,7 +26887,7 @@ add_requires("vladimirshaleev-ipaddress")
 | -- | -- |
 | Homepage | [https://github.com/Netflix/vmaf](https://github.com/Netflix/vmaf) |
 | License | BSD-2-Clause |
-| Versions | v3.0.0, v3.1.0 |
+| Versions | v3.0.0, v3.1.0, v3.2.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [vmaf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vmaf/xmake.lua) |
 
