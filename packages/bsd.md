@@ -6,7 +6,7 @@
 | -- | -- |
 | Homepage | [https://abseil.io](https://abseil.io) |
 | License | Apache-2.0 |
-| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1, 20240116.2, 20240722.0, 20250127.0, 20250127.1, 20250512.0, 20250512.1, 20250814.0, 20250814.1, 20260107.0, 20260107.1 |
+| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1, 20240116.2, 20240722.0, 20250127.0, 20250127.1, 20250512.0, 20250512.1, 20250814.0, 20250814.1, 20260107.0, 20260107.1, 20260526.0 |
 | Architectures | i386, x86_64 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
@@ -1520,7 +1520,7 @@ add_requires("aws-lc")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
-| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3, 5.4.2 |
+| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3, 5.4.2, 5.5.1 |
 | Architectures | i386, x86_64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
@@ -8450,6 +8450,30 @@ add_requires("graaf")
 ```
 
 
+### graphene (bsd)
+
+
+| Description | *A thin layer of graphic data types* |
+| -- | -- |
+| Homepage | [http://ebassi.github.io/graphene/](http://ebassi.github.io/graphene/) |
+| License | MIT |
+| Versions | 1.10.8 |
+| Architectures | i386, x86_64 |
+| Definition | [graphene/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/graphene/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install graphene
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("graphene")
+```
+
+
 ### grpc (bsd)
 
 
@@ -9034,7 +9058,7 @@ add_requires("highs")
 | -- | -- |
 | Homepage | [https://github.com/google/highway](https://github.com/google/highway) |
 | License | Apache-2.0 |
-| Versions | 1.1.0, 1.2.0, 1.3.0 |
+| Versions | 1.1.0, 1.2.0, 1.3.0, 1.4.0 |
 | Architectures | i386, x86_64 |
 | Definition | [highway/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highway/xmake.lua) |
 
@@ -9201,7 +9225,7 @@ add_requires("http_parser")
 | -- | -- |
 | Homepage | [https://github.com/vcrhonek/hwdata](https://github.com/vcrhonek/hwdata) |
 | License | GPL-2.0-or-later |
-| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406, v0.407, v0.408 |
+| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406, v0.407, v0.408, v0.409 |
 | Architectures | i386, x86_64 |
 | Definition | [hwdata/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hwdata/xmake.lua) |
 
@@ -13173,7 +13197,7 @@ add_requires("libressl")
 | -- | -- |
 | Homepage | [https://rime.im](https://rime.im) |
 | License | BSD-3-Clause |
-| Versions | 1.14.0, 1.15.0, 1.16.0, 1.16.1 |
+| Versions | 1.14.0, 1.15.0, 1.16.0, 1.16.1, 1.17.0 |
 | Architectures | i386, x86_64 |
 | Definition | [librime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librime/xmake.lua) |
 

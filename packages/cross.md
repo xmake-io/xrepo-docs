@@ -6,7 +6,7 @@
 | -- | -- |
 | Homepage | [https://abseil.io](https://abseil.io) |
 | License | Apache-2.0 |
-| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1, 20240116.2, 20240722.0, 20250127.0, 20250127.1, 20250512.0, 20250512.1, 20250814.0, 20250814.1, 20260107.0, 20260107.1 |
+| Versions | 20200225.1, 20210324.1, 20210324.2, 20211102.0, 20220623.0, 20230125.2, 20230802.1, 20240116.1, 20240116.2, 20240722.0, 20250127.0, 20250127.1, 20250512.0, 20250512.1, 20250814.0, 20250814.1, 20260107.0, 20260107.1, 20260526.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [abseil/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/abseil/xmake.lua) |
 
@@ -1448,7 +1448,7 @@ add_requires("aws-sdk-cpp")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
-| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3, 5.4.2 |
+| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3, 5.4.2, 5.5.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
@@ -9155,7 +9155,7 @@ add_requires("highs")
 | -- | -- |
 | Homepage | [https://github.com/google/highway](https://github.com/google/highway) |
 | License | Apache-2.0 |
-| Versions | 1.1.0, 1.2.0, 1.3.0 |
+| Versions | 1.1.0, 1.2.0, 1.3.0, 1.4.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [highway/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highway/xmake.lua) |
 
@@ -13008,7 +13008,7 @@ add_requires("libremidi")
 | -- | -- |
 | Homepage | [https://rime.im](https://rime.im) |
 | License | BSD-3-Clause |
-| Versions | 1.14.0, 1.15.0, 1.16.0, 1.16.1 |
+| Versions | 1.14.0, 1.15.0, 1.16.0, 1.16.1, 1.17.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [librime/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librime/xmake.lua) |
 
