@@ -26453,7 +26453,7 @@ add_requires("stc")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/stdexec](https://github.com/NVIDIA/stdexec) |
 | License | Apache-2.0 |
-| Versions | 2024.03.08, 2024.12.08 |
+| Versions | 2024.03.08, 2024.12.08, 2026.07.06 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [stdexec/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stdexec/xmake.lua) |
 
