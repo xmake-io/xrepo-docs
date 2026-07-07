@@ -17292,6 +17292,30 @@ add_requires("liblo")
 ```
 
 
+### liblsl (windows)
+
+
+| Description | *C++ lsl library for multi-modal time-synched data transmission over the local network.* |
+| -- | -- |
+| Homepage | [https://github.com/sccn/liblsl](https://github.com/sccn/liblsl) |
+| License | MIT |
+| Versions | v1.17.5, v1.17.7 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [liblsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liblsl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install liblsl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("liblsl")
+```
+
+
 ### libmaxminddb (windows)
 
 

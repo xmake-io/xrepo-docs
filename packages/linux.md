@@ -3329,6 +3329,30 @@ add_requires("bqlog")
 ```
 
 
+### brainflow (linux)
+
+
+| Description | *BrainFlow is a library intended to obtain, parse and analyze EEG, EMG, ECG and other kinds of data from biosensors.* |
+| -- | -- |
+| Homepage | [https://github.com/brainflow-dev/brainflow](https://github.com/brainflow-dev/brainflow) |
+| License | MIT |
+| Versions | 5.20.1, 5.22.2 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [brainflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brainflow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install brainflow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("brainflow")
+```
+
+
 ### branchless-utf8 (linux)
 
 
@@ -19023,6 +19047,30 @@ xrepo install liblo
 
 ```lua
 add_requires("liblo")
+```
+
+
+### liblsl (linux)
+
+
+| Description | *C++ lsl library for multi-modal time-synched data transmission over the local network.* |
+| -- | -- |
+| Homepage | [https://github.com/sccn/liblsl](https://github.com/sccn/liblsl) |
+| License | MIT |
+| Versions | v1.17.5, v1.17.7 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [liblsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liblsl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install liblsl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("liblsl")
 ```
 
 
@@ -42277,7 +42325,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ed073d02d0 |
+| License | table: 0x559f35b7b7b0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
