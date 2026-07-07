@@ -5409,6 +5409,30 @@ add_requires("dbg-macro")
 ```
 
 
+### dbus (android)
+
+
+| Description | *D-Bus is a message bus system, a simple way for applications to talk to one another.* |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
+| License | GPL-2.0-or-later |
+| Versions | 1.14.2, 1.14.6, 1.14.8, 1.16.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] dbus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dbus")
+```
+
+
 ### debug-hpp (android)
 
 

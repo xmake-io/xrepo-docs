@@ -5096,6 +5096,30 @@ add_requires("dbg-macro")
 ```
 
 
+### dbus (iphoneos)
+
+
+| Description | *D-Bus is a message bus system, a simple way for applications to talk to one another.* |
+| -- | -- |
+| Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
+| License | GPL-2.0-or-later |
+| Versions | 1.14.2, 1.14.6, 1.14.8, 1.16.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos dbus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dbus")
+```
+
+
 ### debug-hpp (iphoneos)
 
 

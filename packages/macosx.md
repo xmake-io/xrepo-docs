@@ -6991,7 +6991,7 @@ add_requires("dbg-macro")
 | -- | -- |
 | Homepage | [https://www.freedesktop.org/wiki/Software/dbus/](https://www.freedesktop.org/wiki/Software/dbus/) |
 | License | GPL-2.0-or-later |
-| Versions | 1.14.2, 1.14.6, 1.14.8 |
+| Versions | 1.14.2, 1.14.6, 1.14.8, 1.16.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [dbus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dbus/xmake.lua) |
 
@@ -39070,7 +39070,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x560a788e9800 |
+| License | table: 0x557831b90220 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
