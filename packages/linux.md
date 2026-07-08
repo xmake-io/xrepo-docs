@@ -28095,7 +28095,7 @@ add_requires("nod")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-addon-api](https://github.com/nodejs/node-addon-api) |
 | License | MIT |
-| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1, v8.4.0, v8.5.0, v8.6.0, v8.7.0, v8.8.0 |
+| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1, v8.4.0, v8.5.0, v8.6.0, v8.7.0, v8.8.0, v8.9.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [node-addon-api/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-addon-api/xmake.lua) |
 
@@ -41227,7 +41227,7 @@ add_requires("valgrind")
 | -- | -- |
 | Homepage | [https://github.com/tristanpenman/valijson](https://github.com/tristanpenman/valijson) |
 | License | BSD-2-Clause |
-| Versions | v1.0.6, v1.1.0 |
+| Versions | v1.0.6, v1.1.0, v1.1.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [valijson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/valijson/xmake.lua) |
 
@@ -42325,7 +42325,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559f35b7b7b0 |
+| License | table: 0x55dd5e6b5020 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
