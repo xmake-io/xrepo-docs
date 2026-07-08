@@ -15797,7 +15797,7 @@ add_requires("libargon2")
 | -- | -- |
 | Homepage | [https://github.com/libass/libass](https://github.com/libass/libass) |
 | License | ISC |
-| Versions | 0.15.2, 0.16.0, 0.17.0, 0.17.1 |
+| Versions | 0.15.2, 0.16.0, 0.17.0, 0.17.1, 0.17.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libass/xmake.lua) |
 
