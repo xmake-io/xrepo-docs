@@ -14222,7 +14222,7 @@ add_requires("libunistring")
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
 | License | LGPL-2.1 |
-| Versions | v1.0.26, v1.0.27, v1.0.28, v1.0.29 |
+| Versions | v1.0.26, v1.0.27, v1.0.28, v1.0.29, v1.0.30 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 

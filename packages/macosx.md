@@ -19939,7 +19939,7 @@ add_requires("libunistring")
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
 | License | LGPL-2.1 |
-| Versions | v1.0.26, v1.0.27, v1.0.28, v1.0.29 |
+| Versions | v1.0.26, v1.0.27, v1.0.28, v1.0.29, v1.0.30 |
 | Architectures | arm64, x86_64 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 
@@ -39118,7 +39118,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55dd5e6b5020 |
+| License | table: 0x560efae5b040 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

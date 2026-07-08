@@ -13917,7 +13917,7 @@ add_requires("libunwind")
 | -- | -- |
 | Homepage | [https://libusb.info](https://libusb.info) |
 | License | LGPL-2.1 |
-| Versions | v1.0.26, v1.0.27, v1.0.28, v1.0.29 |
+| Versions | v1.0.26, v1.0.27, v1.0.28, v1.0.29, v1.0.30 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [libusb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libusb/xmake.lua) |
 
