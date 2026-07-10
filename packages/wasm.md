@@ -2138,7 +2138,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0, v2.21.1, v2.21.3, v2.22.0, v2.23.1, v3.0.3 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0, v2.21.1, v2.21.3, v2.22.0, v2.23.1, v3.0.3, v3.2.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -4313,7 +4313,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
 | License | MIT |
-| Versions | 2.5, 2.6, 2.7, 2.8 |
+| Versions | 2.5, 2.6, 2.7, 2.8, 2.9 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
 
@@ -17638,7 +17638,7 @@ add_requires("promise-cpp")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | License | BSD-3-Clause |
-| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1, 32.0, 32.1, 33.1, 33.2 |
+| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1, 32.0, 32.1, 33.1, 33.2, 35.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
