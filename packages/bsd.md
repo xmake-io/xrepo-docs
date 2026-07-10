@@ -6376,7 +6376,7 @@ add_requires("epoll-shim")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2, 20.45.0, 20.46.0, 20.47.0, 20.47.1 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2, 20.45.0, 20.46.0, 20.47.0, 20.47.1, 20.48.0 |
 | Architectures | i386, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -7454,7 +7454,7 @@ add_requires("fruit")
 | -- | -- |
 | Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
 | License | MIT |
-| Versions | v3.0.0, v4.1.1, v5.0.0, v6.0.2, v6.1.1, v6.1.9 |
+| Versions | v3.0.0, v4.1.1, v5.0.0, v6.0.2, v6.1.1, v6.1.9, v7.0.0 |
 | Architectures | i386, x86_64 |
 | Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
 
@@ -8067,6 +8067,30 @@ xrepo install glib
 
 ```lua
 add_requires("glib")
+```
+
+
+### glibmm (bsd)
+
+
+| Description | *A C++ API for parts of glib that are useful for C++.* |
+| -- | -- |
+| Homepage | [https://gtkmm.gnome.org](https://gtkmm.gnome.org) |
+| License | LGPL-2.1-or-later |
+| Versions | 2.66.8, 2.88.0 |
+| Architectures | i386, x86_64 |
+| Definition | [glibmm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glibmm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install glibmm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("glibmm")
 ```
 
 
@@ -13666,6 +13690,30 @@ xrepo install libsdl_ttf
 
 ```lua
 add_requires("libsdl_ttf")
+```
+
+
+### libsigcplusplus (bsd)
+
+
+| Description | *libsigc++ implements a typesafe callback system for standard C++. It allows you to define signals and to connect those signals to any callback function, either global or a member function, regardless of whether it is static or virtual.* |
+| -- | -- |
+| Homepage | [https://libsigcplusplus.github.io/libsigcplusplus/](https://libsigcplusplus.github.io/libsigcplusplus/) |
+| License | LGPL-3.0 |
+| Versions | 2.12.1, 3.4.0, 3.6.0, 3.8.0 |
+| Architectures | i386, x86_64 |
+| Definition | [libsigcplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsigcplusplus/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libsigcplusplus
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libsigcplusplus")
 ```
 
 
