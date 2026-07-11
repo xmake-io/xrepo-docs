@@ -7391,7 +7391,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v3.8.2, v3.9.2, v3.10.1, v3.11.0, v3.12.0</td>
+<td>v3.8.2, v3.9.2, v3.10.1, v3.11.0, v3.12.0, v3.13.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -22697,6 +22697,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("json-c")
+</code></pre>
+<h3 id="jsonglibwindows">json-glib (windows)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>JSON-GLib implements a full suite of JSON-related tools using GLib and GObject.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://gitlab.gnome.org/GNOME/json-glib">https://gitlab.gnome.org/GNOME/json-glib</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.9.2, 1.10.0, 1.10.6, 1.10.8</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, arm64ec, x64, x86</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-glib/xmake.lua">json-glib/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install json-glib
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("json-glib")
 </code></pre>
 <h3 id="jsonschemavalidatorwindows">json-schema-validator (windows)</h3>
 <table>

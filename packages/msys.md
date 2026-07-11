@@ -3525,7 +3525,7 @@ add_requires("cmocka")
 | -- | -- |
 | Homepage | [https://github.com/nats-io/nats.c](https://github.com/nats-io/nats.c) |
 | License | Apache-2.0 |
-| Versions | v3.8.2, v3.9.2, v3.10.1, v3.11.0, v3.12.0 |
+| Versions | v3.8.2, v3.9.2, v3.10.1, v3.11.0, v3.12.0, v3.13.0 |
 | Architectures | i386, x86_64 |
 | Definition | [cnats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnats/xmake.lua) |
 

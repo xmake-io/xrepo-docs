@@ -20018,7 +20018,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://p11-glue.github.io/p11-glue/p11-kit.html](https://p11-glue.github.io/p11-glue/p11-kit.html) |
 | License | BSD-3-Clause |
-| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10, 0.26.1, 0.26.2 |
+| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10, 0.26.1, 0.26.2, 0.26.4 |
 | Architectures | i386, x86_64 |
 | Definition | [p11-kit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/p11-kit/xmake.lua) |
 

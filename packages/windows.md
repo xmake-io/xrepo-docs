@@ -4768,7 +4768,7 @@ add_requires("cmocka")
 | -- | -- |
 | Homepage | [https://github.com/nats-io/nats.c](https://github.com/nats-io/nats.c) |
 | License | Apache-2.0 |
-| Versions | v3.8.2, v3.9.2, v3.10.1, v3.11.0, v3.12.0 |
+| Versions | v3.8.2, v3.9.2, v3.10.1, v3.11.0, v3.12.0, v3.13.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cnats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnats/xmake.lua) |
 
@@ -14782,6 +14782,30 @@ xrepo install json-c
 
 ```lua
 add_requires("json-c")
+```
+
+
+### json-glib (windows)
+
+
+| Description | *JSON-GLib implements a full suite of JSON-related tools using GLib and GObject.* |
+| -- | -- |
+| Homepage | [https://gitlab.gnome.org/GNOME/json-glib](https://gitlab.gnome.org/GNOME/json-glib) |
+| License | LGPL-2.1 |
+| Versions | 1.9.2, 1.10.0, 1.10.6, 1.10.8 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [json-glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-glib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install json-glib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("json-glib")
 ```
 
 

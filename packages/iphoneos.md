@@ -3403,7 +3403,7 @@ add_requires("cminpack")
 | -- | -- |
 | Homepage | [https://github.com/nats-io/nats.c](https://github.com/nats-io/nats.c) |
 | License | Apache-2.0 |
-| Versions | v3.8.2, v3.9.2, v3.10.1, v3.11.0, v3.12.0 |
+| Versions | v3.8.2, v3.9.2, v3.10.1, v3.11.0, v3.12.0, v3.13.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cnats/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cnats/xmake.lua) |
 
@@ -18544,7 +18544,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://p11-glue.github.io/p11-glue/p11-kit.html](https://p11-glue.github.io/p11-glue/p11-kit.html) |
 | License | BSD-3-Clause |
-| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10, 0.26.1, 0.26.2 |
+| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10, 0.26.1, 0.26.2, 0.26.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [p11-kit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/p11-kit/xmake.lua) |
 
