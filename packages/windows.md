@@ -13209,7 +13209,7 @@ add_requires("hpsocket")
 | -- | -- |
 | Homepage | [https://hpx.stellar-group.org](https://hpx.stellar-group.org) |
 | License | BSL-1.0 |
-| Versions | v1.9.1, v1.10.0 |
+| Versions | v1.9.1, v1.10.0, v1.11.0 |
 | Architectures | x64 |
 | Definition | [hpx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hpx/xmake.lua) |
 

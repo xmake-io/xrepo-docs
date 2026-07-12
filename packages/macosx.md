@@ -15342,7 +15342,7 @@ add_requires("ldtkloader")
 | Description | *Lean cryptographic library usable for bare-metal environments* |
 | -- | -- |
 | Homepage | [https://leancrypto.org](https://leancrypto.org) |
-| Versions | v1.2.0, v1.3.0, v1.4.0, v1.5.1, v1.6.0, v1.7.2 |
+| Versions | v1.2.0, v1.3.0, v1.4.0, v1.5.1, v1.6.0, v1.7.2, v1.8.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [leancrypto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leancrypto/xmake.lua) |
 
@@ -39118,7 +39118,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55725f5df730 |
+| License | table: 0x56218e016fe0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
