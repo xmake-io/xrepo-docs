@@ -11150,6 +11150,29 @@ add_requires("geos")
 ```
 
 
+### gettext (windows)
+
+
+| Description | *GNU internationalization (i18n) and localization (l10n) library.* |
+| -- | -- |
+| Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
+| Versions | 0.19.8-1, 0.21, 0.21.1, 0.22.5, 0.23.1, 0.24.1, 0.25, 1.0 |
+| Architectures | x64 |
+| Definition | [gettext/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gettext/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gettext
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gettext")
+```
+
+
 ### gflags (windows)
 
 
@@ -23501,7 +23524,7 @@ add_requires("msys2")
 | Description | *Software Distribution and Building Platform for Windows* |
 | -- | -- |
 | Homepage | [https://www.msys2.org/](https://www.msys2.org/) |
-| Versions | 2024.01.13, 2025.08.30 |
+| Versions | 2024.01.13, 2025.08.30, 2026.06.11 |
 | Architectures | x64 |
 | Definition | [msys2-base/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msys2-base/xmake.lua) |
 
