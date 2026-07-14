@@ -10374,7 +10374,7 @@ add_requires("lemon")
 | -- | -- |
 | Homepage | [https://github.com/esri/lerc](https://github.com/esri/lerc) |
 | License | Apache-2.0 |
-| Versions | v4.0.0, v4.1.0 |
+| Versions | v4.0.0, v4.1.0, v4.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [lerc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lerc/xmake.lua) |
 
@@ -17637,7 +17637,7 @@ add_requires("omath")
 | -- | -- |
 | Homepage | [https://ompl.kavrakilab.org/](https://ompl.kavrakilab.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.7.0, 2.0.0 |
+| Versions | 1.7.0, 2.0.0, 2.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ompl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ompl/xmake.lua) |
 

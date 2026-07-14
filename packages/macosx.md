@@ -15414,7 +15414,7 @@ add_requires("leptonica")
 | -- | -- |
 | Homepage | [https://github.com/esri/lerc](https://github.com/esri/lerc) |
 | License | Apache-2.0 |
-| Versions | v4.0.0, v4.1.0 |
+| Versions | v4.0.0, v4.1.0, v4.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [lerc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lerc/xmake.lua) |
 
@@ -26654,7 +26654,7 @@ add_requires("omath")
 | -- | -- |
 | Homepage | [https://ompl.kavrakilab.org/](https://ompl.kavrakilab.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.7.0, 2.0.0 |
+| Versions | 1.7.0, 2.0.0, 2.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ompl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ompl/xmake.lua) |
 
@@ -39118,7 +39118,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f96e60bec0 |
+| License | table: 0x564e4dac4040 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
