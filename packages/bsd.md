@@ -18201,7 +18201,7 @@ add_requires("neco")
 | -- | -- |
 | Homepage | [https://github.com/Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) |
 | License | BSD-3-Clause |
-| Versions | v4.9.3 |
+| Versions | v4.9.3, v4.10.1 |
 | Architectures | i386, x86_64 |
 | Definition | [netcdf-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/netcdf-c/xmake.lua) |
 

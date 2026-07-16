@@ -25385,7 +25385,7 @@ add_requires("neargye-scope_guard")
 | -- | -- |
 | Homepage | [https://github.com/Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) |
 | License | BSD-3-Clause |
-| Versions | v4.9.3 |
+| Versions | v4.9.3, v4.10.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [netcdf-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/netcdf-c/xmake.lua) |
 
@@ -39118,7 +39118,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559397e85e50 |
+| License | table: 0x557d2f55c9a0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
