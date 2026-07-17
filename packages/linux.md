@@ -5626,7 +5626,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3, v0.43.4, v0.45.0, v0.47.0, v0.48.0 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3, v0.43.4, v0.45.0, v0.47.0, v0.48.0, v0.50.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -8208,7 +8208,7 @@ add_requires("docopt")
 | -- | -- |
 | Homepage | [http://bit.ly/doctest-docs](http://bit.ly/doctest-docs) |
 | License | MIT |
-| Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11, 2.4.12, 2.5.0, 2.5.2 |
+| Versions | 2.3.1, 2.3.6, 2.4.8, 2.4.9, 2.4.10, 2.4.11, 2.4.12, 2.5.0, 2.5.2, 2.5.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [doctest/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/doctest/xmake.lua) |
 
@@ -25595,7 +25595,7 @@ add_requires("microsoft-proxy")
 | -- | -- |
 | Homepage | [https://www.microsoft.com/en-us/research/group/cryptography-research/](https://www.microsoft.com/en-us/research/group/cryptography-research/) |
 | License | MIT |
-| Versions | v4.1.2, v4.3.2 |
+| Versions | v4.1.2, v4.3.2, v4.3.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [microsoft-seal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-seal/xmake.lua) |
 
@@ -35589,7 +35589,7 @@ add_requires("sdl3webgpu")
 | Description | *Succinct Data Structure Library 3.0* |
 | -- | -- |
 | Homepage | [https://github.com/xxsds/sdsl-lite](https://github.com/xxsds/sdsl-lite) |
-| Versions | v3.0.3 |
+| Versions | v3.0.3, v3.0.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [sdsl-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sdsl-lite/xmake.lua) |
 
@@ -42325,7 +42325,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e1971c2ab0 |
+| License | table: 0x55eea61ac150 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
