@@ -35613,7 +35613,7 @@ add_requires("sdsl-lite")
 | -- | -- |
 | Homepage | [https://github.com/sandialabs/seacas](https://github.com/sandialabs/seacas) |
 | License | BSD-3-Clause |
-| Versions | 2025.08.28 |
+| Versions | 2025.08.28, 2025.10.14 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [seacas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/seacas/xmake.lua) |
 
@@ -42325,7 +42325,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557d2f55c9a0 |
+| License | table: 0x55e1971c2ab0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

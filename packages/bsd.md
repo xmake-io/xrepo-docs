@@ -23287,7 +23287,7 @@ add_requires("sdsl-lite")
 | -- | -- |
 | Homepage | [https://github.com/sandialabs/seacas](https://github.com/sandialabs/seacas) |
 | License | BSD-3-Clause |
-| Versions | 2025.08.28 |
+| Versions | 2025.08.28, 2025.10.14 |
 | Architectures | i386, x86_64 |
 | Definition | [seacas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/seacas/xmake.lua) |
 

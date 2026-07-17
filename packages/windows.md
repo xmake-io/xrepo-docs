@@ -31998,7 +31998,7 @@ add_requires("sdl3webgpu")
 | -- | -- |
 | Homepage | [https://github.com/sandialabs/seacas](https://github.com/sandialabs/seacas) |
 | License | BSD-3-Clause |
-| Versions | 2025.08.28 |
+| Versions | 2025.08.28, 2025.10.14 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [seacas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/seacas/xmake.lua) |
 
