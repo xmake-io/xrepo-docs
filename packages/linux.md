@@ -2072,7 +2072,7 @@ add_requires("aws-lc")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.11.802, 1.11.808, 1.11.813, 1.11.817, 1.11.828, 1.11.829, 1.11.835 |
+| Versions | 1.11.802, 1.11.808, 1.11.813, 1.11.817, 1.11.828, 1.11.829, 1.11.835, 1.11.850 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
@@ -7922,7 +7922,7 @@ add_requires("dipp")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/DirectX-Headers](https://github.com/microsoft/DirectX-Headers) |
 | License | MIT |
-| Versions | v1.610.0, v1.613.0, v1.613.1, v1.614.0, v1.614.1, v1.615.0, v1.616.0, v1.618.1, v1.618.2, v1.619.1 |
+| Versions | v1.610.0, v1.613.0, v1.613.1, v1.614.0, v1.614.1, v1.615.0, v1.616.0, v1.618.1, v1.618.2, v1.619.1, v1.619.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [directx-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directx-headers/xmake.lua) |
 
@@ -12107,7 +12107,7 @@ add_requires("gli")
 | -- | -- |
 | Homepage | [https://docs.gtk.org/glib/](https://docs.gtk.org/glib/) |
 | License | LGPL-2.1 |
-| Versions | 2.71.0, 2.78.1, 2.85.0, 2.88.1, 2.89.1 |
+| Versions | 2.71.0, 2.78.1, 2.85.0, 2.88.1, 2.89.1, 2.89.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [glib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glib/xmake.lua) |
 
@@ -29293,7 +29293,7 @@ add_requires("opencl-clhpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
 | License | Apache-2.0 |
-| Versions | v2021.06.30, v2023.12.14, v2024.05.08, v2024.10.24, v2025.06.13, v2025.07.22 |
+| Versions | v2021.06.30, v2023.12.14, v2024.05.08, v2024.10.24, v2025.06.13, v2025.07.22, v2026.05.29 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
 
@@ -36305,7 +36305,7 @@ add_requires("simplecpp")
 | -- | -- |
 | Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
 | License | MIT |
-| Versions | v4.19, v4.22, v4.25 |
+| Versions | v4.19, v4.22, v4.25, v4.26 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
 
@@ -38385,7 +38385,7 @@ add_requires("szip")
 | -- | -- |
 | Homepage | [https://ta-lib.org/](https://ta-lib.org/) |
 | License | BSD-3-Clause |
-| Versions | 0.6.2, 0.6.4 |
+| Versions | 0.6.2, 0.6.4, 0.7.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ta-lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/ta-lib/xmake.lua) |
 
@@ -42325,7 +42325,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55625c11a7e0 |
+| License | table: 0x561ced4d9990 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

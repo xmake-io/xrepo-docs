@@ -12262,7 +12262,7 @@ add_requires("libidn2")
 | Description | *GNU gettext runtime* |
 | -- | -- |
 | Homepage | [https://www.gnu.org/software/gettext/](https://www.gnu.org/software/gettext/) |
-| Versions | 0.21, 0.22.3 |
+| Versions | 0.21, 0.22.3, 1.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libintl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libintl/xmake.lua) |
 
@@ -18975,7 +18975,7 @@ add_requires("opencl-clhpp")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/OpenCL-Headers/](https://github.com/KhronosGroup/OpenCL-Headers/) |
 | License | Apache-2.0 |
-| Versions | v2021.06.30, v2023.12.14, v2024.05.08, v2024.10.24, v2025.06.13, v2025.07.22 |
+| Versions | v2021.06.30, v2023.12.14, v2024.05.08, v2024.10.24, v2025.06.13, v2025.07.22, v2026.05.29 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [opencl-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opencl-headers/xmake.lua) |
 
@@ -23634,7 +23634,7 @@ add_requires("simplecpp")
 | -- | -- |
 | Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
 | License | MIT |
-| Versions | v4.19, v4.22, v4.25 |
+| Versions | v4.19, v4.22, v4.25, v4.26 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
 
@@ -25190,7 +25190,7 @@ add_requires("syscmdline")
 | -- | -- |
 | Homepage | [https://ta-lib.org/](https://ta-lib.org/) |
 | License | BSD-3-Clause |
-| Versions | 0.6.2, 0.6.4 |
+| Versions | 0.6.2, 0.6.4, 0.7.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [ta-lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/ta-lib/xmake.lua) |
 
