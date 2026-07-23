@@ -2098,7 +2098,7 @@ add_requires("aws-sdk-cpp")
 | -- | -- |
 | Homepage | [https://www.bfgroup.xyz/b2/](https://www.bfgroup.xyz/b2/) |
 | License | BSL-1.0 |
-| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3, 5.4.2, 5.5.1 |
+| Versions | 4.9.6, 5.0.0, 5.0.1, 5.1.0, 5.2.1, 5.3.0, 5.3.2, 5.3.3, 5.4.2, 5.5.1, 5.5.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [b2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/b2/xmake.lua) |
 
@@ -11393,7 +11393,7 @@ add_requires("gdal")
 | -- | -- |
 | Homepage | [http://sf.net/p/gdcm](http://sf.net/p/gdcm) |
 | License | BSD License, Apache License V2.0 |
-| Versions | v3.0.24, v3.2.1, v3.2.5, v3.2.7 |
+| Versions | v3.0.24, v3.2.1, v3.2.5, v3.2.7, v3.2.10 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [gdcm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdcm/xmake.lua) |
 
@@ -15457,7 +15457,7 @@ add_requires("johnnyengine")
 | -- | -- |
 | Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1, v4.0.2, v5.0.0, v5.1.0, v5.2.0, v5.3.0, v5.4.0, v5.5.0 |
+| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1, v4.0.2, v5.0.0, v5.1.0, v5.2.0, v5.3.0, v5.4.0, v5.5.0, v5.6.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
 
@@ -17607,7 +17607,7 @@ add_requires("libdrm")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.3.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -20106,7 +20106,7 @@ add_requires("libpqxx")
 | -- | -- |
 | Homepage | [https://github.com/rockdaboot/libpsl](https://github.com/rockdaboot/libpsl) |
 | License | MIT |
-| Versions | 0.21.1, 0.21.5 |
+| Versions | 0.21.1, 0.21.5, 0.23.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libpsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpsl/xmake.lua) |
 
@@ -29531,7 +29531,7 @@ add_requires("openh264")
 | -- | -- |
 | Homepage | [https://www.openimagedenoise.org](https://www.openimagedenoise.org) |
 | License | Apache-2.0 |
-| Versions | v2.3.3, v2.4.1 |
+| Versions | v2.3.3, v2.4.1, v2.5.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openimagedenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openimagedenoise/xmake.lua) |
 
@@ -38433,7 +38433,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [http://taglib.org/](http://taglib.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.1, v2.1.1, v2.2.1, v2.3 |
+| Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
 
@@ -42325,7 +42325,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x561ced4d9990 |
+| License | table: 0x5652c39a4db0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
