@@ -17996,7 +17996,7 @@ add_requires("ocilib")
 | -- | -- |
 | Homepage | [https://github.com/attcs/Octree](https://github.com/attcs/Octree) |
 | License | MIT |
-| Versions | v2.5 |
+| Versions | v2.5, v3.2.4 |
 | Architectures | i386, x86_64 |
 | Definition | [octree/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/octree/xmake.lua) |
 
