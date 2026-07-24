@@ -2203,6 +2203,30 @@ add_requires("boost")
 ```
 
 
+### boost_config (bsd)
+
+
+| Description | *Boost Config Library* |
+| -- | -- |
+| Homepage | [https://www.boost.org/libs/config](https://www.boost.org/libs/config) |
+| License | BSL-1.0 |
+| Versions | 1.89.0, 1.90.0, 1.91.0 |
+| Architectures | i386, x86_64 |
+| Definition | [boost_config/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_config/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install boost_config
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_config")
+```
+
+
 ### boost_di (bsd)
 
 
@@ -8409,7 +8433,7 @@ add_requires("gnu-rm")
 | -- | -- |
 | Homepage | [https://go.dev](https://go.dev) |
 | License | BSD-3-Clause |
-| Versions | 1.24.0, 1.24.1, 1.24.2, 1.24.3, 1.24.4, 1.24.5, 1.24.6, 1.24.7, 1.24.8, 1.24.9, 1.24.10, 1.24.11, 1.24.12, 1.24.13, 1.25.0, 1.25.1, 1.25.2, 1.25.3, 1.25.4, 1.25.5, 1.25.6, 1.25.7, 1.25.8, 1.25.9, 1.25.10, 1.25.11, 1.26.0, 1.26.1, 1.26.2, 1.26.3, 1.26.4 |
+| Versions | 1.24.0, 1.24.1, 1.24.2, 1.24.3, 1.24.4, 1.24.5, 1.24.6, 1.24.7, 1.24.8, 1.24.9, 1.24.10, 1.24.11, 1.24.12, 1.24.13, 1.25.0, 1.25.1, 1.25.2, 1.25.3, 1.25.4, 1.25.5, 1.25.6, 1.25.7, 1.25.8, 1.25.9, 1.25.10, 1.25.11, 1.25.12, 1.26.0, 1.26.1, 1.26.2, 1.26.3, 1.26.4, 1.26.5 |
 | Architectures | i386, x86_64 |
 | Definition | [go/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/go/xmake.lua) |
 

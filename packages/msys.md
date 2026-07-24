@@ -2083,6 +2083,30 @@ add_requires("boost")
 ```
 
 
+### boost_config (msys)
+
+
+| Description | *Boost Config Library* |
+| -- | -- |
+| Homepage | [https://www.boost.org/libs/config](https://www.boost.org/libs/config) |
+| License | BSL-1.0 |
+| Versions | 1.89.0, 1.90.0, 1.91.0 |
+| Architectures | i386, x86_64 |
+| Definition | [boost_config/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_config/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install boost_config
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_config")
+```
+
+
 ### boost_di (msys)
 
 
