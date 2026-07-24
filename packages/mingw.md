@@ -21176,7 +21176,7 @@ add_requires("paul_thread_pool")
 | -- | -- |
 | Homepage | [https://github.com/seladb/PcapPlusPlus](https://github.com/seladb/PcapPlusPlus) |
 | License | Unlicense |
-| Versions | v23.09, v24.09, v25.05 |
+| Versions | v23.09, v24.09, v25.05, v26.07 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [pcapplusplus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcapplusplus/xmake.lua) |
 
@@ -27054,7 +27054,7 @@ add_requires("taskflow")
 | -- | -- |
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
-| Versions | 6.3.0, 6.4.6, 6.4.7, 6.4.8, 6.4.16 |
+| Versions | 6.3.0, 6.4.6, 6.4.7, 6.4.8, 6.4.16, 6.6.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 

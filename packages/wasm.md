@@ -21275,7 +21275,7 @@ add_requires("taocpp-json")
 | -- | -- |
 | Homepage | [https://taywee.github.io/args/](https://taywee.github.io/args/) |
 | License | MIT |
-| Versions | 6.3.0, 6.4.6, 6.4.7, 6.4.8, 6.4.16 |
+| Versions | 6.3.0, 6.4.6, 6.4.7, 6.4.8, 6.4.16, 6.6.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [taywee_args/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taywee_args/xmake.lua) |
 
