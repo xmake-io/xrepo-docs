@@ -9267,7 +9267,7 @@ add_requires("fastcppcsvparser")
 | Homepage | [https://fastgltf.readthedocs.io/v0.7.x/](https://fastgltf.readthedocs.io/v0.7.x/) |
 | License | MIT |
 | Versions | v0.7.1, v0.7.2, v0.8.0, v0.9.0 |
-| Architectures | x86_64 |
+| Architectures | arm64, x86_64 |
 | Definition | [fastgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastgltf/xmake.lua) |
 
 ##### Install command
@@ -39142,7 +39142,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564727a18db0 |
+| License | table: 0x55da8048edc0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
