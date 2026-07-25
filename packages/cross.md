@@ -24999,7 +24999,7 @@ add_requires("thread-pool")
 | -- | -- |
 | Homepage | [https://thrift.apache.org/](https://thrift.apache.org/) |
 | License | Apache-2.0 |
-| Versions | v0.16.0, v0.17.0, v0.18.0, v0.18.1, v0.19.0, v0.20.0, v0.21.0, v0.22.0, v0.23.0 |
+| Versions | v0.16.0, v0.17.0, v0.18.0, v0.18.1, v0.19.0, v0.20.0, v0.21.0, v0.22.0, v0.23.0, v0.24.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [thrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrift/xmake.lua) |
 

@@ -39102,7 +39102,7 @@ add_requires("thread-pool")
 | -- | -- |
 | Homepage | [https://thrift.apache.org/](https://thrift.apache.org/) |
 | License | Apache-2.0 |
-| Versions | v0.16.0, v0.17.0, v0.18.0, v0.18.1, v0.19.0, v0.20.0, v0.21.0, v0.22.0, v0.23.0 |
+| Versions | v0.16.0, v0.17.0, v0.18.0, v0.18.1, v0.19.0, v0.20.0, v0.21.0, v0.22.0, v0.23.0, v0.24.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [thrift/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/thrift/xmake.lua) |
 
@@ -42349,7 +42349,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e465971c60 |
+| License | table: 0x559f72a6e8f0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
