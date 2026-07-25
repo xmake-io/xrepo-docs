@@ -3479,7 +3479,7 @@ add_requires("c-vector")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10, 0.2.11, 0.3.0, 0.4.0 |
+| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10, 0.2.11, 0.3.0, 0.4.0, 0.6.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -15080,7 +15080,7 @@ add_requires("kangaru")
 | -- | -- |
 | Homepage | [https://github.com/skywind3000/kcp](https://github.com/skywind3000/kcp) |
 | License | MIT |
-| Versions | 1.7 |
+| Versions | 1.7, 2.1.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [kcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kcp/xmake.lua) |
 
@@ -15678,7 +15678,7 @@ add_requires("leptonica")
 | -- | -- |
 | Homepage | [https://github.com/esri/lerc](https://github.com/esri/lerc) |
 | License | Apache-2.0 |
-| Versions | v4.0.0, v4.1.0, v4.1.1 |
+| Versions | v4.0.0, v4.1.0, v4.1.1, v4.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [lerc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lerc/xmake.lua) |
 
@@ -39741,7 +39741,7 @@ add_requires("yxml")
 | -- | -- |
 | Homepage | [https://github.com/Chuyu-Team/YY-Thunks](https://github.com/Chuyu-Team/YY-Thunks) |
 | License | MIT |
-| Versions | 1.0.7, 1.0.9, 1.1.1, 1.1.4, 1.1.5, 1.1.6, 1.1.7, 1.1.8, 1.1.9, 1.2.1 |
+| Versions | 1.0.7, 1.0.9, 1.1.1, 1.1.4, 1.1.5, 1.1.6, 1.1.7, 1.1.8, 1.1.9, 1.2.1, 1.2.2 |
 | Architectures | x64, x86 |
 | Definition | [yy-thunks/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yy-thunks/xmake.lua) |
 

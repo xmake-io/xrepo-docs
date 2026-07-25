@@ -2543,7 +2543,7 @@ add_requires("c-vector")
 | -- | -- |
 | Homepage | [https://github.com/biojppm/c4core](https://github.com/biojppm/c4core) |
 | License | MIT |
-| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10, 0.2.11, 0.3.0, 0.4.0 |
+| Versions | 0.2.1, 0.2.2, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.10, 0.2.11, 0.3.0, 0.4.0, 0.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [c4core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c4core/xmake.lua) |
 
@@ -10087,7 +10087,7 @@ add_requires("kangaru")
 | -- | -- |
 | Homepage | [https://github.com/skywind3000/kcp](https://github.com/skywind3000/kcp) |
 | License | MIT |
-| Versions | 1.7 |
+| Versions | 1.7, 2.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [kcp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kcp/xmake.lua) |
 
@@ -10398,7 +10398,7 @@ add_requires("lemon")
 | -- | -- |
 | Homepage | [https://github.com/esri/lerc](https://github.com/esri/lerc) |
 | License | Apache-2.0 |
-| Versions | v4.0.0, v4.1.0, v4.1.1 |
+| Versions | v4.0.0, v4.1.0, v4.1.1, v4.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [lerc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lerc/xmake.lua) |
 
