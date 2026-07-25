@@ -1700,6 +1700,30 @@ add_requires("boost")
 ```
 
 
+### boost_assert (wasm)
+
+
+| Description | *Boost Assert Library* |
+| -- | -- |
+| Homepage | [https://www.boost.org/libs/assert](https://www.boost.org/libs/assert) |
+| License | BSL-1.0 |
+| Versions | 1.89.0, 1.90.0, 1.91.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [boost_assert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_assert/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm boost_assert
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_assert")
+```
+
+
 ### boost_config (wasm)
 
 
@@ -1816,6 +1840,102 @@ xrepo install -p wasm boost_sml
 
 ```lua
 add_requires("boost_sml")
+```
+
+
+### boost_static_assert (wasm)
+
+
+| Description | *Boost StaticAssert Library* |
+| -- | -- |
+| Homepage | [https://www.boost.org/libs/static_assert](https://www.boost.org/libs/static_assert) |
+| License | BSL-1.0 |
+| Versions | 1.89.0, 1.90.0, 1.91.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [boost_static_assert/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_static_assert/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm boost_static_assert
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_static_assert")
+```
+
+
+### boost_throw_exception (wasm)
+
+
+| Description | *Boost ThrowException Library* |
+| -- | -- |
+| Homepage | [https://www.boost.org/libs/throw_exception](https://www.boost.org/libs/throw_exception) |
+| License | BSL-1.0 |
+| Versions | 1.89.0, 1.90.0, 1.91.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [boost_throw_exception/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_throw_exception/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm boost_throw_exception
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_throw_exception")
+```
+
+
+### boost_type_traits (wasm)
+
+
+| Description | *Boost TypeTraits Library* |
+| -- | -- |
+| Homepage | [https://www.boost.org/libs/type_traits](https://www.boost.org/libs/type_traits) |
+| License | BSL-1.0 |
+| Versions | 1.89.0, 1.90.0, 1.91.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [boost_type_traits/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_type_traits/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm boost_type_traits
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_type_traits")
+```
+
+
+### boost_uuid (wasm)
+
+
+| Description | *A universally unique identifier (UUID) is a 128-bit number used to uniquely identify some object or entity on the Internet.* |
+| -- | -- |
+| Homepage | [https://www.boost.org/libs/uuid](https://www.boost.org/libs/uuid) |
+| License | BSL-1.0 |
+| Versions | 1.89.0, 1.90.0, 1.91.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [boost_uuid/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_uuid/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm boost_uuid
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("boost_uuid")
 ```
 
 

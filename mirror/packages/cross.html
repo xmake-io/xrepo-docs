@@ -3363,6 +3363,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("boost")
 </code></pre>
+<h3 id="boost_assertcross">boost_assert (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Boost Assert Library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.boost.org/libs/assert">https://www.boost.org/libs/assert</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.89.0, 1.90.0, 1.91.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_assert/xmake.lua">boost_assert/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] boost_assert
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("boost_assert")
+</code></pre>
 <h3 id="boost_configcross">boost_config (cross)</h3>
 <table>
 <thead>
@@ -3543,6 +3580,154 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("boost_sml")
+</code></pre>
+<h3 id="boost_static_assertcross">boost_static_assert (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Boost StaticAssert Library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.boost.org/libs/static_assert">https://www.boost.org/libs/static_assert</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.89.0, 1.90.0, 1.91.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_static_assert/xmake.lua">boost_static_assert/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] boost_static_assert
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("boost_static_assert")
+</code></pre>
+<h3 id="boost_throw_exceptioncross">boost_throw_exception (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Boost ThrowException Library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.boost.org/libs/throw_exception">https://www.boost.org/libs/throw_exception</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.89.0, 1.90.0, 1.91.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_throw_exception/xmake.lua">boost_throw_exception/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] boost_throw_exception
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("boost_throw_exception")
+</code></pre>
+<h3 id="boost_type_traitscross">boost_type_traits (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Boost TypeTraits Library</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.boost.org/libs/type_traits">https://www.boost.org/libs/type_traits</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.89.0, 1.90.0, 1.91.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_type_traits/xmake.lua">boost_type_traits/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] boost_type_traits
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("boost_type_traits")
+</code></pre>
+<h3 id="boost_uuidcross">boost_uuid (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A universally unique identifier (UUID) is a 128-bit number used to uniquely identify some object or entity on the Internet.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.boost.org/libs/uuid">https://www.boost.org/libs/uuid</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSL-1.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>1.89.0, 1.90.0, 1.91.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost_uuid/xmake.lua">boost_uuid/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] boost_uuid
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("boost_uuid")
 </code></pre>
 <h3 id="boostdepcross">boostdep (cross)</h3>
 <table>
