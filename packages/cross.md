@@ -8104,7 +8104,7 @@ add_requires("gfx-timsort")
 | -- | -- |
 | Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
 | License | MIT |
-| Versions | v1.5.10, v1.5.12, v1.5.14 |
+| Versions | v1.5.10, v1.5.12, v1.5.14, v1.5.16 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
 

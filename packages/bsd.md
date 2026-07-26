@@ -8007,7 +8007,7 @@ add_requires("ggml")
 | -- | -- |
 | Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
 | License | MIT |
-| Versions | v1.5.10, v1.5.12, v1.5.14 |
+| Versions | v1.5.10, v1.5.12, v1.5.14, v1.5.16 |
 | Architectures | i386, x86_64 |
 | Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
 

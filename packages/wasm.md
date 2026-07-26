@@ -3119,7 +3119,7 @@ add_requires("cmidi2")
 | Description | *A C/C++ rewrite of the MINPACK software (originally in FORTRAN) for solving nonlinear equations and nonlinear least squares problems* |
 | -- | -- |
 | Homepage | [https://devernay.github.io/cminpack/](https://devernay.github.io/cminpack/) |
-| Versions | v1.3.9, v1.3.11 |
+| Versions | v1.3.9, v1.3.11, v1.3.14 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cminpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cminpack/xmake.lua) |
 
@@ -7050,7 +7050,7 @@ add_requires("ggml")
 | -- | -- |
 | Homepage | [https://github.com/gulrak/filesystem](https://github.com/gulrak/filesystem) |
 | License | MIT |
-| Versions | v1.5.10, v1.5.12, v1.5.14 |
+| Versions | v1.5.10, v1.5.12, v1.5.14, v1.5.16 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ghc_filesystem/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghc_filesystem/xmake.lua) |
 
