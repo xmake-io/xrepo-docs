@@ -7695,7 +7695,7 @@ add_requires("fruit")
 | -- | -- |
 | Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
 | License | MIT |
-| Versions | v3.0.0, v4.1.1, v5.0.0, v6.0.2, v6.1.1, v6.1.9, v7.0.0 |
+| Versions | v3.0.0, v4.1.1, v5.0.0, v6.0.2, v6.1.1, v6.1.9, v7.0.0, v7.0.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
 
@@ -17851,7 +17851,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.0, v1.16.0, v1.17.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.0, v1.16.0, v1.17.0, v1.18.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 

@@ -7598,7 +7598,7 @@ add_requires("fruit")
 | -- | -- |
 | Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
 | License | MIT |
-| Versions | v3.0.0, v4.1.1, v5.0.0, v6.0.2, v6.1.1, v6.1.9, v7.0.0 |
+| Versions | v3.0.0, v4.1.1, v5.0.0, v6.0.2, v6.1.1, v6.1.9, v7.0.0, v7.0.1 |
 | Architectures | i386, x86_64 |
 | Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
 
@@ -13223,7 +13223,7 @@ add_requires("libpopcnt")
 | -- | -- |
 | Homepage | [https://www.postgresql.org/docs/14/libpq.html](https://www.postgresql.org/docs/14/libpq.html) |
 | License | PostgreSQL |
-| Versions | 14.1, 17.5 |
+| Versions | 14.1, 17.5, 18.4 |
 | Architectures | i386, x86_64 |
 | Definition | [libpq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpq/xmake.lua) |
 
@@ -13247,7 +13247,7 @@ add_requires("libpq")
 | -- | -- |
 | Homepage | [http://pqxx.org/libpqxx/](http://pqxx.org/libpqxx/) |
 | License | BSD-3-Clause |
-| Versions | 7.7.0, 7.10.1, 7.10.2, 7.10.3, 7.10.5, 8.0.0 |
+| Versions | 7.7.0, 7.10.1, 7.10.2, 7.10.3, 7.10.5, 8.0.0, 8.0.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libpqxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpqxx/xmake.lua) |
 
@@ -18441,7 +18441,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.0, v1.16.0, v1.17.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.0, v1.16.0, v1.17.0, v1.18.0 |
 | Architectures | i386, x86_64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 

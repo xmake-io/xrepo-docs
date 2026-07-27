@@ -10462,7 +10462,7 @@ add_requires("ftgl")
 | -- | -- |
 | Homepage | [https://github.com/ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI) |
 | License | MIT |
-| Versions | v3.0.0, v4.1.1, v5.0.0, v6.0.2, v6.1.1, v6.1.9, v7.0.0 |
+| Versions | v3.0.0, v4.1.1, v5.0.0, v6.0.2, v6.1.1, v6.1.9, v7.0.0, v7.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [ftxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/ftxui/xmake.lua) |
 
@@ -18512,7 +18512,7 @@ add_requires("libpopcnt")
 | -- | -- |
 | Homepage | [https://www.postgresql.org/docs/14/libpq.html](https://www.postgresql.org/docs/14/libpq.html) |
 | License | PostgreSQL |
-| Versions | 14.1, 17.5 |
+| Versions | 14.1, 17.5, 18.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [libpq/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpq/xmake.lua) |
 
@@ -18536,7 +18536,7 @@ add_requires("libpq")
 | -- | -- |
 | Homepage | [http://pqxx.org/libpqxx/](http://pqxx.org/libpqxx/) |
 | License | BSD-3-Clause |
-| Versions | 7.7.0, 7.10.1, 7.10.2, 7.10.3, 7.10.5, 8.0.0 |
+| Versions | 7.7.0, 7.10.1, 7.10.2, 7.10.3, 7.10.5, 8.0.0, 8.0.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [libpqxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpqxx/xmake.lua) |
 
@@ -25697,7 +25697,7 @@ add_requires("nghttp2")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/nghttp3](https://github.com/ngtcp2/nghttp3) |
 | License | MIT |
-| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.0, v1.16.0, v1.17.0 |
+| Versions | v1.3.0, v1.4.0, v1.5.0, v1.6.0, v1.7.0, v1.8.0, v1.10.1, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.0, v1.16.0, v1.17.0, v1.18.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [nghttp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nghttp3/xmake.lua) |
 
@@ -25721,7 +25721,7 @@ add_requires("nghttp3")
 | -- | -- |
 | Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
 | License | MIT |
-| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 1.21.0, 1.22.0, 1.22.1, 1.23.0, 1.24.0 |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 1.21.0, 1.22.0, 1.22.1, 1.23.0, 1.24.0, 1.25.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
 
@@ -37924,7 +37924,7 @@ add_requires("uriparser")
 | -- | -- |
 | Homepage | [http://www.openusd.org](http://www.openusd.org) |
 | License | Apache-2.0 |
-| Versions | v22.11, v23.02, v24.03, v24.05, v24.08, v25.05, v25.05.01, v25.08, v25.11, v26.03, v26.05 |
+| Versions | v22.11, v23.02, v24.03, v24.05, v24.08, v25.05, v25.05.01, v25.08, v25.11, v26.03, v26.05, v26.08 |
 | Architectures | arm64, x86_64 |
 | Definition | [usd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/usd/xmake.lua) |
 
@@ -39262,7 +39262,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x562aa85518e0 |
+| License | table: 0x5616a6cb4e50 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
