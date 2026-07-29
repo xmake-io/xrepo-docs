@@ -1831,7 +1831,7 @@ add_requires("bc_crunch")
 | Description | *Bcg729 is an opensource implementation of both encoder and decoder of the ITU G729 Annex A/B speech codec.* |
 | -- | -- |
 | Homepage | [http://linphone.org](http://linphone.org) |
-| Versions | 1.0.4, 1.1.1 |
+| Versions | 1.0.4, 1.1.1, 1.1.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [bcg729/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bcg729/xmake.lua) |
 
@@ -2906,7 +2906,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0, v2.21.1, v2.21.3, v2.22.0, v2.23.1, v3.0.3, v3.2.1 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0, v2.21.1, v2.21.3, v2.22.0, v2.23.1, v3.0.3, v3.2.1, v3.2.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
@@ -20651,7 +20651,7 @@ add_requires("openjpeg")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1, 0.29.0, 0.30.1 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1, 0.29.0, 0.30.1, 0.31.0 |
 | Architectures | arm, arm64, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -20747,7 +20747,7 @@ add_requires("openssl3")
 | -- | -- |
 | Homepage | [https://opentelemetry.io/](https://opentelemetry.io/) |
 | License | Apache-2.0 |
-| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0, v1.25.0, v1.26.0, v1.27.0 |
+| Versions | v1.16.1, v1.19.0, v1.21.0, v1.22.0, v1.23.0, v1.24.0, v1.25.0, v1.26.0, v1.27.0, v1.28.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [opentelemetry-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/opentelemetry-cpp/xmake.lua) |
 
@@ -24972,7 +24972,7 @@ add_requires("sdformat")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/semver](https://github.com/Neargye/semver) |
 | License | MIT |
-| Versions | v1.0.0-rc |
+| Versions | v1.0.0-rc, v1.0.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [semver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/semver/xmake.lua) |
 
