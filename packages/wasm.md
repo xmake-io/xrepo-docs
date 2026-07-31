@@ -3956,7 +3956,7 @@ add_requires("cpuinfo")
 | -- | -- |
 | Homepage | [https://github.com/keithpotz/CrashCatch](https://github.com/keithpotz/CrashCatch) |
 | License | MIT |
-| Versions | 1.3.0, 1.4.0 |
+| Versions | 1.3.0, 1.4.0, 1.5.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [crashcatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crashcatch/xmake.lua) |
 
@@ -10736,7 +10736,7 @@ add_requires("libmspack")
 | -- | -- |
 | Homepage | [https://github.com/hoene/libmysofa](https://github.com/hoene/libmysofa) |
 | License | BSD-3-Clause |
-| Versions | v1.3.2, v1.3.4 |
+| Versions | v1.3.2, v1.3.4, v1.3.5 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libmysofa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmysofa/xmake.lua) |
 
@@ -12932,7 +12932,7 @@ add_requires("ls-qpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic) |
 | License | MIT |
-| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2, v4.4.1, v4.5.0, v4.6.0, v4.7.0, v4.7.1 |
+| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2, v4.4.1, v4.5.0, v4.6.0, v4.7.0, v4.7.1, v4.9.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [lsquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsquic/xmake.lua) |
 

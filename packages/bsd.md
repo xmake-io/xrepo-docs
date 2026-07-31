@@ -1350,7 +1350,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0, v0.27.2, v0.27.4 |
+| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0, v0.27.2, v0.27.4, v0.27.5 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -2951,7 +2951,7 @@ add_requires("ca-certificates")
 | -- | -- |
 | Homepage | [https://cairographics.org/](https://cairographics.org/) |
 | License | MPL-1.1 |
-| Versions | 1.17.6, 1.17.8, 1.18.0 |
+| Versions | 1.17.6, 1.17.8, 1.18.0, 1.18.4 |
 | Architectures | i386, x86_64 |
 | Definition | [cairo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cairo/xmake.lua) |
 
@@ -4674,7 +4674,7 @@ add_requires("cpuinfo")
 | -- | -- |
 | Homepage | [https://github.com/keithpotz/CrashCatch](https://github.com/keithpotz/CrashCatch) |
 | License | MIT |
-| Versions | 1.3.0, 1.4.0 |
+| Versions | 1.3.0, 1.4.0, 1.5.0 |
 | Architectures | i386, x86_64 |
 | Definition | [crashcatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crashcatch/xmake.lua) |
 
@@ -12744,7 +12744,7 @@ add_requires("libmspack")
 | -- | -- |
 | Homepage | [https://github.com/hoene/libmysofa](https://github.com/hoene/libmysofa) |
 | License | BSD-3-Clause |
-| Versions | v1.3.2, v1.3.4 |
+| Versions | v1.3.2, v1.3.4, v1.3.5 |
 | Architectures | i386, x86_64 |
 | Definition | [libmysofa/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmysofa/xmake.lua) |
 
@@ -15648,7 +15648,7 @@ add_requires("lsp-framework")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic) |
 | License | MIT |
-| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2, v4.4.1, v4.5.0, v4.6.0, v4.7.0, v4.7.1 |
+| Versions | v4.0.8, v4.0.9, v4.0.11, v4.0.12, v4.2.0, v4.3.0, v4.3.2, v4.4.1, v4.5.0, v4.6.0, v4.7.0, v4.7.1, v4.9.2 |
 | Architectures | i386, x86_64 |
 | Definition | [lsquic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lsquic/xmake.lua) |
 
