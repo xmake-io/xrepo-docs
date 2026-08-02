@@ -22175,7 +22175,7 @@ add_requires("s7")
 | -- | -- |
 | Homepage | [https://cursey.dev/safetyhook](https://cursey.dev/safetyhook) |
 | License | BSL-1.0 |
-| Versions | v0.6.4, v0.6.5, v0.6.6, v0.6.7, v0.6.9, v0.6.10 |
+| Versions | v0.6.4, v0.6.5, v0.6.6, v0.6.7, v0.6.9, v0.6.10, v0.7.0 |
 | Architectures | i386, x86_64 |
 | Definition | [safetyhook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/safetyhook/xmake.lua) |
 
@@ -27057,7 +27057,7 @@ add_requires("xent-core")
 | -- | -- |
 | Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
 | License | Apache-2.0 |
-| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32, v0.1.33, v0.2.1 |
+| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32, v0.1.33, v0.2.1, v0.2.5 |
 | Architectures | i386, x86_64 |
 | Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
 

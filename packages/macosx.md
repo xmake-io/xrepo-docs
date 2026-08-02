@@ -10703,7 +10703,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1, 3.12.2, 3.12.3, 3.13.1 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1, 3.12.2, 3.12.3, 3.13.1, 3.13.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -16608,7 +16608,7 @@ add_requires("libevent")
 | -- | -- |
 | Homepage | [https://ofiwg.github.io/libfabric/](https://ofiwg.github.io/libfabric/) |
 | License | BSD-2-Clause |
-| Versions | 1.13.0, 1.17.0, 1.20.1, 1.20.2, 1.22.0, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.5.0, 2.5.1 |
+| Versions | 1.13.0, 1.17.0, 1.20.1, 1.20.2, 1.22.0, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.5.0, 2.5.1, 2.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libfabric/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfabric/xmake.lua) |
 
@@ -39262,7 +39262,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f5cf0811a0 |
+| License | table: 0x557645b9c9c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -39831,7 +39831,7 @@ add_requires("xframe")
 | -- | -- |
 | Homepage | [https://xgrammar.mlc.ai/](https://xgrammar.mlc.ai/) |
 | License | Apache-2.0 |
-| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32, v0.1.33, v0.2.1 |
+| Versions | v0.1.19, v0.1.21, v0.1.22, v0.1.23, v0.1.24, v0.1.25, v0.1.26, v0.1.27, v0.1.29, v0.1.31, v0.1.32, v0.1.33, v0.2.1, v0.2.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [xgrammar/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xgrammar/xmake.lua) |
 
