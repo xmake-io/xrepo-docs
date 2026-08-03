@@ -7972,7 +7972,7 @@ add_requires("drogon")
 | -- | -- |
 | Homepage | [https://duckdb.org/](https://duckdb.org/) |
 | License | MIT |
-| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3, v1.2.1, v1.2.2, v1.3.2, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4, v1.5.0, v1.5.2, v1.5.4 |
+| Versions | v0.10.0, v0.10.1, v0.10.2, v0.10.3, v1.0.0, v1.1.1, v1.1.2, v1.1.3, v1.2.1, v1.2.2, v1.3.2, v1.4.0, v1.4.1, v1.4.2, v1.4.3, v1.4.4, v1.5.0, v1.5.2, v1.5.4, v1.5.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [duckdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/duckdb/xmake.lua) |
 
@@ -18433,6 +18433,30 @@ add_requires("libpcap")
 ```
 
 
+### libpg_query (macosx)
+
+
+| Description | *PostgreSQL parser C API library* |
+| -- | -- |
+| Homepage | [https://github.com/pganalyze/libpg_query](https://github.com/pganalyze/libpg_query) |
+| License | BSD-3-Clause |
+| Versions | 16.5.2, 17.6.2, 18.0.0 |
+| Architectures | arm64 |
+| Definition | [libpg_query/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpg_query/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libpg_query
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libpg_query")
+```
+
+
 ### libplist (macosx)
 
 
@@ -22285,7 +22309,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4, 5.5, 5.8, 5.9 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4, 5.5, 5.8, 5.9, 5.17 |
 | Architectures | arm64, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -23407,7 +23431,7 @@ add_requires("metalang99")
 | -- | -- |
 | Homepage | [https://github.com/LLNL/metall](https://github.com/LLNL/metall) |
 | License | Apache-2.0 |
-| Versions | v0.30, v0.31, v0.32 |
+| Versions | v0.30, v0.31, v0.32, v0.33 |
 | Architectures | arm64, x86_64 |
 | Definition | [metall/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/metall/xmake.lua) |
 
@@ -28660,7 +28684,7 @@ add_requires("pcre")
 | -- | -- |
 | Homepage | [https://www.pcre.org/](https://www.pcre.org/) |
 | License | BSD-3-Clause |
-| Versions | 10.39, 10.40, 10.42, 10.43, 10.44 |
+| Versions | 10.39, 10.40, 10.42, 10.43, 10.44, 10.47 |
 | Architectures | arm64, x86_64 |
 | Definition | [pcre2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pcre2/xmake.lua) |
 
@@ -39262,7 +39286,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557645b9c9c0 |
+| License | table: 0x5614f9f81400 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
