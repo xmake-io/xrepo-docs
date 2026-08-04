@@ -17053,6 +17053,30 @@ add_requires("libbacktrace")
 ```
 
 
+### libbcrypt (linux)
+
+
+| Description | *A c++ wrapper around bcrypt password hashing* |
+| -- | -- |
+| Homepage | [https://github.com/trusch/libbcrypt](https://github.com/trusch/libbcrypt) |
+| License | MIT |
+| Versions | 2021.06.22 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [libbcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbcrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libbcrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbcrypt")
+```
+
+
 ### libbigwig (linux)
 
 
@@ -42541,7 +42565,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55676dec0c40 |
+| License | table: 0x55bcf0f9a2f0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

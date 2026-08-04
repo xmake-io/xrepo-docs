@@ -10275,6 +10275,30 @@ add_requires("libbacktrace")
 ```
 
 
+### libbcrypt (harmony)
+
+
+| Description | *A c++ wrapper around bcrypt password hashing* |
+| -- | -- |
+| Homepage | [https://github.com/trusch/libbcrypt](https://github.com/trusch/libbcrypt) |
+| License | MIT |
+| Versions | 2021.06.22 |
+| Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
+| Definition | [libbcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbcrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libbcrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbcrypt")
+```
+
+
 ### libc++ (harmony)
 
 

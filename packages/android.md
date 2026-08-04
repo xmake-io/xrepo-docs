@@ -11468,6 +11468,30 @@ add_requires("libbacktrace")
 ```
 
 
+### libbcrypt (android)
+
+
+| Description | *A c++ wrapper around bcrypt password hashing* |
+| -- | -- |
+| Homepage | [https://github.com/trusch/libbcrypt](https://github.com/trusch/libbcrypt) |
+| License | MIT |
+| Versions | 2021.06.22 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [libbcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbcrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libbcrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbcrypt")
+```
+
+
 ### libbigwig (android)
 
 

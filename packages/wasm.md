@@ -9726,6 +9726,30 @@ add_requires("libbacktrace")
 ```
 
 
+### libbcrypt (wasm)
+
+
+| Description | *A c++ wrapper around bcrypt password hashing* |
+| -- | -- |
+| Homepage | [https://github.com/trusch/libbcrypt](https://github.com/trusch/libbcrypt) |
+| License | MIT |
+| Versions | 2021.06.22 |
+| Architectures | wasm32, wasm64 |
+| Definition | [libbcrypt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libbcrypt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm libbcrypt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libbcrypt")
+```
+
+
 ### libc++ (wasm)
 
 
