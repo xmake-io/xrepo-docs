@@ -24558,7 +24558,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01, 2026.07.29 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 

@@ -344,7 +344,7 @@ add_requires("amqp-cpp")
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
 | License | BSD-3-Clause |
-| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09, 25.11, 26.01, 26.02, 26.03, 26.05 |
+| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09, 25.11, 26.01, 26.02, 26.03, 26.05, 26.08 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
@@ -29422,7 +29422,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01, 2026.07.29 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 

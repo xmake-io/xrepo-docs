@@ -6882,7 +6882,7 @@ add_requires("fann")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5, v2.3.6 |
+| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5, v2.3.6, v2.4.0 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -26913,7 +26913,7 @@ add_requires("variant-lite")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01, 2026.07.29 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 

@@ -488,7 +488,7 @@ add_requires("amqp-cpp")
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
 | License | BSD-3-Clause |
-| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09, 25.11, 26.01, 26.02, 26.03, 26.05 |
+| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09, 25.11, 26.01, 26.02, 26.03, 26.05, 26.08 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
@@ -9410,7 +9410,7 @@ add_requires("farmhash")
 | -- | -- |
 | Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
 | License | Apache-2.0 |
-| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5, v2.3.6 |
+| Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5, v2.3.6, v2.4.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fast-cdr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast-cdr/xmake.lua) |
 
@@ -27056,7 +27056,7 @@ add_requires("orangeduck_mpc")
 | -- | -- |
 | Homepage | [https://arrow.apache.org/](https://arrow.apache.org/) |
 | License | Apache-2.0 |
-| Versions | v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1, v2.2.2, v2.3.0 |
+| Versions | v2.0.3, v2.1.0, v2.1.1, v2.1.2, v2.2.1, v2.2.2, v2.3.0, v2.3.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [orc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orc/xmake.lua) |
 
@@ -37733,7 +37733,7 @@ add_requires("vcglib")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg) |
 | License | MIT |
-| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01 |
+| Versions | 2024.05.24, 2024.07.12, 2024.08.23, 2024.09.30, 2024.10.21, 2024.11.16, 2025.07.25, 2025.10.17, 2025.12.12, 2026.01.16, 2026.03.18, 2026.04.27, 2026.06.01, 2026.07.29 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [vcpkg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vcpkg/xmake.lua) |
 
