@@ -8803,6 +8803,30 @@ add_requires("etl")
 ```
 
 
+### eui-neo (macosx)
+
+
+| Description | *Cross-platform, high-performance, low-overhead C++17 GPUI framework* |
+| -- | -- |
+| Homepage | [https://github.com/sudoevolve/EUI-NEO](https://github.com/sudoevolve/EUI-NEO) |
+| License | Apache-2.0 |
+| Versions | v0.5.5 |
+| Architectures | arm64, x86_64 |
+| Definition | [eui-neo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eui-neo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install eui-neo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eui-neo")
+```
+
+
 ### eve (macosx)
 
 
@@ -36771,11 +36795,11 @@ add_requires("tinyformat")
 ### tinygltf (macosx)
 
 
-| Description | *Header only C++11 tiny glTF 2.0 library* |
+| Description | *glTF 2.0 loader and writer* |
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
-| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21, v2.8.22, v2.9.2, v2.9.3, v2.9.5, v2.9.6, v2.9.7, v3.0.0 |
+| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21, v2.8.22, v2.9.2, v2.9.3, v2.9.5, v2.9.6, v2.9.7, v3.0.0, v3.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 
@@ -39310,7 +39334,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x557abf078af0 |
+| License | table: 0x5630c5a893a0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

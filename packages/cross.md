@@ -25494,11 +25494,11 @@ add_requires("tinyformat")
 ### tinygltf (cross)
 
 
-| Description | *Header only C++11 tiny glTF 2.0 library* |
+| Description | *glTF 2.0 loader and writer* |
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
-| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21, v2.8.22, v2.9.2, v2.9.3, v2.9.5, v2.9.6, v2.9.7, v3.0.0 |
+| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21, v2.8.22, v2.9.2, v2.9.3, v2.9.5, v2.9.6, v2.9.7, v3.0.0, v3.0.1 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 

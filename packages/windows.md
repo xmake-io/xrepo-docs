@@ -9018,6 +9018,30 @@ add_requires("etl")
 ```
 
 
+### eui-neo (windows)
+
+
+| Description | *Cross-platform, high-performance, low-overhead C++17 GPUI framework* |
+| -- | -- |
+| Homepage | [https://github.com/sudoevolve/EUI-NEO](https://github.com/sudoevolve/EUI-NEO) |
+| License | Apache-2.0 |
+| Versions | v0.5.5 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [eui-neo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eui-neo/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install eui-neo
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("eui-neo")
+```
+
+
 ### eve (windows)
 
 
@@ -35909,11 +35933,11 @@ add_requires("tinyformat")
 ### tinygltf (windows)
 
 
-| Description | *Header only C++11 tiny glTF 2.0 library* |
+| Description | *glTF 2.0 loader and writer* |
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinygltf/](https://github.com/syoyo/tinygltf/) |
 | License | MIT |
-| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21, v2.8.22, v2.9.2, v2.9.3, v2.9.5, v2.9.6, v2.9.7, v3.0.0 |
+| Versions | v2.5.0, v2.6.3, v2.8.9, v2.8.13, v2.8.21, v2.8.22, v2.9.2, v2.9.3, v2.9.5, v2.9.6, v2.9.7, v3.0.0, v3.0.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [tinygltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinygltf/xmake.lua) |
 
