@@ -8994,6 +8994,77 @@ add_requires("entt")
 ```
 
 
+### esp32-arduino-libs (windows)
+
+
+| Description | *Prebuilt ESP-IDF libraries, headers, linker scripts and flag sets for the Arduino ESP32 core* |
+| -- | -- |
+| Homepage | [https://github.com/espressif/arduino-esp32](https://github.com/espressif/arduino-esp32) |
+| License | LGPL-2.1-or-later |
+| Versions |  |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [esp32-arduino-libs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/esp32-arduino-libs/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install esp32-arduino-libs
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("esp32-arduino-libs")
+```
+
+
+### esp32-devel (windows)
+
+
+| Description | *ESP32 development kit, binds the cross toolchain, prebuilt sdk and flash tool of the selected board* |
+| -- | -- |
+| Homepage | [https://www.espressif.com/en/products/socs](https://www.espressif.com/en/products/socs) |
+| Versions |  |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [esp32-devel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/esp32-devel/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install esp32-devel
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("esp32-devel")
+```
+
+
+### esptool (windows)
+
+
+| Description | *Espressif SoC serial bootloader utility, used to flash and image ESP chips* |
+| -- | -- |
+| Homepage | [https://github.com/espressif/esptool](https://github.com/espressif/esptool) |
+| License | GPL-2.0-or-later |
+| Versions | 5.1.0, 5.2.0, 5.3.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [esptool/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/esptool/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install esptool
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("esptool")
+```
+
+
 ### etl (windows)
 
 
@@ -31323,6 +31394,30 @@ xrepo install ring-span-lite
 
 ```lua
 add_requires("ring-span-lite")
+```
+
+
+### riscv32-esp-elf (windows)
+
+
+| Description | *crosstool-NG with support for RISC-V (esp32c*/esp32h*/esp32p4)* |
+| -- | -- |
+| Homepage | [https://github.com/espressif/crosstool-NG](https://github.com/espressif/crosstool-NG) |
+| License | GPL-3.0-with-GCC-exception |
+| Versions | 14.2.0, 15.2.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [riscv32-esp-elf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/riscv32-esp-elf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install riscv32-esp-elf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("riscv32-esp-elf")
 ```
 
 

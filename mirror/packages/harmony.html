@@ -9300,6 +9300,113 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("entt")
 </code></pre>
+<h3 id="esp32arduinolibsharmony">esp32-arduino-libs (harmony)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Prebuilt ESP-IDF libraries, headers, linker scripts and flag sets for the Arduino ESP32 core</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/espressif/arduino-esp32">https://github.com/espressif/arduino-esp32</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>LGPL-2.1-or-later</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi-v7a, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/e/esp32-arduino-libs/xmake.lua">esp32-arduino-libs/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install esp32-arduino-libs
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("esp32-arduino-libs")
+</code></pre>
+<h3 id="esp32develharmony">esp32-devel (harmony)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>ESP32 development kit, binds the cross toolchain, prebuilt sdk and flash tool of the selected board</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://www.espressif.com/en/products/socs">https://www.espressif.com/en/products/socs</a></td>
+</tr>
+<tr>
+<td>Versions</td>
+<td></td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi-v7a, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/e/esp32-devel/xmake.lua">esp32-devel/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install esp32-devel
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("esp32-devel")
+</code></pre>
+<h3 id="esptoolharmony">esptool (harmony)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Espressif SoC serial bootloader utility, used to flash and image ESP chips</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/espressif/esptool">https://github.com/espressif/esptool</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-2.0-or-later</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>5.1.0, 5.2.0, 5.3.1</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi-v7a, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/e/esptool/xmake.lua">esptool/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install esptool
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("esptool")
+</code></pre>
 <h3 id="etlharmony">etl (harmony)</h3>
 <table>
 <thead>
@@ -31175,6 +31282,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ring-span-lite")
+</code></pre>
+<h3 id="riscv32espelfharmony">riscv32-esp-elf (harmony)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>crosstool-NG with support for RISC-V (esp32c</em>/esp32h<em>/esp32p4)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/espressif/crosstool-NG">https://github.com/espressif/crosstool-NG</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-3.0-with-GCC-exception</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>14.2.0, 15.2.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi-v7a, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/r/riscv32-esp-elf/xmake.lua">riscv32-esp-elf/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install riscv32-esp-elf
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("riscv32-esp-elf")
 </code></pre>
 <h3 id="rlimguiharmony">rlimgui (harmony)</h3>
 <table>
