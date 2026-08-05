@@ -8078,7 +8078,7 @@ add_requires("fls-float-rlimgui")
 | Description | *Fast Light Toolkit* |
 | -- | -- |
 | Homepage | [https://www.fltk.org](https://www.fltk.org) |
-| Versions | 1.3.9 |
+| Versions | 1.3.9, 1.4.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [fltk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fltk/xmake.lua) |
 
@@ -17088,7 +17088,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1 |
+| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1, v3.5.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -23718,6 +23718,30 @@ xrepo install -p mingw [--mingw=/xxx] ragel
 
 ```lua
 add_requires("ragel")
+```
+
+
+### randx (mingw)
+
+
+| Description | *Modern, fast, with header-only C++ pseudo-random number generator and distribution library (C++17/C++23).* |
+| -- | -- |
+| Homepage | [https://github.com/lidaixingchen/RandX](https://github.com/lidaixingchen/RandX) |
+| License | MIT |
+| Versions | 1.4.0, 1.4.2, 1.4.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [randx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/randx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] randx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("randx")
 ```
 
 

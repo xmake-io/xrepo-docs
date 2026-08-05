@@ -6153,7 +6153,7 @@ add_requires("cppast")
 | Description | *A static analysis tool for C/C++ code* |
 | -- | -- |
 | Homepage | [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/) |
-| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3, 2.19.1, 2.20.0, 2.20.1 |
+| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3, 2.19.1, 2.20.0, 2.20.1, 2.21.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [cppcheck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcheck/xmake.lua) |
 
@@ -10770,7 +10770,7 @@ add_requires("flex")
 | Description | *Fast Light Toolkit* |
 | -- | -- |
 | Homepage | [https://www.fltk.org](https://www.fltk.org) |
-| Versions | 1.3.9 |
+| Versions | 1.3.9, 1.4.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [fltk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fltk/xmake.lua) |
 
@@ -11022,6 +11022,30 @@ xrepo install fontconfig
 
 ```lua
 add_requires("fontconfig")
+```
+
+
+### foxglove-sdk (linux)
+
+
+| Description | *SDK for connecting live robotics and embodied AI data to Foxglove* |
+| -- | -- |
+| Homepage | [https://github.com/foxglove/foxglove-sdk](https://github.com/foxglove/foxglove-sdk) |
+| License | MIT |
+| Versions | 0.25.2 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [foxglove-sdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/foxglove-sdk/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install foxglove-sdk
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("foxglove-sdk")
 ```
 
 
@@ -16343,7 +16367,7 @@ add_requires("klib")
 | -- | -- |
 | Homepage | [https://kokkos.github.io/](https://kokkos.github.io/) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1, 5.0.2, 5.1.0, 5.1.1 |
+| Versions | 4.0.01, 4.2.00, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 4.6.01, 4.6.02, 4.7.01, 5.0.0, 5.0.1, 5.0.2, 5.1.0, 5.1.1, 5.2.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [kokkos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos/xmake.lua) |
 
@@ -24972,7 +24996,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1 |
+| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1, v3.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -34105,6 +34129,30 @@ add_requires("ragel")
 ```
 
 
+### randx (linux)
+
+
+| Description | *Modern, fast, with header-only C++ pseudo-random number generator and distribution library (C++17/C++23).* |
+| -- | -- |
+| Homepage | [https://github.com/lidaixingchen/RandX](https://github.com/lidaixingchen/RandX) |
+| License | MIT |
+| Versions | 1.4.0, 1.4.2, 1.4.3 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [randx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/randx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install randx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("randx")
+```
+
+
 ### rang (linux)
 
 
@@ -42684,7 +42732,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c8446c68c0 |
+| License | table: 0x56362e97b1d0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -42867,6 +42915,29 @@ xrepo install wren
 
 ```lua
 add_requires("wren")
+```
+
+
+### wt (linux)
+
+
+| Description | *Wt, C++ Web Toolkit* |
+| -- | -- |
+| Homepage | [http://www.webtoolkit.eu/wt](http://www.webtoolkit.eu/wt) |
+| Versions | 4.14.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [wt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wt/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install wt
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("wt")
 ```
 
 

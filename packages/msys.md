@@ -4314,7 +4314,7 @@ add_requires("cppad")
 | Description | *A static analysis tool for C/C++ code* |
 | -- | -- |
 | Homepage | [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/) |
-| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3, 2.19.1, 2.20.0, 2.20.1 |
+| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3, 2.19.1, 2.20.0, 2.20.1, 2.21.1 |
 | Architectures | i386, x86_64 |
 | Definition | [cppcheck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcheck/xmake.lua) |
 
@@ -7332,7 +7332,7 @@ add_requires("flex")
 | Description | *Fast Light Toolkit* |
 | -- | -- |
 | Homepage | [https://www.fltk.org](https://www.fltk.org) |
-| Versions | 1.3.9 |
+| Versions | 1.3.9, 1.4.5 |
 | Architectures | i386, x86_64 |
 | Definition | [fltk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fltk/xmake.lua) |
 
@@ -15485,7 +15485,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1 |
+| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1, v3.5.2 |
 | Architectures | i386, x86_64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -21160,6 +21160,30 @@ xrepo install ragel
 
 ```lua
 add_requires("ragel")
+```
+
+
+### randx (msys)
+
+
+| Description | *Modern, fast, with header-only C++ pseudo-random number generator and distribution library (C++17/C++23).* |
+| -- | -- |
+| Homepage | [https://github.com/lidaixingchen/RandX](https://github.com/lidaixingchen/RandX) |
+| License | MIT |
+| Versions | 1.4.0, 1.4.2, 1.4.3 |
+| Architectures | i386, x86_64 |
+| Definition | [randx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/randx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install randx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("randx")
 ```
 
 

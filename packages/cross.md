@@ -15938,7 +15938,7 @@ add_requires("manif")
 | -- | -- |
 | Homepage | [https://github.com/elalish/manifold](https://github.com/elalish/manifold) |
 | License | Apache-2.0 |
-| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1 |
+| Versions | v3.2.1, v3.3.2, v3.5.0, v3.5.1, v3.5.2 |
 | Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
 | Definition | [manifold/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/manifold/xmake.lua) |
 
@@ -21615,6 +21615,30 @@ xrepo install -p cross [--sdk=/xxx] ragel
 
 ```lua
 add_requires("ragel")
+```
+
+
+### randx (cross)
+
+
+| Description | *Modern, fast, with header-only C++ pseudo-random number generator and distribution library (C++17/C++23).* |
+| -- | -- |
+| Homepage | [https://github.com/lidaixingchen/RandX](https://github.com/lidaixingchen/RandX) |
+| License | MIT |
+| Versions | 1.4.0, 1.4.2, 1.4.3 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [randx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/randx/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] randx
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("randx")
 ```
 
 
