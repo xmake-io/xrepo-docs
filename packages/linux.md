@@ -29509,7 +29509,7 @@ add_requires("openal-soft")
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
 | License | BSD-3-Clause |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26, 0.3.27, 0.3.28, 0.3.30 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26, 0.3.27, 0.3.28, 0.3.30, 0.3.34 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
@@ -36616,8 +36616,8 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2, v3.12.3, v4.0.6, v4.0.7, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.2.4 |
-| Architectures | arm64, x86_64 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2, v3.12.3, v4.0.6, v4.0.7, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.2.4, v4.6.6 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
 ##### Install command
@@ -41937,6 +41937,30 @@ add_requires("visit_struct")
 ```
 
 
+### visp (linux)
+
+
+| Description | *Open Source Visual Servoing Platform.* |
+| -- | -- |
+| Homepage | [https://visp.inria.fr](https://visp.inria.fr) |
+| License | GPL-2.0 |
+| Versions | v3.7.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [visp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/visp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install visp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("visp")
+```
+
+
 ### vk-bootstrap (linux)
 
 
@@ -42732,7 +42756,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55bee5e55260 |
+| License | table: 0x564d2a745720 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

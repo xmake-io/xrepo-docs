@@ -17260,7 +17260,7 @@ add_requires("openai-cpp")
 | -- | -- |
 | Homepage | [http://www.openblas.net/](http://www.openblas.net/) |
 | License | BSD-3-Clause |
-| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26, 0.3.27, 0.3.28, 0.3.30 |
+| Versions | 0.3.12, 0.3.13, 0.3.15, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.23, 0.3.24, 0.3.26, 0.3.27, 0.3.28, 0.3.30, 0.3.34 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [openblas/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openblas/xmake.lua) |
 
@@ -21146,6 +21146,30 @@ xrepo install sigslot
 
 ```lua
 add_requires("sigslot")
+```
+
+
+### simdjson (harmony)
+
+
+| Description | *Ridiculously fast JSON parsing, UTF-8 validation and JSON minifying for popular 64 bit systems.* |
+| -- | -- |
+| Homepage | [https://simdjson.org](https://simdjson.org) |
+| License | Apache-2.0 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2, v3.12.3, v4.0.6, v4.0.7, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.2.4, v4.6.6 |
+| Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
+| Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install simdjson
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("simdjson")
 ```
 
 
