@@ -24582,6 +24582,30 @@ add_requires("strtk")
 ```
 
 
+### stv (cross)
+
+
+| Description | *A Lightweight C String-View Library* |
+| -- | -- |
+| Homepage | [https://github.com/AkarinATCP/stv](https://github.com/AkarinATCP/stv) |
+| License | MIT |
+| Versions | 2.2.0 |
+| Architectures | arm, arm64, i386, loong64, mips, mips64, ppc, ppc64, riscv, riscv64, s390x, sh4, x86_64 |
+| Definition | [stv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] stv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stv")
+```
+
+
 ### stx (cross)
 
 

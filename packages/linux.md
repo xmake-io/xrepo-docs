@@ -38474,6 +38474,30 @@ add_requires("strtk")
 ```
 
 
+### stv (linux)
+
+
+| Description | *A Lightweight C String-View Library* |
+| -- | -- |
+| Homepage | [https://github.com/AkarinATCP/stv](https://github.com/AkarinATCP/stv) |
+| License | MIT |
+| Versions | 2.2.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [stv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stv")
+```
+
+
 ### stx (linux)
 
 
@@ -42756,7 +42780,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564d2a745720 |
+| License | table: 0x560e557302a0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

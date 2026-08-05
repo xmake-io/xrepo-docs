@@ -23748,6 +23748,30 @@ add_requires("strtk")
 ```
 
 
+### stv (iphoneos)
+
+
+| Description | *A Lightweight C String-View Library* |
+| -- | -- |
+| Homepage | [https://github.com/AkarinATCP/stv](https://github.com/AkarinATCP/stv) |
+| License | MIT |
+| Versions | 2.2.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [stv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos stv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stv")
+```
+
+
 ### stx (iphoneos)
 
 

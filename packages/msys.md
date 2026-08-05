@@ -24103,6 +24103,30 @@ add_requires("strtk")
 ```
 
 
+### stv (msys)
+
+
+| Description | *A Lightweight C String-View Library* |
+| -- | -- |
+| Homepage | [https://github.com/AkarinATCP/stv](https://github.com/AkarinATCP/stv) |
+| License | MIT |
+| Versions | 2.2.0 |
+| Architectures | i386, x86_64 |
+| Definition | [stv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stv")
+```
+
+
 ### stx (msys)
 
 

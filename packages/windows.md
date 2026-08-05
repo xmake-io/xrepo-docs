@@ -34619,6 +34619,30 @@ add_requires("strtk")
 ```
 
 
+### stv (windows)
+
+
+| Description | *A Lightweight C String-View Library* |
+| -- | -- |
+| Homepage | [https://github.com/AkarinATCP/stv](https://github.com/AkarinATCP/stv) |
+| License | MIT |
+| Versions | 2.2.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [stv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stv/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install stv
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("stv")
+```
+
+
 ### stx (windows)
 
 
