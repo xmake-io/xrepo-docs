@@ -2928,7 +2928,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
 | License | MPL-2.0 |
-| Versions | 1.4.1, 1.4.4 |
+| Versions | 1.4.1, 1.4.4, 1.4.5 |
 | Architectures | i386, x86_64 |
 | Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
 
@@ -6297,6 +6297,30 @@ add_requires("elfio")
 ```
 
 
+### embedded-xoodyak (msys)
+
+
+| Description | *A portable, lightweight, and zero-allocation C library implementing the Xoodyak cryptographic scheme* |
+| -- | -- |
+| Homepage | [https://github.com/midnight-wonderer/embedded-xoodyak](https://github.com/midnight-wonderer/embedded-xoodyak) |
+| License | CC0-1.0 |
+| Versions | 0.1.0 |
+| Architectures | i386, x86_64 |
+| Definition | [embedded-xoodyak/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/embedded-xoodyak/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install embedded-xoodyak
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("embedded-xoodyak")
+```
+
+
 ### emhash (msys)
 
 
@@ -7885,7 +7909,7 @@ add_requires("genie")
 | -- | -- |
 | Homepage | [https://github.com/gistrec/geo-utils-cpp](https://github.com/gistrec/geo-utils-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.0.1, 1.0.2, 1.1.0, 1.2.0 |
+| Versions | 1.0.1, 1.0.2, 1.1.0, 1.2.0, 1.2.2 |
 | Architectures | i386, x86_64 |
 | Definition | [geo-utils-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geo-utils-cpp/xmake.lua) |
 
