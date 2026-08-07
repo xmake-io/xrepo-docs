@@ -6954,7 +6954,7 @@ add_requires("gelldur-eventbus")
 | -- | -- |
 | Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
 | License | BSD-3-Clause |
-| Versions | 1160, 1165, 1170 |
+| Versions | 1160, 1165, 1170, 1204 |
 | Architectures | wasm32, wasm64 |
 | Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
 

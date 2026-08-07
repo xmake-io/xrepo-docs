@@ -1880,7 +1880,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0, v0.40.1, v0.42.1 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0, v0.40.1, v0.42.1, v0.43.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -11300,7 +11300,7 @@ add_requires("gelldur-eventbus")
 | -- | -- |
 | Homepage | [https://github.com/bkaradzic/GENie](https://github.com/bkaradzic/GENie) |
 | License | BSD-3-Clause |
-| Versions | 1160, 1165, 1170 |
+| Versions | 1160, 1165, 1170, 1204 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [genie/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/genie/xmake.lua) |
 
@@ -15700,7 +15700,7 @@ add_requires("ktx")
 | -- | -- |
 | Homepage | [https://github.com/kuba--/zip](https://github.com/kuba--/zip) |
 | License | Unlicense |
-| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5, v0.3.6, v0.3.7, v0.3.8, v0.3.9, v0.3.11 |
+| Versions | v0.2.2, v0.2.5, v0.2.6, v0.3.1, v0.3.2, v0.3.3, v0.3.4, v0.3.5, v0.3.6, v0.3.7, v0.3.8, v0.3.9, v0.3.11, v0.3.15 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [kuba-zip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kuba-zip/xmake.lua) |
 
@@ -19662,7 +19662,7 @@ add_requires("libudis86")
 | Description | *A portable GUI library for C* |
 | -- | -- |
 | Homepage | [https://libui-ng.github.io/libui-ng/](https://libui-ng.github.io/libui-ng/) |
-| Versions | 2022.12.3 |
+| Versions | 2022.12.3, 2025.3.15 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libui/xmake.lua) |
 
