@@ -20164,7 +20164,7 @@ add_requires("libyuv")
 | -- | -- |
 | Homepage | [https://github.com/zchunk/zchunk](https://github.com/zchunk/zchunk) |
 | License | BSD-2-Clause |
-| Versions | 1.5.1, 1.5.2, 1.5.3 |
+| Versions | 1.5.1, 1.5.2, 1.5.3, 1.5.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libzchunk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzchunk/xmake.lua) |
 
@@ -22023,7 +22023,7 @@ add_requires("matplotplusplus")
 | -- | -- |
 | Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
 | License | Apache-2.0 |
-| Versions | v2.7.6, v2.13.0, v2.25.0, v2.28.3, v3.4.0, v3.5.1, v3.6.0, v3.6.1 |
+| Versions | v2.7.6, v2.13.0, v2.25.0, v2.28.3, v3.4.0, v3.5.1, v3.6.0, v3.6.1, v3.6.7, v4.0.0, v4.1.1, v4.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [mbedtls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mbedtls/xmake.lua) |
 
