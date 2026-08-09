@@ -4977,6 +4977,30 @@ add_requires("cnpy")
 ```
 
 
+### coal (windows)
+
+
+| Description | *An extension of the Flexible Collision Library* |
+| -- | -- |
+| Homepage | [https://github.com/coal-library/coal](https://github.com/coal-library/coal) |
+| License | BSD |
+| Versions | v3.0.4 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [coal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install coal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("coal")
+```
+
+
 ### coin-or-clp (windows)
 
 
@@ -14716,7 +14740,7 @@ add_requires("iverilog")
 | -- | -- |
 | Homepage | [https://github.com/machinezone/IXWebSocket](https://github.com/machinezone/IXWebSocket) |
 | License | BSD-3-Clause |
-| Versions | v11.4.4, v11.4.5, v11.4.6, v12.0.0 |
+| Versions | v11.4.4, v11.4.5, v11.4.6, v12.0.0, v12.0.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ixwebsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ixwebsocket/xmake.lua) |
 

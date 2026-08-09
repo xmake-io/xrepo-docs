@@ -5310,6 +5310,30 @@ add_requires("cnpy")
 ```
 
 
+### coal (linux)
+
+
+| Description | *An extension of the Flexible Collision Library* |
+| -- | -- |
+| Homepage | [https://github.com/coal-library/coal](https://github.com/coal-library/coal) |
+| License | BSD |
+| Versions | v3.0.4 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [coal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install coal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("coal")
+```
+
+
 ### coin-or-asl (linux)
 
 
@@ -15550,7 +15574,7 @@ add_requires("iverilog")
 | -- | -- |
 | Homepage | [https://github.com/machinezone/IXWebSocket](https://github.com/machinezone/IXWebSocket) |
 | License | BSD-3-Clause |
-| Versions | v11.4.4, v11.4.5, v11.4.6, v12.0.0 |
+| Versions | v11.4.4, v11.4.5, v11.4.6, v12.0.0, v12.0.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [ixwebsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ixwebsocket/xmake.lua) |
 
@@ -17990,7 +18014,7 @@ add_requires("libebur128")
 | -- | -- |
 | Homepage | [https://github.com/openSUSE/libeconf](https://github.com/openSUSE/libeconf) |
 | License | MIT |
-| Versions | v0.7.10, v0.8.0, v0.8.2, v0.8.3 |
+| Versions | v0.7.10, v0.8.0, v0.8.2, v0.8.3, v0.8.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libeconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libeconf/xmake.lua) |
 
@@ -42804,7 +42828,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c8a0b94140 |
+| License | table: 0x5573d6f816d0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

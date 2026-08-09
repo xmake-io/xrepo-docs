@@ -3208,6 +3208,30 @@ add_requires("cnpy")
 ```
 
 
+### coal (wasm)
+
+
+| Description | *An extension of the Flexible Collision Library* |
+| -- | -- |
+| Homepage | [https://github.com/coal-library/coal](https://github.com/coal-library/coal) |
+| License | BSD |
+| Versions | v3.0.4 |
+| Architectures | wasm32, wasm64 |
+| Definition | [coal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coal/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm coal
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("coal")
+```
+
+
 ### coin-or-clp (wasm)
 
 
@@ -8866,7 +8890,7 @@ add_requires("ittapi")
 | -- | -- |
 | Homepage | [https://github.com/machinezone/IXWebSocket](https://github.com/machinezone/IXWebSocket) |
 | License | BSD-3-Clause |
-| Versions | v11.4.4, v11.4.5, v11.4.6, v12.0.0 |
+| Versions | v11.4.4, v11.4.5, v11.4.6, v12.0.0, v12.0.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ixwebsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ixwebsocket/xmake.lua) |
 
@@ -10258,7 +10282,7 @@ add_requires("libebur128")
 | -- | -- |
 | Homepage | [https://github.com/openSUSE/libeconf](https://github.com/openSUSE/libeconf) |
 | License | MIT |
-| Versions | v0.7.10, v0.8.0, v0.8.2, v0.8.3 |
+| Versions | v0.7.10, v0.8.0, v0.8.2, v0.8.3, v0.8.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [libeconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libeconf/xmake.lua) |
 
