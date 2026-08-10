@@ -2620,7 +2620,7 @@ add_requires("better-enums")
 | -- | -- |
 | Homepage | [https://bkaradzic.github.io/bgfx/](https://bkaradzic.github.io/bgfx/) |
 | License | BSD-2-Clause |
-| Versions | 7816, 8203, 8674, 8752 |
+| Versions | 7816, 8203, 8674, 8752, 9392 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [bgfx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bgfx/xmake.lua) |
 
@@ -42828,7 +42828,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c201f3c370 |
+| License | table: 0x565039353950 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
