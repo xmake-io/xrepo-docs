@@ -294,7 +294,7 @@ add_requires("amrex")
 | -- | -- |
 | Homepage | [https://github.com/KhronosGroup/ANARI-SDK](https://github.com/KhronosGroup/ANARI-SDK) |
 | License | Apache-2.0 |
-| Versions | v0.12.1, v0.13.1, v0.14.1, v0.15.0 |
+| Versions | v0.12.1, v0.13.1, v0.14.1, v0.15.0, v0.16.0 |
 | Architectures | i386, x86_64 |
 | Definition | [anari/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/anari/xmake.lua) |
 
@@ -1158,7 +1158,7 @@ add_requires("awk")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11, v0.9.13, v0.9.14 |
+| Versions | v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11, v0.9.13, v0.9.14, v0.9.15 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -1254,7 +1254,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0 |
+| Versions | v0.9.5, v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0, v0.16.1 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
 
@@ -1278,7 +1278,7 @@ add_requires("aws-c-mqtt")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
 | License | Apache-2.0 |
-| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5, v0.2.6, v0.2.7 |
+| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5, v0.2.6, v0.2.7, v0.2.9 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
 
