@@ -13815,7 +13815,7 @@ add_requires("matchit")
 | -- | -- |
 | Homepage | [http://www.materialx.org/](http://www.materialx.org/) |
 | License | Apache-2.0 |
-| Versions | v1.38.10, v1.39.0, v1.39.3, v1.39.4 |
+| Versions | v1.38.10, v1.39.0, v1.39.3, v1.39.4, v1.39.5 |
 | Architectures | wasm32, wasm64 |
 | Definition | [materialx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/materialx/xmake.lua) |
 

@@ -23144,7 +23144,7 @@ add_requires("matchit")
 | -- | -- |
 | Homepage | [http://www.materialx.org/](http://www.materialx.org/) |
 | License | Apache-2.0 |
-| Versions | v1.38.10, v1.39.0, v1.39.3, v1.39.4 |
+| Versions | v1.38.10, v1.39.0, v1.39.3, v1.39.4, v1.39.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [materialx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/materialx/xmake.lua) |
 
@@ -39573,7 +39573,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56027b6e7fa0 |
+| License | table: 0x565548e7fc70 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
