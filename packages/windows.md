@@ -416,7 +416,7 @@ add_requires("alpaka")
 | -- | -- |
 | Homepage | [https://github.com/ddemidov/amgcl/](https://github.com/ddemidov/amgcl/) |
 | License | MIT |
-| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.8, 1.4.9 |
+| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.8, 1.4.9, 1.5.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [amgcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua) |
 
@@ -15581,7 +15581,7 @@ add_requires("kokkos")
 | -- | -- |
 | Homepage | [https://github.com/kokkos/kokkos-kernels](https://github.com/kokkos/kokkos-kernels) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0, 5.0.2, 5.1.0, 5.1.1 |
+| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0, 5.0.2, 5.1.0, 5.1.1, 5.2.0 |
 | Architectures | x64 |
 | Definition | [kokkos-kernels/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos-kernels/xmake.lua) |
 
@@ -27414,7 +27414,7 @@ add_requires("out_ptr")
 | -- | -- |
 | Homepage | [https://github.com/ned14/outcome](https://github.com/ned14/outcome) |
 | License | Apache-2.0 |
-| Versions | v2.2.4 |
+| Versions | v2.2.4, v2.2.7, v2.2.8, v2.2.9, v2.2.10, v2.2.11, v2.2.12, v2.2.13, v2.2.14, v2.2.15 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [outcome/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/outcome/xmake.lua) |
 
@@ -40675,7 +40675,7 @@ add_requires("zopfli")
 | -- | -- |
 | Homepage | [https://github.com/eyalz800/zpp_bits](https://github.com/eyalz800/zpp_bits) |
 | License | MIT |
-| Versions | v4.4.25, v4.5, v4.5.1, v4.6, v4.7, v4.7.1 |
+| Versions | v4.4.25, v4.5, v4.5.1, v4.6, v4.7, v4.7.1, v4.7.6 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [zpp_bits/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zpp_bits/xmake.lua) |
 
