@@ -35855,7 +35855,7 @@ add_requires("sailormoon_flags")
 | -- | -- |
 | Homepage | [https://hpc-math-samurai.readthedocs.io](https://hpc-math-samurai.readthedocs.io) |
 | License | BSD-3-Clause |
-| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0, v0.27.1, v0.28.0, v0.29.2, v0.30.1 |
+| Versions | v0.6.0, v0.10.0, v0.12.0, v0.14.0, v0.16.0, v0.18.0, v0.19.0, v0.21.1, v0.22.0, v0.23.0, v0.25.1, v0.26.1, v0.27.0, v0.27.1, v0.28.0, v0.29.2, v0.30.1, v0.33.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [samurai/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/samurai/xmake.lua) |
 
@@ -42828,7 +42828,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564ee5f77f90 |
+| License | table: 0x55fdab955530 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
