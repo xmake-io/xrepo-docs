@@ -11671,7 +11671,7 @@ add_requires("libdatachannel")
 | -- | -- |
 | Homepage | [https://www.libde265.org/](https://www.libde265.org/) |
 | License | LGPL-3.0 |
-| Versions | 1.0.8, 1.0.15, 1.0.16 |
+| Versions | 1.0.8, 1.0.15, 1.0.16, 1.1.1 |
 | Architectures | i386, x86_64 |
 | Definition | [libde265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libde265/xmake.lua) |
 
@@ -17557,7 +17557,7 @@ add_requires("mmeter")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19, 7.20, 7.21, 7.22 |
+| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19, 7.20, 7.21, 7.22, 7.23 |
 | Architectures | i386, x86_64 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
@@ -18536,7 +18536,7 @@ add_requires("nettle")
 | -- | -- |
 | Homepage | [https://github.com/ng-log/ng-log/](https://github.com/ng-log/ng-log/) |
 | License | BSD-3-Clause |
-| Versions | v0.8.2 |
+| Versions | v0.8.2, v0.8.4 |
 | Architectures | i386, x86_64 |
 | Definition | [ng-log/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ng-log/xmake.lua) |
 
@@ -20305,7 +20305,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://p11-glue.github.io/p11-glue/p11-kit.html](https://p11-glue.github.io/p11-glue/p11-kit.html) |
 | License | BSD-3-Clause |
-| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10, 0.26.1, 0.26.2, 0.26.4 |
+| Versions | 0.25.5, 0.25.8, 0.25.9, 0.25.10, 0.26.1, 0.26.2, 0.26.4, 0.26.5 |
 | Architectures | i386, x86_64 |
 | Definition | [p11-kit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/p11-kit/xmake.lua) |
 

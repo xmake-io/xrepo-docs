@@ -16537,7 +16537,7 @@ add_requires("libdatachannel")
 | -- | -- |
 | Homepage | [https://www.libde265.org/](https://www.libde265.org/) |
 | License | LGPL-3.0 |
-| Versions | 1.0.8, 1.0.15, 1.0.16 |
+| Versions | 1.0.8, 1.0.15, 1.0.16, 1.1.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libde265/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libde265/xmake.lua) |
 
@@ -23386,7 +23386,7 @@ add_requires("mongo-cxx-driver")
 | -- | -- |
 | Homepage | [https://mongoose.ws](https://mongoose.ws) |
 | License | GPL-2.0 |
-| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19, 7.20, 7.21, 7.22 |
+| Versions | 7.11, 7.13, 7.14, 7.15, 7.16, 7.17, 7.18, 7.19, 7.20, 7.21, 7.22, 7.23 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [mongoose/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mongoose/xmake.lua) |
 
@@ -24814,7 +24814,7 @@ add_requires("newtondynamics4")
 | -- | -- |
 | Homepage | [https://github.com/ng-log/ng-log/](https://github.com/ng-log/ng-log/) |
 | License | BSD-3-Clause |
-| Versions | v0.8.2 |
+| Versions | v0.8.2, v0.8.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [ng-log/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ng-log/xmake.lua) |
 
