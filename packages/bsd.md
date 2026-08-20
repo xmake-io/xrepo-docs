@@ -9345,7 +9345,7 @@ add_requires("hffix")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0 |
+| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.1 |
 | Architectures | i386, x86_64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -16830,6 +16830,30 @@ xrepo install mdns
 
 ```lua
 add_requires("mdns")
+```
+
+
+### mdspan (bsd)
+
+
+| Description | *Reference implementation of mdspan targeting C++23* |
+| -- | -- |
+| Homepage | [https://github.com/kokkos/mdspan](https://github.com/kokkos/mdspan) |
+| License | Apache-2.0 |
+| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.6.0 |
+| Architectures | i386, x86_64 |
+| Definition | [mdspan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdspan/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mdspan
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mdspan")
 ```
 
 

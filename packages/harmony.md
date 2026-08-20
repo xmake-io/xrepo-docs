@@ -14837,6 +14837,30 @@ add_requires("mdns")
 ```
 
 
+### mdspan (harmony)
+
+
+| Description | *Reference implementation of mdspan targeting C++23* |
+| -- | -- |
+| Homepage | [https://github.com/kokkos/mdspan](https://github.com/kokkos/mdspan) |
+| License | Apache-2.0 |
+| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.6.0 |
+| Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
+| Definition | [mdspan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdspan/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mdspan
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mdspan")
+```
+
+
 ### melon (harmony)
 
 

@@ -14114,7 +14114,7 @@ add_requires("highfive")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0 |
+| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -22440,7 +22440,7 @@ add_requires("libverto")
 | -- | -- |
 | Homepage | [https://libvips.github.io/libvips/](https://libvips.github.io/libvips/) |
 | License | LGPL-2.1 |
-| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1, v8.18.2, v8.18.3 |
+| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1, v8.18.2, v8.18.3, v8.18.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [libvips/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvips/xmake.lua) |
 
@@ -25561,6 +25561,30 @@ xrepo install mdns
 
 ```lua
 add_requires("mdns")
+```
+
+
+### mdspan (linux)
+
+
+| Description | *Reference implementation of mdspan targeting C++23* |
+| -- | -- |
+| Homepage | [https://github.com/kokkos/mdspan](https://github.com/kokkos/mdspan) |
+| License | Apache-2.0 |
+| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.6.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
+| Definition | [mdspan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mdspan/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install mdspan
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mdspan")
 ```
 
 
@@ -42828,7 +42852,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x561437f5faf0 |
+| License | table: 0x5590db756690 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -44114,7 +44138,7 @@ add_requires("yojimbo")
 | -- | -- |
 | Homepage | [https://github.com/Geekgineer/YOLOs-CPP](https://github.com/Geekgineer/YOLOs-CPP) |
 | License | AGPL-3.0 |
-| Versions | v1.0.0 |
+| Versions | v1.0.0, v1.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [yolos-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yolos-cpp/xmake.lua) |
 
