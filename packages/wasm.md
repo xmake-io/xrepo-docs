@@ -14292,7 +14292,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8, v3.3.2, v3.4.1 |
+| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8, v3.3.2, v3.4.1, v3.5.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
@@ -17068,7 +17068,7 @@ add_requires("pedeps")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8, 4.0.0 |
+| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8, 4.0.0, 4.0.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
@@ -24630,7 +24630,7 @@ add_requires("zeromq")
 | -- | -- |
 | Homepage | [https://github.com/zeus-cpp/expected](https://github.com/zeus-cpp/expected) |
 | License | MIT |
-| Versions | v1.0.0, v1.0.1, v1.1.0, v1.1.1, v1.2.0, v1.3.1 |
+| Versions | v1.0.0, v1.0.1, v1.1.0, v1.1.1, v1.2.0, v1.3.1, v1.4.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [zeus_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zeus_expected/xmake.lua) |
 

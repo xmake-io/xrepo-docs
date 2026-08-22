@@ -1736,7 +1736,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0 |
+| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0, v0.11.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -10724,7 +10724,7 @@ add_requires("freeimage")
 | -- | -- |
 | Homepage | [https://www.freerdp.com/](https://www.freerdp.com/) |
 | License | Apache-2.0 |
-| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0, 3.26.0, 3.27.1, 3.29.0 |
+| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0, 3.26.0, 3.27.1, 3.29.0, 3.30.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [freerdp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freerdp/xmake.lua) |
 
@@ -17633,7 +17633,7 @@ add_requires("libllvm")
 | -- | -- |
 | Homepage | [https://github.com/radarsat1/liblo](https://github.com/radarsat1/liblo) |
 | License | LGPL-2.1-or-later |
-| Versions | 0.34, 0.35 |
+| Versions | 0.34, 0.35, 0.36 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [liblo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liblo/xmake.lua) |
 
@@ -22741,7 +22741,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8, v3.3.2, v3.4.1 |
+| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8, v3.3.2, v3.4.1, v3.5.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
@@ -27990,7 +27990,7 @@ add_requires("pedeps")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8, 4.0.0 |
+| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8, 4.0.0, 4.0.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
@@ -40316,7 +40316,7 @@ add_requires("zeromq")
 | -- | -- |
 | Homepage | [https://github.com/zeus-cpp/expected](https://github.com/zeus-cpp/expected) |
 | License | MIT |
-| Versions | v1.0.0, v1.0.1, v1.1.0, v1.1.1, v1.2.0, v1.3.1 |
+| Versions | v1.0.0, v1.0.1, v1.1.0, v1.1.1, v1.2.0, v1.3.1, v1.4.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [zeus_expected/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zeus_expected/xmake.lua) |
 
