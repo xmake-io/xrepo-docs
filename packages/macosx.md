@@ -7135,7 +7135,7 @@ add_requires("daw_header_libraries")
 | -- | -- |
 | Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
 | License | BSL-1.0 |
-| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2, v3.30.2, v3.31.0 |
+| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2, v3.30.2, v3.31.0, v3.36.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
 
@@ -11988,7 +11988,7 @@ add_requires("gmsh")
 | -- | -- |
 | Homepage | [https://github.com/guanzhi/GmSSL](https://github.com/guanzhi/GmSSL) |
 | License | Apache-2.0 |
-| Versions | v3.1.0, v3.1.1 |
+| Versions | v3.1.0, v3.1.1, v3.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [gmssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmssl/xmake.lua) |
 
@@ -12393,7 +12393,7 @@ add_requires("gsl")
 | -- | -- |
 | Homepage | [https://github.com/gsl-lite/gsl-lite](https://github.com/gsl-lite/gsl-lite) |
 | License | MIT |
-| Versions | v0.41.0, v0.42.0, v0.43.0, v1.0.1, v1.1.0 |
+| Versions | v0.41.0, v0.42.0, v0.43.0, v1.0.1, v1.1.0, v1.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [gsl-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl-lite/xmake.lua) |
 
@@ -27013,7 +27013,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [http://libomath.org](http://libomath.org) |
 | License | zlib |
-| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0, v5.2.1, v5.3.0 |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0, v5.2.1, v5.3.0, v5.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
 
@@ -33983,7 +33983,7 @@ add_requires("skia")
 | -- | -- |
 | Homepage | [https://github.com/shader-slang/slang](https://github.com/shader-slang/slang) |
 | License | MIT |
-| Versions | v2024.1.17, v2024.1.18, v2025.6.3, v2025.11.0 |
+| Versions | v2024.1.17, v2024.1.18, v2025.6.3, v2025.11.0, v2026.13, v2026.13.1, v2026.14.1, v2026.16 |
 | Architectures | arm64, x86_64 |
 | Definition | [slang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/slang/xmake.lua) |
 
@@ -39597,7 +39597,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559751f4be00 |
+| License | table: 0x563d95518450 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

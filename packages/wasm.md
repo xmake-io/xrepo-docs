@@ -7549,7 +7549,7 @@ add_requires("glx")
 | -- | -- |
 | Homepage | [https://github.com/guanzhi/GmSSL](https://github.com/guanzhi/GmSSL) |
 | License | Apache-2.0 |
-| Versions | v3.1.0, v3.1.1 |
+| Versions | v3.1.0, v3.1.1, v3.2.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [gmssl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gmssl/xmake.lua) |
 
@@ -7715,7 +7715,7 @@ add_requires("gsl")
 | -- | -- |
 | Homepage | [https://github.com/gsl-lite/gsl-lite](https://github.com/gsl-lite/gsl-lite) |
 | License | MIT |
-| Versions | v0.41.0, v0.42.0, v0.43.0, v1.0.1, v1.1.0 |
+| Versions | v0.41.0, v0.42.0, v0.43.0, v1.0.1, v1.1.0, v1.1.1 |
 | Architectures | wasm32, wasm64 |
 | Definition | [gsl-lite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl-lite/xmake.lua) |
 
@@ -16135,7 +16135,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [http://libomath.org](http://libomath.org) |
 | License | zlib |
-| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0, v5.2.1, v5.3.0 |
+| Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0, v5.2.1, v5.3.0, v5.6.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
 
