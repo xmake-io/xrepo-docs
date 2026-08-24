@@ -39636,6 +39636,30 @@ add_requires("xor_singleheader")
 ```
 
 
+### xoshiro-cpp (windows)
+
+
+| Description | *Xoshiro-cpp is a header-only pseudorandom number generator library for modern C++.* |
+| -- | -- |
+| Homepage | [https://github.com/Reputeless/Xoshiro-cpp](https://github.com/Reputeless/Xoshiro-cpp) |
+| License | MIT |
+| Versions | 2021.08.04 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [xoshiro-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xoshiro-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xoshiro-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xoshiro-cpp")
+```
+
+
 ### xpack (windows)
 
 
