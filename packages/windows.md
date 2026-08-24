@@ -1688,7 +1688,7 @@ add_requires("aws-c-common")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-compression](https://github.com/awslabs/aws-c-compression) |
 | License | Apache-2.0 |
-| Versions | v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1, v0.3.2 |
+| Versions | v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1, v0.3.2, v0.3.3 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-compression/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-compression/xmake.lua) |
 
@@ -15006,7 +15006,7 @@ add_requires("jpcre2")
 | -- | -- |
 | Homepage | [https://jrl-cmakemodules.readthedocs.io/en/master/](https://jrl-cmakemodules.readthedocs.io/en/master/) |
 | License | LGPL-3.0-or-later |
-| Versions | v1.1.2, v2.1.0 |
+| Versions | v1.1.2, v2.1.0, v2.3.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [jrl-cmakemodules/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jrl-cmakemodules/xmake.lua) |
 
@@ -22359,7 +22359,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1, 1.12.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -35025,6 +35025,30 @@ add_requires("syscmdline")
 ```
 
 
+### systemc (windows)
+
+
+| Description | *SystemC: A modeling language for system-level design* |
+| -- | -- |
+| Homepage | [https://accellera.org](https://accellera.org) |
+| License | Apache-2.0 |
+| Versions | 3.0.2 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [systemc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/systemc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install systemc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("systemc")
+```
+
+
 ### szip (windows)
 
 
@@ -37755,7 +37779,7 @@ add_requires("uvwasi")
 | -- | -- |
 | Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
 | License | Apache-2.0 |
-| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0, v20.74.0, v20.75.0, v20.77.0, v20.78.0 |
+| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0, v20.74.0, v20.75.0, v20.77.0, v20.78.0, v20.79.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [uwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uwebsockets/xmake.lua) |
 

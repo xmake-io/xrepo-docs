@@ -2222,7 +2222,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1, v0.3.2</td>
+<td>v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1, v0.3.2, v0.3.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -17809,7 +17809,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.1.2, v2.1.0</td>
+<td>v1.1.2, v2.1.0, v2.3.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27255,7 +27255,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1</td>
+<td>0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1, 1.12.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -41817,6 +41817,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("syscmdline")
+</code></pre>
+<h3 id="systemcmingw">systemc (mingw)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>SystemC: A modeling language for system-level design</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://accellera.org">https://accellera.org</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>3.0.2</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/s/systemc/xmake.lua">systemc/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p mingw [--mingw=/xxx] systemc
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("systemc")
 </code></pre>
 <h2 id="t">t</h2>
 <h3 id="talibmingw">ta-lib (mingw)</h3>

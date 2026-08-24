@@ -1304,7 +1304,7 @@ add_requires("aws-c-common")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-compression](https://github.com/awslabs/aws-c-compression) |
 | License | Apache-2.0 |
-| Versions | v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1, v0.3.2 |
+| Versions | v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1, v0.3.2, v0.3.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-compression/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-compression/xmake.lua) |
 
@@ -10706,7 +10706,7 @@ add_requires("jpcre2")
 | -- | -- |
 | Homepage | [https://jrl-cmakemodules.readthedocs.io/en/master/](https://jrl-cmakemodules.readthedocs.io/en/master/) |
 | License | LGPL-3.0-or-later |
-| Versions | v1.1.2, v2.1.0 |
+| Versions | v1.1.2, v2.1.0, v2.3.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [jrl-cmakemodules/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jrl-cmakemodules/xmake.lua) |
 
@@ -16537,7 +16537,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1, 1.12.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
