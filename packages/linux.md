@@ -42876,7 +42876,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5651b173ed60 |
+| License | table: 0x55bbbe00c3c0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -44834,7 +44834,7 @@ add_requires("zstr")
 | -- | -- |
 | Homepage | [https://github.com/zxing-cpp/zxing-cpp](https://github.com/zxing-cpp/zxing-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.2.1, v2.3.0, v3.0.2 |
+| Versions | v2.2.1, v2.3.0, v3.0.2, v3.1.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, x86_64 |
 | Definition | [zxing-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zxing-cpp/xmake.lua) |
 

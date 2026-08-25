@@ -29763,7 +29763,7 @@ add_requires("zstr")
 | -- | -- |
 | Homepage | [https://github.com/zxing-cpp/zxing-cpp](https://github.com/zxing-cpp/zxing-cpp) |
 | License | Apache-2.0 |
-| Versions | v2.2.1, v2.3.0, v3.0.2 |
+| Versions | v2.2.1, v2.3.0, v3.0.2, v3.1.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [zxing-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zxing-cpp/xmake.lua) |
 
