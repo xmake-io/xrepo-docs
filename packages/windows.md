@@ -1856,7 +1856,7 @@ add_requires("aws-c-sdkutils")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
-| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0, v0.2.2, v0.2.3, v0.2.7, v0.2.8, v0.2.10 |
+| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0, v0.2.2, v0.2.3, v0.2.7, v0.2.8, v0.2.10, v0.2.11 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
@@ -17110,7 +17110,7 @@ add_requires("libgeotiff")
 | -- | -- |
 | Homepage | [https://libgit2.org/](https://libgit2.org/) |
 | License | GPL-2.0-only |
-| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0, v1.9.1, v1.9.2, v1.9.3, v1.9.4, v1.9.6 |
+| Versions | v1.3.0, v1.7.1, v1.8.0, v1.8.1, v1.8.2, v1.8.4, v1.9.0, v1.9.1, v1.9.2, v1.9.3, v1.9.4, v1.9.6, v1.9.7 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libgit2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgit2/xmake.lua) |
 
@@ -19901,7 +19901,7 @@ add_requires("libva")
 | -- | -- |
 | Homepage | [https://libvips.github.io/libvips/](https://libvips.github.io/libvips/) |
 | License | LGPL-2.1 |
-| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1, v8.18.2, v8.18.3, v8.18.5 |
+| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1, v8.18.2, v8.18.3, v8.18.5, v8.18.6 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libvips/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvips/xmake.lua) |
 
@@ -26032,7 +26032,7 @@ add_requires("ompl")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1, v3.10.2, v3.11, v3.11.3, v3.12.1 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1, v3.10.2, v3.11, v3.11.3, v3.12.1, v3.13.1 |
 | Architectures | x64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -32906,7 +32906,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2, v3.12.3, v4.0.6, v4.0.7, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.2.4, v4.6.6 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2, v3.12.3, v4.0.6, v4.0.7, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.2.4, v4.6.6, v4.6.8 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
