@@ -1856,7 +1856,7 @@ add_requires("aws-crt-cpp")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
 | License | Apache-2.0 |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1, v1.73.0, v5.0.0, v5.1.0, v5.3.0, v5.5.0 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1, v1.73.0, v5.0.0, v5.1.0, v5.3.0, v5.5.0, v5.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -8905,7 +8905,7 @@ add_requires("esptool")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2, 20.45.0, 20.46.0, 20.47.0, 20.47.1, 20.48.0 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2, 20.45.0, 20.46.0, 20.47.0, 20.47.1, 20.48.0, 20.48.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -35105,7 +35105,7 @@ add_requires("srpc")
 | -- | -- |
 | Homepage | [https://www.srtalliance.org/](https://www.srtalliance.org/) |
 | License | MPL-2.0 |
-| Versions | v1.4.2, v1.5.3, v1.5.4, v1.5.5 |
+| Versions | v1.4.2, v1.5.3, v1.5.4, v1.5.5, v1.5.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [srt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srt/xmake.lua) |
 
@@ -39597,7 +39597,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x562f10915990 |
+| License | table: 0x556759839860 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

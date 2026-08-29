@@ -1904,7 +1904,7 @@ add_requires("aws-crt-cpp")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
 | License | Apache-2.0 |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1, v1.73.0, v5.0.0, v5.1.0, v5.3.0, v5.5.0 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1, v1.73.0, v5.0.0, v5.1.0, v5.3.0, v5.5.0, v5.6.0 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -9120,7 +9120,7 @@ add_requires("esptool")
 | -- | -- |
 | Homepage | [https://www.etlcpp.com](https://www.etlcpp.com) |
 | License | MIT |
-| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2, 20.45.0, 20.46.0, 20.47.0, 20.47.1, 20.48.0 |
+| Versions | 20.38.0, 20.38.10, 20.38.11, 20.38.13, 20.38.16, 20.38.17, 20.39.1, 20.39.2, 20.39.3, 20.39.4, 20.40.0, 20.40.1, 20.41.0, 20.41.1, 20.41.2, 20.41.3, 20.41.4, 20.41.5, 20.41.6, 20.41.7, 20.42.0, 20.42.1, 20.42.2, 20.43.0, 20.43.1, 20.43.2, 20.43.3, 20.43.4, 20.44.0, 20.44.1, 20.44.2, 20.45.0, 20.46.0, 20.47.0, 20.47.1, 20.48.0, 20.48.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [etl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/etl/xmake.lua) |
 
@@ -39250,6 +39250,30 @@ xrepo install wolfssl
 
 ```lua
 add_requires("wolfssl")
+```
+
+
+### workflow (windows)
+
+
+| Description | *C++ Parallel Computing and Asynchronous Networking Framework* |
+| -- | -- |
+| Homepage | [https://github.com/sogou/workflow](https://github.com/sogou/workflow) |
+| License | Apache-2.0 |
+| Versions | v0.10.6, v0.10.7, v0.10.8, v0.10.9, v0.11.1, v0.11.2, v0.11.3, v0.11.4, v0.11.9, v0.11.11, v1.0.0, v1.0.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [workflow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/workflow/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install workflow
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("workflow")
 ```
 
 
