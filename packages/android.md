@@ -18495,7 +18495,7 @@ add_requires("nod")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/node-addon-api](https://github.com/nodejs/node-addon-api) |
 | License | MIT |
-| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1, v8.4.0, v8.5.0, v8.6.0, v8.7.0, v8.8.0, v8.9.0 |
+| Versions | v8.0.0, v8.2.2, v8.3.0, v8.3.1, v8.4.0, v8.5.0, v8.6.0, v8.7.0, v8.8.0, v8.9.0, v8.9.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [node-addon-api/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/node-addon-api/xmake.lua) |
 
@@ -21408,7 +21408,7 @@ add_requires("promise-cpp")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | License | BSD-3-Clause |
-| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1, 32.0, 32.1, 33.1, 33.2, 35.1 |
+| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1, 32.0, 32.1, 33.1, 33.2, 35.1, 36.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
@@ -22702,7 +22702,7 @@ add_requires("raylib")
 | -- | -- |
 | Homepage | [https://github.com/RobLoach/raylib-cpp](https://github.com/RobLoach/raylib-cpp) |
 | License | zlib |
-| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0, v6.0.1, v6.0.2 |
+| Versions | v5.0.1, v5.0.2, v5.5.0, v5.5.1, v6.0.0, v6.0.1, v6.0.2, v6.0.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [raylib-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib-cpp/xmake.lua) |
 
