@@ -8381,7 +8381,7 @@ add_requires("graaf")
 | -- | -- |
 | Homepage | [https://grpc.io](https://grpc.io) |
 | License | Apache-2.0 |
-| Versions | v1.51.3, v1.62.1, v1.68.2, v1.69.0, v1.82.1 |
+| Versions | v1.51.3, v1.62.1, v1.68.2, v1.69.0, v1.82.1, v1.83.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [grpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/grpc/xmake.lua) |
 

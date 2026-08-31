@@ -8889,7 +8889,7 @@ add_requires("graphene")
 | -- | -- |
 | Homepage | [https://grpc.io](https://grpc.io) |
 | License | Apache-2.0 |
-| Versions | v1.51.3, v1.62.1, v1.68.2, v1.69.0, v1.82.1 |
+| Versions | v1.51.3, v1.62.1, v1.68.2, v1.69.0, v1.82.1, v1.83.1 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [grpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/grpc/xmake.lua) |
 

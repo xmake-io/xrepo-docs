@@ -12345,7 +12345,7 @@ add_requires("graphene")
 | -- | -- |
 | Homepage | [https://grpc.io](https://grpc.io) |
 | License | Apache-2.0 |
-| Versions | v1.51.3, v1.62.1, v1.68.2, v1.69.0, v1.82.1 |
+| Versions | v1.51.3, v1.62.1, v1.68.2, v1.69.0, v1.82.1, v1.83.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [grpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/grpc/xmake.lua) |
 
@@ -23646,7 +23646,7 @@ add_requires("metalang99")
 | -- | -- |
 | Homepage | [https://github.com/LLNL/metall](https://github.com/LLNL/metall) |
 | License | Apache-2.0 |
-| Versions | v0.30, v0.31, v0.32, v0.33, v0.34 |
+| Versions | v0.30, v0.31, v0.32, v0.33, v0.34, v0.35 |
 | Architectures | arm64, x86_64 |
 | Definition | [metall/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/metall/xmake.lua) |
 
@@ -39597,7 +39597,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55c32e88feb0 |
+| License | table: 0x560c991cfa20 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -12608,7 +12608,7 @@ add_requires("graphene")
 | -- | -- |
 | Homepage | [https://grpc.io](https://grpc.io) |
 | License | Apache-2.0 |
-| Versions | v1.51.3, v1.62.1, v1.68.2, v1.69.0, v1.82.1 |
+| Versions | v1.51.3, v1.62.1, v1.68.2, v1.69.0, v1.82.1, v1.83.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [grpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/grpc/xmake.lua) |
 
@@ -33026,7 +33026,7 @@ add_requires("simplethreadpool")
 | -- | -- |
 | Homepage | [https://mzying2001.github.io/sw/](https://mzying2001.github.io/sw/) |
 | License | MIT |
-| Versions | 0.0.7, 0.1.0 |
+| Versions | 0.0.7, 0.1.0, 0.2.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [simplewindow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplewindow/xmake.lua) |
 
