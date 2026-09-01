@@ -17325,7 +17325,7 @@ add_requires("msgpack-c")
 | -- | -- |
 | Homepage | [https://msgpack.org/](https://msgpack.org/) |
 | License | BSL-1.0 |
-| Versions | 4.1.1, 6.1.0, 6.1.1, 7.0.0 |
+| Versions | 4.1.1, 6.1.0, 6.1.1, 7.0.0, 9.0.0 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [msgpack-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-cxx/xmake.lua) |
 

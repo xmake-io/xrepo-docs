@@ -24909,7 +24909,7 @@ add_requires("msgpack-c")
 | -- | -- |
 | Homepage | [https://msgpack.org/](https://msgpack.org/) |
 | License | BSL-1.0 |
-| Versions | 4.1.1, 6.1.0, 6.1.1, 7.0.0 |
+| Versions | 4.1.1, 6.1.0, 6.1.1, 7.0.0, 9.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [msgpack-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-cxx/xmake.lua) |
 
@@ -39120,7 +39120,7 @@ add_requires("vulkan-loader")
 | -- | -- |
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | MIT |
-| Versions | v3.0.0, v3.0.1, v3.1.0, v3.2.0, v3.2.1, v3.3.0 |
+| Versions | v3.0.0, v3.0.1, v3.1.0, v3.2.0, v3.2.1, v3.3.0, v3.4.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
 
@@ -39597,7 +39597,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x561e872672a0 |
+| License | table: 0x55a663dc7af0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

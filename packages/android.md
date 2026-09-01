@@ -17492,7 +17492,7 @@ add_requires("msgpack-c")
 | -- | -- |
 | Homepage | [https://msgpack.org/](https://msgpack.org/) |
 | License | BSL-1.0 |
-| Versions | 4.1.1, 6.1.0, 6.1.1, 7.0.0 |
+| Versions | 4.1.1, 6.1.0, 6.1.1, 7.0.0, 9.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [msgpack-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack-cxx/xmake.lua) |
 
@@ -28061,7 +28061,7 @@ add_requires("vulkan-hpp")
 | -- | -- |
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | MIT |
-| Versions | v3.0.0, v3.0.1, v3.1.0, v3.2.0, v3.2.1, v3.3.0 |
+| Versions | v3.0.0, v3.0.1, v3.1.0, v3.2.0, v3.2.1, v3.3.0, v3.4.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [vulkan-memory-allocator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator/xmake.lua) |
 
