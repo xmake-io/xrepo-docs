@@ -15918,7 +15918,7 @@ add_requires("muda")
 | -- | -- |
 | Homepage | [https://mujoco.org/](https://mujoco.org/) |
 | License | Apache-2.0 |
-| Versions | 3.4.0 |
+| Versions | 3.4.0, 3.12.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [mujoco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujoco/xmake.lua) |
 

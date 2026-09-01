@@ -17443,7 +17443,7 @@ add_requires("muda")
 | -- | -- |
 | Homepage | [https://mujoco.org/](https://mujoco.org/) |
 | License | Apache-2.0 |
-| Versions | 3.4.0 |
+| Versions | 3.4.0, 3.12.0 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [mujoco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujoco/xmake.lua) |
 

@@ -8929,7 +8929,7 @@ add_requires("etl")
 | -- | -- |
 | Homepage | [https://github.com/sudoevolve/EUI-NEO](https://github.com/sudoevolve/EUI-NEO) |
 | License | Apache-2.0 |
-| Versions | v0.5.5 |
+| Versions | v0.5.5, v0.5.6, v0.5.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [eui-neo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eui-neo/xmake.lua) |
 
@@ -25051,7 +25051,7 @@ add_requires("muda")
 | -- | -- |
 | Homepage | [https://mujoco.org/](https://mujoco.org/) |
 | License | Apache-2.0 |
-| Versions | 3.4.0 |
+| Versions | 3.4.0, 3.12.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [mujoco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujoco/xmake.lua) |
 
@@ -39597,7 +39597,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x560c991cfa20 |
+| License | table: 0x561e872672a0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

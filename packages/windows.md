@@ -9144,7 +9144,7 @@ add_requires("etl")
 | -- | -- |
 | Homepage | [https://github.com/sudoevolve/EUI-NEO](https://github.com/sudoevolve/EUI-NEO) |
 | License | Apache-2.0 |
-| Versions | v0.5.5 |
+| Versions | v0.5.5, v0.5.6, v0.5.7 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [eui-neo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eui-neo/xmake.lua) |
 
@@ -23907,7 +23907,7 @@ add_requires("muda")
 | -- | -- |
 | Homepage | [https://mujoco.org/](https://mujoco.org/) |
 | License | Apache-2.0 |
-| Versions | 3.4.0 |
+| Versions | 3.4.0, 3.12.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [mujoco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujoco/xmake.lua) |
 
