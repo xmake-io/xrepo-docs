@@ -224,7 +224,7 @@ add_requires("aklomp-base64")
 | -- | -- |
 | Homepage | [https://alembic.io/](https://alembic.io/) |
 | License | BSD-3-Clause |
-| Versions | 1.8.5, 1.8.6, 1.8.7, 1.8.8, 1.8.9, 1.8.10, 1.8.11 |
+| Versions | 1.8.5, 1.8.6, 1.8.7, 1.8.8, 1.8.9, 1.8.10, 1.8.11, 1.8.12 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [alembic/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/alembic/xmake.lua) |
 
@@ -1232,7 +1232,7 @@ add_requires("awk")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
-| Versions | v0.7.3, v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5, v0.10.1, v0.10.2, v0.10.3, v0.10.4 |
+| Versions | v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5, v0.10.1, v0.10.2, v0.10.3, v0.10.4, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
@@ -1256,7 +1256,7 @@ add_requires("aws-c-auth")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-cal](https://github.com/awslabs/aws-c-cal) |
 | License | Apache-2.0 |
-| Versions | v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11, v0.9.13, v0.9.14, v0.9.15 |
+| Versions | v0.7.1, v0.7.2, v0.7.4, v0.8.0, v0.8.1, v0.8.3, v0.8.7, v0.9.0, v0.9.2, v0.9.5, v0.9.10, v0.9.11, v0.9.13, v0.9.14, v0.9.15, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-cal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-cal/xmake.lua) |
 
@@ -1280,7 +1280,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.3, v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5 |
+| Versions | v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -1304,7 +1304,7 @@ add_requires("aws-c-common")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-compression](https://github.com/awslabs/aws-c-compression) |
 | License | Apache-2.0 |
-| Versions | v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1, v0.3.2, v0.3.3 |
+| Versions | v0.2.17, v0.2.18, v0.2.19, v0.3.0, v0.3.1, v0.3.2, v0.3.3, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-compression/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-compression/xmake.lua) |
 
@@ -1328,7 +1328,7 @@ add_requires("aws-c-compression")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.7.12, v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0, v0.11.1 |
+| Versions | v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0, v0.11.1, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -1352,7 +1352,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.13.32, v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.27.6 |
+| Versions | v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.27.6, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -1376,7 +1376,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-s3](https://github.com/awslabs/aws-c-s3) |
 | License | Apache-2.0 |
-| Versions | v0.3.17, v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.12.7, v0.13.1, v0.13.5 |
+| Versions | v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.12.7, v0.13.1, v0.13.5, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-s3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-s3/xmake.lua) |
 
@@ -1400,7 +1400,7 @@ add_requires("aws-c-s3")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) |
 | License | Apache-2.0 |
-| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5, v0.2.6, v0.2.7, v0.2.9 |
+| Versions | v0.1.12, v0.1.15, v0.1.16, v0.1.19, v0.2.0, v0.2.1, v0.2.2, v0.2.3, v0.2.4, v0.2.5, v0.2.6, v0.2.7, v0.2.9, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-sdkutils/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-sdkutils/xmake.lua) |
 
@@ -1424,7 +1424,7 @@ add_requires("aws-c-sdkutils")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-checksums](https://github.com/awslabs/aws-checksums) |
 | License | Apache-2.0 |
-| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0, v0.2.2, v0.2.3, v0.2.7, v0.2.8, v0.2.10, v0.2.11 |
+| Versions | v0.1.17, v0.1.18, v0.1.19, v0.1.20, v0.2.0, v0.2.2, v0.2.3, v0.2.7, v0.2.8, v0.2.10, v0.2.11, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-checksums/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-checksums/xmake.lua) |
 
@@ -17827,7 +17827,7 @@ add_requires("nanoarrow")
 | -- | -- |
 | Homepage | [https://nanobench.ankerl.com](https://nanobench.ankerl.com) |
 | License | MIT |
-| Versions | v4.3.11 |
+| Versions | v4.3.11, v4.6.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [nanobench/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanobench/xmake.lua) |
 
@@ -26876,6 +26876,30 @@ xrepo install -p android [--ndk=/xxx] toml11
 
 ```lua
 add_requires("toml11")
+```
+
+
+### tomlc17 (android)
+
+
+| Description | *A lightweight, strictly compliant TOML v1.1 parser for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/cktan/tomlc17](https://github.com/cktan/tomlc17) |
+| License | MIT |
+| Versions | 2026.08.21 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [tomlc17/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tomlc17/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] tomlc17
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tomlc17")
 ```
 
 
