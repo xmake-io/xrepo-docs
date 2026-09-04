@@ -13104,7 +13104,7 @@ add_requires("libpng")
 | -- | -- |
 | Homepage | [https://github.com/kimwalisch/libpopcnt](https://github.com/kimwalisch/libpopcnt) |
 | License | BSD-2-Clause |
-| Versions | v3.1 |
+| Versions | v3.1, v4.2 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [libpopcnt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpopcnt/xmake.lua) |
 

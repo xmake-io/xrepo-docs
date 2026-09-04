@@ -11812,7 +11812,7 @@ add_requires("libpng")
 | -- | -- |
 | Homepage | [https://github.com/kimwalisch/libpopcnt](https://github.com/kimwalisch/libpopcnt) |
 | License | BSD-2-Clause |
-| Versions | v3.1 |
+| Versions | v3.1, v4.2 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [libpopcnt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpopcnt/xmake.lua) |
 
