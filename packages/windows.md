@@ -1136,7 +1136,7 @@ add_requires("asio3")
 | -- | -- |
 | Homepage | [https://asmjit.com/](https://asmjit.com/) |
 | License | zlib |
-| Versions | 2021.06.27, 2022.01.18, 2024.03.09, 2024.05.21 |
+| Versions | 2014.12.01, 2021.06.27, 2022.01.18, 2024.03.09, 2024.05.21 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
 
@@ -2561,6 +2561,30 @@ xrepo install bitsery
 
 ```lua
 add_requires("bitsery")
+```
+
+
+### blackbone (windows)
+
+
+| Description | *Windows memory manipulation library with manual PE mapping support.* |
+| -- | -- |
+| Homepage | [https://github.com/DarthTon/Blackbone](https://github.com/DarthTon/Blackbone) |
+| License | MIT AND GPL-3.0-or-later |
+| Versions | 2023.07.17 |
+| Architectures | x64, x86 |
+| Definition | [blackbone/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blackbone/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install blackbone
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("blackbone")
 ```
 
 
@@ -7470,7 +7494,7 @@ add_requires("dfdutils")
 | -- | -- |
 | Homepage | [https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/) |
 | Versions |  |
-| Architectures | arm, arm64, x64 |
+| Architectures | arm, arm64, x64, x86 |
 | Definition | [diasdk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/diasdk/xmake.lua) |
 
 ##### Install command

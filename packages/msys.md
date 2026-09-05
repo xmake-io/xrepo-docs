@@ -750,7 +750,7 @@ add_requires("asio")
 | -- | -- |
 | Homepage | [https://asmjit.com/](https://asmjit.com/) |
 | License | zlib |
-| Versions | 2021.06.27, 2022.01.18, 2024.03.09, 2024.05.21 |
+| Versions | 2014.12.01, 2021.06.27, 2022.01.18, 2024.03.09, 2024.05.21 |
 | Architectures | i386, x86_64 |
 | Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
 

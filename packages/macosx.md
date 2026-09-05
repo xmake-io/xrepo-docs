@@ -1065,7 +1065,7 @@ add_requires("asio3")
 | -- | -- |
 | Homepage | [https://asmjit.com/](https://asmjit.com/) |
 | License | zlib |
-| Versions | 2021.06.27, 2022.01.18, 2024.03.09, 2024.05.21 |
+| Versions | 2014.12.01, 2021.06.27, 2022.01.18, 2024.03.09, 2024.05.21 |
 | Architectures | arm64, x86_64 |
 | Definition | [asmjit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/asmjit/xmake.lua) |
 
@@ -39621,7 +39621,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x563574204f40 |
+| License | table: 0x56341e1d4960 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
