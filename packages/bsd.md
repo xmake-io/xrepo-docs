@@ -294,7 +294,7 @@ add_requires("amqp-cpp")
 | -- | -- |
 | Homepage | [https://amrex-codes.github.io/amrex](https://amrex-codes.github.io/amrex) |
 | License | BSD-3-Clause |
-| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09, 25.11, 26.01, 26.02, 26.03, 26.05, 26.08 |
+| Versions | 24.09, 24.12, 25.02, 25.03, 25.04, 25.05, 25.06, 25.08, 25.09, 25.11, 26.01, 26.02, 26.03, 26.05, 26.08, 26.09 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [amrex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amrex/xmake.lua) |
 
