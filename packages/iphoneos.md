@@ -2973,7 +2973,7 @@ add_requires("cgetopt")
 | -- | -- |
 | Homepage | [https://github.com/dloebl/cgif](https://github.com/dloebl/cgif) |
 | License | MIT |
-| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1, v0.5.2, v0.5.3 |
+| Versions | v0.4.0, v0.4.1, v0.5.0, v0.5.1, v0.5.2, v0.5.3, v0.5.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [cgif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgif/xmake.lua) |
 
@@ -26390,7 +26390,7 @@ add_requires("vulkan-memory-allocator")
 | -- | -- |
 | Homepage | [https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/](https://gpuopen-librariesandsdks.github.io/VulkanMemoryAllocator/html/) |
 | License | CC0 |
-| Versions | v3.0.0, v3.0.1-1, v3.0.1-3, v3.1.0, v3.2.0, v3.2.1 |
+| Versions | v3.0.0, v3.0.1-1, v3.0.1-3, v3.1.0, v3.2.0, v3.2.1, v3.3.0+3, v3.4.0+2 |
 | Architectures | arm64, x86_64 |
 | Definition | [vulkan-memory-allocator-hpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-memory-allocator-hpp/xmake.lua) |
 
