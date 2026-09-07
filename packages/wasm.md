@@ -1419,7 +1419,7 @@ add_requires("benchmark")
 
 | Description | *Full-featured MP4 format, MPEG DASH, HLS, CMAF SDK and tools* |
 | -- | -- |
-| Homepage | [http://www.bento4.com](http://www.bento4.com) |
+| Homepage | [https://www.bento4.com/](https://www.bento4.com/) |
 | Versions | 2023.08.08, 2024.11.15 |
 | Architectures | wasm32, wasm64 |
 | Definition | [bento4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bento4/xmake.lua) |
@@ -11213,7 +11213,7 @@ add_requires("libqrencode")
 
 | Description | *LibRaw is a library for reading RAW files from digital cameras.* |
 | -- | -- |
-| Homepage | [http://www.libraw.org](http://www.libraw.org) |
+| Homepage | [https://www.libraw.org/](https://www.libraw.org/) |
 | License | LGPL-2.1 |
 | Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5, 0.22.0, 0.22.1 |
 | Architectures | wasm32, wasm64 |
@@ -13097,7 +13097,7 @@ add_requires("lsquic")
 
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
-| Homepage | [http://lua.org](http://lua.org) |
+| Homepage | [https://lua.org/](https://lua.org/) |
 | Versions | v5.1.1, v5.1.5, v5.2.3, v5.2.4, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4, v5.4.6, v5.4.7, v5.4.8, v5.5.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
@@ -15006,7 +15006,7 @@ add_requires("muda")
 
 | Description | *An embeddable Javascript interpreter in C.* |
 | -- | -- |
-| Homepage | [http://mujs.com/](http://mujs.com/) |
+| Homepage | [https://mujs.com/](https://mujs.com/) |
 | License | ISC |
 | Versions | 1.3.4, 1.3.5, 1.3.6, 1.3.7, 1.3.8 |
 | Architectures | wasm32, wasm64 |

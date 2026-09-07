@@ -1156,7 +1156,7 @@ add_requires("avir")
 
 | Description | *AviSynth with improvements* |
 | -- | -- |
-| Homepage | [http://avs-plus.net](http://avs-plus.net) |
+| Homepage | [https://avs-plus.net/](https://avs-plus.net/) |
 | License | GPL-2.0 |
 | Versions | 2026.01.01 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
@@ -1898,7 +1898,7 @@ add_requires("benchmark")
 
 | Description | *Full-featured MP4 format, MPEG DASH, HLS, CMAF SDK and tools* |
 | -- | -- |
-| Homepage | [http://www.bento4.com](http://www.bento4.com) |
+| Homepage | [https://www.bento4.com/](https://www.bento4.com/) |
 | Versions | 2023.08.08, 2024.11.15 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [bento4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bento4/xmake.lua) |
@@ -3093,7 +3093,7 @@ add_requires("cdt")
 
 | Description | *Higher level programming in C* |
 | -- | -- |
-| Homepage | [http://libcello.org/](http://libcello.org/) |
+| Homepage | [https://libcello.org/](https://libcello.org/) |
 | Versions | 2.1.0 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [cello/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cello/xmake.lua) |
@@ -13459,7 +13459,7 @@ add_requires("libqrencode")
 
 | Description | *LibRaw is a library for reading RAW files from digital cameras.* |
 | -- | -- |
-| Homepage | [http://www.libraw.org](http://www.libraw.org) |
+| Homepage | [https://www.libraw.org/](https://www.libraw.org/) |
 | License | LGPL-2.1 |
 | Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5, 0.22.0, 0.22.1 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
@@ -14580,7 +14580,7 @@ add_requires("libuuid")
 
 | Description | *A multi-platform support library with a focus on asynchronous I/O.* |
 | -- | -- |
-| Homepage | [http://libuv.org/](http://libuv.org/) |
+| Homepage | [https://libuv.org/](https://libuv.org/) |
 | License | MIT |
 | Versions | v1.22.0, v1.23.0, v1.23.1, v1.23.2, v1.24.0, v1.24.1, v1.25.0, v1.26.0, v1.27.0, v1.28.0, v1.40.0, v1.41.0, v1.42.0, v1.43.0, v1.44.1, v1.45.0, v1.46.0, v1.47.0, v1.48.0, v1.49.0, v1.49.1, v1.49.2, v1.50.0, v1.51.0, v1.52.0, v1.52.1 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
@@ -15813,7 +15813,7 @@ add_requires("lsquic")
 
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
-| Homepage | [http://lua.org](http://lua.org) |
+| Homepage | [https://lua.org/](https://lua.org/) |
 | Versions | v5.1.1, v5.1.5, v5.2.3, v5.2.4, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4, v5.4.6, v5.4.7, v5.4.8, v5.5.0 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
@@ -17983,7 +17983,7 @@ add_requires("muda")
 
 | Description | *An embeddable Javascript interpreter in C.* |
 | -- | -- |
-| Homepage | [http://mujs.com/](http://mujs.com/) |
+| Homepage | [https://mujs.com/](https://mujs.com/) |
 | License | ISC |
 | Versions | 1.3.4, 1.3.5, 1.3.6, 1.3.7, 1.3.8 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
