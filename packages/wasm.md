@@ -4052,7 +4052,7 @@ add_requires("croaring")
 | -- | -- |
 | Homepage | [https://github.com/mariusbancila/croncpp](https://github.com/mariusbancila/croncpp) |
 | License | MIT |
-| Versions | v2023.03.30 |
+| Versions | v2023.03.30, v2026.08.12 |
 | Architectures | wasm32, wasm64 |
 | Definition | [croncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croncpp/xmake.lua) |
 
@@ -16946,7 +16946,7 @@ add_requires("paul_thread_pool")
 
 | Description | *PCG — C++ Implementation* |
 | -- | -- |
-| Homepage | [http://www.pcg-random.org](http://www.pcg-random.org) |
+| Homepage | [https://www.pcg-random.org/](https://www.pcg-random.org/) |
 | License | Apache-2.0 |
 | Versions | 2022.04.09 |
 | Architectures | wasm32, wasm64 |

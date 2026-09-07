@@ -6297,7 +6297,7 @@ add_requires("croaring")
 | -- | -- |
 | Homepage | [https://github.com/mariusbancila/croncpp](https://github.com/mariusbancila/croncpp) |
 | License | MIT |
-| Versions | v2023.03.30 |
+| Versions | v2023.03.30, v2026.08.12 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [croncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croncpp/xmake.lua) |
 
@@ -27749,7 +27749,7 @@ add_requires("pcapplusplus")
 
 | Description | *PCG — C++ Implementation* |
 | -- | -- |
-| Homepage | [http://www.pcg-random.org](http://www.pcg-random.org) |
+| Homepage | [https://www.pcg-random.org/](https://www.pcg-random.org/) |
 | License | Apache-2.0 |
 | Versions | 2022.04.09 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
@@ -30420,7 +30420,7 @@ add_requires("quake_triangle")
 | Description | *The QuantLib C++ library* |
 | -- | -- |
 | Homepage | [http://quantlib.org](http://quantlib.org) |
-| Versions | 1.33, 1.34, 1.35, 1.39, 1.40, 1.41, 1.42.1 |
+| Versions | 1.33, 1.34, 1.35, 1.39, 1.40, 1.41, 1.42.1, 1.43 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [quantlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quantlib/xmake.lua) |
 
@@ -32525,7 +32525,7 @@ add_requires("sentencepiece")
 | -- | -- |
 | Homepage | [https://sentry.io/welcome/](https://sentry.io/welcome/) |
 | License | MIT |
-| Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7, 0.14.0, 0.14.2, 0.15.0, 0.15.1, 0.15.2, 0.15.3, 0.16.1 |
+| Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7, 0.14.0, 0.14.2, 0.15.0, 0.15.1, 0.15.2, 0.15.3, 0.16.1, 0.16.5 |
 | Architectures | x64, x86 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 

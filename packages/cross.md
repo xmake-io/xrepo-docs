@@ -4771,7 +4771,7 @@ add_requires("croaring")
 | -- | -- |
 | Homepage | [https://github.com/mariusbancila/croncpp](https://github.com/mariusbancila/croncpp) |
 | License | MIT |
-| Versions | v2023.03.30 |
+| Versions | v2023.03.30, v2026.08.12 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [croncpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/croncpp/xmake.lua) |
 
@@ -19929,7 +19929,7 @@ add_requires("paul_thread_pool")
 
 | Description | *PCG — C++ Implementation* |
 | -- | -- |
-| Homepage | [http://www.pcg-random.org](http://www.pcg-random.org) |
+| Homepage | [https://www.pcg-random.org/](https://www.pcg-random.org/) |
 | License | Apache-2.0 |
 | Versions | 2022.04.09 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
@@ -21527,7 +21527,7 @@ add_requires("quake_triangle")
 | Description | *The QuantLib C++ library* |
 | -- | -- |
 | Homepage | [http://quantlib.org](http://quantlib.org) |
-| Versions | 1.33, 1.34, 1.35, 1.39, 1.40, 1.41, 1.42.1 |
+| Versions | 1.33, 1.34, 1.35, 1.39, 1.40, 1.41, 1.42.1, 1.43 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [quantlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/q/quantlib/xmake.lua) |
 
