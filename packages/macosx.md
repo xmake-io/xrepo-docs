@@ -25216,7 +25216,7 @@ add_requires("mxml")
 
 | Description | *A real-time, open source transactional database.* |
 | -- | -- |
-| Homepage | [http://www.mysql.com](http://www.mysql.com) |
+| Homepage | [https://www.mysql.com/](https://www.mysql.com/) |
 | License | GPL-2.0 |
 | Versions | 8.0.39 |
 | Architectures | arm64, x86_64 |
@@ -39621,7 +39621,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e6061572c0 |
+| License | table: 0x561478fa3690 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

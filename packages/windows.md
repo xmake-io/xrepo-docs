@@ -24096,7 +24096,7 @@ add_requires("mxml")
 
 | Description | *A real-time, open source transactional database.* |
 | -- | -- |
-| Homepage | [http://www.mysql.com](http://www.mysql.com) |
+| Homepage | [https://www.mysql.com/](https://www.mysql.com/) |
 | License | GPL-2.0 |
 | Versions | 8.0.39 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
