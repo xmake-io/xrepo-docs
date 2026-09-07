@@ -21544,7 +21544,7 @@ add_requires("pprint")
 
 | Description | *A Proximity Query Package* |
 | -- | -- |
-| Homepage | [http://gamma.cs.unc.edu/SSV/](http://gamma.cs.unc.edu/SSV/) |
+| Homepage | [https://gamma.cs.unc.edu/SSV/](https://gamma.cs.unc.edu/SSV/) |
 | Versions | 1.3 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [pqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pqp/xmake.lua) |

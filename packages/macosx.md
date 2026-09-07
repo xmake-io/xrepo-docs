@@ -8163,7 +8163,7 @@ add_requires("dyncall")
 
 | Description | *Filesystem utilities for the ext2/3/4 filesystems* |
 | -- | -- |
-| Homepage | [http://e2fsprogs.sourceforge.net](http://e2fsprogs.sourceforge.net) |
+| Homepage | [https://e2fsprogs.sourceforge.net/](https://e2fsprogs.sourceforge.net/) |
 | Versions | 1.46.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [e2fsprogs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/e2fsprogs/xmake.lua) |
@@ -8929,7 +8929,7 @@ add_requires("etl")
 | -- | -- |
 | Homepage | [https://github.com/sudoevolve/EUI-NEO](https://github.com/sudoevolve/EUI-NEO) |
 | License | Apache-2.0 |
-| Versions | v0.5.5, v0.5.6, v0.5.7, v0.5.8 |
+| Versions | v0.5.5, v0.5.6, v0.5.7, v0.5.8, v0.5.9 |
 | Architectures | arm64, x86_64 |
 | Definition | [eui-neo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eui-neo/xmake.lua) |
 
@@ -30137,7 +30137,7 @@ add_requires("pprint")
 
 | Description | *A Proximity Query Package* |
 | -- | -- |
-| Homepage | [http://gamma.cs.unc.edu/SSV/](http://gamma.cs.unc.edu/SSV/) |
+| Homepage | [https://gamma.cs.unc.edu/SSV/](https://gamma.cs.unc.edu/SSV/) |
 | Versions | 1.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [pqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pqp/xmake.lua) |
@@ -39621,7 +39621,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a5d3fba720 |
+| License | table: 0x55a5d6edd3d0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
