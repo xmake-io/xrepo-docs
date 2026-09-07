@@ -2787,7 +2787,7 @@ add_requires("blosc")
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
 | License | BSL-1.0 |
-| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0, 1.88.0, 1.89.0, 1.90.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0, 1.88.0, 1.89.0, 1.90.0, 1.91.0-1, 1.92.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
@@ -39621,7 +39621,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5644df8bedb0 |
+| License | table: 0x563091d61300 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

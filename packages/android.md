@@ -2234,7 +2234,7 @@ add_requires("bnm-android")
 | -- | -- |
 | Homepage | [https://www.boost.org/](https://www.boost.org/) |
 | License | BSL-1.0 |
-| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0, 1.88.0, 1.89.0, 1.90.0 |
+| Versions | 1.70.0, 1.72.0, 1.73.0, 1.74.0, 1.75.0, 1.76.0, 1.77.0, 1.78.0, 1.79.0, 1.80.0, 1.81.0, 1.82.0, 1.83.0, 1.84.0, 1.85.0, 1.86.0, 1.87.0, 1.88.0, 1.89.0, 1.90.0, 1.91.0-1, 1.92.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [boost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/boost/xmake.lua) |
 
