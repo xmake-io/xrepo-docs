@@ -42016,7 +42016,7 @@ add_requires("verdict")
 | -- | -- |
 | Homepage | [https://verilator.org](https://verilator.org) |
 | License | LGPL-3.0 |
-| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042, v5.044, v5.046, v5.048, v5.050 |
+| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042, v5.044, v5.046, v5.048, v5.050, v5.052 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
 
@@ -42924,7 +42924,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f132387d10 |
+| License | table: 0x561c2f4c9380 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

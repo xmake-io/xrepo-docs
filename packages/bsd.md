@@ -28023,7 +28023,7 @@ add_requires("verdict")
 | -- | -- |
 | Homepage | [https://verilator.org](https://verilator.org) |
 | License | LGPL-3.0 |
-| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042, v5.044, v5.046, v5.048, v5.050 |
+| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042, v5.044, v5.046, v5.048, v5.050, v5.052 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
 
