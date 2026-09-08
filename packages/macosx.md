@@ -18749,7 +18749,7 @@ add_requires("libpq")
 
 | Description | *The official C++ client API for PostgreSQL.* |
 | -- | -- |
-| Homepage | [http://pqxx.org/libpqxx/](http://pqxx.org/libpqxx/) |
+| Homepage | [https://pqxx.org/libpqxx/](https://pqxx.org/libpqxx/) |
 | License | BSD-3-Clause |
 | Versions | 7.7.0, 7.10.1, 7.10.2, 7.10.3, 7.10.5, 8.0.0, 8.0.2 |
 | Architectures | arm64, x86_64 |
@@ -25364,7 +25364,7 @@ add_requires("nanobench")
 | -- | -- |
 | Homepage | [https://github.com/wjakob/nanobind](https://github.com/wjakob/nanobind) |
 | License | BSD-3-Clause |
-| Versions | v2.2.0, v2.6.1, v2.7.0, v2.8.0, v2.9.2, v2.10.2, v2.11.0, v2.12.0 |
+| Versions | v2.2.0, v2.6.1, v2.7.0, v2.8.0, v2.9.2, v2.10.2, v2.11.0, v2.12.0, v2.13.0, v2.14.0, v2.15.0, v3.0.0, v3.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [nanobind/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanobind/xmake.lua) |
 
@@ -38664,9 +38664,9 @@ add_requires("vamp-plugin-sdk")
 
 | Description | *A video processing framework with simplicity in mind* |
 | -- | -- |
-| Homepage | [http://www.vapoursynth.com/](http://www.vapoursynth.com/) |
+| Homepage | [https://www.vapoursynth.com/](https://www.vapoursynth.com/) |
 | License | LGPL-2.1 |
-| Versions | 73 |
+| Versions | 73, 79 |
 | Architectures | arm64, x86_64 |
 | Definition | [vapoursynth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vapoursynth/xmake.lua) |
 
@@ -39621,7 +39621,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564e9d3aac50 |
+| License | table: 0x55f8cb7dc970 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -26078,9 +26078,9 @@ add_requires("vamp-plugin-sdk")
 
 | Description | *A video processing framework with simplicity in mind* |
 | -- | -- |
-| Homepage | [http://www.vapoursynth.com/](http://www.vapoursynth.com/) |
+| Homepage | [https://www.vapoursynth.com/](https://www.vapoursynth.com/) |
 | License | LGPL-2.1 |
-| Versions | 73 |
+| Versions | 73, 79 |
 | Architectures | arm64, x86_64 |
 | Definition | [vapoursynth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vapoursynth/xmake.lua) |
 
