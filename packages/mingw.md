@@ -31599,7 +31599,7 @@ add_requires("zpp_throwing")
 
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
-| Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
+| Homepage | [https://facebook.github.io/zstd/](https://facebook.github.io/zstd/) |
 | License | BSD-3-Clause |
 | Versions | v1.4.5, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7 |
 | Architectures | arm, arm64, i386, x86_64 |

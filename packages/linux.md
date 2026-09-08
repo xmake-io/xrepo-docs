@@ -3001,7 +3001,7 @@ add_requires("blosc")
 
 | Description | *Library for the Bluetooth protocol stack for Linux* |
 | -- | -- |
-| Homepage | [http://www.bluez.org](http://www.bluez.org) |
+| Homepage | [https://bluez.github.io/](https://bluez.github.io/) |
 | License | GPL-2.0-or-later |
 | Versions | 5.68, 5.69, 5.70, 5.71, 5.72, 5.73, 5.74, 5.75, 5.76, 5.77, 5.78, 5.79 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
@@ -10051,7 +10051,7 @@ add_requires("farmhash")
 
 | Description | *eProsima FastCDR library provides two serialization mechanisms. One is the standard CDR serialization mechanism, while the other is a faster implementation of it.* |
 | -- | -- |
-| Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
+| Homepage | [https://github.com/eProsima/Fast-CDR](https://github.com/eProsima/Fast-CDR) |
 | License | Apache-2.0 |
 | Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5, v2.3.6, v2.4.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
@@ -42924,7 +42924,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5633e18178f0 |
+| License | table: 0x555d615238a0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -44832,7 +44832,7 @@ add_requires("zpp_throwing")
 
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
-| Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
+| Homepage | [https://facebook.github.io/zstd/](https://facebook.github.io/zstd/) |
 | License | BSD-3-Clause |
 | Versions | v1.4.5, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |

@@ -6950,7 +6950,7 @@ add_requires("fann")
 
 | Description | *eProsima FastCDR library provides two serialization mechanisms. One is the standard CDR serialization mechanism, while the other is a faster implementation of it.* |
 | -- | -- |
-| Homepage | [https://www.eprosima.com](https://www.eprosima.com) |
+| Homepage | [https://github.com/eProsima/Fast-CDR](https://github.com/eProsima/Fast-CDR) |
 | License | Apache-2.0 |
 | Versions | v1.1.0, v2.1.3, v2.2.1, v2.2.2, v2.2.3, v2.2.4, v2.2.5, v2.2.6, v2.3.0, v2.3.1, v2.3.3, v2.3.4, v2.3.5, v2.3.6, v2.4.0 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
@@ -29505,7 +29505,7 @@ add_requires("zpp_throwing")
 
 | Description | *Zstandard - Fast real-time compression algorithm* |
 | -- | -- |
-| Homepage | [https://www.zstd.net/](https://www.zstd.net/) |
+| Homepage | [https://facebook.github.io/zstd/](https://facebook.github.io/zstd/) |
 | License | BSD-3-Clause |
 | Versions | v1.4.5, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
