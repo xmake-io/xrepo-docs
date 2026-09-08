@@ -12507,7 +12507,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2 |
+| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2, v1.7.3 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
@@ -18250,7 +18250,7 @@ add_requires("nanoflann")
 | -- | -- |
 | Homepage | [https://nanomsg.org](https://nanomsg.org) |
 | License | MIT |
-| Versions | 1.2.1, 1.2.2 |
+| Versions | 1.2.1, 1.2.2, 1.2.5 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [nanomsg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanomsg/xmake.lua) |
 

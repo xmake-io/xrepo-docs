@@ -17702,7 +17702,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2 |
+| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2, v1.7.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
@@ -25435,7 +25435,7 @@ add_requires("nanogui")
 | -- | -- |
 | Homepage | [https://nanomsg.org](https://nanomsg.org) |
 | License | MIT |
-| Versions | 1.2.1, 1.2.2 |
+| Versions | 1.2.1, 1.2.2, 1.2.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [nanomsg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanomsg/xmake.lua) |
 
@@ -37995,7 +37995,7 @@ add_requires("uni_algo")
 
 | Description | *Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, S390x, TriCore, X86)* |
 | -- | -- |
-| Homepage | [http://www.unicorn-engine.org](http://www.unicorn-engine.org) |
+| Homepage | [https://www.unicorn-engine.org/](https://www.unicorn-engine.org/) |
 | License | GPL-2.0 |
 | Versions | 2.1.1, 2.1.3, 2.1.4 |
 | Architectures | arm64, x86_64 |
@@ -39621,7 +39621,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f8cb7dc970 |
+| License | table: 0x560be2960260 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

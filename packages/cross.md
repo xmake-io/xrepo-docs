@@ -12387,7 +12387,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2 |
+| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2, v1.7.3 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
@@ -17708,7 +17708,7 @@ add_requires("nanoflann")
 | -- | -- |
 | Homepage | [https://nanomsg.org](https://nanomsg.org) |
 | License | MIT |
-| Versions | 1.2.1, 1.2.2 |
+| Versions | 1.2.1, 1.2.2, 1.2.5 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [nanomsg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanomsg/xmake.lua) |
 
@@ -26624,7 +26624,7 @@ add_requires("uni_algo")
 
 | Description | *Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, S390x, TriCore, X86)* |
 | -- | -- |
-| Homepage | [http://www.unicorn-engine.org](http://www.unicorn-engine.org) |
+| Homepage | [https://www.unicorn-engine.org/](https://www.unicorn-engine.org/) |
 | License | GPL-2.0 |
 | Versions | 2.1.1, 2.1.3, 2.1.4 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
