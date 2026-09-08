@@ -18953,7 +18953,7 @@ add_requires("raw_pdb")
 
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
-| Homepage | [http://www.raylib.com](http://www.raylib.com) |
+| Homepage | [https://www.raylib.com/](https://www.raylib.com/) |
 | License | zlib |
 | Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0 |
 | Architectures | wasm32, wasm64 |
@@ -21608,7 +21608,7 @@ add_requires("tabulate")
 
 | Description | *TagLib Audio Meta-Data Library* |
 | -- | -- |
-| Homepage | [http://taglib.org/](http://taglib.org/) |
+| Homepage | [https://taglib.org/](https://taglib.org/) |
 | License | LGPL-2.1 |
 | Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1 |
 | Architectures | wasm32, wasm64 |

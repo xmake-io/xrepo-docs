@@ -24446,7 +24446,7 @@ add_requires("tabulate")
 
 | Description | *TagLib Audio Meta-Data Library* |
 | -- | -- |
-| Homepage | [http://taglib.org/](http://taglib.org/) |
+| Homepage | [https://taglib.org/](https://taglib.org/) |
 | License | LGPL-2.1 |
 | Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1 |
 | Architectures | i386, x86_64 |

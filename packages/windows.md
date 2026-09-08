@@ -10317,7 +10317,7 @@ add_requires("floatengine")
 
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
-| Homepage | [http://www.raylib.com](http://www.raylib.com) |
+| Homepage | [https://www.raylib.com/](https://www.raylib.com/) |
 | License | zlib |
 | Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
@@ -30900,7 +30900,7 @@ add_requires("raygui")
 
 | Description | *A simple and easy-to-use library to enjoy videogames programming.* |
 | -- | -- |
-| Homepage | [http://www.raylib.com](http://www.raylib.com) |
+| Homepage | [https://www.raylib.com/](https://www.raylib.com/) |
 | License | zlib |
 | Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
@@ -32523,7 +32523,7 @@ add_requires("sentencepiece")
 
 | Description | *Sentry SDK for C, C++ and native applications.* |
 | -- | -- |
-| Homepage | [https://sentry.io/welcome/](https://sentry.io/welcome/) |
+| Homepage | [https://docs.sentry.io/](https://docs.sentry.io/) |
 | License | MIT |
 | Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7, 0.14.0, 0.14.2, 0.15.0, 0.15.1, 0.15.2, 0.15.3, 0.16.1, 0.16.5 |
 | Architectures | x64, x86 |
@@ -35151,7 +35151,7 @@ add_requires("tabulate")
 
 | Description | *TagLib Audio Meta-Data Library* |
 | -- | -- |
-| Homepage | [http://taglib.org/](http://taglib.org/) |
+| Homepage | [https://taglib.org/](https://taglib.org/) |
 | License | LGPL-2.1 |
 | Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
@@ -37515,7 +37515,7 @@ add_requires("uriparser")
 
 | Description | *Universal Scene Description* |
 | -- | -- |
-| Homepage | [http://www.openusd.org](http://www.openusd.org) |
+| Homepage | [https://www.openusd.org/](https://www.openusd.org/) |
 | License | Apache-2.0 |
 | Versions | v22.11, v23.02, v24.03, v24.05, v24.08, v25.05, v25.05.01, v25.08, v25.11, v26.03, v26.05, v26.08 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
