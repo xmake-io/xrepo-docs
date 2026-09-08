@@ -7549,7 +7549,7 @@
 <tbody>
 <tr>
 <td>Homepage</td>
-<td><a href="https://cryptopp.com/">https://cryptopp.com/</a></td>
+<td><a href="https://github.com/weidai11/cryptopp">https://github.com/weidai11/cryptopp</a></td>
 </tr>
 <tr>
 <td>Versions</td>
@@ -10662,6 +10662,43 @@
 <pre><code class="lang-lua">add_requires("extra-cmake-modules")
 </code></pre>
 <h2 id="f">f</h2>
+<h3 id="faad2cross">faad2 (cross)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>FAAD2 is a HE, LC, MAIN and LTP profile, MPEG2 and MPEG-4 AAC decoder.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://sourceforge.net/projects/faac/">https://sourceforge.net/projects/faac/</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2.10.0, 2.11.2, 2.11.3</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faad2/xmake.lua">faad2/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p cross [--sdk=/xxx] faad2
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("faad2")
+</code></pre>
 <h3 id="fadeccross">fadec (cross)</h3>
 <table>
 <thead>

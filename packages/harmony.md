@@ -4479,7 +4479,7 @@ add_requires("crypto-algorithms")
 
 | Description | *free C++ class library of cryptographic schemes* |
 | -- | -- |
-| Homepage | [https://cryptopp.com/](https://cryptopp.com/) |
+| Homepage | [https://github.com/weidai11/cryptopp](https://github.com/weidai11/cryptopp) |
 | Versions | 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.9.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [cryptopp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cryptopp/xmake.lua) |
@@ -6298,6 +6298,30 @@ add_requires("extra-cmake-modules")
 
 
 ## f
+### faad2 (harmony)
+
+
+| Description | *FAAD2 is a HE, LC, MAIN and LTP profile, MPEG2 and MPEG-4 AAC decoder.* |
+| -- | -- |
+| Homepage | [https://sourceforge.net/projects/faac/](https://sourceforge.net/projects/faac/) |
+| License | GPL-2.0 |
+| Versions | 2.10.0, 2.11.2, 2.11.3 |
+| Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
+| Definition | [faad2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faad2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install faad2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("faad2")
+```
+
+
 ### fadec (harmony)
 
 
