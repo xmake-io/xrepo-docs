@@ -295,7 +295,7 @@ add_requires("aklomp-base64")
 
 | Description | *Open framework for storing and sharing scene data that includes a C++ library, a file format, and client plugins and applications.* |
 | -- | -- |
-| Homepage | [https://alembic.io/](https://alembic.io/) |
+| Homepage | [https://www.alembic.io/](https://www.alembic.io/) |
 | License | BSD-3-Clause |
 | Versions | 1.8.5, 1.8.6, 1.8.7, 1.8.8, 1.8.9, 1.8.10, 1.8.11, 1.8.12 |
 | Architectures | arm64, x86_64 |
@@ -39621,7 +39621,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5639a07e2d20 |
+| License | table: 0x55f0e8fd3f40 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -41577,7 +41577,7 @@ add_requires("zydis")
 
 | Description | *The zziplib library is intentionally lightweight, it offers the ability to easily extract data from files archived in a single zip file.* |
 | -- | -- |
-| Homepage | [http://zziplib.sourceforge.net/](http://zziplib.sourceforge.net/) |
+| Homepage | [https://zziplib.sourceforge.net/](https://zziplib.sourceforge.net/) |
 | License | GPL-2.0 |
 | Versions | v0.13.72, v0.13.73, v0.13.74, v0.13.76, v0.13.77, v0.13.78, v0.13.79, v0.13.80 |
 | Architectures | arm64, x86_64 |
