@@ -15890,7 +15890,7 @@ add_requires("matlab")
 
 | Description | *An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API* |
 | -- | -- |
-| Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
+| Homepage | [https://www.trustedfirmware.org/projects/mbed-tls/](https://www.trustedfirmware.org/projects/mbed-tls/) |
 | License | Apache-2.0 |
 | Versions | v2.7.6, v2.13.0, v2.25.0, v2.28.3, v3.4.0, v3.5.1, v3.6.0, v3.6.1, v3.6.7, v4.0.0, v4.1.1, v4.2.0 |
 | Architectures | i386, x86_64 |

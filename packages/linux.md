@@ -25473,7 +25473,7 @@ add_requires("matplotplusplus")
 
 | Description | *An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API* |
 | -- | -- |
-| Homepage | [https://tls.mbed.org](https://tls.mbed.org) |
+| Homepage | [https://www.trustedfirmware.org/projects/mbed-tls/](https://www.trustedfirmware.org/projects/mbed-tls/) |
 | License | Apache-2.0 |
 | Versions | v2.7.6, v2.13.0, v2.25.0, v2.28.3, v3.4.0, v3.5.1, v3.6.0, v3.6.1, v3.6.7, v4.0.0, v4.1.1, v4.2.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
@@ -42924,7 +42924,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55e45e4ea2f0 |
+| License | table: 0x5633e18178f0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
