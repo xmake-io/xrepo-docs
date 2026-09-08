@@ -3901,30 +3901,6 @@ add_requires("cppp-reiconv")
 ```
 
 
-### cppunit (wasm)
-
-
-| Description | *CppUnit is the C++ port of the famous JUnit framework for unit testing* |
-| -- | -- |
-| Homepage | [https://freedesktop.org/wiki/Software/cppunit](https://freedesktop.org/wiki/Software/cppunit) |
-| License | LGPL-2.1-or-later |
-| Versions | 1.15.1 |
-| Architectures | wasm32, wasm64 |
-| Definition | [cppunit/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppunit/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install -p wasm cppunit
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("cppunit")
-```
-
-
 ### cppzmq (wasm)
 
 

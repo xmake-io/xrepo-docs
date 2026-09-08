@@ -15407,7 +15407,7 @@ add_requires("irrxml")
 | -- | -- |
 | Homepage | [https://salsa.debian.org/iso-codes-team/iso-codes](https://salsa.debian.org/iso-codes-team/iso-codes) |
 | License | LGPL-2.1-or-later |
-| Versions | 4.8.0, 4.16.0 |
+| Versions | 4.8.0, 4.16.0, 4.18.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [iso-codes/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/iso-codes/xmake.lua) |
 
@@ -42924,7 +42924,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f0e8fd3f40 |
+| License | table: 0x564e9d3aac50 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
