@@ -41180,7 +41180,7 @@ add_requires("units")
 
 | Description | *Simple Unit Testing for C* |
 | -- | -- |
-| Homepage | [http://www.throwtheswitch.org/unity](http://www.throwtheswitch.org/unity) |
+| Homepage | [https://www.throwtheswitch.org/unity](https://www.throwtheswitch.org/unity) |
 | License | MIT |
 | Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.7.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
@@ -41275,7 +41275,7 @@ add_requires("unqlite")
 
 | Description | *UnZip is an extraction utility for archives compressed in .zip format.* |
 | -- | -- |
-| Homepage | [http://infozip.sourceforge.net/UnZip.html](http://infozip.sourceforge.net/UnZip.html) |
+| Homepage | [https://infozip.sourceforge.net/UnZip.html](https://infozip.sourceforge.net/UnZip.html) |
 | Versions | 6.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [unzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unzip/xmake.lua) |
@@ -42924,7 +42924,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5642ba19e440 |
+| License | table: 0x558001819f40 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

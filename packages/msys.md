@@ -26145,7 +26145,7 @@ add_requires("units")
 
 | Description | *Simple Unit Testing for C* |
 | -- | -- |
-| Homepage | [http://www.throwtheswitch.org/unity](http://www.throwtheswitch.org/unity) |
+| Homepage | [https://www.throwtheswitch.org/unity](https://www.throwtheswitch.org/unity) |
 | License | MIT |
 | Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.7.0 |
 | Architectures | i386, x86_64 |
@@ -26193,7 +26193,7 @@ add_requires("unordered_dense")
 
 | Description | *UnZip is an extraction utility for archives compressed in .zip format.* |
 | -- | -- |
-| Homepage | [http://infozip.sourceforge.net/UnZip.html](http://infozip.sourceforge.net/UnZip.html) |
+| Homepage | [https://infozip.sourceforge.net/UnZip.html](https://infozip.sourceforge.net/UnZip.html) |
 | Versions | 6.0 |
 | Architectures | i386, x86_64 |
 | Definition | [unzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unzip/xmake.lua) |
