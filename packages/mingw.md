@@ -390,7 +390,7 @@ add_requires("anari")
 
 | Description | *Extremely flexible cross-platform scripting library designed to allow applications to extend their functionality through external scripts* |
 | -- | -- |
-| Homepage | [http://angelcode.com/angelscript/](http://angelcode.com/angelscript/) |
+| Homepage | [https://angelcode.com/angelscript/](https://angelcode.com/angelscript/) |
 | License | zlib |
 | Versions | 2.34.0, 2.35.0, 2.35.1, 2.36.0, 2.37.0, 2.38.0 |
 | Architectures | arm, arm64, i386, x86_64 |
@@ -9179,7 +9179,7 @@ add_requires("glbinding")
 
 | Description | *A cross-platform open-source C/C++ extension loading library.* |
 | -- | -- |
-| Homepage | [http://glew.sourceforge.net/](http://glew.sourceforge.net/) |
+| Homepage | [https://glew.sourceforge.net/](https://glew.sourceforge.net/) |
 | Versions | 2.1.0, 2.2.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [glew/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/glew/xmake.lua) |
@@ -18117,7 +18117,7 @@ add_requires("minhook")
 | -- | -- |
 | Homepage | [https://github.com/metayeti/mINI](https://github.com/metayeti/mINI) |
 | License | MIT |
-| Versions | 0.9.15, 0.9.16, 0.9.17, 0.9.18 |
+| Versions | 0.9.15, 0.9.16, 0.9.17, 0.9.18, 0.9.20 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [mini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mini/xmake.lua) |
 
@@ -20410,7 +20410,7 @@ add_requires("olive.c")
 
 | Description | *Cross-platform modern general purpose math library written in C++23* |
 | -- | -- |
-| Homepage | [http://libomath.org](http://libomath.org) |
+| Homepage | [https://libomath.org/](https://libomath.org/) |
 | License | zlib |
 | Versions | v3.8.1, v3.8.2, v3.9.0, v3.9.3, v3.9.4, v3.10.1, v4.0.1, v4.1.0, v4.2.0, v4.3.0, v4.4.0, v4.5.0, v4.6.1, v4.7.0, v5.0.0, v5.2.0, v5.2.1, v5.3.0, v5.6.0 |
 | Architectures | arm, arm64, i386, x86_64 |
@@ -29278,7 +29278,7 @@ add_requires("units")
 | -- | -- |
 | Homepage | [http://www.throwtheswitch.org/unity](http://www.throwtheswitch.org/unity) |
 | License | MIT |
-| Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2, v2.6.0, v2.6.1 |
+| Versions | v2.4.3, v2.5.0, v2.5.1, v2.5.2, v2.6.0, v2.6.1, v2.7.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [unity_test/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unity_test/xmake.lua) |
 
@@ -30568,7 +30568,7 @@ add_requires("wyhash")
 
 | Description | *A free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format.* |
 | -- | -- |
-| Homepage | [https://www.videolan.org/developers/x264.html](https://www.videolan.org/developers/x264.html) |
+| Homepage | [https://x264.org/](https://x264.org/) |
 | License | GPL-2.0 |
 | Versions | v2018.09.25, v2021.09.29, v2023.04.04, v2024.02.27 |
 | Architectures | arm, arm64, i386, x86_64 |
@@ -30592,7 +30592,7 @@ add_requires("x264")
 
 | Description | *A free software library and application for encoding video streams into the H.265/MPEG-H HEVC compression format.* |
 | -- | -- |
-| Homepage | [http://x265.org](http://x265.org) |
+| Homepage | [https://www.x265.org/](https://www.x265.org/) |
 | License | GPL-2.0 |
 | Versions | 3.2, 3.2.1, 3.3, 3.4, 4.0, 4.1 |
 | Architectures | arm, arm64, i386, x86_64 |
