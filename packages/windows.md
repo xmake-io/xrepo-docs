@@ -26675,7 +26675,7 @@ add_requires("openjdk")
 
 | Description | *OpenJPEG is an open-source JPEG 2000 codec written in C language.* |
 | -- | -- |
-| Homepage | [http://www.openjpeg.org/](http://www.openjpeg.org/) |
+| Homepage | [https://www.openjpeg.org/](https://www.openjpeg.org/) |
 | License | BSD-2-Clause |
 | Versions | v2.3.1, v2.4.0, v2.5.0, v2.5.3, v2.5.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |

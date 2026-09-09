@@ -27680,7 +27680,7 @@ add_requires("openjdk")
 
 | Description | *OpenJPEG is an open-source JPEG 2000 codec written in C language.* |
 | -- | -- |
-| Homepage | [http://www.openjpeg.org/](http://www.openjpeg.org/) |
+| Homepage | [https://www.openjpeg.org/](https://www.openjpeg.org/) |
 | License | BSD-2-Clause |
 | Versions | v2.3.1, v2.4.0, v2.5.0, v2.5.3, v2.5.4 |
 | Architectures | arm64, x86_64 |
@@ -39621,7 +39621,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5588ed946b90 |
+| License | table: 0x55f9a4e04400 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
