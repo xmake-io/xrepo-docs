@@ -29085,7 +29085,7 @@ add_requires("type_safe")
 
 | Description | *UASM - Macro Assembler* |
 | -- | -- |
-| Homepage | [http://www.terraspace.co.uk/uasm.html](http://www.terraspace.co.uk/uasm.html) |
+| Homepage | [https://www.terraspace.co.uk/uasm.html](https://www.terraspace.co.uk/uasm.html) |
 | Versions | v2.57r |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [uasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uasm/xmake.lua) |

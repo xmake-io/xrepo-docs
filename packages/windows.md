@@ -25886,9 +25886,9 @@ add_requires("octree")
 
 | Description | *ODE is an open source, high performance library for simulating rigid body dynamics.* |
 | -- | -- |
-| Homepage | [http://ode.org/](http://ode.org/) |
+| Homepage | [https://ode.org/](https://ode.org/) |
 | License | BSD-3-Clause |
-| Versions | 0.16.2, 0.16.6 |
+| Versions | 0.16.6 |
 | Architectures | x64, x86 |
 | Definition | [ode/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ode/xmake.lua) |
 
@@ -37062,7 +37062,7 @@ add_requires("type_safe")
 
 | Description | *UASM - Macro Assembler* |
 | -- | -- |
-| Homepage | [http://www.terraspace.co.uk/uasm.html](http://www.terraspace.co.uk/uasm.html) |
+| Homepage | [https://www.terraspace.co.uk/uasm.html](https://www.terraspace.co.uk/uasm.html) |
 | Versions | v2.57r |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [uasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uasm/xmake.lua) |
