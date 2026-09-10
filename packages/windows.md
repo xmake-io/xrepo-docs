@@ -12656,7 +12656,7 @@ add_requires("grpc")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2 |
+| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v5.0.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -19680,30 +19680,6 @@ add_requires("libtorch")
 ```
 
 
-### libudis86 (windows)
-
-
-| Description | *Disassembler Library for x86 and x86-64* |
-| -- | -- |
-| Homepage | [http://udis86.sourceforge.net](http://udis86.sourceforge.net) |
-| License | BSD-2-Clause |
-| Versions | 2014.12.25 |
-| Architectures | arm, arm64, arm64ec, x64, x86 |
-| Definition | [libudis86/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libudis86/xmake.lua) |
-
-##### Install command
-
-```console
-xrepo install libudis86
-```
-
-##### Integration in the project (xmake.lua)
-
-```lua
-add_requires("libudis86")
-```
-
-
 ### libui (windows)
 
 
@@ -22598,7 +22574,7 @@ add_requires("microsoft-detours")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2 |
+| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v5.0.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
@@ -32834,7 +32810,7 @@ add_requires("sigslot")
 | -- | -- |
 | Homepage | [https://coin3d.github.io/simage/html/](https://coin3d.github.io/simage/html/) |
 | License | MIT |
-| Versions | 1.8.1, 1.8.3, 1.8.4 |
+| Versions | 1.8.1, 1.8.3, 1.8.4, 1.8.5 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [simage/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simage/xmake.lua) |
 
@@ -32930,7 +32906,7 @@ add_requires("simde")
 | -- | -- |
 | Homepage | [https://simdjson.org](https://simdjson.org) |
 | License | Apache-2.0 |
-| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2, v3.12.3, v4.0.6, v4.0.7, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.2.4, v4.6.6, v4.6.8 |
+| Versions | v0.9.5, v0.9.7, v1.0.0, v1.1.0, v3.0.0, v3.1.1, v3.6.0, v3.7.0, v3.8.0, v3.9.1, v3.9.2, v3.9.3, v3.9.4, v3.9.5, v3.10.0, v3.10.1, v3.11.2, v3.11.3, v3.12.2, v3.12.3, v4.0.6, v4.0.7, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.2.4, v4.6.6, v4.6.8, v4.6.11 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [simdjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdjson/xmake.lua) |
 
@@ -37109,7 +37085,7 @@ add_requires("uchardet")
 
 | Description | *Disassembler Library for x86 and x86-64* |
 | -- | -- |
-| Homepage | [http://udis86.sourceforge.net](http://udis86.sourceforge.net) |
+| Homepage | [https://udis86.sourceforge.net/](https://udis86.sourceforge.net/) |
 | License | BSD-2-Clause |
 | Versions | 2014.12.25 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
