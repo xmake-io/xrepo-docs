@@ -40122,7 +40122,7 @@ add_requires("yas")
 
 | Description | *Modular BSD reimplementation of NASM.* |
 | -- | -- |
-| Homepage | [https://yasm.tortall.net/](https://yasm.tortall.net/) |
+| Homepage | [https://github.com/yasm/yasm](https://github.com/yasm/yasm) |
 | Versions | 1.3.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [yasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yasm/xmake.lua) |
