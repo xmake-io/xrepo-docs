@@ -11173,7 +11173,7 @@ add_requires("fpng")
 
 | Description | *Free implementation of the OpenGL Utility Toolkit (GLUT)* |
 | -- | -- |
-| Homepage | [http://freeglut.sourceforge.net](http://freeglut.sourceforge.net) |
+| Homepage | [https://freeglut.sourceforge.net/](https://freeglut.sourceforge.net/) |
 | License | MIT |
 | Versions | 3.4.0, 3.6.0, 3.8.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
@@ -18609,7 +18609,7 @@ add_requires("libgcrypt")
 
 | Description | *GD is an open source code library for the dynamic creation of images by programmers.* |
 | -- | -- |
-| Homepage | [http://libgd.org/](http://libgd.org/) |
+| Homepage | [https://libgd.github.io/](https://libgd.github.io/) |
 | Versions | 2.3.2, 2023.12.04 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [libgd/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libgd/xmake.lua) |
@@ -37426,7 +37426,7 @@ add_requires("soundtouch")
 
 | Description | *The SoX Resampler library libsoxr performs fast, high-quality one-dimensional sample rate conversion.* |
 | -- | -- |
-| Homepage | [https://sourceforge.net/projects/soxr](https://sourceforge.net/projects/soxr) |
+| Homepage | [https://sourceforge.net/projects/soxr/](https://sourceforge.net/projects/soxr/) |
 | License | LGPL-2.1 |
 | Versions | 0.1.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
@@ -42924,7 +42924,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x555a76593430 |
+| License | table: 0x55fc58382dd0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

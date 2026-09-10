@@ -23036,7 +23036,7 @@ add_requires("soundtouch")
 
 | Description | *The SoX Resampler library libsoxr performs fast, high-quality one-dimensional sample rate conversion.* |
 | -- | -- |
-| Homepage | [https://sourceforge.net/projects/soxr](https://sourceforge.net/projects/soxr) |
+| Homepage | [https://sourceforge.net/projects/soxr/](https://sourceforge.net/projects/soxr/) |
 | License | LGPL-2.1 |
 | Versions | 0.1.3 |
 | Architectures | arm64, x86_64 |
