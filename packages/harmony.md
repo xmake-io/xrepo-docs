@@ -10949,9 +10949,9 @@ add_requires("libevent")
 
 | Description | *Cross Platform Fixed Point Maths Library* |
 | -- | -- |
-| Homepage | [https://code.google.com/p/libfixmath/](https://code.google.com/p/libfixmath/) |
+| Homepage | [https://github.com/PetteriAimonen/libfixmath](https://github.com/PetteriAimonen/libfixmath) |
 | License | MIT |
-| Versions | 2023.08.06 |
+| Versions | 2023.08.06, 2026.07.14 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [libfixmath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfixmath/xmake.lua) |
 

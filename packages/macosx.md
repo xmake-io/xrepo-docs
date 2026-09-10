@@ -16940,9 +16940,9 @@ add_requires("libfive")
 
 | Description | *Cross Platform Fixed Point Maths Library* |
 | -- | -- |
-| Homepage | [https://code.google.com/p/libfixmath/](https://code.google.com/p/libfixmath/) |
+| Homepage | [https://github.com/PetteriAimonen/libfixmath](https://github.com/PetteriAimonen/libfixmath) |
 | License | MIT |
-| Versions | 2023.08.06 |
+| Versions | 2023.08.06, 2026.07.14 |
 | Architectures | arm64, x86_64 |
 | Definition | [libfixmath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfixmath/xmake.lua) |
 
@@ -39597,7 +39597,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f9c6d37a90 |
+| License | table: 0x559dc6debd20 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
