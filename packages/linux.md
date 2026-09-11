@@ -19581,7 +19581,7 @@ add_requires("libmetalink")
 
 | Description | *Go-style concurrency in C* |
 | -- | -- |
-| Homepage | [http://libmill.org](http://libmill.org) |
+| Homepage | [https://libmill.org/](https://libmill.org/) |
 | Versions | 2021.9.9 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [libmill/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmill/xmake.lua) |
@@ -42900,7 +42900,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559dc6debd20 |
+| License | table: 0x564e39b725d0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
