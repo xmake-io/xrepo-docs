@@ -23298,7 +23298,7 @@ add_requires("rpclib")
 
 | Description | *RPly is a library that lets applications read and write PLY files.* |
 | -- | -- |
-| Homepage | [http://w3.impa.br/~diego/software/rply/](http://w3.impa.br/~diego/software/rply/) |
+| Homepage | [https://w3.impa.br/~diego/software/rply/](https://w3.impa.br/~diego/software/rply/) |
 | License | MIT |
 | Versions | 1.1.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
@@ -24277,7 +24277,7 @@ add_requires("sobjectizer")
 
 | Description | *Official repository of the SOCI - The C++ Database Access Library* |
 | -- | -- |
-| Homepage | [http://soci.sourceforge.net/](http://soci.sourceforge.net/) |
+| Homepage | [https://soci.sourceforge.net/](https://soci.sourceforge.net/) |
 | License | BSL-1.0 |
 | Versions | v4.0.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
@@ -28324,7 +28324,7 @@ add_requires("webdriverxx")
 
 | Description | *C++ websocket client/server library* |
 | -- | -- |
-| Homepage | [http://www.zaphoyd.com/websocketpp](http://www.zaphoyd.com/websocketpp) |
+| Homepage | [https://www.zaphoyd.com/projects/websocketpp/](https://www.zaphoyd.com/projects/websocketpp/) |
 | Versions | 0.8.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [websocketpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/websocketpp/xmake.lua) |
@@ -28609,7 +28609,7 @@ add_requires("workflow")
 
 | Description | *Wren is a small, fast, class-based concurrent scripting language.* |
 | -- | -- |
-| Homepage | [http://wren.io](http://wren.io) |
+| Homepage | [https://wren.io/](https://wren.io/) |
 | License | MIT |
 | Versions | 0.4.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |

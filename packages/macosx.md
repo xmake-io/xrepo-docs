@@ -14452,7 +14452,7 @@ add_requires("itlib")
 
 | Description | *ITS Tool allows you to translate your XML documents with PO files* |
 | -- | -- |
-| Homepage | [http://itstool.org/](http://itstool.org/) |
+| Homepage | [https://itstool.org/](https://itstool.org/) |
 | License | GPL-3.0 |
 | Versions | 2.0.7 |
 | Architectures | arm64, x86_64 |
@@ -15435,7 +15435,7 @@ add_requires("kotlin-native")
 
 | Description | *Kerberos: The Network Authentication Protocol* |
 | -- | -- |
-| Homepage | [http://web.mit.edu/kerberos/](http://web.mit.edu/kerberos/) |
+| Homepage | [https://web.mit.edu/kerberos/](https://web.mit.edu/kerberos/) |
 | License | MIT |
 | Versions | 1.22.1, 1.22.2 |
 | Architectures | arm64, x86_64 |
@@ -21332,7 +21332,7 @@ add_requires("libxxf86vm")
 
 | Description | *Canonical source repository for LibYAML.* |
 | -- | -- |
-| Homepage | [http://pyyaml.org/wiki/LibYAML](http://pyyaml.org/wiki/LibYAML) |
+| Homepage | [https://pyyaml.org/wiki/LibYAML](https://pyyaml.org/wiki/LibYAML) |
 | License | MIT |
 | Versions | 0.2.2, 0.2.5 |
 | Architectures | arm64, x86_64 |
@@ -24597,7 +24597,7 @@ add_requires("mosquitto")
 
 | Description | *GNU MPC is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result.* |
 | -- | -- |
-| Homepage | [http://www.multiprecision.org/mpc/](http://www.multiprecision.org/mpc/) |
+| Homepage | [https://www.multiprecision.org/mpc/](https://www.multiprecision.org/mpc/) |
 | License | LGPL-3.0 |
 | Versions | 1.2.1, 1.3.1 |
 | Architectures | arm64, x86_64 |
@@ -25216,7 +25216,7 @@ add_requires("mysql")
 
 | Description | *This package help for mysql corss compilation* |
 | -- | -- |
-| Homepage | [http://www.mysql.com](http://www.mysql.com) |
+| Homepage | [https://www.mysql.com/](https://www.mysql.com/) |
 | License | GPL-2.0 |
 | Versions | 8.0.39 |
 | Architectures | arm64, x86_64 |
@@ -32598,7 +32598,7 @@ add_requires("rpclib")
 
 | Description | *RPly is a library that lets applications read and write PLY files.* |
 | -- | -- |
-| Homepage | [http://w3.impa.br/~diego/software/rply/](http://w3.impa.br/~diego/software/rply/) |
+| Homepage | [https://w3.impa.br/~diego/software/rply/](https://w3.impa.br/~diego/software/rply/) |
 | License | MIT |
 | Versions | 1.1.4 |
 | Architectures | arm64, x86_64 |
@@ -34171,7 +34171,7 @@ add_requires("sobjectizer")
 
 | Description | *Official repository of the SOCI - The C++ Database Access Library* |
 | -- | -- |
-| Homepage | [http://soci.sourceforge.net/](http://soci.sourceforge.net/) |
+| Homepage | [https://soci.sourceforge.net/](https://soci.sourceforge.net/) |
 | License | BSL-1.0 |
 | Versions | v4.0.3 |
 | Architectures | arm64, x86_64 |
@@ -39406,7 +39406,7 @@ add_requires("webdriverxx")
 
 | Description | *C++ websocket client/server library* |
 | -- | -- |
-| Homepage | [http://www.zaphoyd.com/websocketpp](http://www.zaphoyd.com/websocketpp) |
+| Homepage | [https://www.zaphoyd.com/projects/websocketpp/](https://www.zaphoyd.com/projects/websocketpp/) |
 | Versions | 0.8.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [websocketpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/websocketpp/xmake.lua) |
@@ -39597,7 +39597,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x564e39b725d0 |
+| License | table: 0x55cd6ae3ae50 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -39740,7 +39740,7 @@ add_requires("workspace_hanya")
 
 | Description | *Wren is a small, fast, class-based concurrent scripting language.* |
 | -- | -- |
-| Homepage | [http://wren.io](http://wren.io) |
+| Homepage | [https://wren.io/](https://wren.io/) |
 | License | MIT |
 | Versions | 0.4.0 |
 | Architectures | arm64, x86_64 |
