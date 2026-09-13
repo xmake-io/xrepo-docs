@@ -24180,6 +24180,30 @@ add_requires("lolly")
 ```
 
 
+### lrdf (linux)
+
+
+| Description | *A lightweight RDF library with extensions for LADSPA* |
+| -- | -- |
+| Homepage | [https://github.com/swh/LRDF](https://github.com/swh/LRDF) |
+| License | GPL-2.0 |
+| Versions | 0.6.1 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
+| Definition | [lrdf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lrdf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lrdf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lrdf")
+```
+
+
 ### ls-hpack (linux)
 
 
@@ -34417,6 +34441,30 @@ add_requires("rapidxml")
 ```
 
 
+### raptor2 (linux)
+
+
+| Description | *A library that provides a set of parsers and serializers that generate Resource Description Framework (RDF) triples by parsing syntaxes or serialize the triples into a syntax.* |
+| -- | -- |
+| Homepage | [https://librdf.org/raptor/](https://librdf.org/raptor/) |
+| License | LGPL-2.1-or-later |
+| Versions | 2.0.16 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
+| Definition | [raptor2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raptor2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install raptor2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("raptor2")
+```
+
+
 ### raw_pdb (linux)
 
 
@@ -42900,7 +42948,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x559e93434970 |
+| License | table: 0x55ddd9c40800 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

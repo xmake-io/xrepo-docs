@@ -13787,6 +13787,30 @@ add_requires("loguru")
 ```
 
 
+### lrdf (harmony)
+
+
+| Description | *A lightweight RDF library with extensions for LADSPA* |
+| -- | -- |
+| Homepage | [https://github.com/swh/LRDF](https://github.com/swh/LRDF) |
+| License | GPL-2.0 |
+| Versions | 0.6.1 |
+| Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
+| Definition | [lrdf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lrdf/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lrdf
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lrdf")
+```
+
+
 ### ls-hpack (harmony)
 
 
@@ -20141,6 +20165,30 @@ xrepo install rapidxml
 
 ```lua
 add_requires("rapidxml")
+```
+
+
+### raptor2 (harmony)
+
+
+| Description | *A library that provides a set of parsers and serializers that generate Resource Description Framework (RDF) triples by parsing syntaxes or serialize the triples into a syntax.* |
+| -- | -- |
+| Homepage | [https://librdf.org/raptor/](https://librdf.org/raptor/) |
+| License | LGPL-2.1-or-later |
+| Versions | 2.0.16 |
+| Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
+| Definition | [raptor2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raptor2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install raptor2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("raptor2")
 ```
 
 
