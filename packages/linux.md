@@ -12796,7 +12796,7 @@ add_requires("gmp")
 
 | Description | *Gmsh is an open source 3D finite element mesh generator with a built-in CAD engine and post-processor.* |
 | -- | -- |
-| Homepage | [http://gmsh.info/](http://gmsh.info/) |
+| Homepage | [https://gmsh.info/](https://gmsh.info/) |
 | License | GPL-2.0 |
 | Versions | 4.8.4, 4.11.1, 4.13.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
@@ -42972,7 +42972,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5579329cf9e0 |
+| License | table: 0x56126f7190c0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -12297,7 +12297,7 @@ add_requires("gmp")
 
 | Description | *Gmsh is an open source 3D finite element mesh generator with a built-in CAD engine and post-processor.* |
 | -- | -- |
-| Homepage | [http://gmsh.info/](http://gmsh.info/) |
+| Homepage | [https://gmsh.info/](https://gmsh.info/) |
 | License | GPL-2.0 |
 | Versions | 4.8.4, 4.11.1, 4.13.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
