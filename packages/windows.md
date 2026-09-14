@@ -2643,7 +2643,7 @@ add_requires("blake2")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6 |
+| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
@@ -3525,7 +3525,7 @@ add_requires("bzip2")
 | -- | -- |
 | Homepage | [https://github.com/kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3) |
 | License | LGPL-3.0 |
-| Versions | 1.4.0, 1.5.1, 1.5.2, 1.5.3 |
+| Versions | 1.4.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [bzip3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip3/xmake.lua) |
 
@@ -15456,6 +15456,30 @@ add_requires("kenlm")
 ```
 
 
+### keynub_licdongle (windows)
+
+
+| Description | *KeyNub USB-C license dongle SDK: the C API, the header-only C++11 wrapper and the flat companion API over the prebuilt keynub_licdongle library.* |
+| -- | -- |
+| Homepage | [https://www.keynub.com/developers/c-cpp/](https://www.keynub.com/developers/c-cpp/) |
+| License | Apache-2.0 |
+| Versions | 1.1.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [keynub_licdongle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/keynub_licdongle/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install keynub_licdongle
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("keynub_licdongle")
+```
+
+
 ### keystone (windows)
 
 
@@ -16132,7 +16156,7 @@ add_requires("libaesgm")
 | -- | -- |
 | Homepage | [https://libarchive.org/](https://libarchive.org/) |
 | License | BSD-2-Clause |
-| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2, 3.7.7, 3.8.4, 3.8.5, 3.8.6, 3.8.7, 3.8.8 |
+| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2, 3.7.7, 3.8.4, 3.8.5, 3.8.6, 3.8.7, 3.8.8, 3.8.9 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
 
@@ -30734,7 +30758,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://rapidfuzz.github.io/rapidfuzz-cpp](https://rapidfuzz.github.io/rapidfuzz-cpp) |
 | License | MIT |
-| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2, v3.3.3 |
+| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2, v3.3.3, v3.3.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [rapidfuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidfuzz/xmake.lua) |
 
@@ -35177,7 +35201,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [https://taglib.org/](https://taglib.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1 |
+| Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1, v2.3.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
 

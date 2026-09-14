@@ -1826,7 +1826,7 @@ add_requires("blake2")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6 |
+| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
@@ -2471,7 +2471,7 @@ add_requires("bzip2")
 | -- | -- |
 | Homepage | [https://github.com/kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3) |
 | License | LGPL-3.0 |
-| Versions | 1.4.0, 1.5.1, 1.5.2, 1.5.3 |
+| Versions | 1.4.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [bzip3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip3/xmake.lua) |
 
@@ -20055,7 +20055,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://rapidfuzz.github.io/rapidfuzz-cpp](https://rapidfuzz.github.io/rapidfuzz-cpp) |
 | License | MIT |
-| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2, v3.3.3 |
+| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2, v3.3.3, v3.3.4 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [rapidfuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidfuzz/xmake.lua) |
 
@@ -22833,7 +22833,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [https://taglib.org/](https://taglib.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1 |
+| Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1, v2.3.2 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
 

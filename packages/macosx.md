@@ -2643,7 +2643,7 @@ add_requires("blake2")
 | -- | -- |
 | Homepage | [https://blake3.io/](https://blake3.io/) |
 | License | CC0-1.0 |
-| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6 |
+| Versions | 1.3.1, 1.3.3, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.6.1, 1.8.1, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [blake3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/blake3/xmake.lua) |
 
@@ -3549,7 +3549,7 @@ add_requires("bzip2")
 | -- | -- |
 | Homepage | [https://github.com/kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3) |
 | License | LGPL-3.0 |
-| Versions | 1.4.0, 1.5.1, 1.5.2, 1.5.3 |
+| Versions | 1.4.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [bzip3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bzip3/xmake.lua) |
 
@@ -15193,6 +15193,30 @@ add_requires("kenlm")
 ```
 
 
+### keynub_licdongle (macosx)
+
+
+| Description | *KeyNub USB-C license dongle SDK: the C API, the header-only C++11 wrapper and the flat companion API over the prebuilt keynub_licdongle library.* |
+| -- | -- |
+| Homepage | [https://www.keynub.com/developers/c-cpp/](https://www.keynub.com/developers/c-cpp/) |
+| License | Apache-2.0 |
+| Versions | 1.1.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [keynub_licdongle/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/keynub_licdongle/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install keynub_licdongle
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("keynub_licdongle")
+```
+
+
 ### keystone (macosx)
 
 
@@ -15892,7 +15916,7 @@ add_requires("libaesgm")
 | -- | -- |
 | Homepage | [https://libarchive.org/](https://libarchive.org/) |
 | License | BSD-2-Clause |
-| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2, 3.7.7, 3.8.4, 3.8.5, 3.8.6, 3.8.7, 3.8.8 |
+| Versions | 3.5.1, 3.5.2, 3.6.2, 3.7.2, 3.7.7, 3.8.4, 3.8.5, 3.8.6, 3.8.7, 3.8.8, 3.8.9 |
 | Architectures | arm64, x86_64 |
 | Definition | [libarchive/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libarchive/xmake.lua) |
 
@@ -31667,7 +31691,7 @@ add_requires("rapidcsv")
 | -- | -- |
 | Homepage | [https://rapidfuzz.github.io/rapidfuzz-cpp](https://rapidfuzz.github.io/rapidfuzz-cpp) |
 | License | MIT |
-| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2, v3.3.3 |
+| Versions | v3.0.2, v3.0.4, v3.0.5, v3.1.1, v3.3.2, v3.3.3, v3.3.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [rapidfuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidfuzz/xmake.lua) |
 
@@ -36015,7 +36039,7 @@ add_requires("tabulate")
 | -- | -- |
 | Homepage | [https://taglib.org/](https://taglib.org/) |
 | License | LGPL-2.1 |
-| Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1 |
+| Versions | v2.1, v2.1.1, v2.2.1, v2.3, v2.3.1, v2.3.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [taglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/taglib/xmake.lua) |
 
@@ -39645,7 +39669,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ddd9c40800 |
+| License | table: 0x5579329cf9e0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
