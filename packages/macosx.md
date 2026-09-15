@@ -10815,6 +10815,30 @@ add_requires("g3log")
 ```
 
 
+### gamenetworkingsockets (macosx)
+
+
+| Description | *Reliable & unreliable messages over UDP. Robust message fragmentation & reassembly. P2P networking / NAT traversal. Encryption. * |
+| -- | -- |
+| Homepage | [https://github.com/ValveSoftware/GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) |
+| License | BSD-3-Clause |
+| Versions | v1.2.0, v1.3.0, v1.4.0, v1.4.1, v1.6.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [gamenetworkingsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gamenetworkingsockets/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install gamenetworkingsockets
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("gamenetworkingsockets")
+```
+
+
 ### gaussianlib (macosx)
 
 
@@ -39669,7 +39693,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x56126f7190c0 |
+| License | table: 0x55e4b831d9f0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
