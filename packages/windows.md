@@ -3575,7 +3575,7 @@ add_requires("c-ares")
 | -- | -- |
 | Homepage | [https://www.blosc.org](https://www.blosc.org) |
 | License | BSD-3-Clause |
-| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0, v2.21.1, v2.21.3, v2.22.0, v2.23.1, v3.0.3, v3.2.1, v3.2.3 |
+| Versions | v2.10.2, v2.13.2, v2.14.3, v2.14.4, v2.15.0, v2.15.1, v2.15.2, v2.16.0, v2.17.0, v2.17.1, v2.18.0, v2.19.1, v2.21.0, v2.21.1, v2.21.3, v2.22.0, v2.23.1, v3.0.3, v3.2.1, v3.2.3, v3.3.3, v3.3.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [c-blosc2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-blosc2/xmake.lua) |
 
