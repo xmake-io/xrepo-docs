@@ -1352,7 +1352,7 @@ add_requires("aui-toolbox")
 | -- | -- |
 | Homepage | [https://aurora-opensource.github.io/au](https://aurora-opensource.github.io/au) |
 | License | Apache-2.0 |
-| Versions | 0.4.1, 0.5.0, 0.5.1 |
+| Versions | 0.4.1, 0.5.0, 0.5.1, 0.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [aurora-au/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aurora-au/xmake.lua) |
 
@@ -5581,7 +5581,7 @@ add_requires("cpp-mcp")
 | -- | -- |
 | Homepage | [https://yhirose.github.io/cpp-peglib](https://yhirose.github.io/cpp-peglib) |
 | License | MIT |
-| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3 |
+| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3, 1.17.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-peglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua) |
 
@@ -10894,7 +10894,7 @@ add_requires("gcem")
 | -- | -- |
 | Homepage | [https://gdal.org/](https://gdal.org/) |
 | License | MIT |
-| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1, 3.12.2, 3.12.3, 3.13.1, 3.13.2 |
+| Versions | 3.5.1, 3.8.5, 3.9.0, 3.9.1, 3.9.2, 3.9.3, 3.10.0, 3.10.2, 3.11.1, 3.11.3, 3.12.1, 3.12.2, 3.12.3, 3.13.1, 3.13.2, 3.13.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [gdal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gdal/xmake.lua) |
 
@@ -24243,7 +24243,7 @@ add_requires("minizip")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
 | License | zlib |
-| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0, 4.1.2, 4.2.1 |
+| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0, 4.1.2, 4.2.1, 4.2.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 
@@ -33410,7 +33410,7 @@ add_requires("sentencepiece")
 | -- | -- |
 | Homepage | [https://docs.sentry.io/](https://docs.sentry.io/) |
 | License | MIT |
-| Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7, 0.14.0, 0.14.2, 0.15.0, 0.15.1, 0.15.2, 0.15.3, 0.16.1, 0.16.5 |
+| Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7, 0.14.0, 0.14.2, 0.15.0, 0.15.1, 0.15.2, 0.15.3, 0.16.1, 0.16.5, 0.16.6 |
 | Architectures | x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
@@ -39693,7 +39693,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d9f87af7b0 |
+| License | table: 0x56143c61f480 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

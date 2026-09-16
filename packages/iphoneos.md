@@ -918,7 +918,7 @@ add_requires("aui-toolbox")
 | -- | -- |
 | Homepage | [https://aurora-opensource.github.io/au](https://aurora-opensource.github.io/au) |
 | License | Apache-2.0 |
-| Versions | 0.4.1, 0.5.0, 0.5.1 |
+| Versions | 0.4.1, 0.5.0, 0.5.1, 0.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [aurora-au/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aurora-au/xmake.lua) |
 
@@ -4049,7 +4049,7 @@ add_requires("cpp-mcp")
 | -- | -- |
 | Homepage | [https://yhirose.github.io/cpp-peglib](https://yhirose.github.io/cpp-peglib) |
 | License | MIT |
-| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3 |
+| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3, 1.17.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-peglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua) |
 
@@ -15987,7 +15987,7 @@ add_requires("minizip")
 | -- | -- |
 | Homepage | [https://github.com/zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) |
 | License | zlib |
-| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0, 4.1.2, 4.2.1 |
+| Versions | 3.0.3, 3.0.5, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.10, 4.1.0, 4.1.2, 4.2.1, 4.2.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [minizip-ng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip-ng/xmake.lua) |
 
