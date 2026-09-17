@@ -9716,7 +9716,7 @@ add_requires("exosip")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1 |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1, 2.8.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -14449,7 +14449,7 @@ add_requires("hyperscan")
 | -- | -- |
 | Homepage | [https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods) |
 | License | Apache-2.0 |
-| Versions | v2.20.0, v2.23.0, v2.30.0, v2.31.0, v2.32.0, v2.33.0, v3.1.0 |
+| Versions | v2.20.0, v2.23.0, v2.30.0, v2.31.0, v2.32.0, v2.33.0, v3.1.0, v3.2.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [hypre/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hypre/xmake.lua) |
 
@@ -15551,7 +15551,7 @@ add_requires("itstool")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3, v3.26.4, v3.28.0 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3, v3.26.4, v3.28.0, v3.28.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -20680,7 +20680,7 @@ add_requires("libraw")
 | -- | -- |
 | Homepage | [https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html](https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html) |
 | License | BSD-2-Clause |
-| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0, v2.14.2 |
+| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0, v2.14.2, v2.15.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
@@ -27740,7 +27740,7 @@ add_requires("nanomsg")
 | -- | -- |
 | Homepage | [https://jpa.kapsi.fi/nanopb/](https://jpa.kapsi.fi/nanopb/) |
 | License | zlib |
-| Versions | 0.4.9 |
+| Versions | 0.4.9, 0.4.92 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [nanopb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanopb/xmake.lua) |
 
@@ -42972,7 +42972,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d3d9c43a80 |
+| License | table: 0x5637ef623ef0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

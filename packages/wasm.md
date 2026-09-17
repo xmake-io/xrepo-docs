@@ -5850,7 +5850,7 @@ add_requires("exosip")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1 |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1, 2.8.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -8866,7 +8866,7 @@ add_requires("itlib")
 | -- | -- |
 | Homepage | [https://github.com/intel/ittapi](https://github.com/intel/ittapi) |
 | License | BSD-3-Clause |
-| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3, v3.26.4, v3.28.0 |
+| Versions | v3.24.4, v3.24.6, v3.24.7, v3.24.8, v3.25.1, v3.25.2, v3.25.3, v3.25.4, v3.25.5, v3.26.1, v3.26.2, v3.26.3, v3.26.4, v3.28.0, v3.28.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ittapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ittapi/xmake.lua) |
 
@@ -15273,7 +15273,7 @@ add_requires("nanomsg")
 | -- | -- |
 | Homepage | [https://jpa.kapsi.fi/nanopb/](https://jpa.kapsi.fi/nanopb/) |
 | License | zlib |
-| Versions | 0.4.9 |
+| Versions | 0.4.9, 0.4.92 |
 | Architectures | wasm32, wasm64 |
 | Definition | [nanopb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanopb/xmake.lua) |
 
