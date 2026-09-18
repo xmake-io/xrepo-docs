@@ -12956,7 +12956,7 @@ add_requires("log4cplus")
 | Description | *A lightweight C++ logging library* |
 | -- | -- |
 | Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
-| Versions | v2.1.0 |
+| Versions | v2.1.0, v2.2.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
 
@@ -16159,7 +16159,7 @@ add_requires("omath")
 | -- | -- |
 | Homepage | [https://ompl.kavrakilab.org/](https://ompl.kavrakilab.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.7.0, 2.0.0, 2.0.1 |
+| Versions | 1.7.0, 2.0.0, 2.0.1, 2.0.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ompl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ompl/xmake.lua) |
 

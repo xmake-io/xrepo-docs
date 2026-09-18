@@ -4361,7 +4361,7 @@ add_requires("cfitsio")
 | -- | -- |
 | Homepage | [https://www.cgal.org/](https://www.cgal.org/) |
 | License | LGPL-3.0 |
-| Versions | 5.1.1, 5.2.1, 5.3, 5.4, 5.5.2, 5.6.1, 6.0, 6.0.2, 6.1, 6.1.1 |
+| Versions | 5.1.1, 5.2.1, 5.3, 5.4, 5.5.2, 5.6.1, 6.0, 6.0.2, 6.1, 6.1.1, 6.1.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [cgal/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cgal/xmake.lua) |
 
@@ -24164,7 +24164,7 @@ add_requires("log4cplus")
 | Description | *A lightweight C++ logging library* |
 | -- | -- |
 | Homepage | [https://github.com/emilk/loguru](https://github.com/emilk/loguru) |
-| Versions | v2.1.0 |
+| Versions | v2.1.0, v2.2.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [loguru/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/loguru/xmake.lua) |
 
@@ -29390,7 +29390,7 @@ add_requires("omath")
 | -- | -- |
 | Homepage | [https://ompl.kavrakilab.org/](https://ompl.kavrakilab.org/) |
 | License | BSD-3-Clause |
-| Versions | 1.7.0, 2.0.0, 2.0.1 |
+| Versions | 1.7.0, 2.0.0, 2.0.1, 2.0.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [ompl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/ompl/xmake.lua) |
 
@@ -31800,7 +31800,7 @@ add_requires("pinocchio")
 | -- | -- |
 | Homepage | [https://pipewire.org](https://pipewire.org) |
 | License | MIT |
-| Versions | 1.6.8 |
+| Versions | 1.6.8, 1.6.9 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [pipewire/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pipewire/xmake.lua) |
 
@@ -42972,7 +42972,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5637ef623ef0 |
+| License | table: 0x560115d8edb0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
