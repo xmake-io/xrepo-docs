@@ -17829,7 +17829,7 @@ add_requires("metalang99")
 
 | Description | *Serial Graph Partitioning and Fill-reducing Matrix Ordering* |
 | -- | -- |
-| Homepage | [http://glaros.dtc.umn.edu/gkhome/metis/metis/overview](http://glaros.dtc.umn.edu/gkhome/metis/metis/overview) |
+| Homepage | [https://github.com/KarypisLab/METIS](https://github.com/KarypisLab/METIS) |
 | License | Apache-2.0 |
 | Versions | v5.2.1 |
 | Architectures | arm, arm64, i386, x86_64 |
@@ -21462,7 +21462,7 @@ add_requires("parallel-hashmap")
 
 | Description | *GNU patch, which applies diff files to original files.* |
 | -- | -- |
-| Homepage | [http://www.gnu.org/software/patch/patch.html](http://www.gnu.org/software/patch/patch.html) |
+| Homepage | [https://savannah.gnu.org/projects/patch/](https://savannah.gnu.org/projects/patch/) |
 | Versions | 2.7.6 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [patch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patch/xmake.lua) |
@@ -28484,7 +28484,7 @@ add_requires("tinyxml")
 
 | Description | *simple, small, efficient, C++ XML parser that can be easily integrating into other programs.* |
 | -- | -- |
-| Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
+| Homepage | [https://github.com/leethomason/tinyxml2](https://github.com/leethomason/tinyxml2) |
 | License | zlib |
 | Versions | 8.0.0, 9.0.0, 10.0.0, 11.0.0 |
 | Architectures | arm, arm64, i386, x86_64 |

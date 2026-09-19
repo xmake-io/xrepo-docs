@@ -9250,7 +9250,7 @@ add_requires("h3")
 | -- | -- |
 | Homepage | [https://github.com/MuggleWei/haclog](https://github.com/MuggleWei/haclog) |
 | License | MIT |
-| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3, v0.4.4 |
+| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3, v0.4.4, v0.4.5 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [haclog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/haclog/xmake.lua) |
 
@@ -10110,7 +10110,7 @@ add_requires("intx")
 
 | Description | *A C utility library and persistent key/value storage engine* |
 | -- | -- |
-| Homepage | [https://iowow.softmotions.com](https://iowow.softmotions.com) |
+| Homepage | [https://github.com/Softmotions/iowow](https://github.com/Softmotions/iowow) |
 | License | MIT |
 | Versions | v1.4.17, v1.4.18 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
@@ -16583,7 +16583,7 @@ add_requires("metalang99")
 
 | Description | *Serial Graph Partitioning and Fill-reducing Matrix Ordering* |
 | -- | -- |
-| Homepage | [http://glaros.dtc.umn.edu/gkhome/metis/metis/overview](http://glaros.dtc.umn.edu/gkhome/metis/metis/overview) |
+| Homepage | [https://github.com/KarypisLab/METIS](https://github.com/KarypisLab/METIS) |
 | License | Apache-2.0 |
 | Versions | v5.2.1 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
@@ -19930,7 +19930,7 @@ add_requires("parallel-hashmap")
 
 | Description | *GNU patch, which applies diff files to original files.* |
 | -- | -- |
-| Homepage | [http://www.gnu.org/software/patch/patch.html](http://www.gnu.org/software/patch/patch.html) |
+| Homepage | [https://savannah.gnu.org/projects/patch/](https://savannah.gnu.org/projects/patch/) |
 | Versions | 2.7.6 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [patch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patch/xmake.lua) |
@@ -25974,7 +25974,7 @@ add_requires("tinyxml")
 
 | Description | *simple, small, efficient, C++ XML parser that can be easily integrating into other programs.* |
 | -- | -- |
-| Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
+| Homepage | [https://github.com/leethomason/tinyxml2](https://github.com/leethomason/tinyxml2) |
 | License | zlib |
 | Versions | 8.0.0, 9.0.0, 10.0.0, 11.0.0 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |

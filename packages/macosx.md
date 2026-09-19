@@ -12802,7 +12802,7 @@ add_requires("h5cpp")
 | -- | -- |
 | Homepage | [https://github.com/MuggleWei/haclog](https://github.com/MuggleWei/haclog) |
 | License | MIT |
-| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3, v0.4.4 |
+| Versions | v0.0.5, v0.1.6, v0.2.0, v0.4.0, v0.4.3, v0.4.4, v0.4.5 |
 | Architectures | arm64, x86_64 |
 | Definition | [haclog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/haclog/xmake.lua) |
 
@@ -14285,7 +14285,7 @@ add_requires("intx")
 
 | Description | *A C utility library and persistent key/value storage engine* |
 | -- | -- |
-| Homepage | [https://iowow.softmotions.com](https://iowow.softmotions.com) |
+| Homepage | [https://github.com/Softmotions/iowow](https://github.com/Softmotions/iowow) |
 | License | MIT |
 | Versions | v1.4.17, v1.4.18 |
 | Architectures | arm64, x86_64 |
@@ -17654,7 +17654,7 @@ add_requires("libintl")
 
 | Description | *Integer Set Library* |
 | -- | -- |
-| Homepage | [http://isl.gforge.inria.fr/](http://isl.gforge.inria.fr/) |
+| Homepage | [https://libisl.sourceforge.io/](https://libisl.sourceforge.io/) |
 | Versions | 0.22, 0.23, 0.24 |
 | Architectures | arm64, x86_64 |
 | Definition | [libisl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libisl/xmake.lua) |
@@ -23716,7 +23716,7 @@ add_requires("metall")
 
 | Description | *Serial Graph Partitioning and Fill-reducing Matrix Ordering* |
 | -- | -- |
-| Homepage | [http://glaros.dtc.umn.edu/gkhome/metis/metis/overview](http://glaros.dtc.umn.edu/gkhome/metis/metis/overview) |
+| Homepage | [https://github.com/KarypisLab/METIS](https://github.com/KarypisLab/METIS) |
 | License | Apache-2.0 |
 | Versions | v5.2.1 |
 | Architectures | arm64, x86_64 |
@@ -28038,7 +28038,7 @@ add_requires("opentelemetry-cpp")
 | -- | -- |
 | Homepage | [https://www.openvdb.org/](https://www.openvdb.org/) |
 | License | MPL-2.0 |
-| Versions | v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0, v10.0.1, v10.1.0, v11.0.0, v12.1.0, v12.1.1, v13.0.0 |
+| Versions | v7.1.0, v8.0.1, v8.1.0, v8.2.0, v9.0.0, v9.1.0, v10.0.1, v10.1.0, v11.0.0, v12.1.0, v12.1.1, v13.0.0, v13.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [openvdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openvdb/xmake.lua) |
 
@@ -28730,7 +28730,7 @@ add_requires("partio")
 
 | Description | *GNU patch, which applies diff files to original files.* |
 | -- | -- |
-| Homepage | [http://www.gnu.org/software/patch/patch.html](http://www.gnu.org/software/patch/patch.html) |
+| Homepage | [https://savannah.gnu.org/projects/patch/](https://savannah.gnu.org/projects/patch/) |
 | Versions | 2.7.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [patch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/patch/xmake.lua) |
@@ -35988,7 +35988,7 @@ add_requires("syscmdline")
 
 | Description | *Szip is an implementation of the extended-Rice lossless compression algorithm.* |
 | -- | -- |
-| Homepage | [https://support.hdfgroup.org/doc_resource/SZIP/](https://support.hdfgroup.org/doc_resource/SZIP/) |
+| Homepage | [https://docs.hdfgroup.org/archive/support/doc_resource/SZIP/index.html](https://docs.hdfgroup.org/archive/support/doc_resource/SZIP/index.html) |
 | Versions | 2.1.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [szip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/szip/xmake.lua) |
@@ -37275,7 +37275,7 @@ add_requires("tinyxml")
 
 | Description | *simple, small, efficient, C++ XML parser that can be easily integrating into other programs.* |
 | -- | -- |
-| Homepage | [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/) |
+| Homepage | [https://github.com/leethomason/tinyxml2](https://github.com/leethomason/tinyxml2) |
 | License | zlib |
 | Versions | 8.0.0, 9.0.0, 10.0.0, 11.0.0 |
 | Architectures | arm64, x86_64 |
@@ -39693,7 +39693,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5571d67ff730 |
+| License | table: 0x562c38e13d40 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
