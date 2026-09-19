@@ -24399,7 +24399,7 @@ add_requires("sockpp")
 | -- | -- |
 | Homepage | [https://github.com/floooh/sokol](https://github.com/floooh/sokol) |
 | License | zlib |
-| Versions | 2022.02.10, 2023.01.27, 2024.07.10, 2024.12.08, 2025.03.20 |
+| Versions | 2022.02.10, 2023.01.27, 2024.07.10, 2024.12.08, 2025.03.20, 2026.09.14 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sokol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sokol/xmake.lua) |
 

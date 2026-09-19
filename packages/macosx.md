@@ -34365,7 +34365,7 @@ add_requires("soil2")
 | -- | -- |
 | Homepage | [https://github.com/floooh/sokol](https://github.com/floooh/sokol) |
 | License | zlib |
-| Versions | 2022.02.10, 2023.01.27, 2024.07.10, 2024.12.08, 2025.03.20 |
+| Versions | 2022.02.10, 2023.01.27, 2024.07.10, 2024.12.08, 2025.03.20, 2026.09.14 |
 | Architectures | arm64, x86_64 |
 | Definition | [sokol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sokol/xmake.lua) |
 
@@ -39693,7 +39693,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x562c38e13d40 |
+| License | table: 0x55869c21a860 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
