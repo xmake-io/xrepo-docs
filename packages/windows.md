@@ -9505,7 +9505,7 @@ add_requires("fakeit")
 | -- | -- |
 | Homepage | [https://cieslarmichal.github.io/faker-cxx/](https://cieslarmichal.github.io/faker-cxx/) |
 | License | MIT |
-| Versions | v2.0.0, v3.0.0, v4.0.1, v4.1.0, v4.3.1, v4.3.2 |
+| Versions | v2.0.0, v3.0.0, v4.0.1, v4.1.0, v4.3.1, v4.3.2, v4.4.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [faker-cxx/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faker-cxx/xmake.lua) |
 
@@ -17253,7 +17253,7 @@ add_requires("libhat")
 | -- | -- |
 | Homepage | [https://github.com/strukturag/libheif](https://github.com/strukturag/libheif) |
 | License | LGPL-3.0 |
-| Versions | 1.12.0, 1.17.6, 1.18.0, 1.18.2, 1.20.2, 1.21.0, 1.21.1, 1.21.2, 1.22.0, 1.22.2, 1.23.0, 1.23.1 |
+| Versions | 1.12.0, 1.17.6, 1.18.0, 1.18.2, 1.20.2, 1.21.0, 1.21.1, 1.21.2, 1.22.0, 1.22.2, 1.23.0, 1.23.1, 1.23.4 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [libheif/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libheif/xmake.lua) |
 
@@ -29276,7 +29276,7 @@ add_requires("promise-cpp")
 | -- | -- |
 | Homepage | [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/) |
 | License | BSD-3-Clause |
-| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1, 32.0, 32.1, 33.1, 33.2, 35.1, 36.0 |
+| Versions | 3.8.0, 3.11.2, 3.12.0, 3.12.3, 3.13.0, 3.14.0, 3.15.5, 3.15.8, 3.17.3, 3.19.4, 26.1, 27.0, 27.2, 27.3, 28.0, 28.1, 29.2, 29.3, 30.2, 31.0, 31.1, 32.0, 32.1, 33.1, 33.2, 35.1, 36.0, 36.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [protobuf-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/protobuf-cpp/xmake.lua) |
 
@@ -39849,6 +39849,30 @@ xrepo install xproperty
 
 ```lua
 add_requires("xproperty")
+```
+
+
+### xrefl (windows)
+
+
+| Description | *A general-purpose C++ reflection and code generation plugin for XMake* |
+| -- | -- |
+| Homepage | [https://github.com/Edersteiner/xrefl](https://github.com/Edersteiner/xrefl) |
+| License | 0BSD |
+| Versions | 0.2.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [xrefl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xrefl/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install xrefl
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xrefl")
 ```
 
 
