@@ -896,7 +896,7 @@ add_requires("argtable3")
 | -- | -- |
 | Homepage | [https://argus-lib.com](https://argus-lib.com) |
 | License | MIT |
-| Versions | v0.1.0, v0.2.0, v0.2.1 |
+| Versions | v0.1.0, v0.2.0, v0.2.1, v0.3.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [argus/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argus/xmake.lua) |
 
