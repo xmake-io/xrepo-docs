@@ -3861,7 +3861,7 @@ add_requires("caudio")
 | -- | -- |
 | Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
 | License | MPL-2.0 |
-| Versions | 1.4.1, 1.4.4, 1.4.5 |
+| Versions | 1.4.1, 1.4.4, 1.4.5, 2.0.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
 
@@ -11634,7 +11634,7 @@ add_requires("ghc_filesystem")
 | -- | -- |
 | Homepage | [https://www.ghostscript.com/](https://www.ghostscript.com/) |
 | License | AGPL-3.0 |
-| Versions | 9.55.0, 10.0.0, 10.02.0 |
+| Versions | 9.55.0, 10.0.0, 10.02.0, 10.08.0 |
 | Architectures | x64, x86 |
 | Definition | [ghostscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghostscript/xmake.lua) |
 

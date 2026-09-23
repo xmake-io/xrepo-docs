@@ -3071,7 +3071,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
 | License | MPL-2.0 |
-| Versions | 1.4.1, 1.4.4, 1.4.5 |
+| Versions | 1.4.1, 1.4.4, 1.4.5, 2.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
 

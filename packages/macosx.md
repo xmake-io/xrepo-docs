@@ -3862,7 +3862,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
 | License | MPL-2.0 |
-| Versions | 1.4.1, 1.4.4, 1.4.5 |
+| Versions | 1.4.1, 1.4.4, 1.4.5, 2.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
 
@@ -11299,7 +11299,7 @@ add_requires("ghc_filesystem")
 | -- | -- |
 | Homepage | [https://www.ghostscript.com/](https://www.ghostscript.com/) |
 | License | AGPL-3.0 |
-| Versions | 9.55.0, 10.0.0, 10.02.0 |
+| Versions | 9.55.0, 10.0.0, 10.02.0, 10.08.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [ghostscript/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/ghostscript/xmake.lua) |
 
@@ -17110,7 +17110,7 @@ add_requires("libfreenect2")
 | -- | -- |
 | Homepage | [https://emcrisostomo.github.io/fswatch/](https://emcrisostomo.github.io/fswatch/) |
 | License | GPL-3.0 |
-| Versions | 1.17.1, 1.18.2, 1.18.3, 1.19.0, 1.21.0 |
+| Versions | 1.17.1, 1.18.2, 1.18.3, 1.19.0, 1.21.0, 1.22.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libfswatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libfswatch/xmake.lua) |
 
@@ -39693,7 +39693,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ea649f0e10 |
+| License | table: 0x563792357130 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
