@@ -20392,7 +20392,7 @@ add_requires("libusbmuxd")
 
 | Description | *Portable uuid C library* |
 | -- | -- |
-| Homepage | [https://sourceforge.net/projects/libuuid](https://sourceforge.net/projects/libuuid) |
+| Homepage | [https://sourceforge.net/projects/libuuid/](https://sourceforge.net/projects/libuuid/) |
 | License | BSD-3-Clause |
 | Versions | 1.0.3 |
 | Architectures | arm64, x86_64 |
@@ -29949,7 +29949,7 @@ add_requires("poly2tri")
 
 | Description | *Polygon and line clipping and offsetting library* |
 | -- | -- |
-| Homepage | [https://sourceforge.net/projects/polyclipping](https://sourceforge.net/projects/polyclipping) |
+| Homepage | [https://sourceforge.net/projects/polyclipping/](https://sourceforge.net/projects/polyclipping/) |
 | License | BSL-1.0 |
 | Versions | 6.4.2 |
 | Architectures | arm64, x86_64 |
@@ -30542,7 +30542,7 @@ add_requires("pupnp")
 | -- | -- |
 | Homepage | [https://github.com/pybind/pybind11](https://github.com/pybind/pybind11) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2, v2.10.0, v2.12.0, v2.13.1, v2.13.5, v2.13.6, v3.0.0, v3.0.1, v3.0.2, v3.0.4 |
+| Versions | v2.5.0, v2.6.2, v2.7.1, v2.8.1, v2.9.1, v2.9.2, v2.10.0, v2.12.0, v2.13.1, v2.13.5, v2.13.6, v3.0.0, v3.0.1, v3.0.2, v3.0.4, v3.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [pybind11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pybind11/xmake.lua) |
 
@@ -31809,7 +31809,7 @@ add_requires("rapidobj")
 
 | Description | *An attempt to create the fastest XML parser possible* |
 | -- | -- |
-| Homepage | [https://sourceforge.net/projects/rapidxml](https://sourceforge.net/projects/rapidxml) |
+| Homepage | [https://sourceforge.net/projects/rapidxml/](https://sourceforge.net/projects/rapidxml/) |
 | License | MIT |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
@@ -39693,7 +39693,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5635a6fb7690 |
+| License | table: 0x55790e1a3da0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -41425,6 +41425,30 @@ xrepo install zltoolkit
 
 ```lua
 add_requires("zltoolkit")
+```
+
+
+### zmij (macosx)
+
+
+| Description | *A fast floating-point-to-string conversion library for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/vitaut/zmij](https://github.com/vitaut/zmij) |
+| License | MIT |
+| Versions | v1.0, v1.1, v1.2 |
+| Architectures | arm64, x86_64 |
+| Definition | [zmij/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmij/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install zmij
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zmij")
 ```
 
 

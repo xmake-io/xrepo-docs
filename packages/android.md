@@ -14555,7 +14555,7 @@ add_requires("libusb-compat")
 
 | Description | *Portable uuid C library* |
 | -- | -- |
-| Homepage | [https://sourceforge.net/projects/libuuid](https://sourceforge.net/projects/libuuid) |
+| Homepage | [https://sourceforge.net/projects/libuuid/](https://sourceforge.net/projects/libuuid/) |
 | License | BSD-3-Clause |
 | Versions | 1.0.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
@@ -21195,7 +21195,7 @@ add_requires("poly2tri")
 
 | Description | *Polygon and line clipping and offsetting library* |
 | -- | -- |
-| Homepage | [https://sourceforge.net/projects/polyclipping](https://sourceforge.net/projects/polyclipping) |
+| Homepage | [https://sourceforge.net/projects/polyclipping/](https://sourceforge.net/projects/polyclipping/) |
 | License | BSL-1.0 |
 | Versions | 6.4.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
@@ -22652,7 +22652,7 @@ add_requires("rapidobj")
 
 | Description | *An attempt to create the fastest XML parser possible* |
 | -- | -- |
-| Homepage | [https://sourceforge.net/projects/rapidxml](https://sourceforge.net/projects/rapidxml) |
+| Homepage | [https://sourceforge.net/projects/rapidxml/](https://sourceforge.net/projects/rapidxml/) |
 | License | MIT |
 | Versions | 1.13 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
@@ -29705,6 +29705,30 @@ xrepo install -p android [--ndk=/xxx] zlibcomplete
 
 ```lua
 add_requires("zlibcomplete")
+```
+
+
+### zmij (android)
+
+
+| Description | *A fast floating-point-to-string conversion library for C and C++* |
+| -- | -- |
+| Homepage | [https://github.com/vitaut/zmij](https://github.com/vitaut/zmij) |
+| License | MIT |
+| Versions | v1.0, v1.1, v1.2 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [zmij/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zmij/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] zmij
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("zmij")
 ```
 
 
