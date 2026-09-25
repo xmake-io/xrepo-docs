@@ -7135,7 +7135,7 @@ add_requires("daw_header_libraries")
 | -- | -- |
 | Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
 | License | BSL-1.0 |
-| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2, v3.30.2, v3.31.0, v3.36.0 |
+| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2, v3.30.2, v3.31.0, v3.36.0, v3.38.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
 
@@ -25309,6 +25309,30 @@ add_requires("mysql-build-tools")
 
 
 ## n
+### nam-core (macosx)
+
+
+| Description | *Core DSP library for NAM plugins* |
+| -- | -- |
+| Homepage | [https://github.com/sdatkinson/NeuralAmpModelerCore](https://github.com/sdatkinson/NeuralAmpModelerCore) |
+| License | MIT |
+| Versions | v0.5.4 |
+| Architectures | arm64, x86_64 |
+| Definition | [nam-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nam-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nam-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nam-core")
+```
+
+
 ### named_type (macosx)
 
 
@@ -39693,7 +39717,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55790e1a3da0 |
+| License | table: 0x558f06e5ba10 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -41387,7 +41411,7 @@ add_requires("zlmediakit")
 | -- | -- |
 | Homepage | [https://github.com/HardySimpson/zlog](https://github.com/HardySimpson/zlog) |
 | License | Apache-2.0 |
-| Versions | 1.2.17, 1.2.18 |
+| Versions | 1.2.17, 1.2.18, 1.2.19 |
 | Architectures | arm64, x86_64 |
 | Definition | [zlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlog/xmake.lua) |
 

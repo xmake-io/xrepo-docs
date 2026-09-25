@@ -5514,7 +5514,7 @@ add_requires("daw_header_libraries")
 | -- | -- |
 | Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
 | License | BSL-1.0 |
-| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2, v3.30.2, v3.31.0, v3.36.0 |
+| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2, v3.30.2, v3.31.0, v3.36.0, v3.38.1 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
 
@@ -17629,6 +17629,30 @@ add_requires("mustache")
 
 
 ## n
+### nam-core (cross)
+
+
+| Description | *Core DSP library for NAM plugins* |
+| -- | -- |
+| Homepage | [https://github.com/sdatkinson/NeuralAmpModelerCore](https://github.com/sdatkinson/NeuralAmpModelerCore) |
+| License | MIT |
+| Versions | v0.5.4 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [nam-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nam-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nam-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nam-core")
+```
+
+
 ### named_type (cross)
 
 
@@ -28827,7 +28851,7 @@ add_requires("zlibcomplete")
 | -- | -- |
 | Homepage | [https://github.com/HardySimpson/zlog](https://github.com/HardySimpson/zlog) |
 | License | Apache-2.0 |
-| Versions | 1.2.17, 1.2.18 |
+| Versions | 1.2.17, 1.2.18, 1.2.19 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [zlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlog/xmake.lua) |
 

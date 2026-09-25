@@ -15122,6 +15122,30 @@ add_requires("mustache")
 
 
 ## n
+### nam-core (wasm)
+
+
+| Description | *Core DSP library for NAM plugins* |
+| -- | -- |
+| Homepage | [https://github.com/sdatkinson/NeuralAmpModelerCore](https://github.com/sdatkinson/NeuralAmpModelerCore) |
+| License | MIT |
+| Versions | v0.5.4 |
+| Architectures | wasm32, wasm64 |
+| Definition | [nam-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nam-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm nam-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nam-core")
+```
+
+
 ### named_type (wasm)
 
 

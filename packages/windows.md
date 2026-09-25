@@ -7206,7 +7206,7 @@ add_requires("daw_header_libraries")
 | -- | -- |
 | Homepage | [https://beached.github.io/daw_json_link/](https://beached.github.io/daw_json_link/) |
 | License | BSL-1.0 |
-| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2, v3.30.2, v3.31.0, v3.36.0 |
+| Versions | v3.20.1, v3.23.2, v3.24.0, v3.24.1, v3.26.0, v3.28.3, v3.29.2, v3.30.2, v3.31.0, v3.36.0, v3.38.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [daw_json_link/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_json_link/xmake.lua) |
 
@@ -24188,6 +24188,30 @@ add_requires("mysqlpp")
 
 
 ## n
+### nam-core (windows)
+
+
+| Description | *Core DSP library for NAM plugins* |
+| -- | -- |
+| Homepage | [https://github.com/sdatkinson/NeuralAmpModelerCore](https://github.com/sdatkinson/NeuralAmpModelerCore) |
+| License | MIT |
+| Versions | v0.5.4 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [nam-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nam-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nam-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nam-core")
+```
+
+
 ### named_type (windows)
 
 
