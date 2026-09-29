@@ -5416,7 +5416,7 @@ add_requires("dascript")
 | -- | -- |
 | Homepage | [https://hosseinmoein.github.io/DataFrame/](https://hosseinmoein.github.io/DataFrame/) |
 | License | MIT |
-| Versions | 1.21.0, 1.22.0, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.6.0, 3.7.0, 4.0.0, 4.0.1, 4.0.2 |
+| Versions | 1.21.0, 1.22.0, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.6.0, 3.7.0, 4.0.0, 4.0.1, 4.0.2, 4.1.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
 
@@ -6470,7 +6470,7 @@ add_requires("emhash")
 | Description | *A safe and fast high-level and low-level character input/output library for bare-metal and RTOS based embedded systems with a very small binary footprint.* |
 | -- | -- |
 | Homepage | [https://viatorus.github.io/emio/](https://viatorus.github.io/emio/) |
-| Versions | 0.4.0, 0.7.0, 0.8.0, 0.9.0 |
+| Versions | 0.4.0, 0.7.0, 0.8.0, 0.9.0, 0.9.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [emio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emio/xmake.lua) |
 
@@ -10610,7 +10610,7 @@ add_requires("jack2")
 | -- | -- |
 | Homepage | [https://github.com/akheron/jansson](https://github.com/akheron/jansson) |
 | License | MIT |
-| Versions | 2.14, 2.14.1, 2.15.0 |
+| Versions | 2.14, 2.14.1, 2.15.0, 2.15.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [jansson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jansson/xmake.lua) |
 
@@ -12668,7 +12668,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2, v1.7.3 |
+| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.4 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
@@ -16561,7 +16561,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1, 1.12.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1, 1.12.0, 1.12.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -24996,7 +24996,7 @@ add_requires("sqlite_orm")
 | -- | -- |
 | Homepage | [http://srombauts.github.io/SQLiteCpp](http://srombauts.github.io/SQLiteCpp) |
 | License | MIT |
-| Versions | 3.2.1, 3.3.1, 3.3.2, 3.3.3 |
+| Versions | 3.2.1, 3.3.1, 3.3.2, 3.3.3, 3.4.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [sqlitecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlitecpp/xmake.lua) |
 
@@ -27956,6 +27956,30 @@ xrepo install -p android [--ndk=/xxx] vectorial
 
 ```lua
 add_requires("vectorial")
+```
+
+
+### vectorscan (android)
+
+
+| Description | *High-performance regular expression matching library* |
+| -- | -- |
+| Homepage | [https://github.com/VectorCamp/vectorscan](https://github.com/VectorCamp/vectorscan) |
+| License | Apache-2.0 |
+| Versions | 5.4.13 |
+| Architectures | arm64-v8a |
+| Definition | [vectorscan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vectorscan/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] vectorscan
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vectorscan")
 ```
 
 

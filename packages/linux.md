@@ -7514,7 +7514,7 @@ add_requires("dascript")
 | -- | -- |
 | Homepage | [https://hosseinmoein.github.io/DataFrame/](https://hosseinmoein.github.io/DataFrame/) |
 | License | MIT |
-| Versions | 1.21.0, 1.22.0, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.6.0, 3.7.0, 4.0.0, 4.0.1, 4.0.2 |
+| Versions | 1.21.0, 1.22.0, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.4.0, 3.6.0, 3.7.0, 4.0.0, 4.0.1, 4.0.2, 4.1.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [dataframe/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dataframe/xmake.lua) |
 
@@ -8114,7 +8114,7 @@ add_requires("dipp")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/DirectX-Headers](https://github.com/microsoft/DirectX-Headers) |
 | License | MIT |
-| Versions | v1.610.0, v1.613.0, v1.613.1, v1.614.0, v1.614.1, v1.615.0, v1.616.0, v1.618.1, v1.618.2, v1.619.1, v1.619.4 |
+| Versions | v1.610.0, v1.613.0, v1.613.1, v1.614.0, v1.614.1, v1.615.0, v1.616.0, v1.618.1, v1.618.2, v1.619.1, v1.619.4, v1.619.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [directx-headers/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/directx-headers/xmake.lua) |
 
@@ -9262,7 +9262,7 @@ add_requires("emhash")
 | Description | *A safe and fast high-level and low-level character input/output library for bare-metal and RTOS based embedded systems with a very small binary footprint.* |
 | -- | -- |
 | Homepage | [https://viatorus.github.io/emio/](https://viatorus.github.io/emio/) |
-| Versions | 0.4.0, 0.7.0, 0.8.0, 0.9.0 |
+| Versions | 0.4.0, 0.7.0, 0.8.0, 0.9.0, 0.9.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [emio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emio/xmake.lua) |
 
@@ -15648,7 +15648,7 @@ add_requires("jack2")
 | -- | -- |
 | Homepage | [https://github.com/akheron/jansson](https://github.com/akheron/jansson) |
 | License | MIT |
-| Versions | 2.14, 2.14.1, 2.15.0 |
+| Versions | 2.14, 2.14.1, 2.15.0, 2.15.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [jansson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jansson/xmake.lua) |
 
@@ -19250,7 +19250,7 @@ add_requires("libjq")
 | -- | -- |
 | Homepage | [https://github.com/paullouisageneau/libjuice](https://github.com/paullouisageneau/libjuice) |
 | License | MPL-2.0 |
-| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2, v1.7.3 |
+| Versions | v1.6.1, v1.6.2, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [libjuice/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjuice/xmake.lua) |
 
@@ -20345,7 +20345,7 @@ add_requires("libpciaccess")
 | -- | -- |
 | Homepage | [https://pcsclite.apdu.fr/](https://pcsclite.apdu.fr/) |
 | License | BSD-3-Clause |
-| Versions | 2.3.3, 2.4.1, 2.5.1 |
+| Versions | 2.3.3, 2.4.1, 2.5.1, 2.5.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [libpcsclite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpcsclite/xmake.lua) |
 
@@ -21371,7 +21371,7 @@ add_requires("libsemanage")
 | -- | -- |
 | Homepage | [https://github.com/SELinuxProject/selinux](https://github.com/SELinuxProject/selinux) |
 | License | LGPL-2.1 |
-| Versions | 3.9, 3.10 |
+| Versions | 3.9, 3.10, 3.11 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [libsepol/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsepol/xmake.lua) |
 
@@ -25787,7 +25787,7 @@ add_requires("meshoptimizer")
 | -- | -- |
 | Homepage | [https://mesonbuild.com/](https://mesonbuild.com/) |
 | License | Apache-2.0 |
-| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1, 1.12.0 |
+| Versions | 0.50.1, 0.56.0, 0.58.0, 0.58.1, 0.59.1, 0.59.2, 0.60.1, 0.61.2, 0.62.1, 1.0.0, 1.1.0, 1.1.1, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.8.3, 1.9.0, 1.10.0, 1.10.1, 1.10.2, 1.11.1, 1.12.0, 1.12.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [meson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/meson/xmake.lua) |
 
@@ -30010,7 +30010,7 @@ add_requires("openh264")
 | -- | -- |
 | Homepage | [https://www.openimagedenoise.org](https://www.openimagedenoise.org) |
 | License | Apache-2.0 |
-| Versions | v2.3.3, v2.4.1, v2.5.0 |
+| Versions | v2.3.3, v2.4.1, v2.5.0, v2.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [openimagedenoise/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openimagedenoise/xmake.lua) |
 
@@ -37811,7 +37811,7 @@ add_requires("spot")
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
 | License | BSD-3-Clause |
-| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0, 4.16.0, 4.17.0 |
+| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0, 4.16.0, 4.17.0, 4.19.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 
@@ -37954,7 +37954,7 @@ add_requires("sqlite_orm")
 | -- | -- |
 | Homepage | [http://srombauts.github.io/SQLiteCpp](http://srombauts.github.io/SQLiteCpp) |
 | License | MIT |
-| Versions | 3.2.1, 3.3.1, 3.3.2, 3.3.3 |
+| Versions | 3.2.1, 3.3.1, 3.3.2, 3.3.3, 3.4.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [sqlitecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlitecpp/xmake.lua) |
 
@@ -42058,6 +42058,30 @@ add_requires("vectorial")
 ```
 
 
+### vectorscan (linux)
+
+
+| Description | *High-performance regular expression matching library* |
+| -- | -- |
+| Homepage | [https://github.com/VectorCamp/vectorscan](https://github.com/VectorCamp/vectorscan) |
+| License | Apache-2.0 |
+| Versions | 5.4.13 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
+| Definition | [vectorscan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vectorscan/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install vectorscan
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vectorscan")
+```
+
+
 ### verdict (linux)
 
 
@@ -42996,7 +43020,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558f06e5ba10 |
+| License | table: 0x563b40e3d3e0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
