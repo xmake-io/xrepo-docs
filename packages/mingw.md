@@ -9669,6 +9669,30 @@ add_requires("godotcpp")
 ```
 
 
+### godotcpp4 (mingw)
+
+
+| Description | *C++ bindings for the Godot 4 script API* |
+| -- | -- |
+| Homepage | [https://godotengine.org/](https://godotengine.org/) |
+| License | MIT |
+| Versions | 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [godotcpp4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] godotcpp4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("godotcpp4")
+```
+
+
 ### google-cloud-cpp (mingw)
 
 

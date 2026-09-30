@@ -12464,7 +12464,7 @@ add_requires("godotcpp")
 | -- | -- |
 | Homepage | [https://godotengine.org/](https://godotengine.org/) |
 | License | MIT |
-| Versions | 4.0, 4.1, 4.2, 4.3, 4.4 |
+| Versions | 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 |
 | Architectures | x64, x86 |
 | Definition | [godotcpp4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/godotcpp4/xmake.lua) |
 
