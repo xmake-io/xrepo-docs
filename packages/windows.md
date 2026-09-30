@@ -14495,6 +14495,30 @@ add_requires("innoextract")
 ```
 
 
+### innosetup (windows)
+
+
+| Description | *Inno Setup is an open-source installation builder for Windows applications by Jordan Russell and Martijn Laan.* |
+| -- | -- |
+| Homepage | [https://jrsoftware.org/isinfo.php](https://jrsoftware.org/isinfo.php) |
+| License | Inno Setup License |
+| Versions | 7.1.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [innosetup/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/innosetup/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install innosetup
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("innosetup")
+```
+
+
 ### interface99 (windows)
 
 
