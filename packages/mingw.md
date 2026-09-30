@@ -25211,7 +25211,7 @@ add_requires("scnlib")
 | Description | *A software construction tool* |
 | -- | -- |
 | Homepage | [https://scons.org](https://scons.org) |
-| Versions | 4.1.0, 4.3.0, 4.6.0, 4.7.0, 4.8.0, 4.9.1 |
+| Versions | 4.1.0, 4.3.0, 4.6.0, 4.7.0, 4.8.0, 4.9.1, 4.11.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [scons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/scons/xmake.lua) |
 
