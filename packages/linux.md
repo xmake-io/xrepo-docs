@@ -3622,7 +3622,7 @@ add_requires("brotli")
 | -- | -- |
 | Homepage | [https://brpc.apache.org](https://brpc.apache.org) |
 | License | Apache-2.0 |
-| Versions | 1.3.0, 1.4.0, 1.5.0, 1.6.1, 1.7.0, 1.8.0, 1.10.0, 1.14.1, 1.15.0, 1.16.0 |
+| Versions | 1.3.0, 1.4.0, 1.5.0, 1.6.1, 1.7.0, 1.8.0, 1.10.0, 1.14.1, 1.15.0, 1.16.0, 1.18.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [brpc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brpc/xmake.lua) |
 
@@ -9620,7 +9620,7 @@ add_requires("eudev")
 | -- | -- |
 | Homepage | [https://github.com/sudoevolve/EUI-NEO](https://github.com/sudoevolve/EUI-NEO) |
 | License | Apache-2.0 |
-| Versions | v0.5.5, v0.5.6, v0.5.7, v0.5.8, v0.5.9 |
+| Versions | v0.5.5, v0.5.6, v0.5.7, v0.5.8, v0.5.9, v0.6.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [eui-neo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eui-neo/xmake.lua) |
 
@@ -25260,7 +25260,7 @@ add_requires("marchingcubecpp")
 | -- | -- |
 | Homepage | [https://github.com/mariadb-corporation/mariadb-connector-c](https://github.com/mariadb-corporation/mariadb-connector-c) |
 | License | LGPL-2.1 |
-| Versions | 3.1.13, 3.3.4, 3.3.9, 3.4.7, 3.4.8, 3.4.9 |
+| Versions | 3.1.13, 3.3.4, 3.3.9, 3.4.7, 3.4.8, 3.4.9, 3.4.11 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [mariadb-connector-c/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mariadb-connector-c/xmake.lua) |
 
@@ -26121,7 +26121,7 @@ add_requires("mikktspace")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/mimalloc](https://github.com/microsoft/mimalloc) |
 | License | MIT |
-| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8, v3.3.2, v3.4.1, v3.5.0 |
+| Versions | v1.6.7, v1.7.0, v1.7.1, v1.7.2, v1.7.3, v1.7.6, v1.7.7, v1.8.7, v2.0.1, v2.0.2, v2.0.3, v2.0.5, v2.0.6, v2.0.7, v2.1.2, v2.1.7, v2.2.4, v3.0.3, v3.1.5, v3.2.8, v3.3.2, v3.4.1, v3.5.0, v3.5.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [mimalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mimalloc/xmake.lua) |
 
@@ -28455,7 +28455,7 @@ add_requires("nlohmann_json")
 | -- | -- |
 | Homepage | [https://github.com/stevengj/nlopt](https://github.com/stevengj/nlopt) |
 | License | LGPL-2.1 |
-| Versions | v2.7.0, v2.7.1, v2.8.0, v2.9.1, v2.10.0, v2.10.1 |
+| Versions | v2.7.0, v2.7.1, v2.8.0, v2.9.1, v2.10.0, v2.10.1, v2.11.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [nlopt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nlopt/xmake.lua) |
 
@@ -33037,7 +33037,7 @@ add_requires("psimd")
 | -- | -- |
 | Homepage | [http://ptex.us/](http://ptex.us/) |
 | License | BSD-3-Clause |
-| Versions | v2.3.2, v2.4.1, v2.4.2, v2.4.3, v2.5.1, v2.5.2 |
+| Versions | v2.3.2, v2.4.1, v2.4.2, v2.4.3, v2.5.1, v2.5.2, v2.5.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [ptex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/ptex/xmake.lua) |
 
@@ -36880,7 +36880,7 @@ add_requires("simplecpp")
 | -- | -- |
 | Homepage | [https://github.com/brofield/simpleini](https://github.com/brofield/simpleini) |
 | License | MIT |
-| Versions | v4.19, v4.22, v4.25, v4.26 |
+| Versions | v4.19, v4.22, v4.25, v4.26, v4.27 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [simpleini/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simpleini/xmake.lua) |
 
@@ -38146,7 +38146,7 @@ add_requires("srt")
 | -- | -- |
 | Homepage | [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp) |
 | License | BSD-3-Clause |
-| Versions | v2.5.0, v2.6, v2.7, v2.8 |
+| Versions | v2.5.0, v2.6, v2.7, v2.8, v2.8.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [srtp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/srtp/xmake.lua) |
 
@@ -43020,7 +43020,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5574fe9aa880 |
+| License | table: 0x555ab31eca70 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
