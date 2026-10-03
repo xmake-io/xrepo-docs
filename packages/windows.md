@@ -18223,6 +18223,30 @@ add_requires("libopus")
 ```
 
 
+### libopusfile (windows)
+
+
+| Description | *Modern audio compression for the internet.* |
+| -- | -- |
+| Homepage | [https://opus-codec.org](https://opus-codec.org) |
+| License | BSD-3-Clause |
+| Versions | 0.12+20260328 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [libopusfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopusfile/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libopusfile
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libopusfile")
+```
+
+
 ### liboqs (windows)
 
 

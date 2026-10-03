@@ -14217,6 +14217,30 @@ add_requires("libopus")
 ```
 
 
+### libopusfile (mingw)
+
+
+| Description | *Modern audio compression for the internet.* |
+| -- | -- |
+| Homepage | [https://opus-codec.org](https://opus-codec.org) |
+| License | BSD-3-Clause |
+| Versions | 0.12+20260328 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [libopusfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopusfile/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] libopusfile
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libopusfile")
+```
+
+
 ### liboqs (mingw)
 
 

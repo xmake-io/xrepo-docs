@@ -18551,6 +18551,30 @@ add_requires("libopus")
 ```
 
 
+### libopusfile (macosx)
+
+
+| Description | *Modern audio compression for the internet.* |
+| -- | -- |
+| Homepage | [https://opus-codec.org](https://opus-codec.org) |
+| License | BSD-3-Clause |
+| Versions | 0.12+20260328 |
+| Architectures | arm64, x86_64 |
+| Definition | [libopusfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopusfile/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libopusfile
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libopusfile")
+```
+
+
 ### liboqs (macosx)
 
 
@@ -39764,7 +39788,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x555dc0736840 |
+| License | table: 0x5593f35ca1b0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

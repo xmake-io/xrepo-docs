@@ -12975,6 +12975,30 @@ add_requires("libopus")
 ```
 
 
+### libopusfile (cross)
+
+
+| Description | *Modern audio compression for the internet.* |
+| -- | -- |
+| Homepage | [https://opus-codec.org](https://opus-codec.org) |
+| License | BSD-3-Clause |
+| Versions | 0.12+20260328 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [libopusfile/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopusfile/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] libopusfile
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libopusfile")
+```
+
+
 ### liboqs (cross)
 
 
