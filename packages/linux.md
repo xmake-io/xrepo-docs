@@ -20193,6 +20193,30 @@ add_requires("libopus")
 ```
 
 
+### libopusenc (linux)
+
+
+| Description | *Modern audio compression for the internet.* |
+| -- | -- |
+| Homepage | [https://opus-codec.org](https://opus-codec.org) |
+| License | BSD-3-Clause |
+| Versions | 0.3, v0.3 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
+| Definition | [libopusenc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopusenc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libopusenc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libopusenc")
+```
+
+
 ### libopusfile (linux)
 
 
@@ -29074,7 +29098,7 @@ add_requires("nvtx")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/ShaderLang](https://github.com/NazaraEngine/ShaderLang) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3, v1.1.4, v1.1.5 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3, v1.1.4, v1.1.5, v1.1.6 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [nzsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nzsl/xmake.lua) |
 
@@ -43090,7 +43114,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5593f35ca1b0 |
+| License | table: 0x558b5cc8f150 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

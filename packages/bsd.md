@@ -13166,6 +13166,30 @@ add_requires("libopus")
 ```
 
 
+### libopusenc (bsd)
+
+
+| Description | *Modern audio compression for the internet.* |
+| -- | -- |
+| Homepage | [https://opus-codec.org](https://opus-codec.org) |
+| License | BSD-3-Clause |
+| Versions | 0.3, v0.3 |
+| Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
+| Definition | [libopusenc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopusenc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install libopusenc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libopusenc")
+```
+
+
 ### libopusfile (bsd)
 
 
@@ -19203,7 +19227,7 @@ add_requires("nvtx")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/ShaderLang](https://github.com/NazaraEngine/ShaderLang) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3, v1.1.4, v1.1.5 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3, v1.1.4, v1.1.5, v1.1.6 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [nzsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nzsl/xmake.lua) |
 

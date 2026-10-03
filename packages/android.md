@@ -13280,6 +13280,30 @@ add_requires("libopus")
 ```
 
 
+### libopusenc (android)
+
+
+| Description | *Modern audio compression for the internet.* |
+| -- | -- |
+| Homepage | [https://opus-codec.org](https://opus-codec.org) |
+| License | BSD-3-Clause |
+| Versions | 0.3, v0.3 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [libopusenc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libopusenc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] libopusenc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("libopusenc")
+```
+
+
 ### libopusfile (android)
 
 
@@ -18923,7 +18947,7 @@ add_requires("nvtx")
 | -- | -- |
 | Homepage | [https://github.com/NazaraEngine/ShaderLang](https://github.com/NazaraEngine/ShaderLang) |
 | License | MIT |
-| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3, v1.1.4, v1.1.5 |
+| Versions | v1.0.0, v1.1.0, v1.1.1, v1.1.2, v1.1.3, v1.1.4, v1.1.5, v1.1.6 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [nzsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nzsl/xmake.lua) |
 
