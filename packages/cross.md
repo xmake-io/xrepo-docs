@@ -3400,6 +3400,29 @@ add_requires("cjson")
 ```
 
 
+### clap (cross)
+
+
+| Description | *cross plat Audio Plugin API* |
+| -- | -- |
+| Homepage | [https://cleveraudio.org/](https://cleveraudio.org/) |
+| Versions | 1.2.10 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [clap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] clap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clap")
+```
+
+
 ### clara (cross)
 
 
@@ -6688,7 +6711,7 @@ add_requires("etl")
 | -- | -- |
 | Homepage | [https://github.com/eudev-project/eudev](https://github.com/eudev-project/eudev) |
 | License | GPL-2.0 |
-| Versions | v3.2.9, v3.2.14 |
+| Versions | v3.2.9, v3.2.14, v3.2.15 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [eudev/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/eudev/xmake.lua) |
 
@@ -13581,7 +13604,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0, 3.4.2, 3.4.4, 3.4.12 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0, 3.4.2, 3.4.4, 3.4.12, 3.4.16 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 

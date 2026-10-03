@@ -3569,6 +3569,29 @@ add_requires("cjson")
 ```
 
 
+### clap (mingw)
+
+
+| Description | *cross plat Audio Plugin API* |
+| -- | -- |
+| Homepage | [https://cleveraudio.org/](https://cleveraudio.org/) |
+| Versions | 1.2.10 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [clap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] clap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clap")
+```
+
+
 ### clara (mingw)
 
 
@@ -14848,7 +14871,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0, 3.4.2, 3.4.4, 3.4.12 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0, 3.4.2, 3.4.4, 3.4.12, 3.4.16 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 

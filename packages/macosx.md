@@ -4499,6 +4499,29 @@ add_requires("ck")
 ```
 
 
+### clap (macosx)
+
+
+| Description | *cross plat Audio Plugin API* |
+| -- | -- |
+| Homepage | [https://cleveraudio.org/](https://cleveraudio.org/) |
+| Versions | 1.2.10 |
+| Architectures | arm64, x86_64 |
+| Definition | [clap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/clap/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install clap
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("clap")
+```
+
+
 ### clara (macosx)
 
 
@@ -19347,7 +19370,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0, 3.4.2, 3.4.4, 3.4.12 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0, 3.4.2, 3.4.4, 3.4.12, 3.4.16 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 
@@ -39741,7 +39764,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x560ef4e8d930 |
+| License | table: 0x555dc0736840 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
