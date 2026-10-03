@@ -3838,7 +3838,7 @@ add_requires("cartographer")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0, v3.14.0, v3.15.0, v3.15.1, v3.15.2 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0, v3.14.0, v3.15.0, v3.15.1, v3.15.2, v3.16.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -8690,7 +8690,7 @@ add_requires("enet")
 | -- | -- |
 | Homepage | [https://github.com/SirLynix/enet6](https://github.com/SirLynix/enet6) |
 | License | MIT |
-| Versions | v6.0.0, v6.0.1, v6.0.2, v6.1.0, v6.1.2, v6.1.3 |
+| Versions | v6.0.0, v6.0.1, v6.0.2, v6.1.0, v6.1.2, v6.1.3, v6.1.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [enet6/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enet6/xmake.lua) |
 
@@ -9434,7 +9434,7 @@ add_requires("fast_double_parser")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3, v8.2.4, v8.2.5, v8.2.10 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3, v8.2.4, v8.2.5, v8.2.10, v8.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -15318,7 +15318,7 @@ add_requires("khrplatform")
 | Description | *Efficient C++ implementation of the Cassowary constraint solving algorithm* |
 | -- | -- |
 | Homepage | [https://kiwisolver.readthedocs.io/en/latest/](https://kiwisolver.readthedocs.io/en/latest/) |
-| Versions | 1.3.1, 1.3.2, 1.4.4, 1.4.5, 1.4.6, 1.4.7, 1.4.8, 1.4.9, 1.5.0 |
+| Versions | 1.3.1, 1.3.2, 1.4.4, 1.4.5, 1.4.6, 1.4.7, 1.4.8, 1.4.9, 1.5.0, 1.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [kiwisolver/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kiwisolver/xmake.lua) |
 
@@ -18727,7 +18727,7 @@ add_requires("libplist")
 | -- | -- |
 | Homepage | [https://www.libpng.org/pub/png/libpng.html](https://www.libpng.org/pub/png/libpng.html) |
 | License | libpng-2.0 |
-| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50, v1.6.51, v1.6.53, v1.6.54, v1.6.55, v1.6.56, v1.6.57, v1.6.58 |
+| Versions | v1.6.34, v1.6.35, v1.6.36, v1.6.37, v1.6.40, v1.6.42, v1.6.43, v1.6.44, v1.6.46, v1.6.47, v1.6.48, v1.6.49, v1.6.50, v1.6.51, v1.6.53, v1.6.54, v1.6.55, v1.6.56, v1.6.57, v1.6.58, v1.6.59 |
 | Architectures | arm64, x86_64 |
 | Definition | [libpng/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpng/xmake.lua) |
 
@@ -27085,7 +27085,7 @@ add_requires("olive.c")
 | -- | -- |
 | Homepage | [https://libomath.org/](https://libomath.org/) |
 | License | zlib |
-| Versions | v5.6.0 |
+| Versions | v5.6.0, v5.7.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [omath/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/omath/xmake.lua) |
 
@@ -33434,7 +33434,7 @@ add_requires("sentencepiece")
 | -- | -- |
 | Homepage | [https://docs.sentry.io/](https://docs.sentry.io/) |
 | License | MIT |
-| Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7, 0.14.0, 0.14.2, 0.15.0, 0.15.1, 0.15.2, 0.15.3, 0.16.1, 0.16.5, 0.16.6 |
+| Versions | 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.7.0, 0.7.1, 0.7.2, 0.7.5, 0.7.6, 0.7.9, 0.7.10, 0.7.11, 0.7.12, 0.7.15, 0.7.16, 0.7.17, 0.7.20, 0.8.1, 0.8.3, 0.9.1, 0.10.1, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.2, 0.12.8, 0.13.1, 0.13.2, 0.13.7, 0.14.0, 0.14.2, 0.15.0, 0.15.1, 0.15.2, 0.15.3, 0.16.1, 0.16.5, 0.16.6, 0.17.1 |
 | Architectures | x86_64 |
 | Definition | [sentry-native/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sentry-native/xmake.lua) |
 
@@ -38521,7 +38521,7 @@ add_requires("utf8proc")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.0.6, v4.0.8, v4.0.9, v4.1.1 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.0.6, v4.0.8, v4.0.9, v4.1.1, v4.2.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
@@ -39741,7 +39741,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5608c4e59960 |
+| License | table: 0x560ef4e8d930 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -40715,7 +40715,7 @@ add_requires("xtrans")
 | -- | -- |
 | Homepage | [http://cyan4973.github.io/xxHash/](http://cyan4973.github.io/xxHash/) |
 | License | BSD-2-Clause |
-| Versions | v0.8.0, v0.8.1, v0.8.2, v0.8.3 |
+| Versions | v0.8.0, v0.8.1, v0.8.2, v0.8.3, v0.8.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [xxhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xxhash/xmake.lua) |
 
@@ -40763,7 +40763,7 @@ add_requires("xxmlxx")
 | -- | -- |
 | Homepage | [https://tukaani.org/xz/](https://tukaani.org/xz/) |
 | License | LGPL-2.1-or-later |
-| Versions | 5.2.11, 5.2.12, 5.2.13, 5.4.2, 5.4.3, 5.4.4, 5.4.5, 5.4.6, 5.4.7, 5.6.2, 5.6.3, 5.6.4, 5.8.1, 5.8.2, 5.8.3 |
+| Versions | 5.2.11, 5.2.12, 5.2.13, 5.4.2, 5.4.3, 5.4.4, 5.4.5, 5.4.6, 5.4.7, 5.6.2, 5.6.3, 5.6.4, 5.8.1, 5.8.2, 5.8.3, 5.8.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [xz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xz/xmake.lua) |
 
