@@ -25,6 +25,30 @@ add_requires("11zip")
 
 
 ## a
+### aargh (android)
+
+
+| Description | *Single-header command-line argument parser for C99 (argh.h)* |
+| -- | -- |
+| Homepage | [https://github.com/ilyabrin/aargh](https://github.com/ilyabrin/aargh) |
+| License | MIT |
+| Versions | 1.9.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [aargh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aargh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] aargh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aargh")
+```
+
+
 ### abseil (android)
 
 

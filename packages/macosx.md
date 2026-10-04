@@ -50,6 +50,30 @@ add_requires("7z")
 
 
 ## a
+### aargh (macosx)
+
+
+| Description | *Single-header command-line argument parser for C99 (argh.h)* |
+| -- | -- |
+| Homepage | [https://github.com/ilyabrin/aargh](https://github.com/ilyabrin/aargh) |
+| License | MIT |
+| Versions | 1.9.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [aargh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aargh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aargh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aargh")
+```
+
+
 ### abseil (macosx)
 
 
@@ -27204,7 +27228,7 @@ add_requires("ompl")
 | -- | -- |
 | Homepage | [https://oneapi-src.github.io/oneDNN/](https://oneapi-src.github.io/oneDNN/) |
 | License | Apache-2.0 |
-| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1, v3.10.2, v3.11, v3.11.3, v3.12.1, v3.13.1, v3.13.2 |
+| Versions | v2.5.4, v3.3.4, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.5, v3.5.1, v3.5.2, v3.5.3, v3.6, v3.6.1, v3.6.2, v3.7.1, v3.7.2, v3.8, v3.8.1, v3.9, v3.9.1, v3.10, v3.10.1, v3.10.2, v3.11, v3.11.3, v3.12.1, v3.13.1, v3.13.2, v3.13.3 |
 | Architectures | x86_64 |
 | Definition | [onednn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/onednn/xmake.lua) |
 
@@ -32624,7 +32648,7 @@ add_requires("rlottie")
 | -- | -- |
 | Homepage | [https://mikke89.github.io/RmlUiDoc/](https://mikke89.github.io/RmlUiDoc/) |
 | License | MIT |
-| Versions | 5.0, 5.1, 6.0, 6.1, 6.2 |
+| Versions | 5.0, 5.1, 6.0, 6.1, 6.2, 6.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [rmlui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rmlui/xmake.lua) |
 
@@ -38759,7 +38783,7 @@ add_requires("uvwasi")
 | -- | -- |
 | Homepage | [https://github.com/uNetworking](https://github.com/uNetworking) |
 | License | Apache-2.0 |
-| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0, v20.74.0, v20.75.0, v20.77.0, v20.78.0, v20.79.0 |
+| Versions | v20.60.0, v20.61.0, v20.62.0, v20.64.0, v20.65.0, v20.66.0, v20.67.0, v20.70.0, v20.72.0, v20.74.0, v20.75.0, v20.77.0, v20.78.0, v20.79.0, v20.80.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [uwebsockets/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/uwebsockets/xmake.lua) |
 
@@ -39812,7 +39836,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x558b5cc8f150 |
+| License | table: 0x55bb0be81760 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

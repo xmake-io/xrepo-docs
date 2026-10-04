@@ -1,4 +1,28 @@
 ## a
+### aargh (cross)
+
+
+| Description | *Single-header command-line argument parser for C99 (argh.h)* |
+| -- | -- |
+| Homepage | [https://github.com/ilyabrin/aargh](https://github.com/ilyabrin/aargh) |
+| License | MIT |
+| Versions | 1.9.0 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [aargh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aargh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] aargh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aargh")
+```
+
+
 ### abseil (cross)
 
 

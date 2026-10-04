@@ -1,4 +1,28 @@
 ## a
+### aargh (msys)
+
+
+| Description | *Single-header command-line argument parser for C99 (argh.h)* |
+| -- | -- |
+| Homepage | [https://github.com/ilyabrin/aargh](https://github.com/ilyabrin/aargh) |
+| License | MIT |
+| Versions | 1.9.0 |
+| Architectures | i386, x86_64 |
+| Definition | [aargh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aargh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install aargh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("aargh")
+```
+
+
 ### abseil (msys)
 
 
