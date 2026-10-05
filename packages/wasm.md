@@ -1110,7 +1110,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-lc](https://github.com/aws/aws-lc) |
 | License | Apache-2.0 |
-| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1, v1.73.0, v5.0.0, v5.1.0, v5.3.0, v5.5.0, v5.6.0, v5.8.0 |
+| Versions | v1.32.0, v1.34.2, v1.37.0, v1.39.0, v1.40.0, v1.41.1, v1.45.0, v1.48.1, v1.48.5, v1.49.1, v1.51.2, v1.53.0, v1.63.0, v1.64.0, v1.65.0, v1.65.1, v1.66.1, v1.66.2, v1.67.0, v1.69.0, v1.70.0, v1.71.0, v1.72.0, v1.72.1, v1.73.0, v5.0.0, v5.1.0, v5.3.0, v5.5.0, v5.6.0, v5.8.0, v5.11.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [aws-lc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-lc/xmake.lua) |
 
@@ -3596,7 +3596,7 @@ add_requires("cpp-dump")
 | -- | -- |
 | Homepage | [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) |
 | License | MIT |
-| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3, v0.43.4, v0.45.0, v0.47.0, v0.48.0, v0.50.1, v0.53.1 |
+| Versions | v0.8.5, v0.9.2, v0.12.1, v0.12.6, v0.14.0, v0.14.1, v0.14.2, v0.14.3, v0.15.0, v0.15.1, v0.15.2, v0.15.3, v0.16.2, v0.16.3, v0.17.0, v0.17.3, v0.18.1, v0.18.3, v0.18.5, v0.18.6, v0.18.7, v0.19.0, v0.20.0, v0.20.1, v0.21.0, v0.22.0, v0.23.1, v0.26.0, v0.28.0, v0.34.0, v0.37.1, v0.37.2, v0.41.0, v0.43.3, v0.43.4, v0.45.0, v0.47.0, v0.48.0, v0.50.1, v0.53.1, v0.59.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [cpp-httplib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-httplib/xmake.lua) |
 
@@ -17187,7 +17187,7 @@ add_requires("pedeps")
 | -- | -- |
 | Homepage | [https://github.com/taocpp/PEGTL](https://github.com/taocpp/PEGTL) |
 | License | BSL-1.0 |
-| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8, 4.0.0, 4.0.1 |
+| Versions | 2.8.3, 3.2.2, 3.2.5, 3.2.7, 3.2.8, 4.0.0, 4.0.1, 4.0.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [pegtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pegtl/xmake.lua) |
 
@@ -22221,6 +22221,30 @@ xrepo install -p wasm tidy-html5
 
 ```lua
 add_requires("tidy-html5")
+```
+
+
+### timeh (wasm)
+
+
+| Description | *A simple terminal time utility* |
+| -- | -- |
+| Homepage | [https://github.com/Monjaris/timeh](https://github.com/Monjaris/timeh) |
+| License | MIT |
+| Versions | 0.5.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [timeh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/timeh/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm timeh
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("timeh")
 ```
 
 
