@@ -2018,7 +2018,7 @@ add_requires("boringssl")
 | -- | -- |
 | Homepage | [https://botan.randombit.net](https://botan.randombit.net) |
 | License | BSD-2-Clause |
-| Versions | 3.4.0, 3.5.0, 3.6.0, 3.6.1, 3.7.0, 3.7.1, 3.8.1, 3.11.1, 3.12.0 |
+| Versions | 3.4.0, 3.5.0, 3.6.0, 3.6.1, 3.7.0, 3.7.1, 3.8.1, 3.11.1, 3.12.0, 3.13.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [botan/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/botan/xmake.lua) |
 
@@ -13360,7 +13360,7 @@ add_requires("lv2")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0, v9.5.0 |
+| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0, v9.5.0, v9.6.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
@@ -21872,7 +21872,7 @@ add_requires("tbb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
-| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1, v1.7.4, v1.7.5, v1.7.6, v1.8.0, v1.8.1 |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1, v1.7.4, v1.7.5, v1.7.6, v1.8.0, v1.8.1, v1.8.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 

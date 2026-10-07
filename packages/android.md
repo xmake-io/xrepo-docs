@@ -15866,7 +15866,7 @@ add_requires("lunzip")
 | -- | -- |
 | Homepage | [https://lvgl.io](https://lvgl.io) |
 | License | MIT |
-| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0, v9.5.0 |
+| Versions | v8.0.2, v8.2.0, v9.0.0, v9.1.0, v9.4.0, v9.5.0, v9.6.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [lvgl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lvgl/xmake.lua) |
 
@@ -17242,6 +17242,30 @@ xrepo install -p android [--ndk=/xxx] mio
 
 ```lua
 add_requires("mio")
+```
+
+
+### mir (android)
+
+
+| Description | *A lightweight JIT compiler framework based on a medium-level internal representation* |
+| -- | -- |
+| Homepage | [https://github.com/vnmakarov/mir](https://github.com/vnmakarov/mir) |
+| License | MIT |
+| Versions | v1.0.0 |
+| Architectures | arm64-v8a |
+| Definition | [mir/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mir/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] mir
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("mir")
 ```
 
 
@@ -25954,7 +25978,7 @@ add_requires("tbb")
 | Description | *A glib-like multi-platform c library* |
 | -- | -- |
 | Homepage | [https://tboox.org](https://tboox.org) |
-| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1, v1.7.4, v1.7.5, v1.7.6, v1.8.0, v1.8.1 |
+| Versions | v1.6.2, v1.6.3, v1.6.4, v1.6.5, v1.6.6, v1.6.7, v1.6.9, v1.7.1, v1.7.4, v1.7.5, v1.7.6, v1.8.0, v1.8.1, v1.8.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [tbox/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tbox/xmake.lua) |
 
