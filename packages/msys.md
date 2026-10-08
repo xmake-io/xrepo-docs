@@ -6,7 +6,7 @@
 | -- | -- |
 | Homepage | [https://github.com/ilyabrin/aargh](https://github.com/ilyabrin/aargh) |
 | License | MIT |
-| Versions | 1.9.0 |
+| Versions | 1.9.0, 1.12.0 |
 | Architectures | i386, x86_64 |
 | Definition | [aargh/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aargh/xmake.lua) |
 
@@ -1206,7 +1206,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0 |
+| Versions | v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0, v1.0.2 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -4792,7 +4792,7 @@ add_requires("croncpp")
 | -- | -- |
 | Homepage | [https://github.com/CrowCpp/Crow](https://github.com/CrowCpp/Crow) |
 | License | BSD 3-Clause |
-| Versions | v1.2.1+1, v1.2.1+2, v1.3.0, v1.3.1, v1.3.2 |
+| Versions | v1.2.1+1, v1.2.1+2, v1.3.0, v1.3.1, v1.3.2, v1.3.5 |
 | Architectures | i386, x86_64 |
 | Definition | [crow/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crow/xmake.lua) |
 
@@ -5125,7 +5125,7 @@ add_requires("cubeb")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) |
 | License | BSD-3-Clause |
-| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9, v13.0, v13.1, v13.2 |
+| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9, v13.0, v13.1, v13.2, v13.4 |
 | Architectures | i386, x86_64 |
 | Definition | [cuda-samples/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda-samples/xmake.lua) |
 
@@ -13030,7 +13030,7 @@ add_requires("librats")
 | -- | -- |
 | Homepage | [https://www.libraw.org/](https://www.libraw.org/) |
 | License | LGPL-2.1 |
-| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5, 0.22.0, 0.22.1 |
+| Versions | 0.19.5, 0.20.2, 0.21.4, 0.21.5, 0.22.0, 0.22.1, 0.22.2 |
 | Architectures | i386, x86_64 |
 | Definition | [libraw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libraw/xmake.lua) |
 
@@ -25355,7 +25355,7 @@ add_requires("tinyexpr")
 | -- | -- |
 | Homepage | [https://github.com/syoyo/tinyexr/](https://github.com/syoyo/tinyexr/) |
 | License | BSD-3-Clause |
-| Versions | v1.0.1, v1.0.8, v1.0.9, v1.0.10, v1.0.12, v1.0.13, v3.0.0 |
+| Versions | v1.0.1, v1.0.8, v1.0.9, v1.0.10, v1.0.12, v1.0.13, v3.0.0, v3.2.0 |
 | Architectures | i386, x86_64 |
 | Definition | [tinyexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tinyexr/xmake.lua) |
 
