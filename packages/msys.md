@@ -1206,7 +1206,7 @@ add_requires("aws-c-cal")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0, v1.0.2 |
+| Versions | v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0, v1.0.2, v1.0.3 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -1350,7 +1350,7 @@ add_requires("aws-checksums")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) |
 | License | Apache-2.0 |
-| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0, v0.40.1, v0.42.1, v0.43.4, v0.43.5 |
+| Versions | v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0, v0.40.1, v0.42.1, v0.43.4, v0.43.5, v0.43.9 |
 | Architectures | i386, x86_64 |
 | Definition | [aws-crt-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-crt-cpp/xmake.lua) |
 
@@ -10965,6 +10965,30 @@ add_requires("lazy_importer")
 ```
 
 
+### lcc-license-generator (msys)
+
+
+| Description | *License generator for open-license-manager* |
+| -- | -- |
+| Homepage | [https://github.com/open-license-manager/lcc-license-generator](https://github.com/open-license-manager/lcc-license-generator) |
+| License | BSD-3-Clause |
+| Versions | 2021.05.27 |
+| Architectures | i386, x86_64 |
+| Definition | [lcc-license-generator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lcc-license-generator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install lcc-license-generator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lcc-license-generator")
+```
+
+
 ### lcms (msys)
 
 
@@ -14505,6 +14529,30 @@ add_requires("libzippp")
 ```
 
 
+### licensecc (msys)
+
+
+| Description | *Software licensing, copy protection in C++. It has few dependencies and it's cross-platform.* |
+| -- | -- |
+| Homepage | [http://open-license-manager.github.io/licensecc/](http://open-license-manager.github.io/licensecc/) |
+| License | BSD-3-Clause |
+| Versions | v2.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [licensecc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/licensecc/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install licensecc
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("licensecc")
+```
+
+
 ### lief (msys)
 
 
@@ -15034,7 +15082,7 @@ add_requires("ls-hpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/ls-qpack](https://github.com/litespeedtech/ls-qpack) |
 | License | MIT |
-| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3, v2.6.4, v2.6.5 |
+| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3, v2.6.4, v2.6.5, v2.7.0 |
 | Architectures | i386, x86_64 |
 | Definition | [ls-qpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-qpack/xmake.lua) |
 

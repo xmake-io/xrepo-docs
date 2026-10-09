@@ -2622,7 +2622,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0, v1.0.2</td>
+<td>v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0, v1.0.2, v1.0.3</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -2844,7 +2844,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.12.7, v0.13.1, v0.13.5, v1.0.0, v1.1.1</td>
+<td>v0.5.7, v0.5.9, v0.6.0, v0.6.5, v0.7.0, v0.7.1, v0.7.4, v0.7.5, v0.7.7, v0.7.12, v0.7.14, v0.7.15, v0.8.1, v0.8.3, v0.8.6, v0.8.7, v0.9.2, v0.11.2, v0.11.3, v0.11.4, v0.11.5, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.12.7, v0.13.1, v0.13.5, v1.0.0, v1.1.1, v1.3.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -2955,7 +2955,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0, v0.40.1, v0.42.1, v0.43.4, v0.43.5</td>
+<td>v0.23.1, v0.26.4, v0.26.8, v0.26.9, v0.26.11, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.28.2, v0.28.3, v0.29.5, v0.29.8, v0.37.1, v0.37.3, v0.37.4, v0.38.1, v0.38.4, v0.38.5, v0.38.6, v0.38.7, v0.39.0, v0.39.1, v0.40.0, v0.40.1, v0.42.1, v0.43.4, v0.43.5, v0.43.9</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -24078,6 +24078,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("lbuild")
 </code></pre>
+<h3 id="lcclicensegeneratormacosx">lcc-license-generator (macosx)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>License generator for open-license-manager</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/open-license-manager/lcc-license-generator">https://github.com/open-license-manager/lcc-license-generator</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2021.05.27</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lcc-license-generator/xmake.lua">lcc-license-generator/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install lcc-license-generator
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("lcc-license-generator")
+</code></pre>
 <h3 id="lcmsmacosx">lcms (macosx)</h3>
 <table>
 <thead>
@@ -34053,7 +34090,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3, v2.6.4, v2.6.5</td>
+<td>v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3, v2.6.4, v2.6.5, v2.7.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -60926,7 +60963,7 @@
 </tr>
 <tr>
 <td>License</td>
-<td>table: 0x557d87077310</td>
+<td>table: 0x55fa44a63980</td>
 </tr>
 <tr>
 <td>Versions</td>

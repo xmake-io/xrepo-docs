@@ -1014,7 +1014,7 @@ add_requires("awk")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-common](https://github.com/awslabs/aws-c-common) |
 | License | Apache-2.0 |
-| Versions | v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0, v1.0.2 |
+| Versions | v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0, v1.0.2, v1.0.3 |
 | Architectures | wasm32, wasm64 |
 | Definition | [aws-c-common/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-common/xmake.lua) |
 
@@ -9604,6 +9604,30 @@ add_requires("lastools")
 ```
 
 
+### lcc-license-generator (wasm)
+
+
+| Description | *License generator for open-license-manager* |
+| -- | -- |
+| Homepage | [https://github.com/open-license-manager/lcc-license-generator](https://github.com/open-license-manager/lcc-license-generator) |
+| License | BSD-3-Clause |
+| Versions | 2021.05.27 |
+| Architectures | wasm32, wasm64 |
+| Definition | [lcc-license-generator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lcc-license-generator/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm lcc-license-generator
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("lcc-license-generator")
+```
+
+
 ### lcms (wasm)
 
 
@@ -13146,7 +13170,7 @@ add_requires("ls-hpack")
 | -- | -- |
 | Homepage | [https://github.com/litespeedtech/ls-qpack](https://github.com/litespeedtech/ls-qpack) |
 | License | MIT |
-| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3, v2.6.4, v2.6.5 |
+| Versions | v2.5.3, v2.5.4, v2.5.5, v2.6.0, v2.6.1, v2.6.2, v2.6.3, v2.6.4, v2.6.5, v2.7.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [ls-qpack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/ls-qpack/xmake.lua) |
 
