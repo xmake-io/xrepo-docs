@@ -14586,6 +14586,30 @@ add_requires("icbc")
 ```
 
 
+### icey (linux)
+
+
+| Description | *C++20 media stack for real-time video, signalling, TURN, and media servers* |
+| -- | -- |
+| Homepage | [https://0state.com/icey/](https://0state.com/icey/) |
+| License | LGPL-2.1-or-later |
+| Versions | 2.5.1 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
+| Definition | [icey/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icey/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install icey
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("icey")
+```
+
+
 ### icu4c (linux)
 
 
@@ -43234,7 +43258,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55fa44a63980 |
+| License | table: 0x56453463e7c0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

@@ -9835,6 +9835,30 @@ add_requires("hyprwayland-scanner")
 
 
 ## i
+### icey (android)
+
+
+| Description | *C++20 media stack for real-time video, signalling, TURN, and media servers* |
+| -- | -- |
+| Homepage | [https://0state.com/icey/](https://0state.com/icey/) |
+| License | LGPL-2.1-or-later |
+| Versions | 2.5.1 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [icey/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icey/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] icey
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("icey")
+```
+
+
 ### icu4c (android)
 
 

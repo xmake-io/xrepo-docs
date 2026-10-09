@@ -9698,6 +9698,30 @@ add_requires("hyprwayland-scanner")
 
 
 ## i
+### icey (cross)
+
+
+| Description | *C++20 media stack for real-time video, signalling, TURN, and media servers* |
+| -- | -- |
+| Homepage | [https://0state.com/icey/](https://0state.com/icey/) |
+| License | LGPL-2.1-or-later |
+| Versions | 2.5.1 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [icey/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icey/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] icey
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("icey")
+```
+
+
 ### icu4c (cross)
 
 

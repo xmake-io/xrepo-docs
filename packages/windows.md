@@ -13801,6 +13801,30 @@ add_requires("icbc")
 ```
 
 
+### icey (windows)
+
+
+| Description | *C++20 media stack for real-time video, signalling, TURN, and media servers* |
+| -- | -- |
+| Homepage | [https://0state.com/icey/](https://0state.com/icey/) |
+| License | LGPL-2.1-or-later |
+| Versions | 2.5.1 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [icey/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/icey/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install icey
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("icey")
+```
+
+
 ### icu4c (windows)
 
 
