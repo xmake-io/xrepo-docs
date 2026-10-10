@@ -1952,7 +1952,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.27.6, v1.0.0 |
+| Versions | v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.27.6, v1.0.0, v1.1.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -43258,7 +43258,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5568224a94e0 |
+| License | table: 0x55af0e453670 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
