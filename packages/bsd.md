@@ -1350,7 +1350,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0, v0.11.1, v1.0.0 |
+| Versions | v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0, v0.11.1, v1.0.0, v1.1.0 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
