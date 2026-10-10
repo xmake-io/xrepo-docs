@@ -4839,7 +4839,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.3.3, v4.3.4, v4.3.5, v4.4.1, v4.4.2, v4.5.0, v4.5.2 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.3.0, v4.3.1, v4.3.2, v4.3.3, v4.3.4, v4.3.5, v4.3.6, v4.4.0, v4.4.1, v4.4.2, v4.4.3, v4.5.0, v4.5.1, v4.5.2, v4.5.3, v4.6.0, v4.6.1, v4.6.2, v4.6.3, v4.7.0, v4.7.1, v4.8.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
