@@ -2073,7 +2073,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0, v0.16.1, v1.0.0</td>
+<td>v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0, v0.16.1, v1.0.0, v1.1.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -27195,6 +27195,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("ncurses")
 </code></pre>
+<h3 id="ndicapimsys">ndicapi (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A common C API for communicating with NDI Polaris and Aurora devices.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/PlusToolkit/ndicapi">https://github.com/PlusToolkit/ndicapi</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2026.09.06</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndicapi/xmake.lua">ndicapi/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install ndicapi
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("ndicapi")
+</code></pre>
 <h3 id="ndkmsys">ndk (msys)</h3>
 <table>
 <thead>
@@ -37407,7 +37444,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>2.2.0</td>
+<td>2.2.0, 3.0.0</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -39863,7 +39900,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25, v1.5.26, v1.5.28</td>
+<td>v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25, v1.5.26, v1.5.28, v1.5.29</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -40907,6 +40944,43 @@
 <pre><code class="lang-lua">add_requires("uvw")
 </code></pre>
 <h2 id="v">v</h2>
+<h3 id="valgrindmacosmsys">valgrind-macos (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A valgrind mirror with latest macOS support</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/LouisBrunner/valgrind-macos">https://github.com/LouisBrunner/valgrind-macos</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-3.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>2026.09.09</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/v/valgrind-macos/xmake.lua">valgrind-macos/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install valgrind-macos
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("valgrind-macos")
+</code></pre>
 <h3 id="valijsonmsys">valijson (msys)</h3>
 <table>
 <thead>
@@ -42212,6 +42286,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("xbyak")
+</code></pre>
+<h3 id="xclangmsys">xclang (msys)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A relocatable Clang toolchain with bundled Linux and Windows sysroots</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/clice-io/xclang">https://github.com/clice-io/xclang</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>23.1.2+10</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>i386, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xclang/xmake.lua">xclang/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install xclang
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("xclang")
 </code></pre>
 <h3 id="xentcoremsys">xent-core (msys)</h3>
 <table>

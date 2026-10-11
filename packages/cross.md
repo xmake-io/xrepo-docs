@@ -1326,7 +1326,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
 | License | Apache-2.0 |
-| Versions | v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0, v0.16.1, v1.0.0 |
+| Versions | v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0, v0.16.1, v1.0.0, v1.1.1 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
 
@@ -18154,6 +18154,30 @@ add_requires("ndarray")
 ```
 
 
+### ndicapi (cross)
+
+
+| Description | *A common C API for communicating with NDI Polaris and Aurora devices.* |
+| -- | -- |
+| Homepage | [https://github.com/PlusToolkit/ndicapi](https://github.com/PlusToolkit/ndicapi) |
+| License | MIT |
+| Versions | 2026.09.06 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [ndicapi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ndicapi/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ndicapi
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ndicapi")
+```
+
+
 ### ndk (cross)
 
 
@@ -24947,7 +24971,7 @@ add_requires("strtk")
 | -- | -- |
 | Homepage | [https://github.com/AkarinATCP/stv](https://github.com/AkarinATCP/stv) |
 | License | MIT |
-| Versions | 2.2.0 |
+| Versions | 2.2.0, 3.0.0 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [stv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/stv/xmake.lua) |
 
@@ -26622,7 +26646,7 @@ add_requires("transwarp")
 | -- | -- |
 | Homepage | [https://github.com/an-tao/trantor/](https://github.com/an-tao/trantor/) |
 | License | BSD-3-Clause |
-| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25, v1.5.26, v1.5.28 |
+| Versions | v1.3.0, v1.4.1, v1.5.0, v1.5.2, v1.5.5, v1.5.6, v1.5.7, v1.5.8, v1.5.14, v1.5.17, v1.5.18, v1.5.19, v1.5.20, v1.5.21, v1.5.22, v1.5.23, v1.5.24, v1.5.25, v1.5.26, v1.5.28, v1.5.29 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [trantor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/trantor/xmake.lua) |
 
@@ -27383,6 +27407,30 @@ add_requires("uvw")
 
 
 ## v
+### valgrind-macos (cross)
+
+
+| Description | *A valgrind mirror with latest macOS support* |
+| -- | -- |
+| Homepage | [https://github.com/LouisBrunner/valgrind-macos](https://github.com/LouisBrunner/valgrind-macos) |
+| License | GPL-3.0 |
+| Versions | 2026.09.09 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [valgrind-macos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/valgrind-macos/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] valgrind-macos
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("valgrind-macos")
+```
+
+
 ### valijson (cross)
 
 
@@ -28169,6 +28217,30 @@ xrepo install -p cross [--sdk=/xxx] xcb-proto
 
 ```lua
 add_requires("xcb-proto")
+```
+
+
+### xclang (cross)
+
+
+| Description | *A relocatable Clang toolchain with bundled Linux and Windows sysroots* |
+| -- | -- |
+| Homepage | [https://github.com/clice-io/xclang](https://github.com/clice-io/xclang) |
+| License | Apache-2.0 |
+| Versions | 23.1.2+10 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [xclang/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xclang/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] xclang
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("xclang")
 ```
 
 
