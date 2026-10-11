@@ -31427,6 +31427,30 @@ add_requires("yaml_cpp_struct")
 ```
 
 
+### yara (mingw)
+
+
+| Description | *The pattern matching swiss knife* |
+| -- | -- |
+| Homepage | [https://virustotal.github.io/yara/](https://virustotal.github.io/yara/) |
+| License | BSD-3-Clause |
+| Versions | 4.5.8 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [yara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yara/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] yara
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yara")
+```
+
+
 ### yas (mingw)
 
 

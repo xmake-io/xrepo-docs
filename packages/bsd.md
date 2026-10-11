@@ -11766,7 +11766,7 @@ add_requires("libcurl")
 | -- | -- |
 | Homepage | [https://libdatachannel.org/](https://libdatachannel.org/) |
 | License | MPL-2.0 |
-| Versions | v0.23.1, v0.23.2, v0.24.1, v0.24.2, v0.24.3, v0.24.4, v0.24.5 |
+| Versions | v0.23.1, v0.23.2, v0.24.1, v0.24.2, v0.24.3, v0.24.4, v0.24.5, v0.24.6 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [libdatachannel/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdatachannel/xmake.lua) |
 
@@ -29330,6 +29330,30 @@ xrepo install yaml_cpp_struct
 
 ```lua
 add_requires("yaml_cpp_struct")
+```
+
+
+### yara (bsd)
+
+
+| Description | *The pattern matching swiss knife* |
+| -- | -- |
+| Homepage | [https://virustotal.github.io/yara/](https://virustotal.github.io/yara/) |
+| License | BSD-3-Clause |
+| Versions | 4.5.8 |
+| Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
+| Definition | [yara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yara/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install yara
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("yara")
 ```
 
 
