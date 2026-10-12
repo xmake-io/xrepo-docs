@@ -990,7 +990,7 @@ add_requires("aui-toolbox")
 | -- | -- |
 | Homepage | [https://aurora-opensource.github.io/au](https://aurora-opensource.github.io/au) |
 | License | Apache-2.0 |
-| Versions | 0.4.1, 0.5.0, 0.5.1, 0.6.0 |
+| Versions | 0.4.1, 0.5.0, 0.5.1, 0.6.0, 0.6.1 |
 | Architectures | i386, x86_64 |
 | Definition | [aurora-au/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aurora-au/xmake.lua) |
 
