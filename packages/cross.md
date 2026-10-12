@@ -15676,7 +15676,7 @@ add_requires("lsquic")
 | Description | *A powerful, efficient, lightweight, embeddable scripting language.* |
 | -- | -- |
 | Homepage | [https://lua.org/](https://lua.org/) |
-| Versions | v5.1.1, v5.1.5, v5.2.3, v5.2.4, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4, v5.4.6, v5.4.7, v5.4.8, v5.5.0 |
+| Versions | v5.1.1, v5.1.5, v5.2.3, v5.2.4, v5.3.6, v5.4.1, v5.4.2, v5.4.3, v5.4.4, v5.4.6, v5.4.7, v5.4.8, v5.5.0, v5.5.1 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [lua/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lua/xmake.lua) |
 
