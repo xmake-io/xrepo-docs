@@ -19589,6 +19589,30 @@ add_requires("openssl3")
 ```
 
 
+### openssl4 (cross)
+
+
+| Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
+| -- | -- |
+| Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
+| License | Apache-2.0 |
+| Versions | 4.0.3 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [openssl4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] openssl4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openssl4")
+```
+
+
 ### openvpn3 (cross)
 
 

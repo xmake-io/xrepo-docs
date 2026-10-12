@@ -28198,6 +28198,30 @@ add_requires("openssl3")
 ```
 
 
+### openssl4 (macosx)
+
+
+| Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
+| -- | -- |
+| Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
+| License | Apache-2.0 |
+| Versions | 4.0.3 |
+| Architectures | arm64, x86_64 |
+| Definition | [openssl4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install openssl4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openssl4")
+```
+
+
 ### opensubdiv (macosx)
 
 
@@ -39980,7 +40004,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x565174b2f6e0 |
+| License | table: 0x5572612222b0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

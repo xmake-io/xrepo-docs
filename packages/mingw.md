@@ -21170,6 +21170,30 @@ add_requires("openssl3")
 ```
 
 
+### openssl4 (mingw)
+
+
+| Description | *A robust, commercial-grade, and full-featured toolkit for TLS and SSL.* |
+| -- | -- |
+| Homepage | [https://www.openssl.org/](https://www.openssl.org/) |
+| License | Apache-2.0 |
+| Versions | 4.0.3 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [openssl4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openssl4/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] openssl4
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("openssl4")
+```
+
+
 ### opentelemetry-cpp (mingw)
 
 
