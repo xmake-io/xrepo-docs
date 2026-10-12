@@ -11166,7 +11166,7 @@ add_requires("ldtkloader")
 | Description | *Lean cryptographic library usable for bare-metal environments* |
 | -- | -- |
 | Homepage | [https://leancrypto.org](https://leancrypto.org) |
-| Versions | v1.2.0, v1.3.0, v1.4.0, v1.5.1, v1.6.0, v1.7.2, v1.8.0 |
+| Versions | v1.2.0, v1.3.0, v1.4.0, v1.5.1, v1.6.0, v1.7.2, v1.8.0, v1.9.1 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [leancrypto/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/leancrypto/xmake.lua) |
 
