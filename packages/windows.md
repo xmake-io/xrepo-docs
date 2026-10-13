@@ -6963,7 +6963,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
 | License | MIT |
-| Versions | 2.5, 2.6, 2.7, 2.8, 2.9 |
+| Versions | 2.5, 2.6, 2.7, 2.8, 2.9, 2.10 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
 

@@ -6869,7 +6869,7 @@ add_requires("cutlass")
 | -- | -- |
 | Homepage | [https://github.com/ThoSe1990/cwt-cucumber](https://github.com/ThoSe1990/cwt-cucumber) |
 | License | MIT |
-| Versions | 2.5, 2.6, 2.7, 2.8, 2.9 |
+| Versions | 2.5, 2.6, 2.7, 2.8, 2.9, 2.10 |
 | Architectures | arm64, x86_64 |
 | Definition | [cwt-cucumber/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cwt-cucumber/xmake.lua) |
 
@@ -40004,7 +40004,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55bc9d273e70 |
+| License | table: 0x562543decd40 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
