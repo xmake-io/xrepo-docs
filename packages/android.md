@@ -7762,7 +7762,7 @@ add_requires("fpm")
 | -- | -- |
 | Homepage | [https://www.freerdp.com/](https://www.freerdp.com/) |
 | License | Apache-2.0 |
-| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0, 3.26.0, 3.27.1, 3.29.0, 3.30.0 |
+| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0, 3.26.0, 3.27.1, 3.29.0, 3.30.0, 3.32.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [freerdp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freerdp/xmake.lua) |
 
@@ -7834,7 +7834,7 @@ add_requires("freexl")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | v1.0.10, v1.0.11, v1.0.12, v1.0.13, v1.0.14, v1.0.15, v1.0.16 |
+| Versions | v1.0.10, v1.0.11, v1.0.12, v1.0.13, v1.0.14, v1.0.15, v1.0.16, v1.0.17 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
@@ -28529,6 +28529,30 @@ xrepo install -p android [--ndk=/xxx] vulkan-memory-allocator-hpp
 
 ```lua
 add_requires("vulkan-memory-allocator-hpp")
+```
+
+
+### vulkan-utility-libraries (android)
+
+
+| Description | *Utility libraries for Vulkan developers* |
+| -- | -- |
+| Homepage | [https://github.com/KhronosGroup/Vulkan-Utility-Libraries](https://github.com/KhronosGroup/Vulkan-Utility-Libraries) |
+| License | Apache-2.0 |
+| Versions | 1.3.268+0, 1.3.275+0, 1.3.280+0, 1.3.283+0, 1.4.309+0, 1.4.335+0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [vulkan-utility-libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/vulkan-utility-libraries/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] vulkan-utility-libraries
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("vulkan-utility-libraries")
 ```
 
 

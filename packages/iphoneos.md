@@ -7426,7 +7426,7 @@ add_requires("freexl")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | v1.0.10, v1.0.11, v1.0.12, v1.0.13, v1.0.14, v1.0.15, v1.0.16 |
+| Versions | v1.0.10, v1.0.11, v1.0.12, v1.0.13, v1.0.14, v1.0.15, v1.0.16, v1.0.17 |
 | Architectures | arm64, x86_64 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 

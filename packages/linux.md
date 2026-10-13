@@ -11270,7 +11270,7 @@ add_requires("freeimage")
 | -- | -- |
 | Homepage | [https://www.freerdp.com/](https://www.freerdp.com/) |
 | License | Apache-2.0 |
-| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0, 3.26.0, 3.27.1, 3.29.0, 3.30.0 |
+| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0, 3.26.0, 3.27.1, 3.29.0, 3.30.0, 3.32.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [freerdp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freerdp/xmake.lua) |
 
@@ -11342,7 +11342,7 @@ add_requires("freexl")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | v1.0.10, v1.0.11, v1.0.12, v1.0.13, v1.0.14, v1.0.15, v1.0.16 |
+| Versions | v1.0.10, v1.0.11, v1.0.12, v1.0.13, v1.0.14, v1.0.15, v1.0.16, v1.0.17 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
@@ -43330,7 +43330,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55efd5b703a0 |
+| License | table: 0x562af5badfa0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
