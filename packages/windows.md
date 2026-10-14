@@ -14238,7 +14238,7 @@ add_requires("imguitextselect")
 | -- | -- |
 | Homepage | [https://github.com/CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) |
 | License | MIT |
-| Versions | 1.83, 1.89+wip, 1.91.3+wip |
+| Versions | 1.83, 1.89+wip, 1.91.3+wip, 1.91.3+wip.0109, 1.91.3+wip.0110 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [imguizmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imguizmo/xmake.lua) |
 

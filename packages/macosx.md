@@ -13975,7 +13975,7 @@ add_requires("imguitextselect")
 | -- | -- |
 | Homepage | [https://github.com/CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) |
 | License | MIT |
-| Versions | 1.83, 1.89+wip, 1.91.3+wip |
+| Versions | 1.83, 1.89+wip, 1.91.3+wip, 1.91.3+wip.0109, 1.91.3+wip.0110 |
 | Architectures | arm64, x86_64 |
 | Definition | [imguizmo/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/imguizmo/xmake.lua) |
 
@@ -40028,7 +40028,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55bce0bb9ca0 |
+| License | table: 0x55ee2a9bb510 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
