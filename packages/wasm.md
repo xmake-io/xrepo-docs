@@ -4739,6 +4739,30 @@ add_requires("daw_header_libraries")
 ```
 
 
+### dawn (wasm)
+
+
+| Description | *Dawn, a WebGPU implementation* |
+| -- | -- |
+| Homepage | [https://dawn.googlesource.com/dawn](https://dawn.googlesource.com/dawn) |
+| License | BSD-3-Clause |
+| Versions | 20261009.190412 |
+| Architectures | wasm32, wasm64 |
+| Definition | [dawn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dawn/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm dawn
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dawn")
+```
+
+
 ### dbg-macro (wasm)
 
 

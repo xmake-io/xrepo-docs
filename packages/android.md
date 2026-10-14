@@ -5600,6 +5600,30 @@ add_requires("daw_json_link")
 ```
 
 
+### dawn (android)
+
+
+| Description | *Dawn, a WebGPU implementation* |
+| -- | -- |
+| Homepage | [https://dawn.googlesource.com/dawn](https://dawn.googlesource.com/dawn) |
+| License | BSD-3-Clause |
+| Versions | 20261009.190412 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [dawn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dawn/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] dawn
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dawn")
+```
+
+
 ### dbg-macro (android)
 
 

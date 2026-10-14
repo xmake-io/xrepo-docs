@@ -7722,6 +7722,30 @@ add_requires("daw_json_link")
 ```
 
 
+### dawn (linux)
+
+
+| Description | *Dawn, a WebGPU implementation* |
+| -- | -- |
+| Homepage | [https://dawn.googlesource.com/dawn](https://dawn.googlesource.com/dawn) |
+| License | BSD-3-Clause |
+| Versions | 20261009.190412 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
+| Definition | [dawn/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dawn/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install dawn
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("dawn")
+```
+
+
 ### daxa (linux)
 
 
@@ -43330,7 +43354,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5618c4a59e10 |
+| License | table: 0x55bce0bb9ca0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

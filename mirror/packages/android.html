@@ -8663,6 +8663,43 @@
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("daw_json_link")
 </code></pre>
+<h3 id="dawnandroid">dawn (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>Dawn, a WebGPU implementation</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://dawn.googlesource.com/dawn">https://dawn.googlesource.com/dawn</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>BSD-3-Clause</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>20261009.190412</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dawn/xmake.lua">dawn/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] dawn
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("dawn")
+</code></pre>
 <h3 id="dbgmacroandroid">dbg-macro (android)</h3>
 <table>
 <thead>
