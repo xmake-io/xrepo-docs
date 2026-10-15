@@ -726,7 +726,7 @@ add_requires("async_simple")
 | -- | -- |
 | Homepage | [https://github.com/max0x7ba/atomic_queue](https://github.com/max0x7ba/atomic_queue) |
 | License | MIT |
-| Versions | v1.5, v1.6.3, v1.6.4, v1.6.5, v1.6.9, v1.7.1, v1.9.1, v1.9.2 |
+| Versions | v1.5, v1.6.3, v1.6.4, v1.6.5, v1.6.9, v1.7.1, v1.9.1, v1.9.2, v1.9.4 |
 | Architectures | wasm32, wasm64 |
 | Definition | [atomic_queue/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/atomic_queue/xmake.lua) |
 
@@ -7121,7 +7121,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://trac.osgeo.org/geos/](https://trac.osgeo.org/geos/) |
 | License | LGPL-2.1 |
-| Versions | 3.9.1, 3.11.3, 3.12.1, 3.13.0, 3.13.1, 3.14.0, 3.14.1 |
+| Versions | 3.9.1, 3.11.3, 3.12.1, 3.13.0, 3.13.1, 3.14.0, 3.14.1, 3.15.0 |
 | Architectures | wasm32, wasm64 |
 | Definition | [geos/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geos/xmake.lua) |
 
