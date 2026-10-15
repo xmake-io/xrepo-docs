@@ -17200,7 +17200,7 @@ add_requires("libaesgm")
 
 | Description | *Linux-native asynchronous I/O access library* |
 | -- | -- |
-| Homepage | [https://pagure.io/libaio](https://pagure.io/libaio) |
+| Homepage | [https://codeberg.org/jmoyer/libaio](https://codeberg.org/jmoyer/libaio) |
 | License | LGPL-2.1-or-later |
 | Versions | 0.3.113 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
@@ -43354,7 +43354,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55fb792ec0d0 |
+| License | table: 0x55a84c27dc50 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
