@@ -35313,6 +35313,30 @@ add_requires("sqlpp11")
 ```
 
 
+### sqlpp23 (macosx)
+
+
+| Description | *A type safe SQL template library for C++23* |
+| -- | -- |
+| Homepage | [https://github.com/rbock/sqlpp23](https://github.com/rbock/sqlpp23) |
+| License | BSD-2-Clause |
+| Versions | 0.68, 0.69, 0.70 |
+| Architectures | arm64, x86_64 |
+| Definition | [sqlpp23/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlpp23/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install sqlpp23
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("sqlpp23")
+```
+
+
 ### sqrat (macosx)
 
 
@@ -40028,7 +40052,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55d432753320 |
+| License | table: 0x564a2d96ce20 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
