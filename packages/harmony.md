@@ -6472,7 +6472,7 @@ add_requires("fast-lzma2")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3, v8.2.4, v8.2.5, v8.2.10, v8.3.0 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3, v8.2.4, v8.2.5, v8.2.10, v8.3.0, v8.3.2 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -10807,7 +10807,7 @@ add_requires("libdispatch")
 | -- | -- |
 | Homepage | [https://libdivide.com](https://libdivide.com) |
 | License | BSL-1.0 |
-| Versions | 5.0, v5.2.0, v5.3.0 |
+| Versions | 5.0, v5.2.0, v5.3.0, v5.4.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [libdivide/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdivide/xmake.lua) |
 
@@ -13271,7 +13271,7 @@ add_requires("libwebsockets")
 | -- | -- |
 | Homepage | [%s](%s) |
 | License | BSD-2-Clause |
-| Versions | v1.6.3 |
+| Versions | v1.6.3, v1.6.4 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [libxls/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libxls/xmake.lua) |
 
@@ -23215,7 +23215,7 @@ add_requires("tclap")
 | -- | -- |
 | Homepage | [https://core.telegram.org/tdlib/](https://core.telegram.org/tdlib/) |
 | License | BSL-1.0 |
-| Versions | 1.8.51, 1.8.67 |
+| Versions | 1.8.51, 1.8.67, 1.8.68 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [td/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/td/xmake.lua) |
 
@@ -23239,7 +23239,7 @@ add_requires("td")
 | -- | -- |
 | Homepage | [%s](%s) |
 | License | BSL-1.0 |
-| Versions | 1.8.51, 1.8.67 |
+| Versions | 1.8.51, 1.8.67, 1.8.68 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [tdtl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tdtl/xmake.lua) |
 
