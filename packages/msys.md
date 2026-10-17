@@ -6709,7 +6709,7 @@ add_requires("eventpp")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1, 2.8.4 |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1, 2.8.4, 2.9.0 |
 | Architectures | i386, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -12958,7 +12958,7 @@ add_requires("libpeconv")
 | -- | -- |
 | Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
 | License | LGPL-2.1 |
-| Versions | 2.2.0, 2.6.0, 2.7.0 |
+| Versions | 2.2.0, 2.6.0, 2.7.0, 2.8.0 |
 | Architectures | i386, x86_64 |
 | Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
 
@@ -24325,7 +24325,7 @@ add_requires("strawberry-perl")
 | -- | -- |
 | Homepage | [https://github.com/lemire/streamvbyte](https://github.com/lemire/streamvbyte) |
 | License | Apache-2.0 |
-| Versions | v1.0.0, v2.0.0, v3.0.0 |
+| Versions | v1.0.0, v2.0.0, v3.0.0, v3.0.1 |
 | Architectures | i386, x86_64 |
 | Definition | [streamvbyte/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/streamvbyte/xmake.lua) |
 

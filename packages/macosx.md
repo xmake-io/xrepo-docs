@@ -9096,7 +9096,7 @@ add_requires("exosip")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1, 2.8.4 |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1, 2.8.4, 2.9.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -18870,7 +18870,7 @@ add_requires("libpg_query")
 | -- | -- |
 | Homepage | [https://www.libimobiledevice.org/](https://www.libimobiledevice.org/) |
 | License | LGPL-2.1 |
-| Versions | 2.2.0, 2.6.0, 2.7.0 |
+| Versions | 2.2.0, 2.6.0, 2.7.0, 2.8.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [libplist/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libplist/xmake.lua) |
 
@@ -18990,7 +18990,7 @@ add_requires("libpqxx")
 | -- | -- |
 | Homepage | [https://github.com/rockdaboot/libpsl](https://github.com/rockdaboot/libpsl) |
 | License | MIT |
-| Versions | 0.21.1, 0.21.5, 0.23.0 |
+| Versions | 0.21.1, 0.21.5, 0.23.0, 0.23.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [libpsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpsl/xmake.lua) |
 
@@ -35799,7 +35799,7 @@ add_requires("stlab")
 | -- | -- |
 | Homepage | [https://github.com/lemire/streamvbyte](https://github.com/lemire/streamvbyte) |
 | License | Apache-2.0 |
-| Versions | v1.0.0, v2.0.0, v3.0.0 |
+| Versions | v1.0.0, v2.0.0, v3.0.0, v3.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [streamvbyte/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/streamvbyte/xmake.lua) |
 
@@ -40028,7 +40028,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a84c27dc50 |
+| License | table: 0x558a6614c500 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
