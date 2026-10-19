@@ -1760,7 +1760,7 @@ add_requires("aws-c-event-stream")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-http](https://github.com/awslabs/aws-c-http) |
 | License | Apache-2.0 |
-| Versions | v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0, v0.11.1, v1.0.0, v1.1.0 |
+| Versions | v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0, v0.11.1, v1.0.0, v1.1.0, v1.1.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-http/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-http/xmake.lua) |
 
@@ -31213,7 +31213,7 @@ add_requires("raw_pdb")
 | -- | -- |
 | Homepage | [https://github.com/raysan5/raygui](https://github.com/raysan5/raygui) |
 | License | zlib |
-| Versions | 3.0, 3.2, 4.0 |
+| Versions | 3.0, 3.2, 4.0, 5.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [raygui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raygui/xmake.lua) |
 
