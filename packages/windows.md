@@ -1808,7 +1808,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
 | License | Apache-2.0 |
-| Versions | v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0, v0.16.1, v1.0.0, v1.1.1 |
+| Versions | v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0, v0.16.1, v1.0.0, v1.1.1, v1.1.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
 
@@ -37181,7 +37181,7 @@ add_requires("toppra")
 | -- | -- |
 | Homepage | [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy) |
 | License | BSD-3-Clause |
-| Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0, v0.11.1, v0.12.0, v0.12.1, v0.12.2, v0.13.0, v0.13.1 |
+| Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0, v0.11.1, v0.12.0, v0.12.1, v0.12.2, v0.13.0, v0.13.1, v0.14.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [tracy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tracy/xmake.lua) |
 

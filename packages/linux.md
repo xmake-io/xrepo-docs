@@ -1976,7 +1976,7 @@ add_requires("aws-c-io")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) |
 | License | Apache-2.0 |
-| Versions | v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0, v0.16.1, v1.0.0, v1.1.1 |
+| Versions | v0.10.3, v0.10.4, v0.10.6, v0.10.7, v0.11.0, v0.12.1, v0.12.3, v0.13.2, v0.13.3, v0.15.2, v0.16.0, v0.16.1, v1.0.0, v1.1.1, v1.1.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [aws-c-mqtt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-mqtt/xmake.lua) |
 
@@ -41106,7 +41106,7 @@ add_requires("toppra")
 | -- | -- |
 | Homepage | [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy) |
 | License | BSD-3-Clause |
-| Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0, v0.11.1, v0.12.0, v0.12.1, v0.12.2, v0.13.0, v0.13.1 |
+| Versions | v0.8.2, v0.9, v0.9.1, v0.10, v0.11.0, v0.11.1, v0.12.0, v0.12.1, v0.12.2, v0.13.0, v0.13.1, v0.14.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [tracy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tracy/xmake.lua) |
 
@@ -43378,7 +43378,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x561c1dad8aa0 |
+| License | table: 0x555a8cbd0100 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
