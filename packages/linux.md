@@ -43378,7 +43378,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x555a8cbd0100 |
+| License | table: 0x55ce9f8f6110 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -44066,7 +44066,7 @@ add_requires("xlnt")
 | -- | -- |
 | Homepage | [https://github.com/brechtsanders/xlsxio](https://github.com/brechtsanders/xlsxio) |
 | License | MIT |
-| Versions | 0.2.34, 0.2.35, 0.2.36 |
+| Versions | 0.2.34, 0.2.35, 0.2.36, 0.2.37 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [xlsxio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlsxio/xmake.lua) |
 

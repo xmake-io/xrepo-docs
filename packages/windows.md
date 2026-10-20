@@ -40122,7 +40122,7 @@ add_requires("xlnt")
 | -- | -- |
 | Homepage | [https://github.com/brechtsanders/xlsxio](https://github.com/brechtsanders/xlsxio) |
 | License | MIT |
-| Versions | 0.2.34, 0.2.35, 0.2.36 |
+| Versions | 0.2.34, 0.2.35, 0.2.36, 0.2.37 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [xlsxio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/x/xlsxio/xmake.lua) |
 
