@@ -225,7 +225,7 @@ add_requires("actor-framework")
 | -- | -- |
 | Homepage | [https://www.ada-url.com](https://www.ada-url.com) |
 | License | Apache-2.0 |
-| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0, v3.4.1, v3.4.2, v3.4.3, v3.4.4 |
+| Versions | v2.3.1, v2.4.0, v2.4.1, v2.7.6, v2.7.7, v2.7.8, v2.8.0, v2.9.0, v2.9.1, v2.9.2, v3.0.1, v3.1.3, v3.2.1, v3.2.2, v3.2.3, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.3.0, v3.4.1, v3.4.2, v3.4.3, v3.4.4, v4.0.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [ada/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/ada/xmake.lua) |
 
@@ -19180,7 +19180,7 @@ add_requires("libidn2")
 | -- | -- |
 | Homepage | [https://libigl.github.io/](https://libigl.github.io/) |
 | License | MPL-2.0 |
-| Versions | v2.2.0, v2.3.0, v2.4.0, v2.5.0, v2.6.0 |
+| Versions | v2.2.0, v2.3.0, v2.4.0, v2.5.0, v2.6.0, v2.6.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [libigl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libigl/xmake.lua) |
 
@@ -20344,7 +20344,7 @@ add_requires("libopusfile")
 | -- | -- |
 | Homepage | [https://openquantumsafe.org](https://openquantumsafe.org) |
 | License | MIT |
-| Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0, 0.14.0, 0.15.0 |
+| Versions | 0.10.1, 0.11.0, 0.12.0, 0.13.0, 0.14.0, 0.15.0, 0.16.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [liboqs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/liboqs/xmake.lua) |
 
@@ -34638,7 +34638,7 @@ add_requires("range-v3")
 | -- | -- |
 | Homepage | [https://github.com/d99kris/rapidcsv](https://github.com/d99kris/rapidcsv) |
 | License | BSD-3-Clause |
-| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87, v8.88, v8.89, v8.90, v8.92 |
+| Versions | v8.50, v8.80, v8.82, v8.83, v8.84, v8.85, v8.87, v8.88, v8.89, v8.90, v8.92, v9.07 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [rapidcsv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rapidcsv/xmake.lua) |
 
@@ -43378,7 +43378,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55ce9f8f6110 |
+| License | table: 0x55a57c8a57b0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -44808,7 +44808,7 @@ add_requires("yxml")
 | -- | -- |
 | Homepage | [https://github.com/ibireme/yyjson](https://github.com/ibireme/yyjson) |
 | License | MIT |
-| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1, 0.8.0, 0.9.0, 0.10.0, 0.11.1, 0.12.0 |
+| Versions | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1, 0.8.0, 0.9.0, 0.10.0, 0.11.1, 0.12.0, 0.13.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [yyjson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yyjson/xmake.lua) |
 
