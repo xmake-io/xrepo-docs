@@ -5825,7 +5825,7 @@ add_requires("dipp")
 | -- | -- |
 | Homepage | [https://github.com/facebookincubator/dispenso](https://github.com/facebookincubator/dispenso) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0 |
+| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.6.2 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [dispenso/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dispenso/xmake.lua) |
 

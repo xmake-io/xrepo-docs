@@ -7661,7 +7661,7 @@ add_requires("discord")
 | -- | -- |
 | Homepage | [https://github.com/facebookincubator/dispenso](https://github.com/facebookincubator/dispenso) |
 | License | MIT |
-| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0 |
+| Versions | v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.6.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [dispenso/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dispenso/xmake.lua) |
 
@@ -40052,7 +40052,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55a57c8a57b0 |
+| License | table: 0x5621003020c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
