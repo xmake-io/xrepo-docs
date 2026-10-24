@@ -11811,7 +11811,7 @@ add_requires("json-c")
 | -- | -- |
 | Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
 | License | MIT |
-| Versions | 2.1.0, 2.3.0, 2.4.0 |
+| Versions | 2.1.0, 2.3.0, 2.4.0, 2.4.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
 
@@ -21413,7 +21413,7 @@ add_requires("ormpp")
 | Description | *Orocos Kinematics and Dynamics C++ library* |
 | -- | -- |
 | Homepage | [https://www.orocos.org/](https://www.orocos.org/) |
-| Versions | 1.5.3 |
+| Versions | 1.5.3, 1.5.4 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [orocos-kdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orocos-kdl/xmake.lua) |
 

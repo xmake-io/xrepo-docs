@@ -5819,7 +5819,7 @@ add_requires("cppad")
 | Description | *A static analysis tool for C/C++ code* |
 | -- | -- |
 | Homepage | [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/) |
-| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3, 2.19.1, 2.20.0, 2.20.1, 2.21.1 |
+| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3, 2.19.1, 2.20.0, 2.20.1, 2.21.1, 2.22.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cppcheck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcheck/xmake.lua) |
 
@@ -15006,7 +15006,7 @@ add_requires("json-c")
 | -- | -- |
 | Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
 | License | MIT |
-| Versions | 2.1.0, 2.3.0, 2.4.0 |
+| Versions | 2.1.0, 2.3.0, 2.4.0, 2.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
 
@@ -28609,7 +28609,7 @@ add_requires("ormpp")
 | Description | *Orocos Kinematics and Dynamics C++ library* |
 | -- | -- |
 | Homepage | [https://www.orocos.org/](https://www.orocos.org/) |
-| Versions | 1.5.3 |
+| Versions | 1.5.3, 1.5.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [orocos-kdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orocos-kdl/xmake.lua) |
 
@@ -40052,7 +40052,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f280ba2af0 |
+| License | table: 0x58160d7a6c00 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

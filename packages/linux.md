@@ -6248,7 +6248,7 @@ add_requires("cppast")
 | Description | *A static analysis tool for C/C++ code* |
 | -- | -- |
 | Homepage | [https://cppcheck.sourceforge.io/](https://cppcheck.sourceforge.io/) |
-| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3, 2.19.1, 2.20.0, 2.20.1, 2.21.1 |
+| Versions | 2.13.0, 2.13.4, 2.14.1, 2.14.2, 2.15.0, 2.16.2, 2.17.1, 2.18.0, 2.18.1, 2.18.3, 2.19.1, 2.20.0, 2.20.1, 2.21.1, 2.22.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [cppcheck/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cppcheck/xmake.lua) |
 
@@ -16126,7 +16126,7 @@ add_requires("json-glib")
 | -- | -- |
 | Homepage | [https://github.com/pboettch/json-schema-validator](https://github.com/pboettch/json-schema-validator) |
 | License | MIT |
-| Versions | 2.1.0, 2.3.0, 2.4.0 |
+| Versions | 2.1.0, 2.3.0, 2.4.0, 2.4.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [json-schema-validator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/json-schema-validator/xmake.lua) |
 
@@ -31032,7 +31032,7 @@ add_requires("ormpp")
 | Description | *Orocos Kinematics and Dynamics C++ library* |
 | -- | -- |
 | Homepage | [https://www.orocos.org/](https://www.orocos.org/) |
-| Versions | 1.5.3 |
+| Versions | 1.5.3, 1.5.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [orocos-kdl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/orocos-kdl/xmake.lua) |
 
@@ -43118,7 +43118,7 @@ add_requires("wayland")
 | -- | -- |
 | Homepage | [https://wayland.freedesktop.org](https://wayland.freedesktop.org) |
 | License | MIT |
-| Versions | 1.24, 1.25, 1.26, 1.27, 1.28, 1.29, 1.30, 1.31, 1.32, 1.39, 1.42, 1.43, 1.44, 1.45, 1.46, 1.47, 1.48 |
+| Versions | 1.24, 1.25, 1.26, 1.27, 1.28, 1.29, 1.30, 1.31, 1.32, 1.39, 1.42, 1.43, 1.44, 1.45, 1.46, 1.47, 1.48, 1.49 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wayland-protocols/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wayland-protocols/xmake.lua) |
 
@@ -43378,7 +43378,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x55f280ba2af0 |
+| License | table: 0x58160d7a6c00 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
