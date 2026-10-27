@@ -4148,7 +4148,7 @@ add_requires("cartographer")
 | -- | -- |
 | Homepage | [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2) |
 | License | BSL-1.0 |
-| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0, v3.14.0, v3.15.0, v3.15.1, v3.15.2, v3.16.0 |
+| Versions | v2.9.2, v2.13.5, v2.13.6, v2.13.7, v2.13.8, v2.13.9, v2.13.10, v3.1.0, v3.1.1, v3.2.0, v3.2.1, v3.3.2, v3.4.0, v3.5.0, v3.5.1, v3.5.2, v3.5.3, v3.5.4, v3.6.0, v3.7.0, v3.7.1, v3.8.0, v3.8.1, v3.9.0, v3.10.0, v3.11.0, v3.12.0, v3.13.0, v3.14.0, v3.15.0, v3.15.1, v3.15.2, v3.16.0, v3.16.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [catch2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/catch2/xmake.lua) |
 
@@ -4195,7 +4195,7 @@ add_requires("caudio")
 | -- | -- |
 | Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
 | License | MPL-2.0 |
-| Versions | 1.4.1, 1.4.4, 1.4.5, 2.0.0 |
+| Versions | 1.4.1, 1.4.4, 1.4.5, 2.0.0, 2.0.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
 
@@ -9956,7 +9956,7 @@ add_requires("faac")
 | -- | -- |
 | Homepage | [https://sourceforge.net/projects/faac/](https://sourceforge.net/projects/faac/) |
 | License | GPL-2.0 |
-| Versions | 2.10.0, 2.11.2, 2.11.3 |
+| Versions | 2.10.0, 2.11.2, 2.11.3, 2.11.4 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [faad2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/faad2/xmake.lua) |
 
@@ -15119,7 +15119,7 @@ add_requires("implot")
 | -- | -- |
 | Homepage | [https://github.com/brenocq/implot3d](https://github.com/brenocq/implot3d) |
 | License | MIT |
-| Versions | v0.2, v0.3, v0.4 |
+| Versions | v0.2, v0.3, v0.4, v0.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [implot3d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/implot3d/xmake.lua) |
 
@@ -41706,7 +41706,7 @@ add_requires("unzip")
 | -- | -- |
 | Homepage | [https://upa-url.github.io/docs/](https://upa-url.github.io/docs/) |
 | License | BSD-2-Clause |
-| Versions | v1.0.0, v1.0.1, v1.0.2, v1.2.0, v2.0.0, v2.1.0, v2.2.0, v2.3.0, v2.4.0, v2.5.0 |
+| Versions | v1.0.0, v1.0.1, v1.0.2, v1.2.0, v2.0.0, v2.1.0, v2.2.0, v2.3.0, v2.4.0, v2.5.0, v2.6.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [upa-url/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/upa-url/xmake.lua) |
 
@@ -43378,7 +43378,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5ff17408bf90 |
+| License | table: 0x6449432efcc0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -44570,7 +44570,7 @@ add_requires("yalantinglibs")
 | -- | -- |
 | Homepage | [https://github.com/jbeder/yaml-cpp/](https://github.com/jbeder/yaml-cpp/) |
 | License | MIT |
-| Versions | 0.6.3, 0.7.0, 0.8.0 |
+| Versions | 0.6.3, 0.7.0, 0.8.0, 0.9.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [yaml-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yaml-cpp/xmake.lua) |
 
