@@ -26048,6 +26048,30 @@ add_requires("neargye-scope_guard")
 ```
 
 
+### nepdate (macosx)
+
+
+| Description | *Bikram Sambat (Nepali calendar) dates for C++20, with an optional patro library for tithi, public holidays and events.* |
+| -- | -- |
+| Homepage | [https://github.com/sanamhub/nepdate-cpp](https://github.com/sanamhub/nepdate-cpp) |
+| License | MIT |
+| Versions | 0.1.0-beta.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [nepdate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nepdate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install nepdate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nepdate")
+```
+
+
 ### netcdf-c (macosx)
 
 
@@ -40052,7 +40076,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x57f44fa78250 |
+| License | table: 0x5625aaa1c730 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

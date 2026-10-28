@@ -18225,6 +18225,30 @@ add_requires("neargye-scope_guard")
 ```
 
 
+### nepdate (cross)
+
+
+| Description | *Bikram Sambat (Nepali calendar) dates for C++20, with an optional patro library for tithi, public holidays and events.* |
+| -- | -- |
+| Homepage | [https://github.com/sanamhub/nepdate-cpp](https://github.com/sanamhub/nepdate-cpp) |
+| License | MIT |
+| Versions | 0.1.0-beta.1 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [nepdate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nepdate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] nepdate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nepdate")
+```
+
+
 ### nettle (cross)
 
 

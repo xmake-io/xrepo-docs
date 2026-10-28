@@ -17271,6 +17271,30 @@ add_requires("neco")
 ```
 
 
+### nepdate (iphoneos)
+
+
+| Description | *Bikram Sambat (Nepali calendar) dates for C++20, with an optional patro library for tithi, public holidays and events.* |
+| -- | -- |
+| Homepage | [https://github.com/sanamhub/nepdate-cpp](https://github.com/sanamhub/nepdate-cpp) |
+| License | MIT |
+| Versions | 0.1.0-beta.1 |
+| Architectures | arm64, x86_64 |
+| Definition | [nepdate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nepdate/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos nepdate
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("nepdate")
+```
+
+
 ### nettle (iphoneos)
 
 
