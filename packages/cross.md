@@ -15434,6 +15434,29 @@ add_requires("llhttp")
 ```
 
 
+### llvm (cross)
+
+
+| Description | *The LLVM Compiler Infrastructure* |
+| -- | -- |
+| Homepage | [https://llvm.org/](https://llvm.org/) |
+| Versions |  |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] llvm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llvm")
+```
+
+
 ### llvm-arm (cross)
 
 

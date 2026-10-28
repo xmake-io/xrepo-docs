@@ -12976,6 +12976,29 @@ add_requires("llhttp")
 ```
 
 
+### llvm (wasm)
+
+
+| Description | *The LLVM Compiler Infrastructure* |
+| -- | -- |
+| Homepage | [https://llvm.org/](https://llvm.org/) |
+| Versions |  |
+| Architectures | wasm32, wasm64 |
+| Definition | [llvm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llvm/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm llvm
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llvm")
+```
+
+
 ### llvm-arm (wasm)
 
 
