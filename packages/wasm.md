@@ -8236,6 +8236,30 @@ add_requires("hiredis-vip")
 ```
 
 
+### hnswlib (wasm)
+
+
+| Description | *Header-only C++/python library for fast approximate nearest neighbors* |
+| -- | -- |
+| Homepage | [https://github.com/nmslib/hnswlib](https://github.com/nmslib/hnswlib) |
+| License | Apache-2.0 |
+| Versions | v0.9.0 |
+| Architectures | wasm32, wasm64 |
+| Definition | [hnswlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hnswlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p wasm hnswlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hnswlib")
+```
+
+
 ### hopscotch-map (wasm)
 
 

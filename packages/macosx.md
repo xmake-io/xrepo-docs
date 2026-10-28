@@ -13345,6 +13345,30 @@ add_requires("hlslpp")
 ```
 
 
+### hnswlib (macosx)
+
+
+| Description | *Header-only C++/python library for fast approximate nearest neighbors* |
+| -- | -- |
+| Homepage | [https://github.com/nmslib/hnswlib](https://github.com/nmslib/hnswlib) |
+| License | Apache-2.0 |
+| Versions | v0.9.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [hnswlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hnswlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hnswlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hnswlib")
+```
+
+
 ### hopscotch-map (macosx)
 
 
@@ -40076,7 +40100,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5625aaa1c730 |
+| License | table: 0x5e836d41ad90 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

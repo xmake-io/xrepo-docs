@@ -9529,6 +9529,30 @@ add_requires("hlslpp")
 ```
 
 
+### hnswlib (bsd)
+
+
+| Description | *Header-only C++/python library for fast approximate nearest neighbors* |
+| -- | -- |
+| Homepage | [https://github.com/nmslib/hnswlib](https://github.com/nmslib/hnswlib) |
+| License | Apache-2.0 |
+| Versions | v0.9.0 |
+| Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
+| Definition | [hnswlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hnswlib/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install hnswlib
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("hnswlib")
+```
+
+
 ### hopscotch-map (bsd)
 
 
