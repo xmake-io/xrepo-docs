@@ -25826,6 +25826,30 @@ add_requires("strtk")
 ```
 
 
+### structural_interface (android)
+
+
+| Description | *Header-only C++26 library for structural interfaces and type erasure* |
+| -- | -- |
+| Homepage | [https://github.com/Maltose0118/structural_interface](https://github.com/Maltose0118/structural_interface) |
+| License | MIT |
+| Versions | 0.1.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [structural_interface/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/structural_interface/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] structural_interface
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("structural_interface")
+```
+
+
 ### stv (android)
 
 

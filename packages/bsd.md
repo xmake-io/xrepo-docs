@@ -25719,6 +25719,30 @@ add_requires("strtk")
 ```
 
 
+### structural_interface (bsd)
+
+
+| Description | *Header-only C++26 library for structural interfaces and type erasure* |
+| -- | -- |
+| Homepage | [https://github.com/Maltose0118/structural_interface](https://github.com/Maltose0118/structural_interface) |
+| License | MIT |
+| Versions | 0.1.0 |
+| Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
+| Definition | [structural_interface/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/structural_interface/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install structural_interface
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("structural_interface")
+```
+
+
 ### stv (bsd)
 
 
