@@ -27847,7 +27847,7 @@ add_requires("ozz-animation")
 | -- | -- |
 | Homepage | [https://github.com/TabNahida/PACE](https://github.com/TabNahida/PACE) |
 | License | MIT |
-| Versions | 0.3.0 |
+| Versions | 0.3.0, 0.3.1, 0.4.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [pace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pace/xmake.lua) |
 
