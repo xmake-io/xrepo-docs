@@ -4722,7 +4722,7 @@ add_requires("cr")
 | -- | -- |
 | Homepage | [https://github.com/keithpotz/CrashCatch](https://github.com/keithpotz/CrashCatch) |
 | License | MIT |
-| Versions | 1.3.0, 1.4.0, 1.5.0 |
+| Versions | 1.3.0, 1.4.0, 1.5.0, 1.6.0 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [crashcatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crashcatch/xmake.lua) |
 

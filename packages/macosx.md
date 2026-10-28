@@ -28844,6 +28844,30 @@ add_requires("p11-kit")
 ```
 
 
+### pace (macosx)
+
+
+| Description | *Parallel Async Coroutine Engine: C++20 coroutine networking from sockets to HTTP/3.* |
+| -- | -- |
+| Homepage | [https://github.com/TabNahida/PACE](https://github.com/TabNahida/PACE) |
+| License | MIT |
+| Versions | 0.3.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [pace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pace")
+```
+
+
 ### pagmo (macosx)
 
 
@@ -40100,7 +40124,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5c9759a25110 |
+| License | table: 0x56c044b897c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

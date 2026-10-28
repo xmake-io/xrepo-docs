@@ -4745,7 +4745,7 @@ add_requires("cpuinfo")
 | -- | -- |
 | Homepage | [https://github.com/keithpotz/CrashCatch](https://github.com/keithpotz/CrashCatch) |
 | License | MIT |
-| Versions | 1.3.0, 1.4.0, 1.5.0 |
+| Versions | 1.3.0, 1.4.0, 1.5.0, 1.6.0 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [crashcatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crashcatch/xmake.lua) |
 
@@ -20606,6 +20606,30 @@ xrepo install p11-kit
 
 ```lua
 add_requires("p11-kit")
+```
+
+
+### pace (bsd)
+
+
+| Description | *Parallel Async Coroutine Engine: C++20 coroutine networking from sockets to HTTP/3.* |
+| -- | -- |
+| Homepage | [https://github.com/TabNahida/PACE](https://github.com/TabNahida/PACE) |
+| License | MIT |
+| Versions | 0.3.0 |
+| Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
+| Definition | [pace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pace")
 ```
 
 

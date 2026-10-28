@@ -6224,7 +6224,7 @@ add_requires("cr")
 | -- | -- |
 | Homepage | [https://github.com/keithpotz/CrashCatch](https://github.com/keithpotz/CrashCatch) |
 | License | MIT |
-| Versions | 1.3.0, 1.4.0, 1.5.0 |
+| Versions | 1.3.0, 1.4.0, 1.5.0, 1.6.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [crashcatch/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/crashcatch/xmake.lua) |
 
@@ -27840,6 +27840,30 @@ add_requires("ozz-animation")
 
 
 ## p
+### pace (windows)
+
+
+| Description | *Parallel Async Coroutine Engine: C++20 coroutine networking from sockets to HTTP/3.* |
+| -- | -- |
+| Homepage | [https://github.com/TabNahida/PACE](https://github.com/TabNahida/PACE) |
+| License | MIT |
+| Versions | 0.3.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [pace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pace/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install pace
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("pace")
+```
+
+
 ### pagmo (windows)
 
 
