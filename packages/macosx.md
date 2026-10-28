@@ -32625,7 +32625,7 @@ add_requires("rest_rpc")
 | -- | -- |
 | Homepage | [https://github.com/Stiffstream/restinio](https://github.com/Stiffstream/restinio) |
 | License | BSD-3-Clause |
-| Versions | 0.6.17, 0.6.18, 0.6.19 |
+| Versions | 0.6.17, 0.6.18, 0.6.19, 0.7.0, 0.7.10 |
 | Architectures | arm64, x86_64 |
 | Definition | [restinio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/restinio/xmake.lua) |
 
@@ -40052,7 +40052,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5765429396e0 |
+| License | table: 0x57f44fa78250 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

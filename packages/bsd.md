@@ -23147,7 +23147,7 @@ add_requires("resiprocate")
 | -- | -- |
 | Homepage | [https://github.com/Stiffstream/restinio](https://github.com/Stiffstream/restinio) |
 | License | BSD-3-Clause |
-| Versions | 0.6.17, 0.6.18, 0.6.19 |
+| Versions | 0.6.17, 0.6.18, 0.6.19, 0.7.0, 0.7.10 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [restinio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/restinio/xmake.lua) |
 
