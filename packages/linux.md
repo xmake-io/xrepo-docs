@@ -14639,7 +14639,7 @@ add_requires("icbc")
 
 | Description | *C++20 media stack for real-time video, signalling, TURN, and media servers* |
 | -- | -- |
-| Homepage | [https://0state.com/icey/](https://0state.com/icey/) |
+| Homepage | [https://auscaster.com/icey/](https://auscaster.com/icey/) |
 | License | LGPL-2.1-or-later |
 | Versions | 2.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
@@ -20559,7 +20559,7 @@ add_requires("libpciaccess")
 | -- | -- |
 | Homepage | [https://pcsclite.apdu.fr/](https://pcsclite.apdu.fr/) |
 | License | BSD-3-Clause |
-| Versions | 2.3.3, 2.4.1, 2.5.1, 2.5.2 |
+| Versions | 2.3.3, 2.4.1, 2.5.1, 2.5.2, 2.5.3 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [libpcsclite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpcsclite/xmake.lua) |
 
@@ -34926,7 +34926,7 @@ add_requires("raygui")
 | -- | -- |
 | Homepage | [https://www.raylib.com/](https://www.raylib.com/) |
 | License | zlib |
-| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0, 6.2 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
@@ -38169,7 +38169,7 @@ add_requires("spot")
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
 | License | BSD-3-Clause |
-| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0, 4.16.0, 4.17.0, 4.19.0 |
+| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0, 4.16.0, 4.17.0, 4.19.0, 4.20.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 
@@ -43474,7 +43474,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5a7cc009c290 |
+| License | table: 0x5cf6f221eeb0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

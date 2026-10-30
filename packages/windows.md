@@ -10390,7 +10390,7 @@ add_requires("floatengine")
 | -- | -- |
 | Homepage | [https://www.raylib.com/](https://www.raylib.com/) |
 | License | zlib |
-| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0, 6.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [fls-float-raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fls-float-raylib/xmake.lua) |
 
@@ -13854,7 +13854,7 @@ add_requires("icbc")
 
 | Description | *C++20 media stack for real-time video, signalling, TURN, and media servers* |
 | -- | -- |
-| Homepage | [https://0state.com/icey/](https://0state.com/icey/) |
+| Homepage | [https://auscaster.com/icey/](https://auscaster.com/icey/) |
 | License | LGPL-2.1-or-later |
 | Versions | 2.5.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
@@ -31309,7 +31309,7 @@ add_requires("raygui")
 | -- | -- |
 | Homepage | [https://www.raylib.com/](https://www.raylib.com/) |
 | License | zlib |
-| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0, 6.2 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
@@ -34316,7 +34316,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
 | License | BSD-3-Clause |
-| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0, 4.16.0, 4.17.0, 4.19.0 |
+| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0, 4.16.0, 4.17.0, 4.19.0, 4.20.0 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 

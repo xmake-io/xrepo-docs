@@ -9244,7 +9244,7 @@ add_requires("hyprwayland-scanner")
 
 | Description | *C++20 media stack for real-time video, signalling, TURN, and media servers* |
 | -- | -- |
-| Homepage | [https://0state.com/icey/](https://0state.com/icey/) |
+| Homepage | [https://auscaster.com/icey/](https://auscaster.com/icey/) |
 | License | LGPL-2.1-or-later |
 | Versions | 2.5.1 |
 | Architectures | arm64, x86_64 |
@@ -23563,7 +23563,7 @@ add_requires("spirv-tools")
 | -- | -- |
 | Homepage | [https://www.zetetic.net/sqlcipher/](https://www.zetetic.net/sqlcipher/) |
 | License | BSD-3-Clause |
-| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0, 4.16.0, 4.17.0, 4.19.0 |
+| Versions | 4.5.3, 4.6.0, 4.12.0, 4.13.0, 4.14.0, 4.16.0, 4.17.0, 4.19.0, 4.20.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [sqlcipher/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/sqlcipher/xmake.lua) |
 

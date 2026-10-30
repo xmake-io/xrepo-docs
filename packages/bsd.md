@@ -9703,7 +9703,7 @@ add_requires("hyprwayland-scanner")
 
 | Description | *C++20 media stack for real-time video, signalling, TURN, and media servers* |
 | -- | -- |
-| Homepage | [https://0state.com/icey/](https://0state.com/icey/) |
+| Homepage | [https://auscaster.com/icey/](https://auscaster.com/icey/) |
 | License | LGPL-2.1-or-later |
 | Versions | 2.5.1 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
@@ -13461,7 +13461,7 @@ add_requires("libpciaccess")
 | -- | -- |
 | Homepage | [https://pcsclite.apdu.fr/](https://pcsclite.apdu.fr/) |
 | License | BSD-3-Clause |
-| Versions | 2.3.3, 2.4.1, 2.5.1, 2.5.2 |
+| Versions | 2.3.3, 2.4.1, 2.5.1, 2.5.2, 2.5.3 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [libpcsclite/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libpcsclite/xmake.lua) |
 

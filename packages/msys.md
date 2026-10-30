@@ -9556,7 +9556,7 @@ add_requires("hyprwayland-scanner")
 
 | Description | *C++20 media stack for real-time video, signalling, TURN, and media servers* |
 | -- | -- |
-| Homepage | [https://0state.com/icey/](https://0state.com/icey/) |
+| Homepage | [https://auscaster.com/icey/](https://auscaster.com/icey/) |
 | License | LGPL-2.1-or-later |
 | Versions | 2.5.1 |
 | Architectures | i386, x86_64 |

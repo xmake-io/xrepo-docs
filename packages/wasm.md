@@ -19265,7 +19265,7 @@ add_requires("raw_pdb")
 | -- | -- |
 | Homepage | [https://www.raylib.com/](https://www.raylib.com/) |
 | License | zlib |
-| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0 |
+| Versions | 2.5.0, 3.0.0, 3.5.0, 3.7.0, 4.0.0, 4.2.0, 4.5.0, 5.0, 5.5, 6.0, 6.2 |
 | Architectures | wasm32, wasm64 |
 | Definition | [raylib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/raylib/xmake.lua) |
 
