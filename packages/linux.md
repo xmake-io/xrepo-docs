@@ -5717,11 +5717,11 @@ add_requires("convertutf")
 ### coost (linux)
 
 
-| Description | *A tiny boost library in C++11.* |
+| Description | *A tiny boost library in C++.* |
 | -- | -- |
 | Homepage | [https://github.com/idealvin/coost](https://github.com/idealvin/coost) |
 | License | MIT |
-| Versions | v3.0.0, v3.0.1, v3.0.2 |
+| Versions | v3.0.0, v3.0.1, v3.0.2, v4.0.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [coost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coost/xmake.lua) |
 
@@ -34998,7 +34998,7 @@ add_requires("rcmp")
 | -- | -- |
 | Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
 | License | BSD-3-Clause |
-| Versions | v4.3.0, v4.4.0, v4.5.0, v5.0.1, v5.2.2, v5.3.0, v6.0.0, v6.1.0, v6.2.0 |
+| Versions | v4.3.0, v4.4.0, v4.5.0, v5.0.1, v5.2.2, v5.3.0, v6.0.0, v6.1.0, v6.2.0, v6.5.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
 
@@ -35761,7 +35761,7 @@ add_requires("rocket")
 | -- | -- |
 | Homepage | [https://rocksdb.org](https://rocksdb.org) |
 | License | Apache-2.0 |
-| Versions | v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5, v10.9.1, v10.10.1, v11.0.4, v11.1.1, v11.1.2 |
+| Versions | v9.0.0, v9.1.1, v9.2.1, v9.3.1, v9.4.0, v9.5.2, v9.6.1, v9.7.2, v9.7.3, v9.7.4, v9.9.3, v9.10.0, v9.11.2, v10.0.1, v10.4.2, v10.5.1, v10.7.5, v10.9.1, v10.10.1, v11.0.4, v11.1.1, v11.1.2, v11.12 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [rocksdb/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rocksdb/xmake.lua) |
 
@@ -43474,7 +43474,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x57842a3edd10 |
+| License | table: 0x608e9ccedbf0 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

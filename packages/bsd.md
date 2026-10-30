@@ -4139,6 +4139,30 @@ add_requires("convertutf")
 ```
 
 
+### coost (bsd)
+
+
+| Description | *A tiny boost library in C++.* |
+| -- | -- |
+| Homepage | [https://github.com/idealvin/coost](https://github.com/idealvin/coost) |
+| License | MIT |
+| Versions | v3.0.0, v3.0.1, v3.0.2, v4.0.1 |
+| Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
+| Definition | [coost/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/coost/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install coost
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("coost")
+```
+
+
 ### cosmocc (bsd)
 
 
@@ -22883,7 +22907,7 @@ add_requires("raw_pdb")
 | -- | -- |
 | Homepage | [https://www.genivia.com/doc/reflex/html](https://www.genivia.com/doc/reflex/html) |
 | License | BSD-3-Clause |
-| Versions | v4.3.0, v4.4.0, v4.5.0, v5.0.1, v5.2.2, v5.3.0, v6.0.0, v6.1.0, v6.2.0 |
+| Versions | v4.3.0, v4.4.0, v4.5.0, v5.0.1, v5.2.2, v5.3.0, v6.0.0, v6.1.0, v6.2.0, v6.5.0 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [re-flex/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/re-flex/xmake.lua) |
 
