@@ -39359,7 +39359,7 @@ add_requires("verdict")
 | -- | -- |
 | Homepage | [https://verilator.org](https://verilator.org) |
 | License | LGPL-3.0 |
-| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042, v5.044, v5.046, v5.048, v5.050, v5.052 |
+| Versions | v5.016, v5.032, v5.034, v5.036, v5.038, v5.042, v5.044, v5.046, v5.048, v5.050, v5.052, v5.054 |
 | Architectures | arm64, x86_64 |
 | Definition | [verilator/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/verilator/xmake.lua) |
 
@@ -40148,7 +40148,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5b2784cb2e10 |
+| License | table: 0x5abf34715c10 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
