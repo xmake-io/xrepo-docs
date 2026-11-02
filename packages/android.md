@@ -11879,7 +11879,7 @@ add_requires("libc++")
 | -- | -- |
 | Homepage | [https://github.com/PJK/libcbor](https://github.com/PJK/libcbor) |
 | License | MIT |
-| Versions | v0.11.0, v0.12.0, v0.13.0 |
+| Versions | v0.11.0, v0.12.0, v0.13.0, v0.14.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libcbor/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libcbor/xmake.lua) |
 
@@ -14318,7 +14318,7 @@ add_requires("libsodium")
 | -- | -- |
 | Homepage | [https://github.com/openSUSE/libsolv](https://github.com/openSUSE/libsolv) |
 | License | BSD-3-Clause |
-| Versions | 0.7.34, 0.7.35, 0.7.36, 0.7.37, 0.7.39 |
+| Versions | 0.7.34, 0.7.35, 0.7.36, 0.7.37, 0.7.39, 0.7.41 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libsolv/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsolv/xmake.lua) |
 
@@ -16081,7 +16081,7 @@ add_requires("lz4")
 | -- | -- |
 | Homepage | [https://github.com/avaneev/lzav](https://github.com/avaneev/lzav) |
 | License | MIT |
-| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4, 5.5, 5.8, 5.9, 5.17 |
+| Versions | 2.14, 4.0, 4.3, 4.4, 4.5, 4.7, 4.9, 4.19, 4.23, 5.3, 5.4, 5.5, 5.8, 5.9, 5.17, 5.20 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [lzav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lzav/xmake.lua) |
 
@@ -19905,7 +19905,7 @@ add_requires("openh264")
 | -- | -- |
 | Homepage | [https://github.com/aous72/OpenJPH](https://github.com/aous72/OpenJPH) |
 | License | BSD-2-Clause |
-| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1, 0.29.0, 0.30.1, 0.31.0 |
+| Versions | 0.24.1, 0.24.2, 0.25.2, 0.26.0, 0.26.1, 0.26.2, 0.26.3, 0.27.0, 0.27.1, 0.27.2, 0.27.3, 0.27.4, 0.28.1, 0.29.0, 0.30.1, 0.31.0, 0.32.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [openjph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openjph/xmake.lua) |
 
@@ -29786,7 +29786,7 @@ add_requires("yaml_cpp_struct")
 | -- | -- |
 | Homepage | [https://virustotal.github.io/yara/](https://virustotal.github.io/yara/) |
 | License | BSD-3-Clause |
-| Versions | 4.5.8 |
+| Versions | 4.5.8, 4.6.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [yara/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/y/yara/xmake.lua) |
 
