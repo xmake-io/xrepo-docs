@@ -1376,7 +1376,7 @@ add_requires("aws-c-http")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-io](https://github.com/awslabs/aws-c-io) |
 | License | Apache-2.0 |
-| Versions | v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.27.6, v1.0.0, v1.1.0 |
+| Versions | v0.14.5, v0.14.6, v0.14.7, v0.14.8, v0.14.9, v0.14.13, v0.14.14, v0.14.16, v0.14.18, v0.14.19, v0.15.0, v0.15.1, v0.15.3, v0.17.0, v0.18.0, v0.18.1, v0.19.1, v0.20.1, v0.21.0, v0.21.1, v0.21.2, v0.22.0, v0.23.2, v0.23.3, v0.26.0, v0.26.1, v0.26.3, v0.27.0, v0.27.2, v0.27.4, v0.27.5, v0.27.6, v1.0.0, v1.1.0, v1.1.2 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-io/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-io/xmake.lua) |
 
@@ -6852,7 +6852,7 @@ add_requires("exosip")
 | -- | -- |
 | Homepage | [https://libexpat.github.io](https://libexpat.github.io) |
 | License | MIT |
-| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1, 2.8.4, 2.9.0 |
+| Versions | 2.2.6, 2.2.10, 2.3.0, 2.4.1, 2.4.5, 2.4.7, 2.4.8, 2.5.0, 2.6.2, 2.6.3, 2.6.4, 2.7.1, 2.7.3, 2.7.4, 2.8.1, 2.8.4, 2.9.0, 2.10.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [expat/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/expat/xmake.lua) |
 
@@ -7236,7 +7236,7 @@ add_requires("fastcppcsvparser")
 | -- | -- |
 | Homepage | [https://github.com/lemire/fastmod](https://github.com/lemire/fastmod) |
 | License | Apache-2.0 |
-| Versions | v0.1.0 |
+| Versions | v0.1.0, v0.2.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [fastmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastmod/xmake.lua) |
 
@@ -7619,7 +7619,7 @@ add_requires("flatcc")
 | -- | -- |
 | Homepage | [https://github.com/SanderMertens/flecs](https://github.com/SanderMertens/flecs) |
 | License | MIT |
-| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10, v3.2.11, v3.2.12, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.1.0, v4.1.1, v4.1.2, v4.1.4, v4.1.5, v4.1.6 |
+| Versions | v2.4.8, v3.0.0, v3.2.4, v3.2.5, v3.2.6, v3.2.7, v3.2.8, v3.2.9, v3.2.10, v3.2.11, v3.2.12, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.1.0, v4.1.1, v4.1.2, v4.1.4, v4.1.5, v4.1.6, v4.2.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [flecs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/flecs/xmake.lua) |
 
@@ -7786,7 +7786,7 @@ add_requires("fpm")
 | -- | -- |
 | Homepage | [https://www.freerdp.com/](https://www.freerdp.com/) |
 | License | Apache-2.0 |
-| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0, 3.26.0, 3.27.1, 3.29.0, 3.30.0, 3.32.2 |
+| Versions | 3.15.0, 3.16.0, 3.17.2, 3.18.0, 3.19.1, 3.20.0, 3.21.0, 3.22.0, 3.23.0, 3.24.0, 3.25.0, 3.26.0, 3.27.1, 3.29.0, 3.30.0, 3.32.2, 3.33.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [freerdp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/freerdp/xmake.lua) |
 
@@ -13839,7 +13839,7 @@ add_requires("librttopo")
 | -- | -- |
 | Homepage | [https://github.com/IlyaGrebnov/libsais](https://github.com/IlyaGrebnov/libsais) |
 | License | Apache-2.0 |
-| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3, v2.8.4, v2.8.7, v2.10.0, v2.10.1, v2.10.2, v2.10.3, v2.10.4 |
+| Versions | v2.7.1, v2.7.3, v2.7.5, v2.8.0, v2.8.1, v2.8.2, v2.8.3, v2.8.4, v2.8.7, v2.10.0, v2.10.1, v2.10.2, v2.10.3, v2.10.4, v2.12.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libsais/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsais/xmake.lua) |
 
@@ -16057,7 +16057,7 @@ add_requires("lyra")
 | -- | -- |
 | Homepage | [https://www.lz4.org/](https://www.lz4.org/) |
 | License | BSD-2-Clause |
-| Versions | v1.9.3, v1.9.4, v1.10.0 |
+| Versions | v1.9.3, v1.9.4, v1.10.0, v1.11.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [lz4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lz4/xmake.lua) |
 
@@ -16655,7 +16655,7 @@ add_requires("mathter")
 | -- | -- |
 | Homepage | [https://matio.sourceforge.io](https://matio.sourceforge.io) |
 | License | BSD-2-Clause |
-| Versions | v1.5.26, v1.5.27, v1.5.28, v1.5.29, v1.5.30 |
+| Versions | v1.5.26, v1.5.27, v1.5.28, v1.5.29, v1.5.30, v1.6.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [matio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/matio/xmake.lua) |
 
@@ -17919,7 +17919,7 @@ add_requires("muda")
 | -- | -- |
 | Homepage | [https://mujoco.org/](https://mujoco.org/) |
 | License | Apache-2.0 |
-| Versions | 3.4.0, 3.12.0 |
+| Versions | 3.4.0, 3.12.0, 3.17.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [mujoco/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/mujoco/xmake.lua) |
 
