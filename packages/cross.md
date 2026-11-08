@@ -2761,7 +2761,7 @@ add_requires("bzip3")
 | -- | -- |
 | Homepage | [https://c-ares.org/](https://c-ares.org/) |
 | License | MIT |
-| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0, 1.32.2, 1.32.3, 1.33.0, 1.33.1, 1.34.1, 1.34.3, 1.34.4, 1.34.5, 1.34.6, 1.34.8 |
+| Versions | 1.16.1, 1.17.0, 1.17.1, 1.17.2, 1.18.0, 1.18.1, 1.19.0, 1.27.0, 1.28.1, 1.29.0, 1.30.0, 1.31.0, 1.32.2, 1.32.3, 1.33.0, 1.33.1, 1.34.1, 1.34.3, 1.34.4, 1.34.5, 1.34.6, 1.34.8, 1.34.9 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [c-ares/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/c-ares/xmake.lua) |
 
@@ -10397,7 +10397,7 @@ add_requires("ittapi")
 | -- | -- |
 | Homepage | [https://github.com/machinezone/IXWebSocket](https://github.com/machinezone/IXWebSocket) |
 | License | BSD-3-Clause |
-| Versions | v11.4.4, v11.4.5, v11.4.6, v12.0.0, v12.0.1 |
+| Versions | v11.4.4, v11.4.5, v11.4.6, v12.0.0, v12.0.1, v12.1.0 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [ixwebsocket/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/ixwebsocket/xmake.lua) |
 
@@ -10543,7 +10543,7 @@ add_requires("jpcre2")
 | -- | -- |
 | Homepage | [https://jrl-cmakemodules.readthedocs.io/en/master/](https://jrl-cmakemodules.readthedocs.io/en/master/) |
 | License | LGPL-3.0-or-later |
-| Versions | v1.1.2, v2.1.0, v2.3.0 |
+| Versions | v1.1.2, v2.1.0, v2.3.0, v2.4.0 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [jrl-cmakemodules/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jrl-cmakemodules/xmake.lua) |
 
@@ -11884,7 +11884,7 @@ add_requires("libdom")
 | -- | -- |
 | Homepage | [https://www.prevanders.net/dwarf.html](https://www.prevanders.net/dwarf.html) |
 | License | LGPL-2.1 |
-| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.3.2 |
+| Versions | 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.10.1, 0.11.0, 0.11.1, 0.12.0, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.3.2, 2.3.3 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [libdwarf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdwarf/xmake.lua) |
 
@@ -11932,7 +11932,7 @@ add_requires("libebur128")
 | -- | -- |
 | Homepage | [https://github.com/openSUSE/libeconf](https://github.com/openSUSE/libeconf) |
 | License | MIT |
-| Versions | v0.7.10, v0.8.0, v0.8.2, v0.8.3, v0.8.4 |
+| Versions | v0.7.10, v0.8.0, v0.8.2, v0.8.3, v0.8.4, v0.8.6 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [libeconf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libeconf/xmake.lua) |
 
