@@ -14471,7 +14471,7 @@ add_requires("http_parser")
 | -- | -- |
 | Homepage | [https://github.com/vcrhonek/hwdata](https://github.com/vcrhonek/hwdata) |
 | License | GPL-2.0-or-later |
-| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406, v0.407, v0.408, v0.409 |
+| Versions | v0.397, v0.399, v0.400, v0.401, v0.402, v0.406, v0.407, v0.408, v0.409, v0.413 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [hwdata/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hwdata/xmake.lua) |
 
@@ -43498,7 +43498,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5d4976fbbc60 |
+| License | table: 0x5b83f5e5e750 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
