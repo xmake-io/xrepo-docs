@@ -11643,7 +11643,7 @@ add_requires("jansson")
 | -- | -- |
 | Homepage | [https://jemalloc.net/](https://jemalloc.net/) |
 | License | BSD-2-Clause |
-| Versions | 5.2.1, 5.3.0, 5.3.1 |
+| Versions | 5.2.1, 5.3.0, 5.3.1, 5.4.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
 

@@ -15838,7 +15838,7 @@ add_requires("jasper")
 | -- | -- |
 | Homepage | [https://jemalloc.net/](https://jemalloc.net/) |
 | License | BSD-2-Clause |
-| Versions | 5.2.1, 5.3.0, 5.3.1 |
+| Versions | 5.2.1, 5.3.0, 5.3.1, 5.4.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [jemalloc/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jemalloc/xmake.lua) |
 
@@ -43498,7 +43498,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5e71e6be2550 |
+| License | table: 0x573cd9afc830 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
