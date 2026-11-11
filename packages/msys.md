@@ -3143,7 +3143,7 @@ add_requires("cgif")
 | -- | -- |
 | Homepage | [https://github.com/recp/cglm](https://github.com/recp/cglm) |
 | License | MIT |
-| Versions | v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.6 |
+| Versions | v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.6, v0.9.7 |
 | Architectures | i386, x86_64 |
 | Definition | [cglm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cglm/xmake.lua) |
 
@@ -4242,7 +4242,7 @@ add_requires("cpp-mcp")
 | -- | -- |
 | Homepage | [https://yhirose.github.io/cpp-peglib](https://yhirose.github.io/cpp-peglib) |
 | License | MIT |
-| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3, 1.17.0, 1.22.0 |
+| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3, 1.17.0, 1.22.0, 1.31.0 |
 | Architectures | i386, x86_64 |
 | Definition | [cpp-peglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua) |
 
@@ -4933,7 +4933,7 @@ add_requires("cserialport")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/csv2](https://github.com/p-ranav/csv2) |
 | License | MIT |
-| Versions | v0.1 |
+| Versions | v0.1, v0.2 |
 | Architectures | i386, x86_64 |
 | Definition | [csv2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csv2/xmake.lua) |
 
@@ -23107,7 +23107,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/danmar/simplecpp](https://github.com/danmar/simplecpp) |
 | License | OBSD |
-| Versions | 1.5.1, 1.5.2, 1.6.1, 1.6.3, 1.6.4, 1.6.5, 1.7.0 |
+| Versions | 1.5.1, 1.5.2, 1.6.1, 1.6.3, 1.6.4, 1.6.5, 1.7.0, 1.9.1 |
 | Architectures | i386, x86_64 |
 | Definition | [simplecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplecpp/xmake.lua) |
 

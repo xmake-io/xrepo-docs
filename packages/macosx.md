@@ -4148,7 +4148,7 @@ add_requires("cgif")
 | -- | -- |
 | Homepage | [https://github.com/recp/cglm](https://github.com/recp/cglm) |
 | License | MIT |
-| Versions | v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.6 |
+| Versions | v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.6, v0.9.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [cglm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cglm/xmake.lua) |
 
@@ -5628,7 +5628,7 @@ add_requires("cpp-mcp")
 | -- | -- |
 | Homepage | [https://yhirose.github.io/cpp-peglib](https://yhirose.github.io/cpp-peglib) |
 | License | MIT |
-| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3, 1.17.0, 1.22.0 |
+| Versions | 1.8.3, 1.8.8, 1.9.0, 1.9.1, 1.10.1, 1.10.2, 1.10.3, 1.17.0, 1.22.0, 1.31.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cpp-peglib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cpp-peglib/xmake.lua) |
 
@@ -6509,7 +6509,7 @@ add_requires("cspice")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/csv2](https://github.com/p-ranav/csv2) |
 | License | MIT |
-| Versions | v0.1 |
+| Versions | v0.1, v0.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [csv2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/csv2/xmake.lua) |
 
@@ -20681,7 +20681,7 @@ add_requires("libverto")
 | -- | -- |
 | Homepage | [https://libvips.github.io/libvips/](https://libvips.github.io/libvips/) |
 | License | LGPL-2.1 |
-| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1, v8.18.2, v8.18.3, v8.18.5, v8.18.6 |
+| Versions | v8.15.1, v8.15.2, v8.15.3, v8.15.4, v8.15.5, v8.16.0, v8.16.1, v8.17.1, v8.17.2, v8.17.3, v8.18.0, v8.18.1, v8.18.2, v8.18.3, v8.18.5, v8.18.6, v8.18.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [libvips/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libvips/xmake.lua) |
 
@@ -34246,7 +34246,7 @@ add_requires("simdutf")
 | -- | -- |
 | Homepage | [https://github.com/danmar/simplecpp](https://github.com/danmar/simplecpp) |
 | License | OBSD |
-| Versions | 1.5.1, 1.5.2, 1.6.1, 1.6.3, 1.6.4, 1.6.5, 1.7.0 |
+| Versions | 1.5.1, 1.5.2, 1.6.1, 1.6.3, 1.6.4, 1.6.5, 1.7.0, 1.9.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [simplecpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simplecpp/xmake.lua) |
 
@@ -40148,7 +40148,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5b83f5e5e750 |
+| License | table: 0x5e71e6be2550 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
