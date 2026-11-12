@@ -1256,7 +1256,7 @@ add_requires("awk")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
-| Versions | v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5, v0.10.1, v0.10.2, v0.10.3, v0.10.4, v1.0.0, v1.0.1 |
+| Versions | v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5, v0.10.1, v0.10.2, v0.10.3, v0.10.4, v1.0.0, v1.0.1, v1.0.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
@@ -5317,7 +5317,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.3.0, v4.3.1, v4.3.2, v4.3.3, v4.3.4, v4.3.5, v4.3.6, v4.4.0, v4.4.1, v4.4.2, v4.4.3, v4.5.0, v4.5.1, v4.5.2, v4.5.3, v4.6.0, v4.6.1, v4.6.2, v4.6.3, v4.7.0, v4.7.1, v4.8.0 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.3.0, v4.3.1, v4.3.2, v4.3.3, v4.3.4, v4.3.5, v4.3.6, v4.4.0, v4.4.1, v4.4.2, v4.4.3, v4.5.0, v4.5.1, v4.5.2, v4.5.3, v4.6.0, v4.6.1, v4.6.2, v4.6.3, v4.7.0, v4.7.1, v4.8.0, v4.8.1 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
@@ -6579,6 +6579,30 @@ xrepo install -p android [--ndk=/xxx] emock
 
 ```lua
 add_requires("emock")
+```
+
+
+### enchantum (android)
+
+
+| Description | *Faster enum reflection for C++17 since I don't want to wait for C++26 reflection.* |
+| -- | -- |
+| Homepage | [https://github.com/ZXShady/enchantum](https://github.com/ZXShady/enchantum) |
+| License | MIT |
+| Versions | 0.5.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [enchantum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enchantum/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] enchantum
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("enchantum")
 ```
 
 
@@ -12929,7 +12953,7 @@ add_requires("libkeyfinder")
 | -- | -- |
 | Homepage | [https://github.com/kmod-project/kmod](https://github.com/kmod-project/kmod) |
 | License | LGPL-2.1 |
-| Versions | v30, v31, v32, v33, v34, v34.2 |
+| Versions | v30, v31, v32, v33, v34, v34.2, v34.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [libkmod/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libkmod/xmake.lua) |
 
@@ -18208,7 +18232,7 @@ add_requires("nanoflann")
 | -- | -- |
 | Homepage | [https://nanomsg.org](https://nanomsg.org) |
 | License | MIT |
-| Versions | 1.2.1, 1.2.2, 1.2.5 |
+| Versions | 1.2.1, 1.2.2, 1.2.5, 1.3.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [nanomsg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanomsg/xmake.lua) |
 
@@ -27893,7 +27917,7 @@ add_requires("unity_test")
 | -- | -- |
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
-| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4, v4.4.0, v4.5.0, v4.6.0, v4.7.0, v4.8.0, v4.8.1 |
+| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4, v4.4.0, v4.5.0, v4.6.0, v4.7.0, v4.8.0, v4.8.1, v5.3.3 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 

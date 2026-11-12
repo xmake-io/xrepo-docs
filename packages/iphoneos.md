@@ -5004,7 +5004,7 @@ add_requires("cute_headers")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) |
 | License | BSD-3-Clause |
-| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.3.0, v4.3.1, v4.3.2, v4.3.3, v4.3.4, v4.3.5, v4.3.6, v4.4.0, v4.4.1, v4.4.2, v4.4.3, v4.5.0, v4.5.1, v4.5.2, v4.5.3, v4.6.0, v4.6.1, v4.6.2, v4.6.3, v4.7.0, v4.7.1, v4.8.0 |
+| Versions | v3.2.0, v3.4.1, v3.5.0, v3.5.1, v3.6.0, v3.7.0, v3.8.0, v3.9.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v4.3.0, v4.3.1, v4.3.2, v4.3.3, v4.3.4, v4.3.5, v4.3.6, v4.4.0, v4.4.1, v4.4.2, v4.4.3, v4.5.0, v4.5.1, v4.5.2, v4.5.3, v4.6.0, v4.6.1, v4.6.2, v4.6.3, v4.7.0, v4.7.1, v4.8.0, v4.8.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [cutlass/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cutlass/xmake.lua) |
 
@@ -6110,7 +6110,7 @@ add_requires("effolkronium-random")
 | -- | -- |
 | Homepage | [https://github.com/SpartanJ/efsw](https://github.com/SpartanJ/efsw) |
 | License | MIT |
-| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0, 1.4.1, 1.5.0, 1.5.1, 1.6.2, 1.6.3, 1.7.2 |
+| Versions | 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0, 1.4.1, 1.5.0, 1.5.1, 1.6.2, 1.6.3, 1.7.2, 1.7.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [efsw/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/efsw/xmake.lua) |
 
@@ -6267,6 +6267,30 @@ xrepo install -p iphoneos emio
 
 ```lua
 add_requires("emio")
+```
+
+
+### enchantum (iphoneos)
+
+
+| Description | *Faster enum reflection for C++17 since I don't want to wait for C++26 reflection.* |
+| -- | -- |
+| Homepage | [https://github.com/ZXShady/enchantum](https://github.com/ZXShady/enchantum) |
+| License | MIT |
+| Versions | 0.5.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [enchantum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/enchantum/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p iphoneos enchantum
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("enchantum")
 ```
 
 
@@ -17086,7 +17110,7 @@ add_requires("nanoflann")
 | -- | -- |
 | Homepage | [https://nanomsg.org](https://nanomsg.org) |
 | License | MIT |
-| Versions | 1.2.1, 1.2.2, 1.2.5 |
+| Versions | 1.2.1, 1.2.2, 1.2.5, 1.3.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [nanomsg/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nanomsg/xmake.lua) |
 
@@ -26079,7 +26103,7 @@ add_requires("unity_test")
 | -- | -- |
 | Homepage | [https://github.com/martinus/unordered_dense](https://github.com/martinus/unordered_dense) |
 | License | MIT |
-| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4, v4.4.0, v4.5.0, v4.6.0, v4.7.0, v4.8.0, v4.8.1 |
+| Versions | v1.1.0, v1.4.0, v2.0.2, v3.0.0, v4.0.4, v4.4.0, v4.5.0, v4.6.0, v4.7.0, v4.8.0, v4.8.1, v5.3.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [unordered_dense/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/unordered_dense/xmake.lua) |
 
