@@ -721,6 +721,30 @@ add_requires("argus")
 ```
 
 
+### argy (mingw)
+
+
+| Description | *A lightweight, header-only command-line argument parsing library for C++17* |
+| -- | -- |
+| Homepage | [https://github.com/mshenoda/argy](https://github.com/mshenoda/argy) |
+| License | MIT |
+| Versions | v0.6.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [argy/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/argy/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] argy
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("argy")
+```
+
+
 ### argz (mingw)
 
 
@@ -3145,7 +3169,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
 | License | MPL-2.0 |
-| Versions | 1.4.1, 1.4.4, 1.4.5, 2.0.0, 2.0.1 |
+| Versions | 1.4.1, 1.4.4, 1.4.5, 2.0.0, 2.0.1, 2.0.2 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
 
@@ -3695,7 +3719,7 @@ add_requires("clean-test")
 | -- | -- |
 | Homepage | [https://github.com/daniele77/cli](https://github.com/daniele77/cli) |
 | License | BSL-1.0 |
-| Versions | v2.0.0, v2.1.0, v2.2.0 |
+| Versions | v2.0.0, v2.1.0, v2.2.0, v2.3.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [cli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cli/xmake.lua) |
 
@@ -8532,7 +8556,7 @@ add_requires("frozen")
 | -- | -- |
 | Homepage | [https://github.com/Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) |
 | License | MIT |
-| Versions | v0.15.29, v0.15.31, v0.16.0, v0.16.2, v0.17.1, v0.18.2, v0.20.0 |
+| Versions | v0.15.29, v0.15.31, v0.16.0, v0.16.2, v0.17.1, v0.18.2, v0.20.0, v0.21.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [frugally-deep/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/frugally-deep/xmake.lua) |
 
@@ -9915,7 +9939,7 @@ add_requires("grpc")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v5.0.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v5.0.0, v5.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/gsl/xmake.lua) |
 
@@ -11787,7 +11811,7 @@ add_requires("jrtplib")
 | -- | -- |
 | Homepage | [https://github.com/JSBSim-Team/jsbsim](https://github.com/JSBSim-Team/jsbsim) |
 | License | LGPL-2.1 |
-| Versions | v1.2.0, v1.2.1, v1.2.2, v1.2.3, v1.3.0, v1.3.1 |
+| Versions | v1.2.0, v1.2.1, v1.2.2, v1.2.3, v1.3.0, v1.3.1, v1.3.3 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [jsbsim/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsbsim/xmake.lua) |
 
@@ -18188,7 +18212,7 @@ add_requires("microsoft-detours")
 | -- | -- |
 | Homepage | [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL) |
 | License | MIT |
-| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v5.0.0 |
+| Versions | v3.1.0, v4.0.0, v4.1.0, v4.2.0, v4.2.1, v4.2.2, v5.0.0, v5.0.1 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [microsoft-gsl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/microsoft-gsl/xmake.lua) |
 
@@ -19359,7 +19383,7 @@ add_requires("named_type")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
 | License | MIT |
-| Versions | 0.10.3, 0.10.4, 0.10.5 |
+| Versions | 0.10.3, 0.10.4, 0.10.5, 0.11.0 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
 
