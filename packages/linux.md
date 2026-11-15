@@ -31200,7 +31200,7 @@ add_requires("osmanip")
 | -- | -- |
 | Homepage | [https://osqp.org/](https://osqp.org/) |
 | License | Apache-2.0 |
-| Versions | v0.6.3 |
+| Versions | v0.6.3, v1.0.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [osqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osqp/xmake.lua) |
 
@@ -43546,7 +43546,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5b0ea4971ae0 |
+| License | table: 0x5aa5e8fd8660 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

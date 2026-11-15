@@ -20404,7 +20404,7 @@ add_requires("osmanip")
 | -- | -- |
 | Homepage | [https://osqp.org/](https://osqp.org/) |
 | License | Apache-2.0 |
-| Versions | v0.6.3 |
+| Versions | v0.6.3, v1.0.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [osqp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/osqp/xmake.lua) |
 
