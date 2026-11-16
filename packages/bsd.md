@@ -11910,7 +11910,7 @@ add_requires("libde265")
 | -- | -- |
 | Homepage | [https://github.com/ebiggers/libdeflate](https://github.com/ebiggers/libdeflate) |
 | License | MIT |
-| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20, v1.21, v1.22, v1.23, v1.24, v1.25 |
+| Versions | v1.8, v1.10, v1.13, v1.15, v1.17, v1.19, v1.20, v1.21, v1.22, v1.23, v1.24, v1.25, v1.26 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [libdeflate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libdeflate/xmake.lua) |
 
@@ -15788,6 +15788,30 @@ add_requires("llhttp")
 ```
 
 
+### llm-cpp (bsd)
+
+
+| Description | *26 single-header C++17 libraries for LLM apps: streaming, retries, caching, cost estimates, RAG, structured JSON and agents* |
+| -- | -- |
+| Homepage | [https://github.com/Mattbusel/llm-cpp](https://github.com/Mattbusel/llm-cpp) |
+| License | MIT |
+| Versions | 1.1.0 |
+| Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
+| Definition | [llm-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llm-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install llm-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("llm-cpp")
+```
+
+
 ### llvm (bsd)
 
 
@@ -18106,7 +18130,7 @@ add_requires("msdf-atlas-gen")
 | -- | -- |
 | Homepage | [https://github.com/Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) |
 | License | MIT |
-| Versions | v1.10, v1.11, v1.12, v1.12.1, v1.13 |
+| Versions | v1.10, v1.11, v1.12, v1.12.1, v1.13, v1.13.1 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [msdfgen/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msdfgen/xmake.lua) |
 
@@ -23650,7 +23674,7 @@ add_requires("rsm-mmio")
 | -- | -- |
 | Homepage | [https://github.com/nfrechette/rtm](https://github.com/nfrechette/rtm) |
 | License | MIT |
-| Versions | v2.1.5, v2.3.0, v2.3.1 |
+| Versions | v2.1.5, v2.3.0, v2.3.1, v2.4.0 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [rtm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtm/xmake.lua) |
 
