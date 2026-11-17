@@ -9365,7 +9365,7 @@ add_requires("hexl")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.1 |
+| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.1, v1.16.0 |
 | Architectures | i386, x86_64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -10587,7 +10587,7 @@ add_requires("json.h")
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
 | License | BSL-1.0 |
-| Versions | v0.170.2, v0.176.0, v0.177.0, v0.178.0, v1.0.0, v1.1.0, v1.2.0, v1.3.0, v1.3.2, v1.4.3, v1.5.0, v1.8.1 |
+| Versions | v0.170.2, v0.176.0, v0.177.0, v0.178.0, v1.0.0, v1.1.0, v1.2.0, v1.3.0, v1.3.2, v1.4.3, v1.5.0, v1.8.1, v1.10.0 |
 | Architectures | i386, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
@@ -14943,7 +14943,7 @@ add_requires("llhttp")
 | -- | -- |
 | Homepage | [https://github.com/Mattbusel/llm-cpp](https://github.com/Mattbusel/llm-cpp) |
 | License | MIT |
-| Versions | 1.1.0 |
+| Versions | 1.1.0, 1.2.1 |
 | Architectures | i386, x86_64 |
 | Definition | [llm-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llm-cpp/xmake.lua) |
 

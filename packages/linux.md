@@ -489,7 +489,7 @@ add_requires("alsa-lib")
 | -- | -- |
 | Homepage | [https://github.com/ddemidov/amgcl/](https://github.com/ddemidov/amgcl/) |
 | License | MIT |
-| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.8, 1.4.9, 1.5.0 |
+| Versions | 1.4.0, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.8, 1.4.9, 1.5.0, 1.5.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [amgcl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/amgcl/xmake.lua) |
 
@@ -14280,7 +14280,7 @@ add_requires("highfive")
 | -- | -- |
 | Homepage | [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS) |
 | License | MIT |
-| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.1 |
+| Versions | v1.5.3, v1.7.0, v1.7.1, v1.7.2, v1.8.0, v1.8.1, v1.9.0, v1.10.0, v1.11.0, v1.12.0, v1.13.1, v1.14.0, v1.15.1, v1.16.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [highs/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/highs/xmake.lua) |
 
@@ -16245,7 +16245,7 @@ add_requires("json.h")
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
 | License | BSL-1.0 |
-| Versions | v0.170.2, v0.176.0, v0.177.0, v0.178.0, v1.0.0, v1.1.0, v1.2.0, v1.3.0, v1.3.2, v1.4.3, v1.5.0, v1.8.1 |
+| Versions | v0.170.2, v0.176.0, v0.177.0, v0.178.0, v1.0.0, v1.1.0, v1.2.0, v1.3.0, v1.3.2, v1.4.3, v1.5.0, v1.8.1, v1.10.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
@@ -24287,7 +24287,7 @@ add_requires("llhttp")
 | -- | -- |
 | Homepage | [https://github.com/Mattbusel/llm-cpp](https://github.com/Mattbusel/llm-cpp) |
 | License | MIT |
-| Versions | 1.1.0 |
+| Versions | 1.1.0, 1.2.1 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [llm-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llm-cpp/xmake.lua) |
 
@@ -43570,7 +43570,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5cbfd6e64c30 |
+| License | table: 0x6404332e7230 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

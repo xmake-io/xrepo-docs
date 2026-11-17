@@ -9847,7 +9847,7 @@ add_requires("json.h")
 | -- | -- |
 | Homepage | [https://danielaparker.github.io/jsoncons/](https://danielaparker.github.io/jsoncons/) |
 | License | BSL-1.0 |
-| Versions | v0.170.2, v0.176.0, v0.177.0, v0.178.0, v1.0.0, v1.1.0, v1.2.0, v1.3.0, v1.3.2, v1.4.3, v1.5.0, v1.8.1 |
+| Versions | v0.170.2, v0.176.0, v0.177.0, v0.178.0, v1.0.0, v1.1.0, v1.2.0, v1.3.0, v1.3.2, v1.4.3, v1.5.0, v1.8.1, v1.10.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [jsoncons/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/jsoncons/xmake.lua) |
 
@@ -13869,7 +13869,7 @@ add_requires("llhttp")
 | -- | -- |
 | Homepage | [https://github.com/Mattbusel/llm-cpp](https://github.com/Mattbusel/llm-cpp) |
 | License | MIT |
-| Versions | 1.1.0 |
+| Versions | 1.1.0, 1.2.1 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [llm-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llm-cpp/xmake.lua) |
 
