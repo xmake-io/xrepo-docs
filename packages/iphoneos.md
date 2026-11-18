@@ -774,7 +774,7 @@ add_requires("asio")
 | -- | -- |
 | Homepage | [https://assimp.org](https://assimp.org) |
 | License | BSD-3-Clause |
-| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2, v6.0.3, v6.0.4, v6.0.5 |
+| Versions | v5.0.1, v5.1.4, v5.2.1, v5.2.2, v5.2.3, v5.2.4, v5.2.5, v5.3.0, v5.3.1, v5.4.0, v5.4.1, v5.4.2, v5.4.3, v6.0.1, v6.0.2, v6.0.3, v6.0.4, v6.0.5, v6.0.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [assimp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/assimp/xmake.lua) |
 
@@ -2446,7 +2446,7 @@ add_requires("branchless-utf8")
 | -- | -- |
 | Homepage | [https://github.com/google/brotli](https://github.com/google/brotli) |
 | License | MIT |
-| Versions | v1.0.9, v1.1.0, v1.2.0 |
+| Versions | v1.0.9, v1.1.0, v1.2.0, v1.2.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [brotli/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/brotli/xmake.lua) |
 
@@ -5797,7 +5797,7 @@ add_requires("doxygen")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.29, 0.12.39, 0.12.41, 0.12.42, 0.12.43, 0.13.1, 0.13.2, 0.13.3 |
+| Versions | 0.12.29, 0.12.39, 0.12.41, 0.12.42, 0.12.43, 0.13.1, 0.13.2, 0.13.3, 0.13.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [dr_flac/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_flac/xmake.lua) |
 
@@ -5821,7 +5821,7 @@ add_requires("dr_flac")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37, 0.6.38, 0.6.39, 0.6.40, 0.7.1, 0.7.2, 0.7.3 |
+| Versions | 0.6.27, 0.6.34, 0.6.36, 0.6.37, 0.6.38, 0.6.39, 0.6.40, 0.7.1, 0.7.2, 0.7.3, 0.7.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [dr_mp3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_mp3/xmake.lua) |
 
@@ -5845,7 +5845,7 @@ add_requires("dr_mp3")
 | -- | -- |
 | Homepage | [https://github.com/mackron/dr_libs](https://github.com/mackron/dr_libs) |
 | License | MIT |
-| Versions | 0.12.19, 0.13.8, 0.13.10, 0.13.11, 0.13.12, 0.13.13, 0.13.16, 0.13.17, 0.14.1, 0.14.2, 0.14.3, 0.14.4, 0.14.5 |
+| Versions | 0.12.19, 0.13.8, 0.13.10, 0.13.11, 0.13.12, 0.13.13, 0.13.16, 0.13.17, 0.14.1, 0.14.2, 0.14.3, 0.14.4, 0.14.5, 0.14.6 |
 | Architectures | arm64, x86_64 |
 | Definition | [dr_wav/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/dr_wav/xmake.lua) |
 
@@ -6829,7 +6829,7 @@ add_requires("fast-lzma2")
 | -- | -- |
 | Homepage | [https://github.com/fastfloat/fast_float](https://github.com/fastfloat/fast_float) |
 | License | Apache-2.0 |
-| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3, v8.2.4, v8.2.5, v8.2.10, v8.3.0, v8.3.2 |
+| Versions | v3.4.0, v3.5.1, v3.10.1, v5.2.0, v5.3.0, v6.0.0, v6.1.0, v6.1.1, v6.1.3, v6.1.4, v6.1.5, v6.1.6, v7.0.0, v8.0.0, v8.0.2, v8.1.0, v8.2.1, v8.2.2, v8.2.3, v8.2.4, v8.2.5, v8.2.10, v8.3.0, v8.3.2, v8.3.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [fast_float/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fast_float/xmake.lua) |
 
@@ -7378,7 +7378,7 @@ add_requires("fmi")
 | -- | -- |
 | Homepage | [https://fmt.dev](https://fmt.dev) |
 | License | MIT |
-| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2, 11.1.0, 11.1.1, 11.1.2, 11.1.3, 11.1.4, 11.2.0, 12.0.0, 12.1.0, 12.2.0 |
+| Versions | 5.3.0, 6.0.0, 6.2.0, 7.1.3, 8.0.0, 8.0.1, 8.1.1, 9.0.0, 9.1.0, 10.0.0, 10.1.0, 10.1.1, 10.2.0, 10.2.1, 11.0.0, 11.0.1, 11.0.2, 11.1.0, 11.1.1, 11.1.2, 11.1.3, 11.1.4, 11.2.0, 12.0.0, 12.1.0, 12.2.0, 12.2.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [fmt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fmt/xmake.lua) |
 
@@ -9077,7 +9077,7 @@ add_requires("highway")
 | -- | -- |
 | Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
 | License | BSD-3-Clause |
-| Versions | v1.0.2, v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.4.1 |
+| Versions | v1.0.2, v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.4.1, v1.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
 
@@ -10180,7 +10180,7 @@ add_requires("jerryscript")
 | -- | -- |
 | Homepage | [https://github.com/jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) |
 | License | MIT |
-| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1, v4.0.2, v5.0.0, v5.1.0, v5.2.0, v5.3.0, v5.4.0, v5.5.0, v5.6.0 |
+| Versions | v2.0.1, v3.0.0, v3.0.1, v4.0.0, v4.0.1, v4.0.2, v5.0.0, v5.1.0, v5.2.0, v5.3.0, v5.4.0, v5.5.0, v5.6.0, v5.7.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [joltphysics/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/j/joltphysics/xmake.lua) |
 
@@ -13124,7 +13124,7 @@ add_requires("libsdl2_ttf")
 | -- | -- |
 | Homepage | [https://www.libsdl.org/](https://www.libsdl.org/) |
 | License | zlib |
-| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0, 3.4.2, 3.4.4, 3.4.12, 3.4.16 |
+| Versions | 3.2.0, 3.2.2, 3.2.6, 3.2.8, 3.2.10, 3.2.14, 3.2.16, 3.2.22, 3.2.26, 3.2.28, 3.4.0, 3.4.2, 3.4.4, 3.4.12, 3.4.16, 3.4.20 |
 | Architectures | arm64, x86_64 |
 | Definition | [libsdl3/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libsdl3/xmake.lua) |
 
@@ -15032,7 +15032,7 @@ add_requires("lyra")
 | -- | -- |
 | Homepage | [https://www.lz4.org/](https://www.lz4.org/) |
 | License | BSD-2-Clause |
-| Versions | v1.9.3, v1.9.4, v1.10.0, v1.11.0 |
+| Versions | v1.9.3, v1.9.4, v1.10.0, v1.11.0, v1.11.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [lz4/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/lz4/xmake.lua) |
 
@@ -16082,7 +16082,7 @@ add_requires("mini")
 | -- | -- |
 | Homepage | [https://miniaud.io](https://miniaud.io) |
 | License | MIT |
-| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22, 0.11.23, 0.11.24, 0.11.25 |
+| Versions | 0.11.15, 0.11.16, 0.11.17, 0.11.18, 0.11.21, 0.11.22, 0.11.23, 0.11.24, 0.11.25, 0.11.26 |
 | Architectures | arm64, x86_64 |
 | Definition | [miniaudio/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/miniaudio/xmake.lua) |
 
@@ -19333,7 +19333,7 @@ add_requires("par")
 | -- | -- |
 | Homepage | [https://greg7mdp.github.io/parallel-hashmap/](https://greg7mdp.github.io/parallel-hashmap/) |
 | License | Apache-2.0 |
-| Versions | v1.3.12, 1.33, 1.34, 1.35, 1.37, v2.0.0 |
+| Versions | v1.3.12, 1.33, 1.34, 1.35, 1.37, v2.0.0, v2.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [parallel-hashmap/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/parallel-hashmap/xmake.lua) |
 
@@ -26364,7 +26364,7 @@ add_requires("utf8proc")
 | -- | -- |
 | Homepage | [https://github.com/nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) |
 | License | BSL-1.0 |
-| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.0.6, v4.0.8, v4.0.9, v4.1.1, v4.2.1 |
+| Versions | v3.2.1, v3.2.3, v3.2.4, v3.2.5, v4.0.0, v4.0.1, v4.0.2, v4.0.3, v4.0.4, v4.0.5, v4.0.6, v4.0.8, v4.0.9, v4.1.1, v4.2.1, v5.0.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [utfcpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/utfcpp/xmake.lua) |
 
@@ -27973,7 +27973,7 @@ add_requires("zix")
 | -- | -- |
 | Homepage | [http://www.zlib.net](http://www.zlib.net) |
 | License | zlib |
-| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3, v1.3.1, v1.3.2 |
+| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3, v1.3.1, v1.3.2, v1.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [zlib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlib/xmake.lua) |
 
