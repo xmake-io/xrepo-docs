@@ -6497,7 +6497,7 @@ add_requires("embedded-xoodyak")
 | -- | -- |
 | Homepage | [https://github.com/ktprime/emhash](https://github.com/ktprime/emhash) |
 | License | MIT |
-| Versions | v1.0.0, v1.0.1, v1.1.0, v1.2.0 |
+| Versions | v1.0.0, v1.0.1, v1.1.0, v1.2.0, v1.3.0 |
 | Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
 | Definition | [emhash/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/e/emhash/xmake.lua) |
 
