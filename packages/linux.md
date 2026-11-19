@@ -14017,7 +14017,7 @@ add_requires("happly")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1, 11.3.3, 13.1.1 |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1, 11.3.3, 13.1.1, 15.0.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -43570,7 +43570,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5582facc10e0 |
+| License | table: 0x562421b26850 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
