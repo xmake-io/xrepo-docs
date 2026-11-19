@@ -28923,7 +28923,7 @@ add_requires("p11-kit")
 | -- | -- |
 | Homepage | [https://github.com/TabNahida/PACE](https://github.com/TabNahida/PACE) |
 | License | MIT |
-| Versions | 0.3.0, 0.3.1, 0.4.0, 0.5.0 |
+| Versions | 0.3.0, 0.3.1, 0.4.0, 0.5.0, 0.6.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [pace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pace/xmake.lua) |
 
@@ -39193,7 +39193,7 @@ add_requires("valgrind-macos")
 | -- | -- |
 | Homepage | [https://github.com/tristanpenman/valijson](https://github.com/tristanpenman/valijson) |
 | License | BSD-2-Clause |
-| Versions | v1.0.6, v1.1.0, v1.1.1, v1.1.3 |
+| Versions | v1.0.6, v1.1.0, v1.1.1, v1.1.3, v1.1.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [valijson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/valijson/xmake.lua) |
 
@@ -40220,7 +40220,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5a11310e83b0 |
+| License | table: 0x63d320e4a910 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

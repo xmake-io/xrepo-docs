@@ -20712,7 +20712,7 @@ add_requires("p11-kit")
 | -- | -- |
 | Homepage | [https://github.com/TabNahida/PACE](https://github.com/TabNahida/PACE) |
 | License | MIT |
-| Versions | 0.3.0, 0.3.1, 0.4.0, 0.5.0 |
+| Versions | 0.3.0, 0.3.1, 0.4.0, 0.5.0, 0.6.0 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [pace/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/pace/xmake.lua) |
 
@@ -28336,7 +28336,7 @@ add_requires("valgrind-macos")
 | -- | -- |
 | Homepage | [https://github.com/tristanpenman/valijson](https://github.com/tristanpenman/valijson) |
 | License | BSD-2-Clause |
-| Versions | v1.0.6, v1.1.0, v1.1.1, v1.1.3 |
+| Versions | v1.0.6, v1.1.0, v1.1.1, v1.1.3, v1.1.4 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [valijson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/valijson/xmake.lua) |
 

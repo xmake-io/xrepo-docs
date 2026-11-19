@@ -26938,7 +26938,7 @@ add_requires("valgrind-macos")
 | -- | -- |
 | Homepage | [https://github.com/tristanpenman/valijson](https://github.com/tristanpenman/valijson) |
 | License | BSD-2-Clause |
-| Versions | v1.0.6, v1.1.0, v1.1.1, v1.1.3 |
+| Versions | v1.0.6, v1.1.0, v1.1.1, v1.1.3, v1.1.4 |
 | Architectures | i386, x86_64 |
 | Definition | [valijson/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/v/valijson/xmake.lua) |
 
