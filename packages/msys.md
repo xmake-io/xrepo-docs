@@ -26114,6 +26114,30 @@ add_requires("tomlcpp")
 ```
 
 
+### tomlkit11 (msys)
+
+
+| Description | *Header-only C++11+ format-preserving TOML v1.1 library* |
+| -- | -- |
+| Homepage | [https://github.com/julixian/tomlkit11](https://github.com/julixian/tomlkit11) |
+| License | Apache-2.0 |
+| Versions | 1.0.0 |
+| Architectures | i386, x86_64 |
+| Definition | [tomlkit11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tomlkit11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tomlkit11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tomlkit11")
+```
+
+
 ### toojpeg (msys)
 
 

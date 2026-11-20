@@ -14597,7 +14597,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://itk.org/](https://itk.org/) |
 | License | Apache-2.0 |
-| Versions | 5.2.0, 5.2.1, 5.4.4, 5.4.5, 5.4.6 |
+| Versions | 5.2.0, 5.2.1, 5.4.4, 5.4.5, 5.4.6, 5.4.7 |
 | Architectures | arm64, x86_64 |
 | Definition | [itk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itk/xmake.lua) |
 
@@ -38084,6 +38084,30 @@ add_requires("tomlcpp")
 ```
 
 
+### tomlkit11 (macosx)
+
+
+| Description | *Header-only C++11+ format-preserving TOML v1.1 library* |
+| -- | -- |
+| Homepage | [https://github.com/julixian/tomlkit11](https://github.com/julixian/tomlkit11) |
+| License | Apache-2.0 |
+| Versions | 1.0.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [tomlkit11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tomlkit11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tomlkit11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tomlkit11")
+```
+
+
 ### toojpeg (macosx)
 
 
@@ -40220,7 +40244,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x562421b26850 |
+| License | table: 0x630a502d22d0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

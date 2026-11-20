@@ -14860,7 +14860,7 @@ add_requires("ispc")
 | -- | -- |
 | Homepage | [https://itk.org/](https://itk.org/) |
 | License | Apache-2.0 |
-| Versions | 5.2.0, 5.2.1, 5.4.4, 5.4.5, 5.4.6 |
+| Versions | 5.2.0, 5.2.1, 5.4.4, 5.4.5, 5.4.6, 5.4.7 |
 | Architectures | arm, arm64ec, x64, x86 |
 | Definition | [itk/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/i/itk/xmake.lua) |
 
@@ -37315,6 +37315,30 @@ xrepo install tomlcpp
 
 ```lua
 add_requires("tomlcpp")
+```
+
+
+### tomlkit11 (windows)
+
+
+| Description | *Header-only C++11+ format-preserving TOML v1.1 library* |
+| -- | -- |
+| Homepage | [https://github.com/julixian/tomlkit11](https://github.com/julixian/tomlkit11) |
+| License | Apache-2.0 |
+| Versions | 1.0.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [tomlkit11/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tomlkit11/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install tomlkit11
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("tomlkit11")
 ```
 
 
