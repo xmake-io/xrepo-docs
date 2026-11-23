@@ -18184,7 +18184,7 @@ add_requires("named_type")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/nameof](https://github.com/Neargye/nameof) |
 | License | MIT |
-| Versions | 0.10.3, 0.10.4, 0.10.5, 0.11.0 |
+| Versions | 0.10.3, 0.10.4, 0.10.5, 0.11.0, 0.12.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [nameof/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/nameof/xmake.lua) |
 
