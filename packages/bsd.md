@@ -18960,6 +18960,30 @@ add_requires("nghttp3")
 ```
 
 
+### ngtcp2 (bsd)
+
+
+| Description | *ngtcp2 project is an effort to implement IETF QUIC protocol* |
+| -- | -- |
+| Homepage | [https://github.com/ngtcp2/ngtcp2](https://github.com/ngtcp2/ngtcp2) |
+| License | MIT |
+| Versions | 0.1.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.15.1, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 1.21.0, 1.22.0, 1.22.1, 1.23.0, 1.24.0, 1.25.0, 1.26.0 |
+| Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
+| Definition | [ngtcp2/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/n/ngtcp2/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ngtcp2
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ngtcp2")
+```
+
+
 ### nifly (bsd)
 
 
