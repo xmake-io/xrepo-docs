@@ -25403,7 +25403,7 @@ add_requires("rttr")
 | -- | -- |
 | Homepage | [https://github.com/ArthurSonzogni/RTXUI](https://github.com/ArthurSonzogni/RTXUI) |
 | License | MIT |
-| Versions | v0.1.4 |
+| Versions | v0.1.4, v0.1.5 |
 | Architectures | arm, arm64, i386, x86_64 |
 | Definition | [rtxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtxui/xmake.lua) |
 

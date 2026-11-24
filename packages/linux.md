@@ -36166,7 +36166,7 @@ add_requires("rttr")
 | -- | -- |
 | Homepage | [https://github.com/ArthurSonzogni/RTXUI](https://github.com/ArthurSonzogni/RTXUI) |
 | License | MIT |
-| Versions | v0.1.4 |
+| Versions | v0.1.4, v0.1.5 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [rtxui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/r/rtxui/xmake.lua) |
 
@@ -43594,7 +43594,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x577cf8299e70 |
+| License | table: 0x5947a79de590 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
