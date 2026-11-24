@@ -24930,6 +24930,30 @@ add_requires("sophus")
 ```
 
 
+### soralog (bsd)
+
+
+| Description | *Fast and flexible C++ logger with low-overhead logging calls* |
+| -- | -- |
+| Homepage | [https://github.com/xDimon/soralog](https://github.com/xDimon/soralog) |
+| License | Apache-2.0 |
+| Versions | v0.4.0 |
+| Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
+| Definition | [soralog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soralog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soralog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soralog")
+```
+
+
 ### sord (bsd)
 
 

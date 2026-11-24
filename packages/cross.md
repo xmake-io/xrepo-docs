@@ -24222,6 +24222,30 @@ add_requires("sophus")
 ```
 
 
+### soralog (cross)
+
+
+| Description | *Fast and flexible C++ logger with low-overhead logging calls* |
+| -- | -- |
+| Homepage | [https://github.com/xDimon/soralog](https://github.com/xDimon/soralog) |
+| License | Apache-2.0 |
+| Versions | v0.4.0 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [soralog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soralog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] soralog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soralog")
+```
+
+
 ### sord (cross)
 
 

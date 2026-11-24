@@ -34907,6 +34907,30 @@ add_requires("soplex")
 ```
 
 
+### soralog (macosx)
+
+
+| Description | *Fast and flexible C++ logger with low-overhead logging calls* |
+| -- | -- |
+| Homepage | [https://github.com/xDimon/soralog](https://github.com/xDimon/soralog) |
+| License | Apache-2.0 |
+| Versions | v0.4.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [soralog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soralog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soralog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soralog")
+```
+
+
 ### sord (macosx)
 
 
@@ -40244,7 +40268,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x61f6bfe1e0e0 |
+| License | table: 0x5ee403fcb6c0 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

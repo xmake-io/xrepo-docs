@@ -34094,6 +34094,30 @@ add_requires("soplex")
 ```
 
 
+### soralog (windows)
+
+
+| Description | *Fast and flexible C++ logger with low-overhead logging calls* |
+| -- | -- |
+| Homepage | [https://github.com/xDimon/soralog](https://github.com/xDimon/soralog) |
+| License | Apache-2.0 |
+| Versions | v0.4.0 |
+| Architectures | arm, arm64, arm64ec, x64, x86 |
+| Definition | [soralog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soralog/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install soralog
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("soralog")
+```
+
+
 ### sord (windows)
 
 
