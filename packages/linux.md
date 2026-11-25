@@ -25118,7 +25118,7 @@ add_requires("maddy")
 | -- | -- |
 | Homepage | [https://github.com/Neargye/magic_enum](https://github.com/Neargye/magic_enum) |
 | License | MIT |
-| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2, v0.9.0, v0.9.5, v0.9.6, v0.9.7, v0.9.8 |
+| Versions | v0.7.3, v0.8.0, v0.8.1, v0.8.2, v0.9.0, v0.9.5, v0.9.6, v0.9.7, v0.9.8, v0.10.0 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [magic_enum/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/magic_enum/xmake.lua) |
 
@@ -43642,7 +43642,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x6019d31c88b0 |
+| License | table: 0x64b10e79ec40 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
