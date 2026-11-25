@@ -1616,7 +1616,7 @@ add_requires("awk")
 | -- | -- |
 | Homepage | [https://github.com/awslabs/aws-c-auth](https://github.com/awslabs/aws-c-auth) |
 | License | Apache-2.0 |
-| Versions | v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5, v0.10.1, v0.10.2, v0.10.3, v0.10.4, v1.0.0, v1.0.1, v1.0.3 |
+| Versions | v0.7.17, v0.7.18, v0.7.22, v0.7.25, v0.7.29, v0.7.31, v0.8.0, v0.8.6, v0.8.7, v0.9.0, v0.9.1, v0.9.4, v0.9.5, v0.10.1, v0.10.2, v0.10.3, v0.10.4, v1.0.0, v1.0.1, v1.0.3, v1.1.0 |
 | Architectures | arm64 |
 | Definition | [aws-c-auth/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-c-auth/xmake.lua) |
 
@@ -2310,7 +2310,7 @@ add_requires("bcg729")
 | -- | -- |
 | Homepage | [https://github.com/bitdefender/bddisasm](https://github.com/bitdefender/bddisasm) |
 | License | Apache-2.0 |
-| Versions | v2.2.0, v3.0.0, v3.0.1 |
+| Versions | v2.2.0, v3.0.0, v3.0.1, v3.1.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [bddisasm/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/bddisasm/xmake.lua) |
 
@@ -3910,7 +3910,7 @@ add_requires("catch2")
 | -- | -- |
 | Homepage | [https://artem-ogre.github.io/CDT/](https://artem-ogre.github.io/CDT/) |
 | License | MPL-2.0 |
-| Versions | 1.4.1, 1.4.4, 1.4.5, 2.0.0, 2.0.1, 2.0.2 |
+| Versions | 1.4.1, 1.4.4, 1.4.5, 2.0.0, 2.0.1, 2.0.2, 2.1.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [cdt/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cdt/xmake.lua) |
 
@@ -7182,7 +7182,7 @@ add_requires("davix")
 | -- | -- |
 | Homepage | [https://beached.github.io/header_libraries/](https://beached.github.io/header_libraries/) |
 | License | BSL-1.0 |
-| Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2, v2.131.0, v2.132.1, v2.132.2, v2.135.0 |
+| Versions | v2.96.1, v2.102.0, v2.106.0, v2.106.1, v2.110.0, v2.114.0, v2.114.1, v2.118.0, v2.123.2, v2.131.0, v2.132.1, v2.132.2, v2.135.0, v2.136.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [daw_header_libraries/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/d/daw_header_libraries/xmake.lua) |
 
@@ -9648,7 +9648,7 @@ add_requires("fastcppcsvparser")
 | -- | -- |
 | Homepage | [https://fastgltf.readthedocs.io/v0.7.x/](https://fastgltf.readthedocs.io/v0.7.x/) |
 | License | MIT |
-| Versions | v0.7.1, v0.7.2, v0.8.0, v0.9.0, v0.9.1 |
+| Versions | v0.7.1, v0.7.2, v0.8.0, v0.9.0, v0.9.1, v1.0.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [fastgltf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fastgltf/xmake.lua) |
 
@@ -10628,7 +10628,7 @@ add_requires("freexl")
 | -- | -- |
 | Homepage | [https://github.com/fribidi/fribidi](https://github.com/fribidi/fribidi) |
 | License | LGPL-2.1 |
-| Versions | v1.0.10, v1.0.11, v1.0.12, v1.0.13, v1.0.14, v1.0.15, v1.0.16, v1.0.17 |
+| Versions | v1.0.10, v1.0.11, v1.0.12, v1.0.13, v1.0.14, v1.0.15, v1.0.16, v1.0.17, v1.0.18 |
 | Architectures | arm64, x86_64 |
 | Definition | [fribidi/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/f/fribidi/xmake.lua) |
 
@@ -13328,7 +13328,7 @@ add_requires("highway")
 | -- | -- |
 | Homepage | [https://github.com/redis/hiredis](https://github.com/redis/hiredis) |
 | License | BSD-3-Clause |
-| Versions | v1.0.2, v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.4.1, v1.5.0 |
+| Versions | v1.0.2, v1.1.0, v1.2.0, v1.3.0, v1.4.0, v1.4.1, v1.5.0, v1.5.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [hiredis/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/hiredis/xmake.lua) |
 
@@ -15557,7 +15557,7 @@ add_requires("kokkos")
 | -- | -- |
 | Homepage | [https://github.com/kokkos/kokkos-kernels](https://github.com/kokkos/kokkos-kernels) |
 | License | Apache-2.0 |
-| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0, 5.0.2, 5.1.0, 5.1.1, 5.2.0, 5.2.1 |
+| Versions | 4.0.01, 4.2.01, 4.3.00, 4.3.01, 4.4.00, 4.6.00, 5.0.0, 5.0.2, 5.1.0, 5.1.1, 5.2.0, 5.2.1, 5.3.0 |
 | Architectures | x86_64 |
 | Definition | [kokkos-kernels/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/k/kokkos-kernels/xmake.lua) |
 
@@ -18391,7 +18391,7 @@ add_requires("libmorton")
 | -- | -- |
 | Homepage | [https://www.cabextract.org.uk/libmspack/](https://www.cabextract.org.uk/libmspack/) |
 | License | LGPL-2.0 |
-| Versions | v0.10.1alpha, v1.11 |
+| Versions | v0.10.1alpha, v1.11, v1.12 |
 | Architectures | arm64, x86_64 |
 | Definition | [libmspack/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libmspack/xmake.lua) |
 
@@ -19205,7 +19205,7 @@ add_requires("libraw")
 | -- | -- |
 | Homepage | [https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html](https://docs.confluent.io/platform/current/clients/librdkafka/html/index.html) |
 | License | BSD-2-Clause |
-| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0, v2.14.2, v2.15.1 |
+| Versions | v1.6.2, v1.8.2-POST2, v2.11.0, v2.11.1, v2.12.1, v2.13.0, v2.13.2, v2.14.0, v2.14.2, v2.15.1, v2.16.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [librdkafka/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/librdkafka/xmake.lua) |
 
@@ -21717,7 +21717,7 @@ add_requires("libzen")
 | -- | -- |
 | Homepage | [https://libzip.org/](https://libzip.org/) |
 | License | BSD-3-Clause |
-| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1, v1.11.2, v1.11.3, v1.11.4 |
+| Versions | v1.8.0, v1.9.2, v1.10.1, v1.11.1, v1.11.2, v1.11.3, v1.11.4, v1.12.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [libzip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libzip/xmake.lua) |
 
@@ -22123,7 +22123,7 @@ add_requires("llgl")
 | -- | -- |
 | Homepage | [https://github.com/nodejs/llhttp](https://github.com/nodejs/llhttp) |
 | License | MIT |
-| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0, v9.3.1, v9.4.1, v9.4.2, v9.4.3 |
+| Versions | v3.0.0, v8.1.0, v9.2.1, v9.3.0, v9.3.1, v9.4.1, v9.4.2, v9.4.3, v9.4.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [llhttp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/llhttp/xmake.lua) |
 
@@ -25268,7 +25268,7 @@ add_requires("msgpack-cxx")
 | -- | -- |
 | Homepage | [https://github.com/rwindegger/msgpack23](https://github.com/rwindegger/msgpack23) |
 | License | MIT |
-| Versions | v2.1, v3.1 |
+| Versions | v2.1, v3.1, v3.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [msgpack23/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/msgpack23/xmake.lua) |
 
@@ -27898,7 +27898,7 @@ add_requires("opencv-mobile")
 | -- | -- |
 | Homepage | [https://www.openexr.com/](https://www.openexr.com/) |
 | License | BSD-3-Clause |
-| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10, v3.4.11, v3.4.12, v3.4.13, v3.4.14 |
+| Versions | v2.5.3, v2.5.5, v2.5.7, v3.1.0, v3.1.1, v3.1.3, v3.1.4, v3.1.5, v3.2.1, v3.2.3, v3.2.4, v3.3.0, v3.3.1, v3.3.2, v3.3.3, v3.3.4, v3.3.5, v3.4.0, v3.4.4, v3.4.5, v3.4.6, v3.4.7, v3.4.9, v3.4.10, v3.4.11, v3.4.12, v3.4.13, v3.4.14, v3.5.4 |
 | Architectures | arm64, x86_64 |
 | Definition | [openexr/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/o/openexr/xmake.lua) |
 
@@ -34294,7 +34294,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6, v7.4.0, v7.5.0, v7.7.0, v7.7.1, v8.0.0, v8.2.0 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6, v7.4.0, v7.5.0, v7.7.0, v7.7.1, v8.0.0, v8.2.0, v9.3.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
@@ -36494,7 +36494,7 @@ add_requires("szip")
 | -- | -- |
 | Homepage | [https://ta-lib.org/](https://ta-lib.org/) |
 | License | BSD-3-Clause |
-| Versions | 0.6.2, 0.6.4, 0.7.1 |
+| Versions | 0.6.2, 0.6.4, 0.7.1, 0.8.3 |
 | Architectures | arm64, x86_64 |
 | Definition | [ta-lib/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/ta-lib/xmake.lua) |
 
@@ -36518,7 +36518,7 @@ add_requires("ta-lib")
 | -- | -- |
 | Homepage | [https://github.com/p-ranav/tabulate](https://github.com/p-ranav/tabulate) |
 | License | MIT |
-| Versions | v1.5 |
+| Versions | v1.5, v2.2 |
 | Architectures | arm64, x86_64 |
 | Definition | [tabulate/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/t/tabulate/xmake.lua) |
 
@@ -40268,7 +40268,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5ee403fcb6c0 |
+| License | table: 0x58b006477900 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
@@ -42010,7 +42010,7 @@ add_requires("zlmediakit")
 | -- | -- |
 | Homepage | [https://github.com/HardySimpson/zlog](https://github.com/HardySimpson/zlog) |
 | License | Apache-2.0 |
-| Versions | 1.2.17, 1.2.18, 1.2.19 |
+| Versions | 1.2.17, 1.2.18, 1.2.19, 1.2.20 |
 | Architectures | arm64, x86_64 |
 | Definition | [zlog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/z/zlog/xmake.lua) |
 
