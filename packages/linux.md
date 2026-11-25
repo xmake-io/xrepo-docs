@@ -33175,6 +33175,30 @@ add_requires("pqp")
 ```
 
 
+### praxo-core (linux)
+
+
+| Description | *Embeddable C agent runtime with policy, tools, streaming, and plugin hosts* |
+| -- | -- |
+| Homepage | [https://github.com/axisvela/praxo-core](https://github.com/axisvela/praxo-core) |
+| License | MIT |
+| Versions | 0.13.0 |
+| Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
+| Definition | [praxo-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/praxo-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install praxo-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("praxo-core")
+```
+
+
 ### praxo-core-cpp (linux)
 
 
@@ -43642,7 +43666,7 @@ add_requires("whisper.cpp")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x64b10e79ec40 |
+| License | table: 0x5b56f9f03710 |
 | Versions | 1.13 |
 | Architectures | arm64, armv7, armv7s, i386, loong64, mips, mips64, mips64el, mipsel, ppc, ppc64, ppc64el, riscv64, s390x, sparc64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

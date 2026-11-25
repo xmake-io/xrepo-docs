@@ -21403,6 +21403,30 @@ add_requires("pqp")
 ```
 
 
+### praxo-core (cross)
+
+
+| Description | *Embeddable C agent runtime with policy, tools, streaming, and plugin hosts* |
+| -- | -- |
+| Homepage | [https://github.com/axisvela/praxo-core](https://github.com/axisvela/praxo-core) |
+| License | MIT |
+| Versions | 0.13.0 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [praxo-core/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/praxo-core/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] praxo-core
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("praxo-core")
+```
+
+
 ### praxo-core-cpp (cross)
 
 
