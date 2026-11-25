@@ -21807,6 +21807,30 @@ add_requires("pqp")
 ```
 
 
+### praxo-core-cpp (android)
+
+
+| Description | *C++20 agent runtime with policy, tools, streaming, and plugin hosts* |
+| -- | -- |
+| Homepage | [https://github.com/axisvela/praxo-core](https://github.com/axisvela/praxo-core) |
+| License | MIT |
+| Versions | 0.9.0 |
+| Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
+| Definition | [praxo-core-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/p/praxo-core-cpp/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p android [--ndk=/xxx] praxo-core-cpp
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("praxo-core-cpp")
+```
+
+
 ### premake5 (android)
 
 
