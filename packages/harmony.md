@@ -4767,7 +4767,7 @@ add_requires("ctrl-c")
 | -- | -- |
 | Homepage | [https://github.com/NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) |
 | License | BSD-3-Clause |
-| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9, v13.0, v13.1, v13.2, v13.4 |
+| Versions | v11.8, v12.3, v12.4.1, v12.5, v12.8, v12.9, v13.0, v13.1, v13.2, v13.4, v13.5 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [cuda-samples/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cuda-samples/xmake.lua) |
 
@@ -8601,7 +8601,7 @@ add_requires("happly")
 | -- | -- |
 | Homepage | [https://harfbuzz.github.io/](https://harfbuzz.github.io/) |
 | License | MIT |
-| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1, 11.3.3, 13.1.1, 15.0.0 |
+| Versions | 2.8.1, 2.9.0, 3.0.0, 3.1.1, 4.4.1, 5.3.1, 6.0.0, 7.3.0, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.3.0, 8.4.0, 8.5.0, 9.0.0, 10.0.1, 10.1.0, 10.2.0, 10.3.0, 10.4.0, 11.2.1, 11.3.3, 13.1.1, 15.0.0, 15.2.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [harfbuzz/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/h/harfbuzz/xmake.lua) |
 
@@ -11452,7 +11452,7 @@ add_requires("libjuice")
 | -- | -- |
 | Homepage | [https://jpeg.org/jpegxl](https://jpeg.org/jpegxl) |
 | License | BSD-3-Clause |
-| Versions | v0.11.1, v0.11.2, v0.12.0 |
+| Versions | v0.11.1, v0.11.2, v0.12.0, v0.13.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [libjxl/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/l/libjxl/xmake.lua) |
 
@@ -15679,7 +15679,7 @@ add_requires("miniz")
 | -- | -- |
 | Homepage | [https://www.zlib.net/](https://www.zlib.net/) |
 | License | zlib |
-| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3.1, v1.3.2 |
+| Versions | v1.2.10, v1.2.11, v1.2.12, v1.2.13, v1.3.1, v1.3.2, v1.4 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [minizip/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/m/minizip/xmake.lua) |
 
@@ -21730,7 +21730,7 @@ add_requires("simdjson")
 | -- | -- |
 | Homepage | [https://simdutf.github.io/simdutf/](https://simdutf.github.io/simdutf/) |
 | License | Apache-2.0 |
-| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6, v7.4.0, v7.5.0, v7.7.0, v7.7.1, v8.0.0, v8.2.0, v9.3.3 |
+| Versions | v3.2.17, v4.0.9, v5.2.3, v5.2.4, v5.2.6, v5.2.8, v5.3.0, v5.3.4, v5.3.11, v5.4.15, v5.5.0, v5.6.3, v5.7.1, v5.7.2, v6.2.0, v6.5.0, v7.0.0, v7.2.1, v7.3.2, v7.3.3, v7.3.4, v7.3.6, v7.4.0, v7.5.0, v7.7.0, v7.7.1, v8.0.0, v8.2.0, v9.3.3, v9.5.0 |
 | Architectures | arm64-v8a, armeabi-v7a, x86, x86_64 |
 | Definition | [simdutf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/simdutf/xmake.lua) |
 
