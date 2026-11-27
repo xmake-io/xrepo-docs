@@ -27383,6 +27383,30 @@ add_requires("upa-url")
 ```
 
 
+### ur_client_library (cross)
+
+
+| Description | *A C++ library for accessing the UR interfaces that facilitate the use of UR robotic manipulators by external applications.* |
+| -- | -- |
+| Homepage | [https://github.com/UniversalRobots/Universal_Robots_Client_Library](https://github.com/UniversalRobots/Universal_Robots_Client_Library) |
+| License | Apache-2.0 |
+| Versions | 2.18.0 |
+| Architectures | arm, arm64, armv7, i386, loong64, mips, mips64, mips64el, ppc, ppc64, ppc64el, riscv, riscv64, s390x, sh4, sparc64, x86_64 |
+| Definition | [ur_client_library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ur_client_library/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p cross [--sdk=/xxx] ur_client_library
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ur_client_library")
+```
+
+
 ### urdfdom (cross)
 
 

@@ -1797,6 +1797,30 @@ add_requires("beaengine")
 ```
 
 
+### beman-execution (msys)
+
+
+| Description | *Implementation of the std::execution (P2300, sender/receiver) proposal* |
+| -- | -- |
+| Homepage | [https://github.com/bemanproject/execution](https://github.com/bemanproject/execution) |
+| License | Apache-2.0 WITH LLVM-exception |
+| Versions | 0.3.0 |
+| Architectures | i386, x86_64 |
+| Definition | [beman-execution/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/beman-execution/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install beman-execution
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("beman-execution")
+```
+
+
 ### benchmark (msys)
 
 
@@ -26735,6 +26759,30 @@ xrepo install upa-url
 
 ```lua
 add_requires("upa-url")
+```
+
+
+### ur_client_library (msys)
+
+
+| Description | *A C++ library for accessing the UR interfaces that facilitate the use of UR robotic manipulators by external applications.* |
+| -- | -- |
+| Homepage | [https://github.com/UniversalRobots/Universal_Robots_Client_Library](https://github.com/UniversalRobots/Universal_Robots_Client_Library) |
+| License | Apache-2.0 |
+| Versions | 2.18.0 |
+| Architectures | i386, x86_64 |
+| Definition | [ur_client_library/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/u/ur_client_library/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install ur_client_library
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("ur_client_library")
 ```
 
 

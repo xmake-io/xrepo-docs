@@ -1967,6 +1967,30 @@ add_requires("beaengine")
 ```
 
 
+### beman-execution (mingw)
+
+
+| Description | *Implementation of the std::execution (P2300, sender/receiver) proposal* |
+| -- | -- |
+| Homepage | [https://github.com/bemanproject/execution](https://github.com/bemanproject/execution) |
+| License | Apache-2.0 WITH LLVM-exception |
+| Versions | 0.3.0 |
+| Architectures | arm, arm64, i386, x86_64 |
+| Definition | [beman-execution/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/beman-execution/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install -p mingw [--mingw=/xxx] beman-execution
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("beman-execution")
+```
+
+
 ### benchmark (mingw)
 
 
