@@ -25928,7 +25928,7 @@ add_requires("stringzilla")
 | -- | -- |
 | Homepage | [https://github.com/rollbear/strong_type](https://github.com/rollbear/strong_type) |
 | License | BSL-1.0 |
-| Versions | v15 |
+| Versions | v15, v16 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [strong_type/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strong_type/xmake.lua) |
 

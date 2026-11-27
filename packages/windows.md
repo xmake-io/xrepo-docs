@@ -34149,7 +34149,7 @@ add_requires("soplex")
 | -- | -- |
 | Homepage | [https://github.com/xDimon/soralog](https://github.com/xDimon/soralog) |
 | License | Apache-2.0 |
-| Versions | v0.4.0 |
+| Versions | v0.4.0, v0.4.1 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [soralog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soralog/xmake.lua) |
 
@@ -35249,7 +35249,7 @@ add_requires("stringzilla")
 | -- | -- |
 | Homepage | [https://github.com/rollbear/strong_type](https://github.com/rollbear/strong_type) |
 | License | BSL-1.0 |
-| Versions | v15 |
+| Versions | v15, v16 |
 | Architectures | arm, arm64, arm64ec, x64, x86 |
 | Definition | [strong_type/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strong_type/xmake.lua) |
 

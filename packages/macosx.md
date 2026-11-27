@@ -1928,7 +1928,7 @@ add_requires("aws-lc")
 | -- | -- |
 | Homepage | [https://github.com/aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) |
 | License | Apache-2.0 |
-| Versions | 1.11.802, 1.11.808, 1.11.813, 1.11.817, 1.11.828, 1.11.829, 1.11.835, 1.11.850, 1.11.916, 1.11.921 |
+| Versions | 1.11.802, 1.11.808, 1.11.813, 1.11.817, 1.11.828, 1.11.829, 1.11.835, 1.11.850, 1.11.916, 1.11.921, 1.11.938 |
 | Architectures | arm64 |
 | Definition | [aws-sdk-cpp/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/a/aws-sdk-cpp/xmake.lua) |
 
@@ -34962,7 +34962,7 @@ add_requires("soplex")
 | -- | -- |
 | Homepage | [https://github.com/xDimon/soralog](https://github.com/xDimon/soralog) |
 | License | Apache-2.0 |
-| Versions | v0.4.0 |
+| Versions | v0.4.0, v0.4.1 |
 | Architectures | arm64, x86_64 |
 | Definition | [soralog/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/soralog/xmake.lua) |
 
@@ -36135,7 +36135,7 @@ add_requires("stringzilla")
 | -- | -- |
 | Homepage | [https://github.com/rollbear/strong_type](https://github.com/rollbear/strong_type) |
 | License | BSL-1.0 |
-| Versions | v15 |
+| Versions | v15, v16 |
 | Architectures | arm64, x86_64 |
 | Definition | [strong_type/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/strong_type/xmake.lua) |
 
@@ -40316,7 +40316,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x64a6949259e0 |
+| License | table: 0x61dec2813220 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |
