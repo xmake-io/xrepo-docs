@@ -1869,6 +1869,30 @@ add_requires("beman-transform-view")
 ```
 
 
+### beman-utf-view (msys)
+
+
+| Description | *UTF transcoding views (P2728): to_utf8, to_utf16, to_utf32, null_term and the charN_t casts* |
+| -- | -- |
+| Homepage | [https://github.com/bemanproject/utf_view](https://github.com/bemanproject/utf_view) |
+| License | BSL-1.0 |
+| Versions | 0.3.0 |
+| Architectures | i386, x86_64 |
+| Definition | [beman-utf-view/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/beman-utf-view/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install beman-utf-view
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("beman-utf-view")
+```
+
+
 ### benchmark (msys)
 
 
@@ -2521,7 +2545,7 @@ add_requires("botan")
 | -- | -- |
 | Homepage | [https://box2d.org](https://box2d.org) |
 | License | MIT |
-| Versions | v2.4.2, v3.0.0, v3.1.0, v3.1.1 |
+| Versions | v2.4.2, v3.0.0, v3.1.0, v3.1.1, v3.2.0 |
 | Architectures | i386, x86_64 |
 | Definition | [box2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box2d/xmake.lua) |
 
@@ -8148,7 +8172,7 @@ add_requires("geo-utils-cpp")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
 | License | BSL-1.0 |
-| Versions | v1.3.5, v1.4.1 |
+| Versions | v1.3.5, v1.4.1, v1.5.0 |
 | Architectures | i386, x86_64 |
 | Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
 
@@ -8172,7 +8196,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/TulipHook](https://github.com/geode-sdk/TulipHook) |
 | License | BSL-1.0 |
-| Versions | v3.1.7, v3.1.9, v3.1.12, v3.1.13, v3.1.14 |
+| Versions | v3.1.7, v3.1.9, v3.1.12, v3.1.13, v3.1.14, v3.1.16 |
 | Architectures | i386, x86_64 |
 | Definition | [geode-sdk-tuliphook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-tuliphook/xmake.lua) |
 
@@ -24877,7 +24901,7 @@ add_requires("swig")
 | -- | -- |
 | Homepage | [https://www.astro.com/swisseph/swephinfo_e.htm](https://www.astro.com/swisseph/swephinfo_e.htm) |
 | License | AGPL-3.0 |
-| Versions | v2.10.03 |
+| Versions | v2.10.03, v2.10.04 |
 | Architectures | i386, x86_64 |
 | Definition | [swisseph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swisseph/xmake.lua) |
 

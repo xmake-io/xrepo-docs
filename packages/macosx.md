@@ -3242,7 +3242,7 @@ add_requires("botan")
 | -- | -- |
 | Homepage | [https://box2d.org](https://box2d.org) |
 | License | MIT |
-| Versions | v2.4.2, v3.0.0, v3.1.0, v3.1.1 |
+| Versions | v2.4.2, v3.0.0, v3.1.0, v3.1.1, v3.2.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [box2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box2d/xmake.lua) |
 
@@ -6787,6 +6787,30 @@ xrepo install cuda-samples
 
 ```lua
 add_requires("cuda-samples")
+```
+
+
+### cui (macosx)
+
+
+| Description | *Native UI components for C, with spring motion and full keyboard support* |
+| -- | -- |
+| Homepage | [https://github.com/yappologistic/CUI](https://github.com/yappologistic/CUI) |
+| License | MIT |
+| Versions | v1.5.0 |
+| Architectures | arm64, x86_64 |
+| Definition | [cui/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/c/cui/xmake.lua) |
+
+##### Install command
+
+```console
+xrepo install cui
+```
+
+##### Integration in the project (xmake.lua)
+
+```lua
+add_requires("cui")
 ```
 
 
@@ -11228,7 +11252,7 @@ add_requires("geo-utils-cpp")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
 | License | BSL-1.0 |
-| Versions | v1.3.5, v1.4.1 |
+| Versions | v1.3.5, v1.4.1, v1.5.0 |
 | Architectures | arm64, x86_64 |
 | Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
 
@@ -11252,7 +11276,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/TulipHook](https://github.com/geode-sdk/TulipHook) |
 | License | BSL-1.0 |
-| Versions | v3.1.7, v3.1.9, v3.1.12, v3.1.13, v3.1.14 |
+| Versions | v3.1.7, v3.1.9, v3.1.12, v3.1.13, v3.1.14, v3.1.16 |
 | Architectures | arm64, x86_64 |
 | Definition | [geode-sdk-tuliphook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-tuliphook/xmake.lua) |
 
@@ -36469,7 +36493,7 @@ add_requires("swig")
 | -- | -- |
 | Homepage | [https://www.astro.com/swisseph/swephinfo_e.htm](https://www.astro.com/swisseph/swephinfo_e.htm) |
 | License | AGPL-3.0 |
-| Versions | v2.10.03 |
+| Versions | v2.10.03, v2.10.04 |
 | Architectures | arm64, x86_64 |
 | Definition | [swisseph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swisseph/xmake.lua) |
 
@@ -40388,7 +40412,7 @@ add_requires("which")
 | Description | *WIGXJPF evaluates Wigner 3j, 6j and 9j symbols accurately using prime factorisation and multi-word integer arithmetic.* |
 | -- | -- |
 | Homepage | [https://fy.chalmers.se/subatom/wigxjpf/](https://fy.chalmers.se/subatom/wigxjpf/) |
-| License | table: 0x5f4efd55cc60 |
+| License | table: 0x61e3a4036570 |
 | Versions | 1.13 |
 | Architectures | arm64, x86_64 |
 | Definition | [wigxjpf/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/w/wigxjpf/xmake.lua) |

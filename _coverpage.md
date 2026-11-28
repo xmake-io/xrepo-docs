@@ -6,7 +6,7 @@
 
 - *Simple, lightweight, cross-platform*
 - *Modern C/C++ package manager, support distributed repositories*
-- **Recently added: beman-inplace-vector, beman-transform-view, ur_client_library**
+- **Recently added: cui, beman-utf-view, beman-inplace-vector**
 
 [Gitee](https://gitee.com/tboox/xrepo/)
 [Github](https://github.com/xmake-io/xrepo/)

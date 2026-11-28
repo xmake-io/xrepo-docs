@@ -8150,7 +8150,7 @@ add_requires("geo-utils-cpp")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
 | License | BSL-1.0 |
-| Versions | v1.3.5, v1.4.1 |
+| Versions | v1.3.5, v1.4.1, v1.5.0 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
 
@@ -26133,7 +26133,7 @@ add_requires("swig")
 | -- | -- |
 | Homepage | [https://www.astro.com/swisseph/swephinfo_e.htm](https://www.astro.com/swisseph/swephinfo_e.htm) |
 | License | AGPL-3.0 |
-| Versions | v2.10.03 |
+| Versions | v2.10.03, v2.10.04 |
 | Architectures | arm, arm64, i386, ppc, ppc64, ppc64el, riscv64, sparc64, x86_64 |
 | Definition | [swisseph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swisseph/xmake.lua) |
 

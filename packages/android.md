@@ -2617,7 +2617,7 @@ add_requires("boringssl")
 | -- | -- |
 | Homepage | [https://box2d.org](https://box2d.org) |
 | License | MIT |
-| Versions | v2.4.2, v3.0.0, v3.1.0, v3.1.1 |
+| Versions | v2.4.2, v3.0.0, v3.1.0, v3.1.1, v3.2.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [box2d/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/b/box2d/xmake.lua) |
 
@@ -8243,7 +8243,7 @@ add_requires("geo-utils-cpp")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/result](https://github.com/geode-sdk/result) |
 | License | BSL-1.0 |
-| Versions | v1.3.5, v1.4.1 |
+| Versions | v1.3.5, v1.4.1, v1.5.0 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [geode-sdk-result/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-result/xmake.lua) |
 
@@ -8267,7 +8267,7 @@ add_requires("geode-sdk-result")
 | -- | -- |
 | Homepage | [https://github.com/geode-sdk/TulipHook](https://github.com/geode-sdk/TulipHook) |
 | License | BSL-1.0 |
-| Versions | v3.1.7, v3.1.9, v3.1.12, v3.1.13, v3.1.14 |
+| Versions | v3.1.7, v3.1.9, v3.1.12, v3.1.13, v3.1.14, v3.1.16 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [geode-sdk-tuliphook/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/g/geode-sdk-tuliphook/xmake.lua) |
 
@@ -26120,7 +26120,7 @@ add_requires("swig")
 | -- | -- |
 | Homepage | [https://www.astro.com/swisseph/swephinfo_e.htm](https://www.astro.com/swisseph/swephinfo_e.htm) |
 | License | AGPL-3.0 |
-| Versions | v2.10.03 |
+| Versions | v2.10.03, v2.10.04 |
 | Architectures | arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64 |
 | Definition | [swisseph/xmake.lua](https://github.com/xmake-io/xmake-repo/blob/master/packages/s/swisseph/xmake.lua) |
 
