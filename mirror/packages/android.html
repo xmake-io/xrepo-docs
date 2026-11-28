@@ -2148,7 +2148,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0, v1.0.2, v1.0.3</td>
+<td>v0.9.13, v0.9.14, v0.9.15, v0.9.17, v0.9.19, v0.9.23, v0.9.24, v0.9.25, v0.9.27, v0.9.28, v0.10.0, v0.10.3, v0.10.6, v0.11.1, v0.11.3, v0.12.0, v0.12.2, v0.12.3, v0.12.4, v0.12.5, v0.12.6, v0.13.0, v0.13.1, v0.14.0, v0.14.1, v0.14.2, v0.14.5, v1.0.0, v1.0.2, v1.0.3, v1.0.6</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -2222,7 +2222,7 @@
 </tr>
 <tr>
 <td>Versions</td>
-<td>v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0, v0.11.1, v1.0.0, v1.1.0, v1.1.1</td>
+<td>v0.8.1, v0.8.2, v0.8.7, v0.8.10, v0.9.0, v0.9.2, v0.9.3, v0.9.4, v0.9.5, v0.10.0, v0.10.1, v0.10.6, v0.10.7, v0.10.9, v0.10.10, v0.10.11, v0.10.13, v0.10.14, v0.10.15, v0.11.0, v0.11.1, v1.0.0, v1.1.0, v1.1.1, v1.3.1</td>
 </tr>
 <tr>
 <td>Architectures</td>
@@ -2997,6 +2997,43 @@
 </code></pre>
 <h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
 <pre><code class="lang-lua">add_requires("beaengine")
+</code></pre>
+<h3 id="bemaninplacevectorandroid">beman-inplace-vector (android)</h3>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th><em>A dynamically-resizable vector with fixed capacity and embedded storage (P0843)</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td><a href="https://github.com/bemanproject/inplace_vector">https://github.com/bemanproject/inplace_vector</a></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache-2.0 WITH LLVM-exception</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>0.1.0</td>
+</tr>
+<tr>
+<td>Architectures</td>
+<td>arm64-v8a, armeabi, armeabi-v7a, mip64, mips, riscv64, x86, x86_64</td>
+</tr>
+<tr>
+<td>Definition</td>
+<td><a href="https://github.com/xmake-io/xmake-repo/blob/master/packages/b/beman-inplace-vector/xmake.lua">beman-inplace-vector/xmake.lua</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="installcommand">Install command</h5>
+<pre><code class="lang-console">xrepo install -p android [--ndk=/xxx] beman-inplace-vector
+</code></pre>
+<h5 id="integrationintheprojectxmakelua">Integration in the project (xmake.lua)</h5>
+<pre><code class="lang-lua">add_requires("beman-inplace-vector")
 </code></pre>
 <h3 id="benchmarkandroid">benchmark (android)</h3>
 <table>
